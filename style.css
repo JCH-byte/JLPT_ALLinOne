@@ -213,12 +213,21 @@ body.viewer-mode {
 /* --- Sections --- */
 .study-section { margin-bottom: 60px; }
 
+/* [New] Story Header for Title + Button */
+.story-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--primary);
+    padding-left: 15px;
+}
+
 .section-title {
     font-size: 1.4rem;
     color: var(--primary-dark);
-    border-left: 5px solid var(--primary);
-    padding-left: 15px;
-    margin-bottom: 25px;
+    /* border-left moved to .story-header for better layout */
+    margin-bottom: 0;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -278,6 +287,8 @@ body.viewer-mode {
 .section-header {
     display: flex; justify-content: space-between; align-items: center;
     margin-bottom: 20px;
+    border-left: 5px solid var(--primary);
+    padding-left: 15px;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -302,6 +313,19 @@ body.viewer-mode {
     transition: 0.2s;
 }
 .tool-btn.active { background: #555; color: white; }
+
+/* TTS Button Playing State */
+.tool-btn.playing {
+    background-color: #ff5252;
+    color: white;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
 
 table { width: 100%; border-collapse: separate; border-spacing: 0; }
 th {
@@ -427,7 +451,7 @@ tr:hover td { background-color: #fafafa; }
     .nav-buttons { flex-direction: column; gap: 15px; }
     .nav-btn { width: 100%; justify-content: center; }
     .nav-btn.list { order: -1; width: 100%; }
-    .section-header { flex-direction: column; align-items: flex-start; }
+    .section-header, .story-header { flex-direction: column; align-items: flex-start; }
     .view-controls { margin-top: 10px; width: 100%; display: flex; }
     .view-controls .control-btn { flex: 1; text-align: center; margin: 0 2px; }
 }
