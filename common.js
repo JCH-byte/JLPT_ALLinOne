@@ -1,40 +1,214 @@
 /**
  * JLPT Scalable System Logic
- * 기능: 동적 스크립트 로딩, 데이터 병합, 뷰어 제어
- * Updated: 섹션 표시 로직 수정 (display:none 해제)
+ * 기능: 동적 스크립트 로딩, 데이터 병합, 뷰어 제어, 고급 TTS(설정 포함)
+ * Updated: Microsoft 음성 우선 순위 적용, 속도 조절 및 설정 UI 추가
  */
 
-// URL 파라미터 유틸
+// ----------------------------------------------------
+// Advanced TTS (Text-to-Speech) Logic
+// ----------------------------------------------------
+let ttsSynth = window.speechSynthesis;
+let jpVoice = null;
+
+// 사용자 설정 로드 (기본값: 속도 0.9)
+let ttsPreferences = {
+    voiceURI: localStorage.getItem('jlpt_tts_voice') || null,
+    rate: parseFloat(localStorage.getItem('jlpt_tts_rate') || '0.9')
+};
+
+function initTTS() {
+    // 음성 목록이 로드될 때까지 기다림
+    const checkVoices = () => {
+        const voices = ttsSynth.getVoices();
+        if (voices.length > 0) {
+            setBestVoice(voices);
+        }
+    };
+
+    if (ttsSynth.onvoiceschanged !== undefined) {
+        ttsSynth.onvoiceschanged = checkVoices;
+    }
+    checkVoices(); // 즉시 실행 시도
+}
+
+function setBestVoice(voices) {
+    const jaVoices = voices.filter(v => v.lang.startsWith('ja'));
+    
+    // 1. 사용자가 저장한 목소리가 있으면 그걸 우선 사용
+    if (ttsPreferences.voiceURI) {
+        const savedVoice = jaVoices.find(v => v.voiceURI === ttsPreferences.voiceURI);
+        if (savedVoice) {
+            jpVoice = savedVoice;
+            return;
+        }
+    }
+
+    // 2. 저장된 게 없으면 우선순위 로직 (Microsoft > Google > Apple > 기타)
+    // Microsoft 음성이 품질이 좋은 경우가 많으므로 최우선 검색
+    jpVoice = jaVoices.find(v => v.name.includes('Microsoft')) || 
+              jaVoices.find(v => v.name.includes('Google')) ||
+              jaVoices.find(v => v.name.includes('Otoya') || v.name.includes('Kyoko')) || // macOS
+              jaVoices.find(v => v.lang === 'ja-JP');
+}
+
+function playTTS(text) {
+    if (!ttsSynth) return;
+    ttsSynth.cancel(); // 이전 음성 중지
+
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'ja-JP';
+    
+    // 설정된 목소리 적용
+    if (jpVoice) utter.voice = jpVoice;
+    
+    // 설정된 속도 적용
+    utter.rate = ttsPreferences.rate; 
+    
+    ttsSynth.speak(utter);
+}
+
+// ----------------------------------------------------
+// TTS Settings UI (설정 모달)
+// ----------------------------------------------------
+function openTTSSettings() {
+    // 이미 모달이 있으면 제거
+    const oldModal = document.getElementById('tts-settings-modal');
+    if (oldModal) oldModal.remove();
+
+    const voices = ttsSynth.getVoices().filter(v => v.lang.startsWith('ja'));
+    
+    // 모달 HTML 생성
+    const modal = document.createElement('div');
+    modal.id = 'tts-settings-modal';
+    modal.style.cssText = `
+        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0,0,0,0.5); z-index: 1000;
+        display: flex; justify-content: center; align-items: center;
+    `;
+
+    const content = document.createElement('div');
+    content.style.cssText = `
+        background: white; padding: 25px; border-radius: 12px;
+        width: 90%; max-width: 400px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        font-family: 'Pretendard', sans-serif;
+    `;
+
+    // 목소리 옵션 생성
+    let voiceOptions = voices.map(v => 
+        `<option value="${v.voiceURI}" ${jpVoice && jpVoice.voiceURI === v.voiceURI ? 'selected' : ''}>
+            ${v.name} (${v.lang})
+        </option>`
+    ).join('');
+
+    if (voices.length === 0) {
+        voiceOptions = `<option disabled>일본어 음성을 찾을 수 없습니다.</option>`;
+    }
+
+    content.innerHTML = `
+        <h3 style="margin-top:0;">🔊 음성 설정</h3>
+        
+        <label style="display:block; margin-bottom:5px; font-weight:bold;">목소리 선택</label>
+        <select id="tts-voice-select" style="width:100%; padding:8px; margin-bottom:15px; border:1px solid #ddd; border-radius:4px;">
+            ${voiceOptions}
+        </select>
+
+        <label style="display:block; margin-bottom:5px; font-weight:bold;">말하기 속도: <span id="rate-value">${ttsPreferences.rate}</span>x</label>
+        <input type="range" id="tts-rate-range" min="0.5" max="2.0" step="0.1" value="${ttsPreferences.rate}" style="width:100%; margin-bottom:20px;">
+
+        <div style="display:flex; gap:10px;">
+            <button id="btn-test-tts" style="flex:1; padding:10px; background:#e0e0e0; border:none; border-radius:6px; cursor:pointer;">미리듣기 🔈</button>
+            <button id="btn-save-tts" style="flex:1; padding:10px; background:#4CAF50; color:white; border:none; border-radius:6px; cursor:pointer; font-weight:bold;">저장</button>
+        </div>
+        <button id="btn-close-tts" style="margin-top:10px; background:none; border:none; color:#666; text-decoration:underline; cursor:pointer; width:100%;">닫기</button>
+    `;
+
+    modal.appendChild(content);
+    document.body.appendChild(modal);
+
+    // 이벤트 리스너 연결
+    const select = document.getElementById('tts-voice-select');
+    const range = document.getElementById('tts-rate-range');
+    const rateVal = document.getElementById('rate-value');
+
+    range.addEventListener('input', (e) => {
+        rateVal.textContent = e.target.value;
+    });
+
+    // 미리듣기
+    document.getElementById('btn-test-tts').onclick = () => {
+        const selectedURI = select.value;
+        const selectedRate = parseFloat(range.value);
+        
+        const testVoice = voices.find(v => v.voiceURI === selectedURI);
+        
+        ttsSynth.cancel();
+        const utter = new SpeechSynthesisUtterance("こんにちは。日本語のテストです。"); // 안녕하세요. 일본어 테스트입니다.
+        utter.lang = 'ja-JP';
+        if (testVoice) utter.voice = testVoice;
+        utter.rate = selectedRate;
+        ttsSynth.speak(utter);
+    };
+
+    // 저장
+    document.getElementById('btn-save-tts').onclick = () => {
+        ttsPreferences.voiceURI = select.value;
+        ttsPreferences.rate = parseFloat(range.value);
+        
+        // 로컬 스토리지에 저장
+        localStorage.setItem('jlpt_tts_voice', ttsPreferences.voiceURI);
+        localStorage.setItem('jlpt_tts_rate', ttsPreferences.rate);
+
+        // 현재 설정에 즉시 반영
+        const savedVoice = voices.find(v => v.voiceURI === ttsPreferences.voiceURI);
+        if (savedVoice) jpVoice = savedVoice;
+
+        modal.remove();
+        alert('설정이 저장되었습니다.');
+    };
+
+    document.getElementById('btn-close-tts').onclick = () => modal.remove();
+}
+
+// TTS 버튼 CSS 주입
+const ttsStyle = document.createElement('style');
+ttsStyle.innerHTML = `
+    .btn-tts { background:none; border:none; cursor:pointer; font-size:1.2rem; margin-right:5px; vertical-align:middle; transition: transform 0.2s; }
+    .btn-tts:active { transform: scale(0.9); }
+    .btn-tts-sm { background:none; border:none; cursor:pointer; font-size:1rem; margin-left:5px; color:#666; }
+    .btn-tts-float { position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.8); border-radius:50%; width:30px; height:30px; border:1px solid #ddd; cursor:pointer; z-index:10; }
+    .analysis-sent-row { display:flex; align-items:baseline; }
+    .btn-settings { background:none; border:none; font-size:1.2rem; cursor:pointer; margin-left:10px; color:#555; }
+    .btn-settings:hover { color:#333; }
+`;
+document.head.appendChild(ttsStyle);
+
+
+// ----------------------------------------------------
+// Core Logic
+// ----------------------------------------------------
+
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
 }
 
-/**
- * [핵심] 레벨별 데이터 파일 동적 로드 함수 (재시도 + 디버깅 정보)
- */
 function loadLevelData(level, callback) {
-    const upperLevel = level.toUpperCase(); // 'N4'
-    const varName = `${upperLevel}_DATA`;   // 'N4_DATA'
+    const upperLevel = level.toUpperCase(); 
+    const varName = `${upperLevel}_DATA`; 
 
-    // 이미 메모리에 로드되어 있으면 즉시 반환
     if (window[varName]) {
         callback(window[varName]);
         return;
     }
 
-    // 1차 시도: 소문자 파일명 (data/n5_data.js)
     const scriptPath = `data/${level}_data.js`;
     const script = document.createElement('script');
     script.src = scriptPath; 
     
     script.onload = () => {
-        // 로드 성공 후 변수 확인
         if (window[varName]) {
             callback(window[varName]);
         } else {
-            // 파일은 불러왔는데 window[varName]이 없는 경우 (주로 const 선언 때문)
-            // 비상 대책: eval로 전역 변수 접근 시도 (const 호환)
             try {
                 const data = eval(varName);
                 if (data) {
@@ -42,44 +216,28 @@ function loadLevelData(level, callback) {
                     return;
                 }
             } catch(e) {}
-
-            console.warn(`[Warning] ${scriptPath} 로드됨, 그러나 ${varName} 변수를 찾을 수 없음. (const 대신 var 사용 권장)`);
+            console.warn(`[Warning] 변수 찾기 실패`);
             callback({}); 
         }
     };
 
     script.onerror = () => {
-        // 1차 실패 시 대문자 파일명 시도 (N5_data.js)
-        console.warn(`[Retry] ${scriptPath} 실패. 대문자 파일명 시도...`);
-        
+        // Retry logic
         const scriptUpper = document.createElement('script');
-        const scriptUpperPath = `data/${level.toUpperCase()}_data.js`;
-        scriptUpper.src = scriptUpperPath;
-
+        scriptUpper.src = `data/${level.toUpperCase()}_data.js`;
         scriptUpper.onload = () => {
             if (window[varName]) callback(window[varName]);
             else callback({});
         };
-
-        scriptUpper.onerror = () => {
-            // 최종 실패 시 에러 메시지를 위해 null 반환
-            console.error(`[Error] 파일 로드 최종 실패.`);
-            // 화면에 경로를 보여주기 위해 에러 객체에 경로 포함
-            callback(null, scriptPath); 
-        };
-
+        scriptUpper.onerror = () => callback(null, scriptPath);
         document.head.appendChild(scriptUpper);
     };
 
     document.head.appendChild(script);
 }
 
-/**
- * 데이터 병합 (파일 데이터 + 로컬 스토리지 프리뷰)
- */
 function getMergedData(level, fileData) {
     if (!fileData) fileData = {};
-
     const DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
     let previewData = {};
     try {
@@ -93,13 +251,11 @@ function getMergedData(level, fileData) {
                 }
             });
         }
-    } catch (e) { console.error(e); }
-
+    } catch (e) { }
     const merged = { ...fileData };
     Object.keys(previewData).forEach(day => {
         merged[day] = { ...merged[day] || {}, ...previewData[day] };
     });
-
     return merged;
 }
 
@@ -107,6 +263,8 @@ function getMergedData(level, fileData) {
 // Viewer Logic 
 // ----------------------------------------------------
 function initViewer() {
+    initTTS(); // TTS 초기화 확인
+
     const level = getQueryParam('level') || 'n4';
     const day = getQueryParam('day');
 
@@ -115,19 +273,8 @@ function initViewer() {
     loadLevelData(level, (fileData, errorPath) => {
         const container = document.body;
         
-        // 파일 로드 완전 실패 (404)
         if (fileData === null) {
-            container.innerHTML = `
-                <div style="padding:40px; text-align:center; line-height:1.8;">
-                    <h3 style="color:#e53935;">⚠️ 데이터 파일을 찾을 수 없습니다.</h3>
-                    <p>시스템이 다음 경로에서 파일을 찾으려 했습니다:</p>
-                    <code style="background:#eee; padding:5px; border-radius:4px; display:block; margin:10px 0;">${errorPath}</code>
-                    <ul style="text-align:left; display:inline-block; font-size:0.9rem; color:#555;">
-                        <li>1. <b>data</b> 폴더가 있는지 확인하세요.</li>
-                        <li>2. 파일명이 <b>${level}_data.js</b>인지 확인하세요.</li>
-                        <li>3. 윈도우에서 <b>.js.js</b>로 저장되지 않았는지 확인하세요.</li>
-                    </ul>
-                </div>`;
+            container.innerHTML = `<div style="padding:40px; text-align:center;"><h3>데이터 로드 실패</h3><p>${errorPath}</p></div>`;
             return;
         }
 
@@ -135,9 +282,7 @@ function initViewer() {
         const data = allData[day];
 
         if (!day || !data) {
-            container.innerHTML = `<div style="padding:40px; text-align:center;">
-                <h3>학습 자료 준비 중</h3><p>Day ${day} 데이터를 생성해주세요.</p>
-            </div>`;
+            container.innerHTML = `<div style="padding:40px; text-align:center;"><h3>준비 중</h3></div>`;
             return;
         }
 
@@ -147,28 +292,34 @@ function initViewer() {
 
 function renderViewerContent(level, day, data) {
     document.title = `[${level.toUpperCase()}] Day ${day}`;
-    document.getElementById('header-title').textContent = data.title || `Day ${day} 학습`;
+    
+    // 헤더 타이틀 + 설정 버튼 추가
+    const headerTitle = document.getElementById('header-title');
+    headerTitle.innerHTML = `
+        ${data.title || `Day ${day} 학습`}
+        <button class="btn-settings" onclick="openTTSSettings()" title="음성 설정">⚙️</button>
+    `;
 
-    // ------------------------------------------------
-    // 1. Story & Analysis Section 처리
-    // ------------------------------------------------
+    // 1. Story
     const sectionStory = document.getElementById('section-story');
     const storyBox = document.getElementById('story-content');
     const analysisList = document.getElementById('analysis-list');
 
     if (data.story) {
-        // 데이터가 있으면 섹션을 표시
         sectionStory.style.display = 'block';
         storyBox.innerHTML = data.story;
 
-        // Analysis Rendering
         analysisList.innerHTML = ''; 
         if (data.analysis) {
             data.analysis.forEach(item => {
+                const safeSent = item.sent.replace(/'/g, "\\'");
                 const div = document.createElement('div');
                 div.className = 'analysis-item';
                 div.innerHTML = `
-                    <span class="jp-sent">${item.sent}</span>
+                    <div class="analysis-sent-row">
+                        <button class="btn-tts" onclick="playTTS('${safeSent}')">🔊</button>
+                        <span class="jp-sent">${item.sent}</span>
+                    </div>
                     <span class="kr-trans">${item.trans}</span>
                     <div style="margin-top:5px;">
                         ${(item.tags || []).map(t => `<span class="vocab-tag">${t}</span>`).join('')}
@@ -179,13 +330,10 @@ function renderViewerContent(level, day, data) {
             });
         }
     } else {
-        // 데이터가 없으면 섹션 숨김 유지
         sectionStory.style.display = 'none';
     }
 
-    // ------------------------------------------------
-    // 2. Vocabulary Section 처리 (항상 표시)
-    // ------------------------------------------------
+    // 2. Vocabulary
     const vocabTbody = document.getElementById('vocab-tbody');
     vocabTbody.innerHTML = ''; 
     
@@ -197,10 +345,14 @@ function renderViewerContent(level, day, data) {
 
             const reading = v.read || v.reading || ""; 
             const meaning = v.mean || v.meaning || "";
+            const safeWord = v.word.replace(/'/g, "\\'");
 
             tr.innerHTML = `
                 <td style="text-align:center;"><input type="checkbox" id="${checkId}" ${isChecked ? 'checked' : ''}></td>
-                <td style="font-weight:bold;">${v.word}</td>
+                <td style="font-weight:bold;">
+                    ${v.word}
+                    <button class="btn-tts-sm" onclick="playTTS('${safeWord}')">🔊</button>
+                </td>
                 <td>${reading}</td>
                 <td class="col-mean"><span>${meaning}</span></td>
             `;
@@ -215,49 +367,38 @@ function renderViewerContent(level, day, data) {
                     tr.classList.remove('checked-row');
                 }
             });
-            
-            // 초기 상태 반영
             if(isChecked) tr.classList.add('checked-row');
         });
     } else {
-        vocabTbody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:20px;">단어 데이터가 없습니다.</td></tr>';
+        vocabTbody.innerHTML = '<tr><td colspan="4">단어 없음</td></tr>';
     }
 
-    // Flashcard Setup (첫 번째 카드)
+    // Flashcard
     if (data.vocab && data.vocab.length > 0) {
         window.currentVocabData = data.vocab;
         window.currentCardIndex = 0;
         updateFlashcard();
     }
 
-    // ------------------------------------------------
-    // 3. Quiz Section 처리
-    // ------------------------------------------------
+    // 3. Quiz
     const sectionQuiz = document.getElementById('section-quiz');
     const quizContainer = document.getElementById('quiz-container');
     quizContainer.innerHTML = ''; 
 
     if (data.quiz && data.quiz.length > 0) {
-        // 데이터가 있으면 섹션 표시
         sectionQuiz.style.display = 'block';
-
         data.quiz.forEach((q, i) => {
             const div = document.createElement('div');
             div.className = 'quiz-item';
             
             const questionText = q.q || q.question || "";
             const options = q.opt || q.options || [];
-            let answerIndex = q.ans; // 0-based index
-            if (answerIndex === undefined) answerIndex = q.answer;
-            const comment = q.comment || "";
-
-            // 객관식 버튼 생성
+            let answerIndex = q.ans !== undefined ? q.ans : q.answer;
+            
             let optionsHtml = '<div class="quiz-options-grid">';
-            if (Array.isArray(options)) {
-                options.forEach((optText, idx) => {
-                    optionsHtml += `<button class="quiz-opt-btn" onclick="checkQuizAnswer(this, ${idx}, ${answerIndex})">${idx+1}. ${optText}</button>`;
-                });
-            }
+            options.forEach((optText, idx) => {
+                optionsHtml += `<button class="quiz-opt-btn" onclick="checkQuizAnswer(this, ${idx}, ${answerIndex})">${idx+1}. ${optText}</button>`;
+            });
             optionsHtml += '</div>';
 
             div.innerHTML = `
@@ -265,19 +406,16 @@ function renderViewerContent(level, day, data) {
                 ${optionsHtml}
                 <div class="quiz-feedback">
                     <strong>정답: ${options[answerIndex]}</strong>
-                    ${comment}
+                    ${q.comment || ""}
                 </div>
             `;
             quizContainer.appendChild(div);
         });
     } else {
-        // 데이터가 없으면 섹션 숨김 유지
         sectionQuiz.style.display = 'none';
     }
     
-    // ------------------------------------------------
-    // Navigation 처리
-    // ------------------------------------------------
+    // Navigation
     const currentDay = parseInt(day);
     const prevBtn = document.getElementById('btn-prev');
     const nextBtn = document.getElementById('btn-next');
@@ -288,17 +426,13 @@ function renderViewerContent(level, day, data) {
     } else {
         prevBtn.classList.add('disabled');
     }
-    // 다음 Day가 존재하는지 체크하는 로직은 생략(무조건 활성)하거나, 전체 데이터 길이를 알아야 함.
-    // 여기서는 일단 활성화
     nextBtn.href = `viewer.html?level=${level}&day=${currentDay+1}`;
     nextBtn.classList.remove('disabled');
 }
 
-// --- Vocabulary View Controls ---
 function toggleViewMode(mode) {
     document.getElementById('view-list').style.display = mode === 'list' ? 'block' : 'none';
     document.getElementById('view-card').style.display = mode === 'card' ? 'block' : 'none';
-    
     document.getElementById('btn-mode-list').classList.toggle('active', mode === 'list');
     document.getElementById('btn-mode-card').classList.toggle('active', mode === 'card');
 }
@@ -310,30 +444,24 @@ function toggleMeanings() {
     btn.textContent = table.classList.contains('hide-meanings') ? '🐵 뜻 보이기' : '🙈 뜻 가리기';
 }
 
-// --- Flashcard Logic ---
 function updateFlashcard() {
     if (!window.currentVocabData) return;
     const vocab = window.currentVocabData[window.currentCardIndex];
     const card = document.getElementById('flashcard');
+    const safeWord = vocab.word.replace(/'/g, "\\'");
     
-    // 카드 뒤집기 상태 초기화
     card.classList.remove('flipped');
-
-    // 내용 업데이트 (약간의 딜레이로 뒤집힘 효과 후 내용 변경)
     setTimeout(() => {
-        const front = card.querySelector('.card-front');
-        const back = card.querySelector('.card-back');
-        
-        front.innerHTML = `
+        card.querySelector('.card-front').innerHTML = `
             <div class="fc-word">${vocab.word}</div>
+            <button class="btn-tts-float" onclick="event.stopPropagation(); playTTS('${safeWord}')">🔊</button>
             <div class="fc-hint">클릭해서 뜻 확인</div>
         `;
-        
-        back.innerHTML = `
+        card.querySelector('.card-back').innerHTML = `
             <div class="fc-read">${vocab.read || ""}</div>
             <div class="fc-mean">${vocab.mean || ""}</div>
+            <button class="btn-tts-float" onclick="event.stopPropagation(); playTTS('${safeWord}')">🔊</button>
         `;
-        
         document.getElementById('card-counter').textContent = `${window.currentCardIndex + 1} / ${window.currentVocabData.length}`;
     }, 150);
 }
@@ -344,29 +472,19 @@ function prevCard() {
         updateFlashcard();
     }
 }
-
 function nextCard() {
     if (window.currentVocabData && window.currentCardIndex < window.currentVocabData.length - 1) {
         window.currentCardIndex++;
         updateFlashcard();
     }
 }
+function flipCard() { document.getElementById('flashcard').classList.toggle('flipped'); }
 
-function flipCard() {
-    document.getElementById('flashcard').classList.toggle('flipped');
-}
-
-// --- Quiz Logic ---
 function checkQuizAnswer(btn, selectedIdx, correctIdx) {
     const parent = btn.parentElement;
-    const feedback = parent.nextElementSibling; // .quiz-feedback
-    
-    // 이미 정답을 맞췄거나 틀린 후 처리가 끝났으면 클릭 방지 (선택 사항)
-    // 여기서는 다시 클릭 가능하게 둠, 하지만 정답 표시는 유지
-
-    // 모든 버튼 초기화 (선택 스타일 제거)
+    const feedback = parent.nextElementSibling; 
     const buttons = parent.querySelectorAll('.quiz-opt-btn');
-    buttons.forEach(b => b.classList.add('disabled')); // 다른 버튼 비활성화
+    buttons.forEach(b => b.classList.add('disabled')); 
 
     if (selectedIdx === correctIdx) {
         btn.classList.add('correct');
@@ -376,9 +494,7 @@ function checkQuizAnswer(btn, selectedIdx, correctIdx) {
         feedback.style.color = '#2E7D32';
     } else {
         btn.classList.add('wrong');
-        // 정답 버튼 표시
         buttons[correctIdx].classList.add('correct');
-        
         feedback.classList.add('visible');
         feedback.style.backgroundColor = '#FFEBEE';
         feedback.style.borderColor = '#FFCDD2';
