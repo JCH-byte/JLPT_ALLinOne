@@ -3,99 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JLPT All-in-One 단어장</title>
+    <title>JLPT All-in-One</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1>JLPT All-in-One</h1>
-            <div class="level-selector">
-                <button onclick="loadLevel('n5')">N5</button>
-                <button onclick="loadLevel('n4')">N4</button>
-                <button onclick="loadLevel('n3')">N3</button>
-                <button onclick="loadLevel('n2')">N2</button>
-                <button onclick="loadLevel('n1')">N1</button>
+<body class="dashboard-mode">
+
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h1 class="app-title">JLPT 마스터</h1>
+            <!-- 5단계 탭 -->
+            <div class="level-tabs">
+                <button class="tab-btn" onclick="switchLevel('n5')">N5</button>
+                <button class="tab-btn" onclick="switchLevel('n4')">N4</button>
+                <button class="tab-btn" onclick="switchLevel('n3')">N3</button>
+                <button class="tab-btn" onclick="switchLevel('n2')">N2</button>
+                <button class="tab-btn" onclick="switchLevel('n1')">N1</button>
             </div>
-        </header>
+            <div class="progress-section">
+                <div class="progress-card">
+                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                        <span id="level-title">N4 진행률</span>
+                        <span id="progress-text">0%</span>
+                    </div>
+                    <div style="background:#fff; height:8px; border-radius:4px; overflow:hidden;">
+                        <div class="progress-bar-fill" id="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <main>
-            <div id="loading" style="display:none;">데이터를 불러오는 중...</div>
-            <ul id="vocab-list" class="vocab-list">
-                <!-- 단어 리스트가 여기에 생성됩니다 -->
-            </ul>
-        </main>
+        <ul class="day-list" id="day-list">
+            <li style="padding:20px; text-align:center; color:#999;">데이터 로딩 중...</li>
+        </ul>
 
-        <footer>
-            <p>JLPT 학습 도우미 <a href="viewer.html">구문 분석 뷰어 이동</a></p>
-        </footer>
+        <div style="padding:10px; text-align:center; font-size:0.8rem;">
+            <a href="admin.html" target="_blank" style="color:#999;">⚙️ 관리자 도구</a>
+        </div>
+    </aside>
+
+    <div class="main-content">
+        <div class="mobile-header">
+            <button onclick="toggleSidebar()" style="border:none; background:none; font-size:1.5rem;">☰</button>
+            <span style="margin-left:10px; font-weight:bold;">학습 뷰어</span>
+        </div>
+        <iframe id="content-frame" name="content-frame"></iframe>
     </div>
 
-    <!-- common.js 먼저 로드 (TTS 함수 포함) -->
     <script src="common.js"></script>
     <script>
-        // 초기 로드 시 N5 데이터 로드 (예시)
-        document.addEventListener('DOMContentLoaded', () => {
-            loadLevel('n5');
-        });
+        let currentLevel = localStorage.getItem('last_level') || 'n4';
 
-        async function loadLevel(level) {
-            const listContainer = document.getElementById('vocab-list');
-            const loading = document.getElementById('loading');
-            
-            listContainer.innerHTML = '';
-            loading.style.display = 'block';
-
-            try {
-                // JSON 파일 경로 (data 폴더 구조 가정)
-                const response = await fetch(`data/jlpt_${level}_vocab.json`);
-                const data = await response.json();
-
-                loading.style.display = 'none';
-
-                data.forEach(item => {
-                    const li = document.createElement('li');
-                    li.className = 'vocab-item';
-
-                    // 단어 정보 구성
-                    const infoDiv = document.createElement('div');
-                    infoDiv.className = 'vocab-info';
-                    
-                    const wordSpan = document.createElement('span');
-                    wordSpan.className = 'word';
-                    wordSpan.textContent = item.word || item.kanji; // 데이터 키값에 따라 조정
-
-                    const readingSpan = document.createElement('span');
-                    readingSpan.className = 'reading';
-                    readingSpan.textContent = item.reading || item.kana;
-
-                    const meaningSpan = document.createElement('span');
-                    meaningSpan.className = 'meaning';
-                    meaningSpan.textContent = item.meaning || item.kor;
-
-                    infoDiv.appendChild(wordSpan);
-                    infoDiv.appendChild(readingSpan);
-                    infoDiv.appendChild(meaningSpan);
-
-                    // --- [TTS 버튼 추가] ---
-                    // common.js에 있는 createTTSButton 함수 사용
-                    // 요미가나(reading)를 우선으로 읽되, 없으면 단어(word)를 읽음
-                    const ttsText = item.reading || item.word;
-                    const ttsBtn = createTTSButton(ttsText);
-                    
-                    li.appendChild(infoDiv);
-                    li.appendChild(ttsBtn); // 리스트 아이템 오른쪽에 버튼 추가
-                    
-                    listContainer.appendChild(li);
-                });
-
-            } catch (error) {
-                console.error('Error loading vocabulary:', error);
-                loading.textContent = '데이터를 불러오는데 실패했습니다.';
-            }
+        function initDashboard() {
+            switchLevel(currentLevel);
         }
+
+        function switchLevel(level) {
+            currentLevel = level;
+            localStorage.setItem('last_level', level);
+            
+            // 테마 적용 (사이드바 색상 변경 등)
+            document.body.setAttribute('data-theme', level);
+            
+            // 탭 활성화
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.toLowerCase() === level);
+            });
+            document.getElementById('level-title').textContent = `${level.toUpperCase()} 진행률`;
+
+            // 데이터 동적 로드 후 리스트 그리기
+            loadLevelData(level, (fileData) => {
+                renderList(level, fileData);
+            });
+        }
+
+        function renderList(level, fileData) {
+            const list = document.getElementById('day-list');
+            list.innerHTML = '';
+
+            // 데이터 병합 (프리뷰 포함)
+            const allData = getMergedData(level, fileData);
+            
+            // 키 정렬 (숫자 기준)
+            const days = Object.keys(allData).sort((a,b) => parseInt(a)-parseInt(b));
+
+            if (days.length === 0) {
+                list.innerHTML = `<li style="padding:20px; text-align:center; color:#666;">
+                    아직 ${level.toUpperCase()} 데이터 파일이 없습니다.<br>
+                    <code>data/${level}_data.js</code>를 생성해주세요.
+                </li>`;
+                updateProgress(level, 0, 0);
+                return;
+            }
+
+            let doneCount = 0;
+            days.forEach(day => {
+                const data = allData[day];
+                const checkKey = `${level}_day${day}_complete`;
+                const isDone = localStorage.getItem(checkKey) === 'true';
+                if(isDone) doneCount++;
+
+                const li = document.createElement('li');
+                li.className = `day-item ${isDone ? 'completed' : ''}`;
+                li.id = `nav-day-${day}`;
+                li.innerHTML = `
+                    <div class="day-info" onclick="loadFrame('${level}', '${day}')">
+                        <span style="font-weight:bold;">Day ${day}</span>
+                        <span style="display:block; font-size:0.8rem; color:#666;">${data.title}</span>
+                    </div>
+                    <label class="check-complete">
+                        <input type="checkbox" onchange="toggleComplete('${level}', '${day}', this)" ${isDone?'checked':''}>
+                        완료
+                    </label>
+                `;
+                list.appendChild(li);
+            });
+
+            // 마지막 방문 위치 로드
+            const lastDay = localStorage.getItem(`${level}_last_day`);
+            if (lastDay && allData[lastDay]) loadFrame(level, lastDay);
+
+            updateProgress(level, doneCount, days.length);
+        }
+
+        function loadFrame(level, day) {
+            const frame = document.getElementById('content-frame');
+            frame.src = `viewer.html?level=${level}&day=${day}`;
+            
+            document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
+            const activeItem = document.getElementById(`nav-day-${day}`);
+            if(activeItem) activeItem.classList.add('active');
+            
+            localStorage.setItem(`${level}_last_day`, day);
+            if(window.innerWidth <= 768) toggleSidebar();
+        }
+
+        function toggleComplete(level, day, checkbox) {
+            const key = `${level}_day${day}_complete`;
+            if(checkbox.checked) localStorage.setItem(key, 'true');
+            else localStorage.removeItem(key);
+            
+            // 진행률 갱신을 위해 리스트 다시 그리기보다는 카운트만 다시 함
+            // (간단하게 페이지 새로고침 효과를 위해 switchLevel 호출)
+            switchLevel(level); 
+        }
+
+        function updateProgress(level, done, total) {
+            const percent = total === 0 ? 0 : Math.round((done / total) * 100);
+            document.getElementById('progress-text').textContent = `${percent}%`;
+            document.getElementById('progress-bar').style.width = `${percent}%`;
+        }
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('show');
+        }
+
+        document.addEventListener('DOMContentLoaded', initDashboard);
     </script>
 </body>
 </html>

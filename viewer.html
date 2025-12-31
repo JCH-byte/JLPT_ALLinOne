@@ -3,98 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JLPT 구문 분석 뷰어</title>
+    <title>JLPT Viewer</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons (Optional) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <button onclick="location.href='index.html'" class="back-btn">← 뒤로가기</button>
-            <h1>구문 분석 학습</h1>
+<body class="viewer-mode">
+    
+    <div id="viewer-content">
+        <header class="viewer-header">
+            <div class="header-badges">
+                <span class="badge-level" id="badge-level">JLPT</span>
+            </div>
+            <h1 id="header-title">Loading...</h1>
         </header>
 
-        <div class="controls">
-            <!-- 레벨 선택 및 문장 네비게이션 예시 -->
-            <select id="level-select" onchange="loadSentenceData(this.value)">
-                <option value="n5">N5 문장</option>
-                <option value="n4">N4 문장</option>
-                <option value="n3">N3 문장</option>
-            </select>
+        <!-- Section 1: Story (Conditional) -->
+        <section id="section-story" class="study-section" style="display:none;">
+            <h2 class="section-title"><i class="fas fa-book-open"></i> 문맥으로 익히기</h2>
+            <div id="story-content" class="story-box"></div>
+            
+            <h3 class="sub-title">📌 구문 분석</h3>
+            <div id="analysis-list"></div>
+        </section>
+
+        <!-- Section 2: Vocabulary -->
+        <section id="section-vocab" class="study-section">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-font"></i> 핵심 단어</h2>
+                
+                <!-- View Mode Controls -->
+                <div class="view-controls">
+                    <button id="btn-mode-list" class="control-btn active" onclick="toggleViewMode('list')"><i class="fas fa-list"></i> 리스트</button>
+                    <button id="btn-mode-card" class="control-btn" onclick="toggleViewMode('card')"><i class="fas fa-layer-group"></i> 카드</button>
+                </div>
+            </div>
+
+            <!-- List View -->
+            <div id="view-list">
+                <div class="toolbar">
+                    <button id="btn-toggle-mean" class="tool-btn" onclick="toggleMeanings()">🙈 뜻 가리기</button>
+                </div>
+                <table id="vocab-table">
+                    <thead>
+                        <tr>
+                            <th width="40"><i class="fas fa-check"></i></th>
+                            <th>단어</th>
+                            <th>읽기</th>
+                            <th class="col-mean-header">의미</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vocab-tbody"></tbody>
+                </table>
+            </div>
+
+            <!-- Flashcard View -->
+            <div id="view-card" style="display:none;">
+                <div class="flashcard-container">
+                    <button class="nav-arrow left" onclick="prevCard()">❮</button>
+                    
+                    <div class="flashcard" id="flashcard" onclick="flipCard()">
+                        <div class="card-face card-front">
+                            <!-- JS Injected -->
+                        </div>
+                        <div class="card-face card-back">
+                            <!-- JS Injected -->
+                        </div>
+                    </div>
+
+                    <button class="nav-arrow right" onclick="nextCard()">❯</button>
+                </div>
+                <div id="card-counter" class="card-counter">1 / 10</div>
+                <p class="card-tip">카드를 클릭하면 뒤집힙니다</p>
+            </div>
+        </section>
+
+        <!-- Section 3: Quiz (Conditional) -->
+        <section id="section-quiz" class="study-section" style="display:none;">
+            <h2 class="section-title"><i class="fas fa-pencil-alt"></i> 실력 확인</h2>
+            <div id="quiz-container" class="quiz-container"></div>
+        </section>
+
+        <!-- Navigation Footer -->
+        <div class="nav-buttons">
+            <a href="#" id="btn-prev" class="nav-btn prev">
+                <span class="small">이전 Day</span>
+            </a>
+            <a href="index.html" target="_parent" class="nav-btn list">
+                <i class="fas fa-bars"></i> 목록
+            </a>
+            <a href="#" id="btn-next" class="nav-btn next">
+                <span class="small">다음 Day</span>
+            </a>
         </div>
-
-        <main id="viewer-main">
-            <!-- [TTS 컨트롤러 영역] -->
-            <div id="tts-control-box"></div>
-
-            <!-- 문장 표시 영역 -->
-            <div class="sentence-box">
-                <p id="japanese-text" class="jp-text"></p>
-                <p id="korean-text" class="kr-text"></p>
-            </div>
-
-            <!-- 구문 분석 상세 (예시) -->
-            <div id="analysis-box" class="analysis-box">
-                <!-- 분석 내용이 동적으로 들어감 -->
-            </div>
-        </main>
     </div>
 
     <script src="common.js"></script>
-    <!-- 데이터 파일 로드 (실제 파일 경로에 맞게 수정 필요) -->
-    <script src="data/n5_data.js"></script>
-    <script src="data/n4_data.js"></script>
-    <script src="data/n3_data.js"></script>
-
     <script>
-        // 예시 데이터 로드 로직
-        function loadSentenceData(level) {
-            // data/*.js 파일에 정의된 변수명(예: n5Data)을 가져온다고 가정
-            let data = [];
-            if (level === 'n5' && typeof n5Data !== 'undefined') data = n5Data;
-            else if (level === 'n4' && typeof n4Data !== 'undefined') data = n4Data;
-            else if (level === 'n3' && typeof n3Data !== 'undefined') data = n3Data;
-
-            // 편의상 첫 번째 문장을 로드 (실제론 리스트 선택 로직 필요)
-            if (data.length > 0) {
-                renderSentence(data[0]);
-            }
-        }
-
-        function renderSentence(item) {
-            const jpTextEl = document.getElementById('japanese-text');
-            const krTextEl = document.getElementById('korean-text');
-            const ttsBox = document.getElementById('tts-control-box');
-
-            // 1. 한국어 해석 표시
-            krTextEl.textContent = item.meaning || item.kor;
-
-            // 2. 일본어 문장 표시 (클릭 가능한 단어 단위로 분리)
-            // 구문 분석 데이터가 있다면 그것을 활용하고, 없다면 띄어쓰기로 분리
-            const sentence = item.sentence || item.jp;
-            jpTextEl.innerHTML = ''; // 초기화
-
-            // 문장을 띄어쓰기 기준으로 나눠서 개별 클릭 가능하게 만듦
-            const words = sentence.split(' ');
-            words.forEach(word => {
-                const span = document.createElement('span');
-                span.textContent = word + ' '; // 띄어쓰기 포함
-                span.className = 'clickable-word';
-                span.onclick = () => {
-                    // 단어 클릭 시 해당 단어만 TTS 재생
-                    playTTS(word);
-                };
-                jpTextEl.appendChild(span);
-            });
-
-            // 3. [TTS 컨트롤러 연결] 문장 전체 듣기 기능
-            renderTTSController(ttsBox, sentence);
-        }
-
-        // 초기 실행
-        document.addEventListener('DOMContentLoaded', () => {
-            loadSentenceData('n5');
-        });
+        document.addEventListener('DOMContentLoaded', initViewer);
     </script>
 </body>
 </html>
