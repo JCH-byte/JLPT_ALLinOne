@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>JLPT Data Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { padding: 40px; background: #eee; display: block; overflow: auto; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; }
+        .control-panel { background: #e3f2fd; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        textarea { width: 100%; height: 200px; font-family: monospace; padding: 10px; margin-top: 10px; }
+        .btn { padding: 10px 20px; color: white; border: none; cursor: pointer; border-radius: 4px; font-weight: bold; margin-right: 10px; }
+        .btn-preview { background: #FF9800; }
+        .btn-download { background: #4CAF50; }
+        .btn-delete { background: #f44336; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🛠️ JLPT 데이터 관리자 (Netlify Fixed)</h1>
+    <p>데이터 생성 시 <code>var</code>를 사용하여 호환성을 높였습니다.</p>
+
+    <div class="control-panel">
+        <label><strong>1. 작업할 레벨 선택:</strong></label>
+        <select id="level-select" style="font-size:1.1rem; padding:5px;">
+            <option value="n5">N5 (기초 - 노랑)</option>
+            <option value="n4">N4 (초급 - 초록)</option>
+            <option value="n3">N3 (중급 - 파랑)</option>
+            <option value="n2">N2 (중고급 - 주황)</option>
+            <option value="n1">N1 (고급 - 빨강)</option>
+        </select>
+    </div>
+
+    <h3>2. AI JSON 데이터 입력</h3>
+    <textarea id="json-input" placeholder='{"day": 9, "data": { ... }}'></textarea>
+
+    <div style="margin-top:20px;">
+        <button class="btn btn-preview" onclick="savePreview(false)">💾 덮어쓰기 저장</button>
+        <button class="btn btn-preview" style="background:#2196F3" onclick="savePreview(true)">🔗 병합 저장 (Merge)</button>
+        <button class="btn btn-download" onclick="downloadFile()">📥 JS 파일 다운로드</button>
+    </div>
+    
+    <div style="margin-top:20px; text-align:right;">
+        <button onclick="clearPreview()" style="border:none; background:none; text-decoration:underline; cursor:pointer; color:#999;">임시 데이터 초기화</button>
+    </div>
+</div>
+
+<script>
+    const DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
+
+    function savePreview(isMerge) {
+        try {
+            const level = document.getElementById('level-select').value;
+            const input = document.getElementById('json-input').value;
+            if (!input.trim()) return alert("JSON을 입력하세요");
+
+            const json = JSON.parse(input);
+            const day = json.day;
+            const key = `${level}-${day}`;
+            
+            const existing = JSON.parse(localStorage.getItem(DEV_KEY) || '{}');
+            
+            if (isMerge && existing[key]) {
+                existing[key] = { ...existing[key], ...json.data };
+                alert(`[${level.toUpperCase()}] Day ${day} 병합 저장됨!`);
+            } else {
+                existing[key] = json.data;
+                alert(`[${level.toUpperCase()}] Day ${day} 새로 저장됨!`);
+            }
+            
+            localStorage.setItem(DEV_KEY, JSON.stringify(existing));
+            
+        } catch (e) { alert("JSON 에러: " + e.message); }
+    }
+
+    function downloadFile() {
+        const level = document.getElementById('level-select').value;
+        const varName = `${level.toUpperCase()}_DATA`;
+        
+        const existing = JSON.parse(localStorage.getItem(DEV_KEY) || '{}');
+        const levelData = {};
+
+        Object.keys(existing).forEach(key => {
+            if (key.startsWith(`${level}-`)) {
+                const day = key.split('-')[1];
+                levelData[day] = existing[key];
+            }
+        });
+
+        if (Object.keys(levelData).length === 0) {
+            if(!confirm("저장된 프리뷰 데이터가 없습니다. 빈 파일을 다운로드 할까요?")) return;
+        }
+
+        // [핵심 수정] const 대신 var 사용
+        const fileContent = `/**
+ * JLPT ${level.toUpperCase()} Data
+ * Updated: ${new Date().toLocaleString()}
+ */
+var ${varName} = ${JSON.stringify(levelData, null, 4)};
+`;
+
+        const blob = new Blob([fileContent], { type: "text/javascript" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${level}_data.js`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+    
+    function clearPreview() {
+        if(confirm("정말 삭제합니까?")) localStorage.removeItem(DEV_KEY);
+    }
+</script>
+</body>
+</html>
