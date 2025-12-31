@@ -1,7 +1,6 @@
 /**
  * JLPT Scalable System Logic
- * 기능: 동적 스크립트 로딩, 데이터 병합, 뷰어 제어
- * Updated: 섹션 표시 로직 수정 (display:none 해제)
+ * 기능: 동적 스크립트 로딩, 데이터 병합, 뷰어 제어, TTS(음성) 기능 강화
  */
 
 // URL 파라미터 유틸
@@ -11,63 +10,39 @@ function getQueryParam(param) {
 }
 
 /**
- * [핵심] 레벨별 데이터 파일 동적 로드 함수 (재시도 + 디버깅 정보)
+ * [핵심] 레벨별 데이터 파일 동적 로드 함수
  */
 function loadLevelData(level, callback) {
-    const upperLevel = level.toUpperCase(); // 'N4'
-    const varName = `${upperLevel}_DATA`;   // 'N4_DATA'
+    const upperLevel = level.toUpperCase();
+    const varName = `${upperLevel}_DATA`;
 
-    // 이미 메모리에 로드되어 있으면 즉시 반환
     if (window[varName]) {
         callback(window[varName]);
         return;
     }
 
-    // 1차 시도: 소문자 파일명 (data/n5_data.js)
     const scriptPath = `data/${level}_data.js`;
     const script = document.createElement('script');
     script.src = scriptPath; 
     
     script.onload = () => {
-        // 로드 성공 후 변수 확인
         if (window[varName]) {
             callback(window[varName]);
         } else {
-            // 파일은 불러왔는데 window[varName]이 없는 경우 (주로 const 선언 때문)
-            // 비상 대책: eval로 전역 변수 접근 시도 (const 호환)
             try {
                 const data = eval(varName);
-                if (data) {
-                    callback(data);
-                    return;
-                }
+                if (data) { callback(data); return; }
             } catch(e) {}
-
-            console.warn(`[Warning] ${scriptPath} 로드됨, 그러나 ${varName} 변수를 찾을 수 없음. (const 대신 var 사용 권장)`);
+            console.warn(`[Warning] ${varName} 변수 없음.`);
             callback({}); 
         }
     };
 
     script.onerror = () => {
-        // 1차 실패 시 대문자 파일명 시도 (N5_data.js)
-        console.warn(`[Retry] ${scriptPath} 실패. 대문자 파일명 시도...`);
-        
         const scriptUpper = document.createElement('script');
-        const scriptUpperPath = `data/${level.toUpperCase()}_data.js`;
-        scriptUpper.src = scriptUpperPath;
-
-        scriptUpper.onload = () => {
-            if (window[varName]) callback(window[varName]);
-            else callback({});
-        };
-
-        scriptUpper.onerror = () => {
-            // 최종 실패 시 에러 메시지를 위해 null 반환
-            console.error(`[Error] 파일 로드 최종 실패.`);
-            // 화면에 경로를 보여주기 위해 에러 객체에 경로 포함
-            callback(null, scriptPath); 
-        };
-
+        scriptUpper.src = `data/${level.toUpperCase()}_data.js`;
+        scriptUpper.onload = () => callback(window[varName] || {});
+        scriptUpper.onerror = () => callback(null, scriptPath);
         document.head.appendChild(scriptUpper);
     };
 
@@ -75,11 +50,10 @@ function loadLevelData(level, callback) {
 }
 
 /**
- * 데이터 병합 (파일 데이터 + 로컬 스토리지 프리뷰)
+ * 데이터 병합
  */
 function getMergedData(level, fileData) {
     if (!fileData) fileData = {};
-
     const DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
     let previewData = {};
     try {
@@ -99,7 +73,6 @@ function getMergedData(level, fileData) {
     Object.keys(previewData).forEach(day => {
         merged[day] = { ...merged[day] || {}, ...previewData[day] };
     });
-
     return merged;
 }
 
@@ -115,19 +88,8 @@ function initViewer() {
     loadLevelData(level, (fileData, errorPath) => {
         const container = document.body;
         
-        // 파일 로드 완전 실패 (404)
         if (fileData === null) {
-            container.innerHTML = `
-                <div style="padding:40px; text-align:center; line-height:1.8;">
-                    <h3 style="color:#e53935;">⚠️ 데이터 파일을 찾을 수 없습니다.</h3>
-                    <p>시스템이 다음 경로에서 파일을 찾으려 했습니다:</p>
-                    <code style="background:#eee; padding:5px; border-radius:4px; display:block; margin:10px 0;">${errorPath}</code>
-                    <ul style="text-align:left; display:inline-block; font-size:0.9rem; color:#555;">
-                        <li>1. <b>data</b> 폴더가 있는지 확인하세요.</li>
-                        <li>2. 파일명이 <b>${level}_data.js</b>인지 확인하세요.</li>
-                        <li>3. 윈도우에서 <b>.js.js</b>로 저장되지 않았는지 확인하세요.</li>
-                    </ul>
-                </div>`;
+            container.innerHTML = `<div style="padding:40px; text-align:center;"><h3>⚠️ 데이터 로드 실패</h3></div>`;
             return;
         }
 
@@ -135,9 +97,7 @@ function initViewer() {
         const data = allData[day];
 
         if (!day || !data) {
-            container.innerHTML = `<div style="padding:40px; text-align:center;">
-                <h3>학습 자료 준비 중</h3><p>Day ${day} 데이터를 생성해주세요.</p>
-            </div>`;
+            container.innerHTML = `<div style="padding:40px; text-align:center;"><h3>Day ${day} 준비 중</h3></div>`;
             return;
         }
 
@@ -149,31 +109,34 @@ function renderViewerContent(level, day, data) {
     document.title = `[${level.toUpperCase()}] Day ${day}`;
     document.getElementById('header-title').textContent = data.title || `Day ${day} 학습`;
 
-    // ------------------------------------------------
-    // 1. Story & Analysis Section 처리
-    // ------------------------------------------------
+    // 1. Story & Analysis
     const sectionStory = document.getElementById('section-story');
     const storyBox = document.getElementById('story-content');
     const analysisList = document.getElementById('analysis-list');
 
-    // TTS 상태 초기화
-    if(window.speechSynthesis) window.speechSynthesis.cancel();
-    isSpeaking = false;
-    updateTTSButton(false);
+    stopAudio(); // 초기화
 
     if (data.story) {
-        // 데이터가 있으면 섹션을 표시
         sectionStory.style.display = 'block';
         storyBox.innerHTML = data.story;
 
-        // Analysis Rendering
+        // Analysis Rendering (TTS 버튼 추가됨)
         analysisList.innerHTML = ''; 
         if (data.analysis) {
-            data.analysis.forEach(item => {
+            data.analysis.forEach((item, idx) => {
                 const div = document.createElement('div');
                 div.className = 'analysis-item';
+                
+                // 텍스트 정화 (따옴표 등 처리)
+                const safeSent = item.sent.replace(/'/g, "\\'");
+
                 div.innerHTML = `
-                    <span class="jp-sent">${item.sent}</span>
+                    <div class="sent-row">
+                        <span class="jp-sent">${item.sent}</span>
+                        <button class="btn-audio-mini" id="btn-sent-${idx}" onclick="playText('${safeSent}', 'btn-sent-${idx}')" title="이 문장 듣기">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </div>
                     <span class="kr-trans">${item.trans}</span>
                     <div style="margin-top:5px;">
                         ${(item.tags || []).map(t => `<span class="vocab-tag">${t}</span>`).join('')}
@@ -184,28 +147,33 @@ function renderViewerContent(level, day, data) {
             });
         }
     } else {
-        // 데이터가 없으면 섹션 숨김 유지
         sectionStory.style.display = 'none';
     }
 
-    // ------------------------------------------------
-    // 2. Vocabulary Section 처리 (항상 표시)
-    // ------------------------------------------------
+    // 2. Vocabulary Section
     const vocabTbody = document.getElementById('vocab-tbody');
     vocabTbody.innerHTML = ''; 
     
     if (data.vocab && data.vocab.length > 0) {
-        data.vocab.forEach((v) => {
+        data.vocab.forEach((v, idx) => {
             const tr = document.createElement('tr');
             const checkId = `${level}_day${day}_vocab_${v.word}`;
             const isChecked = localStorage.getItem(checkId) === 'true';
 
             const reading = v.read || v.reading || ""; 
             const meaning = v.mean || v.meaning || "";
+            // 단어는 한자(word)를 읽되, 없으면 reading을 읽음
+            const targetText = v.word || reading; 
+            const safeWord = targetText.replace(/'/g, "\\'");
 
             tr.innerHTML = `
                 <td style="text-align:center;"><input type="checkbox" id="${checkId}" ${isChecked ? 'checked' : ''}></td>
-                <td style="font-weight:bold;">${v.word}</td>
+                <td class="td-word">
+                    <span class="word-text">${v.word}</span>
+                    <button class="btn-audio-mini" id="btn-vocab-${idx}" onclick="playText('${safeWord}', 'btn-vocab-${idx}')">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                </td>
                 <td>${reading}</td>
                 <td class="col-mean"><span>${meaning}</span></td>
             `;
@@ -221,42 +189,35 @@ function renderViewerContent(level, day, data) {
                 }
             });
             
-            // 초기 상태 반영
             if(isChecked) tr.classList.add('checked-row');
         });
     } else {
-        vocabTbody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:20px;">단어 데이터가 없습니다.</td></tr>';
+        vocabTbody.innerHTML = '<tr><td colspan="4" style="text-align:center;">단어 데이터가 없습니다.</td></tr>';
     }
 
-    // Flashcard Setup (첫 번째 카드)
+    // Flashcard
     if (data.vocab && data.vocab.length > 0) {
         window.currentVocabData = data.vocab;
         window.currentCardIndex = 0;
         updateFlashcard();
     }
 
-    // ------------------------------------------------
-    // 3. Quiz Section 처리
-    // ------------------------------------------------
+    // 3. Quiz Section
     const sectionQuiz = document.getElementById('section-quiz');
     const quizContainer = document.getElementById('quiz-container');
     quizContainer.innerHTML = ''; 
 
     if (data.quiz && data.quiz.length > 0) {
-        // 데이터가 있으면 섹션 표시
         sectionQuiz.style.display = 'block';
-
         data.quiz.forEach((q, i) => {
             const div = document.createElement('div');
             div.className = 'quiz-item';
             
             const questionText = q.q || q.question || "";
             const options = q.opt || q.options || [];
-            let answerIndex = q.ans; // 0-based index
-            if (answerIndex === undefined) answerIndex = q.answer;
+            let answerIndex = q.ans !== undefined ? q.ans : q.answer;
             const comment = q.comment || "";
 
-            // 객관식 버튼 생성
             let optionsHtml = '<div class="quiz-options-grid">';
             if (Array.isArray(options)) {
                 options.forEach((optText, idx) => {
@@ -276,13 +237,10 @@ function renderViewerContent(level, day, data) {
             quizContainer.appendChild(div);
         });
     } else {
-        // 데이터가 없으면 섹션 숨김 유지
         sectionQuiz.style.display = 'none';
     }
     
-    // ------------------------------------------------
-    // Navigation 처리
-    // ------------------------------------------------
+    // Navigation
     const currentDay = parseInt(day);
     const prevBtn = document.getElementById('btn-prev');
     const nextBtn = document.getElementById('btn-next');
@@ -294,13 +252,11 @@ function renderViewerContent(level, day, data) {
         prevBtn.href = "#";
         prevBtn.classList.add('disabled');
     }
-    // 다음 Day가 존재하는지 체크하는 로직은 생략(무조건 활성)하거나, 전체 데이터 길이를 알아야 함.
-    // 여기서는 일단 활성화
     nextBtn.href = `viewer.html?level=${level}&day=${currentDay+1}`;
     nextBtn.classList.remove('disabled');
 }
 
-// --- Vocabulary View Controls ---
+// --- View Controls ---
 function toggleViewMode(mode) {
     document.getElementById('view-list').style.display = mode === 'list' ? 'block' : 'none';
     document.getElementById('view-card').style.display = mode === 'card' ? 'block' : 'none';
@@ -322,10 +278,8 @@ function updateFlashcard() {
     const vocab = window.currentVocabData[window.currentCardIndex];
     const card = document.getElementById('flashcard');
     
-    // 카드 뒤집기 상태 초기화
     card.classList.remove('flipped');
 
-    // 내용 업데이트 (약간의 딜레이로 뒤집힘 효과 후 내용 변경)
     setTimeout(() => {
         const front = card.querySelector('.card-front');
         const back = card.querySelector('.card-back');
@@ -333,6 +287,9 @@ function updateFlashcard() {
         front.innerHTML = `
             <div class="fc-word">${vocab.word}</div>
             <div class="fc-hint">클릭해서 뜻 확인</div>
+            <button class="btn-audio-float" onclick="event.stopPropagation(); playText('${vocab.word.replace(/'/g, "\\'")}')">
+                <i class="fas fa-volume-up"></i>
+            </button>
         `;
         
         back.innerHTML = `
@@ -365,14 +322,10 @@ function flipCard() {
 // --- Quiz Logic ---
 function checkQuizAnswer(btn, selectedIdx, correctIdx) {
     const parent = btn.parentElement;
-    const feedback = parent.nextElementSibling; // .quiz-feedback
+    const feedback = parent.nextElementSibling; 
     
-    // 이미 정답을 맞췄거나 틀린 후 처리가 끝났으면 클릭 방지 (선택 사항)
-    // 여기서는 다시 클릭 가능하게 둠, 하지만 정답 표시는 유지
-
-    // 모든 버튼 초기화 (선택 스타일 제거)
     const buttons = parent.querySelectorAll('.quiz-opt-btn');
-    buttons.forEach(b => b.classList.add('disabled')); // 다른 버튼 비활성화
+    buttons.forEach(b => b.classList.add('disabled')); 
 
     if (selectedIdx === correctIdx) {
         btn.classList.add('correct');
@@ -382,9 +335,7 @@ function checkQuizAnswer(btn, selectedIdx, correctIdx) {
         feedback.style.color = '#2E7D32';
     } else {
         btn.classList.add('wrong');
-        // 정답 버튼 표시
         buttons[correctIdx].classList.add('correct');
-        
         feedback.classList.add('visible');
         feedback.style.backgroundColor = '#FFEBEE';
         feedback.style.borderColor = '#FFCDD2';
@@ -392,75 +343,107 @@ function checkQuizAnswer(btn, selectedIdx, correctIdx) {
     }
 }
 
-// --- TTS Logic (음성 읽기) ---
-let isSpeaking = false;
+// ================================================
+// TTS Logic (Enhanced)
+// ================================================
+let currentUtterance = null;
+let currentBtnId = null;
 
+// 전체 스토리 듣기 토글
 function toggleStoryAudio() {
-    if (!('speechSynthesis' in window)) {
-        alert("이 브라우저는 음성 듣기를 지원하지 않습니다.");
-        return;
-    }
-
-    if (isSpeaking) {
-        window.speechSynthesis.cancel();
-        isSpeaking = false;
-        updateTTSButton(false);
+    if (currentUtterance && window.speechSynthesis.speaking) {
+        // 이미 재생 중이면 멈춤
+        stopAudio();
     } else {
         playStory();
     }
 }
 
+// 스토리 텍스트 추출 및 재생
 function playStory() {
     const storyBox = document.getElementById('story-content');
     if (!storyBox) return;
+    const text = extractTextForTTS(storyBox.innerHTML);
+    playText(text, 'btn-play-story');
+}
 
-    // HTML 태그와 RT(후리가나)를 제거하고 순수 텍스트만 추출
-    const cleanText = extractTextForTTS(storyBox.innerHTML);
-    
-    if (!cleanText.trim()) return;
+// [핵심] 공용 TTS 재생 함수
+function playText(text, btnId = null) {
+    if (!('speechSynthesis' in window)) {
+        alert("이 브라우저는 음성 듣기를 지원하지 않습니다.");
+        return;
+    }
+
+    // 기존 음성 중단
+    window.speechSynthesis.cancel();
+    resetButtons();
+
+    // 텍스트 정제
+    const cleanText = text.trim();
+    if (!cleanText) return;
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
-    utterance.lang = 'ja-JP'; // 일본어 설정
-    utterance.rate = 0.9;     // 학습용이므로 약간 천천히
-    
+    utterance.lang = 'ja-JP'; 
+    utterance.rate = 0.85; // 조금 더 또박또박하게
+
+    // 이벤트 핸들러
     utterance.onstart = () => {
-        isSpeaking = true;
-        updateTTSButton(true);
+        if (btnId) setButtonState(btnId, true);
     };
     
     utterance.onend = () => {
-        isSpeaking = false;
-        updateTTSButton(false);
+        if (btnId) setButtonState(btnId, false);
+        currentUtterance = null;
+        currentBtnId = null;
     };
 
-    utterance.onerror = (e) => {
-        console.error("TTS Error:", e);
-        isSpeaking = false;
-        updateTTSButton(false);
+    utterance.onerror = () => {
+        if (btnId) setButtonState(btnId, false);
     };
 
+    currentUtterance = utterance;
+    currentBtnId = btnId;
     window.speechSynthesis.speak(utterance);
 }
 
-function updateTTSButton(playing) {
-    const btn = document.getElementById('btn-play-story');
-    if (btn) {
-        // 재생 중이면 멈춤 아이콘, 아니면 스피커 아이콘
-        btn.innerHTML = playing ? '<i class="fas fa-stop"></i> 멈춤' : '<i class="fas fa-volume-up"></i> 전체 듣기';
-        
-        if (playing) btn.classList.add('playing');
-        else btn.classList.remove('playing');
+function stopAudio() {
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    resetButtons();
+}
+
+// 버튼 상태 UI 제어
+function setButtonState(btnId, isPlaying) {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+
+    if (isPlaying) {
+        btn.classList.add('playing');
+        // 전체 듣기 버튼인 경우 텍스트 변경
+        if (btnId === 'btn-play-story') {
+            btn.innerHTML = '<i class="fas fa-stop"></i> 멈춤';
+        }
+    } else {
+        btn.classList.remove('playing');
+        if (btnId === 'btn-play-story') {
+            btn.innerHTML = '<i class="fas fa-volume-up"></i> 전체 듣기';
+        }
     }
 }
 
-// 후리가나(<rt>...</rt>)를 제외하고 텍스트만 추출하는 헬퍼 함수
+function resetButtons() {
+    document.querySelectorAll('.playing').forEach(el => {
+        el.classList.remove('playing');
+        if (el.id === 'btn-play-story') {
+            el.innerHTML = '<i class="fas fa-volume-up"></i> 전체 듣기';
+        }
+    });
+}
+
+// HTML 태그와 RT 제거 (순수 일본어만 추출)
 function extractTextForTTS(html) {
     const div = document.createElement('div');
     div.innerHTML = html;
-    
-    // <rt> 태그 제거 (한자와 후리가나가 두 번 읽히는 것 방지)
-    const rts = div.querySelectorAll('rt');
-    rts.forEach(rt => rt.remove());
-    
+    // <rt> 태그 제거
+    div.querySelectorAll('rt').forEach(rt => rt.remove());
     return div.textContent || div.innerText || "";
 }
