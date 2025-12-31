@@ -447,3 +447,161 @@ function extractTextForTTS(html) {
     div.querySelectorAll('rt').forEach(rt => rt.remove());
     return div.textContent || div.innerText || "";
 }
+/* =========================================
+   TTS (음성 합성) 관련 기능
+   ========================================= */
+
+// 사용 가능한 음성 목록을 저장할 변수
+let ttsVoices = [];
+
+// 브라우저에서 음성 목록을 로드하는 함수
+function loadVoices() {
+    // getVoices()는 브라우저마다 비동기로 동작할 수 있음
+    ttsVoices = window.speechSynthesis.getVoices();
+    console.log(`Loaded ${ttsVoices.length} voices.`);
+}
+
+// 초기 로드 실행
+if (window.speechSynthesis) {
+    // 일부 브라우저(Chrome 등)는 onvoiceschanged 이벤트가 발생해야 목록이 로드됨
+    loadVoices();
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+}
+
+/**
+ * 텍스트를 읽어주는 핵심 함수
+ * @param {string} text - 읽을 텍스트 (일본어)
+ * @param {number} rate - 재생 속도 (기본 1.0, 범위 0.1 ~ 10)
+ */
+function playTTS(text, rate = 1.0) {
+    if (!window.speechSynthesis) {
+        alert("이 브라우저는 TTS 기능을 지원하지 않습니다.");
+        return;
+    }
+
+    // 1. 기존 재생 중인 음성이 있다면 취소 (중복 재생 방지)
+    window.speechSynthesis.cancel();
+
+    // 2. 텍스트 정제 (특수문자 제거)
+    // 물결표(～), 괄호, 쉼표 등을 제거하거나 쉼표로 변환하여 자연스럽게 읽도록 처리
+    // 예: '～'는 제거, '、'는 유지
+    const cleanText = text.replace(/[～（）()\[\]「」]/g, '').trim();
+    if (!cleanText) return;
+
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    utterance.lang = 'ja-JP';
+    utterance.rate = rate; // 속도 설정
+
+    // 3. 최적의 목소리 선택 로직 (Windows: MS, Android: Google)
+    if (ttsVoices.length === 0) {
+        ttsVoices = window.speechSynthesis.getVoices();
+    }
+
+    // 일본어 음성만 필터링
+    const jaVoices = ttsVoices.filter(voice => voice.lang.includes('ja') || voice.lang.includes('JP'));
+    let selectedVoice = null;
+
+    if (jaVoices.length > 0) {
+        // 우선순위 1: Microsoft "Natural" 음성 (Windows Edge/Chrome 등에서 고품질)
+        // 예: "Microsoft Nanami Online (Natural) - Japanese (Japan)"
+        selectedVoice = jaVoices.find(voice => 
+            voice.name.includes('Microsoft') && voice.name.includes('Natural')
+        );
+
+        // 우선순위 2: 일반 Microsoft 음성
+        // 예: "Microsoft Ayumi - Japanese (Japan)"
+        if (!selectedVoice) {
+            selectedVoice = jaVoices.find(voice => voice.name.includes('Microsoft'));
+        }
+
+        // 우선순위 3: Google 음성 (Android, PC Chrome)
+        // 예: "Google 日本語"
+        if (!selectedVoice) {
+            selectedVoice = jaVoices.find(voice => voice.name.includes('Google'));
+        }
+
+        // 우선순위 4: 그 외 일본어 음성 (iOS Kyoko 등)
+        if (!selectedVoice) {
+            selectedVoice = jaVoices[0];
+        }
+    }
+
+    // 목소리가 선택되었다면 설정
+    if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        // console.log(`Selected Voice: ${selectedVoice.name}`); // 디버깅용
+    }
+
+    // 4. 재생 실행
+    window.speechSynthesis.speak(utterance);
+}
+
+/* =========================================
+   UI 연결 헬퍼 함수 (단어장, 뷰어 연동용)
+   ========================================= */
+
+/**
+ * 단어장용 TTS 버튼(스피커 아이콘)을 생성하는 함수
+ * 사용법: listElement.appendChild(createTTSButton("일본어단어"));
+ * @param {string} text - 읽을 텍스트
+ * @returns {HTMLElement} - 버튼 DOM 요소
+ */
+function createTTSButton(text) {
+    const btn = document.createElement('button');
+    btn.className = 'tts-btn';
+    btn.innerHTML = '<i class="fa fa-volume-up"></i> 🔊'; // 텍스트나 아이콘 사용
+    btn.title = '듣기 (Listen)';
+    
+    // 버튼 클릭 시 이벤트 버블링 방지 (리스트 클릭과 겹치지 않게) 및 재생
+    btn.onclick = (e) => {
+        e.stopPropagation();
+        playTTS(text);
+    };
+    return btn;
+}
+
+/**
+ * 문장 뷰어용 전체 재생 및 속도 조절 컨트롤러 렌더링
+ * @param {HTMLElement} targetElement - 컨트롤러를 표시할 부모 요소
+ * @param {string} text - 읽을 전체 문장
+ */
+function renderTTSController(targetElement, text) {
+    if (!targetElement) return;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'tts-controller';
+
+    // 1. 재생 버튼
+    const playBtn = document.createElement('button');
+    playBtn.innerText = '▶ 문장 전체 듣기';
+    playBtn.className = 'tts-control-btn play';
+    playBtn.onclick = () => {
+        // 현재 선택된 속도 가져오기
+        const speed = document.querySelector('input[name="ttsSpeed"]:checked')?.value || 1.0;
+        playTTS(text, parseFloat(speed));
+    };
+
+    // 2. 속도 조절 라디오 버튼 (0.8x, 1.0x, 1.2x)
+    const speedWrapper = document.createElement('div');
+    speedWrapper.className = 'tts-speed-wrapper';
+    
+    [0.8, 1.0, 1.2].forEach(rate => {
+        const label = document.createElement('label');
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.name = 'ttsSpeed';
+        radio.value = rate;
+        if (rate === 1.0) radio.checked = true;
+
+        label.appendChild(radio);
+        label.append(` ${rate}x`);
+        speedWrapper.appendChild(label);
+    });
+
+    wrapper.appendChild(playBtn);
+    wrapper.appendChild(speedWrapper);
+    targetElement.innerHTML = ''; // 기존 내용 초기화
+    targetElement.appendChild(wrapper);
+}
