@@ -20,8 +20,15 @@
 
         <!-- Section 1: Story (Conditional) -->
         <section id="section-story" class="study-section" style="display:none;">
-            <h2 class="section-title"><i class="fas fa-book-open"></i> 문맥으로 익히기</h2>
-            <div id="story-content" class="story-box"></div>
+            <!-- [수정] 제목과 TTS 버튼을 감싸는 헤더 추가 -->
+            <div class="story-header">
+                <h2 class="section-title" style="margin-bottom:0;"><i class="fas fa-book-open"></i> 문맥으로 익히기</h2>
+                <button id="btn-play-story" class="tool-btn" onclick="toggleStoryAudio()">
+                    <i class="fas fa-volume-up"></i> 전체 듣기
+                </button>
+            </div>
+            
+            <div id="story-content" class="story-box" style="margin-top: 15px;"></div>
             
             <h3 class="sub-title">📌 구문 분석</h3>
             <div id="analysis-list"></div>
@@ -101,6 +108,11 @@
     <script src="common.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', initViewer);
+        
+        // [추가] 페이지를 떠날 때 음성 멈춤
+        window.addEventListener('beforeunload', () => {
+            if (window.speechSynthesis) window.speechSynthesis.cancel();
+        });
     </script>
 </body>
 </html>
