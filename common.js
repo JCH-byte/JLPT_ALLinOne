@@ -1,7 +1,7 @@
 /**
  * JLPT Learning System Logic (Enhanced)
  * 기능: 데이터 로드, 정규화, TTS(후리가나 제거), UI 상태 관리
- * Updated: 퀴즈 버그 수정 (인용부호 충돌 방지 및 data 속성 활용)
+ * Updated: 북마크(별표) 기능 추가
  */
 
 // URL 파라미터 유틸
@@ -11,7 +11,7 @@ function getQueryParam(param) {
 }
 
 // 음성 목록 캐싱
-let availableVoices = [];
+let availableVoices = [];   
 
 if (window.speechSynthesis) {
     window.speechSynthesis.onvoiceschanged = () => {
@@ -93,6 +93,61 @@ function getMergedData(level, fileData) {
 }
 
 // ----------------------------------------------------
+// Bookmark Logic (New)
+// ----------------------------------------------------
+const BOOKMARK_KEY = 'JLPT_BOOKMARKS';
+
+function getBookmarks() {
+    try {
+        return JSON.parse(localStorage.getItem(BOOKMARK_KEY) || '[]');
+    } catch (e) { return []; }
+}
+
+function isStarred(level, day, word) {
+    const bookmarks = getBookmarks();
+    // 레벨, Day, 단어 텍스트가 모두 일치하면 별표 된 것으로 간주
+    return bookmarks.some(b => b.level === level && b.day == day && b.word === word);
+}
+
+function toggleStar(level, day, wordData, btnElement) {
+    let bookmarks = getBookmarks();
+    // 기존에 있는지 확인
+    const existingIndex = bookmarks.findIndex(b => b.level === level && b.day == day && b.word === wordData.word);
+    
+    // 버튼 상태 UI 즉시 반영
+    const isActive = existingIndex > -1;
+
+    if (isActive) {
+        // 삭제
+        bookmarks.splice(existingIndex, 1);
+        if(btnElement) {
+            btnElement.classList.remove('active');
+            btnElement.innerHTML = '☆'; // 빈 별
+        }
+    } else {
+        // 추가
+        bookmarks.push({
+            level: level,
+            day: day,
+            word: wordData.word,
+            read: wordData.read || wordData.reading || '',
+            mean: wordData.mean || wordData.meaning || '',
+            addedAt: new Date().toISOString()
+        });
+        if(btnElement) {
+            btnElement.classList.add('active');
+            btnElement.innerHTML = '★'; // 꽉 찬 별
+        }
+    }
+    
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+    
+    // 만약 현재 페이지가 모아보기 페이지라면 리스트 갱신 이벤트를 발생시킬 수도 있음
+    if(window.refreshStarredList) window.refreshStarredList();
+}
+
+
+// ----------------------------------------------------
 // Viewer Controller
 // ----------------------------------------------------
 function initViewer() {
@@ -150,7 +205,7 @@ function renderViewerContent(level, day, data) {
         storySection.style.display = 'none';
     }
 
-    // Vocab Section
+    // Vocab Section (Updated with Stars)
     const vocabTbody = document.getElementById('vocab-tbody');
     const vocabSection = document.getElementById('section-vocab') || (vocabTbody ? vocabTbody.closest('section') : null);
 
@@ -159,16 +214,33 @@ function renderViewerContent(level, day, data) {
         vocabTbody.innerHTML = '';
         data.vocab.forEach((v, idx) => {
             const tr = document.createElement('tr');
+            
+            // 체크박스 상태
             const checkId = `${level}_day${day}_v_${idx}`;
             const isChecked = localStorage.getItem(checkId) === 'true';
+            
+            // 별표 상태
+            const isStar = isStarred(level, day, v.word);
+            
             tr.className = isChecked ? 'checked-row' : '';
+            
+            // 데이터 객체를 JSON 문자열로 변환하여 onclick에 전달 (따옴표 이스케이프 주의)
+            const vJson = JSON.stringify(v).replace(/"/g, '&quot;');
+
             tr.innerHTML = `
+                <td class="col-star">
+                    <button class="star-btn ${isStar ? 'active' : ''}" 
+                            onclick="toggleStar('${level}', '${day}', ${vJson}, this); event.stopPropagation();">
+                        ${isStar ? '★' : '☆'}
+                    </button>
+                </td>
                 <td class="col-check"><input type="checkbox" id="${checkId}" ${isChecked ? 'checked' : ''}></td>
                 <td class="col-word" onclick="speak('${v.word || ""}')">🔊 ${v.word || ""}</td>
                 <td class="col-read">${v.read || v.reading || ""}</td>
                 <td class="col-mean"><span>${v.mean || v.meaning || ""}</span></td>
             `;
-            tr.querySelector('input').addEventListener('change', (e) => {
+            
+            tr.querySelector('input[type="checkbox"]').addEventListener('change', (e) => {
                 if(e.target.checked) { localStorage.setItem(checkId, 'true'); tr.classList.add('checked-row'); }
                 else { localStorage.removeItem(checkId); tr.classList.remove('checked-row'); }
             });
@@ -202,7 +274,6 @@ function renderViewerContent(level, day, data) {
                 if (match) ansIdx = parseInt(match[1]) - 1;
             }
 
-            // [수정] 해설 텍스트 안전하게 처리 (따옴표 이스케이프)
             const comment = q.comment || "정답입니다!";
             const safeComment = comment.replace(/"/g, '&quot;'); 
 
@@ -211,7 +282,6 @@ function renderViewerContent(level, day, data) {
             if (Array.isArray(opts) && opts.length > 0) {
                 html += `<div class="quiz-options-grid">`;
                 opts.forEach((opt, oIdx) => {
-                    // [수정] 인라인 함수 호출 대신 data 속성 사용
                     html += `<button class="quiz-opt-btn" 
                                 data-is-correct="${oIdx === ansIdx}"
                                 data-correct-idx="${ansIdx}"
@@ -241,9 +311,8 @@ function renderViewerContent(level, day, data) {
 
 // [수정] 퀴즈 정답 체크 (Dataset 활용)
 function checkAnswer(btn) {
-    // data 속성에서 값 읽기 (문자열로 반환됨)
     const isCorrect = btn.dataset.isCorrect === 'true';
-    const correctIdx = btn.dataset.correctIdx; // 문자열 상태 ('0', '1' 등)
+    const correctIdx = btn.dataset.correctIdx; 
     const comment = btn.dataset.comment;
 
     const parent = btn.parentElement; 
@@ -255,7 +324,6 @@ function checkAnswer(btn) {
 
     allBtns.forEach((b, idx) => {
         b.classList.add('disabled');
-        // idx는 숫자, correctIdx는 문자열이므로 느슨한 비교(==) 유지
         if (idx == correctIdx) b.classList.add('correct');
     });
 
@@ -265,7 +333,6 @@ function checkAnswer(btn) {
         feedbackEl.classList.add('visible');
     } else {
         btn.classList.add('wrong');
-        // 정답 번호 표시 (0부터 시작하므로 +1)
         feedbackEl.innerHTML = `<strong>❌ 아쉽네요!</strong>정답은 ${parseInt(correctIdx)+1}번 입니다.<br>${comment}`;
         feedbackEl.classList.add('visible');
     }

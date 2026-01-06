@@ -11,6 +11,14 @@
     <aside class="sidebar" id="sidebar">
         <div class="sidebar-header">
             <h1 class="app-title">JLPT 마스터</h1>
+            
+            <!-- Bookmark Button (New) -->
+            <div style="padding: 0 10px 10px 10px;">
+                <button onclick="loadStarredPage()" style="width:100%; padding:10px; background:#673AB7; color:white; border:none; border-radius:8px; cursor:pointer; font-weight:bold;">
+                    ⭐ 나만의 단어장 보기
+                </button>
+            </div>
+
             <!-- 5단계 탭 -->
             <div class="level-tabs">
                 <button class="tab-btn" onclick="switchLevel('n5')">N5</button>
@@ -118,9 +126,12 @@
                 list.appendChild(li);
             });
 
-            // 마지막 방문 위치 로드
+            // 마지막 방문 위치 로드 (초기 로드 시에만 작동하도록 개선 가능)
+            // 현재는 나만의 단어장을 보고 있다가 새로고침하면 마지막 Day로 가는 구조 유지
             const lastDay = localStorage.getItem(`${level}_last_day`);
-            if (lastDay && allData[lastDay]) loadFrame(level, lastDay);
+            if (lastDay && allData[lastDay] && !document.getElementById('content-frame').src.includes('starred.html')) {
+                 loadFrame(level, lastDay);
+            }
 
             updateProgress(level, doneCount, days.length);
         }
@@ -129,6 +140,7 @@
             const frame = document.getElementById('content-frame');
             frame.src = `viewer.html?level=${level}&day=${day}`;
             
+            // 사이드바 선택 효과
             document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
             const activeItem = document.getElementById(`nav-day-${day}`);
             if(activeItem) activeItem.classList.add('active');
@@ -137,13 +149,20 @@
             if(window.innerWidth <= 768) toggleSidebar();
         }
 
+        // [New] 나만의 단어장 로드 함수
+        function loadStarredPage() {
+            const frame = document.getElementById('content-frame');
+            frame.src = 'starred.html';
+            
+            // 사이드바 선택 해제
+            document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
+            if(window.innerWidth <= 768) toggleSidebar();
+        }
+
         function toggleComplete(level, day, checkbox) {
             const key = `${level}_day${day}_complete`;
             if(checkbox.checked) localStorage.setItem(key, 'true');
             else localStorage.removeItem(key);
-            
-            // 진행률 갱신을 위해 리스트 다시 그리기보다는 카운트만 다시 함
-            // (간단하게 페이지 새로고침 효과를 위해 switchLevel 호출)
             switchLevel(level); 
         }
 
