@@ -1,253 +1,8 @@
 /**
- * JLPT Learning System Logic (Hybrid Sync Enhanced)
- * 기능: Firebase 연동, 데이터 동기화, UI 로직 추상화
- * * [설계 변경점]
- * 1. Firebase Modular SDK를 Dynamic Import로 로드 (viewer.html 수정 불필요)
- * 2. DataManager: 로컬 스토리지와 Firestore 간의 데이터 중개
- * 3. initViewer 등 주요 함수를 비동기 대기 후 실행하도록 래핑
+ * JLPT Learning System Logic (Enhanced)
+ * 기능: 데이터 로드, 정규화, TTS(후리가나 제거), UI 상태 관리
+ * Updated: 북마크(별표) 기능 추가
  */
-
-// 1. Firebase Config (사용자 입력 적용됨)
-const firebaseConfig = {
-    apiKey: "AIzaSyCAaKmb4w9Ddyf5ZtelmK3cBAmjUvAD6vI",
-    authDomain: "jlpt-project-01.firebaseapp.com",
-    projectId: "jlpt-project-01",
-    storageBucket: "jlpt-project-01.firebasestorage.app",
-    messagingSenderId: "828971360762",
-    appId: "1:828971360762:web:d9f14ee8d9e75597d20443",
-    measurementId: "G-L2Y3GNWLE8"
-};
-
-// 2. Global State & DataManager
-window.AppState = {
-    user: null,
-    isFirebaseReady: false,
-    firestoreData: { bookmarks: [], progress: {} }, // 메모리 캐시
-    pendingWrites: null // 디바운싱용
-};
-
-// 데이터 추상화 객체 (LocalStorage와 Firestore를 투명하게 연결)
-const DataManager = {
-    // 읽기: 로그인 시 메모리 캐시(Firestore 데이터) 우선, 아니면 로컬스토리지
-    get: (key) => {
-        if (window.AppState.user && window.AppState.isFirebaseReady) {
-            return window.AppState.firestoreData.progress[key] ? 'true' : null;
-        }
-        return localStorage.getItem(key);
-    },
-    
-    // 쓰기: 로그인 시 메모리 캐시 업데이트 + Firestore 저장, 아니면 로컬스토리지
-    set: (key, value) => {
-        if (window.AppState.user) {
-            window.AppState.firestoreData.progress[key] = true; // Firestore 구조에 맞게 저장
-            scheduleFirestoreWrite();
-            // 오프라인 백업용으로 로컬에도 저장
-            localStorage.setItem(key, value); 
-        } else {
-            localStorage.setItem(key, value);
-        }
-    },
-
-    remove: (key) => {
-        if (window.AppState.user) {
-            delete window.AppState.firestoreData.progress[key];
-            scheduleFirestoreWrite();
-            localStorage.removeItem(key);
-        } else {
-            localStorage.removeItem(key);
-        }
-    },
-
-    // 북마크 로드
-    getBookmarks: () => {
-        if (window.AppState.user && window.AppState.isFirebaseReady) {
-            return window.AppState.firestoreData.bookmarks || [];
-        }
-        try {
-            return JSON.parse(localStorage.getItem('JLPT_BOOKMARKS') || '[]');
-        } catch (e) { return []; }
-    },
-
-    // 북마크 저장
-    saveBookmarks: (bookmarks) => {
-        if (window.AppState.user) {
-            window.AppState.firestoreData.bookmarks = bookmarks;
-            scheduleFirestoreWrite();
-            localStorage.setItem('JLPT_BOOKMARKS', JSON.stringify(bookmarks));
-        } else {
-            localStorage.setItem('JLPT_BOOKMARKS', JSON.stringify(bookmarks));
-        }
-    }
-};
-
-// 글로벌 노출 (다른 파일에서 접근 가능하도록)
-window.DataManager = DataManager;
-
-
-// 3. Firebase Logic (Dynamic Imports for Compatibility)
-let auth, db, signInWithPopup, GoogleAuthProvider, signOut, doc, getDoc, setDoc, updateDoc;
-
-async function initFirebase() {
-    try {
-        if (!firebaseConfig.apiKey) {
-            console.warn("Firebase Config가 설정되지 않았습니다. 로컬 모드로 동작합니다.");
-            window.AppState.isFirebaseReady = true;
-            return;
-        }
-
-        // Dynamic Import: type="module" 없이 모듈 로드
-        const appModule = await import("https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js");
-        const authModule = await import("https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js");
-        const firestoreModule = await import("https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js");
-
-        const app = appModule.initializeApp(firebaseConfig);
-        auth = authModule.getAuth(app);
-        db = firestoreModule.getFirestore(app);
-        
-        // 함수 할당
-        signInWithPopup = authModule.signInWithPopup;
-        GoogleAuthProvider = authModule.GoogleAuthProvider;
-        signOut = authModule.signOut;
-        doc = firestoreModule.doc;
-        getDoc = firestoreModule.getDoc;
-        setDoc = firestoreModule.setDoc;
-        updateDoc = firestoreModule.updateDoc;
-
-        // Auth Listener setup
-        authModule.onAuthStateChanged(auth, async (user) => {
-            window.AppState.user = user;
-            updateAuthUI(user);
-
-            if (user) {
-                await syncData(user);
-            }
-            
-            window.AppState.isFirebaseReady = true;
-            
-            // 대기 중인 렌더링 작업 실행 (이벤트 발생)
-            window.dispatchEvent(new Event('firebase-ready'));
-        });
-
-    } catch (e) {
-        console.error("Firebase Init Failed:", e);
-        // 실패해도 로컬 모드로 동작하도록 플래그 설정
-        window.AppState.isFirebaseReady = true;
-        window.dispatchEvent(new Event('firebase-ready'));
-    }
-}
-
-// 데이터 동기화 (Merge Logic)
-async function syncData(user) {
-    const userRef = doc(db, "users", user.uid);
-    let remoteData = { bookmarks: [], progress: {} };
-
-    try {
-        const docSnap = await getDoc(userRef);
-        if (docSnap.exists()) {
-            remoteData = docSnap.data();
-        }
-
-        // Local Data 읽기
-        const localBookmarks = JSON.parse(localStorage.getItem('JLPT_BOOKMARKS') || '[]');
-        const localProgress = {};
-        for (let i = 0; i < localStorage.length; i++) {
-            const key = localStorage.key(i);
-            if (key.includes('_day') && key.endsWith('_complete')) {
-                localProgress[key] = true;
-            }
-        }
-
-        // MERGE: Remote + Local (Union)
-        // 1. Progress: 둘 중 하나라도 true면 true
-        const mergedProgress = { ...remoteData.progress, ...localProgress };
-        
-        // 2. Bookmarks: 단어+레벨+Day 기준으로 중복 제거 병합
-        const bookmarkMap = new Map();
-        [...remoteData.bookmarks, ...localBookmarks].forEach(b => {
-            const id = `${b.level}-${b.day}-${b.word}`;
-            if (!bookmarkMap.has(id)) bookmarkMap.set(id, b);
-        });
-        const mergedBookmarks = Array.from(bookmarkMap.values());
-
-        // 메모리 업데이트
-        window.AppState.firestoreData = {
-            bookmarks: mergedBookmarks,
-            progress: mergedProgress
-        };
-
-        // Firestore에 병합된 데이터 저장 (초기 1회)
-        await setDoc(userRef, {
-            bookmarks: mergedBookmarks,
-            progress: mergedProgress
-        }, { merge: true });
-
-        console.log("Data Synced Successfully");
-
-    } catch (e) {
-        console.error("Sync Error:", e);
-    }
-}
-
-// Firestore 쓰기 최적화 (Debounce)
-function scheduleFirestoreWrite() {
-    if (!window.AppState.user) return;
-    
-    if (window.AppState.pendingWrites) clearTimeout(window.AppState.pendingWrites);
-    
-    window.AppState.pendingWrites = setTimeout(async () => {
-        try {
-            const userRef = doc(db, "users", window.AppState.user.uid);
-            await setDoc(userRef, window.AppState.firestoreData, { merge: true });
-            console.log("Saved to Firestore");
-        } catch (e) { console.error("Save failed", e); }
-    }, 1000); // 1초 딜레이
-}
-
-// 4. UI Helper Functions
-function updateAuthUI(user) {
-    // index.html에 로그인 버튼이 있는 경우에만 처리
-    const btnLogin = document.getElementById('btn-login');
-    const userProfile = document.getElementById('user-profile');
-    const userPhoto = document.getElementById('user-photo');
-    const userName = document.getElementById('user-name');
-    const btnLogout = document.getElementById('btn-logout');
-
-    if (btnLogin && userProfile) {
-        if (user) {
-            btnLogin.style.display = 'none';
-            userProfile.style.display = 'flex';
-            userPhoto.src = user.photoURL || 'https://via.placeholder.com/32';
-            userName.textContent = user.displayName;
-            
-            btnLogout.onclick = () => {
-                signOut(auth).then(() => window.location.reload());
-            };
-        } else {
-            btnLogin.style.display = 'flex';
-            userProfile.style.display = 'none';
-            
-            btnLogin.onclick = async () => {
-                const provider = new GoogleAuthProvider();
-                try {
-                    await signInWithPopup(auth, provider);
-                    // 로그인 성공 시 onAuthStateChanged가 처리함
-                } catch (e) { alert("로그인 실패: " + e.message); }
-            };
-        }
-    }
-}
-
-// 외부에서 Firebase 준비 대기용 함수
-window.waitForFirebase = function() {
-    return new Promise(resolve => {
-        if (window.AppState.isFirebaseReady) resolve();
-        else window.addEventListener('firebase-ready', () => resolve(), { once: true });
-    });
-};
-
-// =========================================================
-// Existing Logic (Modified for DataManager & Async Init)
-// =========================================================
 
 // URL 파라미터 유틸
 function getQueryParam(param) {
@@ -255,23 +10,38 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 
-// 음성 목록 캐싱 및 TTS (변경 없음)
+// 음성 목록 캐싱
 let availableVoices = [];   
+
 if (window.speechSynthesis) {
-    window.speechSynthesis.onvoiceschanged = () => { availableVoices = window.speechSynthesis.getVoices(); };
+    window.speechSynthesis.onvoiceschanged = () => {
+        availableVoices = window.speechSynthesis.getVoices();
+    };
 }
+
+// TTS 기능
 function speak(text) {
     if (!text) return;
     const tempDiv = document.createElement('div');
     tempDiv.innerHTML = text;
     tempDiv.querySelectorAll('rt, rp').forEach(el => el.remove());
     const cleanText = tempDiv.textContent || tempDiv.innerText;
+
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(cleanText);
-    utterance.lang = 'ja-JP'; utterance.rate = 0.9;
-    if (availableVoices.length === 0) availableVoices = window.speechSynthesis.getVoices();
+    utterance.lang = 'ja-JP'; 
+    utterance.rate = 0.9;
+
+    if (availableVoices.length === 0) {
+        availableVoices = window.speechSynthesis.getVoices();
+    }
     const jpVoices = availableVoices.filter(voice => voice.lang === 'ja-JP' || voice.lang === 'ja_JP');
-    let selectedVoice = jpVoices.find(v => v.name.includes('Google')) || jpVoices[0];
+    let selectedVoice = jpVoices.find(v => v.name.includes('Google')) 
+                     || jpVoices.find(v => v.name.includes('Microsoft'))
+                     || jpVoices.find(v => v.name.includes('Hattori'))
+                     || jpVoices.find(v => v.name.includes('O-ren'))
+                     || jpVoices[0];
+
     if (selectedVoice) utterance.voice = selectedVoice;
     window.speechSynthesis.speak(utterance);
 }
@@ -295,7 +65,7 @@ function getMergedData(level, fileData) {
     if (!fileData) fileData = {};
     const DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
     try {
-        const localStr = localStorage.getItem(DEV_KEY); // 개발 데이터는 로컬 전용 유지
+        const localStr = localStorage.getItem(DEV_KEY);
         if (localStr) {
             const parsed = JSON.parse(localStr);
             Object.keys(parsed).forEach(key => {
@@ -323,55 +93,64 @@ function getMergedData(level, fileData) {
 }
 
 // ----------------------------------------------------
-// Bookmark Logic (Updated to use DataManager)
+// Bookmark Logic (New)
 // ----------------------------------------------------
+const BOOKMARK_KEY = 'JLPT_BOOKMARKS';
+
 function getBookmarks() {
-    return DataManager.getBookmarks();
+    try {
+        return JSON.parse(localStorage.getItem(BOOKMARK_KEY) || '[]');
+    } catch (e) { return []; }
 }
 
 function isStarred(level, day, word) {
     const bookmarks = getBookmarks();
+    // 레벨, Day, 단어 텍스트가 모두 일치하면 별표 된 것으로 간주
     return bookmarks.some(b => b.level === level && b.day == day && b.word === word);
 }
 
 function toggleStar(level, day, wordData, btnElement) {
     let bookmarks = getBookmarks();
+    // 기존에 있는지 확인
     const existingIndex = bookmarks.findIndex(b => b.level === level && b.day == day && b.word === wordData.word);
     
-    if (existingIndex > -1) {
+    // 버튼 상태 UI 즉시 반영
+    const isActive = existingIndex > -1;
+
+    if (isActive) {
+        // 삭제
         bookmarks.splice(existingIndex, 1);
         if(btnElement) {
             btnElement.classList.remove('active');
-            btnElement.innerHTML = '☆';
+            btnElement.innerHTML = '☆'; // 빈 별
         }
     } else {
+        // 추가
         bookmarks.push({
-            level: level, day: day, word: wordData.word,
+            level: level,
+            day: day,
+            word: wordData.word,
             read: wordData.read || wordData.reading || '',
             mean: wordData.mean || wordData.meaning || '',
             addedAt: new Date().toISOString()
         });
         if(btnElement) {
             btnElement.classList.add('active');
-            btnElement.innerHTML = '★';
+            btnElement.innerHTML = '★'; // 꽉 찬 별
         }
     }
     
-    DataManager.saveBookmarks(bookmarks);
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+    
+    // 만약 현재 페이지가 모아보기 페이지라면 리스트 갱신 이벤트를 발생시킬 수도 있음
     if(window.refreshStarredList) window.refreshStarredList();
 }
 
 
 // ----------------------------------------------------
-// Viewer Controller (Updated for Async Init & DataManager)
+// Viewer Controller
 // ----------------------------------------------------
-
-// viewer.html에서 호출되는 메인 함수
-async function initViewer() {
-    // 1. Firebase 로드 대기
-    await window.waitForFirebase();
-
-    // 2. 기존 로직 실행
+function initViewer() {
     const level = getQueryParam('level') || 'n4';
     const day = getQueryParam('day');
     document.body.setAttribute('data-theme', level);
@@ -398,7 +177,7 @@ function renderViewerContent(level, day, data) {
     const badge = document.getElementById('badge-level');
     if (badge) badge.textContent = level.toUpperCase();
 
-    // Story Section (변경 없음)
+    // Story Section
     const storyContent = document.getElementById('story-content');
     const analysisList = document.getElementById('analysis-list');
     const storySection = document.getElementById('section-story') || (storyContent ? storyContent.closest('section') : null);
@@ -406,19 +185,27 @@ function renderViewerContent(level, day, data) {
     if (data.story && storyContent) {
         if(storySection) storySection.style.display = 'block';
         storyContent.innerHTML = data.story;
+        
         if(analysisList) {
             analysisList.innerHTML = '';
             data.analysis.forEach(item => {
                 const div = document.createElement('div');
                 div.className = 'analysis-item';
                 div.onclick = () => speak(item.sent);
-                div.innerHTML = `<div class="jp-sent">🔊 ${item.sent}</div><div class="kr-trans">${item.trans}</div>`;
+                div.innerHTML = `
+                    <div class="jp-sent">🔊 ${item.sent}</div>
+                    <div class="kr-trans">${item.trans}</div>
+                    <div class="tags">${(item.tags || []).map(t => `<span class="vocab-tag">${t}</span>`).join('')}</div>
+                    ${item.grammar ? `<div class="grammar-point">💡 ${item.grammar}</div>` : ''}
+                `;
                 analysisList.appendChild(div);
             });
         }
-    } else if (storySection) storySection.style.display = 'none';
+    } else if (storySection) {
+        storySection.style.display = 'none';
+    }
 
-    // Vocab Section (Updated for DataManager)
+    // Vocab Section (Updated with Stars)
     const vocabTbody = document.getElementById('vocab-tbody');
     const vocabSection = document.getElementById('section-vocab') || (vocabTbody ? vocabTbody.closest('section') : null);
 
@@ -428,12 +215,16 @@ function renderViewerContent(level, day, data) {
         data.vocab.forEach((v, idx) => {
             const tr = document.createElement('tr');
             
-            // [변경] DataManager 사용
+            // 체크박스 상태
             const checkId = `${level}_day${day}_v_${idx}`;
-            const isChecked = DataManager.get(checkId) === 'true';
+            const isChecked = localStorage.getItem(checkId) === 'true';
             
+            // 별표 상태
             const isStar = isStarred(level, day, v.word);
+            
             tr.className = isChecked ? 'checked-row' : '';
+            
+            // 데이터 객체를 JSON 문자열로 변환하여 onclick에 전달 (따옴표 이스케이프 주의)
             const vJson = JSON.stringify(v).replace(/"/g, '&quot;');
 
             tr.innerHTML = `
@@ -449,62 +240,81 @@ function renderViewerContent(level, day, data) {
                 <td class="col-mean"><span>${v.mean || v.meaning || ""}</span></td>
             `;
             
-            // [변경] 이벤트 리스너에서 DataManager 사용
             tr.querySelector('input[type="checkbox"]').addEventListener('change', (e) => {
-                if(e.target.checked) { 
-                    DataManager.set(checkId, 'true'); 
-                    tr.classList.add('checked-row'); 
-                } else { 
-                    DataManager.remove(checkId); 
-                    tr.classList.remove('checked-row'); 
-                }
+                if(e.target.checked) { localStorage.setItem(checkId, 'true'); tr.classList.add('checked-row'); }
+                else { localStorage.removeItem(checkId); tr.classList.remove('checked-row'); }
             });
             vocabTbody.appendChild(tr);
         });
         if(typeof renderFlashcards === 'function') renderFlashcards(data.vocab);
-    } else if (vocabSection) vocabSection.style.display = 'none';
+    } else if (vocabSection) {
+        vocabSection.style.display = 'none';
+    }
 
-    // Quiz Section (변경 없음)
+    // Quiz Section
     const quizContainer = document.getElementById('quiz-container');
     const quizSection = document.getElementById('section-quiz') || (quizContainer ? quizContainer.closest('section') : null);
 
     if (quizContainer && data.quiz && data.quiz.length > 0) {
         if(quizSection) quizSection.style.display = 'block';
         quizContainer.innerHTML = '';
+        
         data.quiz.forEach((q, i) => {
-            // ... (Quiz Rendering Code Omitted for Brevity - Same as before)
-            // 퀴즈 렌더링 로직은 기존 코드를 그대로 유지합니다.
             const div = document.createElement('div');
             div.className = 'quiz-item';
+            
             const qText = q.q || q.question || "";
             let opts = q.opt || q.options || [];
+            
             let ansIdx = -1;
-            if (typeof q.ans === 'number') ansIdx = q.ans;
-            else if (typeof q.ans === 'string') { const match = q.ans.match(/^(\d+)\./); if (match) ansIdx = parseInt(match[1]) - 1; }
+            if (typeof q.ans === 'number') {
+                ansIdx = q.ans;
+            } else if (typeof q.ans === 'string') {
+                const match = q.ans.match(/^(\d+)\./);
+                if (match) ansIdx = parseInt(match[1]) - 1;
+            }
+
             const comment = q.comment || "정답입니다!";
             const safeComment = comment.replace(/"/g, '&quot;'); 
 
             let html = `<div class="quiz-q">Q${i+1}. ${qText}</div>`;
+            
             if (Array.isArray(opts) && opts.length > 0) {
                 html += `<div class="quiz-options-grid">`;
                 opts.forEach((opt, oIdx) => {
-                    html += `<button class="quiz-opt-btn" data-is-correct="${oIdx === ansIdx}" data-correct-idx="${ansIdx}" data-comment="${safeComment}" onclick="checkAnswer(this)">${oIdx + 1}. ${opt}</button>`;
+                    html += `<button class="quiz-opt-btn" 
+                                data-is-correct="${oIdx === ansIdx}"
+                                data-correct-idx="${ansIdx}"
+                                data-comment="${safeComment}"
+                                onclick="checkAnswer(this)">
+                                ${oIdx + 1}. ${opt}
+                             </button>`;
                 });
-                html += `</div><div class="quiz-feedback" id="quiz-feedback-${i}"></div>`;
+                html += `</div>`;
+                html += `<div class="quiz-feedback" id="quiz-feedback-${i}"></div>`;
+                
+            } else {
+                html += `<div class="quiz-opt" style="background:#f9f9f9; padding:10px; margin-bottom:10px;">${opts}</div>`;
+                html += `<button class="btn-check-answer" onclick="this.nextElementSibling.classList.toggle('visible')">정답 확인</button>`;
+                html += `<div class="quiz-ans">${q.ans} <br><small>${comment}</small></div>`;
             }
+
             div.innerHTML = html;
             quizContainer.appendChild(div);
         });
-    } else if (quizSection) quizSection.style.display = 'none';
+    } else if (quizSection) {
+        quizSection.style.display = 'none';
+    }
 
     updateNavButtons(level, parseInt(day));
 }
 
-// 퀴즈 및 UI 헬퍼 함수들 (기존 유지)
+// [수정] 퀴즈 정답 체크 (Dataset 활용)
 function checkAnswer(btn) {
     const isCorrect = btn.dataset.isCorrect === 'true';
     const correctIdx = btn.dataset.correctIdx; 
     const comment = btn.dataset.comment;
+
     const parent = btn.parentElement; 
     const feedbackEl = parent.nextElementSibling;
     const allBtns = parent.querySelectorAll('.quiz-opt-btn');
@@ -543,6 +353,7 @@ function updateNavButtons(level, currentDay) {
     if (nextBtn) nextBtn.href = `viewer.html?level=${level}&day=${currentDay + 1}`;
 }
 
+// UI Helpers (Flashcard, Toggle)
 function toggleMeanings() {
     const table = document.getElementById('vocab-table');
     const btn = document.getElementById('btn-toggle-mean');
@@ -595,6 +406,3 @@ function showFlashcard(index) {
 function flipCard() { const card = document.getElementById('flashcard'); if(card) card.classList.toggle('flipped'); }
 function prevCard() { showFlashcard(currentCardIndex - 1); }
 function nextCard() { showFlashcard(currentCardIndex + 1); }
-
-// Initialize Firebase immediately
-initFirebase();
