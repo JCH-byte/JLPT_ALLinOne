@@ -209,7 +209,7 @@ function scheduleFirestoreWrite() {
 // 4. UI Helper Functions (Updated for Top-Right Auth)
 function updateAuthUI(user) {
     // 1. 사이드바용 요소 (Mobile fallback or if exists)
-    const btnLogin = document.getElementById('btn-login'); // Old sidebar button
+    const btnLogin = document.getElementById('btn-login'); 
     
     // 2. 상단 플로팅 요소 (New)
     const btnTopLogin = document.getElementById('btn-top-login');
@@ -430,7 +430,7 @@ function renderViewerContent(level, day, data) {
     const badge = document.getElementById('badge-level');
     if (badge) badge.textContent = level.toUpperCase();
 
-    // Story Section (변경 없음)
+    // Story Section (Fixed: Analysis rendering restoration)
     const storyContent = document.getElementById('story-content');
     const analysisList = document.getElementById('analysis-list');
     const storySection = document.getElementById('section-story') || (storyContent ? storyContent.closest('section') : null);
@@ -444,7 +444,13 @@ function renderViewerContent(level, day, data) {
                 const div = document.createElement('div');
                 div.className = 'analysis-item';
                 div.onclick = () => speak(item.sent);
-                div.innerHTML = `<div class="jp-sent">🔊 ${item.sent}</div><div class="kr-trans">${item.trans}</div>`;
+                // [복구 완료] 태그와 문법 포인트 표시 로직 복원
+                div.innerHTML = `
+                    <div class="jp-sent">🔊 ${item.sent}</div>
+                    <div class="kr-trans">${item.trans}</div>
+                    <div class="tags">${(item.tags || []).map(t => `<span class="vocab-tag">${t}</span>`).join('')}</div>
+                    ${item.grammar ? `<div class="grammar-point">💡 ${item.grammar}</div>` : ''}
+                `;
                 analysisList.appendChild(div);
             });
         }
@@ -504,8 +510,6 @@ function renderViewerContent(level, day, data) {
         if(quizSection) quizSection.style.display = 'block';
         quizContainer.innerHTML = '';
         data.quiz.forEach((q, i) => {
-            // ... (Quiz Rendering Code Omitted for Brevity - Same as before)
-            // 퀴즈 렌더링 로직은 기존 코드를 그대로 유지합니다.
             const div = document.createElement('div');
             div.className = 'quiz-item';
             const qText = q.q || q.question || "";
