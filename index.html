@@ -12,7 +12,22 @@
         <div class="sidebar-header">
             <h1 class="app-title">JLPT 마스터</h1>
             
-            <!-- Bookmark Button (New) -->
+            <!-- Auth Section (New) -->
+            <div id="auth-container" style="padding: 0 10px 10px 10px;">
+                <button id="btn-login" style="width:100%; padding:10px; background:#4285F4; color:white; border:none; border-radius:8px; cursor:pointer; font-weight:bold; display:flex; align-items:center; justify-content:center; gap:8px;">
+                    <span style="background:white; border-radius:50%; padding:2px; width:16px; height:16px; display:flex; align-items:center; justify-content:center; color:#4285F4;">G</span>
+                    Google 로그인
+                </button>
+                <div id="user-profile" style="display:none; align-items:center; gap:10px; padding:5px;">
+                    <img id="user-photo" src="" alt="Profile" style="width:32px; height:32px; border-radius:50%;">
+                    <div style="flex:1; overflow:hidden;">
+                        <div id="user-name" style="font-size:0.9rem; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">User</div>
+                        <button id="btn-logout" style="font-size:0.75rem; color:#666; background:none; border:none; padding:0; cursor:pointer; text-decoration:underline;">로그아웃</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bookmark Button -->
             <div style="padding: 0 10px 10px 10px;">
                 <button onclick="loadStarredPage()" style="width:100%; padding:10px; background:#673AB7; color:white; border:none; border-radius:8px; cursor:pointer; font-weight:bold;">
                     ⭐ 나만의 단어장 보기
@@ -61,24 +76,29 @@
     <script>
         let currentLevel = localStorage.getItem('last_level') || 'n4';
 
+        // common.js가 비동기로 초기화되므로 대기 후 실행
         function initDashboard() {
-            switchLevel(currentLevel);
+            // Firebase 로드가 완료될 때까지 기다렸다가 UI 초기화
+            if (window.waitForFirebase) {
+                window.waitForFirebase().then(() => {
+                    switchLevel(currentLevel);
+                });
+            } else {
+                switchLevel(currentLevel);
+            }
         }
 
         function switchLevel(level) {
             currentLevel = level;
             localStorage.setItem('last_level', level);
             
-            // 테마 적용 (사이드바 색상 변경 등)
             document.body.setAttribute('data-theme', level);
             
-            // 탭 활성화
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.textContent.toLowerCase() === level);
             });
             document.getElementById('level-title').textContent = `${level.toUpperCase()} 진행률`;
 
-            // 데이터 동적 로드 후 리스트 그리기
             loadLevelData(level, (fileData) => {
                 renderList(level, fileData);
             });
@@ -88,10 +108,7 @@
             const list = document.getElementById('day-list');
             list.innerHTML = '';
 
-            // 데이터 병합 (프리뷰 포함)
             const allData = getMergedData(level, fileData);
-            
-            // 키 정렬 (숫자 기준)
             const days = Object.keys(allData).sort((a,b) => parseInt(a)-parseInt(b));
 
             if (days.length === 0) {
@@ -107,7 +124,10 @@
             days.forEach(day => {
                 const data = allData[day];
                 const checkKey = `${level}_day${day}_complete`;
-                const isDone = localStorage.getItem(checkKey) === 'true';
+                
+                // [변경] localStorage 직접 접근 대신 DataManager 사용 (Global wrapper 사용)
+                const isDone = window.DataManager ? window.DataManager.get(checkKey) === 'true' : localStorage.getItem(checkKey) === 'true';
+                
                 if(isDone) doneCount++;
 
                 const li = document.createElement('li');
@@ -126,10 +146,11 @@
                 list.appendChild(li);
             });
 
-            // 마지막 방문 위치 로드 (초기 로드 시에만 작동하도록 개선 가능)
-            // 현재는 나만의 단어장을 보고 있다가 새로고침하면 마지막 Day로 가는 구조 유지
+            // 마지막 위치 복원 로직
             const lastDay = localStorage.getItem(`${level}_last_day`);
-            if (lastDay && allData[lastDay] && !document.getElementById('content-frame').src.includes('starred.html')) {
+            const frame = document.getElementById('content-frame');
+            // iframe src가 비어있거나, 이미 로드된 페이지가 없을 때만 초기 로드 수행
+            if (lastDay && allData[lastDay] && (!frame.src || frame.src === 'about:blank')) {
                  loadFrame(level, lastDay);
             }
 
@@ -140,7 +161,6 @@
             const frame = document.getElementById('content-frame');
             frame.src = `viewer.html?level=${level}&day=${day}`;
             
-            // 사이드바 선택 효과
             document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
             const activeItem = document.getElementById(`nav-day-${day}`);
             if(activeItem) activeItem.classList.add('active');
@@ -149,20 +169,26 @@
             if(window.innerWidth <= 768) toggleSidebar();
         }
 
-        // [New] 나만의 단어장 로드 함수
         function loadStarredPage() {
             const frame = document.getElementById('content-frame');
             frame.src = 'starred.html';
-            
-            // 사이드바 선택 해제
             document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
             if(window.innerWidth <= 768) toggleSidebar();
         }
 
         function toggleComplete(level, day, checkbox) {
             const key = `${level}_day${day}_complete`;
-            if(checkbox.checked) localStorage.setItem(key, 'true');
-            else localStorage.removeItem(key);
+            
+            // [변경] DataManager를 통한 저장
+            if (window.DataManager) {
+                if(checkbox.checked) window.DataManager.set(key, 'true');
+                else window.DataManager.remove(key);
+            } else {
+                if(checkbox.checked) localStorage.setItem(key, 'true');
+                else localStorage.removeItem(key);
+            }
+            
+            // UI 갱신 (진행률 등)
             switchLevel(level); 
         }
 
