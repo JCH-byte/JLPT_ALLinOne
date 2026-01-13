@@ -3,116 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JLPT 학습 뷰어</title>
+    <title>JLPT Viewer</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome -->
+    <!-- Font Awesome for Icons (Optional) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <div class="viewer-container">
-        <!-- 상단 네비게이션 -->
-        <div class="top-nav">
-            <button class="nav-btn" onclick="goBack()"><i class="fas fa-arrow-left"></i> 목록으로</button>
-            <div class="controls">
-                <button class="control-btn" onclick="toggleTheme()"><i class="fas fa-adjust"></i></button>
-                <button class="control-btn" onclick="toggleSettings()"><i class="fas fa-cog"></i></button>
+<body class="viewer-mode">
+    
+    <div id="viewer-content">
+        <header class="viewer-header">
+            <div class="header-badges">
+                <span class="badge-level" id="badge-level">JLPT</span>
             </div>
-        </div>
+            <h1 id="header-title">Loading...</h1>
+        </header>
 
-        <!-- 메인 학습 카드 -->
-        <div class="card-container">
-            <div id="flashcard" class="flashcard">
-                <div class="card-content">
-                    <div class="sentence-area">
-                        <h2 id="sentence-display">문장을 로딩 중...</h2>
-                        <!-- 힌트/후리가나 토글 버튼 -->
-                        <button class="hint-toggle" onclick="toggleFurigana()">
-                            <i class="fas fa-eye"></i> 후리가나
-                        </button>
-                    </div>
-                    
-                    <div class="action-area">
-                        <button class="action-btn main-btn" onclick="showAnalysisModal(currentIndex)">
-                            <i class="fas fa-search"></i> 구문 분석
-                        </button>
-                    </div>
-
-                    <div class="navigation-area">
-                        <button class="nav-arrow" onclick="prevCard()"><i class="fas fa-chevron-left"></i></button>
-                        <span id="progress-display">1 / 100</span>
-                        <button class="nav-arrow" onclick="nextCard()"><i class="fas fa-chevron-right"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 하단 컨트롤 바 -->
-        <div class="bottom-controls">
-            <button class="bottom-btn" onclick="toggleStar(currentIndex)">
-                <i id="star-btn-icon" class="far fa-star"></i> 중요
-            </button>
-            <button class="bottom-btn" onclick="playAudio()">
-                <i class="fas fa-volume-up"></i> 듣기
-            </button>
-            <button class="bottom-btn" onclick="shuffleCards()">
-                <i class="fas fa-random"></i> 섞기
-            </button>
-        </div>
-    </div>
-
-    <!-- 구문 분석 모달 -->
-    <div id="analysisModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeAnalysisModal()">&times;</span>
-            <h3 class="modal-title">구문 분석</h3>
+        <!-- Section 1: Story (Conditional) -->
+        <section id="section-story" class="study-section" style="display:none;">
+            <h2 class="section-title"><i class="fas fa-book-open"></i> 문맥으로 익히기</h2>
+            <div id="story-content" class="story-box"></div>
             
-            <div class="modal-body">
-                <div class="modal-sentence-box">
-                    <p id="modal-sentence" class="jp-text"></p>
-                </div>
+            <h3 class="sub-title">📌 구문 분석</h3>
+            <div id="analysis-list"></div>
+        </section>
+
+        <!-- Section 2: Vocabulary -->
+        <section id="section-vocab" class="study-section">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-font"></i> 핵심 단어</h2>
                 
-                <div class="modal-meaning-box">
-                    <h4>해석</h4>
-                    <p id="modal-meaning"></p>
-                </div>
-
-                <!-- 문법 영역 추가됨 -->
-                <div id="modal-grammar-box" class="modal-grammar-box" style="display: none;">
-                    <h4><i class="fas fa-book"></i> 문법 포인트</h4>
-                    <p id="modal-grammar"></p>
-                </div>
-
-                <div class="modal-vocab-box">
-                    <h4>주요 단어</h4>
-                    <ul id="modal-vocab-list" class="vocab-list"></ul>
+                <!-- View Mode Controls -->
+                <div class="view-controls">
+                    <button id="btn-mode-list" class="control-btn active" onclick="toggleViewMode('list')"><i class="fas fa-list"></i> 리스트</button>
+                    <button id="btn-mode-card" class="control-btn" onclick="toggleViewMode('card')"><i class="fas fa-layer-group"></i> 카드</button>
                 </div>
             </div>
+
+            <!-- List View -->
+            <div id="view-list">
+                <div class="toolbar">
+                    <button id="btn-toggle-mean" class="tool-btn" onclick="toggleMeanings()">🙈 뜻 가리기</button>
+                </div>
+                <table id="vocab-table">
+                    <thead>
+                        <tr>
+                            <th width="40">★</th>
+                            <th width="40"><i class="fas fa-check"></i></th>
+                            <th>단어</th>
+                            <th>읽기</th>
+                            <th class="col-mean-header">의미</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vocab-tbody"></tbody>
+                </table>
+            </div>
+
+            <!-- Flashcard View -->
+            <div id="view-card" style="display:none;">
+                <div class="flashcard-container">
+                    <button class="nav-arrow left" onclick="prevCard()">❮</button>
+                    
+                    <div class="flashcard" id="flashcard" onclick="flipCard()">
+                        <div class="card-face card-front">
+                            <!-- JS Injected -->
+                        </div>
+                        <div class="card-face card-back">
+                            <!-- JS Injected -->
+                        </div>
+                    </div>
+
+                    <button class="nav-arrow right" onclick="nextCard()">❯</button>
+                </div>
+                <div id="card-counter" class="card-counter">1 / 10</div>
+                <p class="card-tip">카드를 클릭하면 뒤집힙니다</p>
+            </div>
+        </section>
+
+        <!-- Section 3: Quiz (Conditional) -->
+        <section id="section-quiz" class="study-section" style="display:none;">
+            <h2 class="section-title"><i class="fas fa-pencil-alt"></i> 실력 확인</h2>
+            <div id="quiz-container" class="quiz-container"></div>
+        </section>
+
+        <!-- Navigation Footer -->
+        <div class="nav-buttons">
+            <a href="#" id="btn-prev" class="nav-btn prev">
+                <span class="small">이전 Day</span>
+            </a>
+            <a href="index.html" target="_parent" class="nav-btn list">
+                <i class="fas fa-bars"></i> 목록
+            </a>
+            <a href="#" id="btn-next" class="nav-btn next">
+                <span class="small">다음 Day</span>
+            </a>
         </div>
     </div>
 
-    <!-- 설정 모달 -->
-    <div id="settingsModal" class="modal">
-        <div class="modal-content small-modal">
-            <span class="close-btn" onclick="toggleSettings()">&times;</span>
-            <h3>학습 설정</h3>
-            <div class="setting-item">
-                <label>자동 재생</label>
-                <input type="checkbox" id="auto-play-check">
-            </div>
-            <div class="setting-item">
-                <label>카드 뒤집기 효과</label>
-                <input type="checkbox" id="flip-effect-check" checked>
-            </div>
-        </div>
-    </div>
-
-    <!-- 데이터 스크립트 로드 (URL 파라미터에 따라 동적 로드되지만 기본 구조는 유지) -->
     <script src="common.js"></script>
     <script>
-        // 페이지 로드 시 초기화
-        window.onload = function() {
-            initViewer();
-        };
+        document.addEventListener('DOMContentLoaded', initViewer);
     </script>
 </body>
 </html>
