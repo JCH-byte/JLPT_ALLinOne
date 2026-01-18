@@ -146,7 +146,13 @@ window.FirebaseBridge = {
             await signInWithPopup(auth, provider);
         } catch (error) {
             console.error("Login failed", error);
-            alert("로그인 실패: " + error.message);
+            if (error.code === 'auth/unauthorized-domain') {
+                const currentDomain = window.location.hostname;
+                alert(`[Firebase 설정 필요]\n현재 도메인이 승인되지 않았습니다.\n\nFirebase Console > Authentication > Settings > Authorized Domains에 아래 도메인을 추가해주세요:\n\n${currentDomain}`);
+                prompt("복사해서 설정에 추가하세요:", currentDomain);
+            } else {
+                alert("로그인 실패: " + error.message);
+            }
         }
     },
 
