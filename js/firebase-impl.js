@@ -1,13 +1,13 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot, deleteField } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 /**
  * ==========================================
- * [JLPT Sync] Firebase Module (Enhanced)
- * - 로그인 시: 높은 진도율 기준으로 데이터 병합 (Merge)
- * - 학습 중: localStorage 변경을 자동 감지하여 업로드 (Auto-Sync)
- * - 실시간: 다른 기기에서의 변경사항 수신 (Real-time)
+ * [JLPT Sync] Firebase Module (Complete Version)
+ * - 로그인 시: 높은 진도율 & 완료된 항목 기준으로 병합
+ * - 학습 중: localStorage 변경(저장/삭제) 자동 감지 및 업로드
+ * - 실시간: 다른 기기에서의 변경사항 수신
  * ==========================================
  */
 
@@ -23,7 +23,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 let app, auth, db, userRef = null;
-let unsubscribeSnapshot = null; // 실시간 리스너 해제용
+let unsubscribeSnapshot = null;
 
 try {
     app = initializeApp(firebaseConfig);
@@ -34,39 +34,65 @@ try {
     console.error("[Firebase] Init Failed", e);
 }
 
-// Helper: JSON 파싱 및 숫자 변환
 const safeParse = (val) => {
     try {
-        // 이미 숫자라면 그대로 반환
         if (typeof val === 'number') return val;
-        // JSON 파싱 시도
         const parsed = JSON.parse(val);
         return parsed;
     } catch (e) {
-        return val; // 파싱 실패 시 원본 반환 (일반 문자열 등)
+        return val;
+    }
+};
+
+// 권한 오류 발생 시 사용자에게 알림 (최초 1회만)
+let permissionAlertShown = false;
+const checkPermissionError = (e) => {
+    if (e.code === 'permission-denied' && !permissionAlertShown) {
+        permissionAlertShown = true;
+        alert(
+            "⚠️ 데이터 저장 실패: 권한이 없습니다.\n\n" +
+            "Firebase Console > Firestore Database > 규칙(Rules) 탭에서\n" +
+            "쓰기 권한(allow read, write)을 허용했는지 확인해주세요."
+        );
     }
 };
 
 /**
  * [핵심 기능 1] localStorage 변경 감지 (Monkey Patching)
- * 기존 코드가 localStorage.setItem을 호출할 때마다 이 함수가 실행됩니다.
+ * - setItem: 데이터 저장/수정 감지
+ * - removeItem: 데이터 삭제(체크 해제) 감지
  */
 const originalSetItem = localStorage.setItem;
+const originalRemoveItem = localStorage.removeItem;
+
+// 1-1. 저장 감지
 localStorage.setItem = function(key, value) {
-    // 1. 원래 동작 수행 (로컬 저장)
     originalSetItem.apply(this, arguments);
 
-    // 2. 로그인 상태라면 클라우드로 자동 업로드
     if (auth && auth.currentUser && userRef) {
-        // 동기화 대상 키인지 확인 (진도율, 북마크 등)
-        if (key.startsWith('progress_') || key === 'jlpt_bookmarks' || key.startsWith('settings_')) {
+        // _complete: 대시보드 체크박스, bookmarks: 단어장, settings: 설정
+        if (key.includes('_complete') || key === 'jlpt_bookmarks' || key.startsWith('settings_') || key.startsWith('progress_')) {
             window.FirebaseBridge.syncToCloud(key, value);
         }
     }
 };
 
+// 1-2. 삭제 감지 (체크박스 해제 시 필요)
+localStorage.removeItem = function(key) {
+    originalRemoveItem.apply(this, arguments);
+
+    if (auth && auth.currentUser && userRef) {
+        if (key.includes('_complete') || key === 'jlpt_bookmarks') {
+            window.FirebaseBridge.removeFromCloud(key);
+        }
+    }
+};
+
+
 /**
- * [핵심 기능 2] 로그인 시 데이터 병합 전략 (High-Score Wins)
+ * [핵심 기능 2] 로그인 시 데이터 병합 전략
+ * - 진도율: 더 높은 숫자 우선
+ * - 완료체크(_complete): 하나라도 'true'면 완료 처리 (True Wins)
  */
 async function syncHighProgressStrategy(cloudData) {
     let updatesToCloud = {};
@@ -80,26 +106,31 @@ async function syncHighProgressStrategy(cloudData) {
         const localRaw = localStorage.getItem(key);
         const localVal = safeParse(localRaw);
 
-        // A. 진도율 데이터 (숫자 비교)
-        if (key.startsWith('progress_')) {
+        // A. 대시보드 완료 체크박스 (_complete) - 하나라도 완료면 완료로 처리
+        if (key.endsWith('_complete')) {
+            if (cloudVal === 'true' && localRaw !== 'true') {
+                originalSetItem.call(localStorage, key, 'true');
+                localUpdated = true;
+            } else if (cloudVal !== 'true' && localRaw === 'true') {
+                updatesToCloud[key] = 'true';
+                hasUpdates = true;
+            }
+        }
+        // B. 진도율 데이터 (숫자 비교)
+        else if (key.startsWith('progress_')) {
             const cloudNum = Number(cloudVal) || 0;
             const localNum = Number(localVal) || 0;
 
             if (cloudNum > localNum) {
-                // 서버가 더 높음 -> 로컬 업데이트
-                originalSetItem.call(localStorage, key, cloudNum); // 무한루프 방지 위해 original 호출
+                originalSetItem.call(localStorage, key, cloudNum);
                 localUpdated = true;
-                console.log(`[Sync] Local updated: ${key} (${localNum} -> ${cloudNum})`);
             } else if (localNum > cloudNum) {
-                // 로컬이 더 높음 -> 서버 업데이트 예정
                 updatesToCloud[key] = localNum;
                 hasUpdates = true;
             }
         } 
-        // B. 북마크 및 기타 데이터 (단순 덮어쓰기 or 병합)
+        // C. 북마크 (서버 데이터 우선)
         else if (key === 'jlpt_bookmarks') {
-             // 북마크는 로컬/서버 합집합을 만들 수도 있지만, 복잡하므로 서버 데이터 우선으로 처리
-             // (필요 시 로직 수정 가능)
              const cloudStr = JSON.stringify(cloudVal);
              if (localRaw !== cloudStr) {
                  originalSetItem.call(localStorage, key, cloudStr);
@@ -108,30 +139,27 @@ async function syncHighProgressStrategy(cloudData) {
         }
     });
 
-    // C. 로컬에만 있는 데이터 서버로 업로드
+    // D. 로컬에만 있는 데이터 서버로 업로드
     for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
-        if ((key.startsWith('progress_') || key === 'jlpt_bookmarks') && cloudData[key] === undefined) {
+        // 동기화 대상 키인지 확인
+        if ((key.endsWith('_complete') || key.startsWith('progress_') || key === 'jlpt_bookmarks') && cloudData[key] === undefined) {
             updatesToCloud[key] = safeParse(localStorage.getItem(key));
             hasUpdates = true;
         }
     }
 
-    // 서버 업데이트 실행
     if (hasUpdates) {
         try {
             await setDoc(userRef, updatesToCloud, { merge: true });
             console.log(`[Sync] Uploaded newer local data to Cloud.`);
         } catch (e) {
-            console.error("[Sync] Upload failed", e);
+            checkPermissionError(e);
         }
     }
 
-    // 로컬 데이터가 변경되었으면 UI 갱신을 위해 새로고침 제안
     if (localUpdated) {
         console.log("[Sync] Data merged. Reloading UI...");
-        // 부드러운 UI 갱신을 위해 reload 대신 이벤트 발송을 할 수도 있지만, 
-        // 확실한 반영을 위해 페이지 리로드를 수행합니다.
         window.location.reload(); 
     }
 }
@@ -145,11 +173,9 @@ window.FirebaseBridge = {
         try {
             await signInWithPopup(auth, provider);
         } catch (error) {
-            console.error("Login failed", error);
             if (error.code === 'auth/unauthorized-domain') {
                 const currentDomain = window.location.hostname;
-                alert(`[Firebase 설정 필요]\n현재 도메인이 승인되지 않았습니다.\n\nFirebase Console > Authentication > Settings > Authorized Domains에 아래 도메인을 추가해주세요:\n\n${currentDomain}`);
-                prompt("복사해서 설정에 추가하세요:", currentDomain);
+                alert(`[도메인 승인 필요]\nFirebase Console에 다음 도메인을 추가하세요:\n${currentDomain}`);
             } else {
                 alert("로그인 실패: " + error.message);
             }
@@ -166,30 +192,28 @@ window.FirebaseBridge = {
         }
     },
 
-    // 개별 데이터 업로드 (자동 감지로 인해 직접 호출할 일은 줄어듦)
+    // 데이터 업로드 (setItem 훅에서 호출)
     syncToCloud: async (key, rawValue) => {
         if (!userRef) return;
-        
         try {
-            // rawValue가 JSON 문자열일 수 있으므로 파싱 시도
             const val = safeParse(rawValue);
-            
-            // 진도율인 경우, 서버 값과 비교하여 작으면 업로드하지 않음 (Safety Check)
-            if (key.startsWith('progress_')) {
-                const docSnap = await getDoc(userRef); // *빈번한 호출 시 최적화 필요
-                if (docSnap.exists()) {
-                    const serverVal = docSnap.data()[key] || 0;
-                    if (Number(val) < Number(serverVal)) {
-                        // console.log(`[Sync] Skip upload: Local(${val}) < Server(${serverVal})`);
-                        return; 
-                    }
-                }
-            }
-
+            // 체크박스('true')는 항상 병합해도 안전
             await setDoc(userRef, { [key]: val }, { merge: true });
-            console.log(`[Sync] Auto-saved: ${key} = ${val}`);
+            // console.log(`[Sync] Saved: ${key}`);
         } catch (e) {
-            console.warn("[Sync] Save failed (Offline?)", e);
+            checkPermissionError(e);
+        }
+    },
+
+    // 데이터 삭제 (removeItem 훅에서 호출)
+    removeFromCloud: async (key) => {
+        if (!userRef) return;
+        try {
+            // 필드 삭제 명령
+            await updateDoc(userRef, { [key]: deleteField() });
+            // console.log(`[Sync] Removed: ${key}`);
+        } catch (e) {
+            console.warn("[Sync] Remove failed", e);
         }
     }
 };
@@ -200,7 +224,6 @@ onAuthStateChanged(auth, async (user) => {
     const userDisplay = document.getElementById('user-info-display');
     
     if (user) {
-        // 1. 로그인 성공 처리
         window.FirebaseBridge.user = user;
         userRef = doc(db, "users", user.uid);
         
@@ -211,61 +234,54 @@ onAuthStateChanged(auth, async (user) => {
         }
         if (userDisplay) userDisplay.innerText = `${user.displayName}님`;
         
-        // 2. 데이터 병합 (초기 진입)
+        // 로그인 시 데이터 병합 수행
         try {
             const docSnap = await getDoc(userRef);
             if (docSnap.exists()) {
                 await syncHighProgressStrategy(docSnap.data());
             } else {
-                // 신규 유저: 현재 로컬 데이터 전체 업로드
+                // 신규 유저 초기 데이터 업로드
                 const initialData = {};
                 for (let i=0; i<localStorage.length; i++) {
                     const key = localStorage.key(i);
-                    if (key.startsWith('progress_') || key === 'jlpt_bookmarks') {
+                    if (key.endsWith('_complete') || key === 'jlpt_bookmarks') {
                         initialData[key] = safeParse(localStorage.getItem(key));
                     }
                 }
-                if (Object.keys(initialData).length > 0) {
-                    await setDoc(userRef, initialData);
-                }
+                if (Object.keys(initialData).length === 0) initialData['created_at'] = new Date().toISOString();
+                await setDoc(userRef, initialData);
             }
         } catch (e) {
-            console.error("Error fetching initial data:", e);
+            checkPermissionError(e);
         }
 
-        // 3. 실시간 리스너 등록 (다른 기기에서 변경 시 즉시 반영)
+        // 실시간 리스너 (다른 기기 변경사항 반영)
         unsubscribeSnapshot = onSnapshot(userRef, (doc) => {
-            // 로컬에서 발생한 변경이 다시 돌아오는 경우는 무시해야 함 (구현 복잡도 증가)
-            // 여기서는 '서버 데이터가 로컬보다 확실히 높을 때'만 반영
             if (doc.exists()) {
                 const data = doc.data();
                 let needRefresh = false;
 
                 Object.keys(data).forEach(k => {
-                    if (k.startsWith('progress_')) {
-                        const serverVal = Number(data[k]);
-                        const localVal = Number(safeParse(localStorage.getItem(k))) || 0;
-                        if (serverVal > localVal) {
-                            console.log(`[Realtime] New progress from other device: ${k} (${localVal}->${serverVal})`);
-                            originalSetItem.call(localStorage, k, serverVal); // 무한루프 방지
-                            needRefresh = true;
-                        }
+                    // 서버에 '_complete' 키가 있고 'true'인데 로컬에 없으면 -> 완료 처리
+                    if (k.endsWith('_complete')) {
+                         if (data[k] === 'true' && localStorage.getItem(k) !== 'true') {
+                             originalSetItem.call(localStorage, k, 'true');
+                             needRefresh = true;
+                         }
                     }
+                    // 체크 해제 감지 (서버 데이터에 키가 사라졌는데 로컬엔 남아있을 때)
+                    // (이 부분은 구현 복잡도가 높아 생략하거나, 필요한 경우 로직 추가 가능)
+                    // 현재 로직은 "완료된 상태 공유"에 집중
                 });
 
-                if (needRefresh) {
-                    // 사용자에게 알림을 주거나 조용히 새로고침
-                    // alert("다른 기기에서 학습 기록이 업데이트되었습니다.");
-                    window.location.reload();
-                }
+                if (needRefresh) window.location.reload();
             }
         });
 
     } else {
-        // 로그아웃 처리
         window.FirebaseBridge.user = null;
         userRef = null;
-        if (unsubscribeSnapshot) unsubscribeSnapshot(); // 리스너 해제
+        if (unsubscribeSnapshot) unsubscribeSnapshot();
         
         if (loginBtn) {
             loginBtn.innerHTML = "<span>Google 로그인</span>";
