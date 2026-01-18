@@ -1,0 +1,40 @@
+/* =========================================
+   base.css
+   기능: 폰트 임포트, 전역 변수(:root), 레벨별 테마, 기본 리셋
+   ========================================= */
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+:root {
+    /* Theme Colors & Vars */
+    --primary: #4CAF50;
+    --primary-dark: #2E7D32;
+    --secondary: #8BC34A;
+    --bg-accent: #E8F5E9;
+    --bg-highlight: #F1F8E9;
+    
+    --text-main: #333;
+    --text-sub: #666;
+    --bg-body: #f8f9fa;
+    --bg-white: #ffffff;
+    --border: #e0e0e0;
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    --radius: 12px;
+    --font-main: 'Pretendard', sans-serif;
+}
+
+/* --- 레벨별 테마 정의 --- */
+[data-theme="n5"] { --primary: #FFC107; --primary-dark: #FFA000; --secondary: #FFD54F; --bg-accent: #FFF8E1; --bg-highlight: #FFECB3; }
+[data-theme="n4"] { --primary: #4CAF50; --primary-dark: #388E3C; --secondary: #8BC34A; --bg-accent: #E8F5E9; --bg-highlight: #F1F8E9; }
+[data-theme="n3"] { --primary: #2196F3; --primary-dark: #1976D2; --secondary: #64B5F6; --bg-accent: #E3F2FD; --bg-highlight: #E1F5FE; }
+[data-theme="n2"] { --primary: #FF9800; --primary-dark: #F57C00; --secondary: #FFB74D; --bg-accent: #FFF3E0; --bg-highlight: #FFE0B2; }
+[data-theme="n1"] { --primary: #F44336; --primary-dark: #D32F2F; --secondary: #E57373; --bg-accent: #FFEBEE; --bg-highlight: #FFCDD2; }
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-main);
+    background: var(--bg-body);
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}

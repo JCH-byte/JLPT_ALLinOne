@@ -1,0 +1,74 @@
+/* =========================================
+   mobile.css
+   기능: 모바일 화면에서의 레이아웃 조정 (테이블 -> 카드형 변환 등)
+   ========================================= */
+
+@media (max-width: 600px) {
+    .viewer-mode { padding: 15px; }
+    .flashcard { width: 100%; height: 300px; }
+    
+    /* 네비게이션 세로 배치 */
+    .nav-buttons { flex-direction: column; gap: 15px; }
+    .nav-btn { width: 100%; justify-content: center; }
+    .nav-btn.list { order: -1; width: 100%; }
+    
+    .section-header { flex-direction: column; align-items: flex-start; }
+    .view-controls { margin-top: 10px; width: 100%; display: flex; }
+    .view-controls .control-btn { flex: 1; text-align: center; margin: 0 2px; }
+
+    /* [중요] 모바일 테이블을 카드 리스트로 변환 */
+    table, thead, tbody, th, td, tr { display: block; }
+    thead { display: none; } /* 헤더 숨김 */
+
+    tr {
+        display: flex;
+        flex-wrap: wrap; /* 줄바꿈 허용 */
+        align-items: center;
+        background: white;
+        margin-bottom: 12px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 12px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    }
+    
+    /* Hover 효과 제거 (터치 디바이스) */
+    tr:hover td { background-color: transparent; }
+    tr:hover { transform: none; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+
+    td { border: none; padding: 0; }
+
+    /* 1. 컨트롤 영역 (별표, 체크) */
+    .col-star, .col-check { width: auto; margin-right: 8px; }
+    
+    /* 2. 단어 (크게) */
+    .col-word {
+        flex: 1; /* 남은 공간 차지 */
+        font-size: 1.25rem;
+        color: var(--text-main);
+    }
+    
+    /* 3. 읽기 (단어 옆 또는 아래) */
+    .col-read {
+        font-size: 0.95rem; color: #888;
+        margin-left: auto; /* 우측 정렬 */
+    }
+
+    /* 4. 의미 (강제 줄바꿈) */
+    .col-mean {
+        width: 100%; /* 한 줄 전체 차지 */
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px dashed #eee;
+        color: var(--text-sub);
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+
+    /* 나만의 단어장에서 이동 버튼 처리 */
+    tr td:last-child a.tool-btn {
+        display: block; margin-top: 10px; text-align: center;
+        background: #f5f5f5; width: 100%;
+        box-sizing: border-box;
+    }
+}

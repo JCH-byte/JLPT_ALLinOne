@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>나만의 단어장</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- 분리된 CSS 파일 로드 -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/viewer.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    
+    <!-- FontAwesome (아이콘용) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="viewer-mode">
@@ -50,7 +57,7 @@
                         </tr>
                     </thead>
                     <tbody id="vocab-tbody">
-                        <!-- JS Injected -->
+                        <!-- JS Injected by starred-controller.js -->
                     </tbody>
                 </table>
                 <div id="empty-msg" style="display:none; text-align:center; padding:50px; color:#999;">
@@ -59,6 +66,7 @@
             </div>
         </section>
 
+        <!-- 네비게이션: 홈으로 돌아가기 -->
         <div class="nav-buttons">
             <a href="index.html" target="_parent" class="nav-btn list" style="width:100%; justify-content:center;">
                 <i class="fas fa-home"></i> 홈으로 돌아가기
@@ -66,88 +74,9 @@
         </div>
     </div>
 
-    <script src="common.js"></script>
-    <script>
-        let currentFilter = 'all';
-
-        function initStarredPage() {
-            setFilter('all');
-        }
-
-        function setFilter(filter) {
-            currentFilter = filter;
-            
-            // Tab UI Update
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                const text = btn.textContent.toLowerCase();
-                const isActive = (filter === 'all' && text === '전체') || (text === filter);
-                btn.classList.toggle('active', isActive);
-            });
-
-            // Theme Color Update
-            if(filter !== 'all') document.body.setAttribute('data-theme', filter);
-            else document.body.removeAttribute('data-theme');
-
-            refreshStarredList();
-        }
-
-        function refreshStarredList() {
-            const bookmarks = getBookmarks();
-            // 최신순 정렬 (addedAt 기준 내림차순)
-            bookmarks.sort((a, b) => new Date(b.addedAt || 0) - new Date(a.addedAt || 0));
-
-            const tbody = document.getElementById('vocab-tbody');
-            const emptyMsg = document.getElementById('empty-msg');
-            const table = document.getElementById('vocab-table');
-
-            tbody.innerHTML = '';
-
-            let count = 0;
-            bookmarks.forEach(item => {
-                if (currentFilter !== 'all' && item.level !== currentFilter) return;
-
-                count++;
-                const tr = document.createElement('tr');
-                const vJson = JSON.stringify(item).replace(/"/g, '&quot;');
-                
-                tr.innerHTML = `
-                    <td class="col-star">
-                        <button class="star-btn active" 
-                                onclick="removeAndRefresh('${item.level}', '${item.day}', ${vJson})">
-                            ★
-                        </button>
-                    </td>
-                    <td style="text-align:center;"><span class="badge-level" style="font-size:0.7rem; padding:2px 6px;">${item.level.toUpperCase()}</span></td>
-                    <td class="col-word" onclick="speak('${item.word}')">🔊 ${item.word}</td>
-                    <td class="col-read">${item.read}</td>
-                    <td class="col-mean"><span>${item.mean}</span></td>
-                    <td style="text-align:center;">
-                        <a href="viewer.html?level=${item.level}&day=${item.day}" class="tool-btn" style="text-decoration:none; font-size:0.8rem;">Day ${item.day}</a>
-                    </td>
-                `;
-                tbody.appendChild(tr);
-            });
-
-            if (count === 0) {
-                table.style.display = 'none';
-                emptyMsg.style.display = 'block';
-            } else {
-                table.style.display = 'table';
-                emptyMsg.style.display = 'none';
-            }
-        }
-
-        function removeAndRefresh(level, day, item) {
-            // toggleStar 함수는 이미 있으면 삭제함
-            toggleStar(level, day, item, null);
-            // 리스트 다시 그리기
-            refreshStarredList();
-        }
-
-        // 글로벌 함수 등록 (common.js에서 호출 가능하도록)
-        window.refreshStarredList = refreshStarredList;
-
-        document.addEventListener('DOMContentLoaded', initStarredPage);
-    </script>
+    <!-- 분리된 JS 파일 로드 (순서 중요) -->
+    <script src="js/utils.js"></script>
+    <script src="js/bookmark-service.js"></script>
+    <script src="js/starred-controller.js"></script>
 </body>
 </html>

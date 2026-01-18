@@ -4,7 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JLPT All-in-One</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- 분리된 CSS 파일 로드 -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    
+    <!-- 추가 스타일: 로그인 영역 -->
+    <style>
+        .user-auth-section {
+            padding: 15px 10px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .user-name-display {
+            display: block;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        .google-btn {
+            width: 100%;
+            padding: 8px;
+            background-color: #4285F4;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+        .google-btn:hover {
+            background-color: #357ae8;
+        }
+        .google-btn.logout {
+            background-color: #ef5350;
+        }
+        .google-btn.logout:hover {
+            background-color: #e53935;
+        }
+    </style>
 </head>
 <body class="dashboard-mode">
 
@@ -12,14 +56,22 @@
         <div class="sidebar-header">
             <h1 class="app-title">JLPT 마스터</h1>
             
-            <!-- Bookmark Button (New) -->
+            <!-- [추가됨] 구글 로그인 영역 -->
+            <div class="user-auth-section">
+                <span id="user-info-display" class="user-name-display"></span>
+                <button id="google-login-btn" class="google-btn">
+                    <span>Google 로그인</span>
+                </button>
+            </div>
+            
+            <!-- Bookmark Button -->
             <div style="padding: 0 10px 10px 10px;">
                 <button onclick="loadStarredPage()" style="width:100%; padding:10px; background:#673AB7; color:white; border:none; border-radius:8px; cursor:pointer; font-weight:bold;">
                     ⭐ 나만의 단어장 보기
                 </button>
             </div>
 
-            <!-- 5단계 탭 -->
+            <!-- 5단계 레벨 탭 -->
             <div class="level-tabs">
                 <button class="tab-btn" onclick="switchLevel('n5')">N5</button>
                 <button class="tab-btn" onclick="switchLevel('n4')">N4</button>
@@ -27,6 +79,8 @@
                 <button class="tab-btn" onclick="switchLevel('n2')">N2</button>
                 <button class="tab-btn" onclick="switchLevel('n1')">N1</button>
             </div>
+            
+            <!-- 진행률 표시 -->
             <div class="progress-section">
                 <div class="progress-card">
                     <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
@@ -40,6 +94,7 @@
             </div>
         </div>
 
+        <!-- Day 목록 리스트 -->
         <ul class="day-list" id="day-list">
             <li style="padding:20px; text-align:center; color:#999;">데이터 로딩 중...</li>
         </ul>
@@ -49,6 +104,7 @@
         </div>
     </aside>
 
+    <!-- 메인 콘텐츠 영역 -->
     <div class="main-content">
         <div class="mobile-header">
             <button onclick="toggleSidebar()" style="border:none; background:none; font-size:1.5rem;">☰</button>
@@ -57,126 +113,12 @@
         <iframe id="content-frame" name="content-frame"></iframe>
     </div>
 
-    <script src="common.js"></script>
-    <script>
-        let currentLevel = localStorage.getItem('last_level') || 'n4';
-
-        function initDashboard() {
-            switchLevel(currentLevel);
-        }
-
-        function switchLevel(level) {
-            currentLevel = level;
-            localStorage.setItem('last_level', level);
-            
-            // 테마 적용 (사이드바 색상 변경 등)
-            document.body.setAttribute('data-theme', level);
-            
-            // 탭 활성화
-            document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.textContent.toLowerCase() === level);
-            });
-            document.getElementById('level-title').textContent = `${level.toUpperCase()} 진행률`;
-
-            // 데이터 동적 로드 후 리스트 그리기
-            loadLevelData(level, (fileData) => {
-                renderList(level, fileData);
-            });
-        }
-
-        function renderList(level, fileData) {
-            const list = document.getElementById('day-list');
-            list.innerHTML = '';
-
-            // 데이터 병합 (프리뷰 포함)
-            const allData = getMergedData(level, fileData);
-            
-            // 키 정렬 (숫자 기준)
-            const days = Object.keys(allData).sort((a,b) => parseInt(a)-parseInt(b));
-
-            if (days.length === 0) {
-                list.innerHTML = `<li style="padding:20px; text-align:center; color:#666;">
-                    아직 ${level.toUpperCase()} 데이터 파일이 없습니다.<br>
-                    <code>data/${level}_data.js</code>를 생성해주세요.
-                </li>`;
-                updateProgress(level, 0, 0);
-                return;
-            }
-
-            let doneCount = 0;
-            days.forEach(day => {
-                const data = allData[day];
-                const checkKey = `${level}_day${day}_complete`;
-                const isDone = localStorage.getItem(checkKey) === 'true';
-                if(isDone) doneCount++;
-
-                const li = document.createElement('li');
-                li.className = `day-item ${isDone ? 'completed' : ''}`;
-                li.id = `nav-day-${day}`;
-                li.innerHTML = `
-                    <div class="day-info" onclick="loadFrame('${level}', '${day}')">
-                        <span style="font-weight:bold;">Day ${day}</span>
-                        <span style="display:block; font-size:0.8rem; color:#666;">${data.title}</span>
-                    </div>
-                    <label class="check-complete">
-                        <input type="checkbox" onchange="toggleComplete('${level}', '${day}', this)" ${isDone?'checked':''}>
-                        완료
-                    </label>
-                `;
-                list.appendChild(li);
-            });
-
-            // 마지막 방문 위치 로드 (초기 로드 시에만 작동하도록 개선 가능)
-            // 현재는 나만의 단어장을 보고 있다가 새로고침하면 마지막 Day로 가는 구조 유지
-            const lastDay = localStorage.getItem(`${level}_last_day`);
-            if (lastDay && allData[lastDay] && !document.getElementById('content-frame').src.includes('starred.html')) {
-                 loadFrame(level, lastDay);
-            }
-
-            updateProgress(level, doneCount, days.length);
-        }
-
-        function loadFrame(level, day) {
-            const frame = document.getElementById('content-frame');
-            frame.src = `viewer.html?level=${level}&day=${day}`;
-            
-            // 사이드바 선택 효과
-            document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
-            const activeItem = document.getElementById(`nav-day-${day}`);
-            if(activeItem) activeItem.classList.add('active');
-            
-            localStorage.setItem(`${level}_last_day`, day);
-            if(window.innerWidth <= 768) toggleSidebar();
-        }
-
-        // [New] 나만의 단어장 로드 함수
-        function loadStarredPage() {
-            const frame = document.getElementById('content-frame');
-            frame.src = 'starred.html';
-            
-            // 사이드바 선택 해제
-            document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
-            if(window.innerWidth <= 768) toggleSidebar();
-        }
-
-        function toggleComplete(level, day, checkbox) {
-            const key = `${level}_day${day}_complete`;
-            if(checkbox.checked) localStorage.setItem(key, 'true');
-            else localStorage.removeItem(key);
-            switchLevel(level); 
-        }
-
-        function updateProgress(level, done, total) {
-            const percent = total === 0 ? 0 : Math.round((done / total) * 100);
-            document.getElementById('progress-text').textContent = `${percent}%`;
-            document.getElementById('progress-bar').style.width = `${percent}%`;
-        }
-
-        function toggleSidebar() {
-            document.getElementById('sidebar').classList.toggle('show');
-        }
-
-        document.addEventListener('DOMContentLoaded', initDashboard);
-    </script>
+    <!-- 분리된 JS 파일 로드 -->
+    <script src="js/data-service.js"></script>
+    <script src="js/dashboard.js"></script>
+    
+    <!-- [추가됨] Firebase 모듈 (Type Module 필수) -->
+    <!-- firebase-impl.js 파일이 js 폴더 안에 있다고 가정합니다. 루트에 있다면 src="firebase-impl.js"로 변경하세요 -->
+    <script type="module" src="js/firebase-impl.js"></script>
 </body>
 </html>

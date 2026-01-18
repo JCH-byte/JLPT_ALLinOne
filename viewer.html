@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JLPT Viewer</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for Icons (Optional) -->
+    
+    <!-- 분리된 CSS 파일 로드 -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/viewer.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    
+    <!-- Font Awesome (아이콘용) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="viewer-mode">
@@ -99,8 +105,16 @@
         </div>
     </div>
 
-    <script src="common.js"></script>
+    <!-- 분리된 JS 파일 로드 (의존성 순서 중요) -->
+    <script src="js/utils.js"></script>
+    <script src="js/data-service.js"></script>
+    <script src="js/bookmark-service.js"></script>
+    <script src="js/quiz-controller.js"></script>
+    <script src="js/flashcard-controller.js"></script>
+    <script src="js/main-viewer.js"></script>
+    
     <script>
+        // DOM 로드 후 뷰어 초기화 실행
         document.addEventListener('DOMContentLoaded', initViewer);
     </script>
 </body>
