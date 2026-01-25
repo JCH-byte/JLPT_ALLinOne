@@ -11,6 +11,9 @@ import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot, deleteField }
  * ==========================================
  */
 
+// bookmark-service.js와 동일한 키 사용 (대소문자 중요)
+const BOOKMARK_KEY = 'JLPT_BOOKMARKS';
+
 const firebaseConfig = {
   apiKey: "AIzaSyDPKCmfvA_uepqu4MA8tzendnGRy-H6ZgI",
   authDomain: "jlpt-project-01.firebaseapp.com",
@@ -71,7 +74,8 @@ localStorage.setItem = function(key, value) {
 
     if (auth && auth.currentUser && userRef) {
         // _complete: 대시보드 체크박스, bookmarks: 단어장, settings: 설정
-        if (key.includes('_complete') || key === 'jlpt_bookmarks' || key.startsWith('settings_') || key.startsWith('progress_')) {
+        // [FIX] jlpt_bookmarks -> BOOKMARK_KEY (JLPT_BOOKMARKS) 로 수정
+        if (key.includes('_complete') || key === BOOKMARK_KEY || key.startsWith('settings_') || key.startsWith('progress_')) {
             window.FirebaseBridge.syncToCloud(key, value);
         }
     }
@@ -82,7 +86,7 @@ localStorage.removeItem = function(key) {
     originalRemoveItem.apply(this, arguments);
 
     if (auth && auth.currentUser && userRef) {
-        if (key.includes('_complete') || key === 'jlpt_bookmarks') {
+        if (key.includes('_complete') || key === BOOKMARK_KEY) {
             window.FirebaseBridge.removeFromCloud(key);
         }
     }
@@ -93,6 +97,7 @@ localStorage.removeItem = function(key) {
  * [핵심 기능 2] 로그인 시 데이터 병합 전략
  * - 진도율: 더 높은 숫자 우선
  * - 완료체크(_complete): 하나라도 'true'면 완료 처리 (True Wins)
+ * - [FIX] 단어장: 로컬과 서버 데이터를 합집합(Union)으로 병합
  */
 async function syncHighProgressStrategy(cloudData) {
     let updatesToCloud = {};
@@ -129,12 +134,33 @@ async function syncHighProgressStrategy(cloudData) {
                 hasUpdates = true;
             }
         } 
-        // C. 북마크 (서버 데이터 우선)
-        else if (key === 'jlpt_bookmarks') {
-             const cloudStr = JSON.stringify(cloudVal);
-             if (localRaw !== cloudStr) {
-                 originalSetItem.call(localStorage, key, cloudStr);
+        // C. [FIX] 북마크 (병합 로직 적용)
+        else if (key === BOOKMARK_KEY) {
+             const localList = Array.isArray(localVal) ? localVal : [];
+             const cloudList = Array.isArray(cloudVal) ? cloudVal : [];
+             
+             // 고유 키(level+day+word)로 중복 제거하며 병합
+             const mergedMap = new Map();
+             [...localList, ...cloudList].forEach(item => {
+                 const uniqueKey = `${item.level}-${item.day}-${item.word}`;
+                 // 이미 있다면 최신 addedAt을 가진 녀석을 선호하거나, 단순 덮어쓰기
+                 if (!mergedMap.has(uniqueKey)) {
+                     mergedMap.set(uniqueKey, item);
+                 }
+             });
+             
+             const mergedList = Array.from(mergedMap.values());
+             
+             // 병합된 결과가 로컬과 다르면 로컬 업데이트
+             if (JSON.stringify(localList) !== JSON.stringify(mergedList)) {
+                 originalSetItem.call(localStorage, key, JSON.stringify(mergedList));
                  localUpdated = true;
+             }
+             
+             // 병합된 결과가 클라우드와 다르면 클라우드 업데이트 예약
+             if (JSON.stringify(cloudList) !== JSON.stringify(mergedList)) {
+                 updatesToCloud[key] = mergedList;
+                 hasUpdates = true;
              }
         }
     });
@@ -143,7 +169,7 @@ async function syncHighProgressStrategy(cloudData) {
     for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         // 동기화 대상 키인지 확인
-        if ((key.endsWith('_complete') || key.startsWith('progress_') || key === 'jlpt_bookmarks') && cloudData[key] === undefined) {
+        if ((key.endsWith('_complete') || key.startsWith('progress_') || key === BOOKMARK_KEY) && cloudData[key] === undefined) {
             updatesToCloud[key] = safeParse(localStorage.getItem(key));
             hasUpdates = true;
         }
@@ -244,7 +270,7 @@ onAuthStateChanged(auth, async (user) => {
                 const initialData = {};
                 for (let i=0; i<localStorage.length; i++) {
                     const key = localStorage.key(i);
-                    if (key.endsWith('_complete') || key === 'jlpt_bookmarks') {
+                    if (key.endsWith('_complete') || key === BOOKMARK_KEY) {
                         initialData[key] = safeParse(localStorage.getItem(key));
                     }
                 }
@@ -269,9 +295,22 @@ onAuthStateChanged(auth, async (user) => {
                              needRefresh = true;
                          }
                     }
-                    // 체크 해제 감지 (서버 데이터에 키가 사라졌는데 로컬엔 남아있을 때)
-                    // (이 부분은 구현 복잡도가 높아 생략하거나, 필요한 경우 로직 추가 가능)
-                    // 현재 로직은 "완료된 상태 공유"에 집중
+                    
+                    // [FIX] 북마크 실시간 동기화 처리 추가
+                    if (k === BOOKMARK_KEY) {
+                        const cloudValStr = JSON.stringify(data[k]);
+                        const localValStr = localStorage.getItem(k);
+                        
+                        // 서버 데이터가 로컬과 다르면 업데이트
+                        if (cloudValStr !== localValStr) {
+                            originalSetItem.call(localStorage, k, cloudValStr);
+                            
+                            // 만약 '나만의 단어장' 페이지를 보고 있다면 리스트 즉시 갱신
+                            if (window.refreshStarredList && typeof window.refreshStarredList === 'function') {
+                                window.refreshStarredList();
+                            }
+                        }
+                    }
                 });
 
                 if (needRefresh) window.location.reload();
