@@ -1,6 +1,6 @@
 /* =========================================
    viewer.css
-   기능: 학습 뷰어(viewer.html) 레이아웃, 스토리 박스, 단어장 테이블 구조
+   기능: 학습 뷰어(viewer.html) 페이지 레이아웃, 텍스트 스타일, 기본 테이블 구조
    ========================================= */
 
 body.viewer-mode {
@@ -13,6 +13,7 @@ body.viewer-mode {
     box-shadow: 0 0 30px rgba(0,0,0,0.03);
 }
 
+/* --- Header Area --- */
 .viewer-header {
     text-align: center;
     margin-bottom: 40px;
@@ -37,7 +38,7 @@ body.viewer-mode {
     letter-spacing: 0.5px;
 }
 
-/* --- 섹션 공통 --- */
+/* --- Section Layout --- */
 .study-section { margin-bottom: 60px; }
 
 .section-title {
@@ -59,7 +60,14 @@ body.viewer-mode {
     padding-bottom: 8px; display: inline-block;
 }
 
-/* --- 스토리 & 분석 섹션 --- */
+.section-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* --- Story & Analysis Boxes --- */
 .story-box {
     background: var(--bg-highlight);
     padding: 25px;
@@ -86,6 +94,7 @@ body.viewer-mode {
 }
 .jp-sent { font-size: 1.15rem; font-weight: bold; color: var(--text-main); margin-bottom: 6px; }
 .kr-trans { font-size: 1rem; color: var(--text-sub); }
+
 .vocab-tag {
     display: inline-block; background-color: white;
     color: var(--primary-dark); padding: 3px 8px; border-radius: 6px;
@@ -101,14 +110,8 @@ body.viewer-mode {
     display: inline-block;
 }
 
-/* --- 단어장 테이블 기본 구조 --- */
-.section-header {
-    display: flex; justify-content: space-between; align-items: center;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
+/* --- Basic Table Structure --- */
+/* (테이블 내부의 상세 인터랙션 스타일은 components.css로 이동) */
 table { width: 100%; border-collapse: separate; border-spacing: 0; }
 th {
     background: var(--bg-accent); color: var(--primary-dark);
