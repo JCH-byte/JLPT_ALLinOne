@@ -6,6 +6,8 @@
 const DEV_PREFIX = 'JLPT_DEV_DATA_OVERRIDE';
 const DEV_INDEX_KEY = `${DEV_PREFIX}__INDEX`;
 const LEGACY_DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
+const REQUIRED_FIELDS = ['title', 'story', 'analysis', 'vocab', 'quiz'];
+const ARRAY_POLICY_FIELDS = ['analysis', 'vocab', 'quiz'];
 
 function makeVersionKey(level, day, version) {
     return `${DEV_PREFIX}/${level}/${day}/${version}`;
@@ -125,6 +127,128 @@ function upsertMeta(index, level, day, record) {
     dayNode.versions.sort((a, b) => a.version - b.version);
 }
 
+function getRequiredFieldMode() {
+    return document.getElementById('required-field-mode').value;
+}
+
+function getArrayPolicies() {
+    return {
+        analysis: document.getElementById('policy-analysis').value,
+        vocab: document.getElementById('policy-vocab').value,
+        quiz: document.getElementById('policy-quiz').value
+    };
+}
+
+function validateRequiredFields(data) {
+    const missing = REQUIRED_FIELDS.filter(field => {
+        const value = data?.[field];
+        return value === undefined || value === null;
+    });
+
+    if (missing.length === 0) return true;
+
+    const mode = getRequiredFieldMode();
+    const message = `필수 필드 누락: ${missing.join(', ')}`;
+    if (mode === 'strict') {
+        alert(`${message}\n저장을 차단합니다.`);
+        return false;
+    }
+
+    return confirm(`⚠️ ${message}\n강한 경고: 누락된 상태로 저장을 진행하시겠습니까?`);
+}
+
+function getIdentityKey(item) {
+    if (!item || typeof item !== 'object') return null;
+    return item.id ?? item.word ?? item.term ?? item.question ?? item.text ?? null;
+}
+
+function mergeArraysWithPolicy(previousArray, incomingArray, policy) {
+    if (policy === 'replace') {
+        return [...incomingArray];
+    }
+
+    const merged = [...previousArray];
+    incomingArray.forEach(entry => {
+        const key = getIdentityKey(entry);
+        if (key === null) {
+            merged.push(entry);
+            return;
+        }
+
+        const existingIdx = merged.findIndex(existing => getIdentityKey(existing) === key);
+        if (existingIdx >= 0) {
+            merged[existingIdx] = entry;
+        } else {
+            merged.push(entry);
+        }
+    });
+
+    return merged;
+}
+
+function mergeDayData(previousData, incomingData, arrayPolicies) {
+    const merged = { ...previousData, ...incomingData };
+
+    ARRAY_POLICY_FIELDS.forEach(field => {
+        if (!Object.prototype.hasOwnProperty.call(incomingData, field)) return;
+        if (!Array.isArray(incomingData[field])) {
+            throw new Error(`${field} 필드는 배열이어야 합니다.`);
+        }
+        const previousArray = Array.isArray(previousData?.[field]) ? previousData[field] : [];
+        merged[field] = mergeArraysWithPolicy(previousArray, incomingData[field], arrayPolicies[field]);
+    });
+
+    return merged;
+}
+
+function summarizeDiff(before, after) {
+    const beforeKeys = Object.keys(before || {});
+    const afterKeys = Object.keys(after || {});
+
+    const added = afterKeys.filter(key => !beforeKeys.includes(key));
+    const removed = beforeKeys.filter(key => !afterKeys.includes(key));
+    const changed = afterKeys.filter(key => beforeKeys.includes(key) && JSON.stringify(before[key]) !== JSON.stringify(after[key]));
+
+    return { added, removed, changed };
+}
+
+function renderSaveDiff(before, after) {
+    const el = document.getElementById('save-diff-result');
+    const summary = summarizeDiff(before, after);
+    const changedPaths = collectChangedPaths(before || {}, after || {});
+
+    el.textContent = [
+        `Added (${summary.added.length}): ${summary.added.join(', ') || '(none)'}`,
+        `Removed (${summary.removed.length}): ${summary.removed.join(', ') || '(none)'}`,
+        `Changed (${summary.changed.length}): ${summary.changed.join(', ') || '(none)'}`,
+        `Changed Paths (${changedPaths.length}): ${changedPaths.join(', ') || '(none)'}`,
+        '',
+        '[Before]',
+        JSON.stringify(before || {}, null, 2),
+        '',
+        '[After]',
+        JSON.stringify(after || {}, null, 2)
+    ].join('\n');
+}
+
+function runPreflightValidation(previousData, nextData, isMerge) {
+    if (!previousData) return true;
+
+    const changedPaths = collectChangedPaths(previousData, nextData);
+    if (changedPaths.length === 0) {
+        return confirm('변경 사항이 없습니다. 그래도 신규 버전으로 저장하시겠습니까?');
+    }
+
+    if (!isMerge) return true;
+
+    const removedRequired = REQUIRED_FIELDS.filter(field => (field in previousData) && !(field in nextData));
+    if (removedRequired.length > 0) {
+        return confirm(`⚠️ Preflight 경고: 기존 day의 필수 필드가 제거됩니다 (${removedRequired.join(', ')}). 계속하시겠습니까?`);
+    }
+
+    return true;
+}
+
 // 미리보기 저장 (덮어쓰기 또는 병합)
 function savePreview(isMerge) {
     try {
@@ -132,6 +256,7 @@ function savePreview(isMerge) {
         const input = document.getElementById('json-input');
         const author = (document.getElementById('author-input').value || 'anonymous').trim();
         const changeSummary = (document.getElementById('summary-input').value || 'No summary').trim();
+        const arrayPolicies = getArrayPolicies();
 
         const text = input.value;
         if (!text.trim()) {
@@ -147,9 +272,16 @@ function savePreview(isMerge) {
         const day = Number(json.day);
         document.getElementById('day-input').value = String(day);
 
+        if (!validateRequiredFields(json.data)) return;
+
         const previous = getLatestRecord(level, day);
+        const previousData = previous?.data || {};
         const nextVersion = previous ? previous.version + 1 : 1;
-        const nextData = (isMerge && previous) ? { ...previous.data, ...json.data } : json.data;
+        const nextData = (isMerge && previous)
+            ? mergeDayData(previousData, json.data, arrayPolicies)
+            : json.data;
+
+        if (!runPreflightValidation(previousData, nextData, isMerge)) return;
 
         const record = {
             level,
@@ -169,6 +301,7 @@ function savePreview(isMerge) {
         writeIndex(index);
 
         renderHistory();
+        renderSaveDiff(previousData, nextData);
 
         if (isMerge && previous) {
             alert(`[${level.toUpperCase()}] Day ${day} v${nextVersion} draft로 병합 저장되었습니다.`);
@@ -443,6 +576,7 @@ function clearPreview() {
         localStorage.removeItem(DEV_INDEX_KEY);
         localStorage.removeItem(LEGACY_DEV_KEY);
         renderHistory();
+        document.getElementById('save-diff-result').textContent = '저장 후 추가/삭제/변경 요약이 표시됩니다.';
         alert('초기화 완료');
     }
 }
