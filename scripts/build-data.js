@@ -28,9 +28,13 @@ function normalizeDay(day, dayData) {
     };
 }
 
+function stableStringify(data) {
+    return `${JSON.stringify(data, null, 4)}\n`;
+}
+
 function buildLevel(level) {
     const srcPath = path.join(srcDir, `${level}.json`);
-    const distPath = path.join(distDir, `${level}_data.js`);
+    const levelDistDir = path.join(distDir, level);
 
     if (!fs.existsSync(srcPath)) {
         throw new Error(`Missing source file: data/src/${level}.json`);
@@ -48,29 +52,59 @@ function buildLevel(level) {
         normalized[day] = normalizeDay(day, dayData);
     }
 
-    const output = [
-        '/**',
-        ` * JLPT ${level.toUpperCase()} Data`,
-        ` * Auto-generated from data/src/${level}.json`,
-        ' */',
-        `var ${level.toUpperCase()}_DATA = ${JSON.stringify(normalized, null, 4)};`,
-        ''
-    ].join('\n');
+    const expectedFiles = new Map();
+    const indexData = {};
+
+    Object.entries(normalized).forEach(([day, dayData]) => {
+        const fileName = `day-${day}.json`;
+        expectedFiles.set(fileName, stableStringify(dayData));
+        indexData[day] = { title: dayData.title };
+    });
+
+    expectedFiles.set('index.json', stableStringify(indexData));
+
+
+    const legacyDistPath = path.join(distDir, `${level}_data.js`);
+    if (checkMode) {
+        if (fs.existsSync(legacyDistPath)) {
+            throw new Error(`Stale legacy file found: data/dist/${level}_data.js`);
+        }
+    } else {
+        fs.rmSync(legacyDistPath, { force: true });
+    }
 
     if (checkMode) {
-        if (!fs.existsSync(distPath)) {
-            throw new Error(`Missing generated file: data/dist/${level}_data.js`);
+        if (!fs.existsSync(levelDistDir)) {
+            throw new Error(`Missing generated folder: data/dist/${level}`);
         }
 
-        const current = fs.readFileSync(distPath, 'utf8');
-        if (current !== output) {
-            throw new Error(`Out-of-date file: data/dist/${level}_data.js (run: node scripts/build-data.js)`);
+        for (const [fileName, expected] of expectedFiles.entries()) {
+            const filePath = path.join(levelDistDir, fileName);
+            if (!fs.existsSync(filePath)) {
+                throw new Error(`Missing generated file: data/dist/${level}/${fileName}`);
+            }
+            const current = fs.readFileSync(filePath, 'utf8');
+            if (current !== expected) {
+                throw new Error(`Out-of-date file: data/dist/${level}/${fileName} (run: node scripts/build-data.js)`);
+            }
+        }
+
+        const currentFiles = fs.readdirSync(levelDistDir).filter(name => name.endsWith('.json') || name.endsWith('.js'));
+        const expectedNames = new Set(expectedFiles.keys());
+        const staleFiles = currentFiles.filter(name => !expectedNames.has(name));
+        if (staleFiles.length > 0) {
+            throw new Error(`Stale generated files in data/dist/${level}: ${staleFiles.join(', ')}`);
         }
         return;
     }
 
-    fs.mkdirSync(distDir, { recursive: true });
-    fs.writeFileSync(distPath, output, 'utf8');
+    fs.rmSync(levelDistDir, { recursive: true, force: true });
+    fs.mkdirSync(levelDistDir, { recursive: true });
+
+    for (const [fileName, content] of expectedFiles.entries()) {
+        const outputPath = path.join(levelDistDir, fileName);
+        fs.writeFileSync(outputPath, content, 'utf8');
+    }
 }
 
 try {

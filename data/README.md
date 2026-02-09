@@ -2,7 +2,7 @@
 
 ## 단일 원천 포맷
 - 원천 데이터는 `data/src/n{1..5}.json`만 수정합니다.
-- `data/dist/n{1..5}_data.js`는 배포/런타임용 **생성물**입니다.
+- `data/dist/{level}/index.json`, `data/dist/{level}/day-{n}.json`은 배포/런타임용 **생성물**입니다.
 
 ## 빌드
 ```bash
