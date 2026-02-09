@@ -51,7 +51,7 @@ function renderList(level, fileData) {
     if (days.length === 0) {
         list.innerHTML = `<li style="padding:20px; text-align:center; color:#666;">
             아직 ${level.toUpperCase()} 데이터 파일이 없습니다.<br>
-            <code>data/${level}_data.js</code>를 생성해주세요.
+            <code>data/dist/${level}_data.js</code>를 생성해주세요.
         </li>`;
         updateProgress(level, 0, 0);
         return;
