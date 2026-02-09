@@ -29,6 +29,77 @@ function loadLevelData(level, callback) {
 
 function getMergedData(level, fileData) {
     if (!fileData) fileData = {};
+
+    const FIELD_ALIASES = {
+        reading: 'read',
+        meaning: 'mean',
+        question: 'q',
+        options: 'opt'
+    };
+
+    function normalizeItemKeys(item) {
+        if (!item || typeof item !== 'object' || Array.isArray(item)) return item;
+        const normalized = { ...item };
+
+        Object.entries(FIELD_ALIASES).forEach(([legacyKey, canonicalKey]) => {
+            if (normalized[canonicalKey] == null && normalized[legacyKey] != null) {
+                normalized[canonicalKey] = normalized[legacyKey];
+            }
+        });
+
+        return normalized;
+    }
+
+    function safeString(value) {
+        return typeof value === 'string' ? value : '';
+    }
+
+    function safeArray(value) {
+        return Array.isArray(value) ? value : [];
+    }
+
+    function normalizeVocabItem(levelName, day, index, vocabItem) {
+        const item = normalizeItemKeys(vocabItem) || {};
+        const normalized = {
+            word: safeString(item.word),
+            read: safeString(item.read),
+            mean: safeString(item.mean),
+            tags: safeArray(item.tags)
+        };
+
+        const missing = [];
+        if (!normalized.word) missing.push('word');
+        if (!normalized.read) missing.push('read');
+        if (!normalized.mean) missing.push('mean');
+
+        if (missing.length > 0) {
+            console.warn(`[data:${levelName}] Day ${day} vocab[${index}] missing required fields: ${missing.join(', ')}`);
+        }
+
+        return normalized;
+    }
+
+    function normalizeQuizItem(levelName, day, index, quizItem) {
+        const item = normalizeItemKeys(quizItem) || {};
+        const rawOpt = item.opt;
+        const normalized = {
+            q: safeString(item.q),
+            opt: Array.isArray(rawOpt) ? rawOpt : [],
+            ans: item.ans != null ? item.ans : '',
+            comment: safeString(item.comment)
+        };
+
+        const missing = [];
+        if (!normalized.q) missing.push('q');
+        if (!Array.isArray(rawOpt)) missing.push('opt');
+        if (item.ans == null || item.ans === '') missing.push('ans');
+
+        if (missing.length > 0) {
+            console.warn(`[data:${levelName}] Day ${day} quiz[${index}] missing required fields: ${missing.join(', ')}`);
+        }
+
+        return normalized;
+    }
     
     // 개발용 데이터 오버라이드 (localStorage 'JLPT_DEV_DATA_OVERRIDE')
     const DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
@@ -51,13 +122,16 @@ function getMergedData(level, fileData) {
     Object.keys(fileData).forEach(day => {
         let dayData = fileData[day];
         if (Array.isArray(dayData)) dayData = { vocab: dayData }; // 구형 데이터 호환
+
+        const vocab = safeArray(dayData?.vocab).map((item, idx) => normalizeVocabItem(level, day, idx, item));
+        const quiz = safeArray(dayData?.quiz).map((item, idx) => normalizeQuizItem(level, day, idx, item));
         
         normalized[day] = {
-            title: dayData.title || `Day ${day} 단어장`,
-            story: dayData.story || null,
-            analysis: dayData.analysis || [],
-            vocab: dayData.vocab || [],
-            quiz: dayData.quiz || []
+            title: safeString(dayData?.title) || `Day ${day} 단어장`,
+            story: dayData?.story == null ? null : safeString(dayData.story),
+            analysis: safeArray(dayData?.analysis),
+            vocab,
+            quiz
         };
     });
     return normalized;
