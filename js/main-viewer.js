@@ -11,9 +11,7 @@ function initViewer() {
     // 테마 설정을 위해 body 속성 설정
     document.body.setAttribute('data-theme', level);
 
-    loadLevelData(level, (fileData) => {
-        const allData = getMergedData(level, fileData);
-        const data = allData[day];
+    loadDayData(level, day, (data) => {
         const container = document.getElementById('viewer-content') || document.body;
 
         if (!day || !data) {
