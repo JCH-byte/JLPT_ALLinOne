@@ -64,7 +64,15 @@
         </span>
     </div>
 
-    <h3>2. AI JSON 데이터 입력</h3>
+    <h3>2. 입력 파이프라인 (AI Intake -> Normalize -> Validate -> Draft Save)</h3>
+    <div class="pipeline-grid">
+        <div class="pipeline-step"><strong>AI Intake</strong><span id="status-intake">대기</span><button class="btn btn-step" onclick="runAiIntake()">1) Intake</button></div>
+        <div class="pipeline-step"><strong>Normalize</strong><span id="status-normalize">대기</span><button class="btn btn-step" onclick="runNormalize()">2) Normalize</button></div>
+        <div class="pipeline-step"><strong>Validate</strong><span id="status-validate">대기</span><button class="btn btn-step" onclick="runValidate()">3) Validate</button></div>
+        <div class="pipeline-step"><strong>Draft Save</strong><span id="status-save">대기</span></div>
+    </div>
+
+    <h3>3. AI JSON 데이터 입력</h3>
     <textarea id="json-input" placeholder='{
   "day": 9,
   "data": {
@@ -73,6 +81,12 @@
   }
 }'></textarea>
 
+    <h3 style="margin-top:24px;">4. Normalize 결과 미리보기</h3>
+    <pre id="normalized-preview" class="compare-result">Normalize 결과가 여기에 표시됩니다.</pre>
+
+    <h3 style="margin-top:24px;">5. Validate 결과</h3>
+    <pre id="validation-result" class="compare-result">Validate 단계를 실행하세요.</pre>
+
     <div style="margin-top:20px;">
         <button class="btn btn-preview" onclick="savePreview(false)">💾 draft 저장(덮어쓰기)</button>
         <button class="btn btn-merge" onclick="savePreview(true)">🔗 draft 저장(병합)</button>
@@ -80,7 +94,7 @@
         <button class="btn" onclick="downloadLegacyJsFile()">🧩 레거시 JS 내보내기</button>
     </div>
 
-    <h3 style="margin-top:30px;">3. 버전 히스토리</h3>
+    <h3 style="margin-top:30px;">6. 버전 히스토리</h3>
     <ul id="history-list" class="history-list"></ul>
 
     <div class="history-actions">
@@ -89,7 +103,7 @@
         <button class="btn btn-restore" onclick="restoreSelectedVersion()">♻️ 선택 버전으로 draft 복원</button>
     </div>
 
-    <h3 style="margin-top:24px;">4. 버전 비교</h3>
+    <h3 style="margin-top:24px;">7. 버전 비교</h3>
     <div class="history-actions">
         <select id="compare-left"></select>
         <span>vs</span>
@@ -98,7 +112,7 @@
     </div>
     <pre id="compare-result" class="compare-result">비교할 버전을 선택하세요.</pre>
 
-    <h3 style="margin-top:24px;">5. 저장 결과 Diff 요약</h3>
+    <h3 style="margin-top:24px;">8. 저장 결과 Diff 요약</h3>
     <pre id="save-diff-result" class="compare-result">저장 후 추가/삭제/변경 요약이 표시됩니다.</pre>
 
     <div style="margin-top:20px; text-align:right;">
