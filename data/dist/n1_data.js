@@ -1,6 +1,6 @@
 /**
  * JLPT N1 Data
- * Auto-generated from data/jlpt_n1_vocab.json
+ * Auto-generated from data/src/n1.json
  */
 var N1_DATA = {
     "1": {

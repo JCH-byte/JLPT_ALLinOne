@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+node scripts/build-data.js
+node scripts/build-data.js --check
+
+git add data/dist/n1_data.js data/dist/n2_data.js data/dist/n3_data.js data/dist/n4_data.js data/dist/n5_data.js

@@ -15,7 +15,7 @@ function loadLevelData(level, callback) {
 
     // 동적으로 스크립트 태그 생성하여 데이터 로드
     const script = document.createElement('script');
-    script.src = `data/${level}_data.js`; 
+    script.src = `data/dist/${level}_data.js`; 
     script.onload = () => {
         if (window[varName]) callback(window[varName]);
         else callback({});
