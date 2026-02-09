@@ -1,7 +1,119 @@
 {
-    "title": "Day 4 단어장",
-    "story": null,
-    "analysis": [],
+    "title": "Day 4: 学校生活と健康、そして旅の準備 (학교 생활과 건강, 그리고 여행 준비)",
+    "story": "<h3>Scene 1. 学校の生活 (학교 생활)</h3><p><ruby>今日<rt>きょう</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>の<ruby>教室<rt>きょうしつ</rt></ruby>で<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>をしました。<ruby>紙<rt>かみ</rt></ruby>にたくさん<ruby>書<rt>か</rt></ruby>いて、<ruby>かばん<rt>かばん</rt></ruby>に<ruby>入<rt>い</rt></ruby>れました。<ruby>昨日<rt>きのう</rt></ruby>は<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>花瓶<rt>かびん</rt></ruby>を<ruby>置<rt>お</rt></ruby>きました。窓の<ruby>外<rt>そと</rt></ruby>には<ruby>大<rt>おお</rt></ruby>きな<ruby>木<rt>き</rt></ruby>と<ruby>長<rt>なが</rt></ruby>い<ruby>川<rt>かわ</rt></ruby>があります。</p><h3>Scene 2. 体と健康 (몸과 건강)</h3><p><ruby>最近<rt>さいきん</rt></ruby>、<ruby>風邪<rt>かぜ</rt></ruby>をひいたので、<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。<ruby>体<rt>からだ</rt></ruby>を<ruby>休<rt>やす</rt></ruby>めるために、<ruby>毎日<rt>まいにち</rt></ruby><ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んで、<ruby>果物<rt>くだもの</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>牛肉<rt>ぎゅうにく</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>や<ruby>兄弟<rt>きょうだい</rt></ruby>と<ruby>夕食<rt>ゆうしょく</rt></ruby>に<ruby>食<rt>た</rt></ruby>べます。</p><h3>Scene 3. 旅行の準備 (여행 준비)</h3><p><ruby>去年<rt>きょねん</rt></ruby>は<ruby>北<rt>きた</rt></ruby>の<ruby>町<rt>まち</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>北側<rt>きたがわ</rt></ruby>はとても<ruby>寒<rt>さむ</rt></ruby>かったです。<ruby>銀行<rt>ぎんこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>って、<ruby>切手<rt>きって</rt></ruby>と<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。いよいよ、<ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>と<ruby>靴下<rt>くつした</rt></ruby>を<ruby>履<rt>は</rt></ruby>いて、また<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。</p>",
+    "analysis": [
+        {
+            "sent": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>の<ruby>教室<rt>きょうしつ</rt></ruby>で<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>をしました。",
+            "trans": "오늘, 학교 교실에서 한자 연습을 했습니다.",
+            "grammar": "조사 で (장소)",
+            "tags": [
+                "今日",
+                "学校",
+                "教室",
+                "漢字"
+            ]
+        },
+        {
+            "sent": "<ruby>紙<rt>かみ</rt></ruby>にたくさん<ruby>書<rt>か</rt></ruby>いて、<ruby>かばん<rt>かばん</rt></ruby>に<ruby>入<rt>い</rt></ruby>れました。",
+            "trans": "종이에 많이 쓰고 가방에 넣었습니다.",
+            "grammar": "동사 ~て (나열)",
+            "tags": [
+                "紙",
+                "かばん"
+            ]
+        },
+        {
+            "sent": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>花瓶<rt>かびん</rt></ruby>を<ruby>置<rt>お</rt></ruby>きました。",
+            "trans": "어제는 교실에 꽃병을 두었습니다.",
+            "grammar": "과거형 ~ました",
+            "tags": [
+                "昨日",
+                "教室",
+                "花瓶"
+            ]
+        },
+        {
+            "sent": "窓の<ruby>外<rt>そと</rt></ruby>には<ruby>大<rt>おお</rt></ruby>きな<ruby>木<rt>き</rt></ruby>と<ruby>長<rt>なが</rt></ruby>い<ruby>川<rt>かわ</rt></ruby>があります。",
+            "trans": "창밖에는 큰 나무와 긴 강이 있습니다.",
+            "grammar": "존재 (~があります)",
+            "tags": [
+                "木",
+                "川"
+            ]
+        },
+        {
+            "sent": "<ruby>風邪<rt>かぜ</rt></ruby>をひいたので、<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。",
+            "trans": "감기에 걸려서 약을 먹습니다.",
+            "grammar": "원인 (~たので)",
+            "tags": [
+                "風邪",
+                "薬"
+            ]
+        },
+        {
+            "sent": "<ruby>体<rt>からだ</rt></ruby>を<ruby>休<rt>やす</rt></ruby>めるために、<ruby>毎日<rt>まいにち</rt></ruby><ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。",
+            "trans": "몸을 쉬게 하기 위해 매일 우유를 마십니다.",
+            "grammar": "목적 (~ために)",
+            "tags": [
+                "体",
+                "牛乳"
+            ]
+        },
+        {
+            "sent": "<ruby>果物<rt>くだもの</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。",
+            "trans": "과일을 먹습니다.",
+            "grammar": "조사 を (목적어)",
+            "tags": [
+                "果物"
+            ]
+        },
+        {
+            "sent": "<ruby>牛肉<rt>ぎゅうにく</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>や<ruby>兄弟<rt>きょうだい</rt></ruby>と<ruby>夕食<rt>ゆうしょく</rt></ruby>に<ruby>食<rt>た</rt></ruby>べます。",
+            "trans": "소고기는 가족이나 형제와 저녁으로 먹습니다.",
+            "grammar": "조사 や (열거)",
+            "tags": [
+                "牛肉",
+                "家族",
+                "兄弟"
+            ]
+        },
+        {
+            "sent": "<ruby>去年<rt>きょねん</rt></ruby>は<ruby>北<rt>きた</rt></ruby>の<ruby>町<rt>まち</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。",
+            "trans": "작년에는 북쪽 마을에 갔습니다.",
+            "grammar": "방향 조사 に",
+            "tags": [
+                "去年",
+                "北"
+            ]
+        },
+        {
+            "sent": "<ruby>北側<rt>きたがわ</rt></ruby>はとても<ruby>寒<rt>さむ</rt></ruby>かったです。",
+            "trans": "북쪽은 매우 추웠습니다.",
+            "grammar": "형용사 과거형",
+            "tags": [
+                "北側"
+            ]
+        },
+        {
+            "sent": "<ruby>銀行<rt>ぎんこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>って、<ruby>切手<rt>きって</rt></ruby>と<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いしました。",
+            "trans": "은행에 가서 우표와 표를 샀습니다.",
+            "grammar": "동사 ~て (순서)",
+            "tags": [
+                "銀行",
+                "切手",
+                "切符"
+            ]
+        },
+        {
+            "sent": "<ruby>新<rt>아나라</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>と<ruby>靴下<rt>くつした</rt></ruby>を<ruby>履<rt>は</rt></ruby>きます。",
+            "trans": "새 구두와 양말을 신습니다.",
+            "grammar": "착용 동사 履く",
+            "tags": [
+                "靴",
+                "靴下"
+            ]
+        }
+    ],
     "vocab": [
         {
             "word": "風邪",
@@ -134,5 +246,116 @@
             "mean": "양말"
         }
     ],
-    "quiz": []
+    "quiz": [
+        {
+            "q": "「風邪」の読み方は何ですか。",
+            "opt": [
+                "かぜ",
+                "かみ",
+                "かわ",
+                "かさ"
+            ],
+            "ans": 0,
+            "comment": "風邪(かぜ)는 감기를 뜻합니다."
+        },
+        {
+            "q": "「漢字」の読み方は何ですか。",
+            "opt": [
+                "かんじ",
+                "かんじょう",
+                "かんしゃ",
+                "かんし"
+            ],
+            "ans": 0,
+            "comment": "漢字(かんじ)는 한자를 뜻합니다."
+        },
+        {
+            "q": "「切符」の読み方は何ですか。",
+            "opt": [
+                "きって",
+                "きっぷ",
+                "きもち",
+                "きぼう"
+            ],
+            "ans": 1,
+            "comment": "切符(きっぷ)는 표(티켓)를 뜻합니다. 우표(切手)와 헷갈리지 마세요."
+        },
+        {
+            "q": "勉強に使う本やノートを ______ に入れます。",
+            "opt": [
+                "かばん",
+                "かびん",
+                "くつした",
+                "きって"
+            ],
+            "ans": 0,
+            "comment": "책이나 공책을 넣는 물건은 가방(かばん)입니다."
+        },
+        {
+            "q": "白い ______ を毎日飲みます。",
+            "opt": [
+                "ぎゅうにく",
+                "ぎゅうにゅう",
+                "くだもの",
+                "くすり"
+            ],
+            "ans": 1,
+            "comment": "매일 마시는 하얀 액체는 우유(牛乳)입니다."
+        },
+        {
+            "q": "お金を出しに ______ へ行きます。",
+            "opt": [
+                "がっこう",
+                "ぎんこう",
+                "きょうしつ",
+                "きたがわ"
+            ],
+            "ans": 1,
+            "comment": "돈을 찾으러 가는 곳은 은행(銀行)입니다."
+        },
+        {
+            "q": "「果物」の意味は何ですか。",
+            "opt": [
+                "야채",
+                "과일",
+                "과자",
+                "음료수"
+            ],
+            "ans": 1,
+            "comment": "果物(くだもの)는 과일을 뜻합니다."
+        },
+        {
+            "q": "「教室」の意味は何ですか。",
+            "opt": [
+                "운동장",
+                "교실",
+                "도서관",
+                "식당"
+            ],
+            "ans": 1,
+            "comment": "教室(きょうしつ)는 교실을 뜻합니다."
+        },
+        {
+            "q": "「兄弟」の意味は何ですか。",
+            "opt": [
+                "친구",
+                "형제",
+                "부모",
+                "자매"
+            ],
+            "ans": 1,
+            "comment": "兄弟(きょうだい)는 형제/남매를 뜻합니다."
+        },
+        {
+            "q": "「去年」の意味は何ですか。",
+            "opt": [
+                "내년",
+                "올해",
+                "작년",
+                "재작년"
+            ],
+            "ans": 2,
+            "comment": "去年(きょねん)은 작년을 뜻합니다."
+        }
+    ]
 }
