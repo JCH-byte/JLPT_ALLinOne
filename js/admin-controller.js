@@ -8,6 +8,19 @@ const DEV_INDEX_KEY = `${DEV_PREFIX}__INDEX`;
 const LEGACY_DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
 const REQUIRED_FIELDS = ['title', 'story', 'analysis', 'vocab', 'quiz'];
 const ARRAY_POLICY_FIELDS = ['analysis', 'vocab', 'quiz'];
+const ALIAS_KEY_MAP = {
+    questions: 'quiz',
+    sentenceAnalysis: 'analysis'
+};
+
+const intakeState = {
+    payload: null,
+    normalizedData: null,
+    normalizedPreviewText: '',
+    validated: false,
+    validationMessage: 'Validate 단계를 실행하세요.',
+    day: null
+};
 
 function makeVersionKey(level, day, version) {
     return `${DEV_PREFIX}/${level}/${day}/${version}`;
@@ -157,6 +170,129 @@ function validateRequiredFields(data) {
     return confirm(`⚠️ ${message}\n강한 경고: 누락된 상태로 저장을 진행하시겠습니까?`);
 }
 
+function normalizeStory(story, storyScenes) {
+    if (typeof story === 'string' && story.trim()) return story;
+    if (!Array.isArray(storyScenes)) return story ?? null;
+    const lines = storyScenes
+        .map(scene => {
+            if (typeof scene === 'string') return scene.trim();
+            if (scene && typeof scene === 'object') {
+                return String(scene.text ?? scene.scene ?? scene.content ?? '').trim();
+            }
+            return '';
+        })
+        .filter(Boolean);
+    return lines.join('\n\n') || null;
+}
+
+function normalizeIncomingData(data) {
+    if (!data || typeof data !== 'object' || Array.isArray(data)) {
+        throw new Error('data는 object여야 합니다.');
+    }
+
+    const normalized = { ...data };
+
+    Object.entries(ALIAS_KEY_MAP).forEach(([alias, standard]) => {
+        if (!Object.prototype.hasOwnProperty.call(normalized, alias)) return;
+        if (!Object.prototype.hasOwnProperty.call(normalized, standard)) {
+            normalized[standard] = normalized[alias];
+        }
+        delete normalized[alias];
+    });
+
+    normalized.story = normalizeStory(normalized.story, normalized.storyScenes);
+    delete normalized.storyScenes;
+
+    return normalized;
+}
+
+function setStageStatus(id, message) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = message;
+}
+
+function resetPipelineState() {
+    intakeState.payload = null;
+    intakeState.normalizedData = null;
+    intakeState.normalizedPreviewText = '';
+    intakeState.validated = false;
+    intakeState.validationMessage = 'Validate 단계를 실행하세요.';
+    intakeState.day = null;
+    setStageStatus('status-intake', '대기');
+    setStageStatus('status-normalize', '대기');
+    setStageStatus('status-validate', '대기');
+    setStageStatus('status-save', '대기');
+    const previewEl = document.getElementById('normalized-preview');
+    if (previewEl) previewEl.textContent = 'Normalize 결과가 여기에 표시됩니다.';
+    const validationEl = document.getElementById('validation-result');
+    if (validationEl) validationEl.textContent = intakeState.validationMessage;
+}
+
+function runAiIntake() {
+    try {
+        const text = document.getElementById('json-input').value;
+        if (!text.trim()) {
+            throw new Error('JSON 데이터를 입력하세요.');
+        }
+        const payload = JSON.parse(text);
+        if (!payload.day || !payload.data) {
+            throw new Error('JSON에 "day"와 "data" 필드가 포함되어야 합니다.');
+        }
+
+        intakeState.payload = payload;
+        intakeState.day = Number(payload.day);
+        intakeState.validated = false;
+        document.getElementById('day-input').value = String(intakeState.day);
+        setStageStatus('status-intake', '완료');
+        setStageStatus('status-normalize', '대기');
+        setStageStatus('status-validate', '대기');
+        setStageStatus('status-save', '대기');
+        alert('AI Intake 완료. Normalize 단계를 진행하세요.');
+    } catch (e) {
+        setStageStatus('status-intake', `실패: ${e.message}`);
+        alert('오류 발생: ' + e.message);
+    }
+}
+
+function runNormalize() {
+    try {
+        if (!intakeState.payload) {
+            throw new Error('먼저 AI Intake를 실행하세요.');
+        }
+        const normalizedData = normalizeIncomingData(intakeState.payload.data);
+        intakeState.normalizedData = normalizedData;
+        intakeState.normalizedPreviewText = JSON.stringify({ day: intakeState.day, data: normalizedData }, null, 2);
+        intakeState.validated = false;
+
+        document.getElementById('normalized-preview').textContent = intakeState.normalizedPreviewText;
+        setStageStatus('status-normalize', '완료');
+        setStageStatus('status-validate', '대기');
+        setStageStatus('status-save', '대기');
+    } catch (e) {
+        setStageStatus('status-normalize', `실패: ${e.message}`);
+        alert('오류 발생: ' + e.message);
+    }
+}
+
+function runValidate() {
+    try {
+        if (!intakeState.normalizedData) {
+            throw new Error('먼저 Normalize 단계를 실행하세요.');
+        }
+        const ok = validateRequiredFields(intakeState.normalizedData);
+        intakeState.validated = ok;
+        intakeState.validationMessage = ok
+            ? '정규화/필수 필드 검증 통과'
+            : '필수 필드 검증 실패';
+        document.getElementById('validation-result').textContent = intakeState.validationMessage;
+        setStageStatus('status-validate', ok ? '완료' : '실패');
+        setStageStatus('status-save', '대기');
+    } catch (e) {
+        setStageStatus('status-validate', `실패: ${e.message}`);
+        alert('오류 발생: ' + e.message);
+    }
+}
+
 function getIdentityKey(item) {
     if (!item || typeof item !== 'object') return null;
     return item.id ?? item.word ?? item.term ?? item.question ?? item.text ?? null;
@@ -252,34 +388,27 @@ function runPreflightValidation(previousData, nextData, isMerge) {
 // 미리보기 저장 (덮어쓰기 또는 병합)
 function savePreview(isMerge) {
     try {
+        if (!intakeState.payload || !intakeState.normalizedData) {
+            throw new Error('AI Intake → Normalize 단계를 먼저 완료하세요.');
+        }
+        if (!intakeState.validated) {
+            throw new Error('Validate 통과 후에만 저장할 수 있습니다.');
+        }
+
         const level = document.getElementById('level-select').value;
-        const input = document.getElementById('json-input');
         const author = (document.getElementById('author-input').value || 'anonymous').trim();
         const changeSummary = (document.getElementById('summary-input').value || 'No summary').trim();
         const arrayPolicies = getArrayPolicies();
 
-        const text = input.value;
-        if (!text.trim()) {
-            alert('JSON 데이터를 입력하세요.');
-            return;
-        }
-
-        const json = JSON.parse(text);
-        if (!json.day || !json.data) {
-            throw new Error('JSON에 "day"와 "data" 필드가 포함되어야 합니다.');
-        }
-
-        const day = Number(json.day);
+        const day = Number(intakeState.day);
         document.getElementById('day-input').value = String(day);
-
-        if (!validateRequiredFields(json.data)) return;
 
         const previous = getLatestRecord(level, day);
         const previousData = previous?.data || {};
         const nextVersion = previous ? previous.version + 1 : 1;
         const nextData = (isMerge && previous)
-            ? mergeDayData(previousData, json.data, arrayPolicies)
-            : json.data;
+            ? mergeDayData(previousData, intakeState.normalizedData, arrayPolicies)
+            : intakeState.normalizedData;
 
         if (!runPreflightValidation(previousData, nextData, isMerge)) return;
 
@@ -291,7 +420,11 @@ function savePreview(isMerge) {
             timestamp: new Date().toISOString(),
             author,
             changeSummary,
-            data: nextData
+            data: nextData,
+            qa: {
+                normalized: true,
+                validated: true
+            }
         };
 
         localStorage.setItem(makeVersionKey(level, day, nextVersion), JSON.stringify(record));
@@ -302,6 +435,7 @@ function savePreview(isMerge) {
 
         renderHistory();
         renderSaveDiff(previousData, nextData);
+        setStageStatus('status-save', '완료');
 
         if (isMerge && previous) {
             alert(`[${level.toUpperCase()}] Day ${day} v${nextVersion} draft로 병합 저장되었습니다.`);
@@ -326,6 +460,7 @@ function buildLevelData(level) {
         const approved = [...versions].reverse().find(v => v.status === 'approved');
         const latest = versions[versions.length - 1];
         const selected = approved || latest;
+        if (!selected?.qa?.normalized || !selected?.qa?.validated) return;
         levelData[String(day)] = selected.data;
     });
 
@@ -576,6 +711,7 @@ function clearPreview() {
         localStorage.removeItem(DEV_INDEX_KEY);
         localStorage.removeItem(LEGACY_DEV_KEY);
         renderHistory();
+        resetPipelineState();
         document.getElementById('save-diff-result').textContent = '저장 후 추가/삭제/변경 요약이 표시됩니다.';
         alert('초기화 완료');
     }
@@ -589,6 +725,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     levelSelect.addEventListener('change', renderHistory);
     dayInput.addEventListener('input', renderHistory);
+
+    resetPipelineState();
 
     renderHistory();
 });
