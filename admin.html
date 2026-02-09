@@ -33,6 +33,37 @@
         <input id="summary-input" type="text" placeholder="예: Day 3 quiz 오타 수정">
     </div>
 
+    <div class="control-panel">
+        <label><strong>필수 필드 검증:</strong></label>
+        <select id="required-field-mode">
+            <option value="strict" selected>누락 시 저장 차단</option>
+            <option value="warn">누락 시 강한 경고 후 진행</option>
+        </select>
+
+        <label style="margin-left:12px;"><strong>배열 병합 정책:</strong></label>
+        <span class="array-policy-group">
+            analysis
+            <select id="policy-analysis">
+                <option value="replace" selected>replace</option>
+                <option value="upsert">upsert</option>
+            </select>
+        </span>
+        <span class="array-policy-group">
+            vocab
+            <select id="policy-vocab">
+                <option value="replace" selected>replace</option>
+                <option value="upsert">upsert</option>
+            </select>
+        </span>
+        <span class="array-policy-group">
+            quiz
+            <select id="policy-quiz">
+                <option value="replace" selected>replace</option>
+                <option value="upsert">upsert</option>
+            </select>
+        </span>
+    </div>
+
     <h3>2. AI JSON 데이터 입력</h3>
     <textarea id="json-input" placeholder='{
   "day": 9,
@@ -66,6 +97,9 @@
         <button class="btn btn-merge" onclick="compareVersions()">🔍 비교</button>
     </div>
     <pre id="compare-result" class="compare-result">비교할 버전을 선택하세요.</pre>
+
+    <h3 style="margin-top:24px;">5. 저장 결과 Diff 요약</h3>
+    <pre id="save-diff-result" class="compare-result">저장 후 추가/삭제/변경 요약이 표시됩니다.</pre>
 
     <div style="margin-top:20px; text-align:right;">
         <button onclick="clearPreview()" style="border:none; background:none; text-decoration:underline; cursor:pointer; color:#999;">임시 데이터 초기화</button>
