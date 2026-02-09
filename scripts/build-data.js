@@ -32,6 +32,13 @@ function stableStringify(data) {
     return `${JSON.stringify(data, null, 4)}\n`;
 }
 
+function shouldIncludeDay(level, day) {
+    const numericDay = Number(day);
+    if (!Number.isFinite(numericDay)) return false;
+    if (level === 'n4' && numericDay > 10) return false;
+    return true;
+}
+
 function buildLevel(level) {
     const srcPath = path.join(srcDir, `${level}.json`);
     const levelDistDir = path.join(distDir, level);
@@ -56,6 +63,7 @@ function buildLevel(level) {
     const indexData = {};
 
     Object.entries(normalized).forEach(([day, dayData]) => {
+        if (!shouldIncludeDay(level, day)) return;
         const fileName = `day-${day}.json`;
         expectedFiles.set(fileName, stableStringify(dayData));
         indexData[day] = { title: dayData.title };

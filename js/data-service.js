@@ -163,6 +163,47 @@ function fetchJsonWithFallback(primaryUrl, fallbackUrl, callback) {
         });
 }
 
+
+function fetchFileExists(primaryUrl, fallbackUrl, callback) {
+    fetch(primaryUrl, { method: 'HEAD' })
+        .then((res) => {
+            if (res.ok) {
+                callback(true);
+                return;
+            }
+            throw new Error(`HTTP ${res.status}`);
+        })
+        .catch(() => {
+            if (!fallbackUrl) {
+                callback(false);
+                return;
+            }
+            fetch(fallbackUrl, { method: 'HEAD' })
+                .then((res) => callback(res.ok))
+                .catch(() => callback(false));
+        });
+}
+
+function filterIndexByExistingDayFiles(level, indexData, callback) {
+    const days = Object.keys(indexData || {});
+    if (days.length === 0) {
+        callback({});
+        return;
+    }
+
+    Promise.all(days.map((day) => new Promise((resolve) => {
+        const dayJson = `data/dist/${level}/day-${day}.json`;
+        const dayJs = `data/dist/${level}/day-${day}.js`;
+        fetchFileExists(dayJson, dayJs, (exists) => resolve({ day, exists }));
+    }))).then((results) => {
+        const filtered = {};
+        results.forEach(({ day, exists }) => {
+            if (exists) filtered[day] = indexData[day];
+        });
+        callback(filtered);
+    });
+}
+
 function loadLevelIndex(level, callback) {
     if (LEVEL_INDEX_CACHE.has(level)) {
         callback(LEVEL_INDEX_CACHE.get(level));
@@ -175,8 +216,10 @@ function loadLevelIndex(level, callback) {
     fetchJsonWithFallback(primaryUrl, fallbackUrl, (indexData) => {
         const normalizedIndex = (!indexData || typeof indexData !== 'object' || Array.isArray(indexData)) ? {} : indexData;
 
-        LEVEL_INDEX_CACHE.set(level, normalizedIndex);
-        callback(normalizedIndex);
+        filterIndexByExistingDayFiles(level, normalizedIndex, (filteredIndex) => {
+            LEVEL_INDEX_CACHE.set(level, filteredIndex);
+            callback(filteredIndex);
+        });
     });
 }
 

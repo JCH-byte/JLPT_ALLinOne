@@ -22,3 +22,9 @@ node scripts/build-data.js --check
 ```bash
 git config core.hooksPath .githooks
 ```
+
+## N4 day11+ 비활성화 정책
+- `n4` 레벨은 운영 정책상 Day 10까지만 제공합니다.
+- 빌드 단계(`node scripts/build-data.js`)에서 `n4`의 Day 11 이상 데이터는 자동으로 제외됩니다.
+- 따라서 `data/dist/n4/`에는 `day-1.json`~`day-10.json` 및 `index.json`만 존재해야 합니다.
+
