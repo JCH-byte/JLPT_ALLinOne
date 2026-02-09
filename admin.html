@@ -10,7 +10,12 @@
 <body>
 <div class="container">
     <h1>🛠️ JLPT 데이터 관리자 (Netlify Fixed)</h1>
-    <p>데이터 생성 시 <code>var</code>를 사용하여 호환성을 높였습니다.</p>
+    <p>기본 내보내기 포맷은 JSON입니다. 표준 산출물은 <code>n4/day-03.json</code> 형태의 day 분할 파일입니다.</p>
+    <p style="margin-top:8px; color:#666;">
+        파일명 규칙: 다운로드 파일은 <code>{level}-day-{DD}.json</code> 형식으로 저장되며,
+        저장소 반영 시 <code>data/dist/{level}/day-{n}.json</code> 경로로 배치하세요.
+        레거시 <code>var N4_DATA</code> 방식은 "레거시 JS 내보내기"에서만 제공합니다.
+    </p>
 
     <div class="control-panel">
         <label><strong>1. 작업할 레벨 선택:</strong></label>
@@ -35,7 +40,8 @@
     <div style="margin-top:20px;">
         <button class="btn btn-preview" onclick="savePreview(false)">💾 덮어쓰기 저장</button>
         <button class="btn btn-merge" onclick="savePreview(true)">🔗 병합 저장 (Merge)</button>
-        <button class="btn btn-download" onclick="downloadFile()">📥 JS 파일 다운로드</button>
+        <button class="btn btn-download" onclick="downloadFile()">📥 표준 JSON 다운로드</button>
+        <button class="btn" onclick="downloadLegacyJsFile()">🧩 레거시 JS 내보내기</button>
     </div>
     
     <div style="margin-top:20px; text-align:right;">
