@@ -13,7 +13,9 @@ const FIELD_ALIASES = {
     options: 'opt'
 };
 
-const DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
+const DEV_PREFIX = 'JLPT_DEV_DATA_OVERRIDE';
+const DEV_INDEX_KEY = `${DEV_PREFIX}__INDEX`;
+const LEGACY_DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
 
 function getDayCacheKey(level, day) {
     return `${level}-${day}`;
@@ -99,18 +101,44 @@ function normalizeDayData(level, day, dayData) {
     };
 }
 
-function getDevOverrides(level) {
+function makeVersionKey(level, day, version) {
+    return `${DEV_PREFIX}/${level}/${day}/${version}`;
+}
+
+function parseJsonOrDefault(raw, fallback) {
     try {
-        return JSON.parse(localStorage.getItem(DEV_KEY) || '{}');
+        return JSON.parse(raw);
     } catch (e) {
-        console.error('Error reading dev overrides:', e);
-        return {};
+        return fallback;
     }
 }
 
+function readOverrideIndex() {
+    const index = parseJsonOrDefault(localStorage.getItem(DEV_INDEX_KEY) || '{}', {});
+    return (index && typeof index === 'object' && !Array.isArray(index)) ? index : {};
+}
+
 function getOverrideData(level, day) {
-    const allOverrides = getDevOverrides(level);
-    return allOverrides[getDayCacheKey(level, day)];
+    try {
+        const index = readOverrideIndex();
+        const dayNode = index?.[level]?.[String(day)];
+        const versions = Array.isArray(dayNode?.versions) ? dayNode.versions : [];
+
+        if (versions.length > 0) {
+            const sorted = [...versions].sort((a, b) => Number(b.version) - Number(a.version));
+            const approved = sorted.find(v => v.status === 'approved');
+            const target = approved || sorted[0];
+            const record = parseJsonOrDefault(localStorage.getItem(makeVersionKey(level, day, target.version)) || 'null', null);
+            return record?.data;
+        }
+
+        // Legacy fallback: single blob key
+        const legacy = parseJsonOrDefault(localStorage.getItem(LEGACY_DEV_KEY) || '{}', {});
+        return legacy[getDayCacheKey(level, day)];
+    } catch (e) {
+        console.error('Error reading dev overrides:', e);
+        return undefined;
+    }
 }
 
 function fetchJsonWithFallback(primaryUrl, fallbackUrl, callback) {

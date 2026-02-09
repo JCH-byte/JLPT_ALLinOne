@@ -1,65 +1,199 @@
 /**
  * admin-controller.js
- * 기능: 데이터 입력, 미리보기 저장, JSON/레거시 JS 다운로드
+ * 기능: 데이터 입력, 버전 히스토리 관리, JSON/레거시 JS 다운로드
  */
 
-const DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
+const DEV_PREFIX = 'JLPT_DEV_DATA_OVERRIDE';
+const DEV_INDEX_KEY = `${DEV_PREFIX}__INDEX`;
+const LEGACY_DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
+
+function makeVersionKey(level, day, version) {
+    return `${DEV_PREFIX}/${level}/${day}/${version}`;
+}
+
+function parseJsonOrDefault(raw, fallback) {
+    try {
+        return JSON.parse(raw);
+    } catch (e) {
+        return fallback;
+    }
+}
+
+function readIndex() {
+    const index = parseJsonOrDefault(localStorage.getItem(DEV_INDEX_KEY) || '{}', {});
+    return (index && typeof index === 'object' && !Array.isArray(index)) ? index : {};
+}
+
+function writeIndex(index) {
+    localStorage.setItem(DEV_INDEX_KEY, JSON.stringify(index));
+}
+
+function ensureIndexNode(index, level, day) {
+    if (!index[level]) index[level] = {};
+    if (!index[level][day]) index[level][day] = { versions: [] };
+    if (!Array.isArray(index[level][day].versions)) index[level][day].versions = [];
+    return index[level][day];
+}
+
+function readVersionRecord(level, day, version) {
+    return parseJsonOrDefault(localStorage.getItem(makeVersionKey(level, day, version)) || 'null', null);
+}
+
+function getDayVersions(level, day) {
+    const index = readIndex();
+    const dayNode = index?.[level]?.[String(day)];
+    const versionsMeta = Array.isArray(dayNode?.versions) ? dayNode.versions : [];
+
+    return versionsMeta
+        .map(meta => readVersionRecord(level, String(day), Number(meta.version)))
+        .filter(Boolean)
+        .sort((a, b) => a.version - b.version);
+}
+
+function getLatestRecord(level, day) {
+    const versions = getDayVersions(level, day);
+    if (versions.length === 0) return null;
+    return versions[versions.length - 1];
+}
+
+function migrateLegacyIfNeeded() {
+    const index = readIndex();
+    if (Object.keys(index).length > 0) return;
+
+    const legacyRaw = localStorage.getItem(LEGACY_DEV_KEY);
+    if (!legacyRaw) return;
+
+    const legacy = parseJsonOrDefault(legacyRaw, {});
+    const nextIndex = {};
+    const now = new Date().toISOString();
+
+    Object.keys(legacy).forEach(compositeKey => {
+        const [level, day] = compositeKey.split('-');
+        if (!level || !day) return;
+
+        const version = 1;
+        const record = {
+            level,
+            day: Number(day),
+            version,
+            status: 'approved',
+            timestamp: now,
+            author: 'legacy-migration',
+            changeSummary: 'Migrated from legacy single localStorage blob.',
+            data: legacy[compositeKey]
+        };
+
+        localStorage.setItem(makeVersionKey(level, day, version), JSON.stringify(record));
+        const dayNode = ensureIndexNode(nextIndex, level, day);
+        dayNode.versions.push({
+            version,
+            status: record.status,
+            timestamp: record.timestamp,
+            author: record.author,
+            changeSummary: record.changeSummary
+        });
+    });
+
+    writeIndex(nextIndex);
+    localStorage.removeItem(LEGACY_DEV_KEY);
+}
+
+function getInputDay() {
+    const dayInput = document.getElementById('day-input');
+    const day = Number(dayInput.value);
+    if (!Number.isInteger(day) || day <= 0) {
+        throw new Error('Day는 1 이상의 정수여야 합니다.');
+    }
+    return day;
+}
+
+function upsertMeta(index, level, day, record) {
+    const dayNode = ensureIndexNode(index, level, String(day));
+    const existingIdx = dayNode.versions.findIndex(v => Number(v.version) === Number(record.version));
+    const meta = {
+        version: record.version,
+        status: record.status,
+        timestamp: record.timestamp,
+        author: record.author,
+        changeSummary: record.changeSummary
+    };
+    if (existingIdx >= 0) {
+        dayNode.versions[existingIdx] = meta;
+    } else {
+        dayNode.versions.push(meta);
+    }
+    dayNode.versions.sort((a, b) => a.version - b.version);
+}
 
 // 미리보기 저장 (덮어쓰기 또는 병합)
 function savePreview(isMerge) {
     try {
-        const levelSelect = document.getElementById('level-select');
+        const level = document.getElementById('level-select').value;
         const input = document.getElementById('json-input');
-        
-        const level = levelSelect.value;
-        const text = input.value;
+        const author = (document.getElementById('author-input').value || 'anonymous').trim();
+        const changeSummary = (document.getElementById('summary-input').value || 'No summary').trim();
 
+        const text = input.value;
         if (!text.trim()) {
-            alert("JSON 데이터를 입력하세요.");
+            alert('JSON 데이터를 입력하세요.');
             return;
         }
 
-        // JSON 유효성 검사
         const json = JSON.parse(text);
-        
-        // 필수 필드 확인
         if (!json.day || !json.data) {
             throw new Error('JSON에 "day"와 "data" 필드가 포함되어야 합니다.');
         }
 
-        const day = json.day;
-        const key = `${level}-${day}`;
-        
-        // 기존 데이터 로드
-        const existing = JSON.parse(localStorage.getItem(DEV_KEY) || '{}');
-        
-        if (isMerge && existing[key]) {
-            // 병합 모드: 기존 data 객체에 새 속성 병합
-            existing[key] = { ...existing[key], ...json.data };
-            alert(`[${level.toUpperCase()}] Day ${day} 데이터가 성공적으로 병합되었습니다!`);
+        const day = Number(json.day);
+        document.getElementById('day-input').value = String(day);
+
+        const previous = getLatestRecord(level, day);
+        const nextVersion = previous ? previous.version + 1 : 1;
+        const nextData = (isMerge && previous) ? { ...previous.data, ...json.data } : json.data;
+
+        const record = {
+            level,
+            day,
+            version: nextVersion,
+            status: 'draft',
+            timestamp: new Date().toISOString(),
+            author,
+            changeSummary,
+            data: nextData
+        };
+
+        localStorage.setItem(makeVersionKey(level, day, nextVersion), JSON.stringify(record));
+
+        const index = readIndex();
+        upsertMeta(index, level, day, record);
+        writeIndex(index);
+
+        renderHistory();
+
+        if (isMerge && previous) {
+            alert(`[${level.toUpperCase()}] Day ${day} v${nextVersion} draft로 병합 저장되었습니다.`);
         } else {
-            // 덮어쓰기 모드
-            existing[key] = json.data;
-            alert(`[${level.toUpperCase()}] Day ${day} 데이터가 새로 저장되었습니다!`);
+            alert(`[${level.toUpperCase()}] Day ${day} v${nextVersion} draft가 저장되었습니다.`);
         }
-        
-        localStorage.setItem(DEV_KEY, JSON.stringify(existing));
-        
-    } catch (e) { 
-        alert("오류 발생: " + e.message); 
+    } catch (e) {
+        alert('오류 발생: ' + e.message);
         console.error(e);
     }
 }
 
 function buildLevelData(level) {
-    const existing = JSON.parse(localStorage.getItem(DEV_KEY) || '{}');
+    const index = readIndex();
+    const levelNode = index[level] || {};
     const levelData = {};
 
-    Object.keys(existing).forEach(key => {
-        if (key.startsWith(`${level}-`)) {
-            const day = key.split('-')[1];
-            levelData[day] = existing[key];
-        }
+    Object.keys(levelNode).forEach(day => {
+        const versions = getDayVersions(level, day);
+        if (versions.length === 0) return;
+
+        const approved = [...versions].reverse().find(v => v.status === 'approved');
+        const latest = versions[versions.length - 1];
+        const selected = approved || latest;
+        levelData[String(day)] = selected.data;
     });
 
     return levelData;
@@ -68,7 +202,7 @@ function buildLevelData(level) {
 function triggerDownload(content, fileName, type) {
     const blob = new Blob([content], { type });
     const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
+    const a = document.createElement('a');
     a.href = url;
     a.download = fileName;
     document.body.appendChild(a);
@@ -83,8 +217,8 @@ function downloadFile() {
     const levelData = buildLevelData(level);
 
     if (Object.keys(levelData).length === 0) {
-        if(!confirm("저장된 프리뷰 데이터가 없습니다. 빈 파일을 생성하시겠습니까?")) return;
-        triggerDownload('{}\n', `${level}.json`, "application/json");
+        if (!confirm('저장된 프리뷰 데이터가 없습니다. 빈 파일을 생성하시겠습니까?')) return;
+        triggerDownload('{}\n', `${level}.json`, 'application/json');
         return;
     }
 
@@ -100,7 +234,7 @@ function downloadFile() {
         };
         const dayLabel = String(day).padStart(2, '0');
         const fileName = `${level}-day-${dayLabel}.json`;
-        triggerDownload(`${JSON.stringify(dayData, null, 2)}\n`, fileName, "application/json");
+        triggerDownload(`${JSON.stringify(dayData, null, 2)}\n`, fileName, 'application/json');
     });
 }
 
@@ -111,24 +245,216 @@ function downloadLegacyJsFile() {
     const levelData = buildLevelData(level);
 
     if (Object.keys(levelData).length === 0) {
-        if(!confirm("저장된 프리뷰 데이터가 없습니다. 빈 파일을 생성하시겠습니까?")) return;
+        if (!confirm('저장된 프리뷰 데이터가 없습니다. 빈 파일을 생성하시겠습니까?')) return;
     }
 
-    const fileContent = `/**
- * JLPT ${level.toUpperCase()} Data
- * Generated by Admin Tool (Legacy JS Compatibility)
- * Updated: ${new Date().toLocaleString()}
- */
-var ${varName} = ${JSON.stringify(levelData, null, 4)};
-`;
+    const fileContent = `/**\n * JLPT ${level.toUpperCase()} Data\n * Generated by Admin Tool (Legacy JS Compatibility)\n * Updated: ${new Date().toLocaleString()}\n */\nvar ${varName} = ${JSON.stringify(levelData, null, 4)};\n`;
 
-    triggerDownload(fileContent, `${level}_data.js`, "text/javascript");
+    triggerDownload(fileContent, `${level}_data.js`, 'text/javascript');
+}
+
+function getSelectedDay() {
+    return String(getInputDay());
+}
+
+function compareVersions() {
+    const leftValue = document.getElementById('compare-left').value;
+    const rightValue = document.getElementById('compare-right').value;
+
+    if (!leftValue || !rightValue) {
+        alert('비교할 버전 2개를 선택하세요.');
+        return;
+    }
+
+    const [levelL, dayL, versionL] = leftValue.split(':');
+    const [levelR, dayR, versionR] = rightValue.split(':');
+    if (levelL !== levelR || dayL !== dayR) {
+        alert('동일한 level/day 내 버전만 비교할 수 있습니다.');
+        return;
+    }
+
+    const left = readVersionRecord(levelL, dayL, Number(versionL));
+    const right = readVersionRecord(levelR, dayR, Number(versionR));
+
+    const diffEl = document.getElementById('compare-result');
+    if (!left || !right) {
+        diffEl.textContent = '선택한 버전을 읽을 수 없습니다.';
+        return;
+    }
+
+    const changedKeys = collectChangedPaths(left.data, right.data);
+    diffEl.textContent = [
+        `Left: v${left.version} (${left.status}) / ${left.timestamp}`,
+        `Right: v${right.version} (${right.status}) / ${right.timestamp}`,
+        `Changed Paths (${changedKeys.length}): ${changedKeys.join(', ') || '(none)'}`,
+        '',
+        '[Left JSON]',
+        JSON.stringify(left.data, null, 2),
+        '',
+        '[Right JSON]',
+        JSON.stringify(right.data, null, 2)
+    ].join('\n');
+}
+
+function collectChangedPaths(a, b, base = '') {
+    if (JSON.stringify(a) === JSON.stringify(b)) return [];
+    if (typeof a !== 'object' || a === null || typeof b !== 'object' || b === null) {
+        return [base || '$'];
+    }
+
+    const keys = new Set([...Object.keys(a), ...Object.keys(b)]);
+    const paths = [];
+
+    keys.forEach(key => {
+        const nextBase = base ? `${base}.${key}` : key;
+        if (!(key in a) || !(key in b)) {
+            paths.push(nextBase);
+            return;
+        }
+        paths.push(...collectChangedPaths(a[key], b[key], nextBase));
+    });
+
+    return paths;
+}
+
+function restoreSelectedVersion() {
+    const selected = document.getElementById('history-select').value;
+    if (!selected) {
+        alert('복원할 버전을 선택하세요.');
+        return;
+    }
+
+    const [level, day, version] = selected.split(':');
+    const source = readVersionRecord(level, day, Number(version));
+    if (!source) {
+        alert('선택 버전을 읽지 못했습니다.');
+        return;
+    }
+
+    const latest = getLatestRecord(level, Number(day));
+    const nextVersion = latest ? latest.version + 1 : Number(version) + 1;
+
+    const record = {
+        ...source,
+        version: nextVersion,
+        status: 'draft',
+        timestamp: new Date().toISOString(),
+        author: (document.getElementById('author-input').value || 'anonymous').trim(),
+        changeSummary: `Restore from v${source.version}: ${(document.getElementById('summary-input').value || 'restore').trim()}`
+    };
+
+    localStorage.setItem(makeVersionKey(level, day, nextVersion), JSON.stringify(record));
+
+    const index = readIndex();
+    upsertMeta(index, level, day, record);
+    writeIndex(index);
+
+    renderHistory();
+    alert(`v${source.version}을(를) 기반으로 v${nextVersion} draft를 생성했습니다.`);
+}
+
+function approveSelectedVersion() {
+    const selected = document.getElementById('history-select').value;
+    if (!selected) {
+        alert('확정(approved) 처리할 버전을 선택하세요.');
+        return;
+    }
+
+    const [level, day, version] = selected.split(':');
+    const record = readVersionRecord(level, day, Number(version));
+    if (!record) {
+        alert('선택 버전을 읽지 못했습니다.');
+        return;
+    }
+
+    record.status = 'approved';
+    record.timestamp = new Date().toISOString();
+    record.author = (document.getElementById('author-input').value || record.author || 'anonymous').trim();
+    const summaryInput = (document.getElementById('summary-input').value || '').trim();
+    if (summaryInput) record.changeSummary = summaryInput;
+
+    localStorage.setItem(makeVersionKey(level, day, Number(version)), JSON.stringify(record));
+
+    const index = readIndex();
+    upsertMeta(index, level, day, record);
+    writeIndex(index);
+
+    renderHistory();
+    alert(`v${version}이(가) approved로 확정되었습니다.`);
+}
+
+function renderHistory() {
+    const level = document.getElementById('level-select').value;
+    let day;
+    try {
+        day = getSelectedDay();
+    } catch (e) {
+        day = '';
+    }
+
+    const historySelect = document.getElementById('history-select');
+    const leftSelect = document.getElementById('compare-left');
+    const rightSelect = document.getElementById('compare-right');
+    const historyList = document.getElementById('history-list');
+
+    [historySelect, leftSelect, rightSelect].forEach(el => {
+        el.innerHTML = '';
+    });
+
+    if (!day) {
+        historyList.innerHTML = '<li>Day를 입력하면 히스토리를 확인할 수 있습니다.</li>';
+        return;
+    }
+
+    const versions = getDayVersions(level, day);
+    if (versions.length === 0) {
+        historyList.innerHTML = '<li>저장된 버전이 없습니다.</li>';
+        return;
+    }
+
+    historyList.innerHTML = versions
+        .map(v => `<li><strong>v${v.version}</strong> [${v.status}] ${v.timestamp} - ${v.author} :: ${v.changeSummary}</li>`)
+        .join('');
+
+    versions.forEach(v => {
+        const value = `${level}:${day}:${v.version}`;
+        const label = `v${v.version} [${v.status}] ${v.author}`;
+        [historySelect, leftSelect, rightSelect].forEach(el => {
+            const option = document.createElement('option');
+            option.value = value;
+            option.textContent = label;
+            el.appendChild(option);
+        });
+    });
+
+    if (leftSelect.options.length > 0) leftSelect.selectedIndex = 0;
+    if (rightSelect.options.length > 1) rightSelect.selectedIndex = rightSelect.options.length - 1;
 }
 
 // 임시 데이터 초기화
 function clearPreview() {
-    if(confirm("모든 임시 데이터를 정말 삭제하시겠습니까?\n(복구할 수 없습니다)")) {
-        localStorage.removeItem(DEV_KEY);
-        alert("초기화 완료");
+    if (confirm('모든 임시 데이터를 정말 삭제하시겠습니까?\n(복구할 수 없습니다)')) {
+        const removableKeys = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(`${DEV_PREFIX}/`)) removableKeys.push(key);
+        }
+        removableKeys.forEach(key => localStorage.removeItem(key));
+        localStorage.removeItem(DEV_INDEX_KEY);
+        localStorage.removeItem(LEGACY_DEV_KEY);
+        renderHistory();
+        alert('초기화 완료');
     }
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    migrateLegacyIfNeeded();
+
+    const levelSelect = document.getElementById('level-select');
+    const dayInput = document.getElementById('day-input');
+
+    levelSelect.addEventListener('change', renderHistory);
+    dayInput.addEventListener('input', renderHistory);
+
+    renderHistory();
+});
