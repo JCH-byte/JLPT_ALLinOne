@@ -91,6 +91,7 @@
         <button class="btn btn-preview" onclick="savePreview(false)">💾 draft 저장(덮어쓰기)</button>
         <button class="btn btn-merge" onclick="savePreview(true)">🔗 draft 저장(병합)</button>
         <button class="btn btn-download" onclick="downloadFile()">📥 표준 JSON 다운로드</button>
+        <button class="btn btn-approve" onclick="handleFinalExport()">🚀 최종 반영(bundle zip)</button>
         <button class="btn" onclick="downloadLegacyJsFile()">🧩 레거시 JS 내보내기</button>
     </div>
 
@@ -114,6 +115,10 @@
 
     <h3 style="margin-top:24px;">8. 저장 결과 Diff 요약</h3>
     <pre id="save-diff-result" class="compare-result">저장 후 추가/삭제/변경 요약이 표시됩니다.</pre>
+
+    <h3 style="margin-top:24px;">9. 반영 배포 로그(manifest)</h3>
+    <ul id="manifest-log-list" class="history-list"></ul>
+    <pre id="deployment-report" class="compare-result">최종 반영 전 체크리스트 결과가 표시됩니다.</pre>
 
     <div style="margin-top:20px; text-align:right;">
         <button onclick="clearPreview()" style="border:none; background:none; text-decoration:underline; cursor:pointer; color:#999;">임시 데이터 초기화</button>
