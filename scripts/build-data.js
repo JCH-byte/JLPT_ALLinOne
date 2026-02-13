@@ -7,7 +7,7 @@ const levels = ['n1', 'n2', 'n3', 'n4', 'n5'];
 const srcDir = path.join(__dirname, '..', 'data', 'src');
 const distDir = path.join(__dirname, '..', 'data', 'dist');
 const checkMode = process.argv.includes('--check');
-const DEFAULT_N4_MAX_DAY = 10;
+const DEFAULT_N4_MAX_DAY = 28;
 const MAX_DAY_LIMIT = 28;
 
 function resolveN4MaxDay() {
@@ -46,6 +46,24 @@ function normalizeDay(day, dayData) {
     };
 }
 
+function normalizeForLevel(level, day, dayData) {
+    const normalized = normalizeDay(day, dayData);
+
+    // N4 Day 11+는 환각 리스크가 높은 story/analysis/quiz를 제외하고
+    // 검증된 단어(vocab)만 공개한다.
+    if (level === 'n4' && Number(day) > 10) {
+        return {
+            title: normalized.title,
+            story: null,
+            analysis: [],
+            vocab: normalized.vocab,
+            quiz: []
+        };
+    }
+
+    return normalized;
+}
+
 function stableStringify(data) {
     return `${JSON.stringify(data, null, 4)}\n`;
 }
@@ -74,7 +92,7 @@ function buildLevel(level) {
 
     const normalized = {};
     for (const [day, dayData] of Object.entries(parsed)) {
-        normalized[day] = normalizeDay(day, dayData);
+        normalized[day] = normalizeForLevel(level, day, dayData);
     }
 
     const expectedFiles = new Map();
