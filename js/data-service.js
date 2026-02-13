@@ -87,6 +87,14 @@ function normalizeQuizItem(levelName, day, index, quizItem) {
 
 function normalizeDayData(level, day, dayData) {
     let normalizedDayData = dayData;
+
+    if (normalizedDayData && typeof normalizedDayData === 'object' && !Array.isArray(normalizedDayData)) {
+        const nested = normalizedDayData.data;
+        if (nested && typeof nested === 'object' && !Array.isArray(nested)) {
+            normalizedDayData = nested;
+        }
+    }
+
     if (Array.isArray(normalizedDayData)) normalizedDayData = { vocab: normalizedDayData };
 
     const vocab = safeArray(normalizedDayData?.vocab).map((item, idx) => normalizeVocabItem(level, day, idx, item));
