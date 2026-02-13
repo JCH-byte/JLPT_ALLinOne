@@ -23,8 +23,12 @@ node scripts/build-data.js --check
 git config core.hooksPath .githooks
 ```
 
-## N4 day11+ 비활성화 정책
-- `n4` 레벨은 운영 정책상 Day 10까지만 제공합니다.
-- 빌드 단계(`node scripts/build-data.js`)에서 `n4`의 Day 11 이상 데이터는 자동으로 제외됩니다.
-- 따라서 `data/dist/n4/`에는 `day-1.json`~`day-10.json` 및 `index.json`만 존재해야 합니다.
+## N4 공개 범위 정책(환경별)
+- `n4` 레벨 공개 범위는 `N4_MAX_DAY` 환경변수로 제어합니다.
+- 기본값은 `10`(운영 안전값)이며, 설정하지 않으면 Day 10까지만 생성됩니다.
+- 제작/스테이징 환경에서는 `N4_MAX_DAY=28`로 설정해 Day 28까지 생성할 수 있습니다.
+- `N4_MAX_DAY`는 `1`~`28` 정수만 허용됩니다.
 
+## 배포 체크리스트
+- 배포 환경의 `N4_MAX_DAY` 값 확인(운영: `10`, 제작/스테이징: 필요 시 `28`).
+- `node scripts/build-data.js --check` 실행으로 `data/src`와 `data/dist` 동기화 확인.

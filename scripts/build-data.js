@@ -7,6 +7,24 @@ const levels = ['n1', 'n2', 'n3', 'n4', 'n5'];
 const srcDir = path.join(__dirname, '..', 'data', 'src');
 const distDir = path.join(__dirname, '..', 'data', 'dist');
 const checkMode = process.argv.includes('--check');
+const DEFAULT_N4_MAX_DAY = 10;
+const MAX_DAY_LIMIT = 28;
+
+function resolveN4MaxDay() {
+    const configured = process.env.N4_MAX_DAY;
+    if (!configured) return DEFAULT_N4_MAX_DAY;
+
+    const parsed = Number(configured);
+    if (!Number.isInteger(parsed) || parsed < 1 || parsed > MAX_DAY_LIMIT) {
+        throw new Error(
+            `Invalid N4_MAX_DAY: ${configured}. Expected an integer between 1 and ${MAX_DAY_LIMIT}.`
+        );
+    }
+
+    return parsed;
+}
+
+const N4_MAX_DAY = resolveN4MaxDay();
 
 function normalizeDay(day, dayData) {
     if (Array.isArray(dayData)) {
@@ -35,7 +53,7 @@ function stableStringify(data) {
 function shouldIncludeDay(level, day) {
     const numericDay = Number(day);
     if (!Number.isFinite(numericDay)) return false;
-    if (level === 'n4' && numericDay > 10) return false;
+    if (level === 'n4' && numericDay > N4_MAX_DAY) return false;
     return true;
 }
 
