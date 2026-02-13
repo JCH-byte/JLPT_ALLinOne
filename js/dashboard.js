@@ -54,6 +54,9 @@ function renderList(level, indexData) {
         const data = indexData[day] || {};
         const checkKey = `${level}_day${day}_complete`;
         const isDone = localStorage.getItem(checkKey) === 'true';
+        const fallbackTitle = `Day ${day} 단어장`;
+        const baseTitle = (typeof data.title === 'string' && data.title.trim()) ? data.title.trim() : fallbackTitle;
+        const titleNeedsHydration = baseTitle === fallbackTitle;
         if (isDone) doneCount++;
 
         const li = document.createElement('li');
@@ -62,7 +65,7 @@ function renderList(level, indexData) {
         li.innerHTML = `
             <div class="day-info" onclick="loadFrame('${level}', '${day}')">
                 <span style="font-weight:bold;">Day ${day}</span>
-                <span style="display:block; font-size:0.8rem; color:#666;">${data.title || `Day ${day} 단어장`}</span>
+                <span id="day-title-${level}-${day}" style="display:block; font-size:0.8rem; color:#666;">${baseTitle}</span>
             </div>
             <label class="check-complete">
                 <input type="checkbox" onchange="toggleComplete('${level}', '${day}', this)" ${isDone ? 'checked' : ''}>
@@ -70,6 +73,16 @@ function renderList(level, indexData) {
             </label>
         `;
         list.appendChild(li);
+
+        if (titleNeedsHydration && typeof loadDayData === 'function') {
+            loadDayData(level, day, (dayData) => {
+                const titleEl = document.getElementById(`day-title-${level}-${day}`);
+                if (!titleEl) return;
+                if (dayData && typeof dayData.title === 'string' && dayData.title.trim()) {
+                    titleEl.textContent = dayData.title.trim();
+                }
+            });
+        }
     });
 
     const lastDay = localStorage.getItem(`${level}_last_day`);
