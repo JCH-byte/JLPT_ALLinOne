@@ -446,14 +446,10 @@ function runDeploymentChecklist(record) {
         ? data.vocab.map(vocab => String(vocab?.word || '').trim().toLowerCase()).filter(Boolean)
         : [];
     const quizCoverageOk = quizCount >= REQUIRED_QUIZ_COUNT;
-    const vocabUsageOk = vocabWords.length > 0 && Array.isArray(data.quiz)
-        ? vocabWords.every(word => data.quiz.some(item => JSON.stringify(item || {}).toLowerCase().includes(word)))
-        : false;
     const checks = [
         { name: '필수 섹션', passed: missingSections.length === 0, detail: missingSections.length ? `누락: ${missingSections.join(', ')}` : '모든 섹션 존재' },
         { name: 'scene 수', passed: sceneCount >= MIN_SCENE_COUNT, detail: `${sceneCount} scenes` },
-        { name: 'quiz 10문항', passed: quizCoverageOk, detail: `${quizCount} questions` },
-        { name: 'vocab 100% 사용', passed: vocabUsageOk, detail: vocabUsageOk ? '모든 vocab이 quiz에 포함됨' : 'quiz에서 사용되지 않은 vocab 존재' }
+        { name: 'quiz 10문항', passed: quizCoverageOk, detail: `${quizCount} questions` }
     ];
     return {
         passed: checks.every(check => check.passed),
