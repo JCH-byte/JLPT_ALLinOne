@@ -5,6 +5,27 @@
 
 const BOOKMARK_KEY = 'JLPT_BOOKMARKS';
 
+function getFirebaseBridge() {
+    try {
+        if (window.FirebaseBridge) return window.FirebaseBridge;
+        if (window.parent && window.parent !== window && window.parent.FirebaseBridge) return window.parent.FirebaseBridge;
+    } catch (e) {
+        // cross-frame access blocked
+    }
+    return null;
+}
+
+function syncBookmarksToCloud(bookmarks) {
+    const bridge = getFirebaseBridge();
+    if (!bridge || typeof bridge.syncToCloud !== 'function') return;
+
+    try {
+        bridge.syncToCloud(BOOKMARK_KEY, JSON.stringify(bookmarks));
+    } catch (e) {
+        console.warn('[Bookmarks] Cloud sync skipped:', e);
+    }
+}
+
 function getBookmarks() {
     try {
         return JSON.parse(localStorage.getItem(BOOKMARK_KEY) || '[]');
@@ -48,6 +69,7 @@ function toggleStar(level, day, wordData, btnElement) {
     }
     
     localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+    syncBookmarksToCloud(bookmarks);
     
     // 모아보기 페이지 등 외부 갱신이 필요한 경우 호출
     if(window.refreshStarredList) window.refreshStarredList();
