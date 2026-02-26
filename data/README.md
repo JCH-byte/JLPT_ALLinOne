@@ -28,11 +28,6 @@ git config core.hooksPath .githooks
 - 기본값은 `28`이며, 설정하지 않으면 Day 28까지 생성됩니다.
 - `N4_MAX_DAY`는 `1`~`28` 정수만 허용됩니다.
 
-### N4 Day 11+ 콘텐츠 정책
-- Day 11 이후는 환각 리스크를 줄이기 위해 **vocab만 공개**합니다.
-- `story`는 `null`, `analysis`와 `quiz`는 빈 배열로 생성됩니다.
-- Day 1~10은 기존처럼 전체 콘텐츠(`title/story/analysis/vocab/quiz`)를 생성합니다.
-
 ## 배포 체크리스트
 - 배포 환경의 `N4_MAX_DAY` 값 확인(기본: `28`, 필요 시 축소).
 - `node scripts/build-data.js --check` 실행으로 `data/src`와 `data/dist` 동기화 확인.

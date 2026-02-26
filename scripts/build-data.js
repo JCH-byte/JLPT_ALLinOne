@@ -48,19 +48,6 @@ function normalizeDay(day, dayData) {
 
 function normalizeForLevel(level, day, dayData) {
     const normalized = normalizeDay(day, dayData);
-
-    // N4 Day 11+는 환각 리스크가 높은 story/analysis/quiz를 제외하고
-    // 검증된 단어(vocab)만 공개한다.
-    if (level === 'n4' && Number(day) > 10) {
-        return {
-            title: normalized.title,
-            story: null,
-            analysis: [],
-            vocab: normalized.vocab,
-            quiz: []
-        };
-    }
-
     return normalized;
 }
 
