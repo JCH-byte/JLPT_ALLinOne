@@ -1,0 +1,196 @@
+{
+    "moduleId": "n3-module-001",
+    "title": "N3 샘플 모듈 001",
+    "vocabIds": [
+        "n3-v-001",
+        "n3-v-002",
+        "n3-v-003",
+        "n3-v-004",
+        "n3-v-005",
+        "n3-v-006",
+        "n3-v-007",
+        "n3-v-008",
+        "n3-v-009",
+        "n3-v-010",
+        "n3-v-011",
+        "n3-v-012",
+        "n3-v-013",
+        "n3-v-014",
+        "n3-v-015",
+        "n3-v-016",
+        "n3-v-017",
+        "n3-v-018",
+        "n3-v-019",
+        "n3-v-020",
+        "n3-v-021",
+        "n3-v-022",
+        "n3-v-023",
+        "n3-v-024",
+        "n3-v-025",
+        "n3-v-026",
+        "n3-v-027",
+        "n3-v-028",
+        "n3-v-029",
+        "n3-v-030",
+        "n3-v-031",
+        "n3-v-032",
+        "n3-v-033",
+        "n3-v-034",
+        "n3-v-035",
+        "n3-v-036",
+        "n3-v-037",
+        "n3-v-038",
+        "n3-v-039",
+        "n3-v-040",
+        "n3-v-041",
+        "n3-v-042",
+        "n3-v-043",
+        "n3-v-044",
+        "n3-v-045"
+    ],
+    "promptTemplateVersion": "notebooklm-v2",
+    "constraints": {
+        "jlptLevel": "N3",
+        "maxNewItemsPerSet": 10
+    },
+    "generationBatches": [
+        {
+            "batchId": "n3-module-001-batch-01",
+            "vocabIds": [
+                "n3-v-001",
+                "n3-v-002",
+                "n3-v-003",
+                "n3-v-004",
+                "n3-v-005",
+                "n3-v-006",
+                "n3-v-007",
+                "n3-v-008",
+                "n3-v-009",
+                "n3-v-010",
+                "n3-v-011",
+                "n3-v-012",
+                "n3-v-013",
+                "n3-v-014",
+                "n3-v-015",
+                "n3-v-016",
+                "n3-v-017",
+                "n3-v-018",
+                "n3-v-019",
+                "n3-v-020",
+                "n3-v-021",
+                "n3-v-022",
+                "n3-v-023"
+            ],
+            "promptTemplateVersion": "notebooklm-v2",
+            "constraints": {
+                "jlptLevel": "N3",
+                "maxNewItemsPerSet": 10,
+                "targetWordCount": "20-25"
+            }
+        },
+        {
+            "batchId": "n3-module-001-batch-02",
+            "vocabIds": [
+                "n3-v-024",
+                "n3-v-025",
+                "n3-v-026",
+                "n3-v-027",
+                "n3-v-028",
+                "n3-v-029",
+                "n3-v-030",
+                "n3-v-031",
+                "n3-v-032",
+                "n3-v-033",
+                "n3-v-034",
+                "n3-v-035",
+                "n3-v-036",
+                "n3-v-037",
+                "n3-v-038",
+                "n3-v-039",
+                "n3-v-040",
+                "n3-v-041",
+                "n3-v-042",
+                "n3-v-043",
+                "n3-v-044",
+                "n3-v-045"
+            ],
+            "promptTemplateVersion": "notebooklm-v2",
+            "constraints": {
+                "jlptLevel": "N3",
+                "maxNewItemsPerSet": 10,
+                "targetWordCount": "20-25"
+            }
+        }
+    ],
+    "notebookLMOutputs": {
+        "n3-module-001-batch-01": {
+            "reviewed": true,
+            "paragraphs": [
+                {
+                    "text": "배치 01 문단"
+                }
+            ],
+            "sentences": [
+                {
+                    "text": "배치 01 예문"
+                }
+            ],
+            "quizzes": [
+                {
+                    "question": "배치 01 퀴즈",
+                    "answer": "A"
+                }
+            ]
+        },
+        "n3-module-001-batch-02": {
+            "reviewed": false,
+            "paragraphs": [
+                {
+                    "text": "미검수 문단"
+                }
+            ],
+            "sentences": [],
+            "quizzes": []
+        }
+    },
+    "items": [
+        {
+            "itemId": "n3-module-001-batch-01-par-01",
+            "type": "paragraphs",
+            "payload": {
+                "text": "배치 01 문단"
+            },
+            "metadata": {
+                "generatedFromBatchId": "n3-module-001-batch-01"
+            }
+        },
+        {
+            "itemId": "n3-module-001-batch-01-sen-01",
+            "type": "sentences",
+            "payload": {
+                "text": "배치 01 예문"
+            },
+            "metadata": {
+                "generatedFromBatchId": "n3-module-001-batch-01"
+            }
+        },
+        {
+            "itemId": "n3-module-001-batch-01-qui-01",
+            "type": "quizzes",
+            "payload": {
+                "question": "배치 01 퀴즈",
+                "answer": "A"
+            },
+            "metadata": {
+                "generatedFromBatchId": "n3-module-001-batch-01"
+            }
+        }
+    ],
+    "metadata": {
+        "batchProvenance": {
+            "n3-module-001-batch-01-par-01": "n3-module-001-batch-01",
+            "n3-module-001-batch-01-sen-01": "n3-module-001-batch-01",
+            "n3-module-001-batch-01-qui-01": "n3-module-001-batch-01"
+        }
+    }
+}
