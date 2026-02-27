@@ -31,3 +31,9 @@ git config core.hooksPath .githooks
 ## 배포 체크리스트
 - 배포 환경의 `N4_MAX_DAY` 값 확인(기본: `28`, 필요 시 축소).
 - `node scripts/build-data.js --check` 실행으로 `data/src`와 `data/dist` 동기화 확인.
+
+
+## 협업 경로 분리(전환기)
+- 신규 모듈 기반 작업 경로: `content/modules/`
+- 레거시 Day 기반 작업 경로: `legacy/day/`
+- 브랜치/병합/PR touch scope 규칙: `docs/collaboration-workflow.md`
