@@ -5,7 +5,11 @@ const path = require('path');
 
 const srcDir = path.join(__dirname, '..', 'content', 'modules', 'src');
 const distDir = path.join(__dirname, '..', 'content', 'modules', 'dist');
+const rulesDir = path.join(__dirname, '..', 'content', 'modules', 'rules');
+const notebookLMInputDir = path.join(__dirname, '..', 'content', 'modules', 'notebooklm-inputs');
 const checkMode = process.argv.includes('--check');
+
+const JLPT_LEVEL_ORDER = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
 function stableStringify(data) {
     return `${JSON.stringify(data, null, 4)}\n`;
@@ -83,17 +87,137 @@ function normalizeBatches(moduleData) {
     return buildGenerationBatches(moduleData);
 }
 
-function mergeReviewedNotebookOutputs(moduleData, generationBatches) {
+function loadRuleSet(moduleData) {
+    if (typeof moduleData.ruleFile !== 'string' || moduleData.ruleFile.trim() === '') {
+        return {
+            rulePath: null,
+            ruleData: {
+                ruleVersion: 'unversioned',
+                parserThresholds: {}
+            }
+        };
+    }
+
+    const rulePath = path.join(rulesDir, moduleData.ruleFile);
+    if (!fs.existsSync(rulePath)) {
+        throw new Error(`Missing rule file: content/modules/rules/${moduleData.ruleFile}`);
+    }
+
+    const raw = fs.readFileSync(rulePath, 'utf8');
+    const parsed = JSON.parse(raw);
+    return {
+        rulePath,
+        ruleData: parsed && typeof parsed === 'object'
+            ? parsed
+            : {
+                ruleVersion: 'unversioned',
+                parserThresholds: {}
+            }
+    };
+}
+
+function isDifficultyViolation(maxAllowedLevel, observedLevel) {
+    if (!maxAllowedLevel || !observedLevel) return false;
+    const allowedIndex = JLPT_LEVEL_ORDER.indexOf(maxAllowedLevel);
+    const observedIndex = JLPT_LEVEL_ORDER.indexOf(observedLevel);
+    if (allowedIndex === -1 || observedIndex === -1) return false;
+    return observedIndex > allowedIndex;
+}
+
+function evaluateBatchViolations(batch, output, ruleData) {
+    const parserReport = output && output.parserReport && typeof output.parserReport === 'object'
+        ? output.parserReport
+        : {};
+    const parserThresholds = ruleData && ruleData.parserThresholds && typeof ruleData.parserThresholds === 'object'
+        ? ruleData.parserThresholds
+        : {};
+
+    const usedVocabIds = Array.isArray(parserReport.usedVocabIds) ? parserReport.usedVocabIds : [];
+    const misusedVocabIds = Array.isArray(parserReport.misusedVocabIds) ? parserReport.misusedVocabIds : [];
+    const charCount = Number.isFinite(parserReport.charCount) ? parserReport.charCount : null;
+    const detectedMaxJlptLevel = typeof parserReport.detectedMaxJlptLevel === 'string'
+        ? parserReport.detectedMaxJlptLevel
+        : null;
+
+    const missingUsage = batch.vocabIds.filter((vocabId) => !usedVocabIds.includes(vocabId));
+    const misuseInBatch = misusedVocabIds.filter((vocabId) => batch.vocabIds.includes(vocabId));
+
+    const violations = [];
+    if (missingUsage.length > 0) {
+        violations.push({
+            type: 'unused_vocab',
+            details: {
+                vocabIds: missingUsage
+            }
+        });
+    }
+
+    if (misuseInBatch.length > 0) {
+        violations.push({
+            type: 'misused_vocab',
+            details: {
+                vocabIds: misuseInBatch
+            }
+        });
+    }
+
+    if (isDifficultyViolation(parserThresholds.maxJlptLevel, detectedMaxJlptLevel)) {
+        violations.push({
+            type: 'difficulty_drift',
+            details: {
+                maxAllowedLevel: parserThresholds.maxJlptLevel,
+                detectedMaxJlptLevel
+            }
+        });
+    }
+
+    if (Number.isFinite(parserThresholds.maxChars) && Number.isFinite(charCount) && charCount > parserThresholds.maxChars) {
+        violations.push({
+            type: 'length_exceeded',
+            details: {
+                maxChars: parserThresholds.maxChars,
+                observedChars: charCount
+            }
+        });
+    }
+
+    return {
+        parserReport,
+        violations,
+        passed: violations.length === 0
+    };
+}
+
+function mergeReviewedNotebookOutputs(moduleData, generationBatches, ruleData) {
     const outputs = moduleData.notebookLMOutputs && typeof moduleData.notebookLMOutputs === 'object'
         ? moduleData.notebookLMOutputs
         : {};
 
     const items = [];
     const batchProvenance = {};
+    const regenerationQueue = [];
+    const outputValidation = {};
 
     generationBatches.forEach((batch) => {
         const output = outputs[batch.batchId];
-        if (!output || output.reviewed !== true) return;
+        if (!output) return;
+
+        const validation = evaluateBatchViolations(batch, output, ruleData);
+        outputValidation[batch.batchId] = {
+            reviewed: output.reviewed === true,
+            ...validation
+        };
+
+        if (output.reviewed !== true || validation.passed !== true) {
+            if (validation.violations.length > 0) {
+                regenerationQueue.push({
+                    batchId: batch.batchId,
+                    reason: 'parser_rule_violation',
+                    violations: validation.violations
+                });
+            }
+            return;
+        }
 
         ['paragraphs', 'sentences', 'quizzes'].forEach((sectionName) => {
             const sectionItems = Array.isArray(output[sectionName]) ? output[sectionName] : [];
@@ -104,7 +228,9 @@ function mergeReviewedNotebookOutputs(moduleData, generationBatches) {
                     type: sectionName,
                     payload: entry,
                     metadata: {
-                        generatedFromBatchId: batch.batchId
+                        generatedFromBatchId: batch.batchId,
+                        promptTemplateVersion: batch.promptTemplateVersion,
+                        ruleVersion: ruleData.ruleVersion || 'unversioned'
                     }
                 });
                 batchProvenance[itemId] = batch.batchId;
@@ -114,21 +240,41 @@ function mergeReviewedNotebookOutputs(moduleData, generationBatches) {
 
     return {
         items,
-        batchProvenance
+        batchProvenance,
+        regenerationQueue,
+        outputValidation
     };
 }
 
 function normalizeModule(moduleData) {
+    const { rulePath, ruleData } = loadRuleSet(moduleData);
     const generationBatches = normalizeBatches(moduleData);
-    const merged = mergeReviewedNotebookOutputs(moduleData, generationBatches);
+    const merged = mergeReviewedNotebookOutputs(moduleData, generationBatches, ruleData);
+
+    const notebookLMInput = generationBatches.map((batch) => ({
+        batchId: batch.batchId,
+        inputMode: 'rules+vocab-only',
+        includes: {
+            ruleFile: moduleData.ruleFile || null,
+            vocabIds: batch.vocabIds
+        },
+        excludes: ['long_context', 'previous_generated_paragraphs', 'reference_articles']
+    }));
 
     return {
         ...moduleData,
         generationBatches,
+        notebookLMInput,
         items: merged.items,
+        regenerationQueue: merged.regenerationQueue,
+        outputValidation: merged.outputValidation,
         metadata: {
             ...(moduleData.metadata && typeof moduleData.metadata === 'object' ? moduleData.metadata : {}),
-            batchProvenance: merged.batchProvenance
+            batchProvenance: merged.batchProvenance,
+            ruleVersion: ruleData.ruleVersion || 'unversioned',
+            promptTemplateVersion: moduleData.promptTemplateVersion || 'notebooklm-v1',
+            ruleFile: moduleData.ruleFile || null,
+            ruleResolvedPath: rulePath ? path.relative(path.join(__dirname, '..'), rulePath).replace(/\\/g, '/') : null
         }
     };
 }
@@ -141,6 +287,7 @@ function getModuleFiles() {
 function main() {
     const moduleFiles = getModuleFiles();
     const expected = new Map();
+    const notebookLMInputExpected = new Map();
 
     moduleFiles.forEach((fileName) => {
         const srcPath = path.join(srcDir, fileName);
@@ -148,6 +295,23 @@ function main() {
         const parsed = JSON.parse(raw);
         const normalized = normalizeModule(parsed);
         expected.set(fileName, stableStringify(normalized));
+
+        normalized.notebookLMInput.forEach((batchInput) => {
+            const notebookLMInputFile = `${batchInput.batchId}.json`;
+            notebookLMInputExpected.set(notebookLMInputFile, stableStringify({
+                moduleId: normalized.moduleId,
+                title: normalized.title,
+                promptTemplateVersion: normalized.promptTemplateVersion || 'notebooklm-v1',
+                ruleFile: normalized.ruleFile || null,
+                ruleVersion: normalized.metadata.ruleVersion,
+                batch: {
+                    batchId: batchInput.batchId,
+                    vocabIds: batchInput.includes.vocabIds
+                },
+                inputMode: batchInput.inputMode,
+                excludes: batchInput.excludes
+            }));
+        });
     });
 
     if (checkMode) {
@@ -175,15 +339,43 @@ function main() {
             throw new Error(`Stale generated files in content/modules/dist: ${stale.join(', ')}`);
         }
 
+        if (!fs.existsSync(notebookLMInputDir)) {
+            throw new Error('Missing generated folder: content/modules/notebooklm-inputs');
+        }
+
+        for (const [fileName, expectedContent] of notebookLMInputExpected.entries()) {
+            const outputPath = path.join(notebookLMInputDir, fileName);
+            if (!fs.existsSync(outputPath)) {
+                throw new Error(`Missing generated file: content/modules/notebooklm-inputs/${fileName}`);
+            }
+            const currentContent = fs.readFileSync(outputPath, 'utf8');
+            if (currentContent !== expectedContent) {
+                throw new Error(`Out-of-date NotebookLM input file: content/modules/notebooklm-inputs/${fileName} (run: node scripts/build-modules.js)`);
+            }
+        }
+
+        const currentInputFiles = fs.readdirSync(notebookLMInputDir).filter((name) => name.endsWith('.json'));
+        const expectedInputNames = new Set(notebookLMInputExpected.keys());
+        const staleInput = currentInputFiles.filter((fileName) => !expectedInputNames.has(fileName));
+        if (staleInput.length > 0) {
+            throw new Error(`Stale generated files in content/modules/notebooklm-inputs: ${staleInput.join(', ')}`);
+        }
+
         console.log(`✅ Module build output is in sync (${moduleFiles.length} files).`);
         return;
     }
 
     fs.rmSync(distDir, { recursive: true, force: true });
     fs.mkdirSync(distDir, { recursive: true });
+    fs.rmSync(notebookLMInputDir, { recursive: true, force: true });
+    fs.mkdirSync(notebookLMInputDir, { recursive: true });
 
     for (const [fileName, content] of expected.entries()) {
         fs.writeFileSync(path.join(distDir, fileName), content, 'utf8');
+    }
+
+    for (const [fileName, content] of notebookLMInputExpected.entries()) {
+        fs.writeFileSync(path.join(notebookLMInputDir, fileName), content, 'utf8');
     }
 
     console.log(`✅ Built module artifacts (${moduleFiles.length} files).`);
