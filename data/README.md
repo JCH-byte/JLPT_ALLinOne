@@ -16,6 +16,13 @@ node scripts/build-data.js --check
 
 > 규칙: **수정은 src만, dist는 생성물**
 
+
+## 표준 수정 플로우 (patch 기반)
+1. admin에서 `src patch` 포맷(`{ level, day, data }`)으로 patch 파일을 다운로드합니다.
+2. patch를 `node scripts/apply-day-patch.js <patch.json>`로 `data/src/nX.json`에 안전 병합합니다.
+3. 스크립트가 병합 직후 `node scripts/build-data.js --check`를 자동 실행해 `dist` 동기화를 강제합니다.
+4. 동기화 검증을 통과한 상태로 PR을 생성합니다.
+
 ## pre-commit 훅(선택)
 리포지토리 훅 경로를 설정하면 커밋 전에 자동으로 dist를 재생성/검증합니다.
 

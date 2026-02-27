@@ -1,6 +1,6 @@
 /**
  * admin-controller.js
- * 기능: 데이터 입력, 버전 히스토리 관리, JSON/레거시 JS 다운로드
+ * 기능: 데이터 입력, 버전 히스토리 관리, src patch/레거시 JS 다운로드
  */
 const DEV_PREFIX = 'JLPT_DEV_DATA_OVERRIDE';
 const DEV_INDEX_KEY = `${DEV_PREFIX}__INDEX`;
@@ -672,7 +672,7 @@ function triggerDownload(content, fileName, type) {
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
 }
-// 표준 JSON 파일 다운로드 생성 (n4/day-03.json 규칙)
+// src patch 파일 다운로드 생성 ({ level, day, data } 규칙)
 function downloadFile() {
     const level = document.getElementById('level-select').value;
     const levelData = buildLevelData(level);
@@ -687,11 +687,12 @@ function downloadFile() {
         .sort((a, b) => a - b);
     days.forEach(day => {
         const dayData = {
+            level,
             day,
             data: levelData[String(day)]
         };
         const dayLabel = String(day).padStart(2, '0');
-        const fileName = `${level}-day-${dayLabel}.json`;
+        const fileName = `${level}-day-${dayLabel}-src-patch.json`;
         triggerDownload(`${JSON.stringify(dayData, null, 2)}\n`, fileName, 'application/json');
     });
 }
