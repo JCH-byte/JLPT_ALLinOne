@@ -47,6 +47,47 @@ const safeParse = (val) => {
     }
 };
 
+
+const toBookmarkArray = (value) => (Array.isArray(value) ? value.filter(item => item && typeof item === 'object') : []);
+
+const normalizeBookmarkItem = (item) => ({
+    level: item.level || '',
+    day: item.day != null ? String(item.day) : '',
+    word: item.word || '',
+    read: item.read || '',
+    mean: item.mean || '',
+    addedAt: item.addedAt || ''
+});
+
+const makeBookmarkKey = (item) => `${item.level}-${item.day}-${item.word}`;
+
+const mergeBookmarks = (firstList, secondList) => {
+    const mergedMap = new Map();
+    const mergedOrder = [...toBookmarkArray(firstList), ...toBookmarkArray(secondList)];
+
+    mergedOrder.forEach((raw) => {
+        const item = normalizeBookmarkItem(raw);
+        if (!item.level || !item.word) return;
+
+        const key = makeBookmarkKey(item);
+        const existing = mergedMap.get(key);
+
+        if (!existing) {
+            mergedMap.set(key, item);
+            return;
+        }
+
+        const existingTs = Date.parse(existing.addedAt || '') || 0;
+        const itemTs = Date.parse(item.addedAt || '') || 0;
+
+        if (itemTs >= existingTs) {
+            mergedMap.set(key, { ...existing, ...item, addedAt: item.addedAt || existing.addedAt });
+        }
+    });
+
+    return Array.from(mergedMap.values());
+};
+
 // 권한 오류 발생 시 사용자에게 알림 (최초 1회만)
 let permissionAlertShown = false;
 const checkPermissionError = (e) => {
@@ -136,28 +177,15 @@ async function syncHighProgressStrategy(cloudData) {
         } 
         // C. [FIX] 북마크 (병합 로직 적용)
         else if (key === BOOKMARK_KEY) {
-             const localList = Array.isArray(localVal) ? localVal : [];
-             const cloudList = Array.isArray(cloudVal) ? cloudVal : [];
-             
-             // 고유 키(level+day+word)로 중복 제거하며 병합
-             const mergedMap = new Map();
-             [...localList, ...cloudList].forEach(item => {
-                 const uniqueKey = `${item.level}-${item.day}-${item.word}`;
-                 // 이미 있다면 최신 addedAt을 가진 녀석을 선호하거나, 단순 덮어쓰기
-                 if (!mergedMap.has(uniqueKey)) {
-                     mergedMap.set(uniqueKey, item);
-                 }
-             });
-             
-             const mergedList = Array.from(mergedMap.values());
-             
-             // 병합된 결과가 로컬과 다르면 로컬 업데이트
+             const localList = toBookmarkArray(localVal);
+             const cloudList = toBookmarkArray(cloudVal);
+             const mergedList = mergeBookmarks(localList, cloudList);
+
              if (JSON.stringify(localList) !== JSON.stringify(mergedList)) {
                  originalSetItem.call(localStorage, key, JSON.stringify(mergedList));
                  localUpdated = true;
              }
-             
-             // 병합된 결과가 클라우드와 다르면 클라우드 업데이트 예약
+
              if (JSON.stringify(cloudList) !== JSON.stringify(mergedList)) {
                  updatesToCloud[key] = mergedList;
                  hasUpdates = true;
@@ -223,9 +251,17 @@ window.FirebaseBridge = {
         if (!userRef) return;
         try {
             const val = safeParse(rawValue);
-            // 체크박스('true')는 항상 병합해도 안전
+
+            if (key === BOOKMARK_KEY) {
+                const localList = toBookmarkArray(val);
+                const docSnap = await getDoc(userRef);
+                const cloudList = toBookmarkArray(docSnap.exists() ? docSnap.data()?.[BOOKMARK_KEY] : []);
+                const mergedList = mergeBookmarks(cloudList, localList);
+                await setDoc(userRef, { [key]: mergedList }, { merge: true });
+                return;
+            }
+
             await setDoc(userRef, { [key]: val }, { merge: true });
-            // console.log(`[Sync] Saved: ${key}`);
         } catch (e) {
             checkPermissionError(e);
         }
@@ -298,17 +334,23 @@ onAuthStateChanged(auth, async (user) => {
                     
                     // [FIX] 북마크 실시간 동기화 처리 추가
                     if (k === BOOKMARK_KEY) {
-                        const cloudValStr = JSON.stringify(data[k]);
-                        const localValStr = localStorage.getItem(k);
-                        
-                        // 서버 데이터가 로컬과 다르면 업데이트
-                        if (cloudValStr !== localValStr) {
-                            originalSetItem.call(localStorage, k, cloudValStr);
-                            
-                            // 만약 '나만의 단어장' 페이지를 보고 있다면 리스트 즉시 갱신
+                        const cloudList = toBookmarkArray(data[k]);
+                        const localList = toBookmarkArray(safeParse(localStorage.getItem(k)));
+                        const mergedList = mergeBookmarks(cloudList, localList);
+
+                        const mergedStr = JSON.stringify(mergedList);
+                        const localStr = JSON.stringify(localList);
+                        const cloudStr = JSON.stringify(cloudList);
+
+                        if (mergedStr !== localStr) {
+                            originalSetItem.call(localStorage, k, mergedStr);
                             if (window.refreshStarredList && typeof window.refreshStarredList === 'function') {
                                 window.refreshStarredList();
                             }
+                        }
+
+                        if (mergedStr !== cloudStr && userRef) {
+                            setDoc(userRef, { [k]: mergedList }, { merge: true }).catch(checkPermissionError);
                         }
                     }
                 });
