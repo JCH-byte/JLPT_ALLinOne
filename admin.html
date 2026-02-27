@@ -34,6 +34,11 @@
     </div>
 
     <div class="control-panel">
+        <label><strong>PR 자동화 엔드포인트:</strong></label>
+        <input id="pr-endpoint-input" type="text" placeholder="예: https://<region>-<project>.cloudfunctions.net/createContentPr 또는 /api/create-content-pr">
+    </div>
+
+    <div class="control-panel">
         <label><strong>필수 필드 검증:</strong></label>
         <select id="required-field-mode">
             <option value="strict" selected>누락 시 저장 차단</option>
@@ -92,6 +97,7 @@
         <button class="btn btn-merge" onclick="savePreview(true)">🔗 draft 저장(병합)</button>
         <button class="btn btn-download" onclick="downloadFile()">📥 표준 JSON 다운로드</button>
         <button class="btn btn-approve" onclick="handleFinalExport()">🚀 최종 반영(bundle zip)</button>
+        <button class="btn btn-merge" onclick="handleCreatePullRequest()">🪄 PR 생성</button>
         <button class="btn" onclick="downloadLegacyJsFile()">🧩 레거시 JS 내보내기</button>
     </div>
 
@@ -119,6 +125,7 @@
     <h3 style="margin-top:24px;">9. 반영 배포 로그(manifest)</h3>
     <ul id="manifest-log-list" class="history-list"></ul>
     <pre id="deployment-report" class="compare-result">최종 반영 전 체크리스트 결과가 표시됩니다.</pre>
+    <pre id="pr-result" class="compare-result">PR 생성 결과가 여기에 표시됩니다.</pre>
 
     <div style="margin-top:20px; text-align:right;">
         <button onclick="clearPreview()" style="border:none; background:none; text-decoration:underline; cursor:pointer; color:#999;">임시 데이터 초기화</button>

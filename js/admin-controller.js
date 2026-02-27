@@ -13,6 +13,7 @@ const ALIAS_KEY_MAP = {
 };
 const DEPLOYMENT_LOG_KEY = `${DEV_PREFIX}__MANIFEST_LOG`;
 const DEPLOYMENT_ZIP_MIME = 'application/zip';
+const PR_ENDPOINT_KEY = `${DEV_PREFIX}__PR_ENDPOINT`;
 const REQUIRED_CHECKLIST_SECTIONS = ['title', 'story', 'analysis', 'vocab', 'quiz'];
 const MIN_SCENE_COUNT = 1;
 const REQUIRED_QUIZ_COUNT = 10;
@@ -417,6 +418,12 @@ function readDeploymentLog() {
 function writeDeploymentLog(log) {
     localStorage.setItem(DEPLOYMENT_LOG_KEY, JSON.stringify(log));
 }
+function readPrEndpoint() {
+    return localStorage.getItem(PR_ENDPOINT_KEY) || '';
+}
+function writePrEndpoint(endpoint) {
+    localStorage.setItem(PR_ENDPOINT_KEY, endpoint);
+}
 function renderDeploymentLog() {
     const list = document.getElementById('manifest-log-list');
     if (!list) return;
@@ -426,7 +433,7 @@ function renderDeploymentLog() {
         return;
     }
     list.innerHTML = logs
-        .map(entry => `<li><strong>${entry.level.toUpperCase()} Day ${entry.day}</strong> v${entry.version} / ${entry.deployedAt} / hash:${String(entry.dataHash || '').slice(0, 12)}...</li>`)
+        .map(entry => `<li><strong>${entry.level.toUpperCase()} Day ${entry.day}</strong> v${entry.version} / ${entry.deployedAt} / hash:${String(entry.dataHash || '').slice(0, 12)}...${entry.prUrl ? ` / <a href="${entry.prUrl}" target="_blank" rel="noopener">PR</a>` : ''}</li>`)
         .join('');
 }
 function runDeploymentChecklist(record) {
@@ -578,6 +585,79 @@ async function handleFinalExport() {
         renderDeploymentLog();
     } catch (e) {
         alert(`최종 반영 실패: ${e.message}`);
+        console.error(e);
+    }
+}
+function buildPrRequestPayload(record, checklist, dataHash, validationReport) {
+    return {
+        level: record.level,
+        day: Number(record.day),
+        version: Number(record.version),
+        dataHash,
+        data: record.data,
+        author: record.author || (document.getElementById('author-input').value || 'anonymous').trim(),
+        changeSummary: record.changeSummary || (document.getElementById('summary-input').value || 'No summary').trim(),
+        validationReport,
+        checklist
+    };
+}
+async function handleCreatePullRequest() {
+    try {
+        const endpointInput = document.getElementById('pr-endpoint-input');
+        const endpoint = String(endpointInput?.value || '').trim();
+        if (!endpoint) {
+            throw new Error('PR 자동화 엔드포인트를 입력하세요.');
+        }
+        writePrEndpoint(endpoint);
+        const level = document.getElementById('level-select').value;
+        const day = Number(getSelectedDay());
+        const record = getLatestRecord(level, day);
+        if (!record || record.status !== 'approved') {
+            throw new Error('approved 상태의 최신 버전이 있어야 PR을 생성할 수 있습니다.');
+        }
+        const checklist = runDeploymentChecklist(record);
+        const reportText = buildValidationReport(checklist);
+        document.getElementById('deployment-report').textContent = reportText;
+        if (!checklist.passed) {
+            throw new Error('배포 전 체크리스트를 통과하지 못했습니다.');
+        }
+        const jsonPayload = { day: Number(record.day), data: record.data };
+        const jsonText = `${JSON.stringify(jsonPayload, null, 2)}\n`;
+        const dataHash = await sha256Hex(jsonText);
+        const payload = buildPrRequestPayload(record, checklist, dataHash, reportText);
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+        const body = await response.json().catch(() => ({}));
+        if (!response.ok) {
+            throw new Error(body?.error || `HTTP ${response.status}`);
+        }
+        const prUrl = String(body?.prUrl || body?.url || '').trim();
+        if (!prUrl) {
+            throw new Error('응답에 prUrl(url)이 없습니다.');
+        }
+        const logs = readDeploymentLog();
+        logs.push({
+            level,
+            day: Number(day),
+            version: record.version,
+            dataHash,
+            deployedAt: new Date().toISOString(),
+            prUrl
+        });
+        writeDeploymentLog(logs);
+        renderDeploymentLog();
+        const prResultEl = document.getElementById('pr-result');
+        if (prResultEl) {
+            prResultEl.textContent = `PR 생성 완료: ${prUrl}\n\n요청 payload:\n${JSON.stringify(payload, null, 2)}`;
+        }
+        alert(`PR 생성 완료: ${prUrl}`);
+    } catch (e) {
+        const prResultEl = document.getElementById('pr-result');
+        if (prResultEl) prResultEl.textContent = `PR 생성 실패: ${e.message}`;
+        alert(`PR 생성 실패: ${e.message}`);
         console.error(e);
     }
 }
@@ -787,6 +867,8 @@ function clearPreview() {
         resetPipelineState();
         document.getElementById('save-diff-result').textContent = '저장 후 추가/삭제/변경 요약이 표시됩니다.';
         document.getElementById('deployment-report').textContent = '최종 반영 전 체크리스트 결과가 표시됩니다.';
+        const prResultEl = document.getElementById('pr-result');
+        if (prResultEl) prResultEl.textContent = 'PR 생성 결과가 여기에 표시됩니다.';
         alert('초기화 완료');
     }
 }
@@ -796,6 +878,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const dayInput = document.getElementById('day-input');
     levelSelect.addEventListener('change', renderHistory);
     dayInput.addEventListener('input', renderHistory);
+    const endpointInput = document.getElementById('pr-endpoint-input');
+    if (endpointInput) endpointInput.value = readPrEndpoint();
     resetPipelineState();
     renderHistory();
     renderDeploymentLog();
