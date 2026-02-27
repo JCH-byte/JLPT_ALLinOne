@@ -4,11 +4,21 @@ const fs = require('fs');
 const path = require('path');
 
 const modulesDir = path.join(__dirname, '..', 'content', 'modules', 'src');
+const rulesDir = path.join(__dirname, '..', 'content', 'modules', 'rules');
 
 function collectIssues(fileName, moduleData) {
     const issues = [];
     const vocabIds = Array.isArray(moduleData.vocabIds) ? moduleData.vocabIds : [];
     const generationBatches = Array.isArray(moduleData.generationBatches) ? moduleData.generationBatches : [];
+
+    if (typeof moduleData.ruleFile !== 'string' || moduleData.ruleFile.trim() === '') {
+        issues.push(`${fileName}: ruleFile is required`);
+    } else {
+        const rulePath = path.join(rulesDir, moduleData.ruleFile);
+        if (!fs.existsSync(rulePath)) {
+            issues.push(`${fileName}: ruleFile does not exist -> content/modules/rules/${moduleData.ruleFile}`);
+        }
+    }
 
     if (generationBatches.length === 0) {
         issues.push(`${fileName}: generationBatches is required and must not be empty`);
@@ -72,6 +82,28 @@ function collectIssues(fileName, moduleData) {
     if (unknownBatchVocab.length > 0) {
         issues.push(`${fileName}: batch vocabIds not declared in module vocabIds -> ${unknownBatchVocab.join(', ')}`);
     }
+
+    const notebookLMOutputs = moduleData.notebookLMOutputs && typeof moduleData.notebookLMOutputs === 'object'
+        ? moduleData.notebookLMOutputs
+        : {};
+
+    generationBatches.forEach((batch, batchIndex) => {
+        const batchId = batch.batchId || `index-${batchIndex}`;
+        const output = notebookLMOutputs[batchId];
+        if (!output || output.reviewed !== true) return;
+
+        const parserReport = output.parserReport;
+        if (!parserReport || typeof parserReport !== 'object') {
+            issues.push(`${fileName}: notebookLMOutputs.${batchId}.parserReport is required when reviewed=true`);
+            return;
+        }
+
+        ['usedVocabIds', 'misusedVocabIds', 'detectedMaxJlptLevel', 'charCount'].forEach((fieldName) => {
+            if (parserReport[fieldName] == null) {
+                issues.push(`${fileName}: notebookLMOutputs.${batchId}.parserReport.${fieldName} is required when reviewed=true`);
+            }
+        });
+    });
 
     return issues;
 }

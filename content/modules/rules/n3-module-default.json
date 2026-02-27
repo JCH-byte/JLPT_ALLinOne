@@ -1,0 +1,20 @@
+{
+    "ruleVersion": "n3-rule-v1",
+    "bannedExpressions": [
+        "過度に難解な表現",
+        "俗語の多用"
+    ],
+    "difficultyCeiling": "N3",
+    "grammarTargets": [
+        "〜ことになる",
+        "〜わけではない"
+    ],
+    "style": "学習教材向けの丁寧体",
+    "lengthLimit": {
+        "maxChars": 220
+    },
+    "parserThresholds": {
+        "maxJlptLevel": "N3",
+        "maxChars": 220
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "moduleId": "n3-module-001",
+    "title": "N3 샘플 모듈 001",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-001-batch-01",
+        "vocabIds": [
+            "n3-v-001",
+            "n3-v-002",
+            "n3-v-003",
+            "n3-v-004",
+            "n3-v-005",
+            "n3-v-006",
+            "n3-v-007",
+            "n3-v-008",
+            "n3-v-009",
+            "n3-v-010",
+            "n3-v-011",
+            "n3-v-012",
+            "n3-v-013",
+            "n3-v-014",
+            "n3-v-015",
+            "n3-v-016",
+            "n3-v-017",
+            "n3-v-018",
+            "n3-v-019",
+            "n3-v-020",
+            "n3-v-021",
+            "n3-v-022",
+            "n3-v-023"
+        ]
+    },
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}
