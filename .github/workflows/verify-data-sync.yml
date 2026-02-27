@@ -2,6 +2,10 @@ name: Verify data dist sync
 
 on:
   pull_request:
+    paths:
+      - 'data/src/**'
+      - 'data/dist/**'
+      - 'scripts/build-data.js'
   push:
     branches: [ main, master ]
 
@@ -14,5 +18,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check generated data files are up to date
+      - name: Enforce dist regeneration matches data/src changes
         run: node scripts/build-data.js --check
