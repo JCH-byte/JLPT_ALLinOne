@@ -86,7 +86,7 @@
 | `description` | `string` | `""` | 모듈 설명 |
 | `items` | `array<Item>` | `[]` | 모듈에 포함된 항목 |
 | `tags` | `array<string>` | `[]` | 검색/분류 태그 |
-| `metadata` | `object` | `{}` | 확장 메타데이터 |
+| `metadata` | `object` | `{}` | 확장 메타데이터 (`batchProvenance` 포함) |
 | `isActive` | `boolean` | `true` | 노출/활성 여부 |
 
 ### 2.3 `generationRules` 세부(초안)
@@ -106,6 +106,23 @@
 | `maxNewItemsPerSet` | `number` | 필수 | 세트당 신규 항목 상한 |
 | `allowDuplicates` | `boolean` | 선택 | 중복 허용 여부 |
 | `forbiddenTags` | `array<string>` | 선택 | 제외 태그 목록 |
+
+### 2.5 `generationBatches` 세부(신규)
+
+모듈 내부 생성 단위는 `generation batch`를 기본 단위로 사용합니다.
+각 배치는 **20~25개 단어 묶음**을 목표로 하며(말단 배치는 예외 허용), NotebookLM 산출물 검수/병합 기준 단위로 사용합니다.
+
+| 필드 | 타입 | 필수 여부 | 설명 |
+|---|---|---|---|
+| `batchId` | `string` | 필수 | 배치 고유 식별자(모듈 내 유일) |
+| `vocabIds` | `array<string>` | 필수 | 해당 배치의 단어 ID 묶음(목표 20~25개) |
+| `promptTemplateVersion` | `string` | 필수 | NotebookLM 프롬프트 템플릿 버전 |
+| `constraints` | `object` | 필수 | 배치 단위 생성 제약(레벨/금지어/길이 등) |
+
+추가 규칙:
+- 모듈 `vocabIds`는 `generationBatches[*].vocabIds`의 합집합과 일치해야 합니다.
+- 배치 간 `vocabIds` 중복은 금지합니다.
+- NotebookLM 산출물(`paragraphs/sentences/quizzes`)은 배치 단위 검수(`reviewed=true`) 후에만 모듈 `items`로 병합합니다.
 
 ---
 
@@ -192,4 +209,6 @@
 - 필수/선택 필드는 본 문서를 단일 기준(source of truth)으로 삼습니다.
 - 키 별칭 정규화 이후 필수 필드 누락 여부를 판단합니다.
 - 누락 항목은 위치 포함 경고로 수집합니다.
+- generation batch 검증에서 `vocabIds`의 배치 간 중복/누락을 자동 점검합니다.
+- 모듈 빌드 산출물에는 `metadata.batchProvenance`로 각 item의 생성 배치 ID를 기록합니다.
 - 단, 본 섹션 구현(생성기/빌드/검증 코드 반영)은 **문서 승인 이후**에만 착수합니다.
