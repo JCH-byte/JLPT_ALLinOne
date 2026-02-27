@@ -9,7 +9,7 @@
 <body>
 <div class="container">
     <h1>🛠️ JLPT 데이터 관리자 (Versioned)</h1>
-    <p>localStorage 저장 구조는 <code>JLPT_DEV_DATA_OVERRIDE/{level}/{day}/{version}</code> 형태입니다.</p>
+    <p>기본 저장은 localStorage이며, 설정 시 중앙 저장소(Firestore/Supabase)로 dual-write 됩니다.</p>
 
     <div class="control-panel">
         <label><strong>1. 작업할 레벨 선택:</strong></label>
@@ -31,6 +31,34 @@
 
         <label style="margin-left:12px;"><strong>변경 요약:</strong></label>
         <input id="summary-input" type="text" placeholder="예: Day 3 quiz 오타 수정">
+    </div>
+
+
+    <div class="control-panel">
+        <label><strong>Git 연결 메타:</strong></label>
+        <input id="source-branch-input" type="text" placeholder="예: feature/content-day9">
+        <input id="pr-number-input" type="number" min="0" placeholder="PR 번호(선택)">
+        <input id="commit-sha-input" type="text" placeholder="commit SHA(선택)">
+    </div>
+
+    <div class="control-panel">
+        <label><strong>스토리지 모드:</strong></label>
+        <select id="storage-mode-select">
+            <option value="dual-write" selected>dual-write (local + central)</option>
+            <option value="local-only">local-only</option>
+            <option value="central-only">central-only</option>
+        </select>
+        <label style="margin-left:12px;"><strong>중앙 Provider:</strong></label>
+        <select id="storage-provider-select">
+            <option value="none" selected>none</option>
+            <option value="firestore">Firestore</option>
+            <option value="supabase">Supabase</option>
+        </select>
+        <label style="margin-left:12px;"><input id="disable-local-only-checkbox" type="checkbox"> local-only 비활성화</label>
+    </div>
+    <div class="control-panel">
+        <label><strong>중앙 스토리지 설정(JSON):</strong></label>
+        <input id="storage-config-input" type="text" placeholder='예: {"projectId":"...","apiKey":"..."} 또는 {"url":"...","anonKey":"..."}'>
     </div>
 
     <div class="control-panel">

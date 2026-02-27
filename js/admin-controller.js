@@ -14,6 +14,20 @@ const ALIAS_KEY_MAP = {
 const DEPLOYMENT_LOG_KEY = `${DEV_PREFIX}__MANIFEST_LOG`;
 const DEPLOYMENT_ZIP_MIME = 'application/zip';
 const PR_ENDPOINT_KEY = `${DEV_PREFIX}__PR_ENDPOINT`;
+const STORAGE_MODE_KEY = `${DEV_PREFIX}__STORAGE_MODE`;
+const STORAGE_PROVIDER_KEY = `${DEV_PREFIX}__STORAGE_PROVIDER`;
+const STORAGE_CONFIG_KEY = `${DEV_PREFIX}__STORAGE_CONFIG`;
+const DISABLE_LOCAL_ONLY_KEY = `${DEV_PREFIX}__DISABLE_LOCAL_ONLY`;
+const STORAGE_MODES = {
+    LOCAL_ONLY: 'local-only',
+    DUAL_WRITE: 'dual-write',
+    CENTRAL_ONLY: 'central-only'
+};
+const STORAGE_PROVIDERS = {
+    NONE: 'none',
+    FIRESTORE: 'firestore',
+    SUPABASE: 'supabase'
+};
 const REQUIRED_CHECKLIST_SECTIONS = ['title', 'story', 'analysis', 'vocab', 'quiz'];
 const MIN_SCENE_COUNT = 1;
 const REQUIRED_QUIZ_COUNT = 10;
@@ -28,6 +42,9 @@ const intakeState = {
 function makeVersionKey(level, day, version) {
     return `${DEV_PREFIX}/${level}/${day}/${version}`;
 }
+function getVersionDocId(level, day, version) {
+    return `${level}_${day}_${version}`;
+}
 function parseJsonOrDefault(raw, fallback) {
     try {
         return JSON.parse(raw);
@@ -35,12 +52,157 @@ function parseJsonOrDefault(raw, fallback) {
         return fallback;
     }
 }
-function readIndex() {
-    const index = parseJsonOrDefault(localStorage.getItem(DEV_INDEX_KEY) || '{}', {});
+function normalizeIndexShape(index) {
     return (index && typeof index === 'object' && !Array.isArray(index)) ? index : {};
 }
-function writeIndex(index) {
+function readIndexFromLocal() {
+    return normalizeIndexShape(parseJsonOrDefault(localStorage.getItem(DEV_INDEX_KEY) || '{}', {}));
+}
+function readVersionRecordFromLocal(level, day, version) {
+    return parseJsonOrDefault(localStorage.getItem(makeVersionKey(level, day, version)) || 'null', null);
+}
+function writeIndexToLocal(index) {
     localStorage.setItem(DEV_INDEX_KEY, JSON.stringify(index));
+}
+function writeVersionRecordToLocal(level, day, version, record) {
+    localStorage.setItem(makeVersionKey(level, day, version), JSON.stringify(record));
+}
+function getStorageSettings() {
+    const mode = localStorage.getItem(STORAGE_MODE_KEY) || STORAGE_MODES.DUAL_WRITE;
+    const provider = localStorage.getItem(STORAGE_PROVIDER_KEY) || STORAGE_PROVIDERS.NONE;
+    const disableLocalOnly = localStorage.getItem(DISABLE_LOCAL_ONLY_KEY) === 'true';
+    const rawConfig = localStorage.getItem(STORAGE_CONFIG_KEY) || '{}';
+    const config = parseJsonOrDefault(rawConfig, {});
+    const safeMode = disableLocalOnly && mode === STORAGE_MODES.LOCAL_ONLY ? STORAGE_MODES.DUAL_WRITE : mode;
+    return { mode: safeMode, provider, config, disableLocalOnly };
+}
+function makeFirestoreAdapter(config) {
+    const projectId = String(config?.projectId || '').trim();
+    const apiKey = String(config?.apiKey || '').trim();
+    const namespace = String(config?.namespace || 'jlptAdmin').trim();
+    const recordsCollection = `${namespace}Records`;
+    const base = projectId && apiKey
+        ? `https://firestore.googleapis.com/v1/projects/${projectId}/databases/(default)/documents`
+        : '';
+    function encodeObject(obj) {
+        return { fields: { json: { stringValue: JSON.stringify(obj) } } };
+    }
+    function decodeObject(doc, fallback) {
+        const json = doc?.fields?.json?.stringValue;
+        return json ? parseJsonOrDefault(json, fallback) : fallback;
+    }
+    return {
+        isConfigured() {
+            return Boolean(base);
+        },
+        async readIndex() {
+            const response = await fetch(`${base}/${namespace}/index?key=${encodeURIComponent(apiKey)}`);
+            if (!response.ok) return {};
+            return normalizeIndexShape(decodeObject(await response.json(), {}));
+        },
+        async writeIndex(index) {
+            await fetch(`${base}/${namespace}/index?key=${encodeURIComponent(apiKey)}`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(encodeObject(index))
+            });
+        },
+        async readVersionRecord(level, day, version) {
+            const docId = getVersionDocId(level, day, version);
+            const response = await fetch(`${base}/${recordsCollection}/${docId}?key=${encodeURIComponent(apiKey)}`);
+            if (!response.ok) return null;
+            return decodeObject(await response.json(), null);
+        },
+        async writeVersionRecord(level, day, version, record) {
+            const docId = getVersionDocId(level, day, version);
+            await fetch(`${base}/${recordsCollection}/${docId}?key=${encodeURIComponent(apiKey)}`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(encodeObject(record))
+            });
+        }
+    };
+}
+function makeSupabaseAdapter(config) {
+    const url = String(config?.url || '').replace(/\/$/, '');
+    const anonKey = String(config?.anonKey || '').trim();
+    const indexTable = String(config?.indexTable || 'jlpt_admin_index').trim();
+    const versionsTable = String(config?.versionsTable || 'jlpt_admin_versions').trim();
+    const headers = {
+        apikey: anonKey,
+        Authorization: `Bearer ${anonKey}`,
+        'Content-Type': 'application/json',
+        Prefer: 'resolution=merge-duplicates'
+    };
+    return {
+        isConfigured() {
+            return Boolean(url && anonKey);
+        },
+        async readIndex() {
+            const response = await fetch(`${url}/rest/v1/${indexTable}?id=eq.default&select=payload`, { headers });
+            if (!response.ok) return {};
+            const rows = await response.json();
+            return normalizeIndexShape(rows?.[0]?.payload || {});
+        },
+        async writeIndex(index) {
+            await fetch(`${url}/rest/v1/${indexTable}`, {
+                method: 'POST',
+                headers,
+                body: JSON.stringify([{ id: 'default', payload: index }])
+            });
+        },
+        async readVersionRecord(level, day, version) {
+            const query = `level=eq.${encodeURIComponent(level)}&day=eq.${encodeURIComponent(day)}&version=eq.${encodeURIComponent(version)}&select=payload`;
+            const response = await fetch(`${url}/rest/v1/${versionsTable}?${query}`, { headers });
+            if (!response.ok) return null;
+            const rows = await response.json();
+            return rows?.[0]?.payload || null;
+        },
+        async writeVersionRecord(level, day, version, record) {
+            await fetch(`${url}/rest/v1/${versionsTable}`, {
+                method: 'POST',
+                headers,
+                body: JSON.stringify([{ level, day: Number(day), version: Number(version), payload: record }])
+            });
+        }
+    };
+}
+function getRemoteAdapter(settings) {
+    if (settings.provider === STORAGE_PROVIDERS.FIRESTORE) return makeFirestoreAdapter(settings.config);
+    if (settings.provider === STORAGE_PROVIDERS.SUPABASE) return makeSupabaseAdapter(settings.config);
+    return null;
+}
+async function syncFromCentralIfNeeded() {
+    const settings = getStorageSettings();
+    if (settings.mode === STORAGE_MODES.LOCAL_ONLY) return;
+    const remote = getRemoteAdapter(settings);
+    if (!remote || !remote.isConfigured()) return;
+    try {
+        const index = await remote.readIndex();
+        writeIndexToLocal(index);
+        Object.keys(index).forEach(level => {
+            Object.keys(index[level] || {}).forEach(day => {
+                const versions = index[level][day]?.versions || [];
+                versions.forEach(async meta => {
+                    const record = await remote.readVersionRecord(level, day, Number(meta.version));
+                    if (record) writeVersionRecordToLocal(level, day, Number(meta.version), record);
+                });
+            });
+        });
+    } catch (e) {
+        console.warn('central sync 실패:', e);
+    }
+}
+function readIndex() {
+    return readIndexFromLocal();
+}
+function writeIndex(index) {
+    writeIndexToLocal(index);
+    const settings = getStorageSettings();
+    if (settings.mode === STORAGE_MODES.LOCAL_ONLY) return;
+    const remote = getRemoteAdapter(settings);
+    if (!remote || !remote.isConfigured()) return;
+    remote.writeIndex(index).catch(e => console.warn('central index write 실패:', e));
 }
 function ensureIndexNode(index, level, day) {
     if (!index[level]) index[level] = {};
@@ -49,7 +211,15 @@ function ensureIndexNode(index, level, day) {
     return index[level][day];
 }
 function readVersionRecord(level, day, version) {
-    return parseJsonOrDefault(localStorage.getItem(makeVersionKey(level, day, version)) || 'null', null);
+    return readVersionRecordFromLocal(level, day, version);
+}
+function writeVersionRecord(level, day, version, record) {
+    writeVersionRecordToLocal(level, day, version, record);
+    const settings = getStorageSettings();
+    if (settings.mode === STORAGE_MODES.LOCAL_ONLY) return;
+    const remote = getRemoteAdapter(settings);
+    if (!remote || !remote.isConfigured()) return;
+    remote.writeVersionRecord(level, day, version, record).catch(e => console.warn('central record write 실패:', e));
 }
 function getDayVersions(level, day) {
     const index = readIndex();
@@ -87,7 +257,7 @@ function migrateLegacyIfNeeded() {
             changeSummary: 'Migrated from legacy single localStorage blob.',
             data: legacy[compositeKey]
         };
-        localStorage.setItem(makeVersionKey(level, day, version), JSON.stringify(record));
+        writeVersionRecordToLocal(level, day, version, record);
         const dayNode = ensureIndexNode(nextIndex, level, day);
         dayNode.versions.push({
             version,
@@ -333,6 +503,17 @@ function runPreflightValidation(previousData, nextData, isMerge) {
     }
     return true;
 }
+function getGitMetadataFromInputs() {
+    const sourceBranch = (document.getElementById('source-branch-input')?.value || '').trim();
+    const prNumberRaw = (document.getElementById('pr-number-input')?.value || '').trim();
+    const commitSha = (document.getElementById('commit-sha-input')?.value || '').trim();
+    return {
+        sourceBranch: sourceBranch || null,
+        prNumber: prNumberRaw ? Number(prNumberRaw) : null,
+        commitSha: commitSha || null
+    };
+}
+
 // 미리보기 저장 (덮어쓰기 또는 병합)
 function savePreview(isMerge) {
     try {
@@ -364,12 +545,13 @@ function savePreview(isMerge) {
             author,
             changeSummary,
             data: nextData,
+            ...getGitMetadataFromInputs(),
             qa: {
                 normalized: true,
                 validated: true
             }
         };
-        localStorage.setItem(makeVersionKey(level, day, nextVersion), JSON.stringify(record));
+        writeVersionRecord(level, day, nextVersion, record);
         const index = readIndex();
         upsertMeta(index, level, day, record);
         writeIndex(index);
@@ -423,6 +605,30 @@ function readPrEndpoint() {
 }
 function writePrEndpoint(endpoint) {
     localStorage.setItem(PR_ENDPOINT_KEY, endpoint);
+}
+function readStorageMode() {
+    return localStorage.getItem(STORAGE_MODE_KEY) || STORAGE_MODES.DUAL_WRITE;
+}
+function writeStorageMode(mode) {
+    localStorage.setItem(STORAGE_MODE_KEY, mode);
+}
+function readStorageProvider() {
+    return localStorage.getItem(STORAGE_PROVIDER_KEY) || STORAGE_PROVIDERS.NONE;
+}
+function writeStorageProvider(provider) {
+    localStorage.setItem(STORAGE_PROVIDER_KEY, provider);
+}
+function readStorageConfigText() {
+    return localStorage.getItem(STORAGE_CONFIG_KEY) || '{}';
+}
+function writeStorageConfigText(raw) {
+    localStorage.setItem(STORAGE_CONFIG_KEY, raw || '{}');
+}
+function readDisableLocalOnly() {
+    return localStorage.getItem(DISABLE_LOCAL_ONLY_KEY) === 'true';
+}
+function writeDisableLocalOnly(disabled) {
+    localStorage.setItem(DISABLE_LOCAL_ONLY_KEY, disabled ? 'true' : 'false');
 }
 function renderDeploymentLog() {
     const list = document.getElementById('manifest-log-list');
@@ -597,62 +803,74 @@ function buildPrRequestPayload(record, checklist, dataHash, validationReport) {
         data: record.data,
         author: record.author || (document.getElementById('author-input').value || 'anonymous').trim(),
         changeSummary: record.changeSummary || (document.getElementById('summary-input').value || 'No summary').trim(),
+        sourceBranch: record.sourceBranch || null,
+        prNumber: record.prNumber ?? null,
+        commitSha: record.commitSha || null,
         validationReport,
         checklist
     };
 }
+async function createPullRequestForRecord(record, options = {}) {
+    const endpoint = String(options.endpoint || readPrEndpoint() || '').trim();
+    if (!endpoint) {
+        if (options.silent) return null;
+        throw new Error('PR 자동화 엔드포인트를 입력하세요.');
+    }
+    writePrEndpoint(endpoint);
+    if (!record || record.status !== 'approved') {
+        throw new Error('approved 상태의 버전만 PR 생성 가능합니다.');
+    }
+    const checklist = runDeploymentChecklist(record);
+    const reportText = buildValidationReport(checklist);
+    document.getElementById('deployment-report').textContent = reportText;
+    if (!checklist.passed) {
+        throw new Error('배포 전 체크리스트를 통과하지 못했습니다.');
+    }
+    const jsonPayload = { day: Number(record.day), data: record.data };
+    const jsonText = `${JSON.stringify(jsonPayload, null, 2)}
+`;
+    const dataHash = await sha256Hex(jsonText);
+    const payload = buildPrRequestPayload(record, checklist, dataHash, reportText);
+    const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+    });
+    const body = await response.json().catch(() => ({}));
+    if (!response.ok) {
+        throw new Error(body?.error || `HTTP ${response.status}`);
+    }
+    const prUrl = String(body?.prUrl || body?.url || '').trim();
+    if (!prUrl) {
+        throw new Error('응답에 prUrl(url)이 없습니다.');
+    }
+    const logs = readDeploymentLog();
+    logs.push({
+        level: record.level,
+        day: Number(record.day),
+        version: record.version,
+        dataHash,
+        deployedAt: new Date().toISOString(),
+        prUrl
+    });
+    writeDeploymentLog(logs);
+    renderDeploymentLog();
+    const prResultEl = document.getElementById('pr-result');
+    if (prResultEl) {
+        prResultEl.textContent = `PR 생성 완료: ${prUrl}
+
+요청 payload:
+${JSON.stringify(payload, null, 2)}`;
+    }
+    return prUrl;
+}
 async function handleCreatePullRequest() {
     try {
-        const endpointInput = document.getElementById('pr-endpoint-input');
-        const endpoint = String(endpointInput?.value || '').trim();
-        if (!endpoint) {
-            throw new Error('PR 자동화 엔드포인트를 입력하세요.');
-        }
-        writePrEndpoint(endpoint);
+        const endpoint = String(document.getElementById('pr-endpoint-input')?.value || '').trim();
         const level = document.getElementById('level-select').value;
         const day = Number(getSelectedDay());
         const record = getLatestRecord(level, day);
-        if (!record || record.status !== 'approved') {
-            throw new Error('approved 상태의 최신 버전이 있어야 PR을 생성할 수 있습니다.');
-        }
-        const checklist = runDeploymentChecklist(record);
-        const reportText = buildValidationReport(checklist);
-        document.getElementById('deployment-report').textContent = reportText;
-        if (!checklist.passed) {
-            throw new Error('배포 전 체크리스트를 통과하지 못했습니다.');
-        }
-        const jsonPayload = { day: Number(record.day), data: record.data };
-        const jsonText = `${JSON.stringify(jsonPayload, null, 2)}\n`;
-        const dataHash = await sha256Hex(jsonText);
-        const payload = buildPrRequestPayload(record, checklist, dataHash, reportText);
-        const response = await fetch(endpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload)
-        });
-        const body = await response.json().catch(() => ({}));
-        if (!response.ok) {
-            throw new Error(body?.error || `HTTP ${response.status}`);
-        }
-        const prUrl = String(body?.prUrl || body?.url || '').trim();
-        if (!prUrl) {
-            throw new Error('응답에 prUrl(url)이 없습니다.');
-        }
-        const logs = readDeploymentLog();
-        logs.push({
-            level,
-            day: Number(day),
-            version: record.version,
-            dataHash,
-            deployedAt: new Date().toISOString(),
-            prUrl
-        });
-        writeDeploymentLog(logs);
-        renderDeploymentLog();
-        const prResultEl = document.getElementById('pr-result');
-        if (prResultEl) {
-            prResultEl.textContent = `PR 생성 완료: ${prUrl}\n\n요청 payload:\n${JSON.stringify(payload, null, 2)}`;
-        }
+        const prUrl = await createPullRequestForRecord(record, { endpoint });
         alert(`PR 생성 완료: ${prUrl}`);
     } catch (e) {
         const prResultEl = document.getElementById('pr-result');
@@ -780,16 +998,17 @@ function restoreSelectedVersion() {
         status: 'draft',
         timestamp: new Date().toISOString(),
         author: (document.getElementById('author-input').value || 'anonymous').trim(),
-        changeSummary: `Restore from v${source.version}: ${(document.getElementById('summary-input').value || 'restore').trim()}`
+        changeSummary: `Restore from v${source.version}: ${(document.getElementById('summary-input').value || 'restore').trim()}`,
+        ...getGitMetadataFromInputs()
     };
-    localStorage.setItem(makeVersionKey(level, day, nextVersion), JSON.stringify(record));
+    writeVersionRecord(level, day, nextVersion, record);
     const index = readIndex();
     upsertMeta(index, level, day, record);
     writeIndex(index);
     renderHistory();
     alert(`v${source.version}을(를) 기반으로 v${nextVersion} draft를 생성했습니다.`);
 }
-function approveSelectedVersion() {
+async function approveSelectedVersion() {
     const selected = document.getElementById('history-select').value;
     if (!selected) {
         alert('확정(approved) 처리할 버전을 선택하세요.');
@@ -806,11 +1025,24 @@ function approveSelectedVersion() {
     record.author = (document.getElementById('author-input').value || record.author || 'anonymous').trim();
     const summaryInput = (document.getElementById('summary-input').value || '').trim();
     if (summaryInput) record.changeSummary = summaryInput;
-    localStorage.setItem(makeVersionKey(level, day, Number(version)), JSON.stringify(record));
+    Object.assign(record, getGitMetadataFromInputs());
+    writeVersionRecord(level, day, Number(version), record);
     const index = readIndex();
     upsertMeta(index, level, day, record);
     writeIndex(index);
     renderHistory();
+    const endpoint = String(document.getElementById('pr-endpoint-input')?.value || '').trim();
+    try {
+        const prUrl = await createPullRequestForRecord(record, { endpoint, silent: true });
+        if (prUrl) {
+            alert(`v${version} approved + PR 생성 완료: ${prUrl}`);
+            return;
+        }
+    } catch (e) {
+        const prResultEl = document.getElementById('pr-result');
+        if (prResultEl) prResultEl.textContent = `approved 후 PR 자동 생성 실패: ${e.message}`;
+        console.error(e);
+    }
     alert(`v${version}이(가) approved로 확정되었습니다.`);
 }
 function renderHistory() {
@@ -873,7 +1105,7 @@ function clearPreview() {
         alert('초기화 완료');
     }
 }
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', async () => {
     migrateLegacyIfNeeded();
     const levelSelect = document.getElementById('level-select');
     const dayInput = document.getElementById('day-input');
@@ -881,6 +1113,29 @@ window.addEventListener('DOMContentLoaded', () => {
     dayInput.addEventListener('input', renderHistory);
     const endpointInput = document.getElementById('pr-endpoint-input');
     if (endpointInput) endpointInput.value = readPrEndpoint();
+
+    const storageModeSelect = document.getElementById('storage-mode-select');
+    const storageProviderSelect = document.getElementById('storage-provider-select');
+    const storageConfigInput = document.getElementById('storage-config-input');
+    const disableLocalOnlyCheckbox = document.getElementById('disable-local-only-checkbox');
+    if (storageModeSelect) {
+        storageModeSelect.value = readStorageMode();
+        storageModeSelect.addEventListener('change', () => writeStorageMode(storageModeSelect.value));
+    }
+    if (storageProviderSelect) {
+        storageProviderSelect.value = readStorageProvider();
+        storageProviderSelect.addEventListener('change', () => writeStorageProvider(storageProviderSelect.value));
+    }
+    if (storageConfigInput) {
+        storageConfigInput.value = readStorageConfigText();
+        storageConfigInput.addEventListener('change', () => writeStorageConfigText(storageConfigInput.value));
+    }
+    if (disableLocalOnlyCheckbox) {
+        disableLocalOnlyCheckbox.checked = readDisableLocalOnly();
+        disableLocalOnlyCheckbox.addEventListener('change', () => writeDisableLocalOnly(disableLocalOnlyCheckbox.checked));
+    }
+
+    await syncFromCentralIfNeeded();
     resetPipelineState();
     renderHistory();
     renderDeploymentLog();
