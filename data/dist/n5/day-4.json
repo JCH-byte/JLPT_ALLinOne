@@ -118,132 +118,158 @@
         {
             "word": "風邪",
             "read": "かぜ",
-            "mean": "감기"
+            "mean": "감기",
+            "tags": []
         },
         {
             "word": "家族",
             "read": "かぞく",
-            "mean": "가족"
+            "mean": "가족",
+            "tags": []
         },
         {
             "word": "学校",
             "read": "がっこう",
-            "mean": "학교"
+            "mean": "학교",
+            "tags": []
         },
         {
             "word": "かばん",
             "read": "かばん",
-            "mean": "가방"
+            "mean": "가방",
+            "tags": []
         },
         {
             "word": "花瓶",
             "read": "かびん",
-            "mean": "꽃병"
+            "mean": "꽃병",
+            "tags": []
         },
         {
             "word": "紙",
             "read": "かみ",
-            "mean": "종이"
+            "mean": "종이",
+            "tags": []
         },
         {
             "word": "体",
             "read": "からだ",
-            "mean": "몸"
+            "mean": "몸",
+            "tags": []
         },
         {
             "word": "川",
             "read": "かわ",
-            "mean": "강"
+            "mean": "강",
+            "tags": []
         },
         {
             "word": "漢字",
             "read": "かんじ",
-            "mean": "한자"
+            "mean": "한자",
+            "tags": []
         },
         {
             "word": "木",
             "read": "き",
-            "mean": "나무"
+            "mean": "나무",
+            "tags": []
         },
         {
             "word": "北",
             "read": "きた",
-            "mean": "북쪽"
+            "mean": "북쪽",
+            "tags": []
         },
         {
             "word": "北側",
             "read": "きたがわ",
-            "mean": "북측"
+            "mean": "북측",
+            "tags": []
         },
         {
             "word": "切手",
             "read": "きって",
-            "mean": "우표"
+            "mean": "우표",
+            "tags": []
         },
         {
             "word": "切符",
             "read": "きっぷ",
-            "mean": "표"
+            "mean": "표",
+            "tags": []
         },
         {
             "word": "昨日",
             "read": "きのう",
-            "mean": "어제"
+            "mean": "어제",
+            "tags": []
         },
         {
             "word": "牛肉",
             "read": "ぎゅうにく",
-            "mean": "소고기"
+            "mean": "소고기",
+            "tags": []
         },
         {
             "word": "牛乳",
             "read": "ぎゅうにゅう",
-            "mean": "우유"
+            "mean": "우유",
+            "tags": []
         },
         {
             "word": "今日",
             "read": "きょう",
-            "mean": "오늘"
+            "mean": "오늘",
+            "tags": []
         },
         {
             "word": "教室",
             "read": "きょうしつ",
-            "mean": "교실"
+            "mean": "교실",
+            "tags": []
         },
         {
             "word": "兄弟",
             "read": "きょうだい",
-            "mean": "형제"
+            "mean": "형제",
+            "tags": []
         },
         {
             "word": "去年",
             "read": "きょねん",
-            "mean": "작년"
+            "mean": "작년",
+            "tags": []
         },
         {
             "word": "銀行",
             "read": "ぎんこう",
-            "mean": "은행"
+            "mean": "은행",
+            "tags": []
         },
         {
             "word": "薬",
             "read": "くすり",
-            "mean": "약"
+            "mean": "약",
+            "tags": []
         },
         {
             "word": "果物",
             "read": "くだもの",
-            "mean": "과일"
+            "mean": "과일",
+            "tags": []
         },
         {
             "word": "靴",
             "read": "くつ",
-            "mean": "구두/신발"
+            "mean": "구두/신발",
+            "tags": []
         },
         {
             "word": "靴下",
             "read": "くつした",
-            "mean": "양말"
+            "mean": "양말",
+            "tags": []
         }
     ],
     "quiz": [

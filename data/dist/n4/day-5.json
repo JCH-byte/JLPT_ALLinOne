@@ -189,212 +189,254 @@
         {
             "word": "子猫",
             "read": "こねこ",
-            "mean": "아기 고양이"
+            "mean": "아기 고양이",
+            "tags": []
         },
         {
             "word": "この間",
             "read": "このあいた",
-            "mean": "요전, 일전"
+            "mean": "요전, 일전",
+            "tags": []
         },
         {
             "word": "木の葉",
             "read": "このは",
-            "mean": "나뭇잎"
+            "mean": "나뭇잎",
+            "tags": []
         },
         {
             "word": "この辺",
             "read": "このへん",
-            "mean": "이 근처"
+            "mean": "이 근처",
+            "tags": []
         },
         {
             "word": "ごみ",
             "read": "ごみ",
-            "mean": "쓰레기"
+            "mean": "쓰레기",
+            "tags": []
         },
         {
             "word": "米",
             "read": "こめ",
-            "mean": "쌀"
+            "mean": "쌀",
+            "tags": []
         },
         {
             "word": "今回",
             "read": "こんかい",
-            "mean": "이번"
+            "mean": "이번",
+            "tags": []
         },
         {
             "word": "今度",
             "read": "こんど",
-            "mean": "이번, 다음"
+            "mean": "이번, 다음",
+            "tags": []
         },
         {
             "word": "今夜",
             "read": "こんや",
-            "mean": "오늘 밤"
+            "mean": "오늘 밤",
+            "tags": []
         },
         {
             "word": "最近",
             "read": "さいきん",
-            "mean": "최근"
+            "mean": "최근",
+            "tags": []
         },
         {
             "word": "坂",
             "read": "さか",
-            "mean": "언덕"
+            "mean": "언덕",
+            "tags": []
         },
         {
             "word": "魚屋",
             "read": "さかなや",
-            "mean": "생선 가게"
+            "mean": "생선 가게",
+            "tags": []
         },
         {
             "word": "作品",
             "read": "さくひん",
-            "mean": "작품"
+            "mean": "작품",
+            "tags": []
         },
         {
             "word": "桜",
             "read": "さくら",
-            "mean": "벚꽃"
+            "mean": "벚꽃",
+            "tags": []
         },
         {
             "word": "砂糖",
             "read": "さとう",
-            "mean": "설탕"
+            "mean": "설탕",
+            "tags": []
         },
         {
             "word": "再来月",
             "read": "さらいげつ",
-            "mean": "다다음 달"
+            "mean": "다다음 달",
+            "tags": []
         },
         {
             "word": "再来週",
             "read": "さらいしゅう",
-            "mean": "다다음 주"
+            "mean": "다다음 주",
+            "tags": []
         },
         {
             "word": "再来年",
             "read": "さらいねん",
-            "mean": "내후년"
+            "mean": "내후년",
+            "tags": []
         },
         {
             "word": "三角",
             "read": "さんかく",
-            "mean": "삼각"
+            "mean": "삼각",
+            "tags": []
         },
         {
             "word": "産業",
             "read": "さんぎょう",
-            "mean": "산업"
+            "mean": "산업",
+            "tags": []
         },
         {
             "word": "算数",
             "read": "さんすう",
-            "mean": "산수"
+            "mean": "산수",
+            "tags": []
         },
         {
             "word": "賛成",
             "read": "さんせい",
-            "mean": "찬성"
+            "mean": "찬성",
+            "tags": []
         },
         {
             "word": "市",
             "read": "し",
-            "mean": "시"
+            "mean": "시",
+            "tags": []
         },
         {
             "word": "字",
             "read": "じ",
-            "mean": "글자"
+            "mean": "글자",
+            "tags": []
         },
         {
             "word": "試合",
             "read": "しあい",
-            "mean": "시합"
+            "mean": "시합",
+            "tags": []
         },
         {
             "word": "仕方",
             "read": "しかた",
-            "mean": "방법"
+            "mean": "방법",
+            "tags": []
         },
         {
             "word": "試験",
             "read": "しけん",
-            "mean": "시험"
+            "mean": "시험",
+            "tags": []
         },
         {
             "word": "事故",
             "read": "じこ",
-            "mean": "사고"
+            "mean": "사고",
+            "tags": []
         },
         {
             "word": "地震",
             "read": "じしん",
-            "mean": "지진"
+            "mean": "지진",
+            "tags": []
         },
         {
             "word": "舌",
             "read": "した",
-            "mean": "혀"
+            "mean": "혀",
+            "tags": []
         },
         {
             "word": "時代",
             "read": "じだい",
-            "mean": "시대"
+            "mean": "시대",
+            "tags": []
         },
         {
             "word": "下着",
             "read": "したぎ",
-            "mean": "속옷"
+            "mean": "속옷",
+            "tags": []
         },
         {
             "word": "支度",
             "read": "したく",
-            "mean": "준비, 채비"
+            "mean": "준비, 채비",
+            "tags": []
         },
         {
             "word": "室内",
             "read": "しつない",
-            "mean": "실내"
+            "mean": "실내",
+            "tags": []
         },
         {
             "word": "失敗",
             "read": "しっぱい",
-            "mean": "실패"
+            "mean": "실패",
+            "tags": []
         },
         {
             "word": "質問",
             "read": "しつもん",
-            "mean": "질문"
+            "mean": "질문",
+            "tags": []
         },
         {
             "word": "失礼",
             "read": "しつれい",
-            "mean": "실례"
+            "mean": "실례",
+            "tags": []
         },
         {
             "word": "辞典",
             "read": "じてん",
-            "mean": "사전"
+            "mean": "사전",
+            "tags": []
         },
         {
             "word": "自転車",
             "read": "じてんしゃ",
-            "mean": "자전거"
+            "mean": "자전거",
+            "tags": []
         },
         {
             "word": "自動",
             "read": "じどう",
-            "mean": "자동"
+            "mean": "자동",
+            "tags": []
         },
         {
             "word": "自動車",
             "read": "じどうしゃ",
-            "mean": "자동차"
+            "mean": "자동차",
+            "tags": []
         },
         {
             "word": "市内",
             "read": "しない",
-            "mean": "시내"
+            "mean": "시내",
+            "tags": []
         }
     ],
     "quiz": [

@@ -176,212 +176,254 @@
         {
             "word": "歌手",
             "read": "かしゅ",
-            "mean": "가수"
+            "mean": "가수",
+            "tags": []
         },
         {
             "word": "数",
             "read": "かず",
-            "mean": "수, 숫자"
+            "mean": "수, 숫자",
+            "tags": []
         },
         {
             "word": "ガス代",
             "read": "がすだい",
-            "mean": "가스비"
+            "mean": "가스비",
+            "tags": []
         },
         {
             "word": "形",
             "read": "かたち",
-            "mean": "모양, 형태"
+            "mean": "모양, 형태",
+            "tags": []
         },
         {
             "word": "課長",
             "read": "かちょう",
-            "mean": "과장"
+            "mean": "과장",
+            "tags": []
         },
         {
             "word": "家庭",
             "read": "かてい",
-            "mean": "가정"
+            "mean": "가정",
+            "tags": []
         },
         {
             "word": "家内",
             "read": "かない",
-            "mean": "아내, 집사람"
+            "mean": "아내, 집사람",
+            "tags": []
         },
         {
             "word": "金持ち",
             "read": "かねもち",
-            "mean": "부자"
+            "mean": "부자",
+            "tags": []
         },
         {
             "word": "彼女",
             "read": "かのじょ",
-            "mean": "그녀, 여자친구"
+            "mean": "그녀, 여자친구",
+            "tags": []
         },
         {
             "word": "壁",
             "read": "かべ",
-            "mean": "벽"
+            "mean": "벽",
+            "tags": []
         },
         {
             "word": "髪",
             "read": "かみ",
-            "mean": "머리카락"
+            "mean": "머리카락",
+            "tags": []
         },
         {
             "word": "彼",
             "read": "かれ",
-            "mean": "그, 남자친구"
+            "mean": "그, 남자친구",
+            "tags": []
         },
         {
             "word": "彼ら",
             "read": "かれら",
-            "mean": "그들"
+            "mean": "그들",
+            "tags": []
         },
         {
             "word": "代わり",
             "read": "かわり",
-            "mean": "대신, 대리"
+            "mean": "대신, 대리",
+            "tags": []
         },
         {
             "word": "考え方",
             "read": "かんがえかた",
-            "mean": "사고방식"
+            "mean": "사고방식",
+            "tags": []
         },
         {
             "word": "気",
             "read": "き",
-            "mean": "기운, 마음"
+            "mean": "기운, 마음",
+            "tags": []
         },
         {
             "word": "期間",
             "read": "きかん",
-            "mean": "기간"
+            "mean": "기간",
+            "tags": []
         },
         {
             "word": "聞き取り",
             "read": "ききとり",
-            "mean": "청해, 듣기"
+            "mean": "청해, 듣기",
+            "tags": []
         },
         {
             "word": "帰国",
             "read": "きこく",
-            "mean": "귀국"
+            "mean": "귀국",
+            "tags": []
         },
         {
             "word": "記者",
             "read": "きしゃ",
-            "mean": "기자"
+            "mean": "기자",
+            "tags": []
         },
         {
             "word": "汽車",
             "read": "きしゃ",
-            "mean": "기차"
+            "mean": "기차",
+            "tags": []
         },
         {
             "word": "技術",
             "read": "ぎじゅつ",
-            "mean": "기술"
+            "mean": "기술",
+            "tags": []
         },
         {
             "word": "季節",
             "read": "きせつ",
-            "mean": "계절"
+            "mean": "계절",
+            "tags": []
         },
         {
             "word": "喫茶店",
             "read": "きっさてん",
-            "mean": "찻집"
+            "mean": "찻집",
+            "tags": []
         },
         {
             "word": "絹",
             "read": "きぬ",
-            "mean": "비단"
+            "mean": "비단",
+            "tags": []
         },
         {
             "word": "気分",
             "read": "きぶん",
-            "mean": "기분"
+            "mean": "기분",
+            "tags": []
         },
         {
             "word": "君",
             "read": "きみ",
-            "mean": "자네, 너"
+            "mean": "자네, 너",
+            "tags": []
         },
         {
             "word": "気持ち",
             "read": "きもち",
-            "mean": "마음, 기분"
+            "mean": "마음, 기분",
+            "tags": []
         },
         {
             "word": "着物",
             "read": "きもの",
-            "mean": "기모노"
+            "mean": "기모노",
+            "tags": []
         },
         {
             "word": "客",
             "read": "きゃく",
-            "mean": "손님"
+            "mean": "손님",
+            "tags": []
         },
         {
             "word": "急行",
             "read": "きゅうこう",
-            "mean": "급행"
+            "mean": "급행",
+            "tags": []
         },
         {
             "word": "教育",
             "read": "きょういく",
-            "mean": "교육"
+            "mean": "교육",
+            "tags": []
         },
         {
             "word": "教会",
             "read": "きょうかい",
-            "mean": "교회"
+            "mean": "교회",
+            "tags": []
         },
         {
             "word": "金魚",
             "read": "きんぎょ",
-            "mean": "금붕어"
+            "mean": "금붕어",
+            "tags": []
         },
         {
             "word": "近所",
             "read": "きんじょ",
-            "mean": "이웃, 근처"
+            "mean": "이웃, 근처",
+            "tags": []
         },
         {
             "word": "具合",
             "read": "ぐあい",
-            "mean": "상태"
+            "mean": "상태",
+            "tags": []
         },
         {
             "word": "空気",
             "read": "くうき",
-            "mean": "공기"
+            "mean": "공기",
+            "tags": []
         },
         {
             "word": "空港",
             "read": "くうこう",
-            "mean": "공항"
+            "mean": "공항",
+            "tags": []
         },
         {
             "word": "草",
             "read": "くさ",
-            "mean": "풀"
+            "mean": "풀",
+            "tags": []
         },
         {
             "word": "雲",
             "read": "くも",
-            "mean": "구름"
+            "mean": "구름",
+            "tags": []
         },
         {
             "word": "曇り",
             "read": "くもり",
-            "mean": "흐림"
+            "mean": "흐림",
+            "tags": []
         },
         {
             "word": "区役所",
             "read": "くやくしょ",
-            "mean": "구청"
+            "mean": "구청",
+            "tags": []
         }
     ],
     "quiz": [

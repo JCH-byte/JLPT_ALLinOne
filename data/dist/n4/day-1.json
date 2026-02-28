@@ -202,207 +202,248 @@
         {
             "word": "あいさつ",
             "read": "あいさつ",
-            "mean": "인사"
+            "mean": "인사",
+            "tags": []
         },
         {
             "word": "赤ちゃん",
             "read": "あかちゃん",
-            "mean": "아기"
+            "mean": "아기",
+            "tags": []
         },
         {
             "word": "あご",
             "read": "あご",
-            "mean": "턱"
+            "mean": "턱",
+            "tags": []
         },
         {
             "word": "味",
             "read": "あじ",
-            "mean": "맛"
+            "mean": "맛",
+            "tags": []
         },
         {
             "word": "足音",
             "read": "あしおと",
-            "mean": "발소리"
+            "mean": "발소리",
+            "tags": []
         },
         {
             "word": "汗",
             "read": "あせ",
-            "mean": "땀"
+            "mean": "땀",
+            "tags": []
         },
         {
             "word": "遊び",
             "read": "あそび",
-            "mean": "놀이"
+            "mean": "놀이",
+            "tags": []
         },
         {
             "word": "暑さ",
             "read": "あつさ",
-            "mean": "더위"
+            "mean": "더위",
+            "tags": []
         },
         {
             "word": "飴",
             "read": "あめ",
-            "mean": "사탕, 엿"
+            "mean": "사탕, 엿",
+            "tags": []
         },
         {
             "word": "安心",
             "read": "あんしん",
-            "mean": "안심"
+            "mean": "안심",
+            "tags": []
         },
         {
             "word": "案内",
             "read": "あんない",
-            "mean": "안내"
+            "mean": "안내",
+            "tags": []
         },
         {
             "word": "以下",
             "read": "いか",
-            "mean": "이하"
+            "mean": "이하",
+            "tags": []
         },
         {
             "word": "以外",
             "read": "いがい",
-            "mean": "이외"
+            "mean": "이외",
+            "tags": []
         },
         {
             "word": "医学",
             "read": "いがく",
-            "mean": "의학"
+            "mean": "의학",
+            "tags": []
         },
         {
             "word": "生き方",
             "read": "いきかた",
-            "mean": "삶의 방식"
+            "mean": "삶의 방식",
+            "tags": []
         },
         {
             "word": "意見",
             "read": "いけん",
-            "mean": "의견"
+            "mean": "의견",
+            "tags": []
         },
         {
             "word": "石",
             "read": "いし",
-            "mean": "돌"
+            "mean": "돌",
+            "tags": []
         },
         {
             "word": "以上",
             "read": "いじょう",
-            "mean": "이상"
+            "mean": "이상",
+            "tags": []
         },
         {
             "word": "一度",
             "read": "いちど",
-            "mean": "한번"
+            "mean": "한번",
+            "tags": []
         },
         {
             "word": "一日中",
             "read": "いちにちじゅう",
-            "mean": "하루 종일"
+            "mean": "하루 종일",
+            "tags": []
         },
         {
             "word": "糸",
             "read": "いと",
-            "mean": "실"
+            "mean": "실",
+            "tags": []
         },
         {
             "word": "以内",
             "read": "いない",
-            "mean": "이내"
+            "mean": "이내",
+            "tags": []
         },
         {
             "word": "田舎",
             "read": "いなか",
-            "mean": "시골"
+            "mean": "시골",
+            "tags": []
         },
         {
             "word": "命",
             "read": "いのち",
-            "mean": "생명, 목숨"
+            "mean": "생명, 목숨",
+            "tags": []
         },
         {
             "word": "居間",
             "read": "いま",
-            "mean": "거실"
+            "mean": "거실",
+            "tags": []
         },
         {
             "word": "色紙",
             "read": "いろがみ",
-            "mean": "색종이"
+            "mean": "색종이",
+            "tags": []
         },
         {
             "word": "飲酒",
             "read": "いんしゅ",
-            "mean": "음주"
+            "mean": "음주",
+            "tags": []
         },
         {
             "word": "受付",
             "read": "うけつけ",
-            "mean": "접수처"
+            "mean": "접수처",
+            "tags": []
         },
         {
             "word": "うそ",
             "read": "うそ",
-            "mean": "거짓말"
+            "mean": "거짓말",
+            "tags": []
         },
         {
             "word": "内",
             "read": "うち",
-            "mean": "안, 속"
+            "mean": "안, 속",
+            "tags": []
         },
         {
             "word": "裏",
             "read": "うら",
-            "mean": "뒤, 뒷면"
+            "mean": "뒤, 뒷면",
+            "tags": []
         },
         {
             "word": "売り場",
             "read": "うりば",
-            "mean": "매장"
+            "mean": "매장",
+            "tags": []
         },
         {
             "word": "運",
             "read": "うん",
-            "mean": "운"
+            "mean": "운",
+            "tags": []
         },
         {
             "word": "運転",
             "read": "うんてん",
-            "mean": "운전"
+            "mean": "운전",
+            "tags": []
         },
         {
             "word": "運転手",
             "read": "うんてんしゅ",
-            "mean": "운전기사"
+            "mean": "운전기사",
+            "tags": []
         },
         {
             "word": "運動会",
             "read": "うんどうかい",
-            "mean": "운동회"
+            "mean": "운동회",
+            "tags": []
         },
         {
             "word": "英会話",
             "read": "えいかいわ",
-            "mean": "영어 회화"
+            "mean": "영어 회화",
+            "tags": []
         },
         {
             "word": "映画館",
             "read": "えいがかん",
-            "mean": "영화관"
+            "mean": "영화관",
+            "tags": []
         },
         {
             "word": "営業",
             "read": "えいぎょう",
-            "mean": "영업"
+            "mean": "영업",
+            "tags": []
         },
         {
             "word": "駅員",
             "read": "えきいん",
-            "mean": "역무원"
+            "mean": "역무원",
+            "tags": []
         },
         {
             "word": "枝",
             "read": "えだ",
-            "mean": "가지"
+            "mean": "가지",
+            "tags": []
         }
     ],
     "quiz": [

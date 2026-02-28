@@ -223,8 +223,11 @@ function loadLevelIndex(level, callback) {
 
     fetchJsonWithFallback(primaryUrl, fallbackUrl, (indexData) => {
         const normalizedIndex = (!indexData || typeof indexData !== 'object' || Array.isArray(indexData)) ? {} : indexData;
+        const dayIndex = (normalizedIndex.days && typeof normalizedIndex.days === 'object' && !Array.isArray(normalizedIndex.days))
+            ? normalizedIndex.days
+            : normalizedIndex;
 
-        filterIndexByExistingDayFiles(level, normalizedIndex, (filteredIndex) => {
+        filterIndexByExistingDayFiles(level, dayIndex, (filteredIndex) => {
             LEVEL_INDEX_CACHE.set(level, filteredIndex);
             callback(filteredIndex);
         });

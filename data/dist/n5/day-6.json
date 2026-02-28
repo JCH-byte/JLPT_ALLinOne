@@ -133,142 +133,170 @@
         {
             "word": "財布",
             "read": "さいふ",
-            "mean": "지갑"
+            "mean": "지갑",
+            "tags": []
         },
         {
             "word": "魚",
             "read": "さかな",
-            "mean": "생선"
+            "mean": "생선",
+            "tags": []
         },
         {
             "word": "先",
             "read": "さき",
-            "mean": "먼저/앞"
+            "mean": "먼저/앞",
+            "tags": []
         },
         {
             "word": "作文",
             "read": "さくぶん",
-            "mean": "작문"
+            "mean": "작문",
+            "tags": []
         },
         {
             "word": "散歩",
             "read": "さんぽ",
-            "mean": "산책"
+            "mean": "산책",
+            "tags": []
         },
         {
             "word": "塩",
             "read": "しお",
-            "mean": "소금"
+            "mean": "소금",
+            "tags": []
         },
         {
             "word": "時間",
             "read": "じかん",
-            "mean": "시간"
+            "mean": "시간",
+            "tags": []
         },
         {
             "word": "仕事",
             "read": "しごと",
-            "mean": "일"
+            "mean": "일",
+            "tags": []
         },
         {
             "word": "辞書",
             "read": "じしょ",
-            "mean": "사전"
+            "mean": "사전",
+            "tags": []
         },
         {
             "word": "下",
             "read": "した",
-            "mean": "아래"
+            "mean": "아래",
+            "tags": []
         },
         {
             "word": "写真",
             "read": "しゃしん",
-            "mean": "사진"
+            "mean": "사진",
+            "tags": []
         },
         {
             "word": "宿題",
             "read": "しゅくだい",
-            "mean": "숙제"
+            "mean": "숙제",
+            "tags": []
         },
         {
             "word": "食堂",
             "read": "しょくどう",
-            "mean": "식당"
+            "mean": "식당",
+            "tags": []
         },
         {
             "word": "新聞",
             "read": "しんぶん",
-            "mean": "신문"
+            "mean": "신문",
+            "tags": []
         },
         {
             "word": "すし",
             "read": "すし",
-            "mean": "초밥"
+            "mean": "초밥",
+            "tags": []
         },
         {
             "word": "背",
             "read": "せ",
-            "mean": "키/등"
+            "mean": "키/등",
+            "tags": []
         },
         {
             "word": "生徒",
             "read": "せいと",
-            "mean": "학생"
+            "mean": "학생",
+            "tags": []
         },
         {
             "word": "せっけん",
             "read": "せっけん",
-            "mean": "비누"
+            "mean": "비누",
+            "tags": []
         },
         {
             "word": "千",
             "read": "せん",
-            "mean": "천"
+            "mean": "천",
+            "tags": []
         },
         {
             "word": "先月",
             "read": "せんげつ",
-            "mean": "지난 달"
+            "mean": "지난 달",
+            "tags": []
         },
         {
             "word": "先週",
             "read": "せんしゅう",
-            "mean": "지난 주"
+            "mean": "지난 주",
+            "tags": []
         },
         {
             "word": "先生",
             "read": "せんせい",
-            "mean": "선생님"
+            "mean": "선생님",
+            "tags": []
         },
         {
             "word": "そこ",
             "read": "そこ",
-            "mean": "거기"
+            "mean": "거기",
+            "tags": []
         },
         {
             "word": "そちら",
             "read": "そちら",
-            "mean": "그쪽"
+            "mean": "그쪽",
+            "tags": []
         },
         {
             "word": "外",
             "read": "そと",
-            "mean": "밖"
+            "mean": "밖",
+            "tags": []
         },
         {
             "word": "そば",
             "read": "そば",
-            "mean": "옆/곁"
+            "mean": "옆/곁",
+            "tags": []
         },
         {
             "word": "空",
             "read": "そら",
-            "mean": "하늘"
+            "mean": "하늘",
+            "tags": []
         },
         {
             "word": "それ",
             "read": "それ",
-            "mean": "그것"
+            "mean": "그것",
+            "tags": []
         }
     ],
     "quiz": [

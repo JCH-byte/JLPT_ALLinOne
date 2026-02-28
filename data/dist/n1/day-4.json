@@ -6,492 +6,590 @@
         {
             "word": "緊迫",
             "read": "きんぱく",
-            "mean": "긴박"
+            "mean": "긴박",
+            "tags": []
         },
         {
             "word": "吟味",
             "read": "ぎんみ",
-            "mean": "음미, 검토"
+            "mean": "음미, 검토",
+            "tags": []
         },
         {
             "word": "禁物",
             "read": "きんもつ",
-            "mean": "금물"
+            "mean": "금물",
+            "tags": []
         },
         {
             "word": "勤労",
             "read": "きんろう",
-            "mean": "근로"
+            "mean": "근로",
+            "tags": []
         },
         {
             "word": "空腹",
             "read": "くうふく",
-            "mean": "공복"
+            "mean": "공복",
+            "tags": []
         },
         {
             "word": "苦境",
             "read": "くきょう",
-            "mean": "고경, 역경"
+            "mean": "고경, 역경",
+            "tags": []
         },
         {
             "word": "苦言",
             "read": "くげん",
-            "mean": "고언, 쓴소리"
+            "mean": "고언, 쓴소리",
+            "tags": []
         },
         {
             "word": "駆使",
             "read": "くし",
-            "mean": "구사"
+            "mean": "구사",
+            "tags": []
         },
         {
             "word": "駆逐",
             "read": "くちく",
-            "mean": "구축, 몰아냄"
+            "mean": "구축, 몰아냄",
+            "tags": []
         },
         {
             "word": "口出し",
             "read": "くちだし",
-            "mean": "말참견"
+            "mean": "말참견",
+            "tags": []
         },
         {
             "word": "くちばし",
             "read": "くちばし",
-            "mean": "부리"
+            "mean": "부리",
+            "tags": []
         },
         {
             "word": "口元",
             "read": "くちもと",
-            "mean": "입가"
+            "mean": "입가",
+            "tags": []
         },
         {
             "word": "口調",
             "read": "くちょう",
-            "mean": "어조"
+            "mean": "어조",
+            "tags": []
         },
         {
             "word": "工面",
             "read": "くめん",
-            "mean": "마련함, 변통"
+            "mean": "마련함, 변통",
+            "tags": []
         },
         {
             "word": "愚問",
             "read": "ぐもん",
-            "mean": "우문"
+            "mean": "우문",
+            "tags": []
         },
         {
             "word": "暗闇",
             "read": "くらやみ",
-            "mean": "어둠"
+            "mean": "어둠",
+            "tags": []
         },
         {
             "word": "玄人",
             "read": "くろうと",
-            "mean": "전문가"
+            "mean": "전문가",
+            "tags": []
         },
         {
             "word": "群衆",
             "read": "ぐんしゅう",
-            "mean": "군중"
+            "mean": "군중",
+            "tags": []
         },
         {
             "word": "経緯",
             "read": "けいい",
-            "mean": "경위"
+            "mean": "경위",
+            "tags": []
         },
         {
             "word": "経過",
             "read": "けいか",
-            "mean": "경과"
+            "mean": "경과",
+            "tags": []
         },
         {
             "word": "警戒",
             "read": "けいかい",
-            "mean": "경계"
+            "mean": "경계",
+            "tags": []
         },
         {
             "word": "軽減",
             "read": "けいげん",
-            "mean": "경감"
+            "mean": "경감",
+            "tags": []
         },
         {
             "word": "掲載",
             "read": "けいさい",
-            "mean": "게재"
+            "mean": "게재",
+            "tags": []
         },
         {
             "word": "軽視",
             "read": "けいし",
-            "mean": "경시"
+            "mean": "경시",
+            "tags": []
         },
         {
             "word": "傾斜",
             "read": "けいしゃ",
-            "mean": "경사"
+            "mean": "경사",
+            "tags": []
         },
         {
             "word": "形状",
             "read": "けいじょう",
-            "mean": "형상"
+            "mean": "형상",
+            "tags": []
         },
         {
             "word": "形勢",
             "read": "けいせい",
-            "mean": "형세"
+            "mean": "형세",
+            "tags": []
         },
         {
             "word": "形態",
             "read": "けいたい",
-            "mean": "형태"
+            "mean": "형태",
+            "tags": []
         },
         {
             "word": "刑罰",
             "read": "けいばつ",
-            "mean": "형벌"
+            "mean": "형벌",
+            "tags": []
         },
         {
             "word": "経費",
             "read": "けいひ",
-            "mean": "경비"
+            "mean": "경비",
+            "tags": []
         },
         {
             "word": "啓蒙",
             "read": "けいもう",
-            "mean": "계몽"
+            "mean": "계몽",
+            "tags": []
         },
         {
             "word": "経由",
             "read": "けいゆ",
-            "mean": "경유"
+            "mean": "경유",
+            "tags": []
         },
         {
             "word": "経歴",
             "read": "けいれき",
-            "mean": "경력"
+            "mean": "경력",
+            "tags": []
         },
         {
             "word": "経路",
             "read": "けいろ",
-            "mean": "경로"
+            "mean": "경로",
+            "tags": []
         },
         {
             "word": "毛皮",
             "read": "けがわ",
-            "mean": "모피"
+            "mean": "모피",
+            "tags": []
         },
         {
             "word": "劇場",
             "read": "げきじょう",
-            "mean": "극장"
+            "mean": "극장",
+            "tags": []
         },
         {
             "word": "劇団",
             "read": "げきだん",
-            "mean": "극단"
+            "mean": "극단",
+            "tags": []
         },
         {
             "word": "激励",
             "read": "げきれい",
-            "mean": "격려"
+            "mean": "격려",
+            "tags": []
         },
         {
             "word": "決行",
             "read": "けっこう",
-            "mean": "결행"
+            "mean": "결행",
+            "tags": []
         },
         {
             "word": "結合",
             "read": "けつごう",
-            "mean": "결합"
+            "mean": "결합",
+            "tags": []
         },
         {
             "word": "傑作",
             "read": "けっさく",
-            "mean": "걸작"
+            "mean": "걸작",
+            "tags": []
         },
         {
             "word": "決算",
             "read": "けっさん",
-            "mean": "결산"
+            "mean": "결산",
+            "tags": []
         },
         {
             "word": "月謝",
             "read": "げっしゃ",
-            "mean": "월사금, 수업료"
+            "mean": "월사금, 수업료",
+            "tags": []
         },
         {
             "word": "欠如",
             "read": "けつじょ",
-            "mean": "결여"
+            "mean": "결여",
+            "tags": []
         },
         {
             "word": "結晶",
             "read": "けっしょう",
-            "mean": "결정"
+            "mean": "결정",
+            "tags": []
         },
         {
             "word": "結成",
             "read": "けっせい",
-            "mean": "결성"
+            "mean": "결성",
+            "tags": []
         },
         {
             "word": "結束",
             "read": "けっそく",
-            "mean": "결속"
+            "mean": "결속",
+            "tags": []
         },
         {
             "word": "決断",
             "read": "けつだん",
-            "mean": "결단"
+            "mean": "결단",
+            "tags": []
         },
         {
             "word": "月賦",
             "read": "げっぷ",
-            "mean": "월부"
+            "mean": "월부",
+            "tags": []
         },
         {
             "word": "欠乏",
             "read": "けつぼう",
-            "mean": "결핍"
+            "mean": "결핍",
+            "tags": []
         },
         {
             "word": "懸念",
             "read": "けねん",
-            "mean": "염려, 우려"
+            "mean": "염려, 우려",
+            "tags": []
         },
         {
             "word": "獣",
             "read": "けもの",
-            "mean": "짐승"
+            "mean": "짐승",
+            "tags": []
         },
         {
             "word": "権威",
             "read": "けんい",
-            "mean": "권위"
+            "mean": "권위",
+            "tags": []
         },
         {
             "word": "嫌悪",
             "read": "けんお",
-            "mean": "혐오"
+            "mean": "혐오",
+            "tags": []
         },
         {
             "word": "言及",
             "read": "げんきゅう",
-            "mean": "언급"
+            "mean": "언급",
+            "tags": []
         },
         {
             "word": "原形",
             "read": "げんけい",
-            "mean": "원형"
+            "mean": "원형",
+            "tags": []
         },
         {
             "word": "懸賞",
             "read": "けんしょう",
-            "mean": "현상(금)"
+            "mean": "현상(금)",
+            "tags": []
         },
         {
             "word": "厳選",
             "read": "げんせん",
-            "mean": "엄선"
+            "mean": "엄선",
+            "tags": []
         },
         {
             "word": "幻想",
             "read": "げんそう",
-            "mean": "환상"
+            "mean": "환상",
+            "tags": []
         },
         {
             "word": "原則",
             "read": "げんそく",
-            "mean": "원칙"
+            "mean": "원칙",
+            "tags": []
         },
         {
             "word": "減点",
             "read": "げんてん",
-            "mean": "감점"
+            "mean": "감점",
+            "tags": []
         },
         {
             "word": "健闘",
             "read": "けんとう",
-            "mean": "건투"
+            "mean": "건투",
+            "tags": []
         },
         {
             "word": "原動力",
             "read": "げんどうりょく",
-            "mean": "원동력"
+            "mean": "원동력",
+            "tags": []
         },
         {
             "word": "圏内",
             "read": "けんない",
-            "mean": "권내"
+            "mean": "권내",
+            "tags": []
         },
         {
             "word": "倹約",
             "read": "けんやく",
-            "mean": "검약"
+            "mean": "검약",
+            "tags": []
         },
         {
             "word": "兼用",
             "read": "けんよう",
-            "mean": "겸용"
+            "mean": "겸용",
+            "tags": []
         },
         {
             "word": "原論",
             "read": "げんろん",
-            "mean": "원론"
+            "mean": "원론",
+            "tags": []
         },
         {
             "word": "故意",
             "read": "こい",
-            "mean": "고의"
+            "mean": "고의",
+            "tags": []
         },
         {
             "word": "行為",
             "read": "こうい",
-            "mean": "행위"
+            "mean": "행위",
+            "tags": []
         },
         {
             "word": "合意",
             "read": "ごうい",
-            "mean": "합의"
+            "mean": "합의",
+            "tags": []
         },
         {
             "word": "公益",
             "read": "こうえき",
-            "mean": "공익"
+            "mean": "공익",
+            "tags": []
         },
         {
             "word": "交易",
             "read": "こうえき",
-            "mean": "교역"
+            "mean": "교역",
+            "tags": []
         },
         {
             "word": "航海",
             "read": "こうかい",
-            "mean": "항해"
+            "mean": "항해",
+            "tags": []
         },
         {
             "word": "抗議",
             "read": "こうぎ",
-            "mean": "항의"
+            "mean": "항의",
+            "tags": []
         },
         {
             "word": "合議",
             "read": "ごうぎ",
-            "mean": "합의"
+            "mean": "합의",
+            "tags": []
         },
         {
             "word": "好況",
             "read": "こうきょう",
-            "mean": "호황"
+            "mean": "호황",
+            "tags": []
         },
         {
             "word": "貢献",
             "read": "こうけん",
-            "mean": "공헌"
+            "mean": "공헌",
+            "tags": []
         },
         {
             "word": "高原",
             "read": "こうげん",
-            "mean": "고원"
+            "mean": "고원",
+            "tags": []
         },
         {
             "word": "公言",
             "read": "こうげん",
-            "mean": "공언"
+            "mean": "공언",
+            "tags": []
         },
         {
             "word": "考古学",
             "read": "こうこがく",
-            "mean": "고고학"
+            "mean": "고고학",
+            "tags": []
         },
         {
             "word": "交錯",
             "read": "こうさく",
-            "mean": "교착"
+            "mean": "교착",
+            "tags": []
         },
         {
             "word": "鉱山",
             "read": "こうざん",
-            "mean": "광산"
+            "mean": "광산",
+            "tags": []
         },
         {
             "word": "口述",
             "read": "こうじゅつ",
-            "mean": "구술"
+            "mean": "구술",
+            "tags": []
         },
         {
             "word": "控除",
             "read": "こうじょ",
-            "mean": "공제"
+            "mean": "공제",
+            "tags": []
         },
         {
             "word": "香辛料",
             "read": "こうしんりょう",
-            "mean": "향신료"
+            "mean": "향신료",
+            "tags": []
         },
         {
             "word": "降水",
             "read": "こうすい",
-            "mean": "강수"
+            "mean": "강수",
+            "tags": []
         },
         {
             "word": "洪水",
             "read": "こうずい",
-            "mean": "홍수"
+            "mean": "홍수",
+            "tags": []
         },
         {
             "word": "公然",
             "read": "こうぜん",
-            "mean": "공연함, 공공연함"
+            "mean": "공연함, 공공연함",
+            "tags": []
         },
         {
             "word": "構想",
             "read": "こうそう",
-            "mean": "구상"
+            "mean": "구상",
+            "tags": []
         },
         {
             "word": "抗争",
             "read": "こうそう",
-            "mean": "항쟁"
+            "mean": "항쟁",
+            "tags": []
         },
         {
             "word": "拘束",
             "read": "こうそく",
-            "mean": "구속"
+            "mean": "구속",
+            "tags": []
         },
         {
             "word": "後退",
             "read": "こうたい",
-            "mean": "후퇴"
+            "mean": "후퇴",
+            "tags": []
         },
         {
             "word": "光沢",
             "read": "こうたく",
-            "mean": "광택"
+            "mean": "광택",
+            "tags": []
         },
         {
             "word": "構築",
             "read": "こうちく",
-            "mean": "구축"
+            "mean": "구축",
+            "tags": []
         },
         {
             "word": "高低",
             "read": "こうてい",
-            "mean": "고저, 높낮이"
+            "mean": "고저, 높낮이",
+            "tags": []
         },
         {
             "word": "好転",
             "read": "こうてん",
-            "mean": "호전"
+            "mean": "호전",
+            "tags": []
         },
         {
             "word": "口頭",
             "read": "こうとう",
-            "mean": "구두"
+            "mean": "구두",
+            "tags": []
         },
         {
             "word": "購読",
             "read": "こうどく",
-            "mean": "구독"
+            "mean": "구독",
+            "tags": []
         }
     ],
     "quiz": []

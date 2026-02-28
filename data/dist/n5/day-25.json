@@ -64,42 +64,50 @@
         {
             "word": "あの",
             "read": "あの",
-            "mean": "저"
+            "mean": "저",
+            "tags": []
         },
         {
             "word": "この",
             "read": "この",
-            "mean": "이"
+            "mean": "이",
+            "tags": []
         },
         {
             "word": "その",
             "read": "その",
-            "mean": "그"
+            "mean": "그",
+            "tags": []
         },
         {
             "word": "どの",
             "read": "どの",
-            "mean": "어느"
+            "mean": "어느",
+            "tags": []
         },
         {
             "word": "でも",
             "read": "でも",
-            "mean": "하지만"
+            "mean": "하지만",
+            "tags": []
         },
         {
             "word": "〜くらい/ぐらい",
             "read": "くらい/ぐらい",
-            "mean": "정도"
+            "mean": "정도",
+            "tags": []
         },
         {
             "word": "〜ずつ",
             "read": "ずつ",
-            "mean": "씩"
+            "mean": "씩",
+            "tags": []
         },
         {
             "word": "〜だけ",
             "read": "だけ",
-            "mean": "만/뿐"
+            "mean": "만/뿐",
+            "tags": []
         }
     ],
     "quiz": [

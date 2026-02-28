@@ -6,417 +6,500 @@
         {
             "word": "大小",
             "read": "だいしょう",
-            "mean": "대소, 크기"
+            "mean": "대소, 크기",
+            "tags": []
         },
         {
             "word": "大臣",
             "read": "だいじん",
-            "mean": "대신, 장관"
+            "mean": "대신, 장관",
+            "tags": []
         },
         {
             "word": "体制",
             "read": "たいせい",
-            "mean": "체제"
+            "mean": "체제",
+            "tags": []
         },
         {
             "word": "体積",
             "read": "たいせき",
-            "mean": "부피, 체적"
+            "mean": "부피, 체적",
+            "tags": []
         },
         {
             "word": "大戦",
             "read": "たいせん",
-            "mean": "대전"
+            "mean": "대전",
+            "tags": []
         },
         {
             "word": "対戦",
             "read": "たいせん",
-            "mean": "대전, 시합"
+            "mean": "대전, 시합",
+            "tags": []
         },
         {
             "word": "体操",
             "read": "たいそう",
-            "mean": "체조"
+            "mean": "체조",
+            "tags": []
         },
         {
             "word": "大半",
             "read": "たいはん",
-            "mean": "대반, 과반수"
+            "mean": "대반, 과반수",
+            "tags": []
         },
         {
             "word": "対比",
             "read": "たいひ",
-            "mean": "대비"
+            "mean": "대비",
+            "tags": []
         },
         {
             "word": "大部分",
             "read": "だいぶぶん",
-            "mean": "대부분"
+            "mean": "대부분",
+            "tags": []
         },
         {
             "word": "大木",
             "read": "たいぼく",
-            "mean": "대목, 큰 나무"
+            "mean": "대목, 큰 나무",
+            "tags": []
         },
         {
             "word": "代名詞",
             "read": "だいめいし",
-            "mean": "대명사"
+            "mean": "대명사",
+            "tags": []
         },
         {
             "word": "体毛",
             "read": "たいもう",
-            "mean": "체모"
+            "mean": "체모",
+            "tags": []
         },
         {
             "word": "太陽",
             "read": "たいよう",
-            "mean": "태양"
+            "mean": "태양",
+            "tags": []
         },
         {
             "word": "大陸",
             "read": "たいりく",
-            "mean": "대륙"
+            "mean": "대륙",
+            "tags": []
         },
         {
             "word": "対立",
             "read": "たいりつ",
-            "mean": "대립"
+            "mean": "대립",
+            "tags": []
         },
         {
             "word": "田植え",
             "read": "たうえ",
-            "mean": "모내기"
+            "mean": "모내기",
+            "tags": []
         },
         {
             "word": "楕円",
             "read": "だえん",
-            "mean": "타원"
+            "mean": "타원",
+            "tags": []
         },
         {
             "word": "滝",
             "read": "たき",
-            "mean": "폭포"
+            "mean": "폭포",
+            "tags": []
         },
         {
             "word": "立場",
             "read": "たちば",
-            "mean": "입장"
+            "mean": "입장",
+            "tags": []
         },
         {
             "word": "脱線",
             "read": "だっせん",
-            "mean": "탈선"
+            "mean": "탈선",
+            "tags": []
         },
         {
             "word": "谷",
             "read": "たに",
-            "mean": "골짜기"
+            "mean": "골짜기",
+            "tags": []
         },
         {
             "word": "束",
             "read": "たば",
-            "mean": "다발, 뭉치"
+            "mean": "다발, 뭉치",
+            "tags": []
         },
         {
             "word": "田畑",
             "read": "たはた",
-            "mean": "논밭"
+            "mean": "논밭",
+            "tags": []
         },
         {
             "word": "頼り",
             "read": "たより",
-            "mean": "의지"
+            "mean": "의지",
+            "tags": []
         },
         {
             "word": "便り",
             "read": "たより",
-            "mean": "소식, 편지"
+            "mean": "소식, 편지",
+            "tags": []
         },
         {
             "word": "単位",
             "read": "たんい",
-            "mean": "단위"
+            "mean": "단위",
+            "tags": []
         },
         {
             "word": "段階",
             "read": "だんかい",
-            "mean": "단계"
+            "mean": "단계",
+            "tags": []
         },
         {
             "word": "短所",
             "read": "たんしょ",
-            "mean": "단점"
+            "mean": "단점",
+            "tags": []
         },
         {
             "word": "男女",
             "read": "だんじょ",
-            "mean": "남녀"
+            "mean": "남녀",
+            "tags": []
         },
         {
             "word": "淡水",
             "read": "たんすい",
-            "mean": "담수"
+            "mean": "담수",
+            "tags": []
         },
         {
             "word": "団地",
             "read": "だんち",
-            "mean": "단지"
+            "mean": "단지",
+            "tags": []
         },
         {
             "word": "断定",
             "read": "だんてい",
-            "mean": "단정"
+            "mean": "단정",
+            "tags": []
         },
         {
             "word": "担任",
             "read": "たんにん",
-            "mean": "담임"
+            "mean": "담임",
+            "tags": []
         },
         {
             "word": "短編",
             "read": "たんぺん",
-            "mean": "단편"
+            "mean": "단편",
+            "tags": []
         },
         {
             "word": "田んぼ",
             "read": "たんぼ",
-            "mean": "논"
+            "mean": "논",
+            "tags": []
         },
         {
             "word": "地位",
             "read": "ちい",
-            "mean": "지위"
+            "mean": "지위",
+            "tags": []
         },
         {
             "word": "地域",
             "read": "ちいき",
-            "mean": "지역"
+            "mean": "지역",
+            "tags": []
         },
         {
             "word": "知恵",
             "read": "ちえ",
-            "mean": "지혜"
+            "mean": "지혜",
+            "tags": []
         },
         {
             "word": "近頃",
             "read": "ちかごろ",
-            "mean": "요즘, 최근"
+            "mean": "요즘, 최근",
+            "tags": []
         },
         {
             "word": "地区",
             "read": "ちく",
-            "mean": "지구, 구역"
+            "mean": "지구, 구역",
+            "tags": []
         },
         {
             "word": "知事",
             "read": "ちじ",
-            "mean": "지사(도지사 등)"
+            "mean": "지사(도지사 등)",
+            "tags": []
         },
         {
             "word": "知識",
             "read": "ちしき",
-            "mean": "지식"
+            "mean": "지식",
+            "tags": []
         },
         {
             "word": "地帯",
             "read": "ちたい",
-            "mean": "지대"
+            "mean": "지대",
+            "tags": []
         },
         {
             "word": "地点",
             "read": "ちてん",
-            "mean": "지점"
+            "mean": "지점",
+            "tags": []
         },
         {
             "word": "知能",
             "read": "ちのう",
-            "mean": "지능"
+            "mean": "지능",
+            "tags": []
         },
         {
             "word": "地平線",
             "read": "ちへいせん",
-            "mean": "지평선"
+            "mean": "지평선",
+            "tags": []
         },
         {
             "word": "中継",
             "read": "ちゅうけい",
-            "mean": "중계"
+            "mean": "중계",
+            "tags": []
         },
         {
             "word": "抽選",
             "read": "ちゅうせん",
-            "mean": "추첨"
+            "mean": "추첨",
+            "tags": []
         },
         {
             "word": "中断",
             "read": "ちゅうだん",
-            "mean": "중단"
+            "mean": "중단",
+            "tags": []
         },
         {
             "word": "中立",
             "read": "ちゅうりつ",
-            "mean": "중립"
+            "mean": "중립",
+            "tags": []
         },
         {
             "word": "長官",
             "read": "ちょうかん",
-            "mean": "장관(직책)"
+            "mean": "장관(직책)",
+            "tags": []
         },
         {
             "word": "長期",
             "read": "ちょうき",
-            "mean": "장기"
+            "mean": "장기",
+            "tags": []
         },
         {
             "word": "彫刻",
             "read": "ちょうこく",
-            "mean": "조각"
+            "mean": "조각",
+            "tags": []
         },
         {
             "word": "長時間",
             "read": "ちょうじかん",
-            "mean": "장시간"
+            "mean": "장시간",
+            "tags": []
         },
         {
             "word": "頂上",
             "read": "ちょうじょう",
-            "mean": "정상"
+            "mean": "정상",
+            "tags": []
         },
         {
             "word": "調節",
             "read": "ちょうせつ",
-            "mean": "조절"
+            "mean": "조절",
+            "tags": []
         },
         {
             "word": "頂点",
             "read": "ちょうてん",
-            "mean": "정점"
+            "mean": "정점",
+            "tags": []
         },
         {
             "word": "長方形",
             "read": "ちょうほうけい",
-            "mean": "직사각형"
+            "mean": "직사각형",
+            "tags": []
         },
         {
             "word": "調理",
             "read": "ちょうり",
-            "mean": "조리"
+            "mean": "조리",
+            "tags": []
         },
         {
             "word": "著者",
             "read": "ちょしゃ",
-            "mean": "저자"
+            "mean": "저자",
+            "tags": []
         },
         {
             "word": "著書",
             "read": "ちょしょ",
-            "mean": "저서"
+            "mean": "저서",
+            "tags": []
         },
         {
             "word": "貯蔵",
             "read": "ちょぞう",
-            "mean": "저장"
+            "mean": "저장",
+            "tags": []
         },
         {
             "word": "直角",
             "read": "ちょっかく",
-            "mean": "직각"
+            "mean": "직각",
+            "tags": []
         },
         {
             "word": "直径",
             "read": "ちょっけい",
-            "mean": "직경, 지름"
+            "mean": "직경, 지름",
+            "tags": []
         },
         {
             "word": "治療",
             "read": "ちりょう",
-            "mean": "치료"
+            "mean": "치료",
+            "tags": []
         },
         {
             "word": "追加",
             "read": "ついか",
-            "mean": "추가"
+            "mean": "추가",
+            "tags": []
         },
         {
             "word": "通貨",
             "read": "つうか",
-            "mean": "통화(화폐)"
+            "mean": "통화(화폐)",
+            "tags": []
         },
         {
             "word": "通学",
             "read": "つうがく",
-            "mean": "통학"
+            "mean": "통학",
+            "tags": []
         },
         {
             "word": "通達",
             "read": "つうたつ",
-            "mean": "통달, 시달"
+            "mean": "통달, 시달",
+            "tags": []
         },
         {
             "word": "通用",
             "read": "つうよう",
-            "mean": "통용"
+            "mean": "통용",
+            "tags": []
         },
         {
             "word": "通路",
             "read": "つうろ",
-            "mean": "통로"
+            "mean": "통로",
+            "tags": []
         },
         {
             "word": "使い捨て",
             "read": "つかいすて",
-            "mean": "일회용"
+            "mean": "일회용",
+            "tags": []
         },
         {
             "word": "突き当たり",
             "read": "つきあたり",
-            "mean": "막다른 곳"
+            "mean": "막다른 곳",
+            "tags": []
         },
         {
             "word": "唾",
             "read": "つば",
-            "mean": "침"
+            "mean": "침",
+            "tags": []
         },
         {
             "word": "粒",
             "read": "つぶ",
-            "mean": "알, 낱알"
+            "mean": "알, 낱알",
+            "tags": []
         },
         {
             "word": "罪",
             "read": "つみ",
-            "mean": "죄"
+            "mean": "죄",
+            "tags": []
         },
         {
             "word": "積み重ね",
             "read": "つみかさね",
-            "mean": "축적, 쌓아 올림"
+            "mean": "축적, 쌓아 올림",
+            "tags": []
         },
         {
             "word": "つや",
             "read": "つや",
-            "mean": "광택, 윤기"
+            "mean": "광택, 윤기",
+            "tags": []
         },
         {
             "word": "強火",
             "read": "つよび",
-            "mean": "센 불"
+            "mean": "센 불",
+            "tags": []
         },
         {
             "word": "強み",
             "read": "つよみ",
-            "mean": "강점"
+            "mean": "강점",
+            "tags": []
         },
         {
             "word": "釣り",
             "read": "つり",
-            "mean": "낚시"
+            "mean": "낚시",
+            "tags": []
         },
         {
             "word": "連れ",
             "read": "つれ",
-            "mean": "동행, 일행"
+            "mean": "동행, 일행",
+            "tags": []
         }
     ],
     "quiz": []

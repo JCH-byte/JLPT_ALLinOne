@@ -88,92 +88,110 @@
         {
             "word": "車",
             "read": "くるま",
-            "mean": "자동차"
+            "mean": "자동차",
+            "tags": []
         },
         {
             "word": "警官",
             "read": "けいかん",
-            "mean": "경찰관"
+            "mean": "경찰관",
+            "tags": []
         },
         {
             "word": "子",
             "read": "こ",
-            "mean": "아이"
+            "mean": "아이",
+            "tags": []
         },
         {
             "word": "公園",
             "read": "こうえん",
-            "mean": "공원"
+            "mean": "공원",
+            "tags": []
         },
         {
             "word": "紅茶",
             "read": "こうちゃ",
-            "mean": "홍차"
+            "mean": "홍차",
+            "tags": []
         },
         {
             "word": "交番",
             "read": "こうばん",
-            "mean": "파출소"
+            "mean": "파출소",
+            "tags": []
         },
         {
             "word": "声",
             "read": "こえ",
-            "mean": "목소리"
+            "mean": "목소리",
+            "tags": []
         },
         {
             "word": "ここ",
             "read": "ここ",
-            "mean": "여기"
+            "mean": "여기",
+            "tags": []
         },
         {
             "word": "午後",
             "read": "ごご",
-            "mean": "오후"
+            "mean": "오후",
+            "tags": []
         },
         {
             "word": "午前",
             "read": "ごぜん",
-            "mean": "오전"
+            "mean": "오전",
+            "tags": []
         },
         {
             "word": "今年",
             "read": "ことし",
-            "mean": "올해"
+            "mean": "올해",
+            "tags": []
         },
         {
             "word": "子ども",
             "read": "こども",
-            "mean": "어린이"
+            "mean": "어린이",
+            "tags": []
         },
         {
             "word": "ご飯",
             "read": "ごはん",
-            "mean": "밥"
+            "mean": "밥",
+            "tags": []
         },
         {
             "word": "これ",
             "read": "これ",
-            "mean": "이것"
+            "mean": "이것",
+            "tags": []
         },
         {
             "word": "今月",
             "read": "こんげつ",
-            "mean": "이번 달"
+            "mean": "이번 달",
+            "tags": []
         },
         {
             "word": "今週",
             "read": "こんしゅう",
-            "mean": "이번 주"
+            "mean": "이번 주",
+            "tags": []
         },
         {
             "word": "今晩",
             "read": "こんばん",
-            "mean": "오늘 밤"
+            "mean": "오늘 밤",
+            "tags": []
         },
         {
             "word": "最後",
             "read": "さいご",
-            "mean": "마지막"
+            "mean": "마지막",
+            "tags": []
         }
     ],
     "quiz": [

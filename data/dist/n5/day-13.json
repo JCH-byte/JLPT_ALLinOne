@@ -118,172 +118,206 @@
         {
             "word": "一円",
             "read": "いちえん",
-            "mean": "1엔"
+            "mean": "1엔",
+            "tags": []
         },
         {
             "word": "二円",
             "read": "にえん",
-            "mean": "2엔"
+            "mean": "2엔",
+            "tags": []
         },
         {
             "word": "三円",
             "read": "さんえん",
-            "mean": "3엔"
+            "mean": "3엔",
+            "tags": []
         },
         {
             "word": "四円",
             "read": "よえん",
-            "mean": "4엔"
+            "mean": "4엔",
+            "tags": []
         },
         {
             "word": "五円",
             "read": "ごえん",
-            "mean": "5엔"
+            "mean": "5엔",
+            "tags": []
         },
         {
             "word": "六円",
             "read": "ろくえん",
-            "mean": "6엔"
+            "mean": "6엔",
+            "tags": []
         },
         {
             "word": "七円",
             "read": "ななえん",
-            "mean": "7엔"
+            "mean": "7엔",
+            "tags": []
         },
         {
             "word": "八円",
             "read": "はちえん",
-            "mean": "8엔"
+            "mean": "8엔",
+            "tags": []
         },
         {
             "word": "九円",
             "read": "きゅうえん",
-            "mean": "9엔"
+            "mean": "9엔",
+            "tags": []
         },
         {
             "word": "十円",
             "read": "じゅうえん",
-            "mean": "10엔"
+            "mean": "10엔",
+            "tags": []
         },
         {
             "word": "一年",
             "read": "いちねん",
-            "mean": "1년"
+            "mean": "1년",
+            "tags": []
         },
         {
             "word": "二年",
             "read": "にねん",
-            "mean": "2년"
+            "mean": "2년",
+            "tags": []
         },
         {
             "word": "三年",
             "read": "さんねん",
-            "mean": "3년"
+            "mean": "3년",
+            "tags": []
         },
         {
             "word": "四年",
             "read": "よねん",
-            "mean": "4년"
+            "mean": "4년",
+            "tags": []
         },
         {
             "word": "五年",
             "read": "ごねん",
-            "mean": "5년"
+            "mean": "5년",
+            "tags": []
         },
         {
             "word": "六年",
             "read": "ろくねん",
-            "mean": "6년"
+            "mean": "6년",
+            "tags": []
         },
         {
             "word": "七年",
             "read": "しちねん",
-            "mean": "7년"
+            "mean": "7년",
+            "tags": []
         },
         {
             "word": "八年",
             "read": "はちねん",
-            "mean": "8년"
+            "mean": "8년",
+            "tags": []
         },
         {
             "word": "九年",
             "read": "きゅうねん",
-            "mean": "9년"
+            "mean": "9년",
+            "tags": []
         },
         {
             "word": "十年",
             "read": "じゅうねん",
-            "mean": "10년"
+            "mean": "10년",
+            "tags": []
         },
         {
             "word": "何年",
             "read": "なんねん",
-            "mean": "몇 년"
+            "mean": "몇 년",
+            "tags": []
         },
         {
             "word": "一月",
             "read": "いちがつ",
-            "mean": "1월"
+            "mean": "1월",
+            "tags": []
         },
         {
             "word": "二月",
             "read": "にがつ",
-            "mean": "2월"
+            "mean": "2월",
+            "tags": []
         },
         {
             "word": "三月",
             "read": "さんがつ",
-            "mean": "3월"
+            "mean": "3월",
+            "tags": []
         },
         {
             "word": "四月",
             "read": "しがつ",
-            "mean": "4월"
+            "mean": "4월",
+            "tags": []
         },
         {
             "word": "五月",
             "read": "ごがつ",
-            "mean": "5월"
+            "mean": "5월",
+            "tags": []
         },
         {
             "word": "六月",
             "read": "ろくがつ",
-            "mean": "6월"
+            "mean": "6월",
+            "tags": []
         },
         {
             "word": "七月",
             "read": "しちがつ",
-            "mean": "7월"
+            "mean": "7월",
+            "tags": []
         },
         {
             "word": "八月",
             "read": "はちがつ",
-            "mean": "8월"
+            "mean": "8월",
+            "tags": []
         },
         {
             "word": "九月",
             "read": "くがつ",
-            "mean": "9월"
+            "mean": "9월",
+            "tags": []
         },
         {
             "word": "十月",
             "read": "じゅうがつ",
-            "mean": "10월"
+            "mean": "10월",
+            "tags": []
         },
         {
             "word": "十一月",
             "read": "じゅういちがつ",
-            "mean": "11월"
+            "mean": "11월",
+            "tags": []
         },
         {
             "word": "十二月",
             "read": "じゅうにがつ",
-            "mean": "12월"
+            "mean": "12월",
+            "tags": []
         },
         {
             "word": "何月",
             "read": "なんがつ",
-            "mean": "몇 월"
+            "mean": "몇 월",
+            "tags": []
         }
     ],
     "quiz": [

@@ -160,137 +160,164 @@
         {
             "word": "会う",
             "read": "あう",
-            "mean": "만나다"
+            "mean": "만나다",
+            "tags": []
         },
         {
             "word": "上がる",
             "read": "あがる",
-            "mean": "오르다"
+            "mean": "오르다",
+            "tags": []
         },
         {
             "word": "開く",
             "read": "あく",
-            "mean": "열리다"
+            "mean": "열리다",
+            "tags": []
         },
         {
             "word": "開ける",
             "read": "あける",
-            "mean": "열다"
+            "mean": "열다",
+            "tags": []
         },
         {
             "word": "あげる",
             "read": "あげる",
-            "mean": "주다/올리다"
+            "mean": "주다/올리다",
+            "tags": []
         },
         {
             "word": "上げる",
             "read": "あげる",
-            "mean": "올리다"
+            "mean": "올리다",
+            "tags": []
         },
         {
             "word": "遊ぶ",
             "read": "あそぶ",
-            "mean": "놀다"
+            "mean": "놀다",
+            "tags": []
         },
         {
             "word": "あびる",
             "read": "あびる",
-            "mean": "뒤집어쓰다/샤워하다"
+            "mean": "뒤집어쓰다/샤워하다",
+            "tags": []
         },
         {
             "word": "洗う",
             "read": "あらう",
-            "mean": "씻다"
+            "mean": "씻다",
+            "tags": []
         },
         {
             "word": "ある",
             "read": "ある",
-            "mean": "있다"
+            "mean": "있다",
+            "tags": []
         },
         {
             "word": "歩く",
             "read": "あるく",
-            "mean": "걷다"
+            "mean": "걷다",
+            "tags": []
         },
         {
             "word": "言う",
             "read": "いう",
-            "mean": "말하다"
+            "mean": "말하다",
+            "tags": []
         },
         {
             "word": "行く",
             "read": "いく",
-            "mean": "가다"
+            "mean": "가다",
+            "tags": []
         },
         {
             "word": "いる",
             "read": "いる",
-            "mean": "있다"
+            "mean": "있다",
+            "tags": []
         },
         {
             "word": "要る",
             "read": "いる",
-            "mean": "필요하다"
+            "mean": "필요하다",
+            "tags": []
         },
         {
             "word": "入れる",
             "read": "いれる",
-            "mean": "넣다"
+            "mean": "넣다",
+            "tags": []
         },
         {
             "word": "歌う",
             "read": "うたう",
-            "mean": "노래하다"
+            "mean": "노래하다",
+            "tags": []
         },
         {
             "word": "生まれる",
             "read": "うまれる",
-            "mean": "태어나다"
+            "mean": "태어나다",
+            "tags": []
         },
         {
             "word": "売る",
             "read": "うる",
-            "mean": "팔다"
+            "mean": "팔다",
+            "tags": []
         },
         {
             "word": "起きる",
             "read": "おきる",
-            "mean": "일어나다"
+            "mean": "일어나다",
+            "tags": []
         },
         {
             "word": "置く",
             "read": "おく",
-            "mean": "두다/놓다"
+            "mean": "두다/놓다",
+            "tags": []
         },
         {
             "word": "教える",
             "read": "おしえる",
-            "mean": "가르치다"
+            "mean": "가르치다",
+            "tags": []
         },
         {
             "word": "押す",
             "read": "おす",
-            "mean": "밀다/누르다"
+            "mean": "밀다/누르다",
+            "tags": []
         },
         {
             "word": "泳ぐ",
             "read": "およぐ",
-            "mean": "헤엄치다"
+            "mean": "헤엄치다",
+            "tags": []
         },
         {
             "word": "終わる",
             "read": "おわる",
-            "mean": "끝나다"
+            "mean": "끝나다",
+            "tags": []
         },
         {
             "word": "買う",
             "read": "かう",
-            "mean": "사다"
+            "mean": "사다",
+            "tags": []
         },
         {
             "word": "帰る",
             "read": "かえる",
-            "mean": "돌아가다"
+            "mean": "돌아가다",
+            "tags": []
         }
     ],
     "quiz": [

@@ -14,7 +14,10 @@ node scripts/build-data.js
 node scripts/build-data.js --check
 ```
 
-> 규칙: **수정은 src만, dist는 생성물**
+> 규칙: **수정은 src(item)만, dist는 생성물**
+>
+> 🚫 **금지:** `data/dist/{level}/day-{n}.json`, `index.json`을 직접 수정하지 않습니다.
+> 변경이 필요하면 `data/src/{level}.items.json`(원천 item)을 수정한 뒤 `node scripts/build-data.js`로 재생성합니다.
 
 
 ## 표준 수정 플로우 (patch 기반)

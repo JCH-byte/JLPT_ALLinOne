@@ -139,132 +139,158 @@
         {
             "word": "青い",
             "read": "あおい",
-            "mean": "파랗다"
+            "mean": "파랗다",
+            "tags": []
         },
         {
             "word": "赤い",
             "read": "あかい",
-            "mean": "빨갛다"
+            "mean": "빨갛다",
+            "tags": []
         },
         {
             "word": "明るい",
             "read": "あかるい",
-            "mean": "밝다"
+            "mean": "밝다",
+            "tags": []
         },
         {
             "word": "暖かい",
             "read": "あたたかい",
-            "mean": "따뜻하다"
+            "mean": "따뜻하다",
+            "tags": []
         },
         {
             "word": "新しい",
             "read": "あたらしい",
-            "mean": "새롭다"
+            "mean": "새롭다",
+            "tags": []
         },
         {
             "word": "暑い",
             "read": "あつい",
-            "mean": "덥다"
+            "mean": "덥다",
+            "tags": []
         },
         {
             "word": "危ない",
             "read": "あぶない",
-            "mean": "위험하다"
+            "mean": "위험하다",
+            "tags": []
         },
         {
             "word": "甘い",
             "read": "あまい",
-            "mean": "달다"
+            "mean": "달다",
+            "tags": []
         },
         {
             "word": "いい/よい",
             "read": "いい/よい",
-            "mean": "좋다"
+            "mean": "좋다",
+            "tags": []
         },
         {
             "word": "忙しい",
             "read": "いそがしい",
-            "mean": "바쁘다"
+            "mean": "바쁘다",
+            "tags": []
         },
         {
             "word": "痛い",
             "read": "いたい",
-            "mean": "아프다"
+            "mean": "아프다",
+            "tags": []
         },
         {
             "word": "うるさい",
             "read": "うるさい",
-            "mean": "시끄럽다"
+            "mean": "시끄럽다",
+            "tags": []
         },
         {
             "word": "おいしい",
             "read": "おいしい",
-            "mean": "맛있다"
+            "mean": "맛있다",
+            "tags": []
         },
         {
             "word": "多い",
             "read": "おおい",
-            "mean": "많다"
+            "mean": "많다",
+            "tags": []
         },
         {
             "word": "大きい",
             "read": "おおきい",
-            "mean": "크다"
+            "mean": "크다",
+            "tags": []
         },
         {
             "word": "重い",
             "read": "おもい",
-            "mean": "무겁다"
+            "mean": "무겁다",
+            "tags": []
         },
         {
             "word": "おもしろい",
             "read": "おもしろい",
-            "mean": "재미있다"
+            "mean": "재미있다",
+            "tags": []
         },
         {
             "word": "軽い",
             "read": "かるい",
-            "mean": "가볍다"
+            "mean": "가볍다",
+            "tags": []
         },
         {
             "word": "かわいい",
             "read": "かわいい",
-            "mean": "귀엽다"
+            "mean": "귀엽다",
+            "tags": []
         },
         {
             "word": "黄色い",
             "read": "きいろい",
-            "mean": "노랗다"
+            "mean": "노랗다",
+            "tags": []
         },
         {
             "word": "暗い",
             "read": "くらい",
-            "mean": "어둡다"
+            "mean": "어둡다",
+            "tags": []
         },
         {
             "word": "黒い",
             "read": "くろい",
-            "mean": "검다"
+            "mean": "검다",
+            "tags": []
         },
         {
             "word": "寒い",
             "read": "さむい",
-            "mean": "춥다"
+            "mean": "춥다",
+            "tags": []
         },
         {
             "word": "白い",
             "read": "しろい",
-            "mean": "희다"
+            "mean": "희다",
+            "tags": []
         },
         {
             "word": "少ない",
             "read": "すくない",
-            "mean": "적다"
+            "mean": "적다",
+            "tags": []
         },
         {
             "word": "狭い",
             "read": "せまい",
-            "mean": "좁다"
+            "mean": "좁다",
+            "tags": []
         }
     ],
     "quiz": [

@@ -156,152 +156,182 @@
         {
             "word": "郵便局",
             "read": "ゆうびんきょく",
-            "mean": "우체국"
+            "mean": "우체국",
+            "tags": []
         },
         {
             "word": "夕べ",
             "read": "ゆうべ",
-            "mean": "어젯밤"
+            "mean": "어젯밤",
+            "tags": []
         },
         {
             "word": "行き方",
             "read": "いきかた",
-            "mean": "가는 방법"
+            "mean": "가는 방법",
+            "tags": []
         },
         {
             "word": "指",
             "read": "ゆび",
-            "mean": "손가락"
+            "mean": "손가락",
+            "tags": []
         },
         {
             "word": "指輪",
             "read": "ゆびわ",
-            "mean": "반지"
+            "mean": "반지",
+            "tags": []
         },
         {
             "word": "夢",
             "read": "ゆめ",
-            "mean": "꿈"
+            "mean": "꿈",
+            "tags": []
         },
         {
             "word": "用意",
             "read": "ようい",
-            "mean": "준비"
+            "mean": "준비",
+            "tags": []
         },
         {
             "word": "用事",
             "read": "ようじ",
-            "mean": "용건, 볼일"
+            "mean": "용건, 볼일",
+            "tags": []
         },
         {
             "word": "翌年",
             "read": "よくねん",
-            "mean": "이듬해"
+            "mean": "이듬해",
+            "tags": []
         },
         {
             "word": "予習",
             "read": "よしゅう",
-            "mean": "예습"
+            "mean": "예습",
+            "tags": []
         },
         {
             "word": "予定",
             "read": "よてい",
-            "mean": "예정"
+            "mean": "예정",
+            "tags": []
         },
         {
             "word": "読み方",
             "read": "よみかた",
-            "mean": "읽는 법"
+            "mean": "읽는 법",
+            "tags": []
         },
         {
             "word": "読み物",
             "read": "よみもの",
-            "mean": "읽을거리"
+            "mean": "읽을거리",
+            "tags": []
         },
         {
             "word": "予約",
             "read": "よやく",
-            "mean": "예약"
+            "mean": "예약",
+            "tags": []
         },
         {
             "word": "利用",
             "read": "りよう",
-            "mean": "이용"
+            "mean": "이용",
+            "tags": []
         },
         {
             "word": "両親",
             "read": "りょうしん",
-            "mean": "부모님"
+            "mean": "부모님",
+            "tags": []
         },
         {
             "word": "両方",
             "read": "りょうほう",
-            "mean": "양쪽"
+            "mean": "양쪽",
+            "tags": []
         },
         {
             "word": "旅館",
             "read": "りょかん",
-            "mean": "여관"
+            "mean": "여관",
+            "tags": []
         },
         {
             "word": "旅行",
             "read": "りょこう",
-            "mean": "여행"
+            "mean": "여행",
+            "tags": []
         },
         {
             "word": "りんご",
             "read": "りんご",
-            "mean": "사과"
+            "mean": "사과",
+            "tags": []
         },
         {
             "word": "零",
             "read": "れい",
-            "mean": "영, 제로"
+            "mean": "영, 제로",
+            "tags": []
         },
         {
             "word": "冷房",
             "read": "れいぼう",
-            "mean": "냉방"
+            "mean": "냉방",
+            "tags": []
         },
         {
             "word": "歴史",
             "read": "れきし",
-            "mean": "역사"
+            "mean": "역사",
+            "tags": []
         },
         {
             "word": "列車",
             "read": "れっしゃ",
-            "mean": "열차"
+            "mean": "열차",
+            "tags": []
         },
         {
             "word": "連絡",
             "read": "れんらく",
-            "mean": "연락"
+            "mean": "연락",
+            "tags": []
         },
         {
             "word": "廊下",
             "read": "ろうか",
-            "mean": "복도"
+            "mean": "복도",
+            "tags": []
         },
         {
             "word": "老人",
             "read": "ろうじん",
-            "mean": "노인"
+            "mean": "노인",
+            "tags": []
         },
         {
             "word": "訳",
             "read": "わけ",
-            "mean": "이유, 사정"
+            "mean": "이유, 사정",
+            "tags": []
         },
         {
             "word": "忘れ物",
             "read": "わすれもの",
-            "mean": "분실물"
+            "mean": "분실물",
+            "tags": []
         },
         {
             "word": "私",
             "read": "わたし",
-            "mean": "나, 저"
+            "mean": "나, 저",
+            "tags": []
         }
     ],
     "quiz": [

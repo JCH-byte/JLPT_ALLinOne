@@ -6,337 +6,404 @@
         {
             "word": "人気",
             "read": "にんき",
-            "mean": "인기"
+            "mean": "인기",
+            "tags": []
         },
         {
             "word": "人間",
             "read": "にんげん",
-            "mean": "인간"
+            "mean": "인간",
+            "tags": []
         },
         {
             "word": "根",
             "read": "ね",
-            "mean": "뿌리"
+            "mean": "뿌리",
+            "tags": []
         },
         {
             "word": "値上げ",
             "read": "ねあげ",
-            "mean": "가격 인상"
+            "mean": "가격 인상",
+            "tags": []
         },
         {
             "word": "願い",
             "read": "ねがい",
-            "mean": "소원, 부탁"
+            "mean": "소원, 부탁",
+            "tags": []
         },
         {
             "word": "値下げ",
             "read": "ねさげ",
-            "mean": "가격 인하"
+            "mean": "가격 인하",
+            "tags": []
         },
         {
             "word": "ねずみ",
             "read": "ねずみ",
-            "mean": "쥐"
+            "mean": "쥐",
+            "tags": []
         },
         {
             "word": "値段",
             "read": "ねだん",
-            "mean": "가격"
+            "mean": "가격",
+            "tags": []
         },
         {
             "word": "熱中",
             "read": "ねっちゅう",
-            "mean": "열중"
+            "mean": "열중",
+            "tags": []
         },
         {
             "word": "年賀状",
             "read": "ねんがじょう",
-            "mean": "연하장"
+            "mean": "연하장",
+            "tags": []
         },
         {
             "word": "年間",
             "read": "ねんかん",
-            "mean": "연간"
+            "mean": "연간",
+            "tags": []
         },
         {
             "word": "年月",
             "read": "ねんげつ",
-            "mean": "연월, 세월"
+            "mean": "연월, 세월",
+            "tags": []
         },
         {
             "word": "年中",
             "read": "ねんじゅう",
-            "mean": "연중"
+            "mean": "연중",
+            "tags": []
         },
         {
             "word": "年代",
             "read": "ねんだい",
-            "mean": "연대"
+            "mean": "연대",
+            "tags": []
         },
         {
             "word": "年末",
             "read": "ねんまつ",
-            "mean": "연말"
+            "mean": "연말",
+            "tags": []
         },
         {
             "word": "野",
             "read": "の",
-            "mean": "들, 벌판"
+            "mean": "들, 벌판",
+            "tags": []
         },
         {
             "word": "農業",
             "read": "のうぎょう",
-            "mean": "농업"
+            "mean": "농업",
+            "tags": []
         },
         {
             "word": "農村",
             "read": "のうそん",
-            "mean": "농촌"
+            "mean": "농촌",
+            "tags": []
         },
         {
             "word": "農民",
             "read": "のうみん",
-            "mean": "농민"
+            "mean": "농민",
+            "tags": []
         },
         {
             "word": "能力",
             "read": "のうりょく",
-            "mean": "능력"
+            "mean": "능력",
+            "tags": []
         },
         {
             "word": "残り",
             "read": "のこり",
-            "mean": "나머지"
+            "mean": "나머지",
+            "tags": []
         },
         {
             "word": "上り",
             "read": "のぼり",
-            "mean": "오르막, 상행"
+            "mean": "오르막, 상행",
+            "tags": []
         },
         {
             "word": "飲み会",
             "read": "のみかい",
-            "mean": "술자리"
+            "mean": "술자리",
+            "tags": []
         },
         {
             "word": "海苔",
             "read": "のり",
-            "mean": "김"
+            "mean": "김",
+            "tags": []
         },
         {
             "word": "乗り越し",
             "read": "のりこし",
-            "mean": "목적지보다 더 감, 무임승차(구간초과)"
+            "mean": "목적지보다 더 감, 무임승차(구간초과)",
+            "tags": []
         },
         {
             "word": "歯",
             "read": "は",
-            "mean": "이, 치아"
+            "mean": "이, 치아",
+            "tags": []
         },
         {
             "word": "倍",
             "read": "ばい",
-            "mean": "배, 곱절"
+            "mean": "배, 곱절",
+            "tags": []
         },
         {
             "word": "灰色",
             "read": "はいいろ",
-            "mean": "회색"
+            "mean": "회색",
+            "tags": []
         },
         {
             "word": "梅雨",
             "read": "つゆ",
-            "mean": "장마"
+            "mean": "장마",
+            "tags": []
         },
         {
             "word": "配達",
             "read": "はいたつ",
-            "mean": "배달"
+            "mean": "배달",
+            "tags": []
         },
         {
             "word": "売店",
             "read": "ばいてん",
-            "mean": "매점"
+            "mean": "매점",
+            "tags": []
         },
         {
             "word": "売買",
             "read": "ばいばい",
-            "mean": "매매"
+            "mean": "매매",
+            "tags": []
         },
         {
             "word": "拍手",
             "read": "はくしゅ",
-            "mean": "박수"
+            "mean": "박수",
+            "tags": []
         },
         {
             "word": "博物館",
             "read": "はくぶつかん",
-            "mean": "박물관"
+            "mean": "박물관",
+            "tags": []
         },
         {
             "word": "箸",
             "read": "はし",
-            "mean": "젓가락"
+            "mean": "젓가락",
+            "tags": []
         },
         {
             "word": "柱",
             "read": "はしら",
-            "mean": "기둥"
+            "mean": "기둥",
+            "tags": []
         },
         {
             "word": "バス停",
             "read": "バスてい",
-            "mean": "버스 정류장"
+            "mean": "버스 정류장",
+            "tags": []
         },
         {
             "word": "畑",
             "read": "はたけ",
-            "mean": "밭"
+            "mean": "밭",
+            "tags": []
         },
         {
             "word": "働き",
             "read": "はたらき",
-            "mean": "일, 작용, 기능"
+            "mean": "일, 작용, 기능",
+            "tags": []
         },
         {
             "word": "働き者",
             "read": "はたらきもの",
-            "mean": "일꾼, 부지런한 사람"
+            "mean": "일꾼, 부지런한 사람",
+            "tags": []
         },
         {
             "word": "発見",
             "read": "はっけん",
-            "mean": "발견"
+            "mean": "발견",
+            "tags": []
         },
         {
             "word": "発言",
             "read": "はつげん",
-            "mean": "발언"
+            "mean": "발언",
+            "tags": []
         },
         {
             "word": "発車",
             "read": "はっしゃ",
-            "mean": "발차, 출발"
+            "mean": "발차, 출발",
+            "tags": []
         },
         {
             "word": "発生",
             "read": "はっせい",
-            "mean": "발생"
+            "mean": "발생",
+            "tags": []
         },
         {
             "word": "発想",
             "read": "はっそう",
-            "mean": "발상"
+            "mean": "발상",
+            "tags": []
         },
         {
             "word": "発達",
             "read": "はったつ",
-            "mean": "발달"
+            "mean": "발달",
+            "tags": []
         },
         {
             "word": "発展",
             "read": "はってん",
-            "mean": "발전"
+            "mean": "발전",
+            "tags": []
         },
         {
             "word": "発電",
             "read": "はつでん",
-            "mean": "발전(전기)"
+            "mean": "발전(전기)",
+            "tags": []
         },
         {
             "word": "発売",
             "read": "はつばい",
-            "mean": "발매"
+            "mean": "발매",
+            "tags": []
         },
         {
             "word": "発表",
             "read": "はっぴょう",
-            "mean": "발표"
+            "mean": "발표",
+            "tags": []
         },
         {
             "word": "発明",
             "read": "はつめい",
-            "mean": "발명"
+            "mean": "발명",
+            "tags": []
         },
         {
             "word": "話し合い",
             "read": "はなしあい",
-            "mean": "의논, 상의"
+            "mean": "의논, 상의",
+            "tags": []
         },
         {
             "word": "話し中",
             "read": "はなしちゅう",
-            "mean": "통화 중"
+            "mean": "통화 중",
+            "tags": []
         },
         {
             "word": "花火",
             "read": "はなび",
-            "mean": "불꽃놀이"
+            "mean": "불꽃놀이",
+            "tags": []
         },
         {
             "word": "鼻水",
             "read": "はなみず",
-            "mean": "콧물"
+            "mean": "콧물",
+            "tags": []
         },
         {
             "word": "幅",
             "read": "はば",
-            "mean": "폭, 너비"
+            "mean": "폭, 너비",
+            "tags": []
         },
         {
             "word": "母親",
             "read": "ははおや",
-            "mean": "모친, 어머니"
+            "mean": "모친, 어머니",
+            "tags": []
         },
         {
             "word": "歯磨き",
             "read": "はみがき",
-            "mean": "양치질"
+            "mean": "양치질",
+            "tags": []
         },
         {
             "word": "場面",
             "read": "ばめん",
-            "mean": "장면"
+            "mean": "장면",
+            "tags": []
         },
         {
             "word": "早口",
             "read": "はやくち",
-            "mean": "말이 빠름"
+            "mean": "말이 빠름",
+            "tags": []
         },
         {
             "word": "速さ",
             "read": "はやさ",
-            "mean": "빠르기, 속도"
+            "mean": "빠르기, 속도",
+            "tags": []
         },
         {
             "word": "早寝早起き",
             "read": "はやねはやおき",
-            "mean": "일찍 자고 일찍 일어남"
+            "mean": "일찍 자고 일찍 일어남",
+            "tags": []
         },
         {
             "word": "針",
             "read": "はり",
-            "mean": "바늘"
+            "mean": "바늘",
+            "tags": []
         },
         {
             "word": "番",
             "read": "ばん",
-            "mean": "차례, 번"
+            "mean": "차례, 번",
+            "tags": []
         },
         {
             "word": "範囲",
             "read": "はんい",
-            "mean": "범위"
+            "mean": "범위",
+            "tags": []
         },
         {
             "word": "反省",
             "read": "はんせい",
-            "mean": "반성"
+            "mean": "반성",
+            "tags": []
         },
         {
             "word": "半年",
             "read": "はんとし",
-            "mean": "반년"
+            "mean": "반년",
+            "tags": []
         }
     ],
     "quiz": []

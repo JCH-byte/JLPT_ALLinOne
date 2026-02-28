@@ -175,212 +175,254 @@
         {
             "word": "中学校",
             "read": "ちゅうがっこう",
-            "mean": "중학교"
+            "mean": "중학교",
+            "tags": []
         },
         {
             "word": "中国",
             "read": "ちゅうごく",
-            "mean": "중국"
+            "mean": "중국",
+            "tags": []
         },
         {
             "word": "中止",
             "read": "ちゅうし",
-            "mean": "중지"
+            "mean": "중지",
+            "tags": []
         },
         {
             "word": "駐車",
             "read": "ちゅうしゃ",
-            "mean": "주차"
+            "mean": "주차",
+            "tags": []
         },
         {
             "word": "駐車場",
             "read": "ちゅうしゃじょう",
-            "mean": "주차장"
+            "mean": "주차장",
+            "tags": []
         },
         {
             "word": "貯金",
             "read": "ちょきん",
-            "mean": "저금"
+            "mean": "저금",
+            "tags": []
         },
         {
             "word": "地理",
             "read": "ちり",
-            "mean": "지리"
+            "mean": "지리",
+            "tags": []
         },
         {
             "word": "月",
             "read": "つき",
-            "mean": "달"
+            "mean": "달",
+            "tags": []
         },
         {
             "word": "都合",
             "read": "つごう",
-            "mean": "사정, 형편"
+            "mean": "사정, 형편",
+            "tags": []
         },
         {
             "word": "妻",
             "read": "つま",
-            "mean": "아내"
+            "mean": "아내",
+            "tags": []
         },
         {
             "word": "爪",
             "read": "つめ",
-            "mean": "손톱, 발톱"
+            "mean": "손톱, 발톱",
+            "tags": []
         },
         {
             "word": "つもり",
             "read": "つもり",
-            "mean": "생각, 작정"
+            "mean": "생각, 작정",
+            "tags": []
         },
         {
             "word": "梅雨",
             "read": "つゆ",
-            "mean": "장마"
+            "mean": "장마",
+            "tags": []
         },
         {
             "word": "出入口",
             "read": "でいりぐち",
-            "mean": "출입구"
+            "mean": "출입구",
+            "tags": []
         },
         {
             "word": "手袋",
             "read": "てぶくろ",
-            "mean": "장갑"
+            "mean": "장갑",
+            "tags": []
         },
         {
             "word": "手前",
             "read": "てまえ",
-            "mean": "앞, 자기 앞"
+            "mean": "앞, 자기 앞",
+            "tags": []
         },
         {
             "word": "寺",
             "read": "てら",
-            "mean": "절"
+            "mean": "절",
+            "tags": []
         },
         {
             "word": "点",
             "read": "てん",
-            "mean": "점, 점수"
+            "mean": "점, 점수",
+            "tags": []
         },
         {
             "word": "店員",
             "read": "てんいん",
-            "mean": "점원"
+            "mean": "점원",
+            "tags": []
         },
         {
             "word": "電気代",
             "read": "でんきだい",
-            "mean": "전기세"
+            "mean": "전기세",
+            "tags": []
         },
         {
             "word": "天気予報",
             "read": "てんきよほう",
-            "mean": "일기 예보"
+            "mean": "일기 예보",
+            "tags": []
         },
         {
             "word": "電灯",
             "read": "でんとう",
-            "mean": "전등"
+            "mean": "전등",
+            "tags": []
         },
         {
             "word": "天ぷら",
             "read": "てんぷら",
-            "mean": "튀김"
+            "mean": "튀김",
+            "tags": []
         },
         {
             "word": "電報",
             "read": "でんぽう",
-            "mean": "전보"
+            "mean": "전보",
+            "tags": []
         },
         {
             "word": "展覧会",
             "read": "てんらんかい",
-            "mean": "전람회, 전시회"
+            "mean": "전람회, 전시회",
+            "tags": []
         },
         {
             "word": "都",
             "read": "と",
-            "mean": "도 (행정구역)"
+            "mean": "도 (행정구역)",
+            "tags": []
         },
         {
             "word": "道具",
             "read": "どうぐ",
-            "mean": "도구"
+            "mean": "도구",
+            "tags": []
         },
         {
             "word": "動物園",
             "read": "どうぶつえん",
-            "mean": "동물원"
+            "mean": "동물원",
+            "tags": []
         },
         {
             "word": "遠く",
             "read": "とおく",
-            "mean": "먼 곳"
+            "mean": "먼 곳",
+            "tags": []
         },
         {
             "word": "通り",
             "read": "とおり",
-            "mean": "거리, 길"
+            "mean": "거리, 길",
+            "tags": []
         },
         {
             "word": "都会",
             "read": "とかい",
-            "mean": "도시"
+            "mean": "도시",
+            "tags": []
         },
         {
             "word": "時",
             "read": "とき",
-            "mean": "때, 시간"
+            "mean": "때, 시간",
+            "tags": []
         },
         {
             "word": "床屋",
             "read": "とこや",
-            "mean": "이발소"
+            "mean": "이발소",
+            "tags": []
         },
         {
             "word": "途中",
             "read": "とちゅう",
-            "mean": "도중"
+            "mean": "도중",
+            "tags": []
         },
         {
             "word": "特急",
             "read": "とっきゅう",
-            "mean": "특급"
+            "mean": "특급",
+            "tags": []
         },
         {
             "word": "隣",
             "read": "となり",
-            "mean": "옆, 이웃"
+            "mean": "옆, 이웃",
+            "tags": []
         },
         {
             "word": "泥棒",
             "read": "どろぼう",
-            "mean": "도둑"
+            "mean": "도둑",
+            "tags": []
         },
         {
             "word": "内部",
             "read": "ないぶ",
-            "mean": "내부"
+            "mean": "내부",
+            "tags": []
         },
         {
             "word": "生ビール",
             "read": "なまびーる",
-            "mean": "생맥주"
+            "mean": "생맥주",
+            "tags": []
         },
         {
             "word": "何度",
             "read": "なんど",
-            "mean": "몇 번, 몇 도"
+            "mean": "몇 번, 몇 도",
+            "tags": []
         },
         {
             "word": "におい",
             "read": "におい",
-            "mean": "냄새"
+            "mean": "냄새",
+            "tags": []
         },
         {
             "word": "肉屋",
             "read": "にくや",
-            "mean": "정육점"
+            "mean": "정육점",
+            "tags": []
         }
     ],
     "quiz": [

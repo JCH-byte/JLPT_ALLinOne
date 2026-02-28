@@ -125,172 +125,206 @@
         {
             "word": "大学",
             "read": "だいがく",
-            "mean": "대학교"
+            "mean": "대학교",
+            "tags": []
         },
         {
             "word": "台所",
             "read": "だいどころ",
-            "mean": "부엌"
+            "mean": "부엌",
+            "tags": []
         },
         {
             "word": "建物",
             "read": "たてもの",
-            "mean": "건물"
+            "mean": "건물",
+            "tags": []
         },
         {
             "word": "たばこ",
             "read": "たばこ",
-            "mean": "담배"
+            "mean": "담배",
+            "tags": []
         },
         {
             "word": "食べ物",
             "read": "たべもの",
-            "mean": "음식"
+            "mean": "음식",
+            "tags": []
         },
         {
             "word": "たまご",
             "read": "たまご",
-            "mean": "달걀"
+            "mean": "달걀",
+            "tags": []
         },
         {
             "word": "だれ",
             "read": "だれ",
-            "mean": "누구"
+            "mean": "누구",
+            "tags": []
         },
         {
             "word": "誕生日",
             "read": "たんじょうび",
-            "mean": "생일"
+            "mean": "생일",
+            "tags": []
         },
         {
             "word": "地下鉄",
             "read": "ちかてつ",
-            "mean": "지하철"
+            "mean": "지하철",
+            "tags": []
         },
         {
             "word": "地図",
             "read": "ちず",
-            "mean": "지도"
+            "mean": "지도",
+            "tags": []
         },
         {
             "word": "父",
             "read": "ちち",
-            "mean": "아버지"
+            "mean": "아버지",
+            "tags": []
         },
         {
             "word": "次",
             "read": "つぎ",
-            "mean": "다음"
+            "mean": "다음",
+            "tags": []
         },
         {
             "word": "つくえ",
             "read": "つくえ",
-            "mean": "책상"
+            "mean": "책상",
+            "tags": []
         },
         {
             "word": "作り方",
             "read": "つくりかた",
-            "mean": "만드는 법"
+            "mean": "만드는 법",
+            "tags": []
         },
         {
             "word": "手",
             "read": "て",
-            "mean": "손"
+            "mean": "손",
+            "tags": []
         },
         {
             "word": "手紙",
             "read": "てがみ",
-            "mean": "편지"
+            "mean": "편지",
+            "tags": []
         },
         {
             "word": "出口",
             "read": "でぐち",
-            "mean": "출구"
+            "mean": "출구",
+            "tags": []
         },
         {
             "word": "天気",
             "read": "てんき",
-            "mean": "날씨"
+            "mean": "날씨",
+            "tags": []
         },
         {
             "word": "電気",
             "read": "でんき",
-            "mean": "전기"
+            "mean": "전기",
+            "tags": []
         },
         {
             "word": "電車",
             "read": "でんしゃ",
-            "mean": "전철"
+            "mean": "전철",
+            "tags": []
         },
         {
             "word": "電話",
             "read": "でんわ",
-            "mean": "전화"
+            "mean": "전화",
+            "tags": []
         },
         {
             "word": "動物",
             "read": "どうぶつ",
-            "mean": "동물"
+            "mean": "동물",
+            "tags": []
         },
         {
             "word": "時計",
             "read": "とけい",
-            "mean": "시계"
+            "mean": "시계",
+            "tags": []
         },
         {
             "word": "どこ",
             "read": "どこ",
-            "mean": "어디"
+            "mean": "어디",
+            "tags": []
         },
         {
             "word": "ところ",
             "read": "ところ",
-            "mean": "곳/장소"
+            "mean": "곳/장소",
+            "tags": []
         },
         {
             "word": "年",
             "read": "とし",
-            "mean": "나이/해"
+            "mean": "나이/해",
+            "tags": []
         },
         {
             "word": "図書館",
             "read": "としょかん",
-            "mean": "도서관"
+            "mean": "도서관",
+            "tags": []
         },
         {
             "word": "どちら",
             "read": "どちら",
-            "mean": "어느 쪽"
+            "mean": "어느 쪽",
+            "tags": []
         },
         {
             "word": "どなた",
             "read": "どなた",
-            "mean": "누구(존경어)"
+            "mean": "누구(존경어)",
+            "tags": []
         },
         {
             "word": "となり",
             "read": "となり",
-            "mean": "옆/이웃"
+            "mean": "옆/이웃",
+            "tags": []
         },
         {
             "word": "友だち",
             "read": "ともだち",
-            "mean": "친구"
+            "mean": "친구",
+            "tags": []
         },
         {
             "word": "鳥",
             "read": "とり",
-            "mean": "새"
+            "mean": "새",
+            "tags": []
         },
         {
             "word": "鶏肉",
             "read": "とりにく",
-            "mean": "닭고기"
+            "mean": "닭고기",
+            "tags": []
         },
         {
             "word": "どれ",
             "read": "どれ",
-            "mean": "어느 것"
+            "mean": "어느 것",
+            "tags": []
         }
     ],
     "quiz": [

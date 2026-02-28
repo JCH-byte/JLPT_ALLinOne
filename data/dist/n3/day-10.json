@@ -6,347 +6,416 @@
         {
             "word": "旅",
             "read": "たび",
-            "mean": "여행"
+            "mean": "여행",
+            "tags": []
         },
         {
             "word": "短期",
             "read": "たんき",
-            "mean": "단기"
+            "mean": "단기",
+            "tags": []
         },
         {
             "word": "単語",
             "read": "たんご",
-            "mean": "단어"
+            "mean": "단어",
+            "tags": []
         },
         {
             "word": "男子",
             "read": "だんし",
-            "mean": "남자"
+            "mean": "남자",
+            "tags": []
         },
         {
             "word": "誕生",
             "read": "たんじょう",
-            "mean": "탄생"
+            "mean": "탄생",
+            "tags": []
         },
         {
             "word": "断水",
             "read": "だんすい",
-            "mean": "단수"
+            "mean": "단수",
+            "tags": []
         },
         {
             "word": "団体",
             "read": "だんたい",
-            "mean": "단체"
+            "mean": "단체",
+            "tags": []
         },
         {
             "word": "担当",
             "read": "たんとう",
-            "mean": "담당"
+            "mean": "담당",
+            "tags": []
         },
         {
             "word": "暖房",
             "read": "だんぼう",
-            "mean": "난방"
+            "mean": "난방",
+            "tags": []
         },
         {
             "word": "地下",
             "read": "ちか",
-            "mean": "지하"
+            "mean": "지하",
+            "tags": []
         },
         {
             "word": "違い",
             "read": "ちがい",
-            "mean": "다름, 틀림"
+            "mean": "다름, 틀림",
+            "tags": []
         },
         {
             "word": "地下水",
             "read": "ちかすい",
-            "mean": "지하수"
+            "mean": "지하수",
+            "tags": []
         },
         {
             "word": "近道",
             "read": "ちかみち",
-            "mean": "지름길"
+            "mean": "지름길",
+            "tags": []
         },
         {
             "word": "地球",
             "read": "ちきゅう",
-            "mean": "지구"
+            "mean": "지구",
+            "tags": []
         },
         {
             "word": "知識",
             "read": "ちしき",
-            "mean": "지식"
+            "mean": "지식",
+            "tags": []
         },
         {
             "word": "知人",
             "read": "ちじん",
-            "mean": "지인"
+            "mean": "지인",
+            "tags": []
         },
         {
             "word": "地方",
             "read": "ちほう",
-            "mean": "지방"
+            "mean": "지방",
+            "tags": []
         },
         {
             "word": "地名",
             "read": "ちめい",
-            "mean": "지명"
+            "mean": "지명",
+            "tags": []
         },
         {
             "word": "中央",
             "read": "ちゅうおう",
-            "mean": "중앙"
+            "mean": "중앙",
+            "tags": []
         },
         {
             "word": "中学",
             "read": "ちゅうがく",
-            "mean": "중학"
+            "mean": "중학",
+            "tags": []
         },
         {
             "word": "中間",
             "read": "ちゅうかん",
-            "mean": "중간"
+            "mean": "중간",
+            "tags": []
         },
         {
             "word": "中級",
             "read": "ちゅうきゅう",
-            "mean": "중급"
+            "mean": "중급",
+            "tags": []
         },
         {
             "word": "中古",
             "read": "ちゅうこ",
-            "mean": "중고"
+            "mean": "중고",
+            "tags": []
         },
         {
             "word": "注射",
             "read": "ちゅうしゃ",
-            "mean": "주사"
+            "mean": "주사",
+            "tags": []
         },
         {
             "word": "中旬",
             "read": "ちゅうじゅん",
-            "mean": "중순"
+            "mean": "중순",
+            "tags": []
         },
         {
             "word": "昼食",
             "read": "ちゅうしょく",
-            "mean": "중식, 점심"
+            "mean": "중식, 점심",
+            "tags": []
         },
         {
             "word": "中心",
             "read": "ちゅうしん",
-            "mean": "중심"
+            "mean": "중심",
+            "tags": []
         },
         {
             "word": "中年",
             "read": "ちゅうねん",
-            "mean": "중년"
+            "mean": "중년",
+            "tags": []
         },
         {
             "word": "注目",
             "read": "ちゅうもく",
-            "mean": "주목"
+            "mean": "주목",
+            "tags": []
         },
         {
             "word": "注文",
             "read": "ちゅうもん",
-            "mean": "주문"
+            "mean": "주문",
+            "tags": []
         },
         {
             "word": "超過",
             "read": "ちょうか",
-            "mean": "초과"
+            "mean": "초과",
+            "tags": []
         },
         {
             "word": "朝刊",
             "read": "ちょうかん",
-            "mean": "조간(신문)"
+            "mean": "조간(신문)",
+            "tags": []
         },
         {
             "word": "調査",
             "read": "ちょうさ",
-            "mean": "조사"
+            "mean": "조사",
+            "tags": []
         },
         {
             "word": "調子",
             "read": "ちょうし",
-            "mean": "상태, 가락"
+            "mean": "상태, 가락",
+            "tags": []
         },
         {
             "word": "長所",
             "read": "ちょうしょ",
-            "mean": "장점"
+            "mean": "장점",
+            "tags": []
         },
         {
             "word": "長女",
             "read": "ちょうじょ",
-            "mean": "장녀"
+            "mean": "장녀",
+            "tags": []
         },
         {
             "word": "朝食",
             "read": "ちょうしょく",
-            "mean": "조식, 아침식사"
+            "mean": "조식, 아침식사",
+            "tags": []
         },
         {
             "word": "調整",
             "read": "ちょうせい",
-            "mean": "조정"
+            "mean": "조정",
+            "tags": []
         },
         {
             "word": "長男",
             "read": "ちょうなん",
-            "mean": "장남"
+            "mean": "장남",
+            "tags": []
         },
         {
             "word": "調味料",
             "read": "ちょうみりょう",
-            "mean": "조미료"
+            "mean": "조미료",
+            "tags": []
         },
         {
             "word": "直後",
             "read": "ちょくご",
-            "mean": "직후"
+            "mean": "직후",
+            "tags": []
         },
         {
             "word": "直接",
             "read": "ちょくせつ",
-            "mean": "직접"
+            "mean": "직접",
+            "tags": []
         },
         {
             "word": "直線",
             "read": "ちょくせん",
-            "mean": "직선"
+            "mean": "직선",
+            "tags": []
         },
         {
             "word": "直前",
             "read": "ちょくぜん",
-            "mean": "직전"
+            "mean": "직전",
+            "tags": []
         },
         {
             "word": "直通",
             "read": "ちょくつう",
-            "mean": "직통"
+            "mean": "직통",
+            "tags": []
         },
         {
             "word": "通過",
             "read": "つうか",
-            "mean": "통과"
+            "mean": "통과",
+            "tags": []
         },
         {
             "word": "通勤",
             "read": "つうきん",
-            "mean": "통근"
+            "mean": "통근",
+            "tags": []
         },
         {
             "word": "通行",
             "read": "つうこう",
-            "mean": "통행"
+            "mean": "통행",
+            "tags": []
         },
         {
             "word": "通信",
             "read": "つうしん",
-            "mean": "통신"
+            "mean": "통신",
+            "tags": []
         },
         {
             "word": "通知",
             "read": "つうち",
-            "mean": "통지"
+            "mean": "통지",
+            "tags": []
         },
         {
             "word": "通帳",
             "read": "つうちょう",
-            "mean": "통장"
+            "mean": "통장",
+            "tags": []
         },
         {
             "word": "通訳",
             "read": "つうやく",
-            "mean": "통역"
+            "mean": "통역",
+            "tags": []
         },
         {
             "word": "疲れ",
             "read": "つかれ",
-            "mean": "피로"
+            "mean": "피로",
+            "tags": []
         },
         {
             "word": "月日",
             "read": "つきひ",
-            "mean": "월일, 세월"
+            "mean": "월일, 세월",
+            "tags": []
         },
         {
             "word": "土",
             "read": "つち",
-            "mean": "흙"
+            "mean": "흙",
+            "tags": []
         },
         {
             "word": "続き",
             "read": "つづき",
-            "mean": "계속, 이어짐"
+            "mean": "계속, 이어짐",
+            "tags": []
         },
         {
             "word": "包み",
             "read": "つつみ",
-            "mean": "포장, 꾸러미"
+            "mean": "포장, 꾸러미",
+            "tags": []
         },
         {
             "word": "出会い",
             "read": "であい",
-            "mean": "만남"
+            "mean": "만남",
+            "tags": []
         },
         {
             "word": "提案",
             "read": "ていあん",
-            "mean": "제안"
+            "mean": "제안",
+            "tags": []
         },
         {
             "word": "定員",
             "read": "ていいん",
-            "mean": "정원(인원수)"
+            "mean": "정원(인원수)",
+            "tags": []
         },
         {
             "word": "低下",
             "read": "ていか",
-            "mean": "저하"
+            "mean": "저하",
+            "tags": []
         },
         {
             "word": "定期",
             "read": "ていき",
-            "mean": "정기"
+            "mean": "정기",
+            "tags": []
         },
         {
             "word": "定期券",
             "read": "ていきけん",
-            "mean": "정기권"
+            "mean": "정기권",
+            "tags": []
         },
         {
             "word": "停車",
             "read": "ていしゃ",
-            "mean": "정차"
+            "mean": "정차",
+            "tags": []
         },
         {
             "word": "提出",
             "read": "ていしゅつ",
-            "mean": "제출"
+            "mean": "제출",
+            "tags": []
         },
         {
             "word": "停電",
             "read": "ていでん",
-            "mean": "정전"
+            "mean": "정전",
+            "tags": []
         },
         {
             "word": "出入り",
             "read": "でいり",
-            "mean": "출입"
+            "mean": "출입",
+            "tags": []
         },
         {
             "word": "出来事",
             "read": "できごと",
-            "mean": "사건, 일"
+            "mean": "사건, 일",
+            "tags": []
         },
         {
             "word": "手首",
             "read": "てくび",
-            "mean": "손목"
+            "mean": "손목",
+            "tags": []
         }
     ],
     "quiz": []

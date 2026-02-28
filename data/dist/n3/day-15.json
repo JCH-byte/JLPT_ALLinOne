@@ -6,347 +6,416 @@
         {
             "word": "名人",
             "read": "めいじん",
-            "mean": "명인"
+            "mean": "명인",
+            "tags": []
         },
         {
             "word": "命令",
             "read": "めいれい",
-            "mean": "명령"
+            "mean": "명령",
+            "tags": []
         },
         {
             "word": "迷惑",
             "read": "めいわく",
-            "mean": "민폐"
+            "mean": "민폐",
+            "tags": []
         },
         {
             "word": "目上",
             "read": "めうえ",
-            "mean": "윗사람"
+            "mean": "윗사람",
+            "tags": []
         },
         {
             "word": "目覚まし",
             "read": "めざまし",
-            "mean": "자명종, 잠을 깸"
+            "mean": "자명종, 잠을 깸",
+            "tags": []
         },
         {
             "word": "飯",
             "read": "めし",
-            "mean": "밥"
+            "mean": "밥",
+            "tags": []
         },
         {
             "word": "目下",
             "read": "めした",
-            "mean": "아랫사람"
+            "mean": "아랫사람",
+            "tags": []
         },
         {
             "word": "めまい",
             "read": "めまい",
-            "mean": "현기증"
+            "mean": "현기증",
+            "tags": []
         },
         {
             "word": "面会",
             "read": "めんかい",
-            "mean": "면회"
+            "mean": "면회",
+            "tags": []
         },
         {
             "word": "免許",
             "read": "めんきょ",
-            "mean": "면허"
+            "mean": "면허",
+            "tags": []
         },
         {
             "word": "免税",
             "read": "めんぜい",
-            "mean": "면세"
+            "mean": "면세",
+            "tags": []
         },
         {
             "word": "面接",
             "read": "めんせつ",
-            "mean": "면접"
+            "mean": "면접",
+            "tags": []
         },
         {
             "word": "申し込み",
             "read": "もうしこみ",
-            "mean": "신청"
+            "mean": "신청",
+            "tags": []
         },
         {
             "word": "申込者",
             "read": "もうしこみしゃ",
-            "mean": "신청자"
+            "mean": "신청자",
+            "tags": []
         },
         {
             "word": "申込書",
             "read": "もうしこみしょ",
-            "mean": "신청서"
+            "mean": "신청서",
+            "tags": []
         },
         {
             "word": "毛布",
             "read": "もうふ",
-            "mean": "담요"
+            "mean": "담요",
+            "tags": []
         },
         {
             "word": "目的",
             "read": "もくてき",
-            "mean": "목적"
+            "mean": "목적",
+            "tags": []
         },
         {
             "word": "目標",
             "read": "もくひょう",
-            "mean": "목표"
+            "mean": "목표",
+            "tags": []
         },
         {
             "word": "文字",
             "read": "もじ",
-            "mean": "문자"
+            "mean": "문자",
+            "tags": []
         },
         {
             "word": "者",
             "read": "もの",
-            "mean": "자, 사람"
+            "mean": "자, 사람",
+            "tags": []
         },
         {
             "word": "物置",
             "read": "ものおき",
-            "mean": "창고"
+            "mean": "창고",
+            "tags": []
         },
         {
             "word": "物語",
             "read": "ものがたり",
-            "mean": "이야기"
+            "mean": "이야기",
+            "tags": []
         },
         {
             "word": "物忘れ",
             "read": "ものわすれ",
-            "mean": "건망증"
+            "mean": "건망증",
+            "tags": []
         },
         {
             "word": "模様",
             "read": "もよう",
-            "mean": "모양, 무늬"
+            "mean": "모양, 무늬",
+            "tags": []
         },
         {
             "word": "文句",
             "read": "もんく",
-            "mean": "불평, 문구"
+            "mean": "불평, 문구",
+            "tags": []
         },
         {
             "word": "野球",
             "read": "やきゅう",
-            "mean": "야구"
+            "mean": "야구",
+            "tags": []
         },
         {
             "word": "火傷",
             "read": "やけど",
-            "mean": "화상"
+            "mean": "화상",
+            "tags": []
         },
         {
             "word": "家賃",
             "read": "やちん",
-            "mean": "집세"
+            "mean": "집세",
+            "tags": []
         },
         {
             "word": "薬局",
             "read": "やっきょく",
-            "mean": "약국"
+            "mean": "약국",
+            "tags": []
         },
         {
             "word": "やり方",
             "read": "やりかた",
-            "mean": "하는 방식"
+            "mean": "하는 방식",
+            "tags": []
         },
         {
             "word": "やる気",
             "read": "やるき",
-            "mean": "의욕"
+            "mean": "의욕",
+            "tags": []
         },
         {
             "word": "勇気",
             "read": "ゆうき",
-            "mean": "용기"
+            "mean": "용기",
+            "tags": []
         },
         {
             "word": "友情",
             "read": "ゆうじょう",
-            "mean": "우정"
+            "mean": "우정",
+            "tags": []
         },
         {
             "word": "友人",
             "read": "ゆうじん",
-            "mean": "친구"
+            "mean": "친구",
+            "tags": []
         },
         {
             "word": "郵送",
             "read": "ゆうそう",
-            "mean": "우송"
+            "mean": "우송",
+            "tags": []
         },
         {
             "word": "郵送料",
             "read": "ゆうそうりょう",
-            "mean": "우송료"
+            "mean": "우송료",
+            "tags": []
         },
         {
             "word": "夕立",
             "read": "ゆうだち",
-            "mean": "소나기"
+            "mean": "소나기",
+            "tags": []
         },
         {
             "word": "夕日",
             "read": "ゆうひ",
-            "mean": "석양"
+            "mean": "석양",
+            "tags": []
         },
         {
             "word": "郵便",
             "read": "ゆうびん",
-            "mean": "우편"
+            "mean": "우편",
+            "tags": []
         },
         {
             "word": "夕焼け",
             "read": "ゆうやけ",
-            "mean": "저녁놀"
+            "mean": "저녁놀",
+            "tags": []
         },
         {
             "word": "有料",
             "read": "ゆうりょう",
-            "mean": "유료"
+            "mean": "유료",
+            "tags": []
         },
         {
             "word": "床",
             "read": "ゆか",
-            "mean": "바닥, 마루"
+            "mean": "바닥, 마루",
+            "tags": []
         },
         {
             "word": "行き先",
             "read": "いきさき",
-            "mean": "행선지"
+            "mean": "행선지",
+            "tags": []
         },
         {
             "word": "輸出",
             "read": "ゆしゅつ",
-            "mean": "수출"
+            "mean": "수출",
+            "tags": []
         },
         {
             "word": "輸入",
             "read": "ゆにゅう",
-            "mean": "수입"
+            "mean": "수입",
+            "tags": []
         },
         {
             "word": "夜明け",
             "read": "よあけ",
-            "mean": "새벽"
+            "mean": "새벽",
+            "tags": []
         },
         {
             "word": "容器",
             "read": "ようき",
-            "mean": "용기, 그릇"
+            "mean": "용기, 그릇",
+            "tags": []
         },
         {
             "word": "要求",
             "read": "ようきゅう",
-            "mean": "요구"
+            "mean": "요구",
+            "tags": []
         },
         {
             "word": "用件",
             "read": "ようけん",
-            "mean": "용건"
+            "mean": "용건",
+            "tags": []
         },
         {
             "word": "幼児",
             "read": "ようじ",
-            "mean": "유아"
+            "mean": "유아",
+            "tags": []
         },
         {
             "word": "幼稚園",
             "read": "ようちえん",
-            "mean": "유치원"
+            "mean": "유치원",
+            "tags": []
         },
         {
             "word": "用途",
             "read": "ようと",
-            "mean": "용도"
+            "mean": "용도",
+            "tags": []
         },
         {
             "word": "翌朝",
             "read": "よくあさ",
-            "mean": "이튿날 아침"
+            "mean": "이튿날 아침",
+            "tags": []
         },
         {
             "word": "翌日",
             "read": "よくじつ",
-            "mean": "이튿날"
+            "mean": "이튿날",
+            "tags": []
         },
         {
             "word": "翌週",
             "read": "よくしゅう",
-            "mean": "다음 주"
+            "mean": "다음 주",
+            "tags": []
         },
         {
             "word": "欲張り",
             "read": "よくばり",
-            "mean": "욕심쟁이"
+            "mean": "욕심쟁이",
+            "tags": []
         },
         {
             "word": "予算",
             "read": "よさん",
-            "mean": "예산"
+            "mean": "예산",
+            "tags": []
         },
         {
             "word": "予想",
             "read": "よそう",
-            "mean": "예상"
+            "mean": "예상",
+            "tags": []
         },
         {
             "word": "夜空",
             "read": "よぞら",
-            "mean": "밤하늘"
+            "mean": "밤하늘",
+            "tags": []
         },
         {
             "word": "四つ角",
             "read": "よつかど",
-            "mean": "네거리"
+            "mean": "네거리",
+            "tags": []
         },
         {
             "word": "夜中",
             "read": "よなか",
-            "mean": "밤중"
+            "mean": "밤중",
+            "tags": []
         },
         {
             "word": "予報",
             "read": "よほう",
-            "mean": "예보"
+            "mean": "예보",
+            "tags": []
         },
         {
             "word": "予防",
             "read": "よぼう",
-            "mean": "예방"
+            "mean": "예방",
+            "tags": []
         },
         {
             "word": "喜び",
             "read": "よろこび",
-            "mean": "기쁨"
+            "mean": "기쁨",
+            "tags": []
         },
         {
             "word": "理科",
             "read": "りか",
-            "mean": "이과"
+            "mean": "이과",
+            "tags": []
         },
         {
             "word": "理解",
             "read": "りかい",
-            "mean": "이해"
+            "mean": "이해",
+            "tags": []
         },
         {
             "word": "離婚",
             "read": "りこん",
-            "mean": "이혼"
+            "mean": "이혼",
+            "tags": []
         },
         {
             "word": "理想",
             "read": "りそう",
-            "mean": "이상"
+            "mean": "이상",
+            "tags": []
         },
         {
             "word": "理由",
             "read": "りゆう",
-            "mean": "이유"
+            "mean": "이유",
+            "tags": []
         }
     ],
     "quiz": []

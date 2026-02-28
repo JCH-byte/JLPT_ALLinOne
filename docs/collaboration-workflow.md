@@ -55,3 +55,11 @@ PR 머지 순서는 반드시 아래 순서를 따릅니다.
 - `merge order stage`: `infra | schema | n5-migration | n4n3-authoring`
 
 충돌 가능 경로가 겹치면 리뷰어는 병합 전에 작업 범위를 재조정합니다.
+
+## 6) Day dist 파일 직접 수정 금지 (강제)
+
+- `data/dist/{level}/day-{n}.json`, `data/dist/{level}/index.json`은 **항상 생성물**입니다.
+- 운영/저작/이관 어떤 작업에서도 dist day 파일 수동 편집은 금지합니다.
+- 데이터 변경은 반드시 `data/src/{level}.items.json`(원천 item)에서 수행합니다.
+- 변경 후 `node scripts/build-data.js`로 dist를 재생성하고 `node scripts/validate-data-files.js` 검증을 통과해야 PR 제출이 가능합니다.
+

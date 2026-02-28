@@ -125,137 +125,164 @@
         {
             "word": "一日",
             "read": "ついたち",
-            "mean": "1일"
+            "mean": "1일",
+            "tags": []
         },
         {
             "word": "二日",
             "read": "ふつか",
-            "mean": "2일"
+            "mean": "2일",
+            "tags": []
         },
         {
             "word": "三日",
             "read": "みっか",
-            "mean": "3일"
+            "mean": "3일",
+            "tags": []
         },
         {
             "word": "四日",
             "read": "よっか",
-            "mean": "4일"
+            "mean": "4일",
+            "tags": []
         },
         {
             "word": "五日",
             "read": "いつか",
-            "mean": "5일"
+            "mean": "5일",
+            "tags": []
         },
         {
             "word": "六日",
             "read": "むいか",
-            "mean": "6일"
+            "mean": "6일",
+            "tags": []
         },
         {
             "word": "七日",
             "read": "なのか",
-            "mean": "7일"
+            "mean": "7일",
+            "tags": []
         },
         {
             "word": "八日",
             "read": "ようか",
-            "mean": "8일"
+            "mean": "8일",
+            "tags": []
         },
         {
             "word": "九日",
             "read": "ここのか",
-            "mean": "9일"
+            "mean": "9일",
+            "tags": []
         },
         {
             "word": "十日",
             "read": "とおか",
-            "mean": "10일"
+            "mean": "10일",
+            "tags": []
         },
         {
             "word": "十四日",
             "read": "じゅうよっか",
-            "mean": "14일"
+            "mean": "14일",
+            "tags": []
         },
         {
             "word": "二十日",
             "read": "はつか",
-            "mean": "20일"
+            "mean": "20일",
+            "tags": []
         },
         {
             "word": "二十四日",
             "read": "にじゅうよっか",
-            "mean": "24일"
+            "mean": "24일",
+            "tags": []
         },
         {
             "word": "何日",
             "read": "なんにち",
-            "mean": "며칠"
+            "mean": "며칠",
+            "tags": []
         },
         {
             "word": "一時",
             "read": "いちじ",
-            "mean": "1시"
+            "mean": "1시",
+            "tags": []
         },
         {
             "word": "二時",
             "read": "にじ",
-            "mean": "2시"
+            "mean": "2시",
+            "tags": []
         },
         {
             "word": "三時",
             "read": "さんじ",
-            "mean": "3시"
+            "mean": "3시",
+            "tags": []
         },
         {
             "word": "四時",
             "read": "よじ",
-            "mean": "4시"
+            "mean": "4시",
+            "tags": []
         },
         {
             "word": "五時",
             "read": "ごじ",
-            "mean": "5시"
+            "mean": "5시",
+            "tags": []
         },
         {
             "word": "六時",
             "read": "ろくじ",
-            "mean": "6시"
+            "mean": "6시",
+            "tags": []
         },
         {
             "word": "七時",
             "read": "しちじ",
-            "mean": "7시"
+            "mean": "7시",
+            "tags": []
         },
         {
             "word": "八時",
             "read": "はちじ",
-            "mean": "8시"
+            "mean": "8시",
+            "tags": []
         },
         {
             "word": "九時",
             "read": "くじ",
-            "mean": "9시"
+            "mean": "9시",
+            "tags": []
         },
         {
             "word": "十時",
             "read": "じゅうじ",
-            "mean": "10시"
+            "mean": "10시",
+            "tags": []
         },
         {
             "word": "十一時",
             "read": "じゅういちじ",
-            "mean": "11시"
+            "mean": "11시",
+            "tags": []
         },
         {
             "word": "十二時",
             "read": "じゅうにじ",
-            "mean": "12시"
+            "mean": "12시",
+            "tags": []
         },
         {
             "word": "何時",
             "read": "なんじ",
-            "mean": "몇 시"
+            "mean": "몇 시",
+            "tags": []
         }
     ],
     "quiz": [

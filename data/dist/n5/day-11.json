@@ -99,112 +99,134 @@
         {
             "word": "一つ",
             "read": "ひとつ",
-            "mean": "하나"
+            "mean": "하나",
+            "tags": []
         },
         {
             "word": "二つ",
             "read": "ふたつ",
-            "mean": "둘"
+            "mean": "둘",
+            "tags": []
         },
         {
             "word": "三つ",
             "read": "みっつ",
-            "mean": "셋"
+            "mean": "셋",
+            "tags": []
         },
         {
             "word": "四つ",
             "read": "よっつ",
-            "mean": "넷"
+            "mean": "넷",
+            "tags": []
         },
         {
             "word": "五つ",
             "read": "いつつ",
-            "mean": "다섯"
+            "mean": "다섯",
+            "tags": []
         },
         {
             "word": "六つ",
             "read": "むっつ",
-            "mean": "여섯"
+            "mean": "여섯",
+            "tags": []
         },
         {
             "word": "七つ",
             "read": "ななつ",
-            "mean": "일곱"
+            "mean": "일곱",
+            "tags": []
         },
         {
             "word": "八つ",
             "read": "やっつ",
-            "mean": "여덟"
+            "mean": "여덟",
+            "tags": []
         },
         {
             "word": "九つ",
             "read": "ここのつ",
-            "mean": "아홉"
+            "mean": "아홉",
+            "tags": []
         },
         {
             "word": "十",
             "read": "とお",
-            "mean": "열"
+            "mean": "열",
+            "tags": []
         },
         {
             "word": "いくつ",
             "read": "いくつ",
-            "mean": "몇 개"
+            "mean": "몇 개",
+            "tags": []
         },
         {
             "word": "一個",
             "read": "いっこ",
-            "mean": "한 개"
+            "mean": "한 개",
+            "tags": []
         },
         {
             "word": "二個",
             "read": "にこ",
-            "mean": "두 개"
+            "mean": "두 개",
+            "tags": []
         },
         {
             "word": "三個",
             "read": "さんこ",
-            "mean": "세 개"
+            "mean": "세 개",
+            "tags": []
         },
         {
             "word": "四個",
             "read": "よんこ",
-            "mean": "네 개"
+            "mean": "네 개",
+            "tags": []
         },
         {
             "word": "五個",
             "read": "ごこ",
-            "mean": "다섯 개"
+            "mean": "다섯 개",
+            "tags": []
         },
         {
             "word": "六個",
             "read": "ろっこ",
-            "mean": "여섯 개"
+            "mean": "여섯 개",
+            "tags": []
         },
         {
             "word": "七個",
             "read": "ななこ",
-            "mean": "일곱 개"
+            "mean": "일곱 개",
+            "tags": []
         },
         {
             "word": "八個",
             "read": "はっこ",
-            "mean": "여덟 개"
+            "mean": "여덟 개",
+            "tags": []
         },
         {
             "word": "九個",
             "read": "きゅうこ",
-            "mean": "아홉 개"
+            "mean": "아홉 개",
+            "tags": []
         },
         {
             "word": "十個",
             "read": "じゅっこ",
-            "mean": "열 개"
+            "mean": "열 개",
+            "tags": []
         },
         {
             "word": "何個",
             "read": "なんこ",
-            "mean": "몇 개"
+            "mean": "몇 개",
+            "tags": []
         }
     ],
     "quiz": [
