@@ -2,10 +2,6 @@ name: Verify data dist sync
 
 on:
   pull_request:
-    paths:
-      - 'data/src/**'
-      - 'data/dist/**'
-      - 'scripts/build-data.js'
   push:
     branches: [ main, master ]
 

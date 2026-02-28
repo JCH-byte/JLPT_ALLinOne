@@ -289,7 +289,10 @@ function upsertMeta(index, level, day, record) {
         status: record.status,
         timestamp: record.timestamp,
         author: record.author,
-        changeSummary: record.changeSummary
+        changeSummary: record.changeSummary,
+        prUrl: record.prUrl || null,
+        prNumber: record.prNumber ?? null,
+        prState: record.prState || null
     };
     if (existingIdx >= 0) {
         dayNode.versions[existingIdx] = meta;
@@ -297,6 +300,17 @@ function upsertMeta(index, level, day, record) {
         dayNode.versions.push(meta);
     }
     dayNode.versions.sort((a, b) => a.version - b.version);
+}
+function renderPrStatus(record) {
+    const panel = document.getElementById('pr-status-panel');
+    if (!panel) return;
+    if (!record?.prUrl) {
+        panel.innerHTML = 'PR 상태: 생성 이력이 없습니다.';
+        return;
+    }
+    const state = record.prState || 'open';
+    const numberText = record.prNumber ? `#${record.prNumber}` : '(번호 미확인)';
+    panel.innerHTML = `PR 상태: <strong>${state}</strong> / ${numberText} / <a href="${record.prUrl}" target="_blank" rel="noopener">${record.prUrl}</a>`;
 }
 function getRequiredFieldMode() {
     return document.getElementById('required-field-mode').value;
@@ -1030,6 +1044,8 @@ async function createPullRequestForRecord(record, options = {}) {
         throw new Error(body?.error || `HTTP ${response.status}`);
     }
     const prUrl = String(body?.prUrl || body?.url || '').trim();
+    const prState = String(body?.prState || body?.state || 'open').trim();
+    const prNumber = Number(body?.prNumber || body?.number || 0) || null;
     if (!prUrl) {
         throw new Error('응답에 prUrl(url)이 없습니다.');
     }
@@ -1040,13 +1056,23 @@ async function createPullRequestForRecord(record, options = {}) {
         version: record.version,
         dataHash,
         deployedAt: new Date().toISOString(),
-        prUrl
+        prUrl,
+        prState,
+        prNumber
     });
     writeDeploymentLog(logs);
+    record.prUrl = prUrl;
+    record.prState = prState;
+    record.prNumber = prNumber;
+    writeVersionRecord(record.level, Number(record.day), Number(record.version), record);
+    const index = readIndex();
+    upsertMeta(index, record.level, Number(record.day), record);
+    writeIndex(index);
+    renderPrStatus(record);
     renderDeploymentLog();
     const prResultEl = document.getElementById('pr-result');
     if (prResultEl) {
-        prResultEl.textContent = `PR 생성 완료: ${prUrl}
+        prResultEl.textContent = `PR 생성 완료: ${prUrl} (state=${prState}, number=${prNumber || 'n/a'})
 
 요청 payload:
 ${JSON.stringify(payload, null, 2)}`;
@@ -1254,16 +1280,19 @@ function renderHistory() {
     });
     if (!day) {
         historyList.innerHTML = '<li>Day를 입력하면 히스토리를 확인할 수 있습니다.</li>';
+        renderPrStatus(null);
         return;
     }
     const versions = getDayVersions(level, day);
     if (versions.length === 0) {
         historyList.innerHTML = '<li>저장된 버전이 없습니다.</li>';
+        renderPrStatus(null);
         return;
     }
     historyList.innerHTML = versions
-        .map(v => `<li><strong>v${v.version}</strong> [${v.status}] ${v.timestamp} - ${v.author} :: ${v.changeSummary}</li>`)
+        .map(v => `<li><strong>v${v.version}</strong> [${v.status}] ${v.timestamp} - ${v.author} :: ${v.changeSummary}${v.prUrl ? ` / <a href="${v.prUrl}" target="_blank" rel="noopener">PR ${v.prNumber ? `#${v.prNumber}` : ''}</a> (${v.prState || 'open'})` : ''}</li>`)
         .join('');
+    renderPrStatus(versions[versions.length - 1]);
     versions.forEach(v => {
         const value = `${level}:${day}:${v.version}`;
         const label = `v${v.version} [${v.status}] ${v.author}`;
