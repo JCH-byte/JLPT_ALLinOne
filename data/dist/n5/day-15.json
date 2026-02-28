@@ -135,152 +135,182 @@
         {
             "word": "一分",
             "read": "いっぷん",
-            "mean": "1분"
+            "mean": "1분",
+            "tags": []
         },
         {
             "word": "二分",
             "read": "にふん",
-            "mean": "2분"
+            "mean": "2분",
+            "tags": []
         },
         {
             "word": "三分",
             "read": "さんぷん",
-            "mean": "3분"
+            "mean": "3분",
+            "tags": []
         },
         {
             "word": "四分",
             "read": "よんぷん",
-            "mean": "4분"
+            "mean": "4분",
+            "tags": []
         },
         {
             "word": "五分",
             "read": "ごふん",
-            "mean": "5분"
+            "mean": "5분",
+            "tags": []
         },
         {
             "word": "六分",
             "read": "ろっぷん",
-            "mean": "6분"
+            "mean": "6분",
+            "tags": []
         },
         {
             "word": "七分",
             "read": "ななふん",
-            "mean": "7분"
+            "mean": "7분",
+            "tags": []
         },
         {
             "word": "八分",
             "read": "はっぷん",
-            "mean": "8분"
+            "mean": "8분",
+            "tags": []
         },
         {
             "word": "九分",
             "read": "きゅうふん",
-            "mean": "9분"
+            "mean": "9분",
+            "tags": []
         },
         {
             "word": "十分",
             "read": "じゅっぷん",
-            "mean": "10분"
+            "mean": "10분",
+            "tags": []
         },
         {
             "word": "何分",
             "read": "なんぷん",
-            "mean": "몇 분"
+            "mean": "몇 분",
+            "tags": []
         },
         {
             "word": "月曜日",
             "read": "げつようび",
-            "mean": "월요일"
+            "mean": "월요일",
+            "tags": []
         },
         {
             "word": "火曜日",
             "read": "かようび",
-            "mean": "화요일"
+            "mean": "화요일",
+            "tags": []
         },
         {
             "word": "水曜日",
             "read": "すいようび",
-            "mean": "수요일"
+            "mean": "수요일",
+            "tags": []
         },
         {
             "word": "木曜日",
             "read": "もくようび",
-            "mean": "목요일"
+            "mean": "목요일",
+            "tags": []
         },
         {
             "word": "金曜日",
             "read": "きんようび",
-            "mean": "금요일"
+            "mean": "금요일",
+            "tags": []
         },
         {
             "word": "土曜日",
             "read": "どようび",
-            "mean": "토요일"
+            "mean": "토요일",
+            "tags": []
         },
         {
             "word": "日曜日",
             "read": "にちようび",
-            "mean": "일요일"
+            "mean": "일요일",
+            "tags": []
         },
         {
             "word": "何曜日",
             "read": "なんようび",
-            "mean": "무슨 요일"
+            "mean": "무슨 요일",
+            "tags": []
         },
         {
             "word": "一杯",
             "read": "いっぱい",
-            "mean": "한 잔"
+            "mean": "한 잔",
+            "tags": []
         },
         {
             "word": "二杯",
             "read": "にはい",
-            "mean": "두 잔"
+            "mean": "두 잔",
+            "tags": []
         },
         {
             "word": "三杯",
             "read": "さんばい",
-            "mean": "세 잔"
+            "mean": "세 잔",
+            "tags": []
         },
         {
             "word": "四杯",
             "read": "よんはい",
-            "mean": "네 잔"
+            "mean": "네 잔",
+            "tags": []
         },
         {
             "word": "五杯",
             "read": "ごはい",
-            "mean": "다섯 잔"
+            "mean": "다섯 잔",
+            "tags": []
         },
         {
             "word": "六杯",
             "read": "ろっぱい",
-            "mean": "여섯 잔"
+            "mean": "여섯 잔",
+            "tags": []
         },
         {
             "word": "七杯",
             "read": "ななはい",
-            "mean": "일곱 잔"
+            "mean": "일곱 잔",
+            "tags": []
         },
         {
             "word": "八杯",
             "read": "はっぱい",
-            "mean": "여덟 잔"
+            "mean": "여덟 잔",
+            "tags": []
         },
         {
             "word": "九杯",
             "read": "きゅうはい",
-            "mean": "아홉 잔"
+            "mean": "아홉 잔",
+            "tags": []
         },
         {
             "word": "十杯",
             "read": "じゅっぱい",
-            "mean": "열 잔"
+            "mean": "열 잔",
+            "tags": []
         },
         {
             "word": "何杯",
             "read": "なんばい",
-            "mean": "몇 잔"
+            "mean": "몇 잔",
+            "tags": []
         }
     ],
     "quiz": [

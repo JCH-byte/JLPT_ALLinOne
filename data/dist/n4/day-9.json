@@ -189,212 +189,254 @@
         {
             "word": "日記",
             "read": "にっき",
-            "mean": "일기"
+            "mean": "일기",
+            "tags": []
         },
         {
             "word": "入院",
             "read": "にゅういん",
-            "mean": "입원"
+            "mean": "입원",
+            "tags": []
         },
         {
             "word": "入学",
             "read": "にゅうがく",
-            "mean": "입학"
+            "mean": "입학",
+            "tags": []
         },
         {
             "word": "入社",
             "read": "にゅうしゃ",
-            "mean": "입사"
+            "mean": "입사",
+            "tags": []
         },
         {
             "word": "人形",
             "read": "にんぎょう",
-            "mean": "인형"
+            "mean": "인형",
+            "tags": []
         },
         {
             "word": "にんじん",
             "read": "にんじん",
-            "mean": "당근"
+            "mean": "당근",
+            "tags": []
         },
         {
             "word": "熱",
             "read": "ねつ",
-            "mean": "열"
+            "mean": "열",
+            "tags": []
         },
         {
             "word": "寝坊",
             "read": "ねぼう",
-            "mean": "늦잠"
+            "mean": "늦잠",
+            "tags": []
         },
         {
             "word": "のど",
             "read": "のど",
-            "mean": "목 (신체)"
+            "mean": "목 (신체)",
+            "tags": []
         },
         {
             "word": "飲みすぎ",
             "read": "のみすぎ",
-            "mean": "과음"
+            "mean": "과음",
+            "tags": []
         },
         {
             "word": "乗り換え",
             "read": "のりかえ",
-            "mean": "환승, 갈아타기"
+            "mean": "환승, 갈아타기",
+            "tags": []
         },
         {
             "word": "乗り物",
             "read": "のりもの",
-            "mean": "탈것"
+            "mean": "탈것",
+            "tags": []
         },
         {
             "word": "葉",
             "read": "は",
-            "mean": "잎"
+            "mean": "잎",
+            "tags": []
         },
         {
             "word": "場合",
             "read": "ばあい",
-            "mean": "경우"
+            "mean": "경우",
+            "tags": []
         },
         {
             "word": "歯医者",
             "read": "はいしゃ",
-            "mean": "치과 의사, 치과"
+            "mean": "치과 의사, 치과",
+            "tags": []
         },
         {
             "word": "白菜",
             "read": "はくさい",
-            "mean": "배추"
+            "mean": "배추",
+            "tags": []
         },
         {
             "word": "箱",
             "read": "はこ",
-            "mean": "상자"
+            "mean": "상자",
+            "tags": []
         },
         {
             "word": "橋",
             "read": "はし",
-            "mean": "다리"
+            "mean": "다리",
+            "tags": []
         },
         {
             "word": "始まり",
             "read": "はじまり",
-            "mean": "시작"
+            "mean": "시작",
+            "tags": []
         },
         {
             "word": "場所",
             "read": "ばしょ",
-            "mean": "장소"
+            "mean": "장소",
+            "tags": []
         },
         {
             "word": "はず",
             "read": "はず",
-            "mean": "터, 리 (추측, 당연)"
+            "mean": "터, 리 (추측, 당연)",
+            "tags": []
         },
         {
             "word": "発音",
             "read": "はつおん",
-            "mean": "발음"
+            "mean": "발음",
+            "tags": []
         },
         {
             "word": "花見",
             "read": "はなみ",
-            "mean": "꽃구경"
+            "mean": "꽃구경",
+            "tags": []
         },
         {
             "word": "羽",
             "read": "はね",
-            "mean": "날개"
+            "mean": "날개",
+            "tags": []
         },
         {
             "word": "林",
             "read": "はやし",
-            "mean": "숲"
+            "mean": "숲",
+            "tags": []
         },
         {
             "word": "晴れ",
             "read": "はれ",
-            "mean": "맑음"
+            "mean": "맑음",
+            "tags": []
         },
         {
             "word": "半",
             "read": "はん",
-            "mean": "반"
+            "mean": "반",
+            "tags": []
         },
         {
             "word": "番組",
             "read": "ばんぐみ",
-            "mean": "방송 프로그램"
+            "mean": "방송 프로그램",
+            "tags": []
         },
         {
             "word": "反対",
             "read": "はんたい",
-            "mean": "반대"
+            "mean": "반대",
+            "tags": []
         },
         {
             "word": "パン屋",
             "read": "ぱんや",
-            "mean": "빵집"
+            "mean": "빵집",
+            "tags": []
         },
         {
             "word": "日",
             "read": "ひ",
-            "mean": "해, 날"
+            "mean": "해, 날",
+            "tags": []
         },
         {
             "word": "光",
             "read": "ひかり",
-            "mean": "빛"
+            "mean": "빛",
+            "tags": []
         },
         {
             "word": "引き出し",
             "read": "ひきだし",
-            "mean": "서랍"
+            "mean": "서랍",
+            "tags": []
         },
         {
             "word": "ひげ",
             "read": "ひげ",
-            "mean": "수염"
+            "mean": "수염",
+            "tags": []
         },
         {
             "word": "飛行場",
             "read": "ひこうじょう",
-            "mean": "비행장"
+            "mean": "비행장",
+            "tags": []
         },
         {
             "word": "久しぶり",
             "read": "ひさしぶり",
-            "mean": "오랜만"
+            "mean": "오랜만",
+            "tags": []
         },
         {
             "word": "美術館",
             "read": "びじゅつかん",
-            "mean": "미술관"
+            "mean": "미술관",
+            "tags": []
         },
         {
             "word": "左",
             "read": "ひだり",
-            "mean": "왼쪽"
+            "mean": "왼쪽",
+            "tags": []
         },
         {
             "word": "必要",
             "read": "ひつよう",
-            "mean": "필요"
+            "mean": "필요",
+            "tags": []
         },
         {
             "word": "百貨店",
             "read": "ひゃっかてん",
-            "mean": "백화점"
+            "mean": "백화점",
+            "tags": []
         },
         {
             "word": "昼間",
             "read": "ひるま",
-            "mean": "주간, 낮"
+            "mean": "주간, 낮",
+            "tags": []
         },
         {
             "word": "昼休み",
             "read": "ひるやすみ",
-            "mean": "점심시간"
+            "mean": "점심시간",
+            "tags": []
         }
     ],
     "quiz": [

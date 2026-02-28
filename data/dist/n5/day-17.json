@@ -113,112 +113,134 @@
         {
             "word": "一人",
             "read": "ひとり",
-            "mean": "한 명"
+            "mean": "한 명",
+            "tags": []
         },
         {
             "word": "二人",
             "read": "ふたり",
-            "mean": "두 명"
+            "mean": "두 명",
+            "tags": []
         },
         {
             "word": "三人",
             "read": "さんにん",
-            "mean": "세 명"
+            "mean": "세 명",
+            "tags": []
         },
         {
             "word": "四人",
             "read": "よにん",
-            "mean": "네 명"
+            "mean": "네 명",
+            "tags": []
         },
         {
             "word": "五人",
             "read": "ごにん",
-            "mean": "다섯 명"
+            "mean": "다섯 명",
+            "tags": []
         },
         {
             "word": "六人",
             "read": "ろくにん",
-            "mean": "여섯 명"
+            "mean": "여섯 명",
+            "tags": []
         },
         {
             "word": "七人",
             "read": "ななにん",
-            "mean": "일곱 명"
+            "mean": "일곱 명",
+            "tags": []
         },
         {
             "word": "八人",
             "read": "はちにん",
-            "mean": "여덟 명"
+            "mean": "여덟 명",
+            "tags": []
         },
         {
             "word": "九人",
             "read": "きゅうにん",
-            "mean": "아홉 명"
+            "mean": "아홉 명",
+            "tags": []
         },
         {
             "word": "十人",
             "read": "じゅうにん",
-            "mean": "열 명"
+            "mean": "열 명",
+            "tags": []
         },
         {
             "word": "何人",
             "read": "なんにん",
-            "mean": "몇 명"
+            "mean": "몇 명",
+            "tags": []
         },
         {
             "word": "一匹",
             "read": "いっぴき",
-            "mean": "한 마리"
+            "mean": "한 마리",
+            "tags": []
         },
         {
             "word": "二匹",
             "read": "にひき",
-            "mean": "두 마리"
+            "mean": "두 마리",
+            "tags": []
         },
         {
             "word": "三匹",
             "read": "さんびき",
-            "mean": "세 마리"
+            "mean": "세 마리",
+            "tags": []
         },
         {
             "word": "四匹",
             "read": "よんひき",
-            "mean": "네 마리"
+            "mean": "네 마리",
+            "tags": []
         },
         {
             "word": "五匹",
             "read": "ごひき",
-            "mean": "다섯 마리"
+            "mean": "다섯 마리",
+            "tags": []
         },
         {
             "word": "六匹",
             "read": "ろっぴき",
-            "mean": "여섯 마리"
+            "mean": "여섯 마리",
+            "tags": []
         },
         {
             "word": "七匹",
             "read": "ななひき",
-            "mean": "일곱 마리"
+            "mean": "일곱 마리",
+            "tags": []
         },
         {
             "word": "八匹",
             "read": "はっぴき",
-            "mean": "여덟 마리"
+            "mean": "여덟 마리",
+            "tags": []
         },
         {
             "word": "九匹",
             "read": "きゅうひき",
-            "mean": "아홉 마리"
+            "mean": "아홉 마리",
+            "tags": []
         },
         {
             "word": "十匹",
             "read": "じゅっぴき",
-            "mean": "열 마리"
+            "mean": "열 마리",
+            "tags": []
         },
         {
             "word": "何匹",
             "read": "なんびき",
-            "mean": "몇 마리"
+            "mean": "몇 마리",
+            "tags": []
         }
     ],
     "quiz": [

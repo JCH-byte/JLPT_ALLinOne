@@ -266,352 +266,422 @@
         {
             "word": "最低",
             "read": "さいてい",
-            "mean": "최저"
+            "mean": "최저",
+            "tags": []
         },
         {
             "word": "採点",
             "read": "さいてん",
-            "mean": "채점"
+            "mean": "채점",
+            "tags": []
         },
         {
             "word": "才能",
             "read": "さいのう",
-            "mean": "재능"
+            "mean": "재능",
+            "tags": []
         },
         {
             "word": "再利用",
             "read": "さいりよう",
-            "mean": "재이용"
+            "mean": "재이용",
+            "tags": []
         },
         {
             "word": "材料",
             "read": "ざいりょう",
-            "mean": "재료"
+            "mean": "재료",
+            "tags": []
         },
         {
             "word": "坂道",
             "read": "さかみち",
-            "mean": "비탈길, 언덕길"
+            "mean": "비탈길, 언덕길",
+            "tags": []
         },
         {
             "word": "一昨々日",
             "read": "さきおととい",
-            "mean": "그끄저께"
+            "mean": "그끄저께",
+            "tags": []
         },
         {
             "word": "作業",
             "read": "さぎょう",
-            "mean": "작업"
+            "mean": "작업",
+            "tags": []
         },
         {
             "word": "作者",
             "read": "さくしゃ",
-            "mean": "작가, 만든 이"
+            "mean": "작가, 만든 이",
+            "tags": []
         },
         {
             "word": "昨年",
             "read": "さくねん",
-            "mean": "작년"
+            "mean": "작년",
+            "tags": []
         },
         {
             "word": "昨夜",
             "read": "さくや",
-            "mean": "어젯밤"
+            "mean": "어젯밤",
+            "tags": []
         },
         {
             "word": "差出人",
             "read": "さしだしにん",
-            "mean": "발신인"
+            "mean": "발신인",
+            "tags": []
         },
         {
             "word": "座席",
             "read": "ざせき",
-            "mean": "좌석"
+            "mean": "좌석",
+            "tags": []
         },
         {
             "word": "左折",
             "read": "させつ",
-            "mean": "좌회전"
+            "mean": "좌회전",
+            "tags": []
         },
         {
             "word": "作家",
             "read": "さっか",
-            "mean": "작가"
+            "mean": "작가",
+            "tags": []
         },
         {
             "word": "作曲",
             "read": "さっきょく",
-            "mean": "작곡"
+            "mean": "작곡",
+            "tags": []
         },
         {
             "word": "雑誌",
             "read": "ざっし",
-            "mean": "잡지"
+            "mean": "잡지",
+            "tags": []
         },
         {
             "word": "殺人",
             "read": "さつじん",
-            "mean": "살인"
+            "mean": "살인",
+            "tags": []
         },
         {
             "word": "猿",
             "read": "さる",
-            "mean": "원숭이"
+            "mean": "원숭이",
+            "tags": []
         },
         {
             "word": "騒ぎ",
             "read": "さわぎ",
-            "mean": "소란"
+            "mean": "소란",
+            "tags": []
         },
         {
             "word": "参加",
             "read": "さんか",
-            "mean": "참가"
+            "mean": "참가",
+            "tags": []
         },
         {
             "word": "残業",
             "read": "ざんぎょう",
-            "mean": "잔업, 야근"
+            "mean": "잔업, 야근",
+            "tags": []
         },
         {
             "word": "詩",
             "read": "し",
-            "mean": "시"
+            "mean": "시",
+            "tags": []
         },
         {
             "word": "寺院",
             "read": "じいん",
-            "mean": "사원, 절"
+            "mean": "사원, 절",
+            "tags": []
         },
         {
             "word": "塩",
             "read": "しお",
-            "mean": "소금"
+            "mean": "소금",
+            "tags": []
         },
         {
             "word": "司会",
             "read": "しかい",
-            "mean": "사회(진행)"
+            "mean": "사회(진행)",
+            "tags": []
         },
         {
             "word": "次回",
             "read": "じかい",
-            "mean": "다음 회, 차회"
+            "mean": "다음 회, 차회",
+            "tags": []
         },
         {
             "word": "時間割",
             "read": "じかんわり",
-            "mean": "시간표"
+            "mean": "시간표",
+            "tags": []
         },
         {
             "word": "四季",
             "read": "しき",
-            "mean": "사계, 사계절"
+            "mean": "사계, 사계절",
+            "tags": []
         },
         {
             "word": "支給",
             "read": "しきゅう",
-            "mean": "지급"
+            "mean": "지급",
+            "tags": []
         },
         {
             "word": "資源",
             "read": "しげん",
-            "mean": "자원"
+            "mean": "자원",
+            "tags": []
         },
         {
             "word": "事件",
             "read": "じけん",
-            "mean": "사건"
+            "mean": "사건",
+            "tags": []
         },
         {
             "word": "死後",
             "read": "しご",
-            "mean": "사후"
+            "mean": "사후",
+            "tags": []
         },
         {
             "word": "事後",
             "read": "じご",
-            "mean": "사후"
+            "mean": "사후",
+            "tags": []
         },
         {
             "word": "時刻",
             "read": "じこく",
-            "mean": "시각"
+            "mean": "시각",
+            "tags": []
         },
         {
             "word": "時刻表",
             "read": "じこくひょう",
-            "mean": "시각표"
+            "mean": "시각표",
+            "tags": []
         },
         {
             "word": "指示",
             "read": "しじ",
-            "mean": "지시"
+            "mean": "지시",
+            "tags": []
         },
         {
             "word": "支社",
             "read": "ししゃ",
-            "mean": "지사"
+            "mean": "지사",
+            "tags": []
         },
         {
             "word": "自習",
             "read": "じしゅう",
-            "mean": "자습"
+            "mean": "자습",
+            "tags": []
         },
         {
             "word": "次女",
             "read": "じじょ",
-            "mean": "차녀, 둘째 딸"
+            "mean": "차녀, 둘째 딸",
+            "tags": []
         },
         {
             "word": "事情",
             "read": "じじょう",
-            "mean": "사정"
+            "mean": "사정",
+            "tags": []
         },
         {
             "word": "詩人",
             "read": "しじん",
-            "mean": "시인"
+            "mean": "시인",
+            "tags": []
         },
         {
             "word": "自信",
             "read": "じしん",
-            "mean": "자신(감)"
+            "mean": "자신(감)",
+            "tags": []
         },
         {
             "word": "自身",
             "read": "じしん",
-            "mean": "자신(그 사람)"
+            "mean": "자신(그 사람)",
+            "tags": []
         },
         {
             "word": "姿勢",
             "read": "しせい",
-            "mean": "자세"
+            "mean": "자세",
+            "tags": []
         },
         {
             "word": "自然",
             "read": "しぜん",
-            "mean": "자연"
+            "mean": "자연",
+            "tags": []
         },
         {
             "word": "事前",
             "read": "じぜん",
-            "mean": "사전"
+            "mean": "사전",
+            "tags": []
         },
         {
             "word": "時速",
             "read": "じそく",
-            "mean": "시속"
+            "mean": "시속",
+            "tags": []
         },
         {
             "word": "下書き",
             "read": "したがき",
-            "mean": "초안, 밑그림"
+            "mean": "초안, 밑그림",
+            "tags": []
         },
         {
             "word": "失業",
             "read": "しつぎょう",
-            "mean": "실업"
+            "mean": "실업",
+            "tags": []
         },
         {
             "word": "湿気",
             "read": "しっけ",
-            "mean": "습기"
+            "mean": "습기",
+            "tags": []
         },
         {
             "word": "実現",
             "read": "じつげん",
-            "mean": "실현"
+            "mean": "실현",
+            "tags": []
         },
         {
             "word": "実行",
             "read": "じっこう",
-            "mean": "실행"
+            "mean": "실행",
+            "tags": []
         },
         {
             "word": "湿度",
             "read": "しつど",
-            "mean": "습도"
+            "mean": "습도",
+            "tags": []
         },
         {
             "word": "実力",
             "read": "じつりょく",
-            "mean": "실력"
+            "mean": "실력",
+            "tags": []
         },
         {
             "word": "失恋",
             "read": "しつれん",
-            "mean": "실연"
+            "mean": "실연",
+            "tags": []
         },
         {
             "word": "指定",
             "read": "してい",
-            "mean": "지정"
+            "mean": "지정",
+            "tags": []
         },
         {
             "word": "指定席",
             "read": "していせき",
-            "mean": "지정석"
+            "mean": "지정석",
+            "tags": []
         },
         {
             "word": "私鉄",
             "read": "してつ",
-            "mean": "사철(민영 철도)"
+            "mean": "사철(민영 철도)",
+            "tags": []
         },
         {
             "word": "支店",
             "read": "してん",
-            "mean": "지점"
+            "mean": "지점",
+            "tags": []
         },
         {
             "word": "指導",
             "read": "しどう",
-            "mean": "지도"
+            "mean": "지도",
+            "tags": []
         },
         {
             "word": "自動販売機",
             "read": "じどうはんばいき",
-            "mean": "자동판매기"
+            "mean": "자동판매기",
+            "tags": []
         },
         {
             "word": "品",
             "read": "しな",
-            "mean": "물건, 품위"
+            "mean": "물건, 품위",
+            "tags": []
         },
         {
             "word": "次男",
             "read": "じなん",
-            "mean": "차남, 둘째 아들"
+            "mean": "차남, 둘째 아들",
+            "tags": []
         },
         {
             "word": "始発駅",
             "read": "しはつえき",
-            "mean": "시발역"
+            "mean": "시발역",
+            "tags": []
         },
         {
             "word": "死亡",
             "read": "しぼう",
-            "mean": "사망"
+            "mean": "사망",
+            "tags": []
         },
         {
             "word": "島",
             "read": "しま",
-            "mean": "섬"
+            "mean": "섬",
+            "tags": []
         },
         {
             "word": "自慢",
             "read": "じまん",
-            "mean": "자만, 자랑"
+            "mean": "자만, 자랑",
+            "tags": []
         },
         {
             "word": "しみ",
             "read": "しみ",
-            "mean": "얼룩, 기미"
+            "mean": "얼룩, 기미",
+            "tags": []
         },
         {
             "word": "事務",
             "read": "じむ",
-            "mean": "사무"
+            "mean": "사무",
+            "tags": []
         }
     ],
     "quiz": [

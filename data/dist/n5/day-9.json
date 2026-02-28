@@ -112,142 +112,170 @@
         {
             "word": "病院",
             "read": "びょういん",
-            "mean": "병원"
+            "mean": "병원",
+            "tags": []
         },
         {
             "word": "病気",
             "read": "びょうき",
-            "mean": "병"
+            "mean": "병",
+            "tags": []
         },
         {
             "word": "ひらがな",
             "read": "ひらがな",
-            "mean": "히라가나"
+            "mean": "히라가나",
+            "tags": []
         },
         {
             "word": "昼",
             "read": "ひる",
-            "mean": "낮/점심"
+            "mean": "낮/점심",
+            "tags": []
         },
         {
             "word": "昼ご飯",
             "read": "ひるごはん",
-            "mean": "점심밥"
+            "mean": "점심밥",
+            "tags": []
         },
         {
             "word": "服",
             "read": "ふく",
-            "mean": "옷"
+            "mean": "옷",
+            "tags": []
         },
         {
             "word": "冬",
             "read": "ふゆ",
-            "mean": "겨울"
+            "mean": "겨울",
+            "tags": []
         },
         {
             "word": "部屋",
             "read": "へや",
-            "mean": "방"
+            "mean": "방",
+            "tags": []
         },
         {
             "word": "勉強",
             "read": "べんきょう",
-            "mean": "공부"
+            "mean": "공부",
+            "tags": []
         },
         {
             "word": "方",
             "read": "ほう",
-            "mean": "편/쪽"
+            "mean": "편/쪽",
+            "tags": []
         },
         {
             "word": "帽子",
             "read": "ぼうし",
-            "mean": "모자"
+            "mean": "모자",
+            "tags": []
         },
         {
             "word": "ほか",
             "read": "ほか",
-            "mean": "그 밖"
+            "mean": "그 밖",
+            "tags": []
         },
         {
             "word": "本",
             "read": "ほん",
-            "mean": "책"
+            "mean": "책",
+            "tags": []
         },
         {
             "word": "毎朝",
             "read": "まいあさ",
-            "mean": "매일 아침"
+            "mean": "매일 아침",
+            "tags": []
         },
         {
             "word": "毎月",
             "read": "まいつき",
-            "mean": "매달"
+            "mean": "매달",
+            "tags": []
         },
         {
             "word": "毎週",
             "read": "まいしゅう",
-            "mean": "매주"
+            "mean": "매주",
+            "tags": []
         },
         {
             "word": "毎日",
             "read": "まいにち",
-            "mean": "매일"
+            "mean": "매일",
+            "tags": []
         },
         {
             "word": "毎年",
             "read": "まいとし",
-            "mean": "매년"
+            "mean": "매년",
+            "tags": []
         },
         {
             "word": "毎晩",
             "read": "まいばん",
-            "mean": "매일 밤"
+            "mean": "매일 밤",
+            "tags": []
         },
         {
             "word": "前",
             "read": "まえ",
-            "mean": "앞/전"
+            "mean": "앞/전",
+            "tags": []
         },
         {
             "word": "町",
             "read": "まち",
-            "mean": "마을"
+            "mean": "마을",
+            "tags": []
         },
         {
             "word": "窓",
             "read": "まど",
-            "mean": "창문"
+            "mean": "창문",
+            "tags": []
         },
         {
             "word": "右",
             "read": "みぎ",
-            "mean": "오른쪽"
+            "mean": "오른쪽",
+            "tags": []
         },
         {
             "word": "水",
             "read": "みず",
-            "mean": "물"
+            "mean": "물",
+            "tags": []
         },
         {
             "word": "店",
             "read": "みせ",
-            "mean": "가게"
+            "mean": "가게",
+            "tags": []
         },
         {
             "word": "道",
             "read": "みち",
-            "mean": "길"
+            "mean": "길",
+            "tags": []
         },
         {
             "word": "みなさん",
             "read": "みなさん",
-            "mean": "여러분"
+            "mean": "여러분",
+            "tags": []
         },
         {
             "word": "南",
             "read": "みなみ",
-            "mean": "남쪽"
+            "mean": "남쪽",
+            "tags": []
         }
     ],
     "quiz": [

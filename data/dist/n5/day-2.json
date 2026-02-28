@@ -135,142 +135,170 @@
         {
             "word": "入り口",
             "read": "いりぐち",
-            "mean": "입구"
+            "mean": "입구",
+            "tags": []
         },
         {
             "word": "色",
             "read": "いろ",
-            "mean": "색"
+            "mean": "색",
+            "tags": []
         },
         {
             "word": "上",
             "read": "うえ",
-            "mean": "위"
+            "mean": "위",
+            "tags": []
         },
         {
             "word": "後ろ",
             "read": "うしろ",
-            "mean": "뒤"
+            "mean": "뒤",
+            "tags": []
         },
         {
             "word": "歌",
             "read": "うた",
-            "mean": "노래"
+            "mean": "노래",
+            "tags": []
         },
         {
             "word": "海",
             "read": "うみ",
-            "mean": "바다"
+            "mean": "바다",
+            "tags": []
         },
         {
             "word": "上着",
             "read": "うわぎ",
-            "mean": "겉옷"
+            "mean": "겉옷",
+            "tags": []
         },
         {
             "word": "運動",
             "read": "うんどう",
-            "mean": "운동"
+            "mean": "운동",
+            "tags": []
         },
         {
             "word": "絵",
             "read": "え",
-            "mean": "그림"
+            "mean": "그림",
+            "tags": []
         },
         {
             "word": "映画",
             "read": "えいが",
-            "mean": "영화"
+            "mean": "영화",
+            "tags": []
         },
         {
             "word": "英語",
             "read": "えいご",
-            "mean": "영어"
+            "mean": "영어",
+            "tags": []
         },
         {
             "word": "駅",
             "read": "えき",
-            "mean": "역"
+            "mean": "역",
+            "tags": []
         },
         {
             "word": "円",
             "read": "えん",
-            "mean": "엔"
+            "mean": "엔",
+            "tags": []
         },
         {
             "word": "鉛筆",
             "read": "えんぴつ",
-            "mean": "연필"
+            "mean": "연필",
+            "tags": []
         },
         {
             "word": "お母さん",
             "read": "おかあさん",
-            "mean": "어머니"
+            "mean": "어머니",
+            "tags": []
         },
         {
             "word": "お菓子",
             "read": "おかし",
-            "mean": "과자"
+            "mean": "과자",
+            "tags": []
         },
         {
             "word": "お金",
             "read": "おかね",
-            "mean": "돈"
+            "mean": "돈",
+            "tags": []
         },
         {
             "word": "お客さん",
             "read": "おきゃくさん",
-            "mean": "손님"
+            "mean": "손님",
+            "tags": []
         },
         {
             "word": "奥さん",
             "read": "おくさん",
-            "mean": "아내/부인"
+            "mean": "아내/부인",
+            "tags": []
         },
         {
             "word": "お酒",
             "read": "おさけ",
-            "mean": "술"
+            "mean": "술",
+            "tags": []
         },
         {
             "word": "お皿",
             "read": "おさら",
-            "mean": "접시"
+            "mean": "접시",
+            "tags": []
         },
         {
             "word": "おじいさん",
             "read": "おじいさん",
-            "mean": "할아버지"
+            "mean": "할아버지",
+            "tags": []
         },
         {
             "word": "おじさん",
             "read": "おじさん",
-            "mean": "아저씨"
+            "mean": "아저씨",
+            "tags": []
         },
         {
             "word": "お茶",
             "read": "おちゃ",
-            "mean": "차"
+            "mean": "차",
+            "tags": []
         },
         {
             "word": "お父さん",
             "read": "おとうさん",
-            "mean": "아버지"
+            "mean": "아버지",
+            "tags": []
         },
         {
             "word": "弟",
             "read": "おとうと",
-            "mean": "남동생"
+            "mean": "남동생",
+            "tags": []
         },
         {
             "word": "男",
             "read": "おとこ",
-            "mean": "남자"
+            "mean": "남자",
+            "tags": []
         },
         {
             "word": "男の子",
             "read": "おとこのこ",
-            "mean": "남자아이"
+            "mean": "남자아이",
+            "tags": []
         }
     ],
     "quiz": [
