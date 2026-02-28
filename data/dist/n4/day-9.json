@@ -190,253 +190,337 @@
             "word": "日記",
             "read": "にっき",
             "mean": "일기",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "入院",
             "read": "にゅういん",
             "mean": "입원",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "入学",
             "read": "にゅうがく",
             "mean": "입학",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "入社",
             "read": "にゅうしゃ",
             "mean": "입사",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "人形",
             "read": "にんぎょう",
             "mean": "인형",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "にんじん",
             "read": "にんじん",
             "mean": "당근",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "熱",
             "read": "ねつ",
             "mean": "열",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "寝坊",
             "read": "ねぼう",
             "mean": "늦잠",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "のど",
             "read": "のど",
             "mean": "목 (신체)",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "飲みすぎ",
             "read": "のみすぎ",
             "mean": "과음",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "乗り換え",
             "read": "のりかえ",
             "mean": "환승, 갈아타기",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "乗り物",
             "read": "のりもの",
             "mean": "탈것",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "葉",
             "read": "は",
             "mean": "잎",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "場合",
             "read": "ばあい",
             "mean": "경우",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "歯医者",
             "read": "はいしゃ",
             "mean": "치과 의사, 치과",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "白菜",
             "read": "はくさい",
             "mean": "배추",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "箱",
             "read": "はこ",
             "mean": "상자",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "橋",
             "read": "はし",
             "mean": "다리",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "始まり",
             "read": "はじまり",
             "mean": "시작",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "場所",
             "read": "ばしょ",
             "mean": "장소",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "はず",
             "read": "はず",
             "mean": "터, 리 (추측, 당연)",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "発音",
             "read": "はつおん",
             "mean": "발음",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "花見",
             "read": "はなみ",
             "mean": "꽃구경",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "羽",
             "read": "はね",
             "mean": "날개",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "林",
             "read": "はやし",
             "mean": "숲",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "晴れ",
             "read": "はれ",
             "mean": "맑음",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "半",
             "read": "はん",
             "mean": "반",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "番組",
             "read": "ばんぐみ",
             "mean": "방송 프로그램",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "反対",
             "read": "はんたい",
             "mean": "반대",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "パン屋",
             "read": "ぱんや",
             "mean": "빵집",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "日",
             "read": "ひ",
             "mean": "해, 날",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "光",
             "read": "ひかり",
             "mean": "빛",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "引き出し",
             "read": "ひきだし",
             "mean": "서랍",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "ひげ",
             "read": "ひげ",
             "mean": "수염",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "飛行場",
             "read": "ひこうじょう",
             "mean": "비행장",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "久しぶり",
             "read": "ひさしぶり",
             "mean": "오랜만",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "美術館",
             "read": "びじゅつかん",
             "mean": "미술관",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "左",
             "read": "ひだり",
             "mean": "왼쪽",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "必要",
             "read": "ひつよう",
             "mean": "필요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "百貨店",
             "read": "ひゃっかてん",
             "mean": "백화점",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "昼間",
             "read": "ひるま",
             "mean": "주간, 낮",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         },
         {
             "word": "昼休み",
             "read": "ひるやすみ",
             "mean": "점심시간",
-            "tags": []
+            "tags": [],
+            "moduleId": "n4-module-009",
+            "legacyDay": 9
         }
     ],
     "quiz": [

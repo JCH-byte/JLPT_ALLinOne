@@ -11,6 +11,7 @@ const DEFAULT_N4_MAX_DAY = 28;
 const MAX_DAY_LIMIT = 28;
 const DEFAULT_MAX_DAY = 28;
 const ASSIGNMENT_VERSION = 'item-assignment-v1';
+const MODULE_METADATA_PATH = path.join(srcDir, 'module-metadata.json');
 
 function resolveN4MaxDay() {
     const configured = process.env.N4_MAX_DAY;
@@ -34,7 +35,7 @@ function normalizeDay(day, dayData) {
             title: `Day ${day} 단어장`,
             story: null,
             analysis: [],
-            vocab: dayData,
+            vocab: [],
             quiz: []
         };
     }
@@ -43,7 +44,7 @@ function normalizeDay(day, dayData) {
         title: dayData?.title || `Day ${day} 단어장`,
         story: dayData?.story || null,
         analysis: dayData?.analysis || [],
-        vocab: dayData?.vocab || [],
+        vocab: [],
         quiz: dayData?.quiz || []
     };
 }
@@ -52,12 +53,14 @@ function normalizeForLevel(level, day, dayData) {
     return normalizeDay(day, dayData);
 }
 
-function normalizeVocabItem(item) {
+function normalizeVocabItem(item, moduleId, assignedDay) {
     return {
         word: item?.word || '',
         read: item?.read || '',
         mean: item?.mean || '',
-        tags: Array.isArray(item?.tags) ? item.tags : []
+        tags: Array.isArray(item?.tags) ? item.tags : [],
+        moduleId,
+        legacyDay: assignedDay
     };
 }
 
@@ -119,7 +122,97 @@ function decideAssignedDay(level, item, itemIndex, maxDay) {
     return (mixed % maxDay) + 1;
 }
 
-function buildDaysFromItems(level, items, maxDay) {
+function makeDefaultModuleId(level, day) {
+    return `${level}-module-${String(day).padStart(3, '0')}`;
+}
+
+function buildFallbackMetadata(level, maxDay) {
+    const modules = [];
+    const dayToModule = {};
+    for (let day = 1; day <= maxDay; day += 1) {
+        const moduleId = makeDefaultModuleId(level, day);
+        dayToModule[String(day)] = moduleId;
+        modules.push({
+            moduleId,
+            level,
+            theme: `Legacy Day ${day}`,
+            communicativeGoal: `Legacy day-${day} 학습 내용 이관`,
+            targetGrammar: [`day-${day}`],
+            legacyDay: day
+        });
+    }
+    return { modules, dayToModule, moduleToDay: Object.fromEntries(Object.entries(dayToModule).map(([day, moduleId]) => [moduleId, Number(day)])) };
+}
+
+function readModuleMetadata(level, maxDay) {
+    const metadata = readJsonOrNull(MODULE_METADATA_PATH);
+    const levelData = metadata?.levels?.[level];
+    if (!levelData || typeof levelData !== 'object') {
+        return buildFallbackMetadata(level, maxDay);
+    }
+
+    const modules = Array.isArray(levelData.modules) ? levelData.modules : [];
+    const moduleById = new Map();
+    modules.forEach((moduleMeta) => {
+        if (!moduleMeta || typeof moduleMeta !== 'object') return;
+        const moduleId = String(moduleMeta.moduleId || '').trim();
+        if (!moduleId) return;
+        const legacyDay = Number(moduleMeta.legacyDay);
+        moduleById.set(moduleId, {
+            moduleId,
+            level,
+            theme: moduleMeta.theme || `Legacy ${moduleId}`,
+            communicativeGoal: moduleMeta.communicativeGoal || '',
+            targetGrammar: Array.isArray(moduleMeta.targetGrammar) ? moduleMeta.targetGrammar : [],
+            legacyDay: Number.isInteger(legacyDay) && legacyDay > 0 ? legacyDay : null,
+            title: moduleMeta.title || ''
+        });
+    });
+
+    const rawDayToModule = (levelData.dayToModule && typeof levelData.dayToModule === 'object') ? levelData.dayToModule : {};
+    const dayToModule = {};
+    Object.entries(rawDayToModule).forEach(([day, moduleId]) => {
+        if (!moduleById.has(moduleId)) return;
+        const numericDay = Number(day);
+        if (!Number.isInteger(numericDay) || numericDay < 1 || numericDay > maxDay) return;
+        dayToModule[String(numericDay)] = moduleId;
+    });
+
+    for (let day = 1; day <= maxDay; day += 1) {
+        const key = String(day);
+        if (dayToModule[key]) continue;
+        const fallbackModuleId = makeDefaultModuleId(level, day);
+        dayToModule[key] = fallbackModuleId;
+        if (!moduleById.has(fallbackModuleId)) {
+            moduleById.set(fallbackModuleId, {
+                moduleId: fallbackModuleId,
+                level,
+                theme: `Legacy Day ${day}`,
+                communicativeGoal: `Legacy day-${day} 학습 내용 이관`,
+                targetGrammar: [`day-${day}`],
+                legacyDay: day,
+                title: ''
+            });
+        }
+    }
+
+    const moduleToDay = {};
+    Object.entries(dayToModule).forEach(([day, moduleId]) => {
+        moduleToDay[moduleId] = Number(day);
+    });
+
+    const normalizedModules = Array.from(moduleById.values())
+        .sort((a, b) => {
+            const aDay = Number(a.legacyDay) || Number(moduleToDay[a.moduleId]) || Number.MAX_SAFE_INTEGER;
+            const bDay = Number(b.legacyDay) || Number(moduleToDay[b.moduleId]) || Number.MAX_SAFE_INTEGER;
+            if (aDay !== bDay) return aDay - bDay;
+            return a.moduleId.localeCompare(b.moduleId);
+        });
+
+    return { modules: normalizedModules, dayToModule, moduleToDay };
+}
+
+function buildDaysFromItems(level, items, maxDay, moduleMetadata) {
     const dayMap = {};
     for (let day = 1; day <= maxDay; day += 1) {
         dayMap[String(day)] = {
@@ -134,7 +227,8 @@ function buildDaysFromItems(level, items, maxDay) {
     items.forEach((item, index) => {
         const assignedDay = decideAssignedDay(level, item, index, maxDay);
         const key = String(assignedDay);
-        dayMap[key].vocab.push(normalizeVocabItem(item));
+        const moduleId = moduleMetadata.dayToModule[key] || makeDefaultModuleId(level, assignedDay);
+        dayMap[key].vocab.push(normalizeVocabItem(item, moduleId, assignedDay));
     });
 
     return dayMap;
@@ -167,7 +261,8 @@ function buildLevel(level) {
     }
 
     const maxDay = level === 'n4' ? N4_MAX_DAY : DEFAULT_MAX_DAY;
-    const normalized = buildDaysFromItems(level, itemSource.items, maxDay);
+    const moduleMetadata = readModuleMetadata(level, maxDay);
+    const normalized = buildDaysFromItems(level, itemSource.items, maxDay, moduleMetadata);
 
     const legacySource = readJsonOrNull(legacySrcPath);
     if (legacySource && typeof legacySource === 'object' && !Array.isArray(legacySource)) {
@@ -185,16 +280,47 @@ function buildLevel(level) {
     const indexData = {
         manifest: {
             assignmentVersion: ASSIGNMENT_VERSION,
-            source: `data/src/${level}.items.json`
+            source: `data/src/${level}.items.json`,
+            learningUnit: 'module'
         },
-        days: {}
+        modules: {},
+        days: {},
+        dayToModule: {},
+        moduleToDay: moduleMetadata.moduleToDay
     };
+
+    moduleMetadata.modules.forEach((moduleMeta) => {
+        indexData.modules[moduleMeta.moduleId] = {
+            moduleId: moduleMeta.moduleId,
+            level: moduleMeta.level,
+            theme: moduleMeta.theme,
+            communicativeGoal: moduleMeta.communicativeGoal,
+            targetGrammar: moduleMeta.targetGrammar,
+            legacyDay: moduleMeta.legacyDay,
+            title: moduleMeta.title || ''
+        };
+    });
 
     Object.entries(normalized).forEach(([day, dayData]) => {
         if (!shouldIncludeDay(level, day)) return;
         const fileName = `day-${day}.json`;
         expectedFiles.set(fileName, stableStringify(dayData));
-        indexData.days[day] = { title: dayData.title };
+        const moduleId = moduleMetadata.dayToModule[day] || makeDefaultModuleId(level, Number(day));
+        indexData.days[day] = { title: dayData.title, moduleId };
+        indexData.dayToModule[day] = moduleId;
+        if (!indexData.modules[moduleId]) {
+            indexData.modules[moduleId] = {
+                moduleId,
+                level,
+                theme: `Legacy Day ${day}`,
+                communicativeGoal: `Legacy day-${day} 학습 내용 이관`,
+                targetGrammar: [`day-${day}`],
+                legacyDay: Number(day),
+                title: dayData.title
+            };
+        } else if (!indexData.modules[moduleId].title) {
+            indexData.modules[moduleId].title = dayData.title;
+        }
     });
 
     expectedFiles.set('index.json', stableStringify(indexData));

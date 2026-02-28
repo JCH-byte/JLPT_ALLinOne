@@ -1,6 +1,6 @@
 /**
  * data-service.js
- * 기능: Day 단위 데이터 lazy-load, 로컬 데이터 오버라이드 병합
+ * 기능: Module/Day 단위 데이터 lazy-load, 로컬 데이터 오버라이드 병합
  */
 
 const DAY_DATA_CACHE = new Map();
@@ -48,7 +48,9 @@ function normalizeVocabItem(levelName, day, index, vocabItem) {
         word: safeString(item.word),
         read: safeString(item.read),
         mean: safeString(item.mean),
-        tags: safeArray(item.tags)
+        tags: safeArray(item.tags),
+        moduleId: safeString(item.moduleId),
+        legacyDay: item.legacyDay ?? day
     };
 
     const missing = [];
@@ -212,6 +214,27 @@ function filterIndexByExistingDayFiles(level, indexData, callback) {
     });
 }
 
+function normalizeLevelIndex(indexData) {
+    const normalizedIndex = (!indexData || typeof indexData !== 'object' || Array.isArray(indexData)) ? {} : indexData;
+    const days = (normalizedIndex.days && typeof normalizedIndex.days === 'object' && !Array.isArray(normalizedIndex.days))
+        ? normalizedIndex.days
+        : normalizedIndex;
+
+    return {
+        manifest: normalizedIndex.manifest || {},
+        modules: (normalizedIndex.modules && typeof normalizedIndex.modules === 'object' && !Array.isArray(normalizedIndex.modules))
+            ? normalizedIndex.modules
+            : {},
+        days,
+        dayToModule: (normalizedIndex.dayToModule && typeof normalizedIndex.dayToModule === 'object' && !Array.isArray(normalizedIndex.dayToModule))
+            ? normalizedIndex.dayToModule
+            : {},
+        moduleToDay: (normalizedIndex.moduleToDay && typeof normalizedIndex.moduleToDay === 'object' && !Array.isArray(normalizedIndex.moduleToDay))
+            ? normalizedIndex.moduleToDay
+            : {}
+    };
+}
+
 function loadLevelIndex(level, callback) {
     if (LEVEL_INDEX_CACHE.has(level)) {
         callback(LEVEL_INDEX_CACHE.get(level));
@@ -222,14 +245,31 @@ function loadLevelIndex(level, callback) {
     const fallbackUrl = `data/dist/${level}/index.js`;
 
     fetchJsonWithFallback(primaryUrl, fallbackUrl, (indexData) => {
-        const normalizedIndex = (!indexData || typeof indexData !== 'object' || Array.isArray(indexData)) ? {} : indexData;
-        const dayIndex = (normalizedIndex.days && typeof normalizedIndex.days === 'object' && !Array.isArray(normalizedIndex.days))
-            ? normalizedIndex.days
-            : normalizedIndex;
+        const normalized = normalizeLevelIndex(indexData);
 
-        filterIndexByExistingDayFiles(level, dayIndex, (filteredIndex) => {
-            LEVEL_INDEX_CACHE.set(level, filteredIndex);
-            callback(filteredIndex);
+        filterIndexByExistingDayFiles(level, normalized.days, (filteredDays) => {
+            const filteredDayToModule = {};
+            const filteredModuleToDay = {};
+            Object.keys(filteredDays).forEach((day) => {
+                const explicitModuleId = filteredDays?.[day]?.moduleId;
+                const moduleId = explicitModuleId || normalized.dayToModule?.[day];
+                if (!moduleId) return;
+                filteredDayToModule[day] = moduleId;
+                filteredModuleToDay[moduleId] = Number(day);
+            });
+
+            const fullIndex = {
+                ...normalized,
+                days: filteredDays,
+                dayToModule: filteredDayToModule,
+                moduleToDay: {
+                    ...normalized.moduleToDay,
+                    ...filteredModuleToDay
+                }
+            };
+
+            LEVEL_INDEX_CACHE.set(level, fullIndex);
+            callback(fullIndex);
         });
     });
 }
@@ -248,6 +288,74 @@ function loadDayData(level, day, callback) {
         const merged = normalizeDayData(level, day, getOverrideData(level, day) || fileData || {});
         DAY_DATA_CACHE.set(cacheKey, merged);
         callback(merged);
+    });
+}
+
+function resolveDayByModule(level, moduleId, callback) {
+    loadLevelIndex(level, (indexData) => {
+        const mapped = indexData?.moduleToDay?.[moduleId];
+        if (mapped != null) {
+            callback(String(mapped), indexData);
+            return;
+        }
+
+        const moduleEntry = indexData?.modules?.[moduleId];
+        const legacyDay = Number(moduleEntry?.legacyDay);
+        if (Number.isInteger(legacyDay) && legacyDay > 0) {
+            callback(String(legacyDay), indexData);
+            return;
+        }
+
+        callback(null, indexData);
+    });
+}
+
+function loadViewerData(level, params, callback) {
+    const preferredModule = params?.module ? String(params.module) : '';
+    const fallbackDay = params?.day ? String(params.day) : '';
+
+    if (preferredModule) {
+        resolveDayByModule(level, preferredModule, (resolvedDay, indexData) => {
+            if (resolvedDay) {
+                loadDayData(level, resolvedDay, (data) => callback({
+                    data,
+                    day: resolvedDay,
+                    moduleId: preferredModule,
+                    moduleMeta: indexData?.modules?.[preferredModule] || null,
+                    indexData
+                }));
+                return;
+            }
+
+            if (!fallbackDay) {
+                callback({ data: null, day: null, moduleId: preferredModule, moduleMeta: null, indexData });
+                return;
+            }
+
+            loadDayData(level, fallbackDay, (data) => callback({
+                data,
+                day: fallbackDay,
+                moduleId: indexData?.dayToModule?.[fallbackDay] || '',
+                moduleMeta: null,
+                indexData
+            }));
+        });
+        return;
+    }
+
+    if (!fallbackDay) {
+        callback({ data: null, day: null, moduleId: '', moduleMeta: null, indexData: null });
+        return;
+    }
+
+    loadLevelIndex(level, (indexData) => {
+        loadDayData(level, fallbackDay, (data) => callback({
+            data,
+            day: fallbackDay,
+            moduleId: indexData?.dayToModule?.[fallbackDay] || '',
+            moduleMeta: null,
+            indexData
+        }));
     });
 }
 

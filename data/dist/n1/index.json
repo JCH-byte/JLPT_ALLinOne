@@ -1,92 +1,491 @@
 {
     "manifest": {
         "assignmentVersion": "item-assignment-v1",
-        "source": "data/src/n1.items.json"
+        "source": "data/src/n1.items.json",
+        "learningUnit": "module"
+    },
+    "modules": {
+        "n1-module-001": {
+            "moduleId": "n1-module-001",
+            "level": "n1",
+            "theme": "Legacy Day 1",
+            "communicativeGoal": "legacy day-1 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-1"
+            ],
+            "legacyDay": 1,
+            "title": "Day 1 단어장"
+        },
+        "n1-module-002": {
+            "moduleId": "n1-module-002",
+            "level": "n1",
+            "theme": "Legacy Day 2",
+            "communicativeGoal": "legacy day-2 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-2"
+            ],
+            "legacyDay": 2,
+            "title": "Day 2 단어장"
+        },
+        "n1-module-003": {
+            "moduleId": "n1-module-003",
+            "level": "n1",
+            "theme": "Legacy Day 3",
+            "communicativeGoal": "legacy day-3 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-3"
+            ],
+            "legacyDay": 3,
+            "title": "Day 3 단어장"
+        },
+        "n1-module-004": {
+            "moduleId": "n1-module-004",
+            "level": "n1",
+            "theme": "Legacy Day 4",
+            "communicativeGoal": "legacy day-4 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-4"
+            ],
+            "legacyDay": 4,
+            "title": "Day 4 단어장"
+        },
+        "n1-module-005": {
+            "moduleId": "n1-module-005",
+            "level": "n1",
+            "theme": "Legacy Day 5",
+            "communicativeGoal": "legacy day-5 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-5"
+            ],
+            "legacyDay": 5,
+            "title": "Day 5 단어장"
+        },
+        "n1-module-006": {
+            "moduleId": "n1-module-006",
+            "level": "n1",
+            "theme": "Legacy Day 6",
+            "communicativeGoal": "legacy day-6 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-6"
+            ],
+            "legacyDay": 6,
+            "title": "Day 6 단어장"
+        },
+        "n1-module-007": {
+            "moduleId": "n1-module-007",
+            "level": "n1",
+            "theme": "Legacy Day 7",
+            "communicativeGoal": "legacy day-7 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-7"
+            ],
+            "legacyDay": 7,
+            "title": "Day 7 단어장"
+        },
+        "n1-module-008": {
+            "moduleId": "n1-module-008",
+            "level": "n1",
+            "theme": "Legacy Day 8",
+            "communicativeGoal": "legacy day-8 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-8"
+            ],
+            "legacyDay": 8,
+            "title": "Day 8 단어장"
+        },
+        "n1-module-009": {
+            "moduleId": "n1-module-009",
+            "level": "n1",
+            "theme": "Legacy Day 9",
+            "communicativeGoal": "legacy day-9 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-9"
+            ],
+            "legacyDay": 9,
+            "title": "Day 9 단어장"
+        },
+        "n1-module-010": {
+            "moduleId": "n1-module-010",
+            "level": "n1",
+            "theme": "Legacy Day 10",
+            "communicativeGoal": "legacy day-10 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-10"
+            ],
+            "legacyDay": 10,
+            "title": "Day 10 단어장"
+        },
+        "n1-module-011": {
+            "moduleId": "n1-module-011",
+            "level": "n1",
+            "theme": "Legacy Day 11",
+            "communicativeGoal": "legacy day-11 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-11"
+            ],
+            "legacyDay": 11,
+            "title": "Day 11 단어장"
+        },
+        "n1-module-012": {
+            "moduleId": "n1-module-012",
+            "level": "n1",
+            "theme": "Legacy Day 12",
+            "communicativeGoal": "legacy day-12 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-12"
+            ],
+            "legacyDay": 12,
+            "title": "Day 12 단어장"
+        },
+        "n1-module-013": {
+            "moduleId": "n1-module-013",
+            "level": "n1",
+            "theme": "Legacy Day 13",
+            "communicativeGoal": "legacy day-13 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-13"
+            ],
+            "legacyDay": 13,
+            "title": "Day 13 단어장"
+        },
+        "n1-module-014": {
+            "moduleId": "n1-module-014",
+            "level": "n1",
+            "theme": "Legacy Day 14",
+            "communicativeGoal": "legacy day-14 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-14"
+            ],
+            "legacyDay": 14,
+            "title": "Day 14 단어장"
+        },
+        "n1-module-015": {
+            "moduleId": "n1-module-015",
+            "level": "n1",
+            "theme": "Legacy Day 15",
+            "communicativeGoal": "legacy day-15 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-15"
+            ],
+            "legacyDay": 15,
+            "title": "Day 15 단어장"
+        },
+        "n1-module-016": {
+            "moduleId": "n1-module-016",
+            "level": "n1",
+            "theme": "Legacy Day 16",
+            "communicativeGoal": "legacy day-16 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-16"
+            ],
+            "legacyDay": 16,
+            "title": "Day 16 단어장"
+        },
+        "n1-module-017": {
+            "moduleId": "n1-module-017",
+            "level": "n1",
+            "theme": "Legacy Day 17",
+            "communicativeGoal": "legacy day-17 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-17"
+            ],
+            "legacyDay": 17,
+            "title": "Day 17 단어장"
+        },
+        "n1-module-018": {
+            "moduleId": "n1-module-018",
+            "level": "n1",
+            "theme": "Legacy Day 18",
+            "communicativeGoal": "legacy day-18 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-18"
+            ],
+            "legacyDay": 18,
+            "title": "Day 18 단어장"
+        },
+        "n1-module-019": {
+            "moduleId": "n1-module-019",
+            "level": "n1",
+            "theme": "Legacy Day 19",
+            "communicativeGoal": "legacy day-19 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-19"
+            ],
+            "legacyDay": 19,
+            "title": "Day 19 단어장"
+        },
+        "n1-module-020": {
+            "moduleId": "n1-module-020",
+            "level": "n1",
+            "theme": "Legacy Day 20",
+            "communicativeGoal": "legacy day-20 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-20"
+            ],
+            "legacyDay": 20,
+            "title": "Day 20 단어장"
+        },
+        "n1-module-021": {
+            "moduleId": "n1-module-021",
+            "level": "n1",
+            "theme": "Legacy Day 21",
+            "communicativeGoal": "legacy day-21 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-21"
+            ],
+            "legacyDay": 21,
+            "title": "Day 21 단어장"
+        },
+        "n1-module-022": {
+            "moduleId": "n1-module-022",
+            "level": "n1",
+            "theme": "Legacy Day 22",
+            "communicativeGoal": "legacy day-22 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-22"
+            ],
+            "legacyDay": 22,
+            "title": "Day 22 단어장"
+        },
+        "n1-module-023": {
+            "moduleId": "n1-module-023",
+            "level": "n1",
+            "theme": "Legacy Day 23",
+            "communicativeGoal": "legacy day-23 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-23"
+            ],
+            "legacyDay": 23,
+            "title": "Day 23 단어장"
+        },
+        "n1-module-024": {
+            "moduleId": "n1-module-024",
+            "level": "n1",
+            "theme": "Legacy Day 24",
+            "communicativeGoal": "legacy day-24 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-24"
+            ],
+            "legacyDay": 24,
+            "title": "Day 24 단어장"
+        },
+        "n1-module-025": {
+            "moduleId": "n1-module-025",
+            "level": "n1",
+            "theme": "Legacy Day 25",
+            "communicativeGoal": "legacy day-25 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-25"
+            ],
+            "legacyDay": 25,
+            "title": "Day 25 단어장"
+        },
+        "n1-module-026": {
+            "moduleId": "n1-module-026",
+            "level": "n1",
+            "theme": "Legacy Day 26",
+            "communicativeGoal": "legacy day-26 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-26"
+            ],
+            "legacyDay": 26,
+            "title": "Day 26 단어장"
+        },
+        "n1-module-027": {
+            "moduleId": "n1-module-027",
+            "level": "n1",
+            "theme": "Legacy Day 27",
+            "communicativeGoal": "legacy day-27 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-27"
+            ],
+            "legacyDay": 27,
+            "title": "Day 27 단어장"
+        },
+        "n1-module-028": {
+            "moduleId": "n1-module-028",
+            "level": "n1",
+            "theme": "Legacy Day 28",
+            "communicativeGoal": "legacy day-28 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-28"
+            ],
+            "legacyDay": 28,
+            "title": "Day 28 단어장"
+        }
     },
     "days": {
         "1": {
-            "title": "Day 1 단어장"
+            "title": "Day 1 단어장",
+            "moduleId": "n1-module-001"
         },
         "2": {
-            "title": "Day 2 단어장"
+            "title": "Day 2 단어장",
+            "moduleId": "n1-module-002"
         },
         "3": {
-            "title": "Day 3 단어장"
+            "title": "Day 3 단어장",
+            "moduleId": "n1-module-003"
         },
         "4": {
-            "title": "Day 4 단어장"
+            "title": "Day 4 단어장",
+            "moduleId": "n1-module-004"
         },
         "5": {
-            "title": "Day 5 단어장"
+            "title": "Day 5 단어장",
+            "moduleId": "n1-module-005"
         },
         "6": {
-            "title": "Day 6 단어장"
+            "title": "Day 6 단어장",
+            "moduleId": "n1-module-006"
         },
         "7": {
-            "title": "Day 7 단어장"
+            "title": "Day 7 단어장",
+            "moduleId": "n1-module-007"
         },
         "8": {
-            "title": "Day 8 단어장"
+            "title": "Day 8 단어장",
+            "moduleId": "n1-module-008"
         },
         "9": {
-            "title": "Day 9 단어장"
+            "title": "Day 9 단어장",
+            "moduleId": "n1-module-009"
         },
         "10": {
-            "title": "Day 10 단어장"
+            "title": "Day 10 단어장",
+            "moduleId": "n1-module-010"
         },
         "11": {
-            "title": "Day 11 단어장"
+            "title": "Day 11 단어장",
+            "moduleId": "n1-module-011"
         },
         "12": {
-            "title": "Day 12 단어장"
+            "title": "Day 12 단어장",
+            "moduleId": "n1-module-012"
         },
         "13": {
-            "title": "Day 13 단어장"
+            "title": "Day 13 단어장",
+            "moduleId": "n1-module-013"
         },
         "14": {
-            "title": "Day 14 단어장"
+            "title": "Day 14 단어장",
+            "moduleId": "n1-module-014"
         },
         "15": {
-            "title": "Day 15 단어장"
+            "title": "Day 15 단어장",
+            "moduleId": "n1-module-015"
         },
         "16": {
-            "title": "Day 16 단어장"
+            "title": "Day 16 단어장",
+            "moduleId": "n1-module-016"
         },
         "17": {
-            "title": "Day 17 단어장"
+            "title": "Day 17 단어장",
+            "moduleId": "n1-module-017"
         },
         "18": {
-            "title": "Day 18 단어장"
+            "title": "Day 18 단어장",
+            "moduleId": "n1-module-018"
         },
         "19": {
-            "title": "Day 19 단어장"
+            "title": "Day 19 단어장",
+            "moduleId": "n1-module-019"
         },
         "20": {
-            "title": "Day 20 단어장"
+            "title": "Day 20 단어장",
+            "moduleId": "n1-module-020"
         },
         "21": {
-            "title": "Day 21 단어장"
+            "title": "Day 21 단어장",
+            "moduleId": "n1-module-021"
         },
         "22": {
-            "title": "Day 22 단어장"
+            "title": "Day 22 단어장",
+            "moduleId": "n1-module-022"
         },
         "23": {
-            "title": "Day 23 단어장"
+            "title": "Day 23 단어장",
+            "moduleId": "n1-module-023"
         },
         "24": {
-            "title": "Day 24 단어장"
+            "title": "Day 24 단어장",
+            "moduleId": "n1-module-024"
         },
         "25": {
-            "title": "Day 25 단어장"
+            "title": "Day 25 단어장",
+            "moduleId": "n1-module-025"
         },
         "26": {
-            "title": "Day 26 단어장"
+            "title": "Day 26 단어장",
+            "moduleId": "n1-module-026"
         },
         "27": {
-            "title": "Day 27 단어장"
+            "title": "Day 27 단어장",
+            "moduleId": "n1-module-027"
         },
         "28": {
-            "title": "Day 28 단어장"
+            "title": "Day 28 단어장",
+            "moduleId": "n1-module-028"
         }
+    },
+    "dayToModule": {
+        "1": "n1-module-001",
+        "2": "n1-module-002",
+        "3": "n1-module-003",
+        "4": "n1-module-004",
+        "5": "n1-module-005",
+        "6": "n1-module-006",
+        "7": "n1-module-007",
+        "8": "n1-module-008",
+        "9": "n1-module-009",
+        "10": "n1-module-010",
+        "11": "n1-module-011",
+        "12": "n1-module-012",
+        "13": "n1-module-013",
+        "14": "n1-module-014",
+        "15": "n1-module-015",
+        "16": "n1-module-016",
+        "17": "n1-module-017",
+        "18": "n1-module-018",
+        "19": "n1-module-019",
+        "20": "n1-module-020",
+        "21": "n1-module-021",
+        "22": "n1-module-022",
+        "23": "n1-module-023",
+        "24": "n1-module-024",
+        "25": "n1-module-025",
+        "26": "n1-module-026",
+        "27": "n1-module-027",
+        "28": "n1-module-028"
+    },
+    "moduleToDay": {
+        "n1-module-001": 1,
+        "n1-module-002": 2,
+        "n1-module-003": 3,
+        "n1-module-004": 4,
+        "n1-module-005": 5,
+        "n1-module-006": 6,
+        "n1-module-007": 7,
+        "n1-module-008": 8,
+        "n1-module-009": 9,
+        "n1-module-010": 10,
+        "n1-module-011": 11,
+        "n1-module-012": 12,
+        "n1-module-013": 13,
+        "n1-module-014": 14,
+        "n1-module-015": 15,
+        "n1-module-016": 16,
+        "n1-module-017": 17,
+        "n1-module-018": 18,
+        "n1-module-019": 19,
+        "n1-module-020": 20,
+        "n1-module-021": 21,
+        "n1-module-022": 22,
+        "n1-module-023": 23,
+        "n1-module-024": 24,
+        "n1-module-025": 25,
+        "n1-module-026": 26,
+        "n1-module-027": 27,
+        "n1-module-028": 28
     }
 }

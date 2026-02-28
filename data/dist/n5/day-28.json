@@ -121,127 +121,169 @@
             "word": "ありがとうございます",
             "read": "ありがとうございます",
             "mean": "고맙습니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "いいえ",
             "read": "いいえ",
             "mean": "아니요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "いただきます",
             "read": "いただきます",
             "mean": "잘 먹겠습니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "いらっしゃいませ",
             "read": "いらっしゃいませ",
             "mean": "어서 오세요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "おねがいします",
             "read": "おねがいします",
             "mean": "부탁합니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "おはようございます",
             "read": "おはようございます",
             "mean": "안녕하세요(아침)",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "お休みなさい",
             "read": "おやすみなさい",
             "mean": "안녕히 주무세요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "ごちそうさまでした",
             "read": "ごちそうさまでした",
             "mean": "잘 먹었습니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "こちらこそ",
             "read": "こちらこそ",
             "mean": "저야말로",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "ごめんなさい",
             "read": "ごめんなさい",
             "mean": "미안합니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "こんにちは",
             "read": "こんにちは",
             "mean": "안녕하세요(점심)",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "こんばんは",
             "read": "こんばんは",
             "mean": "안녕하세요(저녁)",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "さようなら",
             "read": "さようなら",
             "mean": "안녕히 가세요/계세요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "失礼します",
             "read": "しつれいします",
             "mean": "실례합니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "すみません",
             "read": "すみません",
             "mean": "죄송합니다/잠기만요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "どういたしまして",
             "read": "どういたしまして",
             "mean": "천만에요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "どうぞ",
             "read": "どうぞ",
             "mean": "자/여기/어서",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "はい",
             "read": "はい",
             "mean": "네",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "はじめまして",
             "read": "はじめまして",
             "mean": "처음 뵙겠습니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "もしもし",
             "read": "もしもし",
             "mean": "여보세요",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         },
         {
             "word": "よろしくお願いします",
             "read": "よろしくおねがいします",
             "mean": "잘 부탁합니다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-028",
+            "legacyDay": 28
         }
     ],
     "quiz": [
