@@ -6,50 +6,44 @@
 
 function initViewer() {
     const level = getQueryParam('level') || 'n4';
+    const moduleId = getQueryParam('module');
     const day = getQueryParam('day');
-    
-    // 테마 설정을 위해 body 속성 설정
+
     document.body.setAttribute('data-theme', level);
 
-    loadDayData(level, day, (data) => {
+    loadViewerData(level, { module: moduleId, day }, (result) => {
         const container = document.getElementById('viewer-content') || document.body;
+        const resolvedDay = result?.day;
+        const resolvedModule = result?.moduleId || moduleId || '';
+        const data = result?.data;
 
-        if (!day || !data) {
+        if (!resolvedDay || !data) {
             const msg = `<div class="empty-state" style="padding:40px; text-align:center;">
                             <h3>데이터 없음</h3>
-                            <p>Day ${day || '?'} 데이터를 불러올 수 없습니다.</p>
+                            <p>Module ${resolvedModule || '?'} 데이터를 불러올 수 없습니다.</p>
                          </div>`;
             if (document.getElementById('viewer-content')) container.innerHTML = msg;
             else document.body.innerHTML = msg;
             return;
         }
-        renderViewerContent(level, day, data);
+
+        renderViewerContent(level, resolvedDay, resolvedModule, data, result?.indexData || null);
     });
 }
 
-function renderViewerContent(level, day, data) {
-    document.title = `[${level.toUpperCase()}] Day ${day}`;
-    
-    // 헤더 업데이트
+function renderViewerContent(level, day, moduleId, data, indexData) {
+    document.title = `[${level.toUpperCase()}] ${moduleId || `Day ${day}`}`;
+
     const headerTitle = document.getElementById('header-title');
     if (headerTitle) headerTitle.textContent = data.title;
     const badge = document.getElementById('badge-level');
-    if (badge) badge.textContent = level.toUpperCase();
+    if (badge) badge.textContent = moduleId ? `${level.toUpperCase()} · ${moduleId}` : level.toUpperCase();
 
-    // 1. Story & Analysis Section
     renderStorySection(data);
-
-    // 2. Vocab Section (리스트 + 플래시카드 데이터 설정)
-    renderVocabSection(level, day, data);
-
-    // 3. Quiz Section
+    renderVocabSection(level, day, moduleId, data);
     renderQuizSection(data);
-
-    // 4. Navigation Buttons
-    updateNavButtons(level, parseInt(day));
+    updateNavButtons(level, day, moduleId, indexData);
 }
-
-// --- 내부 렌더링 헬퍼 함수들 ---
 
 function renderStorySection(data) {
     const storyContent = document.getElementById('story-content');
@@ -59,7 +53,7 @@ function renderStorySection(data) {
     if (data.story && storyContent) {
         if(storySection) storySection.style.display = 'block';
         storyContent.innerHTML = data.story;
-        
+
         if(analysisList) {
             analysisList.innerHTML = '';
             data.analysis.forEach(item => {
@@ -80,32 +74,27 @@ function renderStorySection(data) {
     }
 }
 
-function renderVocabSection(level, day, data) {
+function renderVocabSection(level, day, moduleId, data) {
     const vocabTbody = document.getElementById('vocab-tbody');
     const vocabSection = document.getElementById('section-vocab') || (vocabTbody ? vocabTbody.closest('section') : null);
 
     if (vocabTbody && data.vocab.length > 0) {
         if(vocabSection) vocabSection.style.display = 'block';
         vocabTbody.innerHTML = '';
-        
+
         data.vocab.forEach((v, idx) => {
             const tr = document.createElement('tr');
-            
-            // 체크박스 상태 로드
-            const checkId = `${level}_day${day}_v_${idx}`;
+            const progressKeyBase = moduleId || `day${day}`;
+            const checkId = `${level}_${progressKeyBase}_v_${idx}`;
             const isChecked = localStorage.getItem(checkId) === 'true';
-            
-            // 별표 상태 확인 (bookmark-service.js)
             const isStar = isStarred(level, day, v.word);
-            
+
             tr.className = isChecked ? 'checked-row' : '';
-            
-            // HTML 속성에 넣기 위해 JSON 문자열 이스케이프
             const vJson = JSON.stringify(v).replace(/"/g, '&quot;');
 
             tr.innerHTML = `
                 <td class="col-star">
-                    <button class="star-btn ${isStar ? 'active' : ''}" 
+                    <button class="star-btn ${isStar ? 'active' : ''}"
                             onclick="toggleStar('${level}', '${day}', ${vJson}, this); event.stopPropagation();">
                         ${isStar ? '★' : '☆'}
                     </button>
@@ -115,23 +104,21 @@ function renderVocabSection(level, day, data) {
                 <td class="col-read">${v.read || v.reading || ""}</td>
                 <td class="col-mean"><span>${v.mean || v.meaning || ""}</span></td>
             `;
-            
-            // 체크박스 이벤트 리스너
+
             tr.querySelector('input[type="checkbox"]').addEventListener('change', (e) => {
-                if(e.target.checked) { 
-                    localStorage.setItem(checkId, 'true'); 
-                    tr.classList.add('checked-row'); 
-                } else { 
-                    localStorage.removeItem(checkId); 
-                    tr.classList.remove('checked-row'); 
+                if(e.target.checked) {
+                    localStorage.setItem(checkId, 'true');
+                    tr.classList.add('checked-row');
+                } else {
+                    localStorage.removeItem(checkId);
+                    tr.classList.remove('checked-row');
                 }
             });
             vocabTbody.appendChild(tr);
         });
-        
-        // 플래시카드 데이터 초기화 (flashcard-controller.js)
+
         if(typeof renderFlashcards === 'function') renderFlashcards(data.vocab);
-        
+
     } else if (vocabSection) {
         vocabSection.style.display = 'none';
     }
@@ -144,15 +131,14 @@ function renderQuizSection(data) {
     if (quizContainer && data.quiz && data.quiz.length > 0) {
         if(quizSection) quizSection.style.display = 'block';
         quizContainer.innerHTML = '';
-        
+
         data.quiz.forEach((q, i) => {
             const div = document.createElement('div');
             div.className = 'quiz-item';
-            
+
             const qText = q.q || q.question || "";
             let opts = q.opt || q.options || [];
-            
-            // 정답 인덱스 파싱 (숫자 혹은 "1. 설명" 형식)
+
             let ansIdx = -1;
             if (typeof q.ans === 'number') {
                 ansIdx = q.ans;
@@ -162,15 +148,14 @@ function renderQuizSection(data) {
             }
 
             const comment = q.comment || "정답입니다!";
-            const safeComment = comment.replace(/"/g, '&quot;'); 
+            const safeComment = comment.replace(/"/g, '&quot;');
 
             let html = `<div class="quiz-q">Q${i+1}. ${qText}</div>`;
-            
+
             if (Array.isArray(opts) && opts.length > 0) {
-                // 객관식
                 html += `<div class="quiz-options-grid">`;
                 opts.forEach((opt, oIdx) => {
-                    html += `<button class="quiz-opt-btn" 
+                    html += `<button class="quiz-opt-btn"
                                 data-is-correct="${oIdx === ansIdx}"
                                 data-correct-idx="${ansIdx}"
                                 data-comment="${safeComment}"
@@ -180,9 +165,8 @@ function renderQuizSection(data) {
                 });
                 html += `</div>`;
                 html += `<div class="quiz-feedback" id="quiz-feedback-${i}"></div>`;
-                
+
             } else {
-                // 주관식/단답형 (간이)
                 html += `<div class="quiz-opt" style="background:#f9f9f9; padding:10px; margin-bottom:10px;">${opts}</div>`;
                 html += `<button class="btn-check-answer" onclick="this.nextElementSibling.classList.toggle('visible')">정답 확인</button>`;
                 html += `<div class="quiz-ans">${q.ans} <br><small>${comment}</small></div>`;
@@ -196,22 +180,54 @@ function renderQuizSection(data) {
     }
 }
 
-function updateNavButtons(level, currentDay) {
+function updateNavButtons(level, currentDay, currentModuleId, indexData) {
     const prevBtn = document.getElementById('btn-prev');
     const nextBtn = document.getElementById('btn-next');
+
+    if (currentModuleId && indexData && indexData.moduleToDay) {
+        const modules = Object.keys(indexData.moduleToDay)
+            .map((moduleId) => ({ moduleId, day: Number(indexData.moduleToDay[moduleId]) }))
+            .filter((entry) => Number.isInteger(entry.day) && entry.day > 0)
+            .sort((a, b) => a.day - b.day);
+
+        const currentIndex = modules.findIndex(entry => entry.moduleId === currentModuleId);
+        const prev = currentIndex > 0 ? modules[currentIndex - 1] : null;
+        const next = currentIndex >= 0 && currentIndex < modules.length - 1 ? modules[currentIndex + 1] : null;
+
+        if (prevBtn) {
+            if (prev) {
+                prevBtn.href = `viewer.html?level=${level}&module=${encodeURIComponent(prev.moduleId)}`;
+                prevBtn.classList.remove('disabled');
+            } else {
+                prevBtn.classList.add('disabled');
+                prevBtn.removeAttribute('href');
+            }
+        }
+        if (nextBtn) {
+            if (next) {
+                nextBtn.href = `viewer.html?level=${level}&module=${encodeURIComponent(next.moduleId)}`;
+                nextBtn.classList.remove('disabled');
+            } else {
+                nextBtn.classList.add('disabled');
+                nextBtn.removeAttribute('href');
+            }
+        }
+        return;
+    }
+
+    const numericDay = Number(currentDay);
     if (prevBtn) {
-        if (currentDay > 1) {
-            prevBtn.href = `viewer.html?level=${level}&day=${currentDay - 1}`;
+        if (numericDay > 1) {
+            prevBtn.href = `viewer.html?level=${level}&day=${numericDay - 1}`;
             prevBtn.classList.remove('disabled');
         } else {
             prevBtn.classList.add('disabled');
             prevBtn.removeAttribute('href');
         }
     }
-    if (nextBtn) nextBtn.href = `viewer.html?level=${level}&day=${currentDay + 1}`;
+    if (nextBtn) nextBtn.href = `viewer.html?level=${level}&day=${numericDay + 1}`;
 }
 
-// UI Helpers (Toggle)
 function toggleMeanings() {
     const table = document.getElementById('vocab-table');
     const btn = document.getElementById('btn-toggle-mean');
@@ -232,7 +248,6 @@ function toggleViewMode(mode) {
             list.style.display = 'none'; card.style.display = 'flex';
             if(btnList) btnList.classList.remove('active');
             if(btnCard) btnCard.classList.add('active');
-            // Flashcard controller 호출
             showFlashcard(0);
         } else {
             list.style.display = 'block'; card.style.display = 'none';

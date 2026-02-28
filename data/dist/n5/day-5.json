@@ -89,109 +89,145 @@
             "word": "車",
             "read": "くるま",
             "mean": "자동차",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "警官",
             "read": "けいかん",
             "mean": "경찰관",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "子",
             "read": "こ",
             "mean": "아이",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "公園",
             "read": "こうえん",
             "mean": "공원",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "紅茶",
             "read": "こうちゃ",
             "mean": "홍차",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "交番",
             "read": "こうばん",
             "mean": "파출소",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "声",
             "read": "こえ",
             "mean": "목소리",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "ここ",
             "read": "ここ",
             "mean": "여기",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "午後",
             "read": "ごご",
             "mean": "오후",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "午前",
             "read": "ごぜん",
             "mean": "오전",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "今年",
             "read": "ことし",
             "mean": "올해",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "子ども",
             "read": "こども",
             "mean": "어린이",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "ご飯",
             "read": "ごはん",
             "mean": "밥",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "これ",
             "read": "これ",
             "mean": "이것",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "今月",
             "read": "こんげつ",
             "mean": "이번 달",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "今週",
             "read": "こんしゅう",
             "mean": "이번 주",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "今晩",
             "read": "こんばん",
             "mean": "오늘 밤",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         },
         {
             "word": "最後",
             "read": "さいご",
             "mean": "마지막",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-005",
+            "legacyDay": 5
         }
     ],
     "quiz": [

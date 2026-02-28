@@ -1,92 +1,491 @@
 {
     "manifest": {
         "assignmentVersion": "item-assignment-v1",
-        "source": "data/src/n5.items.json"
+        "source": "data/src/n5.items.json",
+        "learningUnit": "module"
+    },
+    "modules": {
+        "n5-module-001": {
+            "moduleId": "n5-module-001",
+            "level": "n5",
+            "theme": "Legacy Day 1",
+            "communicativeGoal": "legacy day-1 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-1"
+            ],
+            "legacyDay": 1,
+            "title": "Day 1: 朝の始まりと日常 (아침의 시작과 일상)"
+        },
+        "n5-module-002": {
+            "moduleId": "n5-module-002",
+            "level": "n5",
+            "theme": "Legacy Day 2",
+            "communicativeGoal": "legacy day-2 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-2"
+            ],
+            "legacyDay": 2,
+            "title": "Day 2: 家族と町、そして趣味 (가족과 마을, 그리고 취미)"
+        },
+        "n5-module-003": {
+            "moduleId": "n5-module-003",
+            "level": "n5",
+            "theme": "Legacy Day 3",
+            "communicativeGoal": "legacy day-3 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-3"
+            ],
+            "legacyDay": 3,
+            "title": "Day 3: 家族と人と会社 (가족과 사람과 회사)"
+        },
+        "n5-module-004": {
+            "moduleId": "n5-module-004",
+            "level": "n5",
+            "theme": "Legacy Day 4",
+            "communicativeGoal": "legacy day-4 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-4"
+            ],
+            "legacyDay": 4,
+            "title": "Day 4: 学校生活と健康、そして旅の準備 (학교 생활과 건강, 그리고 여행 준비)"
+        },
+        "n5-module-005": {
+            "moduleId": "n5-module-005",
+            "level": "n5",
+            "theme": "Legacy Day 5",
+            "communicativeGoal": "legacy day-5 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-5"
+            ],
+            "legacyDay": 5,
+            "title": "Day 5: 公園とカフェでの一日 (공원과 카페에서의 하루)"
+        },
+        "n5-module-006": {
+            "moduleId": "n5-module-006",
+            "level": "n5",
+            "theme": "Legacy Day 6",
+            "communicativeGoal": "legacy day-6 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-6"
+            ],
+            "legacyDay": 6,
+            "title": "Day 6: 日常の風景と買い物 (일상의 풍경과 쇼핑)"
+        },
+        "n5-module-007": {
+            "moduleId": "n5-module-007",
+            "level": "n5",
+            "theme": "Legacy Day 7",
+            "communicativeGoal": "legacy day-7 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-7"
+            ],
+            "legacyDay": 7,
+            "title": "Day 7: 父の誕生日と外出 (아버지의 생일과 외출)"
+        },
+        "n5-module-008": {
+            "moduleId": "n5-module-008",
+            "level": "n5",
+            "theme": "Legacy Day 8",
+            "communicativeGoal": "legacy day-8 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-8"
+            ],
+            "legacyDay": 8,
+            "title": "Day 8: 季節の変わり目と留学生 (계절의 변화와 유학생)"
+        },
+        "n5-module-009": {
+            "moduleId": "n5-module-009",
+            "level": "n5",
+            "theme": "Legacy Day 9",
+            "communicativeGoal": "legacy day-9 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-9"
+            ],
+            "legacyDay": 9,
+            "title": "Day 9: 冬の生活と町 (겨울 생활과 마을)"
+        },
+        "n5-module-010": {
+            "moduleId": "n5-module-010",
+            "level": "n5",
+            "theme": "Legacy Day 10",
+            "communicativeGoal": "legacy day-10 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-10"
+            ],
+            "legacyDay": 10,
+            "title": "Day 10: 家族と生活 (가족과 생활)"
+        },
+        "n5-module-011": {
+            "moduleId": "n5-module-011",
+            "level": "n5",
+            "theme": "Legacy Day 11",
+            "communicativeGoal": "legacy day-11 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-11"
+            ],
+            "legacyDay": 11,
+            "title": "Day 11: 数の数え方 (수를 세는 법)"
+        },
+        "n5-module-012": {
+            "moduleId": "n5-module-012",
+            "level": "n5",
+            "theme": "Legacy Day 12",
+            "communicativeGoal": "legacy day-12 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-12"
+            ],
+            "legacyDay": 12,
+            "title": "Day 12: 階・回・番 (층, 횟수, 번호)"
+        },
+        "n5-module-013": {
+            "moduleId": "n5-module-013",
+            "level": "n5",
+            "theme": "Legacy Day 13",
+            "communicativeGoal": "legacy day-13 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-13"
+            ],
+            "legacyDay": 13,
+            "title": "Day 13: お金・年月 (돈, 연, 월)"
+        },
+        "n5-module-014": {
+            "moduleId": "n5-module-014",
+            "level": "n5",
+            "theme": "Legacy Day 14",
+            "communicativeGoal": "legacy day-14 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-14"
+            ],
+            "legacyDay": 14,
+            "title": "Day 14: 日付と時間 (날짜와 시간)"
+        },
+        "n5-module-015": {
+            "moduleId": "n5-module-015",
+            "level": "n5",
+            "theme": "Legacy Day 15",
+            "communicativeGoal": "legacy day-15 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-15"
+            ],
+            "legacyDay": 15,
+            "title": "Day 15: 時間・曜日・飲み物 (시간, 요일, 음료)"
+        },
+        "n5-module-016": {
+            "moduleId": "n5-module-016",
+            "level": "n5",
+            "theme": "Legacy Day 16",
+            "communicativeGoal": "legacy day-16 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-16"
+            ],
+            "legacyDay": 16,
+            "title": "Day 16: 倍・本・枚 (배수, 자루/병, 장)"
+        },
+        "n5-module-017": {
+            "moduleId": "n5-module-017",
+            "level": "n5",
+            "theme": "Legacy Day 17",
+            "communicativeGoal": "legacy day-17 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-17"
+            ],
+            "legacyDay": 17,
+            "title": "Day 17: 人と動物の数え方 (사람과 동물 세는 법)"
+        },
+        "n5-module-018": {
+            "moduleId": "n5-module-018",
+            "level": "n5",
+            "theme": "Legacy Day 18",
+            "communicativeGoal": "legacy day-18 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-18"
+            ],
+            "legacyDay": 18,
+            "title": "Day 18: 毎日の動作 (매일의 동작)"
+        },
+        "n5-module-019": {
+            "moduleId": "n5-module-019",
+            "level": "n5",
+            "theme": "Legacy Day 19",
+            "communicativeGoal": "legacy day-19 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-19"
+            ],
+            "legacyDay": 19,
+            "title": "Day 19: いろいろな動詞 (여러 가지 동사)"
+        },
+        "n5-module-020": {
+            "moduleId": "n5-module-020",
+            "level": "n5",
+            "theme": "Legacy Day 20",
+            "communicativeGoal": "legacy day-20 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-20"
+            ],
+            "legacyDay": 20,
+            "title": "Day 20: 趣味と日常の動作 (취미와 일상의 동작)"
+        },
+        "n5-module-021": {
+            "moduleId": "n5-module-021",
+            "level": "n5",
+            "theme": "Legacy Day 21",
+            "communicativeGoal": "legacy day-21 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-21"
+            ],
+            "legacyDay": 21,
+            "title": "Day 21: い形容詞・1 (이형용사 1 - 성질과 상태)"
+        },
+        "n5-module-022": {
+            "moduleId": "n5-module-022",
+            "level": "n5",
+            "theme": "Legacy Day 22",
+            "communicativeGoal": "legacy day-22 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-22"
+            ],
+            "legacyDay": 22,
+            "title": "Day 22: い形容詞・2 (이형용사 2 - 감각과 평가)"
+        },
+        "n5-module-023": {
+            "moduleId": "n5-module-023",
+            "level": "n5",
+            "theme": "Legacy Day 23",
+            "communicativeGoal": "legacy day-23 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-23"
+            ],
+            "legacyDay": 23,
+            "title": "Day 23: な形容詞・連体詞 (나형용사・연체사)"
+        },
+        "n5-module-024": {
+            "moduleId": "n5-module-024",
+            "level": "n5",
+            "theme": "Legacy Day 24",
+            "communicativeGoal": "legacy day-24 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-24"
+            ],
+            "legacyDay": 24,
+            "title": "Day 24: 副詞・疑問詞 (부사・의문사)"
+        },
+        "n5-module-025": {
+            "moduleId": "n5-module-025",
+            "level": "n5",
+            "theme": "Legacy Day 25",
+            "communicativeGoal": "legacy day-25 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-25"
+            ],
+            "legacyDay": 25,
+            "title": "Day 25: 指示詞・副助詞 (지시사・부조사)"
+        },
+        "n5-module-026": {
+            "moduleId": "n5-module-026",
+            "level": "n5",
+            "theme": "Legacy Day 26",
+            "communicativeGoal": "legacy day-26 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-26"
+            ],
+            "legacyDay": 26,
+            "title": "Day 26: カタカナ語・生活用品 (가타카나어・생활용품)"
+        },
+        "n5-module-027": {
+            "moduleId": "n5-module-027",
+            "level": "n5",
+            "theme": "Legacy Day 27",
+            "communicativeGoal": "legacy day-27 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-27"
+            ],
+            "legacyDay": 27,
+            "title": "Day 27: カタカナ語・2 (가타카나어 2 - 외출과 모임)"
+        },
+        "n5-module-028": {
+            "moduleId": "n5-module-028",
+            "level": "n5",
+            "theme": "Legacy Day 28",
+            "communicativeGoal": "legacy day-28 학습 내용을 module 기반으로 이관",
+            "targetGrammar": [
+                "day-28"
+            ],
+            "legacyDay": 28,
+            "title": "Day 28: 挨拶と思いやり (인사와 배려)"
+        }
     },
     "days": {
         "1": {
-            "title": "Day 1: 朝の始まりと日常 (아침의 시작과 일상)"
+            "title": "Day 1: 朝の始まりと日常 (아침의 시작과 일상)",
+            "moduleId": "n5-module-001"
         },
         "2": {
-            "title": "Day 2: 家族と町、そして趣味 (가족과 마을, 그리고 취미)"
+            "title": "Day 2: 家族と町、そして趣味 (가족과 마을, 그리고 취미)",
+            "moduleId": "n5-module-002"
         },
         "3": {
-            "title": "Day 3: 家族と人と会社 (가족과 사람과 회사)"
+            "title": "Day 3: 家族と人と会社 (가족과 사람과 회사)",
+            "moduleId": "n5-module-003"
         },
         "4": {
-            "title": "Day 4: 学校生活と健康、そして旅の準備 (학교 생활과 건강, 그리고 여행 준비)"
+            "title": "Day 4: 学校生活と健康、そして旅の準備 (학교 생활과 건강, 그리고 여행 준비)",
+            "moduleId": "n5-module-004"
         },
         "5": {
-            "title": "Day 5: 公園とカフェでの一日 (공원과 카페에서의 하루)"
+            "title": "Day 5: 公園とカフェでの一日 (공원과 카페에서의 하루)",
+            "moduleId": "n5-module-005"
         },
         "6": {
-            "title": "Day 6: 日常の風景と買い物 (일상의 풍경과 쇼핑)"
+            "title": "Day 6: 日常の風景と買い物 (일상의 풍경과 쇼핑)",
+            "moduleId": "n5-module-006"
         },
         "7": {
-            "title": "Day 7: 父の誕生日と外出 (아버지의 생일과 외출)"
+            "title": "Day 7: 父の誕生日と外出 (아버지의 생일과 외출)",
+            "moduleId": "n5-module-007"
         },
         "8": {
-            "title": "Day 8: 季節の変わり目と留学生 (계절의 변화와 유학생)"
+            "title": "Day 8: 季節の変わり目と留学生 (계절의 변화와 유학생)",
+            "moduleId": "n5-module-008"
         },
         "9": {
-            "title": "Day 9: 冬の生活と町 (겨울 생활과 마을)"
+            "title": "Day 9: 冬の生活と町 (겨울 생활과 마을)",
+            "moduleId": "n5-module-009"
         },
         "10": {
-            "title": "Day 10: 家族と生活 (가족과 생활)"
+            "title": "Day 10: 家族と生活 (가족과 생활)",
+            "moduleId": "n5-module-010"
         },
         "11": {
-            "title": "Day 11: 数の数え方 (수를 세는 법)"
+            "title": "Day 11: 数の数え方 (수를 세는 법)",
+            "moduleId": "n5-module-011"
         },
         "12": {
-            "title": "Day 12: 階・回・番 (층, 횟수, 번호)"
+            "title": "Day 12: 階・回・番 (층, 횟수, 번호)",
+            "moduleId": "n5-module-012"
         },
         "13": {
-            "title": "Day 13: お金・年月 (돈, 연, 월)"
+            "title": "Day 13: お金・年月 (돈, 연, 월)",
+            "moduleId": "n5-module-013"
         },
         "14": {
-            "title": "Day 14: 日付と時間 (날짜와 시간)"
+            "title": "Day 14: 日付と時間 (날짜와 시간)",
+            "moduleId": "n5-module-014"
         },
         "15": {
-            "title": "Day 15: 時間・曜日・飲み物 (시간, 요일, 음료)"
+            "title": "Day 15: 時間・曜日・飲み物 (시간, 요일, 음료)",
+            "moduleId": "n5-module-015"
         },
         "16": {
-            "title": "Day 16: 倍・本・枚 (배수, 자루/병, 장)"
+            "title": "Day 16: 倍・本・枚 (배수, 자루/병, 장)",
+            "moduleId": "n5-module-016"
         },
         "17": {
-            "title": "Day 17: 人と動物の数え方 (사람과 동물 세는 법)"
+            "title": "Day 17: 人と動物の数え方 (사람과 동물 세는 법)",
+            "moduleId": "n5-module-017"
         },
         "18": {
-            "title": "Day 18: 毎日の動作 (매일의 동작)"
+            "title": "Day 18: 毎日の動作 (매일의 동작)",
+            "moduleId": "n5-module-018"
         },
         "19": {
-            "title": "Day 19: いろいろな動詞 (여러 가지 동사)"
+            "title": "Day 19: いろいろな動詞 (여러 가지 동사)",
+            "moduleId": "n5-module-019"
         },
         "20": {
-            "title": "Day 20: 趣味と日常の動作 (취미와 일상의 동작)"
+            "title": "Day 20: 趣味と日常の動作 (취미와 일상의 동작)",
+            "moduleId": "n5-module-020"
         },
         "21": {
-            "title": "Day 21: い形容詞・1 (이형용사 1 - 성질과 상태)"
+            "title": "Day 21: い形容詞・1 (이형용사 1 - 성질과 상태)",
+            "moduleId": "n5-module-021"
         },
         "22": {
-            "title": "Day 22: い形容詞・2 (이형용사 2 - 감각과 평가)"
+            "title": "Day 22: い形容詞・2 (이형용사 2 - 감각과 평가)",
+            "moduleId": "n5-module-022"
         },
         "23": {
-            "title": "Day 23: な形容詞・連体詞 (나형용사・연체사)"
+            "title": "Day 23: な形容詞・連体詞 (나형용사・연체사)",
+            "moduleId": "n5-module-023"
         },
         "24": {
-            "title": "Day 24: 副詞・疑問詞 (부사・의문사)"
+            "title": "Day 24: 副詞・疑問詞 (부사・의문사)",
+            "moduleId": "n5-module-024"
         },
         "25": {
-            "title": "Day 25: 指示詞・副助詞 (지시사・부조사)"
+            "title": "Day 25: 指示詞・副助詞 (지시사・부조사)",
+            "moduleId": "n5-module-025"
         },
         "26": {
-            "title": "Day 26: カタカナ語・生活用品 (가타카나어・생활용품)"
+            "title": "Day 26: カタカナ語・生活用品 (가타카나어・생활용품)",
+            "moduleId": "n5-module-026"
         },
         "27": {
-            "title": "Day 27: カタカナ語・2 (가타카나어 2 - 외출과 모임)"
+            "title": "Day 27: カタカナ語・2 (가타카나어 2 - 외출과 모임)",
+            "moduleId": "n5-module-027"
         },
         "28": {
-            "title": "Day 28: 挨拶と思いやり (인사와 배려)"
+            "title": "Day 28: 挨拶と思いやり (인사와 배려)",
+            "moduleId": "n5-module-028"
         }
+    },
+    "dayToModule": {
+        "1": "n5-module-001",
+        "2": "n5-module-002",
+        "3": "n5-module-003",
+        "4": "n5-module-004",
+        "5": "n5-module-005",
+        "6": "n5-module-006",
+        "7": "n5-module-007",
+        "8": "n5-module-008",
+        "9": "n5-module-009",
+        "10": "n5-module-010",
+        "11": "n5-module-011",
+        "12": "n5-module-012",
+        "13": "n5-module-013",
+        "14": "n5-module-014",
+        "15": "n5-module-015",
+        "16": "n5-module-016",
+        "17": "n5-module-017",
+        "18": "n5-module-018",
+        "19": "n5-module-019",
+        "20": "n5-module-020",
+        "21": "n5-module-021",
+        "22": "n5-module-022",
+        "23": "n5-module-023",
+        "24": "n5-module-024",
+        "25": "n5-module-025",
+        "26": "n5-module-026",
+        "27": "n5-module-027",
+        "28": "n5-module-028"
+    },
+    "moduleToDay": {
+        "n5-module-001": 1,
+        "n5-module-002": 2,
+        "n5-module-003": 3,
+        "n5-module-004": 4,
+        "n5-module-005": 5,
+        "n5-module-006": 6,
+        "n5-module-007": 7,
+        "n5-module-008": 8,
+        "n5-module-009": 9,
+        "n5-module-010": 10,
+        "n5-module-011": 11,
+        "n5-module-012": 12,
+        "n5-module-013": 13,
+        "n5-module-014": 14,
+        "n5-module-015": 15,
+        "n5-module-016": 16,
+        "n5-module-017": 17,
+        "n5-module-018": 18,
+        "n5-module-019": 19,
+        "n5-module-020": 20,
+        "n5-module-021": 21,
+        "n5-module-022": 22,
+        "n5-module-023": 23,
+        "n5-module-024": 24,
+        "n5-module-025": 25,
+        "n5-module-026": 26,
+        "n5-module-027": 27,
+        "n5-module-028": 28
     }
 }

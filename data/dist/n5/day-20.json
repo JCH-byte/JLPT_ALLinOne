@@ -106,127 +106,169 @@
             "word": "寝る",
             "read": "ねる",
             "mean": "자다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "登る",
             "read": "のぼる",
             "mean": "오르다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "飲む",
             "read": "のむ",
             "mean": "마시다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "乗る",
             "read": "のる",
             "mean": "타다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "入る",
             "read": "はいる",
             "mean": "들어가다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "始まる",
             "read": "はじまる",
             "mean": "시작되다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "話す",
             "read": "はなす",
             "mean": "이야기하다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "はる",
             "read": "はる",
             "mean": "붙이다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "弾く",
             "read": "ひく",
             "mean": "치다/켜다(악기)",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "降る",
             "read": "ふる",
             "mean": "내리다(비/눈)",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "曲がる",
             "read": "まがる",
             "mean": "돌다/구부러지다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "待つ",
             "read": "まつ",
             "mean": "기다리다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "磨く",
             "read": "みがく",
             "mean": "닦다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "見せる",
             "read": "みせる",
             "mean": "보여주다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "見る",
             "read": "みる",
             "mean": "보다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "持つ",
             "read": "もつ",
             "mean": "가지다/들다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "もらう",
             "read": "もらう",
             "mean": "받다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "休む",
             "read": "やすむ",
             "mean": "쉬다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "呼ぶ",
             "read": "よぶ",
             "mean": "부르다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "読む",
             "read": "よむ",
             "mean": "읽다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         },
         {
             "word": "分かる",
             "read": "わかる",
             "mean": "알다",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-020",
+            "legacyDay": 20
         }
     ],
     "quiz": [

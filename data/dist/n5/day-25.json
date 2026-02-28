@@ -65,49 +65,65 @@
             "word": "あの",
             "read": "あの",
             "mean": "저",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         },
         {
             "word": "この",
             "read": "この",
             "mean": "이",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         },
         {
             "word": "その",
             "read": "その",
             "mean": "그",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         },
         {
             "word": "どの",
             "read": "どの",
             "mean": "어느",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         },
         {
             "word": "でも",
             "read": "でも",
             "mean": "하지만",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         },
         {
             "word": "〜くらい/ぐらい",
             "read": "くらい/ぐらい",
             "mean": "정도",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         },
         {
             "word": "〜ずつ",
             "read": "ずつ",
             "mean": "씩",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         },
         {
             "word": "〜だけ",
             "read": "だけ",
             "mean": "만/뿐",
-            "tags": []
+            "tags": [],
+            "moduleId": "n5-module-025",
+            "legacyDay": 25
         }
     ],
     "quiz": [
