@@ -26,7 +26,7 @@ function computeDataHash(payload) {
 }
 
 function validatePayload(payload) {
-    const required = ['level', 'day', 'version', 'dataHash', 'data'];
+    const required = ['level', 'day', 'version', 'dataHash', 'data', 'itemSource'];
     const missing = required.filter(key => payload[key] === undefined || payload[key] === null);
     if (missing.length > 0) {
         throw new Error(`Missing fields: ${missing.join(', ')}`);
@@ -40,10 +40,52 @@ function validatePayload(payload) {
     if (typeof payload.data !== 'object' || Array.isArray(payload.data)) {
         throw new Error('data must be an object');
     }
+    if (!Array.isArray(payload.itemSource)) {
+        throw new Error('itemSource must be an array');
+    }
     const recalculated = computeDataHash(payload);
     if (recalculated !== payload.dataHash) {
         throw new Error(`dataHash mismatch: expected ${recalculated}, received ${payload.dataHash}`);
     }
+}
+
+function summarizeItemChanges(previousItems, nextItems) {
+    const previousMap = new Map(previousItems.map(item => [String(item?.id || ''), item]));
+    const nextMap = new Map(nextItems.map(item => [String(item?.id || ''), item]));
+    let changedItemCount = 0;
+    const touchedDays = new Set();
+
+    nextItems.forEach(nextItem => {
+        const id = String(nextItem?.id || '');
+        const prevItem = previousMap.get(id);
+        if (!prevItem) {
+            changedItemCount += 1;
+            if (Number.isInteger(nextItem?.assignedDay)) touchedDays.add(nextItem.assignedDay);
+            return;
+        }
+        const prevDay = Number.isInteger(prevItem?.assignedDay) ? prevItem.assignedDay : null;
+        const nextDay = Number.isInteger(nextItem?.assignedDay) ? nextItem.assignedDay : null;
+        if (JSON.stringify(prevItem) !== JSON.stringify(nextItem)) {
+            changedItemCount += 1;
+        }
+        if (prevDay !== nextDay) {
+            if (prevDay) touchedDays.add(prevDay);
+            if (nextDay) touchedDays.add(nextDay);
+        }
+    });
+
+    previousItems.forEach(prevItem => {
+        const id = String(prevItem?.id || '');
+        if (!nextMap.has(id)) {
+            changedItemCount += 1;
+            if (Number.isInteger(prevItem?.assignedDay)) touchedDays.add(prevItem.assignedDay);
+        }
+    });
+
+    return {
+        changedItemCount,
+        dayRebalancedCount: touchedDays.size
+    };
 }
 
 function updateSourceDay(repoRoot, payload) {
@@ -54,7 +96,17 @@ function updateSourceDay(repoRoot, payload) {
     fs.writeFileSync(srcPath, `${JSON.stringify(parsed, null, 4)}\n`, 'utf8');
 }
 
-function buildPrBody(payload, branchName) {
+function updateSourceItems(repoRoot, payload) {
+    const itemPath = path.join(repoRoot, 'data', 'src', `${payload.level}.items.json`);
+    const raw = fs.readFileSync(itemPath, 'utf8');
+    const parsed = JSON.parse(raw);
+    const previousItems = Array.isArray(parsed.items) ? parsed.items : [];
+    parsed.items = payload.itemSource;
+    fs.writeFileSync(itemPath, `${JSON.stringify(parsed, null, 4)}\n`, 'utf8');
+    return summarizeItemChanges(previousItems, payload.itemSource);
+}
+
+function buildPrBody(payload, branchName, changeSummary) {
     return [
         `Automated content sync for **${payload.level.toUpperCase()} Day ${payload.day}** (v${payload.version}).`,
         '',
@@ -66,6 +118,10 @@ function buildPrBody(payload, branchName) {
         '```txt',
         String(payload.validationReport || 'N/A').trim(),
         '```',
+        '',
+        '## change-impact',
+        `- changedItems: ${changeSummary.changedItemCount}`,
+        `- dayRebalancedCount: ${changeSummary.dayRebalancedCount}`,
         '',
         '## PR metadata',
         `- dataHash: ${payload.dataHash}`,
@@ -102,9 +158,10 @@ async function createContentPr(req, res) {
         run('git', ['checkout', '-b', branchName], repoRoot);
 
         updateSourceDay(repoRoot, payload);
+        const itemChanges = updateSourceItems(repoRoot, payload);
         run('node', ['scripts/build-data.js'], repoRoot);
 
-        run('git', ['add', `data/src/${payload.level}.json`, `data/dist/${payload.level}`], repoRoot);
+        run('git', ['add', `data/src/${payload.level}.json`, `data/src/${payload.level}.items.json`, `data/dist/${payload.level}`], repoRoot);
         run('git', ['commit', '-m', `chore(data): update ${payload.level} day ${payload.day} (v${payload.version})`], repoRoot, {
             GIT_AUTHOR_NAME: payload.author || 'content-admin-bot',
             GIT_AUTHOR_EMAIL: 'content-admin-bot@example.com',
@@ -114,7 +171,7 @@ async function createContentPr(req, res) {
         run('git', ['push', '-u', 'origin', branchName], repoRoot);
 
         const title = `chore(data): ${payload.level.toUpperCase()} day ${payload.day} update (v${payload.version})`;
-        const body = buildPrBody(payload, branchName);
+        const body = buildPrBody(payload, branchName, itemChanges);
 
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/pulls`, {
             method: 'POST',
@@ -139,6 +196,8 @@ async function createContentPr(req, res) {
         res.status(200).json({
             ok: true,
             prUrl: pr.html_url,
+            prNumber: pr.number,
+            prState: pr.state,
             branch: branchName,
             title
         });
