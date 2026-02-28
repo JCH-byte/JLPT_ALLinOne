@@ -107,17 +107,32 @@
 
     <h3>3. AI JSON 데이터 입력</h3>
     <textarea id="json-input" placeholder='{
-  "day": 9,
-  "data": {
-    "title": "...",
-    "vocab": []
-  }
+  "items": [
+    {
+      "id": "v-001",
+      "word": "準備",
+      "read": "じゅんび",
+      "mean": "준비",
+      "tags": ["noun"],
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-002",
+      "word": "合図",
+      "read": "あいず",
+      "mean": "신호",
+      "dayOverride": 7
+    }
+  ]
 }'></textarea>
 
     <h3 style="margin-top:24px;">4. Normalize 결과 미리보기</h3>
     <pre id="normalized-preview" class="compare-result">Normalize 결과가 여기에 표시됩니다.</pre>
 
-    <h3 style="margin-top:24px;">5. Validate 결과</h3>
+    <h3 style="margin-top:24px;">5. Day Preview</h3>
+    <pre id="day-preview" class="compare-result">Normalize 완료 시 day 배치 결과가 표시됩니다.</pre>
+
+    <h3 style="margin-top:24px;">6. Validate 결과</h3>
     <pre id="validation-result" class="compare-result">Validate 단계를 실행하세요.</pre>
 
     <div style="margin-top:20px;">
@@ -129,7 +144,7 @@
         <button class="btn" onclick="downloadLegacyJsFile()">🧩 레거시 JS 내보내기</button>
     </div>
 
-    <h3 style="margin-top:30px;">6. 버전 히스토리</h3>
+    <h3 style="margin-top:30px;">7. 버전 히스토리</h3>
     <ul id="history-list" class="history-list"></ul>
 
     <div class="history-actions">
@@ -138,7 +153,7 @@
         <button class="btn btn-restore" onclick="restoreSelectedVersion()">♻️ 선택 버전으로 draft 복원</button>
     </div>
 
-    <h3 style="margin-top:24px;">7. 버전 비교</h3>
+    <h3 style="margin-top:24px;">8. 버전 비교</h3>
     <div class="history-actions">
         <select id="compare-left"></select>
         <span>vs</span>
@@ -147,10 +162,10 @@
     </div>
     <pre id="compare-result" class="compare-result">비교할 버전을 선택하세요.</pre>
 
-    <h3 style="margin-top:24px;">8. 저장 결과 Diff 요약</h3>
+    <h3 style="margin-top:24px;">9. 저장 결과 Diff 요약</h3>
     <pre id="save-diff-result" class="compare-result">저장 후 추가/삭제/변경 요약이 표시됩니다.</pre>
 
-    <h3 style="margin-top:24px;">9. 반영 배포 로그(manifest)</h3>
+    <h3 style="margin-top:24px;">10. 반영 배포 로그(manifest)</h3>
     <ul id="manifest-log-list" class="history-list"></ul>
     <pre id="deployment-report" class="compare-result">최종 반영 전 체크리스트 결과가 표시됩니다.</pre>
     <pre id="pr-result" class="compare-result">PR 생성 결과가 여기에 표시됩니다.</pre>

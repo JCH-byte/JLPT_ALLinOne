@@ -6,6 +6,7 @@ const DEV_PREFIX = 'JLPT_DEV_DATA_OVERRIDE';
 const DEV_INDEX_KEY = `${DEV_PREFIX}__INDEX`;
 const LEGACY_DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
 const REQUIRED_FIELDS = ['title', 'story', 'analysis', 'vocab', 'quiz'];
+const ITEM_REQUIRED_FIELDS = ['id', 'word', 'read', 'mean'];
 const ARRAY_POLICY_FIELDS = ['analysis', 'vocab', 'quiz'];
 const ALIAS_KEY_MAP = {
     questions: 'quiz',
@@ -33,8 +34,10 @@ const MIN_SCENE_COUNT = 1;
 const REQUIRED_QUIZ_COUNT = 10;
 const intakeState = {
     payload: null,
+    normalizedItems: null,
     normalizedData: null,
     normalizedPreviewText: '',
+    dayDistribution: null,
     validated: false,
     validationMessage: 'Validate 단계를 실행하세요.',
     day: null
@@ -314,40 +317,182 @@ function validateRequiredFields(data) {
     const mode = getRequiredFieldMode();
     const message = `필수 필드 누락: ${missing.join(', ')}`;
     if (mode === 'strict') {
-        alert(`${message}\n저장을 차단합니다.`);
+        alert(`${message}
+저장을 차단합니다.`);
         return false;
     }
-    return confirm(`⚠️ ${message}\n강한 경고: 누락된 상태로 저장을 진행하시겠습니까?`);
+    return confirm(`⚠️ ${message}
+강한 경고: 누락된 상태로 저장을 진행하시겠습니까?`);
 }
-function normalizeStory(story, storyScenes) {
-    if (typeof story === 'string' && story.trim()) return story;
-    if (!Array.isArray(storyScenes)) return story ?? null;
-    const lines = storyScenes
-        .map(scene => {
-            if (typeof scene === 'string') return scene.trim();
-            if (scene && typeof scene === 'object') {
-                return String(scene.text ?? scene.scene ?? scene.content ?? '').trim();
-            }
-            return '';
-        })
-        .filter(Boolean);
-    return lines.join('\n\n') || null;
+function parseDayHint(dayHint) {
+    if (typeof dayHint !== 'string') return null;
+    const match = dayHint.match(/(?:legacy-)?day-(\d+)/i);
+    if (!match) return null;
+    return Number(match[1]);
 }
-function normalizeIncomingData(data) {
-    if (!data || typeof data !== 'object' || Array.isArray(data)) {
-        throw new Error('data는 object여야 합니다.');
+function hashString(value) {
+    let hash = 0;
+    for (let i = 0; i < value.length; i += 1) {
+        hash = ((hash << 5) - hash) + value.charCodeAt(i);
+        hash |= 0;
     }
-    const normalized = { ...data };
-    Object.entries(ALIAS_KEY_MAP).forEach(([alias, standard]) => {
-        if (!Object.prototype.hasOwnProperty.call(normalized, alias)) return;
-        if (!Object.prototype.hasOwnProperty.call(normalized, standard)) {
-            normalized[standard] = normalized[alias];
+    return Math.abs(hash);
+}
+function getDifficultyScore(item) {
+    const text = `${item?.word || ''}${item?.mean || ''}`;
+    const tags = Array.isArray(item?.tags) ? item.tags.map(tag => String(tag).toLowerCase()) : [];
+    if (tags.some(tag => tag.includes('hard') || tag.includes('어려움'))) return 2;
+    if (tags.some(tag => tag.includes('easy') || tag.includes('쉬움'))) return 0;
+    return text.length > 10 ? 2 : (text.length > 6 ? 1 : 0);
+}
+function getPosScore(item) {
+    const tags = Array.isArray(item?.tags) ? item.tags.map(tag => String(tag).toLowerCase()) : [];
+    if (tags.some(tag => tag.includes('verb') || tag.includes('동사'))) return 2;
+    if (tags.some(tag => tag.includes('adj') || tag.includes('형용사'))) return 1;
+    return 0;
+}
+function getFrequencyScore(item) {
+    const tags = Array.isArray(item?.tags) ? item.tags.map(tag => String(tag).toLowerCase()) : [];
+    if (tags.some(tag => tag.includes('rare') || tag.includes('저빈도'))) return 2;
+    if (tags.some(tag => tag.includes('common') || tag.includes('고빈도'))) return 0;
+    return 1;
+}
+function decideAssignedDay(level, item, itemIndex, maxDay = 28) {
+    if (Number.isInteger(item?.dayOverride) && item.dayOverride >= 1) {
+        return Math.min(item.dayOverride, maxDay);
+    }
+    if (Number.isInteger(item?.assignedDay) && item.assignedDay >= 1) {
+        return Math.min(item.assignedDay, maxDay);
+    }
+    const hintedDay = parseDayHint(item?.dayHint);
+    if (Number.isInteger(hintedDay) && hintedDay >= 1) {
+        return Math.min(hintedDay, maxDay);
+    }
+    const levelWeight = Number(String(level || '').replace('n', '')) || 5;
+    const difficultyWeight = getDifficultyScore(item);
+    const posWeight = getPosScore(item);
+    const frequencyWeight = getFrequencyScore(item);
+    const deterministicNoise = hashString(`${item?.id || ''}/${item?.word || ''}/${item?.read || ''}`) % maxDay;
+    const mixed = itemIndex + (difficultyWeight * 7) + (posWeight * 5) + (frequencyWeight * 3) + deterministicNoise + (levelWeight * 11);
+    return (mixed % maxDay) + 1;
+}
+function normalizeIncomingItems(payload) {
+    const sourceItems = Array.isArray(payload?.items)
+        ? payload.items
+        : (Array.isArray(payload?.data?.vocab) ? payload.data.vocab : null);
+    if (!Array.isArray(sourceItems)) {
+        throw new Error('JSON에 "items" 배열이 포함되어야 합니다.');
+    }
+    const legacyDay = Number(payload?.day);
+    return sourceItems.map((item, index) => {
+        const normalized = { ...(item || {}) };
+        if (!normalized.id) normalized.id = `item-${Date.now()}-${index + 1}`;
+        normalized.word = String(normalized.word || normalized.term || '').trim();
+        normalized.read = String(normalized.read || normalized.reading || '').trim();
+        normalized.mean = String(normalized.mean || normalized.meaning || '').trim();
+        normalized.tags = Array.isArray(normalized.tags) ? normalized.tags : [];
+        if (!Number.isInteger(normalized.dayOverride) && Number.isInteger(legacyDay) && legacyDay > 0) {
+            normalized.assignedDay = legacyDay;
         }
-        delete normalized[alias];
+        return normalized;
     });
-    normalized.story = normalizeStory(normalized.story, normalized.storyScenes);
-    delete normalized.storyScenes;
-    return normalized;
+}
+function validateItems(items) {
+    const issues = [];
+    items.forEach((item, index) => {
+        ITEM_REQUIRED_FIELDS.forEach(field => {
+            const value = item?.[field];
+            if (value === undefined || value === null || String(value).trim() === '') {
+                issues.push(`items[${index}].${field} 누락`);
+            }
+        });
+        if (item?.dayOverride !== undefined) {
+            if (!Number.isInteger(item.dayOverride) || item.dayOverride < 1) {
+                issues.push(`items[${index}].dayOverride는 1 이상의 정수여야 합니다.`);
+            }
+        }
+    });
+    if (issues.length === 0) return { ok: true, issues: [] };
+    const mode = getRequiredFieldMode();
+    const message = `item 스키마 검증 실패 (${issues.length}건)\n- ${issues.join('\n- ')}`;
+    if (mode === 'strict') {
+        alert(`${message}
+저장을 차단합니다.`);
+        return { ok: false, issues };
+    }
+    const proceed = confirm(`⚠️ ${message}
+강한 경고: 누락된 상태로 저장을 진행하시겠습니까?`);
+    return { ok: proceed, issues };
+}
+function buildDayDistribution(level, items) {
+    const buckets = {};
+    items.forEach((item, index) => {
+        const day = decideAssignedDay(level, item, index, 28);
+        if (!buckets[day]) buckets[day] = [];
+        buckets[day].push({ ...item, assignedDay: day });
+    });
+    return buckets;
+}
+function renderDayPreview() {
+    const dayPreviewEl = document.getElementById('day-preview');
+    if (!dayPreviewEl) return;
+    if (!intakeState.dayDistribution) {
+        dayPreviewEl.textContent = 'Normalize 완료 시 day 배치 결과가 표시됩니다.';
+        return;
+    }
+    const lines = [];
+    const days = Object.keys(intakeState.dayDistribution)
+        .map(day => Number(day))
+        .filter(day => !Number.isNaN(day))
+        .sort((a, b) => a - b);
+    days.forEach(day => {
+        const items = intakeState.dayDistribution[String(day)] || [];
+        const overrideCount = items.filter(item => Number.isInteger(item.dayOverride) && item.dayOverride >= 1).length;
+        lines.push(`Day ${day}: ${items.length} items${overrideCount ? ` [OVERRIDE ${overrideCount}]` : ''}`);
+        items.slice(0, 5).forEach(item => {
+            const badge = (Number.isInteger(item.dayOverride) && item.dayOverride >= 1) ? '[DAY OVERRIDE]' : '[RULE]';
+            lines.push(`  - ${badge} ${item.word} (${item.read}) : ${item.mean}`);
+        });
+        if (items.length > 5) lines.push(`  ... +${items.length - 5} more`);
+    });
+    dayPreviewEl.textContent = lines.join('\n');
+}
+
+function refreshSelectedDayPreview() {
+    if (!intakeState.dayDistribution || !intakeState.normalizedItems) return;
+    let day;
+    try {
+        day = getInputDay();
+    } catch (e) {
+        return;
+    }
+    intakeState.day = day;
+    intakeState.normalizedData = buildDayDataFromItems(day);
+    const preview = {
+        items: intakeState.normalizedItems,
+        dayDistribution: Object.fromEntries(Object.entries(intakeState.dayDistribution).map(([distDay, items]) => [distDay, items.map(item => item.id)])),
+        selectedDay: day,
+        data: intakeState.normalizedData
+    };
+    intakeState.normalizedPreviewText = JSON.stringify(preview, null, 2);
+    const normalizedPreview = document.getElementById('normalized-preview');
+    if (normalizedPreview) normalizedPreview.textContent = intakeState.normalizedPreviewText;
+    renderDayPreview();
+}
+function buildDayDataFromItems(day) {
+    const selectedItems = (intakeState.dayDistribution?.[String(day)] || []).map(item => ({
+        word: item.word,
+        read: item.read,
+        mean: item.mean,
+        tags: Array.isArray(item.tags) ? item.tags : []
+    }));
+    return {
+        title: `Day ${day} 단어장`,
+        story: null,
+        analysis: [],
+        vocab: selectedItems,
+        quiz: []
+    };
 }
 function setStageStatus(id, message) {
     const el = document.getElementById(id);
@@ -355,7 +500,9 @@ function setStageStatus(id, message) {
 }
 function resetPipelineState() {
     intakeState.payload = null;
+    intakeState.normalizedItems = null;
     intakeState.normalizedData = null;
+    intakeState.dayDistribution = null;
     intakeState.normalizedPreviewText = '';
     intakeState.validated = false;
     intakeState.validationMessage = 'Validate 단계를 실행하세요.';
@@ -368,6 +515,7 @@ function resetPipelineState() {
     if (previewEl) previewEl.textContent = 'Normalize 결과가 여기에 표시됩니다.';
     const validationEl = document.getElementById('validation-result');
     if (validationEl) validationEl.textContent = intakeState.validationMessage;
+    renderDayPreview();
 }
 function runAiIntake() {
     try {
@@ -376,13 +524,10 @@ function runAiIntake() {
             throw new Error('JSON 데이터를 입력하세요.');
         }
         const payload = JSON.parse(text);
-        if (!payload.day || !payload.data) {
-            throw new Error('JSON에 "day"와 "data" 필드가 포함되어야 합니다.');
-        }
+        const items = normalizeIncomingItems(payload);
         intakeState.payload = payload;
-        intakeState.day = Number(payload.day);
+        intakeState.normalizedItems = items;
         intakeState.validated = false;
-        document.getElementById('day-input').value = String(intakeState.day);
         setStageStatus('status-intake', '완료');
         setStageStatus('status-normalize', '대기');
         setStageStatus('status-validate', '대기');
@@ -395,14 +540,27 @@ function runAiIntake() {
 }
 function runNormalize() {
     try {
-        if (!intakeState.payload) {
+        if (!intakeState.normalizedItems) {
             throw new Error('먼저 AI Intake를 실행하세요.');
         }
-        const normalizedData = normalizeIncomingData(intakeState.payload.data);
-        intakeState.normalizedData = normalizedData;
-        intakeState.normalizedPreviewText = JSON.stringify({ day: intakeState.day, data: normalizedData }, null, 2);
+        const level = document.getElementById('level-select').value;
+        intakeState.dayDistribution = buildDayDistribution(level, intakeState.normalizedItems);
+        const firstDay = Object.keys(intakeState.dayDistribution)
+            .map(day => Number(day))
+            .filter(day => !Number.isNaN(day))
+            .sort((a, b) => a - b)[0] || 1;
+        intakeState.day = firstDay;
+        document.getElementById('day-input').value = String(firstDay);
+        intakeState.normalizedData = buildDayDataFromItems(firstDay);
+        intakeState.normalizedPreviewText = JSON.stringify({
+            items: intakeState.normalizedItems,
+            dayDistribution: Object.fromEntries(Object.entries(intakeState.dayDistribution).map(([day, items]) => [day, items.map(item => item.id)])),
+            selectedDay: firstDay,
+            data: intakeState.normalizedData
+        }, null, 2);
         intakeState.validated = false;
         document.getElementById('normalized-preview').textContent = intakeState.normalizedPreviewText;
+        renderDayPreview();
         setStageStatus('status-normalize', '완료');
         setStageStatus('status-validate', '대기');
         setStageStatus('status-save', '대기');
@@ -413,16 +571,16 @@ function runNormalize() {
 }
 function runValidate() {
     try {
-        if (!intakeState.normalizedData) {
+        if (!intakeState.normalizedItems) {
             throw new Error('먼저 Normalize 단계를 실행하세요.');
         }
-        const ok = validateRequiredFields(intakeState.normalizedData);
-        intakeState.validated = ok;
-        intakeState.validationMessage = ok
-            ? '정규화/필수 필드 검증 통과'
-            : '필수 필드 검증 실패';
+        const result = validateItems(intakeState.normalizedItems);
+        intakeState.validated = result.ok;
+        intakeState.validationMessage = result.ok
+            ? `item 스키마 검증 통과 (${intakeState.normalizedItems.length} items)`
+            : `item 스키마 검증 실패 (${result.issues.length}건)`;
         document.getElementById('validation-result').textContent = intakeState.validationMessage;
-        setStageStatus('status-validate', ok ? '완료' : '실패');
+        setStageStatus('status-validate', result.ok ? '완료' : '실패');
         setStageStatus('status-save', '대기');
     } catch (e) {
         setStageStatus('status-validate', `실패: ${e.message}`);
@@ -517,7 +675,7 @@ function getGitMetadataFromInputs() {
 // 미리보기 저장 (덮어쓰기 또는 병합)
 function savePreview(isMerge) {
     try {
-        if (!intakeState.payload || !intakeState.normalizedData) {
+        if (!intakeState.payload || !intakeState.normalizedItems || !intakeState.dayDistribution) {
             throw new Error('AI Intake → Normalize 단계를 먼저 완료하세요.');
         }
         if (!intakeState.validated) {
@@ -527,8 +685,9 @@ function savePreview(isMerge) {
         const author = (document.getElementById('author-input').value || 'anonymous').trim();
         const changeSummary = (document.getElementById('summary-input').value || 'No summary').trim();
         const arrayPolicies = getArrayPolicies();
-        const day = Number(intakeState.day);
-        document.getElementById('day-input').value = String(day);
+        const day = getInputDay();
+        intakeState.day = day;
+        intakeState.normalizedData = buildDayDataFromItems(day);
         const previous = getLatestRecord(level, day);
         const previousData = previous?.data || {};
         const nextVersion = previous ? previous.version + 1 : 1;
@@ -545,10 +704,13 @@ function savePreview(isMerge) {
             author,
             changeSummary,
             data: nextData,
+            itemSource: intakeState.normalizedItems,
+            dayDistribution: Object.fromEntries(Object.entries(intakeState.dayDistribution).map(([distDay, items]) => [distDay, items.map(item => item.id)])),
             ...getGitMetadataFromInputs(),
             qa: {
                 normalized: true,
-                validated: true
+                validated: true,
+                schema: 'vocab-items-v1'
             }
         };
         writeVersionRecord(level, day, nextVersion, record);
@@ -567,6 +729,21 @@ function savePreview(isMerge) {
         alert('오류 발생: ' + e.message);
         console.error(e);
     }
+}
+function getLevelSelectedRecords(level) {
+    const index = readIndex();
+    const levelNode = index[level] || {};
+    const selected = {};
+    Object.keys(levelNode).forEach(day => {
+        const versions = getDayVersions(level, day);
+        if (versions.length === 0) return;
+        const approved = [...versions].reverse().find(v => v.status === 'approved');
+        const latest = versions[versions.length - 1];
+        const picked = approved || latest;
+        if (!picked?.qa?.normalized || !picked?.qa?.validated) return;
+        selected[String(day)] = picked;
+    });
+    return selected;
 }
 function buildLevelData(level) {
     const index = readIndex();
@@ -768,7 +945,12 @@ async function handleFinalExport() {
         if (!checklist.passed) {
             throw new Error('배포 전 체크리스트를 통과하지 못했습니다.');
         }
-        const jsonPayload = { day: Number(record.day), data: record.data };
+        const jsonPayload = {
+            day: Number(record.day),
+            data: record.data,
+            itemSource: Array.isArray(record.itemSource) ? record.itemSource : [],
+            dayDistribution: record.dayDistribution || {}
+        };
         const jsonText = `${JSON.stringify(jsonPayload, null, 2)}\n`;
         const dataHash = await sha256Hex(jsonText);
         const manifest = buildManifest(record, checklist, dataHash);
@@ -801,6 +983,8 @@ function buildPrRequestPayload(record, checklist, dataHash, validationReport) {
         version: Number(record.version),
         dataHash,
         data: record.data,
+        itemSource: Array.isArray(record.itemSource) ? record.itemSource : [],
+        dayDistribution: record.dayDistribution || {},
         author: record.author || (document.getElementById('author-input').value || 'anonymous').trim(),
         changeSummary: record.changeSummary || (document.getElementById('summary-input').value || 'No summary').trim(),
         sourceBranch: record.sourceBranch || null,
@@ -826,7 +1010,12 @@ async function createPullRequestForRecord(record, options = {}) {
     if (!checklist.passed) {
         throw new Error('배포 전 체크리스트를 통과하지 못했습니다.');
     }
-    const jsonPayload = { day: Number(record.day), data: record.data };
+    const jsonPayload = {
+        day: Number(record.day),
+        data: record.data,
+        itemSource: Array.isArray(record.itemSource) ? record.itemSource : [],
+        dayDistribution: record.dayDistribution || {}
+    };
     const jsonText = `${JSON.stringify(jsonPayload, null, 2)}
 `;
     const dataHash = await sha256Hex(jsonText);
@@ -893,21 +1082,24 @@ function triggerDownload(content, fileName, type) {
 // src patch 파일 다운로드 생성 ({ level, day, data } 규칙)
 function downloadFile() {
     const level = document.getElementById('level-select').value;
-    const levelData = buildLevelData(level);
-    if (Object.keys(levelData).length === 0) {
+    const records = getLevelSelectedRecords(level);
+    if (Object.keys(records).length === 0) {
         if (!confirm('저장된 프리뷰 데이터가 없습니다. 빈 파일을 생성하시겠습니까?')) return;
         triggerDownload('{}\n', `${level}.json`, 'application/json');
         return;
     }
-    const days = Object.keys(levelData)
+    const days = Object.keys(records)
         .map(day => Number(day))
         .filter(day => !Number.isNaN(day))
         .sort((a, b) => a - b);
     days.forEach(day => {
+        const record = records[String(day)];
         const dayData = {
             level,
             day,
-            data: levelData[String(day)]
+            data: record.data,
+            itemSource: Array.isArray(record.itemSource) ? record.itemSource : [],
+            dayDistribution: record.dayDistribution || {}
         };
         const dayLabel = String(day).padStart(2, '0');
         const fileName = `${level}-day-${dayLabel}-src-patch.json`;
@@ -1109,8 +1301,18 @@ window.addEventListener('DOMContentLoaded', async () => {
     migrateLegacyIfNeeded();
     const levelSelect = document.getElementById('level-select');
     const dayInput = document.getElementById('day-input');
-    levelSelect.addEventListener('change', renderHistory);
-    dayInput.addEventListener('input', renderHistory);
+    levelSelect.addEventListener('change', () => {
+        renderHistory();
+        if (intakeState.normalizedItems) {
+            intakeState.dayDistribution = buildDayDistribution(levelSelect.value, intakeState.normalizedItems);
+            renderDayPreview();
+            refreshSelectedDayPreview();
+        }
+    });
+    dayInput.addEventListener('input', () => {
+        renderHistory();
+        refreshSelectedDayPreview();
+    });
     const endpointInput = document.getElementById('pr-endpoint-input');
     if (endpointInput) endpointInput.value = readPrEndpoint();
 
