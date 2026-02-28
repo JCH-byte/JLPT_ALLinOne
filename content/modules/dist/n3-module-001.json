@@ -132,7 +132,16 @@
             ],
             "sentences": [
                 {
-                    "text": "배치 01 예문"
+                    "text": "배치 01 예문입니다."
+                },
+                {
+                    "text": "이 단어를 오늘 바로 써 보시겠어요?"
+                },
+                {
+                    "text": "다른 표현보다 이 표현이 더 자연스럽습니다."
+                },
+                {
+                    "text": "지금 예문을 한 번 따라 해 주세요."
                 }
             ],
             "quizzes": [
@@ -305,7 +314,43 @@
             "itemId": "n3-module-001-batch-01-sen-01",
             "type": "sentences",
             "payload": {
-                "text": "배치 01 예문"
+                "text": "배치 01 예문입니다."
+            },
+            "metadata": {
+                "generatedFromBatchId": "n3-module-001-batch-01",
+                "promptTemplateVersion": "notebooklm-v2",
+                "ruleVersion": "n3-rule-v1"
+            }
+        },
+        {
+            "itemId": "n3-module-001-batch-01-sen-02",
+            "type": "sentences",
+            "payload": {
+                "text": "이 단어를 오늘 바로 써 보시겠어요?"
+            },
+            "metadata": {
+                "generatedFromBatchId": "n3-module-001-batch-01",
+                "promptTemplateVersion": "notebooklm-v2",
+                "ruleVersion": "n3-rule-v1"
+            }
+        },
+        {
+            "itemId": "n3-module-001-batch-01-sen-03",
+            "type": "sentences",
+            "payload": {
+                "text": "다른 표현보다 이 표현이 더 자연스럽습니다."
+            },
+            "metadata": {
+                "generatedFromBatchId": "n3-module-001-batch-01",
+                "promptTemplateVersion": "notebooklm-v2",
+                "ruleVersion": "n3-rule-v1"
+            }
+        },
+        {
+            "itemId": "n3-module-001-batch-01-sen-04",
+            "type": "sentences",
+            "payload": {
+                "text": "지금 예문을 한 번 따라 해 주세요."
             },
             "metadata": {
                 "generatedFromBatchId": "n3-module-001-batch-01",
@@ -399,6 +444,18 @@
                 "detectedMaxJlptLevel": "N3",
                 "charCount": 180
             },
+            "sentenceTypeDiversity": {
+                "counts": {
+                    "descriptive": 1,
+                    "question": 1,
+                    "request": 1,
+                    "comparison": 1
+                },
+                "total": 4,
+                "nonZeroTypes": 4,
+                "maxShare": 0.25,
+                "passed": true
+            },
             "violations": [],
             "passed": true
         },
@@ -432,6 +489,18 @@
                 ],
                 "detectedMaxJlptLevel": "N2",
                 "charCount": 260
+            },
+            "sentenceTypeDiversity": {
+                "counts": {
+                    "descriptive": 0,
+                    "question": 0,
+                    "request": 0,
+                    "comparison": 0
+                },
+                "total": 0,
+                "nonZeroTypes": 0,
+                "maxShare": 0,
+                "passed": true
             },
             "violations": [
                 {
@@ -473,6 +542,9 @@
         "batchProvenance": {
             "n3-module-001-batch-01-par-01": "n3-module-001-batch-01",
             "n3-module-001-batch-01-sen-01": "n3-module-001-batch-01",
+            "n3-module-001-batch-01-sen-02": "n3-module-001-batch-01",
+            "n3-module-001-batch-01-sen-03": "n3-module-001-batch-01",
+            "n3-module-001-batch-01-sen-04": "n3-module-001-batch-01",
             "n3-module-001-batch-01-qui-01": "n3-module-001-batch-01"
         },
         "ruleVersion": "n3-rule-v1",

@@ -9,7 +9,14 @@
             "mean": "집안일",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "過失",
@@ -17,7 +24,14 @@
             "mean": "과실",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "果実",
@@ -25,7 +39,14 @@
             "mean": "과실, 열매",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "貸家",
@@ -33,7 +54,14 @@
             "mean": "셋집",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "課税",
@@ -41,7 +69,14 @@
             "mean": "과세",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "化石",
@@ -49,7 +84,14 @@
             "mean": "화석",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "加速",
@@ -57,7 +99,14 @@
             "mean": "가속",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "塊",
@@ -65,7 +114,14 @@
             "mean": "덩어리",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "学会",
@@ -73,7 +129,14 @@
             "mean": "학회",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "学級",
@@ -81,7 +144,14 @@
             "mean": "학급",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "括弧",
@@ -89,7 +159,14 @@
             "mean": "괄호",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "各国",
@@ -97,7 +174,14 @@
             "mean": "각국",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "活字",
@@ -105,7 +189,14 @@
             "mean": "활자",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "活躍",
@@ -113,7 +204,14 @@
             "mean": "활약",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "活用",
@@ -121,7 +219,14 @@
             "mean": "활용",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "活力",
@@ -129,7 +234,14 @@
             "mean": "활력",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "課程",
@@ -137,7 +249,14 @@
             "mean": "과정(커리큘럼)",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "過程",
@@ -145,7 +264,14 @@
             "mean": "과정(프로세스)",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "仮名",
@@ -153,7 +279,14 @@
             "mean": "가나(문자), 가명",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "鐘",
@@ -161,7 +294,14 @@
             "mean": "종",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "加熱",
@@ -169,7 +309,14 @@
             "mean": "가열",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "過半数",
@@ -177,7 +324,14 @@
             "mean": "과반수",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "かび",
@@ -185,7 +339,14 @@
             "mean": "곰팡이",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "株",
@@ -193,7 +354,14 @@
             "mean": "주식, 그루",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "釜",
@@ -201,7 +369,14 @@
             "mean": "솥",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "髮型",
@@ -209,7 +384,14 @@
             "mean": "헤어스타일",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "紙くず",
@@ -217,7 +399,14 @@
             "mean": "휴지, 종이 부스러기",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "神様",
@@ -225,7 +414,14 @@
             "mean": "신, 하느님",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "剃刀",
@@ -233,7 +429,14 @@
             "mean": "면도칼",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "雷",
@@ -241,7 +444,14 @@
             "mean": "천둥, 번개",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "髪の毛",
@@ -249,7 +459,14 @@
             "mean": "머리카락",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "貨物",
@@ -257,7 +474,14 @@
             "mean": "화물",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "殼",
@@ -265,7 +489,14 @@
             "mean": "껍질",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "柄",
@@ -273,7 +504,14 @@
             "mean": "무늬, 격",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "空梅雨",
@@ -281,7 +519,14 @@
             "mean": "마른 장마",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "川岸",
@@ -289,7 +534,14 @@
             "mean": "강기슭",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "革靴",
@@ -297,7 +549,14 @@
             "mean": "구두",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "為替",
@@ -305,7 +564,14 @@
             "mean": "환(금융)",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "瓦",
@@ -313,7 +579,14 @@
             "mean": "기와",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "癌",
@@ -321,7 +594,14 @@
             "mean": "암",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "換気",
@@ -329,7 +609,14 @@
             "mean": "환기",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "観客",
@@ -337,7 +624,14 @@
             "mean": "관객",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "関係",
@@ -345,7 +639,14 @@
             "mean": "관계",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "歓迎",
@@ -353,7 +654,14 @@
             "mean": "환영",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "関係者",
@@ -361,7 +669,14 @@
             "mean": "관계자",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "感激",
@@ -369,7 +684,14 @@
             "mean": "감격",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "監視",
@@ -377,7 +699,14 @@
             "mean": "감시",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "元日",
@@ -385,7 +714,14 @@
             "mean": "설날(1월 1일)",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "鑑賞",
@@ -393,7 +729,14 @@
             "mean": "감상",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "勘定",
@@ -401,7 +744,14 @@
             "mean": "계산, 지불",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "観測",
@@ -409,7 +759,14 @@
             "mean": "관측",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "寒帯",
@@ -417,7 +774,14 @@
             "mean": "한대(기후)",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "勘違い",
@@ -425,7 +789,14 @@
             "mean": "착각",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "官庁",
@@ -433,7 +804,14 @@
             "mean": "관청",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "缶詰",
@@ -441,7 +819,14 @@
             "mean": "통조림",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "乾電池",
@@ -449,7 +834,14 @@
             "mean": "건전지",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "館内",
@@ -457,7 +849,14 @@
             "mean": "관내",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "観念",
@@ -465,7 +864,14 @@
             "mean": "관념",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "看板",
@@ -473,7 +879,14 @@
             "mean": "간판",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "看病",
@@ -481,7 +894,14 @@
             "mean": "간병",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "願望",
@@ -489,7 +909,14 @@
             "mean": "원망, 소망",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "勧誘",
@@ -497,7 +924,14 @@
             "mean": "권유",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "管理",
@@ -505,7 +939,14 @@
             "mean": "관리",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "完了",
@@ -513,7 +954,14 @@
             "mean": "완료",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "関連",
@@ -521,7 +969,14 @@
             "mean": "관련",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "気圧",
@@ -529,7 +984,14 @@
             "mean": "기압",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "議員",
@@ -537,7 +999,14 @@
             "mean": "의원",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "記憶",
@@ -545,7 +1014,14 @@
             "mean": "기억",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "議会",
@@ -553,7 +1029,14 @@
             "mean": "의회",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "着替え",
@@ -561,7 +1044,14 @@
             "mean": "갈아입을 옷, 갈아입음",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "企画",
@@ -569,7 +1059,14 @@
             "mean": "기획",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "機関",
@@ -577,7 +1074,14 @@
             "mean": "기관",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "危機",
@@ -585,7 +1089,14 @@
             "mean": "위기",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "企業",
@@ -593,7 +1104,14 @@
             "mean": "기업",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "飢饉",
@@ -601,7 +1119,14 @@
             "mean": "기근",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "器具",
@@ -609,7 +1134,14 @@
             "mean": "기구",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "機嫌",
@@ -617,7 +1149,14 @@
             "mean": "기분, 비위",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "気候",
@@ -625,7 +1164,14 @@
             "mean": "기후",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "記号",
@@ -633,7 +1179,14 @@
             "mean": "기호",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "岸",
@@ -641,7 +1194,14 @@
             "mean": "기슭, 물가",
             "tags": [],
             "moduleId": "n2-module-003",
-            "legacyDay": 3
+            "legacyDay": 3,
+            "introModule": "n2-module-003",
+            "reviewModules": [
+                "n2-module-005",
+                "n2-module-008",
+                "n2-module-011"
+            ],
+            "exposureCountTarget": 4
         }
     ],
     "quiz": []

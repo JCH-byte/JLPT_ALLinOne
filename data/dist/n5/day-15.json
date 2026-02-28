@@ -138,7 +138,13 @@
             "mean": "1분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二分",
@@ -146,7 +152,13 @@
             "mean": "2분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三分",
@@ -154,7 +166,13 @@
             "mean": "3분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四分",
@@ -162,7 +180,13 @@
             "mean": "4분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五分",
@@ -170,7 +194,13 @@
             "mean": "5분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六分",
@@ -178,7 +208,13 @@
             "mean": "6분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七分",
@@ -186,7 +222,13 @@
             "mean": "7분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八分",
@@ -194,7 +236,13 @@
             "mean": "8분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九分",
@@ -202,7 +250,13 @@
             "mean": "9분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十分",
@@ -210,7 +264,13 @@
             "mean": "10분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何分",
@@ -218,7 +278,13 @@
             "mean": "몇 분",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "月曜日",
@@ -226,7 +292,13 @@
             "mean": "월요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "火曜日",
@@ -234,7 +306,13 @@
             "mean": "화요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "水曜日",
@@ -242,7 +320,13 @@
             "mean": "수요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "木曜日",
@@ -250,7 +334,13 @@
             "mean": "목요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "金曜日",
@@ -258,7 +348,13 @@
             "mean": "금요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "土曜日",
@@ -266,7 +362,13 @@
             "mean": "토요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "日曜日",
@@ -274,7 +376,13 @@
             "mean": "일요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何曜日",
@@ -282,7 +390,13 @@
             "mean": "무슨 요일",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "一杯",
@@ -290,7 +404,13 @@
             "mean": "한 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二杯",
@@ -298,7 +418,13 @@
             "mean": "두 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三杯",
@@ -306,7 +432,13 @@
             "mean": "세 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四杯",
@@ -314,7 +446,13 @@
             "mean": "네 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五杯",
@@ -322,7 +460,13 @@
             "mean": "다섯 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六杯",
@@ -330,7 +474,13 @@
             "mean": "여섯 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七杯",
@@ -338,7 +488,13 @@
             "mean": "일곱 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八杯",
@@ -346,7 +502,13 @@
             "mean": "여덟 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九杯",
@@ -354,7 +516,13 @@
             "mean": "아홉 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十杯",
@@ -362,7 +530,13 @@
             "mean": "열 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何杯",
@@ -370,7 +544,13 @@
             "mean": "몇 잔",
             "tags": [],
             "moduleId": "n5-module-015",
-            "legacyDay": 15
+            "legacyDay": 15,
+            "introModule": "n5-module-015",
+            "reviewModules": [
+                "n5-module-017",
+                "n5-module-020"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [

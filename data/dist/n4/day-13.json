@@ -98,7 +98,13 @@
             "mean": "맞다, 어울리다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "空く",
@@ -106,7 +112,13 @@
             "mean": "비다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "集まる",
@@ -114,7 +126,13 @@
             "mean": "모이다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "集める",
@@ -122,7 +140,13 @@
             "mean": "모으다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "謝る",
@@ -130,7 +154,13 @@
             "mean": "사과하다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "生きる",
@@ -138,7 +168,13 @@
             "mean": "살다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "いじめる",
@@ -146,7 +182,13 @@
             "mean": "괴롭히다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "急ぐ",
@@ -154,7 +196,13 @@
             "mean": "서두르다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "致す",
@@ -162,7 +210,13 @@
             "mean": "하다 (겸양)",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "いただく",
@@ -170,7 +224,13 @@
             "mean": "받다, 먹다 (겸양)",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "祈る",
@@ -178,7 +238,13 @@
             "mean": "기도하다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "いらっしゃる",
@@ -186,7 +252,13 @@
             "mean": "오시다, 가시다, 계시다 (존경)",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "うかがう",
@@ -194,7 +266,13 @@
             "mean": "여쭙다, 찾아뵙다 (겸양)",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "受ける",
@@ -202,7 +280,13 @@
             "mean": "받다, 시험을 치다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "動く",
@@ -210,7 +294,13 @@
             "mean": "움직이다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "打つ",
@@ -218,7 +308,13 @@
             "mean": "치다, 때리다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "写す",
@@ -226,7 +322,13 @@
             "mean": "베끼다, 사진을 찍다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "選ぶ",
@@ -234,7 +336,13 @@
             "mean": "고르다, 선택하다",
             "tags": [],
             "moduleId": "n4-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n4-module-013",
+            "reviewModules": [
+                "n4-module-015",
+                "n4-module-018"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [

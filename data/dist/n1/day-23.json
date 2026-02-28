@@ -9,7 +9,14 @@
             "mean": "신속한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "親密な",
@@ -17,7 +24,14 @@
             "mean": "친밀한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "健やかな",
@@ -25,7 +39,14 @@
             "mean": "건강한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "速やかな",
@@ -33,7 +54,14 @@
             "mean": "빠른, 조속한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "精巧な",
@@ -41,7 +69,14 @@
             "mean": "정교한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "清純な",
@@ -49,7 +84,14 @@
             "mean": "청순한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "盛大な",
@@ -57,7 +99,14 @@
             "mean": "성대한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "正当な",
@@ -65,7 +114,14 @@
             "mean": "정당한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "精密な",
@@ -73,7 +129,14 @@
             "mean": "정밀한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "精力的な",
@@ -81,7 +144,14 @@
             "mean": "정력적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "切実な",
@@ -89,7 +159,14 @@
             "mean": "절실한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "絶大な",
@@ -97,7 +174,14 @@
             "mean": "절대한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "繊細な",
@@ -105,7 +189,14 @@
             "mean": "섬세한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "全面的な",
@@ -113,7 +204,14 @@
             "mean": "전면적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "壮健な",
@@ -121,7 +219,14 @@
             "mean": "건강한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "相対的な",
@@ -129,7 +234,14 @@
             "mean": "상대적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "壮大な",
@@ -137,7 +249,14 @@
             "mean": "장대한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "ぞんざいな",
@@ -145,7 +264,14 @@
             "mean": "무례한, 소홀한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "怠惰な",
@@ -153,7 +279,14 @@
             "mean": "나태한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "大胆な",
@@ -161,7 +294,14 @@
             "mean": "대담한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "対等な",
@@ -169,7 +309,14 @@
             "mean": "대등한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "多角的な",
@@ -177,7 +324,14 @@
             "mean": "다각적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "巧みな",
@@ -185,7 +339,14 @@
             "mean": "교묘한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "達者な",
@@ -193,7 +354,14 @@
             "mean": "능숙한, 건강한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "多忙な",
@@ -201,7 +369,14 @@
             "mean": "다망한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "多様な",
@@ -209,7 +384,14 @@
             "mean": "다양한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "単調な",
@@ -217,7 +399,14 @@
             "mean": "단조로운",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "端的な",
@@ -225,7 +414,14 @@
             "mean": "단적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "丹念な",
@@ -233,7 +429,14 @@
             "mean": "공들인, 꼼꼼한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "忠実な",
@@ -241,7 +444,14 @@
             "mean": "충실한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "中途半端な",
@@ -249,7 +459,14 @@
             "mean": "어중간한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "著名な",
@@ -257,7 +474,14 @@
             "mean": "저명한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "痛快な",
@@ -265,7 +489,14 @@
             "mean": "통쾌한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "痛切な",
@@ -273,7 +504,14 @@
             "mean": "통절한, 절실한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "痛烈な",
@@ -281,7 +519,14 @@
             "mean": "통렬한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "月並みな",
@@ -289,7 +534,14 @@
             "mean": "평범한, 진부한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "つぶらな",
@@ -297,7 +549,14 @@
             "mean": "동그란(눈)",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "手薄な",
@@ -305,7 +564,14 @@
             "mean": "허술한, 부족한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "適宜な",
@@ -313,7 +579,14 @@
             "mean": "적의, 적당한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "適正な",
@@ -321,7 +594,14 @@
             "mean": "적정한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "手頃な",
@@ -329,7 +609,14 @@
             "mean": "알맞은",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "鈍感な",
@@ -337,7 +624,14 @@
             "mean": "둔감한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "滑らかな",
@@ -345,7 +639,14 @@
             "mean": "매끄러운",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "入念な",
@@ -353,7 +654,14 @@
             "mean": "꼼꼼한, 정성 들인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "にわかな",
@@ -361,7 +669,14 @@
             "mean": "갑작스러운",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "のどかな",
@@ -369,7 +684,14 @@
             "mean": "한가로운",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "排他的な",
@@ -377,7 +699,14 @@
             "mean": "배타적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "華やかな",
@@ -385,7 +714,14 @@
             "mean": "화려한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "はるかな",
@@ -393,7 +729,14 @@
             "mean": "아득한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "煩雑な",
@@ -401,7 +744,14 @@
             "mean": "번잡한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "半端な",
@@ -409,7 +759,14 @@
             "mean": "어중간한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "悲惨な",
@@ -417,7 +774,14 @@
             "mean": "비참한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "密かな",
@@ -425,7 +789,14 @@
             "mean": "은밀한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "ひたむきな",
@@ -433,7 +804,14 @@
             "mean": "한결같은",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "否定的な",
@@ -441,7 +819,14 @@
             "mean": "부정적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "批判的な",
@@ -449,7 +834,14 @@
             "mean": "비판적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "貧弱な",
@@ -457,7 +849,14 @@
             "mean": "빈약한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "頻繁な",
@@ -465,7 +864,14 @@
             "mean": "빈번한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不可欠な",
@@ -473,7 +879,14 @@
             "mean": "불가결한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不機嫌な",
@@ -481,7 +894,14 @@
             "mean": "불쾌한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不吉な",
@@ -489,7 +909,14 @@
             "mean": "불길한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不自然な",
@@ -497,7 +924,14 @@
             "mean": "부자연스러운",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不十分な",
@@ -505,7 +939,14 @@
             "mean": "불충분한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不順な",
@@ -513,7 +954,14 @@
             "mean": "불순한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不審な",
@@ -521,7 +969,14 @@
             "mean": "수상쩍은",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不当な",
@@ -529,7 +984,14 @@
             "mean": "부당한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "無難な",
@@ -537,7 +999,14 @@
             "mean": "무난한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "不用意な",
@@ -545,7 +1014,14 @@
             "mean": "조심성 없는",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "無礼な",
@@ -553,7 +1029,14 @@
             "mean": "무례한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "ふんだんな",
@@ -561,7 +1044,14 @@
             "mean": "풍부한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "へとへとな",
@@ -569,7 +1059,14 @@
             "mean": "녹초가 된",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "豊潤な",
@@ -577,7 +1074,14 @@
             "mean": "풍윤한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "膨大な",
@@ -585,7 +1089,14 @@
             "mean": "방대한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "朗らかな",
@@ -593,7 +1104,14 @@
             "mean": "명랑한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "保守的な",
@@ -601,7 +1119,14 @@
             "mean": "보수적인",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         },
         {
             "word": "奔放な",
@@ -609,7 +1134,14 @@
             "mean": "분방한",
             "tags": [],
             "moduleId": "n1-module-023",
-            "legacyDay": 23
+            "legacyDay": 23,
+            "introModule": "n1-module-023",
+            "reviewModules": [
+                "n1-module-025",
+                "n1-module-028",
+                "n1-module-003"
+            ],
+            "exposureCountTarget": 4
         }
     ],
     "quiz": []

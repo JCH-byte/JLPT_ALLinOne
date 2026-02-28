@@ -116,6 +116,49 @@ function loadRuleSet(moduleData) {
     };
 }
 
+
+function classifySentenceType(text) {
+    const source = String(text || '').trim();
+    if (!source) return 'descriptive';
+    if (/\?$|？$|(인가요|습니까|나요)/.test(source)) return 'question';
+    if (/(해\s*주세요|해\s*주십시오|하십시오|하세요|해라|해 줘|してください|しましょう|てください)/.test(source)) return 'request';
+    if (/(보다|처럼|같이|보다도|より|ほど|よりも)/.test(source)) return 'comparison';
+    return 'descriptive';
+}
+
+function getSentenceText(entry) {
+    if (typeof entry === 'string') return entry;
+    if (!entry || typeof entry !== 'object') return '';
+    return entry.text || entry.sentence || entry.question || entry.q || '';
+}
+
+function evaluateSentenceTypeDiversity(output) {
+    const sentences = Array.isArray(output && output.sentences) ? output.sentences : [];
+    const counts = {
+        descriptive: 0,
+        question: 0,
+        request: 0,
+        comparison: 0
+    };
+
+    sentences.forEach((entry) => {
+        const type = classifySentenceType(getSentenceText(entry));
+        counts[type] = (counts[type] || 0) + 1;
+    });
+
+    const total = Object.values(counts).reduce((sum, value) => sum + value, 0);
+    const nonZeroTypes = Object.values(counts).filter((value) => value > 0).length;
+    const maxShare = total === 0 ? 0 : (Math.max(...Object.values(counts)) / total);
+
+    return {
+        counts,
+        total,
+        nonZeroTypes,
+        maxShare,
+        passed: total === 0 ? true : (nonZeroTypes >= 2 && maxShare <= 0.75)
+    };
+}
+
 function isDifficultyViolation(maxAllowedLevel, observedLevel) {
     if (!maxAllowedLevel || !observedLevel) return false;
     const allowedIndex = JLPT_LEVEL_ORDER.indexOf(maxAllowedLevel);
@@ -141,6 +184,7 @@ function evaluateBatchViolations(batch, output, ruleData) {
 
     const missingUsage = batch.vocabIds.filter((vocabId) => !usedVocabIds.includes(vocabId));
     const misuseInBatch = misusedVocabIds.filter((vocabId) => batch.vocabIds.includes(vocabId));
+    const sentenceTypeDiversity = evaluateSentenceTypeDiversity(output);
 
     const violations = [];
     if (missingUsage.length > 0) {
@@ -181,8 +225,20 @@ function evaluateBatchViolations(batch, output, ruleData) {
         });
     }
 
+    if (!sentenceTypeDiversity.passed) {
+        violations.push({
+            type: 'sentence_type_imbalance',
+            details: {
+                sentenceTypeCounts: sentenceTypeDiversity.counts,
+                nonZeroTypes: sentenceTypeDiversity.nonZeroTypes,
+                maxShare: Number(sentenceTypeDiversity.maxShare.toFixed(4))
+            }
+        });
+    }
+
     return {
         parserReport,
+        sentenceTypeDiversity,
         violations,
         passed: violations.length === 0
     };

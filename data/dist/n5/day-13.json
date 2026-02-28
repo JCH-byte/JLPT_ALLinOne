@@ -121,7 +121,13 @@
             "mean": "1엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二円",
@@ -129,7 +135,13 @@
             "mean": "2엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三円",
@@ -137,7 +149,13 @@
             "mean": "3엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四円",
@@ -145,7 +163,13 @@
             "mean": "4엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五円",
@@ -153,7 +177,13 @@
             "mean": "5엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六円",
@@ -161,7 +191,13 @@
             "mean": "6엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七円",
@@ -169,7 +205,13 @@
             "mean": "7엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八円",
@@ -177,7 +219,13 @@
             "mean": "8엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九円",
@@ -185,7 +233,13 @@
             "mean": "9엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十円",
@@ -193,7 +247,13 @@
             "mean": "10엔",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "一年",
@@ -201,7 +261,13 @@
             "mean": "1년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二年",
@@ -209,7 +275,13 @@
             "mean": "2년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三年",
@@ -217,7 +289,13 @@
             "mean": "3년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四年",
@@ -225,7 +303,13 @@
             "mean": "4년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五年",
@@ -233,7 +317,13 @@
             "mean": "5년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六年",
@@ -241,7 +331,13 @@
             "mean": "6년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七年",
@@ -249,7 +345,13 @@
             "mean": "7년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八年",
@@ -257,7 +359,13 @@
             "mean": "8년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九年",
@@ -265,7 +373,13 @@
             "mean": "9년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十年",
@@ -273,7 +387,13 @@
             "mean": "10년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何年",
@@ -281,7 +401,13 @@
             "mean": "몇 년",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "一月",
@@ -289,7 +415,13 @@
             "mean": "1월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二月",
@@ -297,7 +429,13 @@
             "mean": "2월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三月",
@@ -305,7 +443,13 @@
             "mean": "3월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四月",
@@ -313,7 +457,13 @@
             "mean": "4월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五月",
@@ -321,7 +471,13 @@
             "mean": "5월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六月",
@@ -329,7 +485,13 @@
             "mean": "6월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七月",
@@ -337,7 +499,13 @@
             "mean": "7월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八月",
@@ -345,7 +513,13 @@
             "mean": "8월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九月",
@@ -353,7 +527,13 @@
             "mean": "9월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十月",
@@ -361,7 +541,13 @@
             "mean": "10월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十一月",
@@ -369,7 +555,13 @@
             "mean": "11월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十二月",
@@ -377,7 +569,13 @@
             "mean": "12월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何月",
@@ -385,7 +583,13 @@
             "mean": "몇 월",
             "tags": [],
             "moduleId": "n5-module-013",
-            "legacyDay": 13
+            "legacyDay": 13,
+            "introModule": "n5-module-013",
+            "reviewModules": [
+                "n5-module-015",
+                "n5-module-018"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [
