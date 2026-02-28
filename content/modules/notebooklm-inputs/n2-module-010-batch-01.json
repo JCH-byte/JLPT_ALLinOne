@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-010",
+    "title": "N2 모듈 010 (Day 3-4)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-010-batch-01",
+        "vocabIds": [
+            "v-a35da3fbca94f1a9fa5b7b2f5adbc4231795624d",
+            "v-6a7a659d6769c87ac0c392fa0725cefec115b38f",
+            "v-35961318c37e5deee40d7ccd9fd150a5e4145f89",
+            "v-2631093c27f58cecfb2ee93f5d095937c552c167",
+            "v-330e52c27b4b578e245639a70022f23c2e539959",
+            "v-6585f001039bffc7ad08f58385a663ec02e66c20",
+            "v-64a7906aa78609c2e205e43363099018ce67e109",
+            "v-f3a1097c08810046ba0d415b37fd6f73fb9bd918",
+            "v-93698667c2ab7298d568ad20fe4899b0c6316e56",
+            "v-eeecf584ab3c54963fbb6533a6ca8ea540717c76",
+            "v-4741f9be36664784d0da35f96536705caa1a9a86",
+            "v-14f85cc8fe47ee6172a6e01189cf2e6cdbc74380",
+            "v-8194649c22b58c92a3dc9839f308ede3d2df5120"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-a35da3fbca94f1a9fa5b7b2f5adbc4231795624d",
+            "word": "議会",
+            "read": "ぎかい",
+            "mean": "의회"
+        },
+        {
+            "id": "v-6a7a659d6769c87ac0c392fa0725cefec115b38f",
+            "word": "着替え",
+            "read": "きがえ",
+            "mean": "갈아입을 옷, 갈아입음"
+        },
+        {
+            "id": "v-35961318c37e5deee40d7ccd9fd150a5e4145f89",
+            "word": "企画",
+            "read": "きかく",
+            "mean": "기획"
+        },
+        {
+            "id": "v-2631093c27f58cecfb2ee93f5d095937c552c167",
+            "word": "機関",
+            "read": "きかん",
+            "mean": "기관"
+        },
+        {
+            "id": "v-330e52c27b4b578e245639a70022f23c2e539959",
+            "word": "危機",
+            "read": "きき",
+            "mean": "위기"
+        },
+        {
+            "id": "v-6585f001039bffc7ad08f58385a663ec02e66c20",
+            "word": "企業",
+            "read": "きぎょう",
+            "mean": "기업"
+        },
+        {
+            "id": "v-64a7906aa78609c2e205e43363099018ce67e109",
+            "word": "飢饉",
+            "read": "ききん",
+            "mean": "기근"
+        },
+        {
+            "id": "v-f3a1097c08810046ba0d415b37fd6f73fb9bd918",
+            "word": "器具",
+            "read": "きぐ",
+            "mean": "기구"
+        },
+        {
+            "id": "v-93698667c2ab7298d568ad20fe4899b0c6316e56",
+            "word": "機嫌",
+            "read": "きげん",
+            "mean": "기분, 비위"
+        },
+        {
+            "id": "v-eeecf584ab3c54963fbb6533a6ca8ea540717c76",
+            "word": "気候",
+            "read": "きこう",
+            "mean": "기후"
+        },
+        {
+            "id": "v-4741f9be36664784d0da35f96536705caa1a9a86",
+            "word": "記号",
+            "read": "きごう",
+            "mean": "기호"
+        },
+        {
+            "id": "v-14f85cc8fe47ee6172a6e01189cf2e6cdbc74380",
+            "word": "岸",
+            "read": "きし",
+            "mean": "기슭, 물가"
+        },
+        {
+            "id": "v-8194649c22b58c92a3dc9839f308ede3d2df5120",
+            "word": "生地",
+            "read": "きじ",
+            "mean": "옷감, 반죽, 본연의 성질"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-053",
+    "title": "N1 모듈 053 (Day 14)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-053-batch-01",
+        "vocabIds": [
+            "v-931a15b272d584ef7377dcf15e507ea13790342d",
+            "v-fd396557a240f0421109b3fed6109e930c353184",
+            "v-4abc88c02074a28f9afc161ef43d59a90ab38d45",
+            "v-6499262d3e13bd0cec5543d3f898dd45f31d16d9",
+            "v-93313d1b74c68c11fb42590795604bcc13fae6ff",
+            "v-e02cc8c4416e14fcb9d7a7247f3ee6e0af3b2206",
+            "v-103139bca909caaf794956cd634eb838e586a770",
+            "v-e5efddc08c68ff153e8ab5eec7b839e09dfecb19",
+            "v-61d46c52bcc52659403fa5664370a598688041d3",
+            "v-f108c306043784781e6f52cb0b034568d3f154ac",
+            "v-9dfd6817f50a32bbd10c642f5908e3a7b80bc8ce",
+            "v-b1d2b320488ddd8befbe80f52644926f3105ca51",
+            "v-52832d27a5741b8eb0a03b9d634a331d7a043620",
+            "v-d2a842efd61d7f1be8a45aee4efdea364122818d",
+            "v-b0dbaa13e3acdffd7b74455cb14796345d36ac3a",
+            "v-d363b703958ef21cb59fb3540a0127f24514913b",
+            "v-fab276ec63408417be923d8844fee125b8fab3fa",
+            "v-0a137768fb3524c36945399eb1fce061e54c04bd",
+            "v-492201500ba4ae6fe40051e22ef3a87df089d1b4",
+            "v-67227e6c3827a4340e05dd087cf4bd0ae752b01d",
+            "v-3f339da36c51c05e726c2f17d9c8e743a83caa64",
+            "v-eac3047c2758c452339d0852fe5d98870fe0ca49",
+            "v-29b3877355e8412d5903b3763c1f94cb03c9d374",
+            "v-3f3909540d0e862ed7e356d44bed83c1d72cd16d",
+            "v-b3fca5dc6cf40091ee96cb93f3d1759a0d6105fe"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-931a15b272d584ef7377dcf15e507ea13790342d",
+            "word": "落胆",
+            "read": "らくたん",
+            "mean": "낙담"
+        },
+        {
+            "id": "v-fd396557a240f0421109b3fed6109e930c353184",
+            "word": "酪農",
+            "read": "らくのう",
+            "mean": "낙농"
+        },
+        {
+            "id": "v-4abc88c02074a28f9afc161ef43d59a90ab38d45",
+            "word": "落下",
+            "read": "らっか",
+            "mean": "낙하"
+        },
+        {
+            "id": "v-6499262d3e13bd0cec5543d3f898dd45f31d16d9",
+            "word": "濫用",
+            "read": "らんよう",
+            "mean": "남용"
+        },
+        {
+            "id": "v-93313d1b74c68c11fb42590795604bcc13fae6ff",
+            "word": "理屈",
+            "read": "りくつ",
+            "mean": "이치, 핑계"
+        },
+        {
+            "id": "v-e02cc8c4416e14fcb9d7a7247f3ee6e0af3b2206",
+            "word": "利潤",
+            "read": "りじゅん",
+            "mean": "이윤"
+        },
+        {
+            "id": "v-103139bca909caaf794956cd634eb838e586a770",
+            "word": "利息",
+            "read": "りそく",
+            "mean": "이자"
+        },
+        {
+            "id": "v-e5efddc08c68ff153e8ab5eec7b839e09dfecb19",
+            "word": "離着陸",
+            "read": "りちゃくりく",
+            "mean": "이착륙"
+        },
+        {
+            "id": "v-61d46c52bcc52659403fa5664370a598688041d3",
+            "word": "立案",
+            "read": "りつあん",
+            "mean": "입안"
+        },
+        {
+            "id": "v-f108c306043784781e6f52cb0b034568d3f154ac",
+            "word": "立腹",
+            "read": "りっぷく",
+            "mean": "격분, 성냄"
+        },
+        {
+            "id": "v-9dfd6817f50a32bbd10c642f5908e3a7b80bc8ce",
+            "word": "立法",
+            "read": "りっぽう",
+            "mean": "입법"
+        },
+        {
+            "id": "v-b1d2b320488ddd8befbe80f52644926f3105ca51",
+            "word": "略奪",
+            "read": "りゃくだつ",
+            "mean": "약탈"
+        },
+        {
+            "id": "v-52832d27a5741b8eb0a03b9d634a331d7a043620",
+            "word": "流儀",
+            "read": "りゅうぎ",
+            "mean": "유의, 방식"
+        },
+        {
+            "id": "v-d2a842efd61d7f1be8a45aee4efdea364122818d",
+            "word": "流出",
+            "read": "りゅうしゅつ",
+            "mean": "유출"
+        },
+        {
+            "id": "v-b0dbaa13e3acdffd7b74455cb14796345d36ac3a",
+            "word": "領域",
+            "read": "りょういき",
+            "mean": "영역"
+        },
+        {
+            "id": "v-d363b703958ef21cb59fb3540a0127f24514913b",
+            "word": "了解",
+            "read": "りょうかい",
+            "mean": "양해"
+        },
+        {
+            "id": "v-fab276ec63408417be923d8844fee125b8fab3fa",
+            "word": "了承",
+            "read": "りょうしょう",
+            "mean": "승낙"
+        },
+        {
+            "id": "v-0a137768fb3524c36945399eb1fce061e54c04bd",
+            "word": "領土",
+            "read": "りょうど",
+            "mean": "영토"
+        },
+        {
+            "id": "v-492201500ba4ae6fe40051e22ef3a87df089d1b4",
+            "word": "履歴",
+            "read": "りれき",
+            "mean": "이력"
+        },
+        {
+            "id": "v-67227e6c3827a4340e05dd087cf4bd0ae752b01d",
+            "word": "隣接",
+            "read": "りんせつ",
+            "mean": "인접"
+        },
+        {
+            "id": "v-3f339da36c51c05e726c2f17d9c8e743a83caa64",
+            "word": "倫理",
+            "read": "りんり",
+            "mean": "윤리"
+        },
+        {
+            "id": "v-eac3047c2758c452339d0852fe5d98870fe0ca49",
+            "word": "類似",
+            "read": "るいじ",
+            "mean": "유사"
+        },
+        {
+            "id": "v-29b3877355e8412d5903b3763c1f94cb03c9d374",
+            "word": "類推",
+            "read": "るいすい",
+            "mean": "유추"
+        },
+        {
+            "id": "v-3f3909540d0e862ed7e356d44bed83c1d72cd16d",
+            "word": "冷却",
+            "read": "れいきゃく",
+            "mean": "냉각"
+        },
+        {
+            "id": "v-b3fca5dc6cf40091ee96cb93f3d1759a0d6105fe",
+            "word": "冷遇",
+            "read": "れいぐう",
+            "mean": "냉대"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-044",
+    "title": "N2 모듈 044 (Day 14)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-044-batch-01",
+        "vocabIds": [
+            "v-4e3b4c73469ef5e0cf7963e6298ab4920faeae69",
+            "v-986537aa439b42e04ff8932cded8fc2d03193d04",
+            "v-2149d6eebf9ece12c8988452a2fc022f1068b993",
+            "v-d4989e4d2fbe2df388a157aff2b53722268eb2ab",
+            "v-7525ae86fb33c5c0f06e34847711c8635915d37b",
+            "v-de837666fa7b0a9fa61563774b7d5175112208ff",
+            "v-1e5dc4cc78fcb2629d6c0a86c08af0a15ad12b7f",
+            "v-c2e93f67a04290eefe487d4f06cbbfe07d52d65b",
+            "v-f109b358a357196f220471f313cbd8a6d8c6c255",
+            "v-3bf34e9366ad08dcec2b481223adf6bad859fab8",
+            "v-617aade9e25494834fb1ac67517a5396afa82d59",
+            "v-d983ece7ea7b8bdbf4001bb82b56a3384193f127",
+            "v-3329180a6428a1942292f038becb738ae0b2799e",
+            "v-4e0d3e7c2c966c534217430308f2e5ab58e0bff7",
+            "v-028f4bd13f46963533acebf46f33aa9fb3013160",
+            "v-b6a1ab75d17dabaeafded98693215fdf4ff375e2",
+            "v-bfee50a4019ac9cac03b71ff0c8ceab2e6ce24ed",
+            "v-9c066ef8bb536e64e9e47404a625e010f272f097",
+            "v-86936023154e15a5d23947e2dfa689d4f67cefc9",
+            "v-d4fa5090da4e92dc64190f46389d13a6ba8edf6f",
+            "v-55524060b905cc949d9ba87bad642483e78b0b9b",
+            "v-e9f1a53e94dbdfd5336e176bd8822e07595b9792",
+            "v-c31deb43ffb5fe523018c9f8c61ce2d0108a9ae2",
+            "v-ef79123634acbfc95bf52cbd34b6bdccd0a31189",
+            "v-4ac5417418c994ea2c8b291249cce4b0f40caa7f"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-4e3b4c73469ef5e0cf7963e6298ab4920faeae69",
+            "word": "ほうき",
+            "read": "ほうき",
+            "mean": "비(청소 도구)"
+        },
+        {
+            "id": "v-986537aa439b42e04ff8932cded8fc2d03193d04",
+            "word": "方言",
+            "read": "ほうげん",
+            "mean": "방언, 사투리"
+        },
+        {
+            "id": "v-2149d6eebf9ece12c8988452a2fc022f1068b993",
+            "word": "冒険",
+            "read": "ぼうけん",
+            "mean": "모험"
+        },
+        {
+            "id": "v-d4989e4d2fbe2df388a157aff2b53722268eb2ab",
+            "word": "暴言",
+            "read": "ぼうげん",
+            "mean": "폭언"
+        },
+        {
+            "id": "v-7525ae86fb33c5c0f06e34847711c8635915d37b",
+            "word": "暴行",
+            "read": "ぼうこう",
+            "mean": "폭행"
+        },
+        {
+            "id": "v-de837666fa7b0a9fa61563774b7d5175112208ff",
+            "word": "防災",
+            "read": "ぼうさい",
+            "mean": "방재"
+        },
+        {
+            "id": "v-1e5dc4cc78fcb2629d6c0a86c08af0a15ad12b7f",
+            "word": "防止",
+            "read": "ぼうし",
+            "mean": "방지"
+        },
+        {
+            "id": "v-c2e93f67a04290eefe487d4f06cbbfe07d52d65b",
+            "word": "放出",
+            "read": "ほうしゅつ",
+            "mean": "방출"
+        },
+        {
+            "id": "v-f109b358a357196f220471f313cbd8a6d8c6c255",
+            "word": "方針",
+            "read": "ほうしん",
+            "mean": "방침"
+        },
+        {
+            "id": "v-3bf34e9366ad08dcec2b481223adf6bad859fab8",
+            "word": "包装",
+            "read": "ほうそう",
+            "mean": "포장"
+        },
+        {
+            "id": "v-617aade9e25494834fb1ac67517a5396afa82d59",
+            "word": "包帯",
+            "read": "ほうたい",
+            "mean": "붕대"
+        },
+        {
+            "id": "v-d983ece7ea7b8bdbf4001bb82b56a3384193f127",
+            "word": "報道",
+            "read": "ほうどう",
+            "mean": "보도"
+        },
+        {
+            "id": "v-3329180a6428a1942292f038becb738ae0b2799e",
+            "word": "防犯",
+            "read": "ぼうはん",
+            "mean": "방범"
+        },
+        {
+            "id": "v-4e0d3e7c2c966c534217430308f2e5ab58e0bff7",
+            "word": "暴力",
+            "read": "ぼうりょく",
+            "mean": "폭력"
+        },
+        {
+            "id": "v-028f4bd13f46963533acebf46f33aa9fb3013160",
+            "word": "頬",
+            "read": "ほほ",
+            "mean": "뺨"
+        },
+        {
+            "id": "v-b6a1ab75d17dabaeafded98693215fdf4ff375e2",
+            "word": "牧場",
+            "read": "ぼくじょう",
+            "mean": "목장"
+        },
+        {
+            "id": "v-bfee50a4019ac9cac03b71ff0c8ceab2e6ce24ed",
+            "word": "牧畜",
+            "read": "ぼくちく",
+            "mean": "목축"
+        },
+        {
+            "id": "v-9c066ef8bb536e64e9e47404a625e010f272f097",
+            "word": "北米",
+            "read": "ほくべい",
+            "mean": "북미"
+        },
+        {
+            "id": "v-86936023154e15a5d23947e2dfa689d4f67cefc9",
+            "word": "保健",
+            "read": "ほけん",
+            "mean": "보건"
+        },
+        {
+            "id": "v-d4fa5090da4e92dc64190f46389d13a6ba8edf6f",
+            "word": "保証",
+            "read": "ほしょう",
+            "mean": "보증"
+        },
+        {
+            "id": "v-55524060b905cc949d9ba87bad642483e78b0b9b",
+            "word": "補足",
+            "read": "ほそく",
+            "mean": "보족, 보충"
+        },
+        {
+            "id": "v-e9f1a53e94dbdfd5336e176bd8822e07595b9792",
+            "word": "保存",
+            "read": "ほぞん",
+            "mean": "보존"
+        },
+        {
+            "id": "v-c31deb43ffb5fe523018c9f8c61ce2d0108a9ae2",
+            "word": "北極",
+            "read": "ほっきょく",
+            "mean": "북극"
+        },
+        {
+            "id": "v-ef79123634acbfc95bf52cbd34b6bdccd0a31189",
+            "word": "炎",
+            "read": "ほのお",
+            "mean": "불꽃"
+        },
+        {
+            "id": "v-4ac5417418c994ea2c8b291249cce4b0f40caa7f",
+            "word": "ぼろ",
+            "read": "ぼろ",
+            "mean": "넝마, 낡은 천"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

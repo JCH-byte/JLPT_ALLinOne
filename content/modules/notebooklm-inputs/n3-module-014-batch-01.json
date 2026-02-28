@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-014",
+    "title": "N3 모듈 014 (Day 5-6)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-014-batch-01",
+        "vocabIds": [
+            "v-9e95f615f59b48af73bde6cf7f2de2019c5a6e93",
+            "v-5ec498e7397ae4582325c814af4549203d2e5414",
+            "v-fee85fb8d17172ec8bd909960759572e36da9fa9",
+            "v-f81b49a7b0f1c5915c2a43c592a6bcd079804030",
+            "v-79fb30d74908ad56d3ef4612ab847fe624bf4b67",
+            "v-179a60eacaea59aae606c22decd0abf688df82d8",
+            "v-f76dbfaee925a8e758cea9ea9a65a4bbf3403f78",
+            "v-51bbb0d49e2bdd1f3c9aa14385c5295a28b1fbdf",
+            "v-903eb21ab7d379362c8bb6c785d16b6df57b75ae",
+            "v-20e4ed6a81b37ffbbf01df0af2ccd10b181a20df",
+            "v-097777cded1b3c87770b1ceaab9ff3f4cd12a288",
+            "v-751926fd3d73a55913af7849e9d3cf5b5393538f",
+            "v-a7222bb7d076a25ab78fed08c6376ae2c2790f7d",
+            "v-4ac1c90b4be6e0201fa5e34eb974356be0d361a4",
+            "v-aab379bcc3d0e3c3fbc3ad358dcfc9e6572094d9",
+            "v-b140ab18c5b7f6d9452b2d4d2ed9d94f6ec92fb2",
+            "v-37685c4a73a16adc4e142346fa1c8b3be2b706af",
+            "v-bd9ad5eca16263f301578fc6cfefd9e4ab8aab94",
+            "v-05908fa4788139e6e6bc41285231111e6df33f98",
+            "v-3f176516e1c0c4955783c52cac588206d08937af",
+            "v-528a0b4afff56d83f353a28f7b370613e94ef5bf",
+            "v-502452cf8857fcb859c55dbc13c992c30168475d",
+            "v-f3b17e7600e9993001aa9e806ee7e560668f8950",
+            "v-4cb55933ad229a424b3b6c40740d423da07afcde",
+            "v-6742e8c2a7ca1cbb6bbfa0ab5dbc6791f3ef7182"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-9e95f615f59b48af73bde6cf7f2de2019c5a6e93",
+            "word": "呼吸",
+            "read": "こきゅう",
+            "mean": "호흡"
+        },
+        {
+            "id": "v-5ec498e7397ae4582325c814af4549203d2e5414",
+            "word": "故郷",
+            "read": "こきょう",
+            "mean": "고향"
+        },
+        {
+            "id": "v-fee85fb8d17172ec8bd909960759572e36da9fa9",
+            "word": "国語",
+            "read": "こくご",
+            "mean": "국어"
+        },
+        {
+            "id": "v-f81b49a7b0f1c5915c2a43c592a6bcd079804030",
+            "word": "黒板",
+            "read": "こくばん",
+            "mean": "칠판"
+        },
+        {
+            "id": "v-79fb30d74908ad56d3ef4612ab847fe624bf4b67",
+            "word": "小声",
+            "read": "こごえ",
+            "mean": "작은 목소리"
+        },
+        {
+            "id": "v-179a60eacaea59aae606c22decd0abf688df82d8",
+            "word": "腰",
+            "read": "こし",
+            "mean": "허리"
+        },
+        {
+            "id": "v-f76dbfaee925a8e758cea9ea9a65a4bbf3403f78",
+            "word": "個人",
+            "read": "こじん",
+            "mean": "개인"
+        },
+        {
+            "id": "v-51bbb0d49e2bdd1f3c9aa14385c5295a28b1fbdf",
+            "word": "子育て",
+            "read": "こそだて",
+            "mean": "육아"
+        },
+        {
+            "id": "v-903eb21ab7d379362c8bb6c785d16b6df57b75ae",
+            "word": "国会",
+            "read": "こっかい",
+            "mean": "국회"
+        },
+        {
+            "id": "v-20e4ed6a81b37ffbbf01df0af2ccd10b181a20df",
+            "word": "小包",
+            "read": "こづつみ",
+            "mean": "소포"
+        },
+        {
+            "id": "v-097777cded1b3c87770b1ceaab9ff3f4cd12a288",
+            "word": "このごろ",
+            "read": "このごろ",
+            "mean": "요즘, 최근"
+        },
+        {
+            "id": "v-751926fd3d73a55913af7849e9d3cf5b5393538f",
+            "word": "好み",
+            "read": "このみ",
+            "mean": "기호, 취향"
+        },
+        {
+            "id": "v-a7222bb7d076a25ab78fed08c6376ae2c2790f7d",
+            "word": "小指",
+            "read": "こゆび",
+            "mean": "새끼손가락"
+        },
+        {
+            "id": "v-4ac1c90b4be6e0201fa5e34eb974356be0d361a4",
+            "word": "今後",
+            "read": "こんご",
+            "mean": "금후, 앞으로"
+        },
+        {
+            "id": "v-aab379bcc3d0e3c3fbc3ad358dcfc9e6572094d9",
+            "word": "混雑",
+            "read": "こんざつ",
+            "mean": "혼잡"
+        },
+        {
+            "id": "v-b140ab18c5b7f6d9452b2d4d2ed9d94f6ec92fb2",
+            "word": "差",
+            "read": "さ",
+            "mean": "차, 차이"
+        },
+        {
+            "id": "v-37685c4a73a16adc4e142346fa1c8b3be2b706af",
+            "word": "最高",
+            "read": "さいこう",
+            "mean": "최고"
+        },
+        {
+            "id": "v-bd9ad5eca16263f301578fc6cfefd9e4ab8aab94",
+            "word": "祭日",
+            "read": "さいじつ",
+            "mean": "제일, 국경일"
+        },
+        {
+            "id": "v-05908fa4788139e6e6bc41285231111e6df33f98",
+            "word": "最初",
+            "read": "さいしょ",
+            "mean": "최초, 처음"
+        },
+        {
+            "id": "v-3f176516e1c0c4955783c52cac588206d08937af",
+            "word": "最新",
+            "read": "さいしん",
+            "mean": "최신"
+        },
+        {
+            "id": "v-528a0b4afff56d83f353a28f7b370613e94ef5bf",
+            "word": "再生",
+            "read": "さいせい",
+            "mean": "재생"
+        },
+        {
+            "id": "v-502452cf8857fcb859c55dbc13c992c30168475d",
+            "word": "最低",
+            "read": "さいてい",
+            "mean": "최저"
+        },
+        {
+            "id": "v-f3b17e7600e9993001aa9e806ee7e560668f8950",
+            "word": "採点",
+            "read": "さいてん",
+            "mean": "채점"
+        },
+        {
+            "id": "v-4cb55933ad229a424b3b6c40740d423da07afcde",
+            "word": "才能",
+            "read": "さいのう",
+            "mean": "재능"
+        },
+        {
+            "id": "v-6742e8c2a7ca1cbb6bbfa0ab5dbc6791f3ef7182",
+            "word": "再利用",
+            "read": "さいりよう",
+            "mean": "재이용"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

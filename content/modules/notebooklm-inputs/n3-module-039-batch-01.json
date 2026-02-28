@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-039",
+    "title": "N3 모듈 039 (Day 14-15)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-039-batch-01",
+        "vocabIds": [
+            "v-1381c073d722286adabf9ab6b05eb383f63302ff",
+            "v-2ee89822282bd8068ac33e85ce0c88430101561c",
+            "v-588ebffa70b384149f91e56d9bbeaf10a26de291",
+            "v-08bdf0e2e5f8dc423e2e9d0df0a2331adbd446dd",
+            "v-1f7bbbaa6f9f1e86bfccfdd11fdd68514dea91a2",
+            "v-c1055532b728f9d3bf514d30f13f567f74400860",
+            "v-2a08abd995ca55b07a15246949a8cd384be96e87",
+            "v-ad10a1039f5f123cb832d408fd13486eafab3f24",
+            "v-06e6d7ba4aad027eb1f61f3ac847d0e530f25bad",
+            "v-6dcde0eb9e4950598e2c5f1dc015d81ba3dacafe",
+            "v-3f79c37c8944213376b14219d89120738107a64b",
+            "v-5cdf147e677f58c23074e503de0cfb14f7ca83af",
+            "v-2c96aae985b610815abaf4a8c0e64bc8a56f197a",
+            "v-a056c6c0f50115cdb42fdf4d9fe7a71ed6cff149",
+            "v-a9070c4d7828c34aace8c6b9035c379b50e8da3e",
+            "v-b731c839cb9750f55da71e1d4593ae46ed68f876",
+            "v-10b1d4fd97ce241db8695c97616e49c60a5fd1fa",
+            "v-3816c88a70fcd98cb035010bced0b7cbdf6fee39",
+            "v-ea5e8b5923b4aebf64aa0e253b57ad35dacb662e",
+            "v-5858797b5860a512b1df0610d8be97b841f536f1",
+            "v-33161445810c0a9a13b6460519cd52c0e4b79e14",
+            "v-229c01f078273310f335524b90ef19cdbaead68a",
+            "v-634dc1ec4c5fcf84fe34c6f338854f789adc3f59",
+            "v-faffda5d80e1168d635669759e635734afe22d92",
+            "v-8a351914e011f3c7c0e9d7ae2a85d83c1cb8d8f9"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-1381c073d722286adabf9ab6b05eb383f63302ff",
+            "word": "未来",
+            "read": "みらい",
+            "mean": "미래"
+        },
+        {
+            "id": "v-2ee89822282bd8068ac33e85ce0c88430101561c",
+            "word": "民間",
+            "read": "みんかん",
+            "mean": "민간"
+        },
+        {
+            "id": "v-588ebffa70b384149f91e56d9bbeaf10a26de291",
+            "word": "向かい",
+            "read": "むかい",
+            "mean": "맞은편"
+        },
+        {
+            "id": "v-08bdf0e2e5f8dc423e2e9d0df0a2331adbd446dd",
+            "word": "迎え",
+            "read": "むかえ",
+            "mean": "마중"
+        },
+        {
+            "id": "v-1f7bbbaa6f9f1e86bfccfdd11fdd68514dea91a2",
+            "word": "向き",
+            "read": "むき",
+            "mean": "방향, 적합함"
+        },
+        {
+            "id": "v-c1055532b728f9d3bf514d30f13f567f74400860",
+            "word": "無休",
+            "read": "むきゅう",
+            "mean": "무휴"
+        },
+        {
+            "id": "v-2a08abd995ca55b07a15246949a8cd384be96e87",
+            "word": "無視",
+            "read": "むし",
+            "mean": "무시"
+        },
+        {
+            "id": "v-ad10a1039f5f123cb832d408fd13486eafab3f24",
+            "word": "無地",
+            "read": "むじ",
+            "mean": "무늬가 없음"
+        },
+        {
+            "id": "v-06e6d7ba4aad027eb1f61f3ac847d0e530f25bad",
+            "word": "虫歯",
+            "read": "むしば",
+            "mean": "충치"
+        },
+        {
+            "id": "v-6dcde0eb9e4950598e2c5f1dc015d81ba3dacafe",
+            "word": "無線",
+            "read": "むせん",
+            "mean": "무선"
+        },
+        {
+            "id": "v-3f79c37c8944213376b14219d89120738107a64b",
+            "word": "無駄",
+            "read": "むだ",
+            "mean": "쓸모없음, 헛됨"
+        },
+        {
+            "id": "v-5cdf147e677f58c23074e503de0cfb14f7ca83af",
+            "word": "無駄遣い",
+            "read": "むだづかい",
+            "mean": "낭비"
+        },
+        {
+            "id": "v-2c96aae985b610815abaf4a8c0e64bc8a56f197a",
+            "word": "胸",
+            "read": "むね",
+            "mean": "가슴"
+        },
+        {
+            "id": "v-a056c6c0f50115cdb42fdf4d9fe7a71ed6cff149",
+            "word": "無料",
+            "read": "むりょう",
+            "mean": "무료"
+        },
+        {
+            "id": "v-a9070c4d7828c34aace8c6b9035c379b50e8da3e",
+            "word": "めい",
+            "read": "めい",
+            "mean": "조카(여자)"
+        },
+        {
+            "id": "v-b731c839cb9750f55da71e1d4593ae46ed68f876",
+            "word": "名作",
+            "read": "めいさく",
+            "mean": "명작"
+        },
+        {
+            "id": "v-10b1d4fd97ce241db8695c97616e49c60a5fd1fa",
+            "word": "名刺",
+            "read": "めいし",
+            "mean": "명함"
+        },
+        {
+            "id": "v-3816c88a70fcd98cb035010bced0b7cbdf6fee39",
+            "word": "名人",
+            "read": "めいじん",
+            "mean": "명인"
+        },
+        {
+            "id": "v-ea5e8b5923b4aebf64aa0e253b57ad35dacb662e",
+            "word": "命令",
+            "read": "めいれい",
+            "mean": "명령"
+        },
+        {
+            "id": "v-5858797b5860a512b1df0610d8be97b841f536f1",
+            "word": "迷惑",
+            "read": "めいわく",
+            "mean": "민폐"
+        },
+        {
+            "id": "v-33161445810c0a9a13b6460519cd52c0e4b79e14",
+            "word": "目上",
+            "read": "めうえ",
+            "mean": "윗사람"
+        },
+        {
+            "id": "v-229c01f078273310f335524b90ef19cdbaead68a",
+            "word": "目覚まし",
+            "read": "めざまし",
+            "mean": "자명종, 잠을 깸"
+        },
+        {
+            "id": "v-634dc1ec4c5fcf84fe34c6f338854f789adc3f59",
+            "word": "飯",
+            "read": "めし",
+            "mean": "밥"
+        },
+        {
+            "id": "v-faffda5d80e1168d635669759e635734afe22d92",
+            "word": "目下",
+            "read": "めした",
+            "mean": "아랫사람"
+        },
+        {
+            "id": "v-8a351914e011f3c7c0e9d7ae2a85d83c1cb8d8f9",
+            "word": "めまい",
+            "read": "めまい",
+            "mean": "현기증"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

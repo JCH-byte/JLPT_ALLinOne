@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-007",
+    "title": "N3 모듈 007 (Day 3)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-007-batch-01",
+        "vocabIds": [
+            "v-31b88811621707c69c81882a1ac5a71d2dce625a",
+            "v-90a168c111f8f1369700f24fc34c884cd62a662a",
+            "v-e46ab8110382f5266f9a794fb4e97f04c391e3f7",
+            "v-191cc5b4316ef19e0603aa59a9748ddd509331c5",
+            "v-21a973142fe263ffabac82d4667507fbe1ff0dfe",
+            "v-2d6835ebf4ed7e8df2b569bee93aa5626c4af0f7",
+            "v-99e7b46bf4e48cf39c75fee2f4a1e591f06d12f4",
+            "v-88e30b93750b379a3e62f0bb0dd987fa3f559bb0",
+            "v-8d752c7a891cc1f90cbc117eeb4ac7a1cee095fc",
+            "v-6ac3649060614b5efa86ec1e6b2beaf7e7021cdc",
+            "v-578627098cd0b05beebc354ef842750715e06014",
+            "v-7304253bdeafa4c80f4eaf3b1fdc1e6730cb85a1",
+            "v-fac4e1208cb6a7e514f25f2d167f261136203a80",
+            "v-7661bd0b7d0a45df67e8b7e27bacd5a6a86af8b9",
+            "v-d8c6a3c242e61325e73fc57dc38d4d7423785768",
+            "v-060db0a74436d5014952e187ae92c18c1b2fa0f5",
+            "v-70ff63cbbb07df3e41dcc075957773a14c745001",
+            "v-0317d9e375b8964b54f06b30508624fcdf9ac8b6",
+            "v-e2424664cf5697f72bddb92dbfd4e6184885c632",
+            "v-db6443b4837974819efe6d858463fbc66d533b0f",
+            "v-6800b55a37153879d4c049687f69d9b8dc82eff7",
+            "v-7a8aaedad045e12811909bfcee1a9000448e2335",
+            "v-f8f945a7c81876814140cbff5610b32485d37200",
+            "v-d5bbbd58f97286dd1ba717b873d8ce3eb648a1c1",
+            "v-7a29d0e74861bc2d467a2decab72b8c75acb9edb"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-31b88811621707c69c81882a1ac5a71d2dce625a",
+            "word": "課題",
+            "read": "かだい",
+            "mean": "과제"
+        },
+        {
+            "id": "v-90a168c111f8f1369700f24fc34c884cd62a662a",
+            "word": "方々",
+            "read": "かたがた",
+            "mean": "분들(사람들의 높임말)"
+        },
+        {
+            "id": "v-e46ab8110382f5266f9a794fb4e97f04c391e3f7",
+            "word": "片方",
+            "read": "かたほう",
+            "mean": "한쪽"
+        },
+        {
+            "id": "v-191cc5b4316ef19e0603aa59a9748ddd509331c5",
+            "word": "片道",
+            "read": "かたみち",
+            "mean": "편도"
+        },
+        {
+            "id": "v-21a973142fe263ffabac82d4667507fbe1ff0dfe",
+            "word": "価値",
+            "read": "かち",
+            "mean": "가치"
+        },
+        {
+            "id": "v-2d6835ebf4ed7e8df2b569bee93aa5626c4af0f7",
+            "word": "勝ち",
+            "read": "かち",
+            "mean": "승리"
+        },
+        {
+            "id": "v-99e7b46bf4e48cf39c75fee2f4a1e591f06d12f4",
+            "word": "活気",
+            "read": "かっき",
+            "mean": "활기"
+        },
+        {
+            "id": "v-88e30b93750b379a3e62f0bb0dd987fa3f559bb0",
+            "word": "楽器",
+            "read": "がっき",
+            "mean": "악기"
+        },
+        {
+            "id": "v-8d752c7a891cc1f90cbc117eeb4ac7a1cee095fc",
+            "word": "格好",
+            "read": "かっこう",
+            "mean": "모습, 폼"
+        },
+        {
+            "id": "v-6ac3649060614b5efa86ec1e6b2beaf7e7021cdc",
+            "word": "活動",
+            "read": "かつどう",
+            "mean": "활동"
+        },
+        {
+            "id": "v-578627098cd0b05beebc354ef842750715e06014",
+            "word": "仮定",
+            "read": "かてい",
+            "mean": "가정"
+        },
+        {
+            "id": "v-7304253bdeafa4c80f4eaf3b1fdc1e6730cb85a1",
+            "word": "家電製品",
+            "read": "かでんせいひん",
+            "mean": "가전제품"
+        },
+        {
+            "id": "v-fac4e1208cb6a7e514f25f2d167f261136203a80",
+            "word": "角",
+            "read": "かど",
+            "mean": "모퉁이"
+        },
+        {
+            "id": "v-7661bd0b7d0a45df67e8b7e27bacd5a6a86af8b9",
+            "word": "悲しみ",
+            "read": "かなしみ",
+            "mean": "슬픔"
+        },
+        {
+            "id": "v-d8c6a3c242e61325e73fc57dc38d4d7423785768",
+            "word": "我慢",
+            "read": "がまん",
+            "mean": "참음, 인내"
+        },
+        {
+            "id": "v-060db0a74436d5014952e187ae92c18c1b2fa0f5",
+            "word": "神",
+            "read": "かみ",
+            "mean": "신"
+        },
+        {
+            "id": "v-70ff63cbbb07df3e41dcc075957773a14c745001",
+            "word": "画面",
+            "read": "がめん",
+            "mean": "화면"
+        },
+        {
+            "id": "v-0317d9e375b8964b54f06b30508624fcdf9ac8b6",
+            "word": "科目",
+            "read": "かもく",
+            "mean": "과목"
+        },
+        {
+            "id": "v-e2424664cf5697f72bddb92dbfd4e6184885c632",
+            "word": "空",
+            "read": "から",
+            "mean": "빔, 공허"
+        },
+        {
+            "id": "v-db6443b4837974819efe6d858463fbc66d533b0f",
+            "word": "空っぽ",
+            "read": "からっぽ",
+            "mean": "텅 빔"
+        },
+        {
+            "id": "v-6800b55a37153879d4c049687f69d9b8dc82eff7",
+            "word": "缶",
+            "read": "かん",
+            "mean": "캔"
+        },
+        {
+            "id": "v-7a8aaedad045e12811909bfcee1a9000448e2335",
+            "word": "考え",
+            "read": "かんがえ",
+            "mean": "생각"
+        },
+        {
+            "id": "v-f8f945a7c81876814140cbff5610b32485d37200",
+            "word": "間隔",
+            "read": "かんかく",
+            "mean": "간격"
+        },
+        {
+            "id": "v-d5bbbd58f97286dd1ba717b873d8ce3eb648a1c1",
+            "word": "感覚",
+            "read": "かんかく",
+            "mean": "감각"
+        },
+        {
+            "id": "v-7a29d0e74861bc2d467a2decab72b8c75acb9edb",
+            "word": "環境",
+            "read": "かんきょう",
+            "mean": "환경"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

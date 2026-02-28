@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-073",
+    "title": "N2 모듈 073 (Day 23-24)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-073-batch-01",
+        "vocabIds": [
+            "v-461e3753179f86bf014efff16bb92024e9c0e578",
+            "v-e1760d07e2338c9e13600e9a3e2e23913cd0901c",
+            "v-3c4e68ce67f3fc77390f260f67b4967cee722a30",
+            "v-d09d4415ea1343e276b87e34a836a792ae77384c",
+            "v-f2d3727909f1957e0596ce9d3f83945f676009e8",
+            "v-9a2570eb025d5bb8d60373c491c2015c804adcad",
+            "v-7054ed76fb213f1b80b0277209dcca9954134a0f",
+            "v-c84432e0e13499077c504eaed1afa6f8d8cd3ab5",
+            "v-bdb81d54af3e8e42e3a532296e55ca13fdeabeda",
+            "v-ffef84c071728870e4b70b7f82ba92e717dc9e98",
+            "v-d953c7abb3f1186095650236e9c4988d02fb4f85",
+            "v-684bc5349363090a7cc30e2f614c82ba2b31321d",
+            "v-d06e8040e1479986ecd0beb130d5eb0b6c465fb3",
+            "v-617b6172f094456f1c9dd2231addb80f4bb1c82c",
+            "v-631cfd7a7fbaafda9e299dcf43314a5efa32a852",
+            "v-af11c72156f237f92e8b9956b99d0028a05992f5",
+            "v-a00a713b9a15588e846b4bf3a204d28b1b24d51e",
+            "v-9071b15f28e8f33371fc822bc3ff8c3bb22954b9",
+            "v-0059f9e628033da589d9b7f7a46fbc13514d5d2c",
+            "v-b45ca8ee00198e603543cc3a19b91903eb9149e9",
+            "v-d24c9b08b485679a081670c4e318b6851d49a4a9",
+            "v-e169db18aa2be844df2ddd191358f49e5b84a039",
+            "v-2c08bb47c7a87566be149fec86f39d08ba92e7a3",
+            "v-9ff59df0cf93310e8fa46e95921fc4603b8cf12a",
+            "v-b8bf99ed3ab150fdb039f8656bafa1538995d27b"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-461e3753179f86bf014efff16bb92024e9c0e578",
+            "word": "強気な",
+            "read": "つよきな",
+            "mean": "강경한"
+        },
+        {
+            "id": "v-e1760d07e2338c9e13600e9a3e2e23913cd0901c",
+            "word": "手軽な",
+            "read": "てがるな",
+            "mean": "간편한"
+        },
+        {
+            "id": "v-3c4e68ce67f3fc77390f260f67b4967cee722a30",
+            "word": "的確な",
+            "read": "てきかくな",
+            "mean": "적확한, 정확한"
+        },
+        {
+            "id": "v-d09d4415ea1343e276b87e34a836a792ae77384c",
+            "word": "適切な",
+            "read": "てきせつな",
+            "mean": "적절한"
+        },
+        {
+            "id": "v-f2d3727909f1957e0596ce9d3f83945f676009e8",
+            "word": "適度な",
+            "read": "てきどな",
+            "mean": "적당한"
+        },
+        {
+            "id": "v-9a2570eb025d5bb8d60373c491c2015c804adcad",
+            "word": "でたらめな",
+            "read": "でたらめな",
+            "mean": "엉터리인"
+        },
+        {
+            "id": "v-7054ed76fb213f1b80b0277209dcca9954134a0f",
+            "word": "徹底的な",
+            "read": "てっていてきな",
+            "mean": "철저한"
+        },
+        {
+            "id": "v-c84432e0e13499077c504eaed1afa6f8d8cd3ab5",
+            "word": "典型的な",
+            "read": "てんけいてきな",
+            "mean": "전형적인"
+        },
+        {
+            "id": "v-bdb81d54af3e8e42e3a532296e55ca13fdeabeda",
+            "word": "同一な",
+            "read": "どういつな",
+            "mean": "동일한"
+        },
+        {
+            "id": "v-ffef84c071728870e4b70b7f82ba92e717dc9e98",
+            "word": "透明な",
+            "read": "とうめいな",
+            "mean": "투명한"
+        },
+        {
+            "id": "v-d953c7abb3f1186095650236e9c4988d02fb4f85",
+            "word": "得意な",
+            "read": "とくいな",
+            "mean": "잘하는, 자신 있는"
+        },
+        {
+            "id": "v-684bc5349363090a7cc30e2f614c82ba2b31321d",
+            "word": "特殊な",
+            "read": "とくしゅな",
+            "mean": "특수한"
+        },
+        {
+            "id": "v-d06e8040e1479986ecd0beb130d5eb0b6c465fb3",
+            "word": "和やかな",
+            "read": "なごやかな",
+            "mean": "온화한"
+        },
+        {
+            "id": "v-617b6172f094456f1c9dd2231addb80f4bb1c82c",
+            "word": "生意気な",
+            "read": "なまいきな",
+            "mean": "건방진"
+        },
+        {
+            "id": "v-631cfd7a7fbaafda9e299dcf43314a5efa32a852",
+            "word": "苦手な",
+            "read": "にがてな",
+            "mean": "서툰, 거북한"
+        },
+        {
+            "id": "v-af11c72156f237f92e8b9956b99d0028a05992f5",
+            "word": "呑気な",
+            "read": "のんきな",
+            "mean": "무사태평한"
+        },
+        {
+            "id": "v-a00a713b9a15588e846b4bf3a204d28b1b24d51e",
+            "word": "莫大な",
+            "read": "ばくだいな",
+            "mean": "막대한"
+        },
+        {
+            "id": "v-9071b15f28e8f33371fc822bc3ff8c3bb22954b9",
+            "word": "派手な",
+            "read": "はでな",
+            "mean": "화려한"
+        },
+        {
+            "id": "v-0059f9e628033da589d9b7f7a46fbc13514d5d2c",
+            "word": "卑怯な",
+            "read": "ひきょうな",
+            "mean": "비겁한"
+        },
+        {
+            "id": "v-b45ca8ee00198e603543cc3a19b91903eb9149e9",
+            "word": "非常識な",
+            "read": "ひじょうしきな",
+            "mean": "몰상식한"
+        },
+        {
+            "id": "v-d24c9b08b485679a081670c4e318b6851d49a4a9",
+            "word": "必死な",
+            "read": "ひっしな",
+            "mean": "필사적인"
+        },
+        {
+            "id": "v-e169db18aa2be844df2ddd191358f49e5b84a039",
+            "word": "微妙な",
+            "read": "びみょうな",
+            "mean": "미묘한"
+        },
+        {
+            "id": "v-2c08bb47c7a87566be149fec86f39d08ba92e7a3",
+            "word": "平等な",
+            "read": "びょうどうな",
+            "mean": "평등한"
+        },
+        {
+            "id": "v-9ff59df0cf93310e8fa46e95921fc4603b8cf12a",
+            "word": "敏感な",
+            "read": "びんかんな",
+            "mean": "민감한"
+        },
+        {
+            "id": "v-b8bf99ed3ab150fdb039f8656bafa1538995d27b",
+            "word": "無愛想な",
+            "read": "ぶあいそうな",
+            "mean": "무뚝뚝한"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-023",
+    "title": "N1 모듈 023 (Day 6)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-023-batch-01",
+        "vocabIds": [
+            "v-c8eda532a4f6186c78734ee41fcc115c2a345905",
+            "v-c4194b5c101ef2fd01143317322c6baf0d7e8de1",
+            "v-b7080b7eaa49c357415c47be3d8dc569f94c5454",
+            "v-b54cf3573a3af2d1f4d875d73f9254b2464bb601",
+            "v-f0f210357e80984616d12c59bd4a5bae40f2d501",
+            "v-68ef2bc41bf5f120be09bdd955ad0a1a0b45c9bd",
+            "v-8a1615a94a256c64ac61b4b1428f61bd2f719909",
+            "v-3004520a34c52567c5a025c0e4b2e1a574537e3e",
+            "v-b55dbc9ab408162670926e19ded3d343805b0576",
+            "v-5fb143f6a84865705830f5c948ae4719615f38d5",
+            "v-1700af5a400031b2be78b9c0b379eaf8f6faac4f",
+            "v-ffe866a06d4375c241c846700a20edaceb767bd0",
+            "v-f14b917ef0ed7416c7552fe5134e686002a1b3d7",
+            "v-2d9483062895abf0c29121d2a65622506d9b3515",
+            "v-c12b50a63ff8fa23c17f111f3e279330d535aec0",
+            "v-4e93d2f64d6348069051e0c78ec294cf5a25e5a5",
+            "v-36df8c5b8d2b397bd3dc13b170cfbdbad48ac8d1",
+            "v-f1814a39638e071948775644adfc50758e95b2db",
+            "v-be5f3c347983700d53945acb0a42a09003f082ca",
+            "v-5932d0cf84344f69dc36d341ecf8d4a8069cef0e",
+            "v-737090f3d88776f7f8136443ae9fe7f0ab8de52e",
+            "v-c51f64e8722b002e092e49f64492c7d1094076a4",
+            "v-1b5381ae94b7cc0abeff21f2c6b97f417e202bf3",
+            "v-1d2a3b8fe73c96d061cf2f7cedb4ddf314cec631",
+            "v-655c55b9ddcf21be7670c0a2f7b1885356b204fa"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-c8eda532a4f6186c78734ee41fcc115c2a345905",
+            "word": "習性",
+            "read": "しゅうせい",
+            "mean": "습성"
+        },
+        {
+            "id": "v-c4194b5c101ef2fd01143317322c6baf0d7e8de1",
+            "word": "執着",
+            "read": "しゅうちゃく",
+            "mean": "집착"
+        },
+        {
+            "id": "v-b7080b7eaa49c357415c47be3d8dc569f94c5454",
+            "word": "修復",
+            "read": "しゅうふく",
+            "mean": "수복, 복원"
+        },
+        {
+            "id": "v-b54cf3573a3af2d1f4d875d73f9254b2464bb601",
+            "word": "収容",
+            "read": "しゅうよう",
+            "mean": "수용"
+        },
+        {
+            "id": "v-f0f210357e80984616d12c59bd4a5bae40f2d501",
+            "word": "従来",
+            "read": "じゅうらい",
+            "mean": "종래, 이전"
+        },
+        {
+            "id": "v-68ef2bc41bf5f120be09bdd955ad0a1a0b45c9bd",
+            "word": "収録",
+            "read": "しゅうろく",
+            "mean": "수록"
+        },
+        {
+            "id": "v-8a1615a94a256c64ac61b4b1428f61bd2f719909",
+            "word": "守衛",
+            "read": "しゅえい",
+            "mean": "수위, 경비원"
+        },
+        {
+            "id": "v-3004520a34c52567c5a025c0e4b2e1a574537e3e",
+            "word": "修行",
+            "read": "しゅぎょう",
+            "mean": "수행"
+        },
+        {
+            "id": "v-b55dbc9ab408162670926e19ded3d343805b0576",
+            "word": "塾",
+            "read": "じゅく",
+            "mean": "학원"
+        },
+        {
+            "id": "v-5fb143f6a84865705830f5c948ae4719615f38d5",
+            "word": "熟知",
+            "read": "じゅくち",
+            "mean": "숙지"
+        },
+        {
+            "id": "v-1700af5a400031b2be78b9c0b379eaf8f6faac4f",
+            "word": "宿命",
+            "read": "しゅくめい",
+            "mean": "숙명"
+        },
+        {
+            "id": "v-ffe866a06d4375c241c846700a20edaceb767bd0",
+            "word": "主催",
+            "read": "しゅさい",
+            "mean": "주최"
+        },
+        {
+            "id": "v-f14b917ef0ed7416c7552fe5134e686002a1b3d7",
+            "word": "趣旨",
+            "read": "しゅし",
+            "mean": "취지"
+        },
+        {
+            "id": "v-2d9483062895abf0c29121d2a65622506d9b3515",
+            "word": "種々",
+            "read": "しゅじゅ",
+            "mean": "가지각색"
+        },
+        {
+            "id": "v-c12b50a63ff8fa23c17f111f3e279330d535aec0",
+            "word": "受賞",
+            "read": "じゅしょう",
+            "mean": "수상(상을 받음)"
+        },
+        {
+            "id": "v-4e93d2f64d6348069051e0c78ec294cf5a25e5a5",
+            "word": "主題",
+            "read": "しゅだい",
+            "mean": "주제"
+        },
+        {
+            "id": "v-36df8c5b8d2b397bd3dc13b170cfbdbad48ac8d1",
+            "word": "出演",
+            "read": "しゅつえん",
+            "mean": "출연"
+        },
+        {
+            "id": "v-f1814a39638e071948775644adfc50758e95b2db",
+            "word": "出荷",
+            "read": "しゅっか",
+            "mean": "출하"
+        },
+        {
+            "id": "v-be5f3c347983700d53945acb0a42a09003f082ca",
+            "word": "出資",
+            "read": "しゅっし",
+            "mean": "출자"
+        },
+        {
+            "id": "v-5932d0cf84344f69dc36d341ecf8d4a8069cef0e",
+            "word": "出馬",
+            "read": "しゅつば",
+            "mean": "출마"
+        },
+        {
+            "id": "v-737090f3d88776f7f8136443ae9fe7f0ab8de52e",
+            "word": "出費",
+            "read": "しゅっぴ",
+            "mean": "지출, 비용"
+        },
+        {
+            "id": "v-c51f64e8722b002e092e49f64492c7d1094076a4",
+            "word": "出品",
+            "read": "しゅっぴん",
+            "mean": "출품"
+        },
+        {
+            "id": "v-1b5381ae94b7cc0abeff21f2c6b97f417e202bf3",
+            "word": "出没",
+            "read": "しゅつぼつ",
+            "mean": "출몰"
+        },
+        {
+            "id": "v-1d2a3b8fe73c96d061cf2f7cedb4ddf314cec631",
+            "word": "主導権",
+            "read": "しゅどうけん",
+            "mean": "주도권"
+        },
+        {
+            "id": "v-655c55b9ddcf21be7670c0a2f7b1885356b204fa",
+            "word": "首脳",
+            "read": "しゅのう",
+            "mean": "수뇌"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

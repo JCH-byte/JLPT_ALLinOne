@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-013",
+    "title": "N4 모듈 013 (Day 8)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-013-batch-01",
+        "vocabIds": [
+            "v-9b7871b6639022a2a034cf5942586c23f136188e",
+            "v-cd1851533777f1b8655722733921ab83fc72a595",
+            "v-a8c537026e26697a3165dd45493dfcbd5be436ae",
+            "v-971f1d535812853344899846d889007c82690dcc",
+            "v-21362a05656b48d0b10fd19e29bd91716aefd4f8",
+            "v-b097fde188c6f9310b4d9f5aa06a113d5ba8e07a",
+            "v-8465ee4132c05218b1ddfc049c817d17b12a9db0",
+            "v-0170121bc256d1ee547553e7c485d7357ad50f9d",
+            "v-1bd22f386d61b42d37b1ceddac022288f241cdf6",
+            "v-159ea4089d2424c38df466ee5d048228bf17ae74",
+            "v-c26d0eb88185ada82b0adf8183fa65da7f0ba2ae",
+            "v-0fad3f8f41ca3f281aa878ce46b8c976c36b5ea2",
+            "v-6a372338bc9252b8cf1f4f3e130fac6ef43f3a5d",
+            "v-9729916f7601d3346ffc6d4b7f5edc70295188a0",
+            "v-0a293f158ab2072620e6058f7d0e8cad32b4507a",
+            "v-ad1fcd4da2e115be5e3c4c1dd68a66543455a96b",
+            "v-2f12a9d0ba12d3f6092de931c88f55a8b1bf995b",
+            "v-fc64f95fc0d29029abee872bcd45ce186516feda",
+            "v-45a6c42e343efde4f447d172236cb0ceb5c0975c",
+            "v-ad8bed53bdc9ac1301044d5a1aa453b9be9a53fc",
+            "v-35d409579c59e9d3f8b5d7231d9c222b005ef7cc",
+            "v-bf78648c21aae6ccdb9e9ac0ab311b0d9f3b3c31",
+            "v-ca44a075eb5b1ec5420fa0319b94e8997a4d27d7",
+            "v-de4b2c56d1c3aa220c9ec8d0c98b82a2cfb0cd3e",
+            "v-95c46f193c035d2ecc4afca1b7a58f2f46833aba"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-9b7871b6639022a2a034cf5942586c23f136188e",
+            "word": "都合",
+            "read": "つごう",
+            "mean": "사정, 형편"
+        },
+        {
+            "id": "v-cd1851533777f1b8655722733921ab83fc72a595",
+            "word": "妻",
+            "read": "つま",
+            "mean": "아내"
+        },
+        {
+            "id": "v-a8c537026e26697a3165dd45493dfcbd5be436ae",
+            "word": "爪",
+            "read": "つめ",
+            "mean": "손톱, 발톱"
+        },
+        {
+            "id": "v-971f1d535812853344899846d889007c82690dcc",
+            "word": "つもり",
+            "read": "つもり",
+            "mean": "생각, 작정"
+        },
+        {
+            "id": "v-21362a05656b48d0b10fd19e29bd91716aefd4f8",
+            "word": "梅雨",
+            "read": "つゆ",
+            "mean": "장마"
+        },
+        {
+            "id": "v-b097fde188c6f9310b4d9f5aa06a113d5ba8e07a",
+            "word": "出入口",
+            "read": "でいりぐち",
+            "mean": "출입구"
+        },
+        {
+            "id": "v-8465ee4132c05218b1ddfc049c817d17b12a9db0",
+            "word": "手袋",
+            "read": "てぶくろ",
+            "mean": "장갑"
+        },
+        {
+            "id": "v-0170121bc256d1ee547553e7c485d7357ad50f9d",
+            "word": "手前",
+            "read": "てまえ",
+            "mean": "앞, 자기 앞"
+        },
+        {
+            "id": "v-1bd22f386d61b42d37b1ceddac022288f241cdf6",
+            "word": "寺",
+            "read": "てら",
+            "mean": "절"
+        },
+        {
+            "id": "v-159ea4089d2424c38df466ee5d048228bf17ae74",
+            "word": "点",
+            "read": "てん",
+            "mean": "점, 점수"
+        },
+        {
+            "id": "v-c26d0eb88185ada82b0adf8183fa65da7f0ba2ae",
+            "word": "店員",
+            "read": "てんいん",
+            "mean": "점원"
+        },
+        {
+            "id": "v-0fad3f8f41ca3f281aa878ce46b8c976c36b5ea2",
+            "word": "電気代",
+            "read": "でんきだい",
+            "mean": "전기세"
+        },
+        {
+            "id": "v-6a372338bc9252b8cf1f4f3e130fac6ef43f3a5d",
+            "word": "天気予報",
+            "read": "てんきよほう",
+            "mean": "일기 예보"
+        },
+        {
+            "id": "v-9729916f7601d3346ffc6d4b7f5edc70295188a0",
+            "word": "電灯",
+            "read": "でんとう",
+            "mean": "전등"
+        },
+        {
+            "id": "v-0a293f158ab2072620e6058f7d0e8cad32b4507a",
+            "word": "天ぷら",
+            "read": "てんぷら",
+            "mean": "튀김"
+        },
+        {
+            "id": "v-ad1fcd4da2e115be5e3c4c1dd68a66543455a96b",
+            "word": "電報",
+            "read": "でんぽう",
+            "mean": "전보"
+        },
+        {
+            "id": "v-2f12a9d0ba12d3f6092de931c88f55a8b1bf995b",
+            "word": "展覧会",
+            "read": "てんらんかい",
+            "mean": "전람회, 전시회"
+        },
+        {
+            "id": "v-fc64f95fc0d29029abee872bcd45ce186516feda",
+            "word": "都",
+            "read": "と",
+            "mean": "도 (행정구역)"
+        },
+        {
+            "id": "v-45a6c42e343efde4f447d172236cb0ceb5c0975c",
+            "word": "道具",
+            "read": "どうぐ",
+            "mean": "도구"
+        },
+        {
+            "id": "v-ad8bed53bdc9ac1301044d5a1aa453b9be9a53fc",
+            "word": "動物園",
+            "read": "どうぶつえん",
+            "mean": "동물원"
+        },
+        {
+            "id": "v-35d409579c59e9d3f8b5d7231d9c222b005ef7cc",
+            "word": "遠く",
+            "read": "とおく",
+            "mean": "먼 곳"
+        },
+        {
+            "id": "v-bf78648c21aae6ccdb9e9ac0ab311b0d9f3b3c31",
+            "word": "通り",
+            "read": "とおり",
+            "mean": "거리, 길"
+        },
+        {
+            "id": "v-ca44a075eb5b1ec5420fa0319b94e8997a4d27d7",
+            "word": "都会",
+            "read": "とかい",
+            "mean": "도시"
+        },
+        {
+            "id": "v-de4b2c56d1c3aa220c9ec8d0c98b82a2cfb0cd3e",
+            "word": "時",
+            "read": "とき",
+            "mean": "때, 시간"
+        },
+        {
+            "id": "v-95c46f193c035d2ecc4afca1b7a58f2f46833aba",
+            "word": "床屋",
+            "read": "とこや",
+            "mean": "이발소"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

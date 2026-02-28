@@ -1,0 +1,37 @@
+{
+    "moduleId": "n1-module-077",
+    "title": "N1 모듈 077 (Day 23)",
+    "vocabIds": [
+        "v-a7e26df27a356cfad879d0c8732f99d01570e9e1",
+        "v-90fe42ba1700c17f21b99c5a3743c5d4da8e0bee",
+        "v-6f2b558f16f5a8a9dae034ade954e1ca1fb523de",
+        "v-66baf1b471df39e6f9598561dbac6c40072c39ae",
+        "v-c1fb009e077afba1e1fcedbb28345ec50b04b6c1",
+        "v-cf89949137b0f3fbd64a0acabc80ae87113073b4",
+        "v-f6d7a19852b75a1af347513f6b1fc852a32404f9",
+        "v-ab11d225de051996664c6ade4e97cbbcf604fb34",
+        "v-3a529bfbc616d0a3d11ef1fe7d8d253bdb36786a",
+        "v-46f844d02cbed68bd7d35527b2f66b81177d2d43",
+        "v-3347dfc189dccc4fc50b94d0f5ff44e82a9c1454",
+        "v-759c9ce338b4ee283fdf9d5e716a00b8f4303030",
+        "v-6256f12bc75b0b7ef3a5190be82d957313c9aaad",
+        "v-6d914798e5e98f6069ba74d54e04189157e2368a",
+        "v-21b5016aee2b89c34e62ba8b3f736716d573c155",
+        "v-03102aa35e2f7aef8cc7b3a6f8d7fd992c5210a3",
+        "v-6b49c673f831baa9e95c4078d74981d72b8c042c",
+        "v-417e5902cc0320a1ddbc00d8e09e265df513b771",
+        "v-ce7a1c4c44ef56e87d8e17f79c0774d3db10329d",
+        "v-43b452bc6f851b00b1a2e8538a89b5d4631dc264",
+        "v-18708dbe904329338fbee3a88d622fb73275c7fd",
+        "v-02c8675168cefe8ea3d34cd7afaf6c6c48a00b00",
+        "v-4982a9f10ad8ec4ef94ed1af3f14b38af535bc13",
+        "v-5834670bd523cdd5cefb1d10016be90e0886c06e",
+        "v-9e32526d268f3ec63a34c5bddcfa7434e13fb5f8"
+    ],
+    "promptTemplateVersion": "notebooklm-v2",
+    "constraints": {
+        "jlptLevel": "N1",
+        "maxNewItemsPerSet": 10
+    },
+    "ruleFile": "n1-module-default.json"
+}

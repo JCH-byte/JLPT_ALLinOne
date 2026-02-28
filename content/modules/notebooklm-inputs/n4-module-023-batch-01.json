@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-023",
+    "title": "N4 모듈 023 (Day 16-17)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-023-batch-01",
+        "vocabIds": [
+            "v-40b22aaded6b7c830410712a2bbdca9d84d4fa50",
+            "v-5c9c62cd9edaa4906cbe60774c6a4252a8eb0e4c",
+            "v-0c21f33c0c2f4c3a51da45988a9ec445413aeb58",
+            "v-1ea2e530a47475e35b6344d43292cf292e753f26",
+            "v-97e6c4754c6ccde5e2061eea3f1abaaf631aa599",
+            "v-96fd7ffcd5570fb62ee4f1b832818d875feed0a9",
+            "v-8e84d008b6b01066254409d26850e10fa6d98526",
+            "v-d667ab57a23d723e0230d8af0b7b2d462bf480f7",
+            "v-4154bd8006561d70c0cd0f81b88fdee66e407bc3",
+            "v-5883896542b67fbd3af256879ecad697637f1287",
+            "v-685ba5b73be3ffc69b2d8bc5e38f69e47be70780",
+            "v-99488d7fd116713255064de5f6a23cfbc5d513be",
+            "v-217f32d953ddbaeb23879715bc510cdf7247d3a7",
+            "v-4cdf3eec5cc7ade7fee3dbc3503865982d5239a8",
+            "v-2d4037e608d42056e2fb599cf3c403f133c7c29e",
+            "v-3b699c2e42b9685546a4a0a6f782245e8af7689a",
+            "v-7b36ebb63136f9a269dd15a614b33fbdad1a54e5",
+            "v-a70e3b56c2016957268e390e77d72ee41853759e",
+            "v-908e2c6bc5a2a69ad34d5a2fe7c5c2e16ccda057",
+            "v-ef8aba56190bbbc2713ae21e3a9161a8a08e61cf",
+            "v-6befc25afe04b7568436e3f4d005d236b246b8d9",
+            "v-9c8f4c5bd6ca2e2924b614e6c258a277131df361",
+            "v-2b91d40d23413cd9ba211358a9c38262e522a2bb",
+            "v-63d87c48daf54fea254706af65eb154c5c2f90d7",
+            "v-66c54e516a263be799ea427656f1a97f08d7b64b"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-40b22aaded6b7c830410712a2bbdca9d84d4fa50",
+            "word": "足す",
+            "read": "たす",
+            "mean": "더하다"
+        },
+        {
+            "id": "v-5c9c62cd9edaa4906cbe60774c6a4252a8eb0e4c",
+            "word": "訪ねる",
+            "read": "たずねる",
+            "mean": "방문하다"
+        },
+        {
+            "id": "v-0c21f33c0c2f4c3a51da45988a9ec445413aeb58",
+            "word": "建つ",
+            "read": "たつ",
+            "mean": "세워지다, 건립되다"
+        },
+        {
+            "id": "v-1ea2e530a47475e35b6344d43292cf292e753f26",
+            "word": "建てる",
+            "read": "たてる",
+            "mean": "세우다, 짓다"
+        },
+        {
+            "id": "v-97e6c4754c6ccde5e2061eea3f1abaaf631aa599",
+            "word": "楽しむ",
+            "read": "たのしむ",
+            "mean": "즐기다"
+        },
+        {
+            "id": "v-96fd7ffcd5570fb62ee4f1b832818d875feed0a9",
+            "word": "頼む",
+            "read": "たのむ",
+            "mean": "부탁하다"
+        },
+        {
+            "id": "v-8e84d008b6b01066254409d26850e10fa6d98526",
+            "word": "足りる",
+            "read": "たりる",
+            "mean": "족하다, 충분하다"
+        },
+        {
+            "id": "v-d667ab57a23d723e0230d8af0b7b2d462bf480f7",
+            "word": "違う",
+            "read": "ちがう",
+            "mean": "다르다, 틀리다"
+        },
+        {
+            "id": "v-4154bd8006561d70c0cd0f81b88fdee66e407bc3",
+            "word": "使う",
+            "read": "つかう",
+            "mean": "사용하다"
+        },
+        {
+            "id": "v-5883896542b67fbd3af256879ecad697637f1287",
+            "word": "捕まえる",
+            "read": "つかまえる",
+            "mean": "잡다"
+        },
+        {
+            "id": "v-685ba5b73be3ffc69b2d8bc5e38f69e47be70780",
+            "word": "疲れる",
+            "read": "つかれる",
+            "mean": "지치다, 피곤하다"
+        },
+        {
+            "id": "v-99488d7fd116713255064de5f6a23cfbc5d513be",
+            "word": "付く",
+            "read": "つく",
+            "mean": "붙다, 묻다"
+        },
+        {
+            "id": "v-217f32d953ddbaeb23879715bc510cdf7247d3a7",
+            "word": "着く",
+            "read": "つく",
+            "mean": "도착하다"
+        },
+        {
+            "id": "v-4cdf3eec5cc7ade7fee3dbc3503865982d5239a8",
+            "word": "付ける",
+            "read": "つける",
+            "mean": "붙이다, 켜다"
+        },
+        {
+            "id": "v-2d4037e608d42056e2fb599cf3c403f133c7c29e",
+            "word": "伝える",
+            "read": "つたえる",
+            "mean": "전하다"
+        },
+        {
+            "id": "v-3b699c2e42b9685546a4a0a6f782245e8af7689a",
+            "word": "続く",
+            "read": "つづく",
+            "mean": "계속되다"
+        },
+        {
+            "id": "v-7b36ebb63136f9a269dd15a614b33fbdad1a54e5",
+            "word": "続ける",
+            "read": "つづける",
+            "mean": "계속하다"
+        },
+        {
+            "id": "v-a70e3b56c2016957268e390e77d72ee41853759e",
+            "word": "釣る",
+            "read": "つる",
+            "mean": "낚다"
+        },
+        {
+            "id": "v-908e2c6bc5a2a69ad34d5a2fe7c5c2e16ccda057",
+            "word": "連れる",
+            "read": "つれる",
+            "mean": "데리고 가다"
+        },
+        {
+            "id": "v-ef8aba56190bbbc2713ae21e3a9161a8a08e61cf",
+            "word": "できる",
+            "read": "できる",
+            "mean": "할 수 있다, 생기다"
+        },
+        {
+            "id": "v-6befc25afe04b7568436e3f4d005d236b246b8d9",
+            "word": "手伝う",
+            "read": "てつだう",
+            "mean": "돕다"
+        },
+        {
+            "id": "v-9c8f4c5bd6ca2e2924b614e6c258a277131df361",
+            "word": "通る",
+            "read": "とおる",
+            "mean": "통하다, 지나다"
+        },
+        {
+            "id": "v-2b91d40d23413cd9ba211358a9c38262e522a2bb",
+            "word": "届く",
+            "read": "とどく",
+            "mean": "도착하다, 닿다"
+        },
+        {
+            "id": "v-63d87c48daf54fea254706af65eb154c5c2f90d7",
+            "word": "届ける",
+            "read": "とどける",
+            "mean": "전하다, 신고하다"
+        },
+        {
+            "id": "v-66c54e516a263be799ea427656f1a97f08d7b64b",
+            "word": "止まる",
+            "read": "とまる",
+            "mean": "멈추다, 서다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

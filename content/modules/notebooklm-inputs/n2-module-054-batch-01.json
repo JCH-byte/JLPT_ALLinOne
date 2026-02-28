@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-054",
+    "title": "N2 모듈 054 (Day 17-18)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-054-batch-01",
+        "vocabIds": [
+            "v-e433f6143dd66a06f7c7b6a1efdbf176fb831aef",
+            "v-8a1de42d19890f219cb4bbbc60d81464026f3f8a",
+            "v-8c9e36193ba62c20621b337528a0cadc907604b3",
+            "v-280f64e349b7c321388b8324aa5df9df690b7684",
+            "v-d31ffce6fc184a7f21d9fcf17f90f28600c870d1",
+            "v-abb9f531e8140d8464108e8f34133449d10c1c13",
+            "v-087ba4e5ff1754117cffc412bbb15ca8db0a6688",
+            "v-1a7717fb453edc2a0061bf41ac5f7fe79977918a",
+            "v-1f71b0e73c52142ddadef320f87cb68cc96db68f",
+            "v-bf22abe5676911d1a2193b3e19d454b1152a1019",
+            "v-644eb20dc34476414899b88492a50c42a3ed2dc8",
+            "v-112572257e587d75497d573ef222b169e1d146fd",
+            "v-0eb9254b80d43fc59acde21cc31ec991dab0cc2a",
+            "v-c931b2a37ba733579284d3d4a1baed2bd941ddd9",
+            "v-a8e6fecc974579343e463f605e66c94a2066ee7e",
+            "v-fdeae43056931a7aee94e96544858a44776af66c",
+            "v-f6cb109842568ab52d14b3955676a76612e6147e",
+            "v-181212352a6455e026215d1bf1b422b6a73a1f56",
+            "v-8b34dcb4526117ff760e058d13797425b4328b2a",
+            "v-4a6c7128ea3ceac47d2d56d5bbb7c2535004389e",
+            "v-309e2c4d4211913849877defe8245fc70480acd0",
+            "v-1f076b35e390afbf217879c831ed6e29d41b7852",
+            "v-0ab04dbbd48312e1f629e08bc805d661301540ca",
+            "v-e82b501685e10f582df3fa473056fb2221e76709",
+            "v-1aa3bde51139b6244df9f9435370a5b1bc5478ee"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-e433f6143dd66a06f7c7b6a1efdbf176fb831aef",
+            "word": "~向け",
+            "read": "~むけ",
+            "mean": "~용, ~를 위한"
+        },
+        {
+            "id": "v-8a1de42d19890f219cb4bbbc60d81464026f3f8a",
+            "word": "~率",
+            "read": "~りつ",
+            "mean": "~율"
+        },
+        {
+            "id": "v-8c9e36193ba62c20621b337528a0cadc907604b3",
+            "word": "~流",
+            "read": "~りゅう",
+            "mean": "~류, ~스타일"
+        },
+        {
+            "id": "v-280f64e349b7c321388b8324aa5df9df690b7684",
+            "word": "~カ",
+            "read": "~りょく",
+            "mean": "~력 (힘)"
+        },
+        {
+            "id": "v-d31ffce6fc184a7f21d9fcf17f90f28600c870d1",
+            "word": "~類",
+            "read": "~るい",
+            "mean": "~류 (종류)"
+        },
+        {
+            "id": "v-abb9f531e8140d8464108e8f34133449d10c1c13",
+            "word": "相次ぐ",
+            "read": "あいつぐ",
+            "mean": "잇따르다"
+        },
+        {
+            "id": "v-087ba4e5ff1754117cffc412bbb15ca8db0a6688",
+            "word": "扇ぐ",
+            "read": "あおぐ",
+            "mean": "부채질하다"
+        },
+        {
+            "id": "v-1a7717fb453edc2a0061bf41ac5f7fe79977918a",
+            "word": "あきれる",
+            "read": "あきれる",
+            "mean": "어이없다, 기가 막히다"
+        },
+        {
+            "id": "v-1f71b0e73c52142ddadef320f87cb68cc96db68f",
+            "word": "揚げる",
+            "read": "あげる",
+            "mean": "튀기다, 게양하다"
+        },
+        {
+            "id": "v-bf22abe5676911d1a2193b3e19d454b1152a1019",
+            "word": "憧れる",
+            "read": "あこがれる",
+            "mean": "동경하다"
+        },
+        {
+            "id": "v-644eb20dc34476414899b88492a50c42a3ed2dc8",
+            "word": "焦る",
+            "read": "あせる",
+            "mean": "초조해하다"
+        },
+        {
+            "id": "v-112572257e587d75497d573ef222b169e1d146fd",
+            "word": "当てはまる",
+            "read": "あてはまる",
+            "mean": "들어맞다, 해당하다"
+        },
+        {
+            "id": "v-0eb9254b80d43fc59acde21cc31ec991dab0cc2a",
+            "word": "当てる",
+            "read": "あてる",
+            "mean": "맞히다, 대다"
+        },
+        {
+            "id": "v-c931b2a37ba733579284d3d4a1baed2bd941ddd9",
+            "word": "暴れる",
+            "read": "あばれる",
+            "mean": "날뛰다, 난동부리다"
+        },
+        {
+            "id": "v-a8e6fecc974579343e463f605e66c94a2066ee7e",
+            "word": "あぶる",
+            "read": "あぶる",
+            "mean": "불에 쬐어 굽다"
+        },
+        {
+            "id": "v-fdeae43056931a7aee94e96544858a44776af66c",
+            "word": "甘やかす",
+            "read": "あまやかす",
+            "mean": "응석을 받아주다"
+        },
+        {
+            "id": "v-f6cb109842568ab52d14b3955676a76612e6147e",
+            "word": "誤る",
+            "read": "あやまる",
+            "mean": "실수하다, 그르치다"
+        },
+        {
+            "id": "v-181212352a6455e026215d1bf1b422b6a73a1f56",
+            "word": "争う",
+            "read": "あらそう",
+            "mean": "다투다, 경쟁하다"
+        },
+        {
+            "id": "v-8b34dcb4526117ff760e058d13797425b4328b2a",
+            "word": "改める",
+            "read": "あらためる",
+            "mean": "고치다, 변경하다"
+        },
+        {
+            "id": "v-4a6c7128ea3ceac47d2d56d5bbb7c2535004389e",
+            "word": "荒れる",
+            "read": "あれる",
+            "mean": "거칠어지다, 황폐해지다"
+        },
+        {
+            "id": "v-309e2c4d4211913849877defe8245fc70480acd0",
+            "word": "言い付ける",
+            "read": "いいつける",
+            "mean": "일러바치다, 분부하다"
+        },
+        {
+            "id": "v-1f076b35e390afbf217879c831ed6e29d41b7852",
+            "word": "生かす",
+            "read": "いかす",
+            "mean": "살리다, 활용하다"
+        },
+        {
+            "id": "v-0ab04dbbd48312e1f629e08bc805d661301540ca",
+            "word": "いじる",
+            "read": "いじる",
+            "mean": "만지작거리다"
+        },
+        {
+            "id": "v-e82b501685e10f582df3fa473056fb2221e76709",
+            "word": "抱く",
+            "read": "いだく",
+            "mean": "품다, 안다"
+        },
+        {
+            "id": "v-1aa3bde51139b6244df9f9435370a5b1bc5478ee",
+            "word": "傷む",
+            "read": "いたむ",
+            "mean": "상하다, 파손되다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

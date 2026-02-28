@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-061",
+    "title": "N1 모듈 061 (Day 17)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-061-batch-01",
+        "vocabIds": [
+            "v-14fed6e234bcf8d99d94b48df4248897e113b10a",
+            "v-13ea6fe8c9b0db728f72e0534696410ae9721b5b",
+            "v-c85dd7e063a681f5b63fe15060a84c41767f44b9",
+            "v-10cfc21ae39305de66900510fbb866efd47b0b43",
+            "v-c6c56beac963b574198659ab759f37df2fb10c65",
+            "v-5d19c42853c0ac5c9ba7205ce09fc33ee3a5bbd8",
+            "v-870ddbaea3765d43d21c31f719e5dbd20305baaf",
+            "v-f9e442355c6e08c5ea0b5722361225d37a7f68dc",
+            "v-1d3fb6c1cac83c0fd3834bcf723cefa2c4b8ce2c",
+            "v-f7bf9b7ca9232205bb90fbe1148091d0f22a52b3",
+            "v-d4a5224354f9bdb7a251b8290d3f75cc2f25d8ba",
+            "v-a964666717e4093f91552dc4fc028b68b65f9c41",
+            "v-516c7985d5930daca3f6531739c2a6fcf8b05c38",
+            "v-f4aa7bfbace0c7f38cef7ca658b36e49e20170b0",
+            "v-1f009e4fc09121f5fb5456569a4f4eb388698b97",
+            "v-177197f49697cc51a338de9f73cacd6e4e085fc6",
+            "v-c466a8ce7f612ab6db28415d89d6220f1734a08e",
+            "v-61aa5d1e5d0b3634362779b66ead84319d14cadb",
+            "v-1cd9880d0504ed19c0a43a49b282d0d8d8bd53ba",
+            "v-c01411ca658b1e24031a0587d66fad9236ccfa48",
+            "v-7ae872d75b83a48ea38700186f88f657c8701fe8",
+            "v-9a2229af7dbeaf57270070da032dbb5cd9c65152",
+            "v-3509ebd026b839d0f667467849f8900670b52992",
+            "v-3d374489e1635d5f3cf531ccb04b9ccfa49115ea",
+            "v-d1d509a64e8743ce065dcae2ab9647e4226a0e35"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-14fed6e234bcf8d99d94b48df4248897e113b10a",
+            "word": "退く",
+            "read": "しりぞく",
+            "mean": "물러나다"
+        },
+        {
+            "id": "v-13ea6fe8c9b0db728f72e0534696410ae9721b5b",
+            "word": "記す",
+            "read": "しるす",
+            "mean": "적다, 기술하다"
+        },
+        {
+            "id": "v-c85dd7e063a681f5b63fe15060a84c41767f44b9",
+            "word": "据える",
+            "read": "すえる",
+            "mean": "설치하다, 모시다"
+        },
+        {
+            "id": "v-10cfc21ae39305de66900510fbb866efd47b0b43",
+            "word": "過ぎ去る",
+            "read": "すぎさる",
+            "mean": "지나가다"
+        },
+        {
+            "id": "v-c6c56beac963b574198659ab759f37df2fb10c65",
+            "word": "透ける",
+            "read": "すける",
+            "mean": "비치다"
+        },
+        {
+            "id": "v-5d19c42853c0ac5c9ba7205ce09fc33ee3a5bbd8",
+            "word": "すすぐ",
+            "read": "すすぐ",
+            "mean": "헹구다, 씻다"
+        },
+        {
+            "id": "v-870ddbaea3765d43d21c31f719e5dbd20305baaf",
+            "word": "廃れる",
+            "read": "すたれる",
+            "mean": "쇠퇴하다"
+        },
+        {
+            "id": "v-f9e442355c6e08c5ea0b5722361225d37a7f68dc",
+            "word": "澄む",
+            "read": "すむ",
+            "mean": "맑아지다"
+        },
+        {
+            "id": "v-1d3fb6c1cac83c0fd3834bcf723cefa2c4b8ce2c",
+            "word": "ずれ込む",
+            "read": "ずれこむ",
+            "mean": "늦어지다, 밀리다"
+        },
+        {
+            "id": "v-f7bf9b7ca9232205bb90fbe1148091d0f22a52b3",
+            "word": "する",
+            "read": "する",
+            "mean": "갈다, 소매치기하다"
+        },
+        {
+            "id": "v-d4a5224354f9bdb7a251b8290d3f75cc2f25d8ba",
+            "word": "添える",
+            "read": "そえる",
+            "mean": "첨부하다, 곁들이다"
+        },
+        {
+            "id": "v-a964666717e4093f91552dc4fc028b68b65f9c41",
+            "word": "そそる",
+            "read": "そそる",
+            "mean": "돋우다, 자아내다"
+        },
+        {
+            "id": "v-516c7985d5930daca3f6531739c2a6fcf8b05c38",
+            "word": "備え付ける",
+            "read": "そなえつける",
+            "mean": "비치하다, 설치하다"
+        },
+        {
+            "id": "v-f4aa7bfbace0c7f38cef7ca658b36e49e20170b0",
+            "word": "制する",
+            "read": "せいする",
+            "mean": "제압하다, 제어하다"
+        },
+        {
+            "id": "v-1f009e4fc09121f5fb5456569a4f4eb388698b97",
+            "word": "急かす",
+            "read": "せかす",
+            "mean": "재촉하다"
+        },
+        {
+            "id": "v-177197f49697cc51a338de9f73cacd6e4e085fc6",
+            "word": "損なう",
+            "read": "そこなう",
+            "mean": "해치다, 손상하다"
+        },
+        {
+            "id": "v-c466a8ce7f612ab6db28415d89d6220f1734a08e",
+            "word": "そびえる",
+            "read": "そびえる",
+            "mean": "우뚝 솟다"
+        },
+        {
+            "id": "v-61aa5d1e5d0b3634362779b66ead84319d14cadb",
+            "word": "染まる",
+            "read": "そまる",
+            "mean": "물들다"
+        },
+        {
+            "id": "v-1cd9880d0504ed19c0a43a49b282d0d8d8bd53ba",
+            "word": "背く",
+            "read": "そむく",
+            "mean": "등지다, 거역하다"
+        },
+        {
+            "id": "v-c01411ca658b1e24031a0587d66fad9236ccfa48",
+            "word": "背ける",
+            "read": "そむける",
+            "mean": "돌리다, 외면하다"
+        },
+        {
+            "id": "v-7ae872d75b83a48ea38700186f88f657c8701fe8",
+            "word": "染める",
+            "read": "そめる",
+            "mean": "물들이다"
+        },
+        {
+            "id": "v-9a2229af7dbeaf57270070da032dbb5cd9c65152",
+            "word": "逸らす",
+            "read": "そらす",
+            "mean": "딴 데로 돌리다, 빗나가게 하다"
+        },
+        {
+            "id": "v-3509ebd026b839d0f667467849f8900670b52992",
+            "word": "反る",
+            "read": "そる",
+            "mean": "휘다, 젖혀지다"
+        },
+        {
+            "id": "v-3d374489e1635d5f3cf531ccb04b9ccfa49115ea",
+            "word": "耐える/堪える",
+            "read": "たえる",
+            "mean": "견디다, 참다"
+        },
+        {
+            "id": "v-d1d509a64e8743ce065dcae2ab9647e4226a0e35",
+            "word": "絶える",
+            "read": "たえる",
+            "mean": "끊기다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

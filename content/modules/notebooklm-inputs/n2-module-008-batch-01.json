@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-008",
+    "title": "N2 모듈 008 (Day 3)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-008-batch-01",
+        "vocabIds": [
+            "v-4aab1a59b3a0c94566a540b7d2596f2c902d4711",
+            "v-a3809c5d133c0461c2da6c3a256a89ef073a5ba6",
+            "v-5f74390a63ad2016b0c3e692e24af1d843b00647",
+            "v-29b373ef313cc1137fa02654af2326b0dae2eaed",
+            "v-df7d7a70717e75b76f3ae5f8ca22d49750a76d56",
+            "v-e0eaa5620359cd7c3c524285c4aafa302cc0f200",
+            "v-9bbb001ce3403b75b16505ce62e915b5ced192f0",
+            "v-c2a3c612d4e33b6e7f6d585cf0bf17ba6e36cd4b",
+            "v-a174bc96831269f05253dcce65d3443791cbd3fc",
+            "v-6557e4eecc5ebe78034ac19084643257b715efbb",
+            "v-cc431ab57c01a5de2533d14b99e869ccf13f1d10",
+            "v-606b09bf8f980c87a1f73f44b9370a31b4aae725",
+            "v-c71da488ed8ebf74461744d54ca839d9a98b0866"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-4aab1a59b3a0c94566a540b7d2596f2c902d4711",
+            "word": "課程",
+            "read": "かてい",
+            "mean": "과정(커리큘럼)"
+        },
+        {
+            "id": "v-a3809c5d133c0461c2da6c3a256a89ef073a5ba6",
+            "word": "過程",
+            "read": "かてい",
+            "mean": "과정(프로세스)"
+        },
+        {
+            "id": "v-5f74390a63ad2016b0c3e692e24af1d843b00647",
+            "word": "仮名",
+            "read": "かな",
+            "mean": "가나(문자), 가명"
+        },
+        {
+            "id": "v-29b373ef313cc1137fa02654af2326b0dae2eaed",
+            "word": "鐘",
+            "read": "かね",
+            "mean": "종"
+        },
+        {
+            "id": "v-df7d7a70717e75b76f3ae5f8ca22d49750a76d56",
+            "word": "加熱",
+            "read": "かねつ",
+            "mean": "가열"
+        },
+        {
+            "id": "v-e0eaa5620359cd7c3c524285c4aafa302cc0f200",
+            "word": "過半数",
+            "read": "かはんすう",
+            "mean": "과반수"
+        },
+        {
+            "id": "v-9bbb001ce3403b75b16505ce62e915b5ced192f0",
+            "word": "かび",
+            "read": "かび",
+            "mean": "곰팡이"
+        },
+        {
+            "id": "v-c2a3c612d4e33b6e7f6d585cf0bf17ba6e36cd4b",
+            "word": "株",
+            "read": "かぶ",
+            "mean": "주식, 그루"
+        },
+        {
+            "id": "v-a174bc96831269f05253dcce65d3443791cbd3fc",
+            "word": "釜",
+            "read": "かま",
+            "mean": "솥"
+        },
+        {
+            "id": "v-6557e4eecc5ebe78034ac19084643257b715efbb",
+            "word": "髮型",
+            "read": "かみがた",
+            "mean": "헤어스타일"
+        },
+        {
+            "id": "v-cc431ab57c01a5de2533d14b99e869ccf13f1d10",
+            "word": "紙くず",
+            "read": "かみくず",
+            "mean": "휴지, 종이 부스러기"
+        },
+        {
+            "id": "v-606b09bf8f980c87a1f73f44b9370a31b4aae725",
+            "word": "神様",
+            "read": "かみさま",
+            "mean": "신, 하느님"
+        },
+        {
+            "id": "v-c71da488ed8ebf74461744d54ca839d9a98b0866",
+            "word": "剃刀",
+            "read": "かみそり",
+            "mean": "면도칼"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

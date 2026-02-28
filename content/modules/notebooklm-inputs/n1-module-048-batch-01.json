@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-048",
+    "title": "N1 모듈 048 (Day 13)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-048-batch-01",
+        "vocabIds": [
+            "v-6b8950f5c51d6c95ef1883e64e7cfdbf60c57e3b",
+            "v-818f5cc643c1c99b76aed65996e220b6cc3981fd",
+            "v-8e23cbfc58b0b04b0eda542495bde978b29ecf5d",
+            "v-90b8454fee90db59cba1277311e6249104630052",
+            "v-d91783e2313746e3091f538add52fc95f718692c",
+            "v-77689b7edcf3249f5b6d19e37292c9dc384d6f97",
+            "v-4424f693a02f48c8e6dec5f4242a117fd9e5d62f",
+            "v-d18250a0abfc90eba99be2fa81ebc85a2c0cbc20",
+            "v-89164e7922e6bfe832d81b6032e0396864ad6fef",
+            "v-24bba8a5c714b96d6b06576dd8c4a7a782ae12d1",
+            "v-c2b3dbad520bfc8e71af01f8e20976f939cef8ad",
+            "v-7a565ea5bc997e465ec359d6977994cd13aa1efe",
+            "v-0610c1dbdbc604863f29d74fec94d0f0f5249f9e",
+            "v-bf54c61ff54cd6f69382d950e22d561fb2c1c480",
+            "v-35f69b3d1d22d3bf9808b384259362b4805eaa7e",
+            "v-843152bfd46f8f2f0874114144bd115ead1a4522",
+            "v-ed539e6193b9cd14ae7fcc8b46ac959e13431ac1",
+            "v-0fdae23a877e77e71dd090ec923ee04a1319e07f",
+            "v-cd606f82ec8615e75d6762607af0d996c2a8d01c",
+            "v-9ec6cfd0193e5b5789384a90bb36f7850d302c98",
+            "v-99a003485393376cd388382bb0774750e8ff86b8",
+            "v-8dc6ecf65266a159926584dfbd292c12901be615",
+            "v-5cb39818744c90aa0b5c7de986d15dbe6208730f",
+            "v-6aa8433b35866b0b54c65e4e6f6f5c2c7206f644",
+            "v-010701b786f096d08acbd795583bd4ca7f6584aa"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-6b8950f5c51d6c95ef1883e64e7cfdbf60c57e3b",
+            "word": "発作",
+            "read": "ほっさ",
+            "mean": "발작"
+        },
+        {
+            "id": "v-818f5cc643c1c99b76aed65996e220b6cc3981fd",
+            "word": "没収",
+            "read": "ぼっしゅう",
+            "mean": "몰수"
+        },
+        {
+            "id": "v-8e23cbfc58b0b04b0eda542495bde978b29ecf5d",
+            "word": "発足",
+            "read": "ほっそく",
+            "mean": "발족"
+        },
+        {
+            "id": "v-90b8454fee90db59cba1277311e6249104630052",
+            "word": "発端",
+            "read": "ほったん",
+            "mean": "발단"
+        },
+        {
+            "id": "v-d91783e2313746e3091f538add52fc95f718692c",
+            "word": "没頭",
+            "read": "ぼっとう",
+            "mean": "몰두"
+        },
+        {
+            "id": "v-77689b7edcf3249f5b6d19e37292c9dc384d6f97",
+            "word": "没落",
+            "read": "ぼつらく",
+            "mean": "몰락"
+        },
+        {
+            "id": "v-4424f693a02f48c8e6dec5f4242a117fd9e5d62f",
+            "word": "補填",
+            "read": "ほてん",
+            "mean": "보전"
+        },
+        {
+            "id": "v-d18250a0abfc90eba99be2fa81ebc85a2c0cbc20",
+            "word": "畔",
+            "read": "ほとり",
+            "mean": "물가, 변두리"
+        },
+        {
+            "id": "v-89164e7922e6bfe832d81b6032e0396864ad6fef",
+            "word": "捕虜",
+            "read": "ほりょ",
+            "mean": "포로"
+        },
+        {
+            "id": "v-24bba8a5c714b96d6b06576dd8c4a7a782ae12d1",
+            "word": "本質",
+            "read": "ほんしつ",
+            "mean": "본질"
+        },
+        {
+            "id": "v-c2b3dbad520bfc8e71af01f8e20976f939cef8ad",
+            "word": "本筋",
+            "read": "ほんすじ",
+            "mean": "본론, 본줄거리"
+        },
+        {
+            "id": "v-7a565ea5bc997e465ec359d6977994cd13aa1efe",
+            "word": "本音",
+            "read": "ほんね",
+            "mean": "본심"
+        },
+        {
+            "id": "v-0610c1dbdbc604863f29d74fec94d0f0f5249f9e",
+            "word": "本能",
+            "read": "ほんのう",
+            "mean": "본능"
+        },
+        {
+            "id": "v-bf54c61ff54cd6f69382d950e22d561fb2c1c480",
+            "word": "本場",
+            "read": "ほんば",
+            "mean": "본고장"
+        },
+        {
+            "id": "v-35f69b3d1d22d3bf9808b384259362b4805eaa7e",
+            "word": "本番",
+            "read": "ほんばん",
+            "mean": "실전, 본방송"
+        },
+        {
+            "id": "v-843152bfd46f8f2f0874114144bd115ead1a4522",
+            "word": "本末転倒",
+            "read": "ほんまつてんとう",
+            "mean": "본말전도"
+        },
+        {
+            "id": "v-ed539e6193b9cd14ae7fcc8b46ac959e13431ac1",
+            "word": "埋蔵",
+            "read": "まいぞう",
+            "mean": "매장"
+        },
+        {
+            "id": "v-0fdae23a877e77e71dd090ec923ee04a1319e07f",
+            "word": "前売り",
+            "read": "まえうり",
+            "mean": "예매"
+        },
+        {
+            "id": "v-cd606f82ec8615e75d6762607af0d996c2a8d01c",
+            "word": "前置き",
+            "read": "まえおき",
+            "mean": "서두, 머리말"
+        },
+        {
+            "id": "v-9ec6cfd0193e5b5789384a90bb36f7850d302c98",
+            "word": "真心",
+            "read": "まごころ",
+            "mean": "진심"
+        },
+        {
+            "id": "v-99a003485393376cd388382bb0774750e8ff86b8",
+            "word": "麻酔",
+            "read": "ますい",
+            "mean": "마취"
+        },
+        {
+            "id": "v-8dc6ecf65266a159926584dfbd292c12901be615",
+            "word": "まちまち",
+            "read": "まちまち",
+            "mean": "제각각"
+        },
+        {
+            "id": "v-5cb39818744c90aa0b5c7de986d15dbe6208730f",
+            "word": "末",
+            "read": "まつ",
+            "mean": "말, 끝"
+        },
+        {
+            "id": "v-6aa8433b35866b0b54c65e4e6f6f5c2c7206f644",
+            "word": "目の当たり",
+            "read": "まのあたり",
+            "mean": "목전, 눈앞"
+        },
+        {
+            "id": "v-010701b786f096d08acbd795583bd4ca7f6584aa",
+            "word": "麻痺",
+            "read": "まひ",
+            "mean": "마비"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

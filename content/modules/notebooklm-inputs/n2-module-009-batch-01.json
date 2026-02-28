@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-009",
+    "title": "N2 모듈 009 (Day 3)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-009-batch-01",
+        "vocabIds": [
+            "v-c1f7539683a7a3cd7529e57d940d2d4cff66507e",
+            "v-b1f421504990238bf8fc6ddbebf140a7d1512ed0",
+            "v-415549dba46d33541d8273b5fc69411a948af888",
+            "v-4b619618baba098498eaf36e8fd43a985e731f56",
+            "v-cb2adbc8c6b1146d58a72a6d990e5779b6f98a25",
+            "v-27a58195d0db105e6bb7c02d469005f9c5c6f4b2",
+            "v-4b85c01800ea867d79a0e3eabf89f8e8c5a08d03",
+            "v-9195f42f05566b216292cd5a23e472787edecdbf",
+            "v-10156f57c93cef4b53cf5acf955fbfb890b16fbe",
+            "v-ffa1fffc5efee140cca91f31973e779820adc4a1",
+            "v-913c538bcf1274f0405c55f0c7e10b7b50d0a60f",
+            "v-51e8d873811e8e3ee04c97065e277dabed1f883a",
+            "v-e69a6aac377efdaec2a67423ca9181bb60b38cae"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-c1f7539683a7a3cd7529e57d940d2d4cff66507e",
+            "word": "関係",
+            "read": "かんけい",
+            "mean": "관계"
+        },
+        {
+            "id": "v-b1f421504990238bf8fc6ddbebf140a7d1512ed0",
+            "word": "歓迎",
+            "read": "かんげい",
+            "mean": "환영"
+        },
+        {
+            "id": "v-415549dba46d33541d8273b5fc69411a948af888",
+            "word": "関係者",
+            "read": "かんけいしゃ",
+            "mean": "관계자"
+        },
+        {
+            "id": "v-4b619618baba098498eaf36e8fd43a985e731f56",
+            "word": "感激",
+            "read": "かんげき",
+            "mean": "감격"
+        },
+        {
+            "id": "v-cb2adbc8c6b1146d58a72a6d990e5779b6f98a25",
+            "word": "監視",
+            "read": "かんし",
+            "mean": "감시"
+        },
+        {
+            "id": "v-27a58195d0db105e6bb7c02d469005f9c5c6f4b2",
+            "word": "元日",
+            "read": "がんじつ",
+            "mean": "설날(1월 1일)"
+        },
+        {
+            "id": "v-4b85c01800ea867d79a0e3eabf89f8e8c5a08d03",
+            "word": "鑑賞",
+            "read": "かんしょう",
+            "mean": "감상"
+        },
+        {
+            "id": "v-9195f42f05566b216292cd5a23e472787edecdbf",
+            "word": "勘定",
+            "read": "かんじょう",
+            "mean": "계산, 지불"
+        },
+        {
+            "id": "v-10156f57c93cef4b53cf5acf955fbfb890b16fbe",
+            "word": "観測",
+            "read": "かんそく",
+            "mean": "관측"
+        },
+        {
+            "id": "v-ffa1fffc5efee140cca91f31973e779820adc4a1",
+            "word": "寒帯",
+            "read": "かんたい",
+            "mean": "한대(기후)"
+        },
+        {
+            "id": "v-913c538bcf1274f0405c55f0c7e10b7b50d0a60f",
+            "word": "勘違い",
+            "read": "かんちがい",
+            "mean": "착각"
+        },
+        {
+            "id": "v-51e8d873811e8e3ee04c97065e277dabed1f883a",
+            "word": "官庁",
+            "read": "かんちょう",
+            "mean": "관청"
+        },
+        {
+            "id": "v-e69a6aac377efdaec2a67423ca9181bb60b38cae",
+            "word": "缶詰",
+            "read": "かんづめ",
+            "mean": "통조림"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

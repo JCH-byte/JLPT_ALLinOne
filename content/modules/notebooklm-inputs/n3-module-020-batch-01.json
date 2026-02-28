@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-020",
+    "title": "N3 모듈 020 (Day 7-8)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-020-batch-01",
+        "vocabIds": [
+            "v-0728e5ec8738e40513c0ebc10a21cd343626e76b",
+            "v-e77df6513924d566a483ac545fcab6a539cd13d1",
+            "v-c8742a1d884b45bd46d7274903808407688494c5",
+            "v-aa9b3dc02b34543005f9d151378def31fb7b0b52",
+            "v-ffdc5ad06cbadc494613e9b75c7ec99718d3024d",
+            "v-5517f5cd323a64aab71e153558975dea95fc6628",
+            "v-fa14e89a0f88b7971b8dee4f600ccc75365bbe38",
+            "v-cbcbb9257f676a4ffa800dc58fa59fb2e7af43a9",
+            "v-3c269905422b58ab795e28291c80c732d8ee0fb6",
+            "v-36802df48c8fa287426bc06329aac6657fd04a2d",
+            "v-3d8f79e4d7167ad04d3654f4c557fc92c71d6e82",
+            "v-beb221d9f5887f18298e5d4ac9cfefdccecf9ffe",
+            "v-484e0ac7935207365ce8d4d104b3fa21bfb57e9c",
+            "v-57a34c826030d0a55a240380cd4a7ccab4c64ab3",
+            "v-9cd8d571829b3d4236a433082e82e77f9a66d387",
+            "v-93cd00e1ab774ce18a9ef16886b1a5c15a545d2c",
+            "v-add0336c2578ed0cf4dbd195e7dbf16bdd9000b0",
+            "v-f1f649ac270b740426cec7c4f0a71a5251f6fe4a",
+            "v-56eced0edfde7d645cf65281d591b44c90360201",
+            "v-946c473000d3f3bfe6c6cedce0cff5fef1b49590",
+            "v-3c2c3ac2402fea42d3c5d1d48b36b6bae8d27253",
+            "v-0db2148f99ffde34ef998b5b6efa0467e0c1d8ec",
+            "v-a44e84fdca149687c9a435e94896f9a345e3400a",
+            "v-c1cc21794c1d7613f263548d55397ec5399321fb",
+            "v-e5a712b43fd550a0acfd028df25286e3b68caf8a"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-0728e5ec8738e40513c0ebc10a21cd343626e76b",
+            "word": "冗談",
+            "read": "じょうだん",
+            "mean": "농담"
+        },
+        {
+            "id": "v-e77df6513924d566a483ac545fcab6a539cd13d1",
+            "word": "商店",
+            "read": "しょうてん",
+            "mean": "상점"
+        },
+        {
+            "id": "v-c8742a1d884b45bd46d7274903808407688494c5",
+            "word": "商人",
+            "read": "しょうにん",
+            "mean": "상인"
+        },
+        {
+            "id": "v-aa9b3dc02b34543005f9d151378def31fb7b0b52",
+            "word": "少年",
+            "read": "しょうねん",
+            "mean": "소년"
+        },
+        {
+            "id": "v-ffdc5ad06cbadc494613e9b75c7ec99718d3024d",
+            "word": "商売",
+            "read": "しょうばい",
+            "mean": "장사"
+        },
+        {
+            "id": "v-5517f5cd323a64aab71e153558975dea95fc6628",
+            "word": "消費",
+            "read": "しょうひ",
+            "mean": "소비"
+        },
+        {
+            "id": "v-fa14e89a0f88b7971b8dee4f600ccc75365bbe38",
+            "word": "商品",
+            "read": "しょうひん",
+            "mean": "상품"
+        },
+        {
+            "id": "v-cbcbb9257f676a4ffa800dc58fa59fb2e7af43a9",
+            "word": "消防",
+            "read": "しょうぼう",
+            "mean": "소방"
+        },
+        {
+            "id": "v-3c269905422b58ab795e28291c80c732d8ee0fb6",
+            "word": "情報",
+            "read": "じょうほう",
+            "mean": "정보"
+        },
+        {
+            "id": "v-36802df48c8fa287426bc06329aac6657fd04a2d",
+            "word": "消防署",
+            "read": "しょうぼうしょ",
+            "mean": "소방서"
+        },
+        {
+            "id": "v-3d8f79e4d7167ad04d3654f4c557fc92c71d6e82",
+            "word": "証明",
+            "read": "しょうめい",
+            "mean": "증명"
+        },
+        {
+            "id": "v-beb221d9f5887f18298e5d4ac9cfefdccecf9ffe",
+            "word": "正面",
+            "read": "しょうめん",
+            "mean": "정면"
+        },
+        {
+            "id": "v-484e0ac7935207365ce8d4d104b3fa21bfb57e9c",
+            "word": "使用料",
+            "read": "しようりょう",
+            "mean": "사용료"
+        },
+        {
+            "id": "v-57a34c826030d0a55a240380cd4a7ccab4c64ab3",
+            "word": "初級",
+            "read": "しょきゅう",
+            "mean": "초급"
+        },
+        {
+            "id": "v-9cd8d571829b3d4236a433082e82e77f9a66d387",
+            "word": "職業",
+            "read": "しょくぎょう",
+            "mean": "직업"
+        },
+        {
+            "id": "v-93cd00e1ab774ce18a9ef16886b1a5c15a545d2c",
+            "word": "食後",
+            "read": "しょくご",
+            "mean": "식후"
+        },
+        {
+            "id": "v-add0336c2578ed0cf4dbd195e7dbf16bdd9000b0",
+            "word": "食事代",
+            "read": "しょくじだい",
+            "mean": "식사대"
+        },
+        {
+            "id": "v-f1f649ac270b740426cec7c4f0a71a5251f6fe4a",
+            "word": "職場",
+            "read": "しょくば",
+            "mean": "직장"
+        },
+        {
+            "id": "v-56eced0edfde7d645cf65281d591b44c90360201",
+            "word": "食費",
+            "read": "しょくひ",
+            "mean": "식비"
+        },
+        {
+            "id": "v-946c473000d3f3bfe6c6cedce0cff5fef1b49590",
+            "word": "食品",
+            "read": "しょくひん",
+            "mean": "식품"
+        },
+        {
+            "id": "v-3c2c3ac2402fea42d3c5d1d48b36b6bae8d27253",
+            "word": "植物",
+            "read": "しょくぶつ",
+            "mean": "식물"
+        },
+        {
+            "id": "v-0db2148f99ffde34ef998b5b6efa0467e0c1d8ec",
+            "word": "食欲",
+            "read": "しょくよく",
+            "mean": "식욕"
+        },
+        {
+            "id": "v-a44e84fdca149687c9a435e94896f9a345e3400a",
+            "word": "女子",
+            "read": "じょし",
+            "mean": "여자"
+        },
+        {
+            "id": "v-c1cc21794c1d7613f263548d55397ec5399321fb",
+            "word": "初心者",
+            "read": "しょしんしゃ",
+            "mean": "초심자, 초보자"
+        },
+        {
+            "id": "v-e5a712b43fd550a0acfd028df25286e3b68caf8a",
+            "word": "食器",
+            "read": "しょっき",
+            "mean": "식기"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

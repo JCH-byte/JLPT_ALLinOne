@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-063",
+    "title": "N1 모듈 063 (Day 18)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-063-batch-01",
+        "vocabIds": [
+            "v-a5ffe5b668b2206c478b8ec811e4b949066a78c7",
+            "v-d3668cf28319e1a3967e1b2b859660496b8bdbbb",
+            "v-fe04c8d1250c03ab712995e1b77f0d7f273abaef",
+            "v-6d2fc64c3ffcc12cf01f18f65f5821272d95664c",
+            "v-3b5ca86e6ecaa07398a5c66d44db7d76b7cb18ee",
+            "v-f454b4b88c40299d37b07bd51b4580e82eb74de3",
+            "v-192e0cf7f7078bd83072f39deb2a2a027d4785a4",
+            "v-c3f5b10f79abb39dfa38f5b75feb6abf97511737",
+            "v-4688dac6556301eb4a2e6ff5f915d210a6572a65",
+            "v-255fa3ce1862491a57336df17499bc7bbc028b7d",
+            "v-967b1ad261a9cc7685d6e36f42b06b90c9e68cbe",
+            "v-972083f3d2ed0fc2baa566aef69d868da0483225",
+            "v-b63e26fcd857400d5c99429d9a366279a220b9e0",
+            "v-220e7fd62dea5b671b15b26603cf9fb4f9b22ae4",
+            "v-4cee40ca942912a90efdde8365e42f38fadbff81",
+            "v-2fbc215d5542ab6900eb1fd478302a6142301719",
+            "v-9fbcc4fc5aee50a279bfa65c5a30d6bb98d4b394",
+            "v-6858b420306c308ef862bb61abbad27e80e758b1",
+            "v-7dae5bd8a1a55bcaa0927596529eedb5c82e5b04",
+            "v-18a8b770724549ebab05b8eb501b707641264541",
+            "v-5bf74017f0f845b9e4c9b6be4e847a1154f80bec",
+            "v-96c5f8ebbf193bda73c7aa0bbab9b056e30f2664",
+            "v-12f9242b5b8ba10f52cb302faf22c06f1175e3b5",
+            "v-ddac828b098c4841b698d2e607147f9cd74320f9",
+            "v-742f67e1dd8eba0fc7508c4400fa408fb3281354"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-a5ffe5b668b2206c478b8ec811e4b949066a78c7",
+            "word": "培う",
+            "read": "つちかう",
+            "mean": "가꾸다, 기르다"
+        },
+        {
+            "id": "v-d3668cf28319e1a3967e1b2b859660496b8bdbbb",
+            "word": "突っかかる",
+            "read": "つっかかる",
+            "mean": "대들다"
+        },
+        {
+            "id": "v-fe04c8d1250c03ab712995e1b77f0d7f273abaef",
+            "word": "慎む",
+            "read": "つつしむ",
+            "mean": "삼가다"
+        },
+        {
+            "id": "v-6d2fc64c3ffcc12cf01f18f65f5821272d95664c",
+            "word": "突っ張る",
+            "read": "つっぱる",
+            "mean": "버티다, 쥐가 나다"
+        },
+        {
+            "id": "v-3b5ca86e6ecaa07398a5c66d44db7d76b7cb18ee",
+            "word": "つなぐ",
+            "read": "つなぐ",
+            "mean": "잇다, 연결하다"
+        },
+        {
+            "id": "v-f454b4b88c40299d37b07bd51b4580e82eb74de3",
+            "word": "募る",
+            "read": "つのる",
+            "mean": "모집하다, 심해지다"
+        },
+        {
+            "id": "v-192e0cf7f7078bd83072f39deb2a2a027d4785a4",
+            "word": "呟く",
+            "read": "つぶやく",
+            "mean": "중얼거리다"
+        },
+        {
+            "id": "v-c3f5b10f79abb39dfa38f5b75feb6abf97511737",
+            "word": "つぶる",
+            "read": "つぶる",
+            "mean": "감다(눈)"
+        },
+        {
+            "id": "v-4688dac6556301eb4a2e6ff5f915d210a6572a65",
+            "word": "つまむ",
+            "read": "つまむ",
+            "mean": "집다"
+        },
+        {
+            "id": "v-255fa3ce1862491a57336df17499bc7bbc028b7d",
+            "word": "積み重なる",
+            "read": "つみかさなる",
+            "mean": "쌓이다"
+        },
+        {
+            "id": "v-967b1ad261a9cc7685d6e36f42b06b90c9e68cbe",
+            "word": "積み立てる",
+            "read": "つみたてる",
+            "mean": "적립하다"
+        },
+        {
+            "id": "v-972083f3d2ed0fc2baa566aef69d868da0483225",
+            "word": "摘む",
+            "read": "つむ",
+            "mean": "따다, 뜯다"
+        },
+        {
+            "id": "v-b63e26fcd857400d5c99429d9a366279a220b9e0",
+            "word": "貫く",
+            "read": "つらぬく",
+            "mean": "관철하다, 꿰뚫다"
+        },
+        {
+            "id": "v-220e7fd62dea5b671b15b26603cf9fb4f9b22ae4",
+            "word": "手がける",
+            "read": "てがける",
+            "mean": "다루다, 직접 하다"
+        },
+        {
+            "id": "v-4cee40ca942912a90efdde8365e42f38fadbff81",
+            "word": "徹する",
+            "read": "てっする",
+            "mean": "투철하다, 관철하다"
+        },
+        {
+            "id": "v-2fbc215d5542ab6900eb1fd478302a6142301719",
+            "word": "転じる",
+            "read": "てんじる",
+            "mean": "돌리다, 바뀌다"
+        },
+        {
+            "id": "v-9fbcc4fc5aee50a279bfa65c5a30d6bb98d4b394",
+            "word": "問い詰める",
+            "read": "といつめる",
+            "mean": "캐묻다, 추궁하다"
+        },
+        {
+            "id": "v-6858b420306c308ef862bb61abbad27e80e758b1",
+            "word": "投じる",
+            "read": "とうじる",
+            "mean": "던지다, 투자하다"
+        },
+        {
+            "id": "v-7dae5bd8a1a55bcaa0927596529eedb5c82e5b04",
+            "word": "尊ぶ",
+            "read": "とうとぶ",
+            "mean": "공경하다, 존중하다"
+        },
+        {
+            "id": "v-18a8b770724549ebab05b8eb501b707641264541",
+            "word": "遠ざかる",
+            "read": "とおざかる",
+            "mean": "멀어지다"
+        },
+        {
+            "id": "v-5bf74017f0f845b9e4c9b6be4e847a1154f80bec",
+            "word": "とがめる",
+            "read": "とがめる",
+            "mean": "책망하다, 찔리다"
+        },
+        {
+            "id": "v-96c5f8ebbf193bda73c7aa0bbab9b056e30f2664",
+            "word": "解き放す",
+            "read": "ときはなす",
+            "mean": "해방하다"
+        },
+        {
+            "id": "v-12f9242b5b8ba10f52cb302faf22c06f1175e3b5",
+            "word": "途切れる",
+            "read": "とぎれる",
+            "mean": "중단되다, 끊기다"
+        },
+        {
+            "id": "v-ddac828b098c4841b698d2e607147f9cd74320f9",
+            "word": "説く",
+            "read": "とく",
+            "mean": "설하다, 설명하다"
+        },
+        {
+            "id": "v-742f67e1dd8eba0fc7508c4400fa408fb3281354",
+            "word": "研ぐ",
+            "read": "とぐ",
+            "mean": "갈다, 쌀을 씻다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

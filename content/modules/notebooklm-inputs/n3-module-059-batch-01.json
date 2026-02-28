@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-059",
+    "title": "N3 모듈 059 (Day 24)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-059-batch-01",
+        "vocabIds": [
+            "v-440c6ec06546fbefb9ec9a950c0897a5fc89929c",
+            "v-da03d9a5908021c7509686d2e1f95c36050d5095",
+            "v-89ddf16b071ed4ac42a0d6cdfe29c061ade2e3b6",
+            "v-ad400ab052ede69269cc256597d4699ae4cd9381",
+            "v-9c2009d1df153a729107879df860eb16812b7b38",
+            "v-eb97b789d294d6b5f07663686eaa11a57bade113",
+            "v-55476c40c01486fb32d3c36445586eeeaeefbb0f",
+            "v-4e343f4543ad588f714d74305a454d5e32a7cfeb",
+            "v-57cbe431ab4117625d5ac74e0bc421c6f97b7670",
+            "v-aabf847694543e65d990d0b790a0f00fa96081ad",
+            "v-24023b98dd6dfa94dc5dc718c9a3c121240da661",
+            "v-ad6dbdcbae568c9efef05a8a54afbdd1abc3efae",
+            "v-65d66b9280709df0362c513ab8b675d35af1cf4a",
+            "v-1f17b3777aa0a76f6ca417ef60d26a538522f433",
+            "v-313b9de22eacb16136aa16950433fe2340e0bf0d",
+            "v-671f0d8bfbfed59b86b066c3f16a2f3555070c24",
+            "v-a9dae2d6134509b96ff7568d863a0e7a3c0019ba",
+            "v-92b208a56919443a8b173152b314bebc9e947a66",
+            "v-e366fca08130e406d2bedfea51ac2354f3152d16",
+            "v-386dc39489753993e65d0b611cc76fe5dda625ac",
+            "v-56f62076ce3aed963df57eb3fc2d72c7ceb229f9",
+            "v-2c6e7c7e0c3d18c3a3b8720bc5fc7d7158e21ab3",
+            "v-6ec44dbda7dde9712e7f27c211c45d466d662ca9",
+            "v-1a33b65bd3ba0f247ae4219c759360e0e1545a2f",
+            "v-6fcd8f926793d0a59b528ab9e50aeef2e6b27305"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-440c6ec06546fbefb9ec9a950c0897a5fc89929c",
+            "word": "意地悪な",
+            "read": "いじわるな",
+            "mean": "심술궂은"
+        },
+        {
+            "id": "v-da03d9a5908021c7509686d2e1f95c36050d5095",
+            "word": "一般的な",
+            "read": "いっぱんてきな",
+            "mean": "일반적인"
+        },
+        {
+            "id": "v-89ddf16b071ed4ac42a0d6cdfe29c061ade2e3b6",
+            "word": "おかしな",
+            "read": "おかしな",
+            "mean": "이상한"
+        },
+        {
+            "id": "v-ad400ab052ede69269cc256597d4699ae4cd9381",
+            "word": "主な",
+            "read": "おもな",
+            "mean": "주된"
+        },
+        {
+            "id": "v-9c2009d1df153a729107879df860eb16812b7b38",
+            "word": "確実な",
+            "read": "かくじつな",
+            "mean": "확실한"
+        },
+        {
+            "id": "v-eb97b789d294d6b5f07663686eaa11a57bade113",
+            "word": "可能な",
+            "read": "かのうな",
+            "mean": "가능한"
+        },
+        {
+            "id": "v-55476c40c01486fb32d3c36445586eeeaeefbb0f",
+            "word": "からからな",
+            "read": "からからな",
+            "mean": "바싹 마른"
+        },
+        {
+            "id": "v-4e343f4543ad588f714d74305a454d5e32a7cfeb",
+            "word": "がらがらな",
+            "read": "がらがらな",
+            "mean": "텅 빈"
+        },
+        {
+            "id": "v-57cbe431ab4117625d5ac74e0bc421c6f97b7670",
+            "word": "かわいそうな",
+            "read": "かわいそうな",
+            "mean": "불쌍한"
+        },
+        {
+            "id": "v-aabf847694543e65d990d0b790a0f00fa96081ad",
+            "word": "感情的な",
+            "read": "かんじょうてきな",
+            "mean": "감정적인"
+        },
+        {
+            "id": "v-24023b98dd6dfa94dc5dc718c9a3c121240da661",
+            "word": "完全な",
+            "read": "かんぜんな",
+            "mean": "완전한"
+        },
+        {
+            "id": "v-ad6dbdcbae568c9efef05a8a54afbdd1abc3efae",
+            "word": "気楽な",
+            "read": "きらくな",
+            "mean": "속 편한, 편안한"
+        },
+        {
+            "id": "v-65d66b9280709df0362c513ab8b675d35af1cf4a",
+            "word": "けちな",
+            "read": "けちな",
+            "mean": "인색한"
+        },
+        {
+            "id": "v-1f17b3777aa0a76f6ca417ef60d26a538522f433",
+            "word": "下品な",
+            "read": "げひんな",
+            "mean": "품위 없는, 천한"
+        },
+        {
+            "id": "v-313b9de22eacb16136aa16950433fe2340e0bf0d",
+            "word": "効果的な",
+            "read": "こうかてきな",
+            "mean": "효과적인"
+        },
+        {
+            "id": "v-671f0d8bfbfed59b86b066c3f16a2f3555070c24",
+            "word": "高価な",
+            "read": "こうかな",
+            "mean": "고가의"
+        },
+        {
+            "id": "v-a9dae2d6134509b96ff7568d863a0e7a3c0019ba",
+            "word": "好調な",
+            "read": "こうちょうな",
+            "mean": "순조로운"
+        },
+        {
+            "id": "v-92b208a56919443a8b173152b314bebc9e947a66",
+            "word": "盛んな",
+            "read": "さかんな",
+            "mean": "성한, 왕성한"
+        },
+        {
+            "id": "v-e366fca08130e406d2bedfea51ac2354f3152d16",
+            "word": "様々な",
+            "read": "さまざま(な)",
+            "mean": "다양한"
+        },
+        {
+            "id": "v-386dc39489753993e65d0b611cc76fe5dda625ac",
+            "word": "幸せな",
+            "read": "しあわせな",
+            "mean": "행복한"
+        },
+        {
+            "id": "v-56f62076ce3aed963df57eb3fc2d72c7ceb229f9",
+            "word": "失礼な",
+            "read": "しつれいな",
+            "mean": "실례되는"
+        },
+        {
+            "id": "v-2c6e7c7e0c3d18c3a3b8720bc5fc7d7158e21ab3",
+            "word": "自動的な",
+            "read": "じどうてきな",
+            "mean": "자동적인"
+        },
+        {
+            "id": "v-6ec44dbda7dde9712e7f27c211c45d466d662ca9",
+            "word": "重大な",
+            "read": "じゅうだいな",
+            "mean": "중대한"
+        },
+        {
+            "id": "v-1a33b65bd3ba0f247ae4219c759360e0e1545a2f",
+            "word": "自由な",
+            "read": "じゆうな",
+            "mean": "자유로운"
+        },
+        {
+            "id": "v-6fcd8f926793d0a59b528ab9e50aeef2e6b27305",
+            "word": "重要な",
+            "read": "じゅうような",
+            "mean": "중요한"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

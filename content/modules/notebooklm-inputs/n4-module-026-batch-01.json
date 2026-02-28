@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-026",
+    "title": "N4 모듈 026 (Day 19-20)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-026-batch-01",
+        "vocabIds": [
+            "v-1ddb478b07320defde94247af5851e739f7acfe2",
+            "v-960b15ea451259e9accf8dacf0489fecc753198c",
+            "v-117bc9e1ed797b5d8d31dcf7cf898b2ecb1c5b83",
+            "v-ef8ac1a5737439149ac4b180941aeecc84616bfb",
+            "v-737d38cb4c5440064f36f9bff0a6f3cdaaca3120",
+            "v-54b0beb539726c7ec7c46bbecba1c89721e638c9",
+            "v-1ff8eb29a1bb4e1bf3b158ddecbd103c3f1c06fe",
+            "v-ab777b96db07a13f10f5c137c972620b3f106a9b",
+            "v-e8b8050e5a747f5bf9877aba577fb5b77a34b904",
+            "v-dd5b16613c940be57f033090de6b4990b3fe60d0",
+            "v-26558c4f146208fa369c4fce79608a7ce23c25ce",
+            "v-072f3ea0de860613377a01396b227fc7d89506b5",
+            "v-5e25c1cf772801bbe9df25bf9bcfe9738e85295c",
+            "v-a252bd49a4304e80a2e64deb3f8903cbd3e8314e",
+            "v-541da65466c2dfa2d9016065d2afb6ef33a823a0",
+            "v-d0c166a21d7f1af40ffd223eb36a889ca0aace9e",
+            "v-d4a68c34b0d5f49d88628fb605b2da6d5f76d22a",
+            "v-f215afc1387b837f44cf09a0e38a6c16f0387af5",
+            "v-4018630a4e48c6b51e44abb0dc2209d151e92826",
+            "v-7f902dd57569b92666e1fb5cff717c34b76281f3",
+            "v-ab90dfb32b59b3fe58ac226cdceee76da083c751",
+            "v-fdb32a3dafbc458f4ac83d086ce82cea7237101d",
+            "v-54739ccebf3d42cec6d83a2d8e7895539055ce04",
+            "v-d3742b05542c506c3d5696885bb4f1d3670523c8",
+            "v-0a5ce6deb9ba6299ce1c1c9d083e0a69147881d0"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-1ddb478b07320defde94247af5851e739f7acfe2",
+            "word": "見つける",
+            "read": "みつける",
+            "mean": "찾다, 발견하다"
+        },
+        {
+            "id": "v-960b15ea451259e9accf8dacf0489fecc753198c",
+            "word": "召し上がる",
+            "read": "めしあがる",
+            "mean": "드시다 (존경)"
+        },
+        {
+            "id": "v-117bc9e1ed797b5d8d31dcf7cf898b2ecb1c5b83",
+            "word": "申し上げる",
+            "read": "もうしあげる",
+            "mean": "말씀드리다 (겸양)"
+        },
+        {
+            "id": "v-ef8ac1a5737439149ac4b180941aeecc84616bfb",
+            "word": "申す",
+            "read": "もうす",
+            "mean": "말하다 (겸양)"
+        },
+        {
+            "id": "v-737d38cb4c5440064f36f9bff0a6f3cdaaca3120",
+            "word": "戻す",
+            "read": "もどす",
+            "mean": "되돌리다"
+        },
+        {
+            "id": "v-54b0beb539726c7ec7c46bbecba1c89721e638c9",
+            "word": "戻る",
+            "read": "もどる",
+            "mean": "돌아가다, 되돌아오다"
+        },
+        {
+            "id": "v-1ff8eb29a1bb4e1bf3b158ddecbd103c3f1c06fe",
+            "word": "役に立つ",
+            "read": "やくにたつ",
+            "mean": "도움이 되다"
+        },
+        {
+            "id": "v-ab777b96db07a13f10f5c137c972620b3f106a9b",
+            "word": "焼ける",
+            "read": "やける",
+            "mean": "타다, 구워지다"
+        },
+        {
+            "id": "v-e8b8050e5a747f5bf9877aba577fb5b77a34b904",
+            "word": "やせる",
+            "read": "やせる",
+            "mean": "마르다, 살이 빠지다"
+        },
+        {
+            "id": "v-dd5b16613c940be57f033090de6b4990b3fe60d0",
+            "word": "やむ",
+            "read": "やむ",
+            "mean": "그치다 (비/눈)"
+        },
+        {
+            "id": "v-26558c4f146208fa369c4fce79608a7ce23c25ce",
+            "word": "やめる",
+            "read": "やめる",
+            "mean": "그만두다"
+        },
+        {
+            "id": "v-072f3ea0de860613377a01396b227fc7d89506b5",
+            "word": "やる",
+            "read": "やる",
+            "mean": "주다(아랫사람/동물), 하다"
+        },
+        {
+            "id": "v-5e25c1cf772801bbe9df25bf9bcfe9738e85295c",
+            "word": "揺れる",
+            "read": "ゆれる",
+            "mean": "흔들리다"
+        },
+        {
+            "id": "v-a252bd49a4304e80a2e64deb3f8903cbd3e8314e",
+            "word": "寄る",
+            "read": "よる",
+            "mean": "들르다, 다가가다"
+        },
+        {
+            "id": "v-541da65466c2dfa2d9016065d2afb6ef33a823a0",
+            "word": "喜ぶ",
+            "read": "よろこぶ",
+            "mean": "기뻐하다"
+        },
+        {
+            "id": "v-d0c166a21d7f1af40ffd223eb36a889ca0aace9e",
+            "word": "沸かす",
+            "read": "わかす",
+            "mean": "끓이다"
+        },
+        {
+            "id": "v-d4a68c34b0d5f49d88628fb605b2da6d5f76d22a",
+            "word": "沸く",
+            "read": "わく",
+            "mean": "끓다"
+        },
+        {
+            "id": "v-f215afc1387b837f44cf09a0e38a6c16f0387af5",
+            "word": "忘れる",
+            "read": "わすれる",
+            "mean": "잊다"
+        },
+        {
+            "id": "v-4018630a4e48c6b51e44abb0dc2209d151e92826",
+            "word": "渡す",
+            "read": "わたす",
+            "mean": "건네다"
+        },
+        {
+            "id": "v-7f902dd57569b92666e1fb5cff717c34b76281f3",
+            "word": "渡る",
+            "read": "わたる",
+            "mean": "건너다"
+        },
+        {
+            "id": "v-ab90dfb32b59b3fe58ac226cdceee76da083c751",
+            "word": "笑う",
+            "read": "わらう",
+            "mean": "웃다"
+        },
+        {
+            "id": "v-fdb32a3dafbc458f4ac83d086ce82cea7237101d",
+            "word": "熱い",
+            "read": "あつい",
+            "mean": "뜨겁다"
+        },
+        {
+            "id": "v-54739ccebf3d42cec6d83a2d8e7895539055ce04",
+            "word": "薄い",
+            "read": "うすい",
+            "mean": "얇다, 연하다"
+        },
+        {
+            "id": "v-d3742b05542c506c3d5696885bb4f1d3670523c8",
+            "word": "美しい",
+            "read": "うつくしい",
+            "mean": "아름답다"
+        },
+        {
+            "id": "v-0a5ce6deb9ba6299ce1c1c9d083e0a69147881d0",
+            "word": "うまい",
+            "read": "うまい",
+            "mean": "맛있다, 잘하다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

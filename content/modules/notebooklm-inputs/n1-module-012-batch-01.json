@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-012",
+    "title": "N1 모듈 012 (Day 3-4)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-012-batch-01",
+        "vocabIds": [
+            "v-bf979e133cb05e323eb595d28e9c1a041cada316",
+            "v-b775a801c4e6b6b3802d176e1b1eb02f39f3ea8d",
+            "v-d9f78a8ac1e05d5be73cfc0aa0e833c92616ea57",
+            "v-53e1867c06146ba5b9edd8ac16bd2d97be8e9e1c",
+            "v-3f4a2a1261cd8c79a0d7525e6f2dbcf932478255",
+            "v-d3eadd1b4860b5ceba29ab953d200258bf1c0666",
+            "v-13ccb8a3a73e73c69bcf2108f674b8d4c9a2867b",
+            "v-4a6805c7c7fe91fd20543927508ce50a2d186c6b",
+            "v-08b6ec5d1743ebf62ce7912a9ee9176f4752a421",
+            "v-550b377f1dd739c5fd4c7d425fb4912430217453",
+            "v-481dbb8441f50958457f23490f3cb17d96265fa2",
+            "v-5accff573329dcccc2b79b5486603b0f2fa4c2a3",
+            "v-a7369673c3cffd4d583d1d909bb6fad9d40a9ddf",
+            "v-3ced81a724362e8e0e8bc100d4223d959f5c7fde",
+            "v-4c0190d5c65348e46ec137ab4a09664d19151504",
+            "v-e3d1294493a677f1e616ca22ff622b53b10c40d0",
+            "v-e2488e095672df0cac0506c7391dc45632f029ad",
+            "v-ac2dfc5943e2ce6e574c1a9d04f9a40f2df93606",
+            "v-0d8735c6024a686f7c3c89f78674b893c1cebd8a",
+            "v-3fa73f07bb0a12512c59ba74c98fe8e0f06255a9",
+            "v-1078de6a668bdd998e202d14fdab025244bffd40",
+            "v-8e260b691f0d706ac6c26ff60784620f3f9c1197",
+            "v-098edf6aa269a47e9914d41661acfbbdc81902e6",
+            "v-a6de0ef6c8cfe3ec77e06152a6a4ff4e5185a86d",
+            "v-8d2efd46e341088c6f21e42dd5202e25477193d5"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-bf979e133cb05e323eb595d28e9c1a041cada316",
+            "word": "業務",
+            "read": "ぎょうむ",
+            "mean": "업무"
+        },
+        {
+            "id": "v-b775a801c4e6b6b3802d176e1b1eb02f39f3ea8d",
+            "word": "共鳴",
+            "read": "きょうめい",
+            "mean": "공명"
+        },
+        {
+            "id": "v-d9f78a8ac1e05d5be73cfc0aa0e833c92616ea57",
+            "word": "郷里",
+            "read": "きょうり",
+            "mean": "향리, 고향"
+        },
+        {
+            "id": "v-53e1867c06146ba5b9edd8ac16bd2d97be8e9e1c",
+            "word": "局面",
+            "read": "きょくめん",
+            "mean": "국면"
+        },
+        {
+            "id": "v-3f4a2a1261cd8c79a0d7525e6f2dbcf932478255",
+            "word": "漁船",
+            "read": "ぎょせん",
+            "mean": "어선"
+        },
+        {
+            "id": "v-d3eadd1b4860b5ceba29ab953d200258bf1c0666",
+            "word": "拠点",
+            "read": "きょてん",
+            "mean": "거점"
+        },
+        {
+            "id": "v-13ccb8a3a73e73c69bcf2108f674b8d4c9a2867b",
+            "word": "許容",
+            "read": "きょよう",
+            "mean": "허용"
+        },
+        {
+            "id": "v-4a6805c7c7fe91fd20543927508ce50a2d186c6b",
+            "word": "疑惑",
+            "read": "ぎわく",
+            "mean": "의혹"
+        },
+        {
+            "id": "v-08b6ec5d1743ebf62ce7912a9ee9176f4752a421",
+            "word": "近眼",
+            "read": "きんがん",
+            "mean": "근시"
+        },
+        {
+            "id": "v-550b377f1dd739c5fd4c7d425fb4912430217453",
+            "word": "均衡",
+            "read": "きんこう",
+            "mean": "균형"
+        },
+        {
+            "id": "v-481dbb8441f50958457f23490f3cb17d96265fa2",
+            "word": "緊迫",
+            "read": "きんぱく",
+            "mean": "긴박"
+        },
+        {
+            "id": "v-5accff573329dcccc2b79b5486603b0f2fa4c2a3",
+            "word": "吟味",
+            "read": "ぎんみ",
+            "mean": "음미, 검토"
+        },
+        {
+            "id": "v-a7369673c3cffd4d583d1d909bb6fad9d40a9ddf",
+            "word": "禁物",
+            "read": "きんもつ",
+            "mean": "금물"
+        },
+        {
+            "id": "v-3ced81a724362e8e0e8bc100d4223d959f5c7fde",
+            "word": "勤労",
+            "read": "きんろう",
+            "mean": "근로"
+        },
+        {
+            "id": "v-4c0190d5c65348e46ec137ab4a09664d19151504",
+            "word": "空腹",
+            "read": "くうふく",
+            "mean": "공복"
+        },
+        {
+            "id": "v-e3d1294493a677f1e616ca22ff622b53b10c40d0",
+            "word": "苦境",
+            "read": "くきょう",
+            "mean": "고경, 역경"
+        },
+        {
+            "id": "v-e2488e095672df0cac0506c7391dc45632f029ad",
+            "word": "苦言",
+            "read": "くげん",
+            "mean": "고언, 쓴소리"
+        },
+        {
+            "id": "v-ac2dfc5943e2ce6e574c1a9d04f9a40f2df93606",
+            "word": "駆使",
+            "read": "くし",
+            "mean": "구사"
+        },
+        {
+            "id": "v-0d8735c6024a686f7c3c89f78674b893c1cebd8a",
+            "word": "駆逐",
+            "read": "くちく",
+            "mean": "구축, 몰아냄"
+        },
+        {
+            "id": "v-3fa73f07bb0a12512c59ba74c98fe8e0f06255a9",
+            "word": "口出し",
+            "read": "くちだし",
+            "mean": "말참견"
+        },
+        {
+            "id": "v-1078de6a668bdd998e202d14fdab025244bffd40",
+            "word": "くちばし",
+            "read": "くちばし",
+            "mean": "부리"
+        },
+        {
+            "id": "v-8e260b691f0d706ac6c26ff60784620f3f9c1197",
+            "word": "口元",
+            "read": "くちもと",
+            "mean": "입가"
+        },
+        {
+            "id": "v-098edf6aa269a47e9914d41661acfbbdc81902e6",
+            "word": "口調",
+            "read": "くちょう",
+            "mean": "어조"
+        },
+        {
+            "id": "v-a6de0ef6c8cfe3ec77e06152a6a4ff4e5185a86d",
+            "word": "工面",
+            "read": "くめん",
+            "mean": "마련함, 변통"
+        },
+        {
+            "id": "v-8d2efd46e341088c6f21e42dd5202e25477193d5",
+            "word": "愚問",
+            "read": "ぐもん",
+            "mean": "우문"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

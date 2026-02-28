@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-032",
+    "title": "N3 모듈 032 (Day 12)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-032-batch-01",
+        "vocabIds": [
+            "v-4c9b0b83e17980943f93b73ba5d74eac6e928035",
+            "v-072e567850f3b81f19e3174b4a248f7bc93792ac",
+            "v-10811980dc3d6538650f209dff4d8e34e1895be4",
+            "v-36c2767d4a718919f6038a009573aff620be1db6",
+            "v-b643b4cb0a48aef1d487aeb0a3ad962f4a824e49",
+            "v-fb5400cf03490c3b49bc8122a9703b2f77e6a76d",
+            "v-a5f304d84cb218105a1034a142fd279a640c7d2e",
+            "v-4dc14612e370d6d398bd3d282f699eafb540e202",
+            "v-bdccc8fda6c1989e3dc99891046bf1e13152ce5a",
+            "v-e9f1bad6946c2cb26b48b6cf4711e00a5489607d",
+            "v-6edb68987b29b044d3926804b3925ced7018d7bf",
+            "v-eff83c0bfafe78ccdaa1a94422df3119a91ace2f",
+            "v-84753a0ffc06b7b09bc6b6403348e493635df651",
+            "v-3679dfe24e6e19cf7fc5b392fa247578964b402f",
+            "v-9606f686d78ca698cd4228175cd58726ae28bc1b",
+            "v-e8c7ca86243d9743535aaf3de0336926c9365b53",
+            "v-aa7e8d4cf438f124b865af52808a5ed586cf92b0",
+            "v-fe570eadc970a09e0f515b14293860ed0fc38997",
+            "v-1f6d61d73907589ab513c8d17d6a5ef4fb044544",
+            "v-b7d5c2b3bae3f343cd29bf2997df06b10969ec39",
+            "v-8d1003c01f79de89baf6720a8836bfbcad7a6bfc",
+            "v-7d9aadcf7ad7e326bfa942e9111de4c68377ac74",
+            "v-39db93b4676b68359e43621467fb8607cdda0bce",
+            "v-e47baaba7f7d566663edeb7026d0a1523b3829d7",
+            "v-1ff9a48babe72e73beda88445f8b1eacca49662f"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-4c9b0b83e17980943f93b73ba5d74eac6e928035",
+            "word": "年月",
+            "read": "ねんげつ",
+            "mean": "연월, 세월"
+        },
+        {
+            "id": "v-072e567850f3b81f19e3174b4a248f7bc93792ac",
+            "word": "年中",
+            "read": "ねんじゅう",
+            "mean": "연중"
+        },
+        {
+            "id": "v-10811980dc3d6538650f209dff4d8e34e1895be4",
+            "word": "年代",
+            "read": "ねんだい",
+            "mean": "연대"
+        },
+        {
+            "id": "v-36c2767d4a718919f6038a009573aff620be1db6",
+            "word": "年末",
+            "read": "ねんまつ",
+            "mean": "연말"
+        },
+        {
+            "id": "v-b643b4cb0a48aef1d487aeb0a3ad962f4a824e49",
+            "word": "野",
+            "read": "の",
+            "mean": "들, 벌판"
+        },
+        {
+            "id": "v-fb5400cf03490c3b49bc8122a9703b2f77e6a76d",
+            "word": "農業",
+            "read": "のうぎょう",
+            "mean": "농업"
+        },
+        {
+            "id": "v-a5f304d84cb218105a1034a142fd279a640c7d2e",
+            "word": "農村",
+            "read": "のうそん",
+            "mean": "농촌"
+        },
+        {
+            "id": "v-4dc14612e370d6d398bd3d282f699eafb540e202",
+            "word": "農民",
+            "read": "のうみん",
+            "mean": "농민"
+        },
+        {
+            "id": "v-bdccc8fda6c1989e3dc99891046bf1e13152ce5a",
+            "word": "能力",
+            "read": "のうりょく",
+            "mean": "능력"
+        },
+        {
+            "id": "v-e9f1bad6946c2cb26b48b6cf4711e00a5489607d",
+            "word": "残り",
+            "read": "のこり",
+            "mean": "나머지"
+        },
+        {
+            "id": "v-6edb68987b29b044d3926804b3925ced7018d7bf",
+            "word": "上り",
+            "read": "のぼり",
+            "mean": "오르막, 상행"
+        },
+        {
+            "id": "v-eff83c0bfafe78ccdaa1a94422df3119a91ace2f",
+            "word": "飲み会",
+            "read": "のみかい",
+            "mean": "술자리"
+        },
+        {
+            "id": "v-84753a0ffc06b7b09bc6b6403348e493635df651",
+            "word": "海苔",
+            "read": "のり",
+            "mean": "김"
+        },
+        {
+            "id": "v-3679dfe24e6e19cf7fc5b392fa247578964b402f",
+            "word": "乗り越し",
+            "read": "のりこし",
+            "mean": "목적지보다 더 감, 무임승차(구간초과)"
+        },
+        {
+            "id": "v-9606f686d78ca698cd4228175cd58726ae28bc1b",
+            "word": "歯",
+            "read": "は",
+            "mean": "이, 치아"
+        },
+        {
+            "id": "v-e8c7ca86243d9743535aaf3de0336926c9365b53",
+            "word": "倍",
+            "read": "ばい",
+            "mean": "배, 곱절"
+        },
+        {
+            "id": "v-aa7e8d4cf438f124b865af52808a5ed586cf92b0",
+            "word": "灰色",
+            "read": "はいいろ",
+            "mean": "회색"
+        },
+        {
+            "id": "v-fe570eadc970a09e0f515b14293860ed0fc38997",
+            "word": "梅雨",
+            "read": "つゆ",
+            "mean": "장마"
+        },
+        {
+            "id": "v-1f6d61d73907589ab513c8d17d6a5ef4fb044544",
+            "word": "配達",
+            "read": "はいたつ",
+            "mean": "배달"
+        },
+        {
+            "id": "v-b7d5c2b3bae3f343cd29bf2997df06b10969ec39",
+            "word": "売店",
+            "read": "ばいてん",
+            "mean": "매점"
+        },
+        {
+            "id": "v-8d1003c01f79de89baf6720a8836bfbcad7a6bfc",
+            "word": "売買",
+            "read": "ばいばい",
+            "mean": "매매"
+        },
+        {
+            "id": "v-7d9aadcf7ad7e326bfa942e9111de4c68377ac74",
+            "word": "拍手",
+            "read": "はくしゅ",
+            "mean": "박수"
+        },
+        {
+            "id": "v-39db93b4676b68359e43621467fb8607cdda0bce",
+            "word": "博物館",
+            "read": "はくぶつかん",
+            "mean": "박물관"
+        },
+        {
+            "id": "v-e47baaba7f7d566663edeb7026d0a1523b3829d7",
+            "word": "箸",
+            "read": "はし",
+            "mean": "젓가락"
+        },
+        {
+            "id": "v-1ff9a48babe72e73beda88445f8b1eacca49662f",
+            "word": "柱",
+            "read": "はしら",
+            "mean": "기둥"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

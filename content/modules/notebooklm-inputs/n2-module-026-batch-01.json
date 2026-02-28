@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-026",
+    "title": "N2 모듈 026 (Day 8)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-026-batch-01",
+        "vocabIds": [
+            "v-278b61058d6ace703345d6dfc1af70699e6e31a3",
+            "v-b473ee62fae0d2fb85b1a09fe0e769b61ea8a901",
+            "v-1343e75eb6445abbcac5fc4045f6369875077daf",
+            "v-029b03f5c73a66e356d36145d735784b6b9ed82d",
+            "v-a09e7ac7dd4600655bc1588cfe16aa5d9dd60e23",
+            "v-f1143f2f1f8fc43c5eb2dbcde1bf8fb3a74c5ecc",
+            "v-9e7578294fbe3c789600fae35a0aabaceda174b2",
+            "v-22ff060ea4e6e4dfb0868589c239023430c323b0",
+            "v-eb68b8eabeef9248482850119c2086bca7ca4c4a",
+            "v-7fb23a825ef19859b1ace14163c8dd45ff4d09d6",
+            "v-027071d86d5252300ffc1d3801e296b00bc2d948",
+            "v-496ba89eca776cfb050936fd16c9469b05e1e5d1",
+            "v-f184b50a55860e382a667094ad2fe85c62084705",
+            "v-dc47421ffa22e34c4a2fd555ead87f776007cd7b",
+            "v-4b0ba109145fe8898ae3f702046fd5104dc20dde",
+            "v-4d4a889fba6a78f1bda00c572c62f3352393b5c1",
+            "v-f79ce3db578713b074347b1d91a3e4b1d4e8b26a",
+            "v-e2e9189fcb537b1e03d077dca28e0f7f8148eeb1",
+            "v-f221de05d0a05bcf488469660d796c95e293a29b",
+            "v-09a8d29962c8695445fb86a5c1247d2e63818fd9",
+            "v-bcdd17a2891217fe8d88fde552867d1ee49c6e0b",
+            "v-40c4d361439ce8e1fdb1a93948ced333f816a546",
+            "v-833b31eb50218a617e7d02eddb60848907b99dbd",
+            "v-0b8741c3b498d544e4a1246acc9da54a584a7506",
+            "v-1fab09349d7c2192d820525c0c893e73e653ecfe"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-278b61058d6ace703345d6dfc1af70699e6e31a3",
+            "word": "推薦",
+            "read": "すいせん",
+            "mean": "추천"
+        },
+        {
+            "id": "v-b473ee62fae0d2fb85b1a09fe0e769b61ea8a901",
+            "word": "垂直",
+            "read": "すいちょく",
+            "mean": "수직"
+        },
+        {
+            "id": "v-1343e75eb6445abbcac5fc4045f6369875077daf",
+            "word": "推定",
+            "read": "すいてい",
+            "mean": "추정"
+        },
+        {
+            "id": "v-029b03f5c73a66e356d36145d735784b6b9ed82d",
+            "word": "水筒",
+            "read": "すいとう",
+            "mean": "물통"
+        },
+        {
+            "id": "v-a09e7ac7dd4600655bc1588cfe16aa5d9dd60e23",
+            "word": "水分",
+            "read": "すいぶん",
+            "mean": "수분"
+        },
+        {
+            "id": "v-f1143f2f1f8fc43c5eb2dbcde1bf8fb3a74c5ecc",
+            "word": "水平",
+            "read": "すいへい",
+            "mean": "수평"
+        },
+        {
+            "id": "v-9e7578294fbe3c789600fae35a0aabaceda174b2",
+            "word": "水平線",
+            "read": "すいへいせん",
+            "mean": "수평선"
+        },
+        {
+            "id": "v-22ff060ea4e6e4dfb0868589c239023430c323b0",
+            "word": "水面",
+            "read": "すいめん",
+            "mean": "수면"
+        },
+        {
+            "id": "v-eb68b8eabeef9248482850119c2086bca7ca4c4a",
+            "word": "数字",
+            "read": "すうじ",
+            "mean": "숫자"
+        },
+        {
+            "id": "v-7fb23a825ef19859b1ace14163c8dd45ff4d09d6",
+            "word": "末",
+            "read": "すえ",
+            "mean": "끝, 마지막"
+        },
+        {
+            "id": "v-027071d86d5252300ffc1d3801e296b00bc2d948",
+            "word": "姿",
+            "read": "すがた",
+            "mean": "모습"
+        },
+        {
+            "id": "v-496ba89eca776cfb050936fd16c9469b05e1e5d1",
+            "word": "図鑑",
+            "read": "ずかん",
+            "mean": "도감"
+        },
+        {
+            "id": "v-f184b50a55860e382a667094ad2fe85c62084705",
+            "word": "隙間",
+            "read": "すきま",
+            "mean": "틈"
+        },
+        {
+            "id": "v-dc47421ffa22e34c4a2fd555ead87f776007cd7b",
+            "word": "図形",
+            "read": "ずけい",
+            "mean": "도형"
+        },
+        {
+            "id": "v-4b0ba109145fe8898ae3f702046fd5104dc20dde",
+            "word": "筋",
+            "read": "すじ",
+            "mean": "근육, 줄거리"
+        },
+        {
+            "id": "v-4d4a889fba6a78f1bda00c572c62f3352393b5c1",
+            "word": "頭痛",
+            "read": "ずつう",
+            "mean": "두통"
+        },
+        {
+            "id": "v-f79ce3db578713b074347b1d91a3e4b1d4e8b26a",
+            "word": "頭脳",
+            "read": "ずのう",
+            "mean": "두뇌"
+        },
+        {
+            "id": "v-e2e9189fcb537b1e03d077dca28e0f7f8148eeb1",
+            "word": "図表",
+            "read": "ずひょう",
+            "mean": "도표"
+        },
+        {
+            "id": "v-f221de05d0a05bcf488469660d796c95e293a29b",
+            "word": "炭",
+            "read": "すみ",
+            "mean": "숯"
+        },
+        {
+            "id": "v-09a8d29962c8695445fb86a5c1247d2e63818fd9",
+            "word": "寸法",
+            "read": "すんぽう",
+            "mean": "치수"
+        },
+        {
+            "id": "v-bcdd17a2891217fe8d88fde552867d1ee49c6e0b",
+            "word": "声援",
+            "read": "せいえん",
+            "mean": "성원"
+        },
+        {
+            "id": "v-40c4d361439ce8e1fdb1a93948ced333f816a546",
+            "word": "世紀",
+            "read": "せいき",
+            "mean": "세기"
+        },
+        {
+            "id": "v-833b31eb50218a617e7d02eddb60848907b99dbd",
+            "word": "請求",
+            "read": "せいきゅう",
+            "mean": "청구"
+        },
+        {
+            "id": "v-0b8741c3b498d544e4a1246acc9da54a584a7506",
+            "word": "制限",
+            "read": "せいげん",
+            "mean": "제한"
+        },
+        {
+            "id": "v-1fab09349d7c2192d820525c0c893e73e653ecfe",
+            "word": "製作",
+            "read": "せいさく",
+            "mean": "제작"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

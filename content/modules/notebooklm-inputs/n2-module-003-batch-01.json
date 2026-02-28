@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-003",
+    "title": "N2 모듈 003 (Day 1)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-003-batch-01",
+        "vocabIds": [
+            "v-b780c1c85b138145c0cfc390f8797f829993d29d",
+            "v-65981a7b97284d97158a2b949f5da4c0abd6c486",
+            "v-7d355190d387d51419e93f28c799d48a316ca6e9",
+            "v-7337aee8cef8ae20689120f0c4c28a908585bc0b",
+            "v-ffa47f93fb2bfc58521529b14d1135e5406d4f8d",
+            "v-1c93ad5f7d0f3a8e2ca62fb90fb7378c57837eca",
+            "v-b77ca1780fd2d34837eb41941ed9c6217903b2e5",
+            "v-11398eec229fc40899456b1d69ae56612e28e368",
+            "v-71a45fe5b1e0950b6baa346031b3a7dcb9676f2f",
+            "v-e637b2216ad4d4dc78e5e6575f01e2bb24de3d6d",
+            "v-581220c89e9b6198692489575ebb5e4828de7b19",
+            "v-3fd3d71b3c60d0a02c37689875ce75b56776d834",
+            "v-8fc0d9d03ba4ae368bf83105e0e4a1acf9c255d3"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-b780c1c85b138145c0cfc390f8797f829993d29d",
+            "word": "以来",
+            "read": "いらい",
+            "mean": "이래, 이후"
+        },
+        {
+            "id": "v-65981a7b97284d97158a2b949f5da4c0abd6c486",
+            "word": "印刷",
+            "read": "いんさつ",
+            "mean": "인쇄"
+        },
+        {
+            "id": "v-7d355190d387d51419e93f28c799d48a316ca6e9",
+            "word": "引退",
+            "read": "いんたい",
+            "mean": "은퇴"
+        },
+        {
+            "id": "v-7337aee8cef8ae20689120f0c4c28a908585bc0b",
+            "word": "引用",
+            "read": "いんよう",
+            "mean": "인용"
+        },
+        {
+            "id": "v-ffa47f93fb2bfc58521529b14d1135e5406d4f8d",
+            "word": "引力",
+            "read": "いんりょく",
+            "mean": "인력"
+        },
+        {
+            "id": "v-1c93ad5f7d0f3a8e2ca62fb90fb7378c57837eca",
+            "word": "植木",
+            "read": "うえき",
+            "mean": "심은 나무, 정원수"
+        },
+        {
+            "id": "v-b77ca1780fd2d34837eb41941ed9c6217903b2e5",
+            "word": "打ち合わせ",
+            "read": "うちあわせ",
+            "mean": "미리 상의함, 협의"
+        },
+        {
+            "id": "v-11398eec229fc40899456b1d69ae56612e28e368",
+            "word": "宇宙",
+            "read": "うちゅう",
+            "mean": "우주"
+        },
+        {
+            "id": "v-71a45fe5b1e0950b6baa346031b3a7dcb9676f2f",
+            "word": "海沿い",
+            "read": "うみぞい",
+            "mean": "바다를 따라서"
+        },
+        {
+            "id": "v-e637b2216ad4d4dc78e5e6575f01e2bb24de3d6d",
+            "word": "海辺",
+            "read": "うみべ",
+            "mean": "해변, 바닷가"
+        },
+        {
+            "id": "v-581220c89e9b6198692489575ebb5e4828de7b19",
+            "word": "有無",
+            "read": "うむ",
+            "mean": "유무"
+        },
+        {
+            "id": "v-3fd3d71b3c60d0a02c37689875ce75b56776d834",
+            "word": "裏口",
+            "read": "うらぐち",
+            "mean": "뒷문"
+        },
+        {
+            "id": "v-8fc0d9d03ba4ae368bf83105e0e4a1acf9c255d3",
+            "word": "恨み",
+            "read": "うらみ",
+            "mean": "원한"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

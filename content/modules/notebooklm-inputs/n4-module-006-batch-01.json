@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-006",
+    "title": "N4 모듈 006 (Day 4)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-006-batch-01",
+        "vocabIds": [
+            "v-60f325b9f5312bbed07f53e3d7482d6985582e12",
+            "v-4afe7fa52671439052ba67a079bf444aebe741db",
+            "v-7cb919b3a70cde849eb9fe5d7a010f6fff7f930f",
+            "v-d4e4812e932e61f8b2c0356e64b29d10b6d9ec3a",
+            "v-2e5608b691af320bd33480168efd4723638422c0",
+            "v-04ded6f5d85df94b81c509b0bffefb32e54f5e68",
+            "v-99183d0da01d355c77924cbb1bc2735ea4b72990",
+            "v-894afbda5614a186fd5edb59dfa4d351b5d41b26",
+            "v-e022d1183d246ea0d8dbb49bc3f0267dbeece9c0",
+            "v-8fbe20a29e5c04bb10eaa483f0bf769fc88fb464",
+            "v-d35f6ddd0cd9181d3f6a839d583a54180d6b9518",
+            "v-84ec4e6fbfd1a2ce9f877230dc17121de613ad40",
+            "v-ba8fff0936b5b905ae95c0238e4f257e9910801f",
+            "v-4650633aea1e8c2e3e90aa14e584af5799f631c0",
+            "v-b655c4aa51476acd470b94ee6da716e6d9034b5e",
+            "v-54ee179998717f27aa411431b814688d60bb313c",
+            "v-d2803b21f087906da7290f77481be237daaa84e1",
+            "v-e193f86a73bfb11ad7410ac35534d2f863e5bb6a",
+            "v-a47d3c51a15fb094d0ef07f724145378328c2b2f",
+            "v-f2e1b06d339e7cc6c1721f74913e701d1e82b93d",
+            "v-b2fdd3af2f050e9d12f6d662127163c37c3eab6e",
+            "v-01155d9d6e02d4040451e51f82c4ae1fe0ba9686",
+            "v-2d05b6bc4f1101163d6e3ff783f29eaf18575a63",
+            "v-c03a4cd5ba89122aedd25a26f3fb0fc7e5e783d8",
+            "v-fc9a803781c6666f7d2cbd1b8cf5f3cce20e8cf3"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-60f325b9f5312bbed07f53e3d7482d6985582e12",
+            "word": "軍人",
+            "read": "ぐんじん",
+            "mean": "군인"
+        },
+        {
+            "id": "v-4afe7fa52671439052ba67a079bf444aebe741db",
+            "word": "毛",
+            "read": "け",
+            "mean": "털"
+        },
+        {
+            "id": "v-7cb919b3a70cde849eb9fe5d7a010f6fff7f930f",
+            "word": "経験",
+            "read": "けいけん",
+            "mean": "경험"
+        },
+        {
+            "id": "v-d4e4812e932e61f8b2c0356e64b29d10b6d9ec3a",
+            "word": "経済",
+            "read": "けいざい",
+            "mean": "경제"
+        },
+        {
+            "id": "v-2e5608b691af320bd33480168efd4723638422c0",
+            "word": "警察",
+            "read": "けいさつ",
+            "mean": "경찰"
+        },
+        {
+            "id": "v-04ded6f5d85df94b81c509b0bffefb32e54f5e68",
+            "word": "今朝",
+            "read": "けさ",
+            "mean": "오늘 아침"
+        },
+        {
+            "id": "v-99183d0da01d355c77924cbb1bc2735ea4b72990",
+            "word": "消しゴム",
+            "read": "けしごむ",
+            "mean": "지우개"
+        },
+        {
+            "id": "v-894afbda5614a186fd5edb59dfa4d351b5d41b26",
+            "word": "結婚",
+            "read": "けっこん",
+            "mean": "결혼"
+        },
+        {
+            "id": "v-e022d1183d246ea0d8dbb49bc3f0267dbeece9c0",
+            "word": "欠席",
+            "read": "けっせき",
+            "mean": "결석"
+        },
+        {
+            "id": "v-8fbe20a29e5c04bb10eaa483f0bf769fc88fb464",
+            "word": "けんか",
+            "read": "けんか",
+            "mean": "싸움"
+        },
+        {
+            "id": "v-d35f6ddd0cd9181d3f6a839d583a54180d6b9518",
+            "word": "見学",
+            "read": "けんがく",
+            "mean": "견학"
+        },
+        {
+            "id": "v-84ec4e6fbfd1a2ce9f877230dc17121de613ad40",
+            "word": "玄関",
+            "read": "げんかん",
+            "mean": "현관"
+        },
+        {
+            "id": "v-ba8fff0936b5b905ae95c0238e4f257e9910801f",
+            "word": "研究",
+            "read": "けんきゅう",
+            "mean": "연구"
+        },
+        {
+            "id": "v-4650633aea1e8c2e3e90aa14e584af5799f631c0",
+            "word": "見物",
+            "read": "けんぶつ",
+            "mean": "구경"
+        },
+        {
+            "id": "v-b655c4aa51476acd470b94ee6da716e6d9034b5e",
+            "word": "子犬",
+            "read": "こいぬ",
+            "mean": "강아지"
+        },
+        {
+            "id": "v-54ee179998717f27aa411431b814688d60bb313c",
+            "word": "公開",
+            "read": "こうかい",
+            "mean": "공개"
+        },
+        {
+            "id": "v-d2803b21f087906da7290f77481be237daaa84e1",
+            "word": "郊外",
+            "read": "こうがい",
+            "mean": "교외"
+        },
+        {
+            "id": "v-e193f86a73bfb11ad7410ac35534d2f863e5bb6a",
+            "word": "工業",
+            "read": "こうぎょう",
+            "mean": "공업"
+        },
+        {
+            "id": "v-a47d3c51a15fb094d0ef07f724145378328c2b2f",
+            "word": "高校",
+            "read": "こうこう",
+            "mean": "고등학교"
+        },
+        {
+            "id": "v-f2e1b06d339e7cc6c1721f74913e701d1e82b93d",
+            "word": "高校生",
+            "read": "こうこうせい",
+            "mean": "고교생"
+        },
+        {
+            "id": "v-b2fdd3af2f050e9d12f6d662127163c37c3eab6e",
+            "word": "交差点",
+            "read": "こうさてん",
+            "mean": "교차로"
+        },
+        {
+            "id": "v-01155d9d6e02d4040451e51f82c4ae1fe0ba9686",
+            "word": "工事",
+            "read": "こうじ",
+            "mean": "공사"
+        },
+        {
+            "id": "v-2d05b6bc4f1101163d6e3ff783f29eaf18575a63",
+            "word": "工場",
+            "read": "こうじょう",
+            "mean": "공장"
+        },
+        {
+            "id": "v-c03a4cd5ba89122aedd25a26f3fb0fc7e5e783d8",
+            "word": "校長",
+            "read": "こうちょう",
+            "mean": "교장"
+        },
+        {
+            "id": "v-fc9a803781c6666f7d2cbd1b8cf5f3cce20e8cf3",
+            "word": "交通",
+            "read": "こうつう",
+            "mean": "교통"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

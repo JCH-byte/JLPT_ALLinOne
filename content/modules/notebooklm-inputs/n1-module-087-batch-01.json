@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-087",
+    "title": "N1 모듈 087 (Day 26-27)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-087-batch-01",
+        "vocabIds": [
+            "v-2ea66c360ff623c45c4edac5b34966d413ba1571",
+            "v-0ba4f8d8e0355cbed758e4970e1fbd477414106e",
+            "v-ad6039ccece15f4ddfb1a2f6466a3c4a29f787b3",
+            "v-abc7cb847ef2e9d560f3d22d607c1553b0acf2d9",
+            "v-a1b7a7928cca64b374099648fb39d7616802d02a",
+            "v-b5119d1c4621563ec7dd73b9a031ecaf5595c44a",
+            "v-6088fbfc4aeec5c34729b8298aa571f90f582307",
+            "v-3a4a9754a41d553554926471e9058b1ae6cea81c",
+            "v-5f07ef696b1db5e29ab5618d06e924ca81faeed4",
+            "v-887c766d301e0147fce2bb5fce0e2e611bd7786c",
+            "v-b7d9d704fc263167aafa64fe233c5fbfee294f91",
+            "v-86815c7099255dcedd84a45b1c2add4022190e4a",
+            "v-cb46368851e51e246eff2ea3a9907b77b318ad50",
+            "v-919802bdce8a09d1e2367212fa79201cab8eca12",
+            "v-cd1b8884cb92283e990a47f274f8c8161d25232d",
+            "v-54d59ca4be226c35305549fcecd930239ab2de34",
+            "v-a2cbff0fece588479b3e522b741e87c0d6daf1ef",
+            "v-415e375156e8ae97b991d9757516a2a03958e963",
+            "v-b755a88e1013136260a06fe0188459476188a418",
+            "v-8b9530a64d059598cac15d476d274caf9b984944",
+            "v-b993746d954df0ca739d22919cffd6a17dcde204",
+            "v-17d1724870d35b07b3e8dd98220e0e770cc532e8",
+            "v-e59d933026b2b275c99290acc69dad0f1bf986da",
+            "v-680c73a12abe1ed50577e1355f51acefe8d502f1",
+            "v-fe159b14cdc94f75df96baeb3baaa4921c420fe7"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-2ea66c360ff623c45c4edac5b34966d413ba1571",
+            "word": "やけに",
+            "read": "やけに",
+            "mean": "몹시"
+        },
+        {
+            "id": "v-0ba4f8d8e0355cbed758e4970e1fbd477414106e",
+            "word": "やたら",
+            "read": "やたら",
+            "mean": "마구, 함부로"
+        },
+        {
+            "id": "v-ad6039ccece15f4ddfb1a2f6466a3c4a29f787b3",
+            "word": "やむをえず",
+            "read": "やむをえず",
+            "mean": "어쩔 수 없이"
+        },
+        {
+            "id": "v-abc7cb847ef2e9d560f3d22d607c1553b0acf2d9",
+            "word": "やんわり",
+            "read": "やんわり",
+            "mean": "부드럽게"
+        },
+        {
+            "id": "v-a1b7a7928cca64b374099648fb39d7616802d02a",
+            "word": "故に",
+            "read": "ゆえに",
+            "mean": "그러므로"
+        },
+        {
+            "id": "v-b5119d1c4621563ec7dd73b9a031ecaf5595c44a",
+            "word": "よほど",
+            "read": "よほど",
+            "mean": "상당히"
+        },
+        {
+            "id": "v-6088fbfc4aeec5c34729b8298aa571f90f582307",
+            "word": "歴然と",
+            "read": "れきぜんと",
+            "mean": "역연히, 또렷이"
+        },
+        {
+            "id": "v-3a4a9754a41d553554926471e9058b1ae6cea81c",
+            "word": "ろくに",
+            "read": "ろくに",
+            "mean": "제대로(부정 수반)"
+        },
+        {
+            "id": "v-5f07ef696b1db5e29ab5618d06e924ca81faeed4",
+            "word": "アクセル",
+            "read": "あくせる",
+            "mean": "액셀"
+        },
+        {
+            "id": "v-887c766d301e0147fce2bb5fce0e2e611bd7786c",
+            "word": "アップ",
+            "read": "あっぷ",
+            "mean": "업, 상승"
+        },
+        {
+            "id": "v-b7d9d704fc263167aafa64fe233c5fbfee294f91",
+            "word": "アプローチ",
+            "read": "あぷろーち",
+            "mean": "접근"
+        },
+        {
+            "id": "v-86815c7099255dcedd84a45b1c2add4022190e4a",
+            "word": "アポイント",
+            "read": "あぽいんと",
+            "mean": "약속"
+        },
+        {
+            "id": "v-cb46368851e51e246eff2ea3a9907b77b318ad50",
+            "word": "アリバイ",
+            "read": "ありばい",
+            "mean": "알리바이"
+        },
+        {
+            "id": "v-919802bdce8a09d1e2367212fa79201cab8eca12",
+            "word": "アンコール",
+            "read": "あんこーる",
+            "mean": "앙코르"
+        },
+        {
+            "id": "v-cd1b8884cb92283e990a47f274f8c8161d25232d",
+            "word": "インスピレーション",
+            "read": "いんすぴれーしょん",
+            "mean": "영감"
+        },
+        {
+            "id": "v-54d59ca4be226c35305549fcecd930239ab2de34",
+            "word": "インテリ",
+            "read": "いんてり",
+            "mean": "인텔리, 지식인"
+        },
+        {
+            "id": "v-a2cbff0fece588479b3e522b741e87c0d6daf1ef",
+            "word": "インプット",
+            "read": "いんぷっと",
+            "mean": "입력"
+        },
+        {
+            "id": "v-415e375156e8ae97b991d9757516a2a03958e963",
+            "word": "インフラ",
+            "read": "いんふら",
+            "mean": "인프라"
+        },
+        {
+            "id": "v-b755a88e1013136260a06fe0188459476188a418",
+            "word": "インフレ",
+            "read": "いんふれ",
+            "mean": "인플레이션"
+        },
+        {
+            "id": "v-8b9530a64d059598cac15d476d274caf9b984944",
+            "word": "ウエート",
+            "read": "うえーと",
+            "mean": "웨이트, 중점"
+        },
+        {
+            "id": "v-b993746d954df0ca739d22919cffd6a17dcde204",
+            "word": "エキスパート",
+            "read": "えきすぱーと",
+            "mean": "전문가"
+        },
+        {
+            "id": "v-17d1724870d35b07b3e8dd98220e0e770cc532e8",
+            "word": "エリア",
+            "read": "えりあ",
+            "mean": "에어리어, 구역"
+        },
+        {
+            "id": "v-e59d933026b2b275c99290acc69dad0f1bf986da",
+            "word": "エレガント",
+            "read": "えれがんと",
+            "mean": "우아함"
+        },
+        {
+            "id": "v-680c73a12abe1ed50577e1355f51acefe8d502f1",
+            "word": "オーダー",
+            "read": "おーだー",
+            "mean": "오더, 주문"
+        },
+        {
+            "id": "v-fe159b14cdc94f75df96baeb3baaa4921c420fe7",
+            "word": "オートマチック",
+            "read": "おーとまちっく",
+            "mean": "자동"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

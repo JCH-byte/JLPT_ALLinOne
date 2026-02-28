@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-043",
+    "title": "N2 모듈 043 (Day 13-14)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-043-batch-01",
+        "vocabIds": [
+            "v-8de71a72b01fe193bd70ee7eee01779fe62b6166",
+            "v-292da584d59b14cc05b902506a5b7ce046701f14",
+            "v-1c66ebba2b54ee926fdfb0cf53a2213a33e26df4",
+            "v-8d04dce379586b07bd8ffbe88bda169352a09ec3",
+            "v-12c68bdd38dd9fdecd62c7a116ae39e717d2c0c6",
+            "v-79a8863fe36fc09b358bb3beabc2f2f7362fff6f",
+            "v-4b93353b1015496a7d0c62e2de9c476ee8c7dc2b",
+            "v-8eba2dc063ae53b60720e26468a7452495af892e",
+            "v-b03c61cec388520e5261fa79550738fbe7f42dea",
+            "v-c36f38cbdf6e50f126cb5b91f08880a1812cda62",
+            "v-25252f132389e4240dce316c5db887450b052bd2",
+            "v-46c46ca32c39f1af20a5d3e982bd8524c21d21a9",
+            "v-5f87ea28d2c806b9c41704fe854c5f8526d70a2c",
+            "v-ff88bff4210ce6c3493d75bff006111773775777",
+            "v-cb988cbe32009a5ed2796234ba6b287209502fdc",
+            "v-6bb0dfa16b1e26a396f7d39a48aa98749c2aaaca",
+            "v-24aa19b048ba94bf081e8706fa4c09224b89ba5d",
+            "v-966c070f78c5982ea64b7220f6a537f521a14041",
+            "v-f3ea5f33b6764f46be0b70d1f226c03aa35ff858",
+            "v-05095cea4f8bc25ac25844f4893f3e8ce9bd74b3",
+            "v-910a170edfa5ccd0b725d9c4192c531fc1453b24",
+            "v-a9444399c24821bf452f2c0f7fcf803983484162",
+            "v-bc98e9a16639675467197c48ab5ca5c29c97f0ce",
+            "v-bf00097fc52eca460beb47d49e0b993ec08ed75f",
+            "v-846819bd89537c282ce129df381cbf8cc3e49ef6"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-8de71a72b01fe193bd70ee7eee01779fe62b6166",
+            "word": "ふるさと",
+            "read": "ふるさと",
+            "mean": "고향"
+        },
+        {
+            "id": "v-292da584d59b14cc05b902506a5b7ce046701f14",
+            "word": "噴火",
+            "read": "ふんか",
+            "mean": "분화"
+        },
+        {
+            "id": "v-1c66ebba2b54ee926fdfb0cf53a2213a33e26df4",
+            "word": "分解",
+            "read": "ぶんかい",
+            "mean": "분해"
+        },
+        {
+            "id": "v-8d04dce379586b07bd8ffbe88bda169352a09ec3",
+            "word": "噴水",
+            "read": "ふんすい",
+            "mean": "분수"
+        },
+        {
+            "id": "v-12c68bdd38dd9fdecd62c7a116ae39e717d2c0c6",
+            "word": "分析",
+            "read": "ぶんせき",
+            "mean": "분석"
+        },
+        {
+            "id": "v-79a8863fe36fc09b358bb3beabc2f2f7362fff6f",
+            "word": "分担",
+            "read": "ぶんたん",
+            "mean": "분담"
+        },
+        {
+            "id": "v-4b93353b1015496a7d0c62e2de9c476ee8c7dc2b",
+            "word": "分布",
+            "read": "ぶんぷ",
+            "mean": "분포"
+        },
+        {
+            "id": "v-8eba2dc063ae53b60720e26468a7452495af892e",
+            "word": "文脈",
+            "read": "ぶんみゃく",
+            "mean": "문맥"
+        },
+        {
+            "id": "v-b03c61cec388520e5261fa79550738fbe7f42dea",
+            "word": "文明",
+            "read": "ぶんめい",
+            "mean": "문명"
+        },
+        {
+            "id": "v-c36f38cbdf6e50f126cb5b91f08880a1812cda62",
+            "word": "分野",
+            "read": "ぶんや",
+            "mean": "분야"
+        },
+        {
+            "id": "v-25252f132389e4240dce316c5db887450b052bd2",
+            "word": "分量",
+            "read": "ぶんりょう",
+            "mean": "분량"
+        },
+        {
+            "id": "v-46c46ca32c39f1af20a5d3e982bd8524c21d21a9",
+            "word": "塀",
+            "read": "へい",
+            "mean": "담, 담장"
+        },
+        {
+            "id": "v-5f87ea28d2c806b9c41704fe854c5f8526d70a2c",
+            "word": "閉会",
+            "read": "へいかい",
+            "mean": "폐회"
+        },
+        {
+            "id": "v-ff88bff4210ce6c3493d75bff006111773775777",
+            "word": "兵隊",
+            "read": "へいたい",
+            "mean": "병대, 군인"
+        },
+        {
+            "id": "v-cb988cbe32009a5ed2796234ba6b287209502fdc",
+            "word": "平野",
+            "read": "へいや",
+            "mean": "평야"
+        },
+        {
+            "id": "v-6bb0dfa16b1e26a396f7d39a48aa98749c2aaaca",
+            "word": "へそ",
+            "read": "へそ",
+            "mean": "배꼽"
+        },
+        {
+            "id": "v-24aa19b048ba94bf081e8706fa4c09224b89ba5d",
+            "word": "別",
+            "read": "べつ",
+            "mean": "별도, 다름"
+        },
+        {
+            "id": "v-966c070f78c5982ea64b7220f6a537f521a14041",
+            "word": "別人",
+            "read": "べつじん",
+            "mean": "딴사람"
+        },
+        {
+            "id": "v-f3ea5f33b6764f46be0b70d1f226c03aa35ff858",
+            "word": "別荘",
+            "read": "べっそう",
+            "mean": "별장"
+        },
+        {
+            "id": "v-05095cea4f8bc25ac25844f4893f3e8ce9bd74b3",
+            "word": "返却",
+            "read": "へんきゃく",
+            "mean": "반각, 반환"
+        },
+        {
+            "id": "v-910a170edfa5ccd0b725d9c4192c531fc1453b24",
+            "word": "返品",
+            "read": "へんぴん",
+            "mean": "반품"
+        },
+        {
+            "id": "v-a9444399c24821bf452f2c0f7fcf803983484162",
+            "word": "棒",
+            "read": "ぼう",
+            "mean": "봉, 막대기"
+        },
+        {
+            "id": "v-bc98e9a16639675467197c48ab5ca5c29c97f0ce",
+            "word": "貿易",
+            "read": "ぼうえき",
+            "mean": "무역"
+        },
+        {
+            "id": "v-bf00097fc52eca460beb47d49e0b993ec08ed75f",
+            "word": "望遠鏡",
+            "read": "ぼうえんきょう",
+            "mean": "망원경"
+        },
+        {
+            "id": "v-846819bd89537c282ce129df381cbf8cc3e49ef6",
+            "word": "方角",
+            "read": "ほうがく",
+            "mean": "방각, 방향"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

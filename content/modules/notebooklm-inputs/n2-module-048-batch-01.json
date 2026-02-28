@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-048",
+    "title": "N2 모듈 048 (Day 15)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-048-batch-01",
+        "vocabIds": [
+            "v-87efecc155b7f3f69d759faef93ae846615dc8e8",
+            "v-0a01e6ab49ff13c4b03826f87739aa99c042889e",
+            "v-4618c86a09d2e74bcb3264760474dd6d639a4439",
+            "v-45cdf77bdf4b77da3e80aa3273985b661f375852",
+            "v-50432840886ea3c42c302efec8cf18288cdfd084",
+            "v-0e79de9c9cfe6df7e8c1b98769cd73a767d5f9b3",
+            "v-09705cb0ea570fc6279339a666c4fc76d647d252",
+            "v-38f1a748d33768052fb9d937aac0f8052e454907",
+            "v-d3231a6c8f4809370743c04398aac192313f3158",
+            "v-b800cf829a092ad36cffa18e6cf19bdc280dc73c",
+            "v-a67c49ec9e71ee9ecef345b35a15b9fb8f9b57a7",
+            "v-652624da6c3c6ad3a5f67c5cdaed2a01b99e03bd",
+            "v-2078b072bd7f3428d5a966cda9040931e3a3ebbe",
+            "v-1c228d946e98bd67e7a75e4e9f005784b320027a",
+            "v-41126e1afa7665743b730dee8616dfe6362eb364",
+            "v-26b54b5546231a44038480252a1fefd9eb52f410",
+            "v-e6d198faa4f85e8636c690b658b96e9d37f12987",
+            "v-194f75c16f702956a0fcb1529bfb90b4f0859edf",
+            "v-74d37998141b9d518d7a8f72e93171ebb16518fd",
+            "v-6fd4c785371f28ebf722d5cf3937685c5d5f2144",
+            "v-a5f7ddf9dd79397d20fe9217b9ced670876aba33",
+            "v-36f6fbe5420951d98e3337ef9efd7edf3cb78f06",
+            "v-fb39bd5c54555cb5c4110e9692d55e42d423dafc",
+            "v-b8f6326673a5011c3acbcc2c827b1a32f0101d3a",
+            "v-06c8630591d7783671df369297c1bd8fb2654984"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-87efecc155b7f3f69d759faef93ae846615dc8e8",
+            "word": "山小屋",
+            "read": "やまごや",
+            "mean": "산장"
+        },
+        {
+            "id": "v-0a01e6ab49ff13c4b03826f87739aa99c042889e",
+            "word": "唯一",
+            "read": "ゆいいつ",
+            "mean": "유일"
+        },
+        {
+            "id": "v-4618c86a09d2e74bcb3264760474dd6d639a4439",
+            "word": "遺言",
+            "read": "ゆいごん",
+            "mean": "유언"
+        },
+        {
+            "id": "v-45cdf77bdf4b77da3e80aa3273985b661f375852",
+            "word": "遊園地",
+            "read": "ゆうえんち",
+            "mean": "유원지"
+        },
+        {
+            "id": "v-50432840886ea3c42c302efec8cf18288cdfd084",
+            "word": "夕刊",
+            "read": "ゆうかん",
+            "mean": "석간(신문)"
+        },
+        {
+            "id": "v-0e79de9c9cfe6df7e8c1b98769cd73a767d5f9b3",
+            "word": "優勝",
+            "read": "ゆうしょう",
+            "mean": "우승"
+        },
+        {
+            "id": "v-09705cb0ea570fc6279339a666c4fc76d647d252",
+            "word": "浴衣",
+            "read": "ゆかた",
+            "mean": "유카타"
+        },
+        {
+            "id": "v-38f1a748d33768052fb9d937aac0f8052e454907",
+            "word": "行き止まり",
+            "read": "いきどまり",
+            "mean": "막다른 길"
+        },
+        {
+            "id": "v-d3231a6c8f4809370743c04398aac192313f3158",
+            "word": "行方",
+            "read": "ゆくえ",
+            "mean": "행방"
+        },
+        {
+            "id": "v-b800cf829a092ad36cffa18e6cf19bdc280dc73c",
+            "word": "湯気",
+            "read": "ゆげ",
+            "mean": "김, 수증기"
+        },
+        {
+            "id": "v-a67c49ec9e71ee9ecef345b35a15b9fb8f9b57a7",
+            "word": "輸血",
+            "read": "ゆけつ",
+            "mean": "수혈"
+        },
+        {
+            "id": "v-652624da6c3c6ad3a5f67c5cdaed2a01b99e03bd",
+            "word": "輸送",
+            "read": "ゆそう",
+            "mean": "수송"
+        },
+        {
+            "id": "v-2078b072bd7f3428d5a966cda9040931e3a3ebbe",
+            "word": "油断",
+            "read": "ゆだん",
+            "mean": "방심"
+        },
+        {
+            "id": "v-1c228d946e98bd67e7a75e4e9f005784b320027a",
+            "word": "湯飲み",
+            "read": "ゆのみ",
+            "mean": "찻잔"
+        },
+        {
+            "id": "v-41126e1afa7665743b730dee8616dfe6362eb364",
+            "word": "溶岩",
+            "read": "ようがん",
+            "mean": "용암"
+        },
+        {
+            "id": "v-26b54b5546231a44038480252a1fefd9eb52f410",
+            "word": "用語",
+            "read": "ようご",
+            "mean": "용어"
+        },
+        {
+            "id": "v-e6d198faa4f85e8636c690b658b96e9d37f12987",
+            "word": "容姿",
+            "read": "ようし",
+            "mean": "용모"
+        },
+        {
+            "id": "v-194f75c16f702956a0fcb1529bfb90b4f0859edf",
+            "word": "用紙",
+            "read": "ようし",
+            "mean": "용지"
+        },
+        {
+            "id": "v-74d37998141b9d518d7a8f72e93171ebb16518fd",
+            "word": "用心",
+            "read": "ようじん",
+            "mean": "조심, 주의"
+        },
+        {
+            "id": "v-6fd4c785371f28ebf722d5cf3937685c5d5f2144",
+            "word": "様子",
+            "read": "ようす",
+            "mean": "모양, 상태"
+        },
+        {
+            "id": "v-a5f7ddf9dd79397d20fe9217b9ced670876aba33",
+            "word": "容積",
+            "read": "ようせき",
+            "mean": "용적"
+        },
+        {
+            "id": "v-36f6fbe5420951d98e3337ef9efd7edf3cb78f06",
+            "word": "要素",
+            "read": "ようそ",
+            "mean": "요소"
+        },
+        {
+            "id": "v-fb39bd5c54555cb5c4110e9692d55e42d423dafc",
+            "word": "要点",
+            "read": "ようてん",
+            "mean": "요점"
+        },
+        {
+            "id": "v-b8f6326673a5011c3acbcc2c827b1a32f0101d3a",
+            "word": "養分",
+            "read": "ようぶん",
+            "mean": "양분"
+        },
+        {
+            "id": "v-06c8630591d7783671df369297c1bd8fb2654984",
+            "word": "羊毛",
+            "read": "ようもう",
+            "mean": "양모"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

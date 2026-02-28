@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-055",
+    "title": "N3 모듈 055 (Day 22)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-055-batch-01",
+        "vocabIds": [
+            "v-bcfae42027ab36c0489577b2568fe687b87b02e9",
+            "v-59939c1ae3bbd5de3e55485bf8f9dc4781bd221a",
+            "v-5b7a75019bee054ae088c781f9dda8f6e55ddf84",
+            "v-cfa3b5f0694ed13e22089bda234fa2efb3268f6c",
+            "v-ec4fb41a664ca875c0d80bcb4e571ba802ab80fc",
+            "v-bafab0a5415124ee7cde6b82647c9579e3b0cfcb",
+            "v-e60fd6eb981a8dbc6fa25ac3b393126a307121b8",
+            "v-7fdff0f71b5456e9fbdd474bb5a0e720de27a8a5",
+            "v-f9dd02003236880d643eef30a69352c5780454cf",
+            "v-80d58458c9ea014bc399af543c2e09720e5b4129",
+            "v-d54d8bcda0340995f935a51fffc102f59840b7f4",
+            "v-9b8cc16ffbd2fda6b200d72fdd6bc618f167e798",
+            "v-a7ddf75544d297451f1405eb6d161af7dddad60a",
+            "v-e95c74dc92181b57f5ca408ca8d67fd5ac6e5dd5",
+            "v-fc388d7598de31cab7da0b75c1c6af7d91922007",
+            "v-c7a67defb030517826a054b4490724d9cd352ea2",
+            "v-5c554812f624849ecd862f955a00033156fa46e0",
+            "v-7902402dee486026301c12a3cfb6f9a83afae300",
+            "v-9e4ac4c9e3aa349e0446e76030ab6d963e10f818",
+            "v-c6cfaed5bb3b8d61e7555eca61540908e92d7661",
+            "v-34433561c59dd6472c4d6bb0c68193c82d786074",
+            "v-19feda01eef20d51619a792298f84b894e0c5b42",
+            "v-e82ee1f1ace012679fa2549c0f3c917c55daa80c",
+            "v-d2f5410076fbe4e1f7718e1b914177c05b2ec553",
+            "v-e814c926578919cfcb779be2432ad43378c03c26"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-bcfae42027ab36c0489577b2568fe687b87b02e9",
+            "word": "巻く",
+            "read": "まく",
+            "mean": "감다, 말다"
+        },
+        {
+            "id": "v-59939c1ae3bbd5de3e55485bf8f9dc4781bd221a",
+            "word": "曲げる",
+            "read": "まげる",
+            "mean": "구부리다"
+        },
+        {
+            "id": "v-5b7a75019bee054ae088c781f9dda8f6e55ddf84",
+            "word": "混ざる",
+            "read": "まざる",
+            "mean": "섞이다"
+        },
+        {
+            "id": "v-cfa3b5f0694ed13e22089bda234fa2efb3268f6c",
+            "word": "混ぜる",
+            "read": "まぜる",
+            "mean": "섞다"
+        },
+        {
+            "id": "v-ec4fb41a664ca875c0d80bcb4e571ba802ab80fc",
+            "word": "待ち合わせる",
+            "read": "まちあわせる",
+            "mean": "만나기로 하다"
+        },
+        {
+            "id": "v-bafab0a5415124ee7cde6b82647c9579e3b0cfcb",
+            "word": "間違う",
+            "read": "まちがう",
+            "mean": "틀리다"
+        },
+        {
+            "id": "v-e60fd6eb981a8dbc6fa25ac3b393126a307121b8",
+            "word": "まとまる",
+            "read": "まとまる",
+            "mean": "정리되다, 하나로 뭉치다"
+        },
+        {
+            "id": "v-7fdff0f71b5456e9fbdd474bb5a0e720de27a8a5",
+            "word": "まとめる",
+            "read": "まとめる",
+            "mean": "정리하다, 하나로 묶다"
+        },
+        {
+            "id": "v-f9dd02003236880d643eef30a69352c5780454cf",
+            "word": "学ぶ",
+            "read": "まなぶ",
+            "mean": "배우다"
+        },
+        {
+            "id": "v-80d58458c9ea014bc399af543c2e09720e5b4129",
+            "word": "招く",
+            "read": "まねく",
+            "mean": "초대하다"
+        },
+        {
+            "id": "v-d54d8bcda0340995f935a51fffc102f59840b7f4",
+            "word": "守る",
+            "read": "まもる",
+            "mean": "지키다"
+        },
+        {
+            "id": "v-9b8cc16ffbd2fda6b200d72fdd6bc618f167e798",
+            "word": "迷う",
+            "read": "まよう",
+            "mean": "헤매다, 망설이다"
+        },
+        {
+            "id": "v-a7ddf75544d297451f1405eb6d161af7dddad60a",
+            "word": "回す",
+            "read": "まわす",
+            "mean": "돌리다"
+        },
+        {
+            "id": "v-e95c74dc92181b57f5ca408ca8d67fd5ac6e5dd5",
+            "word": "見上げる",
+            "read": "みあげる",
+            "mean": "올려다보다"
+        },
+        {
+            "id": "v-fc388d7598de31cab7da0b75c1c6af7d91922007",
+            "word": "見送る",
+            "read": "みおくる",
+            "mean": "배웅하다"
+        },
+        {
+            "id": "v-c7a67defb030517826a054b4490724d9cd352ea2",
+            "word": "見下ろす",
+            "read": "みおろす",
+            "mean": "내려다보다"
+        },
+        {
+            "id": "v-5c554812f624849ecd862f955a00033156fa46e0",
+            "word": "見直す",
+            "read": "みなおす",
+            "mean": "다시 보다, 재검토하다"
+        },
+        {
+            "id": "v-7902402dee486026301c12a3cfb6f9a83afae300",
+            "word": "身につける",
+            "read": "みにつける",
+            "mean": "익히다, 몸에 걸치다"
+        },
+        {
+            "id": "v-9e4ac4c9e3aa349e0446e76030ab6d963e10f818",
+            "word": "見舞う",
+            "read": "みまう",
+            "mean": "문병하다"
+        },
+        {
+            "id": "v-c6cfaed5bb3b8d61e7555eca61540908e92d7661",
+            "word": "診る",
+            "read": "みる",
+            "mean": "진찰하다"
+        },
+        {
+            "id": "v-34433561c59dd6472c4d6bb0c68193c82d786074",
+            "word": "迎える",
+            "read": "むかえる",
+            "mean": "맞이하다"
+        },
+        {
+            "id": "v-19feda01eef20d51619a792298f84b894e0c5b42",
+            "word": "向く",
+            "read": "むく",
+            "mean": "향하다"
+        },
+        {
+            "id": "v-e82ee1f1ace012679fa2549c0f3c917c55daa80c",
+            "word": "蒸す",
+            "read": "むす",
+            "mean": "찌다"
+        },
+        {
+            "id": "v-d2f5410076fbe4e1f7718e1b914177c05b2ec553",
+            "word": "結ぶ",
+            "read": "むすぶ",
+            "mean": "잇다, 묶다"
+        },
+        {
+            "id": "v-e814c926578919cfcb779be2432ad43378c03c26",
+            "word": "目立つ",
+            "read": "めだつ",
+            "mean": "눈에 띄다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

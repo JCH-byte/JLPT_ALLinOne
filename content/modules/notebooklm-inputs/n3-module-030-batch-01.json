@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-030",
+    "title": "N3 모듈 030 (Day 11)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-030-batch-01",
+        "vocabIds": [
+            "v-aae40d2096b78c2d5ef5257a0fe09c2ca45ef418",
+            "v-f9d7f30f679a0b6a50580a73dee73300d1c4f43e",
+            "v-ab729e11d3e4d02130785d73a33265b2ec1616a5",
+            "v-599aa3ed387b69f17094eca1f4ce8a28e3f78b2c",
+            "v-90bcb6f55270aef14cf10c8ed995640a4434829a",
+            "v-b564070aa291d84730b1ed7bc4b7699062bdda9e",
+            "v-48faaebc36e3810bcd9ec0740c950d7bfecce85b",
+            "v-12e5d1804e16c25d06b397ca380f52bd42d70b04",
+            "v-29abd2c0bcd7ed30bb55066571fd38f281d43475",
+            "v-c8e2c891ee0fb774cd6320a5ce0a1c4f2f987c22",
+            "v-1ce478fd7574604f8152a2d3ab1afab7c63c4413",
+            "v-c35f8c0931e537bc9cda0313d195796634a64d4b",
+            "v-e8122f68e34d7350d347da92953177ced877535d",
+            "v-a992407f516b75203aa067adad0b1853b335a8ad",
+            "v-9758143001b22d2c31e93f048f3239408500e7d9",
+            "v-7cf7ee4423ee00ffcb6269fe554331f623ec7a4c",
+            "v-a89272591f598cbccf60cfee22e4355fdff0ee3a",
+            "v-c57fea12a719e0d3041794d50df20882e6e81ed2",
+            "v-7c34624826d13975ec5f263364c14b254be1141c",
+            "v-1d9ee70effa903be205e6ff28169bdc6d3c446a3",
+            "v-9c9fbbfeee9d00f166241e8c624b8f02b880895e",
+            "v-4a46bc979dad62c70c65db4ac20e1b69ed4590e0",
+            "v-4ef90953a3730f3b17b77b006f42734f7b2897a6",
+            "v-8d8e32b9fad4c811e330afa110df80697406bd74",
+            "v-5c4a6f9cb9c776da1e771e3bdb81df8bd113a682"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-aae40d2096b78c2d5ef5257a0fe09c2ca45ef418",
+            "word": "床の間",
+            "read": "とこのま",
+            "mean": "토코노마(일본식 방의 장식 공간)"
+        },
+        {
+            "id": "v-f9d7f30f679a0b6a50580a73dee73300d1c4f43e",
+            "word": "登山",
+            "read": "とざん",
+            "mean": "등산"
+        },
+        {
+            "id": "v-ab729e11d3e4d02130785d73a33265b2ec1616a5",
+            "word": "都市",
+            "read": "とし",
+            "mean": "도시"
+        },
+        {
+            "id": "v-599aa3ed387b69f17094eca1f4ce8a28e3f78b2c",
+            "word": "年上",
+            "read": "としうえ",
+            "mean": "연상"
+        },
+        {
+            "id": "v-90bcb6f55270aef14cf10c8ed995640a4434829a",
+            "word": "土地",
+            "read": "とち",
+            "mean": "토지, 땅"
+        },
+        {
+            "id": "v-b564070aa291d84730b1ed7bc4b7699062bdda9e",
+            "word": "徒歩",
+            "read": "とほ",
+            "mean": "도보"
+        },
+        {
+            "id": "v-48faaebc36e3810bcd9ec0740c950d7bfecce85b",
+            "word": "友",
+            "read": "とも",
+            "mean": "벗, 친구"
+        },
+        {
+            "id": "v-12e5d1804e16c25d06b397ca380f52bd42d70b04",
+            "word": "虎",
+            "read": "とら",
+            "mean": "호랑이"
+        },
+        {
+            "id": "v-29abd2c0bcd7ed30bb55066571fd38f281d43475",
+            "word": "取引",
+            "read": "とりひき",
+            "mean": "거래"
+        },
+        {
+            "id": "v-c8e2c891ee0fb774cd6320a5ce0a1c4f2f987c22",
+            "word": "努力",
+            "read": "どりょく",
+            "mean": "노력"
+        },
+        {
+            "id": "v-1ce478fd7574604f8152a2d3ab1afab7c63c4413",
+            "word": "泥",
+            "read": "どろ",
+            "mean": "진흙"
+        },
+        {
+            "id": "v-c35f8c0931e537bc9cda0313d195796634a64d4b",
+            "word": "名",
+            "read": "な",
+            "mean": "이름"
+        },
+        {
+            "id": "v-e8122f68e34d7350d347da92953177ced877535d",
+            "word": "内科",
+            "read": "ないか",
+            "mean": "내과"
+        },
+        {
+            "id": "v-a992407f516b75203aa067adad0b1853b335a8ad",
+            "word": "内緒",
+            "read": "ないしょ",
+            "mean": "비밀"
+        },
+        {
+            "id": "v-9758143001b22d2c31e93f048f3239408500e7d9",
+            "word": "内線",
+            "read": "ないせん",
+            "mean": "내선"
+        },
+        {
+            "id": "v-7cf7ee4423ee00ffcb6269fe554331f623ec7a4c",
+            "word": "内容",
+            "read": "ないよう",
+            "mean": "내용"
+        },
+        {
+            "id": "v-a89272591f598cbccf60cfee22e4355fdff0ee3a",
+            "word": "仲",
+            "read": "なか",
+            "mean": "사이, 관계"
+        },
+        {
+            "id": "v-c57fea12a719e0d3041794d50df20882e6e81ed2",
+            "word": "仲直り",
+            "read": "なかなおり",
+            "mean": "화해"
+        },
+        {
+            "id": "v-7c34624826d13975ec5f263364c14b254be1141c",
+            "word": "中指",
+            "read": "なかゆび",
+            "mean": "중지(가운뎃손가락)"
+        },
+        {
+            "id": "v-1d9ee70effa903be205e6ff28169bdc6d3c446a3",
+            "word": "仲良し",
+            "read": "なかよし",
+            "mean": "단짝, 사이좋음"
+        },
+        {
+            "id": "v-9c9fbbfeee9d00f166241e8c624b8f02b880895e",
+            "word": "流れ",
+            "read": "ながれ",
+            "mean": "흐름"
+        },
+        {
+            "id": "v-4a46bc979dad62c70c65db4ac20e1b69ed4590e0",
+            "word": "納得",
+            "read": "なっとく",
+            "mean": "납득"
+        },
+        {
+            "id": "v-4ef90953a3730f3b17b77b006f42734f7b2897a6",
+            "word": "斜め",
+            "read": "ななめ",
+            "mean": "기울기, 경사, 사선"
+        },
+        {
+            "id": "v-8d8e32b9fad4c811e330afa110df80697406bd74",
+            "word": "生",
+            "read": "なま",
+            "mean": "날것, 생"
+        },
+        {
+            "id": "v-5c4a6f9cb9c776da1e771e3bdb81df8bd113a682",
+            "word": "波",
+            "read": "なみ",
+            "mean": "파도"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

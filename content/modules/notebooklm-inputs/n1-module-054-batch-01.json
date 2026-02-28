@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-054",
+    "title": "N1 모듈 054 (Day 14-15)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-054-batch-01",
+        "vocabIds": [
+            "v-41f47e47f0096a7688022b2f2661095a32826e4a",
+            "v-f479525675203f79e2d6cfd0f1dae2c529d44ef8",
+            "v-52a44fa33bf6eb385dec3e01a5b9f3f9dabf2b40",
+            "v-10e22abb45c48c70a85f7b070007c1e554404c37",
+            "v-8310029f8edae9ec79169fcfee43ae22dd199ab9",
+            "v-9150fe9f8dd13a04ecbe52a9bdaef8d7c0cc83bf",
+            "v-931b773eff869b0c2816552548110f05aeec8b2b",
+            "v-8126b548f4b61995d476e828c7d33a496cb96827",
+            "v-864fbeeaf9a760bbb0f5e80d97c620cbe2b20102",
+            "v-26785572bfc83d2be156bf8362b50213adb103c1",
+            "v-fc6a165d8de1c1c9f5e6735c51a8790a868e5f04",
+            "v-ecc979c296f978b05edd4811e7fa49a4ddbcf1de",
+            "v-efc50a1a8854b18348606494146df0d79f89a48c",
+            "v-d6202163a956a60dbe966f5045a411b7b34874e6",
+            "v-ca16870c7a9c5d3a1c9b37de637d76c51a19b0df",
+            "v-95d5b8e54f8134b7a686946f6a2161c8f820efe9",
+            "v-de142aa729fb0333f4873f7decafdb8225c5f70c",
+            "v-74a06f0df6053358e4c082b87a6f160a9db08642",
+            "v-bc6d588b18fc37d47a0d18d61a1d13420ae0b971",
+            "v-740c4e93f8475f226f5b40bca5bbfc55339828d8",
+            "v-33ed70d4961f4f5012bcf50b68b96510c75ce703",
+            "v-a96241f6ddc9554e3e75c4cb23464370d19636e8",
+            "v-70fe3c59bad30f356c5498d360a20a7d0202c4c4",
+            "v-64091ba2d1d6d60567370026281229e617cfde30",
+            "v-48d05cdaba180bfb9f2e634bf8ce9f9cecd4a937"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-41f47e47f0096a7688022b2f2661095a32826e4a",
+            "word": "例年",
+            "read": "れいねん",
+            "mean": "예년"
+        },
+        {
+            "id": "v-f479525675203f79e2d6cfd0f1dae2c529d44ef8",
+            "word": "連携",
+            "read": "れんけい",
+            "mean": "연계"
+        },
+        {
+            "id": "v-52a44fa33bf6eb385dec3e01a5b9f3f9dabf2b40",
+            "word": "連帯",
+            "read": "れんたい",
+            "mean": "연대"
+        },
+        {
+            "id": "v-10e22abb45c48c70a85f7b070007c1e554404c37",
+            "word": "連中",
+            "read": "れんじゅう",
+            "mean": "패거리"
+        },
+        {
+            "id": "v-8310029f8edae9ec79169fcfee43ae22dd199ab9",
+            "word": "連邦",
+            "read": "れんぽう",
+            "mean": "연방"
+        },
+        {
+            "id": "v-9150fe9f8dd13a04ecbe52a9bdaef8d7c0cc83bf",
+            "word": "連盟",
+            "read": "れんめい",
+            "mean": "연맹"
+        },
+        {
+            "id": "v-931b773eff869b0c2816552548110f05aeec8b2b",
+            "word": "老朽化",
+            "read": "ろうきゅうか",
+            "mean": "노후화"
+        },
+        {
+            "id": "v-8126b548f4b61995d476e828c7d33a496cb96827",
+            "word": "老衰",
+            "read": "ろうすい",
+            "mean": "노쇠"
+        },
+        {
+            "id": "v-864fbeeaf9a760bbb0f5e80d97c620cbe2b20102",
+            "word": "朗読",
+            "read": "ろうどく",
+            "mean": "낭독"
+        },
+        {
+            "id": "v-26785572bfc83d2be156bf8362b50213adb103c1",
+            "word": "浪費",
+            "read": "ろうひ",
+            "mean": "낭비"
+        },
+        {
+            "id": "v-fc6a165d8de1c1c9f5e6735c51a8790a868e5f04",
+            "word": "朗報",
+            "read": "ろうほう",
+            "mean": "낭보, 기쁜 소식"
+        },
+        {
+            "id": "v-ecc979c296f978b05edd4811e7fa49a4ddbcf1de",
+            "word": "論理",
+            "read": "ろんり",
+            "mean": "논리"
+        },
+        {
+            "id": "v-efc50a1a8854b18348606494146df0d79f89a48c",
+            "word": "賄賂",
+            "read": "わいろ",
+            "mean": "뇌물"
+        },
+        {
+            "id": "v-d6202163a956a60dbe966f5045a411b7b34874e6",
+            "word": "和解",
+            "read": "わかい",
+            "mean": "화해"
+        },
+        {
+            "id": "v-ca16870c7a9c5d3a1c9b37de637d76c51a19b0df",
+            "word": "若手",
+            "read": "わかて",
+            "mean": "젊은이, 소장파"
+        },
+        {
+            "id": "v-95d5b8e54f8134b7a686946f6a2161c8f820efe9",
+            "word": "枠",
+            "read": "わく",
+            "mean": "틀, 테두리"
+        },
+        {
+            "id": "v-de142aa729fb0333f4873f7decafdb8225c5f70c",
+            "word": "惑星",
+            "read": "わくせい",
+            "mean": "행성"
+        },
+        {
+            "id": "v-74a06f0df6053358e4c082b87a6f160a9db08642",
+            "word": "技",
+            "read": "わざ",
+            "mean": "기술, 기량"
+        },
+        {
+            "id": "v-bc6d588b18fc37d47a0d18d61a1d13420ae0b971",
+            "word": "和風",
+            "read": "わふう",
+            "mean": "일본풍"
+        },
+        {
+            "id": "v-740c4e93f8475f226f5b40bca5bbfc55339828d8",
+            "word": "明かす",
+            "read": "あかす",
+            "mean": "밝히다, 털어놓다"
+        },
+        {
+            "id": "v-33ed70d4961f4f5012bcf50b68b96510c75ce703",
+            "word": "欺く",
+            "read": "あざむく",
+            "mean": "속이다"
+        },
+        {
+            "id": "v-a96241f6ddc9554e3e75c4cb23464370d19636e8",
+            "word": "あざ笑う",
+            "read": "あざわらう",
+            "mean": "비웃다"
+        },
+        {
+            "id": "v-70fe3c59bad30f356c5498d360a20a7d0202c4c4",
+            "word": "褪せる",
+            "read": "あせる",
+            "mean": "바래다, 퇴색하다"
+        },
+        {
+            "id": "v-64091ba2d1d6d60567370026281229e617cfde30",
+            "word": "値する",
+            "read": "あたいする",
+            "mean": "가치가 있다, ~할 만하다"
+        },
+        {
+            "id": "v-48d05cdaba180bfb9f2e634bf8ce9f9cecd4a937",
+            "word": "誂える",
+            "read": "あつらえる",
+            "mean": "주문하다, 맞추다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

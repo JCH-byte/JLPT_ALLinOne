@@ -1,0 +1,188 @@
+{
+    "moduleId": "n4-module-033",
+    "title": "N4 모듈 033 (Day 26-27)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-033-batch-01",
+        "vocabIds": [
+            "v-a16d531f4ef32d09647f5da992cc6cfcbe15ac13",
+            "v-33f7125e8767ee84158f1be386c2521cf0d340f3",
+            "v-20e011ddb7a09a07a4886c3293f5df2c4f1af49e",
+            "v-188ea675deb5a8b05ab7f63c9b7c927a50bc869d",
+            "v-032f088257fb15e7914a7b4cb0f258fc2b4cba48",
+            "v-41bf2a077beed96938b4a98dc68689f676460fd4",
+            "v-34e0297e0289a9158ac11dcacbcbd8576f98d63b",
+            "v-96659d2770eb0bfdf8b9d9d6b9cc26f2f2be1c57",
+            "v-ba593bedc26ecef9e7bd893165a879a60e80e041",
+            "v-2df27521b234f8aea3ef46c6ac9ad65e9799cae3",
+            "v-0b730e2e2b8c44472d340fb6024481693195370e",
+            "v-a62b84182dc135217f4fdcc43406fd700015534c",
+            "v-d73aa721f35c3c80c3231f229a0fb3e492da10ea",
+            "v-351ee39b81d60dc50621420b0068909f1d205562",
+            "v-3d742f7408c28f177acc59ddcfe421e8522eddf4",
+            "v-a0167626bddba08a5aaedd0b9d84af56bf5624c2",
+            "v-704662c7928d5a94dd567b788e89626cd977096a",
+            "v-cea74dc2eb120d343c833b43ddc280230a969eda",
+            "v-14c16e023cbc9f6a9a090064aea76d9d97f1df07",
+            "v-a2c313aa95a952e8c4147e740c4a87bfdc794683",
+            "v-f8d93c09af111eab9e4d1dbc3946f8a70d98a56b",
+            "v-76439c2604da557f676f9bc2a4481be624cb9794",
+            "v-9ca3dced3b3b853e63cff790899b3336b612ac9b",
+            "v-06b263d69a7a0fa69b14a30db569fca54306d166"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-a16d531f4ef32d09647f5da992cc6cfcbe15ac13",
+            "word": "サラダ",
+            "read": "さらだ",
+            "mean": "샐러드"
+        },
+        {
+            "id": "v-33f7125e8767ee84158f1be386c2521cf0d340f3",
+            "word": "サンダル",
+            "read": "さんだる",
+            "mean": "샌들"
+        },
+        {
+            "id": "v-20e011ddb7a09a07a4886c3293f5df2c4f1af49e",
+            "word": "サンドイッチ",
+            "read": "さんどいっち",
+            "mean": "샌드위치"
+        },
+        {
+            "id": "v-188ea675deb5a8b05ab7f63c9b7c927a50bc869d",
+            "word": "ジャム",
+            "read": "じゃむ",
+            "mean": "잼"
+        },
+        {
+            "id": "v-032f088257fb15e7914a7b4cb0f258fc2b4cba48",
+            "word": "ジュース",
+            "read": "じゅーす",
+            "mean": "주스"
+        },
+        {
+            "id": "v-41bf2a077beed96938b4a98dc68689f676460fd4",
+            "word": "スイッチ",
+            "read": "すいっち",
+            "mean": "스위치"
+        },
+        {
+            "id": "v-34e0297e0289a9158ac11dcacbcbd8576f98d63b",
+            "word": "スーツ",
+            "read": "すーつ",
+            "mean": "슈트, 정장"
+        },
+        {
+            "id": "v-96659d2770eb0bfdf8b9d9d6b9cc26f2f2be1c57",
+            "word": "スーツケース",
+            "read": "すーつけーす",
+            "mean": "여행 가방"
+        },
+        {
+            "id": "v-ba593bedc26ecef9e7bd893165a879a60e80e041",
+            "word": "スーパー",
+            "read": "すーぱー",
+            "mean": "슈퍼마켓"
+        },
+        {
+            "id": "v-2df27521b234f8aea3ef46c6ac9ad65e9799cae3",
+            "word": "スクリーン",
+            "read": "すくりーん",
+            "mean": "스크린"
+        },
+        {
+            "id": "v-0b730e2e2b8c44472d340fb6024481693195370e",
+            "word": "ステーキ",
+            "read": "すてーき",
+            "mean": "스테이크"
+        },
+        {
+            "id": "v-a62b84182dc135217f4fdcc43406fd700015534c",
+            "word": "ステレオ",
+            "read": "すてれお",
+            "mean": "스테레오"
+        },
+        {
+            "id": "v-d73aa721f35c3c80c3231f229a0fb3e492da10ea",
+            "word": "スピーカー",
+            "read": "すぴーかー",
+            "mean": "스피커"
+        },
+        {
+            "id": "v-351ee39b81d60dc50621420b0068909f1d205562",
+            "word": "スピーチ",
+            "read": "すぴーち",
+            "mean": "스피치, 연설"
+        },
+        {
+            "id": "v-3d742f7408c28f177acc59ddcfe421e8522eddf4",
+            "word": "スピード",
+            "read": "すぴーど",
+            "mean": "스피드, 속도"
+        },
+        {
+            "id": "v-a0167626bddba08a5aaedd0b9d84af56bf5624c2",
+            "word": "スリッパ",
+            "read": "すりっぱ",
+            "mean": "슬리퍼"
+        },
+        {
+            "id": "v-704662c7928d5a94dd567b788e89626cd977096a",
+            "word": "ソフト",
+            "read": "そふと",
+            "mean": "소프트웨어, 부드러움"
+        },
+        {
+            "id": "v-cea74dc2eb120d343c833b43ddc280230a969eda",
+            "word": "タイプ",
+            "read": "たいぷ",
+            "mean": "타입, 유형"
+        },
+        {
+            "id": "v-14c16e023cbc9f6a9a090064aea76d9d97f1df07",
+            "word": "ダンス",
+            "read": "だんす",
+            "mean": "댄스, 춤"
+        },
+        {
+            "id": "v-a2c313aa95a952e8c4147e740c4a87bfdc794683",
+            "word": "チェック",
+            "read": "ちぇっく",
+            "mean": "체크, 확인"
+        },
+        {
+            "id": "v-f8d93c09af111eab9e4d1dbc3946f8a70d98a56b",
+            "word": "チケット",
+            "read": "ちけっと",
+            "mean": "티켓, 표"
+        },
+        {
+            "id": "v-76439c2604da557f676f9bc2a4481be624cb9794",
+            "word": "チャンス",
+            "read": "ちゃんす",
+            "mean": "찬스, 기회"
+        },
+        {
+            "id": "v-9ca3dced3b3b853e63cff790899b3336b612ac9b",
+            "word": "デート",
+            "read": "でーと",
+            "mean": "데이트"
+        },
+        {
+            "id": "v-06b263d69a7a0fa69b14a30db569fca54306d166",
+            "word": "テキスト",
+            "read": "てきすと",
+            "mean": "텍스트, 교재"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

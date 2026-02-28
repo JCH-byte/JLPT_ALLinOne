@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-019",
+    "title": "N3 모듈 019 (Day 7)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-019-batch-01",
+        "vocabIds": [
+            "v-498fd80ab7f694db9ad41a37d0b94396ed2a6cd6",
+            "v-714fc00f3e5efaf9137f42e532efbd91cd968042",
+            "v-f8667e3cf385c0ec82a1cae735719da95a851a86",
+            "v-1c7d8ebe7698bece5abad148e237c533505382f6",
+            "v-b110606d1eca74bbd9d102ff96e2b324bfb580c6",
+            "v-7cf478fe9f2706d2a36adce45044da2d0c4b8724",
+            "v-d065b7d784672cc5bb4fa05b54c5968cb9729c6a",
+            "v-ce59119d0f192021f969ba626e1c8943f3fda202",
+            "v-b2f0ae8d212104273dd71346ff3ef242893f492e",
+            "v-5771a3f1057fa63d711f82298c21532a709144a7",
+            "v-3b20e533e8c248c7163c0c6d43ce9a3f04ccfc0e",
+            "v-80a139122ac92c61b2e35fb147d104982e03d2c0",
+            "v-ab6ac85116165c690d416c00369f4b8a6bf63eec",
+            "v-6a6d5ba336550ff93c160f93c54deebb293ed012",
+            "v-c9aecdc7c715f9443f068c3bc1e79ef0ef1eb962",
+            "v-8b0d7eecac22091b354c652b226ce986c5f0dcbd",
+            "v-7fb9adc9de7c578f4b9258b800bf9e7d9067dd3a",
+            "v-e350782c5351e664fddcc04c7ba444a8a2bbde77",
+            "v-429b1596e11408d202213b74ff0fab8726283be7",
+            "v-bb16bb0f2614d63a0e68882bdc0c9270504031a1",
+            "v-488e8f4614a08023c57fef4debdab77092480778",
+            "v-154aeee718cd5dffb60a87d681d7c613f5597858",
+            "v-1e0c21d5a3d3cb2adec300206378b70b1dd77a63",
+            "v-0a820bbc187b2106ae180699964f3e467205595a",
+            "v-699dcfadea577f73f0a831fd7cb620c609b201f4"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-498fd80ab7f694db9ad41a37d0b94396ed2a6cd6",
+            "word": "出場",
+            "read": "しゅつじょう",
+            "mean": "출장(경기 등)"
+        },
+        {
+            "id": "v-714fc00f3e5efaf9137f42e532efbd91cd968042",
+            "word": "出身",
+            "read": "しゅっしん",
+            "mean": "출신"
+        },
+        {
+            "id": "v-f8667e3cf385c0ec82a1cae735719da95a851a86",
+            "word": "出張",
+            "read": "しゅっちょう",
+            "mean": "출장"
+        },
+        {
+            "id": "v-1c7d8ebe7698bece5abad148e237c533505382f6",
+            "word": "出版",
+            "read": "しゅっぱん",
+            "mean": "출판"
+        },
+        {
+            "id": "v-b110606d1eca74bbd9d102ff96e2b324bfb580c6",
+            "word": "首都",
+            "read": "しゅと",
+            "mean": "수도"
+        },
+        {
+            "id": "v-7cf478fe9f2706d2a36adce45044da2d0c4b8724",
+            "word": "取得",
+            "read": "しゅとく",
+            "mean": "취득"
+        },
+        {
+            "id": "v-d065b7d784672cc5bb4fa05b54c5968cb9729c6a",
+            "word": "主婦",
+            "read": "しゅふ",
+            "mean": "주부"
+        },
+        {
+            "id": "v-ce59119d0f192021f969ba626e1c8943f3fda202",
+            "word": "寿命",
+            "read": "じゅみょう",
+            "mean": "수명"
+        },
+        {
+            "id": "v-b2f0ae8d212104273dd71346ff3ef242893f492e",
+            "word": "種類",
+            "read": "しゅるい",
+            "mean": "종류"
+        },
+        {
+            "id": "v-5771a3f1057fa63d711f82298c21532a709144a7",
+            "word": "受話器",
+            "read": "じゅわき",
+            "mean": "수화기"
+        },
+        {
+            "id": "v-3b20e533e8c248c7163c0c6d43ce9a3f04ccfc0e",
+            "word": "順番",
+            "read": "じゅんばん",
+            "mean": "순번, 차례"
+        },
+        {
+            "id": "v-80a139122ac92c61b2e35fb147d104982e03d2c0",
+            "word": "消化",
+            "read": "しょうか",
+            "mean": "소화"
+        },
+        {
+            "id": "v-ab6ac85116165c690d416c00369f4b8a6bf63eec",
+            "word": "乗客",
+            "read": "じょうきゃく",
+            "mean": "승객"
+        },
+        {
+            "id": "v-6a6d5ba336550ff93c160f93c54deebb293ed012",
+            "word": "上級",
+            "read": "じょうきゅう",
+            "mean": "상급"
+        },
+        {
+            "id": "v-c9aecdc7c715f9443f068c3bc1e79ef0ef1eb962",
+            "word": "商業",
+            "read": "しょうぎょう",
+            "mean": "상업"
+        },
+        {
+            "id": "v-8b0d7eecac22091b354c652b226ce986c5f0dcbd",
+            "word": "上下",
+            "read": "じょうげ",
+            "mean": "상하"
+        },
+        {
+            "id": "v-7fb9adc9de7c578f4b9258b800bf9e7d9067dd3a",
+            "word": "条件",
+            "read": "じょうけん",
+            "mean": "조건"
+        },
+        {
+            "id": "v-e350782c5351e664fddcc04c7ba444a8a2bbde77",
+            "word": "正午",
+            "read": "しょうご",
+            "mean": "정오"
+        },
+        {
+            "id": "v-429b1596e11408d202213b74ff0fab8726283be7",
+            "word": "上司",
+            "read": "じょうし",
+            "mean": "상사"
+        },
+        {
+            "id": "v-bb16bb0f2614d63a0e68882bdc0c9270504031a1",
+            "word": "常識",
+            "read": "じょうしき",
+            "mean": "상식"
+        },
+        {
+            "id": "v-488e8f4614a08023c57fef4debdab77092480778",
+            "word": "乗車",
+            "read": "じょうしゃ",
+            "mean": "승차"
+        },
+        {
+            "id": "v-154aeee718cd5dffb60a87d681d7c613f5597858",
+            "word": "乗車券",
+            "read": "じょうしゃけん",
+            "mean": "승차권"
+        },
+        {
+            "id": "v-1e0c21d5a3d3cb2adec300206378b70b1dd77a63",
+            "word": "上旬",
+            "read": "じょうじゅん",
+            "mean": "상순"
+        },
+        {
+            "id": "v-0a820bbc187b2106ae180699964f3e467205595a",
+            "word": "少女",
+            "read": "しょうじょ",
+            "mean": "소녀"
+        },
+        {
+            "id": "v-699dcfadea577f73f0a831fd7cb620c609b201f4",
+            "word": "招待",
+            "read": "しょうたい",
+            "mean": "초대"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

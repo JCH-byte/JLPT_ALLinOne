@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-031",
+    "title": "N1 모듈 031 (Day 8-9)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-031-batch-01",
+        "vocabIds": [
+            "v-92aaf809827bab410f342a2789e46e6b7bc2dc6c",
+            "v-8f01099fd7360f7a6dff21df9d534d0224bc6867",
+            "v-12bcf76c3628896d4aa801e22355473dabc13d97",
+            "v-33d15054c8e5f3dc3fe9d4e01e9c9696080f230d",
+            "v-49cf0f0e79a7165e1182f47696d60f2fb07612b4",
+            "v-c617babb297cb771725b4711561734a3bff8f996",
+            "v-ce1ff3ce8858e45cc50dd3230538f6fb5ab49307",
+            "v-aa1b4344a686e46d1815418f0a8ab691cdc37e4a",
+            "v-612e619c2cac88d8cfd04a4dc4802f6a4c15e960",
+            "v-0e86eaa3adf5956c8bf13eed818a8b74a5835a1d",
+            "v-446e3dc12799ba0e1c03b5fec51918e617939d1f",
+            "v-c93b622a8d5477c74bfcf0d6693200a493a0fc8c",
+            "v-77a3754678c87b876c60f946b0d6e9cd1bc0ab3e",
+            "v-e0ab85b8f6235c8521e085b334036b91964e4025",
+            "v-b531e1ad1fc667deb312e24d6439f5d8fb54fb6f",
+            "v-9d70c973c4a1edbfcfb59c512c8e5e0442b7d38b",
+            "v-269d3dedcac7147060f7e47a9f336a82e7c1f63f",
+            "v-a60ab6fc026a55153fe6d00696d3cfe20ea330cc",
+            "v-8b63835df2f4b4d647a1711d605a51a2d1354941",
+            "v-c92816ae5a8cc11ae1d170eb99ab9edfba3dc378",
+            "v-c5de5fc1383895db81aebf3e6d0b731f46a1baa6",
+            "v-c32bebb48f255d7fa19ca768af676724555fbc51",
+            "v-dc95cb73afa208d0ce257f8098312b89f5d7a537",
+            "v-54dc962e8cc05c445c415594a0dff84c0e1e13ab",
+            "v-62a2c3121c780087b0fa74bd56df51b6937c8c7f"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-92aaf809827bab410f342a2789e46e6b7bc2dc6c",
+            "word": "対処",
+            "read": "たいしょ",
+            "mean": "대처"
+        },
+        {
+            "id": "v-8f01099fd7360f7a6dff21df9d534d0224bc6867",
+            "word": "態勢",
+            "read": "たいせい",
+            "mean": "태세"
+        },
+        {
+            "id": "v-12bcf76c3628896d4aa801e22355473dabc13d97",
+            "word": "大地",
+            "read": "だいち",
+            "mean": "대지"
+        },
+        {
+            "id": "v-33d15054c8e5f3dc3fe9d4e01e9c9696080f230d",
+            "word": "体調",
+            "read": "たいちょう",
+            "mean": "몸 상태"
+        },
+        {
+            "id": "v-49cf0f0e79a7165e1182f47696d60f2fb07612b4",
+            "word": "台無し",
+            "read": "だいなし",
+            "mean": "엉망이 됨"
+        },
+        {
+            "id": "v-c617babb297cb771725b4711561734a3bff8f996",
+            "word": "滞納",
+            "read": "たいのう",
+            "mean": "체납"
+        },
+        {
+            "id": "v-ce1ff3ce8858e45cc50dd3230538f6fb5ab49307",
+            "word": "待望",
+            "read": "たいぼう",
+            "mean": "대망, 기다림"
+        },
+        {
+            "id": "v-aa1b4344a686e46d1815418f0a8ab691cdc37e4a",
+            "word": "台本",
+            "read": "だいほん",
+            "mean": "대본"
+        },
+        {
+            "id": "v-612e619c2cac88d8cfd04a4dc4802f6a4c15e960",
+            "word": "怠慢",
+            "read": "たいまん",
+            "mean": "태만"
+        },
+        {
+            "id": "v-0e86eaa3adf5956c8bf13eed818a8b74a5835a1d",
+            "word": "対面",
+            "read": "たいめん",
+            "mean": "대면"
+        },
+        {
+            "id": "v-446e3dc12799ba0e1c03b5fec51918e617939d1f",
+            "word": "大役",
+            "read": "たいやく",
+            "mean": "중역, 큰 역할"
+        },
+        {
+            "id": "v-c93b622a8d5477c74bfcf0d6693200a493a0fc8c",
+            "word": "太陽光",
+            "read": "たいようこう",
+            "mean": "태양광"
+        },
+        {
+            "id": "v-77a3754678c87b876c60f946b0d6e9cd1bc0ab3e",
+            "word": "打開",
+            "read": "だかい",
+            "mean": "타개"
+        },
+        {
+            "id": "v-e0ab85b8f6235c8521e085b334036b91964e4025",
+            "word": "宝くじ",
+            "read": "たからくじ",
+            "mean": "복권"
+        },
+        {
+            "id": "v-b531e1ad1fc667deb312e24d6439f5d8fb54fb6f",
+            "word": "多岐",
+            "read": "たき",
+            "mean": "다기, 여러 갈래"
+        },
+        {
+            "id": "v-9d70c973c4a1edbfcfb59c512c8e5e0442b7d38b",
+            "word": "妥協",
+            "read": "だきょう",
+            "mean": "타협"
+        },
+        {
+            "id": "v-269d3dedcac7147060f7e47a9f336a82e7c1f63f",
+            "word": "類",
+            "read": "たぐい",
+            "mean": "유례, 같은 부류"
+        },
+        {
+            "id": "v-a60ab6fc026a55153fe6d00696d3cfe20ea330cc",
+            "word": "打擊",
+            "read": "だげき",
+            "mean": "타격"
+        },
+        {
+            "id": "v-8b63835df2f4b4d647a1711d605a51a2d1354941",
+            "word": "妥結",
+            "read": "だけつ",
+            "mean": "타결"
+        },
+        {
+            "id": "v-c92816ae5a8cc11ae1d170eb99ab9edfba3dc378",
+            "word": "駄作",
+            "read": "ださく",
+            "mean": "졸작, 태작"
+        },
+        {
+            "id": "v-c5de5fc1383895db81aebf3e6d0b731f46a1baa6",
+            "word": "打診",
+            "read": "だしん",
+            "mean": "타진"
+        },
+        {
+            "id": "v-c32bebb48f255d7fa19ca768af676724555fbc51",
+            "word": "多数決",
+            "read": "たすうけつ",
+            "mean": "다수결"
+        },
+        {
+            "id": "v-dc95cb73afa208d0ce257f8098312b89f5d7a537",
+            "word": "脱出",
+            "read": "だっしゅつ",
+            "mean": "탈출"
+        },
+        {
+            "id": "v-54dc962e8cc05c445c415594a0dff84c0e1e13ab",
+            "word": "達成",
+            "read": "たっせい",
+            "mean": "달성"
+        },
+        {
+            "id": "v-62a2c3121c780087b0fa74bd56df51b6937c8c7f",
+            "word": "脱退",
+            "read": "だったい",
+            "mean": "탈퇴"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

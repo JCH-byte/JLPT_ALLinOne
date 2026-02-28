@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-019",
+    "title": "N1 모듈 019 (Day 5)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-019-batch-01",
+        "vocabIds": [
+            "v-261f27503a9bbb8ad9b1718f2ff14235e466516e",
+            "v-a9a2f6000db6fc597aa463efccfc34f4d82e88a5",
+            "v-60b38d6cb6f744a3d658da9b9dab8effc807d4a2",
+            "v-fe13ce25f03d631227663645bbd962af211d770d",
+            "v-b98d685680c8b74062e5d4a7e5b425b76b310b32",
+            "v-04804eea186131a606c6898def6122a64991494b",
+            "v-074c10c817c0ad0de583cb7c8c1ee7a61db53b28",
+            "v-4ba40f597170755966d4f4dad8406264c649b8b6",
+            "v-3f0d7e50d6bb27e679d699d202155d75afd5fd50",
+            "v-299a7791af3335e4c4b533d87d394c6cdadbecfd",
+            "v-cb845041c6a5ef64badb14fb4d8a0ec0c16f2a95",
+            "v-cdb3a0cd24e5f584464f04144fc071f059bcc781",
+            "v-faab1640416bf075d6dbc68cd883b0878d2db54d",
+            "v-b71c2e1f7098c1c9b879e7cf85daad4b94e4cfd5",
+            "v-7df72d145b9bc3446d8c1700ff54d27fc8965bf7",
+            "v-581865c657683af38393a50b3f71dd18f4b2a631",
+            "v-37da96ebb1fd857a9c7c0b6dfd4f2eb0d2931e34",
+            "v-da36710536552241faec3f2f74a9d835380ac723",
+            "v-724c6f243b2b51cacb2f368c391f7e4d9db30d74",
+            "v-14c11ebd9e60310e3d1aded131dfcb92c64d9317",
+            "v-59836870aff6a28d6a34f9f49ba2a058e48c55b7",
+            "v-d01ec7bb1974e66bed654a4483b60684fff4cb6b",
+            "v-ff15e1d27296d51b6f17ab56c244c90297341dc0",
+            "v-f906ddd83baadceaf66a68dd97d10623886c1de2",
+            "v-7242fa7bb85c156297b3e7247a373dbe27b44c9a"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-261f27503a9bbb8ad9b1718f2ff14235e466516e",
+            "word": "債務",
+            "read": "さいむ",
+            "mean": "채무"
+        },
+        {
+            "id": "v-a9a2f6000db6fc597aa463efccfc34f4d82e88a5",
+            "word": "採用",
+            "read": "さいよう",
+            "mean": "채용"
+        },
+        {
+            "id": "v-60b38d6cb6f744a3d658da9b9dab8effc807d4a2",
+            "word": "最良",
+            "read": "さいりょう",
+            "mean": "최량, 최선"
+        },
+        {
+            "id": "v-fe13ce25f03d631227663645bbd962af211d770d",
+            "word": "詐欺",
+            "read": "さぎ",
+            "mean": "사기"
+        },
+        {
+            "id": "v-b98d685680c8b74062e5d4a7e5b425b76b310b32",
+            "word": "削減",
+            "read": "さくげん",
+            "mean": "삭감"
+        },
+        {
+            "id": "v-04804eea186131a606c6898def6122a64991494b",
+            "word": "錯誤",
+            "read": "さくご",
+            "mean": "착오"
+        },
+        {
+            "id": "v-074c10c817c0ad0de583cb7c8c1ee7a61db53b28",
+            "word": "搾取",
+            "read": "さくしゅ",
+            "mean": "착취"
+        },
+        {
+            "id": "v-4ba40f597170755966d4f4dad8406264c649b8b6",
+            "word": "挿絵",
+            "read": "さしえ",
+            "mean": "삽화"
+        },
+        {
+            "id": "v-3f0d7e50d6bb27e679d699d202155d75afd5fd50",
+            "word": "差し引き",
+            "read": "さしひき",
+            "mean": "차감"
+        },
+        {
+            "id": "v-299a7791af3335e4c4b533d87d394c6cdadbecfd",
+            "word": "座談会",
+            "read": "ざだんかい",
+            "mean": "좌담회"
+        },
+        {
+            "id": "v-cb845041c6a5ef64badb14fb4d8a0ec0c16f2a95",
+            "word": "錯覚",
+            "read": "さっかく",
+            "mean": "착각"
+        },
+        {
+            "id": "v-cdb3a0cd24e5f584464f04144fc071f059bcc781",
+            "word": "殺菌",
+            "read": "さっきん",
+            "mean": "살균"
+        },
+        {
+            "id": "v-faab1640416bf075d6dbc68cd883b0878d2db54d",
+            "word": "察知",
+            "read": "さっち",
+            "mean": "감지, 알아챔"
+        },
+        {
+            "id": "v-b71c2e1f7098c1c9b879e7cf85daad4b94e4cfd5",
+            "word": "殺到",
+            "read": "さっとう",
+            "mean": "쇄도"
+        },
+        {
+            "id": "v-7df72d145b9bc3446d8c1700ff54d27fc8965bf7",
+            "word": "雑踏",
+            "read": "ざっとう",
+            "mean": "혼잡"
+        },
+        {
+            "id": "v-581865c657683af38393a50b3f71dd18f4b2a631",
+            "word": "座標",
+            "read": "ざひょう",
+            "mean": "좌표"
+        },
+        {
+            "id": "v-37da96ebb1fd857a9c7c0b6dfd4f2eb0d2931e34",
+            "word": "作用",
+            "read": "さよう",
+            "mean": "작용"
+        },
+        {
+            "id": "v-da36710536552241faec3f2f74a9d835380ac723",
+            "word": "山岳",
+            "read": "さんがく",
+            "mean": "산악"
+        },
+        {
+            "id": "v-724c6f243b2b51cacb2f368c391f7e4d9db30d74",
+            "word": "残金",
+            "read": "ざんきん",
+            "mean": "잔금"
+        },
+        {
+            "id": "v-14c11ebd9e60310e3d1aded131dfcb92c64d9317",
+            "word": "惨事",
+            "read": "さんじ",
+            "mean": "참사"
+        },
+        {
+            "id": "v-59836870aff6a28d6a34f9f49ba2a058e48c55b7",
+            "word": "算出",
+            "read": "さんしゅつ",
+            "mean": "산출"
+        },
+        {
+            "id": "v-d01ec7bb1974e66bed654a4483b60684fff4cb6b",
+            "word": "産物",
+            "read": "さんぶつ",
+            "mean": "산물"
+        },
+        {
+            "id": "v-ff15e1d27296d51b6f17ab56c244c90297341dc0",
+            "word": "酸味",
+            "read": "さんみ",
+            "mean": "신맛"
+        },
+        {
+            "id": "v-f906ddd83baadceaf66a68dd97d10623886c1de2",
+            "word": "山脈",
+            "read": "さんみゃく",
+            "mean": "산맥"
+        },
+        {
+            "id": "v-7242fa7bb85c156297b3e7247a373dbe27b44c9a",
+            "word": "仕上がり",
+            "read": "しあがり",
+            "mean": "완성, 마무리"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "moduleId": "n3-module-065",
+    "title": "N3 모듈 065 (Day 26-27)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-065-batch-01",
+        "vocabIds": [
+            "v-20371d4fcc46831c181bdf9af526a82e1d483237",
+            "v-71a9c6b0e8ed31152cc1be5e14f756b24c5292c5",
+            "v-09d5a615e46814e84c8d034fa3da20b3fe89f739",
+            "v-e8c2ff4b773f47af60378853462e10335572e6ee",
+            "v-37c64653ea0f992d0f53b01a30d8baa17b204222",
+            "v-c94e00cd6ec7a8b76a1eb726bd95f7995a2c2b6f",
+            "v-f9f2fe77f20d01add08ee0e15363290c34c4922f",
+            "v-9678d2a308664233a0d64e4fde726d084f05472d",
+            "v-f6e37b90ef542d44a7a564a38724f4f1fa49b101",
+            "v-3e6f5620912202a3488f785fe27514717fd673a4",
+            "v-be6a393617508ad128857ecd2bc9aa82029df229",
+            "v-b3d232b19cbc5b55239c1c7a6eb6fa49d3577060",
+            "v-1dba95c2b35a774b10fdb637b74445086a39417b",
+            "v-0dbeba308bcfb877fe5eaf66c5c3e87fe34bd197",
+            "v-78daa0e4c49486879e1cdee3fb44f20cd1b31a55",
+            "v-8f431ee80c7ca8abf27bc6fc63a0a7a9e4c7f45e",
+            "v-6d9526c939911a1ffa72a55cda0cd593c5697036",
+            "v-235326d1493a6544d74b3733dcc2440abf4fea26",
+            "v-2ff1ddce10e0aa67a2ed4e750c44ee1158ff4134",
+            "v-025f64bf2fe57fffb27335fd5201d3ae45f7c73c",
+            "v-553045258dfbf9dce0c3a32577f9b169ddff0238",
+            "v-12f090739ae3c9fe14d5d51eaef8664fe86e0c2a",
+            "v-aeddfa221248322e411374cac5259d75083d567e",
+            "v-5b2f13adcf2ed40f0d426194b455c2ee271422ea"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-20371d4fcc46831c181bdf9af526a82e1d483237",
+            "word": "ぺらぺら",
+            "read": "ぺらぺら",
+            "mean": "술술 (말하는 모양)"
+        },
+        {
+            "id": "v-71a9c6b0e8ed31152cc1be5e14f756b24c5292c5",
+            "word": "ほっと",
+            "read": "ほっと",
+            "mean": "안도하는 모양"
+        },
+        {
+            "id": "v-09d5a615e46814e84c8d034fa3da20b3fe89f739",
+            "word": "まごまご",
+            "read": "まごまご",
+            "mean": "우물쭈물"
+        },
+        {
+            "id": "v-e8c2ff4b773f47af60378853462e10335572e6ee",
+            "word": "まさか",
+            "read": "まさか",
+            "mean": "설마"
+        },
+        {
+            "id": "v-37c64653ea0f992d0f53b01a30d8baa17b204222",
+            "word": "全く",
+            "read": "まったく",
+            "mean": "전혀, 정말로"
+        },
+        {
+            "id": "v-c94e00cd6ec7a8b76a1eb726bd95f7995a2c2b6f",
+            "word": "最も",
+            "read": "もっとも",
+            "mean": "가장"
+        },
+        {
+            "id": "v-f9f2fe77f20d01add08ee0e15363290c34c4922f",
+            "word": "約",
+            "read": "やく",
+            "mean": "약"
+        },
+        {
+            "id": "v-9678d2a308664233a0d64e4fde726d084f05472d",
+            "word": "ようやく",
+            "read": "ようやく",
+            "mean": "겨우"
+        },
+        {
+            "id": "v-f6e37b90ef542d44a7a564a38724f4f1fa49b101",
+            "word": "わざと",
+            "read": "わざと",
+            "mean": "일부러"
+        },
+        {
+            "id": "v-3e6f5620912202a3488f785fe27514717fd673a4",
+            "word": "アイスクリーム",
+            "read": "あいすくりーむ",
+            "mean": "아이스크림"
+        },
+        {
+            "id": "v-be6a393617508ad128857ecd2bc9aa82029df229",
+            "word": "アウト",
+            "read": "あうと",
+            "mean": "아웃"
+        },
+        {
+            "id": "v-b3d232b19cbc5b55239c1c7a6eb6fa49d3577060",
+            "word": "アクセス",
+            "read": "あくせす",
+            "mean": "접속, 액세스"
+        },
+        {
+            "id": "v-1dba95c2b35a774b10fdb637b74445086a39417b",
+            "word": "アドバイス",
+            "read": "あどばいす",
+            "mean": "조언"
+        },
+        {
+            "id": "v-0dbeba308bcfb877fe5eaf66c5c3e87fe34bd197",
+            "word": "アドレス",
+            "read": "あどれす",
+            "mean": "주소"
+        },
+        {
+            "id": "v-78daa0e4c49486879e1cdee3fb44f20cd1b31a55",
+            "word": "アナウンス",
+            "read": "あなうんす",
+            "mean": "아나운스, 안내 방송"
+        },
+        {
+            "id": "v-8f431ee80c7ca8abf27bc6fc63a0a7a9e4c7f45e",
+            "word": "アマチュア",
+            "read": "あまちゅあ",
+            "mean": "아마추어"
+        },
+        {
+            "id": "v-6d9526c939911a1ffa72a55cda0cd593c5697036",
+            "word": "アルバム",
+            "read": "あるばむ",
+            "mean": "앨범"
+        },
+        {
+            "id": "v-235326d1493a6544d74b3733dcc2440abf4fea26",
+            "word": "アルミホイル",
+            "read": "あるみほいる",
+            "mean": "알루미늄 호일"
+        },
+        {
+            "id": "v-2ff1ddce10e0aa67a2ed4e750c44ee1158ff4134",
+            "word": "アレルギー",
+            "read": "あれるぎー",
+            "mean": "알레르기"
+        },
+        {
+            "id": "v-025f64bf2fe57fffb27335fd5201d3ae45f7c73c",
+            "word": "アンケート",
+            "read": "あんけーと",
+            "mean": "설문조사, 앙케트"
+        },
+        {
+            "id": "v-553045258dfbf9dce0c3a32577f9b169ddff0238",
+            "word": "アンテナ",
+            "read": "あんてな",
+            "mean": "안테나"
+        },
+        {
+            "id": "v-12f090739ae3c9fe14d5d51eaef8664fe86e0c2a",
+            "word": "イコール",
+            "read": "いこーる",
+            "mean": "이콜, 같음"
+        },
+        {
+            "id": "v-aeddfa221248322e411374cac5259d75083d567e",
+            "word": "イメージ",
+            "read": "いめーじ",
+            "mean": "이미지"
+        },
+        {
+            "id": "v-5b2f13adcf2ed40f0d426194b455c2ee271422ea",
+            "word": "インク",
+            "read": "いんく",
+            "mean": "잉크"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

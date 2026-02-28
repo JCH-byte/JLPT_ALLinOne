@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-024",
+    "title": "N3 모듈 024 (Day 9)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-024-batch-01",
+        "vocabIds": [
+            "v-818e2de3c6dd229759683a047b79d6171f52b27c",
+            "v-de20330a2ecc7b9a8925fe596afab3887c8520c6",
+            "v-903ec07453fe5b0c2d8a94d3f0c38814ea745cd3",
+            "v-9d59a33e2d53b2d24f347e875a58c2db8d1b2661",
+            "v-bfc6ceb1bea4fdecc4ca494182d223bdae500448",
+            "v-df06545fd62ac42dcc42071a61c1278a4a268a5c",
+            "v-204140055438ff9b226ccc49d21ecd2d71fd8546",
+            "v-a3483e805434cb6c8f82c87ecf636affdd2cf37d",
+            "v-0e20e6339683afe7d45dabc7b9c30852c6d44e3d",
+            "v-2e46f4941bc98e86e577ce9f52da5cf2da715aa2",
+            "v-3ed71c2b7387dcd3470e1c61051803919db918d9",
+            "v-40ffba34ebcb8b398148e73b41450bbe82879546",
+            "v-8693e24ee4b58c307b72da337acbd74044907be8",
+            "v-a354c932871a9e0752342cf927698b88ac21c897",
+            "v-059bc16e7858b62a3c5b78b819cfc5308ba08f0b",
+            "v-becf53168cefef2ba8910d1d345c65d738e36281",
+            "v-8100702e07528d6da4ad1d37eac36b35a536c08e",
+            "v-be301e10bd9c1eaeb30750ccda61737e0217aac7",
+            "v-06e4695c54d3412f28bab7de144df86226b0d827",
+            "v-f0c45df8109fd962fdb066da8f8391361c11a133",
+            "v-bd73b7ef6013d4a3de1fe51671e63be3ac503236",
+            "v-f19b44b61566b370df461ab38165a6f9e69ff7b8",
+            "v-d2d7e3ca5c6439731910a2358d31be3ff1118d01",
+            "v-4615490697498015925c65a5e00bd3b32ef24c35",
+            "v-602242983b1974df574a2ab08245065fe2daddac"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-818e2de3c6dd229759683a047b79d6171f52b27c",
+            "word": "前半",
+            "read": "ぜんはん",
+            "mean": "전반"
+        },
+        {
+            "id": "v-de20330a2ecc7b9a8925fe596afab3887c8520c6",
+            "word": "扇風機",
+            "read": "せんぷうき",
+            "mean": "선풍기"
+        },
+        {
+            "id": "v-903ec07453fe5b0c2d8a94d3f0c38814ea745cd3",
+            "word": "洗面所",
+            "read": "せんめんじょ",
+            "mean": "세면소, 세면장"
+        },
+        {
+            "id": "v-9d59a33e2d53b2d24f347e875a58c2db8d1b2661",
+            "word": "専門家",
+            "read": "せんもんか",
+            "mean": "전문가"
+        },
+        {
+            "id": "v-bfc6ceb1bea4fdecc4ca494182d223bdae500448",
+            "word": "線路",
+            "read": "せんろ",
+            "mean": "선로"
+        },
+        {
+            "id": "v-df06545fd62ac42dcc42071a61c1278a4a268a5c",
+            "word": "騒音",
+            "read": "そうおん",
+            "mean": "소음"
+        },
+        {
+            "id": "v-204140055438ff9b226ccc49d21ecd2d71fd8546",
+            "word": "送金",
+            "read": "そうきん",
+            "mean": "송금"
+        },
+        {
+            "id": "v-a3483e805434cb6c8f82c87ecf636affdd2cf37d",
+            "word": "総合",
+            "read": "そうごう",
+            "mean": "종합"
+        },
+        {
+            "id": "v-0e20e6339683afe7d45dabc7b9c30852c6d44e3d",
+            "word": "掃除機",
+            "read": "そうじき",
+            "mean": "청소기"
+        },
+        {
+            "id": "v-2e46f4941bc98e86e577ce9f52da5cf2da715aa2",
+            "word": "送信",
+            "read": "そうしん",
+            "mean": "송신"
+        },
+        {
+            "id": "v-3ed71c2b7387dcd3470e1c61051803919db918d9",
+            "word": "想像",
+            "read": "そうぞう",
+            "mean": "상상"
+        },
+        {
+            "id": "v-40ffba34ebcb8b398148e73b41450bbe82879546",
+            "word": "創造",
+            "read": "そうぞう",
+            "mean": "창조"
+        },
+        {
+            "id": "v-8693e24ee4b58c307b72da337acbd74044907be8",
+            "word": "相続",
+            "read": "そうぞく",
+            "mean": "상속"
+        },
+        {
+            "id": "v-a354c932871a9e0752342cf927698b88ac21c897",
+            "word": "早退",
+            "read": "そうたい",
+            "mean": "조퇴"
+        },
+        {
+            "id": "v-059bc16e7858b62a3c5b78b819cfc5308ba08f0b",
+            "word": "送別会",
+            "read": "そうべつかい",
+            "mean": "송별회"
+        },
+        {
+            "id": "v-becf53168cefef2ba8910d1d345c65d738e36281",
+            "word": "送料",
+            "read": "そうりょう",
+            "mean": "송료, 배송비"
+        },
+        {
+            "id": "v-8100702e07528d6da4ad1d37eac36b35a536c08e",
+            "word": "速達",
+            "read": "そくたつ",
+            "mean": "속달"
+        },
+        {
+            "id": "v-be301e10bd9c1eaeb30750ccda61737e0217aac7",
+            "word": "測定",
+            "read": "そくてい",
+            "mean": "측정"
+        },
+        {
+            "id": "v-06e4695c54d3412f28bab7de144df86226b0d827",
+            "word": "速度",
+            "read": "そくど",
+            "mean": "속도"
+        },
+        {
+            "id": "v-f0c45df8109fd962fdb066da8f8391361c11a133",
+            "word": "測量",
+            "read": "そくりょう",
+            "mean": "측량"
+        },
+        {
+            "id": "v-bd73b7ef6013d4a3de1fe51671e63be3ac503236",
+            "word": "底",
+            "read": "そこ",
+            "mean": "바닥"
+        },
+        {
+            "id": "v-f19b44b61566b370df461ab38165a6f9e69ff7b8",
+            "word": "卒業式",
+            "read": "そつぎょうしき",
+            "mean": "졸업식"
+        },
+        {
+            "id": "v-d2d7e3ca5c6439731910a2358d31be3ff1118d01",
+            "word": "袖",
+            "read": "そで",
+            "mean": "소매"
+        },
+        {
+            "id": "v-4615490697498015925c65a5e00bd3b32ef24c35",
+            "word": "そのまま",
+            "read": "そのまま",
+            "mean": "그대로"
+        },
+        {
+            "id": "v-602242983b1974df574a2ab08245065fe2daddac",
+            "word": "体育",
+            "read": "たいいく",
+            "mean": "체육"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

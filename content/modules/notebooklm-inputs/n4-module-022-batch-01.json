@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-022",
+    "title": "N4 모듈 022 (Day 15-16)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-022-batch-01",
+        "vocabIds": [
+            "v-60bb7dc8ae196cf4a4160ef4e3f61d5b9d745c29",
+            "v-700569e14560adcd6209191109b19ff6250dc64d",
+            "v-cba6444a8eb37e7439fa6402a0b4a1fa4ecc7942",
+            "v-9ae631eca52e68c07238a9a5e1ce621c355f913f",
+            "v-4d1b62d4ef7036f38c2d6a5acd67a54197c60c37",
+            "v-ea4b15e5870b24a73032cb2851b542aab0e14ee6",
+            "v-f5fb106247b53221f43a23eb56ec808bd047fdd6",
+            "v-641e2b9e1697d1c4b74da8739906b37cc114a6c0",
+            "v-751c92b27b0b3ee0203d48e0461e162a5eb49f78",
+            "v-68e85c6a8ac160b101f2ebd9cb720333ecb0c727",
+            "v-697f8323d7fa6115d573e61ac6351b182e7d4335",
+            "v-0da628a2eaae5f9874fc186eef3a98e1336596a7",
+            "v-1c651e6c037b9c24b74ff61fb486e4c54ef5a2b5",
+            "v-c7037ef4bc476e47009dab5463738aa009bc14bb",
+            "v-9f855fd2abf2f362a468afcb6d3bcdf6cfb8a544",
+            "v-b17e44c6ed6206de8fcd5ad5868829419b8cbb2f",
+            "v-25ff1295b2b1fbee4390f93b8b67079acbd70618",
+            "v-e44662926349f10dc73caa8ef7908a8193d18a62",
+            "v-0ed1f49996acf61f629eb17847645fa01afcc9bf",
+            "v-24424ee3eb3992317d9614ebc8a639a2b580bcf3",
+            "v-0be4ad1f8e2f6609e2810d5ae20ea8cf6126fd62",
+            "v-ec8a17021dad9f71734a7d4826f95f9ab1ca3c8d",
+            "v-11b7282c5df4f4a4b79a85d917a850c6dfeb15db",
+            "v-0118787bb1ea9470bcd26314e4dc09f6cf3dc516",
+            "v-fb19e1c95510450c334d9506a66d257bdae1c4bb"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-60bb7dc8ae196cf4a4160ef4e3f61d5b9d745c29",
+            "word": "くれる",
+            "read": "くれる",
+            "mean": "주다 (남이 나에게)"
+        },
+        {
+            "id": "v-700569e14560adcd6209191109b19ff6250dc64d",
+            "word": "暮れる",
+            "read": "くれる",
+            "mean": "저물다"
+        },
+        {
+            "id": "v-cba6444a8eb37e7439fa6402a0b4a1fa4ecc7942",
+            "word": "ござる",
+            "read": "ござる",
+            "mean": "있다 (정중)"
+        },
+        {
+            "id": "v-9ae631eca52e68c07238a9a5e1ce621c355f913f",
+            "word": "込む",
+            "read": "こむ",
+            "mean": "붐비다"
+        },
+        {
+            "id": "v-4d1b62d4ef7036f38c2d6a5acd67a54197c60c37",
+            "word": "ご覧になる",
+            "read": "ごらんになる",
+            "mean": "보시다 (존경)"
+        },
+        {
+            "id": "v-ea4b15e5870b24a73032cb2851b542aab0e14ee6",
+            "word": "壊す",
+            "read": "こわす",
+            "mean": "부수다, 고장내다"
+        },
+        {
+            "id": "v-f5fb106247b53221f43a23eb56ec808bd047fdd6",
+            "word": "壊れる",
+            "read": "こわれる",
+            "mean": "부서지다, 고장나다"
+        },
+        {
+            "id": "v-641e2b9e1697d1c4b74da8739906b37cc114a6c0",
+            "word": "探す",
+            "read": "さがす",
+            "mean": "찾다"
+        },
+        {
+            "id": "v-751c92b27b0b3ee0203d48e0461e162a5eb49f78",
+            "word": "下がる",
+            "read": "さがる",
+            "mean": "내려가다"
+        },
+        {
+            "id": "v-68e85c6a8ac160b101f2ebd9cb720333ecb0c727",
+            "word": "下げる",
+            "read": "さげる",
+            "mean": "내리다, 낮추다"
+        },
+        {
+            "id": "v-697f8323d7fa6115d573e61ac6351b182e7d4335",
+            "word": "差し上げる",
+            "read": "さしあげる",
+            "mean": "드리다 (겸양)"
+        },
+        {
+            "id": "v-0da628a2eaae5f9874fc186eef3a98e1336596a7",
+            "word": "さす",
+            "read": "さす",
+            "mean": "가리키다, (우산을) 쓰다"
+        },
+        {
+            "id": "v-1c651e6c037b9c24b74ff61fb486e4c54ef5a2b5",
+            "word": "騒ぐ",
+            "read": "さわぐ",
+            "mean": "떠들다"
+        },
+        {
+            "id": "v-c7037ef4bc476e47009dab5463738aa009bc14bb",
+            "word": "触る",
+            "read": "さわる",
+            "mean": "만지다, 손대다"
+        },
+        {
+            "id": "v-9f855fd2abf2f362a468afcb6d3bcdf6cfb8a544",
+            "word": "叱る",
+            "read": "しかる",
+            "mean": "꾸짖다, 야단치다"
+        },
+        {
+            "id": "v-b17e44c6ed6206de8fcd5ad5868829419b8cbb2f",
+            "word": "締める",
+            "read": "しめる",
+            "mean": "매다, 조이다"
+        },
+        {
+            "id": "v-25ff1295b2b1fbee4390f93b8b67079acbd70618",
+            "word": "知らせる",
+            "read": "しらせる",
+            "mean": "알리다"
+        },
+        {
+            "id": "v-e44662926349f10dc73caa8ef7908a8193d18a62",
+            "word": "調べる",
+            "read": "しらべる",
+            "mean": "조사하다, 알아보다"
+        },
+        {
+            "id": "v-0ed1f49996acf61f629eb17847645fa01afcc9bf",
+            "word": "知る",
+            "read": "しる",
+            "mean": "알다"
+        },
+        {
+            "id": "v-24424ee3eb3992317d9614ebc8a639a2b580bcf3",
+            "word": "吸う",
+            "read": "すう",
+            "mean": "들이마시다, 피우다"
+        },
+        {
+            "id": "v-0be4ad1f8e2f6609e2810d5ae20ea8cf6126fd62",
+            "word": "過ぎる",
+            "read": "すぎる",
+            "mean": "지나다, 통과하다"
+        },
+        {
+            "id": "v-ec8a17021dad9f71734a7d4826f95f9ab1ca3c8d",
+            "word": "すく",
+            "read": "すく",
+            "mean": "비다, (배가) 고프다"
+        },
+        {
+            "id": "v-11b7282c5df4f4a4b79a85d917a850c6dfeb15db",
+            "word": "進む",
+            "read": "すすむ",
+            "mean": "나아가다, 진행하다"
+        },
+        {
+            "id": "v-0118787bb1ea9470bcd26314e4dc09f6cf3dc516",
+            "word": "滑る",
+            "read": "すべる",
+            "mean": "미끄러지다"
+        },
+        {
+            "id": "v-fb19e1c95510450c334d9506a66d257bdae1c4bb",
+            "word": "倒れる",
+            "read": "たおれる",
+            "mean": "쓰러지다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-003",
+    "title": "N2 모듈 003 (Day 1)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-003-batch-02",
+        "vocabIds": [
+            "v-e93de66b6500cd39e2d98bee1e6119322ee86655",
+            "v-b0064c529e688def671e28ad65b49a5652ced996",
+            "v-3a3a89307d277314106ab7398c062863b9eb0a0b",
+            "v-5c92479c328f7977c37c5a64a0f6e3c2317fcd70",
+            "v-f8f96af6666946a4e1a7428e65400220e224f09f",
+            "v-afb3291c72f61de0cdbba1e0ffca8590f6a8793b",
+            "v-d817062bb3829b5f4874bfc63716a2a05d14986b",
+            "v-4ee4d9dc77abef0becef19d70abda5a3a9c66dad",
+            "v-b64780917db5dc649359f19290744387aa58e5d2",
+            "v-2f3df901c8f2b8dfe46cf07c3c51cf798f091833",
+            "v-a1b5786b94a4558fc73c69914f9e98af00644371",
+            "v-72338e9af8332c019c5bb16ded7513aa532289b9",
+            "v-dc8f9df2df82c9727b3a303e2307f185e594d6c9"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-e93de66b6500cd39e2d98bee1e6119322ee86655",
+            "word": "売れ行き",
+            "read": "うれゆき",
+            "mean": "팔림새, 판로"
+        },
+        {
+            "id": "v-b0064c529e688def671e28ad65b49a5652ced996",
+            "word": "運行",
+            "read": "うんこう",
+            "mean": "운행"
+        },
+        {
+            "id": "v-3a3a89307d277314106ab7398c062863b9eb0a0b",
+            "word": "運賃",
+            "read": "うんちん",
+            "mean": "운임"
+        },
+        {
+            "id": "v-5c92479c328f7977c37c5a64a0f6e3c2317fcd70",
+            "word": "衛生",
+            "read": "えいせい",
+            "mean": "위생"
+        },
+        {
+            "id": "v-f8f96af6666946a4e1a7428e65400220e224f09f",
+            "word": "衛星",
+            "read": "えいせい",
+            "mean": "위성"
+        },
+        {
+            "id": "v-afb3291c72f61de0cdbba1e0ffca8590f6a8793b",
+            "word": "液体",
+            "read": "えきたい",
+            "mean": "액체"
+        },
+        {
+            "id": "v-d817062bb3829b5f4874bfc63716a2a05d14986b",
+            "word": "餌",
+            "read": "えさ",
+            "mean": "먹이"
+        },
+        {
+            "id": "v-4ee4d9dc77abef0becef19d70abda5a3a9c66dad",
+            "word": "会釈",
+            "read": "えしゃく",
+            "mean": "목례, 가벼운 인사"
+        },
+        {
+            "id": "v-b64780917db5dc649359f19290744387aa58e5d2",
+            "word": "得手",
+            "read": "えて",
+            "mean": "특기, 잘하는 것"
+        },
+        {
+            "id": "v-2f3df901c8f2b8dfe46cf07c3c51cf798f091833",
+            "word": "絵の具",
+            "read": "えのぐ",
+            "mean": "그림 물감"
+        },
+        {
+            "id": "v-a1b5786b94a4558fc73c69914f9e98af00644371",
+            "word": "絵本",
+            "read": "えほん",
+            "mean": "그림책"
+        },
+        {
+            "id": "v-72338e9af8332c019c5bb16ded7513aa532289b9",
+            "word": "演技",
+            "read": "えんぎ",
+            "mean": "연기"
+        },
+        {
+            "id": "v-dc8f9df2df82c9727b3a303e2307f185e594d6c9",
+            "word": "園芸",
+            "read": "えんげい",
+            "mean": "원예"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

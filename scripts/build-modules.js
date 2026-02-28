@@ -7,7 +7,38 @@ const srcDir = path.join(__dirname, '..', 'content', 'modules', 'src');
 const distDir = path.join(__dirname, '..', 'content', 'modules', 'dist');
 const rulesDir = path.join(__dirname, '..', 'content', 'modules', 'rules');
 const notebookLMInputDir = path.join(__dirname, '..', 'content', 'modules', 'notebooklm-inputs');
+const dataSrcDir = path.join(__dirname, '..', 'data', 'src');
 const checkMode = process.argv.includes('--check');
+
+// In-memory cache: jlptLevel (e.g. 'N4') -> Map<id, {id, word, read, mean}>
+const itemsCache = new Map();
+
+function loadItemsForLevel(jlptLevel) {
+    if (itemsCache.has(jlptLevel)) return itemsCache.get(jlptLevel);
+
+    const level = jlptLevel.toLowerCase();
+    const itemsPath = path.join(dataSrcDir, `${level}.items.json`);
+    if (!fs.existsSync(itemsPath)) {
+        itemsCache.set(jlptLevel, new Map());
+        return itemsCache.get(jlptLevel);
+    }
+
+    const raw = JSON.parse(fs.readFileSync(itemsPath, 'utf8'));
+    const itemMap = new Map();
+    (raw.items || []).forEach((item) => {
+        if (item.id) {
+            itemMap.set(item.id, { id: item.id, word: item.word, read: item.read, mean: item.mean });
+        }
+    });
+
+    itemsCache.set(jlptLevel, itemMap);
+    return itemMap;
+}
+
+function resolveVocabData(vocabIds, jlptLevel) {
+    const itemMap = loadItemsForLevel(jlptLevel);
+    return vocabIds.map((id) => itemMap.get(id) || { id, word: null, read: null, mean: null });
+}
 
 const JLPT_LEVEL_ORDER = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
@@ -296,8 +327,10 @@ function main() {
         const normalized = normalizeModule(parsed);
         expected.set(fileName, stableStringify(normalized));
 
+        const jlptLevel = (normalized.constraints && normalized.constraints.jlptLevel) || 'N5';
         normalized.notebookLMInput.forEach((batchInput) => {
             const notebookLMInputFile = `${batchInput.batchId}.json`;
+            const batchVocabIds = batchInput.includes.vocabIds;
             notebookLMInputExpected.set(notebookLMInputFile, stableStringify({
                 moduleId: normalized.moduleId,
                 title: normalized.title,
@@ -306,8 +339,9 @@ function main() {
                 ruleVersion: normalized.metadata.ruleVersion,
                 batch: {
                     batchId: batchInput.batchId,
-                    vocabIds: batchInput.includes.vocabIds
+                    vocabIds: batchVocabIds
                 },
+                vocab: resolveVocabData(batchVocabIds, jlptLevel),
                 inputMode: batchInput.inputMode,
                 excludes: batchInput.excludes
             }));

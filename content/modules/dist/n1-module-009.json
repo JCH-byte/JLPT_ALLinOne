@@ -1,0 +1,126 @@
+{
+    "moduleId": "n1-module-009",
+    "title": "N1 모듈 009 (Day 3)",
+    "vocabIds": [
+        "v-7df34f36d409ff9186746ed4bb93389017c07d59",
+        "v-afb6bf7c9953148ad3e36d636c99754540696dc3",
+        "v-c1f9ddd8846587a369b74a637f7aa5a3c5faa43c",
+        "v-00bdfe3eebd8ecc2c8bd116c85ffee5aeb180448",
+        "v-f0d5a23da0c8a1697399078b3081f4aeeb750f0d",
+        "v-4c3871ccbc59dec9ae43159338c72f1e1779da83",
+        "v-00b1be43392607e341710f01fb7beb9c8b021570",
+        "v-032cdef156c4c4e65294c77abca403a0cf81d57d",
+        "v-b0e84f3d626cae6240445a66c3c2b58fc19868c4",
+        "v-90ee91f2f04e71f2075f833fd31d4c2620e2daa1",
+        "v-764562b03800dfd8fb3c59511ef70c3cbb23c3ce",
+        "v-a1b606ce6dd3ffa02dbf56ae980429f138c6c860",
+        "v-0dfb1f7fcf5c1c1951c9455aecdbc3c1c35c71d9",
+        "v-8c88a1a09b9fc34f9e7a1e48d12380e5080f9066",
+        "v-e580b7ea3086b689429a008de1302d0cbfd6427f",
+        "v-6102deb737d75ad9077b6559f71513e29109a15c",
+        "v-6ad969921fbfd58691c431376655d0a476f6577e",
+        "v-b4664fde91ca4b1b975f0c2e31bea813685f4c7d",
+        "v-06825ff9b8ecfa2f38ab6292f6aeae4fd8ff2e6b",
+        "v-8abf405a9a7469c40b33ca0a0bc2f98dacf8d93e",
+        "v-d26a6930c095135dde91ef968b11eb8bca00e415",
+        "v-5e1a853d2d310a9d8343b9b1b7d5a78b7b7d413c",
+        "v-127aed10be4e4b3783c0c77ee50a3b1ab4d96f4a",
+        "v-d0f58512595e3edaafa0abb5a3aaea4a37a3f279",
+        "v-4aa387e0f996cb3eb941d826b4338f2bce7201ab"
+    ],
+    "promptTemplateVersion": "notebooklm-v2",
+    "constraints": {
+        "jlptLevel": "N1",
+        "maxNewItemsPerSet": 10
+    },
+    "ruleFile": "n1-module-default.json",
+    "generationBatches": [
+        {
+            "batchId": "n1-module-009-batch-01",
+            "vocabIds": [
+                "v-7df34f36d409ff9186746ed4bb93389017c07d59",
+                "v-afb6bf7c9953148ad3e36d636c99754540696dc3",
+                "v-c1f9ddd8846587a369b74a637f7aa5a3c5faa43c",
+                "v-00bdfe3eebd8ecc2c8bd116c85ffee5aeb180448",
+                "v-f0d5a23da0c8a1697399078b3081f4aeeb750f0d",
+                "v-4c3871ccbc59dec9ae43159338c72f1e1779da83",
+                "v-00b1be43392607e341710f01fb7beb9c8b021570",
+                "v-032cdef156c4c4e65294c77abca403a0cf81d57d",
+                "v-b0e84f3d626cae6240445a66c3c2b58fc19868c4",
+                "v-90ee91f2f04e71f2075f833fd31d4c2620e2daa1",
+                "v-764562b03800dfd8fb3c59511ef70c3cbb23c3ce",
+                "v-a1b606ce6dd3ffa02dbf56ae980429f138c6c860",
+                "v-0dfb1f7fcf5c1c1951c9455aecdbc3c1c35c71d9",
+                "v-8c88a1a09b9fc34f9e7a1e48d12380e5080f9066",
+                "v-e580b7ea3086b689429a008de1302d0cbfd6427f",
+                "v-6102deb737d75ad9077b6559f71513e29109a15c",
+                "v-6ad969921fbfd58691c431376655d0a476f6577e",
+                "v-b4664fde91ca4b1b975f0c2e31bea813685f4c7d",
+                "v-06825ff9b8ecfa2f38ab6292f6aeae4fd8ff2e6b",
+                "v-8abf405a9a7469c40b33ca0a0bc2f98dacf8d93e",
+                "v-d26a6930c095135dde91ef968b11eb8bca00e415",
+                "v-5e1a853d2d310a9d8343b9b1b7d5a78b7b7d413c",
+                "v-127aed10be4e4b3783c0c77ee50a3b1ab4d96f4a",
+                "v-d0f58512595e3edaafa0abb5a3aaea4a37a3f279",
+                "v-4aa387e0f996cb3eb941d826b4338f2bce7201ab"
+            ],
+            "promptTemplateVersion": "notebooklm-v2",
+            "constraints": {
+                "jlptLevel": "N1",
+                "maxNewItemsPerSet": 10,
+                "targetWordCount": "20-25"
+            }
+        }
+    ],
+    "notebookLMInput": [
+        {
+            "batchId": "n1-module-009-batch-01",
+            "inputMode": "rules+vocab-only",
+            "includes": {
+                "ruleFile": "n1-module-default.json",
+                "vocabIds": [
+                    "v-7df34f36d409ff9186746ed4bb93389017c07d59",
+                    "v-afb6bf7c9953148ad3e36d636c99754540696dc3",
+                    "v-c1f9ddd8846587a369b74a637f7aa5a3c5faa43c",
+                    "v-00bdfe3eebd8ecc2c8bd116c85ffee5aeb180448",
+                    "v-f0d5a23da0c8a1697399078b3081f4aeeb750f0d",
+                    "v-4c3871ccbc59dec9ae43159338c72f1e1779da83",
+                    "v-00b1be43392607e341710f01fb7beb9c8b021570",
+                    "v-032cdef156c4c4e65294c77abca403a0cf81d57d",
+                    "v-b0e84f3d626cae6240445a66c3c2b58fc19868c4",
+                    "v-90ee91f2f04e71f2075f833fd31d4c2620e2daa1",
+                    "v-764562b03800dfd8fb3c59511ef70c3cbb23c3ce",
+                    "v-a1b606ce6dd3ffa02dbf56ae980429f138c6c860",
+                    "v-0dfb1f7fcf5c1c1951c9455aecdbc3c1c35c71d9",
+                    "v-8c88a1a09b9fc34f9e7a1e48d12380e5080f9066",
+                    "v-e580b7ea3086b689429a008de1302d0cbfd6427f",
+                    "v-6102deb737d75ad9077b6559f71513e29109a15c",
+                    "v-6ad969921fbfd58691c431376655d0a476f6577e",
+                    "v-b4664fde91ca4b1b975f0c2e31bea813685f4c7d",
+                    "v-06825ff9b8ecfa2f38ab6292f6aeae4fd8ff2e6b",
+                    "v-8abf405a9a7469c40b33ca0a0bc2f98dacf8d93e",
+                    "v-d26a6930c095135dde91ef968b11eb8bca00e415",
+                    "v-5e1a853d2d310a9d8343b9b1b7d5a78b7b7d413c",
+                    "v-127aed10be4e4b3783c0c77ee50a3b1ab4d96f4a",
+                    "v-d0f58512595e3edaafa0abb5a3aaea4a37a3f279",
+                    "v-4aa387e0f996cb3eb941d826b4338f2bce7201ab"
+                ]
+            },
+            "excludes": [
+                "long_context",
+                "previous_generated_paragraphs",
+                "reference_articles"
+            ]
+        }
+    ],
+    "items": [],
+    "regenerationQueue": [],
+    "outputValidation": {},
+    "metadata": {
+        "batchProvenance": {},
+        "ruleVersion": "n1-rule-v1",
+        "promptTemplateVersion": "notebooklm-v2",
+        "ruleFile": "n1-module-default.json",
+        "ruleResolvedPath": "content/modules/rules/n1-module-default.json"
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-004",
+    "title": "N2 모듈 004 (Day 1-2)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-004-batch-02",
+        "vocabIds": [
+            "v-6d7736a0fbbe30a4eaf138e14d2ae6182d87a45d",
+            "v-762bb951308c1c03048cae83017a4ada719300c6",
+            "v-396fcc6d1df5e7732d560047b645d53546098647",
+            "v-9c3a210b8f4747f18cec563a384cff9f2a2c3381",
+            "v-521d75035b56f7c3bee9e21e9bc1a9a651801e76",
+            "v-fe05ac650e316f2ba424c81d53f5bf1d27b39cf2",
+            "v-270f8d8a9c46b2b59578311e0ee04d36987cf135",
+            "v-958668f4776cb458814049c1b90c3d5ff28ea1fb",
+            "v-708a87c673f4fb5ed032feab694d58149fb6199d",
+            "v-04d34ebe44e1bfb6399db8d14856b5b414631e70",
+            "v-02b730a55675199c8d3faae7d2a491eed7716666",
+            "v-19c58371796b93f64a74e63a66c80c58f3027aee",
+            "v-9c90fc762896aaf6b9394f645f09b95835df2674"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-6d7736a0fbbe30a4eaf138e14d2ae6182d87a45d",
+            "word": "大声",
+            "read": "おおごえ",
+            "mean": "큰 소리"
+        },
+        {
+            "id": "v-762bb951308c1c03048cae83017a4ada719300c6",
+            "word": "大昔",
+            "read": "おおむかし",
+            "mean": "먼 옛날"
+        },
+        {
+            "id": "v-396fcc6d1df5e7732d560047b645d53546098647",
+            "word": "多め",
+            "read": "おおめ",
+            "mean": "조금 많음"
+        },
+        {
+            "id": "v-9c3a210b8f4747f18cec563a384cff9f2a2c3381",
+            "word": "丘",
+            "read": "おか",
+            "mean": "언덕"
+        },
+        {
+            "id": "v-521d75035b56f7c3bee9e21e9bc1a9a651801e76",
+            "word": "おかず",
+            "read": "おかず",
+            "mean": "반찬"
+        },
+        {
+            "id": "v-fe05ac650e316f2ba424c81d53f5bf1d27b39cf2",
+            "word": "悪寒",
+            "read": "おかん",
+            "mean": "오한"
+        },
+        {
+            "id": "v-270f8d8a9c46b2b59578311e0ee04d36987cf135",
+            "word": "沖",
+            "read": "おき",
+            "mean": "먼 바다"
+        },
+        {
+            "id": "v-958668f4776cb458814049c1b90c3d5ff28ea1fb",
+            "word": "お気に入り",
+            "read": "おきにいり",
+            "mean": "마음에 듦, 즐겨찾기"
+        },
+        {
+            "id": "v-708a87c673f4fb5ed032feab694d58149fb6199d",
+            "word": "お辞儀",
+            "read": "おじぎ",
+            "mean": "인사, 절"
+        },
+        {
+            "id": "v-04d34ebe44e1bfb6399db8d14856b5b414631e70",
+            "word": "おしゃべり",
+            "read": "おしゃべり",
+            "mean": "수다"
+        },
+        {
+            "id": "v-02b730a55675199c8d3faae7d2a491eed7716666",
+            "word": "汚染",
+            "read": "おせん",
+            "mean": "오염"
+        },
+        {
+            "id": "v-19c58371796b93f64a74e63a66c80c58f3027aee",
+            "word": "恐れ",
+            "read": "おそれ",
+            "mean": "두려움, 우려"
+        },
+        {
+            "id": "v-9c90fc762896aaf6b9394f645f09b95835df2674",
+            "word": "鬼",
+            "read": "おに",
+            "mean": "도깨비, 귀신"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

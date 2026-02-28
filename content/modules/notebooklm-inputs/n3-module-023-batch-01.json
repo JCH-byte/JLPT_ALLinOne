@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-023",
+    "title": "N3 모듈 023 (Day 8-9)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-023-batch-01",
+        "vocabIds": [
+            "v-2d5beb245233a7800dda8405bf8c9a9540a4264e",
+            "v-9502f25d39a8ade334ef52ab77d2d7d481f7621d",
+            "v-824e31c79ab7766555b1270a34be018d29ba80ef",
+            "v-d1a26dc8fa5c03cd4d615652a621f76f34563d6e",
+            "v-722a4913b389aec95be02cca171ee8d1784b13b1",
+            "v-34b6fb815acd61927c088a2c9e7330ada4aab96b",
+            "v-93100073d69baf4a9c43ad10625f057a56722679",
+            "v-15dc30ade3a082f84d43dcc49240c320b39549e6",
+            "v-f2dea02552a0f108c57f2bb3b2b37387bcff5fd7",
+            "v-b62d1bf77f0a90b523076fddacebdae8c96d6a98",
+            "v-c1a3eade9a387b21843ba0edb9c04737f3e47f66",
+            "v-235fc9cd2814190821599a6b25d964321e35a26a",
+            "v-062f7c35eab8c142a61f27a0b4afad2870fab06d",
+            "v-1895261e44e0012fa37dcbc121e4e65c83c698f4",
+            "v-785623e69c8f3e78ba4e9ee63795dbe7889fa32c",
+            "v-663cb1ffe1447ac8662e3ac14f7da69507883cd1",
+            "v-a012cb4911912549c017c727e56fcb74f1a95bc8",
+            "v-24ccb82110cd47cd404d65642756ef54105663ef",
+            "v-74d3d43dd3a85bd83e41d1235eceaa2ea8c47144",
+            "v-3fd933cc5e694a3d9e872f265aa91a77229abee1",
+            "v-16b0a160a6c234a532b9113e684b91819a51a3db",
+            "v-ecf3db87e9b98ac990bb7f7441fbafa359e15470",
+            "v-953faa78306a3b3f05f7b415d2ce8a8c2fd36aa9",
+            "v-1dbdf7c866ada22f03003246ccbd12245f5281fe",
+            "v-ae8cb38378c1c74c00aee4b30bf192939f2cb66e"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-2d5beb245233a7800dda8405bf8c9a9540a4264e",
+            "word": "青年",
+            "read": "せいねん",
+            "mean": "청년"
+        },
+        {
+            "id": "v-9502f25d39a8ade334ef52ab77d2d7d481f7621d",
+            "word": "生年月日",
+            "read": "せいねんがっぴ",
+            "mean": "생년월일"
+        },
+        {
+            "id": "v-824e31c79ab7766555b1270a34be018d29ba80ef",
+            "word": "製品",
+            "read": "せいひん",
+            "mean": "제품"
+        },
+        {
+            "id": "v-d1a26dc8fa5c03cd4d615652a621f76f34563d6e",
+            "word": "制服",
+            "read": "せいふく",
+            "mean": "제복, 교복"
+        },
+        {
+            "id": "v-722a4913b389aec95be02cca171ee8d1784b13b1",
+            "word": "正門",
+            "read": "せいもん",
+            "mean": "정문"
+        },
+        {
+            "id": "v-34b6fb815acd61927c088a2c9e7330ada4aab96b",
+            "word": "整理",
+            "read": "せいり",
+            "mean": "정리"
+        },
+        {
+            "id": "v-93100073d69baf4a9c43ad10625f057a56722679",
+            "word": "席",
+            "read": "せき",
+            "mean": "좌석, 자리"
+        },
+        {
+            "id": "v-15dc30ade3a082f84d43dcc49240c320b39549e6",
+            "word": "咳",
+            "read": "せき",
+            "mean": "기침"
+        },
+        {
+            "id": "v-f2dea02552a0f108c57f2bb3b2b37387bcff5fd7",
+            "word": "責任",
+            "read": "せきにん",
+            "mean": "책임"
+        },
+        {
+            "id": "v-b62d1bf77f0a90b523076fddacebdae8c96d6a98",
+            "word": "石油",
+            "read": "せきゆ",
+            "mean": "석유"
+        },
+        {
+            "id": "v-c1a3eade9a387b21843ba0edb9c04737f3e47f66",
+            "word": "接待",
+            "read": "せったい",
+            "mean": "접대"
+        },
+        {
+            "id": "v-235fc9cd2814190821599a6b25d964321e35a26a",
+            "word": "節約",
+            "read": "せつやく",
+            "mean": "절약"
+        },
+        {
+            "id": "v-062f7c35eab8c142a61f27a0b4afad2870fab06d",
+            "word": "線",
+            "read": "せん",
+            "mean": "선"
+        },
+        {
+            "id": "v-1895261e44e0012fa37dcbc121e4e65c83c698f4",
+            "word": "全員",
+            "read": "ぜんいん",
+            "mean": "전원"
+        },
+        {
+            "id": "v-785623e69c8f3e78ba4e9ee63795dbe7889fa32c",
+            "word": "選挙",
+            "read": "せんきょ",
+            "mean": "선거"
+        },
+        {
+            "id": "v-663cb1ffe1447ac8662e3ac14f7da69507883cd1",
+            "word": "前後",
+            "read": "ぜんご",
+            "mean": "전후"
+        },
+        {
+            "id": "v-a012cb4911912549c017c727e56fcb74f1a95bc8",
+            "word": "専攻",
+            "read": "せんこう",
+            "mean": "전공"
+        },
+        {
+            "id": "v-24ccb82110cd47cd404d65642756ef54105663ef",
+            "word": "洗剤",
+            "read": "せんざい",
+            "mean": "세제"
+        },
+        {
+            "id": "v-74d3d43dd3a85bd83e41d1235eceaa2ea8c47144",
+            "word": "先日",
+            "read": "せんじつ",
+            "mean": "요전, 일전"
+        },
+        {
+            "id": "v-3fd933cc5e694a3d9e872f265aa91a77229abee1",
+            "word": "選手",
+            "read": "せんしゅ",
+            "mean": "선수"
+        },
+        {
+            "id": "v-16b0a160a6c234a532b9113e684b91819a51a3db",
+            "word": "全身",
+            "read": "ぜんしん",
+            "mean": "전신"
+        },
+        {
+            "id": "v-ecf3db87e9b98ac990bb7f7441fbafa359e15470",
+            "word": "選択",
+            "read": "せんたく",
+            "mean": "선택"
+        },
+        {
+            "id": "v-953faa78306a3b3f05f7b415d2ce8a8c2fd36aa9",
+            "word": "洗濯機",
+            "read": "せんたくき",
+            "mean": "세탁기"
+        },
+        {
+            "id": "v-1dbdf7c866ada22f03003246ccbd12245f5281fe",
+            "word": "洗濯物",
+            "read": "せんたくもの",
+            "mean": "세탁물"
+        },
+        {
+            "id": "v-ae8cb38378c1c74c00aee4b30bf192939f2cb66e",
+            "word": "宣伝",
+            "read": "せんでん",
+            "mean": "선전"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

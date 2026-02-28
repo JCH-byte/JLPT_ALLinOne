@@ -1,0 +1,24 @@
+{
+    "ruleVersion": "n4-rule-v1",
+    "bannedExpressions": [
+        "過度に難解な表現",
+        "俗語の多用"
+    ],
+    "difficultyCeiling": "N4",
+    "grammarTargets": [
+        "〜ために",
+        "〜のおかげで",
+        "〜について",
+        "〜みたいに",
+        "〜として",
+        "〜ことになる"
+    ],
+    "style": "学習教材向けの丁寧体",
+    "lengthLimit": {
+        "maxChars": 200
+    },
+    "parserThresholds": {
+        "maxJlptLevel": "N4",
+        "maxChars": 200
+    }
+}

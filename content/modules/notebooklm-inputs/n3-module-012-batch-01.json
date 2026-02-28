@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-012",
+    "title": "N3 모듈 012 (Day 4-5)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-012-batch-01",
+        "vocabIds": [
+            "v-ab67492045f95c92d2d0a1cad348bd2fdbb577f5",
+            "v-8d15bfb17f34af994ec989b64a0f4d9751d85375",
+            "v-3cf8362919f8414000fbddf30d552f1ab508a7e9",
+            "v-f484255271f6807b6e872d7fb1d55930cb119df2",
+            "v-c91229510d298076b9dd217c13b261a1fb9be939",
+            "v-0a4742e8cc6be3774e12f3b0b4062d06a597a134",
+            "v-439e73d54a497c44312cb583951763821ebf5378",
+            "v-37b480db10ef676bdbd2fbf5a9439ef32c0ff182",
+            "v-0642ffee9f413ff46edbc1d75b8cdd923ff8411a",
+            "v-7d1ff1738cd9dab9d3cd1a660966332178d85fe7",
+            "v-312ae24542a68478924ccf6a4905e086382e0a06",
+            "v-8b8c8a85bd8418146c839812da82da30dfc012c0",
+            "v-b97382adc3aa7a33b672f5662ecea08243c9409e",
+            "v-ef18301692c0309a43fd42eef3b0688b020d01ca",
+            "v-197644a5f1f136b42ebd7c83905db1dd1687404b",
+            "v-27d575eb64d30b89be3f3259946342a0e276a49b",
+            "v-0683090e4df0cc408f45cd7a0a8af3bb9abf419f",
+            "v-871ad72646b10f5043d544252d6516d71be9831f",
+            "v-57b4c37216b44706af4abad4408dd7329630295f",
+            "v-b5d7f4b2da8e862abfe429d51992309d5df7b774",
+            "v-e0a2571dc6f35f3e5e72845f7183dae5e92ed2dd",
+            "v-97192f1ec1497bad5e7c574f116758787df12e59",
+            "v-c6e2ad1a7a7e3cfb123d7c8d19b3ced033641c3e",
+            "v-6b4c29bec0055bc593fd6fe928a3d4d41f7050a7",
+            "v-61a500907c1e45ad763ccdd7cad52a8c020ab168"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-ab67492045f95c92d2d0a1cad348bd2fdbb577f5",
+            "word": "決定",
+            "read": "けってい",
+            "mean": "결정"
+        },
+        {
+            "id": "v-8d15bfb17f34af994ec989b64a0f4d9751d85375",
+            "word": "欠点",
+            "read": "けってん",
+            "mean": "결점"
+        },
+        {
+            "id": "v-3cf8362919f8414000fbddf30d552f1ab508a7e9",
+            "word": "結論",
+            "read": "けつろん",
+            "mean": "결론"
+        },
+        {
+            "id": "v-f484255271f6807b6e872d7fb1d55930cb119df2",
+            "word": "煙",
+            "read": "けむり",
+            "mean": "연기"
+        },
+        {
+            "id": "v-c91229510d298076b9dd217c13b261a1fb9be939",
+            "word": "件",
+            "read": "けん",
+            "mean": "건, 안건"
+        },
+        {
+            "id": "v-0a4742e8cc6be3774e12f3b0b4062d06a597a134",
+            "word": "券",
+            "read": "けん",
+            "mean": "권, 표"
+        },
+        {
+            "id": "v-439e73d54a497c44312cb583951763821ebf5378",
+            "word": "原因",
+            "read": "げんいん",
+            "mean": "원인"
+        },
+        {
+            "id": "v-37b480db10ef676bdbd2fbf5a9439ef32c0ff182",
+            "word": "研究室",
+            "read": "けんきゅうしつ",
+            "mean": "연구실"
+        },
+        {
+            "id": "v-0642ffee9f413ff46edbc1d75b8cdd923ff8411a",
+            "word": "現金",
+            "read": "げんきん",
+            "mean": "현금"
+        },
+        {
+            "id": "v-7d1ff1738cd9dab9d3cd1a660966332178d85fe7",
+            "word": "言語",
+            "read": "げんご",
+            "mean": "언어"
+        },
+        {
+            "id": "v-312ae24542a68478924ccf6a4905e086382e0a06",
+            "word": "健康",
+            "read": "けんこう",
+            "mean": "건강"
+        },
+        {
+            "id": "v-8b8c8a85bd8418146c839812da82da30dfc012c0",
+            "word": "検査",
+            "read": "けんさ",
+            "mean": "검사"
+        },
+        {
+            "id": "v-b97382adc3aa7a33b672f5662ecea08243c9409e",
+            "word": "現在",
+            "read": "げんざい",
+            "mean": "현재"
+        },
+        {
+            "id": "v-ef18301692c0309a43fd42eef3b0688b020d01ca",
+            "word": "現実",
+            "read": "げんじつ",
+            "mean": "현실"
+        },
+        {
+            "id": "v-197644a5f1f136b42ebd7c83905db1dd1687404b",
+            "word": "減少",
+            "read": "げんしょう",
+            "mean": "감소"
+        },
+        {
+            "id": "v-27d575eb64d30b89be3f3259946342a0e276a49b",
+            "word": "建設",
+            "read": "けんせつ",
+            "mean": "건설"
+        },
+        {
+            "id": "v-0683090e4df0cc408f45cd7a0a8af3bb9abf419f",
+            "word": "現代",
+            "read": "げんだい",
+            "mean": "현대"
+        },
+        {
+            "id": "v-871ad72646b10f5043d544252d6516d71be9831f",
+            "word": "限度",
+            "read": "げんど",
+            "mean": "한도"
+        },
+        {
+            "id": "v-57b4c37216b44706af4abad4408dd7329630295f",
+            "word": "原料",
+            "read": "げんりょう",
+            "mean": "원료"
+        },
+        {
+            "id": "v-b5d7f4b2da8e862abfe429d51992309d5df7b774",
+            "word": "恋",
+            "read": "こい",
+            "mean": "사랑"
+        },
+        {
+            "id": "v-e0a2571dc6f35f3e5e72845f7183dae5e92ed2dd",
+            "word": "恋人",
+            "read": "こいびと",
+            "mean": "연인"
+        },
+        {
+            "id": "v-97192f1ec1497bad5e7c574f116758787df12e59",
+            "word": "幸運",
+            "read": "こううん",
+            "mean": "행운"
+        },
+        {
+            "id": "v-c6e2ad1a7a7e3cfb123d7c8d19b3ced033641c3e",
+            "word": "効果",
+            "read": "こうか",
+            "mean": "효과"
+        },
+        {
+            "id": "v-6b4c29bec0055bc593fd6fe928a3d4d41f7050a7",
+            "word": "工学",
+            "read": "こうがく",
+            "mean": "공학"
+        },
+        {
+            "id": "v-61a500907c1e45ad763ccdd7cad52a8c020ab168",
+            "word": "合格",
+            "read": "ごうかく",
+            "mean": "합격"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}
