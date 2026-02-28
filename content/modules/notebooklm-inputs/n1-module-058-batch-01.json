@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-058",
+    "title": "N1 모듈 058 (Day 16)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-058-batch-01",
+        "vocabIds": [
+            "v-5c6f82e10aa96e69d9809f289ef59e5be1a7d749",
+            "v-a225239e31320f6b7730603fa19e65b54e480153",
+            "v-119cf23f75c54bd25389a59815ba11b293380a76",
+            "v-95180783e16c490bf7e872b453ef6aa6d5894ad7",
+            "v-01a18e781fe1cdaddd6464e65ef265dd1c3c1754",
+            "v-435fbf7ae5752019243ba6560ce7616ff5767234",
+            "v-4fecd7eb2ef2ca27bc767a2fba8b052e2a4d9842",
+            "v-f247c79da1a6744f42733176b8d89b18eddea927",
+            "v-4c1066c41f03be7a68da82a2c8d0a87e5ca08116",
+            "v-ea25112b243aa0ddcca3e0060b9a4589a06b3576",
+            "v-206d3d87312fac82094d5841f327ca066fa1b11e",
+            "v-3c3f43f83d3b72bf57bd9ddc9e1b69137bbbda01",
+            "v-97cbcc36fed6f76c0fb667be970e88127de5a7e3",
+            "v-869f4b0ab43e08741e63b956e77fa564b2045082",
+            "v-48d283aafdbc06a0cdd995623f9ed4c91aa42e74",
+            "v-3c86a97f4ffecc361b0cb8174848dfc8ac1416c3",
+            "v-3ce401c8d2e53185143521247bf94eefb9478c93",
+            "v-645ede3a6c3ca3e75b17204ea74e120c698f3ee5",
+            "v-f4baf3864b7e60cf2e5e3555a83256dbb5542fd0",
+            "v-7d076fea9498e2ca7469256e79c12fe0a4494b8c",
+            "v-1223ac5187a444e16cfbfafbe450c6cfe315db97",
+            "v-3511fac7b53620931e1480c571cce079f687c741",
+            "v-25647ed9d83bf3c5f2e5c721c04c9936561ecfbe",
+            "v-e5ce7c0e62896596b08a22a7a5c832d7fdfa8da7",
+            "v-a6e95be1b69dce965565e29f30c396297701ad47"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-5c6f82e10aa96e69d9809f289ef59e5be1a7d749",
+            "word": "欠く",
+            "read": "かく",
+            "mean": "빠뜨리다, 결하다"
+        },
+        {
+            "id": "v-a225239e31320f6b7730603fa19e65b54e480153",
+            "word": "駆けつける",
+            "read": "かけつける",
+            "mean": "달려오다"
+        },
+        {
+            "id": "v-119cf23f75c54bd25389a59815ba11b293380a76",
+            "word": "駆け寄る",
+            "read": "かけよる",
+            "mean": "다가가다"
+        },
+        {
+            "id": "v-95180783e16c490bf7e872b453ef6aa6d5894ad7",
+            "word": "賭ける",
+            "read": "かける",
+            "mean": "걸다, 내기하다"
+        },
+        {
+            "id": "v-01a18e781fe1cdaddd6464e65ef265dd1c3c1754",
+            "word": "かこつける",
+            "read": "かこつける",
+            "mean": "핑계 대다"
+        },
+        {
+            "id": "v-435fbf7ae5752019243ba6560ce7616ff5767234",
+            "word": "かさばる",
+            "read": "かさばる",
+            "mean": "부피가 커지다"
+        },
+        {
+            "id": "v-4fecd7eb2ef2ca27bc767a2fba8b052e2a4d9842",
+            "word": "かさむ",
+            "read": "かさむ",
+            "mean": "부피가 커지다, 불어나다"
+        },
+        {
+            "id": "v-f247c79da1a6744f42733176b8d89b18eddea927",
+            "word": "掠る",
+            "read": "かする",
+            "mean": "스치다"
+        },
+        {
+            "id": "v-4c1066c41f03be7a68da82a2c8d0a87e5ca08116",
+            "word": "傾ける",
+            "read": "かたむける",
+            "mean": "기울이다"
+        },
+        {
+            "id": "v-ea25112b243aa0ddcca3e0060b9a4589a06b3576",
+            "word": "叶える",
+            "read": "かなえる",
+            "mean": "이루어 주다"
+        },
+        {
+            "id": "v-206d3d87312fac82094d5841f327ca066fa1b11e",
+            "word": "かぶれる",
+            "read": "かぶれる",
+            "mean": "타다(피부), 감화되다"
+        },
+        {
+            "id": "v-3c3f43f83d3b72bf57bd9ddc9e1b69137bbbda01",
+            "word": "構える",
+            "read": "かまえる",
+            "mean": "자세를 취하다, 짓다"
+        },
+        {
+            "id": "v-97cbcc36fed6f76c0fb667be970e88127de5a7e3",
+            "word": "噛み合う",
+            "read": "かみあう",
+            "mean": "맞물리다, 말이 통하다"
+        },
+        {
+            "id": "v-869f4b0ab43e08741e63b956e77fa564b2045082",
+            "word": "絡む",
+            "read": "からむ",
+            "mean": "얽히다, 트집 잡다"
+        },
+        {
+            "id": "v-48d283aafdbc06a0cdd995623f9ed4c91aa42e74",
+            "word": "交わす",
+            "read": "かわす",
+            "mean": "주고받다, 교환하다"
+        },
+        {
+            "id": "v-3c86a97f4ffecc361b0cb8174848dfc8ac1416c3",
+            "word": "聞き流す",
+            "read": "ききながす",
+            "mean": "흘려듣다"
+        },
+        {
+            "id": "v-3ce401c8d2e53185143521247bf94eefb9478c93",
+            "word": "きしむ",
+            "read": "きしむ",
+            "mean": "삐걱거리다"
+        },
+        {
+            "id": "v-645ede3a6c3ca3e75b17204ea74e120c698f3ee5",
+            "word": "築き上げる",
+            "read": "きずきあげる",
+            "mean": "쌓아 올리다"
+        },
+        {
+            "id": "v-f4baf3864b7e60cf2e5e3555a83256dbb5542fd0",
+            "word": "鍛える",
+            "read": "きたえる",
+            "mean": "단련하다"
+        },
+        {
+            "id": "v-7d076fea9498e2ca7469256e79c12fe0a4494b8c",
+            "word": "来す",
+            "read": "きたす",
+            "mean": "초래하다"
+        },
+        {
+            "id": "v-1223ac5187a444e16cfbfafbe450c6cfe315db97",
+            "word": "興じる",
+            "read": "きょうじる",
+            "mean": "흥겨워하다"
+        },
+        {
+            "id": "v-3511fac7b53620931e1480c571cce079f687c741",
+            "word": "切り替える",
+            "read": "きりかえる",
+            "mean": "바꾸다, 전환하다"
+        },
+        {
+            "id": "v-25647ed9d83bf3c5f2e5c721c04c9936561ecfbe",
+            "word": "切り出す",
+            "read": "きりだす",
+            "mean": "말을 꺼내다, 베어 내다"
+        },
+        {
+            "id": "v-e5ce7c0e62896596b08a22a7a5c832d7fdfa8da7",
+            "word": "食い込む",
+            "read": "くいこむ",
+            "mean": "파고들다"
+        },
+        {
+            "id": "v-a6e95be1b69dce965565e29f30c396297701ad47",
+            "word": "食い違う",
+            "read": "くいちがう",
+            "mean": "어긋나다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

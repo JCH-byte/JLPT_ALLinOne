@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-043",
+    "title": "N3 모듈 043 (Day 16)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-043-batch-01",
+        "vocabIds": [
+            "v-8b7b4c4e62553f9f1f320e7fd820ead9f658af96",
+            "v-180921e5dfff8f9f8fd7b6c5d8a975567b0c0dcd",
+            "v-70b6677e8465bee53b7f30b4965a201078110ef9",
+            "v-e37e51c79d55e0709851718c17530b88ac5ac278",
+            "v-cbf6b0522c7ae58d19dcf65c688061191b06d8db",
+            "v-b104964035ce1b87657b41b922ddc75a855a3db6",
+            "v-6ea38d39a3bba2a23c3fa315b0e814665d29996e",
+            "v-16170f22309b957fbc4fa4b89fd8b8a35edcb03c",
+            "v-847ae7013465b5ee6bde9228601dad10a87499f8",
+            "v-d4ff0b0e2c0db14c94cb70716ef8bccd8d7f5111",
+            "v-53afbe08ada3c7cfa61fff0d119dabe8eca53a0e",
+            "v-b380916af0cc6cacca9828859641040f305cc5d7",
+            "v-406d3e0e13056f1d9758462ef05583d916871c0c",
+            "v-acf24663edf09d718e1347dc4b03fa4aef6ed55e",
+            "v-ce2b87aed086494dacbbad3b5cc5daeab19fc3b1",
+            "v-5dce3ac405edc00ead89920d5012396155248066",
+            "v-346ff3de23b897ae254072cdd40885166115ace2",
+            "v-ecf7612fbe750b880d729bab6ad22a432081e1b3",
+            "v-63dc0626f40c96536ac55bffbe33a7918a5dc792",
+            "v-c79a58c3d86ea29cc3d37cf17688468862964db1",
+            "v-792d196d00d5325665934d73acb08d64c6fe443f",
+            "v-28ad01de007057ade2129641625d906187968370",
+            "v-fafe65eaec9a96f04f22158b9fb4c77ce9aba172",
+            "v-c04835858ef22baf9f4689f67f3f98416db5f2c0",
+            "v-8d3af1a241329cc7261686e19027c091403377d3"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-8b7b4c4e62553f9f1f320e7fd820ead9f658af96",
+            "word": "録音",
+            "read": "ろくおん",
+            "mean": "녹음"
+        },
+        {
+            "id": "v-180921e5dfff8f9f8fd7b6c5d8a975567b0c0dcd",
+            "word": "録画",
+            "read": "ろくが",
+            "mean": "녹화"
+        },
+        {
+            "id": "v-70b6677e8465bee53b7f30b4965a201078110ef9",
+            "word": "路面",
+            "read": "ろめん",
+            "mean": "노면"
+        },
+        {
+            "id": "v-e37e51c79d55e0709851718c17530b88ac5ac278",
+            "word": "輪",
+            "read": "わ",
+            "mean": "고리, 바퀴"
+        },
+        {
+            "id": "v-cbf6b0522c7ae58d19dcf65c688061191b06d8db",
+            "word": "若者",
+            "read": "わかもの",
+            "mean": "젊은이"
+        },
+        {
+            "id": "v-b104964035ce1b87657b41b922ddc75a855a3db6",
+            "word": "別れ",
+            "read": "わかれ",
+            "mean": "이별"
+        },
+        {
+            "id": "v-6ea38d39a3bba2a23c3fa315b0e814665d29996e",
+            "word": "和室",
+            "read": "わしつ",
+            "mean": "일본식 방"
+        },
+        {
+            "id": "v-16170f22309b957fbc4fa4b89fd8b8a35edcb03c",
+            "word": "和食",
+            "read": "わしょく",
+            "mean": "일식"
+        },
+        {
+            "id": "v-847ae7013465b5ee6bde9228601dad10a87499f8",
+            "word": "話題",
+            "read": "わだい",
+            "mean": "화제"
+        },
+        {
+            "id": "v-d4ff0b0e2c0db14c94cb70716ef8bccd8d7f5111",
+            "word": "渡り鳥",
+            "read": "わたりどり",
+            "mean": "철새"
+        },
+        {
+            "id": "v-53afbe08ada3c7cfa61fff0d119dabe8eca53a0e",
+            "word": "詫び",
+            "read": "わび",
+            "mean": "사죄, 사과"
+        },
+        {
+            "id": "v-b380916af0cc6cacca9828859641040f305cc5d7",
+            "word": "笑い",
+            "read": "わらい",
+            "mean": "웃음"
+        },
+        {
+            "id": "v-406d3e0e13056f1d9758462ef05583d916871c0c",
+            "word": "~割",
+            "read": "~わり",
+            "mean": "~할 (비율)"
+        },
+        {
+            "id": "v-acf24663edf09d718e1347dc4b03fa4aef6ed55e",
+            "word": "割合",
+            "read": "わりあい",
+            "mean": "비율"
+        },
+        {
+            "id": "v-ce2b87aed086494dacbbad3b5cc5daeab19fc3b1",
+            "word": "割り算",
+            "read": "わりざん",
+            "mean": "나눗셈"
+        },
+        {
+            "id": "v-5dce3ac405edc00ead89920d5012396155248066",
+            "word": "割引",
+            "read": "わりびき",
+            "mean": "할인"
+        },
+        {
+            "id": "v-346ff3de23b897ae254072cdd40885166115ace2",
+            "word": "各~",
+            "read": "かく~",
+            "mean": "각~"
+        },
+        {
+            "id": "v-ecf7612fbe750b880d729bab6ad22a432081e1b3",
+            "word": "全~",
+            "read": "ぜん~",
+            "mean": "전~"
+        },
+        {
+            "id": "v-63dc0626f40c96536ac55bffbe33a7918a5dc792",
+            "word": "長~",
+            "read": "ちょう~",
+            "mean": "장~"
+        },
+        {
+            "id": "v-c79a58c3d86ea29cc3d37cf17688468862964db1",
+            "word": "無~",
+            "read": "む~",
+            "mean": "무~"
+        },
+        {
+            "id": "v-792d196d00d5325665934d73acb08d64c6fe443f",
+            "word": "両~",
+            "read": "りょう~",
+            "mean": "양~"
+        },
+        {
+            "id": "v-28ad01de007057ade2129641625d906187968370",
+            "word": "~家",
+            "read": "~か",
+            "mean": "~가 (사람/집)"
+        },
+        {
+            "id": "v-fafe65eaec9a96f04f22158b9fb4c77ce9aba172",
+            "word": "~行",
+            "read": "~ぎょう",
+            "mean": "~행 (줄)"
+        },
+        {
+            "id": "v-c04835858ef22baf9f4689f67f3f98416db5f2c0",
+            "word": "~産",
+            "read": "~さん",
+            "mean": "~산 (생산지)"
+        },
+        {
+            "id": "v-8d3af1a241329cc7261686e19027c091403377d3",
+            "word": "~式",
+            "read": "~しき",
+            "mean": "~식"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

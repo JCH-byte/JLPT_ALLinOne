@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-029",
+    "title": "N1 모듈 029 (Day 8)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-029-batch-01",
+        "vocabIds": [
+            "v-1dca1a8c7f66afa3a70afbb648da6d4aa10c97ab",
+            "v-481ebf9a33ece418f748fe73419fe207d57290b0",
+            "v-3d7ded8f6aeffcd1e9af478264c46ffa982fd968",
+            "v-3d262909ee59edec04c9f7402a032cb15650645a",
+            "v-bea6846741071bc52d6711fb83b95eb453b0aaf9",
+            "v-cd945f93e390bdbc5c2860f2acd740cc991e63bd",
+            "v-98d9e7c04276772a8fc9b7e58a6d292f31b6f010",
+            "v-8320559465a0eaa28c70edf10a16af40e51be099",
+            "v-d6527aba3613e4ddc01acb77a78a152b944dd287",
+            "v-b6b8fa3b0b923ffde481f73dea82a1a625b06c31",
+            "v-4d71a46e8158587b28ab3cab2827d43479cccd1b",
+            "v-4f212748f202e5a4b829287baafc7008da03d2bf",
+            "v-077a8b5c62e80d396f808cf6ba31073b4f284889",
+            "v-4cbcac199c57d81eecc2f5587f9a32f1c3506736",
+            "v-eb3ea9e7383be67c4889b8cc7dceafddd34981c6",
+            "v-7ce0270aa55bd75fba2e0180871a1151bd0e428f",
+            "v-efc2ef0d3552d4dc6e12a20480ec0713139df1d5",
+            "v-184526096f9745b82e4abeda781c79090cd262f8",
+            "v-71ee03bc5c80e9c27739e3daab46dca9b8a2be98",
+            "v-457285d440f27d14e593dfb2a19094e13dbeb91d",
+            "v-687d290141f05b794b5b2fed98521b7bef9d75d4",
+            "v-c238229696af69eb8e0ed692351e0cbb550cde21",
+            "v-d33dfa2ffa98c3dadf3b31f672ed2ee87a60b1ea",
+            "v-aaf2e1b911e1597f83d91d7311066ec2b59da1be",
+            "v-f5c455d3d1431fe473912b856c87bbd374d26c1a"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-1dca1a8c7f66afa3a70afbb648da6d4aa10c97ab",
+            "word": "宣言",
+            "read": "せんげん",
+            "mean": "선언"
+        },
+        {
+            "id": "v-481ebf9a33ece418f748fe73419fe207d57290b0",
+            "word": "選考",
+            "read": "せんこう",
+            "mean": "전형, 선발"
+        },
+        {
+            "id": "v-3d7ded8f6aeffcd1e9af478264c46ffa982fd968",
+            "word": "戦災",
+            "read": "せんさい",
+            "mean": "전재, 전쟁 피해"
+        },
+        {
+            "id": "v-3d262909ee59edec04c9f7402a032cb15650645a",
+            "word": "全集",
+            "read": "ぜんしゅう",
+            "mean": "전집"
+        },
+        {
+            "id": "v-bea6846741071bc52d6711fb83b95eb453b0aaf9",
+            "word": "選出",
+            "read": "せんしゅつ",
+            "mean": "선출"
+        },
+        {
+            "id": "v-cd945f93e390bdbc5c2860f2acd740cc991e63bd",
+            "word": "戦術",
+            "read": "せんじゅつ",
+            "mean": "전술"
+        },
+        {
+            "id": "v-98d9e7c04276772a8fc9b7e58a6d292f31b6f010",
+            "word": "前提",
+            "read": "ぜんてい",
+            "mean": "전제"
+        },
+        {
+            "id": "v-8320559465a0eaa28c70edf10a16af40e51be099",
+            "word": "戦闘",
+            "read": "せんとう",
+            "mean": "전투"
+        },
+        {
+            "id": "v-d6527aba3613e4ddc01acb77a78a152b944dd287",
+            "word": "潜入",
+            "read": "せんにゅう",
+            "mean": "잠입"
+        },
+        {
+            "id": "v-b6b8fa3b0b923ffde481f73dea82a1a625b06c31",
+            "word": "船舶",
+            "read": "せんぱく",
+            "mean": "선박"
+        },
+        {
+            "id": "v-4d71a46e8158587b28ab3cab2827d43479cccd1b",
+            "word": "潜伏",
+            "read": "せんぷく",
+            "mean": "잠복"
+        },
+        {
+            "id": "v-4f212748f202e5a4b829287baafc7008da03d2bf",
+            "word": "先方",
+            "read": "せんぽう",
+            "mean": "상대방"
+        },
+        {
+            "id": "v-077a8b5c62e80d396f808cf6ba31073b4f284889",
+            "word": "全滅",
+            "read": "ぜんめつ",
+            "mean": "전멸"
+        },
+        {
+            "id": "v-4cbcac199c57d81eecc2f5587f9a32f1c3506736",
+            "word": "占領",
+            "read": "せんりょう",
+            "mean": "점령"
+        },
+        {
+            "id": "v-eb3ea9e7383be67c4889b8cc7dceafddd34981c6",
+            "word": "憎悪",
+            "read": "ぞうお",
+            "mean": "증오"
+        },
+        {
+            "id": "v-7ce0270aa55bd75fba2e0180871a1151bd0e428f",
+            "word": "相応",
+            "read": "そうおう",
+            "mean": "상응, 걸맞음"
+        },
+        {
+            "id": "v-efc2ef0d3552d4dc6e12a20480ec0713139df1d5",
+            "word": "增強",
+            "read": "ぞうきょう",
+            "mean": "증강"
+        },
+        {
+            "id": "v-184526096f9745b82e4abeda781c79090cd262f8",
+            "word": "走行",
+            "read": "そうこう",
+            "mean": "주행"
+        },
+        {
+            "id": "v-71ee03bc5c80e9c27739e3daab46dca9b8a2be98",
+            "word": "喪失",
+            "read": "そうしつ",
+            "mean": "상실"
+        },
+        {
+            "id": "v-457285d440f27d14e593dfb2a19094e13dbeb91d",
+            "word": "操縦",
+            "read": "そうじゅう",
+            "mean": "조종"
+        },
+        {
+            "id": "v-687d290141f05b794b5b2fed98521b7bef9d75d4",
+            "word": "装飾",
+            "read": "そうしょく",
+            "mean": "장식"
+        },
+        {
+            "id": "v-c238229696af69eb8e0ed692351e0cbb550cde21",
+            "word": "增進",
+            "read": "ぞうしん",
+            "mean": "증진"
+        },
+        {
+            "id": "v-d33dfa2ffa98c3dadf3b31f672ed2ee87a60b1ea",
+            "word": "相当",
+            "read": "そうとう",
+            "mean": "상당"
+        },
+        {
+            "id": "v-aaf2e1b911e1597f83d91d7311066ec2b59da1be",
+            "word": "遭難",
+            "read": "そうなん",
+            "mean": "조난"
+        },
+        {
+            "id": "v-f5c455d3d1431fe473912b856c87bbd374d26c1a",
+            "word": "相場",
+            "read": "そうば",
+            "mean": "시세"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

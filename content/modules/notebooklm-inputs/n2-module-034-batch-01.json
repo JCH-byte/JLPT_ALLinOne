@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-034",
+    "title": "N2 모듈 034 (Day 11)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-034-batch-01",
+        "vocabIds": [
+            "v-42089fdfb06f8569048714e38297d5cf85cd8e2e",
+            "v-8936f291a3f61938441f40a58db3397e2bd2d529",
+            "v-a15d0bac659bb14cdfec22b71770a6a36c9c19c2",
+            "v-397732cd83d9f1390f0d6e6e141a7169c8a0572a",
+            "v-06dab3f6cb859eb79b313a314750cac6d92be08d",
+            "v-b05a42ad9751039bbb4bc6dd181ebabb7845e0e8",
+            "v-b7ff47d6060e50dce29830c24f942951215824f1",
+            "v-25d5cfca134200d2f51431dcec2ac1e51eb896cf",
+            "v-6366b6106d1bd7f38086006032939cdd45691ee0",
+            "v-7423173f846a2d999d3ccedb5fd509b6896723e9",
+            "v-f55aeb78528439197f4ef8b5cf62a16e8210c8a1",
+            "v-8f541186583e7cab526ad28f233a0f1a02a664bb",
+            "v-f2773a07a0b3da20bd25d3a9c1b9887a43e28130",
+            "v-35eaa2883a028163b3b261f73823e2f1536ea242",
+            "v-f95f92525e0973e8ff1816078b59b8df6ec07813",
+            "v-b672ec68a4d1e645a58e425ae4ce71e880a84c36",
+            "v-d5ed3ff5964e0cb56655885802e43c9b733799e4",
+            "v-4a34e78e7c42b9a2ea59c85d2c356c40842f5e18",
+            "v-2acfa4239c11a911f374301197a61f8818a999a7",
+            "v-a82e61fc77abf8738fcdfc7bd045233d33cc2974",
+            "v-f6f15507418823bfa774051473f15fc7b08215d0",
+            "v-b8a8c47161a47e315cafa6384f336671295e69b1",
+            "v-37353d47b1d8e479a4c7219f3cf15706a761ae46",
+            "v-7a59f15d869ddd3e1c97b69f18ea593323ddfb51",
+            "v-1df9639d02700b8954e6da43da274015ee2e2e1c"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-42089fdfb06f8569048714e38297d5cf85cd8e2e",
+            "word": "手入れ",
+            "read": "ていれ",
+            "mean": "손질"
+        },
+        {
+            "id": "v-8936f291a3f61938441f40a58db3397e2bd2d529",
+            "word": "手書き",
+            "read": "てがき",
+            "mean": "손으로 씀"
+        },
+        {
+            "id": "v-a15d0bac659bb14cdfec22b71770a6a36c9c19c2",
+            "word": "敵",
+            "read": "てき",
+            "mean": "적"
+        },
+        {
+            "id": "v-397732cd83d9f1390f0d6e6e141a7169c8a0572a",
+            "word": "適用",
+            "read": "てきよう",
+            "mean": "적용"
+        },
+        {
+            "id": "v-06dab3f6cb859eb79b313a314750cac6d92be08d",
+            "word": "弟子",
+            "read": "でし",
+            "mean": "제자"
+        },
+        {
+            "id": "v-b05a42ad9751039bbb4bc6dd181ebabb7845e0e8",
+            "word": "手帳",
+            "read": "てちょう",
+            "mean": "수첩"
+        },
+        {
+            "id": "v-b7ff47d6060e50dce29830c24f942951215824f1",
+            "word": "鉄",
+            "read": "てつ",
+            "mean": "철"
+        },
+        {
+            "id": "v-25d5cfca134200d2f51431dcec2ac1e51eb896cf",
+            "word": "哲学",
+            "read": "てつがく",
+            "mean": "철학"
+        },
+        {
+            "id": "v-6366b6106d1bd7f38086006032939cdd45691ee0",
+            "word": "鉄橋",
+            "read": "てっきょう",
+            "mean": "철교"
+        },
+        {
+            "id": "v-7423173f846a2d999d3ccedb5fd509b6896723e9",
+            "word": "手作り",
+            "read": "てづくり",
+            "mean": "수제"
+        },
+        {
+            "id": "v-f55aeb78528439197f4ef8b5cf62a16e8210c8a1",
+            "word": "手続き",
+            "read": "てつづき",
+            "mean": "수속, 절차"
+        },
+        {
+            "id": "v-8f541186583e7cab526ad28f233a0f1a02a664bb",
+            "word": "鉄砲",
+            "read": "てっぽう",
+            "mean": "총, 철포"
+        },
+        {
+            "id": "v-f2773a07a0b3da20bd25d3a9c1b9887a43e28130",
+            "word": "徹夜",
+            "read": "てつや",
+            "mean": "철야, 밤샘"
+        },
+        {
+            "id": "v-35eaa2883a028163b3b261f73823e2f1536ea242",
+            "word": "手間",
+            "read": "てま",
+            "mean": "품, 수고"
+        },
+        {
+            "id": "v-f95f92525e0973e8ff1816078b59b8df6ec07813",
+            "word": "出迎え",
+            "read": "でむかえ",
+            "mean": "마중"
+        },
+        {
+            "id": "v-b672ec68a4d1e645a58e425ae4ce71e880a84c36",
+            "word": "添加",
+            "read": "てんか",
+            "mean": "첨가"
+        },
+        {
+            "id": "v-d5ed3ff5964e0cb56655885802e43c9b733799e4",
+            "word": "展開",
+            "read": "てんかい",
+            "mean": "전개"
+        },
+        {
+            "id": "v-4a34e78e7c42b9a2ea59c85d2c356c40842f5e18",
+            "word": "伝記",
+            "read": "でんき",
+            "mean": "전기(일대기)"
+        },
+        {
+            "id": "v-2acfa4239c11a911f374301197a61f8818a999a7",
+            "word": "転勤",
+            "read": "てんきん",
+            "mean": "전근"
+        },
+        {
+            "id": "v-a82e61fc77abf8738fcdfc7bd045233d33cc2974",
+            "word": "点検",
+            "read": "てんけん",
+            "mean": "점검"
+        },
+        {
+            "id": "v-f6f15507418823bfa774051473f15fc7b08215d0",
+            "word": "天候",
+            "read": "てんこう",
+            "mean": "천후, 날씨"
+        },
+        {
+            "id": "v-b8a8c47161a47e315cafa6384f336671295e69b1",
+            "word": "電子",
+            "read": "でんし",
+            "mean": "전자"
+        },
+        {
+            "id": "v-37353d47b1d8e479a4c7219f3cf15706a761ae46",
+            "word": "天井",
+            "read": "てんじょう",
+            "mean": "천장"
+        },
+        {
+            "id": "v-7a59f15d869ddd3e1c97b69f18ea593323ddfb51",
+            "word": "天職",
+            "read": "てんしょく",
+            "mean": "천직"
+        },
+        {
+            "id": "v-1df9639d02700b8954e6da43da274015ee2e2e1c",
+            "word": "点数",
+            "read": "てんすう",
+            "mean": "점수"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

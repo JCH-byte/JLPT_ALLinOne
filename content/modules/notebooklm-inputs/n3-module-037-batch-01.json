@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-037",
+    "title": "N3 모듈 037 (Day 14)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-037-batch-01",
+        "vocabIds": [
+            "v-5db83e625db683e3a5b074e37f538d043a607573",
+            "v-98f9a3a27e417543569da64e45a0ce6dc0c451e8",
+            "v-12cc241dfb38e8232bb1946a3a6278b5f8a76066",
+            "v-9063327482d53a1173f828668bcb314d55d98bc1",
+            "v-83cb0c7451056334af0bd3899d543bb192a3ae26",
+            "v-861a22f5984388a88d355e8c33447bfaefac6f9e",
+            "v-e0fb677d751977c9783d017475e4163a5d32ffe6",
+            "v-0acd9a8fa2328586a1c922edbc622744db11048a",
+            "v-1e627daf0197c07d1044ea942b2ced8f19fd8f27",
+            "v-6bdb27d01906d197e3e77fd8acdeb31c2686c2ec",
+            "v-b9ba62e7bb3983b6a02279047fee379aafcac4ad",
+            "v-e878564e9304d8b1527407ddb8375984c3cad9cf",
+            "v-08e925db85dbf3b4fddeadd9eb03c2fb5f0e9fd3",
+            "v-091728f2d62f3df50045b186d90474c528418f91",
+            "v-f2ca464976911e6ae487bd6c825939cd5c8125be",
+            "v-abc37354083ad4c3e5f5c47e0933cc4d4036c637",
+            "v-39da5d28e61c37ff8cea66c299b5c6deac12ce94",
+            "v-0637c2d750c8954d36b9de0e63cee3b8a85e5282",
+            "v-519d0bb5cee27ad317b7ebc413f5552bdcf7b4fd",
+            "v-27985fbe72b1337876df98cf9aca550ff84b8412",
+            "v-11f050acfcbdf0c733c5aa8ec86f33e76582640a",
+            "v-c37264a3152d62fe2cb79cdd64ab86f269670c24",
+            "v-ed956fa807c17cd3dbe352618340ec097d491f2c",
+            "v-cbf6f69b3085c30ba674a5b0ee3c980ba6ed2799",
+            "v-971bfa07abc97700ec43fe68c029c703fa74088f"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-5db83e625db683e3a5b074e37f538d043a607573",
+            "word": "法則",
+            "read": "ほうそく",
+            "mean": "법칙"
+        },
+        {
+            "id": "v-98f9a3a27e417543569da64e45a0ce6dc0c451e8",
+            "word": "包丁",
+            "read": "ほうちょう",
+            "mean": "식칼"
+        },
+        {
+            "id": "v-12cc241dfb38e8232bb1946a3a6278b5f8a76066",
+            "word": "忘年会",
+            "read": "ぼうねんかい",
+            "mean": "망년회"
+        },
+        {
+            "id": "v-9063327482d53a1173f828668bcb314d55d98bc1",
+            "word": "方法",
+            "read": "ほうほう",
+            "mean": "방법"
+        },
+        {
+            "id": "v-83cb0c7451056334af0bd3899d543bb192a3ae26",
+            "word": "方々",
+            "read": "ほうぼう",
+            "mean": "이곳저곳, 여기저기"
+        },
+        {
+            "id": "v-861a22f5984388a88d355e8c33447bfaefac6f9e",
+            "word": "方面",
+            "read": "ほうめん",
+            "mean": "방면"
+        },
+        {
+            "id": "v-e0fb677d751977c9783d017475e4163a5d32ffe6",
+            "word": "訪問",
+            "read": "ほうもん",
+            "mean": "방문"
+        },
+        {
+            "id": "v-0acd9a8fa2328586a1c922edbc622744db11048a",
+            "word": "法律",
+            "read": "ほうりつ",
+            "mean": "법률"
+        },
+        {
+            "id": "v-1e627daf0197c07d1044ea942b2ced8f19fd8f27",
+            "word": "他",
+            "read": "ほか",
+            "mean": "다른 것, 외"
+        },
+        {
+            "id": "v-6bdb27d01906d197e3e77fd8acdeb31c2686c2ec",
+            "word": "ほこり",
+            "read": "ほこり",
+            "mean": "먼지"
+        },
+        {
+            "id": "v-b9ba62e7bb3983b6a02279047fee379aafcac4ad",
+            "word": "募集",
+            "read": "ぼしゅう",
+            "mean": "모집"
+        },
+        {
+            "id": "v-e878564e9304d8b1527407ddb8375984c3cad9cf",
+            "word": "坊ちゃん",
+            "read": "ぼっちゃん",
+            "mean": "도련님"
+        },
+        {
+            "id": "v-08e925db85dbf3b4fddeadd9eb03c2fb5f0e9fd3",
+            "word": "歩道",
+            "read": "ほどう",
+            "mean": "보도, 인도"
+        },
+        {
+            "id": "v-091728f2d62f3df50045b186d90474c528418f91",
+            "word": "歩道橋",
+            "read": "ほどうきょう",
+            "mean": "육교"
+        },
+        {
+            "id": "v-f2ca464976911e6ae487bd6c825939cd5c8125be",
+            "word": "本店",
+            "read": "ほんてん",
+            "mean": "본점"
+        },
+        {
+            "id": "v-abc37354083ad4c3e5f5c47e0933cc4d4036c637",
+            "word": "本人",
+            "read": "ほんにん",
+            "mean": "본인"
+        },
+        {
+            "id": "v-39da5d28e61c37ff8cea66c299b5c6deac12ce94",
+            "word": "本部",
+            "read": "ほんぶ",
+            "mean": "본부"
+        },
+        {
+            "id": "v-0637c2d750c8954d36b9de0e63cee3b8a85e5282",
+            "word": "本物",
+            "read": "ほんもの",
+            "mean": "진짜"
+        },
+        {
+            "id": "v-519d0bb5cee27ad317b7ebc413f5552bdcf7b4fd",
+            "word": "翻訳",
+            "read": "ほんやく",
+            "mean": "번역"
+        },
+        {
+            "id": "v-27985fbe72b1337876df98cf9aca550ff84b8412",
+            "word": "間",
+            "read": "ま",
+            "mean": "사이, 틈"
+        },
+        {
+            "id": "v-11f050acfcbdf0c733c5aa8ec86f33e76582640a",
+            "word": "迷子",
+            "read": "まいご",
+            "mean": "미아, 길 잃은 아이"
+        },
+        {
+            "id": "v-c37264a3152d62fe2cb79cdd64ab86f269670c24",
+            "word": "毎度",
+            "read": "まいど",
+            "mean": "매번"
+        },
+        {
+            "id": "v-ed956fa807c17cd3dbe352618340ec097d491f2c",
+            "word": "負け",
+            "read": "まけ",
+            "mean": "짐, 패배"
+        },
+        {
+            "id": "v-cbf6f69b3085c30ba674a5b0ee3c980ba6ed2799",
+            "word": "孫",
+            "read": "まご",
+            "mean": "손자"
+        },
+        {
+            "id": "v-971bfa07abc97700ec43fe68c029c703fa74088f",
+            "word": "街",
+            "read": "まち",
+            "mean": "거리, 시가"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

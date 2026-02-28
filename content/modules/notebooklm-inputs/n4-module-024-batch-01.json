@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-024",
+    "title": "N4 모듈 024 (Day 17-18)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-024-batch-01",
+        "vocabIds": [
+            "v-94aea708937506effd453d61d034a6d6236790b7",
+            "v-a402b70a486d72f93eaa07dc74813a20305420b4",
+            "v-2b4bbc4a5ce6706518c17d2f06b3e289566a29b6",
+            "v-5a84f455b0fee21047576152a0cb3f700513a21c",
+            "v-0e7b6fc8aabc897e524b86ba1e3c575a0aa0bb23",
+            "v-17c4e3deb00afb7841057cd07ad8ecf9462ce3ed",
+            "v-6261ad4dbcb41c4cf2664c80857be7262bcbd2e3",
+            "v-325542b83e2747a697c98194d184a364b0920c0a",
+            "v-e20971b4e77c2d37b7f15d9e9983deaa7b7c38fd",
+            "v-27ad9ba265504adacf64b1d772e47f35e038f627",
+            "v-8e42246648bf44486d1559e92582fa9817ee7196",
+            "v-361e32d45486708be0335b642e503ef497423b59",
+            "v-ecd0a1a1f286c2cc60cc12a226f5c3db0d92aa11",
+            "v-81d9ed355d5f89db8903ca2abf01d3751491f2c4",
+            "v-8682b0ceec4e20ade2d1342d13f882c5bcaeccc5",
+            "v-ff1d9edd77d184ccac4256a6be0e98e7989e104c",
+            "v-2fbfda4b681679b6fc1963b8dd0a63cb1405ce13",
+            "v-fc4b1f19a3a9e3632be89568220f2da3fd3270b5",
+            "v-f416cd1428548f391cec97feb759a27389dd5ed8",
+            "v-ddaab9c5c98531323738362ee6ed8fe2656865cf",
+            "v-85b7c11715f501083d1335ddbbf7e1736100decc",
+            "v-fbd30f629853f1dc637285179dc529ca1ba152c2",
+            "v-b68875b15dbaf539fd901f9a56572effd17869ff",
+            "v-3bd52ed6a2a5f206912995f1f324f9a007820bea",
+            "v-613c106ee9722c638d307f62fbe869f625e41bbe"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-94aea708937506effd453d61d034a6d6236790b7",
+            "word": "止める",
+            "read": "とめる",
+            "mean": "멈추다, 세우다"
+        },
+        {
+            "id": "v-a402b70a486d72f93eaa07dc74813a20305420b4",
+            "word": "とられる",
+            "read": "とられる",
+            "mean": "빼앗기다, 도둑맞다"
+        },
+        {
+            "id": "v-2b4bbc4a5ce6706518c17d2f06b3e289566a29b6",
+            "word": "取り替える",
+            "read": "とりかえる",
+            "mean": "교환하다, 갈다"
+        },
+        {
+            "id": "v-5a84f455b0fee21047576152a0cb3f700513a21c",
+            "word": "取る",
+            "read": "とる",
+            "mean": "집다, 취하다"
+        },
+        {
+            "id": "v-0e7b6fc8aabc897e524b86ba1e3c575a0aa0bb23",
+            "word": "治る",
+            "read": "なおる",
+            "mean": "낫다 (병이)"
+        },
+        {
+            "id": "v-17c4e3deb00afb7841057cd07ad8ecf9462ce3ed",
+            "word": "流れる",
+            "read": "ながれる",
+            "mean": "흐르다"
+        },
+        {
+            "id": "v-6261ad4dbcb41c4cf2664c80857be7262bcbd2e3",
+            "word": "直す",
+            "read": "なおす",
+            "mean": "고치다, 수정하다"
+        },
+        {
+            "id": "v-325542b83e2747a697c98194d184a364b0920c0a",
+            "word": "治す",
+            "read": "なおす",
+            "mean": "고치다, 치료하다"
+        },
+        {
+            "id": "v-e20971b4e77c2d37b7f15d9e9983deaa7b7c38fd",
+            "word": "直る",
+            "read": "なおる",
+            "mean": "고쳐지다, 수리되다"
+        },
+        {
+            "id": "v-27ad9ba265504adacf64b1d772e47f35e038f627",
+            "word": "泣く",
+            "read": "なく",
+            "mean": "울다"
+        },
+        {
+            "id": "v-8e42246648bf44486d1559e92582fa9817ee7196",
+            "word": "無くす",
+            "read": "なくす",
+            "mean": "없애다, 잃어버리다"
+        },
+        {
+            "id": "v-361e32d45486708be0335b642e503ef497423b59",
+            "word": "亡くなる",
+            "read": "なくなる",
+            "mean": "돌아가시다"
+        },
+        {
+            "id": "v-ecd0a1a1f286c2cc60cc12a226f5c3db0d92aa11",
+            "word": "無くなる",
+            "read": "なくなる",
+            "mean": "없어지다, 다 떨어지다"
+        },
+        {
+            "id": "v-81d9ed355d5f89db8903ca2abf01d3751491f2c4",
+            "word": "投げる",
+            "read": "なげる",
+            "mean": "던지다"
+        },
+        {
+            "id": "v-8682b0ceec4e20ade2d1342d13f882c5bcaeccc5",
+            "word": "なさる",
+            "read": "なさる",
+            "mean": "하시다 (존경)"
+        },
+        {
+            "id": "v-ff1d9edd77d184ccac4256a6be0e98e7989e104c",
+            "word": "並ぶ",
+            "read": "ならぶ",
+            "mean": "늘어서다, 줄서다"
+        },
+        {
+            "id": "v-2fbfda4b681679b6fc1963b8dd0a63cb1405ce13",
+            "word": "鳴る",
+            "read": "なる",
+            "mean": "울리다 (소리가)"
+        },
+        {
+            "id": "v-fc4b1f19a3a9e3632be89568220f2da3fd3270b5",
+            "word": "慣れる",
+            "read": "なれる",
+            "mean": "익숙해지다"
+        },
+        {
+            "id": "v-f416cd1428548f391cec97feb759a27389dd5ed8",
+            "word": "似る",
+            "read": "にる",
+            "mean": "닮다"
+        },
+        {
+            "id": "v-ddaab9c5c98531323738362ee6ed8fe2656865cf",
+            "word": "脱ぐ",
+            "read": "ぬぐ",
+            "mean": "벗다"
+        },
+        {
+            "id": "v-85b7c11715f501083d1335ddbbf7e1736100decc",
+            "word": "盗む",
+            "read": "ぬすむ",
+            "mean": "훔치다"
+        },
+        {
+            "id": "v-fbd30f629853f1dc637285179dc529ca1ba152c2",
+            "word": "塗る",
+            "read": "ぬる",
+            "mean": "바르다, 칠하다"
+        },
+        {
+            "id": "v-b68875b15dbaf539fd901f9a56572effd17869ff",
+            "word": "濡れる",
+            "read": "ぬれる",
+            "mean": "젖다"
+        },
+        {
+            "id": "v-3bd52ed6a2a5f206912995f1f324f9a007820bea",
+            "word": "残る",
+            "read": "のこる",
+            "mean": "남다"
+        },
+        {
+            "id": "v-613c106ee9722c638d307f62fbe869f625e41bbe",
+            "word": "乗り換える",
+            "read": "のりかえる",
+            "mean": "환승하다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-071",
+    "title": "N1 모듈 071 (Day 21)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-071-batch-01",
+        "vocabIds": [
+            "v-99e7c7fc2ea68af166f328108c4ca4d4f75ae927",
+            "v-81fc93dff981fd23adb8ca63412de27715fd5a8e",
+            "v-f0bda5f22e50ea3447f6de8517b4561592e5a1bb",
+            "v-fb9e7591b74bc6b02870d468748e159b7b2279b0",
+            "v-9420d5da1b2a5f4debf43aefa4b13735542fd237",
+            "v-88d696bca3b32b68e611452f8624a4327e110c7d",
+            "v-5d6f7d0e10cb409050dd930edc98b81399fd0e19",
+            "v-4105d83b992f7d0fe57d1172b318e0fdf3525258",
+            "v-fc543846e4f9c60e4e040b3d2b6cdb61ee8290fe",
+            "v-ccec69d6cc0e0841b8ee00746e4d4d5d269afe62",
+            "v-7fba0670db9c26cfb26d64c4a99aa96ed5e984a2",
+            "v-fe48830fc172d413d9d5316b86214c3f7f2642f6",
+            "v-065a2f155b4ec7c34bfd8b3420e9130844a9f6a1",
+            "v-a52b55147f18f09476f17361daa13f808d13f75f",
+            "v-5a341ec4f99c5581bb30e7eeccd28a2db23a2d10",
+            "v-c805c3ef94096af1d6820813a954832f76705a7c",
+            "v-f790206814d398dd82167b8956143d561844b902",
+            "v-3db7e53297b475075685685539e3f190a0fc8a2b",
+            "v-9dfac1d526a134018e92dad67bd66227c2e62abd",
+            "v-4d7ac57eed3b92087b709849bc7dd3f8f652706b",
+            "v-45f2e067fe81b410164c4e4f5fe7d524df79ce44",
+            "v-3fdad2bcdca2014d18ddd2fdcfe865449a5db75a",
+            "v-498a461d29081d8090b1be510a1de2d2af5adba5",
+            "v-d1ffc4993adeee3445f364a8ab11f8383bace383",
+            "v-730b00d5278c7dbeec292d3850016f83a0d825e2"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-99e7c7fc2ea68af166f328108c4ca4d4f75ae927",
+            "word": "うさんくさい",
+            "read": "うさんくさい",
+            "mean": "수상쩍다"
+        },
+        {
+            "id": "v-81fc93dff981fd23adb8ca63412de27715fd5a8e",
+            "word": "うっとうしい",
+            "read": "うっとうしい",
+            "mean": "울적하다, 거추장스럽다"
+        },
+        {
+            "id": "v-f0bda5f22e50ea3447f6de8517b4561592e5a1bb",
+            "word": "おびただしい",
+            "read": "おびただしい",
+            "mean": "엄청나다"
+        },
+        {
+            "id": "v-fb9e7591b74bc6b02870d468748e159b7b2279b0",
+            "word": "かしましい",
+            "read": "かしましい",
+            "mean": "시끄럽다"
+        },
+        {
+            "id": "v-9420d5da1b2a5f4debf43aefa4b13735542fd237",
+            "word": "軽々しい",
+            "read": "かるがるしい",
+            "mean": "경솔하다"
+        },
+        {
+            "id": "v-88d696bca3b32b68e611452f8624a4327e110c7d",
+            "word": "ぎこちない",
+            "read": "ぎこちない",
+            "mean": "어색하다"
+        },
+        {
+            "id": "v-5d6f7d0e10cb409050dd930edc98b81399fd0e19",
+            "word": "決まり悪い",
+            "read": "きまりわるい",
+            "mean": "쑥스럽다"
+        },
+        {
+            "id": "v-4105d83b992f7d0fe57d1172b318e0fdf3525258",
+            "word": "ぎょうぎょうしい",
+            "read": "ぎょうぎょうしい",
+            "mean": "과장되다"
+        },
+        {
+            "id": "v-fc543846e4f9c60e4e040b3d2b6cdb61ee8290fe",
+            "word": "興味深い",
+            "read": "きょうみぶかい",
+            "mean": "흥미롭다"
+        },
+        {
+            "id": "v-ccec69d6cc0e0841b8ee00746e4d4d5d269afe62",
+            "word": "くすぐったい",
+            "read": "くすぐったい",
+            "mean": "간지럽다, 쑥스럽다"
+        },
+        {
+            "id": "v-7fba0670db9c26cfb26d64c4a99aa96ed5e984a2",
+            "word": "煙たい",
+            "read": "けむたい",
+            "mean": "맵다, 거북하다"
+        },
+        {
+            "id": "v-fe48830fc172d413d9d5316b86214c3f7f2642f6",
+            "word": "心地よい",
+            "read": "ここちよい",
+            "mean": "기분 좋다, 쾌적하다"
+        },
+        {
+            "id": "v-065a2f155b4ec7c34bfd8b3420e9130844a9f6a1",
+            "word": "心無い",
+            "read": "こころない",
+            "mean": "분별없다, 무정하다"
+        },
+        {
+            "id": "v-a52b55147f18f09476f17361daa13f808d13f75f",
+            "word": "心細い",
+            "read": "こころぼそい",
+            "mean": "불안하다"
+        },
+        {
+            "id": "v-5a341ec4f99c5581bb30e7eeccd28a2db23a2d10",
+            "word": "しぶとい",
+            "read": "しぶとい",
+            "mean": "끈질기다"
+        },
+        {
+            "id": "v-c805c3ef94096af1d6820813a954832f76705a7c",
+            "word": "清々しい",
+            "read": "すがすがしい",
+            "mean": "상쾌하다"
+        },
+        {
+            "id": "v-f790206814d398dd82167b8956143d561844b902",
+            "word": "すさまじい",
+            "read": "すさまじい",
+            "mean": "무섭다, 굉장하다"
+        },
+        {
+            "id": "v-3db7e53297b475075685685539e3f190a0fc8a2b",
+            "word": "すばしこい",
+            "read": "すばしこい",
+            "mean": "재빠르다"
+        },
+        {
+            "id": "v-9dfac1d526a134018e92dad67bd66227c2e62abd",
+            "word": "素早い",
+            "read": "すばやい",
+            "mean": "재빠르다"
+        },
+        {
+            "id": "v-4d7ac57eed3b92087b709849bc7dd3f8f652706b",
+            "word": "切ない",
+            "read": "せつない",
+            "mean": "애달프다"
+        },
+        {
+            "id": "v-45f2e067fe81b410164c4e4f5fe7d524df79ce44",
+            "word": "そっけない",
+            "read": "そっけない",
+            "mean": "무뚝뚝하다"
+        },
+        {
+            "id": "v-3fdad2bcdca2014d18ddd2fdcfe865449a5db75a",
+            "word": "耐えがたい",
+            "read": "たえがたい",
+            "mean": "참기 어렵다"
+        },
+        {
+            "id": "v-498a461d29081d8090b1be510a1de2d2af5adba5",
+            "word": "容易い",
+            "read": "たやすい",
+            "mean": "손쉽다"
+        },
+        {
+            "id": "v-d1ffc4993adeee3445f364a8ab11f8383bace383",
+            "word": "馴れ馴れしい",
+            "read": "なれなれしい",
+            "mean": "버릇없다, 친한 척하다"
+        },
+        {
+            "id": "v-730b00d5278c7dbeec292d3850016f83a0d825e2",
+            "word": "手厚い",
+            "read": "てあつい",
+            "mean": "극진하다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

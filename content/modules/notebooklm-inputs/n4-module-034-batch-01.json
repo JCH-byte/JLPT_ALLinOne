@@ -1,0 +1,188 @@
+{
+    "moduleId": "n4-module-034",
+    "title": "N4 모듈 034 (Day 27-28)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-034-batch-01",
+        "vocabIds": [
+            "v-1e59f07de023df0505e65bb2bdbcd31c3958b410",
+            "v-b0fe5c2fa0db4fe2bbb2fec881ee3e01eeda91d6",
+            "v-01586d03134c54fc51afbca43f007075e45aa259",
+            "v-f603dbdfb5ac171041f18efa4e537e72ad04cce7",
+            "v-0b0abb389ce3430be712e2c705a06056120a5ae4",
+            "v-ee2098188c927aac21138684f98ff9f9f101ca64",
+            "v-0b4bed83b99748ae78e7c222f8d2826430508f25",
+            "v-8eb3e8b1ffe1dfe3ae729dc1de18743e2dd76f4b",
+            "v-f67e5b2383ed5d4c99cd7b4711cdb67fb6df321e",
+            "v-88bcc2bd693b0ae1cb1eb8f36a883948e6c32907",
+            "v-c8028ac8209d6d557e41afde13f71d7ef472d814",
+            "v-8aeecafc97f1c92f231f70f82282468cfed9bdd4",
+            "v-6c9cb1a787fe2a90114e01fe1107d85a361275da",
+            "v-dfe8c26c8b71c4f69c935f8fe20915678713e5bb",
+            "v-8f4dfc890a0df6a58e38db19b171f1ab3cb9e3ef",
+            "v-c40217a3bd108883be4f4a6d9fae120674c0a860",
+            "v-632dfc0a49e19022fb3a3495a778febeb1551288",
+            "v-ac7eb9a6024c1eb3b9e502dff17a7f30493f7ccd",
+            "v-d1c4f6138589204202151821fe49c7998df7a19a",
+            "v-07965ee7f7c8da217ef8bf599a3f25be36bff04a",
+            "v-adae146ce38c129fe17cd8b97382e7a9b0f733fb",
+            "v-92899de3db53b5e14a5f5fb7c11a2c0fda46cea2",
+            "v-057fa07e22aa2285005dc9b5801a0dc0b804b7e4",
+            "v-20007c32e59f2092f4ba44fd93f7440b8b53a2aa"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-1e59f07de023df0505e65bb2bdbcd31c3958b410",
+            "word": "テニス",
+            "read": "てにす",
+            "mean": "테니스"
+        },
+        {
+            "id": "v-b0fe5c2fa0db4fe2bbb2fec881ee3e01eeda91d6",
+            "word": "トラック",
+            "read": "とらっく",
+            "mean": "트럭"
+        },
+        {
+            "id": "v-01586d03134c54fc51afbca43f007075e45aa259",
+            "word": "ドラマ",
+            "read": "どらま",
+            "mean": "드라마"
+        },
+        {
+            "id": "v-f603dbdfb5ac171041f18efa4e537e72ad04cce7",
+            "word": "ドレス",
+            "read": "どれす",
+            "mean": "드레스"
+        },
+        {
+            "id": "v-0b0abb389ce3430be712e2c705a06056120a5ae4",
+            "word": "ニュース",
+            "read": "にゅーす",
+            "mean": "뉴스"
+        },
+        {
+            "id": "v-ee2098188c927aac21138684f98ff9f9f101ca64",
+            "word": "パートタイム",
+            "read": "ぱーとたいむ",
+            "mean": "파트타임"
+        },
+        {
+            "id": "v-0b4bed83b99748ae78e7c222f8d2826430508f25",
+            "word": "パソコン",
+            "read": "ぱそこん",
+            "mean": "PC, 컴퓨터"
+        },
+        {
+            "id": "v-8eb3e8b1ffe1dfe3ae729dc1de18743e2dd76f4b",
+            "word": "バター",
+            "read": "ばたー",
+            "mean": "버터"
+        },
+        {
+            "id": "v-f67e5b2383ed5d4c99cd7b4711cdb67fb6df321e",
+            "word": "ハンバーグ",
+            "read": "はんばーぐ",
+            "mean": "햄버그"
+        },
+        {
+            "id": "v-88bcc2bd693b0ae1cb1eb8f36a883948e6c32907",
+            "word": "ピアノ",
+            "read": "ぴあの",
+            "mean": "피아노"
+        },
+        {
+            "id": "v-c8028ac8209d6d557e41afde13f71d7ef472d814",
+            "word": "ビール",
+            "read": "びーる",
+            "mean": "맥주"
+        },
+        {
+            "id": "v-8aeecafc97f1c92f231f70f82282468cfed9bdd4",
+            "word": "ピクニック",
+            "read": "ぴくにっく",
+            "mean": "피크닉, 소풍"
+        },
+        {
+            "id": "v-6c9cb1a787fe2a90114e01fe1107d85a361275da",
+            "word": "ピンク",
+            "read": "ぴんく",
+            "mean": "핑크, 분홍색"
+        },
+        {
+            "id": "v-dfe8c26c8b71c4f69c935f8fe20915678713e5bb",
+            "word": "フィルム",
+            "read": "ふぃるむ",
+            "mean": "필름"
+        },
+        {
+            "id": "v-8f4dfc890a0df6a58e38db19b171f1ab3cb9e3ef",
+            "word": "プール",
+            "read": "ぷーる",
+            "mean": "풀, 수영장"
+        },
+        {
+            "id": "v-c40217a3bd108883be4f4a6d9fae120674c0a860",
+            "word": "フォーク",
+            "read": "ふぉーく",
+            "mean": "포크"
+        },
+        {
+            "id": "v-632dfc0a49e19022fb3a3495a778febeb1551288",
+            "word": "プリント",
+            "read": "ぷりんと",
+            "mean": "프린트, 유인물"
+        },
+        {
+            "id": "v-ac7eb9a6024c1eb3b9e502dff17a7f30493f7ccd",
+            "word": "プレゼント",
+            "read": "ぷれぜんと",
+            "mean": "선물"
+        },
+        {
+            "id": "v-d1c4f6138589204202151821fe49c7998df7a19a",
+            "word": "ページ",
+            "read": "ぺーじ",
+            "mean": "페이지"
+        },
+        {
+            "id": "v-07965ee7f7c8da217ef8bf599a3f25be36bff04a",
+            "word": "ベッド",
+            "read": "べっど",
+            "mean": "침대"
+        },
+        {
+            "id": "v-adae146ce38c129fe17cd8b97382e7a9b0f733fb",
+            "word": "ペット",
+            "read": "ぺっと",
+            "mean": "애완동물"
+        },
+        {
+            "id": "v-92899de3db53b5e14a5f5fb7c11a2c0fda46cea2",
+            "word": "ベル",
+            "read": "べる",
+            "mean": "벨"
+        },
+        {
+            "id": "v-057fa07e22aa2285005dc9b5801a0dc0b804b7e4",
+            "word": "ボート",
+            "read": "ぼーと",
+            "mean": "보트"
+        },
+        {
+            "id": "v-20007c32e59f2092f4ba44fd93f7440b8b53a2aa",
+            "word": "ボール",
+            "read": "ぼーる",
+            "mean": "공"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

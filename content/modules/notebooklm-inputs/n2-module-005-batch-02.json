@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-005",
+    "title": "N2 모듈 005 (Day 2)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-005-batch-02",
+        "vocabIds": [
+            "v-e88caf7f0a7ca540738db404add26f6355cf6699",
+            "v-6478300137b22a6042f14767230b8a9ceb1d12e0",
+            "v-f1f810f4c51dc9e74dbb30562697b3ebf7780469",
+            "v-78c9e4556f4893b45fd5e21bd143a1094674f8a6",
+            "v-83817b43414a06ede63274aaa59ca7bfda83c58b",
+            "v-73bc6dd6b32888eccca04e9c63fa8ba9ae0ea73b",
+            "v-a7f51581e4849e264d71ccd78507df4ade336137",
+            "v-50925e90f4325092add74b2aac46f61bd716205d",
+            "v-b31cd3bf4099391e370c3e8a537de034212ce5de",
+            "v-9ac1444e9856d1ab7eb87a6f88c01cc34269b839",
+            "v-936308785739453386755437ade92f7537ecde34",
+            "v-0dd5d5270eabe7c0713fe95ce97c96ac77c124f3",
+            "v-389cb6acc2ca3d82535c94b759d042f4db91e654"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-e88caf7f0a7ca540738db404add26f6355cf6699",
+            "word": "外交",
+            "read": "がいこう",
+            "mean": "외교"
+        },
+        {
+            "id": "v-6478300137b22a6042f14767230b8a9ceb1d12e0",
+            "word": "開催",
+            "read": "かいさい",
+            "mean": "개최"
+        },
+        {
+            "id": "v-f1f810f4c51dc9e74dbb30562697b3ebf7780469",
+            "word": "解散",
+            "read": "かいさん",
+            "mean": "해산"
+        },
+        {
+            "id": "v-78c9e4556f4893b45fd5e21bd143a1094674f8a6",
+            "word": "開始",
+            "read": "かいし",
+            "mean": "개시, 시작"
+        },
+        {
+            "id": "v-83817b43414a06ede63274aaa59ca7bfda83c58b",
+            "word": "解釈",
+            "read": "かいしゃく",
+            "mean": "해석"
+        },
+        {
+            "id": "v-73bc6dd6b32888eccca04e9c63fa8ba9ae0ea73b",
+            "word": "解消",
+            "read": "かいしょう",
+            "mean": "해소"
+        },
+        {
+            "id": "v-a7f51581e4849e264d71ccd78507df4ade336137",
+            "word": "海上",
+            "read": "かいじょう",
+            "mean": "해상"
+        },
+        {
+            "id": "v-50925e90f4325092add74b2aac46f61bd716205d",
+            "word": "回数券",
+            "read": "かいすうけん",
+            "mean": "회수권"
+        },
+        {
+            "id": "v-b31cd3bf4099391e370c3e8a537de034212ce5de",
+            "word": "改正",
+            "read": "かいせい",
+            "mean": "개정"
+        },
+        {
+            "id": "v-9ac1444e9856d1ab7eb87a6f88c01cc34269b839",
+            "word": "快晴",
+            "read": "かいせい",
+            "mean": "쾌청"
+        },
+        {
+            "id": "v-936308785739453386755437ade92f7537ecde34",
+            "word": "開設",
+            "read": "かいせつ",
+            "mean": "개설"
+        },
+        {
+            "id": "v-0dd5d5270eabe7c0713fe95ce97c96ac77c124f3",
+            "word": "改善",
+            "read": "かいぜん",
+            "mean": "개선"
+        },
+        {
+            "id": "v-389cb6acc2ca3d82535c94b759d042f4db91e654",
+            "word": "改造",
+            "read": "かいぞう",
+            "mean": "개조"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

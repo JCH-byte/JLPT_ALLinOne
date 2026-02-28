@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-031",
+    "title": "N2 모듈 031 (Day 10)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-031-batch-01",
+        "vocabIds": [
+            "v-7aa2aa3c23017ccf8a726978081153e63b045df2",
+            "v-ba9abf554d7dbb93451cd9258fb6f0dd318fa8b2",
+            "v-9278e9309d6c290abbce4b10cfe0bb3e0572edac",
+            "v-a5dcca5cbbeae73f37d85423516ad476bbeb87cb",
+            "v-b1ae7d4eb874e4569f8bf5fab6e897f48b057a38",
+            "v-85819f84062d4440be24d3afa6892259e8c31d0b",
+            "v-821bc57e77f444d124ab701c951be961862a66d6",
+            "v-c7aa2eb19cf096587bfc0d55f22a18484178cf38",
+            "v-404092a918cefb5476d36edff26549eaf8a36450",
+            "v-c766ceb71bb9ae7d9fb603015f5e862d2fc237ff",
+            "v-01a21292df977392ac31da66e969ee50b2a77422",
+            "v-6f5962dbc5f1244b11281b33500353242d4c249d",
+            "v-912f8ca719b948f503fda074c78c8ac74fbad9fa",
+            "v-b3b44da54e86597f6caa027d9b4b8efc37b1f5ce",
+            "v-276cac9c5b98e80392fb6a5019b8e315e6db5b33",
+            "v-e582630be1757f877ae69855ddd32941556ce9dd",
+            "v-4eff904fcf6e16b77d1dde9fd37f8e4cb73550d4",
+            "v-90576d9df4b82b7d566bd95164fd678924b1192b",
+            "v-a947e84accaadf3160ec9549f7fcd5799bddf617",
+            "v-0f5c12581163bc2c6990d0cfb5c3279db22de8be",
+            "v-3c1336e9b4c774bd5e95faaa3547b317eaf91357",
+            "v-ad89dd3cf17d7ceef9ce0099054bb0ae5557cf60",
+            "v-fb10f1fb6e6f45010f08dabdb11013c79b5914fb",
+            "v-dd8f5f101e7be499a4941d4ba83e5ce84fb6e309",
+            "v-b05d0cb54025848e60e4d5fc963858115e50f17b"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-7aa2aa3c23017ccf8a726978081153e63b045df2",
+            "word": "楕円",
+            "read": "だえん",
+            "mean": "타원"
+        },
+        {
+            "id": "v-ba9abf554d7dbb93451cd9258fb6f0dd318fa8b2",
+            "word": "滝",
+            "read": "たき",
+            "mean": "폭포"
+        },
+        {
+            "id": "v-9278e9309d6c290abbce4b10cfe0bb3e0572edac",
+            "word": "立場",
+            "read": "たちば",
+            "mean": "입장"
+        },
+        {
+            "id": "v-a5dcca5cbbeae73f37d85423516ad476bbeb87cb",
+            "word": "脱線",
+            "read": "だっせん",
+            "mean": "탈선"
+        },
+        {
+            "id": "v-b1ae7d4eb874e4569f8bf5fab6e897f48b057a38",
+            "word": "谷",
+            "read": "たに",
+            "mean": "골짜기"
+        },
+        {
+            "id": "v-85819f84062d4440be24d3afa6892259e8c31d0b",
+            "word": "束",
+            "read": "たば",
+            "mean": "다발, 뭉치"
+        },
+        {
+            "id": "v-821bc57e77f444d124ab701c951be961862a66d6",
+            "word": "田畑",
+            "read": "たはた",
+            "mean": "논밭"
+        },
+        {
+            "id": "v-c7aa2eb19cf096587bfc0d55f22a18484178cf38",
+            "word": "頼り",
+            "read": "たより",
+            "mean": "의지"
+        },
+        {
+            "id": "v-404092a918cefb5476d36edff26549eaf8a36450",
+            "word": "便り",
+            "read": "たより",
+            "mean": "소식, 편지"
+        },
+        {
+            "id": "v-c766ceb71bb9ae7d9fb603015f5e862d2fc237ff",
+            "word": "単位",
+            "read": "たんい",
+            "mean": "단위"
+        },
+        {
+            "id": "v-01a21292df977392ac31da66e969ee50b2a77422",
+            "word": "段階",
+            "read": "だんかい",
+            "mean": "단계"
+        },
+        {
+            "id": "v-6f5962dbc5f1244b11281b33500353242d4c249d",
+            "word": "短所",
+            "read": "たんしょ",
+            "mean": "단점"
+        },
+        {
+            "id": "v-912f8ca719b948f503fda074c78c8ac74fbad9fa",
+            "word": "男女",
+            "read": "だんじょ",
+            "mean": "남녀"
+        },
+        {
+            "id": "v-b3b44da54e86597f6caa027d9b4b8efc37b1f5ce",
+            "word": "淡水",
+            "read": "たんすい",
+            "mean": "담수"
+        },
+        {
+            "id": "v-276cac9c5b98e80392fb6a5019b8e315e6db5b33",
+            "word": "団地",
+            "read": "だんち",
+            "mean": "단지"
+        },
+        {
+            "id": "v-e582630be1757f877ae69855ddd32941556ce9dd",
+            "word": "断定",
+            "read": "だんてい",
+            "mean": "단정"
+        },
+        {
+            "id": "v-4eff904fcf6e16b77d1dde9fd37f8e4cb73550d4",
+            "word": "担任",
+            "read": "たんにん",
+            "mean": "담임"
+        },
+        {
+            "id": "v-90576d9df4b82b7d566bd95164fd678924b1192b",
+            "word": "短編",
+            "read": "たんぺん",
+            "mean": "단편"
+        },
+        {
+            "id": "v-a947e84accaadf3160ec9549f7fcd5799bddf617",
+            "word": "田んぼ",
+            "read": "たんぼ",
+            "mean": "논"
+        },
+        {
+            "id": "v-0f5c12581163bc2c6990d0cfb5c3279db22de8be",
+            "word": "地位",
+            "read": "ちい",
+            "mean": "지위"
+        },
+        {
+            "id": "v-3c1336e9b4c774bd5e95faaa3547b317eaf91357",
+            "word": "地域",
+            "read": "ちいき",
+            "mean": "지역"
+        },
+        {
+            "id": "v-ad89dd3cf17d7ceef9ce0099054bb0ae5557cf60",
+            "word": "知恵",
+            "read": "ちえ",
+            "mean": "지혜"
+        },
+        {
+            "id": "v-fb10f1fb6e6f45010f08dabdb11013c79b5914fb",
+            "word": "近頃",
+            "read": "ちかごろ",
+            "mean": "요즘, 최근"
+        },
+        {
+            "id": "v-dd8f5f101e7be499a4941d4ba83e5ce84fb6e309",
+            "word": "地区",
+            "read": "ちく",
+            "mean": "지구, 구역"
+        },
+        {
+            "id": "v-b05d0cb54025848e60e4d5fc963858115e50f17b",
+            "word": "知事",
+            "read": "ちじ",
+            "mean": "지사(도지사 등)"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

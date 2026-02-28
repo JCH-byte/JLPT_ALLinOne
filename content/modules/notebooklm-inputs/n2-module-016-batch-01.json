@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-016",
+    "title": "N2 모듈 016 (Day 5-6)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-016-batch-01",
+        "vocabIds": [
+            "v-602425f1c978ad26ed771def98846345df18e119",
+            "v-6261946bded1458da54659ca2fbca58549960f51",
+            "v-0e7e559ee74a4fd1bf29ef27e1f7ab813bddd44f",
+            "v-1c9acd045d6c3c5c5c4f6c1852b30a972e55c9b0",
+            "v-e6781b965aeed0f0caf34f99baab69fd35da5ac8",
+            "v-e9889aec1781a55b5107cf5b1cd2064994049e47",
+            "v-6143f8c4ba18b29ece4cad627a56250657f50ab6",
+            "v-8d5d07dc5de0f093c23f08e3048ddb7dce833539",
+            "v-f1859acf428f92dcfd1a6e680cf9b99e72a13c8e",
+            "v-6d704adedc4e04dfbb4b0940366a788defab6cfb",
+            "v-743731227d68e3585032b5367aeb330c924a7035",
+            "v-f355460896cbc27626a38d084d79485e14887e93",
+            "v-d5ca03cee274671b9176857fd8f004383461c254",
+            "v-bf7bf00bbfca6f882169b37938babbb129c490d7",
+            "v-f18da3a194b0c4427d03e95fa96ad436533634c2",
+            "v-266cbe0bf30123769d6d83c82b2836daae2adf48",
+            "v-46478e5c8d32fe19e1c17a788ad5f5a5bf268407",
+            "v-e167d75d97dad9fadf10f1c939723cbd733eef3a",
+            "v-55adbd9da86d9768adb51de98c79706d0e6d1044",
+            "v-2c0458f1d76dd6b62129288dead175e7be017cae",
+            "v-da2d8fc85342a8b89873362cb73cf95b097bb58c",
+            "v-d7167e2865f3a09497a0beee859d4deba11a24d3",
+            "v-026604238afab1ee62813da51e641cd809e093b5",
+            "v-2aac37717c90117ec90b588aed89e6e0828c3ed5",
+            "v-e984df4d9b004f62e5a878908d090f9c92b155eb"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-602425f1c978ad26ed771def98846345df18e119",
+            "word": "公式",
+            "read": "こうしき",
+            "mean": "공식"
+        },
+        {
+            "id": "v-6261946bded1458da54659ca2fbca58549960f51",
+            "word": "口実",
+            "read": "こうじつ",
+            "mean": "구실, 핑계"
+        },
+        {
+            "id": "v-0e7e559ee74a4fd1bf29ef27e1f7ab813bddd44f",
+            "word": "後者",
+            "read": "こうしゃ",
+            "mean": "후자"
+        },
+        {
+            "id": "v-1c9acd045d6c3c5c5c4f6c1852b30a972e55c9b0",
+            "word": "公衆",
+            "read": "こうしゅう",
+            "mean": "공중"
+        },
+        {
+            "id": "v-e6781b965aeed0f0caf34f99baab69fd35da5ac8",
+            "word": "交渉",
+            "read": "こうしょう",
+            "mean": "교섭"
+        },
+        {
+            "id": "v-e9889aec1781a55b5107cf5b1cd2064994049e47",
+            "word": "向上",
+            "read": "こうじょう",
+            "mean": "향상"
+        },
+        {
+            "id": "v-6143f8c4ba18b29ece4cad627a56250657f50ab6",
+            "word": "更新",
+            "read": "こうしん",
+            "mean": "갱신"
+        },
+        {
+            "id": "v-8d5d07dc5de0f093c23f08e3048ddb7dce833539",
+            "word": "香水",
+            "read": "こうすい",
+            "mean": "향수"
+        },
+        {
+            "id": "v-f1859acf428f92dcfd1a6e680cf9b99e72a13c8e",
+            "word": "厚生",
+            "read": "こうせい",
+            "mean": "후생"
+        },
+        {
+            "id": "v-6d704adedc4e04dfbb4b0940366a788defab6cfb",
+            "word": "功績",
+            "read": "こうせき",
+            "mean": "공적"
+        },
+        {
+            "id": "v-743731227d68e3585032b5367aeb330c924a7035",
+            "word": "光線",
+            "read": "こうせん",
+            "mean": "광선"
+        },
+        {
+            "id": "v-f355460896cbc27626a38d084d79485e14887e93",
+            "word": "高層",
+            "read": "こうそう",
+            "mean": "고층"
+        },
+        {
+            "id": "v-d5ca03cee274671b9176857fd8f004383461c254",
+            "word": "構造",
+            "read": "こうぞう",
+            "mean": "구조"
+        },
+        {
+            "id": "v-bf7bf00bbfca6f882169b37938babbb129c490d7",
+            "word": "高速",
+            "read": "こうそく",
+            "mean": "고속"
+        },
+        {
+            "id": "v-f18da3a194b0c4427d03e95fa96ad436533634c2",
+            "word": "交代",
+            "read": "こうたい",
+            "mean": "교대"
+        },
+        {
+            "id": "v-266cbe0bf30123769d6d83c82b2836daae2adf48",
+            "word": "耕地",
+            "read": "こうち",
+            "mean": "경작지"
+        },
+        {
+            "id": "v-46478e5c8d32fe19e1c17a788ad5f5a5bf268407",
+            "word": "肯定",
+            "read": "こうてい",
+            "mean": "긍정"
+        },
+        {
+            "id": "v-e167d75d97dad9fadf10f1c939723cbd733eef3a",
+            "word": "高度",
+            "read": "こうど",
+            "mean": "고도"
+        },
+        {
+            "id": "v-55adbd9da86d9768adb51de98c79706d0e6d1044",
+            "word": "強盗",
+            "read": "ごうとう",
+            "mean": "강도"
+        },
+        {
+            "id": "v-2c0458f1d76dd6b62129288dead175e7be017cae",
+            "word": "公表",
+            "read": "こうひょう",
+            "mean": "공표"
+        },
+        {
+            "id": "v-da2d8fc85342a8b89873362cb73cf95b097bb58c",
+            "word": "鉱物",
+            "read": "こうぶつ",
+            "mean": "광물"
+        },
+        {
+            "id": "v-d7167e2865f3a09497a0beee859d4deba11a24d3",
+            "word": "候補",
+            "read": "こうほ",
+            "mean": "후보"
+        },
+        {
+            "id": "v-026604238afab1ee62813da51e641cd809e093b5",
+            "word": "公務",
+            "read": "こうむ",
+            "mean": "공무"
+        },
+        {
+            "id": "v-2aac37717c90117ec90b588aed89e6e0828c3ed5",
+            "word": "項目",
+            "read": "こうもく",
+            "mean": "항목"
+        },
+        {
+            "id": "v-e984df4d9b004f62e5a878908d090f9c92b155eb",
+            "word": "合理化",
+            "read": "ごうりか",
+            "mean": "합리화"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-006",
+    "title": "N2 모듈 006 (Day 2)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-006-batch-01",
+        "vocabIds": [
+            "v-7d0b8fe8e855628bb4ff1754cec9481be8ab7f34",
+            "v-910d1252610c6761e68eb0308825c258590cd61e",
+            "v-84fb6b5e404d826debb8d580caf05a93916b0161",
+            "v-e78fe4bf7a537a05b1ff3e078e624a85c967ca6b",
+            "v-1da41fa0e8c3e5d4d3a1f7c590bfa4ca929ef244",
+            "v-c6757ed1b6fbd5e1f8b6ecfc380f9fd72f404c27",
+            "v-2496f2c82b5290b5aa1d256a8e85196fac17e357",
+            "v-39676e265f54c9776c3fef3245c5c6f2ce6d2b70",
+            "v-f1443083adea96f7655617edb4f9b76110b42981",
+            "v-e7e3c02fe3570e423d1ac5f5153f2d3ce8486df3",
+            "v-70e10bbfb927be95005996a4a460a452f82fa556",
+            "v-041b825db99689e62637c8c7cbdd3cfea4620807",
+            "v-dc2c2667dfef85310808575737f18507c7badcc2"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-7d0b8fe8e855628bb4ff1754cec9481be8ab7f34",
+            "word": "快速",
+            "read": "かいそく",
+            "mean": "쾌속"
+        },
+        {
+            "id": "v-910d1252610c6761e68eb0308825c258590cd61e",
+            "word": "開通",
+            "read": "かいつう",
+            "mean": "개통"
+        },
+        {
+            "id": "v-84fb6b5e404d826debb8d580caf05a93916b0161",
+            "word": "回転",
+            "read": "かいてん",
+            "mean": "회전"
+        },
+        {
+            "id": "v-e78fe4bf7a537a05b1ff3e078e624a85c967ca6b",
+            "word": "解答",
+            "read": "かいとう",
+            "mean": "해답"
+        },
+        {
+            "id": "v-1da41fa0e8c3e5d4d3a1f7c590bfa4ca929ef244",
+            "word": "回答",
+            "read": "かいとう",
+            "mean": "회답, 대답"
+        },
+        {
+            "id": "v-c6757ed1b6fbd5e1f8b6ecfc380f9fd72f404c27",
+            "word": "飼い主",
+            "read": "かいぬし",
+            "mean": "주인(동물의)"
+        },
+        {
+            "id": "v-2496f2c82b5290b5aa1d256a8e85196fac17e357",
+            "word": "回復",
+            "read": "かいふく",
+            "mean": "회복"
+        },
+        {
+            "id": "v-39676e265f54c9776c3fef3245c5c6f2ce6d2b70",
+            "word": "解放",
+            "read": "かいほう",
+            "mean": "해방"
+        },
+        {
+            "id": "v-f1443083adea96f7655617edb4f9b76110b42981",
+            "word": "海面",
+            "read": "かいめん",
+            "mean": "해면"
+        },
+        {
+            "id": "v-e7e3c02fe3570e423d1ac5f5153f2d3ce8486df3",
+            "word": "解約",
+            "read": "かいやく",
+            "mean": "해약"
+        },
+        {
+            "id": "v-70e10bbfb927be95005996a4a460a452f82fa556",
+            "word": "海洋",
+            "read": "かいよう",
+            "mean": "해양"
+        },
+        {
+            "id": "v-041b825db99689e62637c8c7cbdd3cfea4620807",
+            "word": "概要",
+            "read": "がいよう",
+            "mean": "개요"
+        },
+        {
+            "id": "v-dc2c2667dfef85310808575737f18507c7badcc2",
+            "word": "概論",
+            "read": "がいろん",
+            "mean": "개론"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

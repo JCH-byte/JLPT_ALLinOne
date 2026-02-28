@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-022",
+    "title": "N3 모듈 022 (Day 8)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-022-batch-01",
+        "vocabIds": [
+            "v-84b34ad06eae0d96142bdce06354219b540b7970",
+            "v-c345f460a2cb60a6dc1c87e859a3f3682768d534",
+            "v-cc5afbaa447e0ff62da77c76df8a12c3bbcd3291",
+            "v-d1a8ab6a21224c297dae5f6762f4f5bf73048348",
+            "v-14778811c86798afef1f554f5001bc6029c52989",
+            "v-c7c275ab4ba7562767a8f21ccb3e6528579a393c",
+            "v-b18292a580371ca1e654da6037d5bee5c8c13cac",
+            "v-61c3967007d72b5b2f56be87de263d302757c301",
+            "v-96308566166370a1fe521522835cc267ca7699d2",
+            "v-f442bc5bc2a91c59b1e8d0cab6e3036b4c77563a",
+            "v-1a9994815fce4cdfd4bf9de1cea2939941b307cc",
+            "v-400c03f32a0583d0bbd9b7ab23bd07b9ce2504be",
+            "v-52dcd5706e6ef7941974b0a416787e8e3b4df43d",
+            "v-35a8499b320bb040c7bfa83987276a9ec616b614",
+            "v-978f8ee7a9c0ba13a020f6d1a1f6600b9fb4e7ca",
+            "v-a5e580eec8b21de309be0825f77b60ab01528122",
+            "v-dbc00fa7d012dd7f047d42f0dee9e7034e42aa24",
+            "v-5ff19327a360767033877759ab8c34dcf879f36c",
+            "v-776ea9ff6e54cf8f5d830fdd95779b14dd4b9196",
+            "v-0cde5e033dd1fbe435979047b33d7f07d325167e",
+            "v-b7a28bb9eb1b24c89bf2513c5bf97046a1ec8e31",
+            "v-463492b4c667e289b6bd74087dbadc62e38c8159",
+            "v-32d760ef848989aa967123ed36bdfdbfac8cdbfa",
+            "v-ae18039be63349feaffd9cdea47fd5b4fd870610",
+            "v-15a63f510dbfd051eecc6da0357ddc861392e45e"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-84b34ad06eae0d96142bdce06354219b540b7970",
+            "word": "数式",
+            "read": "すうしき",
+            "mean": "수식"
+        },
+        {
+            "id": "v-c345f460a2cb60a6dc1c87e859a3f3682768d534",
+            "word": "末っ子",
+            "read": "すえっこ",
+            "mean": "막내"
+        },
+        {
+            "id": "v-cc5afbaa447e0ff62da77c76df8a12c3bbcd3291",
+            "word": "好き嫌い",
+            "read": "すききらい",
+            "mean": "좋고 싫음, 호불호"
+        },
+        {
+            "id": "v-d1a8ab6a21224c297dae5f6762f4f5bf73048348",
+            "word": "全て",
+            "read": "すべて",
+            "mean": "모두, 전부"
+        },
+        {
+            "id": "v-14778811c86798afef1f554f5001bc6029c52989",
+            "word": "住まい",
+            "read": "すまい",
+            "mean": "거주지, 사는 곳"
+        },
+        {
+            "id": "v-c7c275ab4ba7562767a8f21ccb3e6528579a393c",
+            "word": "隅",
+            "read": "すみ",
+            "mean": "구석"
+        },
+        {
+            "id": "v-b18292a580371ca1e654da6037d5bee5c8c13cac",
+            "word": "図面",
+            "read": "ずめん",
+            "mean": "도면"
+        },
+        {
+            "id": "v-61c3967007d72b5b2f56be87de263d302757c301",
+            "word": "税",
+            "read": "ぜい",
+            "mean": "세금"
+        },
+        {
+            "id": "v-96308566166370a1fe521522835cc267ca7699d2",
+            "word": "正解",
+            "read": "せいかい",
+            "mean": "정답"
+        },
+        {
+            "id": "v-f442bc5bc2a91c59b1e8d0cab6e3036b4c77563a",
+            "word": "性格",
+            "read": "せいかく",
+            "mean": "성격"
+        },
+        {
+            "id": "v-1a9994815fce4cdfd4bf9de1cea2939941b307cc",
+            "word": "生活費",
+            "read": "せいかつひ",
+            "mean": "생활비"
+        },
+        {
+            "id": "v-400c03f32a0583d0bbd9b7ab23bd07b9ce2504be",
+            "word": "請求書",
+            "read": "せいきゅうしょ",
+            "mean": "청구서"
+        },
+        {
+            "id": "v-52dcd5706e6ef7941974b0a416787e8e3b4df43d",
+            "word": "税金",
+            "read": "ぜいきん",
+            "mean": "세금"
+        },
+        {
+            "id": "v-35a8499b320bb040c7bfa83987276a9ec616b614",
+            "word": "成功",
+            "read": "せいこう",
+            "mean": "성공"
+        },
+        {
+            "id": "v-978f8ee7a9c0ba13a020f6d1a1f6600b9fb4e7ca",
+            "word": "税込み",
+            "read": "ぜいこみ",
+            "mean": "세금 포함"
+        },
+        {
+            "id": "v-a5e580eec8b21de309be0825f77b60ab01528122",
+            "word": "正座",
+            "read": "せいざ",
+            "mean": "정좌(바르게 앉음)"
+        },
+        {
+            "id": "v-dbc00fa7d012dd7f047d42f0dee9e7034e42aa24",
+            "word": "政治家",
+            "read": "せいじか",
+            "mean": "정치가"
+        },
+        {
+            "id": "v-5ff19327a360767033877759ab8c34dcf879f36c",
+            "word": "正式",
+            "read": "せいしき",
+            "mean": "정식"
+        },
+        {
+            "id": "v-776ea9ff6e54cf8f5d830fdd95779b14dd4b9196",
+            "word": "性質",
+            "read": "せいしつ",
+            "mean": "성질"
+        },
+        {
+            "id": "v-0cde5e033dd1fbe435979047b33d7f07d325167e",
+            "word": "青春",
+            "read": "せいしゅん",
+            "mean": "청춘"
+        },
+        {
+            "id": "v-b7a28bb9eb1b24c89bf2513c5bf97046a1ec8e31",
+            "word": "青少年",
+            "read": "せいしょうねん",
+            "mean": "청소년"
+        },
+        {
+            "id": "v-463492b4c667e289b6bd74087dbadc62e38c8159",
+            "word": "成人",
+            "read": "せいじん",
+            "mean": "성인"
+        },
+        {
+            "id": "v-32d760ef848989aa967123ed36bdfdbfac8cdbfa",
+            "word": "成績",
+            "read": "せいせき",
+            "mean": "성적"
+        },
+        {
+            "id": "v-ae18039be63349feaffd9cdea47fd5b4fd870610",
+            "word": "清掃",
+            "read": "せいそう",
+            "mean": "청소"
+        },
+        {
+            "id": "v-15a63f510dbfd051eecc6da0357ddc861392e45e",
+            "word": "成長",
+            "read": "せいちょう",
+            "mean": "성장"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

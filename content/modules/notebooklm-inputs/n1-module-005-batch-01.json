@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-005",
+    "title": "N1 모듈 005 (Day 2)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-005-batch-01",
+        "vocabIds": [
+            "v-b30f88804da4de68c621991cb06c7fb0abfd693e",
+            "v-150cec31b61841fd2ea0756f485e601f8c205208",
+            "v-66d316f8e020136142f9955241afcf481f73f135",
+            "v-9b5c4bd827b14be44b7da3195bbf9454f1d38697",
+            "v-55f03bd078bdd86345d51a15ba0a03eb4f5c2d78",
+            "v-904585430e3f73da49c303a915f83e12d25f16d2",
+            "v-4d937e653d625d1d764f8092d628e256ec7448c9",
+            "v-3622c14749c63d3a33f0a81eae02a5380d810910",
+            "v-ff88bfa475eb7136a1df3419584ce726eeeab237",
+            "v-e93f895e00864860a4f0d2f6240ba7f7330e44d7",
+            "v-3fa6546a11711344c31ce00205d4fd8000893129",
+            "v-294577def98a4615a63d7fb689eae983c028a70e",
+            "v-8e122d8dbf8a898a75e21ec690c3df515ef74796",
+            "v-d6fea371d9e1544fb90556370f7d48c54cda2454",
+            "v-951ab3dbf6f072db03b1b880961a25f19638fc3f",
+            "v-b81970b59541a9577bf06711f8110e4529bf7ec0",
+            "v-a94ffc1c6f11f4ac94f92fcec61dcb57d5a74e3b",
+            "v-2db7d4a9c3d93c7c777d8f814deb1def5a308f5d",
+            "v-a394ac8756a7f13e7412bb6cb9661e92ed1ab025",
+            "v-2ebfae330d5c20fe256d680289881d34f5205ac0",
+            "v-cfe1cf48914e5ed4b3489d1293833a1a3e399873",
+            "v-42280e98501c44347ff7eab5b36328ce1af58068",
+            "v-2d4b6644b8eeb1c2cab2159c9362a7033d9a12cf",
+            "v-2c4c2890a757f9fb52702831caea1997bcafdf4f",
+            "v-b4e275a52bb9116b0ab3a79217385d1b45c5080d"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-b30f88804da4de68c621991cb06c7fb0abfd693e",
+            "word": "外観",
+            "read": "がいかん",
+            "mean": "외관"
+        },
+        {
+            "id": "v-150cec31b61841fd2ea0756f485e601f8c205208",
+            "word": "階級",
+            "read": "かいきゅう",
+            "mean": "계급"
+        },
+        {
+            "id": "v-66d316f8e020136142f9955241afcf481f73f135",
+            "word": "快挙",
+            "read": "かいきょ",
+            "mean": "쾌거"
+        },
+        {
+            "id": "v-9b5c4bd827b14be44b7da3195bbf9454f1d38697",
+            "word": "解雇",
+            "read": "かいこ",
+            "mean": "해고"
+        },
+        {
+            "id": "v-55f03bd078bdd86345d51a15ba0a03eb4f5c2d78",
+            "word": "回顧",
+            "read": "かいこ",
+            "mean": "회고"
+        },
+        {
+            "id": "v-904585430e3f73da49c303a915f83e12d25f16d2",
+            "word": "改修",
+            "read": "かいしゅう",
+            "mean": "개수, 수리"
+        },
+        {
+            "id": "v-4d937e653d625d1d764f8092d628e256ec7448c9",
+            "word": "怪獣",
+            "read": "かいじゅう",
+            "mean": "괴수"
+        },
+        {
+            "id": "v-3622c14749c63d3a33f0a81eae02a5380d810910",
+            "word": "解除",
+            "read": "かいじょ",
+            "mean": "해제"
+        },
+        {
+            "id": "v-ff88bfa475eb7136a1df3419584ce726eeeab237",
+            "word": "会心",
+            "read": "かいしん",
+            "mean": "회심, 마음에 듦"
+        },
+        {
+            "id": "v-e93f895e00864860a4f0d2f6240ba7f7330e44d7",
+            "word": "概説",
+            "read": "がいせつ",
+            "mean": "개설"
+        },
+        {
+            "id": "v-3fa6546a11711344c31ce00205d4fd8000893129",
+            "word": "階層",
+            "read": "かいそう",
+            "mean": "계층"
+        },
+        {
+            "id": "v-294577def98a4615a63d7fb689eae983c028a70e",
+            "word": "回想",
+            "read": "かいそう",
+            "mean": "회상"
+        },
+        {
+            "id": "v-8e122d8dbf8a898a75e21ec690c3df515ef74796",
+            "word": "開拓",
+            "read": "かいたく",
+            "mean": "개척"
+        },
+        {
+            "id": "v-d6fea371d9e1544fb90556370f7d48c54cda2454",
+            "word": "怪談",
+            "read": "かいだん",
+            "mean": "괴담"
+        },
+        {
+            "id": "v-951ab3dbf6f072db03b1b880961a25f19638fc3f",
+            "word": "害虫",
+            "read": "がいちゅう",
+            "mean": "해충"
+        },
+        {
+            "id": "v-b81970b59541a9577bf06711f8110e4529bf7ec0",
+            "word": "改定",
+            "read": "かいてい",
+            "mean": "개정(법률 등)"
+        },
+        {
+            "id": "v-a94ffc1c6f11f4ac94f92fcec61dcb57d5a74e3b",
+            "word": "改訂",
+            "read": "かいてい",
+            "mean": "개정(서적 등)"
+        },
+        {
+            "id": "v-2db7d4a9c3d93c7c777d8f814deb1def5a308f5d",
+            "word": "改訂版",
+            "read": "かいていばん",
+            "mean": "개정판"
+        },
+        {
+            "id": "v-a394ac8756a7f13e7412bb6cb9661e92ed1ab025",
+            "word": "街頭",
+            "read": "がいとう",
+            "mean": "가두, 길거리"
+        },
+        {
+            "id": "v-2ebfae330d5c20fe256d680289881d34f5205ac0",
+            "word": "該当",
+            "read": "がいとう",
+            "mean": "해당"
+        },
+        {
+            "id": "v-cfe1cf48914e5ed4b3489d1293833a1a3e399873",
+            "word": "介入",
+            "read": "かいにゅう",
+            "mean": "개입"
+        },
+        {
+            "id": "v-42280e98501c44347ff7eab5b36328ce1af58068",
+            "word": "海抜",
+            "read": "かいばつ",
+            "mean": "해발"
+        },
+        {
+            "id": "v-2d4b6644b8eeb1c2cab2159c9362a7033d9a12cf",
+            "word": "回避",
+            "read": "かいひ",
+            "mean": "회피"
+        },
+        {
+            "id": "v-2c4c2890a757f9fb52702831caea1997bcafdf4f",
+            "word": "介抱",
+            "read": "かいほう",
+            "mean": "간호, 돌봄"
+        },
+        {
+            "id": "v-b4e275a52bb9116b0ab3a79217385d1b45c5080d",
+            "word": "解剖",
+            "read": "かいぼう",
+            "mean": "해부"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

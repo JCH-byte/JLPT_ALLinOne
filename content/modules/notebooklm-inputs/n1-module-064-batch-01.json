@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-064",
+    "title": "N1 모듈 064 (Day 18)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-064-batch-01",
+        "vocabIds": [
+            "v-4cd8ff3342eb5dd3a91cca448642df8f161d113b",
+            "v-ae80c82c33381876585ec07be587a39422ee02c1",
+            "v-9dd9bdabf37d2f12fb9ad8531324b1c7efd4bb53",
+            "v-aa4f57cb39bd4a2a3357a084938707a337020850",
+            "v-7b1dfd96c057d818f3a74c70edd04b8d85c71c68",
+            "v-ac2cc88df7611c553b690a1f3b260aac3bb7f348",
+            "v-e251ddd2c743b7e512cbefa1a82f986ec2c4408b",
+            "v-f78552851808912d6d9cb1466c5cfc3eccf37b78",
+            "v-fa71a09463518024439fb31cc2a16a8860f766f8",
+            "v-aa4f341e4813b4e622fad49944531d10a23b47db",
+            "v-d5bcbae3da9f8204dc6d16eac1b5273239a13757",
+            "v-749f74464f43d54c8505cf769eb4198d38226b18",
+            "v-83611c672103bd3d63cfe7350ab3564aaaa7f3cf",
+            "v-a2a6d3469656614134ee334a1282c3229f8f2ba2",
+            "v-3cbc42eb68f75604a42c8c1f919c34e9f7517705",
+            "v-0cd059f465ea6ec8d25383e44fc8357e948b7da7",
+            "v-279222da116d0626fb6021918a86d4a06cb971b5",
+            "v-18e0345fa028a6de3dd200c6a93ae86f62de1c40",
+            "v-4cee778f3abf5c1892cf1d7a879a2c23dbaf3da8",
+            "v-300910e53dc2f1a74e996ab6a63726ffe9184036",
+            "v-5046cbede28e15c68d12d158cae280716c6e647d",
+            "v-3e520a9015be5b90b6552526dcb7f8df9f493834",
+            "v-f1d6404c1b5233a43d16be6bd5b7800f227e4979",
+            "v-5e123bf101192517d2c13bb1cad763decd06d4ee",
+            "v-fd2f0030bde4e7468a542f7a9bb52b4ae6f64c1e"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-4cd8ff3342eb5dd3a91cca448642df8f161d113b",
+            "word": "遂げる",
+            "read": "とげる",
+            "mean": "이루다, 마치다"
+        },
+        {
+            "id": "v-ae80c82c33381876585ec07be587a39422ee02c1",
+            "word": "綴じる",
+            "read": "とじる",
+            "mean": "철하다"
+        },
+        {
+            "id": "v-9dd9bdabf37d2f12fb9ad8531324b1c7efd4bb53",
+            "word": "途絶える",
+            "read": "とだえる",
+            "mean": "끊어지다, 두절되다"
+        },
+        {
+            "id": "v-aa4f57cb39bd4a2a3357a084938707a337020850",
+            "word": "滞る",
+            "read": "とどこおる",
+            "mean": "밀리다, 정체되다"
+        },
+        {
+            "id": "v-7b1dfd96c057d818f3a74c70edd04b8d85c71c68",
+            "word": "唱える",
+            "read": "となえる",
+            "mean": "외치다, 주장하다"
+        },
+        {
+            "id": "v-ac2cc88df7611c553b690a1f3b260aac3bb7f348",
+            "word": "飛び交う",
+            "read": "とびかう",
+            "mean": "난무하다"
+        },
+        {
+            "id": "v-e251ddd2c743b7e512cbefa1a82f986ec2c4408b",
+            "word": "とぼける",
+            "read": "とぼける",
+            "mean": "시치미 떼다"
+        },
+        {
+            "id": "v-f78552851808912d6d9cb1466c5cfc3eccf37b78",
+            "word": "戸惑う",
+            "read": "とまどう",
+            "mean": "당황하다"
+        },
+        {
+            "id": "v-fa71a09463518024439fb31cc2a16a8860f766f8",
+            "word": "取り扱う",
+            "read": "とりあつかう",
+            "mean": "다루다, 취급하다"
+        },
+        {
+            "id": "v-aa4f341e4813b4e622fad49944531d10a23b47db",
+            "word": "取り調べる",
+            "read": "とりしらべる",
+            "mean": "조사하다"
+        },
+        {
+            "id": "v-d5bcbae3da9f8204dc6d16eac1b5273239a13757",
+            "word": "取り付く",
+            "read": "とりつく",
+            "mean": "매달리다, 착수하다"
+        },
+        {
+            "id": "v-749f74464f43d54c8505cf769eb4198d38226b18",
+            "word": "取り付ける",
+            "read": "とりつける",
+            "mean": "설치하다, 성사시키다"
+        },
+        {
+            "id": "v-83611c672103bd3d63cfe7350ab3564aaaa7f3cf",
+            "word": "取り除く",
+            "read": "とりのぞく",
+            "mean": "제거하다"
+        },
+        {
+            "id": "v-a2a6d3469656614134ee334a1282c3229f8f2ba2",
+            "word": "取り巻く",
+            "read": "とりまく",
+            "mean": "둘러싸다"
+        },
+        {
+            "id": "v-3cbc42eb68f75604a42c8c1f919c34e9f7517705",
+            "word": "取り戻す",
+            "read": "とりもどす",
+            "mean": "되찾다"
+        },
+        {
+            "id": "v-0cd059f465ea6ec8d25383e44fc8357e948b7da7",
+            "word": "取り寄せる",
+            "read": "とりよせる",
+            "mean": "주문하다"
+        },
+        {
+            "id": "v-279222da116d0626fb6021918a86d4a06cb971b5",
+            "word": "採る",
+            "read": "とる",
+            "mean": "채용하다, 채집하다"
+        },
+        {
+            "id": "v-18e0345fa028a6de3dd200c6a93ae86f62de1c40",
+            "word": "とろける",
+            "read": "とろける",
+            "mean": "녹다, 황홀해지다"
+        },
+        {
+            "id": "v-4cee778f3abf5c1892cf1d7a879a2c23dbaf3da8",
+            "word": "嘆く",
+            "read": "なげく",
+            "mean": "한탄하다"
+        },
+        {
+            "id": "v-300910e53dc2f1a74e996ab6a63726ffe9184036",
+            "word": "なじむ",
+            "read": "なじむ",
+            "mean": "친숙해지다, 어울리다"
+        },
+        {
+            "id": "v-5046cbede28e15c68d12d158cae280716c6e647d",
+            "word": "詰る",
+            "read": "なじる",
+            "mean": "힐문하다, 따지다"
+        },
+        {
+            "id": "v-3e520a9015be5b90b6552526dcb7f8df9f493834",
+            "word": "なだめる",
+            "read": "なだめる",
+            "mean": "달래다"
+        },
+        {
+            "id": "v-f1d6404c1b5233a43d16be6bd5b7800f227e4979",
+            "word": "懐く",
+            "read": "なつく",
+            "mean": "따르다"
+        },
+        {
+            "id": "v-5e123bf101192517d2c13bb1cad763decd06d4ee",
+            "word": "名付ける",
+            "read": "なづける",
+            "mean": "이름 짓다"
+        },
+        {
+            "id": "v-fd2f0030bde4e7468a542f7a9bb52b4ae6f64c1e",
+            "word": "なめる",
+            "read": "なめる",
+            "mean": "핥다, 얕보다, 겪다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

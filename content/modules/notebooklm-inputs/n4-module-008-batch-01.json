@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-008",
+    "title": "N4 모듈 008 (Day 5)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-008-batch-01",
+        "vocabIds": [
+            "v-261e4df77609bf6c8cec943c22c08d3653a34f5f",
+            "v-efb3210da0d46ff6262afc0e2f57a2cf8caa6104",
+            "v-d98db31ac470c29c5eeac08aa1ff7164ab1df293",
+            "v-8b7e9379f331aacfa5749239151db1cc40b004c8",
+            "v-d1e89a8170909eddb655ae11eb248daf111a2a55",
+            "v-86f52b5f79deac893597ed7d4254a02d80a0f77d",
+            "v-605bc3930bbe3cc4365f12a67ab0dfc2d53c7552",
+            "v-6a56853282fe49fbd01c2efe434e16fb0b007b68",
+            "v-a08cf5873ad62e6f3797922ef1499b13526ec6f1",
+            "v-e3d676b114b3655d91c162efa522d3a5a435d376",
+            "v-0ed4240e05fe9c3354c0d5b716dc8430687321a3",
+            "v-d95fbb5378293485941512c675337d76cc3dfd9b",
+            "v-7180c59dab6d158d2394b438f41d5ccdb6dd076e",
+            "v-53e38ecc4a5e3db64ef2807311b949534fc21106",
+            "v-845f5a10614fe14053e994db6cc270297ca86b18",
+            "v-d2cc0656f83d5dbc6da07d71d6a2a651a5d8d582",
+            "v-fc924e8b2f508ead8c9c95a9cc88e1dd30f74a55",
+            "v-13655f77df1fa0f6cb0f5e3229bf13381f8724e9",
+            "v-fd5cfdd636e0a63a04edd412c5dec6d3859b6af1",
+            "v-da9b9b2b832132983180f4eaed1f8a6023e9146c",
+            "v-ca03e8d1243787a21ea5857a2f9578c31b3ef610",
+            "v-2e7f1aff69034ac482fb6d2cec7cad7550681e36",
+            "v-95cb601faa2ea8e9ae5a60d124efe5a76771a29a",
+            "v-688f52432c3d2aebca168e7aa1afd6ef5ded0f09",
+            "v-7f7612e4b36b68f608b7f29f5965fb5043d1000f"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-261e4df77609bf6c8cec943c22c08d3653a34f5f",
+            "word": "最近",
+            "read": "さいきん",
+            "mean": "최근"
+        },
+        {
+            "id": "v-efb3210da0d46ff6262afc0e2f57a2cf8caa6104",
+            "word": "坂",
+            "read": "さか",
+            "mean": "언덕"
+        },
+        {
+            "id": "v-d98db31ac470c29c5eeac08aa1ff7164ab1df293",
+            "word": "魚屋",
+            "read": "さかなや",
+            "mean": "생선 가게"
+        },
+        {
+            "id": "v-8b7e9379f331aacfa5749239151db1cc40b004c8",
+            "word": "作品",
+            "read": "さくひん",
+            "mean": "작품"
+        },
+        {
+            "id": "v-d1e89a8170909eddb655ae11eb248daf111a2a55",
+            "word": "桜",
+            "read": "さくら",
+            "mean": "벚꽃"
+        },
+        {
+            "id": "v-86f52b5f79deac893597ed7d4254a02d80a0f77d",
+            "word": "砂糖",
+            "read": "さとう",
+            "mean": "설탕"
+        },
+        {
+            "id": "v-605bc3930bbe3cc4365f12a67ab0dfc2d53c7552",
+            "word": "再来月",
+            "read": "さらいげつ",
+            "mean": "다다음 달"
+        },
+        {
+            "id": "v-6a56853282fe49fbd01c2efe434e16fb0b007b68",
+            "word": "再来週",
+            "read": "さらいしゅう",
+            "mean": "다다음 주"
+        },
+        {
+            "id": "v-a08cf5873ad62e6f3797922ef1499b13526ec6f1",
+            "word": "再来年",
+            "read": "さらいねん",
+            "mean": "내후년"
+        },
+        {
+            "id": "v-e3d676b114b3655d91c162efa522d3a5a435d376",
+            "word": "三角",
+            "read": "さんかく",
+            "mean": "삼각"
+        },
+        {
+            "id": "v-0ed4240e05fe9c3354c0d5b716dc8430687321a3",
+            "word": "産業",
+            "read": "さんぎょう",
+            "mean": "산업"
+        },
+        {
+            "id": "v-d95fbb5378293485941512c675337d76cc3dfd9b",
+            "word": "算数",
+            "read": "さんすう",
+            "mean": "산수"
+        },
+        {
+            "id": "v-7180c59dab6d158d2394b438f41d5ccdb6dd076e",
+            "word": "賛成",
+            "read": "さんせい",
+            "mean": "찬성"
+        },
+        {
+            "id": "v-53e38ecc4a5e3db64ef2807311b949534fc21106",
+            "word": "市",
+            "read": "し",
+            "mean": "시"
+        },
+        {
+            "id": "v-845f5a10614fe14053e994db6cc270297ca86b18",
+            "word": "字",
+            "read": "じ",
+            "mean": "글자"
+        },
+        {
+            "id": "v-d2cc0656f83d5dbc6da07d71d6a2a651a5d8d582",
+            "word": "試合",
+            "read": "しあい",
+            "mean": "시합"
+        },
+        {
+            "id": "v-fc924e8b2f508ead8c9c95a9cc88e1dd30f74a55",
+            "word": "仕方",
+            "read": "しかた",
+            "mean": "방법"
+        },
+        {
+            "id": "v-13655f77df1fa0f6cb0f5e3229bf13381f8724e9",
+            "word": "試験",
+            "read": "しけん",
+            "mean": "시험"
+        },
+        {
+            "id": "v-fd5cfdd636e0a63a04edd412c5dec6d3859b6af1",
+            "word": "事故",
+            "read": "じこ",
+            "mean": "사고"
+        },
+        {
+            "id": "v-da9b9b2b832132983180f4eaed1f8a6023e9146c",
+            "word": "地震",
+            "read": "じしん",
+            "mean": "지진"
+        },
+        {
+            "id": "v-ca03e8d1243787a21ea5857a2f9578c31b3ef610",
+            "word": "舌",
+            "read": "した",
+            "mean": "혀"
+        },
+        {
+            "id": "v-2e7f1aff69034ac482fb6d2cec7cad7550681e36",
+            "word": "時代",
+            "read": "じだい",
+            "mean": "시대"
+        },
+        {
+            "id": "v-95cb601faa2ea8e9ae5a60d124efe5a76771a29a",
+            "word": "下着",
+            "read": "したぎ",
+            "mean": "속옷"
+        },
+        {
+            "id": "v-688f52432c3d2aebca168e7aa1afd6ef5ded0f09",
+            "word": "支度",
+            "read": "したく",
+            "mean": "준비, 채비"
+        },
+        {
+            "id": "v-7f7612e4b36b68f608b7f29f5965fb5043d1000f",
+            "word": "室内",
+            "read": "しつない",
+            "mean": "실내"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

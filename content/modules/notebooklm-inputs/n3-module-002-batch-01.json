@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-002",
+    "title": "N3 모듈 002 (Day 1)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-002-batch-01",
+        "vocabIds": [
+            "v-fbee425ffb502794c6f301142fe04c1c86318fc0",
+            "v-ae4963955446f7dc02e8ce1474bce52c139e91df",
+            "v-3728668126079eb65eeff453395710a53ec59830",
+            "v-8d622a7ef89e8a5973a083f6163392ef2c715353",
+            "v-f47bfd10efa1874723afdf1f7d37ba86260d07cb",
+            "v-392911a098980ddad16ffb9e47f06c1e1151aebd",
+            "v-fac20e8df41dfaa443909799d7d390ac88a2352c",
+            "v-5cedbefc6158a5c04b47bfeeb2495d2818069631",
+            "v-56aa89cfec4f8d9f3eda23df01ffbc069ba11366",
+            "v-335381cf6059ba1c48a4fa56e728afc3ca0ca019",
+            "v-f2d29e2536f4dc7ad54ce456ebbc02795adec465",
+            "v-19927593498f6a72c3ed9dbfa906faddbc10ab9d",
+            "v-10b6b646d5fbefbce76f143b6118bf680d6678ae",
+            "v-fbdd504d1b58f3c9c8f6c6cd33ea275d58de20b5",
+            "v-937a6d037e3b147bce07f8517cfd87191a1e8b1a",
+            "v-a6de9b278583b88df91d7a36b5d349dc24913732",
+            "v-0b2c52fa5d4e1fd148daefab0bbe26ac266aad72",
+            "v-92a9f6f2f92341647060c0b18aa793504650e555",
+            "v-143de964b00acafb9ab88c2bd98db507a9b14450",
+            "v-ae916ddc509b7649a0b899fba9feb10dae21a064",
+            "v-68eff1596902fd64e20aff4e5504d1b09cb08748",
+            "v-a0ccd0fff77d40b3af625e1debb165533d7ffaed",
+            "v-aa48b81be0d880d5c0fe1bf521d3dd6f9b77f55e",
+            "v-d78bc070f9ca61a0b555b7c043d7f5785040a153",
+            "v-8cf829f64fee6a8938733d013cf86ded6fa16bdb"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-fbee425ffb502794c6f301142fe04c1c86318fc0",
+            "word": "息",
+            "read": "いき",
+            "mean": "숨"
+        },
+        {
+            "id": "v-ae4963955446f7dc02e8ce1474bce52c139e91df",
+            "word": "意義",
+            "read": "いぎ",
+            "mean": "의의"
+        },
+        {
+            "id": "v-3728668126079eb65eeff453395710a53ec59830",
+            "word": "生き物",
+            "read": "いきもの",
+            "mean": "생물"
+        },
+        {
+            "id": "v-8d622a7ef89e8a5973a083f6163392ef2c715353",
+            "word": "育児",
+            "read": "いくじ",
+            "mean": "육아"
+        },
+        {
+            "id": "v-f47bfd10efa1874723afdf1f7d37ba86260d07cb",
+            "word": "以後",
+            "read": "いご",
+            "mean": "이후"
+        },
+        {
+            "id": "v-392911a098980ddad16ffb9e47f06c1e1151aebd",
+            "word": "以降",
+            "read": "いこう",
+            "mean": "이후"
+        },
+        {
+            "id": "v-fac20e8df41dfaa443909799d7d390ac88a2352c",
+            "word": "意思",
+            "read": "いし",
+            "mean": "의사(생각)"
+        },
+        {
+            "id": "v-5cedbefc6158a5c04b47bfeeb2495d2818069631",
+            "word": "医師",
+            "read": "いし",
+            "mean": "의사(직업)"
+        },
+        {
+            "id": "v-56aa89cfec4f8d9f3eda23df01ffbc069ba11366",
+            "word": "意志",
+            "read": "いし",
+            "mean": "의지"
+        },
+        {
+            "id": "v-335381cf6059ba1c48a4fa56e728afc3ca0ca019",
+            "word": "異常",
+            "read": "いじょう",
+            "mean": "이상"
+        },
+        {
+            "id": "v-f2d29e2536f4dc7ad54ce456ebbc02795adec465",
+            "word": "以前",
+            "read": "いぜん",
+            "mean": "이전"
+        },
+        {
+            "id": "v-19927593498f6a72c3ed9dbfa906faddbc10ab9d",
+            "word": "板",
+            "read": "いた",
+            "mean": "판, 판자"
+        },
+        {
+            "id": "v-10b6b646d5fbefbce76f143b6118bf680d6678ae",
+            "word": "痛み",
+            "read": "いたみ",
+            "mean": "아픔, 통증"
+        },
+        {
+            "id": "v-fbdd504d1b58f3c9c8f6c6cd33ea275d58de20b5",
+            "word": "位置",
+            "read": "いち",
+            "mean": "위치"
+        },
+        {
+            "id": "v-937a6d037e3b147bce07f8517cfd87191a1e8b1a",
+            "word": "市場",
+            "read": "いちば",
+            "mean": "시장"
+        },
+        {
+            "id": "v-a6de9b278583b88df91d7a36b5d349dc24913732",
+            "word": "一部",
+            "read": "いちぶ",
+            "mean": "일부"
+        },
+        {
+            "id": "v-0b2c52fa5d4e1fd148daefab0bbe26ac266aad72",
+            "word": "一流",
+            "read": "いちりゅう",
+            "mean": "일류"
+        },
+        {
+            "id": "v-92a9f6f2f92341647060c0b18aa793504650e555",
+            "word": "一生",
+            "read": "いっしょう",
+            "mean": "일생, 평생"
+        },
+        {
+            "id": "v-143de964b00acafb9ab88c2bd98db507a9b14450",
+            "word": "一方通行",
+            "read": "いっぽうつうこう",
+            "mean": "일방통행"
+        },
+        {
+            "id": "v-ae916ddc509b7649a0b899fba9feb10dae21a064",
+            "word": "移動",
+            "read": "いどう",
+            "mean": "이동"
+        },
+        {
+            "id": "v-68eff1596902fd64e20aff4e5504d1b09cb08748",
+            "word": "いとこ",
+            "read": "いとこ",
+            "mean": "사촌"
+        },
+        {
+            "id": "v-a0ccd0fff77d40b3af625e1debb165533d7ffaed",
+            "word": "居眠り",
+            "read": "いねむり",
+            "mean": "조는 것, 졸음"
+        },
+        {
+            "id": "v-aa48b81be0d880d5c0fe1bf521d3dd6f9b77f55e",
+            "word": "医療",
+            "read": "いりょう",
+            "mean": "의료"
+        },
+        {
+            "id": "v-d78bc070f9ca61a0b555b7c043d7f5785040a153",
+            "word": "岩",
+            "read": "いわ",
+            "mean": "바위"
+        },
+        {
+            "id": "v-8cf829f64fee6a8938733d013cf86ded6fa16bdb",
+            "word": "印象",
+            "read": "いんしょう",
+            "mean": "인상"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

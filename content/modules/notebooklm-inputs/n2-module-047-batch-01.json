@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-047",
+    "title": "N2 모듈 047 (Day 15)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-047-batch-01",
+        "vocabIds": [
+            "v-30583b8902bf0bf11370089bdee6c0e0f50985bb",
+            "v-96cb974ff4a73349858288a6669656c2fb93a9fc",
+            "v-161b41fc36a137ef2856340b84cd3ae754c44e22",
+            "v-54f3dc14331ac96f62dfa38041b3d8bf608fa646",
+            "v-e5eaa0a25cf1faacda24ca1b981404cb69856291",
+            "v-6e4c3b1332b5f84958c28e442227f872f25028cf",
+            "v-21ce5c6a6a1cd17a245a608bc900d848de333e38",
+            "v-da4db515d5a6e9db35a22be09068872781ace0fb",
+            "v-04d5c71307e23d4ba678b99b591e7bafe42de3ca",
+            "v-ef23926f96c421e1e56f59800e8bb57f3efff66a",
+            "v-a7636fc89936ba7157cef273c753cf949b979992",
+            "v-b319b3b93d9d81bb81fe92d99bca498b832e8c32",
+            "v-5ab1ae7ae6aa393f0a0f0cf1e74a750ee6f09143",
+            "v-21b906d70cdf2a726bf70fd9f874ab913831d77f",
+            "v-42b725ba855ea44518aa137cf7ad8b5670137e65",
+            "v-1d53ab79a98381f363ba8971fd69fdb451f2cff5",
+            "v-31cc25496df88861b40c3a28498638a637205df3",
+            "v-d0c3c64f6b7c21e2bd05b746ac3951677a1ca519",
+            "v-27eee4dfb50708cbabd9b3eab772567d94f64bb2",
+            "v-112997c03a5142d759c850b3af95314e3bba6ea0",
+            "v-bf628dc58d402adfa18bbac36c44ffd1fb9f3742",
+            "v-a72446a888e6bf3fc4421cb8405e249b8e2987d0",
+            "v-322d3748b5a4f44a72b694bf79f618e503d0c2c3",
+            "v-790bf805d9f1d7979cffbab74ca00f8b93ecc77e",
+            "v-b740d6cb9299a69d604e5ae0961b817341366ab9"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-30583b8902bf0bf11370089bdee6c0e0f50985bb",
+            "word": "餅",
+            "read": "もち",
+            "mean": "떡"
+        },
+        {
+            "id": "v-96cb974ff4a73349858288a6669656c2fb93a9fc",
+            "word": "持ち主",
+            "read": "もちぬし",
+            "mean": "소유자, 주인"
+        },
+        {
+            "id": "v-161b41fc36a137ef2856340b84cd3ae754c44e22",
+            "word": "元",
+            "read": "もと",
+            "mean": "원래, 전(前)"
+        },
+        {
+            "id": "v-54f3dc14331ac96f62dfa38041b3d8bf608fa646",
+            "word": "物音",
+            "read": "ものおと",
+            "mean": "물건 소리, 인기척"
+        },
+        {
+            "id": "v-e5eaa0a25cf1faacda24ca1b981404cb69856291",
+            "word": "物事",
+            "read": "ものごと",
+            "mean": "사물, 일"
+        },
+        {
+            "id": "v-6e4c3b1332b5f84958c28e442227f872f25028cf",
+            "word": "物差し",
+            "read": "ものさし",
+            "mean": "자(measure), 기준"
+        },
+        {
+            "id": "v-21ce5c6a6a1cd17a245a608bc900d848de333e38",
+            "word": "模範",
+            "read": "もはん",
+            "mean": "모범"
+        },
+        {
+            "id": "v-da4db515d5a6e9db35a22be09068872781ace0fb",
+            "word": "紅葉",
+            "read": "もみじ",
+            "mean": "단풍"
+        },
+        {
+            "id": "v-04d5c71307e23d4ba678b99b591e7bafe42de3ca",
+            "word": "催し",
+            "read": "もよおし",
+            "mean": "행사, 모임"
+        },
+        {
+            "id": "v-ef23926f96c421e1e56f59800e8bb57f3efff66a",
+            "word": "最寄り",
+            "read": "もより",
+            "mean": "가장 가까움"
+        },
+        {
+            "id": "v-a7636fc89936ba7157cef273c753cf949b979992",
+            "word": "問答",
+            "read": "もんどう",
+            "mean": "문답"
+        },
+        {
+            "id": "v-b319b3b93d9d81bb81fe92d99bca498b832e8c32",
+            "word": "やかん",
+            "read": "やかん",
+            "mean": "주전자"
+        },
+        {
+            "id": "v-5ab1ae7ae6aa393f0a0f0cf1e74a750ee6f09143",
+            "word": "焼き物",
+            "read": "やきもの",
+            "mean": "도자기, 구이 요리"
+        },
+        {
+            "id": "v-21b906d70cdf2a726bf70fd9f874ab913831d77f",
+            "word": "役者",
+            "read": "やくしゃ",
+            "mean": "배우"
+        },
+        {
+            "id": "v-42b725ba855ea44518aa137cf7ad8b5670137e65",
+            "word": "役所",
+            "read": "やくしょ",
+            "mean": "관공서"
+        },
+        {
+            "id": "v-1d53ab79a98381f363ba8971fd69fdb451f2cff5",
+            "word": "役人",
+            "read": "やくにん",
+            "mean": "공무원"
+        },
+        {
+            "id": "v-31cc25496df88861b40c3a28498638a637205df3",
+            "word": "薬品",
+            "read": "やくひん",
+            "mean": "약품"
+        },
+        {
+            "id": "v-d0c3c64f6b7c21e2bd05b746ac3951677a1ca519",
+            "word": "役目",
+            "read": "やくめ",
+            "mean": "임무, 역할"
+        },
+        {
+            "id": "v-27eee4dfb50708cbabd9b3eab772567d94f64bb2",
+            "word": "役割",
+            "read": "やくわり",
+            "mean": "역할"
+        },
+        {
+            "id": "v-112997c03a5142d759c850b3af95314e3bba6ea0",
+            "word": "矢印",
+            "read": "やじるし",
+            "mean": "화살표"
+        },
+        {
+            "id": "v-bf628dc58d402adfa18bbac36c44ffd1fb9f3742",
+            "word": "野生",
+            "read": "やせい",
+            "mean": "야생"
+        },
+        {
+            "id": "v-a72446a888e6bf3fc4421cb8405e249b8e2987d0",
+            "word": "宿",
+            "read": "やど",
+            "mean": "숙소"
+        },
+        {
+            "id": "v-322d3748b5a4f44a72b694bf79f618e503d0c2c3",
+            "word": "家主",
+            "read": "やぬし",
+            "mean": "집주인"
+        },
+        {
+            "id": "v-790bf805d9f1d7979cffbab74ca00f8b93ecc77e",
+            "word": "屋根",
+            "read": "やね",
+            "mean": "지붕"
+        },
+        {
+            "id": "v-b740d6cb9299a69d604e5ae0961b817341366ab9",
+            "word": "山火事",
+            "read": "やまかじ",
+            "mean": "산불"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

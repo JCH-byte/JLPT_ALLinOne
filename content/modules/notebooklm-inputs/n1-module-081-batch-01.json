@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-081",
+    "title": "N1 모듈 081 (Day 24)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-081-batch-01",
+        "vocabIds": [
+            "v-6af8b5d09913980403caab38604925be40242952",
+            "v-2b6a98b8582dd13c5355249ed14a20f10c878fc6",
+            "v-eda02c26f908ea571a14c5959433c8ebf27e1da8",
+            "v-fdb45d5d4cb7ffbf38c45c370ac4ed73fe954251",
+            "v-44575c336a6894dd130508be51c3af6bad9831c2",
+            "v-aa14f19a6c2895183a829327bf32c9e490de72c6",
+            "v-97d56e4208b4a2b9c1a3b0fac948e001faf901d2",
+            "v-1646c9ea5b133688764c3c8161de93ff90d48419",
+            "v-f449eeba1a573152365c4c8d15464d134064e2b9",
+            "v-6584e12c2bedadec13894edb9e1c90f0285d00aa",
+            "v-c23158e4220a502cc7f389d7489feaf5eb47c9dc",
+            "v-e762cd07bfe13b8ce4e406e07b69eeb87976b562",
+            "v-2c4ffc4184d08a0d43583beaa3c57e89d3d1c1ab",
+            "v-5cd14e312114a3c24b97771246bbbc823bf34f8d",
+            "v-1ac6bc3a3c78a215d9db9613932ca98ec821659f",
+            "v-dd66bfd1c457a507b951a7a448e86cdd07e246a8",
+            "v-8c08b36c5b53891f4119b90a73405a3cd574324f",
+            "v-081435ab09a3f245bb04d96485ecb9b266908209",
+            "v-19843b32ce595e252d57a2c09654a35e515d8ef3",
+            "v-8a71bdb48770f4e10a093aeea9fb2c2e70f371e4",
+            "v-435142b9bb4e6c89f0dbc803fd2877a03df3c2e1",
+            "v-dafca2ce962eab0d7237335eac6317141c4df025",
+            "v-39d3096b05df7743842e5641ade094fc1bad9a7f",
+            "v-790428dadbb7c3fe5c958358c6ab3a3e035b6260",
+            "v-70ebf6c0013f3150c88748d83d5477eb76d04a37"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-6af8b5d09913980403caab38604925be40242952",
+            "word": "幾度",
+            "read": "いくど",
+            "mean": "몇 번"
+        },
+        {
+            "id": "v-2b6a98b8582dd13c5355249ed14a20f10c878fc6",
+            "word": "至って",
+            "read": "いたって",
+            "mean": "지극히"
+        },
+        {
+            "id": "v-eda02c26f908ea571a14c5959433c8ebf27e1da8",
+            "word": "一概に",
+            "read": "いちがいに",
+            "mean": "일개에, 무조건"
+        },
+        {
+            "id": "v-fdb45d5d4cb7ffbf38c45c370ac4ed73fe954251",
+            "word": "一挙に",
+            "read": "いっきょに",
+            "mean": "일거에, 단숨에"
+        },
+        {
+            "id": "v-44575c336a6894dd130508be51c3af6bad9831c2",
+            "word": "一見",
+            "read": "いっけん",
+            "mean": "일견, 언뜻 보기에"
+        },
+        {
+            "id": "v-aa14f19a6c2895183a829327bf32c9e490de72c6",
+            "word": "一向に",
+            "read": "いっこうに",
+            "mean": "전혀(부정 수반)"
+        },
+        {
+            "id": "v-97d56e4208b4a2b9c1a3b0fac948e001faf901d2",
+            "word": "いとも",
+            "read": "いとも",
+            "mean": "매우"
+        },
+        {
+            "id": "v-1646c9ea5b133688764c3c8161de93ff90d48419",
+            "word": "今更",
+            "read": "いまさら",
+            "mean": "이제 와서"
+        },
+        {
+            "id": "v-f449eeba1a573152365c4c8d15464d134064e2b9",
+            "word": "未だ",
+            "read": "いまだ",
+            "mean": "아직"
+        },
+        {
+            "id": "v-6584e12c2bedadec13894edb9e1c90f0285d00aa",
+            "word": "いやいや",
+            "read": "いやいや",
+            "mean": "마지못해"
+        },
+        {
+            "id": "v-c23158e4220a502cc7f389d7489feaf5eb47c9dc",
+            "word": "否応なしに",
+            "read": "いやおうなしに",
+            "mean": "무조건, 억지로"
+        },
+        {
+            "id": "v-e762cd07bfe13b8ce4e406e07b69eeb87976b562",
+            "word": "いやに",
+            "read": "いやに",
+            "mean": "묘하게, 몹시"
+        },
+        {
+            "id": "v-2c4ffc4184d08a0d43583beaa3c57e89d3d1c1ab",
+            "word": "うずうず",
+            "read": "うずうず",
+            "mean": "근질근질"
+        },
+        {
+            "id": "v-5cd14e312114a3c24b97771246bbbc823bf34f8d",
+            "word": "うんざり",
+            "read": "うんざり",
+            "mean": "지긋지긋함"
+        },
+        {
+            "id": "v-1ac6bc3a3c78a215d9db9613932ca98ec821659f",
+            "word": "大方",
+            "read": "おおかた",
+            "mean": "대개, 아마"
+        },
+        {
+            "id": "v-dd66bfd1c457a507b951a7a448e86cdd07e246a8",
+            "word": "おおむね",
+            "read": "おおむね",
+            "mean": "대체로"
+        },
+        {
+            "id": "v-8c08b36c5b53891f4119b90a73405a3cd574324f",
+            "word": "おどおど",
+            "read": "おどおど",
+            "mean": "쭈뼛쭈뼛"
+        },
+        {
+            "id": "v-081435ab09a3f245bb04d96485ecb9b266908209",
+            "word": "自ずから",
+            "read": "おのずから",
+            "mean": "저절로"
+        },
+        {
+            "id": "v-19843b32ce595e252d57a2c09654a35e515d8ef3",
+            "word": "自ずと",
+            "read": "おのずと",
+            "mean": "자연히"
+        },
+        {
+            "id": "v-8a71bdb48770f4e10a093aeea9fb2c2e70f371e4",
+            "word": "折り返し",
+            "read": "おりかえし",
+            "mean": "즉시(답신 등)"
+        },
+        {
+            "id": "v-435142b9bb4e6c89f0dbc803fd2877a03df3c2e1",
+            "word": "確たる",
+            "read": "かくたる",
+            "mean": "확실한"
+        },
+        {
+            "id": "v-dafca2ce962eab0d7237335eac6317141c4df025",
+            "word": "かつ",
+            "read": "かつ",
+            "mean": "동시에, 또한"
+        },
+        {
+            "id": "v-39d3096b05df7743842e5641ade094fc1bad9a7f",
+            "word": "がっくり",
+            "read": "がっくり",
+            "mean": "푹(기운 빠짐)"
+        },
+        {
+            "id": "v-790428dadbb7c3fe5c958358c6ab3a3e035b6260",
+            "word": "がっしり",
+            "read": "がっしり",
+            "mean": "탄탄한, 건장한"
+        },
+        {
+            "id": "v-70ebf6c0013f3150c88748d83d5477eb76d04a37",
+            "word": "がっちり",
+            "read": "がっちり",
+            "mean": "단단히, 빈틈없이"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

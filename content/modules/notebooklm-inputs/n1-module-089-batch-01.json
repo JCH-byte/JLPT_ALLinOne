@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-089",
+    "title": "N1 모듈 089 (Day 27-28)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-089-batch-01",
+        "vocabIds": [
+            "v-a47f8a1d1cd4f455706277356b4c655959a2370a",
+            "v-9d0bb856454008b0be74d2068549c466eb85391e",
+            "v-7b911dab91c8f2d5fe07e9aca4877902fad31510",
+            "v-154cd1d39a2578a618c32f69914914aecb62cd8a",
+            "v-834f1535d2f076777fe42058ea79466da504fa09",
+            "v-28b11bd490b5104b456e0e803dc7d18cf5c71b70",
+            "v-e2ebe7734e6a4c5f8ddc0c4359a4262e3c196315",
+            "v-6ad1abd4de88c3f02eccf5b1df92e4c5d5df89a6",
+            "v-9a2d0dfcc262767e35c0015de6421c98888777ef",
+            "v-87a2dc17afd9e0fb1e5d8ac4480377c1731f2c1a",
+            "v-236a2cccadac0f61fbbd6c126ef62578f603ff84",
+            "v-8adbab84226092c31bd01b74fafbe66471fea719",
+            "v-4bb3da4119db4f87638f32134139ff2d708976f8",
+            "v-3395dff64b0e124b4bb9dc4c69b318d447368345",
+            "v-e998b20112dd2a2370c9d2ccae13f419aa5617a6",
+            "v-652ad9fc73802297f1aabf6d74b8a99fa27da622",
+            "v-b70a04fb3c4f46ddabf11cd643722c8f6d08a5e3",
+            "v-5378f18bd29c47d70863f854d1b0711ded1a3a92",
+            "v-5c57fe7a8c450c763895972e6ec4ae7e85d1ea2f",
+            "v-c417fa72fee15d60487c404389f37d8fa7715fa7",
+            "v-b5dd63bf996eae156ddc142c52f684b807720b67",
+            "v-97faff2108483fdc1b53642b07f3aac6770aabe8",
+            "v-b3ea2cd405171b07f05866d632e4a022d731a556",
+            "v-342753686027806aab065d521b8fa4ffcbbaea41",
+            "v-19bb0069dc88578fe247742b72a09a844f67a4b8"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-a47f8a1d1cd4f455706277356b4c655959a2370a",
+            "word": "シック",
+            "read": "しっく",
+            "mean": "시크, 세련됨"
+        },
+        {
+            "id": "v-9d0bb856454008b0be74d2068549c466eb85391e",
+            "word": "シナリオ",
+            "read": "しなりお",
+            "mean": "시나리오"
+        },
+        {
+            "id": "v-7b911dab91c8f2d5fe07e9aca4877902fad31510",
+            "word": "シビア",
+            "read": "しびあ",
+            "mean": "엄격함, 가혹함"
+        },
+        {
+            "id": "v-154cd1d39a2578a618c32f69914914aecb62cd8a",
+            "word": "シャープ",
+            "read": "しゃーぷ",
+            "mean": "샤프, 예리함"
+        },
+        {
+            "id": "v-834f1535d2f076777fe42058ea79466da504fa09",
+            "word": "ジャンプ",
+            "read": "じゃんぷ",
+            "mean": "점프"
+        },
+        {
+            "id": "v-28b11bd490b5104b456e0e803dc7d18cf5c71b70",
+            "word": "ジャンル",
+            "read": "じゃんる",
+            "mean": "장르"
+        },
+        {
+            "id": "v-e2ebe7734e6a4c5f8ddc0c4359a4262e3c196315",
+            "word": "シンプル",
+            "read": "しんぷる",
+            "mean": "심플"
+        },
+        {
+            "id": "v-6ad1abd4de88c3f02eccf5b1df92e4c5d5df89a6",
+            "word": "スケール",
+            "read": "すけーる",
+            "mean": "스케일, 규모"
+        },
+        {
+            "id": "v-9a2d0dfcc262767e35c0015de6421c98888777ef",
+            "word": "スタジオ",
+            "read": "すたじお",
+            "mean": "스튜디오"
+        },
+        {
+            "id": "v-87a2dc17afd9e0fb1e5d8ac4480377c1731f2c1a",
+            "word": "ストック",
+            "read": "すとっく",
+            "mean": "스톡, 재고"
+        },
+        {
+            "id": "v-236a2cccadac0f61fbbd6c126ef62578f603ff84",
+            "word": "ストライキ",
+            "read": "すとらいき",
+            "mean": "파업"
+        },
+        {
+            "id": "v-8adbab84226092c31bd01b74fafbe66471fea719",
+            "word": "ストレート",
+            "read": "すとれーと",
+            "mean": "스트레이트, 직선"
+        },
+        {
+            "id": "v-4bb3da4119db4f87638f32134139ff2d708976f8",
+            "word": "ストロー",
+            "read": "すとろー",
+            "mean": "빨대"
+        },
+        {
+            "id": "v-3395dff64b0e124b4bb9dc4c69b318d447368345",
+            "word": "スポット",
+            "read": "すぽっと",
+            "mean": "스폿, 지점"
+        },
+        {
+            "id": "v-e998b20112dd2a2370c9d2ccae13f419aa5617a6",
+            "word": "スライス",
+            "read": "すらいす",
+            "mean": "슬라이스, 얇게 썰기"
+        },
+        {
+            "id": "v-652ad9fc73802297f1aabf6d74b8a99fa27da622",
+            "word": "セクション",
+            "read": "せくしょん",
+            "mean": "섹션, 부문"
+        },
+        {
+            "id": "v-b70a04fb3c4f46ddabf11cd643722c8f6d08a5e3",
+            "word": "セレモニー",
+            "read": "せれもにー",
+            "mean": "세리머니, 의식"
+        },
+        {
+            "id": "v-5378f18bd29c47d70863f854d1b0711ded1a3a92",
+            "word": "センサー",
+            "read": "せんさー",
+            "mean": "센서"
+        },
+        {
+            "id": "v-5c57fe7a8c450c763895972e6ec4ae7e85d1ea2f",
+            "word": "センス",
+            "read": "せんす",
+            "mean": "센스, 감각"
+        },
+        {
+            "id": "v-c417fa72fee15d60487c404389f37d8fa7715fa7",
+            "word": "タイト",
+            "read": "たいと",
+            "mean": "타이트, 꽉 낌"
+        },
+        {
+            "id": "v-b5dd63bf996eae156ddc142c52f684b807720b67",
+            "word": "タイマー",
+            "read": "たいまー",
+            "mean": "타이머"
+        },
+        {
+            "id": "v-97faff2108483fdc1b53642b07f3aac6770aabe8",
+            "word": "タイムリー",
+            "read": "たいむりー",
+            "mean": "시의적절함"
+        },
+        {
+            "id": "v-b3ea2cd405171b07f05866d632e4a022d731a556",
+            "word": "ダウンロード",
+            "read": "だうんろーど",
+            "mean": "다운로드"
+        },
+        {
+            "id": "v-342753686027806aab065d521b8fa4ffcbbaea41",
+            "word": "ダブル",
+            "read": "だぶる",
+            "mean": "더블, 이중"
+        },
+        {
+            "id": "v-19bb0069dc88578fe247742b72a09a844f67a4b8",
+            "word": "タレント",
+            "read": "たれんと",
+            "mean": "탤런트"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

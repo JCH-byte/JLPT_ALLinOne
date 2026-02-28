@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-008",
+    "title": "N2 모듈 008 (Day 3)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-008-batch-02",
+        "vocabIds": [
+            "v-58bebdc4e05762f6baeb756bfa29711e22fe0c37",
+            "v-4e35d6d1d0ccede83ec517d6d76eaf5eb0db0818",
+            "v-dd5f0e774adfe9ce849c0e86964460de26495ffc",
+            "v-1f63a916afac04ae28c1809762eee85458539aca",
+            "v-2b5fe97bbb7ed73dc5a92800d3c1db2d83343cce",
+            "v-8ce389456e6a99a00f1b7c959c9f1cfd73bbc4d7",
+            "v-e31ce99b2fb6cac28d660e8ab0123dea93717b6a",
+            "v-5b1037c7e91605f5c3132f991e2fcfe4dc43b3da",
+            "v-77f88a6ad23e8e8669102ce7fd11e2647128b1e7",
+            "v-c353d057fc90465b916d2f2a8bbff190ffab84a9",
+            "v-1fb8a6e87d1fe54c37e9dfb7d4640fa23f832c7e",
+            "v-ef73c744f01fdf84f50e9b20d49144ee6282beb7",
+            "v-6211a7bd7867a96a0316e5a40a04451865e4fa79"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-58bebdc4e05762f6baeb756bfa29711e22fe0c37",
+            "word": "雷",
+            "read": "かみなり",
+            "mean": "천둥, 번개"
+        },
+        {
+            "id": "v-4e35d6d1d0ccede83ec517d6d76eaf5eb0db0818",
+            "word": "髪の毛",
+            "read": "かみのけ",
+            "mean": "머리카락"
+        },
+        {
+            "id": "v-dd5f0e774adfe9ce849c0e86964460de26495ffc",
+            "word": "貨物",
+            "read": "かもつ",
+            "mean": "화물"
+        },
+        {
+            "id": "v-1f63a916afac04ae28c1809762eee85458539aca",
+            "word": "殼",
+            "read": "から",
+            "mean": "껍질"
+        },
+        {
+            "id": "v-2b5fe97bbb7ed73dc5a92800d3c1db2d83343cce",
+            "word": "柄",
+            "read": "がら",
+            "mean": "무늬, 격"
+        },
+        {
+            "id": "v-8ce389456e6a99a00f1b7c959c9f1cfd73bbc4d7",
+            "word": "空梅雨",
+            "read": "からつゆ",
+            "mean": "마른 장마"
+        },
+        {
+            "id": "v-e31ce99b2fb6cac28d660e8ab0123dea93717b6a",
+            "word": "川岸",
+            "read": "かわぎし",
+            "mean": "강기슭"
+        },
+        {
+            "id": "v-5b1037c7e91605f5c3132f991e2fcfe4dc43b3da",
+            "word": "革靴",
+            "read": "かわぐつ",
+            "mean": "구두"
+        },
+        {
+            "id": "v-77f88a6ad23e8e8669102ce7fd11e2647128b1e7",
+            "word": "為替",
+            "read": "かわせ",
+            "mean": "환(금융)"
+        },
+        {
+            "id": "v-c353d057fc90465b916d2f2a8bbff190ffab84a9",
+            "word": "瓦",
+            "read": "かわら",
+            "mean": "기와"
+        },
+        {
+            "id": "v-1fb8a6e87d1fe54c37e9dfb7d4640fa23f832c7e",
+            "word": "癌",
+            "read": "がん",
+            "mean": "암"
+        },
+        {
+            "id": "v-ef73c744f01fdf84f50e9b20d49144ee6282beb7",
+            "word": "換気",
+            "read": "かんき",
+            "mean": "환기"
+        },
+        {
+            "id": "v-6211a7bd7867a96a0316e5a40a04451865e4fa79",
+            "word": "観客",
+            "read": "かんきゃく",
+            "mean": "관객"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

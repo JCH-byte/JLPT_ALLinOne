@@ -1,216 +1,37 @@
 {
     "moduleId": "n3-module-001",
-    "title": "N3 샘플 모듈 001",
+    "title": "N3 모듈 001 (Day 1)",
     "vocabIds": [
-        "n3-v-001",
-        "n3-v-002",
-        "n3-v-003",
-        "n3-v-004",
-        "n3-v-005",
-        "n3-v-006",
-        "n3-v-007",
-        "n3-v-008",
-        "n3-v-009",
-        "n3-v-010",
-        "n3-v-011",
-        "n3-v-012",
-        "n3-v-013",
-        "n3-v-014",
-        "n3-v-015",
-        "n3-v-016",
-        "n3-v-017",
-        "n3-v-018",
-        "n3-v-019",
-        "n3-v-020",
-        "n3-v-021",
-        "n3-v-022",
-        "n3-v-023",
-        "n3-v-024",
-        "n3-v-025",
-        "n3-v-026",
-        "n3-v-027",
-        "n3-v-028",
-        "n3-v-029",
-        "n3-v-030",
-        "n3-v-031",
-        "n3-v-032",
-        "n3-v-033",
-        "n3-v-034",
-        "n3-v-035",
-        "n3-v-036",
-        "n3-v-037",
-        "n3-v-038",
-        "n3-v-039",
-        "n3-v-040",
-        "n3-v-041",
-        "n3-v-042",
-        "n3-v-043",
-        "n3-v-044",
-        "n3-v-045"
+        "v-30a507ff290eb48995376d9514b66f7d32abf1db",
+        "v-0dbc087ee9249d270ab5085789a121b69f298192",
+        "v-ee7e3b12fea7037d822360b3b7e0adaed7d2eeac",
+        "v-75f1b570ab13ea8de67a872fa041a785be1739a1",
+        "v-2a58e5622ceaf27aeed79c4f7ab7b870231bc2b7",
+        "v-fdef6f3f015d8140b229c097862e6024dcd7ba09",
+        "v-c846b877711ccdd4aa5395b3ff195290001b6ed2",
+        "v-2bed1631f186aa9c834dd2c66e9af92ac43e92f9",
+        "v-e7594cac8c4de74ff6ea63a8595195889ac56a75",
+        "v-ad5d12002764ee8abb76d12241262c7bdc418c15",
+        "v-46127c509865027f3d7d1184bf1244cd03e547ef",
+        "v-cccbad0cf074175ea8d59a67ebb50ce74a1f55d1",
+        "v-74c4bce47b596aad3bb9d78e919a6dae5fb8369e",
+        "v-f1b67177ba9f185bfadc8445b912e7e1c8bac994",
+        "v-4c35432521626cecfadc470955c95a82fb83df5f",
+        "v-adfd73636bf758a0a49ae89bac79195897ed9d8c",
+        "v-5752d7206be8a9296832a92b1422c7e4224813a4",
+        "v-548f4479d36b9d5089240899be39954c70bd41f6",
+        "v-36033f60863f558569397661756657e14cc90e88",
+        "v-df642733cb4b54d235f925ca96355808c12e194e",
+        "v-08d5e6b698478e894e7fedaf8c6d7d5bd422c4f9",
+        "v-b85e10b5dc412e4f69d8c345bea3935ab4f0e08e",
+        "v-35d5d54f5a8b0d3695afd2b60f734ebcdcdea7ea",
+        "v-18866fd5ab5cf5a7795cd3e9d22511a7f5074671",
+        "v-860f4c628f25589642b9f5b86f0ef524baa253a3"
     ],
     "promptTemplateVersion": "notebooklm-v2",
     "constraints": {
         "jlptLevel": "N3",
         "maxNewItemsPerSet": 10
-    },
-    "generationBatches": [
-        {
-            "batchId": "n3-module-001-batch-01",
-            "vocabIds": [
-                "n3-v-001",
-                "n3-v-002",
-                "n3-v-003",
-                "n3-v-004",
-                "n3-v-005",
-                "n3-v-006",
-                "n3-v-007",
-                "n3-v-008",
-                "n3-v-009",
-                "n3-v-010",
-                "n3-v-011",
-                "n3-v-012",
-                "n3-v-013",
-                "n3-v-014",
-                "n3-v-015",
-                "n3-v-016",
-                "n3-v-017",
-                "n3-v-018",
-                "n3-v-019",
-                "n3-v-020",
-                "n3-v-021",
-                "n3-v-022",
-                "n3-v-023"
-            ],
-            "promptTemplateVersion": "notebooklm-v2",
-            "constraints": {
-                "jlptLevel": "N3",
-                "maxNewItemsPerSet": 10,
-                "targetWordCount": "20-25"
-            }
-        },
-        {
-            "batchId": "n3-module-001-batch-02",
-            "vocabIds": [
-                "n3-v-024",
-                "n3-v-025",
-                "n3-v-026",
-                "n3-v-027",
-                "n3-v-028",
-                "n3-v-029",
-                "n3-v-030",
-                "n3-v-031",
-                "n3-v-032",
-                "n3-v-033",
-                "n3-v-034",
-                "n3-v-035",
-                "n3-v-036",
-                "n3-v-037",
-                "n3-v-038",
-                "n3-v-039",
-                "n3-v-040",
-                "n3-v-041",
-                "n3-v-042",
-                "n3-v-043",
-                "n3-v-044",
-                "n3-v-045"
-            ],
-            "promptTemplateVersion": "notebooklm-v2",
-            "constraints": {
-                "jlptLevel": "N3",
-                "maxNewItemsPerSet": 10,
-                "targetWordCount": "20-25"
-            }
-        }
-    ],
-    "notebookLMOutputs": {
-        "n3-module-001-batch-01": {
-            "reviewed": true,
-            "paragraphs": [
-                {
-                    "text": "배치 01 문단"
-                }
-            ],
-            "sentences": [
-                {
-                    "text": "배치 01 예문"
-                }
-            ],
-            "quizzes": [
-                {
-                    "question": "배치 01 퀴즈",
-                    "answer": "A"
-                }
-            ],
-            "parserReport": {
-                "usedVocabIds": [
-                    "n3-v-001",
-                    "n3-v-002",
-                    "n3-v-003",
-                    "n3-v-004",
-                    "n3-v-005",
-                    "n3-v-006",
-                    "n3-v-007",
-                    "n3-v-008",
-                    "n3-v-009",
-                    "n3-v-010",
-                    "n3-v-011",
-                    "n3-v-012",
-                    "n3-v-013",
-                    "n3-v-014",
-                    "n3-v-015",
-                    "n3-v-016",
-                    "n3-v-017",
-                    "n3-v-018",
-                    "n3-v-019",
-                    "n3-v-020",
-                    "n3-v-021",
-                    "n3-v-022",
-                    "n3-v-023"
-                ],
-                "misusedVocabIds": [],
-                "detectedMaxJlptLevel": "N3",
-                "charCount": 180
-            }
-        },
-        "n3-module-001-batch-02": {
-            "reviewed": false,
-            "paragraphs": [
-                {
-                    "text": "미검수 문단"
-                }
-            ],
-            "sentences": [],
-            "quizzes": [],
-            "parserReport": {
-                "usedVocabIds": [
-                    "n3-v-024",
-                    "n3-v-025",
-                    "n3-v-026",
-                    "n3-v-027",
-                    "n3-v-028",
-                    "n3-v-029",
-                    "n3-v-030",
-                    "n3-v-031",
-                    "n3-v-032",
-                    "n3-v-033",
-                    "n3-v-034",
-                    "n3-v-035",
-                    "n3-v-036",
-                    "n3-v-037",
-                    "n3-v-038",
-                    "n3-v-039",
-                    "n3-v-040",
-                    "n3-v-041",
-                    "n3-v-042",
-                    "n3-v-043"
-                ],
-                "misusedVocabIds": [
-                    "n3-v-032"
-                ],
-                "detectedMaxJlptLevel": "N2",
-                "charCount": 260
-            }
-        }
     },
     "ruleFile": "n3-module-default.json"
 }

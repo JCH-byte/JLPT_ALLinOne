@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-024",
+    "title": "N2 모듈 024 (Day 8)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-024-batch-01",
+        "vocabIds": [
+            "v-4b9289205082ea2f0ac8f36e2eb4ce81d6678661",
+            "v-962e515fb1598220673371860d85447130b09112",
+            "v-77ff6a0403e7d2121ce9371a0d87b3d14f654591",
+            "v-6d262093b041533875a702ac3f7beb056ee367de",
+            "v-feee998b9cac7d14b93511211243b0b8fa6e7318",
+            "v-d97a61b5ec44acb42b4801c36893cca1f367c729",
+            "v-040435ab0f0778becb2eed31c023360c8f08a169",
+            "v-c90d8475aafaacf386cf05b527d75ca7325603fa",
+            "v-56294ef51d4cadfc8330df4bfeca41d297c1d679",
+            "v-fb572a7a5d03fd36e4deec014067c3c27a52db84",
+            "v-6722639fceb5c9e164f2a47b64588c17204668b1",
+            "v-5f2424950b23c4cf0e0ee351227b81ee6feaad8d",
+            "v-2b4f210e72f4550bc65181764ba0b4fc430265a0",
+            "v-5ae26ad4f7c14e3895c4dbac4703aabbbd57fd1e",
+            "v-15582766e3a0e34d414b54c5820d169b664f72b9",
+            "v-c6efe33b7479dcc9d1c3703fbec9d2d8d2f358fb",
+            "v-42b2c14d2d92b33aa1dd13915ce67af9bae16709",
+            "v-0bd976da27c5f2de5504d38405b6a52750349364",
+            "v-ec5547b4ef395e4139f8035a6a362aabff59a3db",
+            "v-056dcee70b15694aaf71d07090845eb1bab01822",
+            "v-921c84632f2e63a24816d3ee596e5e2f524a6a21",
+            "v-57f3abc669150dd04d87875053e691b26befff75",
+            "v-9a13c9057abe8875c17e77533c8d876b2227abe2",
+            "v-969ee2ebe556989a0be863d30cd5a68878d9e038",
+            "v-2389dac07c019d83dc77dfc76269afe4f18a82d5"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-4b9289205082ea2f0ac8f36e2eb4ce81d6678661",
+            "word": "勝負",
+            "read": "しょうぶ",
+            "mean": "승부"
+        },
+        {
+            "id": "v-962e515fb1598220673371860d85447130b09112",
+            "word": "正味",
+            "read": "しょうみ",
+            "mean": "실질적인 양, 알맹이"
+        },
+        {
+            "id": "v-77ff6a0403e7d2121ce9371a0d87b3d14f654591",
+            "word": "賞味期限",
+            "read": "しょうみきげん",
+            "mean": "유통기한"
+        },
+        {
+            "id": "v-6d262093b041533875a702ac3f7beb056ee367de",
+            "word": "消耗",
+            "read": "しょうもう",
+            "mean": "소모"
+        },
+        {
+            "id": "v-feee998b9cac7d14b93511211243b0b8fa6e7318",
+            "word": "省略",
+            "read": "しょうりゃく",
+            "mean": "생략"
+        },
+        {
+            "id": "v-d97a61b5ec44acb42b4801c36893cca1f367c729",
+            "word": "女王",
+            "read": "じょおう",
+            "mean": "여왕"
+        },
+        {
+            "id": "v-040435ab0f0778becb2eed31c023360c8f08a169",
+            "word": "初期",
+            "read": "しょき",
+            "mean": "초기"
+        },
+        {
+            "id": "v-c90d8475aafaacf386cf05b527d75ca7325603fa",
+            "word": "食塩",
+            "read": "しょくえん",
+            "mean": "식염"
+        },
+        {
+            "id": "v-56294ef51d4cadfc8330df4bfeca41d297c1d679",
+            "word": "食卓",
+            "read": "しょくたく",
+            "mean": "식탁"
+        },
+        {
+            "id": "v-fb572a7a5d03fd36e4deec014067c3c27a52db84",
+            "word": "職人",
+            "read": "しょくにん",
+            "mean": "장인"
+        },
+        {
+            "id": "v-6722639fceb5c9e164f2a47b64588c17204668b1",
+            "word": "職場",
+            "read": "しょくば",
+            "mean": "직장"
+        },
+        {
+            "id": "v-5f2424950b23c4cf0e0ee351227b81ee6feaad8d",
+            "word": "食物",
+            "read": "しょくもつ",
+            "mean": "음식물"
+        },
+        {
+            "id": "v-2b4f210e72f4550bc65181764ba0b4fc430265a0",
+            "word": "書籍",
+            "read": "しょせき",
+            "mean": "서적"
+        },
+        {
+            "id": "v-5ae26ad4f7c14e3895c4dbac4703aabbbd57fd1e",
+            "word": "初対面",
+            "read": "しょたいめん",
+            "mean": "초면"
+        },
+        {
+            "id": "v-15582766e3a0e34d414b54c5820d169b664f72b9",
+            "word": "初歩",
+            "read": "しょほ",
+            "mean": "초보"
+        },
+        {
+            "id": "v-c6efe33b7479dcc9d1c3703fbec9d2d8d2f358fb",
+            "word": "署名",
+            "read": "しょめい",
+            "mean": "서명"
+        },
+        {
+            "id": "v-42b2c14d2d92b33aa1dd13915ce67af9bae16709",
+            "word": "書物",
+            "read": "しょもつ",
+            "mean": "서적, 책"
+        },
+        {
+            "id": "v-0bd976da27c5f2de5504d38405b6a52750349364",
+            "word": "所有",
+            "read": "しょゆう",
+            "mean": "소유"
+        },
+        {
+            "id": "v-ec5547b4ef395e4139f8035a6a362aabff59a3db",
+            "word": "処理",
+            "read": "しょり",
+            "mean": "처리"
+        },
+        {
+            "id": "v-056dcee70b15694aaf71d07090845eb1bab01822",
+            "word": "白髪",
+            "read": "しらが",
+            "mean": "흰머리"
+        },
+        {
+            "id": "v-921c84632f2e63a24816d3ee596e5e2f524a6a21",
+            "word": "印",
+            "read": "しるし",
+            "mean": "표시, 표"
+        },
+        {
+            "id": "v-57f3abc669150dd04d87875053e691b26befff75",
+            "word": "城",
+            "read": "しろ",
+            "mean": "성"
+        },
+        {
+            "id": "v-9a13c9057abe8875c17e77533c8d876b2227abe2",
+            "word": "素人",
+            "read": "しろうと",
+            "mean": "아마추어, 비전문가"
+        },
+        {
+            "id": "v-969ee2ebe556989a0be863d30cd5a68878d9e038",
+            "word": "しわ",
+            "read": "しわ",
+            "mean": "주름"
+        },
+        {
+            "id": "v-2389dac07c019d83dc77dfc76269afe4f18a82d5",
+            "word": "神経",
+            "read": "しんけい",
+            "mean": "신경"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "moduleId": "n4-module-031",
+    "title": "N4 모듈 031 (Day 24-25)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-031-batch-01",
+        "vocabIds": [
+            "v-ab7832e685ca1fc16a316d016534448cf8e9d1bf",
+            "v-dd96a056c2a33722bd9a81de5dfc2b9cc3e880f2",
+            "v-9c12e66c516ed5d2692b669c42cd69d310147d56",
+            "v-ce220b2a5f2eab1df4d84448ed20cf859471e59c",
+            "v-e9a341a5d1b0355bbac8b8fa6d5312f24ba35132",
+            "v-b38681255f7d60a619c2d038028dc3626382647f",
+            "v-19162eb4a8eca24dde31ba362ec43562a2711b88",
+            "v-d0cde46497b10847e8dd3e5b779ef274aac23b2d",
+            "v-3e196bd9e67da9856b82eaa98b04aa967e44095c",
+            "v-ec330752c4bb8c25b586aa32a767e2c408adc5b3",
+            "v-414ef827f972a67108668b7053612ce50d4e20f6",
+            "v-2a7738ef13ba72f16ec158da741be72b46445cf1",
+            "v-08389572119fdcb5c2ac7c1c29260ef915052d34",
+            "v-167f66b4cdc848051a92fa654238a1bf5c2a4d9f",
+            "v-54a8f859e1b91a22efbb44c336d6853ad118b1f3",
+            "v-df775a88cce7749af6e013e269aee8ba2fb3518e",
+            "v-af86a3258be24aa2394420ac3b8a37349eed727a",
+            "v-38309601d3edbb20f2128e15453aa81cf89e0bbb",
+            "v-8a4743eac4dd1144467cd6fd0d6cd53ca807cbbb",
+            "v-ed502149f2f98111b0f38305c4a7465439493031",
+            "v-051dc823a4450d7da6300189bc4d77fabe0fc061",
+            "v-baa7e61273505b292efabb2392f4969539c2c726",
+            "v-e097ee542f38bcc6e4886eebc8ef74bb93c2b6a7",
+            "v-a2655cfe115189db16151943a51b7c51150c82b0"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-ab7832e685ca1fc16a316d016534448cf8e9d1bf",
+            "word": "もう",
+            "read": "もう",
+            "mean": "이미, 벌써, 더"
+        },
+        {
+            "id": "v-dd96a056c2a33722bd9a81de5dfc2b9cc3e880f2",
+            "word": "もうすぐ",
+            "read": "もうすぐ",
+            "mean": "이제 곧"
+        },
+        {
+            "id": "v-9c12e66c516ed5d2692b669c42cd69d310147d56",
+            "word": "もう一つ",
+            "read": "もうひとつ",
+            "mean": "하나 더"
+        },
+        {
+            "id": "v-ce220b2a5f2eab1df4d84448ed20cf859471e59c",
+            "word": "もし",
+            "read": "もし",
+            "mean": "만약"
+        },
+        {
+            "id": "v-e9a341a5d1b0355bbac8b8fa6d5312f24ba35132",
+            "word": "もちろん",
+            "read": "もちろん",
+            "mean": "물론"
+        },
+        {
+            "id": "v-b38681255f7d60a619c2d038028dc3626382647f",
+            "word": "やっと",
+            "read": "やっと",
+            "mean": "겨우, 가까스로"
+        },
+        {
+            "id": "v-19162eb4a8eca24dde31ba362ec43562a2711b88",
+            "word": "やはり",
+            "read": "やはり",
+            "mean": "역시"
+        },
+        {
+            "id": "v-d0cde46497b10847e8dd3e5b779ef274aac23b2d",
+            "word": "よく",
+            "read": "よく",
+            "mean": "자주, 잘"
+        },
+        {
+            "id": "v-3e196bd9e67da9856b82eaa98b04aa967e44095c",
+            "word": "わざわざ",
+            "read": "わざわざ",
+            "mean": "일부러"
+        },
+        {
+            "id": "v-ec330752c4bb8c25b586aa32a767e2c408adc5b3",
+            "word": "けれども",
+            "read": "けれども",
+            "mean": "그렇지만"
+        },
+        {
+            "id": "v-414ef827f972a67108668b7053612ce50d4e20f6",
+            "word": "しかし",
+            "read": "しかし",
+            "mean": "그러나"
+        },
+        {
+            "id": "v-2a7738ef13ba72f16ec158da741be72b46445cf1",
+            "word": "すると",
+            "read": "すると",
+            "mean": "그러자"
+        },
+        {
+            "id": "v-08389572119fdcb5c2ac7c1c29260ef915052d34",
+            "word": "そして",
+            "read": "そして",
+            "mean": "그리고"
+        },
+        {
+            "id": "v-167f66b4cdc848051a92fa654238a1bf5c2a4d9f",
+            "word": "それから",
+            "read": "それから",
+            "mean": "그리고 나서"
+        },
+        {
+            "id": "v-54a8f859e1b91a22efbb44c336d6853ad118b1f3",
+            "word": "それで",
+            "read": "それで",
+            "mean": "그래서"
+        },
+        {
+            "id": "v-df775a88cce7749af6e013e269aee8ba2fb3518e",
+            "word": "それでは",
+            "read": "それでは",
+            "mean": "그러면"
+        },
+        {
+            "id": "v-af86a3258be24aa2394420ac3b8a37349eed727a",
+            "word": "それに",
+            "read": "それに",
+            "mean": "게다가"
+        },
+        {
+            "id": "v-38309601d3edbb20f2128e15453aa81cf89e0bbb",
+            "word": "だから",
+            "read": "だから",
+            "mean": "그러니까"
+        },
+        {
+            "id": "v-8a4743eac4dd1144467cd6fd0d6cd53ca807cbbb",
+            "word": "または",
+            "read": "または",
+            "mean": "또는"
+        },
+        {
+            "id": "v-ed502149f2f98111b0f38305c4a7465439493031",
+            "word": "アイデア",
+            "read": "あいであ",
+            "mean": "아이디어"
+        },
+        {
+            "id": "v-051dc823a4450d7da6300189bc4d77fabe0fc061",
+            "word": "アイロン",
+            "read": "あいろん",
+            "mean": "다리미"
+        },
+        {
+            "id": "v-baa7e61273505b292efabb2392f4969539c2c726",
+            "word": "アクセサリー",
+            "read": "あくせさりー",
+            "mean": "액세서리"
+        },
+        {
+            "id": "v-e097ee542f38bcc6e4886eebc8ef74bb93c2b6a7",
+            "word": "アジア",
+            "read": "あじあ",
+            "mean": "아시아"
+        },
+        {
+            "id": "v-a2655cfe115189db16151943a51b7c51150c82b0",
+            "word": "アナウンサー",
+            "read": "あなうんさー",
+            "mean": "아나운서"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

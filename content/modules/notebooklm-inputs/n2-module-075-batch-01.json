@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-075",
+    "title": "N2 모듈 075 (Day 24)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-075-batch-01",
+        "vocabIds": [
+            "v-3d712f2de03adbd16b383cc630ec1e5e24993f5d",
+            "v-1a8986550a94c7455707a7025469e790fd9accd2",
+            "v-f9ee5a0b8b9b0f619bc0c4e7cdccdac46fb13baa",
+            "v-210543c64a41d1b9cd7a8722b49dacad096fb134",
+            "v-606a238445e1719022bcc24781f63c86bf5e829c",
+            "v-4153ae8120aea2f32b0d43fd2f7f8dd502de2a66",
+            "v-207051feb3c1ed2e5e5d374d929d6e3c572efce9",
+            "v-edc500d8b633681f2065162b883bd74d82e689ce",
+            "v-f3aadfb1b3363b3a6583ca34d769a213dc06ec95",
+            "v-724c3fc700b72906ce9c3d55052c81ae5fc8d66d",
+            "v-1ae0b968de2038bd4fdaef51cdeb3bd8efed37fe",
+            "v-1eb94f163abcf47cf99f9796c240c79059657750",
+            "v-21cb32319aa5b07b7dd9d230f8b2385445c12946",
+            "v-30f2013ecff081d2fc0f028645ce4d12a4e85342",
+            "v-dd6e73afa72cd6c9807cc68c21a8533f438c9352",
+            "v-0699f8dbb1cbb84b4afc87689450a36a372a50aa",
+            "v-9dddfb3cda7d583f64614e88e326b39bdd4b7e4b",
+            "v-a79522bf96abacb77d913b2bd43ae47091f0d9c5",
+            "v-5710876ca94cea57aea903282e92248072ae8df3",
+            "v-a3972ca15e66460b5fde2ab5693223825ebf7f69",
+            "v-d775cbe0291b030ad1541346498c10e6d3d6e287",
+            "v-142895276c70f4b860fa82b166fa55829960c381",
+            "v-943944d772b3dc0c24b81a7a0206ac50a49f8921",
+            "v-cff0696dd4e3545904d6d8e19373743847a92817",
+            "v-12b644eb3e882c1589c86e8287704483d4043892"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-3d712f2de03adbd16b383cc630ec1e5e24993f5d",
+            "word": "有効な",
+            "read": "ゆうこうな",
+            "mean": "유효한"
+        },
+        {
+            "id": "v-1a8986550a94c7455707a7025469e790fd9accd2",
+            "word": "有能な",
+            "read": "ゆうのうな",
+            "mean": "유능한"
+        },
+        {
+            "id": "v-f9ee5a0b8b9b0f619bc0c4e7cdccdac46fb13baa",
+            "word": "有利な",
+            "read": "ゆうりな",
+            "mean": "유리한"
+        },
+        {
+            "id": "v-210543c64a41d1b9cd7a8722b49dacad096fb134",
+            "word": "優良な",
+            "read": "ゆうりょうな",
+            "mean": "우량한"
+        },
+        {
+            "id": "v-606a238445e1719022bcc24781f63c86bf5e829c",
+            "word": "愉快な",
+            "read": "ゆかいな",
+            "mean": "유쾌한"
+        },
+        {
+            "id": "v-4153ae8120aea2f32b0d43fd2f7f8dd502de2a66",
+            "word": "容易な",
+            "read": "よういな",
+            "mean": "용이한, 쉬운"
+        },
+        {
+            "id": "v-207051feb3c1ed2e5e5d374d929d6e3c572efce9",
+            "word": "陽気な",
+            "read": "ようきな",
+            "mean": "명랑한"
+        },
+        {
+            "id": "v-edc500d8b633681f2065162b883bd74d82e689ce",
+            "word": "幼稚な",
+            "read": "ようちな",
+            "mean": "유치한"
+        },
+        {
+            "id": "v-f3aadfb1b3363b3a6583ca34d769a213dc06ec95",
+            "word": "余計な",
+            "read": "よけいな",
+            "mean": "쓸데없는"
+        },
+        {
+            "id": "v-724c3fc700b72906ce9c3d55052c81ae5fc8d66d",
+            "word": "弱気な",
+            "read": "よわきな",
+            "mean": "나약한"
+        },
+        {
+            "id": "v-1ae0b968de2038bd4fdaef51cdeb3bd8efed37fe",
+            "word": "楽観的な",
+            "read": "らっかんてきな",
+            "mean": "낙관적인"
+        },
+        {
+            "id": "v-1eb94f163abcf47cf99f9796c240c79059657750",
+            "word": "乱暴な",
+            "read": "らんぼうな",
+            "mean": "난폭한"
+        },
+        {
+            "id": "v-21cb32319aa5b07b7dd9d230f8b2385445c12946",
+            "word": "利口な",
+            "read": "りこうな",
+            "mean": "영리한"
+        },
+        {
+            "id": "v-30f2013ecff081d2fc0f028645ce4d12a4e85342",
+            "word": "わがままな",
+            "read": "わがままな",
+            "mean": "제멋대로인"
+        },
+        {
+            "id": "v-dd6e73afa72cd6c9807cc68c21a8533f438c9352",
+            "word": "わずかな",
+            "read": "わずかな",
+            "mean": "약간의"
+        },
+        {
+            "id": "v-0699f8dbb1cbb84b4afc87689450a36a372a50aa",
+            "word": "相次いで",
+            "read": "あいついで",
+            "mean": "잇달아"
+        },
+        {
+            "id": "v-9dddfb3cda7d583f64614e88e326b39bdd4b7e4b",
+            "word": "あいにく",
+            "read": "あいにく",
+            "mean": "공교롭게도"
+        },
+        {
+            "id": "v-a79522bf96abacb77d913b2bd43ae47091f0d9c5",
+            "word": "あくまで",
+            "read": "あくまで",
+            "mean": "어디까지나"
+        },
+        {
+            "id": "v-5710876ca94cea57aea903282e92248072ae8df3",
+            "word": "明くる",
+            "read": "あくる",
+            "mean": "다음, 이듬"
+        },
+        {
+            "id": "v-a3972ca15e66460b5fde2ab5693223825ebf7f69",
+            "word": "あまりにも",
+            "read": "あまりにも",
+            "mean": "너무나도"
+        },
+        {
+            "id": "v-d775cbe0291b030ad1541346498c10e6d3d6e287",
+            "word": "予め",
+            "read": "あらかじめ",
+            "mean": "미리"
+        },
+        {
+            "id": "v-142895276c70f4b860fa82b166fa55829960c381",
+            "word": "改めて",
+            "read": "あらためて",
+            "mean": "다시, 새롭게"
+        },
+        {
+            "id": "v-943944d772b3dc0c24b81a7a0206ac50a49f8921",
+            "word": "案の定",
+            "read": "あんのじょう",
+            "mean": "아니나 다를까, 생각대로"
+        },
+        {
+            "id": "v-cff0696dd4e3545904d6d8e19373743847a92817",
+            "word": "あんまり",
+            "read": "あんまり",
+            "mean": "너무, 그다지"
+        },
+        {
+            "id": "v-12b644eb3e882c1589c86e8287704483d4043892",
+            "word": "いくぶん",
+            "read": "いくぶん",
+            "mean": "얼마간, 약간"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

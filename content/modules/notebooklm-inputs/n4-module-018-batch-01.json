@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-018",
+    "title": "N4 모듈 018 (Day 11-12)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-018-batch-01",
+        "vocabIds": [
+            "v-f71a3afefbc210b2e43bfa5a1b8cdb00b00769d1",
+            "v-ad43bbd7a646ee9463de02c2cc327b8639ac1904",
+            "v-41b2a1e01f4bb49b627bafc7fd3b4d1b67427af7",
+            "v-be1747c726dece8b6597d90d95fdf3245fbc7c05",
+            "v-8c06848c79c6807a5018569eb40e81a4daeac213",
+            "v-805134c650f4135f6bd3e67bedd7269f9ed30b8c",
+            "v-2eaa8e6fead5d581ff5a5a0692555e1ea6fc7d19",
+            "v-6cd1b33fff91ebb6c3daab5fcf09d821d131a145",
+            "v-8ce740db5e186663b95d0f8d7eea504176d8ceb9",
+            "v-b2658c98d04eb610fa641fd6a65b13380870f902",
+            "v-a644b3907e5b26e1168dfe2a5d40fd8d7c410071",
+            "v-d6f6b08c4f6f3f3751ab81f89b3e9b789cb5c61a",
+            "v-4acfa832bf2ff7a886a0cdf910f891a7caf39f41",
+            "v-710c4f844b633687cc726efcb748e2c5a655f145",
+            "v-e9c8c0ebb3a1dc41051df35c01cac8bcd0f30213",
+            "v-673524290a6b5eee223e280badc3544de6a0fe02",
+            "v-8d8af4ac890c1aab56cb49a7384a3ebdd7e1cf14",
+            "v-9a7652532e2f556ef4ca7bd60661a4a45da0374e",
+            "v-4d23b1eb59a8b8b159c6df1a7623909c5c552313",
+            "v-64c590d0d79a1d797f28ea7795188afd0d9f0f15",
+            "v-778d3dc2e5c19a5209161ced06eb001bcd526250",
+            "v-9d105deb8f58bb1ac7ab2218ce40efae1428d4ec",
+            "v-d7b4b00df4d70d7fd204b7f910347bec49d29e28",
+            "v-b65e25285901833b0f0a832027bea20588b8c38b",
+            "v-bfd2c141c2b2836b8dc4f75e4717ef5d5b700ff7"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-f71a3afefbc210b2e43bfa5a1b8cdb00b00769d1",
+            "word": "用事",
+            "read": "ようじ",
+            "mean": "용건, 볼일"
+        },
+        {
+            "id": "v-ad43bbd7a646ee9463de02c2cc327b8639ac1904",
+            "word": "翌年",
+            "read": "よくねん",
+            "mean": "이듬해"
+        },
+        {
+            "id": "v-41b2a1e01f4bb49b627bafc7fd3b4d1b67427af7",
+            "word": "予習",
+            "read": "よしゅう",
+            "mean": "예습"
+        },
+        {
+            "id": "v-be1747c726dece8b6597d90d95fdf3245fbc7c05",
+            "word": "予定",
+            "read": "よてい",
+            "mean": "예정"
+        },
+        {
+            "id": "v-8c06848c79c6807a5018569eb40e81a4daeac213",
+            "word": "読み方",
+            "read": "よみかた",
+            "mean": "읽는 법"
+        },
+        {
+            "id": "v-805134c650f4135f6bd3e67bedd7269f9ed30b8c",
+            "word": "読み物",
+            "read": "よみもの",
+            "mean": "읽을거리"
+        },
+        {
+            "id": "v-2eaa8e6fead5d581ff5a5a0692555e1ea6fc7d19",
+            "word": "予約",
+            "read": "よやく",
+            "mean": "예약"
+        },
+        {
+            "id": "v-6cd1b33fff91ebb6c3daab5fcf09d821d131a145",
+            "word": "利用",
+            "read": "りよう",
+            "mean": "이용"
+        },
+        {
+            "id": "v-8ce740db5e186663b95d0f8d7eea504176d8ceb9",
+            "word": "両親",
+            "read": "りょうしん",
+            "mean": "부모님"
+        },
+        {
+            "id": "v-b2658c98d04eb610fa641fd6a65b13380870f902",
+            "word": "両方",
+            "read": "りょうほう",
+            "mean": "양쪽"
+        },
+        {
+            "id": "v-a644b3907e5b26e1168dfe2a5d40fd8d7c410071",
+            "word": "旅館",
+            "read": "りょかん",
+            "mean": "여관"
+        },
+        {
+            "id": "v-d6f6b08c4f6f3f3751ab81f89b3e9b789cb5c61a",
+            "word": "旅行",
+            "read": "りょこう",
+            "mean": "여행"
+        },
+        {
+            "id": "v-4acfa832bf2ff7a886a0cdf910f891a7caf39f41",
+            "word": "りんご",
+            "read": "りんご",
+            "mean": "사과"
+        },
+        {
+            "id": "v-710c4f844b633687cc726efcb748e2c5a655f145",
+            "word": "零",
+            "read": "れい",
+            "mean": "영, 제로"
+        },
+        {
+            "id": "v-e9c8c0ebb3a1dc41051df35c01cac8bcd0f30213",
+            "word": "冷房",
+            "read": "れいぼう",
+            "mean": "냉방"
+        },
+        {
+            "id": "v-673524290a6b5eee223e280badc3544de6a0fe02",
+            "word": "歴史",
+            "read": "れきし",
+            "mean": "역사"
+        },
+        {
+            "id": "v-8d8af4ac890c1aab56cb49a7384a3ebdd7e1cf14",
+            "word": "列車",
+            "read": "れっしゃ",
+            "mean": "열차"
+        },
+        {
+            "id": "v-9a7652532e2f556ef4ca7bd60661a4a45da0374e",
+            "word": "連絡",
+            "read": "れんらく",
+            "mean": "연락"
+        },
+        {
+            "id": "v-4d23b1eb59a8b8b159c6df1a7623909c5c552313",
+            "word": "廊下",
+            "read": "ろうか",
+            "mean": "복도"
+        },
+        {
+            "id": "v-64c590d0d79a1d797f28ea7795188afd0d9f0f15",
+            "word": "老人",
+            "read": "ろうじん",
+            "mean": "노인"
+        },
+        {
+            "id": "v-778d3dc2e5c19a5209161ced06eb001bcd526250",
+            "word": "訳",
+            "read": "わけ",
+            "mean": "이유, 사정"
+        },
+        {
+            "id": "v-9d105deb8f58bb1ac7ab2218ce40efae1428d4ec",
+            "word": "忘れ物",
+            "read": "わすれもの",
+            "mean": "분실물"
+        },
+        {
+            "id": "v-d7b4b00df4d70d7fd204b7f910347bec49d29e28",
+            "word": "私",
+            "read": "わたし",
+            "mean": "나, 저"
+        },
+        {
+            "id": "v-b65e25285901833b0f0a832027bea20588b8c38b",
+            "word": "お~",
+            "read": "お~",
+            "mean": "존경, 미화의 접두어"
+        },
+        {
+            "id": "v-bfd2c141c2b2836b8dc4f75e4717ef5d5b700ff7",
+            "word": "~員",
+            "read": "~いん",
+            "mean": "~원 (직업, 소속)"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

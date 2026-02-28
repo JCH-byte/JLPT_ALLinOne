@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-038",
+    "title": "N1 모듈 038 (Day 10)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-038-batch-01",
+        "vocabIds": [
+            "v-eec3308009a596bc92320828ed6f47addd5b0309",
+            "v-eb844aa7738675a5c3aaca7692c79a23e34a8447",
+            "v-ad7c5c95c190fa74232dd44a2618284141ab845d",
+            "v-f36d495fb7eb5dabde1f3d5661655cd7c7299f32",
+            "v-66887e2487c4b1d85e129d913a2140b7c518d5ca",
+            "v-2d6126765393ed86206873993bbe465e353bb851",
+            "v-1168c1814d6cff9fe5e684e9eb6c1292eea7a16c",
+            "v-78a878db53179a024fe7d0b6ab7ec9dcd37575d3",
+            "v-788ee9b8fe083129d0f183e05b60ee8af7d40501",
+            "v-f414d69fddac6e9c5f9ac2d1ad8c50662ef50c24",
+            "v-24fb860f8f3ef57e8421cb2568517589097addd2",
+            "v-680dc8ea59cc41bdec6b39ae3d7ec01b0e8abf5b",
+            "v-7ae6fd338e14ccf7f288d591af91d96591bfaf2e",
+            "v-09e673f0e1a2cee476417f6b04564887d98c09ec",
+            "v-6be336bb62e948905888def0feb1bf3525bee62a",
+            "v-a3e756759acc4416b4c10ecccc7e15a88a19d803",
+            "v-aa2112e05dcbf1b46e90251593d8a35eb9a489bd",
+            "v-1e6a63ca8757ef03e15732b24d4d1021f041aaeb",
+            "v-44b6bb1062a8915461a3e857048819bbe2578b99",
+            "v-b6076aa58593afad6369cace7a40bb3e85ef9bc1",
+            "v-6296f2c2d28be5d6ee41e9cfe57c34e2a2e40053",
+            "v-7df39d6338ff805cc96b91b302fd758ab8198f9e",
+            "v-4b5b740a1e52d9d6c862568907a8e08b4f1cee1e",
+            "v-90a42e65b9c3e453ba69ca48aa238417112dfa25",
+            "v-8846b67959d6486e15acba9601b2c2e5c419baef"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-eec3308009a596bc92320828ed6f47addd5b0309",
+            "word": "内閣",
+            "read": "ないかく",
+            "mean": "내각"
+        },
+        {
+            "id": "v-eb844aa7738675a5c3aaca7692c79a23e34a8447",
+            "word": "内心",
+            "read": "ないしん",
+            "mean": "내심"
+        },
+        {
+            "id": "v-ad7c5c95c190fa74232dd44a2618284141ab845d",
+            "word": "内臓",
+            "read": "ないぞう",
+            "mean": "내장"
+        },
+        {
+            "id": "v-f36d495fb7eb5dabde1f3d5661655cd7c7299f32",
+            "word": "苗",
+            "read": "なえ",
+            "mean": "모종"
+        },
+        {
+            "id": "v-66887e2487c4b1d85e129d913a2140b7c518d5ca",
+            "word": "仲間入り",
+            "read": "なかまいり",
+            "mean": "동료가 됨, 끼임"
+        },
+        {
+            "id": "v-2d6126765393ed86206873993bbe465e353bb851",
+            "word": "仲人",
+            "read": "なこうど",
+            "mean": "중매인"
+        },
+        {
+            "id": "v-1168c1814d6cff9fe5e684e9eb6c1292eea7a16c",
+            "word": "名残",
+            "read": "なごり",
+            "mean": "잔해, 자취, 아쉬움"
+        },
+        {
+            "id": "v-78a878db53179a024fe7d0b6ab7ec9dcd37575d3",
+            "word": "雪崩",
+            "read": "なだれ",
+            "mean": "눈사태"
+        },
+        {
+            "id": "v-788ee9b8fe083129d0f183e05b60ee8af7d40501",
+            "word": "名札",
+            "read": "なふだ",
+            "mean": "명찰"
+        },
+        {
+            "id": "v-f414d69fddac6e9c5f9ac2d1ad8c50662ef50c24",
+            "word": "怠け者",
+            "read": "なまけもの",
+            "mean": "게으름뱅이"
+        },
+        {
+            "id": "v-24fb860f8f3ef57e8421cb2568517589097addd2",
+            "word": "難",
+            "read": "なん",
+            "mean": "어려움, 재난"
+        },
+        {
+            "id": "v-680dc8ea59cc41bdec6b39ae3d7ec01b0e8abf5b",
+            "word": "難航",
+            "read": "なんこう",
+            "mean": "난항"
+        },
+        {
+            "id": "v-7ae6fd338e14ccf7f288d591af91d96591bfaf2e",
+            "word": "難点",
+            "read": "なんてん",
+            "mean": "난점"
+        },
+        {
+            "id": "v-09e673f0e1a2cee476417f6b04564887d98c09ec",
+            "word": "荷",
+            "read": "に",
+            "mean": "짐"
+        },
+        {
+            "id": "v-6be336bb62e948905888def0feb1bf3525bee62a",
+            "word": "苦味",
+            "read": "にがみ",
+            "mean": "쓴맛"
+        },
+        {
+            "id": "v-a3e756759acc4416b4c10ecccc7e15a88a19d803",
+            "word": "憎しみ",
+            "read": "にくしみ",
+            "mean": "증오"
+        },
+        {
+            "id": "v-aa2112e05dcbf1b46e90251593d8a35eb9a489bd",
+            "word": "肉親",
+            "read": "にくしん",
+            "mean": "육친"
+        },
+        {
+            "id": "v-1e6a63ca8757ef03e15732b24d4d1021f041aaeb",
+            "word": "偽物",
+            "read": "にせもの",
+            "mean": "가짜"
+        },
+        {
+            "id": "v-44b6bb1062a8915461a3e857048819bbe2578b99",
+            "word": "日夜",
+            "read": "にちや",
+            "mean": "밤낮"
+        },
+        {
+            "id": "v-b6076aa58593afad6369cace7a40bb3e85ef9bc1",
+            "word": "二の次",
+            "read": "にのつぎ",
+            "mean": "뒷전"
+        },
+        {
+            "id": "v-6296f2c2d28be5d6ee41e9cfe57c34e2a2e40053",
+            "word": "乳児",
+            "read": "にゅうじ",
+            "mean": "영아"
+        },
+        {
+            "id": "v-7df39d6338ff805cc96b91b302fd758ab8198f9e",
+            "word": "入手",
+            "read": "にゅうしゅ",
+            "mean": "입수"
+        },
+        {
+            "id": "v-4b5b740a1e52d9d6c862568907a8e08b4f1cee1e",
+            "word": "認識",
+            "read": "にんしき",
+            "mean": "인식"
+        },
+        {
+            "id": "v-90a42e65b9c3e453ba69ca48aa238417112dfa25",
+            "word": "人情",
+            "read": "にんじょう",
+            "mean": "인정"
+        },
+        {
+            "id": "v-8846b67959d6486e15acba9601b2c2e5c419baef",
+            "word": "妊娠",
+            "read": "にんしん",
+            "mean": "임신"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

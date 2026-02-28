@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-036",
+    "title": "N2 모듈 036 (Day 11-12)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-036-batch-01",
+        "vocabIds": [
+            "v-8233a9bfd65f08a57f84f8a5934aa7bb2351ffde",
+            "v-7008a045bd820ced6ff356c83e393973bf445937",
+            "v-020c7b835c3bdcdb2f8f382545214f05488ad271",
+            "v-cf079b22d7f124a35289a776f3c1248c6ce6cfa9",
+            "v-10373c34c3920de7fbf407da2bef167156d7a519",
+            "v-21648280486900906417c2f1611269bd57f8bbfa",
+            "v-c781b15beb2c5923e65899c77fde207b3336f83b",
+            "v-768d6d17fac6ae352789fd3d22ad924bbea4b65f",
+            "v-b904ad4cec3cc56381ecf24517ff109f4fa54b89",
+            "v-a23f87ccbcdc92c1b7c29611b690f23fd71c0c47",
+            "v-8ba8668dd653fcb5c5f2f16490603d2bb022016e",
+            "v-0cc930fa8bbda6f26a4a9c8316a42cecfeeb88b0",
+            "v-04dfb5377dae3e47d787b997f6a13c80f1426a92",
+            "v-f0627c667af49a6e49e88cf0b0b90ccfcd27bc8e",
+            "v-fbb46dc7689196b31f006f887ae1fbc05183dd68",
+            "v-89cf4b42b32417fc5429cecc98bab6ac315188cc",
+            "v-1e72393860a4a8e34dcdbff45f049527f068f466",
+            "v-8c3d51c78faeaa580e47d445fcc2c49011b69182",
+            "v-ff472379fdc7cf5056fa7190c3eeee9bf2bf32cd",
+            "v-810ee59999af02279ce45b6fb67eba310ace2b69",
+            "v-6b6414caa94533145920caa88e743c6d487b515f",
+            "v-e056542a54d5d252318e38a9fa9353afd70831a3",
+            "v-291e2ed47976048bb3167fb634d5c6789adc373f",
+            "v-768a1886b5a96562ab2b9da69268917ad3398c1a",
+            "v-cbb9d9ba4eed944f1b78c82e8496d5e9ba84f5f8"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-8233a9bfd65f08a57f84f8a5934aa7bb2351ffde",
+            "word": "童謡",
+            "read": "どうよう",
+            "mean": "동요(노래)"
+        },
+        {
+            "id": "v-7008a045bd820ced6ff356c83e393973bf445937",
+            "word": "同僚",
+            "read": "どうりょう",
+            "mean": "동료"
+        },
+        {
+            "id": "v-020c7b835c3bdcdb2f8f382545214f05488ad271",
+            "word": "登録",
+            "read": "とうろく",
+            "mean": "등록"
+        },
+        {
+            "id": "v-cf079b22d7f124a35289a776f3c1248c6ce6cfa9",
+            "word": "討論",
+            "read": "とうろん",
+            "mean": "토론"
+        },
+        {
+            "id": "v-10373c34c3920de7fbf407da2bef167156d7a519",
+            "word": "童話",
+            "read": "どうわ",
+            "mean": "동화"
+        },
+        {
+            "id": "v-21648280486900906417c2f1611269bd57f8bbfa",
+            "word": "特性",
+            "read": "とくせい",
+            "mean": "특성"
+        },
+        {
+            "id": "v-c781b15beb2c5923e65899c77fde207b3336f83b",
+            "word": "特徵",
+            "read": "とくちょう",
+            "mean": "특징"
+        },
+        {
+            "id": "v-768d6d17fac6ae352789fd3d22ad924bbea4b65f",
+            "word": "特長",
+            "read": "とくちょう",
+            "mean": "특장, 장점"
+        },
+        {
+            "id": "v-b904ad4cec3cc56381ecf24517ff109f4fa54b89",
+            "word": "特定",
+            "read": "とくてい",
+            "mean": "특정"
+        },
+        {
+            "id": "v-a23f87ccbcdc92c1b7c29611b690f23fd71c0c47",
+            "word": "独特",
+            "read": "どくとく",
+            "mean": "독특"
+        },
+        {
+            "id": "v-8ba8668dd653fcb5c5f2f16490603d2bb022016e",
+            "word": "図書",
+            "read": "としょ",
+            "mean": "도서"
+        },
+        {
+            "id": "v-0cc930fa8bbda6f26a4a9c8316a42cecfeeb88b0",
+            "word": "都心",
+            "read": "としん",
+            "mean": "도심"
+        },
+        {
+            "id": "v-04dfb5377dae3e47d787b997f6a13c80f1426a92",
+            "word": "戸棚",
+            "read": "とだな",
+            "mean": "찬장, 수납장"
+        },
+        {
+            "id": "v-f0627c667af49a6e49e88cf0b0b90ccfcd27bc8e",
+            "word": "丼",
+            "read": "どんぶり",
+            "mean": "돈부리, 덮밥 그릇"
+        },
+        {
+            "id": "v-fbb46dc7689196b31f006f887ae1fbc05183dd68",
+            "word": "長生き",
+            "read": "ながいき",
+            "mean": "장수"
+        },
+        {
+            "id": "v-89cf4b42b32417fc5429cecc98bab6ac315188cc",
+            "word": "仲直り",
+            "read": "なかなおり",
+            "mean": "화해"
+        },
+        {
+            "id": "v-1e72393860a4a8e34dcdbff45f049527f068f466",
+            "word": "長年",
+            "read": "ながねん",
+            "mean": "오랜 세월"
+        },
+        {
+            "id": "v-8c3d51c78faeaa580e47d445fcc2c49011b69182",
+            "word": "半ば",
+            "read": "なかば",
+            "mean": "중반, 반"
+        },
+        {
+            "id": "v-ff472379fdc7cf5056fa7190c3eeee9bf2bf32cd",
+            "word": "仲間",
+            "read": "なかま",
+            "mean": "동료"
+        },
+        {
+            "id": "v-810ee59999af02279ce45b6fb67eba310ace2b69",
+            "word": "中身",
+            "read": "なかみ",
+            "mean": "내용물, 알맹이"
+        },
+        {
+            "id": "v-6b6414caa94533145920caa88e743c6d487b515f",
+            "word": "眺め",
+            "read": "ながめ",
+            "mean": "전망, 경치"
+        },
+        {
+            "id": "v-e056542a54d5d252318e38a9fa9353afd70831a3",
+            "word": "無し",
+            "read": "なし",
+            "mean": "없음"
+        },
+        {
+            "id": "v-291e2ed47976048bb3167fb634d5c6789adc373f",
+            "word": "謎",
+            "read": "なぞ",
+            "mean": "수수께끼"
+        },
+        {
+            "id": "v-768a1886b5a96562ab2b9da69268917ad3398c1a",
+            "word": "納豆",
+            "read": "なっとう",
+            "mean": "낫토"
+        },
+        {
+            "id": "v-cbb9d9ba4eed944f1b78c82e8496d5e9ba84f5f8",
+            "word": "鍋",
+            "read": "なべ",
+            "mean": "냄비"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

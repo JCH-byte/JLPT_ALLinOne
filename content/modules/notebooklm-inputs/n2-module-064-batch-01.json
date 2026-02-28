@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-064",
+    "title": "N2 모듈 064 (Day 21)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-064-batch-01",
+        "vocabIds": [
+            "v-b789087faa54ce076b3a6196af4ef41f26becfc1",
+            "v-17edb21f22005b784162ac4849717ad298e0dd11",
+            "v-6e585f504c9fa3e6c5ce8390e382ab913df7477a",
+            "v-8baa56376681e9a231e8480ef6264cbcf2051438",
+            "v-a696150d9deea25f2f73af54bb521f2f472578f3",
+            "v-64d0009118459ea65535b13522473a8d89bc9b9c",
+            "v-e574bfd1c42115ac2a9781d2d3b601dfeeceb27c",
+            "v-697fcf334508ea770851e80d7b8fb942713abca6",
+            "v-b1434a2cb0e6841366995321161dca486604f6d4",
+            "v-a7c7598f6e9537a23afd5be588bbedbebf7c16de",
+            "v-cc7d658441c4f0e3c883acb913e2a9994381fdc4",
+            "v-ecc2081665e63966a79013a639a4be719f92900f",
+            "v-9d315573152e545474331734f4ef78ce2a52c5b9",
+            "v-bd2780829af74aa86dba800c28eb60de4277e8f9",
+            "v-24cbc19c38fd6170d37c6dd5ce36f12e5a816429",
+            "v-c929e2c4ae0a8f3159a3661d761ea3f873922707",
+            "v-8652799762700e1e5f7b17a06176f0768f175a17",
+            "v-0308b1202f5198225b1a1a364d62f5e7f837738a",
+            "v-a9c24a8f1fd7b839e076d33fd90a78ad8eb2024e",
+            "v-9bbb8e5387cb44eb84d42f8d057cb35746a34617",
+            "v-a631974b901d36870bac50d46d34e572a05a6ec1",
+            "v-3365cc2257d7de23b411c3d7128a4dbde78a35bc",
+            "v-107468d145eee1e15d9aa6805beb7e6cc3cc0d88",
+            "v-2a20092ac8a73c8e90fe0ad5e322ba34e0d8b4d1",
+            "v-b59d819e16fcfd5bbd8167da5d956624c8faf7c7"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-b789087faa54ce076b3a6196af4ef41f26becfc1",
+            "word": "昇る",
+            "read": "のぼる",
+            "mean": "오르다, 떠오르다"
+        },
+        {
+            "id": "v-17edb21f22005b784162ac4849717ad298e0dd11",
+            "word": "乗り過ごす",
+            "read": "のりすごす",
+            "mean": "지나치다 (내릴 역을)"
+        },
+        {
+            "id": "v-6e585f504c9fa3e6c5ce8390e382ab913df7477a",
+            "word": "乗り継ぐ",
+            "read": "のりつぐ",
+            "mean": "갈아타다"
+        },
+        {
+            "id": "v-8baa56376681e9a231e8480ef6264cbcf2051438",
+            "word": "剥がす",
+            "read": "はがす",
+            "mean": "벗기다, 떼다"
+        },
+        {
+            "id": "v-a696150d9deea25f2f73af54bb521f2f472578f3",
+            "word": "吐く",
+            "read": "はく",
+            "mean": "토하다, 뱉다"
+        },
+        {
+            "id": "v-64d0009118459ea65535b13522473a8d89bc9b9c",
+            "word": "はげる",
+            "read": "はげる",
+            "mean": "벗겨지다"
+        },
+        {
+            "id": "v-e574bfd1c42115ac2a9781d2d3b601dfeeceb27c",
+            "word": "挟まる",
+            "read": "はさまる",
+            "mean": "끼이다"
+        },
+        {
+            "id": "v-697fcf334508ea770851e80d7b8fb942713abca6",
+            "word": "挟む",
+            "read": "はさむ",
+            "mean": "끼우다, 사이에 두다"
+        },
+        {
+            "id": "v-b1434a2cb0e6841366995321161dca486604f6d4",
+            "word": "弾む",
+            "read": "はずむ",
+            "mean": "튀다, 신나다"
+        },
+        {
+            "id": "v-a7c7598f6e9537a23afd5be588bbedbebf7c16de",
+            "word": "外れる",
+            "read": "はずれる",
+            "mean": "빠지다, 빗나가다"
+        },
+        {
+            "id": "v-cc7d658441c4f0e3c883acb913e2a9994381fdc4",
+            "word": "果たす",
+            "read": "はたす",
+            "mean": "완수하다"
+        },
+        {
+            "id": "v-ecc2081665e63966a79013a639a4be719f92900f",
+            "word": "罰する",
+            "read": "ばっする",
+            "mean": "벌하다"
+        },
+        {
+            "id": "v-9d315573152e545474331734f4ef78ce2a52c5b9",
+            "word": "話し込む",
+            "read": "はなしこむ",
+            "mean": "이야기에 열중하다"
+        },
+        {
+            "id": "v-bd2780829af74aa86dba800c28eb60de4277e8f9",
+            "word": "放す",
+            "read": "はなす",
+            "mean": "놓다, 풀어주다"
+        },
+        {
+            "id": "v-24cbc19c38fd6170d37c6dd5ce36f12e5a816429",
+            "word": "離れる",
+            "read": "はなれる",
+            "mean": "멀어지다"
+        },
+        {
+            "id": "v-c929e2c4ae0a8f3159a3661d761ea3f873922707",
+            "word": "跳ねる",
+            "read": "はねる",
+            "mean": "튀다, 뛰어오르다"
+        },
+        {
+            "id": "v-8652799762700e1e5f7b17a06176f0768f175a17",
+            "word": "省く",
+            "read": "はぶく",
+            "mean": "생략하다, 줄이다"
+        },
+        {
+            "id": "v-0308b1202f5198225b1a1a364d62f5e7f837738a",
+            "word": "はめる",
+            "read": "はめる",
+            "mean": "끼우다, 빠뜨리다"
+        },
+        {
+            "id": "v-a9c24a8f1fd7b839e076d33fd90a78ad8eb2024e",
+            "word": "流行る",
+            "read": "はやる",
+            "mean": "유행하다"
+        },
+        {
+            "id": "v-9bbb8e5387cb44eb84d42f8d057cb35746a34617",
+            "word": "払い込む",
+            "read": "はらいこむ",
+            "mean": "납입하다"
+        },
+        {
+            "id": "v-a631974b901d36870bac50d46d34e572a05a6ec1",
+            "word": "腹を立てる",
+            "read": "はらをたてる",
+            "mean": "화내다"
+        },
+        {
+            "id": "v-3365cc2257d7de23b411c3d7128a4dbde78a35bc",
+            "word": "張り切る",
+            "read": "はりきる",
+            "mean": "의욕에 넘치다"
+        },
+        {
+            "id": "v-107468d145eee1e15d9aa6805beb7e6cc3cc0d88",
+            "word": "張る",
+            "read": "はる",
+            "mean": "뻗다, 펴다"
+        },
+        {
+            "id": "v-2a20092ac8a73c8e90fe0ad5e322ba34e0d8b4d1",
+            "word": "腫れる",
+            "read": "はれる",
+            "mean": "붓다"
+        },
+        {
+            "id": "v-b59d819e16fcfd5bbd8167da5d956624c8faf7c7",
+            "word": "引き返す",
+            "read": "ひきかえす",
+            "mean": "되돌아가다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

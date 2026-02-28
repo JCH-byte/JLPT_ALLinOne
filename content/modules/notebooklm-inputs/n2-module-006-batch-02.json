@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-006",
+    "title": "N2 모듈 006 (Day 2)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-006-batch-02",
+        "vocabIds": [
+            "v-bbf8ba763b4c223a8374fcf4a172b12ff25e46cb",
+            "v-eb1143362b6c9b350a8460218a2ae79679241c0b",
+            "v-63c147ca698b5064d63007609ed03631dcaf5b3e",
+            "v-b8ec818ee3b40e81673f503854b359ae8656ce91",
+            "v-840ccc3429df1724b20df603028c640e354c98a2",
+            "v-68b05eba7f8437e50287a6b2e1293361033e6c61",
+            "v-550f2c351fdd04a2b173ebd50b8d6fed05946f47",
+            "v-88a83366d4ecfa62bb431de03be21b231a6008b5",
+            "v-17e0ee4227a7d499d72face7b05b9aa479c0fe3e",
+            "v-99c7b3f357a4e7cede26a18881539dcec4f004a3",
+            "v-5fe1b5666b8c41d7984d9049d2f18e8ef9b24a03",
+            "v-33e9ac8adf1f287e6e0397094d82843f0acdcdf6",
+            "v-e9a50735951f7d37aa1c54edc326c2510d45a90f"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-bbf8ba763b4c223a8374fcf4a172b12ff25e46cb",
+            "word": "家屋",
+            "read": "かおく",
+            "mean": "가옥"
+        },
+        {
+            "id": "v-eb1143362b6c9b350a8460218a2ae79679241c0b",
+            "word": "顔つき",
+            "read": "かおつき",
+            "mean": "얼굴 생김새, 표정"
+        },
+        {
+            "id": "v-63c147ca698b5064d63007609ed03631dcaf5b3e",
+            "word": "かかりつけ",
+            "read": "かかりつけ",
+            "mean": "단골(의사 등)"
+        },
+        {
+            "id": "v-b8ec818ee3b40e81673f503854b359ae8656ce91",
+            "word": "垣根",
+            "read": "かきね",
+            "mean": "울타리"
+        },
+        {
+            "id": "v-840ccc3429df1724b20df603028c640e354c98a2",
+            "word": "限り",
+            "read": "かぎり",
+            "mean": "한, 끝, 한계"
+        },
+        {
+            "id": "v-68b05eba7f8437e50287a6b2e1293361033e6c61",
+            "word": "各自",
+            "read": "かくじ",
+            "mean": "각자"
+        },
+        {
+            "id": "v-550f2c351fdd04a2b173ebd50b8d6fed05946f47",
+            "word": "学者",
+            "read": "がくしゃ",
+            "mean": "학자"
+        },
+        {
+            "id": "v-88a83366d4ecfa62bb431de03be21b231a6008b5",
+            "word": "拡充",
+            "read": "かくじゅう",
+            "mean": "확충"
+        },
+        {
+            "id": "v-17e0ee4227a7d499d72face7b05b9aa479c0fe3e",
+            "word": "学術",
+            "read": "がくじゅつ",
+            "mean": "학술"
+        },
+        {
+            "id": "v-99c7b3f357a4e7cede26a18881539dcec4f004a3",
+            "word": "核心",
+            "read": "かくしん",
+            "mean": "핵심"
+        },
+        {
+            "id": "v-5fe1b5666b8c41d7984d9049d2f18e8ef9b24a03",
+            "word": "各人",
+            "read": "かくじん",
+            "mean": "각인, 각자"
+        },
+        {
+            "id": "v-33e9ac8adf1f287e6e0397094d82843f0acdcdf6",
+            "word": "拡張",
+            "read": "かくちょう",
+            "mean": "확장"
+        },
+        {
+            "id": "v-e9a50735951f7d37aa1c54edc326c2510d45a90f",
+            "word": "角度",
+            "read": "かくど",
+            "mean": "각도"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

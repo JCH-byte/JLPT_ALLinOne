@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-024",
+    "title": "N1 모듈 024 (Day 6-7)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-024-batch-01",
+        "vocabIds": [
+            "v-20a79265d640f046050ec949be5b74ce9f789013",
+            "v-86b3f613efeab4d65b87f75b77f4099340581345",
+            "v-32cdadeca5f73ce0c8c5968dc8539c26b01de46c",
+            "v-21c7db3bafd7e6dd00571b5cef44b78138260cad",
+            "v-4ad8ba95528e92b3065f6d523fc7a2cc10a9216c",
+            "v-6132b6abd6606300802061e31324abd466122ae5",
+            "v-4ab3b29f96f79225eb9ca9c89c4a40d6d1546c9c",
+            "v-e7ed8f979170acaaa9ecbc36378fc8bf219f35c7",
+            "v-b2e0a7a260d383726104c5c30f22daac76aa1433",
+            "v-2e48bdfbc34e049a2bfb93739cc782752cfb1582",
+            "v-5a5726816c0b24bd04aaac1f0f35eb713910a586",
+            "v-d22cdced510095e98994ec7a2788da7d4201af54",
+            "v-03ec5e17afb2613a2b6f8fec79fcef076c93fefe",
+            "v-ef9b3c85bb7364c76d73c9b3fc33352f520839b7",
+            "v-565ff13519871430e79fae31b2a14c9390e0775d",
+            "v-c5498c454ce46c86d7ad4a11acb0c591e6085a8d",
+            "v-c7a47f0ae7f203c2f7a8b4961d36ae5359978327",
+            "v-802692dcdd63b5cfa60d1e54901610fadf5ecd34",
+            "v-4461e8981b12c863e77bc9d757ecab4ff732268b",
+            "v-51f175b3c7728ad0b9aa671091c53874f8bcea17",
+            "v-71f41075b28255421cf1b38d89be81794cde382c",
+            "v-bc43b17c6579543916769a23113204d97ea12433",
+            "v-83a7a9b32d91170f1959b7944910b180925944d6",
+            "v-6ac5bfbadd582bb4d0e6e1f77bd2d24de89db083",
+            "v-49abd1b50fc545ec8fec126ff8ac88b78d6d5560"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-20a79265d640f046050ec949be5b74ce9f789013",
+            "word": "樹木",
+            "read": "じゅもく",
+            "mean": "수목"
+        },
+        {
+            "id": "v-86b3f613efeab4d65b87f75b77f4099340581345",
+            "word": "需要",
+            "read": "じゅよう",
+            "mean": "수요"
+        },
+        {
+            "id": "v-32cdadeca5f73ce0c8c5968dc8539c26b01de46c",
+            "word": "樹立",
+            "read": "じゅりつ",
+            "mean": "수립"
+        },
+        {
+            "id": "v-21c7db3bafd7e6dd00571b5cef44b78138260cad",
+            "word": "主力",
+            "read": "しゅりょく",
+            "mean": "주력"
+        },
+        {
+            "id": "v-4ad8ba95528e92b3065f6d523fc7a2cc10a9216c",
+            "word": "手腕",
+            "read": "しゅわん",
+            "mean": "수완"
+        },
+        {
+            "id": "v-6132b6abd6606300802061e31324abd466122ae5",
+            "word": "循環",
+            "read": "じゅんかん",
+            "mean": "순환"
+        },
+        {
+            "id": "v-4ab3b29f96f79225eb9ca9c89c4a40d6d1546c9c",
+            "word": "順応",
+            "read": "じゅんのう",
+            "mean": "순응"
+        },
+        {
+            "id": "v-e7ed8f979170acaaa9ecbc36378fc8bf219f35c7",
+            "word": "瞬発力",
+            "read": "しゅんぱつりょく",
+            "mean": "순발력"
+        },
+        {
+            "id": "v-b2e0a7a260d383726104c5c30f22daac76aa1433",
+            "word": "仕様",
+            "read": "しよう",
+            "mean": "사양, 방법"
+        },
+        {
+            "id": "v-2e48bdfbc34e049a2bfb93739cc782752cfb1582",
+            "word": "浄化",
+            "read": "じょうか",
+            "mean": "정화"
+        },
+        {
+            "id": "v-5a5726816c0b24bd04aaac1f0f35eb713910a586",
+            "word": "照会",
+            "read": "しょうかい",
+            "mean": "조회"
+        },
+        {
+            "id": "v-d22cdced510095e98994ec7a2788da7d4201af54",
+            "word": "生涯",
+            "read": "しょうがい",
+            "mean": "생애"
+        },
+        {
+            "id": "v-03ec5e17afb2613a2b6f8fec79fcef076c93fefe",
+            "word": "消去",
+            "read": "しょうきょ",
+            "mean": "소거"
+        },
+        {
+            "id": "v-ef9b3c85bb7364c76d73c9b3fc33352f520839b7",
+            "word": "衝撃",
+            "read": "しょうげき",
+            "mean": "충격"
+        },
+        {
+            "id": "v-565ff13519871430e79fae31b2a14c9390e0775d",
+            "word": "証言",
+            "read": "しょうげん",
+            "mean": "증언"
+        },
+        {
+            "id": "v-c5498c454ce46c86d7ad4a11acb0c591e6085a8d",
+            "word": "証拠",
+            "read": "しょうこ",
+            "mean": "증거"
+        },
+        {
+            "id": "v-c7a47f0ae7f203c2f7a8b4961d36ae5359978327",
+            "word": "照合",
+            "read": "しょうごう",
+            "mean": "대조, 확인"
+        },
+        {
+            "id": "v-802692dcdd63b5cfa60d1e54901610fadf5ecd34",
+            "word": "昇進",
+            "read": "しょうしん",
+            "mean": "승진"
+        },
+        {
+            "id": "v-4461e8981b12c863e77bc9d757ecab4ff732268b",
+            "word": "情勢",
+            "read": "じょうせい",
+            "mean": "정세"
+        },
+        {
+            "id": "v-51f175b3c7728ad0b9aa671091c53874f8bcea17",
+            "word": "上層",
+            "read": "じょうそう",
+            "mean": "상층"
+        },
+        {
+            "id": "v-71f41075b28255421cf1b38d89be81794cde382c",
+            "word": "消息",
+            "read": "しょうそく",
+            "mean": "소식"
+        },
+        {
+            "id": "v-bc43b17c6579543916769a23113204d97ea12433",
+            "word": "正体",
+            "read": "しょうたい",
+            "mean": "정체"
+        },
+        {
+            "id": "v-83a7a9b32d91170f1959b7944910b180925944d6",
+            "word": "承諾",
+            "read": "しょうだく",
+            "mean": "승낙"
+        },
+        {
+            "id": "v-6ac5bfbadd582bb4d0e6e1f77bd2d24de89db083",
+            "word": "情緒",
+            "read": "じょうちょ",
+            "mean": "정서"
+        },
+        {
+            "id": "v-49abd1b50fc545ec8fec126ff8ac88b78d6d5560",
+            "word": "情熱",
+            "read": "じょうねつ",
+            "mean": "정열"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

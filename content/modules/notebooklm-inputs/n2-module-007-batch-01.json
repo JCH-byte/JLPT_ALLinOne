@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-007",
+    "title": "N2 모듈 007 (Day 2-3)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-007-batch-01",
+        "vocabIds": [
+            "v-d16fa182cd09129cd1f8986a79b7d213fe5bd033",
+            "v-53b8f396420f52a8b0c221dd9574111a756478de",
+            "v-1b571986cad94e396235ada124133f043af7bada",
+            "v-106e9f62962ac4e9c217c04f2af898a9e4503f0d",
+            "v-beff316c6c726917c92787435eddcfd8e6555880",
+            "v-172d686b2cb310de49ddfb2997b2903a7870d665",
+            "v-4fce8e9c82be655a0f69dbf6db0894a6ceeb46e3",
+            "v-01bf0e2bed07c17a9e5098e8316f414f330bdad2",
+            "v-78bf9ac81ed78446dbc80df0816d13cbe74a71e9",
+            "v-01a9ef5e78846b2050c437b90eda3be35925aa1c",
+            "v-f9e59c262b71ec6cac330031afd093e77c0fabdf",
+            "v-0d59872703ba558fd3afd8db7d48f53867fa705f",
+            "v-5557668a4e6955044e4f54d7823e180a8ef61cf6"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-d16fa182cd09129cd1f8986a79b7d213fe5bd033",
+            "word": "学年",
+            "read": "がくねん",
+            "mean": "학년"
+        },
+        {
+            "id": "v-53b8f396420f52a8b0c221dd9574111a756478de",
+            "word": "確保",
+            "read": "かくほ",
+            "mean": "확보"
+        },
+        {
+            "id": "v-1b571986cad94e396235ada124133f043af7bada",
+            "word": "確率",
+            "read": "かくりつ",
+            "mean": "확률"
+        },
+        {
+            "id": "v-106e9f62962ac4e9c217c04f2af898a9e4503f0d",
+            "word": "影",
+            "read": "かげ",
+            "mean": "그림자, 자취"
+        },
+        {
+            "id": "v-beff316c6c726917c92787435eddcfd8e6555880",
+            "word": "かけら",
+            "read": "かけら",
+            "mean": "조각, 파편"
+        },
+        {
+            "id": "v-172d686b2cb310de49ddfb2997b2903a7870d665",
+            "word": "加減",
+            "read": "かげん",
+            "mean": "가감, 정도, 상태"
+        },
+        {
+            "id": "v-4fce8e9c82be655a0f69dbf6db0894a6ceeb46e3",
+            "word": "籠",
+            "read": "かご",
+            "mean": "바구니"
+        },
+        {
+            "id": "v-01bf0e2bed07c17a9e5098e8316f414f330bdad2",
+            "word": "下降",
+            "read": "かこう",
+            "mean": "하강"
+        },
+        {
+            "id": "v-78bf9ac81ed78446dbc80df0816d13cbe74a71e9",
+            "word": "加工",
+            "read": "かこう",
+            "mean": "가공"
+        },
+        {
+            "id": "v-01a9ef5e78846b2050c437b90eda3be35925aa1c",
+            "word": "火山",
+            "read": "かざん",
+            "mean": "화산"
+        },
+        {
+            "id": "v-f9e59c262b71ec6cac330031afd093e77c0fabdf",
+            "word": "家事",
+            "read": "かじ",
+            "mean": "집안일"
+        },
+        {
+            "id": "v-0d59872703ba558fd3afd8db7d48f53867fa705f",
+            "word": "過失",
+            "read": "かしつ",
+            "mean": "과실"
+        },
+        {
+            "id": "v-5557668a4e6955044e4f54d7823e180a8ef61cf6",
+            "word": "果実",
+            "read": "かじつ",
+            "mean": "과실, 열매"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

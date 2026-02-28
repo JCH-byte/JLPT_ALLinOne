@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-078",
+    "title": "N1 모듈 078 (Day 23)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-078-batch-01",
+        "vocabIds": [
+            "v-2a2effa68af36b20583e0d1d047cf5efdfaa6b68",
+            "v-3dda396e260bbcc737d5b2a5f97312f5a9c98757",
+            "v-204b90088ec6ab9b5ca2c85c936fd2b483b27a35",
+            "v-0573029b950bdf31818f7f695b3c017b1262ba13",
+            "v-ef13694f2095327b63684e85b0564496900347db",
+            "v-a2ebee2584384b0451b6e0ccbb8c9a7909150a06",
+            "v-b5961506f86cd1a73316fd79c1161446b7097413",
+            "v-28730fb1e5b2f9c532bc06c13e55bb9f5ac74a10",
+            "v-7a61fafcd9601087b049f506038bc7651719e058",
+            "v-ef9ba1e6bd61e708e43eca0a336f644fd95e1ad4",
+            "v-cce97569f5d3d3962675c7cc25343c6fcac3602d",
+            "v-7054d9209752902831ee2205d382d1fd1cb45052",
+            "v-27f01da42a36b596f92b5c43304e9f8a7b7a3b63",
+            "v-fbe4c9e75fb46b16b518738bd9c0a41e0fdd07be",
+            "v-ffb4aed00b5ff65acd143a980f53b01491d533a5",
+            "v-729df240104f684e732532f109a39c26d5e5b15e",
+            "v-240facb0dce36e3c3bda01cd2218354f36ad7a80",
+            "v-cac505dd76e8b46de3dc84a67ba87e7b4872ec78",
+            "v-a8ecb93a2d272e453fd45071fc6ae311ef8f0cec",
+            "v-add58c20c052e3a85d14afd8ce7f27762a23a5da",
+            "v-81fc6164f45f646959c9a6709bea9535479c2ad7",
+            "v-99cdadf83038090b54df9f96a8f4b68c5c27a117",
+            "v-ad0374f7f00036de001014bdd7b62cf2b67e8ba6",
+            "v-d52177f019e72f7dd18b72a58e557e816f8c700c",
+            "v-076a5dec4c2fb7bcd150732f5ffe9d76242f6d95"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-2a2effa68af36b20583e0d1d047cf5efdfaa6b68",
+            "word": "適宜な",
+            "read": "てきぎな",
+            "mean": "적의, 적당한"
+        },
+        {
+            "id": "v-3dda396e260bbcc737d5b2a5f97312f5a9c98757",
+            "word": "適正な",
+            "read": "てきせいな",
+            "mean": "적정한"
+        },
+        {
+            "id": "v-204b90088ec6ab9b5ca2c85c936fd2b483b27a35",
+            "word": "手頃な",
+            "read": "てごろな",
+            "mean": "알맞은"
+        },
+        {
+            "id": "v-0573029b950bdf31818f7f695b3c017b1262ba13",
+            "word": "鈍感な",
+            "read": "どんかんな",
+            "mean": "둔감한"
+        },
+        {
+            "id": "v-ef13694f2095327b63684e85b0564496900347db",
+            "word": "滑らかな",
+            "read": "なめらかな",
+            "mean": "매끄러운"
+        },
+        {
+            "id": "v-a2ebee2584384b0451b6e0ccbb8c9a7909150a06",
+            "word": "入念な",
+            "read": "にゅうねんな",
+            "mean": "꼼꼼한, 정성 들인"
+        },
+        {
+            "id": "v-b5961506f86cd1a73316fd79c1161446b7097413",
+            "word": "にわかな",
+            "read": "にわかな",
+            "mean": "갑작스러운"
+        },
+        {
+            "id": "v-28730fb1e5b2f9c532bc06c13e55bb9f5ac74a10",
+            "word": "のどかな",
+            "read": "のどかな",
+            "mean": "한가로운"
+        },
+        {
+            "id": "v-7a61fafcd9601087b049f506038bc7651719e058",
+            "word": "排他的な",
+            "read": "はいたてきな",
+            "mean": "배타적인"
+        },
+        {
+            "id": "v-ef9ba1e6bd61e708e43eca0a336f644fd95e1ad4",
+            "word": "華やかな",
+            "read": "はなやかな",
+            "mean": "화려한"
+        },
+        {
+            "id": "v-cce97569f5d3d3962675c7cc25343c6fcac3602d",
+            "word": "はるかな",
+            "read": "はるかな",
+            "mean": "아득한"
+        },
+        {
+            "id": "v-7054d9209752902831ee2205d382d1fd1cb45052",
+            "word": "煩雑な",
+            "read": "はんざつな",
+            "mean": "번잡한"
+        },
+        {
+            "id": "v-27f01da42a36b596f92b5c43304e9f8a7b7a3b63",
+            "word": "半端な",
+            "read": "はんぱな",
+            "mean": "어중간한"
+        },
+        {
+            "id": "v-fbe4c9e75fb46b16b518738bd9c0a41e0fdd07be",
+            "word": "悲惨な",
+            "read": "ひさんな",
+            "mean": "비참한"
+        },
+        {
+            "id": "v-ffb4aed00b5ff65acd143a980f53b01491d533a5",
+            "word": "密かな",
+            "read": "ひそかな",
+            "mean": "은밀한"
+        },
+        {
+            "id": "v-729df240104f684e732532f109a39c26d5e5b15e",
+            "word": "ひたむきな",
+            "read": "ひたむきな",
+            "mean": "한결같은"
+        },
+        {
+            "id": "v-240facb0dce36e3c3bda01cd2218354f36ad7a80",
+            "word": "否定的な",
+            "read": "ひていてきな",
+            "mean": "부정적인"
+        },
+        {
+            "id": "v-cac505dd76e8b46de3dc84a67ba87e7b4872ec78",
+            "word": "批判的な",
+            "read": "ひはんてきな",
+            "mean": "비판적인"
+        },
+        {
+            "id": "v-a8ecb93a2d272e453fd45071fc6ae311ef8f0cec",
+            "word": "貧弱な",
+            "read": "ひんじゃくな",
+            "mean": "빈약한"
+        },
+        {
+            "id": "v-add58c20c052e3a85d14afd8ce7f27762a23a5da",
+            "word": "頻繁な",
+            "read": "ひんぱんな",
+            "mean": "빈번한"
+        },
+        {
+            "id": "v-81fc6164f45f646959c9a6709bea9535479c2ad7",
+            "word": "不可欠な",
+            "read": "ふかけつな",
+            "mean": "불가결한"
+        },
+        {
+            "id": "v-99cdadf83038090b54df9f96a8f4b68c5c27a117",
+            "word": "不機嫌な",
+            "read": "ふきげんな",
+            "mean": "불쾌한"
+        },
+        {
+            "id": "v-ad0374f7f00036de001014bdd7b62cf2b67e8ba6",
+            "word": "不吉な",
+            "read": "ふきつな",
+            "mean": "불길한"
+        },
+        {
+            "id": "v-d52177f019e72f7dd18b72a58e557e816f8c700c",
+            "word": "不自然な",
+            "read": "ふしぜんな",
+            "mean": "부자연스러운"
+        },
+        {
+            "id": "v-076a5dec4c2fb7bcd150732f5ffe9d76242f6d95",
+            "word": "不十分な",
+            "read": "ふじゅうぶんな",
+            "mean": "불충분한"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

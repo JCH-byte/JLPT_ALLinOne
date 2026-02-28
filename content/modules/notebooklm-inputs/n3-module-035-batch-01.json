@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-035",
+    "title": "N3 모듈 035 (Day 13)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-035-batch-01",
+        "vocabIds": [
+            "v-2e729e058e2299e55e82cba7921347dfd75b19cc",
+            "v-ffe50882787173b372621d39abef4781f7cd6293",
+            "v-01ae9706c5a9cce35217999114f117ed58de30ed",
+            "v-acda08096d1040ef7a9596fcbabf9deed4c9f2f2",
+            "v-a0b44958394b90abd9e674a87641f28637d64660",
+            "v-2cb55d31cd4f6541216bb2725b4a1a173cc336d0",
+            "v-c5757c9da2481390c915527e425407bd1960277f",
+            "v-686eae9c4a3679d74bb5e3d89c371191ba10aeca",
+            "v-d2c725d4704d161844b210b0f464e47bcd420412",
+            "v-ee613305cb43242ab3115999eb95320784b126c5",
+            "v-55cc2ac82a8cf21e427df84eb6169badf6f05740",
+            "v-1220d964e9e03e325aef9f326051247b677c2bb1",
+            "v-eb8ecdf7380abbbf370d6d7f36fd50db6f08c7a7",
+            "v-a1d9709a950cfc9646966dc0abaa9b1f1874e7fd",
+            "v-e6d2817d3618a2515588a27ad956050d9e0fe858",
+            "v-d1019a6ce469af16d1c7f2972652903f438bf19b",
+            "v-3b0df42fa259f428d0047f6732e768ba64ca3414",
+            "v-25c6d3346d54be46d1d49044d6b2ce17316ca227",
+            "v-d303645831ffdb6d1ca3daddfc2ade541c562b33",
+            "v-40076e3f6557c89a28b1a899a578daefbbfcf895",
+            "v-5e5ab6bb30be235a53894bea99eb1c4c6802fcac",
+            "v-17242c3d1ed1f9a57500b7a376832e2e66a753c5",
+            "v-e129aa21d3c9809e644f5a55ff7c37605cffa680",
+            "v-72cd2ce85bfbe9e6f63a88e83eb69c2357399c72",
+            "v-037802eeead969b334f770d5a21b0f7b3a1e2c5d"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-2e729e058e2299e55e82cba7921347dfd75b19cc",
+            "word": "表",
+            "read": "おもて",
+            "mean": "겉, 표면"
+        },
+        {
+            "id": "v-ffe50882787173b372621d39abef4781f7cd6293",
+            "word": "費用",
+            "read": "ひよう",
+            "mean": "비용"
+        },
+        {
+            "id": "v-01ae9706c5a9cce35217999114f117ed58de30ed",
+            "word": "秒",
+            "read": "びょう",
+            "mean": "초"
+        },
+        {
+            "id": "v-acda08096d1040ef7a9596fcbabf9deed4c9f2f2",
+            "word": "美容",
+            "read": "びよう",
+            "mean": "미용"
+        },
+        {
+            "id": "v-a0b44958394b90abd9e674a87641f28637d64660",
+            "word": "表現",
+            "read": "ひょうげん",
+            "mean": "표현"
+        },
+        {
+            "id": "v-2cb55d31cd4f6541216bb2725b4a1a173cc336d0",
+            "word": "表紙",
+            "read": "ひょうし",
+            "mean": "표지"
+        },
+        {
+            "id": "v-c5757c9da2481390c915527e425407bd1960277f",
+            "word": "表情",
+            "read": "ひょうじょう",
+            "mean": "표정"
+        },
+        {
+            "id": "v-686eae9c4a3679d74bb5e3d89c371191ba10aeca",
+            "word": "表面",
+            "read": "ひょうめん",
+            "mean": "표면"
+        },
+        {
+            "id": "v-d2c725d4704d161844b210b0f464e47bcd420412",
+            "word": "昼寝",
+            "read": "ひるね",
+            "mean": "낮잠"
+        },
+        {
+            "id": "v-ee613305cb43242ab3115999eb95320784b126c5",
+            "word": "広場",
+            "read": "ひろば",
+            "mean": "광장"
+        },
+        {
+            "id": "v-55cc2ac82a8cf21e427df84eb6169badf6f05740",
+            "word": "瓶詰め",
+            "read": "びんづめ",
+            "mean": "병조림, 병에 담음"
+        },
+        {
+            "id": "v-1220d964e9e03e325aef9f326051247b677c2bb1",
+            "word": "風景",
+            "read": "ふうけい",
+            "mean": "풍경"
+        },
+        {
+            "id": "v-eb8ecdf7380abbbf370d6d7f36fd50db6f08c7a7",
+            "word": "夫婦",
+            "read": "ふうふ",
+            "mean": "부부"
+        },
+        {
+            "id": "v-a1d9709a950cfc9646966dc0abaa9b1f1874e7fd",
+            "word": "部下",
+            "read": "ぶか",
+            "mean": "부하"
+        },
+        {
+            "id": "v-e6d2817d3618a2515588a27ad956050d9e0fe858",
+            "word": "復習",
+            "read": "ふくしゅう",
+            "mean": "복습"
+        },
+        {
+            "id": "v-d1019a6ce469af16d1c7f2972652903f438bf19b",
+            "word": "複数",
+            "read": "ふくすう",
+            "mean": "복수"
+        },
+        {
+            "id": "v-3b0df42fa259f428d0047f6732e768ba64ca3414",
+            "word": "不合格",
+            "read": "ふごうかく",
+            "mean": "불합격"
+        },
+        {
+            "id": "v-25c6d3346d54be46d1d49044d6b2ce17316ca227",
+            "word": "夫妻",
+            "read": "ふさい",
+            "mean": "부부, 내외"
+        },
+        {
+            "id": "v-d303645831ffdb6d1ca3daddfc2ade541c562b33",
+            "word": "不足",
+            "read": "ふそく",
+            "mean": "부족"
+        },
+        {
+            "id": "v-40076e3f6557c89a28b1a899a578daefbbfcf895",
+            "word": "ふた",
+            "read": "ふた",
+            "mean": "뚜껑"
+        },
+        {
+            "id": "v-5e5ab6bb30be235a53894bea99eb1c4c6802fcac",
+            "word": "舞台",
+            "read": "ぶたい",
+            "mean": "무대"
+        },
+        {
+            "id": "v-17242c3d1ed1f9a57500b7a376832e2e66a753c5",
+            "word": "普段",
+            "read": "ふだん",
+            "mean": "평소"
+        },
+        {
+            "id": "v-e129aa21d3c9809e644f5a55ff7c37605cffa680",
+            "word": "縁",
+            "read": "ふち",
+            "mean": "가장자리, 테두리"
+        },
+        {
+            "id": "v-72cd2ce85bfbe9e6f63a88e83eb69c2357399c72",
+            "word": "普通",
+            "read": "ふつう",
+            "mean": "보통"
+        },
+        {
+            "id": "v-037802eeead969b334f770d5a21b0f7b3a1e2c5d",
+            "word": "物価",
+            "read": "ぶっか",
+            "mean": "물가"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

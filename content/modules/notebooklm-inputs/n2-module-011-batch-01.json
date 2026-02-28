@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-011",
+    "title": "N2 모듈 011 (Day 4)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-011-batch-01",
+        "vocabIds": [
+            "v-685f6398b355de7cccc4299b2218513fcb07f9fa",
+            "v-6e9d0ba2c75831428798f3e999d8f39aba2e5ec7",
+            "v-76dc665c8890d718c3fc1fc4c2a6402c3807978c",
+            "v-6181026ba0734e31a80c1d695cda7da0faa6d40f",
+            "v-cae8537a686dc50bb6571120dcd14f33b7676e68",
+            "v-c9e699fe2d681a0a61004a69f9f37a6ef3d11273",
+            "v-57675a5a8412fdf71fc8d3412a25728573fdfa52",
+            "v-858fde16e7b84a53f73f809e4013e110a9d9924b",
+            "v-d45f0352a1e36167d06d8ecc111c1fedb1664b44",
+            "v-8c22ce64931d16b4d316feaafc521debfb6e643b",
+            "v-f983e4b11161e5dd34796624bd261e607fac3565",
+            "v-f6359d6fbcf3192d09e94a9d964ec1710d16394b",
+            "v-1243a23b709f6c39e4a8dc49ba9a2bb06d421e3a"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-685f6398b355de7cccc4299b2218513fcb07f9fa",
+            "word": "機能",
+            "read": "きのう",
+            "mean": "기능"
+        },
+        {
+            "id": "v-6e9d0ba2c75831428798f3e999d8f39aba2e5ec7",
+            "word": "寄付",
+            "read": "きふ",
+            "mean": "기부"
+        },
+        {
+            "id": "v-76dc665c8890d718c3fc1fc4c2a6402c3807978c",
+            "word": "規模",
+            "read": "きぼ",
+            "mean": "규모"
+        },
+        {
+            "id": "v-6181026ba0734e31a80c1d695cda7da0faa6d40f",
+            "word": "気味",
+            "read": "きみ",
+            "mean": "기미, 기색"
+        },
+        {
+            "id": "v-cae8537a686dc50bb6571120dcd14f33b7676e68",
+            "word": "義務",
+            "read": "ぎむ",
+            "mean": "의무"
+        },
+        {
+            "id": "v-c9e699fe2d681a0a61004a69f9f37a6ef3d11273",
+            "word": "客席",
+            "read": "きゃくせき",
+            "mean": "객석"
+        },
+        {
+            "id": "v-57675a5a8412fdf71fc8d3412a25728573fdfa52",
+            "word": "休講",
+            "read": "きゅうこう",
+            "mean": "휴강"
+        },
+        {
+            "id": "v-858fde16e7b84a53f73f809e4013e110a9d9924b",
+            "word": "求婚",
+            "read": "きゅうこん",
+            "mean": "구혼"
+        },
+        {
+            "id": "v-d45f0352a1e36167d06d8ecc111c1fedb1664b44",
+            "word": "吸収",
+            "read": "きゅうしゅう",
+            "mean": "흡수"
+        },
+        {
+            "id": "v-8c22ce64931d16b4d316feaafc521debfb6e643b",
+            "word": "救助",
+            "read": "きゅうじょ",
+            "mean": "구조"
+        },
+        {
+            "id": "v-f983e4b11161e5dd34796624bd261e607fac3565",
+            "word": "求人",
+            "read": "きゅうじん",
+            "mean": "구인"
+        },
+        {
+            "id": "v-f6359d6fbcf3192d09e94a9d964ec1710d16394b",
+            "word": "休息",
+            "read": "きゅうそく",
+            "mean": "휴식"
+        },
+        {
+            "id": "v-1243a23b709f6c39e4a8dc49ba9a2bb06d421e3a",
+            "word": "教員",
+            "read": "きょういん",
+            "mean": "교원"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-051",
+    "title": "N3 모듈 051 (Day 20)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-051-batch-01",
+        "vocabIds": [
+            "v-3a9388956fdc8f0fce60850a4101e26f3ead7f93",
+            "v-55a8299566d2dd3fd59407a0510dd6cf44ae17c6",
+            "v-39af613deacfbd1d31bdf532a6f27a48bde584de",
+            "v-286f3e3de702983a3401e51c641ce6e2617b4774",
+            "v-f6e75c4289c386357bc2e41e8fb6bde9686a8f2d",
+            "v-0e13b29058a1a35094150027f9ef0653254e6d33",
+            "v-b0f336acbf90e2ef0804276b3cc21a6dfea90e05",
+            "v-8dd64870582236380ab0e46befd4b67c6f716ac3",
+            "v-5f0734457f7df1b98e11c4bf83c4ac9da6e45b81",
+            "v-c99dd3791b79d44366f8d93c346ee44fe7716acd",
+            "v-c349d29a278f898c913bb88a9341710a3f4841c5",
+            "v-1a43bfa9cbdcfc66b35e4a32bb7e6bd87720e2ff",
+            "v-93b7c71c41595f6466ce514a8a8661e7150701af",
+            "v-fe267a2faefd160aab353f0fe14b721e2b4d74b6",
+            "v-c1f742e8400f4ef216482bebb6b13aab9275ec4b",
+            "v-cea61e19b1b3b2909c3dce0c2713f011282c4f10",
+            "v-24aded04fa7535ae83822874dfaa861081aa3261",
+            "v-a206c2499c516c54ec9177a971b3841c3df0d483",
+            "v-51ba4dccfe95aaca75ea1ff8b249adc1dd16fe2f",
+            "v-f1c90011f960a66393f55543dce38c7748937dab",
+            "v-9a0f33e58357da6930f8dca3ea7f73ef2db79fcb",
+            "v-829937ca696dfe0c2ecca6fd2b4f3070625b8637",
+            "v-6fea220539e3c1289eefc9d65fb3a7033b68c08e",
+            "v-dc6010c95225e00876ab2f2c15753db3950e5692",
+            "v-8c77ee722417b5f8946722785f60c9b4a43d5406"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-3a9388956fdc8f0fce60850a4101e26f3ead7f93",
+            "word": "黙る",
+            "read": "だまる",
+            "mean": "묵묵하다, 입을 다물다"
+        },
+        {
+            "id": "v-55a8299566d2dd3fd59407a0510dd6cf44ae17c6",
+            "word": "貯める",
+            "read": "ためる",
+            "mean": "모으다 (돈을)"
+        },
+        {
+            "id": "v-39af613deacfbd1d31bdf532a6f27a48bde584de",
+            "word": "近付く",
+            "read": "ちかづく",
+            "mean": "접근하다"
+        },
+        {
+            "id": "v-286f3e3de702983a3401e51c641ce6e2617b4774",
+            "word": "近付ける",
+            "read": "ちかづける",
+            "mean": "가까이 대다"
+        },
+        {
+            "id": "v-f6e75c4289c386357bc2e41e8fb6bde9686a8f2d",
+            "word": "散らかす",
+            "read": "ちらかす",
+            "mean": "어지르다"
+        },
+        {
+            "id": "v-0e13b29058a1a35094150027f9ef0653254e6d33",
+            "word": "散らかる",
+            "read": "ちらかる",
+            "mean": "어지러지다"
+        },
+        {
+            "id": "v-b0f336acbf90e2ef0804276b3cc21a6dfea90e05",
+            "word": "散る",
+            "read": "ちる",
+            "mean": "지다 (꽃이), 흩어지다"
+        },
+        {
+            "id": "v-8dd64870582236380ab0e46befd4b67c6f716ac3",
+            "word": "通じる",
+            "read": "つうじる",
+            "mean": "통하다"
+        },
+        {
+            "id": "v-5f0734457f7df1b98e11c4bf83c4ac9da6e45b81",
+            "word": "捕まる",
+            "read": "つかまる",
+            "mean": "잡히다"
+        },
+        {
+            "id": "v-c99dd3791b79d44366f8d93c346ee44fe7716acd",
+            "word": "つかむ",
+            "read": "つかむ",
+            "mean": "잡다, 쥐다"
+        },
+        {
+            "id": "v-c349d29a278f898c913bb88a9341710a3f4841c5",
+            "word": "付き合う",
+            "read": "つきあう",
+            "mean": "사귀다, 교제하다"
+        },
+        {
+            "id": "v-1a43bfa9cbdcfc66b35e4a32bb7e6bd87720e2ff",
+            "word": "伝わる",
+            "read": "つたわる",
+            "mean": "전해지다"
+        },
+        {
+            "id": "v-93b7c71c41595f6466ce514a8a8661e7150701af",
+            "word": "包む",
+            "read": "つつむ",
+            "mean": "싸다, 포장하다"
+        },
+        {
+            "id": "v-fe267a2faefd160aab353f0fe14b721e2b4d74b6",
+            "word": "勤める",
+            "read": "つとめる",
+            "mean": "근무하다"
+        },
+        {
+            "id": "v-c1f742e8400f4ef216482bebb6b13aab9275ec4b",
+            "word": "つぶす",
+            "read": "つぶす",
+            "mean": "찌그러뜨리다, 시간을 보내다"
+        },
+        {
+            "id": "v-cea61e19b1b3b2909c3dce0c2713f011282c4f10",
+            "word": "つぶれる",
+            "read": "つぶれる",
+            "mean": "찌그러지다, 망하다"
+        },
+        {
+            "id": "v-24aded04fa7535ae83822874dfaa861081aa3261",
+            "word": "積む",
+            "read": "つむ",
+            "mean": "쌓다"
+        },
+        {
+            "id": "v-a206c2499c516c54ec9177a971b3841c3df0d483",
+            "word": "詰める",
+            "read": "つめる",
+            "mean": "채우다"
+        },
+        {
+            "id": "v-51ba4dccfe95aaca75ea1ff8b249adc1dd16fe2f",
+            "word": "積もる",
+            "read": "つもる",
+            "mean": "쌓이다"
+        },
+        {
+            "id": "v-f1c90011f960a66393f55543dce38c7748937dab",
+            "word": "強まる",
+            "read": "つよまる",
+            "mean": "강해지다"
+        },
+        {
+            "id": "v-9a0f33e58357da6930f8dca3ea7f73ef2db79fcb",
+            "word": "強める",
+            "read": "つよめる",
+            "mean": "강하게 하다"
+        },
+        {
+            "id": "v-829937ca696dfe0c2ecca6fd2b4f3070625b8637",
+            "word": "出会う",
+            "read": "であう",
+            "mean": "만나다 (우연히)"
+        },
+        {
+            "id": "v-6fea220539e3c1289eefc9d65fb3a7033b68c08e",
+            "word": "出来上がる",
+            "read": "できあがる",
+            "mean": "완성되다"
+        },
+        {
+            "id": "v-dc6010c95225e00876ab2f2c15753db3950e5692",
+            "word": "出迎える",
+            "read": "でむかえる",
+            "mean": "마중 나가다"
+        },
+        {
+            "id": "v-8c77ee722417b5f8946722785f60c9b4a43d5406",
+            "word": "問い合わせる",
+            "read": "といあわせる",
+            "mean": "문의하다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

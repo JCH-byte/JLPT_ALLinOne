@@ -1,0 +1,195 @@
+{
+    "moduleId": "n4-module-009",
+    "title": "N4 모듈 009 (Day 5-6)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n4-module-default.json",
+    "ruleVersion": "n4-rule-v1",
+    "batch": {
+        "batchId": "n4-module-009-batch-01",
+        "vocabIds": [
+            "v-9b3a76c026f32eeed8b83c6b856e4e40489eaf35",
+            "v-3b1c27f0f6235e9dd5c9129c445a07211ac121b3",
+            "v-fb9dd2dbde57ff709e098a8e18ca79a424332757",
+            "v-e6b3fa6dff21fd023222b2927437355fb63be144",
+            "v-191bb897add6642b57d11359e99e9c2939f1d9f6",
+            "v-b8d8af04d12604c01345ea59479782a4dae88ff3",
+            "v-a8356a604c6dc44119ee13bd1e3ac75112aef92e",
+            "v-ad4dd59991df4becb95ba1b7cc936c79b07d0ac3",
+            "v-696971d1d01b1fd7a46bcd381c42223705c6dd3c",
+            "v-147856ab7fd984e0e643aa84cf282da5536afcce",
+            "v-502234ad31274c510127e239e157fea873f1d041",
+            "v-d02c50cddced8d06fbaa3427ecf74f2094adf0d2",
+            "v-9dd539dfd951011117a02fc7279d074e1a8603ce",
+            "v-2882357774f1f3b0303bd2c4b5670764f8f062d5",
+            "v-8a189f6e1048b92cd20d43622688ab8b5877d75a",
+            "v-c601a8a6c4f6f1cf7e74af64cf7dd20dee0f9ae4",
+            "v-1e78f6e94a7c228869cdb009e7497153bcd85ba7",
+            "v-d4e962b832e3775cb589980937de6833a78692c2",
+            "v-c61d5240a05d85fa0444cbeab6e91cd4613d67f1",
+            "v-890502346db9067c5fd777a2ccf2985f187352a1",
+            "v-e48fde9b65a18dd84beedea039e7620eb193fef4",
+            "v-15c5d3456b26015ba8b61ff67d53c91cd0a6a0e2",
+            "v-6ba5b2ecc9876bd4740519d3ccbd91d9e8792052",
+            "v-7887d94a6a6f13a8a59d93b5ef81364a3ba7cb2d",
+            "v-ac9e6a66bd09134568422fd39661938afe938977"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-9b3a76c026f32eeed8b83c6b856e4e40489eaf35",
+            "word": "失敗",
+            "read": "しっぱい",
+            "mean": "실패"
+        },
+        {
+            "id": "v-3b1c27f0f6235e9dd5c9129c445a07211ac121b3",
+            "word": "質問",
+            "read": "しつもん",
+            "mean": "질문"
+        },
+        {
+            "id": "v-fb9dd2dbde57ff709e098a8e18ca79a424332757",
+            "word": "失礼",
+            "read": "しつれい",
+            "mean": "실례"
+        },
+        {
+            "id": "v-e6b3fa6dff21fd023222b2927437355fb63be144",
+            "word": "辞典",
+            "read": "じてん",
+            "mean": "사전"
+        },
+        {
+            "id": "v-191bb897add6642b57d11359e99e9c2939f1d9f6",
+            "word": "自転車",
+            "read": "じてんしゃ",
+            "mean": "자전거"
+        },
+        {
+            "id": "v-b8d8af04d12604c01345ea59479782a4dae88ff3",
+            "word": "自動",
+            "read": "じどう",
+            "mean": "자동"
+        },
+        {
+            "id": "v-a8356a604c6dc44119ee13bd1e3ac75112aef92e",
+            "word": "自動車",
+            "read": "じどうしゃ",
+            "mean": "자동차"
+        },
+        {
+            "id": "v-ad4dd59991df4becb95ba1b7cc936c79b07d0ac3",
+            "word": "市内",
+            "read": "しない",
+            "mean": "시내"
+        },
+        {
+            "id": "v-696971d1d01b1fd7a46bcd381c42223705c6dd3c",
+            "word": "品物",
+            "read": "しなもの",
+            "mean": "물건, 상품"
+        },
+        {
+            "id": "v-147856ab7fd984e0e643aa84cf282da5536afcce",
+            "word": "支払い",
+            "read": "しはらい",
+            "mean": "지불"
+        },
+        {
+            "id": "v-502234ad31274c510127e239e157fea873f1d041",
+            "word": "字引",
+            "read": "じびき",
+            "mean": "자전, 사전"
+        },
+        {
+            "id": "v-d02c50cddced8d06fbaa3427ecf74f2094adf0d2",
+            "word": "自分",
+            "read": "じぶん",
+            "mean": "자신, 자기"
+        },
+        {
+            "id": "v-9dd539dfd951011117a02fc7279d074e1a8603ce",
+            "word": "姉妹",
+            "read": "しまい",
+            "mean": "자매"
+        },
+        {
+            "id": "v-2882357774f1f3b0303bd2c4b5670764f8f062d5",
+            "word": "市民",
+            "read": "しみん",
+            "mean": "시민"
+        },
+        {
+            "id": "v-8a189f6e1048b92cd20d43622688ab8b5877d75a",
+            "word": "事務所",
+            "read": "じむしょ",
+            "mean": "사무소, 사무실"
+        },
+        {
+            "id": "v-c601a8a6c4f6f1cf7e74af64cf7dd20dee0f9ae4",
+            "word": "社会",
+            "read": "しゃかい",
+            "mean": "사회"
+        },
+        {
+            "id": "v-1e78f6e94a7c228869cdb009e7497153bcd85ba7",
+            "word": "市役所",
+            "read": "しやくしょ",
+            "mean": "시청"
+        },
+        {
+            "id": "v-d4e962b832e3775cb589980937de6833a78692c2",
+            "word": "社長",
+            "read": "しゃちょう",
+            "mean": "사장"
+        },
+        {
+            "id": "v-c61d5240a05d85fa0444cbeab6e91cd4613d67f1",
+            "word": "車道",
+            "read": "しゃどう",
+            "mean": "차도"
+        },
+        {
+            "id": "v-890502346db9067c5fd777a2ccf2985f187352a1",
+            "word": "習慣",
+            "read": "しゅうかん",
+            "mean": "습관"
+        },
+        {
+            "id": "v-e48fde9b65a18dd84beedea039e7620eb193fef4",
+            "word": "住所",
+            "read": "じゅうしょ",
+            "mean": "주소"
+        },
+        {
+            "id": "v-15c5d3456b26015ba8b61ff67d53c91cd0a6a0e2",
+            "word": "柔道",
+            "read": "じゅうどう",
+            "mean": "유도"
+        },
+        {
+            "id": "v-6ba5b2ecc9876bd4740519d3ccbd91d9e8792052",
+            "word": "授業",
+            "read": "じゅぎょう",
+            "mean": "수업"
+        },
+        {
+            "id": "v-7887d94a6a6f13a8a59d93b5ef81364a3ba7cb2d",
+            "word": "主人",
+            "read": "しゅじん",
+            "mean": "주인, 남편"
+        },
+        {
+            "id": "v-ac9e6a66bd09134568422fd39661938afe938977",
+            "word": "出席",
+            "read": "しゅっせき",
+            "mean": "출석"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

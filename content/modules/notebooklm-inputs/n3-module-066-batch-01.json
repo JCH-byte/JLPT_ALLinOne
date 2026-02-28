@@ -1,0 +1,188 @@
+{
+    "moduleId": "n3-module-066",
+    "title": "N3 모듈 066 (Day 27)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-066-batch-01",
+        "vocabIds": [
+            "v-55cf9c5768955093590176a93d18a9ded07a7cea",
+            "v-02a18c5b72c017640b314513d6cb5651bce71181",
+            "v-ecaa696bd8e871acda18a0869c5376bdca325b76",
+            "v-ecd5b7cea0bce61e82c91da6fe4b2e4d03c997a3",
+            "v-e5cf0d9e1e7f28ce70d3dbdcf68c7e46e0bb049d",
+            "v-84c99c3dd07b8eb2da2f4fa02b486257a03bdc25",
+            "v-0e53e028866b890f581d091633c9708ff2f3281b",
+            "v-515524efa5116b6e6c748cee06d9113f4fd02f65",
+            "v-ac931af02d95107926d4dbdaf3a2bf5790822698",
+            "v-7d3d6033cea40818813eecd0b6c9e0cb5b506963",
+            "v-85ce0d4d2908097c66f52b2900ef8d3266b7ab51",
+            "v-73c110849e81dd77bb2736882c76e2b9d7e911ff",
+            "v-636159153e5dd37db015722e4db12a4b6cdd4aff",
+            "v-0aece1b0b142c9c190a2177e057316f12b495dac",
+            "v-54945397af8d9794f90d035ace287d521a0e467f",
+            "v-125eecb161e9b8d949374f92a23abb61d4d74f82",
+            "v-fb38a25fd46ae66a2cc64e75f9c9ad74c9fe1a2c",
+            "v-ec7600cccda455828e2c1ca2e4608262d04096c4",
+            "v-d693692394bf2b87f8da68c0f4fde641d2d0310b",
+            "v-8fed4778fa4e8aa555ab3369721b48de072555d2",
+            "v-62e1d3f8c4d77c539473c0c1455d4557a70676b2",
+            "v-36b2c4464d9faa5e18c86c91178b20253fb2038f",
+            "v-e4f9425beb08d8a473749aa1ad14b894e09a1644",
+            "v-5f65526cf05663013bdf0d9b6852812d172eadbf"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-55cf9c5768955093590176a93d18a9ded07a7cea",
+            "word": "インスタント",
+            "read": "いんすたんと",
+            "mean": "인스턴트"
+        },
+        {
+            "id": "v-02a18c5b72c017640b314513d6cb5651bce71181",
+            "word": "インターネット",
+            "read": "いんたーねっと",
+            "mean": "인터넷"
+        },
+        {
+            "id": "v-ecaa696bd8e871acda18a0869c5376bdca325b76",
+            "word": "インタビュー",
+            "read": "いんたびゅー",
+            "mean": "인터뷰"
+        },
+        {
+            "id": "v-ecd5b7cea0bce61e82c91da6fe4b2e4d03c997a3",
+            "word": "ウイルス",
+            "read": "ういるす",
+            "mean": "바이러스"
+        },
+        {
+            "id": "v-e5cf0d9e1e7f28ce70d3dbdcf68c7e46e0bb049d",
+            "word": "エネルギー",
+            "read": "えねるぎー",
+            "mean": "에너지"
+        },
+        {
+            "id": "v-84c99c3dd07b8eb2da2f4fa02b486257a03bdc25",
+            "word": "エンジン",
+            "read": "えんじん",
+            "mean": "엔진"
+        },
+        {
+            "id": "v-0e53e028866b890f581d091633c9708ff2f3281b",
+            "word": "オーバー",
+            "read": "おーばー",
+            "mean": "오버, 초과"
+        },
+        {
+            "id": "v-515524efa5116b6e6c748cee06d9113f4fd02f65",
+            "word": "オフィス",
+            "read": "おふぃす",
+            "mean": "오피스, 사무실"
+        },
+        {
+            "id": "v-ac931af02d95107926d4dbdaf3a2bf5790822698",
+            "word": "オペラ",
+            "read": "おぺら",
+            "mean": "오페라"
+        },
+        {
+            "id": "v-7d3d6033cea40818813eecd0b6c9e0cb5b506963",
+            "word": "カード",
+            "read": "かーど",
+            "mean": "카드"
+        },
+        {
+            "id": "v-85ce0d4d2908097c66f52b2900ef8d3266b7ab51",
+            "word": "カーナビ",
+            "read": "かーなび",
+            "mean": "내비게이션"
+        },
+        {
+            "id": "v-73c110849e81dd77bb2736882c76e2b9d7e911ff",
+            "word": "カーブ",
+            "read": "かーぶ",
+            "mean": "커브"
+        },
+        {
+            "id": "v-636159153e5dd37db015722e4db12a4b6cdd4aff",
+            "word": "カーペット",
+            "read": "かーぺっと",
+            "mean": "카펫"
+        },
+        {
+            "id": "v-0aece1b0b142c9c190a2177e057316f12b495dac",
+            "word": "カタログ",
+            "read": "かたろぐ",
+            "mean": "카탈로그"
+        },
+        {
+            "id": "v-54945397af8d9794f90d035ace287d521a0e467f",
+            "word": "カバー",
+            "read": "かばー",
+            "mean": "커버, 덮개"
+        },
+        {
+            "id": "v-125eecb161e9b8d949374f92a23abb61d4d74f82",
+            "word": "カラー",
+            "read": "からー",
+            "mean": "컬러"
+        },
+        {
+            "id": "v-fb38a25fd46ae66a2cc64e75f9c9ad74c9fe1a2c",
+            "word": "カロリー",
+            "read": "かろりー",
+            "mean": "칼로리"
+        },
+        {
+            "id": "v-ec7600cccda455828e2c1ca2e4608262d04096c4",
+            "word": "カンニング",
+            "read": "かんにんぐ",
+            "mean": "컨닝"
+        },
+        {
+            "id": "v-d693692394bf2b87f8da68c0f4fde641d2d0310b",
+            "word": "キャンセル",
+            "read": "きゃんせる",
+            "mean": "취소"
+        },
+        {
+            "id": "v-8fed4778fa4e8aa555ab3369721b48de072555d2",
+            "word": "キャンパス",
+            "read": "きゃんぱす",
+            "mean": "캠퍼스"
+        },
+        {
+            "id": "v-62e1d3f8c4d77c539473c0c1455d4557a70676b2",
+            "word": "キャンプ",
+            "read": "きゃんぷ",
+            "mean": "캠핑"
+        },
+        {
+            "id": "v-36b2c4464d9faa5e18c86c91178b20253fb2038f",
+            "word": "クイズ",
+            "read": "くいず",
+            "mean": "퀴즈"
+        },
+        {
+            "id": "v-e4f9425beb08d8a473749aa1ad14b894e09a1644",
+            "word": "クーラー",
+            "read": "くーらー",
+            "mean": "에어컨, 쿨러"
+        },
+        {
+            "id": "v-5f65526cf05663013bdf0d9b6852812d172eadbf",
+            "word": "グラウンド",
+            "read": "ぐらうんど",
+            "mean": "운동장, 그라운드"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

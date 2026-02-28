@@ -1,0 +1,24 @@
+{
+    "ruleVersion": "n1-rule-v1",
+    "bannedExpressions": [
+        "過度に難解な表現",
+        "俗語の多用"
+    ],
+    "difficultyCeiling": "N1",
+    "grammarTargets": [
+        "〜いかんによって",
+        "〜をもって",
+        "〜ならではの",
+        "〜にほかならない",
+        "〜をよぎなくされる",
+        "〜にたえない"
+    ],
+    "style": "学習教材向けの丁寧体",
+    "lengthLimit": {
+        "maxChars": 280
+    },
+    "parserThresholds": {
+        "maxJlptLevel": "N1",
+        "maxChars": 280
+    }
+}

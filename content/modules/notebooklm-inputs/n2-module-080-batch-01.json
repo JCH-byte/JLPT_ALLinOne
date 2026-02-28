@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-080",
+    "title": "N2 모듈 080 (Day 26)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-080-batch-01",
+        "vocabIds": [
+            "v-7f5c2e551b4f2be90540fa484ec1233f503d22c5",
+            "v-48b208e13880a30e499da043a82435bbf2f479dc",
+            "v-283f31e2226b3642feb37f707b1974d5f4e70aec",
+            "v-95aba5f7d424deec111679d9673dc29727beae28",
+            "v-f4fa341be2b2ad320e59478e554cc27bd3d9eaa8",
+            "v-ca632906cbe010ea3cb09c91f77f3016f3295001",
+            "v-2c36bfe86b06a75aa6a710a53a67b361a2734357",
+            "v-c6e6576751a4dbb66a9a48fd31e7b5cb2508cd6d",
+            "v-b4d69bca25e1eff8cb2cb71ed8492b387e9ef868",
+            "v-ed9f280a37a7b4410d11f55ce185ccd3559c4cc4",
+            "v-631685926a720917478dd00712871c3f192cf30a",
+            "v-28e0c3b7ce65ad5d3b7791ae68f10d690dc4db90",
+            "v-3fa90a5213483720f62b8bfcce533c93bc07c88c",
+            "v-89e539eb33b782fcdf5f75627732586605f90c51",
+            "v-335610abc234a3bcfae45b62ea53eb8d6e4ca6e2",
+            "v-487b82d97977e2adfb0772f4d9d3db26896f031a",
+            "v-bd5f534838be96e271ec06ebb668e87d5695da89",
+            "v-64d4bf7eadf2f010166fe4a265719ec5d18e7f97",
+            "v-a1313da0c62ca58072f871f8f75a69d4af51113e",
+            "v-ec451f74bff4c5f30e42f5006deb4b5f0de34d20",
+            "v-3c329f5dafe289f0efde370af0eb966beabf15e2",
+            "v-c51f2627e313965908a96d76792ca0d7f32598df",
+            "v-76ebd7ccf06bb08743ed73a7c81c0a4e347c4097",
+            "v-a6c39aeaf4303603da952599a4f9686c56d07dd2",
+            "v-43bdc26100322c5ef7a869e6a682662d9bfa59cd"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-7f5c2e551b4f2be90540fa484ec1233f503d22c5",
+            "word": "後ほど",
+            "read": "のちほど",
+            "mean": "나중에"
+        },
+        {
+            "id": "v-48b208e13880a30e499da043a82435bbf2f479dc",
+            "word": "はたして",
+            "read": "はたして",
+            "mean": "과연"
+        },
+        {
+            "id": "v-283f31e2226b3642feb37f707b1974d5f4e70aec",
+            "word": "はらはら",
+            "read": "はらはら",
+            "mean": "조마조마"
+        },
+        {
+            "id": "v-95aba5f7d424deec111679d9673dc29727beae28",
+            "word": "比較的",
+            "read": "ひかくてき",
+            "mean": "비교적"
+        },
+        {
+            "id": "v-f4fa341be2b2ad320e59478e554cc27bd3d9eaa8",
+            "word": "ひそひそ",
+            "read": "ひそひそ",
+            "mean": "소근소근"
+        },
+        {
+            "id": "v-ca632906cbe010ea3cb09c91f77f3016f3295001",
+            "word": "びっしょり",
+            "read": "びっしょり",
+            "mean": "흠뻑"
+        },
+        {
+            "id": "v-2c36bfe86b06a75aa6a710a53a67b361a2734357",
+            "word": "一通り",
+            "read": "ひととおり",
+            "mean": "대강"
+        },
+        {
+            "id": "v-c6e6576751a4dbb66a9a48fd31e7b5cb2508cd6d",
+            "word": "独りでに",
+            "read": "ひとりでに",
+            "mean": "저절로"
+        },
+        {
+            "id": "v-b4d69bca25e1eff8cb2cb71ed8492b387e9ef868",
+            "word": "一人一人",
+            "read": "ひとりひとり",
+            "mean": "한 사람 한 사람"
+        },
+        {
+            "id": "v-ed9f280a37a7b4410d11f55ce185ccd3559c4cc4",
+            "word": "再び",
+            "read": "ふたたび",
+            "mean": "재차, 다시"
+        },
+        {
+            "id": "v-631685926a720917478dd00712871c3f192cf30a",
+            "word": "ふと",
+            "read": "ふと",
+            "mean": "문득"
+        },
+        {
+            "id": "v-28e0c3b7ce65ad5d3b7791ae68f10d690dc4db90",
+            "word": "ぶるぶる",
+            "read": "ぶるぶる",
+            "mean": "벌벌"
+        },
+        {
+            "id": "v-3fa90a5213483720f62b8bfcce533c93bc07c88c",
+            "word": "ふわふわ",
+            "read": "ふわふわ",
+            "mean": "둥실둥실, 폭신폭신"
+        },
+        {
+            "id": "v-89e539eb33b782fcdf5f75627732586605f90c51",
+            "word": "ふんわり",
+            "read": "ふんわり",
+            "mean": "살짝, 폭신하게"
+        },
+        {
+            "id": "v-335610abc234a3bcfae45b62ea53eb8d6e4ca6e2",
+            "word": "ほぼ",
+            "read": "ほぼ",
+            "mean": "거의"
+        },
+        {
+            "id": "v-487b82d97977e2adfb0772f4d9d3db26896f031a",
+            "word": "ぼんやり",
+            "read": "ぼんやり",
+            "mean": "멍하니, 희미하게"
+        },
+        {
+            "id": "v-bd5f534838be96e271ec06ebb668e87d5695da89",
+            "word": "まあまあ",
+            "read": "まあまあ",
+            "mean": "그저 그런대로"
+        },
+        {
+            "id": "v-64d4bf7eadf2f010166fe4a265719ec5d18e7f97",
+            "word": "まさに",
+            "read": "まさに",
+            "mean": "바로, 틀림없이"
+        },
+        {
+            "id": "v-a1313da0c62ca58072f871f8f75a69d4af51113e",
+            "word": "ますます",
+            "read": "ますます",
+            "mean": "점점"
+        },
+        {
+            "id": "v-ec451f74bff4c5f30e42f5006deb4b5f0de34d20",
+            "word": "間もなく",
+            "read": "まもなく",
+            "mean": "머지않아, 곧"
+        },
+        {
+            "id": "v-3c329f5dafe289f0efde370af0eb966beabf15e2",
+            "word": "まるで",
+            "read": "まるで",
+            "mean": "마치, 전혀"
+        },
+        {
+            "id": "v-c51f2627e313965908a96d76792ca0d7f32598df",
+            "word": "万一",
+            "read": "まんいち",
+            "mean": "만일"
+        },
+        {
+            "id": "v-76ebd7ccf06bb08743ed73a7c81c0a4e347c4097",
+            "word": "自ら",
+            "read": "みずから",
+            "mean": "스스로"
+        },
+        {
+            "id": "v-a6c39aeaf4303603da952599a4f9686c56d07dd2",
+            "word": "むしろ",
+            "read": "むしろ",
+            "mean": "오히려"
+        },
+        {
+            "id": "v-43bdc26100322c5ef7a869e6a682662d9bfa59cd",
+            "word": "めっきり",
+            "read": "めっきり",
+            "mean": "부쩍, 현저히"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

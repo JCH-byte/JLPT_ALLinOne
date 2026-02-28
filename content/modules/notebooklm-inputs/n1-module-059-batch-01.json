@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-059",
+    "title": "N1 모듈 059 (Day 16-17)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-059-batch-01",
+        "vocabIds": [
+            "v-b0d6e27fa266d1c41d6ba3dd5f12fc75544e92fa",
+            "v-294e7e5c4b4b5a9304a47f2660988484a14b9d46",
+            "v-65b3db4c3d5a5e42358372474298ac0d9e91ee80",
+            "v-bded39f70c55fc288842b4da821d168f7b07d435",
+            "v-bb00cd412ddcc4c6784fffc439583a78b34784d3",
+            "v-d48bd7bba38740f24612dd9e39d88f210a3c255b",
+            "v-56e09ddf750b521bc7fa719207dae0ae0fcbca25",
+            "v-048abceed89ed3f6f4b65461af9d78370bb4e730",
+            "v-787edb3d97db70c464cc9af02cb1edf5ddafe7c1",
+            "v-10d971af3778f5593d08ad1e6ad58ef9e5893485",
+            "v-05fe2102fc6c1dea08a539faef43340fdd00b496",
+            "v-b09963ad8fa8110b02fdbdc4f6a4feba31fcd2e1",
+            "v-2ccedda712189899a39cda8923c4107b46c2dfd9",
+            "v-bc9191aa10c77a6830b59ed73fbbc3c36487225d",
+            "v-04bd9a98cdeb92d22dfb9e89f2540c3baf77f4a6",
+            "v-e179814e485c6299bea51a3e75dceb4b16d26be0",
+            "v-60f1cf87873bdbc41bc910a19d495ae713974e7d",
+            "v-9cfe9ac2266b27881b503442b5dd984c2adeb87c",
+            "v-94ab00761f0b4c32a45e1d784c1fdfdc78aea573",
+            "v-9fe400ad855a46e6e5c5d6ad7f765a9481f3365b",
+            "v-221a2dcd5cf0b1e5c0b98c9a302d9741007adb01",
+            "v-ec18b4cd4dc59f5bf6e5c969d760d1b51e21f91c",
+            "v-f14030e7f9dc0cd88a1ffae924a4648849a3f3c6",
+            "v-f780aca9e6de643df7f4206b80fcf09781e7dbe9",
+            "v-28874825c58bf7f6e754001b05fe926aee6c136c"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-b0d6e27fa266d1c41d6ba3dd5f12fc75544e92fa",
+            "word": "食いつく",
+            "read": "くいつく",
+            "mean": "물어뜯다, 달려들다"
+        },
+        {
+            "id": "v-294e7e5c4b4b5a9304a47f2660988484a14b9d46",
+            "word": "食い止める",
+            "read": "くいとめる",
+            "mean": "저지하다"
+        },
+        {
+            "id": "v-65b3db4c3d5a5e42358372474298ac0d9e91ee80",
+            "word": "極める",
+            "read": "きわめる",
+            "mean": "다하다, 극에 달하다"
+        },
+        {
+            "id": "v-bded39f70c55fc288842b4da821d168f7b07d435",
+            "word": "悔いる",
+            "read": "くいる",
+            "mean": "후회하다, 뉘우치다"
+        },
+        {
+            "id": "v-bb00cd412ddcc4c6784fffc439583a78b34784d3",
+            "word": "くぐる",
+            "read": "くぐる",
+            "mean": "빠져나가다, 잠수하다"
+        },
+        {
+            "id": "v-d48bd7bba38740f24612dd9e39d88f210a3c255b",
+            "word": "挫ける",
+            "read": "くじける",
+            "mean": "좌절하다, 삐다"
+        },
+        {
+            "id": "v-56e09ddf750b521bc7fa719207dae0ae0fcbca25",
+            "word": "砕ける",
+            "read": "くだける",
+            "mean": "부서지다, 꺾이다"
+        },
+        {
+            "id": "v-048abceed89ed3f6f4b65461af9d78370bb4e730",
+            "word": "口ずさむ",
+            "read": "くちずさむ",
+            "mean": "흥얼거리다"
+        },
+        {
+            "id": "v-787edb3d97db70c464cc9af02cb1edf5ddafe7c1",
+            "word": "朽ちる",
+            "read": "くちる",
+            "mean": "썩다"
+        },
+        {
+            "id": "v-10d971af3778f5593d08ad1e6ad58ef9e5893485",
+            "word": "覆す",
+            "read": "くつがえす",
+            "mean": "뒤집다"
+        },
+        {
+            "id": "v-05fe2102fc6c1dea08a539faef43340fdd00b496",
+            "word": "くつろぐ",
+            "read": "くつろぐ",
+            "mean": "편안히 지내다"
+        },
+        {
+            "id": "v-b09963ad8fa8110b02fdbdc4f6a4feba31fcd2e1",
+            "word": "けなす",
+            "read": "けなす",
+            "mean": "헐뜯다, 비방하다"
+        },
+        {
+            "id": "v-2ccedda712189899a39cda8923c4107b46c2dfd9",
+            "word": "心掛ける",
+            "read": "こころがける",
+            "mean": "명심하다"
+        },
+        {
+            "id": "v-bc9191aa10c77a6830b59ed73fbbc3c36487225d",
+            "word": "試みる",
+            "read": "こころみる",
+            "mean": "시도하다"
+        },
+        {
+            "id": "v-04bd9a98cdeb92d22dfb9e89f2540c3baf77f4a6",
+            "word": "こじれる",
+            "read": "こじれる",
+            "mean": "악화되다, 꼬이다"
+        },
+        {
+            "id": "v-e179814e485c6299bea51a3e75dceb4b16d26be0",
+            "word": "こだわる",
+            "read": "こだわる",
+            "mean": "구애되다, 고집하다"
+        },
+        {
+            "id": "v-60f1cf87873bdbc41bc910a19d495ae713974e7d",
+            "word": "拒む",
+            "read": "こばむ",
+            "mean": "거부하다"
+        },
+        {
+            "id": "v-9cfe9ac2266b27881b503442b5dd984c2adeb87c",
+            "word": "ごまかす",
+            "read": "ごまかす",
+            "mean": "속이다, 얼버무리다"
+        },
+        {
+            "id": "v-94ab00761f0b4c32a45e1d784c1fdfdc78aea573",
+            "word": "籠もる",
+            "read": "こもる",
+            "mean": "틀어박히다, 깃들다"
+        },
+        {
+            "id": "v-9fe400ad855a46e6e5c5d6ad7f765a9481f3365b",
+            "word": "懲らしめる",
+            "read": "こらしめる",
+            "mean": "응징하다"
+        },
+        {
+            "id": "v-221a2dcd5cf0b1e5c0b98c9a302d9741007adb01",
+            "word": "懲りる",
+            "read": "こりる",
+            "mean": "질리다, 데다"
+        },
+        {
+            "id": "v-ec18b4cd4dc59f5bf6e5c969d760d1b51e21f91c",
+            "word": "凝る",
+            "read": "こる",
+            "mean": "열중하다, 뻐근하다"
+        },
+        {
+            "id": "v-f14030e7f9dc0cd88a1ffae924a4648849a3f3c6",
+            "word": "遮る",
+            "read": "さえぎる",
+            "mean": "가로막다, 차단하다"
+        },
+        {
+            "id": "v-f780aca9e6de643df7f4206b80fcf09781e7dbe9",
+            "word": "さえずる",
+            "read": "さえずる",
+            "mean": "지저귀다"
+        },
+        {
+            "id": "v-28874825c58bf7f6e754001b05fe926aee6c136c",
+            "word": "冴える",
+            "read": "さえる",
+            "mean": "맑아지다, 선명하다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-021",
+    "title": "N1 모듈 021 (Day 6)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-021-batch-01",
+        "vocabIds": [
+            "v-2beee79b8762a15dd723b88423cb85ddc3f14b8b",
+            "v-1a8b3f5a321a208bdbb5ff8ed6a7f39ea4bb6722",
+            "v-f1cda267a139c5b27406871630d1afcaf2fd67a8",
+            "v-dffff65b60d8572dea06cccc1f7ada8a2efc5aa9",
+            "v-f2429473fe9c831009deb11ebb83c134c13cbc7b",
+            "v-ffede27957726059c4042d6cc57c5aef5d2a2388",
+            "v-ac2b5c91670e80330ca28a2382cc7e38831e6d0f",
+            "v-ce02a8811fba7f1fee2aa793a1602549099a566d",
+            "v-0f10e63937f66f733cc97042a41b596fab893632",
+            "v-83d263c62446aaf6898fd8863a374560876ae055",
+            "v-fab916e065efa234c167a3adb7ae76fd2e152e7b",
+            "v-9af00503b3d4c563605045a18a95a2fafb32b377",
+            "v-32b63c81f90bf9fa889068c9b3df2d79a53b3158",
+            "v-5a0fa1ab01a099d990c8194a46e14d1a1c75408d",
+            "v-933298b7d3b5852ac2eff5bdaf0044fe27fed14b",
+            "v-af6367e3e6f508850b226fd4d649fd35fddaf3e6",
+            "v-b8479451394ec5cbbbb040a3fe46eb8c80fc9652",
+            "v-d512bf4793f8f1dc1b915d09ae1d74ea77a90b56",
+            "v-eae0f335cd2cd6cbc5fc338b2dbe41b36508aa44",
+            "v-3d31d560a1e2bead3aa59b31f01104e4c045eb51",
+            "v-7bf7977f3aef393403239c54b640517eb8e4a674",
+            "v-4c63f3f81b563400fa510bc1f41a367bd91c3304",
+            "v-dc43d5c3ff247af041b4485515189acffab66a13",
+            "v-efbb4d7d6df09c287dd34628fd026cdeea6f85cd",
+            "v-faee27d38920cf7c435e7aaa5ec8ca2a26502826"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-2beee79b8762a15dd723b88423cb85ddc3f14b8b",
+            "word": "刺繍",
+            "read": "ししゅう",
+            "mean": "자수"
+        },
+        {
+            "id": "v-1a8b3f5a321a208bdbb5ff8ed6a7f39ea4bb6722",
+            "word": "自粛",
+            "read": "じしゅく",
+            "mean": "자숙"
+        },
+        {
+            "id": "v-f1cda267a139c5b27406871630d1afcaf2fd67a8",
+            "word": "支障",
+            "read": "ししょう",
+            "mean": "지장"
+        },
+        {
+            "id": "v-dffff65b60d8572dea06cccc1f7ada8a2efc5aa9",
+            "word": "辞職",
+            "read": "じしょく",
+            "mean": "사직"
+        },
+        {
+            "id": "v-f2429473fe9c831009deb11ebb83c134c13cbc7b",
+            "word": "施設",
+            "read": "しせつ",
+            "mean": "시설"
+        },
+        {
+            "id": "v-ffede27957726059c4042d6cc57c5aef5d2a2388",
+            "word": "視線",
+            "read": "しせん",
+            "mean": "시선"
+        },
+        {
+            "id": "v-ac2b5c91670e80330ca28a2382cc7e38831e6d0f",
+            "word": "自尊心",
+            "read": "じそんしん",
+            "mean": "자존심"
+        },
+        {
+            "id": "v-ce02a8811fba7f1fee2aa793a1602549099a566d",
+            "word": "自他",
+            "read": "じた",
+            "mean": "자타"
+        },
+        {
+            "id": "v-0f10e63937f66f733cc97042a41b596fab893632",
+            "word": "事態",
+            "read": "じたい",
+            "mean": "사태"
+        },
+        {
+            "id": "v-83d263c62446aaf6898fd8863a374560876ae055",
+            "word": "下心",
+            "read": "したごころ",
+            "mean": "속마음, 흑심"
+        },
+        {
+            "id": "v-fab916e065efa234c167a3adb7ae76fd2e152e7b",
+            "word": "下地",
+            "read": "したじ",
+            "mean": "기본, 소양, 바탕"
+        },
+        {
+            "id": "v-9af00503b3d4c563605045a18a95a2fafb32b377",
+            "word": "下調べ",
+            "read": "したしらべ",
+            "mean": "예비 조사, 예습"
+        },
+        {
+            "id": "v-32b63c81f90bf9fa889068c9b3df2d79a53b3158",
+            "word": "下取り",
+            "read": "したどり",
+            "mean": "중고 보상 판매, 보상 교환"
+        },
+        {
+            "id": "v-5a0fa1ab01a099d990c8194a46e14d1a1c75408d",
+            "word": "下火",
+            "read": "したび",
+            "mean": "기세가 꺾임"
+        },
+        {
+            "id": "v-933298b7d3b5852ac2eff5bdaf0044fe27fed14b",
+            "word": "失格",
+            "read": "しっかく",
+            "mean": "실격"
+        },
+        {
+            "id": "v-af6367e3e6f508850b226fd4d649fd35fddaf3e6",
+            "word": "質疑",
+            "read": "しつぎ",
+            "mean": "질의"
+        },
+        {
+            "id": "v-b8479451394ec5cbbbb040a3fe46eb8c80fc9652",
+            "word": "失脚",
+            "read": "しっきゃく",
+            "mean": "실각"
+        },
+        {
+            "id": "v-d512bf4793f8f1dc1b915d09ae1d74ea77a90b56",
+            "word": "しつけ",
+            "read": "しつけ",
+            "mean": "예절 교육"
+        },
+        {
+            "id": "v-eae0f335cd2cd6cbc5fc338b2dbe41b36508aa44",
+            "word": "実質",
+            "read": "じっしつ",
+            "mean": "실질"
+        },
+        {
+            "id": "v-3d31d560a1e2bead3aa59b31f01104e4c045eb51",
+            "word": "実情",
+            "read": "じつじょう",
+            "mean": "실정"
+        },
+        {
+            "id": "v-7bf7977f3aef393403239c54b640517eb8e4a674",
+            "word": "実態",
+            "read": "じったい",
+            "mean": "실태"
+        },
+        {
+            "id": "v-4c63f3f81b563400fa510bc1f41a367bd91c3304",
+            "word": "嫉妬",
+            "read": "しっと",
+            "mean": "질투"
+        },
+        {
+            "id": "v-dc43d5c3ff247af041b4485515189acffab66a13",
+            "word": "実費",
+            "read": "じっぴ",
+            "mean": "실비"
+        },
+        {
+            "id": "v-efbb4d7d6df09c287dd34628fd026cdeea6f85cd",
+            "word": "疾病",
+            "read": "しっぺい",
+            "mean": "질병"
+        },
+        {
+            "id": "v-faee27d38920cf7c435e7aaa5ec8ca2a26502826",
+            "word": "視点",
+            "read": "してん",
+            "mean": "시점"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

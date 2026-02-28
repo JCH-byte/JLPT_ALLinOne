@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-021",
+    "title": "N2 모듈 021 (Day 7)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-021-batch-01",
+        "vocabIds": [
+            "v-44366e2bb40204d601153598ac7c466a357d7004",
+            "v-18886a20a834ca9cb8404642f746c774a7ad526a",
+            "v-74e681e2ec23a177e824ddff11224d62395a551d",
+            "v-4d27ba73d7c79f69051378db7c52993fe64943af",
+            "v-03feb71b38c8ec5c64ea09d5f8fa206976cf8729",
+            "v-f2d17a446c6ed0e70b3be5fdedad99ce9ea59a1e",
+            "v-493c551105664f551ac659f6e76b595006f0e7e4",
+            "v-ab9360f7e390e82226cb0dce40be51dfb63876a2",
+            "v-c827596d8691c48914bbf3e888094a08f2ee3d05",
+            "v-e93e014f342e5d334016eee13fd1e83a2731ba89",
+            "v-3cb23e1d91d7dfe26621b4fa773afc3e0abe94f7",
+            "v-acf241549cfe12b20cbe77c4eaff1cabf50a3162",
+            "v-ca2daaf07fd5eee7dec509e1c6cc9152397c7f40",
+            "v-35362d89fe25c1b63bcf98aa538311f31997d8ff",
+            "v-032bda303228049b545d2d9015aaf5f208eb8eb8",
+            "v-bc59ee83c1baba919d6e68d7b6763c1c11af020e",
+            "v-afef26f7ea2c1c73827d7c1b9341c4f1329f65d9",
+            "v-7024103cd32bd143e05ee52ee835caa2723d1b08",
+            "v-3f81dda5770e9e281ea6fed4c98e17165ee99bc0",
+            "v-2dfd320aac2714b77c6c257a71f9b7556f6b192d",
+            "v-1b74d0ae9e46d1463b0e767cd897e1905ee820a1",
+            "v-4e5bbad8354e232cc5fda006108a67456d81f6b2",
+            "v-c29c88a1cc9b63a3401297cdc0102b1671aa9e6d",
+            "v-51df2c7feec5ad97f80047a74548632c5495df6c",
+            "v-12a14c1f10b86ccd6cdf66e9b0476745508b96a0"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-44366e2bb40204d601153598ac7c466a357d7004",
+            "word": "品切れ",
+            "read": "しなぎれ",
+            "mean": "품절"
+        },
+        {
+            "id": "v-18886a20a834ca9cb8404642f746c774a7ad526a",
+            "word": "支配",
+            "read": "しはい",
+            "mean": "지배"
+        },
+        {
+            "id": "v-74e681e2ec23a177e824ddff11224d62395a551d",
+            "word": "芝居",
+            "read": "しばい",
+            "mean": "연극"
+        },
+        {
+            "id": "v-4d27ba73d7c79f69051378db7c52993fe64943af",
+            "word": "芝生",
+            "read": "しばふ",
+            "mean": "잔디"
+        },
+        {
+            "id": "v-03feb71b38c8ec5c64ea09d5f8fa206976cf8729",
+            "word": "地盤",
+            "read": "じばん",
+            "mean": "지반"
+        },
+        {
+            "id": "v-f2d17a446c6ed0e70b3be5fdedad99ce9ea59a1e",
+            "word": "紙幣",
+            "read": "しへい",
+            "mean": "지폐"
+        },
+        {
+            "id": "v-493c551105664f551ac659f6e76b595006f0e7e4",
+            "word": "資本",
+            "read": "しほん",
+            "mean": "자본"
+        },
+        {
+            "id": "v-ab9360f7e390e82226cb0dce40be51dfb63876a2",
+            "word": "地元",
+            "read": "じもと",
+            "mean": "본고장, 그 지역"
+        },
+        {
+            "id": "v-c827596d8691c48914bbf3e888094a08f2ee3d05",
+            "word": "視野",
+            "read": "しや",
+            "mean": "시야"
+        },
+        {
+            "id": "v-e93e014f342e5d334016eee13fd1e83a2731ba89",
+            "word": "社員",
+            "read": "しゃいん",
+            "mean": "사원"
+        },
+        {
+            "id": "v-3cb23e1d91d7dfe26621b4fa773afc3e0abe94f7",
+            "word": "弱点",
+            "read": "じゃくてん",
+            "mean": "약점"
+        },
+        {
+            "id": "v-acf241549cfe12b20cbe77c4eaff1cabf50a3162",
+            "word": "車掌",
+            "read": "しゃしょう",
+            "mean": "차장(열차)"
+        },
+        {
+            "id": "v-ca2daaf07fd5eee7dec509e1c6cc9152397c7f40",
+            "word": "借金",
+            "read": "しゃっきん",
+            "mean": "빚, 차금"
+        },
+        {
+            "id": "v-35362d89fe25c1b63bcf98aa538311f31997d8ff",
+            "word": "しゃっくり",
+            "read": "しゃっくり",
+            "mean": "딸꾹질"
+        },
+        {
+            "id": "v-032bda303228049b545d2d9015aaf5f208eb8eb8",
+            "word": "邪魔",
+            "read": "じゃま",
+            "mean": "방해"
+        },
+        {
+            "id": "v-bc59ee83c1baba919d6e68d7b6763c1c11af020e",
+            "word": "じゃんけん",
+            "read": "じゃんけん",
+            "mean": "가위바위보"
+        },
+        {
+            "id": "v-afef26f7ea2c1c73827d7c1b9341c4f1329f65d9",
+            "word": "銃",
+            "read": "じゅう",
+            "mean": "총"
+        },
+        {
+            "id": "v-7024103cd32bd143e05ee52ee835caa2723d1b08",
+            "word": "集会",
+            "read": "しゅうかい",
+            "mean": "집회"
+        },
+        {
+            "id": "v-3f81dda5770e9e281ea6fed4c98e17165ee99bc0",
+            "word": "収穫",
+            "read": "しゅうかく",
+            "mean": "수확"
+        },
+        {
+            "id": "v-2dfd320aac2714b77c6c257a71f9b7556f6b192d",
+            "word": "住居",
+            "read": "じゅうきょ",
+            "mean": "주거"
+        },
+        {
+            "id": "v-1b74d0ae9e46d1463b0e767cd897e1905ee820a1",
+            "word": "宗教",
+            "read": "しゅうきょう",
+            "mean": "종교"
+        },
+        {
+            "id": "v-4e5bbad8354e232cc5fda006108a67456d81f6b2",
+            "word": "集金",
+            "read": "しゅうきん",
+            "mean": "수금"
+        },
+        {
+            "id": "v-c29c88a1cc9b63a3401297cdc0102b1671aa9e6d",
+            "word": "修士",
+            "read": "しゅうし",
+            "mean": "석사"
+        },
+        {
+            "id": "v-51df2c7feec5ad97f80047a74548632c5495df6c",
+            "word": "終日",
+            "read": "しゅうじつ",
+            "mean": "종일"
+        },
+        {
+            "id": "v-12a14c1f10b86ccd6cdf66e9b0476745508b96a0",
+            "word": "修正",
+            "read": "しゅうせい",
+            "mean": "수정"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

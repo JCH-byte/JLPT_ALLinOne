@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-079",
+    "title": "N2 모듈 079 (Day 26)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-079-batch-01",
+        "vocabIds": [
+            "v-f4b1ba0976293331db7e7c0422e2c654747a9e43",
+            "v-58f5ba5c3e37a2e3e251759f58c65e68cf001da1",
+            "v-49ab6c714f5809aed7f28b447e6b2a38ba737486",
+            "v-bfff54cf191bb1711068b72f4aad6a33cbdeec97",
+            "v-13b9929b359f42270cbde09a0cabd5316476ede0",
+            "v-429fd82b42dbb2ffadf7651404977925cc106de7",
+            "v-967040f1ccf5cce380b9726a2d6a15d0b81a1fa6",
+            "v-67936611295c8a1ad06ab3e91611199e39f2e3c4",
+            "v-ae163766270c1b5e94bbb2267a28d35e9303cc57",
+            "v-7ee823275c2617b15ae967f1b91c64280e84e296",
+            "v-811e0944f8716570eb9624e2c4c087f47156be33",
+            "v-43f853c2532ce468cdf1c1aadc9ce17f32b560a2",
+            "v-0ef0cbeb4a65aed51ec3340ed956d08ff3193f6a",
+            "v-2d8bf593d2e2a8dc9e5fde2cb5d0b83f68b6bc7e",
+            "v-9840ee7327d1206ac4acc1d662c79ba7c89bac26",
+            "v-6a83a46ce8f022fb6ad5aa9078c8e9e596c99ba4",
+            "v-37f278b85a85c549048e5bc7c8a49722224a2053",
+            "v-85073d41e733cbe51e2c842c77a745912dc52786",
+            "v-8d96f0b5d81ddf1f23930601be2e62091c93206d",
+            "v-914761f92e814038ce9549993a655f2078a773e7",
+            "v-6020ea6a56333d4963ca7aecc77f1e87fcef49a0",
+            "v-ffaf387073aa77a453d072b5b433eea942920b05",
+            "v-a3efa8b5685c7fc47bb8eff09df4c0cae8bf4e6a",
+            "v-c197e787f78dd4cf960a5203623ecfa4ff5b8e76",
+            "v-6a7da2686d25df4a4b380d00997f1da6a6f5c282"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-f4b1ba0976293331db7e7c0422e2c654747a9e43",
+            "word": "どうせ",
+            "read": "どうせ",
+            "mean": "어차피"
+        },
+        {
+            "id": "v-58f5ba5c3e37a2e3e251759f58c65e68cf001da1",
+            "word": "当然",
+            "read": "とうぜん",
+            "mean": "당연히"
+        },
+        {
+            "id": "v-49ab6c714f5809aed7f28b447e6b2a38ba737486",
+            "word": "当分",
+            "read": "とうぶん",
+            "mean": "당분간"
+        },
+        {
+            "id": "v-bfff54cf191bb1711068b72f4aad6a33cbdeec97",
+            "word": "ところどころ",
+            "read": "ところどころ",
+            "mean": "여기저기, 군데군데"
+        },
+        {
+            "id": "v-13b9929b359f42270cbde09a0cabd5316476ede0",
+            "word": "途端に",
+            "read": "とたんに",
+            "mean": "그 순간에, 하자마자"
+        },
+        {
+            "id": "v-429fd82b42dbb2ffadf7651404977925cc106de7",
+            "word": "とっくに",
+            "read": "とっくに",
+            "mean": "훨씬 전에"
+        },
+        {
+            "id": "v-967040f1ccf5cce380b9726a2d6a15d0b81a1fa6",
+            "word": "どっと",
+            "read": "どっと",
+            "mean": "우르르, 왈칵"
+        },
+        {
+            "id": "v-67936611295c8a1ad06ab3e91611199e39f2e3c4",
+            "word": "とにかく",
+            "read": "とにかく",
+            "mean": "어쨌든"
+        },
+        {
+            "id": "v-ae163766270c1b5e94bbb2267a28d35e9303cc57",
+            "word": "ともかく",
+            "read": "ともかく",
+            "mean": "어쨌든, 하여튼"
+        },
+        {
+            "id": "v-7ee823275c2617b15ae967f1b91c64280e84e296",
+            "word": "共に",
+            "read": "ともに",
+            "mean": "함께"
+        },
+        {
+            "id": "v-811e0944f8716570eb9624e2c4c087f47156be33",
+            "word": "とりあえず",
+            "read": "とりあえず",
+            "mean": "우선"
+        },
+        {
+            "id": "v-43f853c2532ce468cdf1c1aadc9ce17f32b560a2",
+            "word": "なお",
+            "read": "なお",
+            "mean": "또한, 더욱"
+        },
+        {
+            "id": "v-0ef0cbeb4a65aed51ec3340ed956d08ff3193f6a",
+            "word": "なぜなら",
+            "read": "なぜなら",
+            "mean": "왜냐하면"
+        },
+        {
+            "id": "v-2d8bf593d2e2a8dc9e5fde2cb5d0b83f68b6bc7e",
+            "word": "何しろ",
+            "read": "なにしろ",
+            "mean": "어쨌든"
+        },
+        {
+            "id": "v-9840ee7327d1206ac4acc1d662c79ba7c89bac26",
+            "word": "何分",
+            "read": "なにぶん",
+            "mean": "아무래도, 부디"
+        },
+        {
+            "id": "v-6a83a46ce8f022fb6ad5aa9078c8e9e596c99ba4",
+            "word": "何か",
+            "read": "なにか",
+            "mean": "무언가"
+        },
+        {
+            "id": "v-37f278b85a85c549048e5bc7c8a49722224a2053",
+            "word": "何て",
+            "read": "なんて",
+            "mean": "정말"
+        },
+        {
+            "id": "v-85073d41e733cbe51e2c842c77a745912dc52786",
+            "word": "何で",
+            "read": "なんで",
+            "mean": "어째서"
+        },
+        {
+            "id": "v-8d96f0b5d81ddf1f23930601be2e62091c93206d",
+            "word": "何とか",
+            "read": "なんとか",
+            "mean": "어떻게든"
+        },
+        {
+            "id": "v-914761f92e814038ce9549993a655f2078a773e7",
+            "word": "何となく",
+            "read": "なんとなく",
+            "mean": "어쩐지"
+        },
+        {
+            "id": "v-6020ea6a56333d4963ca7aecc77f1e87fcef49a0",
+            "word": "何とも",
+            "read": "なんとも",
+            "mean": "정말, 아무렇지도"
+        },
+        {
+            "id": "v-ffaf387073aa77a453d072b5b433eea942920b05",
+            "word": "何らか",
+            "read": "なんらか",
+            "mean": "무언가"
+        },
+        {
+            "id": "v-a3efa8b5685c7fc47bb8eff09df4c0cae8bf4e6a",
+            "word": "にっこり",
+            "read": "にっこり",
+            "mean": "방긋"
+        },
+        {
+            "id": "v-c197e787f78dd4cf960a5203623ecfa4ff5b8e76",
+            "word": "二度と",
+            "read": "にどと",
+            "mean": "두 번 다시"
+        },
+        {
+            "id": "v-6a7da2686d25df4a4b380d00997f1da6a6f5c282",
+            "word": "残らず",
+            "read": "のこらず",
+            "mean": "남김없이"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

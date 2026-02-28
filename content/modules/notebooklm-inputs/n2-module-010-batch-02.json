@@ -1,0 +1,111 @@
+{
+    "moduleId": "n2-module-010",
+    "title": "N2 모듈 010 (Day 3-4)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-010-batch-02",
+        "vocabIds": [
+            "v-09d069c6e746cf4e0f20e766f6fb4cb7822d9edf",
+            "v-e6b18cece11e14e51d317f021cc7482fc58c34ea",
+            "v-1c445c49d072f66410ff9d7ee42b4eed6d4253b1",
+            "v-ea5cd6c7c29bf3240f05d83b91728ba7db818f5d",
+            "v-ca14f417a825f2c719817f72a10522cb454c65ab",
+            "v-cd5e4a817ead002a8a68aaf6eaa0a102ed0dc938",
+            "v-a073d8b17289f075b6a6918332966cd876fc17f7",
+            "v-e3d786c0fe891b4fa7b4f63c9693b9aa321db064",
+            "v-de5fd040f33bf3e5af0f8a159fc395f8c64ca3e4",
+            "v-c5a786ca654d1c2cd629285dfedbaa00f4bc10bd",
+            "v-ea93e9e4801576b8472158f84616a199a10aa6f6",
+            "v-5cd6ded79a4424d46721b3f050f7b842f452d3ef",
+            "v-ecbb1df47afda50a663c2d78aaa7cb38fb4f1bd8"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-09d069c6e746cf4e0f20e766f6fb4cb7822d9edf",
+            "word": "技師",
+            "read": "ぎし",
+            "mean": "기사(기술자)"
+        },
+        {
+            "id": "v-e6b18cece11e14e51d317f021cc7482fc58c34ea",
+            "word": "儀式",
+            "read": "ぎしき",
+            "mean": "의식"
+        },
+        {
+            "id": "v-1c445c49d072f66410ff9d7ee42b4eed6d4253b1",
+            "word": "貴社",
+            "read": "きしゃ",
+            "mean": "귀사"
+        },
+        {
+            "id": "v-ea5cd6c7c29bf3240f05d83b91728ba7db818f5d",
+            "word": "基準",
+            "read": "きじゅん",
+            "mean": "기준"
+        },
+        {
+            "id": "v-ca14f417a825f2c719817f72a10522cb454c65ab",
+            "word": "起床",
+            "read": "きしょう",
+            "mean": "기상"
+        },
+        {
+            "id": "v-cd5e4a817ead002a8a68aaf6eaa0a102ed0dc938",
+            "word": "奇数",
+            "read": "きすう",
+            "mean": "홀수"
+        },
+        {
+            "id": "v-a073d8b17289f075b6a6918332966cd876fc17f7",
+            "word": "帰省",
+            "read": "きせい",
+            "mean": "귀성"
+        },
+        {
+            "id": "v-e3d786c0fe891b4fa7b4f63c9693b9aa321db064",
+            "word": "基礎",
+            "read": "きそ",
+            "mean": "기초"
+        },
+        {
+            "id": "v-de5fd040f33bf3e5af0f8a159fc395f8c64ca3e4",
+            "word": "基地",
+            "read": "きち",
+            "mean": "기지"
+        },
+        {
+            "id": "v-c5a786ca654d1c2cd629285dfedbaa00f4bc10bd",
+            "word": "議長",
+            "read": "ぎちょう",
+            "mean": "의장"
+        },
+        {
+            "id": "v-ea93e9e4801576b8472158f84616a199a10aa6f6",
+            "word": "きっかけ",
+            "read": "きっかけ",
+            "mean": "계기"
+        },
+        {
+            "id": "v-5cd6ded79a4424d46721b3f050f7b842f452d3ef",
+            "word": "喫茶",
+            "read": "きっさ",
+            "mean": "끽다, 찻집"
+        },
+        {
+            "id": "v-ecbb1df47afda50a663c2d78aaa7cb38fb4f1bd8",
+            "word": "起動",
+            "read": "きどう",
+            "mean": "기동"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

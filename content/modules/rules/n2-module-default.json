@@ -1,0 +1,24 @@
+{
+    "ruleVersion": "n2-rule-v1",
+    "bannedExpressions": [
+        "過度に難解な表現",
+        "俗語の多用"
+    ],
+    "difficultyCeiling": "N2",
+    "grammarTargets": [
+        "〜にもかかわらず",
+        "〜としても",
+        "〜さえ〜ば",
+        "〜に対して",
+        "〜をめぐって",
+        "〜に基づいて"
+    ],
+    "style": "学習教材向けの丁寧体",
+    "lengthLimit": {
+        "maxChars": 250
+    },
+    "parserThresholds": {
+        "maxJlptLevel": "N2",
+        "maxChars": 250
+    }
+}

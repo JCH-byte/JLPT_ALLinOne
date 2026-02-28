@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-045",
+    "title": "N2 모듈 045 (Day 14)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-045-batch-01",
+        "vocabIds": [
+            "v-b3bfc73af0b2ff2e6b17258613e869b67b5f8122",
+            "v-d5ae872967ded706e930b7c8983478c20254d0da",
+            "v-ecbfc76a2f0b071b28ec9741e751efeb328482d4",
+            "v-e30662abdc4042c2dc5bc6f54faaeb2129c36199",
+            "v-914209adac1d9fd964112d1561910ecbe350756d",
+            "v-eac936626d6775db95b6eb66c763def41c3946c7",
+            "v-a7abbdd59648e1319ce387b84a147cd42ef9c200",
+            "v-93ca844f3b3629829a0378911efbd26f7834b5cc",
+            "v-74381848c753faac1832fa37767185d0dea126e7",
+            "v-db84c273d3050ec5e34c7d955d31a0a5a24acf7a",
+            "v-b7baf8358d0b06cc272841eb1d719302fe54c457",
+            "v-2397795ed3b82490e4ea668073158bc62654821a",
+            "v-cd482dee820443be9e71dc82b94a20094bdabe44",
+            "v-237bb36fa3b6ef0331cf8ec1051dc49e8e718c5d",
+            "v-d3399043b682ff7cf9cf8ad8eb976c380d725f3e",
+            "v-1c0db5a4430828aa0f2c17b8bc7f4c80516543eb",
+            "v-680804d16cbd067078a34555035b8ed06f0f78ed",
+            "v-54bdf95edcc2c738e85ac4f6eed0f429ffa2fb12",
+            "v-541dc31bf80010cee523a29591537f46330c0885",
+            "v-3718e20d67ce7f5172159276f53aaa475e88266e",
+            "v-f0df6502aab2e71a745216ddc3f24ff2dc1b2f00",
+            "v-c25a8fb60c783152e67031a63fe3eb4a9e391cc7",
+            "v-d7e25ddd5786c572e255d645db54430ec89de1a0",
+            "v-5cae02b05cadd950b217e18efeb8aff0aa5fb34c",
+            "v-ff761166cfcb3fc5ff2ee13a36eadaf8d9a6c8e5"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-b3bfc73af0b2ff2e6b17258613e869b67b5f8122",
+            "word": "本日",
+            "read": "ほんじつ",
+            "mean": "금일, 오늘"
+        },
+        {
+            "id": "v-d5ae872967ded706e930b7c8983478c20254d0da",
+            "word": "本社",
+            "read": "ほんしゃ",
+            "mean": "본사"
+        },
+        {
+            "id": "v-ecbfc76a2f0b071b28ec9741e751efeb328482d4",
+            "word": "本書",
+            "read": "ほんしょ",
+            "mean": "본서, 이 책"
+        },
+        {
+            "id": "v-e30662abdc4042c2dc5bc6f54faaeb2129c36199",
+            "word": "盆地",
+            "read": "ぼんち",
+            "mean": "분지"
+        },
+        {
+            "id": "v-914209adac1d9fd964112d1561910ecbe350756d",
+            "word": "本来",
+            "read": "ほんらい",
+            "mean": "본래"
+        },
+        {
+            "id": "v-eac936626d6775db95b6eb66c763def41c3946c7",
+            "word": "本論",
+            "read": "ほんろん",
+            "mean": "본론"
+        },
+        {
+            "id": "v-a7abbdd59648e1319ce387b84a147cd42ef9c200",
+            "word": "毎回",
+            "read": "まいかい",
+            "mean": "매회"
+        },
+        {
+            "id": "v-93ca844f3b3629829a0378911efbd26f7834b5cc",
+            "word": "間際",
+            "read": "まぎわ",
+            "mean": "직전"
+        },
+        {
+            "id": "v-74381848c753faac1832fa37767185d0dea126e7",
+            "word": "枕",
+            "read": "まくら",
+            "mean": "베개"
+        },
+        {
+            "id": "v-db84c273d3050ec5e34c7d955d31a0a5a24acf7a",
+            "word": "摩擦",
+            "read": "まさつ",
+            "mean": "마찰"
+        },
+        {
+            "id": "v-b7baf8358d0b06cc272841eb1d719302fe54c457",
+            "word": "待合室",
+            "read": "まちあいしつ",
+            "mean": "대합실"
+        },
+        {
+            "id": "v-2397795ed3b82490e4ea668073158bc62654821a",
+            "word": "町中",
+            "read": "まちなか",
+            "mean": "마을 안, 시내"
+        },
+        {
+            "id": "v-cd482dee820443be9e71dc82b94a20094bdabe44",
+            "word": "真っ先",
+            "read": "まっさき",
+            "mean": "맨 앞, 선두"
+        },
+        {
+            "id": "v-237bb36fa3b6ef0331cf8ec1051dc49e8e718c5d",
+            "word": "真夏",
+            "read": "まなつ",
+            "mean": "한여름"
+        },
+        {
+            "id": "v-d3399043b682ff7cf9cf8ad8eb976c380d725f3e",
+            "word": "まぶた",
+            "read": "まぶた",
+            "mean": "눈꺼풀"
+        },
+        {
+            "id": "v-1c0db5a4430828aa0f2c17b8bc7f4c80516543eb",
+            "word": "真冬",
+            "read": "まふゆ",
+            "mean": "한겨울"
+        },
+        {
+            "id": "v-680804d16cbd067078a34555035b8ed06f0f78ed",
+            "word": "万引き",
+            "read": "まんびき",
+            "mean": "좀도둑질(가게 물건을 훔침)"
+        },
+        {
+            "id": "v-54bdf95edcc2c738e85ac4f6eed0f429ffa2fb12",
+            "word": "実",
+            "read": "み",
+            "mean": "열매, 실속"
+        },
+        {
+            "id": "v-541dc31bf80010cee523a29591537f46330c0885",
+            "word": "見かけ",
+            "read": "みかけ",
+            "mean": "겉보기, 외관"
+        },
+        {
+            "id": "v-3718e20d67ce7f5172159276f53aaa475e88266e",
+            "word": "見方",
+            "read": "みかた",
+            "mean": "보는 방법, 견해"
+        },
+        {
+            "id": "v-f0df6502aab2e71a745216ddc3f24ff2dc1b2f00",
+            "word": "三日月",
+            "read": "みかづき",
+            "mean": "초승달"
+        },
+        {
+            "id": "v-c25a8fb60c783152e67031a63fe3eb4a9e391cc7",
+            "word": "味噌",
+            "read": "みそ",
+            "mean": "된장"
+        },
+        {
+            "id": "v-d7e25ddd5786c572e255d645db54430ec89de1a0",
+            "word": "味噌汁",
+            "read": "みそしる",
+            "mean": "된장국"
+        },
+        {
+            "id": "v-5cae02b05cadd950b217e18efeb8aff0aa5fb34c",
+            "word": "密閉",
+            "read": "みっぺい",
+            "mean": "밀폐"
+        },
+        {
+            "id": "v-ff761166cfcb3fc5ff2ee13a36eadaf8d9a6c8e5",
+            "word": "身分",
+            "read": "みぶん",
+            "mean": "신분"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

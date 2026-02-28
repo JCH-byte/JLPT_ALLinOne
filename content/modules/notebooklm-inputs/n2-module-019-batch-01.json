@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-019",
+    "title": "N2 모듈 019 (Day 6)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-019-batch-01",
+        "vocabIds": [
+            "v-b7715727f8a3d32df3c85a674461e50852c390e3",
+            "v-894580d63ceadcec73a88749f82e02348ba7ee13",
+            "v-c1bff11fe1a2415f9fbef3f13c737b375c1e4bf9",
+            "v-c19dfcb1e89d20e66346bc5a109c00a289769f04",
+            "v-8c7fa354b15fcb64ddba04a7577a42229c053ddf",
+            "v-26acaff70fad29f67383fddc9ccbf28fb7ac6f2a",
+            "v-0265d2cb1a173304f28a5a50ad6ac3df29a820e5",
+            "v-193abd1c1d7a3eef34a624b1bc04a9d07dffdae5",
+            "v-3805c8467c478c94fe3d98f7b9a2aa1c1c4d26c2",
+            "v-8d7d21e2a9b82c30a05fef59fda7008327994384",
+            "v-7ec5a89a855e7941d3a5fb1deb58aec5fec08ad4",
+            "v-0efe88d3b44e7dbca4913da11ee7e7dfccc1a516",
+            "v-0019b7eac86d7098d746c2b7243f4f5cb75ca61d",
+            "v-f7c4a9e813a4d63a6879309d5d2c0a99a934994f",
+            "v-5e1e0ea99d87793d01a2864dd01858c7869b9a11",
+            "v-42fa2edafa44f1e11c337c098339292db004132c",
+            "v-b37eaf5a8052f73659ffd7d8e113acf581eba36b",
+            "v-f2337ca09f780ea827d8b326c9efdf46cc53f9df",
+            "v-9a4b08b2c743ba5324b5a1a229bb2495413da641",
+            "v-b333a7ca3a2645a75db7d5422b49220df0ff6552",
+            "v-76692bcb5794477e16e4cd66c666baeeaba274ad",
+            "v-903f2cdbdeb63f29f44e8fe908a7e3b114128952",
+            "v-38a38a17e582b819de0eba51732dbe85de212d42",
+            "v-dacce3a4337f0dc044b96a5e6af871be6ca4fd29",
+            "v-ff6d7ed843791cd10e2f410fdf32365a29754b2e"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-b7715727f8a3d32df3c85a674461e50852c390e3",
+            "word": "刺身",
+            "read": "さしみ",
+            "mean": "회"
+        },
+        {
+            "id": "v-894580d63ceadcec73a88749f82e02348ba7ee13",
+            "word": "撮影",
+            "read": "さつえい",
+            "mean": "촬영"
+        },
+        {
+            "id": "v-c1bff11fe1a2415f9fbef3f13c737b375c1e4bf9",
+            "word": "雑音",
+            "read": "ざつおん",
+            "mean": "잡음"
+        },
+        {
+            "id": "v-c19dfcb1e89d20e66346bc5a109c00a289769f04",
+            "word": "雑談",
+            "read": "ざつだん",
+            "mean": "잡담"
+        },
+        {
+            "id": "v-8c7fa354b15fcb64ddba04a7577a42229c053ddf",
+            "word": "作動",
+            "read": "さどう",
+            "mean": "작동"
+        },
+        {
+            "id": "v-26acaff70fad29f67383fddc9ccbf28fb7ac6f2a",
+            "word": "茶道",
+            "read": "さどう",
+            "mean": "다도"
+        },
+        {
+            "id": "v-0265d2cb1a173304f28a5a50ad6ac3df29a820e5",
+            "word": "砂漠",
+            "read": "さばく",
+            "mean": "사막"
+        },
+        {
+            "id": "v-193abd1c1d7a3eef34a624b1bc04a9d07dffdae5",
+            "word": "錆",
+            "read": "さび",
+            "mean": "녹(rust)"
+        },
+        {
+            "id": "v-3805c8467c478c94fe3d98f7b9a2aa1c1c4d26c2",
+            "word": "差別",
+            "read": "さべつ",
+            "mean": "차별"
+        },
+        {
+            "id": "v-8d7d21e2a9b82c30a05fef59fda7008327994384",
+            "word": "作法",
+            "read": "さほう",
+            "mean": "작법, 예의범절"
+        },
+        {
+            "id": "v-7ec5a89a855e7941d3a5fb1deb58aec5fec08ad4",
+            "word": "左右",
+            "read": "さゆう",
+            "mean": "좌우"
+        },
+        {
+            "id": "v-0efe88d3b44e7dbca4913da11ee7e7dfccc1a516",
+            "word": "参考",
+            "read": "さんこう",
+            "mean": "참고"
+        },
+        {
+            "id": "v-0019b7eac86d7098d746c2b7243f4f5cb75ca61d",
+            "word": "参照",
+            "read": "さんしょう",
+            "mean": "참조"
+        },
+        {
+            "id": "v-f7c4a9e813a4d63a6879309d5d2c0a99a934994f",
+            "word": "残高",
+            "read": "ざんだか",
+            "mean": "잔고"
+        },
+        {
+            "id": "v-5e1e0ea99d87793d01a2864dd01858c7869b9a11",
+            "word": "産地",
+            "read": "さんち",
+            "mean": "산지"
+        },
+        {
+            "id": "v-42fa2edafa44f1e11c337c098339292db004132c",
+            "word": "賛否",
+            "read": "さんぴ",
+            "mean": "찬반"
+        },
+        {
+            "id": "v-b37eaf5a8052f73659ffd7d8e113acf581eba36b",
+            "word": "幸せ",
+            "read": "しあわせ",
+            "mean": "행복"
+        },
+        {
+            "id": "v-f2337ca09f780ea827d8b326c9efdf46cc53f9df",
+            "word": "鹿",
+            "read": "しか",
+            "mean": "사슴"
+        },
+        {
+            "id": "v-9a4b08b2c743ba5324b5a1a229bb2495413da641",
+            "word": "敷地",
+            "read": "しきち",
+            "mean": "부지"
+        },
+        {
+            "id": "v-b333a7ca3a2645a75db7d5422b49220df0ff6552",
+            "word": "時給",
+            "read": "じきゅう",
+            "mean": "시급"
+        },
+        {
+            "id": "v-76692bcb5794477e16e4cd66c666baeeaba274ad",
+            "word": "刺激",
+            "read": "しげき",
+            "mean": "자극"
+        },
+        {
+            "id": "v-903f2cdbdeb63f29f44e8fe908a7e3b114128952",
+            "word": "思考",
+            "read": "しこう",
+            "mean": "사고(생각)"
+        },
+        {
+            "id": "v-38a38a17e582b819de0eba51732dbe85de212d42",
+            "word": "持参",
+            "read": "じさん",
+            "mean": "지참"
+        },
+        {
+            "id": "v-dacce3a4337f0dc044b96a5e6af871be6ca4fd29",
+            "word": "支持",
+            "read": "しじ",
+            "mean": "지지"
+        },
+        {
+            "id": "v-ff6d7ed843791cd10e2f410fdf32365a29754b2e",
+            "word": "事実",
+            "read": "じじつ",
+            "mean": "사실"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

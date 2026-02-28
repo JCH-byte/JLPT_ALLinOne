@@ -1,0 +1,195 @@
+{
+    "moduleId": "n3-module-046",
+    "title": "N3 모듈 046 (Day 17-18)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n3-module-default.json",
+    "ruleVersion": "n3-rule-v1",
+    "batch": {
+        "batchId": "n3-module-046-batch-01",
+        "vocabIds": [
+            "v-d60894c632533252a62126a42d30ce44366ddbc0",
+            "v-9f311149ac8dc638719df4dcd16607ce24579665",
+            "v-47a1bcd2a76c08174695eb259fe679ef1bf32e80",
+            "v-d7774efd3fc01870b9f52f080d32a3b1d47d3777",
+            "v-a5796349e51c5b552146ff16a17eeb99605d863e",
+            "v-b3a0daa33c7357009a9e1a7319520f6dd202b8a8",
+            "v-8c2cef14ce4413f4165e2e374341299f6358b1df",
+            "v-64dbc5649210b439ecf3dbe69e6b6053cce64ccc",
+            "v-e719c4b6b78f0e2abedebac14d443a8256034970",
+            "v-c67202f0114444b57a65caa20538826a7aee2df0",
+            "v-77d9772674a46c282d432e14e02483bb5bd4163a",
+            "v-5af26bbaa8578eabd402dc1bf44ddd2d6677978c",
+            "v-23a8ac6ce6ee71b2699ff455f69351928b9106cc",
+            "v-ade1216eb352c72b8c5b971797c13b6d89fc66d0",
+            "v-6cfb4df44d9db5fc639454f60e58bfb109797866",
+            "v-f3e2c29c6ab0f9a259e49d187ace821e29669203",
+            "v-74274253a88527b185ab8f5a5d906ece4d528d93",
+            "v-6883a33d9ff503e536638095ddcc493333e829f9",
+            "v-019b345335712ad33d82057a4657f0604fb4bb4f",
+            "v-aa9030cddeae18f2c96e727f060e43ea6e359fd3",
+            "v-84bb42b0f800aa1777ded8ce26cf53927c408384",
+            "v-17082729653d6f7ebe051a304975ceea5a360eef",
+            "v-0f2d62a4a1890d7423a915ee1a78b109f811b4d6",
+            "v-20b528a709227d5ac594b2dfe205719648b821bd",
+            "v-576b8a365b15a548ceccd74a93152a3568d80a1d"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-d60894c632533252a62126a42d30ce44366ddbc0",
+            "word": "売れる",
+            "read": "うれる",
+            "mean": "팔리다"
+        },
+        {
+            "id": "v-9f311149ac8dc638719df4dcd16607ce24579665",
+            "word": "得る",
+            "read": "える",
+            "mean": "얻다"
+        },
+        {
+            "id": "v-47a1bcd2a76c08174695eb259fe679ef1bf32e80",
+            "word": "追い越す",
+            "read": "おいこす",
+            "mean": "앞지르다, 추월하다"
+        },
+        {
+            "id": "v-d7774efd3fc01870b9f52f080d32a3b1d47d3777",
+            "word": "追い付く",
+            "read": "おいつく",
+            "mean": "따라잡다"
+        },
+        {
+            "id": "v-a5796349e51c5b552146ff16a17eeb99605d863e",
+            "word": "追う",
+            "read": "おう",
+            "mean": "쫓다"
+        },
+        {
+            "id": "v-b3a0daa33c7357009a9e1a7319520f6dd202b8a8",
+            "word": "終える",
+            "read": "おえる",
+            "mean": "끝내다"
+        },
+        {
+            "id": "v-8c2cef14ce4413f4165e2e374341299f6358b1df",
+            "word": "行う",
+            "read": "おこなう",
+            "mean": "행하다"
+        },
+        {
+            "id": "v-64dbc5649210b439ecf3dbe69e6b6053cce64ccc",
+            "word": "起こる",
+            "read": "おこる",
+            "mean": "일어나다, 발생하다"
+        },
+        {
+            "id": "v-e719c4b6b78f0e2abedebac14d443a8256034970",
+            "word": "おごる",
+            "read": "おごる",
+            "mean": "한턱내다"
+        },
+        {
+            "id": "v-c67202f0114444b57a65caa20538826a7aee2df0",
+            "word": "教わる",
+            "read": "おそわる",
+            "mean": "배우다"
+        },
+        {
+            "id": "v-77d9772674a46c282d432e14e02483bb5bd4163a",
+            "word": "落ち着く",
+            "read": "おちつく",
+            "mean": "침착하다, 안정되다"
+        },
+        {
+            "id": "v-5af26bbaa8578eabd402dc1bf44ddd2d6677978c",
+            "word": "驚かす",
+            "read": "おどろかす",
+            "mean": "놀라게 하다"
+        },
+        {
+            "id": "v-23a8ac6ce6ee71b2699ff455f69351928b9106cc",
+            "word": "驚く",
+            "read": "おどろく",
+            "mean": "놀라다"
+        },
+        {
+            "id": "v-ade1216eb352c72b8c5b971797c13b6d89fc66d0",
+            "word": "覚える",
+            "read": "おぼえる",
+            "mean": "기억하다, 외우다"
+        },
+        {
+            "id": "v-6cfb4df44d9db5fc639454f60e58bfb109797866",
+            "word": "お目にかかる",
+            "read": "おめにかかる",
+            "mean": "뵙다 (겸양어)"
+        },
+        {
+            "id": "v-f3e2c29c6ab0f9a259e49d187ace821e29669203",
+            "word": "思い込む",
+            "read": "おもいこむ",
+            "mean": "굳게 믿다, 확신하다"
+        },
+        {
+            "id": "v-74274253a88527b185ab8f5a5d906ece4d528d93",
+            "word": "思いつく",
+            "read": "おもいつく",
+            "mean": "문득 생각이 떠오르다"
+        },
+        {
+            "id": "v-6883a33d9ff503e536638095ddcc493333e829f9",
+            "word": "下りる",
+            "read": "おりる",
+            "mean": "내려오다"
+        },
+        {
+            "id": "v-019b345335712ad33d82057a4657f0604fb4bb4f",
+            "word": "折る",
+            "read": "おる",
+            "mean": "꺾다, 접다"
+        },
+        {
+            "id": "v-aa9030cddeae18f2c96e727f060e43ea6e359fd3",
+            "word": "折れる",
+            "read": "おれる",
+            "mean": "부러지다, 꺾이다"
+        },
+        {
+            "id": "v-84bb42b0f800aa1777ded8ce26cf53927c408384",
+            "word": "降ろす",
+            "read": "おろす",
+            "mean": "내리다"
+        },
+        {
+            "id": "v-17082729653d6f7ebe051a304975ceea5a360eef",
+            "word": "返る",
+            "read": "かえる",
+            "mean": "되돌아가다"
+        },
+        {
+            "id": "v-0f2d62a4a1890d7423a915ee1a78b109f811b4d6",
+            "word": "替える",
+            "read": "かえる",
+            "mean": "바꾸다, 교환하다"
+        },
+        {
+            "id": "v-20b528a709227d5ac594b2dfe205719648b821bd",
+            "word": "換える",
+            "read": "かえる",
+            "mean": "바꾸다, 교환하다"
+        },
+        {
+            "id": "v-576b8a365b15a548ceccd74a93152a3568d80a1d",
+            "word": "輝く",
+            "read": "かがやく",
+            "mean": "빛나다"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

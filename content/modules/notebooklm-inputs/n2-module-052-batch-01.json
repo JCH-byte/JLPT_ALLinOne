@@ -1,0 +1,195 @@
+{
+    "moduleId": "n2-module-052",
+    "title": "N2 모듈 052 (Day 16-17)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n2-module-default.json",
+    "ruleVersion": "n2-rule-v1",
+    "batch": {
+        "batchId": "n2-module-052-batch-01",
+        "vocabIds": [
+            "v-631a1e3736bd3615af210985c23c788a385cb627",
+            "v-f3b237e31dce0697828335fe19df3df7770daa27",
+            "v-c3202ecd336da24130ad9c9fdbc0919da3570dcd",
+            "v-3ece47974d028b53a63913c5d05c05f7f962536e",
+            "v-709a820a1c80aabf2de32e688bbb5a5042870869",
+            "v-eba4d3b8ef1ff3d2940032833241f5d59e51ae9f",
+            "v-09af06fb1744c30d0a2ad6172157dcaca0800a0b",
+            "v-f5cdbf490e5885483804286560436357ee6f4a06",
+            "v-a3ca5edbff0955175499cea226b25d5ab3659ef0",
+            "v-f4d16f6a0cbbf826ca3f6214d4a2ea43c7a95760",
+            "v-c5ad070574ac2316d377cc90e28544cacf334aa6",
+            "v-dc3e4c8e4523378c35953ca5aa1f7896b00fe23d",
+            "v-319d0cba4bc45eabb06a5fac38330baa56356350",
+            "v-98dbb95441d3c55eb2989443a0287e71a145d6fc",
+            "v-b1cc7db8b5919942d0b3e7cfa2042b0d14bc2b8f",
+            "v-81fc1825e0c0763ee2c1248fe38090409291b799",
+            "v-c022fed1d38840c5235578a40d01a560c4236235",
+            "v-01bc6e31e09bf813100b1b79f01dd8820e569fc3",
+            "v-a71043f16f4733f0cd92a9bcf1a214cb7a302d6c",
+            "v-51cc954c05a927c37fe2b803f8c95d2b3fe03c9f",
+            "v-e4b77b60eca229287421ed3a31eee2e2ff46e2a3",
+            "v-1b36dbdd0d2a34a68fe4582c037ecffdd436877c",
+            "v-ea546c5ee2b56d53a5f6e8751c3c0e78718cd20d",
+            "v-d4934f78bcf57b0ed15f5e088db3a875f24e85f9",
+            "v-d663bfa1b0b6d8a8967121c87962981758cff341"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-631a1e3736bd3615af210985c23c788a385cb627",
+            "word": "非~",
+            "read": "ひ~",
+            "mean": "비~ (아님)"
+        },
+        {
+            "id": "v-f3b237e31dce0697828335fe19df3df7770daa27",
+            "word": "不~",
+            "read": "ふ~",
+            "mean": "불/부~ (아님)"
+        },
+        {
+            "id": "v-c3202ecd336da24130ad9c9fdbc0919da3570dcd",
+            "word": "副~",
+            "read": "ふく~",
+            "mean": "부~ (보조)"
+        },
+        {
+            "id": "v-3ece47974d028b53a63913c5d05c05f7f962536e",
+            "word": "真~",
+            "read": "ま~",
+            "mean": "참~, 한~ (강조)"
+        },
+        {
+            "id": "v-709a820a1c80aabf2de32e688bbb5a5042870869",
+            "word": "未~",
+            "read": "み~",
+            "mean": "미~ (아직)"
+        },
+        {
+            "id": "v-eba4d3b8ef1ff3d2940032833241f5d59e51ae9f",
+            "word": "無~",
+            "read": "む~",
+            "mean": "무~ (없음)"
+        },
+        {
+            "id": "v-09af06fb1744c30d0a2ad6172157dcaca0800a0b",
+            "word": "名~",
+            "read": "めい~",
+            "mean": "명~ (유명한)"
+        },
+        {
+            "id": "v-f5cdbf490e5885483804286560436357ee6f4a06",
+            "word": "来~",
+            "read": "らい~",
+            "mean": "내~ (다음)"
+        },
+        {
+            "id": "v-a3ca5edbff0955175499cea226b25d5ab3659ef0",
+            "word": "~明け",
+            "read": "~あけ",
+            "mean": "~끝, ~초"
+        },
+        {
+            "id": "v-f4d16f6a0cbbf826ca3f6214d4a2ea43c7a95760",
+            "word": "~宛て",
+            "read": "~あて",
+            "mean": "~앞, ~행"
+        },
+        {
+            "id": "v-c5ad070574ac2316d377cc90e28544cacf334aa6",
+            "word": "~案",
+            "read": "~あん",
+            "mean": "~안"
+        },
+        {
+            "id": "v-dc3e4c8e4523378c35953ca5aa1f7896b00fe23d",
+            "word": "~一色",
+            "read": "~いっしょく",
+            "mean": "~일색"
+        },
+        {
+            "id": "v-319d0cba4bc45eabb06a5fac38330baa56356350",
+            "word": "~おき",
+            "read": "~おき",
+            "mean": "~간격"
+        },
+        {
+            "id": "v-98dbb95441d3c55eb2989443a0287e71a145d6fc",
+            "word": "~下",
+            "read": "~か",
+            "mean": "~하 (아래)"
+        },
+        {
+            "id": "v-b1cc7db8b5919942d0b3e7cfa2042b0d14bc2b8f",
+            "word": "~界",
+            "read": "~かい",
+            "mean": "~계"
+        },
+        {
+            "id": "v-81fc1825e0c0763ee2c1248fe38090409291b799",
+            "word": "~街",
+            "read": "~がい",
+            "mean": "~가 (거리)"
+        },
+        {
+            "id": "v-c022fed1d38840c5235578a40d01a560c4236235",
+            "word": "~箇所",
+            "read": "~かしょ",
+            "mean": "~개소 (곳)"
+        },
+        {
+            "id": "v-01bc6e31e09bf813100b1b79f01dd8820e569fc3",
+            "word": "~感",
+            "read": "~かん",
+            "mean": "~감 (느낌)"
+        },
+        {
+            "id": "v-a71043f16f4733f0cd92a9bcf1a214cb7a302d6c",
+            "word": "~観",
+            "read": "~かん",
+            "mean": "~관 (견해)"
+        },
+        {
+            "id": "v-51cc954c05a927c37fe2b803f8c95d2b3fe03c9f",
+            "word": "~気味",
+            "read": "~ぎみ",
+            "mean": "~기미 (경향)"
+        },
+        {
+            "id": "v-e4b77b60eca229287421ed3a31eee2e2ff46e2a3",
+            "word": "~際",
+            "read": "~さい",
+            "mean": "~시, ~때"
+        },
+        {
+            "id": "v-1b36dbdd0d2a34a68fe4582c037ecffdd436877c",
+            "word": "~切れ",
+            "read": "~ぎれ",
+            "mean": "~다 됨, 끊어짐"
+        },
+        {
+            "id": "v-ea546c5ee2b56d53a5f6e8751c3c0e78718cd20d",
+            "word": "~権",
+            "read": "~けん",
+            "mean": "~권 (권리)"
+        },
+        {
+            "id": "v-d4934f78bcf57b0ed15f5e088db3a875f24e85f9",
+            "word": "~号",
+            "read": "~ごう",
+            "mean": "~호"
+        },
+        {
+            "id": "v-d663bfa1b0b6d8a8967121c87962981758cff341",
+            "word": "~頃",
+            "read": "~ごろ",
+            "mean": "~경, ~무렵"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}

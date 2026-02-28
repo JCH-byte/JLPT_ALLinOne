@@ -1,0 +1,195 @@
+{
+    "moduleId": "n1-module-017",
+    "title": "N1 모듈 017 (Day 5)",
+    "promptTemplateVersion": "notebooklm-v2",
+    "ruleFile": "n1-module-default.json",
+    "ruleVersion": "n1-rule-v1",
+    "batch": {
+        "batchId": "n1-module-017-batch-01",
+        "vocabIds": [
+            "v-d964236597e0f369888dfd4cf441df8198027fd8",
+            "v-0e4d6ae4e22390f7bf2bbc5e4ffac44ac1965f52",
+            "v-29280b8ad65f1928be55c89ef3ffef4014223f53",
+            "v-33f01f650fe3c2cf64afe8e895fbcfdde66743a2",
+            "v-0bbc41150558f66297bd0cefcd49a01ae200cef1",
+            "v-645d6851dcc5d6e1c0bd24da138aa6e7f5d459bb",
+            "v-3714f0255d5955735922eb0f66591b841877522a",
+            "v-d465d39c7e931de3a2192e86feeee0ebc7bcded2",
+            "v-a19f56a952a0f15a80025e36e1dfa185be332be0",
+            "v-8988c7b3f09e74f4942fc3e012d458ed08439be8",
+            "v-5d577eb13add0fdf08de286796c8861f39e5c5f7",
+            "v-ab99cf3268007cfca897bcbf3964228330754c30",
+            "v-04b17c65cdd9eee1617a91c6334a2fe61e7c53aa",
+            "v-287adad89127847973ea44b9f95ff2259c16dc06",
+            "v-36e2c374bbd547d4f0dcaf0221d115e94ebfb22d",
+            "v-002d267aadbf9c1fe09e0b1529f7b588ba651a64",
+            "v-1d0cf50e74288b98fb44b6fad287830087747b8d",
+            "v-0ede9be34ba576a1a265ccc1df274d8f3bd3bfb4",
+            "v-da312fcfbba3c2f3341de930e593943a9d3ec085",
+            "v-1999e5c7c52487ef8baaca2f6517a3666ccea658",
+            "v-5deda5ecc1aeebdd4342fc771e2d39ab591ed58a",
+            "v-f6c61bcdf6c016057568eed487aebb08b287266d",
+            "v-933d1e8a35b0be8d467c630098cace653a57cdfd",
+            "v-2165631db28eff47dd325d0de787a4ed842ba2cf",
+            "v-7500919ebfc6394358edcdac0a52ed89e68ff9af"
+        ]
+    },
+    "vocab": [
+        {
+            "id": "v-d964236597e0f369888dfd4cf441df8198027fd8",
+            "word": "告白",
+            "read": "こくはく",
+            "mean": "고백"
+        },
+        {
+            "id": "v-0e4d6ae4e22390f7bf2bbc5e4ffac44ac1965f52",
+            "word": "極秘",
+            "read": "ごくひ",
+            "mean": "극비"
+        },
+        {
+            "id": "v-29280b8ad65f1928be55c89ef3ffef4014223f53",
+            "word": "極楽",
+            "read": "ごくらく",
+            "mean": "극락"
+        },
+        {
+            "id": "v-33f01f650fe3c2cf64afe8e895fbcfdde66743a2",
+            "word": "心当たり",
+            "read": "こころあたり",
+            "mean": "짐작, 짚이는 데"
+        },
+        {
+            "id": "v-0bbc41150558f66297bd0cefcd49a01ae200cef1",
+            "word": "心得",
+            "read": "こころえ",
+            "mean": "마음가짐, 소양"
+        },
+        {
+            "id": "v-645d6851dcc5d6e1c0bd24da138aa6e7f5d459bb",
+            "word": "心掛け",
+            "read": "こころがけ",
+            "mean": "마음가짐"
+        },
+        {
+            "id": "v-3714f0255d5955735922eb0f66591b841877522a",
+            "word": "心構え",
+            "read": "こころがまえ",
+            "mean": "마음의 준비, 각오"
+        },
+        {
+            "id": "v-d465d39c7e931de3a2192e86feeee0ebc7bcded2",
+            "word": "志",
+            "read": "こころざし",
+            "mean": "뜻, 지망"
+        },
+        {
+            "id": "v-a19f56a952a0f15a80025e36e1dfa185be332be0",
+            "word": "心遣い",
+            "read": "こころづかい",
+            "mean": "배려"
+        },
+        {
+            "id": "v-8988c7b3f09e74f4942fc3e012d458ed08439be8",
+            "word": "誤差",
+            "read": "ごさ",
+            "mean": "오차"
+        },
+        {
+            "id": "v-5d577eb13add0fdf08de286796c8861f39e5c5f7",
+            "word": "孤児",
+            "read": "こじ",
+            "mean": "고아"
+        },
+        {
+            "id": "v-ab99cf3268007cfca897bcbf3964228330754c30",
+            "word": "故人",
+            "read": "こじん",
+            "mean": "고인"
+        },
+        {
+            "id": "v-04b17c65cdd9eee1617a91c6334a2fe61e7c53aa",
+            "word": "個性",
+            "read": "こせい",
+            "mean": "개성"
+        },
+        {
+            "id": "v-287adad89127847973ea44b9f95ff2259c16dc06",
+            "word": "小銭",
+            "read": "こぜに",
+            "mean": "잔돈"
+        },
+        {
+            "id": "v-36e2c374bbd547d4f0dcaf0221d115e94ebfb22d",
+            "word": "古代",
+            "read": "こだい",
+            "mean": "고대"
+        },
+        {
+            "id": "v-002d267aadbf9c1fe09e0b1529f7b588ba651a64",
+            "word": "誇張",
+            "read": "こちょう",
+            "mean": "과장"
+        },
+        {
+            "id": "v-1d0cf50e74288b98fb44b6fad287830087747b8d",
+            "word": "国交",
+            "read": "こっこう",
+            "mean": "국교"
+        },
+        {
+            "id": "v-0ede9be34ba576a1a265ccc1df274d8f3bd3bfb4",
+            "word": "骨董品",
+            "read": "こっとうひん",
+            "mean": "골동품"
+        },
+        {
+            "id": "v-da312fcfbba3c2f3341de930e593943a9d3ec085",
+            "word": "事柄",
+            "read": "ことがら",
+            "mean": "사항, 일"
+        },
+        {
+            "id": "v-1999e5c7c52487ef8baaca2f6517a3666ccea658",
+            "word": "固有",
+            "read": "こゆう",
+            "mean": "고유"
+        },
+        {
+            "id": "v-5deda5ecc1aeebdd4342fc771e2d39ab591ed58a",
+            "word": "雇用",
+            "read": "こよう",
+            "mean": "고용"
+        },
+        {
+            "id": "v-f6c61bcdf6c016057568eed487aebb08b287266d",
+            "word": "曆",
+            "read": "こよみ",
+            "mean": "달력"
+        },
+        {
+            "id": "v-933d1e8a35b0be8d467c630098cace653a57cdfd",
+            "word": "孤立",
+            "read": "こりつ",
+            "mean": "고립"
+        },
+        {
+            "id": "v-2165631db28eff47dd325d0de787a4ed842ba2cf",
+            "word": "根気",
+            "read": "こんき",
+            "mean": "끈기"
+        },
+        {
+            "id": "v-7500919ebfc6394358edcdac0a52ed89e68ff9af",
+            "word": "根拠",
+            "read": "こんきょ",
+            "mean": "근거"
+        }
+    ],
+    "inputMode": "rules+vocab-only",
+    "excludes": [
+        "long_context",
+        "previous_generated_paragraphs",
+        "reference_articles"
+    ]
+}
