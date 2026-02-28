@@ -1,0 +1,7166 @@
+{
+  "format": "vocab-items-v1",
+  "level": "n5",
+  "items": [
+    {
+      "id": "v-584a35a0a854f014ac9b6a74b9e1d95c39e222b7",
+      "level": "n5",
+      "word": "間",
+      "read": "あいだ",
+      "mean": "사이/동안",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-36d74a2cc144b0dd88270ea5843562d6719fd4f7",
+      "level": "n5",
+      "word": "秋",
+      "read": "あき",
+      "mean": "가을",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-5b91e82cc328e2e407583563a8b244079255fa8b",
+      "level": "n5",
+      "word": "朝",
+      "read": "あさ",
+      "mean": "아침",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-867d2100e603db5e0f31806942dfd6a9aef02a39",
+      "level": "n5",
+      "word": "朝ご飯",
+      "read": "あさごはん",
+      "mean": "아침밥",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-db6abd1f4e03fa9ca67055e7acdd10b1cafd259e",
+      "level": "n5",
+      "word": "あさって",
+      "read": "あさって",
+      "mean": "모레",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-f7be37d91e3cfe4ae9dfdeba82a09ebe5932892e",
+      "level": "n5",
+      "word": "足",
+      "read": "あし",
+      "mean": "발/다리",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-72002f879473bc5a9d887a4ee382c1271dca223a",
+      "level": "n5",
+      "word": "明日",
+      "read": "あした",
+      "mean": "내일",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-43bba07fc24d2c670a7c3729bf762bd24e4e578c",
+      "level": "n5",
+      "word": "あそこ",
+      "read": "あそこ",
+      "mean": "저기",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-4ba3a876743f15aa1354fd18bcbd452ae36cdcd2",
+      "level": "n5",
+      "word": "頭",
+      "read": "あたま",
+      "mean": "머리",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-a7ba15d981b89bb2bb265a1159a77db6879ce7e8",
+      "level": "n5",
+      "word": "あちら",
+      "read": "あちら",
+      "mean": "저쪽",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-adb2196aac75cddc7f349d5ffffa8d81e417f811",
+      "level": "n5",
+      "word": "後",
+      "read": "あと",
+      "mean": "뒤/나중",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-a8188fc366f5f4a4b03a27ab232c2f13b2f360fb",
+      "level": "n5",
+      "word": "あなた",
+      "read": "あなた",
+      "mean": "당신",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-b588c1d632f6ec6f9e78e41377beb87b6ce8cabc",
+      "level": "n5",
+      "word": "兄",
+      "read": "あに",
+      "mean": "형/오빠",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-7368e13b64451ca7d97a881e005e5ccbadaa5e00",
+      "level": "n5",
+      "word": "姉",
+      "read": "あね",
+      "mean": "누나/언니",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-de1e0a1437f62012b4c3b1b97194393cbf0d9df8",
+      "level": "n5",
+      "word": "雨",
+      "read": "あめ",
+      "mean": "비",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-9e664d6e653601de498ceac53149884d9072031a",
+      "level": "n5",
+      "word": "家",
+      "read": "いえ",
+      "mean": "집",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-a9ceb57e501384990711d16724d3964082047736",
+      "level": "n5",
+      "word": "いくつ",
+      "read": "いくつ",
+      "mean": "몇 개/몇 살",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-2e6dec7be2927ba3d8e830c70be29450d36e3ca5",
+      "level": "n5",
+      "word": "いくら",
+      "read": "いくら",
+      "mean": "얼마",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-a35a04e68af64a059c3532ceaba6abbf40e2e21c",
+      "level": "n5",
+      "word": "池",
+      "read": "いけ",
+      "mean": "연못",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-49589b470c760426a69c1c1df5ccd72a42dbd18f",
+      "level": "n5",
+      "word": "医者",
+      "read": "いしゃ",
+      "mean": "의사",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-d3297f4b0aad59a4cb38d8be6d19a7763b3d8de0",
+      "level": "n5",
+      "word": "いす",
+      "read": "いす",
+      "mean": "의자",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-6e28e5d049490ddad9b777d9548b3d132dc39cc4",
+      "level": "n5",
+      "word": "一日",
+      "read": "いちにち",
+      "mean": "하루/1일",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-85fb608c477e7ab7613c3743ccaf2ee0ee17afe8",
+      "level": "n5",
+      "word": "一週間",
+      "read": "いっしゅうかん",
+      "mean": "일주일",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-287a481014bf0f3e232c0cef9ce10ddd2f7dc751",
+      "level": "n5",
+      "word": "犬",
+      "read": "いぬ",
+      "mean": "개",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-fb0313a48757da03f9184a626ba8fdccb8191e84",
+      "level": "n5",
+      "word": "今",
+      "read": "いま",
+      "mean": "지금",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-042b0c7ea32ed7a732f41618b7861046401f9dbd",
+      "level": "n5",
+      "word": "意味",
+      "read": "いみ",
+      "mean": "의미",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-262385ee7a125a82a6b27ab8cb6713bb3bc7543c",
+      "level": "n5",
+      "word": "妹",
+      "read": "いもうと",
+      "mean": "여동생",
+      "tags": [],
+      "assignedDay": 1,
+      "dayHint": "legacy-day-1"
+    },
+    {
+      "id": "v-fbbf829833de95d56b7b837f02321619212ea971",
+      "level": "n5",
+      "word": "入り口",
+      "read": "いりぐち",
+      "mean": "입구",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-39900246f593e2f02d4f636c5f95657934bb32ff",
+      "level": "n5",
+      "word": "色",
+      "read": "いろ",
+      "mean": "색",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-8e65e5559de852fc544a1d522744647397d911cf",
+      "level": "n5",
+      "word": "上",
+      "read": "うえ",
+      "mean": "위",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-85f6f90e6d08cdbbf1ed76ed84996ce440541330",
+      "level": "n5",
+      "word": "後ろ",
+      "read": "うしろ",
+      "mean": "뒤",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-58756a807cba0e48739e48a13d010f03b2ad492d",
+      "level": "n5",
+      "word": "歌",
+      "read": "うた",
+      "mean": "노래",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-7b24bbab00c3df8b248ea981738139b1c9bbdfe3",
+      "level": "n5",
+      "word": "海",
+      "read": "うみ",
+      "mean": "바다",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-9a4d338d47e8fb21a61f074842d25bc67111b45e",
+      "level": "n5",
+      "word": "上着",
+      "read": "うわぎ",
+      "mean": "겉옷",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-a1a0f228129575b5cef716a8fb07208e0c3e1c9e",
+      "level": "n5",
+      "word": "運動",
+      "read": "うんどう",
+      "mean": "운동",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-e66ae5533174b2def42c1e909cae540d963517e1",
+      "level": "n5",
+      "word": "絵",
+      "read": "え",
+      "mean": "그림",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-7702ec75de7bb006241b32d56d9272b60ff777b3",
+      "level": "n5",
+      "word": "映画",
+      "read": "えいが",
+      "mean": "영화",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-74ce1aebe366abe5958f6473254c17e20f19cd44",
+      "level": "n5",
+      "word": "英語",
+      "read": "えいご",
+      "mean": "영어",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-2fe79ad8ec7f632d27fffd24894d476df10b506d",
+      "level": "n5",
+      "word": "駅",
+      "read": "えき",
+      "mean": "역",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-5dc26e1911ec39fc99d7264976f66f4245944b01",
+      "level": "n5",
+      "word": "円",
+      "read": "えん",
+      "mean": "엔",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-e2089458b5d35f67a29483c2f0be416a3f101529",
+      "level": "n5",
+      "word": "鉛筆",
+      "read": "えんぴつ",
+      "mean": "연필",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-a2e3546d3c7bb976255c2a63df398f5f41b43fdb",
+      "level": "n5",
+      "word": "お母さん",
+      "read": "おかあさん",
+      "mean": "어머니",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-21be19bef624d5b149807444c46bb6cb9fd87dca",
+      "level": "n5",
+      "word": "お菓子",
+      "read": "おかし",
+      "mean": "과자",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-9c402d6ffb5c8bf1d91485a4901d38549fdaef2b",
+      "level": "n5",
+      "word": "お金",
+      "read": "おかね",
+      "mean": "돈",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-2a1ab596df6d914a3dd9afa3ebe9195ca6a824c0",
+      "level": "n5",
+      "word": "お客さん",
+      "read": "おきゃくさん",
+      "mean": "손님",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-c485b3f5ba3ef11b9ffe1996bd2074acfbf230ea",
+      "level": "n5",
+      "word": "奥さん",
+      "read": "おくさん",
+      "mean": "아내/부인",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-0459fdac7b9808404d5ed5f7789ec8b39c9fa7ca",
+      "level": "n5",
+      "word": "お酒",
+      "read": "おさけ",
+      "mean": "술",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-bea0a93265522bf56282aaa0b6e5c955c6945413",
+      "level": "n5",
+      "word": "お皿",
+      "read": "おさら",
+      "mean": "접시",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-4ce86e60701f720ac289a4921b24b6241cee9915",
+      "level": "n5",
+      "word": "おじいさん",
+      "read": "おじいさん",
+      "mean": "할아버지",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-64a16b01704d4d59563b5c43614d3710118ae6f2",
+      "level": "n5",
+      "word": "おじさん",
+      "read": "おじさん",
+      "mean": "아저씨",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-fa5a80040ab67bb5cb7bb99d609c23417d4df630",
+      "level": "n5",
+      "word": "お茶",
+      "read": "おちゃ",
+      "mean": "차",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-5dd9f1d86ac04eba36ce3c11fa5b3c5336e7d621",
+      "level": "n5",
+      "word": "お父さん",
+      "read": "おとうさん",
+      "mean": "아버지",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-ab2e0510199426ee679c6adfb862689e4e243e9b",
+      "level": "n5",
+      "word": "弟",
+      "read": "おとうと",
+      "mean": "남동생",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-4c3d95e2d3c702a1cfbea73716bbfff2561cf221",
+      "level": "n5",
+      "word": "男",
+      "read": "おとこ",
+      "mean": "남자",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-3cd1442c50d4d05171807f73376a2aea63a26864",
+      "level": "n5",
+      "word": "男の子",
+      "read": "おとこのこ",
+      "mean": "남자아이",
+      "tags": [],
+      "assignedDay": 2,
+      "dayHint": "legacy-day-2"
+    },
+    {
+      "id": "v-26c7e18eb8f7a0b2df00864f1830cb073eacb664",
+      "level": "n5",
+      "word": "男の人",
+      "read": "おとこのひと",
+      "mean": "남자 어른",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-39081812b47931cebdf897beffb44c3d3a0b8d70",
+      "level": "n5",
+      "word": "一昨日",
+      "read": "おととい",
+      "mean": "그저께",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-d5e2313e47be1d83eb32afa2d31c1f15be91cf1f",
+      "level": "n5",
+      "word": "一昨年",
+      "read": "おととし",
+      "mean": "재작년",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-86a05d7075545324ceb54a0045ce5836b525a1c3",
+      "level": "n5",
+      "word": "大人",
+      "read": "おとな",
+      "mean": "어른",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-61d86b8078c562f37ec2b8ecb59206c7c2324e83",
+      "level": "n5",
+      "word": "お腹",
+      "read": "おなか",
+      "mean": "배",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-1adef8c587026d42ab290f2969b5312420324ebd",
+      "level": "n5",
+      "word": "お兄さん",
+      "read": "おにいさん",
+      "mean": "형님/오빠",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-96024eb4b947b3ecd56b31f845b2b4e2c32f46b7",
+      "level": "n5",
+      "word": "お姉さん",
+      "read": "おねえさん",
+      "mean": "누님/언니",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-5de6492828404de3051379fddb16050804746e16",
+      "level": "n5",
+      "word": "おばあさん",
+      "read": "おばあさん",
+      "mean": "할머니",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-4b30eac09436dd8080332d2fe1910d9cd2d8c47d",
+      "level": "n5",
+      "word": "おばさん",
+      "read": "おばさん",
+      "mean": "아주머니",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-09d7e87f4eb50ed038701f6a75fefeab6a9414bd",
+      "level": "n5",
+      "word": "お風呂",
+      "read": "おふろ",
+      "mean": "목욕/욕조",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-c06b52aa170d0af0d3fda1e6fbdeb576ac55bd23",
+      "level": "n5",
+      "word": "お弁当",
+      "read": "おべんとう",
+      "mean": "도시락",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-dd9e07f5c3bbe8c82675ff8bb9bb5d0eddfcfdbc",
+      "level": "n5",
+      "word": "おまわりさん",
+      "read": "おまわりさん",
+      "mean": "경찰관",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-86d64a6a0da1057941632a1a4a8eb4340ff16527",
+      "level": "n5",
+      "word": "音楽",
+      "read": "おんがく",
+      "mean": "음악",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-7646271041827f635814620eacf8a97ebd9e5ec2",
+      "level": "n5",
+      "word": "女",
+      "read": "おんな",
+      "mean": "여자",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-044b8f26986f989e46ada546f09e2def64deb0a6",
+      "level": "n5",
+      "word": "女の子",
+      "read": "おんなのこ",
+      "mean": "여자아이",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-4fb89b71db6e1f52476bd7c762623ddab986d14f",
+      "level": "n5",
+      "word": "女の人",
+      "read": "おんなのひと",
+      "mean": "여자 어른",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-4985e4c2635df45852a705ac33f7a1bff5f07752",
+      "level": "n5",
+      "word": "会議",
+      "read": "かいぎ",
+      "mean": "회의",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-c6c2d6d4f00889cc824e9c4f70ff741e3c413956",
+      "level": "n5",
+      "word": "外国",
+      "read": "がいこく",
+      "mean": "외국",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-f3905f1b3b22b157176afc8e573a88eb8331f7f3",
+      "level": "n5",
+      "word": "外国人",
+      "read": "がいこくじん",
+      "mean": "외국인",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-4fdf7233701084f963010ad0b70b52a7fb173c13",
+      "level": "n5",
+      "word": "会社",
+      "read": "かいしゃ",
+      "mean": "회사",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-1a575c9e1beb9c09e95737e5c83dc60ce271a976",
+      "level": "n5",
+      "word": "会社員",
+      "read": "かいしゃいん",
+      "mean": "회사원",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-25ec1f43bd55a8bbd554e18c57699b6b2ff629e5",
+      "level": "n5",
+      "word": "階段",
+      "read": "かいだん",
+      "mean": "계단",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-33059a6acb74f5f894a4f26c592031a6d56bf732",
+      "level": "n5",
+      "word": "買い物",
+      "read": "かいもの",
+      "mean": "쇼핑",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-558c91ac9759fd7aaa993b5517517e09d1ce45eb",
+      "level": "n5",
+      "word": "顔",
+      "read": "かお",
+      "mean": "얼굴",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-32e48bbd86c4ca59053f9024648d6ec75eb229ce",
+      "level": "n5",
+      "word": "かぎ",
+      "read": "かぎ",
+      "mean": "열쇠",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-fe3c391c5b4ba3147fd36b343f1f9fcccfd1ef88",
+      "level": "n5",
+      "word": "学生",
+      "read": "がくせい",
+      "mean": "학생",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-245734a8ca00fcc87f2ac1fc9c2e371cfff5cb62",
+      "level": "n5",
+      "word": "かさ",
+      "read": "かさ",
+      "mean": "우산",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-47ecb1a6f6f289a30781379ab5d4eeb18d5d262e",
+      "level": "n5",
+      "word": "風",
+      "read": "かぜ",
+      "mean": "바람",
+      "tags": [],
+      "assignedDay": 3,
+      "dayHint": "legacy-day-3"
+    },
+    {
+      "id": "v-7af622444685e32f7336434d532bc299403e116e",
+      "level": "n5",
+      "word": "風邪",
+      "read": "かぜ",
+      "mean": "감기",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-aae8994ac56497e1b97eb01e7463499cb7c6ffa3",
+      "level": "n5",
+      "word": "家族",
+      "read": "かぞく",
+      "mean": "가족",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-f399f72e9901e1ef39e90d808ac21912343be0d9",
+      "level": "n5",
+      "word": "学校",
+      "read": "がっこう",
+      "mean": "학교",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-2c252e5956fe4ae89cdbee5aef1d92c1c3cdd640",
+      "level": "n5",
+      "word": "かばん",
+      "read": "かばん",
+      "mean": "가방",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-65437ee30f0397a4c8c28293f6f305017201467d",
+      "level": "n5",
+      "word": "花瓶",
+      "read": "かびん",
+      "mean": "꽃병",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-9d6d598cd3d7c1ad6e6af3df40e0d8f758c63ed2",
+      "level": "n5",
+      "word": "紙",
+      "read": "かみ",
+      "mean": "종이",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-495648b25c6039e2f4fc2462595a53de7a3a2e6b",
+      "level": "n5",
+      "word": "体",
+      "read": "からだ",
+      "mean": "몸",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-5b8e2e6383542db27cc2c67029d00416c8d121b8",
+      "level": "n5",
+      "word": "川",
+      "read": "かわ",
+      "mean": "강",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-a939a91e93096147a13daaeecd9f964c2cc87ec7",
+      "level": "n5",
+      "word": "漢字",
+      "read": "かんじ",
+      "mean": "한자",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-c5a905b1e53f16d80dbb0f472a3b02bdc61cf1b0",
+      "level": "n5",
+      "word": "木",
+      "read": "き",
+      "mean": "나무",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-79148a021c07ce6bdacfea8a6f5a9a384d8ce0fb",
+      "level": "n5",
+      "word": "北",
+      "read": "きた",
+      "mean": "북쪽",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-28d3258f953d9452c8ea857d4ac25d4c0f451735",
+      "level": "n5",
+      "word": "北側",
+      "read": "きたがわ",
+      "mean": "북측",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-25c87fd55cc8bcd74dcfe0dc6aed0d262001a8a4",
+      "level": "n5",
+      "word": "切手",
+      "read": "きって",
+      "mean": "우표",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-f17b9360b349a1d858693f629097b2146ce0536e",
+      "level": "n5",
+      "word": "切符",
+      "read": "きっぷ",
+      "mean": "표",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-56fa0e3c56fe39bcdfa6a8d0eccc4f5db959553e",
+      "level": "n5",
+      "word": "昨日",
+      "read": "きのう",
+      "mean": "어제",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-3e7353fbb8114ab27de9323ec62bb1494172600e",
+      "level": "n5",
+      "word": "牛肉",
+      "read": "ぎゅうにく",
+      "mean": "소고기",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-209b659233bb0f7eb1340f43fa8017f1df1b5d46",
+      "level": "n5",
+      "word": "牛乳",
+      "read": "ぎゅうにゅう",
+      "mean": "우유",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-9d53fe9d3d228cc965786892420e41f44873a759",
+      "level": "n5",
+      "word": "今日",
+      "read": "きょう",
+      "mean": "오늘",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-076d23fa2134dcf3918db814f744c9e71c393659",
+      "level": "n5",
+      "word": "教室",
+      "read": "きょうしつ",
+      "mean": "교실",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-f4ba92e25d79efc7726020cd0a8f6c7de59f4ba3",
+      "level": "n5",
+      "word": "兄弟",
+      "read": "きょうだい",
+      "mean": "형제",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-95ac82a67a0cdfb4e21c18a2c4b89eb62384534d",
+      "level": "n5",
+      "word": "去年",
+      "read": "きょねん",
+      "mean": "작년",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-f41baa9f440311fabd79ffe632ee2b58bcf7e641",
+      "level": "n5",
+      "word": "銀行",
+      "read": "ぎんこう",
+      "mean": "은행",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-8fabcf95affbe5af6866e959b8e3b1c3685da94a",
+      "level": "n5",
+      "word": "薬",
+      "read": "くすり",
+      "mean": "약",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-968a969e438fedb17bef905780307485a95d7ee6",
+      "level": "n5",
+      "word": "果物",
+      "read": "くだもの",
+      "mean": "과일",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-e8a173602d2ac2322fc0011cf9854d822aa4daa5",
+      "level": "n5",
+      "word": "靴",
+      "read": "くつ",
+      "mean": "구두/신발",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-6cfd2413832941139aa180c451770e860a3aa286",
+      "level": "n5",
+      "word": "靴下",
+      "read": "くつした",
+      "mean": "양말",
+      "tags": [],
+      "assignedDay": 4,
+      "dayHint": "legacy-day-4"
+    },
+    {
+      "id": "v-fe02e5f8137f6ccd97cf6e46659132576753ca5a",
+      "level": "n5",
+      "word": "車",
+      "read": "くるま",
+      "mean": "자동차",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-f56fa626a91fcce8baa106e6debb96146be003c3",
+      "level": "n5",
+      "word": "警官",
+      "read": "けいかん",
+      "mean": "경찰관",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-6beeb1e773601e8fceb3e3cfaff273e5ad337e94",
+      "level": "n5",
+      "word": "子",
+      "read": "こ",
+      "mean": "아이",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-2ed34981456ba1c206a84bf6a4aad10313252c23",
+      "level": "n5",
+      "word": "公園",
+      "read": "こうえん",
+      "mean": "공원",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-0a25f2c0b0e7937ff2108b904a59f1dbdcadb5e2",
+      "level": "n5",
+      "word": "紅茶",
+      "read": "こうちゃ",
+      "mean": "홍차",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-d112020bd46feb88698cd19235f484e2e3a6f846",
+      "level": "n5",
+      "word": "交番",
+      "read": "こうばん",
+      "mean": "파출소",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-771efa8fbe5bf14aef8c5a6ed134b2f8f59cc1ce",
+      "level": "n5",
+      "word": "声",
+      "read": "こえ",
+      "mean": "목소리",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-2c995b682104831ec2a45dfc3883438aa42220ac",
+      "level": "n5",
+      "word": "ここ",
+      "read": "ここ",
+      "mean": "여기",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-479dbd92e53e1f182d047fd417cf732cad1827c5",
+      "level": "n5",
+      "word": "午後",
+      "read": "ごご",
+      "mean": "오후",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-de80f6f1a1519af58058c92243d357080793e8e9",
+      "level": "n5",
+      "word": "午前",
+      "read": "ごぜん",
+      "mean": "오전",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-2745e1ef2c421a52787b196cccdbfcec0ac489b3",
+      "level": "n5",
+      "word": "今年",
+      "read": "ことし",
+      "mean": "올해",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-212bda88853be55a8642bd652968948db735c7b9",
+      "level": "n5",
+      "word": "子ども",
+      "read": "こども",
+      "mean": "어린이",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-c1378599cb723bbcbb59a2ffd5d7760a963863cb",
+      "level": "n5",
+      "word": "ご飯",
+      "read": "ごはん",
+      "mean": "밥",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-d001f6d521562a487eeb00b971e96de1a2c0b33d",
+      "level": "n5",
+      "word": "これ",
+      "read": "これ",
+      "mean": "이것",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-cf01c6843b4a650f5443ebd67adda0c0b96fd00f",
+      "level": "n5",
+      "word": "今月",
+      "read": "こんげつ",
+      "mean": "이번 달",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-5cf329a78666cf9a2d3413c6de4b0f5327d346e3",
+      "level": "n5",
+      "word": "今週",
+      "read": "こんしゅう",
+      "mean": "이번 주",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-206a0f42cd21a8baa05db8456e70d7abd490ce41",
+      "level": "n5",
+      "word": "今晩",
+      "read": "こんばん",
+      "mean": "오늘 밤",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-0f24a42fe56ca38a674cb5bb147683473d360e2b",
+      "level": "n5",
+      "word": "最後",
+      "read": "さいご",
+      "mean": "마지막",
+      "tags": [],
+      "assignedDay": 5,
+      "dayHint": "legacy-day-5"
+    },
+    {
+      "id": "v-208c7ae6f0478c205c3ad426447b31cb3fcedfe2",
+      "level": "n5",
+      "word": "財布",
+      "read": "さいふ",
+      "mean": "지갑",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-46ca7a32609ccd72b7237dd166373a41eb675225",
+      "level": "n5",
+      "word": "魚",
+      "read": "さかな",
+      "mean": "생선",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-74c556afd51af96a9573dc05170919c0b084606d",
+      "level": "n5",
+      "word": "先",
+      "read": "さき",
+      "mean": "먼저/앞",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-0f7953c04dd0239d3e2e97c9ed848cfdde9cd3db",
+      "level": "n5",
+      "word": "作文",
+      "read": "さくぶん",
+      "mean": "작문",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-8b4227f81b72078487d54ab3a1d437a2796dc9f3",
+      "level": "n5",
+      "word": "散歩",
+      "read": "さんぽ",
+      "mean": "산책",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-c367af83298e1e6a3e33fe35291744b8a63ff10d",
+      "level": "n5",
+      "word": "塩",
+      "read": "しお",
+      "mean": "소금",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-acaf52a80fe4cf1aa781d79a0cb61aeba59d6dba",
+      "level": "n5",
+      "word": "時間",
+      "read": "じかん",
+      "mean": "시간",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-a1b3de1c17db2c4ee54b134cfdd9f9ad1d95ebea",
+      "level": "n5",
+      "word": "仕事",
+      "read": "しごと",
+      "mean": "일",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-72692479e8e1872ccb1231387ea297c388b213ba",
+      "level": "n5",
+      "word": "辞書",
+      "read": "じしょ",
+      "mean": "사전",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-b126b7a8843ede0f97cff526195c24584b46c34d",
+      "level": "n5",
+      "word": "下",
+      "read": "した",
+      "mean": "아래",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-deb13d3ce06dd01b115fc9b588bce803e28359ce",
+      "level": "n5",
+      "word": "写真",
+      "read": "しゃしん",
+      "mean": "사진",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-265a4d235e52a22f37996095bbd9bed6b26fd313",
+      "level": "n5",
+      "word": "宿題",
+      "read": "しゅくだい",
+      "mean": "숙제",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-d47a194ada674fd00bdb6bd64b620f3452e3d5c7",
+      "level": "n5",
+      "word": "食堂",
+      "read": "しょくどう",
+      "mean": "식당",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-e1d4c5e1c6da08168c157d4ab01cfe25cb597883",
+      "level": "n5",
+      "word": "新聞",
+      "read": "しんぶん",
+      "mean": "신문",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-493fa0854309d2cf9ae849b923f69c062a16389a",
+      "level": "n5",
+      "word": "すし",
+      "read": "すし",
+      "mean": "초밥",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-98a62687229f2c84e8e17479c2bc343a52d21725",
+      "level": "n5",
+      "word": "背",
+      "read": "せ",
+      "mean": "키/등",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-d4eadb7ab99918ab038956ca2a8fbe5010fe505a",
+      "level": "n5",
+      "word": "生徒",
+      "read": "せいと",
+      "mean": "학생",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-25c49d6b940cb2f8d487d2b9eda2d58446a637e1",
+      "level": "n5",
+      "word": "せっけん",
+      "read": "せっけん",
+      "mean": "비누",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-ebf06c506a3972ac117e1643306c05cc68008858",
+      "level": "n5",
+      "word": "千",
+      "read": "せん",
+      "mean": "천",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-abc1ad2b1db10f590f28077570d7a65ad3f10ca5",
+      "level": "n5",
+      "word": "先月",
+      "read": "せんげつ",
+      "mean": "지난 달",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-81291a77d1fcbfb8456a7df9eae3dbfd95b81982",
+      "level": "n5",
+      "word": "先週",
+      "read": "せんしゅう",
+      "mean": "지난 주",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-634493284552bedce31feee9ed6a5c0d8e5087d7",
+      "level": "n5",
+      "word": "先生",
+      "read": "せんせい",
+      "mean": "선생님",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-1d53526b9422a86aedbee028aa03587a7c23030d",
+      "level": "n5",
+      "word": "そこ",
+      "read": "そこ",
+      "mean": "거기",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-af3969963f8bfc0fed600625c729f767acc1f667",
+      "level": "n5",
+      "word": "そちら",
+      "read": "そちら",
+      "mean": "그쪽",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-aacb19e6251a45a797edfc937251b2666d45ed7c",
+      "level": "n5",
+      "word": "外",
+      "read": "そと",
+      "mean": "밖",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-04fad4b3327e2d74ae4cbb657f6d7a9f0b1424c7",
+      "level": "n5",
+      "word": "そば",
+      "read": "そば",
+      "mean": "옆/곁",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-8283ce76767694e632f7bfbf56710a4c0d184649",
+      "level": "n5",
+      "word": "空",
+      "read": "そら",
+      "mean": "하늘",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-805cc1fda1b6ac3d995c427a2df68dc5bf8a3880",
+      "level": "n5",
+      "word": "それ",
+      "read": "それ",
+      "mean": "그것",
+      "tags": [],
+      "assignedDay": 6,
+      "dayHint": "legacy-day-6"
+    },
+    {
+      "id": "v-58af38f2f6770e6e740813d715f15fad527bae4b",
+      "level": "n5",
+      "word": "大学",
+      "read": "だいがく",
+      "mean": "대학교",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-334c1445575dc93030ca8c6167022e2ce2a9da16",
+      "level": "n5",
+      "word": "台所",
+      "read": "だいどころ",
+      "mean": "부엌",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-53489ef95e051810fa5cd5ff94d480c8dde2616e",
+      "level": "n5",
+      "word": "建物",
+      "read": "たてもの",
+      "mean": "건물",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-15d49a925a99155da8f853dbf922bfbdca94876d",
+      "level": "n5",
+      "word": "たばこ",
+      "read": "たばこ",
+      "mean": "담배",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-43fb6d5005b4ef7978065607b21a2fd3e8ca0b8b",
+      "level": "n5",
+      "word": "食べ物",
+      "read": "たべもの",
+      "mean": "음식",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-04ff618437d7b64ac9df14cd26005b652c1dcfa7",
+      "level": "n5",
+      "word": "たまご",
+      "read": "たまご",
+      "mean": "달걀",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-1318867e9581141f9e4a68a8dd0844d8d98826aa",
+      "level": "n5",
+      "word": "だれ",
+      "read": "だれ",
+      "mean": "누구",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-289531b61d9b15f8e41eafa72083a94c84b5cc11",
+      "level": "n5",
+      "word": "誕生日",
+      "read": "たんじょうび",
+      "mean": "생일",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-78273a40c93ff03700227c99e69c829f57a7e256",
+      "level": "n5",
+      "word": "地下鉄",
+      "read": "ちかてつ",
+      "mean": "지하철",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-cbf46f3565c83453d66f098c7a652481dbb57d56",
+      "level": "n5",
+      "word": "地図",
+      "read": "ちず",
+      "mean": "지도",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-5e6a1354a68da1b99f5b8ae32c98314375352688",
+      "level": "n5",
+      "word": "父",
+      "read": "ちち",
+      "mean": "아버지",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-44f8cafe867eb6ea76d5a9c7ddbc56b50f631e20",
+      "level": "n5",
+      "word": "次",
+      "read": "つぎ",
+      "mean": "다음",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-41695f0a897b196c3c2555f324a16724dda4b932",
+      "level": "n5",
+      "word": "つくえ",
+      "read": "つくえ",
+      "mean": "책상",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-1458e4432d0f2941a40f87ea50d5826e605eaf3b",
+      "level": "n5",
+      "word": "作り方",
+      "read": "つくりかた",
+      "mean": "만드는 법",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-2957a3e21d1bf65b6f67f7a4131e2c09d989a379",
+      "level": "n5",
+      "word": "手",
+      "read": "て",
+      "mean": "손",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-9912185ed33446353efac5c20213325b0f4bb4a1",
+      "level": "n5",
+      "word": "手紙",
+      "read": "てがみ",
+      "mean": "편지",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-023633447384c4a80fc5d4c4d161bfdfc84c7759",
+      "level": "n5",
+      "word": "出口",
+      "read": "でぐち",
+      "mean": "출구",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-5589d1ab785048f819e160450e36872d5abf518b",
+      "level": "n5",
+      "word": "天気",
+      "read": "てんき",
+      "mean": "날씨",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-9d8c88d90aee61457c68b2d4e330e8319de4a7fd",
+      "level": "n5",
+      "word": "電気",
+      "read": "でんき",
+      "mean": "전기",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-8791c36fb50263746ce86a8c7f987292a976a570",
+      "level": "n5",
+      "word": "電車",
+      "read": "でんしゃ",
+      "mean": "전철",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-dfe549105c7dd371da18e9f5061e03ed407b0cc8",
+      "level": "n5",
+      "word": "電話",
+      "read": "でんわ",
+      "mean": "전화",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-d260426a14c0af6201858120365a76ee85abb494",
+      "level": "n5",
+      "word": "動物",
+      "read": "どうぶつ",
+      "mean": "동물",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-41fa0dfc960e5311de3db934ef6c970d18f046f8",
+      "level": "n5",
+      "word": "時計",
+      "read": "とけい",
+      "mean": "시계",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-e223f394102435fcb30bfd42e5fa3bb8161f98c8",
+      "level": "n5",
+      "word": "どこ",
+      "read": "どこ",
+      "mean": "어디",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-47a5e98b947d45fadf0c0590e14de952be4156b0",
+      "level": "n5",
+      "word": "ところ",
+      "read": "ところ",
+      "mean": "곳/장소",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-b54fafdfafe776a1997541670bf822d78657d786",
+      "level": "n5",
+      "word": "年",
+      "read": "とし",
+      "mean": "나이/해",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-93e181395a382001d59360fecc655533dd444782",
+      "level": "n5",
+      "word": "図書館",
+      "read": "としょかん",
+      "mean": "도서관",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-d192ce765c5bd511b7db465ecd3a9b6fded202e5",
+      "level": "n5",
+      "word": "どちら",
+      "read": "どちら",
+      "mean": "어느 쪽",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-133e858cf5fb3fbd8da046d306db3feb04dccdc4",
+      "level": "n5",
+      "word": "どなた",
+      "read": "どなた",
+      "mean": "누구(존경어)",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-2c5b76d1037aee2f965993d0942378641365f43e",
+      "level": "n5",
+      "word": "となり",
+      "read": "となり",
+      "mean": "옆/이웃",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-3e25d7c40098d3368e1f8947c5256258c8f720bc",
+      "level": "n5",
+      "word": "友だち",
+      "read": "ともだち",
+      "mean": "친구",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-7ce3e75ab8538d59dd3317e712940d25e6c78a3e",
+      "level": "n5",
+      "word": "鳥",
+      "read": "とり",
+      "mean": "새",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-0da8f3c81adb8a2d3e01cb10a33dad7d4412b872",
+      "level": "n5",
+      "word": "鶏肉",
+      "read": "とりにく",
+      "mean": "닭고기",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-3cc5b173d0430fe2130a445e9b26de2cd3802919",
+      "level": "n5",
+      "word": "どれ",
+      "read": "どれ",
+      "mean": "어느 것",
+      "tags": [],
+      "assignedDay": 7,
+      "dayHint": "legacy-day-7"
+    },
+    {
+      "id": "v-6fc4c148eece182f870f3511002233fe02f6da15",
+      "level": "n5",
+      "word": "中",
+      "read": "なか",
+      "mean": "안/속",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-f6af429b76754fcb8066004867de71a83e698347",
+      "level": "n5",
+      "word": "夏",
+      "read": "なつ",
+      "mean": "여름",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-248b1a4dd940ce9c7599e708c6bac299945727ad",
+      "level": "n5",
+      "word": "夏休み",
+      "read": "なつやすみ",
+      "mean": "여름방학",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-88ae3255507404feb550a7a7db60da9c817ef3de",
+      "level": "n5",
+      "word": "何",
+      "read": "なに",
+      "mean": "무엇",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-f7861ab1f6c935e70cb91733a63d656fa1d3dd00",
+      "level": "n5",
+      "word": "名前",
+      "read": "なまえ",
+      "mean": "이름",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-2810b415846f7ed64785377161d9dd655cfe0785",
+      "level": "n5",
+      "word": "肉",
+      "read": "にく",
+      "mean": "고기",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-bca1de35248f386829d3ffc76092d2152c5837a1",
+      "level": "n5",
+      "word": "西",
+      "read": "にし",
+      "mean": "서쪽",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-a85297f0df85841ff7e6c8ba2a3c0f3c0895703d",
+      "level": "n5",
+      "word": "日本語",
+      "read": "にほんご",
+      "mean": "일본어",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-766b43c5b12b36c6cf7d521ab1e9e605eb6f506b",
+      "level": "n5",
+      "word": "日本人",
+      "read": "にほんじん",
+      "mean": "일본인",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-76767c01fb1dd35629d31448c9a5341576c5f209",
+      "level": "n5",
+      "word": "庭",
+      "read": "にわ",
+      "mean": "정원/마당",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-b8f2fffb7e8d18369b6a9b65f275b4a40c159696",
+      "level": "n5",
+      "word": "猫",
+      "read": "ねこ",
+      "mean": "고양이",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-b41b8175a2c72a57afce0d82e2370a3e6b1b9a78",
+      "level": "n5",
+      "word": "飲み物",
+      "read": "のみもの",
+      "mean": "음료수",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-b993242bf419a6323954cc927d1b18705f4d139b",
+      "level": "n5",
+      "word": "灰皿",
+      "read": "はいざら",
+      "mean": "재떨이",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-acf5d80abb6c3667d760b154a65eebdf710dcbdb",
+      "level": "n5",
+      "word": "葉書",
+      "read": "はがき",
+      "mean": "엽서",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-78caf4d746eb9dab0379ebd1658071bf96190fef",
+      "level": "n5",
+      "word": "二十歳",
+      "read": "はたち",
+      "mean": "스무 살",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-e20d46303a7b72aee96e358d8fce5e88b582210a",
+      "level": "n5",
+      "word": "鼻",
+      "read": "はな",
+      "mean": "코",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-5dc05bf7b506e41ca6dfe01564a90d9d8db6daff",
+      "level": "n5",
+      "word": "花",
+      "read": "はな",
+      "mean": "꽃",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-31a0b3e3a236d02668ef5ec5fb5f29cf805ba759",
+      "level": "n5",
+      "word": "話",
+      "read": "はなし",
+      "mean": "이야기",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-eefe4b7949d5fd617f848f39918f704c3c3bc8fe",
+      "level": "n5",
+      "word": "母",
+      "read": "はは",
+      "mean": "어머니",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-c53341559fe0bd58c1e80f19a9e184ad218a8751",
+      "level": "n5",
+      "word": "春",
+      "read": "はる",
+      "mean": "봄",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-a18abb579a2b7c776291c3cbfbdf5652bc0f2a16",
+      "level": "n5",
+      "word": "番号",
+      "read": "ばんごう",
+      "mean": "번호",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-3847027c9d08f5a64747258dce9fd7374433cf90",
+      "level": "n5",
+      "word": "晩ご飯",
+      "read": "ばんごはん",
+      "mean": "저녁밥",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-53a1e029fd2e4275f70334147e0571ea4b939c20",
+      "level": "n5",
+      "word": "半分",
+      "read": "はんぶん",
+      "mean": "절반",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-29941f398b47c5d3b35b0c7330c5c6e5566e82a3",
+      "level": "n5",
+      "word": "東",
+      "read": "ひがし",
+      "mean": "동쪽",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-266edd54598c5b2bc0413bb9fc03da4b80481a20",
+      "level": "n5",
+      "word": "飛行機",
+      "read": "ひこうき",
+      "mean": "비행기",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-edb82bba04243dfc1d234efc48c80c5531ae58fd",
+      "level": "n5",
+      "word": "人",
+      "read": "ひと",
+      "mean": "사람",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-3200c5cb07e66fc8a37ab41950549ce906fd5728",
+      "level": "n5",
+      "word": "百",
+      "read": "ひゃく",
+      "mean": "백",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-567b344fc14788ef278eef6a1d2b706a5cbff786",
+      "level": "n5",
+      "word": "百点",
+      "read": "ひゃくてん",
+      "mean": "백점",
+      "tags": [],
+      "assignedDay": 8,
+      "dayHint": "legacy-day-8"
+    },
+    {
+      "id": "v-5cb1ab5738fa68a7fbe9e43af7b66b3c37b41f24",
+      "level": "n5",
+      "word": "病院",
+      "read": "びょういん",
+      "mean": "병원",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-3eacd03df3d4312e4c5dfcc1ca979318c32b7701",
+      "level": "n5",
+      "word": "病気",
+      "read": "びょうき",
+      "mean": "병",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-29cd2b022791f1123294d73d4770ca660639192e",
+      "level": "n5",
+      "word": "ひらがな",
+      "read": "ひらがな",
+      "mean": "히라가나",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-2faf7508a51218a65935430f9ce963c40a2e0af2",
+      "level": "n5",
+      "word": "昼",
+      "read": "ひる",
+      "mean": "낮/점심",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-f6227ddd2a2b7253e5b2d0aa5ed588fc99095d6d",
+      "level": "n5",
+      "word": "昼ご飯",
+      "read": "ひるごはん",
+      "mean": "점심밥",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-c8e26de0763a739ebee25fe2643cea3a4bd9a922",
+      "level": "n5",
+      "word": "服",
+      "read": "ふく",
+      "mean": "옷",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-30ad78ea8f10e47990c5ea2ea6b9957338bf7161",
+      "level": "n5",
+      "word": "冬",
+      "read": "ふゆ",
+      "mean": "겨울",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-da340752c448dc0ac7771c183902374f97d3b2f3",
+      "level": "n5",
+      "word": "部屋",
+      "read": "へや",
+      "mean": "방",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-e09d69e64ca24689c08076df1d8d13cf1c3e5ce5",
+      "level": "n5",
+      "word": "勉強",
+      "read": "べんきょう",
+      "mean": "공부",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-9b9c9eba0b8459191430fdab6fe7b3b7a647b47c",
+      "level": "n5",
+      "word": "方",
+      "read": "ほう",
+      "mean": "편/쪽",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-b015bfd6ce94a55dda9e640422fe5fa1c273d78c",
+      "level": "n5",
+      "word": "帽子",
+      "read": "ぼうし",
+      "mean": "모자",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-8d5bf7ffe25a1be8041b746234bbdfc4c32159f0",
+      "level": "n5",
+      "word": "ほか",
+      "read": "ほか",
+      "mean": "그 밖",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-6e09433063a568c557f5e3270fd638d830710eb7",
+      "level": "n5",
+      "word": "本",
+      "read": "ほん",
+      "mean": "책",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-4b768733b5a140dba7f5ec84de941021a050dc11",
+      "level": "n5",
+      "word": "毎朝",
+      "read": "まいあさ",
+      "mean": "매일 아침",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-3f7dfa4680b73f74fbb6a63c26f69f5177e161d2",
+      "level": "n5",
+      "word": "毎月",
+      "read": "まいつき",
+      "mean": "매달",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-0dfa0fe053cc422a7a63f1ea2b4636a6db25eb2d",
+      "level": "n5",
+      "word": "毎週",
+      "read": "まいしゅう",
+      "mean": "매주",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-b69b43f2605b2f3be201fe46301ba8b5a462097e",
+      "level": "n5",
+      "word": "毎日",
+      "read": "まいにち",
+      "mean": "매일",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-627016a779222a2faff6863c93b57aa71801bdc8",
+      "level": "n5",
+      "word": "毎年",
+      "read": "まいとし",
+      "mean": "매년",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-e7283c7401d738e02eeb4e1181c2f62c4111d8f9",
+      "level": "n5",
+      "word": "毎晩",
+      "read": "まいばん",
+      "mean": "매일 밤",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-f8cd4da931f8bab897ad08ec7660dc58e23cf964",
+      "level": "n5",
+      "word": "前",
+      "read": "まえ",
+      "mean": "앞/전",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-1c545c91642158986ebfa4d3bba39cc08e6bc158",
+      "level": "n5",
+      "word": "町",
+      "read": "まち",
+      "mean": "마을",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-17c520c18ebd924594e5a0e3db158fc3526da224",
+      "level": "n5",
+      "word": "窓",
+      "read": "まど",
+      "mean": "창문",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-1aed1f425ecef7454ce219c45f9963b686d140ca",
+      "level": "n5",
+      "word": "右",
+      "read": "みぎ",
+      "mean": "오른쪽",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-3f12dcf684970eb77e4f12b7dda18ae41defaa16",
+      "level": "n5",
+      "word": "水",
+      "read": "みず",
+      "mean": "물",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-a50e91073254d1648605fa8801455187ae25f9ff",
+      "level": "n5",
+      "word": "店",
+      "read": "みせ",
+      "mean": "가게",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-673d5a09f350525195289a7b6c874c6bd4f666a1",
+      "level": "n5",
+      "word": "道",
+      "read": "みち",
+      "mean": "길",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-5ff513d4d770bd8a9f366ed9fa21a94db399feaa",
+      "level": "n5",
+      "word": "みなさん",
+      "read": "みなさん",
+      "mean": "여러분",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-795b5d97902fa8e83bbc96b112aec567279dbc30",
+      "level": "n5",
+      "word": "南",
+      "read": "みなみ",
+      "mean": "남쪽",
+      "tags": [],
+      "assignedDay": 9,
+      "dayHint": "legacy-day-9"
+    },
+    {
+      "id": "v-ef77c38268cb97fa1ee29106a83387583772276a",
+      "level": "n5",
+      "word": "耳",
+      "read": "みみ",
+      "mean": "귀",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-dbbb963e1317cd3700965d4e4de9d8d1074ec25d",
+      "level": "n5",
+      "word": "みんな",
+      "read": "みんな",
+      "mean": "모두",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-f8ccff92ca892abffcff640d345b65a1b9d0c2e4",
+      "level": "n5",
+      "word": "昔",
+      "read": "むかし",
+      "mean": "옛날",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-c7ae44b003a12e46b856dc16d76209cf194df170",
+      "level": "n5",
+      "word": "息子",
+      "read": "むすこ",
+      "mean": "아들",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-b9f4a037826ad478f3a0ba2457c49cba96ce4be4",
+      "level": "n5",
+      "word": "目",
+      "read": "め",
+      "mean": "눈",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-76a1dc16435890984cf7faae878d4ef8cd5fe3f4",
+      "level": "n5",
+      "word": "めがね",
+      "read": "めがね",
+      "mean": "안경",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-61048c7ebfd396e8d3a18c2cf4126ed288de53f5",
+      "level": "n5",
+      "word": "物",
+      "read": "もの",
+      "mean": "물건",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-235bc08c36f02856e4104cd4235d11be3b4bbe1f",
+      "level": "n5",
+      "word": "門",
+      "read": "もん",
+      "mean": "문",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-e9ee9d580cbb1a9a08a269fe1cabd95e51bda38d",
+      "level": "n5",
+      "word": "問題",
+      "read": "もんだい",
+      "mean": "문제",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-f87f8136407320ec978c5b5aa49a736d873a543e",
+      "level": "n5",
+      "word": "八百屋",
+      "read": "やおや",
+      "mean": "채소가게",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-706c038edddbc8b5407c76e990a06ffc43eb221c",
+      "level": "n5",
+      "word": "野菜",
+      "read": "やさい",
+      "mean": "야채",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-9814f94ac9b0cffe1531f69837389416c77fde66",
+      "level": "n5",
+      "word": "休み",
+      "read": "やすみ",
+      "mean": "휴일",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-b3e80e6ee5e662f74316b84721567b35c15d6e8c",
+      "level": "n5",
+      "word": "山",
+      "read": "やま",
+      "mean": "산",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-838cce1ab5204ac2956a50dc43c89b59d4250713",
+      "level": "n5",
+      "word": "夕方",
+      "read": "ゆうがた",
+      "mean": "저녁때",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-34767d9a7c17b3f8e20a7fe2006a96d40cc36bc5",
+      "level": "n5",
+      "word": "夕飯",
+      "read": "ゆうはん",
+      "mean": "저녁밥",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-e35ade0a300c2be99b4ace806189f0ff023c651d",
+      "level": "n5",
+      "word": "雪",
+      "read": "ゆき",
+      "mean": "눈",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-4779b289127a7bebd711b941a2fff5705d5e2cd3",
+      "level": "n5",
+      "word": "洋服",
+      "read": "ようふく",
+      "mean": "양복",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-5a37416b29a859a6830407ea9b4592022e6b5442",
+      "level": "n5",
+      "word": "横",
+      "read": "よこ",
+      "mean": "옆",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-16a3434103343e2c990366737a43cc17025a5e75",
+      "level": "n5",
+      "word": "夜",
+      "read": "よる",
+      "mean": "밤",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-0012b438acc8512bd8d741171b0009ba6fe59720",
+      "level": "n5",
+      "word": "来月",
+      "read": "らいげつ",
+      "mean": "다음 달",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-9db218dca717fc82e90b0fe80790569007a0b3a6",
+      "level": "n5",
+      "word": "来週",
+      "read": "らいしゅう",
+      "mean": "다음 주",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-7e3c4d04317c8352cbb319c344ecf3034be3556c",
+      "level": "n5",
+      "word": "来年",
+      "read": "らいねん",
+      "mean": "내년",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-2b23608fdcbaec896fef86dbd7156c26954b7dee",
+      "level": "n5",
+      "word": "留学生",
+      "read": "りゅうがくせい",
+      "mean": "유학생",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-7cad1aafa65b5162099351de4f1b39f8bf5e48b4",
+      "level": "n5",
+      "word": "料理",
+      "read": "りょうり",
+      "mean": "요리",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-ccec9e52bc764d3b27b529eeab7b33019c2b66d0",
+      "level": "n5",
+      "word": "練習",
+      "read": "れんしゅう",
+      "mean": "연습",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-4575a184e9c4ff172322ad0ff2b7518d01831c9f",
+      "level": "n5",
+      "word": "私",
+      "read": "わたし",
+      "mean": "나/저",
+      "tags": [],
+      "assignedDay": 10,
+      "dayHint": "legacy-day-10"
+    },
+    {
+      "id": "v-44547077eb09bf5a2beabc1b21cb01d3b960efae",
+      "level": "n5",
+      "word": "一つ",
+      "read": "ひとつ",
+      "mean": "하나",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-489fc58e1b4271f785e1867ae34132af19e4e4e6",
+      "level": "n5",
+      "word": "二つ",
+      "read": "ふたつ",
+      "mean": "둘",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-fa7f9940dc7ae53666a4bca8a33ec81db292091d",
+      "level": "n5",
+      "word": "三つ",
+      "read": "みっつ",
+      "mean": "셋",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-37efd204d70c257d142afa7c45086b7e288e1f37",
+      "level": "n5",
+      "word": "四つ",
+      "read": "よっつ",
+      "mean": "넷",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-1967fde45d86f87035bd312ee596513e25158057",
+      "level": "n5",
+      "word": "五つ",
+      "read": "いつつ",
+      "mean": "다섯",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-e98c1b82b9e8f4cb49dcf08158ff2864406e57a9",
+      "level": "n5",
+      "word": "六つ",
+      "read": "むっつ",
+      "mean": "여섯",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-bdb7b1a917144e6304578534b258e25801cf8321",
+      "level": "n5",
+      "word": "七つ",
+      "read": "ななつ",
+      "mean": "일곱",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-2919ed7e069ab27160ae16d23fd35eeffe82188a",
+      "level": "n5",
+      "word": "八つ",
+      "read": "やっつ",
+      "mean": "여덟",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-ffd8564622de8174884d87a2c3c058c92791d2ce",
+      "level": "n5",
+      "word": "九つ",
+      "read": "ここのつ",
+      "mean": "아홉",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-1afee000eb07e267046b3250170c785d4812053b",
+      "level": "n5",
+      "word": "十",
+      "read": "とお",
+      "mean": "열",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-cdd2fa560782d95ece746f9cb06a0903e9448a61",
+      "level": "n5",
+      "word": "いくつ",
+      "read": "いくつ",
+      "mean": "몇 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-332de9437988b2a55be0431e9776fe72fce58785",
+      "level": "n5",
+      "word": "一個",
+      "read": "いっこ",
+      "mean": "한 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-33075361a7e3afc4eab9e40c00440b5117e8250f",
+      "level": "n5",
+      "word": "二個",
+      "read": "にこ",
+      "mean": "두 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-11ca224ceb45c47f448fd5dfc4e2d6b2e88fc27d",
+      "level": "n5",
+      "word": "三個",
+      "read": "さんこ",
+      "mean": "세 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-8b1f6f7eef1b317e89dff9a6f5c74d720d853ed8",
+      "level": "n5",
+      "word": "四個",
+      "read": "よんこ",
+      "mean": "네 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-51e4bd8eece9f955d5573a1217d49fab7ebfc8f9",
+      "level": "n5",
+      "word": "五個",
+      "read": "ごこ",
+      "mean": "다섯 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-4255e2f7a8d9e221b1b5b8cac07cb52308144ae6",
+      "level": "n5",
+      "word": "六個",
+      "read": "ろっこ",
+      "mean": "여섯 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-e6360f7eb3bd0f3a462cd2945cb4ea56eef22098",
+      "level": "n5",
+      "word": "七個",
+      "read": "ななこ",
+      "mean": "일곱 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-31a6545bff687e98ced4a48387830a467b795dbb",
+      "level": "n5",
+      "word": "八個",
+      "read": "はっこ",
+      "mean": "여덟 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-e87efa0c7624f02b22d5191fd0e8bfa49d77ef84",
+      "level": "n5",
+      "word": "九個",
+      "read": "きゅうこ",
+      "mean": "아홉 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-0959253415bf0f3690df21fb86881e733d79d256",
+      "level": "n5",
+      "word": "十個",
+      "read": "じゅっこ",
+      "mean": "열 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-3b65268e15c1bb4ba40f39e5ca5e767ad8cb2c72",
+      "level": "n5",
+      "word": "何個",
+      "read": "なんこ",
+      "mean": "몇 개",
+      "tags": [],
+      "assignedDay": 11,
+      "dayHint": "legacy-day-11"
+    },
+    {
+      "id": "v-4e91456587d46111cd42094ec3259746dff53dca",
+      "level": "n5",
+      "word": "一階",
+      "read": "いっかい",
+      "mean": "1층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-2f6ea38e4e2004243125901e65003cf12c738bc1",
+      "level": "n5",
+      "word": "二階",
+      "read": "にかい",
+      "mean": "2층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-3dfdc426a207aeff3ecbfa480ab93c408af7ecc8",
+      "level": "n5",
+      "word": "三階",
+      "read": "さんがい",
+      "mean": "3층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-b845998228dff1493c6ae495f0bd73f91ed395b2",
+      "level": "n5",
+      "word": "四階",
+      "read": "よんかい",
+      "mean": "4층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-81a8e702f908849b91beeb1d59c5378f6316cf6b",
+      "level": "n5",
+      "word": "五階",
+      "read": "ごかい",
+      "mean": "5층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-89e0b79eec99c75b1d9147b7cfaef2d05cb735f7",
+      "level": "n5",
+      "word": "六階",
+      "read": "ろっかい",
+      "mean": "6층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-b283b6764262df7b511ac7d51151526fe53181f8",
+      "level": "n5",
+      "word": "七階",
+      "read": "ななかい",
+      "mean": "7층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-3266f198caac2fce8a87a8389f23ccf2f9325cdf",
+      "level": "n5",
+      "word": "八階",
+      "read": "はっかい",
+      "mean": "8층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-7fd9c7d9822302e11b6afd345871ed1f98b3b25c",
+      "level": "n5",
+      "word": "九階",
+      "read": "きゅうかい",
+      "mean": "9층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-bc23bc11247d25d946d1686a38a0ae808732253a",
+      "level": "n5",
+      "word": "十階",
+      "read": "じゅっかい",
+      "mean": "10층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-4c77faa758fbe90c5d859a39e69226e4cc516ab7",
+      "level": "n5",
+      "word": "何階",
+      "read": "なんがい",
+      "mean": "몇 층",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-7f4398bd5ddaa9b937f64da8f6a2961bca894b47",
+      "level": "n5",
+      "word": "一回",
+      "read": "いっかい",
+      "mean": "1회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-0632e05bbad4b7ea52f6616eee18e3d371ca8bbd",
+      "level": "n5",
+      "word": "二回",
+      "read": "にかい",
+      "mean": "2회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-dc8787d640771a7b32142c08d948a75715aa295d",
+      "level": "n5",
+      "word": "三回",
+      "read": "さんかい",
+      "mean": "3회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-e8c5ea0ecc290e426f5aa63e3009f245c778e192",
+      "level": "n5",
+      "word": "四回",
+      "read": "よんかい",
+      "mean": "4회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-e3d4f475b9c5f8f8d9af35393d46e5bcd70c5bea",
+      "level": "n5",
+      "word": "五回",
+      "read": "ごかい",
+      "mean": "5회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-84a37fb42a21ec1a18bd53adadf249ab9871c805",
+      "level": "n5",
+      "word": "六回",
+      "read": "ろっかい",
+      "mean": "6회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-8bb6eae90a3d2198d3da471384af380d26ebe2ed",
+      "level": "n5",
+      "word": "七回",
+      "read": "ななかい",
+      "mean": "7회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-3cbbfee498c6ed4314a03a977b120144f6dbfc64",
+      "level": "n5",
+      "word": "八回",
+      "read": "はっかい",
+      "mean": "8회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-4c6d3e62ff81de3f841d72e40191747ef717566c",
+      "level": "n5",
+      "word": "九回",
+      "read": "きゅうかい",
+      "mean": "9회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-8f657de3b161344aa9df74af2957679675ccfc7a",
+      "level": "n5",
+      "word": "十回",
+      "read": "じゅっかい",
+      "mean": "10회",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-3ed485a8d9e04d842b177d3051866c402a9f459c",
+      "level": "n5",
+      "word": "何回",
+      "read": "なんかい",
+      "mean": "몇 번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-910ec3f5649b3fbf1a01e2c8c1c4e2ed7543a90c",
+      "level": "n5",
+      "word": "一番",
+      "read": "いちばん",
+      "mean": "1번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-1ba3544695a63f88befe9c5fa194792182478d31",
+      "level": "n5",
+      "word": "二番",
+      "read": "にばん",
+      "mean": "2번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-1993f5f12fb8cd8e39254edb27785e1a882e61cf",
+      "level": "n5",
+      "word": "三番",
+      "read": "さんばん",
+      "mean": "3번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-f6c37cd87013d52b9726ce6114eaa17500eeb3cb",
+      "level": "n5",
+      "word": "四番",
+      "read": "よんばん",
+      "mean": "4번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-205d5b49e7c81d973a522da0b232e096d1379d34",
+      "level": "n5",
+      "word": "五番",
+      "read": "ごばん",
+      "mean": "5번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-03262410343fe83443257725e355abf6b10d05e0",
+      "level": "n5",
+      "word": "六番",
+      "read": "ろくばん",
+      "mean": "6번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-fbb24baf7d3ddabeb0bed82c82715031b95606f2",
+      "level": "n5",
+      "word": "七番",
+      "read": "ななばん",
+      "mean": "7번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-dacd98b11b5739c6b3d97471ac0cc16bb36da808",
+      "level": "n5",
+      "word": "八番",
+      "read": "はちばん",
+      "mean": "8번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-74781562bef880c352584ed96fcda9ef091a1403",
+      "level": "n5",
+      "word": "九番",
+      "read": "きゅうばん",
+      "mean": "9번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-3f1fff4ceb0fab68c38f643d2116501228e8992b",
+      "level": "n5",
+      "word": "十番",
+      "read": "じゅうばん",
+      "mean": "10번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-73edf2fd3ed38b3b178216763f6c321d466fe516",
+      "level": "n5",
+      "word": "何番",
+      "read": "なんばん",
+      "mean": "몇 번",
+      "tags": [],
+      "assignedDay": 12,
+      "dayHint": "legacy-day-12"
+    },
+    {
+      "id": "v-b2f3b2fec6345bcc7b6526a71573668861b7167e",
+      "level": "n5",
+      "word": "一円",
+      "read": "いちえん",
+      "mean": "1엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-0a333bbc422ffc57eb9ee389ec7fcc975390cb02",
+      "level": "n5",
+      "word": "二円",
+      "read": "にえん",
+      "mean": "2엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-d32e7372f21969e4e3f731c968d1d24891d9228a",
+      "level": "n5",
+      "word": "三円",
+      "read": "さんえん",
+      "mean": "3엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-d432f47c863ebecd7e481aa627da3dfadc0ef2ad",
+      "level": "n5",
+      "word": "四円",
+      "read": "よえん",
+      "mean": "4엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-903405cfdde213427e565c7e01c38161228bb8d1",
+      "level": "n5",
+      "word": "五円",
+      "read": "ごえん",
+      "mean": "5엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-f2ab5af2ed07cc27df7900d4a781cd8d3d3ba085",
+      "level": "n5",
+      "word": "六円",
+      "read": "ろくえん",
+      "mean": "6엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-76d16079f8164da103a50f1352706e80633c6743",
+      "level": "n5",
+      "word": "七円",
+      "read": "ななえん",
+      "mean": "7엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-ac9cb664f9781f720db3a07d0a22a1de95c89de4",
+      "level": "n5",
+      "word": "八円",
+      "read": "はちえん",
+      "mean": "8엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-6e3d1d7a37adff1a98da993584ced0bd6dd98f05",
+      "level": "n5",
+      "word": "九円",
+      "read": "きゅうえん",
+      "mean": "9엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-5e3bfae312d3fc4457bc19eaf38060a249d29dfc",
+      "level": "n5",
+      "word": "十円",
+      "read": "じゅうえん",
+      "mean": "10엔",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-83c07614f9ae475da6bc15c4e140de00967fedf9",
+      "level": "n5",
+      "word": "一年",
+      "read": "いちねん",
+      "mean": "1년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-3fce2c789b8da544064e2c467d0b494397f20bd2",
+      "level": "n5",
+      "word": "二年",
+      "read": "にねん",
+      "mean": "2년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-3cf7649ef2768bbbaa52387acc18b4beb24431f8",
+      "level": "n5",
+      "word": "三年",
+      "read": "さんねん",
+      "mean": "3년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-36b1f3abe3d47cb8ecfcefb645c844e7deb5b20e",
+      "level": "n5",
+      "word": "四年",
+      "read": "よねん",
+      "mean": "4년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-d5344381ac3745d2922f6f31ea1879e0223a0734",
+      "level": "n5",
+      "word": "五年",
+      "read": "ごねん",
+      "mean": "5년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-d6fe49b1985b9a99a376f6f7a738fbbd8b7710b0",
+      "level": "n5",
+      "word": "六年",
+      "read": "ろくねん",
+      "mean": "6년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-1c545b42b095e062be235526572b3cc627a97185",
+      "level": "n5",
+      "word": "七年",
+      "read": "しちねん",
+      "mean": "7년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-55b1dfb1c6c95bbab83616c318d03c5b4bc8c349",
+      "level": "n5",
+      "word": "八年",
+      "read": "はちねん",
+      "mean": "8년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-5e77ed06a6966a08c6723c26c810cfbeadc3f693",
+      "level": "n5",
+      "word": "九年",
+      "read": "きゅうねん",
+      "mean": "9년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-49a6741bfa8cb9ac9f065266471c6d704fdaf85f",
+      "level": "n5",
+      "word": "十年",
+      "read": "じゅうねん",
+      "mean": "10년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-acf2f3adee7404187a12121d70c7a79ccd1f5cd3",
+      "level": "n5",
+      "word": "何年",
+      "read": "なんねん",
+      "mean": "몇 년",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-3dbbcaa192f5abc3de765729085dce185baf4eee",
+      "level": "n5",
+      "word": "一月",
+      "read": "いちがつ",
+      "mean": "1월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-d284e9c3a295b519ab883a0fcf4fcd83146f7e17",
+      "level": "n5",
+      "word": "二月",
+      "read": "にがつ",
+      "mean": "2월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-ad4795a0622c878e68eb80649b51ee87b81f63f7",
+      "level": "n5",
+      "word": "三月",
+      "read": "さんがつ",
+      "mean": "3월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-02c9ea47d6e5efe56313ed1f572c1ea13c72f5ac",
+      "level": "n5",
+      "word": "四月",
+      "read": "しがつ",
+      "mean": "4월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-bc08a731ecc88ab482fc650e169f3efc7b92b51c",
+      "level": "n5",
+      "word": "五月",
+      "read": "ごがつ",
+      "mean": "5월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-bff14bee235ce135ac659c60d4cfcaf3f11ecd76",
+      "level": "n5",
+      "word": "六月",
+      "read": "ろくがつ",
+      "mean": "6월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-cd19fb063f9ad2d915c42278a9509d92e47cb80f",
+      "level": "n5",
+      "word": "七月",
+      "read": "しちがつ",
+      "mean": "7월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-1e50aa7b4322cfee60b1fde9bb998c0859def4cf",
+      "level": "n5",
+      "word": "八月",
+      "read": "はちがつ",
+      "mean": "8월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-f0bed0291fca50b577c00aa5f824e0623a5253d3",
+      "level": "n5",
+      "word": "九月",
+      "read": "くがつ",
+      "mean": "9월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-78cfcd5a4cbea911d066786c4c6d52b38996ab27",
+      "level": "n5",
+      "word": "十月",
+      "read": "じゅうがつ",
+      "mean": "10월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-5ed296b3b693dd290ee6eb4e3e09ea2cf84345cb",
+      "level": "n5",
+      "word": "十一月",
+      "read": "じゅういちがつ",
+      "mean": "11월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-6c4d2530cc3213a113091ed358e68a4601d994a3",
+      "level": "n5",
+      "word": "十二月",
+      "read": "じゅうにがつ",
+      "mean": "12월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-2c7b10012a5684619c623147e7b5d167a56d213e",
+      "level": "n5",
+      "word": "何月",
+      "read": "なんがつ",
+      "mean": "몇 월",
+      "tags": [],
+      "assignedDay": 13,
+      "dayHint": "legacy-day-13"
+    },
+    {
+      "id": "v-2ebdc8b4ba2663866c076e4b894ad67fa3a2f63b",
+      "level": "n5",
+      "word": "一日",
+      "read": "ついたち",
+      "mean": "1일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-0265a5d3996b69ab330aa7f7664d455f972c3e0a",
+      "level": "n5",
+      "word": "二日",
+      "read": "ふつか",
+      "mean": "2일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-b4bd900d411246c854df28324217c884b1643028",
+      "level": "n5",
+      "word": "三日",
+      "read": "みっか",
+      "mean": "3일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-e38f98172a5c5668e9132f213a65444a09287c9b",
+      "level": "n5",
+      "word": "四日",
+      "read": "よっか",
+      "mean": "4일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-ef7b0375ce6668ef13f53143bc407b058a1567a4",
+      "level": "n5",
+      "word": "五日",
+      "read": "いつか",
+      "mean": "5일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-51448ef23aa89cb26c5757866b473eaf5fe6b68f",
+      "level": "n5",
+      "word": "六日",
+      "read": "むいか",
+      "mean": "6일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-4db2d0e65492c0bcc6f9063c184768124a388823",
+      "level": "n5",
+      "word": "七日",
+      "read": "なのか",
+      "mean": "7일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-481c54510f5d8b74e10e8f8afcd2114087b1d585",
+      "level": "n5",
+      "word": "八日",
+      "read": "ようか",
+      "mean": "8일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-12facc5876607d288d2af91c322703c496d3a37a",
+      "level": "n5",
+      "word": "九日",
+      "read": "ここのか",
+      "mean": "9일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-9e9260b6bb791c5c1923579a8b702bdabe2b3837",
+      "level": "n5",
+      "word": "十日",
+      "read": "とおか",
+      "mean": "10일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-d090fa23d613d830f870795c549661f2616ec106",
+      "level": "n5",
+      "word": "十四日",
+      "read": "じゅうよっか",
+      "mean": "14일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-de1c7e0651b8afad1e2ae19196a5dcb991cb5deb",
+      "level": "n5",
+      "word": "二十日",
+      "read": "はつか",
+      "mean": "20일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-a3df933aa41adb5a804560cc1cf06adcf6a85a24",
+      "level": "n5",
+      "word": "二十四日",
+      "read": "にじゅうよっか",
+      "mean": "24일",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-6dbc979f2fd089a9af52bc09c032203171035662",
+      "level": "n5",
+      "word": "何日",
+      "read": "なんにち",
+      "mean": "며칠",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-48e26ed1237cf0c2a87eed21fdd501ec3a4d5342",
+      "level": "n5",
+      "word": "一時",
+      "read": "いちじ",
+      "mean": "1시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-6f5f8ce38138df830e7db657c516bdd3e4c2b1f8",
+      "level": "n5",
+      "word": "二時",
+      "read": "にじ",
+      "mean": "2시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-1a22b24120ae7dca449bb700d1cd431a1dcefd13",
+      "level": "n5",
+      "word": "三時",
+      "read": "さんじ",
+      "mean": "3시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-8b615b16bf196a26498b1a006003d17227eee1de",
+      "level": "n5",
+      "word": "四時",
+      "read": "よじ",
+      "mean": "4시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-bc64b059f84b54e74259685046a8013b9953377a",
+      "level": "n5",
+      "word": "五時",
+      "read": "ごじ",
+      "mean": "5시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-210e4a8b9db53f44abc443ce99d2c9eca16f6588",
+      "level": "n5",
+      "word": "六時",
+      "read": "ろくじ",
+      "mean": "6시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-6475492f96e1b666555777d3d2383da51666990e",
+      "level": "n5",
+      "word": "七時",
+      "read": "しちじ",
+      "mean": "7시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-d22b60883290ca1c527cf7e17c5134a977c8b0f7",
+      "level": "n5",
+      "word": "八時",
+      "read": "はちじ",
+      "mean": "8시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-2589b5b74014b6dfdbbd2cef1f9dff3d49855d2a",
+      "level": "n5",
+      "word": "九時",
+      "read": "くじ",
+      "mean": "9시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-cc5083bbb235c9384f150dada576ba3f383d7ba5",
+      "level": "n5",
+      "word": "十時",
+      "read": "じゅうじ",
+      "mean": "10시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-86410b53498e1613d37bc8b300b7f749fbcf79e9",
+      "level": "n5",
+      "word": "十一時",
+      "read": "じゅういちじ",
+      "mean": "11시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-470943c96b7b4533da3b98bdc5f0dd052a10f9bd",
+      "level": "n5",
+      "word": "十二時",
+      "read": "じゅうにじ",
+      "mean": "12시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-10abefe66c4c37b51fff0af19ead8e4a99d67527",
+      "level": "n5",
+      "word": "何時",
+      "read": "なんじ",
+      "mean": "몇 시",
+      "tags": [],
+      "assignedDay": 14,
+      "dayHint": "legacy-day-14"
+    },
+    {
+      "id": "v-0af6179537803c9f6f65aad16f39037f5a891546",
+      "level": "n5",
+      "word": "一分",
+      "read": "いっぷん",
+      "mean": "1분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-e1a40f920f96fe49c7e638f9f60a2229b5872691",
+      "level": "n5",
+      "word": "二分",
+      "read": "にふん",
+      "mean": "2분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-b43a526113a467ae0613f0f47e48e21f6ebfbac3",
+      "level": "n5",
+      "word": "三分",
+      "read": "さんぷん",
+      "mean": "3분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-e838e1ffd2686cebcc42786c7eccb1142d0ee4ee",
+      "level": "n5",
+      "word": "四分",
+      "read": "よんぷん",
+      "mean": "4분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-4e7197b069947ae329fdba357360087dcbbc7719",
+      "level": "n5",
+      "word": "五分",
+      "read": "ごふん",
+      "mean": "5분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-1407fafa77d6c574d85d311e79bf5a0ee5100809",
+      "level": "n5",
+      "word": "六分",
+      "read": "ろっぷん",
+      "mean": "6분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-04cfe09dde5429881d25bd64043101cbc2d70308",
+      "level": "n5",
+      "word": "七分",
+      "read": "ななふん",
+      "mean": "7분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-4b6726c3413fcc184dd733ccb18d8ac04eb34ec0",
+      "level": "n5",
+      "word": "八分",
+      "read": "はっぷん",
+      "mean": "8분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-ac4e68be5b7271e7c85422e92ca3f64ccdd44c09",
+      "level": "n5",
+      "word": "九分",
+      "read": "きゅうふん",
+      "mean": "9분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-83f934a1c9ab1821b0e1d6fc3095ac6e32abdb77",
+      "level": "n5",
+      "word": "十分",
+      "read": "じゅっぷん",
+      "mean": "10분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-9f1a5362eba71f82c0d1d26f9c01e201f23cc0ed",
+      "level": "n5",
+      "word": "何分",
+      "read": "なんぷん",
+      "mean": "몇 분",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-5257de3243d5157c81a57268e11724d944bc58c7",
+      "level": "n5",
+      "word": "月曜日",
+      "read": "げつようび",
+      "mean": "월요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-f2acf5a5be4adceec14881535b4d3afc936de268",
+      "level": "n5",
+      "word": "火曜日",
+      "read": "かようび",
+      "mean": "화요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-36c918838db234de34875f72297bedfcad67b67f",
+      "level": "n5",
+      "word": "水曜日",
+      "read": "すいようび",
+      "mean": "수요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-a47c024e970228dd1a13fd9477e69314135e2fd3",
+      "level": "n5",
+      "word": "木曜日",
+      "read": "もくようび",
+      "mean": "목요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-8da011783cc9ccbe583531e2691ba41eecb842ac",
+      "level": "n5",
+      "word": "金曜日",
+      "read": "きんようび",
+      "mean": "금요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-08ec80daf6e62c69f482ade8c980af8e79c7b1f1",
+      "level": "n5",
+      "word": "土曜日",
+      "read": "どようび",
+      "mean": "토요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-db9e0012a43734af20a66902480638971dd11ae9",
+      "level": "n5",
+      "word": "日曜日",
+      "read": "にちようび",
+      "mean": "일요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-e215e4a268fb91198d215222c03fa391fb76dfa0",
+      "level": "n5",
+      "word": "何曜日",
+      "read": "なんようび",
+      "mean": "무슨 요일",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-d3ee35c482c85c3b92b8252d4c0512ed856a3c12",
+      "level": "n5",
+      "word": "一杯",
+      "read": "いっぱい",
+      "mean": "한 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-e9dc31b591da605e5dd5a3476a3f6a4becda08a7",
+      "level": "n5",
+      "word": "二杯",
+      "read": "にはい",
+      "mean": "두 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-efc98d7aa6d599335c94ca491797bf8fa345775a",
+      "level": "n5",
+      "word": "三杯",
+      "read": "さんばい",
+      "mean": "세 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-553a94c58dfced099d63d6373ec17c9c6e7fc627",
+      "level": "n5",
+      "word": "四杯",
+      "read": "よんはい",
+      "mean": "네 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-a097e24a0d7780ec3f49f37498e6212f6abdafd8",
+      "level": "n5",
+      "word": "五杯",
+      "read": "ごはい",
+      "mean": "다섯 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-ecbb832fe86cbf6c43dec569af2a723f3b15e244",
+      "level": "n5",
+      "word": "六杯",
+      "read": "ろっぱい",
+      "mean": "여섯 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-e31c4fdd76f54fd1a184ed6454400037fc890c11",
+      "level": "n5",
+      "word": "七杯",
+      "read": "ななはい",
+      "mean": "일곱 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-2961aa004d49aa8e06338c5674c578a8e89616d5",
+      "level": "n5",
+      "word": "八杯",
+      "read": "はっぱい",
+      "mean": "여덟 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-a287bb34a54477a51c6335380a612bee41c5c5fc",
+      "level": "n5",
+      "word": "九杯",
+      "read": "きゅうはい",
+      "mean": "아홉 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-a295dbbe42bd37e5b95e9fa2658df42827b16027",
+      "level": "n5",
+      "word": "十杯",
+      "read": "じゅっぱい",
+      "mean": "열 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-245a51ad6d89bd25b9778d13a84ebb0b470350fe",
+      "level": "n5",
+      "word": "何杯",
+      "read": "なんばい",
+      "mean": "몇 잔",
+      "tags": [],
+      "assignedDay": 15,
+      "dayHint": "legacy-day-15"
+    },
+    {
+      "id": "v-ffbddbab914558f4288b60265df02cb1b5fc76ea",
+      "level": "n5",
+      "word": "一倍",
+      "read": "いちばい",
+      "mean": "한 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-93548da74c95211e38841710e2642eac6e2cfb13",
+      "level": "n5",
+      "word": "二倍",
+      "read": "にばい",
+      "mean": "두 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-0eb0ed819e663cf47c80a7ae00cc1ea8417b7f9d",
+      "level": "n5",
+      "word": "三倍",
+      "read": "さんばい",
+      "mean": "세 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-9a2b5a105da4e60e5c4245c1c7eb65a2aef4adc9",
+      "level": "n5",
+      "word": "四倍",
+      "read": "よんばい",
+      "mean": "네 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-6d62a57cec1ecd0b447329b006d7139310633ca0",
+      "level": "n5",
+      "word": "五倍",
+      "read": "ごばい",
+      "mean": "다섯 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-f7a8573764dc0e0c16db1b48bd8e10936ff4109e",
+      "level": "n5",
+      "word": "六倍",
+      "read": "ろくばい",
+      "mean": "여섯 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-3c7fdd1539a79cf715f06362d6bce24ba5fbb495",
+      "level": "n5",
+      "word": "七倍",
+      "read": "ななばい",
+      "mean": "일곱 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-3299fb0c39c5ae5eb3f956a8991bea7313a2d651",
+      "level": "n5",
+      "word": "八倍",
+      "read": "はちばい",
+      "mean": "여덟 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-d79cba5ce6643a85acc25c0ebdb91f6803e36212",
+      "level": "n5",
+      "word": "九倍",
+      "read": "きゅうばい",
+      "mean": "아홉 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-748a793a04440328a72a57e50f40321e126ac4c4",
+      "level": "n5",
+      "word": "十倍",
+      "read": "じゅうばい",
+      "mean": "열 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-da32d6729a416102f0f92912da3122a5a64dca39",
+      "level": "n5",
+      "word": "何倍",
+      "read": "なんばい",
+      "mean": "몇 배",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-cc13080e7539d604bd9c2428f442a4ae37e8c1ea",
+      "level": "n5",
+      "word": "一本",
+      "read": "いっぽん",
+      "mean": "한 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-902efe078ed121a826c255b0ffa36e54b8855c9b",
+      "level": "n5",
+      "word": "二本",
+      "read": "にほん",
+      "mean": "두 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-d2cd12b961a3564a8e6fbe95c9c43dad79d788e1",
+      "level": "n5",
+      "word": "三本",
+      "read": "さんぼん",
+      "mean": "세 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-ab0697d64b50f1b6548ac6a9a559e6cd9cba23ba",
+      "level": "n5",
+      "word": "四本",
+      "read": "よんほん",
+      "mean": "네 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-5e1362358dfa8a041d885c5beff8ae5ebbd1375c",
+      "level": "n5",
+      "word": "五本",
+      "read": "ごほん",
+      "mean": "다섯 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-fad224f7badc19c1cdba79380f3c6685fb8e940f",
+      "level": "n5",
+      "word": "六本",
+      "read": "ろっぽん",
+      "mean": "여섯 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-2fd495016a99ade6ce5c3f045b9aceb71ac66c74",
+      "level": "n5",
+      "word": "七本",
+      "read": "ななほん",
+      "mean": "일곱 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-8de4b8286e86ae3d24cc7430724faec357f15291",
+      "level": "n5",
+      "word": "八本",
+      "read": "はっぽん",
+      "mean": "여덟 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-947cde838958c205c06bd8b50e40ef4d56614e57",
+      "level": "n5",
+      "word": "九本",
+      "read": "きゅうほん",
+      "mean": "아홉 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-159948b95e575272823da3f12c9db402b8f49d52",
+      "level": "n5",
+      "word": "十本",
+      "read": "じゅっぽん",
+      "mean": "열 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-950297fe3773fed3381be74bda36bd6148ea3695",
+      "level": "n5",
+      "word": "何本",
+      "read": "なんぼん",
+      "mean": "몇 자루/병",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-a8158d76d58a377b158da0d3f0d90045885cec28",
+      "level": "n5",
+      "word": "一枚",
+      "read": "いちまい",
+      "mean": "한 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-461a4d952ff4f530178ab3db2f4ea0d413fc5da7",
+      "level": "n5",
+      "word": "二枚",
+      "read": "にまい",
+      "mean": "두 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-509a822b35fe66d16ac936b3ccc6a0470e66297f",
+      "level": "n5",
+      "word": "三枚",
+      "read": "さんまい",
+      "mean": "세 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-8e077cc5e3e92527d1cb9bd80e521aa287d61162",
+      "level": "n5",
+      "word": "四枚",
+      "read": "よんまい",
+      "mean": "네 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-67c252cad0f70eeab7ada4bb2b1368806a426e88",
+      "level": "n5",
+      "word": "五枚",
+      "read": "ごまい",
+      "mean": "다섯 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-47bacd71cc32ac591f830e68028476aee28cc0ef",
+      "level": "n5",
+      "word": "六枚",
+      "read": "ろくまい",
+      "mean": "여섯 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-34255c6987d1a1d8b681e0d47e643b73af996a08",
+      "level": "n5",
+      "word": "七枚",
+      "read": "ななまい",
+      "mean": "일곱 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-30ff07940633a7753884118badda9d8959028004",
+      "level": "n5",
+      "word": "八枚",
+      "read": "はちまい",
+      "mean": "여덟 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-30d4112b9b73cf4a7ced104b35c3084070e5e8f5",
+      "level": "n5",
+      "word": "九枚",
+      "read": "きゅうまい",
+      "mean": "아홉 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-f50252c4b424dbcfb2cbe0f0d9885c409889e1ea",
+      "level": "n5",
+      "word": "十枚",
+      "read": "じゅうまい",
+      "mean": "열 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-6bad38af6dd87b08f8fb3f3a567fe6d9e5a3cc6d",
+      "level": "n5",
+      "word": "何枚",
+      "read": "なんまい",
+      "mean": "몇 장",
+      "tags": [],
+      "assignedDay": 16,
+      "dayHint": "legacy-day-16"
+    },
+    {
+      "id": "v-d869b041ecacd2c2f9a6deed68ec398bff64f9c8",
+      "level": "n5",
+      "word": "一人",
+      "read": "ひとり",
+      "mean": "한 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-efeb4a39d36e25f10378be1c19fb6e9fa8a37d02",
+      "level": "n5",
+      "word": "二人",
+      "read": "ふたり",
+      "mean": "두 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-68bbcafc1692aebf8d0f9d3ba6368025e6692440",
+      "level": "n5",
+      "word": "三人",
+      "read": "さんにん",
+      "mean": "세 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-cd08bd29a5c890b09437ccaed6fd571a930c1382",
+      "level": "n5",
+      "word": "四人",
+      "read": "よにん",
+      "mean": "네 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-61ec00f7b08704466f8ee3c3894aeddf9d89e07f",
+      "level": "n5",
+      "word": "五人",
+      "read": "ごにん",
+      "mean": "다섯 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-b5a076e28ce05cb87b50efb1c387f7f0f289e165",
+      "level": "n5",
+      "word": "六人",
+      "read": "ろくにん",
+      "mean": "여섯 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-e83b6d0a0cca52752523fd5498d093e1a65dbf8c",
+      "level": "n5",
+      "word": "七人",
+      "read": "ななにん",
+      "mean": "일곱 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-1e330d42c71254dfe389deb3a1415a650ed89ec8",
+      "level": "n5",
+      "word": "八人",
+      "read": "はちにん",
+      "mean": "여덟 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-0c4eed19035813a5a98755c87f2acc7bfd983c32",
+      "level": "n5",
+      "word": "九人",
+      "read": "きゅうにん",
+      "mean": "아홉 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-664be97c2a61ec5cb286c39abfe28688d499881b",
+      "level": "n5",
+      "word": "十人",
+      "read": "じゅうにん",
+      "mean": "열 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-d56a116d49c5ec2c31c23e26b5fa96b32e5cb57f",
+      "level": "n5",
+      "word": "何人",
+      "read": "なんにん",
+      "mean": "몇 명",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-8099d3f32603239e6777900c25070e399e35629d",
+      "level": "n5",
+      "word": "一匹",
+      "read": "いっぴき",
+      "mean": "한 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-91e285c25b2c79c71f208d22f1833d6c94dc76fc",
+      "level": "n5",
+      "word": "二匹",
+      "read": "にひき",
+      "mean": "두 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-02f8c2f3a60ec86c4485ef071fed10b7ae5c2faa",
+      "level": "n5",
+      "word": "三匹",
+      "read": "さんびき",
+      "mean": "세 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-4e3c945d5dc0aa5b7847024eb3f390e4fccff1a1",
+      "level": "n5",
+      "word": "四匹",
+      "read": "よんひき",
+      "mean": "네 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-93929de19ec63e195059b6a6330cbaec585ae6aa",
+      "level": "n5",
+      "word": "五匹",
+      "read": "ごひき",
+      "mean": "다섯 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-11b189a4a840ec10952a43172aab66b24e575077",
+      "level": "n5",
+      "word": "六匹",
+      "read": "ろっぴき",
+      "mean": "여섯 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-c291b36786584a24bb3ddd3889f75166fcd3602f",
+      "level": "n5",
+      "word": "七匹",
+      "read": "ななひき",
+      "mean": "일곱 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-0719952e069710fd587c7a7f49c8fd1f134a9424",
+      "level": "n5",
+      "word": "八匹",
+      "read": "はっぴき",
+      "mean": "여덟 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-ea82d98546ed99d7a0b259d9b402dc5bccef5683",
+      "level": "n5",
+      "word": "九匹",
+      "read": "きゅうひき",
+      "mean": "아홉 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-839ef184228181d844f32fcd37dcffc6998bbf35",
+      "level": "n5",
+      "word": "十匹",
+      "read": "じゅっぴき",
+      "mean": "열 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-570b4dcf221bf9d17b0cf82371fb76b032e5bcbd",
+      "level": "n5",
+      "word": "何匹",
+      "read": "なんびき",
+      "mean": "몇 마리",
+      "tags": [],
+      "assignedDay": 17,
+      "dayHint": "legacy-day-17"
+    },
+    {
+      "id": "v-12109862b54ebecc9a52ebad947fa508dd9422c9",
+      "level": "n5",
+      "word": "会う",
+      "read": "あう",
+      "mean": "만나다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-eaa16eb0cb6b4e22f68a4ddb0dee04e70308c3dc",
+      "level": "n5",
+      "word": "上がる",
+      "read": "あがる",
+      "mean": "오르다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-8a555eaba3b618a30ba1656cee91873aa8b1ef90",
+      "level": "n5",
+      "word": "開く",
+      "read": "あく",
+      "mean": "열리다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-9c2756794a8deaa656a7c40423242817a7c6a0e6",
+      "level": "n5",
+      "word": "開ける",
+      "read": "あける",
+      "mean": "열다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-3c35487361a4b09ceaa9ce03bdec799554fc79c7",
+      "level": "n5",
+      "word": "あげる",
+      "read": "あげる",
+      "mean": "주다/올리다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-65c72ffff98c8122feaaba334d6b359c98730ed6",
+      "level": "n5",
+      "word": "上げる",
+      "read": "あげる",
+      "mean": "올리다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-d58aeb81f7e984d542081043a1693e1f21222cd8",
+      "level": "n5",
+      "word": "遊ぶ",
+      "read": "あそぶ",
+      "mean": "놀다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-84707999fff22c3b7c57774ad409f9c32b634859",
+      "level": "n5",
+      "word": "あびる",
+      "read": "あびる",
+      "mean": "뒤집어쓰다/샤워하다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-0f782041b5008409a207e811b687c2549520fb3f",
+      "level": "n5",
+      "word": "洗う",
+      "read": "あらう",
+      "mean": "씻다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-6bcafb60c541e7865a0ab5bebed3346fca5bdefa",
+      "level": "n5",
+      "word": "ある",
+      "read": "ある",
+      "mean": "있다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-583aa3d62171090a40adf2da167d41c136c1154d",
+      "level": "n5",
+      "word": "歩く",
+      "read": "あるく",
+      "mean": "걷다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-9e1f947ce1d56a426478b8779bf28698b101c70e",
+      "level": "n5",
+      "word": "言う",
+      "read": "いう",
+      "mean": "말하다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-9f0481b923b6c6d9f950c729f0b9564db90001ed",
+      "level": "n5",
+      "word": "行く",
+      "read": "いく",
+      "mean": "가다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-fea7dd0bf8dc2ff9d94d45c580a05a1a67ed7c0e",
+      "level": "n5",
+      "word": "いる",
+      "read": "いる",
+      "mean": "있다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-a51b974063f2340ec5a69e2b633a08185b4e0215",
+      "level": "n5",
+      "word": "要る",
+      "read": "いる",
+      "mean": "필요하다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-a4f28ae46511519e169fc91cc8dc8368c9f0b199",
+      "level": "n5",
+      "word": "入れる",
+      "read": "いれる",
+      "mean": "넣다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-7cb5360cb45665d8fc7c38523daba3596988076c",
+      "level": "n5",
+      "word": "歌う",
+      "read": "うたう",
+      "mean": "노래하다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-65dbb27301f5b2c7003184f5b7a1c09ca3db2ffc",
+      "level": "n5",
+      "word": "生まれる",
+      "read": "うまれる",
+      "mean": "태어나다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-e71eb21367684f1de37c6582b6c506a497d81f2b",
+      "level": "n5",
+      "word": "売る",
+      "read": "うる",
+      "mean": "팔다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-222ab67097c966aa7081908c9d3014b195f1bb8b",
+      "level": "n5",
+      "word": "起きる",
+      "read": "おきる",
+      "mean": "일어나다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-af5ed5217dd5021e78edeb1e8ff32b8df1ab3816",
+      "level": "n5",
+      "word": "置く",
+      "read": "おく",
+      "mean": "두다/놓다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-29699a0b8f0b2281575dd33e6892fd6a816e627d",
+      "level": "n5",
+      "word": "教える",
+      "read": "おしえる",
+      "mean": "가르치다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-d6f5ee0fb6e336b09e59e018cdfcb470e1e73c90",
+      "level": "n5",
+      "word": "押す",
+      "read": "おす",
+      "mean": "밀다/누르다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-5fb25d089d6f1f3fcd6d047c68eac70d7f80f9cc",
+      "level": "n5",
+      "word": "泳ぐ",
+      "read": "およぐ",
+      "mean": "헤엄치다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-27f0a14925bcfdda8d1208432b04e073eb8902b4",
+      "level": "n5",
+      "word": "終わる",
+      "read": "おわる",
+      "mean": "끝나다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-32e37536e8da1884e90c1a7835c9f758edafe6ba",
+      "level": "n5",
+      "word": "買う",
+      "read": "かう",
+      "mean": "사다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-d817ebed831c5a1a942a6ac6518146dc0ca1099b",
+      "level": "n5",
+      "word": "帰る",
+      "read": "かえる",
+      "mean": "돌아가다",
+      "tags": [],
+      "assignedDay": 18,
+      "dayHint": "legacy-day-18"
+    },
+    {
+      "id": "v-79ea4dd55d12655b24983f04cce51ba2135e1948",
+      "level": "n5",
+      "word": "かかる",
+      "read": "かかる",
+      "mean": "걸리다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-f37e883fae57bb5a35ee7bb409d047a8aaf16bfa",
+      "level": "n5",
+      "word": "書く",
+      "read": "かく",
+      "mean": "쓰다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-e69befa090a188e8e87fadb1f18f6112c7ec7b49",
+      "level": "n5",
+      "word": "かぶる",
+      "read": "かぶる",
+      "mean": "쓰다(모자 등)",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-4c313081da8aa807abab46d98939613fe58c690a",
+      "level": "n5",
+      "word": "消える",
+      "read": "きえる",
+      "mean": "꺼지다/사라지다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-0cc0508b09a0b3a2ea026de0ae0b7eaf68c3cd43",
+      "level": "n5",
+      "word": "聞く",
+      "read": "きく",
+      "mean": "듣다/묻다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-7efd9090d727200d24560cb7e4996c6e7336acc2",
+      "level": "n5",
+      "word": "切る",
+      "read": "きる",
+      "mean": "자르다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-d129ea76c1bd43cfc9eff21dd9ebccb974766c55",
+      "level": "n5",
+      "word": "着る",
+      "read": "きる",
+      "mean": "입다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-ae84635d4b5a4e969b48f9762b4f40e60ef079fa",
+      "level": "n5",
+      "word": "来る",
+      "read": "くる",
+      "mean": "오다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-74414c03c39e51fa398a40d9b4c5f46dd7abb289",
+      "level": "n5",
+      "word": "答える",
+      "read": "こたえる",
+      "mean": "대답하다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-9e61f2d2f676a461db31dfdda0468dfa8830b1a5",
+      "level": "n5",
+      "word": "咲く",
+      "read": "さく",
+      "mean": "피다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-64e7886e99a4873d827b6eb171484d2a887f020d",
+      "level": "n5",
+      "word": "死ぬ",
+      "read": "しぬ",
+      "mean": "죽다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-fe09d40477ebdba2d251b8961a0e5e59403e10aa",
+      "level": "n5",
+      "word": "閉まる",
+      "read": "しまる",
+      "mean": "닫히다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-275e659f8f8b65cbfab4a5aef656c08ba0aaa10d",
+      "level": "n5",
+      "word": "閉める",
+      "read": "しめる",
+      "mean": "닫다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-95a257a9e6ec1ca79bdfb1eba698744744019c4a",
+      "level": "n5",
+      "word": "座る",
+      "read": "すわる",
+      "mean": "앉다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-0b2860ebaf822c835204c49128189682fc56d069",
+      "level": "n5",
+      "word": "出す",
+      "read": "だす",
+      "mean": "내다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-31c4d7423ebc052d62ff434585a112d8f4d8d17e",
+      "level": "n5",
+      "word": "立つ",
+      "read": "たつ",
+      "mean": "서다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-2402c64a1a45f648eb7b8e5470ae1fc1a9e8ac1b",
+      "level": "n5",
+      "word": "食べる",
+      "read": "たべる",
+      "mean": "먹다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-26f95f2c1b549fecd017c8b1a5e874a4a55f2a67",
+      "level": "n5",
+      "word": "住む",
+      "read": "すむ",
+      "mean": "살다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-2cbce83e11338020786ec13aa4cf28886088a6c3",
+      "level": "n5",
+      "word": "する",
+      "read": "する",
+      "mean": "하다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-25e0039d92cba382d3cf28f8d2e8ffe931963829",
+      "level": "n5",
+      "word": "使う",
+      "read": "つかう",
+      "mean": "쓰다/사용하다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-cfd1bfc7be6b77e625f2f184ad2356b323ee8efd",
+      "level": "n5",
+      "word": "作る",
+      "read": "つくる",
+      "mean": "만들다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-93c9f1265bf0f56e7bab0b1ea42f0dd368fd7a84",
+      "level": "n5",
+      "word": "つける",
+      "read": "つける",
+      "mean": "켜다/붙이다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-4afa78e2fe3a19ce5e460be314e432513d76c24e",
+      "level": "n5",
+      "word": "出かける",
+      "read": "でかける",
+      "mean": "외출하다/나가다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-20558b4c5572ad57f1b73c546a87ae7e1760b100",
+      "level": "n5",
+      "word": "出る",
+      "read": "でる",
+      "mean": "나가다/나오다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-76d61cdce4ea5e622a2f1e6ace095225d525bfef",
+      "level": "n5",
+      "word": "飛ぶ",
+      "read": "とぶ",
+      "mean": "날다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-43101bb4162568913ce95d837c41850956151ef5",
+      "level": "n5",
+      "word": "撮る",
+      "read": "とる",
+      "mean": "찍다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-26d5dd636fd9e218accbf23e6bbe761d24a37af4",
+      "level": "n5",
+      "word": "習う",
+      "read": "ならう",
+      "mean": "배우다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-70c6450d95a3bd82963113cfbcc27db17e892f3d",
+      "level": "n5",
+      "word": "並べる",
+      "read": "ならべる",
+      "mean": "늘어놓다",
+      "tags": [],
+      "assignedDay": 19,
+      "dayHint": "legacy-day-19"
+    },
+    {
+      "id": "v-827d9ecfd5e4e80f73a066e6b90dbdde79d63b74",
+      "level": "n5",
+      "word": "寝る",
+      "read": "ねる",
+      "mean": "자다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-9ba0bf15ac6c2b05bf307439d2488795fa9dde4b",
+      "level": "n5",
+      "word": "登る",
+      "read": "のぼる",
+      "mean": "오르다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-35bcaac801d79a63c5926e25deaba3d8a2515d0b",
+      "level": "n5",
+      "word": "飲む",
+      "read": "のむ",
+      "mean": "마시다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-1b5ffda16712329c14eb0bac29fc58574ceab052",
+      "level": "n5",
+      "word": "乗る",
+      "read": "のる",
+      "mean": "타다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-3f50df86fe579b7cb19c6ac88b0e41de5d7e45d7",
+      "level": "n5",
+      "word": "入る",
+      "read": "はいる",
+      "mean": "들어가다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-8738e1243606578e555aba9188cf778aa1a5bc99",
+      "level": "n5",
+      "word": "始まる",
+      "read": "はじまる",
+      "mean": "시작되다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-66ff8434f407a00ef084e6744037dfcad68defa8",
+      "level": "n5",
+      "word": "話す",
+      "read": "はなす",
+      "mean": "이야기하다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-53ac4624fad5c750fca6850d80a70f4340a1ba30",
+      "level": "n5",
+      "word": "はる",
+      "read": "はる",
+      "mean": "붙이다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-b5c0c32dff25686649dc59074423a0d794cc37ab",
+      "level": "n5",
+      "word": "弾く",
+      "read": "ひく",
+      "mean": "치다/켜다(악기)",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-67995db1ed46db8d4cfee1595cebf193a1ad4bb9",
+      "level": "n5",
+      "word": "降る",
+      "read": "ふる",
+      "mean": "내리다(비/눈)",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-b6381a6ee8fa61543a11ee8bf9af0f9e1b0b883a",
+      "level": "n5",
+      "word": "曲がる",
+      "read": "まがる",
+      "mean": "돌다/구부러지다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-44b61535f3494b6239274a864a6b3551c3fa91c2",
+      "level": "n5",
+      "word": "待つ",
+      "read": "まつ",
+      "mean": "기다리다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-4ac708f449bfbe4228ae5b550e9903d4fc8b9a30",
+      "level": "n5",
+      "word": "磨く",
+      "read": "みがく",
+      "mean": "닦다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-ac35b900c898ed9a09a5b35a250efdb235ac27a1",
+      "level": "n5",
+      "word": "見せる",
+      "read": "みせる",
+      "mean": "보여주다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-67c71dfead413a4d649e903db83ccf1cd752c855",
+      "level": "n5",
+      "word": "見る",
+      "read": "みる",
+      "mean": "보다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-9e674b8d8aa2fab4a471e2efd3f31fd6f0f45e25",
+      "level": "n5",
+      "word": "持つ",
+      "read": "もつ",
+      "mean": "가지다/들다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-adaa5c48e0c482e3f6fdcaa4b689b0cd8574e986",
+      "level": "n5",
+      "word": "もらう",
+      "read": "もらう",
+      "mean": "받다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-88d91c45410dc74c9423ad739e015bbdff70fad6",
+      "level": "n5",
+      "word": "休む",
+      "read": "やすむ",
+      "mean": "쉬다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-c20cec7981334e66d7b74a208693cceb30b66d50",
+      "level": "n5",
+      "word": "呼ぶ",
+      "read": "よぶ",
+      "mean": "부르다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-99e803cc19311a11bf973af3f1d533893fa30ebe",
+      "level": "n5",
+      "word": "読む",
+      "read": "よむ",
+      "mean": "읽다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-283a5599223f467b64396168a756306f8b8ea7b7",
+      "level": "n5",
+      "word": "分かる",
+      "read": "わかる",
+      "mean": "알다",
+      "tags": [],
+      "assignedDay": 20,
+      "dayHint": "legacy-day-20"
+    },
+    {
+      "id": "v-27efefa70cefd474e1d534b651aaca295c38bea1",
+      "level": "n5",
+      "word": "青い",
+      "read": "あおい",
+      "mean": "파랗다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-8d93eb0fa42860a32ffec545ea1f837c41ada4a7",
+      "level": "n5",
+      "word": "赤い",
+      "read": "あかい",
+      "mean": "빨갛다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-824d74098d3f072e2da5f2e2d72a87bed9d88a9f",
+      "level": "n5",
+      "word": "明るい",
+      "read": "あかるい",
+      "mean": "밝다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-6d2a089c030bc1a9a2ac59c2695638407ff27c27",
+      "level": "n5",
+      "word": "暖かい",
+      "read": "あたたかい",
+      "mean": "따뜻하다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-ad6c386109383c47913c3e240d20cf8ac28244ba",
+      "level": "n5",
+      "word": "新しい",
+      "read": "あたらしい",
+      "mean": "새롭다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-f21d4b6bc1913e7e74246117dbea1af7e068b17b",
+      "level": "n5",
+      "word": "暑い",
+      "read": "あつい",
+      "mean": "덥다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-c6ca143532a82d45f222deb7a284611a56dcbf38",
+      "level": "n5",
+      "word": "危ない",
+      "read": "あぶない",
+      "mean": "위험하다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-f3a82a95a4c8691c1a1304ca5e53e1c11d058467",
+      "level": "n5",
+      "word": "甘い",
+      "read": "あまい",
+      "mean": "달다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-583dc1c3caab48f51214c2ad32ce674935b5a5c3",
+      "level": "n5",
+      "word": "いい/よい",
+      "read": "いい/よい",
+      "mean": "좋다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-f8e99f74b8cac9e569a3f0d140ec8cb05534e128",
+      "level": "n5",
+      "word": "忙しい",
+      "read": "いそがしい",
+      "mean": "바쁘다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-46549baecbb00ae1e19c6186d7a794a6d4f4608e",
+      "level": "n5",
+      "word": "痛い",
+      "read": "いたい",
+      "mean": "아프다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-781e59958337f4648633fe46d3f7ca05a0ab8aad",
+      "level": "n5",
+      "word": "うるさい",
+      "read": "うるさい",
+      "mean": "시끄럽다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-1a7be3de8356d3c6328800a9da609380ae071cf9",
+      "level": "n5",
+      "word": "おいしい",
+      "read": "おいしい",
+      "mean": "맛있다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-07e696719bcfe4544f7372bfb393514caf014913",
+      "level": "n5",
+      "word": "多い",
+      "read": "おおい",
+      "mean": "많다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-30f8525084add9d576c2d00763e1512b605540df",
+      "level": "n5",
+      "word": "大きい",
+      "read": "おおきい",
+      "mean": "크다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-a247c55d29dda4e058148f9b125a8912d4a479e6",
+      "level": "n5",
+      "word": "重い",
+      "read": "おもい",
+      "mean": "무겁다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-7c9c387846e568240a4a8c4f71490e996a791c5b",
+      "level": "n5",
+      "word": "おもしろい",
+      "read": "おもしろい",
+      "mean": "재미있다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-59720a5c76ff2c0ebf6225584923441ccd2aeb8e",
+      "level": "n5",
+      "word": "軽い",
+      "read": "かるい",
+      "mean": "가볍다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-a6000ed8217c74b327086f8ff1c297744743f4d2",
+      "level": "n5",
+      "word": "かわいい",
+      "read": "かわいい",
+      "mean": "귀엽다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-5d67226b39254e6528c1430d3f4b950670ee78e8",
+      "level": "n5",
+      "word": "黄色い",
+      "read": "きいろい",
+      "mean": "노랗다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-e46afb1f7d7e7c124908fc9d73c95bdf43ef66d9",
+      "level": "n5",
+      "word": "暗い",
+      "read": "くらい",
+      "mean": "어둡다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-fc5202ba5fd8d242caf4c673abed2b2bfb55cfb3",
+      "level": "n5",
+      "word": "黒い",
+      "read": "くろい",
+      "mean": "검다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-17ef60b0a111c026e0b292274d5dfafe0c7be8c6",
+      "level": "n5",
+      "word": "寒い",
+      "read": "さむい",
+      "mean": "춥다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-69ce1c0b871188346a834a096f88b8359795e85f",
+      "level": "n5",
+      "word": "白い",
+      "read": "しろい",
+      "mean": "희다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-8ac7e911017c134661824495588bf1b59bac2d04",
+      "level": "n5",
+      "word": "少ない",
+      "read": "すくない",
+      "mean": "적다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-ed894f2aa6184fa815f0e2260e4c203b948ae9a5",
+      "level": "n5",
+      "word": "狭い",
+      "read": "せまい",
+      "mean": "좁다",
+      "tags": [],
+      "assignedDay": 21,
+      "dayHint": "legacy-day-21"
+    },
+    {
+      "id": "v-0c30fc1b5bb8245e81cc33f934d5b637b2be8d81",
+      "level": "n5",
+      "word": "高い",
+      "read": "たかい",
+      "mean": "비싸다/높다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-8602cfa741b8ce9dc2de671d5f4cb6581ca368ca",
+      "level": "n5",
+      "word": "楽しい",
+      "read": "たのしい",
+      "mean": "즐겁다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-e3c28496a3bdaa8035bacf4a7279be6cbc17bd8a",
+      "level": "n5",
+      "word": "小さい",
+      "read": "ちいさい",
+      "mean": "작다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-2e5cfe4778d2f6b515240ce5e52dd229b79cc4c4",
+      "level": "n5",
+      "word": "近い",
+      "read": "ちかい",
+      "mean": "가깝다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-eb2dc76f7178a96cbed74b57366dbd88c104f97a",
+      "level": "n5",
+      "word": "強い",
+      "read": "つよい",
+      "mean": "강하다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-c53e73da367dfe6d05be22f592ff423deb18f595",
+      "level": "n5",
+      "word": "ない",
+      "read": "ない",
+      "mean": "없다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-79595cddf6f5d91520ac3514be44e97119ee1c7e",
+      "level": "n5",
+      "word": "長い",
+      "read": "ながい",
+      "mean": "길다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-065e68f5b196c6bcc184ece9bc13555af69120f1",
+      "level": "n5",
+      "word": "速い/早い",
+      "read": "はやい",
+      "mean": "빠르다/이르다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-3571dff88504fc23da8d64c01282b09baf3b8b5f",
+      "level": "n5",
+      "word": "遠い",
+      "read": "とおい",
+      "mean": "멀다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-85b29ac68c6d1483407675f50f902a40f327553a",
+      "level": "n5",
+      "word": "低い",
+      "read": "ひくい",
+      "mean": "낮다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-0a55039bf1a8b7885a6bd66017cc9a132f293ebb",
+      "level": "n5",
+      "word": "広い",
+      "read": "ひろい",
+      "mean": "넓다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-41b0a7fd6b44e4e111d60e02114ea4d4c8e2c975",
+      "level": "n5",
+      "word": "古い",
+      "read": "ふるい",
+      "mean": "낡다/오래되다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-56588fd7e153b6172806ba4b9e9679673a90a2b7",
+      "level": "n5",
+      "word": "まずい",
+      "read": "まずい",
+      "mean": "맛없다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-84d7499a9b12c9d7d15d9c11e181125bc662f402",
+      "level": "n5",
+      "word": "短い",
+      "read": "みじかい",
+      "mean": "짧다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-35a684e0ed7d8b943c8097e6b41a88c9cfdff8fc",
+      "level": "n5",
+      "word": "難しい",
+      "read": "むずかしい",
+      "mean": "어렵다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-2d7d69e0ddf6ac75f1466a21d3331d3a0fa83405",
+      "level": "n5",
+      "word": "安い",
+      "read": "やすい",
+      "mean": "싸다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-77c226087e9e2cf87dcfe74ef2804cd0126bf9c3",
+      "level": "n5",
+      "word": "弱い",
+      "read": "よわい",
+      "mean": "약하다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-82c7e6867fcaba99739b71026b9f5bbff7999164",
+      "level": "n5",
+      "word": "悪い",
+      "read": "わるい",
+      "mean": "나쁘다",
+      "tags": [],
+      "assignedDay": 22,
+      "dayHint": "legacy-day-22"
+    },
+    {
+      "id": "v-4a27b62a77720bc1032430d48b1aaa03e736d006",
+      "level": "n5",
+      "word": "あんな",
+      "read": "あんな",
+      "mean": "저런",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-ac9ff631243fc6f88c47c0cf098f0cf9223b5c61",
+      "level": "n5",
+      "word": "いやな",
+      "read": "いやな",
+      "mean": "싫은",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-3250a695579e0047ee291a8b3ac3e90656518bf7",
+      "level": "n5",
+      "word": "いろいろな",
+      "read": "いろいろな",
+      "mean": "여러 가지",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-b6a2bf45ff6a356197a2e0350996c4d48acabbe6",
+      "level": "n5",
+      "word": "大きな",
+      "read": "おおきな",
+      "mean": "큰",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-76dc96da94b47dd8fbcd22b51445e4d300d3a51e",
+      "level": "n5",
+      "word": "同じな",
+      "read": "おなじな",
+      "mean": "같은",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-759c6e171e641e160e93720b9c71fbeb80bec4a4",
+      "level": "n5",
+      "word": "簡単な",
+      "read": "かんたんな",
+      "mean": "간단한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-179b95de988070ef97c8544c26430169773f7546",
+      "level": "n5",
+      "word": "きらいな",
+      "read": "きらいな",
+      "mean": "싫어하는",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-cfb187a49f1cef2bd9a096dc3a2355c4a91cd4b0",
+      "level": "n5",
+      "word": "きれいな",
+      "read": "きれいな",
+      "mean": "예쁜/깨끗한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-51f723802aed07ffa79ac43276ec5ff8a0d32a41",
+      "level": "n5",
+      "word": "元気な",
+      "read": "げんきな",
+      "mean": "건강한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-3aef8629064bc12430c6eee2345306b78bc3f6ca",
+      "level": "n5",
+      "word": "こんな",
+      "read": "こんな",
+      "mean": "이런",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-07e3c2011727804701e61b32178053ab953dfe2d",
+      "level": "n5",
+      "word": "静かな",
+      "read": "しずかな",
+      "mean": "조용한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-faa89c6c309f409d430efef585e28b25d4b685c5",
+      "level": "n5",
+      "word": "上手な",
+      "read": "じょうずな",
+      "mean": "잘하는",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-6cf6154680d6a8017095c2c18a1ca14c9cd88e4e",
+      "level": "n5",
+      "word": "丈夫な",
+      "read": "じょうぶな",
+      "mean": "튼튼한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-f5d3f49c00d865645f378212ac96cf139ad3288a",
+      "level": "n5",
+      "word": "好きな",
+      "read": "すきな",
+      "mean": "좋아하는",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-c891813446f79171a4bed9d9ae082ae6eb874655",
+      "level": "n5",
+      "word": "そんな",
+      "read": "そんな",
+      "mean": "그런",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-3270fb6f3cdbb64c9b1692dee05f638e6c094eac",
+      "level": "n5",
+      "word": "大丈夫な",
+      "read": "だいじょうぶな",
+      "mean": "괜찮은",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-a44cd79c16f172b9a4ba44574bed5206b4c2da1e",
+      "level": "n5",
+      "word": "大好きな",
+      "read": "だいすきな",
+      "mean": "매우 좋아하는",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-c2cdc24ddefd80479c903e3a90ffbdf0c44f1157",
+      "level": "n5",
+      "word": "大変な",
+      "read": "たいへんな",
+      "mean": "힘든/큰일인",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-9c5d48f5b9133c3606e785a920a6bed3f48be67b",
+      "level": "n5",
+      "word": "小さな",
+      "read": "ちいさな",
+      "mean": "작은",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-0ebde4205e2e716560785e207017cc3c8e182e3c",
+      "level": "n5",
+      "word": "どんな",
+      "read": "どんな",
+      "mean": "어떤",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-6ec7bcc538a680eb416d4ffb862032c751caebf8",
+      "level": "n5",
+      "word": "にぎやかな",
+      "read": "にぎやかな",
+      "mean": "번화한/시끌벅적한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-4a7c0870acc1e3dd9b75a9f37ed18940c2db2b4d",
+      "level": "n5",
+      "word": "ひまな",
+      "read": "ひまな",
+      "mean": "한가한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-65a9874be68d576130ef1b2f00f33409122f810d",
+      "level": "n5",
+      "word": "便利な",
+      "read": "べんりな",
+      "mean": "편리한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-45b9bc266f5c4a157355f7f8c1cb4dd9d80c7186",
+      "level": "n5",
+      "word": "有名な",
+      "read": "ゆうめいな",
+      "mean": "유명한",
+      "tags": [],
+      "assignedDay": 23,
+      "dayHint": "legacy-day-23"
+    },
+    {
+      "id": "v-3e25cf448ddb0ecc8710e40d15233a8e415d9c67",
+      "level": "n5",
+      "word": "あまり",
+      "read": "あまり",
+      "mean": "별로",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-754b48d58aa45c16be5dd9541b4cc047bf22dcd6",
+      "level": "n5",
+      "word": "一番",
+      "read": "いちばん",
+      "mean": "가장/제일",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-6a45cd7a5ad8a6b78a49677a4ceff40d145ee332",
+      "level": "n5",
+      "word": "いつ",
+      "read": "いつ",
+      "mean": "언제",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-51e52af1239a0cd1ccd43ae049c1f4b2925b44a0",
+      "level": "n5",
+      "word": "いっしょに",
+      "read": "いっしょに",
+      "mean": "함께/같이",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-09dcd4edaccf0f1688a3416b6793de1a61832d06",
+      "level": "n5",
+      "word": "いつも",
+      "read": "いつも",
+      "mean": "언제나/항상",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-de90b6fea00921a456c4fc9895e865ec92f69843",
+      "level": "n5",
+      "word": "おおぜい",
+      "read": "おおぜい",
+      "mean": "많은 사람",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-130543bded7dc77f2a445ca46e6362c025f6e495",
+      "level": "n5",
+      "word": "すぐ",
+      "read": "すぐ",
+      "mean": "곧/바로",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-c0be617840f0291f63a42fd531ee775def5f2583",
+      "level": "n5",
+      "word": "少し",
+      "read": "すこし",
+      "mean": "조금",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-d37c003caf83b5d37f6db50edf303b88ca56ecfc",
+      "level": "n5",
+      "word": "全部",
+      "read": "ぜんぶ",
+      "mean": "전부",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-f0c72c575fb4121a71d4ee5e188ea2d67fc482bb",
+      "level": "n5",
+      "word": "たいへん",
+      "read": "たいへん",
+      "mean": "매우/힘듦",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-121cf1c4323621e0ec81713ef0e97032d6cf2cbd",
+      "level": "n5",
+      "word": "たくさん",
+      "read": "たくさん",
+      "mean": "많이",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-24434f0be3c1a48cdc0b3484cb11a09f19181641",
+      "level": "n5",
+      "word": "だんだん",
+      "read": "だんだん",
+      "mean": "점점",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-e3ea9c7cc548fba24cfbfe5386ffd746fbae9b89",
+      "level": "n5",
+      "word": "ちょっと",
+      "read": "ちょっと",
+      "mean": "조금/잠깐",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-e56b0136507985317d011f6ddade7a0f402bd16f",
+      "level": "n5",
+      "word": "どう",
+      "read": "どう",
+      "mean": "어떻게",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-0250ebd6b0169190b4447683fbfbcad47cb7e47e",
+      "level": "n5",
+      "word": "どうして",
+      "read": "どうして",
+      "mean": "어째서/왜",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-1074c9384c03878cec39fbec113b64c935e39df0",
+      "level": "n5",
+      "word": "どうも",
+      "read": "どうも",
+      "mean": "아무래도/감사합니다",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-1fc8c0f9c13ea41df4f06759bfa250e8ab562965",
+      "level": "n5",
+      "word": "時々",
+      "read": "ときどき",
+      "mean": "가끔/때때로",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-275499a25deb48fd91713a89459627601a4eb793",
+      "level": "n5",
+      "word": "とても",
+      "read": "とても",
+      "mean": "매우/아주",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-4dded2f7556d4f04b54d1eb5da905118c99c9fe7",
+      "level": "n5",
+      "word": "なぜ",
+      "read": "なぜ",
+      "mean": "왜",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-77982761f4c4daff0b5a742cbe70fafbf928314b",
+      "level": "n5",
+      "word": "また",
+      "read": "また",
+      "mean": "또/다시",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-5f3cc34c5ee52b553ccae4aa5b9ce2291789e54e",
+      "level": "n5",
+      "word": "まだ",
+      "read": "まだ",
+      "mean": "아직",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-1b1a3089776c14d528a854ad0656898d4a431b49",
+      "level": "n5",
+      "word": "まっすぐ",
+      "read": "まっすぐ",
+      "mean": "똑바로",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-a1d06a16ed0a98926f04bc9c31d6ed63f5705b4a",
+      "level": "n5",
+      "word": "もう一度",
+      "read": "もういちど",
+      "mean": "한 번 더",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-38b231d745e9c74b2ed1f62b057ec0f03043bf8e",
+      "level": "n5",
+      "word": "もっと",
+      "read": "もっと",
+      "mean": "더",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-a22f57385d4c13d6005ff89b07c6f455af09a3a9",
+      "level": "n5",
+      "word": "ゆっくり",
+      "read": "ゆっくり",
+      "mean": "천천히",
+      "tags": [],
+      "assignedDay": 24,
+      "dayHint": "legacy-day-24"
+    },
+    {
+      "id": "v-54fe706d9542dec85f89a91490decf8909e41ff7",
+      "level": "n5",
+      "word": "あの",
+      "read": "あの",
+      "mean": "저",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-da6f8d77374a4f74ad8f5adac6cda0644470cd50",
+      "level": "n5",
+      "word": "この",
+      "read": "この",
+      "mean": "이",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-6199ce1a62efeafd65f0866dd9d0c46d8f09ecc0",
+      "level": "n5",
+      "word": "その",
+      "read": "その",
+      "mean": "그",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-06df568e2525e5474e46d2d593089f69c5074e2c",
+      "level": "n5",
+      "word": "どの",
+      "read": "どの",
+      "mean": "어느",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-3f91710d70650c1c2e319f05f8dcd355b91ed170",
+      "level": "n5",
+      "word": "でも",
+      "read": "でも",
+      "mean": "하지만",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-b52a2a9fc1843355401ef64757f254bd07af730c",
+      "level": "n5",
+      "word": "〜くらい/ぐらい",
+      "read": "くらい/ぐらい",
+      "mean": "정도",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-e00f4279c6954d4bfa1c1a2ae1427874fb2a09c1",
+      "level": "n5",
+      "word": "〜ずつ",
+      "read": "ずつ",
+      "mean": "씩",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-080f6f00b46497af643aad38cabf888953cd261d",
+      "level": "n5",
+      "word": "〜だけ",
+      "read": "だけ",
+      "mean": "만/뿐",
+      "tags": [],
+      "assignedDay": 25,
+      "dayHint": "legacy-day-25"
+    },
+    {
+      "id": "v-c77fe14cc7709e4f5f0ff8ee8293acb1b8f3ac24",
+      "level": "n5",
+      "word": "アパート",
+      "read": "アパート",
+      "mean": "아파트",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-839f3ba0e587662716c70a06eda9b2d57a11f53c",
+      "level": "n5",
+      "word": "エレベーター",
+      "read": "エレベーター",
+      "mean": "엘리베이터",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-330df6baa188258f4514b77d050fc2aa594c3112",
+      "level": "n5",
+      "word": "カップ",
+      "read": "カップ",
+      "mean": "컵",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-2c3780170280dafbd8f67a827f95dfe34e1bc116",
+      "level": "n5",
+      "word": "カメラ",
+      "read": "カメラ",
+      "mean": "카메라",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-5f6df033d0f7088cbdf4f3b96ca37d17758321af",
+      "level": "n5",
+      "word": "カレンダー",
+      "read": "カレンダー",
+      "mean": "달력",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-077f8f7669a3180de02d60663efb9fe04cb9dd4e",
+      "level": "n5",
+      "word": "ギター",
+      "read": "ギター",
+      "mean": "기타",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-bc940790730ad456b3d03a5bbea7f0eb29f5153f",
+      "level": "n5",
+      "word": "クラス",
+      "read": "クラス",
+      "mean": "클래스/반",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-76029c3cb24f5b740e280312aab17c3d7e9d9d63",
+      "level": "n5",
+      "word": "グラス",
+      "read": "グラス",
+      "mean": "유리잔",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-60d8c61966746ec0924b6ec88f3246be81b02048",
+      "level": "n5",
+      "word": "コート",
+      "read": "コート",
+      "mean": "코트",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-5fb3e93e9f6eafc7ccc2d0181f5390e3d05f43aa",
+      "level": "n5",
+      "word": "コーヒー",
+      "read": "コーヒー",
+      "mean": "커피",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-b6eb59f46a816d6bbf635a0ccae715619022c01f",
+      "level": "n5",
+      "word": "コップ",
+      "read": "コップ",
+      "mean": "컵",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-2de8d0ae2c062e52bae174205ab33f72a946042e",
+      "level": "n5",
+      "word": "コピー",
+      "read": "コピー",
+      "mean": "복사",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-aaf784495e0a2bfca3a913e5dc66befef0d89cbf",
+      "level": "n5",
+      "word": "シャツ",
+      "read": "シャツ",
+      "mean": "셔츠",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-19ea63b3b0bc520934485fef897c6f30eb5a241e",
+      "level": "n5",
+      "word": "シャワー",
+      "read": "シャワー",
+      "mean": "샤워",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-d687de3c6161b44f6d675069e0a300dc29ef40c3",
+      "level": "n5",
+      "word": "スカート",
+      "read": "スカート",
+      "mean": "스커트/치마",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-417d19ba54d4ec2f3e8096a980a074197d7e7037",
+      "level": "n5",
+      "word": "ストーブ",
+      "read": "ストーブ",
+      "mean": "스토브/난로",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-82ab7d01454c810f7b8e1aaf4fa1eb5aa5804c4f",
+      "level": "n5",
+      "word": "スプーン",
+      "read": "スプーン",
+      "mean": "스푼/숟가락",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-bd0df071cedaa314b18aa842d54a2ec1fd5be7f3",
+      "level": "n5",
+      "word": "スポーツ",
+      "read": "スポーツ",
+      "mean": "스포츠",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-84f415ee047e220e008241836c2896462ffc440e",
+      "level": "n5",
+      "word": "ズボン",
+      "read": "ズボン",
+      "mean": "바지",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-c97debb162e21aed0da3ea58087f06da722d3c27",
+      "level": "n5",
+      "word": "セーター",
+      "read": "セーター",
+      "mean": "스웨터",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-56fe7fda10405c771761cf27d4a2157e161dc03d",
+      "level": "n5",
+      "word": "ゼロ",
+      "read": "ゼロ",
+      "mean": "제로/0",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-aac20ecba2e942115d474828ec144a00999e4aff",
+      "level": "n5",
+      "word": "タクシー",
+      "read": "タクシー",
+      "mean": "택시",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-b66139b023bfecc4453c08462ea3e00265c2417e",
+      "level": "n5",
+      "word": "テープ",
+      "read": "テープ",
+      "mean": "테이프",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-c3796c4cb070eea02584d4e453a8e6e028b00ec4",
+      "level": "n5",
+      "word": "テーブル",
+      "read": "テーブル",
+      "mean": "테이블",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-3d2415e636392ffca4bfbf78d74b044ab999d6fd",
+      "level": "n5",
+      "word": "テスト",
+      "read": "テスト",
+      "mean": "테스트/시험",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-2d919009fd7d34ffe374a2c9584c726feab28d8a",
+      "level": "n5",
+      "word": "デパート",
+      "read": "デパート",
+      "mean": "백화점",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-e620681ad0d255f660056ad7cdc646c6715e9cb6",
+      "level": "n5",
+      "word": "テレビ",
+      "read": "テレビ",
+      "mean": "텔레비전",
+      "tags": [],
+      "assignedDay": 26,
+      "dayHint": "legacy-day-26"
+    },
+    {
+      "id": "v-7dcf81f0417d44a6b4dbafc77682038bb909bf9c",
+      "level": "n5",
+      "word": "ドア",
+      "read": "ドア",
+      "mean": "문",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-f0a02b474d21f5e2baf9fe62f4b7c4bf2a0cd6fe",
+      "level": "n5",
+      "word": "トイレ",
+      "read": "トイレ",
+      "mean": "화장실",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-6f2884f64f0b2c8e7b6100fc0ebcfe3baf5b3d0d",
+      "level": "n5",
+      "word": "ナイフ",
+      "read": "ナイフ",
+      "mean": "나이프/칼",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-d8f718c94e1301e99ff233fe4e1c55db5263698d",
+      "level": "n5",
+      "word": "ネクタイ",
+      "read": "ネクタイ",
+      "mean": "넥타이",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-c975045e8b502d062cc6e73be9eb7d0fdd2132d9",
+      "level": "n5",
+      "word": "ノート",
+      "read": "ノート",
+      "mean": "공책/노트",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-6c467965b0682cb08e79e9f5b08d56fb739fc95c",
+      "level": "n5",
+      "word": "パーティー",
+      "read": "パーティー",
+      "mean": "파티",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-905ecb6add621233760d21360409c68d32344c99",
+      "level": "n5",
+      "word": "バス",
+      "read": "バス",
+      "mean": "버스",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-4285965dba2ec89af0cb4da8db4999db2a1cb7a2",
+      "level": "n5",
+      "word": "パン",
+      "read": "パン",
+      "mean": "빵",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-de243cb1f98e44d4577486be502f1ef6d7a17765",
+      "level": "n5",
+      "word": "ハンカチ",
+      "read": "ハンカチ",
+      "mean": "손수건",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-e5943e5ae56966c70dd6f9436fe492545089fc8b",
+      "level": "n5",
+      "word": "ビル",
+      "read": "ビル",
+      "mean": "빌딩",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-e09438a689a9a85cb95fd4d56353206172f6e8dd",
+      "level": "n5",
+      "word": "ペン",
+      "read": "ペン",
+      "mean": "펜",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-7b8da4b35fdaa7451a5ca0bf7641c0aedf875bfb",
+      "level": "n5",
+      "word": "ボールペン",
+      "read": "ボールペン",
+      "mean": "볼펜",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-85a2d3c3bd70e898b1ab2a82fb6fc81a036fecc2",
+      "level": "n5",
+      "word": "ポケット",
+      "read": "ポケット",
+      "mean": "주머니",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-21d2da7ed4b23cc73babf39b1081a44bd3def494",
+      "level": "n5",
+      "word": "ボタン",
+      "read": "ボタン",
+      "mean": "단추/버튼",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-65ee069999baabbf2b8cc55ffe187e63d236cad7",
+      "level": "n5",
+      "word": "ホテル",
+      "read": "ホテル",
+      "mean": "호텔",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-a980c645b2d8ad890f7e67a0bc69844ce96197ea",
+      "level": "n5",
+      "word": "メートル",
+      "read": "メートル",
+      "mean": "미터",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-e8ddcc69acd79f2acd23d039a82c5909a3461126",
+      "level": "n5",
+      "word": "ラーメン",
+      "read": "ラーメン",
+      "mean": "라면",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-b26428a1855fab4c2d1d135070cda1a4200d9f82",
+      "level": "n5",
+      "word": "ラジオ",
+      "read": "ラジオ",
+      "mean": "라디오",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-19e7870ac1c45253c28f1e90b17d450f134b6c51",
+      "level": "n5",
+      "word": "レストラン",
+      "read": "レストラン",
+      "mean": "레스토랑",
+      "tags": [],
+      "assignedDay": 27,
+      "dayHint": "legacy-day-27"
+    },
+    {
+      "id": "v-dd4a2ca976810fe55909aed5f535cf3ee9625a33",
+      "level": "n5",
+      "word": "ありがとうございます",
+      "read": "ありがとうございます",
+      "mean": "고맙습니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-124bede7c5570a9e185d952ce424717710a60b64",
+      "level": "n5",
+      "word": "いいえ",
+      "read": "いいえ",
+      "mean": "아니요",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-363aa0c1536f63bce2b5776d11bb8ac5d139a034",
+      "level": "n5",
+      "word": "いただきます",
+      "read": "いただきます",
+      "mean": "잘 먹겠습니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-df14ce27ad7ba4ea96373349c9b4a01753fe52f4",
+      "level": "n5",
+      "word": "いらっしゃいませ",
+      "read": "いらっしゃいませ",
+      "mean": "어서 오세요",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-0a88e4ed2b962a03250c90199e6c902cf7bdc3e8",
+      "level": "n5",
+      "word": "おねがいします",
+      "read": "おねがいします",
+      "mean": "부탁합니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-8f148337ab72eb733ee453e8d69a03425eb60b0c",
+      "level": "n5",
+      "word": "おはようございます",
+      "read": "おはようございます",
+      "mean": "안녕하세요(아침)",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-942bbc9dd594f23cc56fb86b482cfa11d9e5955a",
+      "level": "n5",
+      "word": "お休みなさい",
+      "read": "おやすみなさい",
+      "mean": "안녕히 주무세요",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-610fb3140ad480f3f51b3a5c623dce7e7c4ce620",
+      "level": "n5",
+      "word": "ごちそうさまでした",
+      "read": "ごちそうさまでした",
+      "mean": "잘 먹었습니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-53d23e67b84020d57a1e0e3eac88bee0c62e7b72",
+      "level": "n5",
+      "word": "こちらこそ",
+      "read": "こちらこそ",
+      "mean": "저야말로",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-2ebaf89233aaf3fb65715e24d2c6f93c7fd98526",
+      "level": "n5",
+      "word": "ごめんなさい",
+      "read": "ごめんなさい",
+      "mean": "미안합니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-a25395223b4b608c44356609a4e604e5b3a3c1f1",
+      "level": "n5",
+      "word": "こんにちは",
+      "read": "こんにちは",
+      "mean": "안녕하세요(점심)",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-d8e69dbc467e9237d6cfdb3107e57a4090c2cbe6",
+      "level": "n5",
+      "word": "こんばんは",
+      "read": "こんばんは",
+      "mean": "안녕하세요(저녁)",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-283300e08ff97e3775c91c658f63356f4262f54d",
+      "level": "n5",
+      "word": "さようなら",
+      "read": "さようなら",
+      "mean": "안녕히 가세요/계세요",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-2200796e142347fcf1f7da9971e75f0db030e6a6",
+      "level": "n5",
+      "word": "失礼します",
+      "read": "しつれいします",
+      "mean": "실례합니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-ff3e98bc391f5f07463782456fea9517878da151",
+      "level": "n5",
+      "word": "すみません",
+      "read": "すみません",
+      "mean": "죄송합니다/잠기만요",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-411127b2f6065b652f9efe708cc2f17e38665879",
+      "level": "n5",
+      "word": "どういたしまして",
+      "read": "どういたしまして",
+      "mean": "천만에요",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-768ee0637a44d275ddb1da4c32e05d99d8d31b52",
+      "level": "n5",
+      "word": "どうぞ",
+      "read": "どうぞ",
+      "mean": "자/여기/어서",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-fadfd4dc2c80b38c7343d08c04016ffcb296870b",
+      "level": "n5",
+      "word": "はい",
+      "read": "はい",
+      "mean": "네",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-380347d61c8cd765d7b0180fceaad5182e25d72b",
+      "level": "n5",
+      "word": "はじめまして",
+      "read": "はじめまして",
+      "mean": "처음 뵙겠습니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-9581233603813cb43e1046d3ef7480fb9ed696c4",
+      "level": "n5",
+      "word": "もしもし",
+      "read": "もしもし",
+      "mean": "여보세요",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    },
+    {
+      "id": "v-c648f2ecfa573fff70f0bfb5a451c484aff2fd77",
+      "level": "n5",
+      "word": "よろしくお願いします",
+      "read": "よろしくおねがいします",
+      "mean": "잘 부탁합니다",
+      "tags": [],
+      "assignedDay": 28,
+      "dayHint": "legacy-day-28"
+    }
+  ]
+}

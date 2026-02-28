@@ -18,6 +18,13 @@
 
 ## 1) 최상위 스키마
 
+### 1.0 원천 데이터 원칙 (신규)
+
+- `vocab item`이 원천 데이터(source of truth)입니다.
+- `day`는 원천 데이터가 아니라, `vocab item`의 힌트(`assignedDay`, `dayHint`)를 이용해 생성되는 **파생 뷰**입니다.
+- 신규 입력/수정은 `item` 단위로만 수행하고, `day` 단위 편집은 금지합니다.
+- `id`는 사람이 수동 수정하지 않는 안정 식별자(stable ID)여야 하며, UUID 또는 해시 기반 규칙으로 고정합니다.
+
 - 타입: `object`
 - 권장 키
   - `version`: `string` (예: `"2.0"`)
