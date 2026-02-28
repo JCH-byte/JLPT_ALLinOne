@@ -145,7 +145,13 @@
             "mean": "그렇지만",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "しかし",
@@ -153,7 +159,13 @@
             "mean": "그러나",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "すると",
@@ -161,7 +173,13 @@
             "mean": "그러자",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "そして",
@@ -169,7 +187,13 @@
             "mean": "그리고",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "それから",
@@ -177,7 +201,13 @@
             "mean": "그리고 나서",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "それで",
@@ -185,7 +215,13 @@
             "mean": "그래서",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "それでは",
@@ -193,7 +229,13 @@
             "mean": "그러면",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "それに",
@@ -201,7 +243,13 @@
             "mean": "게다가",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "だから",
@@ -209,7 +257,13 @@
             "mean": "그러니까",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "または",
@@ -217,7 +271,13 @@
             "mean": "또는",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アイデア",
@@ -225,7 +285,13 @@
             "mean": "아이디어",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アイロン",
@@ -233,7 +299,13 @@
             "mean": "다리미",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アクセサリー",
@@ -241,7 +313,13 @@
             "mean": "액세서리",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アジア",
@@ -249,7 +327,13 @@
             "mean": "아시아",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アナウンサー",
@@ -257,7 +341,13 @@
             "mean": "아나운서",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アニメ",
@@ -265,7 +355,13 @@
             "mean": "애니메이션",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アフリカ",
@@ -273,7 +369,13 @@
             "mean": "아프리카",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アメリカ",
@@ -281,7 +383,13 @@
             "mean": "미국",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アルコール",
@@ -289,7 +397,13 @@
             "mean": "알코올, 술",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "アルバイト",
@@ -297,7 +411,13 @@
             "mean": "아르바이트",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "イヤリング",
@@ -305,7 +425,13 @@
             "mean": "귀걸이",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "エアコン",
@@ -313,7 +439,13 @@
             "mean": "에어컨",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "エスカレーター",
@@ -321,7 +453,13 @@
             "mean": "에스컬레이터",
             "tags": [],
             "moduleId": "n4-module-025",
-            "legacyDay": 25
+            "legacyDay": 25,
+            "introModule": "n4-module-025",
+            "reviewModules": [
+                "n4-module-027",
+                "n4-module-002"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [

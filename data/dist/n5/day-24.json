@@ -126,7 +126,13 @@
             "mean": "별로",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "一番",
@@ -134,7 +140,13 @@
             "mean": "가장/제일",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "いつ",
@@ -142,7 +154,13 @@
             "mean": "언제",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "いっしょに",
@@ -150,7 +168,13 @@
             "mean": "함께/같이",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "いつも",
@@ -158,7 +182,13 @@
             "mean": "언제나/항상",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "おおぜい",
@@ -166,7 +196,13 @@
             "mean": "많은 사람",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "すぐ",
@@ -174,7 +210,13 @@
             "mean": "곧/바로",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "少し",
@@ -182,7 +224,13 @@
             "mean": "조금",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "全部",
@@ -190,7 +238,13 @@
             "mean": "전부",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "たいへん",
@@ -198,7 +252,13 @@
             "mean": "매우/힘듦",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "たくさん",
@@ -206,7 +266,13 @@
             "mean": "많이",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "だんだん",
@@ -214,7 +280,13 @@
             "mean": "점점",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "ちょっと",
@@ -222,7 +294,13 @@
             "mean": "조금/잠깐",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "どう",
@@ -230,7 +308,13 @@
             "mean": "어떻게",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "どうして",
@@ -238,7 +322,13 @@
             "mean": "어째서/왜",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "どうも",
@@ -246,7 +336,13 @@
             "mean": "아무래도/감사합니다",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "時々",
@@ -254,7 +350,13 @@
             "mean": "가끔/때때로",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "とても",
@@ -262,7 +364,13 @@
             "mean": "매우/아주",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "なぜ",
@@ -270,7 +378,13 @@
             "mean": "왜",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "また",
@@ -278,7 +392,13 @@
             "mean": "또/다시",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "まだ",
@@ -286,7 +406,13 @@
             "mean": "아직",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "まっすぐ",
@@ -294,7 +420,13 @@
             "mean": "똑바로",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "もう一度",
@@ -302,7 +434,13 @@
             "mean": "한 번 더",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "もっと",
@@ -310,7 +448,13 @@
             "mean": "더",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "ゆっくり",
@@ -318,7 +462,13 @@
             "mean": "천천히",
             "tags": [],
             "moduleId": "n5-module-024",
-            "legacyDay": 24
+            "legacyDay": 24,
+            "introModule": "n5-module-024",
+            "reviewModules": [
+                "n5-module-026",
+                "n5-module-001"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [

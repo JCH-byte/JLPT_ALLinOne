@@ -116,7 +116,13 @@
             "mean": "한 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二人",
@@ -124,7 +130,13 @@
             "mean": "두 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三人",
@@ -132,7 +144,13 @@
             "mean": "세 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四人",
@@ -140,7 +158,13 @@
             "mean": "네 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五人",
@@ -148,7 +172,13 @@
             "mean": "다섯 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六人",
@@ -156,7 +186,13 @@
             "mean": "여섯 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七人",
@@ -164,7 +200,13 @@
             "mean": "일곱 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八人",
@@ -172,7 +214,13 @@
             "mean": "여덟 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九人",
@@ -180,7 +228,13 @@
             "mean": "아홉 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十人",
@@ -188,7 +242,13 @@
             "mean": "열 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何人",
@@ -196,7 +256,13 @@
             "mean": "몇 명",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "一匹",
@@ -204,7 +270,13 @@
             "mean": "한 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二匹",
@@ -212,7 +284,13 @@
             "mean": "두 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三匹",
@@ -220,7 +298,13 @@
             "mean": "세 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四匹",
@@ -228,7 +312,13 @@
             "mean": "네 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五匹",
@@ -236,7 +326,13 @@
             "mean": "다섯 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六匹",
@@ -244,7 +340,13 @@
             "mean": "여섯 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七匹",
@@ -252,7 +354,13 @@
             "mean": "일곱 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八匹",
@@ -260,7 +368,13 @@
             "mean": "여덟 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九匹",
@@ -268,7 +382,13 @@
             "mean": "아홉 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十匹",
@@ -276,7 +396,13 @@
             "mean": "열 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何匹",
@@ -284,7 +410,13 @@
             "mean": "몇 마리",
             "tags": [],
             "moduleId": "n5-module-017",
-            "legacyDay": 17
+            "legacyDay": 17,
+            "introModule": "n5-module-017",
+            "reviewModules": [
+                "n5-module-019",
+                "n5-module-022"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [

@@ -12,6 +12,14 @@ const MAX_DAY_LIMIT = 28;
 const DEFAULT_MAX_DAY = 28;
 const ASSIGNMENT_VERSION = 'item-assignment-v1';
 const MODULE_METADATA_PATH = path.join(srcDir, 'module-metadata.json');
+const DEFAULT_EXPOSURE_TARGET_BY_LEVEL = {
+    n5: 3,
+    n4: 3,
+    n3: 4,
+    n2: 4,
+    n1: 4
+};
+const REVIEW_OFFSETS = [2, 5, 8];
 
 function resolveN4MaxDay() {
     const configured = process.env.N4_MAX_DAY;
@@ -54,14 +62,56 @@ function normalizeForLevel(level, day, dayData) {
 }
 
 function normalizeVocabItem(item, moduleId, assignedDay) {
+    const fallbackTarget = DEFAULT_EXPOSURE_TARGET_BY_LEVEL[item?.level] || 3;
+    const introModule = typeof item?.introModule === 'string' && item.introModule.trim()
+        ? item.introModule.trim()
+        : moduleId;
+    const reviewModules = Array.isArray(item?.reviewModules)
+        ? item.reviewModules.filter((entry) => typeof entry === 'string' && entry.trim()).map((entry) => entry.trim())
+        : [];
+    const exposureCountTarget = Number.isInteger(item?.exposureCountTarget)
+        ? item.exposureCountTarget
+        : fallbackTarget;
+
     return {
         word: item?.word || '',
         read: item?.read || '',
         mean: item?.mean || '',
         tags: Array.isArray(item?.tags) ? item.tags : [],
         moduleId,
-        legacyDay: assignedDay
+        legacyDay: assignedDay,
+        introModule,
+        reviewModules,
+        exposureCountTarget
     };
+}
+
+function buildExposurePlan(level, item, assignedDay, moduleMetadata, maxDay) {
+    const fallbackTarget = DEFAULT_EXPOSURE_TARGET_BY_LEVEL[level] || 3;
+    const requestedTarget = Number.isInteger(item?.exposureCountTarget) ? item.exposureCountTarget : fallbackTarget;
+    const exposureCountTarget = Math.min(4, Math.max(3, requestedTarget));
+    const introModule = moduleMetadata.dayToModule[String(assignedDay)] || makeDefaultModuleId(level, assignedDay);
+
+    if (Array.isArray(item?.reviewModules) && item.reviewModules.length > 0) {
+        const reviewModules = item.reviewModules
+            .filter((entry) => typeof entry === 'string' && entry.trim())
+            .map((entry) => entry.trim());
+        return { introModule, reviewModules, exposureCountTarget };
+    }
+
+    const reviewCount = exposureCountTarget - 1;
+    const reviewModules = [];
+
+    for (let idx = 0; idx < reviewCount; idx += 1) {
+        const offset = REVIEW_OFFSETS[idx] || (REVIEW_OFFSETS[REVIEW_OFFSETS.length - 1] + ((idx - REVIEW_OFFSETS.length + 1) * 3));
+        const reviewDay = ((assignedDay - 1 + offset) % maxDay) + 1;
+        const reviewModuleId = moduleMetadata.dayToModule[String(reviewDay)] || makeDefaultModuleId(level, reviewDay);
+        if (reviewModuleId !== introModule && !reviewModules.includes(reviewModuleId)) {
+            reviewModules.push(reviewModuleId);
+        }
+    }
+
+    return { introModule, reviewModules, exposureCountTarget };
 }
 
 function parseDayHint(dayHint) {
@@ -228,10 +278,47 @@ function buildDaysFromItems(level, items, maxDay, moduleMetadata) {
         const assignedDay = decideAssignedDay(level, item, index, maxDay);
         const key = String(assignedDay);
         const moduleId = moduleMetadata.dayToModule[key] || makeDefaultModuleId(level, assignedDay);
-        dayMap[key].vocab.push(normalizeVocabItem(item, moduleId, assignedDay));
+        const exposurePlan = buildExposurePlan(level, item, assignedDay, moduleMetadata, maxDay);
+        dayMap[key].vocab.push(normalizeVocabItem({ ...item, ...exposurePlan }, moduleId, assignedDay));
     });
 
     return dayMap;
+}
+
+
+function validateExposurePolicy(level, dayMap, moduleMetadata) {
+    const issues = [];
+    Object.entries(dayMap).forEach(([day, dayData]) => {
+        const vocab = Array.isArray(dayData?.vocab) ? dayData.vocab : [];
+        const expectedIntroModule = moduleMetadata.dayToModule[String(day)] || makeDefaultModuleId(level, Number(day));
+        vocab.forEach((item, index) => {
+            const label = item?.word || item?.read || `index-${index}`;
+            const target = Number.isInteger(item?.exposureCountTarget) ? item.exposureCountTarget : 0;
+            const reviews = Array.isArray(item?.reviewModules) ? item.reviewModules : [];
+            if (typeof item?.introModule !== 'string' || item.introModule.trim() === '') {
+                issues.push(`${level} day-${day} ${label}: introModule is required`);
+            } else if (item.introModule !== expectedIntroModule) {
+                issues.push(`${level} day-${day} ${label}: introModule(${item.introModule}) must match assigned module(${expectedIntroModule})`);
+            }
+
+            if (target < 3 || target > 4) {
+                issues.push(`${level} day-${day} ${label}: exposureCountTarget must be 3~4`);
+            }
+
+            if (reviews.length < 2 || reviews.length > 3) {
+                issues.push(`${level} day-${day} ${label}: reviewModules must contain 2~3 modules`);
+            }
+
+            if (target > 0 && reviews.length !== (target - 1)) {
+                issues.push(`${level} day-${day} ${label}: reviewModules length(${reviews.length}) must equal exposureCountTarget-1(${target - 1})`);
+            }
+        });
+    });
+
+    if (issues.length > 0) {
+        const preview = issues.slice(0, 10).join('; ');
+        throw new Error(`Exposure policy validation failed for ${level} (${issues.length}): ${preview}`);
+    }
 }
 
 function stableStringify(data) {
@@ -263,6 +350,7 @@ function buildLevel(level) {
     const maxDay = level === 'n4' ? N4_MAX_DAY : DEFAULT_MAX_DAY;
     const moduleMetadata = readModuleMetadata(level, maxDay);
     const normalized = buildDaysFromItems(level, itemSource.items, maxDay, moduleMetadata);
+    validateExposurePolicy(level, normalized, moduleMetadata);
 
     const legacySource = readJsonOrNull(legacySrcPath);
     if (legacySource && typeof legacySource === 'object' && !Array.isArray(legacySource)) {

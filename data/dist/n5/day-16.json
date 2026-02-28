@@ -141,7 +141,13 @@
             "mean": "한 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二倍",
@@ -149,7 +155,13 @@
             "mean": "두 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三倍",
@@ -157,7 +169,13 @@
             "mean": "세 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四倍",
@@ -165,7 +183,13 @@
             "mean": "네 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五倍",
@@ -173,7 +197,13 @@
             "mean": "다섯 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六倍",
@@ -181,7 +211,13 @@
             "mean": "여섯 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七倍",
@@ -189,7 +225,13 @@
             "mean": "일곱 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八倍",
@@ -197,7 +239,13 @@
             "mean": "여덟 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九倍",
@@ -205,7 +253,13 @@
             "mean": "아홉 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十倍",
@@ -213,7 +267,13 @@
             "mean": "열 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何倍",
@@ -221,7 +281,13 @@
             "mean": "몇 배",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "一本",
@@ -229,7 +295,13 @@
             "mean": "한 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二本",
@@ -237,7 +309,13 @@
             "mean": "두 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三本",
@@ -245,7 +323,13 @@
             "mean": "세 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四本",
@@ -253,7 +337,13 @@
             "mean": "네 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五本",
@@ -261,7 +351,13 @@
             "mean": "다섯 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六本",
@@ -269,7 +365,13 @@
             "mean": "여섯 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七本",
@@ -277,7 +379,13 @@
             "mean": "일곱 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八本",
@@ -285,7 +393,13 @@
             "mean": "여덟 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九本",
@@ -293,7 +407,13 @@
             "mean": "아홉 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十本",
@@ -301,7 +421,13 @@
             "mean": "열 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何本",
@@ -309,7 +435,13 @@
             "mean": "몇 자루/병",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "一枚",
@@ -317,7 +449,13 @@
             "mean": "한 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "二枚",
@@ -325,7 +463,13 @@
             "mean": "두 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "三枚",
@@ -333,7 +477,13 @@
             "mean": "세 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "四枚",
@@ -341,7 +491,13 @@
             "mean": "네 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "五枚",
@@ -349,7 +505,13 @@
             "mean": "다섯 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "六枚",
@@ -357,7 +519,13 @@
             "mean": "여섯 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "七枚",
@@ -365,7 +533,13 @@
             "mean": "일곱 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "八枚",
@@ -373,7 +547,13 @@
             "mean": "여덟 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "九枚",
@@ -381,7 +561,13 @@
             "mean": "아홉 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "十枚",
@@ -389,7 +575,13 @@
             "mean": "열 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "何枚",
@@ -397,7 +589,13 @@
             "mean": "몇 장",
             "tags": [],
             "moduleId": "n5-module-016",
-            "legacyDay": 16
+            "legacyDay": 16,
+            "introModule": "n5-module-016",
+            "reviewModules": [
+                "n5-module-018",
+                "n5-module-021"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [

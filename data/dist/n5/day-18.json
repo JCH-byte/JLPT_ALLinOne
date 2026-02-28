@@ -163,7 +163,13 @@
             "mean": "만나다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "上がる",
@@ -171,7 +177,13 @@
             "mean": "오르다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "開く",
@@ -179,7 +191,13 @@
             "mean": "열리다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "開ける",
@@ -187,7 +205,13 @@
             "mean": "열다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "あげる",
@@ -195,7 +219,13 @@
             "mean": "주다/올리다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "上げる",
@@ -203,7 +233,13 @@
             "mean": "올리다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "遊ぶ",
@@ -211,7 +247,13 @@
             "mean": "놀다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "あびる",
@@ -219,7 +261,13 @@
             "mean": "뒤집어쓰다/샤워하다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "洗う",
@@ -227,7 +275,13 @@
             "mean": "씻다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "ある",
@@ -235,7 +289,13 @@
             "mean": "있다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "歩く",
@@ -243,7 +303,13 @@
             "mean": "걷다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "言う",
@@ -251,7 +317,13 @@
             "mean": "말하다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "行く",
@@ -259,7 +331,13 @@
             "mean": "가다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "いる",
@@ -267,7 +345,13 @@
             "mean": "있다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "要る",
@@ -275,7 +359,13 @@
             "mean": "필요하다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "入れる",
@@ -283,7 +373,13 @@
             "mean": "넣다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "歌う",
@@ -291,7 +387,13 @@
             "mean": "노래하다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "生まれる",
@@ -299,7 +401,13 @@
             "mean": "태어나다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "売る",
@@ -307,7 +415,13 @@
             "mean": "팔다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "起きる",
@@ -315,7 +429,13 @@
             "mean": "일어나다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "置く",
@@ -323,7 +443,13 @@
             "mean": "두다/놓다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "教える",
@@ -331,7 +457,13 @@
             "mean": "가르치다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "押す",
@@ -339,7 +471,13 @@
             "mean": "밀다/누르다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "泳ぐ",
@@ -347,7 +485,13 @@
             "mean": "헤엄치다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "終わる",
@@ -355,7 +499,13 @@
             "mean": "끝나다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "買う",
@@ -363,7 +513,13 @@
             "mean": "사다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         },
         {
             "word": "帰る",
@@ -371,7 +527,13 @@
             "mean": "돌아가다",
             "tags": [],
             "moduleId": "n5-module-018",
-            "legacyDay": 18
+            "legacyDay": 18,
+            "introModule": "n5-module-018",
+            "reviewModules": [
+                "n5-module-020",
+                "n5-module-023"
+            ],
+            "exposureCountTarget": 3
         }
     ],
     "quiz": [
