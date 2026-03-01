@@ -32,6 +32,11 @@ const STORAGE_PROVIDERS = {
 const REQUIRED_CHECKLIST_SECTIONS = ['title', 'story', 'analysis', 'vocab', 'quiz'];
 const MIN_SCENE_COUNT = 1;
 const REQUIRED_QUIZ_COUNT = 10;
+
+function stripCodeFence(text) {
+    return String(text).replace(/^```(?:json)?\s*\n?/i, '').replace(/\n?```\s*$/i, '').trim();
+}
+
 const intakeState = {
     payload: null,
     normalizedItems: null,
@@ -395,7 +400,10 @@ function normalizeIncomingItems(payload) {
         ? payload.items
         : (Array.isArray(payload?.data?.vocab) ? payload.data.vocab : null);
     if (!Array.isArray(sourceItems)) {
-        throw new Error('JSON에 "items" 배열이 포함되어야 합니다.');
+        const hint = (payload?.story != null || Array.isArray(payload?.quiz))
+            ? ' (스토리/퀴즈 JSON은 하단 "모듈 스토리/퀴즈 업로드" 섹션을 사용하세요.)'
+            : '';
+        throw new Error(`JSON에 "items" 배열이 포함되어야 합니다.${hint}`);
     }
     const legacyDay = Number(payload?.day);
     return sourceItems.map((item, index) => {
@@ -533,8 +541,8 @@ function resetPipelineState() {
 }
 function runAiIntake() {
     try {
-        const text = document.getElementById('json-input').value;
-        if (!text.trim()) {
+        const text = stripCodeFence(document.getElementById('json-input').value);
+        if (!text) {
             throw new Error('JSON 데이터를 입력하세요.');
         }
         const payload = JSON.parse(text);
@@ -1104,7 +1112,7 @@ async function handleModuleContentUpload() {
         const moduleId = String(document.getElementById('module-id-input')?.value || '').trim();
         if (!moduleId) throw new Error('모듈 ID를 입력하세요.');
 
-        const rawJson = String(document.getElementById('module-json-input')?.value || '').trim();
+        const rawJson = stripCodeFence(document.getElementById('module-json-input')?.value || '');
         if (!rawJson) throw new Error('JSON을 입력하세요.');
 
         let moduleData;
