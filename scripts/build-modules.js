@@ -46,6 +46,76 @@ function stableStringify(data) {
     return `${JSON.stringify(data, null, 4)}\n`;
 }
 
+const LEVEL_CONFIG = {
+    N5: { sceneCount: 3, analysisRange: '12-15', grammarHint: 'AはBです, 〜ます형, 〜て형, 기본 조사' },
+    N4: { sceneCount: 4, analysisRange: '15-18', grammarHint: '〜ために, 〜のおかげで, 〜について, 〜みたいに, 〜として' },
+    N3: { sceneCount: 4, analysisRange: '16-20', grammarHint: '〜ことになる, 〜わけではない, 〜にしても, 〜に対して' },
+    N2: { sceneCount: 5, analysisRange: '18-22', grammarHint: '〜にもかかわらず, 〜としても, 〜さえ〜ば, 〜をめぐって' },
+    N1: { sceneCount: 5, analysisRange: '20-25', grammarHint: '〜いかんによって, 〜をもって, 〜ならではの, 〜に至っては' },
+};
+
+function getLevelConfig(jlptLevel) {
+    return LEVEL_CONFIG[jlptLevel] || LEVEL_CONFIG['N4'];
+}
+
+function generateTxtContent(batchJson, ruleData, jlptLevel) {
+    const cfg = getLevelConfig(jlptLevel);
+    const grammarTargets = Array.isArray(ruleData.grammarTargets) && ruleData.grammarTargets.length > 0
+        ? ruleData.grammarTargets.join(' / ')
+        : cfg.grammarHint;
+    const maxChars = ruleData.lengthLimit && ruleData.lengthLimit.maxChars ? ruleData.lengthLimit.maxChars : 200;
+
+    const vocabLines = (batchJson.vocab || [])
+        .map((v) => `${v.word} (${v.read}): ${v.mean}`)
+        .join('\n');
+
+    return [
+        `===== JLPT ${jlptLevel} ${batchJson.title} 학습자료 생성 입력 =====`,
+        '',
+        `배치 ID: ${batchJson.batch.batchId}`,
+        `JLPT 레벨: ${jlptLevel}`,
+        `규칙 버전: ${ruleData.ruleVersion || 'unversioned'}`,
+        '',
+        '━━━ 문법 규칙 ━━━',
+        `난이도 상한: ${jlptLevel} (${jlptLevel} 초과 표현 금지)`,
+        `문체: ${ruleData.style || '학습교재 스타일'}`,
+        `목표 문법: ${grammarTargets}`,
+        `최대 글자수: ${maxChars}자`,
+        '',
+        `━━━ 학습 단어 목록 (${(batchJson.vocab || []).length}개) ━━━`,
+        vocabLines,
+        '',
+        '━━━ 생성 지침 ━━━',
+        `당신은 JLPT ${jlptLevel} 일본어 학습 자료를 만드는 전문 교육자입니다.`,
+        '위 단어 목록을 활용하여 학습 자료를 JSON 형식으로 생성해주세요.',
+        '',
+        '[1. story (HTML 문자열)]',
+        `- ${cfg.sceneCount}개 장면 구성: <h3>Scene N. 일본어 제목 (한국어)</h3><p>내용</p>`,
+        '- 장면당 4-6문장, 일상적인 상황을 배경으로 함',
+        '- 입력 단어의 80% 이상 자연스럽게 사용',
+        '- 모든 한자에 <ruby>漢字<rt>よみ</rt></ruby> 태그 필수',
+        `- ${jlptLevel} 수준의 문법·어휘만 사용`,
+        `- 중점 문법: ${grammarTargets}`,
+        '',
+        `[2. analysis (배열, ${cfg.analysisRange}개 항목)]`,
+        '이야기에서 핵심 문장을 추출하고 각 항목을 아래 형식으로 작성:',
+        '- sent: 원문 문장 (HTML ruby 태그 포함)',
+        '- trans: 한국어 번역',
+        '- grammar: 사용된 문법 패턴명 (한국어)',
+        '- tags: 해당 문장에 등장한 입력 단어 목록 (배열)',
+        '',
+        '[3. quiz (배열, 10문항: 읽기 4 + 의미 3 + 문장완성 3)]',
+        '- q: 질문 (일본어)',
+        '- opt: 선택지 4개 배열',
+        '- ans: 정답 인덱스 (0-3 정수)',
+        '- comment: 한국어 해설 (정답 단어의 의미·사용법 포함)',
+        '',
+        '━━━ 출력 형식 ━━━',
+        '반드시 JSON만 출력 (설명 텍스트 없이):',
+        '{"story":"...","analysis":[{"sent":"...","trans":"...","grammar":"...","tags":[]}],"quiz":[{"q":"...","opt":["A","B","C","D"],"ans":0,"comment":"..."}]}',
+    ].join('\n');
+}
+
 function sanitizeBatchId(value) {
     return String(value)
         .trim()
@@ -318,33 +388,26 @@ function getModuleFiles() {
 function main() {
     const moduleFiles = getModuleFiles();
     const expected = new Map();
-    const notebookLMInputExpected = new Map();
+    const notebookLMTxtExpected = new Map();
 
     moduleFiles.forEach((fileName) => {
         const srcPath = path.join(srcDir, fileName);
         const raw = fs.readFileSync(srcPath, 'utf8');
         const parsed = JSON.parse(raw);
         const normalized = normalizeModule(parsed);
+        const { ruleData } = loadRuleSet(parsed);
         expected.set(fileName, stableStringify(normalized));
 
         const jlptLevel = (normalized.constraints && normalized.constraints.jlptLevel) || 'N5';
         normalized.notebookLMInput.forEach((batchInput) => {
-            const notebookLMInputFile = `${batchInput.batchId}.json`;
             const batchVocabIds = batchInput.includes.vocabIds;
-            notebookLMInputExpected.set(notebookLMInputFile, stableStringify({
+            const batchJson = {
                 moduleId: normalized.moduleId,
                 title: normalized.title,
-                promptTemplateVersion: normalized.promptTemplateVersion || 'notebooklm-v1',
-                ruleFile: normalized.ruleFile || null,
-                ruleVersion: normalized.metadata.ruleVersion,
-                batch: {
-                    batchId: batchInput.batchId,
-                    vocabIds: batchVocabIds
-                },
+                batch: { batchId: batchInput.batchId, vocabIds: batchVocabIds },
                 vocab: resolveVocabData(batchVocabIds, jlptLevel),
-                inputMode: batchInput.inputMode,
-                excludes: batchInput.excludes
-            }));
+            };
+            notebookLMTxtExpected.set(`${batchInput.batchId}.txt`, generateTxtContent(batchJson, ruleData, jlptLevel));
         });
     });
 
@@ -377,7 +440,7 @@ function main() {
             throw new Error('Missing generated folder: content/modules/notebooklm-inputs');
         }
 
-        for (const [fileName, expectedContent] of notebookLMInputExpected.entries()) {
+        for (const [fileName, expectedContent] of notebookLMTxtExpected.entries()) {
             const outputPath = path.join(notebookLMInputDir, fileName);
             if (!fs.existsSync(outputPath)) {
                 throw new Error(`Missing generated file: content/modules/notebooklm-inputs/${fileName}`);
@@ -388,8 +451,8 @@ function main() {
             }
         }
 
-        const currentInputFiles = fs.readdirSync(notebookLMInputDir).filter((name) => name.endsWith('.json'));
-        const expectedInputNames = new Set(notebookLMInputExpected.keys());
+        const currentInputFiles = fs.readdirSync(notebookLMInputDir).filter((name) => name.endsWith('.txt'));
+        const expectedInputNames = new Set(notebookLMTxtExpected.keys());
         const staleInput = currentInputFiles.filter((fileName) => !expectedInputNames.has(fileName));
         if (staleInput.length > 0) {
             throw new Error(`Stale generated files in content/modules/notebooklm-inputs: ${staleInput.join(', ')}`);
@@ -408,7 +471,7 @@ function main() {
         fs.writeFileSync(path.join(distDir, fileName), content, 'utf8');
     }
 
-    for (const [fileName, content] of notebookLMInputExpected.entries()) {
+    for (const [fileName, content] of notebookLMTxtExpected.entries()) {
         fs.writeFileSync(path.join(notebookLMInputDir, fileName), content, 'utf8');
     }
 
