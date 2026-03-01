@@ -1094,6 +1094,56 @@ async function handleCreatePullRequest() {
         console.error(e);
     }
 }
+async function handleModuleContentUpload() {
+    const resultEl = document.getElementById('module-upload-result');
+    try {
+        const endpoint = String(document.getElementById('pr-endpoint-input')?.value || '').trim();
+        if (!endpoint) throw new Error('PR 자동화 엔드포인트를 입력하세요.');
+
+        const level = document.getElementById('level-select').value;
+        const moduleId = String(document.getElementById('module-id-input')?.value || '').trim();
+        if (!moduleId) throw new Error('모듈 ID를 입력하세요.');
+
+        const rawJson = String(document.getElementById('module-json-input')?.value || '').trim();
+        if (!rawJson) throw new Error('JSON을 입력하세요.');
+
+        let moduleData;
+        try {
+            moduleData = JSON.parse(rawJson);
+        } catch (e) {
+            throw new Error(`JSON 파싱 실패: ${e.message}`);
+        }
+
+        const { story, analysis, quiz } = moduleData;
+        if (story == null && !Array.isArray(quiz)) {
+            throw new Error('story 또는 quiz 중 하나는 필요합니다.');
+        }
+
+        const hashInput = `${JSON.stringify({ moduleId, story, analysis, quiz }, null, 2)}\n`;
+        const dataHash = await sha256Hex(hashInput);
+
+        const author = (document.getElementById('author-input')?.value || 'anonymous').trim();
+        const changeSummary = (document.getElementById('summary-input')?.value || 'Module content upload').trim();
+
+        const fullPayload = { level, moduleId, story, analysis, quiz, dataHash, author, changeSummary };
+
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(fullPayload)
+        });
+        const body = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(body?.error || `HTTP ${response.status}`);
+
+        const prUrl = String(body?.prUrl || body?.url || '').trim();
+        if (!prUrl) throw new Error('응답에 prUrl이 없습니다.');
+
+        if (resultEl) resultEl.textContent = `PR 생성 완료: ${prUrl}\n\n요청 payload:\n${JSON.stringify(fullPayload, null, 2)}`;
+    } catch (e) {
+        if (resultEl) resultEl.textContent = `모듈 업로드 실패: ${e.message}`;
+        console.error(e);
+    }
+}
 function triggerDownload(content, fileName, type) {
     const blob = content instanceof Blob ? content : new Blob([content], { type });
     const url = URL.createObjectURL(blob);

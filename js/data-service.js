@@ -114,12 +114,13 @@ function normalizeDayData(level, day, dayData) {
 function normalizeModuleVocabData(level, moduleId, fileData) {
     const data = fileData || {};
     const vocab = safeArray(data.vocab).map((item, idx) => normalizeVocabItem(level, moduleId, idx, item));
+    const quiz = safeArray(data.quiz).map((item, idx) => normalizeQuizItem(level, moduleId, idx, item));
     return {
         title: safeString(data.title) || moduleId,
-        story: null,
-        analysis: [],
+        story: data.story == null ? null : safeString(data.story),
+        analysis: safeArray(data.analysis),
         vocab,
-        quiz: []
+        quiz
     };
 }
 
