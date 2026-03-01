@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 033",
+  "moduleId": "n2-module-033",
+  "vocab": [
+    {
+      "word": "通貨",
+      "read": "つうか",
+      "mean": "통화(화폐)",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "通学",
+      "read": "つうがく",
+      "mean": "통학",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "通達",
+      "read": "つうたつ",
+      "mean": "통달, 시달",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "通用",
+      "read": "つうよう",
+      "mean": "통용",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "通路",
+      "read": "つうろ",
+      "mean": "통로",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "使い捨て",
+      "read": "つかいすて",
+      "mean": "일회용",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "突き当たり",
+      "read": "つきあたり",
+      "mean": "막다른 곳",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "唾",
+      "read": "つば",
+      "mean": "침",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "粒",
+      "read": "つぶ",
+      "mean": "알, 낱알",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "罪",
+      "read": "つみ",
+      "mean": "죄",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "積み重ね",
+      "read": "つみかさね",
+      "mean": "축적, 쌓아 올림",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "つや",
+      "read": "つや",
+      "mean": "광택, 윤기",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "強火",
+      "read": "つよび",
+      "mean": "센 불",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "強み",
+      "read": "つよみ",
+      "mean": "강점",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "釣り",
+      "read": "つり",
+      "mean": "낚시",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "連れ",
+      "read": "つれ",
+      "mean": "동행, 일행",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 10
+    },
+    {
+      "word": "定価",
+      "read": "ていか",
+      "mean": "정가",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "定休日",
+      "read": "ていきゅうび",
+      "mean": "정기 휴일",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "提供",
+      "read": "ていきょう",
+      "mean": "제공",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "抵抗",
+      "read": "ていこう",
+      "mean": "저항",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "停止",
+      "read": "ていし",
+      "mean": "정지",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "訂正",
+      "read": "ていせい",
+      "mean": "정정",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "程度",
+      "read": "ていど",
+      "mean": "정도",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "定年",
+      "read": "ていねん",
+      "mean": "정년",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    },
+    {
+      "word": "停留所",
+      "read": "ていりゅうじょ",
+      "mean": "정류장",
+      "tags": [],
+      "moduleId": "n2-module-033",
+      "legacyDay": 11
+    }
+  ]
+}

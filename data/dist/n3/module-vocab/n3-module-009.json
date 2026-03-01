@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 009",
+  "moduleId": "n3-module-009",
+  "vocab": [
+    {
+      "word": "気体",
+      "read": "きたい",
+      "mean": "기체",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 3
+    },
+    {
+      "word": "帰宅",
+      "read": "きたく",
+      "mean": "귀가",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 3
+    },
+    {
+      "word": "喫煙席",
+      "read": "きつえんせき",
+      "mean": "흡연석",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 3
+    },
+    {
+      "word": "喫茶店",
+      "read": "きっさてん",
+      "mean": "찻집, 카페",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 3
+    },
+    {
+      "word": "記入",
+      "read": "きにゅう",
+      "mean": "기입",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 3
+    },
+    {
+      "word": "記念",
+      "read": "きねん",
+      "mean": "기념",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 3
+    },
+    {
+      "word": "希望",
+      "read": "きぼう",
+      "mean": "희망",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "基本",
+      "read": "きほん",
+      "mean": "기본",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "決まり",
+      "read": "きまり",
+      "mean": "규칙, 정해진 것",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "疑問",
+      "read": "ぎもん",
+      "mean": "의문",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "逆",
+      "read": "ぎゃく",
+      "mean": "역, 반대",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "休暇",
+      "read": "きゅうか",
+      "mean": "휴가",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "休業",
+      "read": "きゅうぎょう",
+      "mean": "휴업",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "休憩",
+      "read": "きゅうけい",
+      "mean": "휴게, 휴식",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "休日",
+      "read": "きゅうじつ",
+      "mean": "휴일",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "給食",
+      "read": "きゅうしょく",
+      "mean": "급식",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "急ブレーキ",
+      "read": "きゅうブレーキ",
+      "mean": "급브레이크",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "給与",
+      "read": "きゅうよ",
+      "mean": "급여",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "休養",
+      "read": "きゅうよう",
+      "mean": "휴양",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "給料",
+      "read": "きゅうりょう",
+      "mean": "월급, 급료",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "強化",
+      "read": "きょうか",
+      "mean": "강화",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "教科書",
+      "read": "きょうかしょ",
+      "mean": "교과서",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "教師",
+      "read": "きょうし",
+      "mean": "교사",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "行事",
+      "read": "ぎょうじ",
+      "mean": "행사",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    },
+    {
+      "word": "教授",
+      "read": "きょうじゅ",
+      "mean": "교수",
+      "tags": [],
+      "moduleId": "n3-module-009",
+      "legacyDay": 4
+    }
+  ]
+}

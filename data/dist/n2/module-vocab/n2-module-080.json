@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 080",
+  "moduleId": "n2-module-080",
+  "vocab": [
+    {
+      "word": "後ほど",
+      "read": "のちほど",
+      "mean": "나중에",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "はたして",
+      "read": "はたして",
+      "mean": "과연",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "はらはら",
+      "read": "はらはら",
+      "mean": "조마조마",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "比較的",
+      "read": "ひかくてき",
+      "mean": "비교적",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひそひそ",
+      "read": "ひそひそ",
+      "mean": "소근소근",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "びっしょり",
+      "read": "びっしょり",
+      "mean": "흠뻑",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "一通り",
+      "read": "ひととおり",
+      "mean": "대강",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "独りでに",
+      "read": "ひとりでに",
+      "mean": "저절로",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "一人一人",
+      "read": "ひとりひとり",
+      "mean": "한 사람 한 사람",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "再び",
+      "read": "ふたたび",
+      "mean": "재차, 다시",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ふと",
+      "read": "ふと",
+      "mean": "문득",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ぶるぶる",
+      "read": "ぶるぶる",
+      "mean": "벌벌",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ふわふわ",
+      "read": "ふわふわ",
+      "mean": "둥실둥실, 폭신폭신",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ふんわり",
+      "read": "ふんわり",
+      "mean": "살짝, 폭신하게",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ほぼ",
+      "read": "ほぼ",
+      "mean": "거의",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ぼんやり",
+      "read": "ぼんやり",
+      "mean": "멍하니, 희미하게",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "まあまあ",
+      "read": "まあまあ",
+      "mean": "그저 그런대로",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "まさに",
+      "read": "まさに",
+      "mean": "바로, 틀림없이",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "ますます",
+      "read": "ますます",
+      "mean": "점점",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "間もなく",
+      "read": "まもなく",
+      "mean": "머지않아, 곧",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "まるで",
+      "read": "まるで",
+      "mean": "마치, 전혀",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "万一",
+      "read": "まんいち",
+      "mean": "만일",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "自ら",
+      "read": "みずから",
+      "mean": "스스로",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "むしろ",
+      "read": "むしろ",
+      "mean": "오히려",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    },
+    {
+      "word": "めっきり",
+      "read": "めっきり",
+      "mean": "부쩍, 현저히",
+      "tags": [],
+      "moduleId": "n2-module-080",
+      "legacyDay": 26
+    }
+  ]
+}

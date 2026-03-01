@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 022",
+  "moduleId": "n3-module-022",
+  "vocab": [
+    {
+      "word": "数式",
+      "read": "すうしき",
+      "mean": "수식",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "末っ子",
+      "read": "すえっこ",
+      "mean": "막내",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "好き嫌い",
+      "read": "すききらい",
+      "mean": "좋고 싫음, 호불호",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "全て",
+      "read": "すべて",
+      "mean": "모두, 전부",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "住まい",
+      "read": "すまい",
+      "mean": "거주지, 사는 곳",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "隅",
+      "read": "すみ",
+      "mean": "구석",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "図面",
+      "read": "ずめん",
+      "mean": "도면",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "税",
+      "read": "ぜい",
+      "mean": "세금",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "正解",
+      "read": "せいかい",
+      "mean": "정답",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "性格",
+      "read": "せいかく",
+      "mean": "성격",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "生活費",
+      "read": "せいかつひ",
+      "mean": "생활비",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "請求書",
+      "read": "せいきゅうしょ",
+      "mean": "청구서",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "税金",
+      "read": "ぜいきん",
+      "mean": "세금",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "成功",
+      "read": "せいこう",
+      "mean": "성공",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "税込み",
+      "read": "ぜいこみ",
+      "mean": "세금 포함",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "正座",
+      "read": "せいざ",
+      "mean": "정좌(바르게 앉음)",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "政治家",
+      "read": "せいじか",
+      "mean": "정치가",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "正式",
+      "read": "せいしき",
+      "mean": "정식",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "性質",
+      "read": "せいしつ",
+      "mean": "성질",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "青春",
+      "read": "せいしゅん",
+      "mean": "청춘",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "青少年",
+      "read": "せいしょうねん",
+      "mean": "청소년",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "成人",
+      "read": "せいじん",
+      "mean": "성인",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "成績",
+      "read": "せいせき",
+      "mean": "성적",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "清掃",
+      "read": "せいそう",
+      "mean": "청소",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    },
+    {
+      "word": "成長",
+      "read": "せいちょう",
+      "mean": "성장",
+      "tags": [],
+      "moduleId": "n3-module-022",
+      "legacyDay": 8
+    }
+  ]
+}

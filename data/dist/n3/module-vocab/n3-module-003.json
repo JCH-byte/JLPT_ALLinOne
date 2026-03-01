@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 003",
+  "moduleId": "n3-module-003",
+  "vocab": [
+    {
+      "word": "うがい",
+      "read": "うがい",
+      "mean": "양치질(입 헹구기)",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "受取人",
+      "read": "うけとりにん",
+      "mean": "수취인",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "うさぎ",
+      "read": "うさぎ",
+      "mean": "토끼",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "牛",
+      "read": "うし",
+      "mean": "소",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "右折",
+      "read": "うせつ",
+      "mean": "우회전",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "うそつき",
+      "read": "うそつき",
+      "mean": "거짓말쟁이",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "内側",
+      "read": "うちがわ",
+      "mean": "안쪽, 내측",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "腕",
+      "read": "うで",
+      "mean": "팔, 솜씨",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "馬",
+      "read": "うま",
+      "mean": "말",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "生まれ",
+      "read": "うまれ",
+      "mean": "출생, 태생",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "梅",
+      "read": "うめ",
+      "mean": "매실, 매화",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "売り上げ",
+      "read": "うりあげ",
+      "mean": "매출",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "売り切れ",
+      "read": "うりきれ",
+      "mean": "매진, 품절",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "うわさ",
+      "read": "うわさ",
+      "mean": "소문",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "運河",
+      "read": "うんが",
+      "mean": "운하",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "運休",
+      "read": "うんきゅう",
+      "mean": "운휴",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "運転席",
+      "read": "うんてんせき",
+      "mean": "운전석",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "運転免許",
+      "read": "うんてんめんきょ",
+      "mean": "운전면허",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "永遠",
+      "read": "えいえん",
+      "mean": "영원",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "影響",
+      "read": "えいきょう",
+      "mean": "영향",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "英国",
+      "read": "えいこく",
+      "mean": "영국",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "英文",
+      "read": "えいぶん",
+      "mean": "영문",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "栄養",
+      "read": "えいよう",
+      "mean": "영양",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "笑顔",
+      "read": "えがお",
+      "mean": "웃는 얼굴",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "宴会",
+      "read": "えんかい",
+      "mean": "연회, 회식",
+      "tags": [],
+      "moduleId": "n3-module-003",
+      "legacyDay": 2
+    }
+  ]
+}

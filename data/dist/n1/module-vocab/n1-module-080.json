@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 080",
+  "moduleId": "n1-module-080",
+  "vocab": [
+    {
+      "word": "明瞭な",
+      "read": "めいりょうな",
+      "mean": "명료한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "明朗な",
+      "read": "めいろうな",
+      "mean": "명랑한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "綿密な",
+      "read": "めんみつな",
+      "mean": "면밀한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "猛烈な",
+      "read": "もうれつな",
+      "mean": "맹렬한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "厄介な",
+      "read": "やっかいな",
+      "mean": "성가신",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "憂鬱な",
+      "read": "ゆううつな",
+      "mean": "우울한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "有益な",
+      "read": "ゆうえきな",
+      "mean": "유익한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "勇敢な",
+      "read": "ゆうかんな",
+      "mean": "용감한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "優柔不断な",
+      "read": "ゆうじゅうふだんな",
+      "mean": "우유부단한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "優勢な",
+      "read": "ゆうせいな",
+      "mean": "우세한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "悠長な",
+      "read": "ゆうちょうな",
+      "mean": "느긋한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "優美な",
+      "read": "ゆうびな",
+      "mean": "우아한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "有望な",
+      "read": "ゆうぼうな",
+      "mean": "유망한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "緩やかな",
+      "read": "ゆるやかな",
+      "mean": "완만한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "良好な",
+      "read": "りょうこうな",
+      "mean": "양호한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "良質な",
+      "read": "りょうしつな",
+      "mean": "양질의",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "冷酷な",
+      "read": "れいこくな",
+      "mean": "냉혹한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "冷淡な",
+      "read": "れいたんな",
+      "mean": "냉담한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "露骨な",
+      "read": "ろこつな",
+      "mean": "노골적인",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "あえて",
+      "read": "あえて",
+      "mean": "굳이",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "あっさり",
+      "read": "あっさり",
+      "mean": "담백하게, 간단히",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "ありあり",
+      "read": "ありあり",
+      "mean": "뚜렷이",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "いかなる",
+      "read": "いかなる",
+      "mean": "어떠한",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "いかに",
+      "read": "いかに",
+      "mean": "얼마나, 어떻게",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    },
+    {
+      "word": "いかにも",
+      "read": "いかにも",
+      "mean": "정말, 매우",
+      "tags": [],
+      "moduleId": "n1-module-080",
+      "legacyDay": 24
+    }
+  ]
+}

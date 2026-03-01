@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 059",
+  "moduleId": "n1-module-059",
+  "vocab": [
+    {
+      "word": "食いつく",
+      "read": "くいつく",
+      "mean": "물어뜯다, 달려들다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 16
+    },
+    {
+      "word": "食い止める",
+      "read": "くいとめる",
+      "mean": "저지하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 16
+    },
+    {
+      "word": "極める",
+      "read": "きわめる",
+      "mean": "다하다, 극에 달하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 16
+    },
+    {
+      "word": "悔いる",
+      "read": "くいる",
+      "mean": "후회하다, 뉘우치다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 16
+    },
+    {
+      "word": "くぐる",
+      "read": "くぐる",
+      "mean": "빠져나가다, 잠수하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 16
+    },
+    {
+      "word": "挫ける",
+      "read": "くじける",
+      "mean": "좌절하다, 삐다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "砕ける",
+      "read": "くだける",
+      "mean": "부서지다, 꺾이다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "口ずさむ",
+      "read": "くちずさむ",
+      "mean": "흥얼거리다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "朽ちる",
+      "read": "くちる",
+      "mean": "썩다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "覆す",
+      "read": "くつがえす",
+      "mean": "뒤집다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "くつろぐ",
+      "read": "くつろぐ",
+      "mean": "편안히 지내다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "けなす",
+      "read": "けなす",
+      "mean": "헐뜯다, 비방하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "心掛ける",
+      "read": "こころがける",
+      "mean": "명심하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "試みる",
+      "read": "こころみる",
+      "mean": "시도하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "こじれる",
+      "read": "こじれる",
+      "mean": "악화되다, 꼬이다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "こだわる",
+      "read": "こだわる",
+      "mean": "구애되다, 고집하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "拒む",
+      "read": "こばむ",
+      "mean": "거부하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "ごまかす",
+      "read": "ごまかす",
+      "mean": "속이다, 얼버무리다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "籠もる",
+      "read": "こもる",
+      "mean": "틀어박히다, 깃들다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "懲らしめる",
+      "read": "こらしめる",
+      "mean": "응징하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "懲りる",
+      "read": "こりる",
+      "mean": "질리다, 데다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "凝る",
+      "read": "こる",
+      "mean": "열중하다, 뻐근하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "遮る",
+      "read": "さえぎる",
+      "mean": "가로막다, 차단하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "さえずる",
+      "read": "さえずる",
+      "mean": "지저귀다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    },
+    {
+      "word": "冴える",
+      "read": "さえる",
+      "mean": "맑아지다, 선명하다",
+      "tags": [],
+      "moduleId": "n1-module-059",
+      "legacyDay": 17
+    }
+  ]
+}

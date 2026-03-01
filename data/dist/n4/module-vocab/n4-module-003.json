@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 003",
+  "moduleId": "n4-module-003",
+  "vocab": [
+    {
+      "word": "お子さん",
+      "read": "おこさん",
+      "mean": "자녀분",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "おじ",
+      "read": "おじ",
+      "mean": "삼촌, 아저씨",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "押入れ",
+      "read": "おしいれ",
+      "mean": "벽장",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お嬢さん",
+      "read": "おじょうさん",
+      "mean": "따님, 아가씨",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お宅",
+      "read": "おたく",
+      "mean": "댁",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "夫",
+      "read": "おっと",
+      "mean": "남편",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "おつり",
+      "read": "おつり",
+      "mean": "거스름돈",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お手洗い",
+      "read": "おてあらい",
+      "mean": "화장실",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お出かけ",
+      "read": "おでかけ",
+      "mean": "외출",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "音",
+      "read": "おと",
+      "mean": "소리",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "落し物",
+      "read": "おとしもの",
+      "mean": "분실물",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お年寄り",
+      "read": "おとしより",
+      "mean": "노인, 어르신",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "踊り",
+      "read": "おどり",
+      "mean": "춤",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "おば",
+      "read": "おば",
+      "mean": "이모, 고모, 숙모",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お祭り",
+      "read": "おまつり",
+      "mean": "축제",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お見舞い",
+      "read": "おみまい",
+      "mean": "문병",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "お土産",
+      "read": "おみやげ",
+      "mean": "선물, 기념품",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "思い出",
+      "read": "おもいで",
+      "mean": "추억",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "おもちゃ",
+      "read": "おもちゃ",
+      "mean": "장난감",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "表",
+      "read": "おもて",
+      "mean": "표면, 앞면",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "終わり",
+      "read": "おわり",
+      "mean": "끝",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "海岸",
+      "read": "かいがん",
+      "mean": "해안",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "会議室",
+      "read": "かいぎしつ",
+      "mean": "회의실",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "会場",
+      "read": "かいじょう",
+      "mean": "회장, 장소",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    },
+    {
+      "word": "会長",
+      "read": "かいちょう",
+      "mean": "회장",
+      "tags": [],
+      "moduleId": "n4-module-003",
+      "legacyDay": 2
+    }
+  ]
+}

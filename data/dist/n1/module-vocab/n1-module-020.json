@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 020",
+  "moduleId": "n1-module-020",
+  "vocab": [
+    {
+      "word": "仕上げ",
+      "read": "しあげ",
+      "mean": "마무리",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 5
+    },
+    {
+      "word": "支援",
+      "read": "しえん",
+      "mean": "지원",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 5
+    },
+    {
+      "word": "歯科",
+      "read": "しか",
+      "mean": "치과",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 5
+    },
+    {
+      "word": "視覚",
+      "read": "しかく",
+      "mean": "시각",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 5
+    },
+    {
+      "word": "資格",
+      "read": "しかく",
+      "mean": "자격",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 5
+    },
+    {
+      "word": "仕掛け",
+      "read": "しかけ",
+      "mean": "장치, 속임수",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 5
+    },
+    {
+      "word": "指揮",
+      "read": "しき",
+      "mean": "지휘",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "磁気",
+      "read": "じき",
+      "mean": "자기",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "色彩",
+      "read": "しきさい",
+      "mean": "색채",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "しきたり",
+      "read": "しきたり",
+      "mean": "관례, 관습",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "資金",
+      "read": "しきん",
+      "mean": "자금",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "しぐさ",
+      "read": "しぐさ",
+      "mean": "몸짓, 행동",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "仕組み",
+      "read": "しくみ",
+      "mean": "구조, 짜임새",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "施行",
+      "read": "しこう",
+      "mean": "시행",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "試行",
+      "read": "しこう",
+      "mean": "시행(시험 삼아 함)",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "志向",
+      "read": "しこう",
+      "mean": "지향",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "事項",
+      "read": "じこう",
+      "mean": "사항",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "自業自得",
+      "read": "じごうじとく",
+      "mean": "자업자득",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "嗜好品",
+      "read": "しこうひん",
+      "mean": "기호품",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "示唆",
+      "read": "しさ",
+      "mean": "시사",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "自在",
+      "read": "じざい",
+      "mean": "자재, 마음대로",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "思索",
+      "read": "しさく",
+      "mean": "사색",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "視察",
+      "read": "しさつ",
+      "mean": "시찰",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "資産",
+      "read": "しさん",
+      "mean": "자산",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "資質",
+      "read": "ししつ",
+      "mean": "자질",
+      "tags": [],
+      "moduleId": "n1-module-020",
+      "legacyDay": 6
+    }
+  ]
+}

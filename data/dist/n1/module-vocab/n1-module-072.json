@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 072",
+  "moduleId": "n1-module-072",
+  "vocab": [
+    {
+      "word": "手痛い",
+      "read": "ていたい",
+      "mean": "뼈아프다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "でかい",
+      "read": "でかい",
+      "mean": "크다(속어)",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "尊い",
+      "read": "とうとい",
+      "mean": "소중하다, 고귀하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "情けない",
+      "read": "なさけない",
+      "mean": "한심하다, 비참하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "情け深い",
+      "read": "なさけぶかい",
+      "mean": "동정심이 많다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "名高い",
+      "read": "なだかい",
+      "mean": "유명하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "何気ない",
+      "read": "なにげない",
+      "mean": "아무렇지 않다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "生臭い",
+      "read": "なまぐさい",
+      "mean": "비린내 나다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "悩ましい",
+      "read": "なやましい",
+      "mean": "괴롭다, 관능적이다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "粘り強い",
+      "read": "ねばりづよい",
+      "mean": "끈기 있다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "望ましい",
+      "read": "のぞましい",
+      "mean": "바람직하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "はかない",
+      "read": "はかない",
+      "mean": "덧없다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "はかばかしい",
+      "read": "はかばかしい",
+      "mean": "순조롭다(주로 부정형)",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "華々しい",
+      "read": "はなばなしい",
+      "mean": "화려하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "幅広い",
+      "read": "はばひろい",
+      "mean": "폭넓다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "久しい",
+      "read": "ひさしい",
+      "mean": "오래되다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "分厚い",
+      "read": "ぶあつい",
+      "mean": "두껍다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "ほほえましい",
+      "read": "ほほえましい",
+      "mean": "흐뭇하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "紛らわしい",
+      "read": "まぎらわしい",
+      "mean": "헷갈리기 쉽다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "待ち遠しい",
+      "read": "まちどおしい",
+      "mean": "기다려지다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "見苦しい",
+      "read": "みぐるしい",
+      "mean": "보기 흉하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "みすぼらしい",
+      "read": "みすぼらしい",
+      "mean": "초라하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "満たない",
+      "read": "みたない",
+      "mean": "미달하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "空しい",
+      "read": "むなしい",
+      "mean": "허무하다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    },
+    {
+      "word": "目覚ましい",
+      "read": "めざましい",
+      "mean": "눈부시다",
+      "tags": [],
+      "moduleId": "n1-module-072",
+      "legacyDay": 21
+    }
+  ]
+}

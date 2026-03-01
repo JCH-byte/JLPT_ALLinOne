@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 060",
+  "moduleId": "n3-module-060",
+  "vocab": [
+    {
+      "word": "消極的な",
+      "read": "しょうきょくてきな",
+      "mean": "소극적인",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "正直な",
+      "read": "しょうじきな",
+      "mean": "정직한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "上品な",
+      "read": "じょうひんな",
+      "mean": "고상한, 품위 있는",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "新鮮な",
+      "read": "しんせんな",
+      "mean": "신선한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "素敵な",
+      "read": "すてきな",
+      "mean": "멋진",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "素直な",
+      "read": "すなおな",
+      "mean": "솔직한, 순순한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "正確な",
+      "read": "せいかくな",
+      "mean": "정확한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "清潔な",
+      "read": "せいけつな",
+      "mean": "청결한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "正常な",
+      "read": "せいじょうな",
+      "mean": "정상적인",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "積極的な",
+      "read": "せっきょくてきな",
+      "mean": "적극적인",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "そっくりな",
+      "read": "そっくりな",
+      "mean": "똑 닮은",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "退屈な",
+      "read": "たいくつな",
+      "mean": "지루한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "代表的な",
+      "read": "だいひょうてきな",
+      "mean": "대표적인",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "確かな",
+      "read": "たしかな",
+      "mean": "확실한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "短気な",
+      "read": "たんきな",
+      "mean": "성미가 급한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "単純な",
+      "read": "たんじゅんな",
+      "mean": "단순한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "適当な",
+      "read": "てきとうな",
+      "mean": "적당한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "得意な",
+      "read": "とくいな",
+      "mean": "잘하는, 자신 있는",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "なだらかな",
+      "read": "なだらかな",
+      "mean": "완만한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "苦手な",
+      "read": "にがてな",
+      "mean": "서툰, 거북한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "熱心な",
+      "read": "ねっしんな",
+      "mean": "열심인",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "不安な",
+      "read": "ふあんな",
+      "mean": "불안한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "不可能な",
+      "read": "ふかのうな",
+      "mean": "불가능한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "不思議な",
+      "read": "ふしぎな",
+      "mean": "이상한, 불가사의한",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    },
+    {
+      "word": "不自由な",
+      "read": "ふじゆうな",
+      "mean": "불편한, 부자유스러운",
+      "tags": [],
+      "moduleId": "n3-module-060",
+      "legacyDay": 24
+    }
+  ]
+}

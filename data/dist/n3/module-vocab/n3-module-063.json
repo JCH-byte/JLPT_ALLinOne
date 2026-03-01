@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 063",
+  "moduleId": "n3-module-063",
+  "vocab": [
+    {
+      "word": "次第に",
+      "read": "しだいに",
+      "mean": "점차",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "しっかり",
+      "read": "しっかり",
+      "mean": "확실히, 단단히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "じっと",
+      "read": "じっと",
+      "mean": "가만히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "実は",
+      "read": "じつは",
+      "mean": "실은",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "しばらく",
+      "read": "しばらく",
+      "mean": "잠시",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "しみじみ",
+      "read": "しみじみ",
+      "mean": "절실히, 곰곰이",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "少々",
+      "read": "しょうしょう",
+      "mean": "조금, 잠시",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "徐々に",
+      "read": "じょじょに",
+      "mean": "서서히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "ずいぶん",
+      "read": "ずいぶん",
+      "mean": "꽤, 상당히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "ずきずき",
+      "read": "ずきずき",
+      "mean": "욱신욱신",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "少なくとも",
+      "read": "すくなくとも",
+      "mean": "적어도",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "少しも",
+      "read": "すこしも",
+      "mean": "조금도",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "すでに",
+      "read": "すでに",
+      "mean": "이미",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "絶対",
+      "read": "ぜったい",
+      "mean": "절대",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "ぜひ",
+      "read": "ぜひ",
+      "mean": "꼭",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "相当",
+      "read": "そうとう",
+      "mean": "상당히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 25
+    },
+    {
+      "word": "続々",
+      "read": "ぞくぞく",
+      "mean": "속속, 잇달아",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "そっと",
+      "read": "そっと",
+      "mean": "살짝, 가만히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "それぞれ",
+      "read": "それぞれ",
+      "mean": "각각",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "そろそろ",
+      "read": "そろそろ",
+      "mean": "슬슬",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "大して",
+      "read": "たいして",
+      "mean": "별로 (~않다)",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "互いに",
+      "read": "たがいに",
+      "mean": "서로",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "多少",
+      "read": "たしょう",
+      "mean": "다소",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "たっぷり",
+      "read": "たっぷり",
+      "mean": "듬뿍, 충분히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    },
+    {
+      "word": "たまたま",
+      "read": "たまたま",
+      "mean": "우연히",
+      "tags": [],
+      "moduleId": "n3-module-063",
+      "legacyDay": 26
+    }
+  ]
+}

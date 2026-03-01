@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 035",
+  "moduleId": "n1-module-035",
+  "vocab": [
+    {
+      "word": "手違い",
+      "read": "てちがい",
+      "mean": "차질, 빗나감",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "撤回",
+      "read": "てっかい",
+      "mean": "철회",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "撤去",
+      "read": "てっきょ",
+      "mean": "철거",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "てっぺん",
+      "read": "てっぺん",
+      "mean": "정상, 꼭대기",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "出直し",
+      "read": "でなおし",
+      "mean": "다시 함",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手抜き",
+      "read": "てぬき",
+      "mean": "대충 함, 날림",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手配",
+      "read": "てはい",
+      "mean": "수배, 준비",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手筈",
+      "read": "てはず",
+      "mean": "절차, 준비",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手引き",
+      "read": "てびき",
+      "mean": "인도, 길잡이",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手本",
+      "read": "てほん",
+      "mean": "본보기",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手回し",
+      "read": "てまわし",
+      "mean": "준비, 수배",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手元",
+      "read": "てもと",
+      "mean": "수수, 손닿는 곳",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 9
+    },
+    {
+      "word": "手分け",
+      "read": "てわけ",
+      "mean": "분담",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "田園",
+      "read": "でんえん",
+      "mean": "전원",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "転換",
+      "read": "てんかん",
+      "mean": "전환",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "転居",
+      "read": "てんきょ",
+      "mean": "전거, 이사",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "転校",
+      "read": "てんこう",
+      "mean": "전학",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "天災",
+      "read": "てんさい",
+      "mean": "천재(지변)",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "伝承",
+      "read": "でんしょう",
+      "mean": "전승",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "転職",
+      "read": "てんしょく",
+      "mean": "이직, 전직",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "転覆",
+      "read": "てんぷく",
+      "mean": "전복",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "展望",
+      "read": "てんぼう",
+      "mean": "전망",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "転落",
+      "read": "てんらく",
+      "mean": "전락",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "胴",
+      "read": "どう",
+      "mean": "몸통",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    },
+    {
+      "word": "陶器",
+      "read": "とうき",
+      "mean": "도기",
+      "tags": [],
+      "moduleId": "n1-module-035",
+      "legacyDay": 10
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 005",
+  "moduleId": "n4-module-005",
+  "vocab": [
+    {
+      "word": "聞き取り",
+      "read": "ききとり",
+      "mean": "청해, 듣기",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "帰国",
+      "read": "きこく",
+      "mean": "귀국",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "記者",
+      "read": "きしゃ",
+      "mean": "기자",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "汽車",
+      "read": "きしゃ",
+      "mean": "기차",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "技術",
+      "read": "ぎじゅつ",
+      "mean": "기술",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "季節",
+      "read": "きせつ",
+      "mean": "계절",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "喫茶店",
+      "read": "きっさてん",
+      "mean": "찻집",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "絹",
+      "read": "きぬ",
+      "mean": "비단",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "気分",
+      "read": "きぶん",
+      "mean": "기분",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "君",
+      "read": "きみ",
+      "mean": "자네, 너",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "気持ち",
+      "read": "きもち",
+      "mean": "마음, 기분",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "着物",
+      "read": "きもの",
+      "mean": "기모노",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "客",
+      "read": "きゃく",
+      "mean": "손님",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "急行",
+      "read": "きゅうこう",
+      "mean": "급행",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "教育",
+      "read": "きょういく",
+      "mean": "교육",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "教会",
+      "read": "きょうかい",
+      "mean": "교회",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "金魚",
+      "read": "きんぎょ",
+      "mean": "금붕어",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "近所",
+      "read": "きんじょ",
+      "mean": "이웃, 근처",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "具合",
+      "read": "ぐあい",
+      "mean": "상태",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "空気",
+      "read": "くうき",
+      "mean": "공기",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "空港",
+      "read": "くうこう",
+      "mean": "공항",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "草",
+      "read": "くさ",
+      "mean": "풀",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "雲",
+      "read": "くも",
+      "mean": "구름",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "曇り",
+      "read": "くもり",
+      "mean": "흐림",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    },
+    {
+      "word": "区役所",
+      "read": "くやくしょ",
+      "mean": "구청",
+      "tags": [],
+      "moduleId": "n4-module-005",
+      "legacyDay": 3
+    }
+  ]
+}

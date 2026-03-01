@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 005",
+  "moduleId": "n1-module-005",
+  "vocab": [
+    {
+      "word": "外観",
+      "read": "がいかん",
+      "mean": "외관",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "階級",
+      "read": "かいきゅう",
+      "mean": "계급",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "快挙",
+      "read": "かいきょ",
+      "mean": "쾌거",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解雇",
+      "read": "かいこ",
+      "mean": "해고",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "回顧",
+      "read": "かいこ",
+      "mean": "회고",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改修",
+      "read": "かいしゅう",
+      "mean": "개수, 수리",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "怪獣",
+      "read": "かいじゅう",
+      "mean": "괴수",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解除",
+      "read": "かいじょ",
+      "mean": "해제",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "会心",
+      "read": "かいしん",
+      "mean": "회심, 마음에 듦",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "概説",
+      "read": "がいせつ",
+      "mean": "개설",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "階層",
+      "read": "かいそう",
+      "mean": "계층",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "回想",
+      "read": "かいそう",
+      "mean": "회상",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "開拓",
+      "read": "かいたく",
+      "mean": "개척",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "怪談",
+      "read": "かいだん",
+      "mean": "괴담",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "害虫",
+      "read": "がいちゅう",
+      "mean": "해충",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改定",
+      "read": "かいてい",
+      "mean": "개정(법률 등)",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改訂",
+      "read": "かいてい",
+      "mean": "개정(서적 등)",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改訂版",
+      "read": "かいていばん",
+      "mean": "개정판",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "街頭",
+      "read": "がいとう",
+      "mean": "가두, 길거리",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "該当",
+      "read": "がいとう",
+      "mean": "해당",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "介入",
+      "read": "かいにゅう",
+      "mean": "개입",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "海抜",
+      "read": "かいばつ",
+      "mean": "해발",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "回避",
+      "read": "かいひ",
+      "mean": "회피",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "介抱",
+      "read": "かいほう",
+      "mean": "간호, 돌봄",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解剖",
+      "read": "かいぼう",
+      "mean": "해부",
+      "tags": [],
+      "moduleId": "n1-module-005",
+      "legacyDay": 2
+    }
+  ]
+}

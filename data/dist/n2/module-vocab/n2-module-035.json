@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 035",
+  "moduleId": "n2-module-035",
+  "vocab": [
+    {
+      "word": "電卓",
+      "read": "でんたく",
+      "mean": "계산기",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "電池",
+      "read": "でんち",
+      "mean": "전지, 배터리",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "店長",
+      "read": "てんちょう",
+      "mean": "점장",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "伝統",
+      "read": "でんとう",
+      "mean": "전통",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "店内",
+      "read": "てんない",
+      "mean": "점내",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "天然",
+      "read": "てんねん",
+      "mean": "천연",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "電波",
+      "read": "でんぱ",
+      "mean": "전파",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "添付",
+      "read": "てんぷ",
+      "mean": "첨부",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "電流",
+      "read": "でんりゅう",
+      "mean": "전류",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "電力",
+      "read": "でんりょく",
+      "mean": "전력",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "統一",
+      "read": "とういつ",
+      "mean": "통일",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "同格",
+      "read": "どうかく",
+      "mean": "동격",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "峠",
+      "read": "とうげ",
+      "mean": "고개, 절정",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "東西",
+      "read": "とうざい",
+      "mean": "동서",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "当時",
+      "read": "とうじ",
+      "mean": "당시",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "同時",
+      "read": "どうじ",
+      "mean": "동시",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "投書",
+      "read": "とうしょ",
+      "mean": "투고",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "同情",
+      "read": "どうじょう",
+      "mean": "동정",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "道徳",
+      "read": "どうとく",
+      "mean": "도덕",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "盗難",
+      "read": "とうなん",
+      "mean": "도난",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "導入",
+      "read": "どうにゅう",
+      "mean": "도입",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "当番",
+      "read": "とうばん",
+      "mean": "당번",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "投票",
+      "read": "とうひょう",
+      "mean": "투표",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "逃亡",
+      "read": "とうぼう",
+      "mean": "도망",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    },
+    {
+      "word": "動揺",
+      "read": "どうよう",
+      "mean": "동요",
+      "tags": [],
+      "moduleId": "n2-module-035",
+      "legacyDay": 11
+    }
+  ]
+}

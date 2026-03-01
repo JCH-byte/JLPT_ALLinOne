@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 025",
+  "moduleId": "n3-module-025",
+  "vocab": [
+    {
+      "word": "退院",
+      "read": "たいいん",
+      "mean": "퇴원",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "体温",
+      "read": "たいおん",
+      "mean": "체온",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "大会",
+      "read": "たいかい",
+      "mean": "대회",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "退学",
+      "read": "たいがく",
+      "mean": "퇴학",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "代金",
+      "read": "だいきん",
+      "mean": "대금",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "滞在",
+      "read": "たいざい",
+      "mean": "체재",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "対策",
+      "read": "たいさく",
+      "mean": "대책",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "体重",
+      "read": "たいじゅう",
+      "mean": "체중",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "退職",
+      "read": "たいしょく",
+      "mean": "퇴직",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "態度",
+      "read": "たいど",
+      "mean": "태도",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "大統領",
+      "read": "だいとうりょう",
+      "mean": "대통령",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "代表",
+      "read": "だいひょう",
+      "mean": "대표",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "逮捕",
+      "read": "たいほ",
+      "mean": "체포",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "題名",
+      "read": "だいめい",
+      "mean": "제명, 제목",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "代理",
+      "read": "だいり",
+      "mean": "대리",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "大量",
+      "read": "たいりょう",
+      "mean": "대량",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "体力",
+      "read": "たいりょく",
+      "mean": "체력",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "宝",
+      "read": "たから",
+      "mean": "보물",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "足し算",
+      "read": "たしざん",
+      "mean": "덧셈",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "ただ",
+      "read": "ただ",
+      "mean": "단지, 공짜",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "戦い",
+      "read": "たたかい",
+      "mean": "싸움, 전투",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "抱っこ",
+      "read": "だっこ",
+      "mean": "안음, 포옹",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "他人",
+      "read": "たにん",
+      "mean": "타인",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "種",
+      "read": "たね",
+      "mean": "씨앗, 종자",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    },
+    {
+      "word": "頼み",
+      "read": "たのみ",
+      "mean": "부탁",
+      "tags": [],
+      "moduleId": "n3-module-025",
+      "legacyDay": 9
+    }
+  ]
+}

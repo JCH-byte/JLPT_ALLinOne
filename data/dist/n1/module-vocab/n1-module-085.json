@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 085",
+  "moduleId": "n1-module-085",
+  "vocab": [
+    {
+      "word": "どんより",
+      "read": "どんより",
+      "mean": "잔뜩 흐림",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ないし",
+      "read": "ないし",
+      "mean": "내지, 또는",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "なおさら",
+      "read": "なおさら",
+      "mean": "더욱더",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "なにとぞ",
+      "read": "なにとぞ",
+      "mean": "부디",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "何より",
+      "read": "なにより",
+      "mean": "무엇보다",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "なるたけ",
+      "read": "なるたけ",
+      "mean": "되도록",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "なんだか",
+      "read": "なんだか",
+      "mean": "왠지",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "なんだかんだ",
+      "read": "なんだかんだ",
+      "mean": "이러니저러니",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "なんと",
+      "read": "なんと",
+      "mean": "무려, 얼마나",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "如実に",
+      "read": "にょじつに",
+      "mean": "여실히",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "根こそぎ",
+      "read": "ねこそぎ",
+      "mean": "뿌리째",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ねばねば",
+      "read": "ねばねば",
+      "mean": "끈적끈적",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "軒並",
+      "read": "のきなみ",
+      "mean": "집집마다, 일제히",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "漠然と",
+      "read": "ばくぜんと",
+      "mean": "막연하게",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "はなはだ",
+      "read": "はなはだ",
+      "mean": "매우",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひいては",
+      "read": "ひいては",
+      "mean": "나아가서는",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひしひし",
+      "read": "ひしひし",
+      "mean": "저릿저릿, 절실히",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひたすら",
+      "read": "ひたすら",
+      "mean": "오로지",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひっそり",
+      "read": "ひっそり",
+      "mean": "조용히, 가만히",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "人一倍",
+      "read": "ひといちばい",
+      "mean": "남달리, 갑절",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひとまず",
+      "read": "ひとまず",
+      "mean": "우선",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひょっと",
+      "read": "ひょっと",
+      "mean": "만약, 뜻밖에",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "ひんやり",
+      "read": "ひんやり",
+      "mean": "썰렁, 서늘",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "不意に",
+      "read": "ふいに",
+      "mean": "갑자기",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    },
+    {
+      "word": "深深と",
+      "read": "しんしんと",
+      "mean": "고요히, 푹",
+      "tags": [],
+      "moduleId": "n1-module-085",
+      "legacyDay": 26
+    }
+  ]
+}

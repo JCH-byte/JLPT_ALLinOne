@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 010",
+  "moduleId": "n2-module-010",
+  "vocab": [
+    {
+      "word": "議会",
+      "read": "ぎかい",
+      "mean": "의회",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "着替え",
+      "read": "きがえ",
+      "mean": "갈아입을 옷, 갈아입음",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "企画",
+      "read": "きかく",
+      "mean": "기획",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "機関",
+      "read": "きかん",
+      "mean": "기관",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "危機",
+      "read": "きき",
+      "mean": "위기",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "企業",
+      "read": "きぎょう",
+      "mean": "기업",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "飢饉",
+      "read": "ききん",
+      "mean": "기근",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "器具",
+      "read": "きぐ",
+      "mean": "기구",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "機嫌",
+      "read": "きげん",
+      "mean": "기분, 비위",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "気候",
+      "read": "きこう",
+      "mean": "기후",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "記号",
+      "read": "きごう",
+      "mean": "기호",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "岸",
+      "read": "きし",
+      "mean": "기슭, 물가",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 3
+    },
+    {
+      "word": "生地",
+      "read": "きじ",
+      "mean": "옷감, 반죽, 본연의 성질",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "技師",
+      "read": "ぎし",
+      "mean": "기사(기술자)",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "儀式",
+      "read": "ぎしき",
+      "mean": "의식",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "貴社",
+      "read": "きしゃ",
+      "mean": "귀사",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "基準",
+      "read": "きじゅん",
+      "mean": "기준",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "起床",
+      "read": "きしょう",
+      "mean": "기상",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "奇数",
+      "read": "きすう",
+      "mean": "홀수",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "帰省",
+      "read": "きせい",
+      "mean": "귀성",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "基礎",
+      "read": "きそ",
+      "mean": "기초",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "基地",
+      "read": "きち",
+      "mean": "기지",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "議長",
+      "read": "ぎちょう",
+      "mean": "의장",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "きっかけ",
+      "read": "きっかけ",
+      "mean": "계기",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "喫茶",
+      "read": "きっさ",
+      "mean": "끽다, 찻집",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    },
+    {
+      "word": "起動",
+      "read": "きどう",
+      "mean": "기동",
+      "tags": [],
+      "moduleId": "n2-module-010",
+      "legacyDay": 4
+    }
+  ]
+}

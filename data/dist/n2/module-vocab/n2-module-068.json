@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 068",
+  "moduleId": "n2-module-068",
+  "vocab": [
+    {
+      "word": "略する",
+      "read": "りゃくする",
+      "mean": "생략하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "割り込む",
+      "read": "わりこむ",
+      "mean": "끼어들다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "温かい",
+      "read": "あたたかい",
+      "mean": "따뜻하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "厚かましい",
+      "read": "あつかましい",
+      "mean": "뻔뻔하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "危うい",
+      "read": "あやうい",
+      "mean": "위태롭다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "怪しい",
+      "read": "あやしい",
+      "mean": "수상하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "荒い",
+      "read": "あらい",
+      "mean": "거칠다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "淡い",
+      "read": "あわい",
+      "mean": "진하지 않다, 옅다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "慌ただしい",
+      "read": "あわただしい",
+      "mean": "분주하다, 어수선하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "勇ましい",
+      "read": "いさましい",
+      "mean": "용감하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "著しい",
+      "read": "いちじるしい",
+      "mean": "현저하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "偉い",
+      "read": "えらい",
+      "mean": "훌륭하다, 지위가 높다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "惜しい",
+      "read": "おしい",
+      "mean": "아깝다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "思いがけない",
+      "read": "おもいがけない",
+      "mean": "뜻밖이다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "輝かしい",
+      "read": "かがやかしい",
+      "mean": "빛나다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "規則正しい",
+      "read": "きそくただしい",
+      "mean": "규칙적이다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "清い",
+      "read": "きよい",
+      "mean": "맑다, 깨끗하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "くどい",
+      "read": "くどい",
+      "mean": "장황하다, 끈덕지다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "煙い",
+      "read": "けむい",
+      "mean": "맵다 (연기로)",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "心強い",
+      "read": "こころづよい",
+      "mean": "마음 든든하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "快い",
+      "read": "こころよい",
+      "mean": "기분 좋다, 상쾌하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "騒がしい",
+      "read": "さわがしい",
+      "mean": "시끄럽다, 뒤숭숭하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "仕方がない",
+      "read": "しかたがない",
+      "mean": "어쩔 수 없다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "湿っぽい",
+      "read": "しめっぽい",
+      "mean": "축축하다, 우울하다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    },
+    {
+      "word": "しょうがない",
+      "read": "しょうがない",
+      "mean": "어쩔 수 없다",
+      "tags": [],
+      "moduleId": "n2-module-068",
+      "legacyDay": 22
+    }
+  ]
+}

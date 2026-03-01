@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 039",
+  "moduleId": "n3-module-039",
+  "vocab": [
+    {
+      "word": "未来",
+      "read": "みらい",
+      "mean": "미래",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "民間",
+      "read": "みんかん",
+      "mean": "민간",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "向かい",
+      "read": "むかい",
+      "mean": "맞은편",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "迎え",
+      "read": "むかえ",
+      "mean": "마중",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "向き",
+      "read": "むき",
+      "mean": "방향, 적합함",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "無休",
+      "read": "むきゅう",
+      "mean": "무휴",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "無視",
+      "read": "むし",
+      "mean": "무시",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "無地",
+      "read": "むじ",
+      "mean": "무늬가 없음",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "虫歯",
+      "read": "むしば",
+      "mean": "충치",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "無線",
+      "read": "むせん",
+      "mean": "무선",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "無駄",
+      "read": "むだ",
+      "mean": "쓸모없음, 헛됨",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "無駄遣い",
+      "read": "むだづかい",
+      "mean": "낭비",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "胸",
+      "read": "むね",
+      "mean": "가슴",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "無料",
+      "read": "むりょう",
+      "mean": "무료",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "めい",
+      "read": "めい",
+      "mean": "조카(여자)",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "名作",
+      "read": "めいさく",
+      "mean": "명작",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "名刺",
+      "read": "めいし",
+      "mean": "명함",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 14
+    },
+    {
+      "word": "名人",
+      "read": "めいじん",
+      "mean": "명인",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    },
+    {
+      "word": "命令",
+      "read": "めいれい",
+      "mean": "명령",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    },
+    {
+      "word": "迷惑",
+      "read": "めいわく",
+      "mean": "민폐",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    },
+    {
+      "word": "目上",
+      "read": "めうえ",
+      "mean": "윗사람",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    },
+    {
+      "word": "目覚まし",
+      "read": "めざまし",
+      "mean": "자명종, 잠을 깸",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    },
+    {
+      "word": "飯",
+      "read": "めし",
+      "mean": "밥",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    },
+    {
+      "word": "目下",
+      "read": "めした",
+      "mean": "아랫사람",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    },
+    {
+      "word": "めまい",
+      "read": "めまい",
+      "mean": "현기증",
+      "tags": [],
+      "moduleId": "n3-module-039",
+      "legacyDay": 15
+    }
+  ]
+}

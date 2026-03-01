@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 064",
+  "moduleId": "n1-module-064",
+  "vocab": [
+    {
+      "word": "遂げる",
+      "read": "とげる",
+      "mean": "이루다, 마치다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "綴じる",
+      "read": "とじる",
+      "mean": "철하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "途絶える",
+      "read": "とだえる",
+      "mean": "끊어지다, 두절되다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "滞る",
+      "read": "とどこおる",
+      "mean": "밀리다, 정체되다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "唱える",
+      "read": "となえる",
+      "mean": "외치다, 주장하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "飛び交う",
+      "read": "とびかう",
+      "mean": "난무하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "とぼける",
+      "read": "とぼける",
+      "mean": "시치미 떼다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "戸惑う",
+      "read": "とまどう",
+      "mean": "당황하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り扱う",
+      "read": "とりあつかう",
+      "mean": "다루다, 취급하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り調べる",
+      "read": "とりしらべる",
+      "mean": "조사하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り付く",
+      "read": "とりつく",
+      "mean": "매달리다, 착수하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り付ける",
+      "read": "とりつける",
+      "mean": "설치하다, 성사시키다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り除く",
+      "read": "とりのぞく",
+      "mean": "제거하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り巻く",
+      "read": "とりまく",
+      "mean": "둘러싸다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り戻す",
+      "read": "とりもどす",
+      "mean": "되찾다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "取り寄せる",
+      "read": "とりよせる",
+      "mean": "주문하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "採る",
+      "read": "とる",
+      "mean": "채용하다, 채집하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "とろける",
+      "read": "とろける",
+      "mean": "녹다, 황홀해지다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "嘆く",
+      "read": "なげく",
+      "mean": "한탄하다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "なじむ",
+      "read": "なじむ",
+      "mean": "친숙해지다, 어울리다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "詰る",
+      "read": "なじる",
+      "mean": "힐문하다, 따지다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "なだめる",
+      "read": "なだめる",
+      "mean": "달래다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "懐く",
+      "read": "なつく",
+      "mean": "따르다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "名付ける",
+      "read": "なづける",
+      "mean": "이름 짓다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    },
+    {
+      "word": "なめる",
+      "read": "なめる",
+      "mean": "핥다, 얕보다, 겪다",
+      "tags": [],
+      "moduleId": "n1-module-064",
+      "legacyDay": 18
+    }
+  ]
+}

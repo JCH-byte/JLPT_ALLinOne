@@ -1,0 +1,198 @@
+{
+  "title": "N3 모듈 065",
+  "moduleId": "n3-module-065",
+  "vocab": [
+    {
+      "word": "ぺらぺら",
+      "read": "ぺらぺら",
+      "mean": "술술 (말하는 모양)",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "ほっと",
+      "read": "ほっと",
+      "mean": "안도하는 모양",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "まごまご",
+      "read": "まごまご",
+      "mean": "우물쭈물",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "まさか",
+      "read": "まさか",
+      "mean": "설마",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "全く",
+      "read": "まったく",
+      "mean": "전혀, 정말로",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "最も",
+      "read": "もっとも",
+      "mean": "가장",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "約",
+      "read": "やく",
+      "mean": "약",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "ようやく",
+      "read": "ようやく",
+      "mean": "겨우",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "わざと",
+      "read": "わざと",
+      "mean": "일부러",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 26
+    },
+    {
+      "word": "アイスクリーム",
+      "read": "あいすくりーむ",
+      "mean": "아이스크림",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アウト",
+      "read": "あうと",
+      "mean": "아웃",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アクセス",
+      "read": "あくせす",
+      "mean": "접속, 액세스",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アドバイス",
+      "read": "あどばいす",
+      "mean": "조언",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アドレス",
+      "read": "あどれす",
+      "mean": "주소",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アナウンス",
+      "read": "あなうんす",
+      "mean": "아나운스, 안내 방송",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アマチュア",
+      "read": "あまちゅあ",
+      "mean": "아마추어",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アルバム",
+      "read": "あるばむ",
+      "mean": "앨범",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アルミホイル",
+      "read": "あるみほいる",
+      "mean": "알루미늄 호일",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アレルギー",
+      "read": "あれるぎー",
+      "mean": "알레르기",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アンケート",
+      "read": "あんけーと",
+      "mean": "설문조사, 앙케트",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "アンテナ",
+      "read": "あんてな",
+      "mean": "안테나",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "イコール",
+      "read": "いこーる",
+      "mean": "이콜, 같음",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "イメージ",
+      "read": "いめーじ",
+      "mean": "이미지",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    },
+    {
+      "word": "インク",
+      "read": "いんく",
+      "mean": "잉크",
+      "tags": [],
+      "moduleId": "n3-module-065",
+      "legacyDay": 27
+    }
+  ]
+}

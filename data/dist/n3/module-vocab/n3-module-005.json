@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 005",
+  "moduleId": "n3-module-005",
+  "vocab": [
+    {
+      "word": "お見合い",
+      "read": "おみあい",
+      "mean": "맞선",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "親指",
+      "read": "おやゆび",
+      "mean": "엄지손가락",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "お礼",
+      "read": "おれい",
+      "mean": "사례, 감사",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "音楽家",
+      "read": "おんがくか",
+      "mean": "음악가",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "温室",
+      "read": "おんしつ",
+      "mean": "온실",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "温泉",
+      "read": "おんせん",
+      "mean": "온천",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "温度",
+      "read": "おんど",
+      "mean": "온도",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "おんぶ",
+      "read": "おんぶ",
+      "mean": "어부바, 업음",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "会員",
+      "read": "かいいん",
+      "mean": "회원",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "絵画",
+      "read": "かいが",
+      "mean": "회화, 그림",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "海外",
+      "read": "かいがい",
+      "mean": "해외",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "会館",
+      "read": "かいかん",
+      "mean": "회관",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解決",
+      "read": "かいけつ",
+      "mean": "해결",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "会合",
+      "read": "かいごう",
+      "mean": "회합, 모임",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改札",
+      "read": "かいさつ",
+      "mean": "개찰",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改札口",
+      "read": "かいさつぐち",
+      "mean": "개찰구",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "回収",
+      "read": "かいしゅう",
+      "mean": "회수",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "外出",
+      "read": "がいしゅつ",
+      "mean": "외출",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "外食",
+      "read": "がいしょく",
+      "mean": "외식",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "海水浴",
+      "read": "かいすいよく",
+      "mean": "해수욕",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "回数",
+      "read": "かいすう",
+      "mean": "횟수",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解説",
+      "read": "かいせつ",
+      "mean": "해설",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "会費",
+      "read": "かいひ",
+      "mean": "회비",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "香り",
+      "read": "かおり",
+      "mean": "향기",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "画家",
+      "read": "がか",
+      "mean": "화가",
+      "tags": [],
+      "moduleId": "n3-module-005",
+      "legacyDay": 2
+    }
+  ]
+}

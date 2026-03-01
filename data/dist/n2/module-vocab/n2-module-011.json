@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 011",
+  "moduleId": "n2-module-011",
+  "vocab": [
+    {
+      "word": "機能",
+      "read": "きのう",
+      "mean": "기능",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "寄付",
+      "read": "きふ",
+      "mean": "기부",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "規模",
+      "read": "きぼ",
+      "mean": "규모",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "気味",
+      "read": "きみ",
+      "mean": "기미, 기색",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "義務",
+      "read": "ぎむ",
+      "mean": "의무",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "客席",
+      "read": "きゃくせき",
+      "mean": "객석",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "休講",
+      "read": "きゅうこう",
+      "mean": "휴강",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "求婚",
+      "read": "きゅうこん",
+      "mean": "구혼",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "吸収",
+      "read": "きゅうしゅう",
+      "mean": "흡수",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "救助",
+      "read": "きゅうじょ",
+      "mean": "구조",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "求人",
+      "read": "きゅうじん",
+      "mean": "구인",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "休息",
+      "read": "きゅうそく",
+      "mean": "휴식",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "教員",
+      "read": "きょういん",
+      "mean": "교원",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "境界",
+      "read": "きょうかい",
+      "mean": "경계",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "競技",
+      "read": "きょうぎ",
+      "mean": "경기",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "行儀",
+      "read": "ぎょうぎ",
+      "mean": "예의범절",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "供給",
+      "read": "きょうきゅう",
+      "mean": "공급",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "恐縮",
+      "read": "きょうしゅく",
+      "mean": "죄송함, 황송함",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "協調",
+      "read": "きょうちょう",
+      "mean": "협조",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "共同",
+      "read": "きょうどう",
+      "mean": "공동",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "恐怖",
+      "read": "きょうふ",
+      "mean": "공포",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "共有",
+      "read": "きょうゆう",
+      "mean": "공유",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "共用",
+      "read": "きょうよう",
+      "mean": "공용",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "教養",
+      "read": "きょうよう",
+      "mean": "교양",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "行列",
+      "read": "ぎょうれつ",
+      "mean": "행렬",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "漁業",
+      "read": "ぎょぎょう",
+      "mean": "어업",
+      "tags": [],
+      "moduleId": "n2-module-011",
+      "legacyDay": 4
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 035",
+  "moduleId": "n3-module-035",
+  "vocab": [
+    {
+      "word": "表",
+      "read": "おもて",
+      "mean": "겉, 표면",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "費用",
+      "read": "ひよう",
+      "mean": "비용",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "秒",
+      "read": "びょう",
+      "mean": "초",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "美容",
+      "read": "びよう",
+      "mean": "미용",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "表現",
+      "read": "ひょうげん",
+      "mean": "표현",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "表紙",
+      "read": "ひょうし",
+      "mean": "표지",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "表情",
+      "read": "ひょうじょう",
+      "mean": "표정",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "表面",
+      "read": "ひょうめん",
+      "mean": "표면",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "昼寝",
+      "read": "ひるね",
+      "mean": "낮잠",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "広場",
+      "read": "ひろば",
+      "mean": "광장",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "瓶詰め",
+      "read": "びんづめ",
+      "mean": "병조림, 병에 담음",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "風景",
+      "read": "ふうけい",
+      "mean": "풍경",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "夫婦",
+      "read": "ふうふ",
+      "mean": "부부",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "部下",
+      "read": "ぶか",
+      "mean": "부하",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "復習",
+      "read": "ふくしゅう",
+      "mean": "복습",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "複数",
+      "read": "ふくすう",
+      "mean": "복수",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "不合格",
+      "read": "ふごうかく",
+      "mean": "불합격",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "夫妻",
+      "read": "ふさい",
+      "mean": "부부, 내외",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "不足",
+      "read": "ふそく",
+      "mean": "부족",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "ふた",
+      "read": "ふた",
+      "mean": "뚜껑",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "舞台",
+      "read": "ぶたい",
+      "mean": "무대",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "普段",
+      "read": "ふだん",
+      "mean": "평소",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "縁",
+      "read": "ふち",
+      "mean": "가장자리, 테두리",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "普通",
+      "read": "ふつう",
+      "mean": "보통",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    },
+    {
+      "word": "物価",
+      "read": "ぶっか",
+      "mean": "물가",
+      "tags": [],
+      "moduleId": "n3-module-035",
+      "legacyDay": 13
+    }
+  ]
+}

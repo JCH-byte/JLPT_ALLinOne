@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 067",
+  "moduleId": "n2-module-067",
+  "vocab": [
+    {
+      "word": "目指す",
+      "read": "めざす",
+      "mean": "목표로 하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "面する",
+      "read": "めんする",
+      "mean": "면하다, 마주보다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "儲かる",
+      "read": "もうかる",
+      "mean": "벌이가 되다, 득이 되다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "儲ける",
+      "read": "もうける",
+      "mean": "벌다, 마련하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "潜る",
+      "read": "もぐる",
+      "mean": "잠수하다, 기어들다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "もたれる",
+      "read": "もたれる",
+      "mean": "기대다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "持ち上げる",
+      "read": "もちあげる",
+      "mean": "들어 올리다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "用いる",
+      "read": "もちいる",
+      "mean": "이용하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "基づく",
+      "read": "もとづく",
+      "mean": "기초하다, 근거하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "求める",
+      "read": "もとめる",
+      "mean": "구하다, 요구하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "揉む",
+      "read": "もむ",
+      "mean": "주무르다, 비비다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "盛り上がる",
+      "read": "もりあがる",
+      "mean": "부풀어 오르다, 고조되다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "盛り上げる",
+      "read": "もりあげる",
+      "mean": "쌓아 올리다, 북돋우다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "漏れる",
+      "read": "もれる",
+      "mean": "새다, 누설되다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "養う",
+      "read": "やしなう",
+      "mean": "기르다, 부양하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "休まる",
+      "read": "やすまる",
+      "mean": "편안해지다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "やっつける",
+      "read": "やっつける",
+      "mean": "해치우다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "やって来る",
+      "read": "やってくる",
+      "mean": "찾아오다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "雇う",
+      "read": "やとう",
+      "mean": "고용하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "敗れる",
+      "read": "やぶれる",
+      "mean": "패하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "譲る",
+      "read": "ゆずる",
+      "mean": "양보하다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "止す",
+      "read": "よす",
+      "mean": "그만두다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "寄せる",
+      "read": "よせる",
+      "mean": "가까이 대다, 모으다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "呼びかける",
+      "read": "よびかける",
+      "mean": "호소하다, 부르다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    },
+    {
+      "word": "呼び止める",
+      "read": "よびとめる",
+      "mean": "불러 세우다",
+      "tags": [],
+      "moduleId": "n2-module-067",
+      "legacyDay": 22
+    }
+  ]
+}

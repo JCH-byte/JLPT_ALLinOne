@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 052",
+  "moduleId": "n2-module-052",
+  "vocab": [
+    {
+      "word": "非~",
+      "read": "ひ~",
+      "mean": "비~ (아님)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "不~",
+      "read": "ふ~",
+      "mean": "불/부~ (아님)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "副~",
+      "read": "ふく~",
+      "mean": "부~ (보조)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "真~",
+      "read": "ま~",
+      "mean": "참~, 한~ (강조)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "未~",
+      "read": "み~",
+      "mean": "미~ (아직)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "無~",
+      "read": "む~",
+      "mean": "무~ (없음)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "名~",
+      "read": "めい~",
+      "mean": "명~ (유명한)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "来~",
+      "read": "らい~",
+      "mean": "내~ (다음)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~明け",
+      "read": "~あけ",
+      "mean": "~끝, ~초",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~宛て",
+      "read": "~あて",
+      "mean": "~앞, ~행",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~案",
+      "read": "~あん",
+      "mean": "~안",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~一色",
+      "read": "~いっしょく",
+      "mean": "~일색",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~おき",
+      "read": "~おき",
+      "mean": "~간격",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~下",
+      "read": "~か",
+      "mean": "~하 (아래)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~界",
+      "read": "~かい",
+      "mean": "~계",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~街",
+      "read": "~がい",
+      "mean": "~가 (거리)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~箇所",
+      "read": "~かしょ",
+      "mean": "~개소 (곳)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 16
+    },
+    {
+      "word": "~感",
+      "read": "~かん",
+      "mean": "~감 (느낌)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    },
+    {
+      "word": "~観",
+      "read": "~かん",
+      "mean": "~관 (견해)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    },
+    {
+      "word": "~気味",
+      "read": "~ぎみ",
+      "mean": "~기미 (경향)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    },
+    {
+      "word": "~際",
+      "read": "~さい",
+      "mean": "~시, ~때",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    },
+    {
+      "word": "~切れ",
+      "read": "~ぎれ",
+      "mean": "~다 됨, 끊어짐",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    },
+    {
+      "word": "~権",
+      "read": "~けん",
+      "mean": "~권 (권리)",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    },
+    {
+      "word": "~号",
+      "read": "~ごう",
+      "mean": "~호",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    },
+    {
+      "word": "~頃",
+      "read": "~ごろ",
+      "mean": "~경, ~무렵",
+      "tags": [],
+      "moduleId": "n2-module-052",
+      "legacyDay": 17
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 058",
+  "moduleId": "n1-module-058",
+  "vocab": [
+    {
+      "word": "欠く",
+      "read": "かく",
+      "mean": "빠뜨리다, 결하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "駆けつける",
+      "read": "かけつける",
+      "mean": "달려오다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "駆け寄る",
+      "read": "かけよる",
+      "mean": "다가가다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "賭ける",
+      "read": "かける",
+      "mean": "걸다, 내기하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "かこつける",
+      "read": "かこつける",
+      "mean": "핑계 대다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "かさばる",
+      "read": "かさばる",
+      "mean": "부피가 커지다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "かさむ",
+      "read": "かさむ",
+      "mean": "부피가 커지다, 불어나다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "掠る",
+      "read": "かする",
+      "mean": "스치다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "傾ける",
+      "read": "かたむける",
+      "mean": "기울이다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "叶える",
+      "read": "かなえる",
+      "mean": "이루어 주다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "かぶれる",
+      "read": "かぶれる",
+      "mean": "타다(피부), 감화되다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "構える",
+      "read": "かまえる",
+      "mean": "자세를 취하다, 짓다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "噛み合う",
+      "read": "かみあう",
+      "mean": "맞물리다, 말이 통하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "絡む",
+      "read": "からむ",
+      "mean": "얽히다, 트집 잡다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "交わす",
+      "read": "かわす",
+      "mean": "주고받다, 교환하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "聞き流す",
+      "read": "ききながす",
+      "mean": "흘려듣다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "きしむ",
+      "read": "きしむ",
+      "mean": "삐걱거리다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "築き上げる",
+      "read": "きずきあげる",
+      "mean": "쌓아 올리다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "鍛える",
+      "read": "きたえる",
+      "mean": "단련하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "来す",
+      "read": "きたす",
+      "mean": "초래하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "興じる",
+      "read": "きょうじる",
+      "mean": "흥겨워하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "切り替える",
+      "read": "きりかえる",
+      "mean": "바꾸다, 전환하다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "切り出す",
+      "read": "きりだす",
+      "mean": "말을 꺼내다, 베어 내다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "食い込む",
+      "read": "くいこむ",
+      "mean": "파고들다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    },
+    {
+      "word": "食い違う",
+      "read": "くいちがう",
+      "mean": "어긋나다",
+      "tags": [],
+      "moduleId": "n1-module-058",
+      "legacyDay": 16
+    }
+  ]
+}

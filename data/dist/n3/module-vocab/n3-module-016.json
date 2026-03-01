@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 016",
+  "moduleId": "n3-module-016",
+  "vocab": [
+    {
+      "word": "支給",
+      "read": "しきゅう",
+      "mean": "지급",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "資源",
+      "read": "しげん",
+      "mean": "자원",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "事件",
+      "read": "じけん",
+      "mean": "사건",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "死後",
+      "read": "しご",
+      "mean": "사후",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "事後",
+      "read": "じご",
+      "mean": "사후",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "時刻",
+      "read": "じこく",
+      "mean": "시각",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "時刻表",
+      "read": "じこくひょう",
+      "mean": "시각표",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "指示",
+      "read": "しじ",
+      "mean": "지시",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "支社",
+      "read": "ししゃ",
+      "mean": "지사",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "自習",
+      "read": "じしゅう",
+      "mean": "자습",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "次女",
+      "read": "じじょ",
+      "mean": "차녀, 둘째 딸",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "事情",
+      "read": "じじょう",
+      "mean": "사정",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "詩人",
+      "read": "しじん",
+      "mean": "시인",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "自信",
+      "read": "じしん",
+      "mean": "자신(감)",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "自身",
+      "read": "じしん",
+      "mean": "자신(그 사람)",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "姿勢",
+      "read": "しせい",
+      "mean": "자세",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "自然",
+      "read": "しぜん",
+      "mean": "자연",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "事前",
+      "read": "じぜん",
+      "mean": "사전",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "時速",
+      "read": "じそく",
+      "mean": "시속",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "下書き",
+      "read": "したがき",
+      "mean": "초안, 밑그림",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "失業",
+      "read": "しつぎょう",
+      "mean": "실업",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "湿気",
+      "read": "しっけ",
+      "mean": "습기",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "実現",
+      "read": "じつげん",
+      "mean": "실현",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "実行",
+      "read": "じっこう",
+      "mean": "실행",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    },
+    {
+      "word": "湿度",
+      "read": "しつど",
+      "mean": "습도",
+      "tags": [],
+      "moduleId": "n3-module-016",
+      "legacyDay": 6
+    }
+  ]
+}

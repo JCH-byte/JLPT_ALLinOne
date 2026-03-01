@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 043",
+  "moduleId": "n3-module-043",
+  "vocab": [
+    {
+      "word": "録音",
+      "read": "ろくおん",
+      "mean": "녹음",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "録画",
+      "read": "ろくが",
+      "mean": "녹화",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "路面",
+      "read": "ろめん",
+      "mean": "노면",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "輪",
+      "read": "わ",
+      "mean": "고리, 바퀴",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "若者",
+      "read": "わかもの",
+      "mean": "젊은이",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "別れ",
+      "read": "わかれ",
+      "mean": "이별",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "和室",
+      "read": "わしつ",
+      "mean": "일본식 방",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "和食",
+      "read": "わしょく",
+      "mean": "일식",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "話題",
+      "read": "わだい",
+      "mean": "화제",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "渡り鳥",
+      "read": "わたりどり",
+      "mean": "철새",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "詫び",
+      "read": "わび",
+      "mean": "사죄, 사과",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "笑い",
+      "read": "わらい",
+      "mean": "웃음",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "~割",
+      "read": "~わり",
+      "mean": "~할 (비율)",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "割合",
+      "read": "わりあい",
+      "mean": "비율",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "割り算",
+      "read": "わりざん",
+      "mean": "나눗셈",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "割引",
+      "read": "わりびき",
+      "mean": "할인",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "各~",
+      "read": "かく~",
+      "mean": "각~",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "全~",
+      "read": "ぜん~",
+      "mean": "전~",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "長~",
+      "read": "ちょう~",
+      "mean": "장~",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "無~",
+      "read": "む~",
+      "mean": "무~",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "両~",
+      "read": "りょう~",
+      "mean": "양~",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "~家",
+      "read": "~か",
+      "mean": "~가 (사람/집)",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "~行",
+      "read": "~ぎょう",
+      "mean": "~행 (줄)",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "~産",
+      "read": "~さん",
+      "mean": "~산 (생산지)",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    },
+    {
+      "word": "~式",
+      "read": "~しき",
+      "mean": "~식",
+      "tags": [],
+      "moduleId": "n3-module-043",
+      "legacyDay": 16
+    }
+  ]
+}

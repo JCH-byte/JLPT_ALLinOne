@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 016",
+  "moduleId": "n4-module-016",
+  "vocab": [
+    {
+      "word": "昼休み",
+      "read": "ひるやすみ",
+      "mean": "점심시간",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 9
+    },
+    {
+      "word": "広さ",
+      "read": "ひろさ",
+      "mean": "넓이",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "封筒",
+      "read": "ふうとう",
+      "mean": "봉투",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "豚肉",
+      "read": "ぶたにく",
+      "mean": "돼지고기",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "部長",
+      "read": "ぶちょう",
+      "mean": "부장",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "ぶどう",
+      "read": "ぶどう",
+      "mean": "포도",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "布団",
+      "read": "ふとん",
+      "mean": "이불",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "船",
+      "read": "ふね",
+      "mean": "배",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "文化",
+      "read": "ぶんか",
+      "mean": "문화",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "文学",
+      "read": "ぶんがく",
+      "mean": "문학",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "文章",
+      "read": "ぶんしょう",
+      "mean": "문장",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "文法",
+      "read": "ぶんぽう",
+      "mean": "문법",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "返事",
+      "read": "へんじ",
+      "mean": "대답, 답장",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "放送",
+      "read": "ほうそう",
+      "mean": "방송",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "僕",
+      "read": "ぼく",
+      "mean": "나 (남성어)",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "星",
+      "read": "ほし",
+      "mean": "별",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "骨",
+      "read": "ほね",
+      "mean": "뼈",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "本気",
+      "read": "ほんき",
+      "mean": "진심, 진지함",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "本棚",
+      "read": "ほんだな",
+      "mean": "책장",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "本当",
+      "read": "ほんとう",
+      "mean": "정말, 진짜",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "本屋",
+      "read": "ほんや",
+      "mean": "서점",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "窓ガラス",
+      "read": "まどがらす",
+      "mean": "창유리",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "窓口",
+      "read": "まどぐち",
+      "mean": "창구",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "万",
+      "read": "まん",
+      "mean": "만",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    },
+    {
+      "word": "まんが",
+      "read": "まんが",
+      "mean": "만화",
+      "tags": [],
+      "moduleId": "n4-module-016",
+      "legacyDay": 10
+    }
+  ]
+}

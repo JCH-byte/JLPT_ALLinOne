@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 011",
+  "moduleId": "n3-module-011",
+  "vocab": [
+    {
+      "word": "区別",
+      "read": "くべつ",
+      "mean": "구별",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "暮らし",
+      "read": "くらし",
+      "mean": "생활, 살림",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "繰り返し",
+      "read": "くりかえし",
+      "mean": "반복",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "苦労",
+      "read": "くろう",
+      "mean": "고생",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "訓練",
+      "read": "くんれん",
+      "mean": "훈련",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "経営",
+      "read": "けいえい",
+      "mean": "경영",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "計画",
+      "read": "けいかく",
+      "mean": "계획",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "警察官",
+      "read": "けいさつかん",
+      "mean": "경찰관",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "警察署",
+      "read": "けいさつしょ",
+      "mean": "경찰서",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "計算",
+      "read": "けいさん",
+      "mean": "계산",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "芸術",
+      "read": "げいじゅつ",
+      "mean": "예술",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "携帯",
+      "read": "けいたい",
+      "mean": "휴대(폰)",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "毛糸",
+      "read": "けいと",
+      "mean": "털실",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "経由",
+      "read": "けいゆ",
+      "mean": "경유",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "怪我",
+      "read": "けが",
+      "mean": "상처, 부상",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "景色",
+      "read": "けしき",
+      "mean": "경치",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "下宿",
+      "read": "げしゅく",
+      "mean": "하숙",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "化粧",
+      "read": "けしょう",
+      "mean": "화장",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "下駄",
+      "read": "げた",
+      "mean": "나막신",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "血圧",
+      "read": "けつあつ",
+      "mean": "혈압",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "決意",
+      "read": "けつい",
+      "mean": "결의",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "血液",
+      "read": "けつえき",
+      "mean": "혈액",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "結婚式",
+      "read": "けっこんしき",
+      "mean": "결혼식",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "決勝",
+      "read": "けっしょう",
+      "mean": "결승",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    },
+    {
+      "word": "決心",
+      "read": "けっしん",
+      "mean": "결심",
+      "tags": [],
+      "moduleId": "n3-module-011",
+      "legacyDay": 4
+    }
+  ]
+}

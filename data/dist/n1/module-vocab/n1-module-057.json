@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 057",
+  "moduleId": "n1-module-057",
+  "vocab": [
+    {
+      "word": "追い出す",
+      "read": "おいだす",
+      "mean": "쫓아내다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "老いる",
+      "read": "おいる",
+      "mean": "늙다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "負う",
+      "read": "おう",
+      "mean": "지다, 입다(상처)",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "怠る",
+      "read": "おこたる",
+      "mean": "게을리하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "抑える",
+      "read": "おさえる",
+      "mean": "억누르다, 억제하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "押し付ける",
+      "read": "おしつける",
+      "mean": "강요하다, 떠맡기다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "押し寄せる",
+      "read": "おしよせる",
+      "mean": "몰려들다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "襲う",
+      "read": "おそう",
+      "mean": "습격하다, 덮치다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "恐れ入る",
+      "read": "おそれいる",
+      "mean": "송구해하다, 항복하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "おだてる",
+      "read": "おだてる",
+      "mean": "치켜세우다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "脅す",
+      "read": "おどす",
+      "mean": "으름장 놓다, 협박하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "脅える",
+      "read": "おびえる",
+      "mean": "겁내다, 놀라다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "帯びる",
+      "read": "おびる",
+      "mean": "띠다, 머금다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "思い返す",
+      "read": "おもいかえす",
+      "mean": "다시 생각하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "思い詰める",
+      "read": "おもいつめる",
+      "mean": "골똘히 생각하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "赴く",
+      "read": "おもむく",
+      "mean": "향하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "及ぶ",
+      "read": "およぶ",
+      "mean": "미치다, 이르다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "及ぼす",
+      "read": "およぼす",
+      "mean": "미치게 하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "買い替える",
+      "read": "かいかえる",
+      "mean": "새로 사다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "害する",
+      "read": "がいする",
+      "mean": "해치다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "かいま見る",
+      "read": "かいまみる",
+      "mean": "엿보다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "顧みる",
+      "read": "かえりみる",
+      "mean": "돌이켜보다, 회고하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "省みる",
+      "read": "かえりみる",
+      "mean": "반성하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "抱え込む",
+      "read": "かかえこむ",
+      "mean": "떠안다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    },
+    {
+      "word": "掲げる",
+      "read": "かかげる",
+      "mean": "내걸다, 게양하다",
+      "tags": [],
+      "moduleId": "n1-module-057",
+      "legacyDay": 16
+    }
+  ]
+}

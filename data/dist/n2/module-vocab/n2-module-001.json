@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 001",
+  "moduleId": "n2-module-001",
+  "vocab": [
+    {
+      "word": "愛情",
+      "read": "あいじょう",
+      "mean": "애정",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "青空",
+      "read": "あおぞら",
+      "mean": "푸른 하늘",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "赤字",
+      "read": "あかじ",
+      "mean": "적자",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "明かり",
+      "read": "あかり",
+      "mean": "불빛, 밝기",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "握手",
+      "read": "あくしゅ",
+      "mean": "악수",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "悪循環",
+      "read": "あくじゅんかん",
+      "mean": "악순환",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "悪条件",
+      "read": "あくじょうけん",
+      "mean": "악조건",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "悪天候",
+      "read": "あくてんこう",
+      "mean": "악천후",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "悪魔",
+      "read": "あくま",
+      "mean": "악마",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "明け方",
+      "read": "あけがた",
+      "mean": "새벽녘",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "辺り",
+      "read": "あたり",
+      "mean": "근처, 주변",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "圧縮",
+      "read": "あっしゅく",
+      "mean": "압축",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "圧勝",
+      "read": "あっしょう",
+      "mean": "압승",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "宛名",
+      "read": "あてな",
+      "mean": "수신인 명",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "跡",
+      "read": "あと",
+      "mean": "자국, 흔적",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "過ち",
+      "read": "あやまち",
+      "mean": "잘못, 실수",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "誤り",
+      "read": "あやまり",
+      "mean": "잘못, 틀림",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "嵐",
+      "read": "あらし",
+      "mean": "폭풍",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "粗筋",
+      "read": "あらすじ",
+      "mean": "개요, 줄거리",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "有り",
+      "read": "あり",
+      "mean": "있음",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "案",
+      "read": "あん",
+      "mean": "안, 아이디어",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "安定",
+      "read": "あんてい",
+      "mean": "안정",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "言い訳",
+      "read": "いいわけ",
+      "mean": "변명",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "委員",
+      "read": "いいん",
+      "mean": "위원",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "勢い",
+      "read": "いきおい",
+      "mean": "기세, 힘",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "息抜き",
+      "read": "いきぬき",
+      "mean": "잠시 쉼, 휴식",
+      "tags": [],
+      "moduleId": "n2-module-001",
+      "legacyDay": 1
+    }
+  ]
+}

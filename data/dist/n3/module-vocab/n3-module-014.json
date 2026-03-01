@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 014",
+  "moduleId": "n3-module-014",
+  "vocab": [
+    {
+      "word": "呼吸",
+      "read": "こきゅう",
+      "mean": "호흡",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "故郷",
+      "read": "こきょう",
+      "mean": "고향",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "国語",
+      "read": "こくご",
+      "mean": "국어",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "黒板",
+      "read": "こくばん",
+      "mean": "칠판",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "小声",
+      "read": "こごえ",
+      "mean": "작은 목소리",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "腰",
+      "read": "こし",
+      "mean": "허리",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "個人",
+      "read": "こじん",
+      "mean": "개인",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "子育て",
+      "read": "こそだて",
+      "mean": "육아",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "国会",
+      "read": "こっかい",
+      "mean": "국회",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "小包",
+      "read": "こづつみ",
+      "mean": "소포",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "このごろ",
+      "read": "このごろ",
+      "mean": "요즘, 최근",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "好み",
+      "read": "このみ",
+      "mean": "기호, 취향",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "小指",
+      "read": "こゆび",
+      "mean": "새끼손가락",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "今後",
+      "read": "こんご",
+      "mean": "금후, 앞으로",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "混雑",
+      "read": "こんざつ",
+      "mean": "혼잡",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "差",
+      "read": "さ",
+      "mean": "차, 차이",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "最高",
+      "read": "さいこう",
+      "mean": "최고",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "祭日",
+      "read": "さいじつ",
+      "mean": "제일, 국경일",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "最初",
+      "read": "さいしょ",
+      "mean": "최초, 처음",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "最新",
+      "read": "さいしん",
+      "mean": "최신",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "再生",
+      "read": "さいせい",
+      "mean": "재생",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 5
+    },
+    {
+      "word": "最低",
+      "read": "さいてい",
+      "mean": "최저",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 6
+    },
+    {
+      "word": "採点",
+      "read": "さいてん",
+      "mean": "채점",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 6
+    },
+    {
+      "word": "才能",
+      "read": "さいのう",
+      "mean": "재능",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 6
+    },
+    {
+      "word": "再利用",
+      "read": "さいりよう",
+      "mean": "재이용",
+      "tags": [],
+      "moduleId": "n3-module-014",
+      "legacyDay": 6
+    }
+  ]
+}

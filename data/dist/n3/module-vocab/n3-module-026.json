@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 026",
+  "moduleId": "n3-module-026",
+  "vocab": [
+    {
+      "word": "旅",
+      "read": "たび",
+      "mean": "여행",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "短期",
+      "read": "たんき",
+      "mean": "단기",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "単語",
+      "read": "たんご",
+      "mean": "단어",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "男子",
+      "read": "だんし",
+      "mean": "남자",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "誕生",
+      "read": "たんじょう",
+      "mean": "탄생",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "断水",
+      "read": "だんすい",
+      "mean": "단수",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "団体",
+      "read": "だんたい",
+      "mean": "단체",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "担当",
+      "read": "たんとう",
+      "mean": "담당",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "暖房",
+      "read": "だんぼう",
+      "mean": "난방",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "地下",
+      "read": "ちか",
+      "mean": "지하",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "違い",
+      "read": "ちがい",
+      "mean": "다름, 틀림",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "地下水",
+      "read": "ちかすい",
+      "mean": "지하수",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "近道",
+      "read": "ちかみち",
+      "mean": "지름길",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "地球",
+      "read": "ちきゅう",
+      "mean": "지구",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "知識",
+      "read": "ちしき",
+      "mean": "지식",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "知人",
+      "read": "ちじん",
+      "mean": "지인",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "地方",
+      "read": "ちほう",
+      "mean": "지방",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "地名",
+      "read": "ちめい",
+      "mean": "지명",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "中央",
+      "read": "ちゅうおう",
+      "mean": "중앙",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "中学",
+      "read": "ちゅうがく",
+      "mean": "중학",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "中間",
+      "read": "ちゅうかん",
+      "mean": "중간",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "中級",
+      "read": "ちゅうきゅう",
+      "mean": "중급",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "中古",
+      "read": "ちゅうこ",
+      "mean": "중고",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "注射",
+      "read": "ちゅうしゃ",
+      "mean": "주사",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    },
+    {
+      "word": "中旬",
+      "read": "ちゅうじゅん",
+      "mean": "중순",
+      "tags": [],
+      "moduleId": "n3-module-026",
+      "legacyDay": 10
+    }
+  ]
+}

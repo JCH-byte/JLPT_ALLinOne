@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 068",
+  "moduleId": "n1-module-068",
+  "vocab": [
+    {
+      "word": "綻びる",
+      "read": "ほころびる",
+      "mean": "풀리다, 조금 벌어지다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "解く",
+      "read": "ほどく",
+      "mean": "풀다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "解ける",
+      "read": "ほどける",
+      "mean": "풀리다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "施す",
+      "read": "ほどこす",
+      "mean": "베풀다, 시행하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "ぼやく",
+      "read": "ぼやく",
+      "mean": "투덜거리다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "ぼやける",
+      "read": "ぼやける",
+      "mean": "희미해지다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "滅びる",
+      "read": "ほろびる",
+      "mean": "멸망하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "滅ぼす",
+      "read": "ほろぼす",
+      "mean": "멸망시키다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "紛れる",
+      "read": "まぎれる",
+      "mean": "뒤섞이다, 헷갈리다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "まごつく",
+      "read": "まごつく",
+      "mean": "당황하다, 우물쭈물하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "負かす",
+      "read": "まかす",
+      "mean": "이기다, 패배시키다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "賄う",
+      "read": "まかなう",
+      "mean": "조달하다, 마련하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "勝る",
+      "read": "まさる",
+      "mean": "낫다, 우수하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "交える",
+      "read": "まじえる",
+      "mean": "섞다, 끼게 하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "交わる",
+      "read": "まじわる",
+      "mean": "교차하다, 어울리다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "またがる",
+      "read": "またがる",
+      "mean": "걸치다, 올라타다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "全うする",
+      "read": "まっとうする",
+      "mean": "완수하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "惑わす",
+      "read": "まどわす",
+      "mean": "현혹시키다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "免れる",
+      "read": "まぬかれる",
+      "mean": "면하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "丸める",
+      "read": "まるめる",
+      "mean": "둥글게 하다, 삭발하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "見合わせる",
+      "read": "みあわせる",
+      "mean": "마주 보다, 보류하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "見失う",
+      "read": "みうしなう",
+      "mean": "놓치다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "見落とす",
+      "read": "みおとす",
+      "mean": "간과하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "見極める",
+      "read": "みきわめる",
+      "mean": "확인하다, 끝까지 지켜보다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    },
+    {
+      "word": "見せびらかす",
+      "read": "みせびらかす",
+      "mean": "자랑해 보이다, 과시하다",
+      "tags": [],
+      "moduleId": "n1-module-068",
+      "legacyDay": 20
+    }
+  ]
+}

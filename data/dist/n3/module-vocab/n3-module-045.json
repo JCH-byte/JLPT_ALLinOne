@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 045",
+  "moduleId": "n3-module-045",
+  "vocab": [
+    {
+      "word": "表れる",
+      "read": "あらわれる",
+      "mean": "나타나다, 표면화되다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "現れる",
+      "read": "あらわれる",
+      "mean": "나타나다, 출현하다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "合わせる",
+      "read": "あわせる",
+      "mean": "맞추다, 합치다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "慌てる",
+      "read": "あわてる",
+      "mean": "당황하다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "言い出す",
+      "read": "いいだす",
+      "mean": "말을 꺼내다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "痛む",
+      "read": "いたむ",
+      "mean": "아프다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "炒める",
+      "read": "いためる",
+      "mean": "볶다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "嫌がる",
+      "read": "いやがる",
+      "mean": "싫어하다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "植える",
+      "read": "うえる",
+      "mean": "심다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "浮かべる",
+      "read": "うかべる",
+      "mean": "띄우다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "受かる",
+      "read": "うかる",
+      "mean": "합격하다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "浮く",
+      "read": "うく",
+      "mean": "뜨다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "受け入れる",
+      "read": "うけいれる",
+      "mean": "받아들이다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "受け取る",
+      "read": "うけとる",
+      "mean": "수취하다, 받다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "動かす",
+      "read": "うごかす",
+      "mean": "움직이다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "疑う",
+      "read": "うたがう",
+      "mean": "의심하다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "映す",
+      "read": "うつす",
+      "mean": "비치다, 투영하다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "移す",
+      "read": "うつす",
+      "mean": "옮기다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "写る",
+      "read": "うつる",
+      "mean": "찍히다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "映る",
+      "read": "うつる",
+      "mean": "비치다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "移る",
+      "read": "うつる",
+      "mean": "옮기다, 이동하다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "埋まる",
+      "read": "うまる",
+      "mean": "묻히다, 메워지다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "産む",
+      "read": "うむ",
+      "mean": "낳다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "埋める",
+      "read": "うめる",
+      "mean": "묻다, 메우다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    },
+    {
+      "word": "売り切れる",
+      "read": "うりきれる",
+      "mean": "다 팔리다, 매진되다",
+      "tags": [],
+      "moduleId": "n3-module-045",
+      "legacyDay": 17
+    }
+  ]
+}

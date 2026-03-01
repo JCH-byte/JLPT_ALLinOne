@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 002",
+  "moduleId": "n2-module-002",
+  "vocab": [
+    {
+      "word": "居酒屋",
+      "read": "いざかや",
+      "mean": "선술집",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "遺産",
+      "read": "いさん",
+      "mean": "유산",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "維持",
+      "read": "いじ",
+      "mean": "유지",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "意識",
+      "read": "いしき",
+      "mean": "의식",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "異色",
+      "read": "いしょく",
+      "mean": "이색",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "衣食住",
+      "read": "いしょくじゅう",
+      "mean": "의식주",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "泉",
+      "read": "いずみ",
+      "mean": "샘",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "いたずら",
+      "read": "いたずら",
+      "mean": "장난",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "至るところ",
+      "read": "いたるところ",
+      "mean": "도처, 가는 곳마다",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一家",
+      "read": "いっか",
+      "mean": "일가, 한 가족",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一種",
+      "read": "いっしゅ",
+      "mean": "일종",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一瞬",
+      "read": "いっしゅん",
+      "mean": "일순간",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一睡",
+      "read": "いっすい",
+      "mean": "한숨 잠",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一石二鳥",
+      "read": "いっせきにちょう",
+      "mean": "일석이조",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一致",
+      "read": "いっち",
+      "mean": "일치",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一定",
+      "read": "いってい",
+      "mean": "일정",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一転",
+      "read": "いってん",
+      "mean": "일변, 싹 바뀜",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一方",
+      "read": "いっぽう",
+      "mean": "일방, 한편",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "移転",
+      "read": "いてん",
+      "mean": "이전",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "井戸",
+      "read": "いど",
+      "mean": "우물",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "稲",
+      "read": "いね",
+      "mean": "벼",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "違反",
+      "read": "いはん",
+      "mean": "위반",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "衣服",
+      "read": "いふく",
+      "mean": "의복",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "遺物",
+      "read": "いぶつ",
+      "mean": "유물",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "今頃",
+      "read": "いまごろ",
+      "mean": "이제 와서, 이맘때",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "意欲",
+      "read": "いよく",
+      "mean": "의욕",
+      "tags": [],
+      "moduleId": "n2-module-002",
+      "legacyDay": 1
+    }
+  ]
+}

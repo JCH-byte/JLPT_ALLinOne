@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 027",
+  "moduleId": "n2-module-027",
+  "vocab": [
+    {
+      "word": "精算",
+      "read": "せいさん",
+      "mean": "정산",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "精神",
+      "read": "せいしん",
+      "mean": "정신",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "整数",
+      "read": "せいすう",
+      "mean": "정수",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "製造",
+      "read": "せいぞう",
+      "mean": "제조",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "生存",
+      "read": "せいぞん",
+      "mean": "생존",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "制度",
+      "read": "せいど",
+      "mean": "제도",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "性能",
+      "read": "せいのう",
+      "mean": "성능",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "整備",
+      "read": "せいび",
+      "mean": "정비",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "政府",
+      "read": "せいふ",
+      "mean": "정부",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "生物",
+      "read": "せいぶつ",
+      "mean": "생물",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "成分",
+      "read": "せいぶん",
+      "mean": "성분",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "性別",
+      "read": "せいべつ",
+      "mean": "성별",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "正方形",
+      "read": "せいほうけい",
+      "mean": "정사각형",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "生命",
+      "read": "せいめい",
+      "mean": "생명",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "成立",
+      "read": "せいりつ",
+      "mean": "성립",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "西暦",
+      "read": "せいれき",
+      "mean": "서기",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "石炭",
+      "read": "せきたん",
+      "mean": "석탄",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "世間",
+      "read": "せけん",
+      "mean": "세상",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "世代",
+      "read": "せだい",
+      "mean": "세대",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "接近",
+      "read": "せっきん",
+      "mean": "접근",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "設計",
+      "read": "せっけい",
+      "mean": "설계",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "絶好調",
+      "read": "ぜっこうちょう",
+      "mean": "최상의 상태",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "接続",
+      "read": "せつぞく",
+      "mean": "접속",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "説得",
+      "read": "せっとく",
+      "mean": "설득",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    },
+    {
+      "word": "設備",
+      "read": "せつび",
+      "mean": "설비",
+      "tags": [],
+      "moduleId": "n2-module-027",
+      "legacyDay": 9
+    }
+  ]
+}

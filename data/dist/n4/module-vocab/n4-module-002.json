@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 002",
+  "moduleId": "n4-module-002",
+  "vocab": [
+    {
+      "word": "色紙",
+      "read": "いろがみ",
+      "mean": "색종이",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "飲酒",
+      "read": "いんしゅ",
+      "mean": "음주",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "受付",
+      "read": "うけつけ",
+      "mean": "접수처",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "うそ",
+      "read": "うそ",
+      "mean": "거짓말",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "内",
+      "read": "うち",
+      "mean": "안, 속",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "裏",
+      "read": "うら",
+      "mean": "뒤, 뒷면",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "売り場",
+      "read": "うりば",
+      "mean": "매장",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "運",
+      "read": "うん",
+      "mean": "운",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "運転",
+      "read": "うんてん",
+      "mean": "운전",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "運転手",
+      "read": "うんてんしゅ",
+      "mean": "운전기사",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "運動会",
+      "read": "うんどうかい",
+      "mean": "운동회",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "英会話",
+      "read": "えいかいわ",
+      "mean": "영어 회화",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "映画館",
+      "read": "えいがかん",
+      "mean": "영화관",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "営業",
+      "read": "えいぎょう",
+      "mean": "영업",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "駅員",
+      "read": "えきいん",
+      "mean": "역무원",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "枝",
+      "read": "えだ",
+      "mean": "가지",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "遠慮",
+      "read": "えんりょ",
+      "mean": "사양, 거절",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "横断歩道",
+      "read": "おうだんほどう",
+      "mean": "횡단보도",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "大雨",
+      "read": "おおあめ",
+      "mean": "큰비, 폭우",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "大雪",
+      "read": "おおゆき",
+      "mean": "폭설",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "おかげ",
+      "read": "おかげ",
+      "mean": "덕분",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "億",
+      "read": "おく",
+      "mean": "억",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "奥様",
+      "read": "おくさま",
+      "mean": "사모님",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "屋上",
+      "read": "おくじょう",
+      "mean": "옥상",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    },
+    {
+      "word": "贈り物",
+      "read": "おくりもの",
+      "mean": "선물",
+      "tags": [],
+      "moduleId": "n4-module-002",
+      "legacyDay": 2
+    }
+  ]
+}

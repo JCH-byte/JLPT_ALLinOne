@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 014",
+  "moduleId": "n4-module-014",
+  "vocab": [
+    {
+      "word": "途中",
+      "read": "とちゅう",
+      "mean": "도중",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "特急",
+      "read": "とっきゅう",
+      "mean": "특급",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "隣",
+      "read": "となり",
+      "mean": "옆, 이웃",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "泥棒",
+      "read": "どろぼう",
+      "mean": "도둑",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "内部",
+      "read": "ないぶ",
+      "mean": "내부",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "生ビール",
+      "read": "なまびーる",
+      "mean": "생맥주",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "何度",
+      "read": "なんど",
+      "mean": "몇 번, 몇 도",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "におい",
+      "read": "におい",
+      "mean": "냄새",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "肉屋",
+      "read": "にくや",
+      "mean": "정육점",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 8
+    },
+    {
+      "word": "日記",
+      "read": "にっき",
+      "mean": "일기",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "入院",
+      "read": "にゅういん",
+      "mean": "입원",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "入学",
+      "read": "にゅうがく",
+      "mean": "입학",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "入社",
+      "read": "にゅうしゃ",
+      "mean": "입사",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "人形",
+      "read": "にんぎょう",
+      "mean": "인형",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "にんじん",
+      "read": "にんじん",
+      "mean": "당근",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "熱",
+      "read": "ねつ",
+      "mean": "열",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "寝坊",
+      "read": "ねぼう",
+      "mean": "늦잠",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "のど",
+      "read": "のど",
+      "mean": "목 (신체)",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "飲みすぎ",
+      "read": "のみすぎ",
+      "mean": "과음",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "乗り換え",
+      "read": "のりかえ",
+      "mean": "환승, 갈아타기",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "乗り物",
+      "read": "のりもの",
+      "mean": "탈것",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "葉",
+      "read": "は",
+      "mean": "잎",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "場合",
+      "read": "ばあい",
+      "mean": "경우",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "歯医者",
+      "read": "はいしゃ",
+      "mean": "치과 의사, 치과",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    },
+    {
+      "word": "白菜",
+      "read": "はくさい",
+      "mean": "배추",
+      "tags": [],
+      "moduleId": "n4-module-014",
+      "legacyDay": 9
+    }
+  ]
+}

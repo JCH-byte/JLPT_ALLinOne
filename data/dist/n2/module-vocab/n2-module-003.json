@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 003",
+  "moduleId": "n2-module-003",
+  "vocab": [
+    {
+      "word": "以来",
+      "read": "いらい",
+      "mean": "이래, 이후",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "印刷",
+      "read": "いんさつ",
+      "mean": "인쇄",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "引退",
+      "read": "いんたい",
+      "mean": "은퇴",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "引用",
+      "read": "いんよう",
+      "mean": "인용",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "引力",
+      "read": "いんりょく",
+      "mean": "인력",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "植木",
+      "read": "うえき",
+      "mean": "심은 나무, 정원수",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "打ち合わせ",
+      "read": "うちあわせ",
+      "mean": "미리 상의함, 협의",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "宇宙",
+      "read": "うちゅう",
+      "mean": "우주",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "海沿い",
+      "read": "うみぞい",
+      "mean": "바다를 따라서",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "海辺",
+      "read": "うみべ",
+      "mean": "해변, 바닷가",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "有無",
+      "read": "うむ",
+      "mean": "유무",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "裏口",
+      "read": "うらぐち",
+      "mean": "뒷문",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "恨み",
+      "read": "うらみ",
+      "mean": "원한",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "売れ行き",
+      "read": "うれゆき",
+      "mean": "팔림새, 판로",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "運行",
+      "read": "うんこう",
+      "mean": "운행",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "運賃",
+      "read": "うんちん",
+      "mean": "운임",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "衛生",
+      "read": "えいせい",
+      "mean": "위생",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "衛星",
+      "read": "えいせい",
+      "mean": "위성",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "液体",
+      "read": "えきたい",
+      "mean": "액체",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "餌",
+      "read": "えさ",
+      "mean": "먹이",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "会釈",
+      "read": "えしゃく",
+      "mean": "목례, 가벼운 인사",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "得手",
+      "read": "えて",
+      "mean": "특기, 잘하는 것",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "絵の具",
+      "read": "えのぐ",
+      "mean": "그림 물감",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "絵本",
+      "read": "えほん",
+      "mean": "그림책",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "演技",
+      "read": "えんぎ",
+      "mean": "연기",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    },
+    {
+      "word": "園芸",
+      "read": "えんげい",
+      "mean": "원예",
+      "tags": [],
+      "moduleId": "n2-module-003",
+      "legacyDay": 1
+    }
+  ]
+}

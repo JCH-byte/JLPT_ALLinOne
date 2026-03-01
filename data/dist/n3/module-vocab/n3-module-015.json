@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 015",
+  "moduleId": "n3-module-015",
+  "vocab": [
+    {
+      "word": "材料",
+      "read": "ざいりょう",
+      "mean": "재료",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "坂道",
+      "read": "さかみち",
+      "mean": "비탈길, 언덕길",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "一昨々日",
+      "read": "さきおととい",
+      "mean": "그끄저께",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "作業",
+      "read": "さぎょう",
+      "mean": "작업",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "作者",
+      "read": "さくしゃ",
+      "mean": "작가, 만든 이",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "昨年",
+      "read": "さくねん",
+      "mean": "작년",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "昨夜",
+      "read": "さくや",
+      "mean": "어젯밤",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "差出人",
+      "read": "さしだしにん",
+      "mean": "발신인",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "座席",
+      "read": "ざせき",
+      "mean": "좌석",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "左折",
+      "read": "させつ",
+      "mean": "좌회전",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "作家",
+      "read": "さっか",
+      "mean": "작가",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "作曲",
+      "read": "さっきょく",
+      "mean": "작곡",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "雑誌",
+      "read": "ざっし",
+      "mean": "잡지",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "殺人",
+      "read": "さつじん",
+      "mean": "살인",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "猿",
+      "read": "さる",
+      "mean": "원숭이",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "騒ぎ",
+      "read": "さわぎ",
+      "mean": "소란",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "参加",
+      "read": "さんか",
+      "mean": "참가",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "残業",
+      "read": "ざんぎょう",
+      "mean": "잔업, 야근",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "詩",
+      "read": "し",
+      "mean": "시",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "寺院",
+      "read": "じいん",
+      "mean": "사원, 절",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "塩",
+      "read": "しお",
+      "mean": "소금",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "司会",
+      "read": "しかい",
+      "mean": "사회(진행)",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "次回",
+      "read": "じかい",
+      "mean": "다음 회, 차회",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "時間割",
+      "read": "じかんわり",
+      "mean": "시간표",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    },
+    {
+      "word": "四季",
+      "read": "しき",
+      "mean": "사계, 사계절",
+      "tags": [],
+      "moduleId": "n3-module-015",
+      "legacyDay": 6
+    }
+  ]
+}

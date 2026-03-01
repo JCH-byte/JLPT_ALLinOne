@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 070",
+  "moduleId": "n1-module-070",
+  "vocab": [
+    {
+      "word": "漏らす",
+      "read": "もらす",
+      "mean": "누설하다, 지리다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "盛り込む",
+      "read": "もりこむ",
+      "mean": "포함하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "やつれる",
+      "read": "やつれる",
+      "mean": "수척해지다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "やり遂げる",
+      "read": "やりとげる",
+      "mean": "완수하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "和らぐ",
+      "read": "やわらぐ",
+      "mean": "누그러지다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "歪む",
+      "read": "ゆがむ",
+      "mean": "비뚤어지다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "行き届く",
+      "read": "ゆきとどく",
+      "mean": "빈틈없다, 자상하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "揺さぶる",
+      "read": "ゆさぶる",
+      "mean": "뒤흔들다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "揺らぐ",
+      "read": "ゆらぐ",
+      "mean": "흔들리다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "揺るがす",
+      "read": "ゆるがす",
+      "mean": "뒤흔들다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "緩む",
+      "read": "ゆるむ",
+      "mean": "느슨해지다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "緩める",
+      "read": "ゆるめる",
+      "mean": "늦추다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "蘇る",
+      "read": "よみがえる",
+      "mean": "되살아나다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "論じる",
+      "read": "ろんじる",
+      "mean": "논하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "詫びる",
+      "read": "わびる",
+      "mean": "사죄하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "わめく",
+      "read": "わめく",
+      "mean": "아우성치다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "割り当てる",
+      "read": "わりあてる",
+      "mean": "할당하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 20
+    },
+    {
+      "word": "あくどい",
+      "read": "あくどい",
+      "mean": "악랄하다, 야하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    },
+    {
+      "word": "浅ましい",
+      "read": "あさましい",
+      "mean": "한심하다, 비열하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    },
+    {
+      "word": "あっけない",
+      "read": "あっけない",
+      "mean": "싱겁다, 어이없다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    },
+    {
+      "word": "あどけない",
+      "read": "あどけない",
+      "mean": "천진난만하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    },
+    {
+      "word": "粗い",
+      "read": "あらい",
+      "mean": "거칠다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    },
+    {
+      "word": "潔い",
+      "read": "いさぎよい",
+      "mean": "깨끗하다, 미련 없다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    },
+    {
+      "word": "卑しい",
+      "read": "いやしい",
+      "mean": "천하다, 탐욕스럽다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    },
+    {
+      "word": "いやらしい",
+      "read": "いやらしい",
+      "mean": "추잡하다, 불쾌하다",
+      "tags": [],
+      "moduleId": "n1-module-070",
+      "legacyDay": 21
+    }
+  ]
+}

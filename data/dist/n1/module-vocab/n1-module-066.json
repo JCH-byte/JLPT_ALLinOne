@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 066",
+  "moduleId": "n1-module-066",
+  "vocab": [
+    {
+      "word": "這う",
+      "read": "はう",
+      "mean": "기다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "映える",
+      "read": "はえる",
+      "mean": "빛나다, 돋보이다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "剥がす",
+      "read": "はがす",
+      "mean": "벗기다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "捗る",
+      "read": "はかどる",
+      "mean": "진척되다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "図る",
+      "read": "はかる",
+      "mean": "도모하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "諮る",
+      "read": "はかる",
+      "mean": "자문하다, 상의하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "剥ぐ",
+      "read": "はぐ",
+      "mean": "벗기다, 박탈하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "はぐらかす",
+      "read": "はぐらかす",
+      "mean": "얼버무리다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "励ます",
+      "read": "はげます",
+      "mean": "격려하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "励む",
+      "read": "はげむ",
+      "mean": "힘쓰다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "化ける",
+      "read": "ばける",
+      "mean": "둔갑하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "はじく",
+      "read": "はじく",
+      "mean": "튀기다, 튕기다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "はしゃぐ",
+      "read": "はしゃぐ",
+      "mean": "떠들다, 까불다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "恥らう",
+      "read": "はじらう",
+      "mean": "수줍어하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "恥じる",
+      "read": "はじる",
+      "mean": "부끄러워하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "はせる",
+      "read": "はせる",
+      "mean": "달리다, 생각하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "ばてる",
+      "read": "ばてる",
+      "mean": "지치다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "跳ね返る",
+      "read": "はねかえる",
+      "mean": "튀어 오르다, 되돌아오다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "阻む",
+      "read": "はばむ",
+      "mean": "저지하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "はまる",
+      "read": "はまる",
+      "mean": "빠지다, 딱 맞다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "生やす",
+      "read": "はやす",
+      "mean": "기르다(수염 등)",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "ばらまく",
+      "read": "ばらまく",
+      "mean": "뿌리다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "張り合う",
+      "read": "はりあう",
+      "mean": "경쟁하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "控える",
+      "read": "ひかえる",
+      "mean": "삼가다, 대기하다, 메모하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    },
+    {
+      "word": "率いる",
+      "read": "ひきいる",
+      "mean": "이끌다, 통솔하다",
+      "tags": [],
+      "moduleId": "n1-module-066",
+      "legacyDay": 19
+    }
+  ]
+}

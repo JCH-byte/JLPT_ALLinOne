@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 038",
+  "moduleId": "n3-module-038",
+  "vocab": [
+    {
+      "word": "待ち合わせ",
+      "read": "まちあわせ",
+      "mean": "약속하여 만남",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "間違い",
+      "read": "まちがい",
+      "mean": "틀림, 잘못",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "街角",
+      "read": "まちかど",
+      "mean": "길모퉁이",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "松",
+      "read": "まつ",
+      "mean": "소나무",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "窓側",
+      "read": "まどがわ",
+      "mean": "창가",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "まな板",
+      "read": "まないた",
+      "mean": "도마",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "真似",
+      "read": "まね",
+      "mean": "흉내",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "豆",
+      "read": "まめ",
+      "mean": "콩",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "真夜中",
+      "read": "まよなか",
+      "mean": "한밤중",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "丸",
+      "read": "まる",
+      "mean": "동그라미, 원",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "周り",
+      "read": "まわり",
+      "mean": "주위, 주변",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "回り",
+      "read": "まわり",
+      "mean": "돎, 회전",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "回り道",
+      "read": "まわりみち",
+      "mean": "멀리 돌아가는 길",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "満員",
+      "read": "まんいん",
+      "mean": "만원",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "満足",
+      "read": "まんぞく",
+      "mean": "만족",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "満点",
+      "read": "まんてん",
+      "mean": "만점",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "身",
+      "read": "み",
+      "mean": "몸, 신분",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "見送り",
+      "read": "みおくり",
+      "mean": "배웅",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "味方",
+      "read": "みかた",
+      "mean": "편, 내 편",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "湖",
+      "read": "みずうみ",
+      "mean": "호수",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "水着",
+      "read": "みずぎ",
+      "mean": "수영복",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "見出し",
+      "read": "みだし",
+      "mean": "표제어, 제목",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "緑",
+      "read": "みどり",
+      "mean": "녹색",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "見直し",
+      "read": "みなおし",
+      "mean": "검토, 재검토",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    },
+    {
+      "word": "明後日",
+      "read": "あさって",
+      "mean": "모레",
+      "tags": [],
+      "moduleId": "n3-module-038",
+      "legacyDay": 14
+    }
+  ]
+}

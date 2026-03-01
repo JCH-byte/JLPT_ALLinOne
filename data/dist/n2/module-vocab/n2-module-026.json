@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 026",
+  "moduleId": "n2-module-026",
+  "vocab": [
+    {
+      "word": "推薦",
+      "read": "すいせん",
+      "mean": "추천",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "垂直",
+      "read": "すいちょく",
+      "mean": "수직",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "推定",
+      "read": "すいてい",
+      "mean": "추정",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "水筒",
+      "read": "すいとう",
+      "mean": "물통",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "水分",
+      "read": "すいぶん",
+      "mean": "수분",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "水平",
+      "read": "すいへい",
+      "mean": "수평",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "水平線",
+      "read": "すいへいせん",
+      "mean": "수평선",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "水面",
+      "read": "すいめん",
+      "mean": "수면",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "数字",
+      "read": "すうじ",
+      "mean": "숫자",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "末",
+      "read": "すえ",
+      "mean": "끝, 마지막",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "姿",
+      "read": "すがた",
+      "mean": "모습",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "図鑑",
+      "read": "ずかん",
+      "mean": "도감",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "隙間",
+      "read": "すきま",
+      "mean": "틈",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "図形",
+      "read": "ずけい",
+      "mean": "도형",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "筋",
+      "read": "すじ",
+      "mean": "근육, 줄거리",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "頭痛",
+      "read": "ずつう",
+      "mean": "두통",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "頭脳",
+      "read": "ずのう",
+      "mean": "두뇌",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "図表",
+      "read": "ずひょう",
+      "mean": "도표",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "炭",
+      "read": "すみ",
+      "mean": "숯",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "寸法",
+      "read": "すんぽう",
+      "mean": "치수",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "声援",
+      "read": "せいえん",
+      "mean": "성원",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "世紀",
+      "read": "せいき",
+      "mean": "세기",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "請求",
+      "read": "せいきゅう",
+      "mean": "청구",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "制限",
+      "read": "せいげん",
+      "mean": "제한",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    },
+    {
+      "word": "製作",
+      "read": "せいさく",
+      "mean": "제작",
+      "tags": [],
+      "moduleId": "n2-module-026",
+      "legacyDay": 8
+    }
+  ]
+}

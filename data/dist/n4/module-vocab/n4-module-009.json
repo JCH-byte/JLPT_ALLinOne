@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 009",
+  "moduleId": "n4-module-009",
+  "vocab": [
+    {
+      "word": "失敗",
+      "read": "しっぱい",
+      "mean": "실패",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "質問",
+      "read": "しつもん",
+      "mean": "질문",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "失礼",
+      "read": "しつれい",
+      "mean": "실례",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "辞典",
+      "read": "じてん",
+      "mean": "사전",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "自転車",
+      "read": "じてんしゃ",
+      "mean": "자전거",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "自動",
+      "read": "じどう",
+      "mean": "자동",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "自動車",
+      "read": "じどうしゃ",
+      "mean": "자동차",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "市内",
+      "read": "しない",
+      "mean": "시내",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 5
+    },
+    {
+      "word": "品物",
+      "read": "しなもの",
+      "mean": "물건, 상품",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "支払い",
+      "read": "しはらい",
+      "mean": "지불",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "字引",
+      "read": "じびき",
+      "mean": "자전, 사전",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "自分",
+      "read": "じぶん",
+      "mean": "자신, 자기",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "姉妹",
+      "read": "しまい",
+      "mean": "자매",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "市民",
+      "read": "しみん",
+      "mean": "시민",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "事務所",
+      "read": "じむしょ",
+      "mean": "사무소, 사무실",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "社会",
+      "read": "しゃかい",
+      "mean": "사회",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "市役所",
+      "read": "しやくしょ",
+      "mean": "시청",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "社長",
+      "read": "しゃちょう",
+      "mean": "사장",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "車道",
+      "read": "しゃどう",
+      "mean": "차도",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "習慣",
+      "read": "しゅうかん",
+      "mean": "습관",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "住所",
+      "read": "じゅうしょ",
+      "mean": "주소",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "柔道",
+      "read": "じゅうどう",
+      "mean": "유도",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "授業",
+      "read": "じゅぎょう",
+      "mean": "수업",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "主人",
+      "read": "しゅじん",
+      "mean": "주인, 남편",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    },
+    {
+      "word": "出席",
+      "read": "しゅっせき",
+      "mean": "출석",
+      "tags": [],
+      "moduleId": "n4-module-009",
+      "legacyDay": 6
+    }
+  ]
+}

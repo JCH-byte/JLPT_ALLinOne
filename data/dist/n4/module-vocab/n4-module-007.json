@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 007",
+  "moduleId": "n4-module-007",
+  "vocab": [
+    {
+      "word": "講堂",
+      "read": "こうどう",
+      "mean": "강당",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "公務員",
+      "read": "こうむいん",
+      "mean": "공무원",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "氷",
+      "read": "こおり",
+      "mean": "얼음",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "国際",
+      "read": "こくさい",
+      "mean": "국제",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "国産",
+      "read": "こくさん",
+      "mean": "국산",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "国内",
+      "read": "こくない",
+      "mean": "국내",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "国民",
+      "read": "こくみん",
+      "mean": "국민",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "国立",
+      "read": "こくりつ",
+      "mean": "국립",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "心",
+      "read": "こころ",
+      "mean": "마음",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "故障",
+      "read": "こしょう",
+      "mean": "고장",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "ご存じ",
+      "read": "ごぞんじ",
+      "mean": "알고 계심",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "答え",
+      "read": "こたえ",
+      "mean": "대답, 정답",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "ごちそう",
+      "read": "ごちそう",
+      "mean": "대접, 맛있는 음식",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "事",
+      "read": "こと",
+      "mean": "일, 것",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "言葉",
+      "read": "ことば",
+      "mean": "말, 언어",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "小鳥",
+      "read": "ことり",
+      "mean": "작은 새",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 4
+    },
+    {
+      "word": "子猫",
+      "read": "こねこ",
+      "mean": "아기 고양이",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "この間",
+      "read": "このあいた",
+      "mean": "요전, 일전",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "木の葉",
+      "read": "このは",
+      "mean": "나뭇잎",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "この辺",
+      "read": "このへん",
+      "mean": "이 근처",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "ごみ",
+      "read": "ごみ",
+      "mean": "쓰레기",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "米",
+      "read": "こめ",
+      "mean": "쌀",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "今回",
+      "read": "こんかい",
+      "mean": "이번",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "今度",
+      "read": "こんど",
+      "mean": "이번, 다음",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    },
+    {
+      "word": "今夜",
+      "read": "こんや",
+      "mean": "오늘 밤",
+      "tags": [],
+      "moduleId": "n4-module-007",
+      "legacyDay": 5
+    }
+  ]
+}

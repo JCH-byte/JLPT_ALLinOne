@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 048",
+  "moduleId": "n3-module-048",
+  "vocab": [
+    {
+      "word": "気を付ける",
+      "read": "きをつける",
+      "mean": "조심하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "区切る",
+      "read": "くぎる",
+      "mean": "구획하다, 끊다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "腐る",
+      "read": "くさる",
+      "mean": "썩다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "くたびれる",
+      "read": "くたびれる",
+      "mean": "지치다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "下る",
+      "read": "くだる",
+      "mean": "내려가다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "配る",
+      "read": "くばる",
+      "mean": "나누어 주다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "首になる",
+      "read": "くびになる",
+      "mean": "해고되다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "組む",
+      "read": "くむ",
+      "mean": "짜다, 끼다, 꼬다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "暮らす",
+      "read": "くらす",
+      "mean": "살다, 생활하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "比べる",
+      "read": "くらべる",
+      "mean": "비교하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "くり返す",
+      "read": "くりかえす",
+      "mean": "반복하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 18
+    },
+    {
+      "word": "苦しむ",
+      "read": "くるしむ",
+      "mean": "괴로워하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "加える",
+      "read": "くわえる",
+      "mean": "가하다, 더하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "加わる",
+      "read": "くわわる",
+      "mean": "가해지다, 더해지다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "消す",
+      "read": "けす",
+      "mean": "끄다, 지우다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "蹴る",
+      "read": "ける",
+      "mean": "차다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "断る",
+      "read": "ことわる",
+      "mean": "거절하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "好む",
+      "read": "このむ",
+      "mean": "좋아하다, 즐기다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "こぼす",
+      "read": "こぼす",
+      "mean": "흘리다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "こぼれる",
+      "read": "こぼれる",
+      "mean": "넘쳐흐르다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "困る",
+      "read": "こまる",
+      "mean": "곤란하다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "転がす",
+      "read": "ころがす",
+      "mean": "굴리다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "転がる",
+      "read": "ころがる",
+      "mean": "구르다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "殺す",
+      "read": "ころす",
+      "mean": "죽이다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    },
+    {
+      "word": "転ぶ",
+      "read": "ころぶ",
+      "mean": "넘어지다",
+      "tags": [],
+      "moduleId": "n3-module-048",
+      "legacyDay": 19
+    }
+  ]
+}

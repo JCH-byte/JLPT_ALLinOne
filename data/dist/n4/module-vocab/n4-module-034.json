@@ -1,0 +1,198 @@
+{
+  "title": "N4 모듈 034",
+  "moduleId": "n4-module-034",
+  "vocab": [
+    {
+      "word": "テニス",
+      "read": "てにす",
+      "mean": "테니스",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "トラック",
+      "read": "とらっく",
+      "mean": "트럭",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ドラマ",
+      "read": "どらま",
+      "mean": "드라마",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ドレス",
+      "read": "どれす",
+      "mean": "드레스",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ニュース",
+      "read": "にゅーす",
+      "mean": "뉴스",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "パートタイム",
+      "read": "ぱーとたいむ",
+      "mean": "파트타임",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "パソコン",
+      "read": "ぱそこん",
+      "mean": "PC, 컴퓨터",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "バター",
+      "read": "ばたー",
+      "mean": "버터",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ハンバーグ",
+      "read": "はんばーぐ",
+      "mean": "햄버그",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ピアノ",
+      "read": "ぴあの",
+      "mean": "피아노",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ビール",
+      "read": "びーる",
+      "mean": "맥주",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ピクニック",
+      "read": "ぴくにっく",
+      "mean": "피크닉, 소풍",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "ピンク",
+      "read": "ぴんく",
+      "mean": "핑크, 분홍색",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "フィルム",
+      "read": "ふぃるむ",
+      "mean": "필름",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "プール",
+      "read": "ぷーる",
+      "mean": "풀, 수영장",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 27
+    },
+    {
+      "word": "フォーク",
+      "read": "ふぉーく",
+      "mean": "포크",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "プリント",
+      "read": "ぷりんと",
+      "mean": "프린트, 유인물",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "プレゼント",
+      "read": "ぷれぜんと",
+      "mean": "선물",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "ページ",
+      "read": "ぺーじ",
+      "mean": "페이지",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "ベッド",
+      "read": "べっど",
+      "mean": "침대",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "ペット",
+      "read": "ぺっと",
+      "mean": "애완동물",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "ベル",
+      "read": "べる",
+      "mean": "벨",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "ボート",
+      "read": "ぼーと",
+      "mean": "보트",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    },
+    {
+      "word": "ボール",
+      "read": "ぼーる",
+      "mean": "공",
+      "tags": [],
+      "moduleId": "n4-module-034",
+      "legacyDay": 28
+    }
+  ]
+}

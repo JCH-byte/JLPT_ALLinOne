@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 053",
+  "moduleId": "n3-module-053",
+  "vocab": [
+    {
+      "word": "抜ける",
+      "read": "ぬける",
+      "mean": "빠지다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "濡らす",
+      "read": "ぬらす",
+      "mean": "적시다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "願う",
+      "read": "ねがう",
+      "mean": "원하다, 바라다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "眠る",
+      "read": "ねむる",
+      "mean": "잠들다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "残す",
+      "read": "のこす",
+      "mean": "남기다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "乗せる",
+      "read": "のせる",
+      "mean": "태우다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "載せる",
+      "read": "のせる",
+      "mean": "실다, 게재하다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "除く",
+      "read": "のぞく",
+      "mean": "제외하다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "伸ばす",
+      "read": "のばす",
+      "mean": "펴다, 기르다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "延ばす",
+      "read": "のばす",
+      "mean": "연기하다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "伸びる",
+      "read": "のびる",
+      "mean": "자라다, 늘다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "延びる",
+      "read": "のびる",
+      "mean": "연기되다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "上る",
+      "read": "のぼる",
+      "mean": "오르다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "昇る",
+      "read": "のぼる",
+      "mean": "떠오르다 (해가)",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "乗り遅れる",
+      "read": "のりおくれる",
+      "mean": "놓치다 (탈것을)",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "乗り越す",
+      "read": "のりこす",
+      "mean": "목적지를 지나치다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "載る",
+      "read": "のる",
+      "mean": "실리다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "生える",
+      "read": "はえる",
+      "mean": "자라다, 나다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "量る",
+      "read": "はかる",
+      "mean": "재다 (무게, 양)",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "掃く",
+      "read": "はく",
+      "mean": "쓸다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "外す",
+      "read": "はずす",
+      "mean": "떼다, 피하다, 벗다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "話し合う",
+      "read": "はなしあう",
+      "mean": "의논하다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "話しかける",
+      "read": "はなしかける",
+      "mean": "말을 걸다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "離す",
+      "read": "はなす",
+      "mean": "떼어놓다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    },
+    {
+      "word": "払い戻す",
+      "read": "はらいもどす",
+      "mean": "환불하다",
+      "tags": [],
+      "moduleId": "n3-module-053",
+      "legacyDay": 21
+    }
+  ]
+}

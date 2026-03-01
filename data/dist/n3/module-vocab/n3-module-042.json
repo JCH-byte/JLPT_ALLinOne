@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 042",
+  "moduleId": "n3-module-042",
+  "vocab": [
+    {
+      "word": "夜空",
+      "read": "よぞら",
+      "mean": "밤하늘",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "四つ角",
+      "read": "よつかど",
+      "mean": "네거리",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "夜中",
+      "read": "よなか",
+      "mean": "밤중",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "予報",
+      "read": "よほう",
+      "mean": "예보",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "予防",
+      "read": "よぼう",
+      "mean": "예방",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "喜び",
+      "read": "よろこび",
+      "mean": "기쁨",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "理科",
+      "read": "りか",
+      "mean": "이과",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "理解",
+      "read": "りかい",
+      "mean": "이해",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "離婚",
+      "read": "りこん",
+      "mean": "이혼",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "理想",
+      "read": "りそう",
+      "mean": "이상",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "理由",
+      "read": "りゆう",
+      "mean": "이유",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 15
+    },
+    {
+      "word": "留学",
+      "read": "りゅうがく",
+      "mean": "유학",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "流行",
+      "read": "りゅうこう",
+      "mean": "유행",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "量",
+      "read": "りょう",
+      "mean": "양",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "両替",
+      "read": "りょうがえ",
+      "mean": "환전",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "両側",
+      "read": "りょうがわ",
+      "mean": "양측, 양쪽",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "料金",
+      "read": "りょうきん",
+      "mean": "요금",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "履歴書",
+      "read": "りれきしょ",
+      "mean": "이력서",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "留守",
+      "read": "るす",
+      "mean": "부재, 집을 비움",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "留守番",
+      "read": "るすばん",
+      "mean": "집을 지킴",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "例外",
+      "read": "れいがい",
+      "mean": "예외",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "冷蔵庫",
+      "read": "れいぞうこ",
+      "mean": "냉장고",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "冷凍",
+      "read": "れいとう",
+      "mean": "냉동",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "列",
+      "read": "れつ",
+      "mean": "열, 줄",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    },
+    {
+      "word": "連休",
+      "read": "れんきゅう",
+      "mean": "연휴",
+      "tags": [],
+      "moduleId": "n3-module-042",
+      "legacyDay": 16
+    }
+  ]
+}

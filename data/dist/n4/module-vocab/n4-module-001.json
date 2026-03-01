@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 001",
+  "moduleId": "n4-module-001",
+  "vocab": [
+    {
+      "word": "あいさつ",
+      "read": "あいさつ",
+      "mean": "인사",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "赤ちゃん",
+      "read": "あかちゃん",
+      "mean": "아기",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "あご",
+      "read": "あご",
+      "mean": "턱",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "味",
+      "read": "あじ",
+      "mean": "맛",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "足音",
+      "read": "あしおと",
+      "mean": "발소리",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "汗",
+      "read": "あせ",
+      "mean": "땀",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "遊び",
+      "read": "あそび",
+      "mean": "놀이",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "暑さ",
+      "read": "あつさ",
+      "mean": "더위",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "飴",
+      "read": "あめ",
+      "mean": "사탕, 엿",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "安心",
+      "read": "あんしん",
+      "mean": "안심",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "案内",
+      "read": "あんない",
+      "mean": "안내",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "以下",
+      "read": "いか",
+      "mean": "이하",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "以外",
+      "read": "いがい",
+      "mean": "이외",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "医学",
+      "read": "いがく",
+      "mean": "의학",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "生き方",
+      "read": "いきかた",
+      "mean": "삶의 방식",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "意見",
+      "read": "いけん",
+      "mean": "의견",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "石",
+      "read": "いし",
+      "mean": "돌",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "以上",
+      "read": "いじょう",
+      "mean": "이상",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "一度",
+      "read": "いちど",
+      "mean": "한번",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "一日中",
+      "read": "いちにちじゅう",
+      "mean": "하루 종일",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "糸",
+      "read": "いと",
+      "mean": "실",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "以内",
+      "read": "いない",
+      "mean": "이내",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "田舎",
+      "read": "いなか",
+      "mean": "시골",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "命",
+      "read": "いのち",
+      "mean": "생명, 목숨",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "居間",
+      "read": "いま",
+      "mean": "거실",
+      "tags": [],
+      "moduleId": "n4-module-001",
+      "legacyDay": 1
+    }
+  ]
+}

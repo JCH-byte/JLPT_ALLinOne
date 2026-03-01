@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 013",
+  "moduleId": "n3-module-013",
+  "vocab": [
+    {
+      "word": "交換",
+      "read": "こうかん",
+      "mean": "교환",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "講義",
+      "read": "こうぎ",
+      "mean": "강의",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "高級",
+      "read": "こうきゅう",
+      "mean": "고급",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "公共料金",
+      "read": "こうきょうりょうきん",
+      "mean": "공공요금",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "合計",
+      "read": "ごうけい",
+      "mean": "합계",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "孝行",
+      "read": "こうこう",
+      "mean": "효도",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "広告",
+      "read": "こうこく",
+      "mean": "광고",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "交際",
+      "read": "こうさい",
+      "mean": "교제",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "高速道路",
+      "read": "こうそくどうろ",
+      "mean": "고속도로",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "交通事故",
+      "read": "こうつうじこ",
+      "mean": "교통사고",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "交通費",
+      "read": "こうつうひ",
+      "mean": "교통비",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "校庭",
+      "read": "こうてい",
+      "mean": "교정, 운동장",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "行動",
+      "read": "こうどう",
+      "mean": "행동",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "合同",
+      "read": "ごうどう",
+      "mean": "합동",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "後輩",
+      "read": "こうはい",
+      "mean": "후배",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "後半",
+      "read": "こうはん",
+      "mean": "후반",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "幸福",
+      "read": "こうふく",
+      "mean": "행복",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "紅葉",
+      "read": "こうよう",
+      "mean": "단풍",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "公立",
+      "read": "こうりつ",
+      "mean": "공립",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "交流",
+      "read": "こうりゅう",
+      "mean": "교류",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "合流",
+      "read": "ごうりゅう",
+      "mean": "합류",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "効力",
+      "read": "こうりょく",
+      "mean": "효력",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "高齢者",
+      "read": "こうれいしゃ",
+      "mean": "고령자",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "語学",
+      "read": "ごがく",
+      "mean": "어학",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    },
+    {
+      "word": "小型",
+      "read": "こがた",
+      "mean": "소형",
+      "tags": [],
+      "moduleId": "n3-module-013",
+      "legacyDay": 5
+    }
+  ]
+}

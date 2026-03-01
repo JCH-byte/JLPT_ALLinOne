@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 057",
+  "moduleId": "n3-module-057",
+  "vocab": [
+    {
+      "word": "割れる",
+      "read": "われる",
+      "mean": "깨지다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 22
+    },
+    {
+      "word": "青白い",
+      "read": "あおじろい",
+      "mean": "창백하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "浅い",
+      "read": "あさい",
+      "mean": "얕다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "厚い",
+      "read": "あつい",
+      "mean": "두껍다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "ありがたい",
+      "read": "ありがたい",
+      "mean": "고맙다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "薄暗い",
+      "read": "うすぐらい",
+      "mean": "어둑하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "うらやましい",
+      "read": "うらやましい",
+      "mean": "부럽다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "幼い",
+      "read": "おさない",
+      "mean": "어리다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "恐ろしい",
+      "read": "おそろしい",
+      "mean": "두렵다, 무섭다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "重たい",
+      "read": "おもたい",
+      "mean": "무겁다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "賢い",
+      "read": "かしこい",
+      "mean": "현명하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "がまん強い",
+      "read": "がまんづよい",
+      "mean": "참을성이 강하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "かゆい",
+      "read": "かゆい",
+      "mean": "가렵다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "かわいらしい",
+      "read": "かわいらしい",
+      "mean": "사랑스럽다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "きつい",
+      "read": "きつい",
+      "mean": "심하다, 꽉 끼다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "臭い",
+      "read": "くさい",
+      "mean": "냄새나다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "くだらない",
+      "read": "くだらない",
+      "mean": "시시하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "悔しい",
+      "read": "くやしい",
+      "mean": "분하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "苦しい",
+      "read": "くるしい",
+      "mean": "괴롭다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "詳しい",
+      "read": "くわしい",
+      "mean": "상세하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "険しい",
+      "read": "けわしい",
+      "mean": "험하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "濃い",
+      "read": "こい",
+      "mean": "짙다, 진하다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "恋しい",
+      "read": "こいしい",
+      "mean": "그립다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "細かい",
+      "read": "こまかい",
+      "mean": "세세하다, 작다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    },
+    {
+      "word": "塩辛い",
+      "read": "しおからい",
+      "mean": "짜다",
+      "tags": [],
+      "moduleId": "n3-module-057",
+      "legacyDay": 23
+    }
+  ]
+}

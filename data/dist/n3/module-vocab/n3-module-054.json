@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 054",
+  "moduleId": "n3-module-054",
+  "vocab": [
+    {
+      "word": "払う",
+      "read": "はらう",
+      "mean": "지불하다, 털다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "貼る",
+      "read": "はる",
+      "mean": "붙이다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "反する",
+      "read": "はんする",
+      "mean": "반하다, 어긋나다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "冷える",
+      "read": "ひえる",
+      "mean": "차가워지다, 식다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "引き受ける",
+      "read": "ひきうける",
+      "mean": "떠맡다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "引き出す",
+      "read": "ひきだす",
+      "mean": "꺼내다, 인출하다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "冷やす",
+      "read": "ひやす",
+      "mean": "차게 하다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "拾う",
+      "read": "ひろう",
+      "mean": "줍다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "広がる",
+      "read": "ひろがる",
+      "mean": "넓어지다, 퍼지다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "広げる",
+      "read": "ひろげる",
+      "mean": "넓히다, 펴다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "深まる",
+      "read": "ふかまる",
+      "mean": "깊어지다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "深める",
+      "read": "ふかめる",
+      "mean": "깊게 하다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "拭く",
+      "read": "ふく",
+      "mean": "닦다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "防ぐ",
+      "read": "ふせぐ",
+      "mean": "막다, 방지하다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "ぶつける",
+      "read": "ぶつける",
+      "mean": "부딪치다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "増やす",
+      "read": "ふやす",
+      "mean": "늘리다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "振り込む",
+      "read": "ふりこむ",
+      "mean": "납입하다, 입금하다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "振る",
+      "read": "ふる",
+      "mean": "흔들다, 차다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 21
+    },
+    {
+      "word": "震える",
+      "read": "ふるえる",
+      "mean": "떨리다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 22
+    },
+    {
+      "word": "触れる",
+      "read": "ふれる",
+      "mean": "접촉하다, 언급하다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 22
+    },
+    {
+      "word": "減らす",
+      "read": "へらす",
+      "mean": "줄이다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 22
+    },
+    {
+      "word": "減る",
+      "read": "へる",
+      "mean": "줄다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 22
+    },
+    {
+      "word": "干す",
+      "read": "ほす",
+      "mean": "말리다 (빨래를)",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 22
+    },
+    {
+      "word": "微笑む",
+      "read": "ほほえむ",
+      "mean": "미소 짓다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 22
+    },
+    {
+      "word": "任せる",
+      "read": "まかせる",
+      "mean": "맡기다",
+      "tags": [],
+      "moduleId": "n3-module-054",
+      "legacyDay": 22
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 008",
+  "moduleId": "n1-module-008",
+  "vocab": [
+    {
+      "word": "刊行",
+      "read": "かんこう",
+      "mean": "간행",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "慣行",
+      "read": "かんこう",
+      "mean": "관행",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "勧告",
+      "read": "かんこく",
+      "mean": "권고",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "換算",
+      "read": "かんさん",
+      "mean": "환산",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "感受性",
+      "read": "かんじゅせい",
+      "mean": "감수성",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "願書",
+      "read": "がんしょ",
+      "mean": "원서",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "干渉",
+      "read": "かんしょう",
+      "mean": "간섭",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "感触",
+      "read": "かんしょく",
+      "mean": "감촉",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "関税",
+      "read": "かんぜい",
+      "mean": "관세",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "感染",
+      "read": "かんせん",
+      "mean": "감염",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "元旦",
+      "read": "がんたん",
+      "mean": "원단, 설날 아침",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "鑑定",
+      "read": "かんてい",
+      "mean": "감정(가치 판단)",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "監督",
+      "read": "かんとく",
+      "mean": "감독",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "幹部",
+      "read": "かんぶ",
+      "mean": "간부",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "勘弁",
+      "read": "かんべん",
+      "mean": "용서",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 2
+    },
+    {
+      "word": "関与",
+      "read": "かんよ",
+      "mean": "관여",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "観覧",
+      "read": "かんらん",
+      "mean": "관람",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "官僚",
+      "read": "かんりょう",
+      "mean": "관료",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "慣例",
+      "read": "かんれい",
+      "mean": "관례",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "貫禄",
+      "read": "かんろく",
+      "mean": "관록",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "緩和",
+      "read": "かんわ",
+      "mean": "완화",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "器械",
+      "read": "きかい",
+      "mean": "기계, 기구",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "危害",
+      "read": "きがい",
+      "mean": "위해",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "気掛かり",
+      "read": "きがかり",
+      "mean": "걱정, 근심",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "規格",
+      "read": "きかく",
+      "mean": "규격",
+      "tags": [],
+      "moduleId": "n1-module-008",
+      "legacyDay": 3
+    }
+  ]
+}

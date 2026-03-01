@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 004",
+  "moduleId": "n4-module-004",
+  "vocab": [
+    {
+      "word": "外部",
+      "read": "がいぶ",
+      "mean": "외부",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "会話",
+      "read": "かいわ",
+      "mean": "회화",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "帰り",
+      "read": "かえり",
+      "mean": "귀가, 돌아오는 길",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "科学",
+      "read": "かがく",
+      "mean": "과학",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "鏡",
+      "read": "かがみ",
+      "mean": "거울",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "書き方",
+      "read": "かきかた",
+      "mean": "쓰는 법",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "飾り",
+      "read": "かざり",
+      "mean": "장식",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "火事",
+      "read": "かじ",
+      "mean": "화재",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "歌手",
+      "read": "かしゅ",
+      "mean": "가수",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "数",
+      "read": "かず",
+      "mean": "수, 숫자",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "ガス代",
+      "read": "がすだい",
+      "mean": "가스비",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "形",
+      "read": "かたち",
+      "mean": "모양, 형태",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "課長",
+      "read": "かちょう",
+      "mean": "과장",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "家庭",
+      "read": "かてい",
+      "mean": "가정",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "家内",
+      "read": "かない",
+      "mean": "아내, 집사람",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "金持ち",
+      "read": "かねもち",
+      "mean": "부자",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "彼女",
+      "read": "かのじょ",
+      "mean": "그녀, 여자친구",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "壁",
+      "read": "かべ",
+      "mean": "벽",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "髪",
+      "read": "かみ",
+      "mean": "머리카락",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "彼",
+      "read": "かれ",
+      "mean": "그, 남자친구",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "彼ら",
+      "read": "かれら",
+      "mean": "그들",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "代わり",
+      "read": "かわり",
+      "mean": "대신, 대리",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "考え方",
+      "read": "かんがえかた",
+      "mean": "사고방식",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "気",
+      "read": "き",
+      "mean": "기운, 마음",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    },
+    {
+      "word": "期間",
+      "read": "きかん",
+      "mean": "기간",
+      "tags": [],
+      "moduleId": "n4-module-004",
+      "legacyDay": 3
+    }
+  ]
+}

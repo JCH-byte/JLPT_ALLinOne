@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 049",
+  "moduleId": "n3-module-049",
+  "vocab": [
+    {
+      "word": "叫ぶ",
+      "read": "さけぶ",
+      "mean": "외치다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "避ける",
+      "read": "さける",
+      "mean": "피하다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "誘う",
+      "read": "さそう",
+      "mean": "권하다, 꼬시다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "サボる",
+      "read": "サボる",
+      "mean": "땡땡이 치다, 게으름 피우다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "覚ます",
+      "read": "さます",
+      "mean": "깨다 (잠/술을)",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "冷ます",
+      "read": "さます",
+      "mean": "식히다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "覚める",
+      "read": "さめる",
+      "mean": "깨다 (잠/술이)",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "冷める",
+      "read": "さめる",
+      "mean": "식다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "去る",
+      "read": "さる",
+      "mean": "떠나다, 지나가다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "仕上がる",
+      "read": "しあがる",
+      "mean": "완성되다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "仕上げる",
+      "read": "しあげる",
+      "mean": "완성하다, 마무리하다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "沈む",
+      "read": "しずむ",
+      "mean": "가라앉다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "従う",
+      "read": "したがう",
+      "mean": "따르다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "支払う",
+      "read": "しはらう",
+      "mean": "지불하다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "縛る",
+      "read": "しばる",
+      "mean": "묶다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "しぼる",
+      "read": "しぼる",
+      "mean": "짜다 (물기 등을)",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "しまう",
+      "read": "しまう",
+      "mean": "치우다, 넣어두다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "示す",
+      "read": "しめす",
+      "mean": "나타내다, 가리키다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "しゃがむ",
+      "read": "しゃがむ",
+      "mean": "웅크리고 앉다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "しゃべる",
+      "read": "しゃべる",
+      "mean": "재잘거리다, 말하다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "知り合う",
+      "read": "しりあう",
+      "mean": "알게 되다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "吸う",
+      "read": "すう",
+      "mean": "피우다, 들이마시다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "済ませる",
+      "read": "すませる",
+      "mean": "끝내다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "信じる",
+      "read": "しんじる",
+      "mean": "믿다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    },
+    {
+      "word": "過ごす",
+      "read": "すごす",
+      "mean": "보내다, 지내다",
+      "tags": [],
+      "moduleId": "n3-module-049",
+      "legacyDay": 19
+    }
+  ]
+}

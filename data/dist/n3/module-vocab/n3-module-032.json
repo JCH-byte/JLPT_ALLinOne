@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 032",
+  "moduleId": "n3-module-032",
+  "vocab": [
+    {
+      "word": "年月",
+      "read": "ねんげつ",
+      "mean": "연월, 세월",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "年中",
+      "read": "ねんじゅう",
+      "mean": "연중",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "年代",
+      "read": "ねんだい",
+      "mean": "연대",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "年末",
+      "read": "ねんまつ",
+      "mean": "연말",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "野",
+      "read": "の",
+      "mean": "들, 벌판",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "農業",
+      "read": "のうぎょう",
+      "mean": "농업",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "農村",
+      "read": "のうそん",
+      "mean": "농촌",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "農民",
+      "read": "のうみん",
+      "mean": "농민",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "能力",
+      "read": "のうりょく",
+      "mean": "능력",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "残り",
+      "read": "のこり",
+      "mean": "나머지",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "上り",
+      "read": "のぼり",
+      "mean": "오르막, 상행",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "飲み会",
+      "read": "のみかい",
+      "mean": "술자리",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "海苔",
+      "read": "のり",
+      "mean": "김",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "乗り越し",
+      "read": "のりこし",
+      "mean": "목적지보다 더 감, 무임승차(구간초과)",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "歯",
+      "read": "は",
+      "mean": "이, 치아",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "倍",
+      "read": "ばい",
+      "mean": "배, 곱절",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "灰色",
+      "read": "はいいろ",
+      "mean": "회색",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "梅雨",
+      "read": "つゆ",
+      "mean": "장마",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "配達",
+      "read": "はいたつ",
+      "mean": "배달",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "売店",
+      "read": "ばいてん",
+      "mean": "매점",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "売買",
+      "read": "ばいばい",
+      "mean": "매매",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "拍手",
+      "read": "はくしゅ",
+      "mean": "박수",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "博物館",
+      "read": "はくぶつかん",
+      "mean": "박물관",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "箸",
+      "read": "はし",
+      "mean": "젓가락",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    },
+    {
+      "word": "柱",
+      "read": "はしら",
+      "mean": "기둥",
+      "tags": [],
+      "moduleId": "n3-module-032",
+      "legacyDay": 12
+    }
+  ]
+}

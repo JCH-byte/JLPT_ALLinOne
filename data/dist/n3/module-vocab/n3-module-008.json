@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 008",
+  "moduleId": "n3-module-008",
+  "vocab": [
+    {
+      "word": "関係",
+      "read": "かんけい",
+      "mean": "관계",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "歓迎会",
+      "read": "かんげいかい",
+      "mean": "환영회",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "観光",
+      "read": "かんこう",
+      "mean": "관광",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "看護師",
+      "read": "かんごし",
+      "mean": "간호사",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "観察",
+      "read": "かんさつ",
+      "mean": "관찰",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "感じ",
+      "read": "かんじ",
+      "mean": "느낌",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "感謝",
+      "read": "かんしゃ",
+      "mean": "감사",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "患者",
+      "read": "かんじゃ",
+      "mean": "환자",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "感情",
+      "read": "かんじょう",
+      "mean": "감정",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "感心",
+      "read": "かんしん",
+      "mean": "감탄",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "関心",
+      "read": "かんしん",
+      "mean": "관심",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "完成",
+      "read": "かんせい",
+      "mean": "완성",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "間接",
+      "read": "かんせつ",
+      "mean": "간접",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "感想",
+      "read": "かんそう",
+      "mean": "감상",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "乾燥",
+      "read": "かんそう",
+      "mean": "건조",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "感動",
+      "read": "かんどう",
+      "mean": "감동",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "乾杯",
+      "read": "かんぱい",
+      "mean": "건배",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "気温",
+      "read": "きおん",
+      "mean": "기온",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "機械",
+      "read": "きかい",
+      "mean": "기계",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "機会",
+      "read": "きかい",
+      "mean": "기회",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "期限",
+      "read": "きげん",
+      "mean": "기한",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "記事",
+      "read": "きじ",
+      "mean": "기사",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "傷",
+      "read": "きず",
+      "mean": "상처",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "規則",
+      "read": "きそく",
+      "mean": "규칙",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "期待",
+      "read": "きたい",
+      "mean": "기대",
+      "tags": [],
+      "moduleId": "n3-module-008",
+      "legacyDay": 3
+    }
+  ]
+}

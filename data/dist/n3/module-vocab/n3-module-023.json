@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 023",
+  "moduleId": "n3-module-023",
+  "vocab": [
+    {
+      "word": "青年",
+      "read": "せいねん",
+      "mean": "청년",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 8
+    },
+    {
+      "word": "生年月日",
+      "read": "せいねんがっぴ",
+      "mean": "생년월일",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 8
+    },
+    {
+      "word": "製品",
+      "read": "せいひん",
+      "mean": "제품",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 8
+    },
+    {
+      "word": "制服",
+      "read": "せいふく",
+      "mean": "제복, 교복",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 8
+    },
+    {
+      "word": "正門",
+      "read": "せいもん",
+      "mean": "정문",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 8
+    },
+    {
+      "word": "整理",
+      "read": "せいり",
+      "mean": "정리",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 8
+    },
+    {
+      "word": "席",
+      "read": "せき",
+      "mean": "좌석, 자리",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "咳",
+      "read": "せき",
+      "mean": "기침",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "責任",
+      "read": "せきにん",
+      "mean": "책임",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "石油",
+      "read": "せきゆ",
+      "mean": "석유",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "接待",
+      "read": "せったい",
+      "mean": "접대",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "節約",
+      "read": "せつやく",
+      "mean": "절약",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "線",
+      "read": "せん",
+      "mean": "선",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "全員",
+      "read": "ぜんいん",
+      "mean": "전원",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "選挙",
+      "read": "せんきょ",
+      "mean": "선거",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "前後",
+      "read": "ぜんご",
+      "mean": "전후",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "専攻",
+      "read": "せんこう",
+      "mean": "전공",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "洗剤",
+      "read": "せんざい",
+      "mean": "세제",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "先日",
+      "read": "せんじつ",
+      "mean": "요전, 일전",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "選手",
+      "read": "せんしゅ",
+      "mean": "선수",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "全身",
+      "read": "ぜんしん",
+      "mean": "전신",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "選択",
+      "read": "せんたく",
+      "mean": "선택",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "洗濯機",
+      "read": "せんたくき",
+      "mean": "세탁기",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "洗濯物",
+      "read": "せんたくもの",
+      "mean": "세탁물",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    },
+    {
+      "word": "宣伝",
+      "read": "せんでん",
+      "mean": "선전",
+      "tags": [],
+      "moduleId": "n3-module-023",
+      "legacyDay": 9
+    }
+  ]
+}

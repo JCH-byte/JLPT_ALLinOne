@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 046",
+  "moduleId": "n1-module-046",
+  "vocab": [
+    {
+      "word": "兵器",
+      "read": "へいき",
+      "mean": "병기",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "並行",
+      "read": "へいこう",
+      "mean": "병행",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "閉口",
+      "read": "へいこう",
+      "mean": "질림, 난처함",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "閉鎖",
+      "read": "へいさ",
+      "mean": "폐쇄",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "平常",
+      "read": "へいじょう",
+      "mean": "평상",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "平静",
+      "read": "へいせい",
+      "mean": "평정",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "辟易",
+      "read": "へきえき",
+      "mean": "질림, 넌더리 남",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "弁解",
+      "read": "べんかい",
+      "mean": "변명",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "変革",
+      "read": "へんかく",
+      "mean": "변혁",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "返還",
+      "read": "へんかん",
+      "mean": "반환",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "便宜",
+      "read": "べんぎ",
+      "mean": "편의",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "返金",
+      "read": "へんきん",
+      "mean": "반금, 환불",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "変形",
+      "read": "へんけい",
+      "mean": "변형",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "偏見",
+      "read": "へんけん",
+      "mean": "편견",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "返済",
+      "read": "へんさい",
+      "mean": "변제",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "返上",
+      "read": "へんじょう",
+      "mean": "반납",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "弁償",
+      "read": "べんしょう",
+      "mean": "변상",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "変遷",
+      "read": "へんせん",
+      "mean": "변천",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "変容",
+      "read": "へんよう",
+      "mean": "변용",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "防衛",
+      "read": "ぼうえい",
+      "mean": "방위",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "崩壊",
+      "read": "ほうかい",
+      "mean": "붕괴",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "妨害",
+      "read": "ぼうがい",
+      "mean": "방해",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 12
+    },
+    {
+      "word": "放棄",
+      "read": "ほうき",
+      "mean": "포기",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 13
+    },
+    {
+      "word": "忘却",
+      "read": "ぼうきゃく",
+      "mean": "망각",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 13
+    },
+    {
+      "word": "方策",
+      "read": "ほうさく",
+      "mean": "방책",
+      "tags": [],
+      "moduleId": "n1-module-046",
+      "legacyDay": 13
+    }
+  ]
+}

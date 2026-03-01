@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 012",
+  "moduleId": "n4-module-012",
+  "vocab": [
+    {
+      "word": "竹",
+      "read": "たけ",
+      "mean": "대나무",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "多数",
+      "read": "たすう",
+      "mean": "다수",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "畳",
+      "read": "たたみ",
+      "mean": "다타미, 돗자리",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "縦",
+      "read": "たて",
+      "mean": "세로",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "棚",
+      "read": "たな",
+      "mean": "선반",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "楽しみ",
+      "read": "たのしみ",
+      "mean": "즐거움, 낙, 기대",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "食べすぎ",
+      "read": "たべすぎ",
+      "mean": "과식",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "ため",
+      "read": "ため",
+      "mean": "위함, 때문",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "男性",
+      "read": "だんせい",
+      "mean": "남성",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "血",
+      "read": "ち",
+      "mean": "피",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "力",
+      "read": "ちから",
+      "mean": "힘",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "遅刻",
+      "read": "ちこく",
+      "mean": "지각",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "父親",
+      "read": "ちちおや",
+      "mean": "부친",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "茶色",
+      "read": "ちゃいろ",
+      "mean": "갈색",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "茶碗",
+      "read": "ちゃわん",
+      "mean": "밥공기, 찻잔",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "注意",
+      "read": "ちゅうい",
+      "mean": "주의",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "中学生",
+      "read": "ちゅうがくせい",
+      "mean": "중학생",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 7
+    },
+    {
+      "word": "中学校",
+      "read": "ちゅうがっこう",
+      "mean": "중학교",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    },
+    {
+      "word": "中国",
+      "read": "ちゅうごく",
+      "mean": "중국",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    },
+    {
+      "word": "中止",
+      "read": "ちゅうし",
+      "mean": "중지",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    },
+    {
+      "word": "駐車",
+      "read": "ちゅうしゃ",
+      "mean": "주차",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    },
+    {
+      "word": "駐車場",
+      "read": "ちゅうしゃじょう",
+      "mean": "주차장",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    },
+    {
+      "word": "貯金",
+      "read": "ちょきん",
+      "mean": "저금",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    },
+    {
+      "word": "地理",
+      "read": "ちり",
+      "mean": "지리",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    },
+    {
+      "word": "月",
+      "read": "つき",
+      "mean": "달",
+      "tags": [],
+      "moduleId": "n4-module-012",
+      "legacyDay": 8
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 017",
+  "moduleId": "n3-module-017",
+  "vocab": [
+    {
+      "word": "実力",
+      "read": "じつりょく",
+      "mean": "실력",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "失恋",
+      "read": "しつれん",
+      "mean": "실연",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "指定",
+      "read": "してい",
+      "mean": "지정",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "指定席",
+      "read": "していせき",
+      "mean": "지정석",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "私鉄",
+      "read": "してつ",
+      "mean": "사철(민영 철도)",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "支店",
+      "read": "してん",
+      "mean": "지점",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "指導",
+      "read": "しどう",
+      "mean": "지도",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "自動販売機",
+      "read": "じどうはんばいき",
+      "mean": "자동판매기",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "品",
+      "read": "しな",
+      "mean": "물건, 품위",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "次男",
+      "read": "じなん",
+      "mean": "차남, 둘째 아들",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "始発駅",
+      "read": "しはつえき",
+      "mean": "시발역",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "死亡",
+      "read": "しぼう",
+      "mean": "사망",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "島",
+      "read": "しま",
+      "mean": "섬",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "自慢",
+      "read": "じまん",
+      "mean": "자만, 자랑",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "しみ",
+      "read": "しみ",
+      "mean": "얼룩, 기미",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "事務",
+      "read": "じむ",
+      "mean": "사무",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 6
+    },
+    {
+      "word": "氏名",
+      "read": "しめい",
+      "mean": "성명",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "締め切り",
+      "read": "しめきり",
+      "mean": "마감",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "地面",
+      "read": "じめん",
+      "mean": "지면, 땅",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "蛇口",
+      "read": "じゃぐち",
+      "mean": "수도꼭지",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "車庫",
+      "read": "しゃこ",
+      "mean": "차고",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "社説",
+      "read": "しゃせつ",
+      "mean": "사설",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "車輪",
+      "read": "しゃりん",
+      "mean": "차륜, 바퀴",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "自由",
+      "read": "じゆう",
+      "mean": "자유",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    },
+    {
+      "word": "周囲",
+      "read": "しゅうい",
+      "mean": "주위",
+      "tags": [],
+      "moduleId": "n3-module-017",
+      "legacyDay": 7
+    }
+  ]
+}
