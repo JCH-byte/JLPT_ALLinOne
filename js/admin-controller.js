@@ -1102,11 +1102,38 @@ async function handleCreatePullRequest() {
         console.error(e);
     }
 }
+// ── GitHub API direct helpers (module upload) ────────────────────────────────
+function ghHeaders(token) {
+    return {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github+json',
+        'Content-Type': 'application/json'
+    };
+}
+async function ghFetch(token, path, options = {}) {
+    const res = await fetch(`https://api.github.com${path}`, {
+        ...options,
+        headers: { ...ghHeaders(token), ...(options.headers || {}) }
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data?.message || `GitHub API ${res.status}`);
+    return data;
+}
+async function ghGetFileSha(token, ownerRepo, filePath, branch) {
+    try {
+        const d = await ghFetch(token, `/repos/${ownerRepo}/contents/${filePath}?ref=${encodeURIComponent(branch)}`);
+        return { sha: d.sha || null, content: d.content ? JSON.parse(atob(d.content.replace(/\n/g, ''))) : null };
+    } catch { return { sha: null, content: null }; }
+}
+
 async function handleModuleContentUpload() {
     const resultEl = document.getElementById('module-upload-result');
     try {
-        const endpoint = String(document.getElementById('pr-endpoint-input')?.value || '').trim();
-        if (!endpoint) throw new Error('PR 자동화 엔드포인트를 입력하세요.');
+        const token = String(document.getElementById('gh-token-input')?.value || '').trim();
+        if (!token) throw new Error('GitHub Token을 입력하세요.');
+
+        const ownerRepo = String(document.getElementById('gh-repo-input')?.value || 'JCH-byte/JLPT_ALLinOne').trim();
+        const BASE = 'main';
 
         const level = document.getElementById('level-select').value;
         const moduleId = String(document.getElementById('module-id-input')?.value || '').trim();
@@ -1116,37 +1143,60 @@ async function handleModuleContentUpload() {
         if (!rawJson) throw new Error('JSON을 입력하세요.');
 
         let moduleData;
-        try {
-            moduleData = JSON.parse(rawJson);
-        } catch (e) {
-            throw new Error(`JSON 파싱 실패: ${e.message}`);
-        }
+        try { moduleData = JSON.parse(rawJson); }
+        catch (e) { throw new Error(`JSON 파싱 실패: ${e.message}`); }
 
         const { story, analysis, quiz } = moduleData;
-        if (story == null && !Array.isArray(quiz)) {
-            throw new Error('story 또는 quiz 중 하나는 필요합니다.');
-        }
+        if (story == null && !Array.isArray(quiz)) throw new Error('story 또는 quiz 중 하나는 필요합니다.');
 
-        const hashInput = `${JSON.stringify({ moduleId, story, analysis, quiz }, null, 2)}\n`;
-        const dataHash = await sha256Hex(hashInput);
-
+        const dataHash = await sha256Hex(`${JSON.stringify({ moduleId, story, analysis, quiz }, null, 2)}\n`);
         const author = (document.getElementById('author-input')?.value || 'anonymous').trim();
         const changeSummary = (document.getElementById('summary-input')?.value || 'Module content upload').trim();
 
-        const fullPayload = { level, moduleId, story, analysis, quiz, dataHash, author, changeSummary };
+        if (resultEl) resultEl.textContent = '진행 중... (1/4) 베이스 브랜치 확인';
 
-        const response = await fetch(endpoint, {
+        // 1) 베이스 SHA
+        const baseRef = await ghFetch(token, `/repos/${ownerRepo}/git/ref/heads/${BASE}`);
+        const baseSha = baseRef.object.sha;
+
+        // 2) 새 브랜치 생성
+        const branchName = `automation/${level}-module-${moduleId}-${dataHash.slice(0, 8)}`;
+        if (resultEl) resultEl.textContent = `진행 중... (2/4) 브랜치 생성: ${branchName}`;
+        try {
+            await ghFetch(token, `/repos/${ownerRepo}/git/refs`, {
+                method: 'POST',
+                body: JSON.stringify({ ref: `refs/heads/${branchName}`, sha: baseSha })
+            });
+        } catch (e) {
+            if (!e.message.includes('Reference already exists')) throw e;
+        }
+
+        // 3) 파일 업서트
+        const filePath = `data/dist/${level}/module-vocab/${moduleId}.json`;
+        if (resultEl) resultEl.textContent = `진행 중... (3/4) 파일 업로드: ${filePath}`;
+        const { sha: existingSha, content: existing } = await ghGetFileSha(token, ownerRepo, filePath, branchName);
+        const merged = { ...(existing || {}), title: (existing || {}).title || moduleId, moduleId };
+        if (story != null)          merged.story    = story;
+        if (Array.isArray(analysis)) merged.analysis = analysis;
+        if (Array.isArray(quiz))     merged.quiz     = quiz;
+
+        const fileBody = { message: `chore(data): update ${level} ${moduleId} story/quiz`, content: btoa(unescape(encodeURIComponent(`${JSON.stringify(merged, null, 2)}\n`))), branch: branchName };
+        if (existingSha) fileBody.sha = existingSha;
+        await ghFetch(token, `/repos/${ownerRepo}/contents/${filePath}`, { method: 'PUT', body: JSON.stringify(fileBody) });
+
+        // 4) PR 생성
+        if (resultEl) resultEl.textContent = '진행 중... (4/4) PR 생성';
+        const prBody = [`Automated content sync for **${level.toUpperCase()} Module ${moduleId}**.`, '', '## Admin context', `- author: ${author}`, `- changeSummary: ${changeSummary}`, '', '## PR metadata', `- dataHash: ${dataHash}`, `- sourceBranch: ${branchName}`].join('\n');
+        const pr = await ghFetch(token, `/repos/${ownerRepo}/pulls`, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(fullPayload)
+            body: JSON.stringify({ title: `chore(data): ${level.toUpperCase()} ${moduleId} story/quiz update`, head: branchName, base: BASE, body: prBody })
         });
-        const body = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(body?.error || `HTTP ${response.status}`);
 
-        const prUrl = String(body?.prUrl || body?.url || '').trim();
-        if (!prUrl) throw new Error('응답에 prUrl이 없습니다.');
+        // 토큰 저장 (성공 시)
+        localStorage.setItem(`${DEV_PREFIX}__GH_TOKEN`, token);
+        localStorage.setItem(`${DEV_PREFIX}__GH_REPO`, ownerRepo);
 
-        if (resultEl) resultEl.textContent = `PR 생성 완료: ${prUrl}\n\n요청 payload:\n${JSON.stringify(fullPayload, null, 2)}`;
+        if (resultEl) resultEl.textContent = `PR 생성 완료!\n${pr.html_url}\n\nbranch: ${branchName}`;
     } catch (e) {
         if (resultEl) resultEl.textContent = `모듈 업로드 실패: ${e.message}`;
         console.error(e);
@@ -1402,6 +1452,11 @@ window.addEventListener('DOMContentLoaded', async () => {
     });
     const endpointInput = document.getElementById('pr-endpoint-input');
     if (endpointInput) endpointInput.value = readPrEndpoint();
+
+    const ghTokenInput = document.getElementById('gh-token-input');
+    const ghRepoInput  = document.getElementById('gh-repo-input');
+    if (ghTokenInput) ghTokenInput.value = localStorage.getItem(`${DEV_PREFIX}__GH_TOKEN`) || '';
+    if (ghRepoInput)  ghRepoInput.value  = localStorage.getItem(`${DEV_PREFIX}__GH_REPO`)  || 'JCH-byte/JLPT_ALLinOne';
 
     const storageModeSelect = document.getElementById('storage-mode-select');
     const storageProviderSelect = document.getElementById('storage-provider-select');
