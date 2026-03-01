@@ -163,8 +163,8 @@ function getOverrideData(level, day) {
     }
 }
 
-function fetchJsonWithFallback(primaryUrl, fallbackUrl, callback) {
-    fetch(primaryUrl)
+function fetchJsonWithFallback(primaryUrl, fallbackUrl, callback, fetchOptions) {
+    fetch(primaryUrl, fetchOptions || {})
         .then((res) => {
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             return res.json();
@@ -175,7 +175,7 @@ function fetchJsonWithFallback(primaryUrl, fallbackUrl, callback) {
                 callback(null);
                 return;
             }
-            fetch(fallbackUrl)
+            fetch(fallbackUrl, fetchOptions || {})
                 .then((res) => {
                     if (!res.ok) throw new Error(`HTTP ${res.status}`);
                     return res.json();
@@ -286,7 +286,7 @@ function loadLevelIndex(level, callback) {
             LEVEL_INDEX_CACHE.set(level, fullIndex);
             callback(fullIndex);
         });
-    });
+    }, { cache: 'no-cache' });
 }
 
 function loadDayData(level, day, callback) {
