@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 004",
+  "moduleId": "n1-module-004",
+  "vocab": [
+    {
+      "word": "運搬",
+      "read": "うんぱん",
+      "mean": "운반",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "運命",
+      "read": "うんめい",
+      "mean": "운명",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "映像",
+      "read": "えいぞう",
+      "mean": "영상",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "英雄",
+      "read": "えいゆう",
+      "mean": "영웅",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "閲覧",
+      "read": "えつらん",
+      "mean": "열람",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "獲物",
+      "read": "えもの",
+      "mean": "사냥감, 노획물",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "襟",
+      "read": "えり",
+      "mean": "옷깃",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "遠隔",
+      "read": "えんかく",
+      "mean": "원격",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "沿岸",
+      "read": "えんがん",
+      "mean": "연안",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "演出",
+      "read": "えんしゅつ",
+      "mean": "연출",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "延滞",
+      "read": "えんたい",
+      "mean": "연체",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "縁談",
+      "read": "えんだん",
+      "mean": "혼담",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "生い立ち",
+      "read": "おいたち",
+      "mean": "성장 과정",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "黄金",
+      "read": "おうごん",
+      "mean": "황금",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "押収",
+      "read": "おうしゅう",
+      "mean": "압수",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "大筋",
+      "read": "おおすじ",
+      "mean": "대강, 요점",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "公",
+      "read": "おおやけ",
+      "mean": "공공, 공적인 것",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "お世辞",
+      "read": "おせじ",
+      "mean": "빈말, 아첨",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "お手上げ",
+      "read": "おてあげ",
+      "mean": "어쩔 도리가 없음, 포기",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "同い年",
+      "read": "おないどし",
+      "mean": "동갑",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "思惑",
+      "read": "おもわく",
+      "mean": "의도, 생각",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "俺",
+      "read": "おれ",
+      "mean": "나(남자의 자칭)",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "卸売り",
+      "read": "おろしうり",
+      "mean": "도매",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "恩恵",
+      "read": "おんけい",
+      "mean": "은혜",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "改革",
+      "read": "かいかく",
+      "mean": "개혁",
+      "tags": [],
+      "moduleId": "n1-module-004",
+      "legacyDay": 2
+    }
+  ]
+}

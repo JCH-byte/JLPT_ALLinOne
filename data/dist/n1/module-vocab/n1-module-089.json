@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 089",
+  "moduleId": "n1-module-089",
+  "vocab": [
+    {
+      "word": "シック",
+      "read": "しっく",
+      "mean": "시크, 세련됨",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "シナリオ",
+      "read": "しなりお",
+      "mean": "시나리오",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "シビア",
+      "read": "しびあ",
+      "mean": "엄격함, 가혹함",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "シャープ",
+      "read": "しゃーぷ",
+      "mean": "샤프, 예리함",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ジャンプ",
+      "read": "じゃんぷ",
+      "mean": "점프",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ジャンル",
+      "read": "じゃんる",
+      "mean": "장르",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "シンプル",
+      "read": "しんぷる",
+      "mean": "심플",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "スケール",
+      "read": "すけーる",
+      "mean": "스케일, 규모",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "スタジオ",
+      "read": "すたじお",
+      "mean": "스튜디오",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ストック",
+      "read": "すとっく",
+      "mean": "스톡, 재고",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ストライキ",
+      "read": "すとらいき",
+      "mean": "파업",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ストレート",
+      "read": "すとれーと",
+      "mean": "스트레이트, 직선",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ストロー",
+      "read": "すとろー",
+      "mean": "빨대",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "スポット",
+      "read": "すぽっと",
+      "mean": "스폿, 지점",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "スライス",
+      "read": "すらいす",
+      "mean": "슬라이스, 얇게 썰기",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "セクション",
+      "read": "せくしょん",
+      "mean": "섹션, 부문",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "セレモニー",
+      "read": "せれもにー",
+      "mean": "세리머니, 의식",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "センサー",
+      "read": "せんさー",
+      "mean": "센서",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "センス",
+      "read": "せんす",
+      "mean": "센스, 감각",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "タイト",
+      "read": "たいと",
+      "mean": "타이트, 꽉 낌",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "タイマー",
+      "read": "たいまー",
+      "mean": "타이머",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "タイムリー",
+      "read": "たいむりー",
+      "mean": "시의적절함",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ダウンロード",
+      "read": "だうんろーど",
+      "mean": "다운로드",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "ダブル",
+      "read": "だぶる",
+      "mean": "더블, 이중",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 27
+    },
+    {
+      "word": "タレント",
+      "read": "たれんと",
+      "mean": "탤런트",
+      "tags": [],
+      "moduleId": "n1-module-089",
+      "legacyDay": 28
+    }
+  ]
+}

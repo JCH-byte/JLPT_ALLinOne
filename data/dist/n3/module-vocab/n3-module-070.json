@@ -1,0 +1,198 @@
+{
+  "title": "N3 모듈 070",
+  "moduleId": "n3-module-070",
+  "vocab": [
+    {
+      "word": "マイナス",
+      "read": "まいなす",
+      "mean": "마이너스",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "マナー",
+      "read": "まなー",
+      "mean": "매너",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "マフラー",
+      "read": "まふらー",
+      "mean": "목도리, 마플러",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "マラソン",
+      "read": "まらそん",
+      "mean": "마라톤",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "マンション",
+      "read": "まんしょん",
+      "mean": "맨션 (아파트)",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ミス",
+      "read": "みす",
+      "mean": "실수",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ミルク",
+      "read": "みるく",
+      "mean": "우유, 밀크",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "メール",
+      "read": "めーる",
+      "mean": "메일",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "メニュー",
+      "read": "めにゅー",
+      "mean": "메뉴",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "メンバー",
+      "read": "めんばー",
+      "mean": "멤버",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ユーモア",
+      "read": "ゆーもあ",
+      "mean": "유머",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ヨーロッパ",
+      "read": "よーろっぱ",
+      "mean": "유럽",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ライオン",
+      "read": "らいおん",
+      "mean": "사자",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ライト",
+      "read": "らいと",
+      "mean": "라이트, 전등",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ランチ",
+      "read": "らんち",
+      "mean": "런치, 점심",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ランニング",
+      "read": "らんにんぐ",
+      "mean": "러닝, 달리기",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "リサイクル",
+      "read": "りさいくる",
+      "mean": "재활용",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "リットル",
+      "read": "りっとる",
+      "mean": "리터",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "リボン",
+      "read": "りぼん",
+      "mean": "리본",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "レインコート",
+      "read": "れいんこーと",
+      "mean": "우비, 레인코트",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "レシピ",
+      "read": "れしぴ",
+      "mean": "레시피",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "レンズ",
+      "read": "れんず",
+      "mean": "렌즈",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ロビー",
+      "read": "ろびー",
+      "mean": "로비",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    },
+    {
+      "word": "ロボット",
+      "read": "ろぼっと",
+      "mean": "로봇",
+      "tags": [],
+      "moduleId": "n3-module-070",
+      "legacyDay": 28
+    }
+  ]
+}

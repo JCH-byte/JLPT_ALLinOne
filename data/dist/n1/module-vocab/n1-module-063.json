@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 063",
+  "moduleId": "n1-module-063",
+  "vocab": [
+    {
+      "word": "培う",
+      "read": "つちかう",
+      "mean": "가꾸다, 기르다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "突っかかる",
+      "read": "つっかかる",
+      "mean": "대들다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "慎む",
+      "read": "つつしむ",
+      "mean": "삼가다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "突っ張る",
+      "read": "つっぱる",
+      "mean": "버티다, 쥐가 나다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "つなぐ",
+      "read": "つなぐ",
+      "mean": "잇다, 연결하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "募る",
+      "read": "つのる",
+      "mean": "모집하다, 심해지다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "呟く",
+      "read": "つぶやく",
+      "mean": "중얼거리다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "つぶる",
+      "read": "つぶる",
+      "mean": "감다(눈)",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "つまむ",
+      "read": "つまむ",
+      "mean": "집다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "積み重なる",
+      "read": "つみかさなる",
+      "mean": "쌓이다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "積み立てる",
+      "read": "つみたてる",
+      "mean": "적립하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "摘む",
+      "read": "つむ",
+      "mean": "따다, 뜯다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "貫く",
+      "read": "つらぬく",
+      "mean": "관철하다, 꿰뚫다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "手がける",
+      "read": "てがける",
+      "mean": "다루다, 직접 하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "徹する",
+      "read": "てっする",
+      "mean": "투철하다, 관철하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "転じる",
+      "read": "てんじる",
+      "mean": "돌리다, 바뀌다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "問い詰める",
+      "read": "といつめる",
+      "mean": "캐묻다, 추궁하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "投じる",
+      "read": "とうじる",
+      "mean": "던지다, 투자하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "尊ぶ",
+      "read": "とうとぶ",
+      "mean": "공경하다, 존중하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "遠ざかる",
+      "read": "とおざかる",
+      "mean": "멀어지다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "とがめる",
+      "read": "とがめる",
+      "mean": "책망하다, 찔리다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "解き放す",
+      "read": "ときはなす",
+      "mean": "해방하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "途切れる",
+      "read": "とぎれる",
+      "mean": "중단되다, 끊기다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "説く",
+      "read": "とく",
+      "mean": "설하다, 설명하다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    },
+    {
+      "word": "研ぐ",
+      "read": "とぐ",
+      "mean": "갈다, 쌀을 씻다",
+      "tags": [],
+      "moduleId": "n1-module-063",
+      "legacyDay": 18
+    }
+  ]
+}

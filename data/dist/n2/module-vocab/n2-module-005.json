@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 005",
+  "moduleId": "n2-module-005",
+  "vocab": [
+    {
+      "word": "お昼",
+      "read": "おひる",
+      "mean": "점심, 낮",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "お前",
+      "read": "おまえ",
+      "mean": "너(친한 사이나 아랫사람)",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "おまけ",
+      "read": "おまけ",
+      "mean": "덤, 경품",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "泳ぎ",
+      "read": "およぎ",
+      "mean": "수영, 헤엄",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "温帯",
+      "read": "おんたい",
+      "mean": "온대",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "御中",
+      "read": "おんちゅう",
+      "mean": "귀중(단체 앞 편지)",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "音程",
+      "read": "おんてい",
+      "mean": "음정",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "蚊",
+      "read": "か",
+      "mean": "모기",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "害",
+      "read": "がい",
+      "mean": "해, 피해",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "開会",
+      "read": "かいかい",
+      "mean": "개회",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "会見",
+      "read": "かいけん",
+      "mean": "회견",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "外見",
+      "read": "がいけん",
+      "mean": "외견, 겉모습",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "介護",
+      "read": "かいご",
+      "mean": "간호",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "外交",
+      "read": "がいこう",
+      "mean": "외교",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "開催",
+      "read": "かいさい",
+      "mean": "개최",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解散",
+      "read": "かいさん",
+      "mean": "해산",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "開始",
+      "read": "かいし",
+      "mean": "개시, 시작",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解釈",
+      "read": "かいしゃく",
+      "mean": "해석",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "解消",
+      "read": "かいしょう",
+      "mean": "해소",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "海上",
+      "read": "かいじょう",
+      "mean": "해상",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "回数券",
+      "read": "かいすうけん",
+      "mean": "회수권",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改正",
+      "read": "かいせい",
+      "mean": "개정",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "快晴",
+      "read": "かいせい",
+      "mean": "쾌청",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "開設",
+      "read": "かいせつ",
+      "mean": "개설",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改善",
+      "read": "かいぜん",
+      "mean": "개선",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    },
+    {
+      "word": "改造",
+      "read": "かいぞう",
+      "mean": "개조",
+      "tags": [],
+      "moduleId": "n2-module-005",
+      "legacyDay": 2
+    }
+  ]
+}

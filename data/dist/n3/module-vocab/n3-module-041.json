@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 041",
+  "moduleId": "n3-module-041",
+  "vocab": [
+    {
+      "word": "友人",
+      "read": "ゆうじん",
+      "mean": "친구",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "郵送",
+      "read": "ゆうそう",
+      "mean": "우송",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "郵送料",
+      "read": "ゆうそうりょう",
+      "mean": "우송료",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "夕立",
+      "read": "ゆうだち",
+      "mean": "소나기",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "夕日",
+      "read": "ゆうひ",
+      "mean": "석양",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "郵便",
+      "read": "ゆうびん",
+      "mean": "우편",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "夕焼け",
+      "read": "ゆうやけ",
+      "mean": "저녁놀",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "有料",
+      "read": "ゆうりょう",
+      "mean": "유료",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "床",
+      "read": "ゆか",
+      "mean": "바닥, 마루",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "行き先",
+      "read": "いきさき",
+      "mean": "행선지",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "輸出",
+      "read": "ゆしゅつ",
+      "mean": "수출",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "輸入",
+      "read": "ゆにゅう",
+      "mean": "수입",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "夜明け",
+      "read": "よあけ",
+      "mean": "새벽",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "容器",
+      "read": "ようき",
+      "mean": "용기, 그릇",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "要求",
+      "read": "ようきゅう",
+      "mean": "요구",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "用件",
+      "read": "ようけん",
+      "mean": "용건",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "幼児",
+      "read": "ようじ",
+      "mean": "유아",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "幼稚園",
+      "read": "ようちえん",
+      "mean": "유치원",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "用途",
+      "read": "ようと",
+      "mean": "용도",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "翌朝",
+      "read": "よくあさ",
+      "mean": "이튿날 아침",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "翌日",
+      "read": "よくじつ",
+      "mean": "이튿날",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "翌週",
+      "read": "よくしゅう",
+      "mean": "다음 주",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "欲張り",
+      "read": "よくばり",
+      "mean": "욕심쟁이",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "予算",
+      "read": "よさん",
+      "mean": "예산",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    },
+    {
+      "word": "予想",
+      "read": "よそう",
+      "mean": "예상",
+      "tags": [],
+      "moduleId": "n3-module-041",
+      "legacyDay": 15
+    }
+  ]
+}

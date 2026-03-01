@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 020",
+  "moduleId": "n2-module-020",
+  "vocab": [
+    {
+      "word": "磁石",
+      "read": "じしゃく",
+      "mean": "자석",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "支出",
+      "read": "ししゅつ",
+      "mean": "지출",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "思想",
+      "read": "しそう",
+      "mean": "사상",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "子孫",
+      "read": "しそん",
+      "mean": "자손",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "辞退",
+      "read": "じたい",
+      "mean": "사퇴",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "自体",
+      "read": "じたい",
+      "mean": "자체",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "自宅",
+      "read": "じたく",
+      "mean": "자택",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "市長",
+      "read": "しちょう",
+      "mean": "시장(market mayor)",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 6
+    },
+    {
+      "word": "視聴者",
+      "read": "しちょうしゃ",
+      "mean": "시청자",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "質",
+      "read": "しつ",
+      "mean": "질",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実感",
+      "read": "じっかん",
+      "mean": "실감",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実験",
+      "read": "じっけん",
+      "mean": "실험",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実際",
+      "read": "じっさい",
+      "mean": "실제",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実施",
+      "read": "じっし",
+      "mean": "실시",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実習",
+      "read": "じっしゅう",
+      "mean": "실습",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実績",
+      "read": "じっせき",
+      "mean": "실적",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実践",
+      "read": "じっせん",
+      "mean": "실천",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "執筆",
+      "read": "しっぴつ",
+      "mean": "집필",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実物",
+      "read": "じつぶつ",
+      "mean": "실물",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "尻尾",
+      "read": "しっぽ",
+      "mean": "꼬리",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "失望",
+      "read": "しつぼう",
+      "mean": "실망",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実務",
+      "read": "じつむ",
+      "mean": "실무",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "実例",
+      "read": "じつれい",
+      "mean": "실례",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "指摘",
+      "read": "してき",
+      "mean": "지적",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "児童",
+      "read": "じどう",
+      "mean": "아동",
+      "tags": [],
+      "moduleId": "n2-module-020",
+      "legacyDay": 7
+    }
+  ]
+}

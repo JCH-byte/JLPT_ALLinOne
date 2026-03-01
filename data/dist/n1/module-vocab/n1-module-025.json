@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 025",
+  "moduleId": "n1-module-025",
+  "vocab": [
+    {
+      "word": "譲歩",
+      "read": "じょうほ",
+      "mean": "양보",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "照明",
+      "read": "しょうめい",
+      "mean": "조명",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "条約",
+      "read": "じょうやく",
+      "mean": "조약",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "奨励",
+      "read": "しょうれい",
+      "mean": "장려",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "除外",
+      "read": "じょがい",
+      "mean": "제외",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "職員",
+      "read": "しょくいん",
+      "mean": "직원",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "触発",
+      "read": "しょくはつ",
+      "mean": "촉발",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "職務",
+      "read": "しょくむ",
+      "mean": "직무",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "諸君",
+      "read": "しょくん",
+      "mean": "제군, 여러분",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "助言",
+      "read": "じょげん",
+      "mean": "조언",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "徐行",
+      "read": "じょこう",
+      "mean": "서행",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "所在",
+      "read": "しょざい",
+      "mean": "소재",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "所持",
+      "read": "しょじ",
+      "mean": "소지",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "所属",
+      "read": "しょぞく",
+      "mean": "소속",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "処置",
+      "read": "しょち",
+      "mean": "처치",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "助長",
+      "read": "じょちょう",
+      "mean": "조장",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "処罰",
+      "read": "しょばつ",
+      "mean": "처벌",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "処分",
+      "read": "しょぶん",
+      "mean": "처분",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "庶民",
+      "read": "しょみん",
+      "mean": "서민",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "自立",
+      "read": "じりつ",
+      "mean": "자립",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "指令",
+      "read": "しれい",
+      "mean": "지령",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "仕業",
+      "read": "しわざ",
+      "mean": "소행, 짓",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "人員",
+      "read": "じんいん",
+      "mean": "인원",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "人格",
+      "read": "じんかく",
+      "mean": "인격",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    },
+    {
+      "word": "新型",
+      "read": "しんがた",
+      "mean": "신형",
+      "tags": [],
+      "moduleId": "n1-module-025",
+      "legacyDay": 7
+    }
+  ]
+}

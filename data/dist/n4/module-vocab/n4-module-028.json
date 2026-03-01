@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 028",
+  "moduleId": "n4-module-028",
+  "vocab": [
+    {
+      "word": "恥ずかしい",
+      "read": "はずかしい",
+      "mean": "부끄럽다, 창피하다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "ひどい",
+      "read": "ひどい",
+      "mean": "심하다, 지독하다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "太い",
+      "read": "ふとい",
+      "mean": "굵다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "欲しい",
+      "read": "ほしい",
+      "mean": "원하다, 갖고 싶다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "細い",
+      "read": "ほそい",
+      "mean": "가늘다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "丸い",
+      "read": "まるい",
+      "mean": "둥글다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "珍しい",
+      "read": "めずらしい",
+      "mean": "드물다, 희귀하다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "易しい",
+      "read": "やさしい",
+      "mean": "쉽다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "優しい",
+      "read": "やさしい",
+      "mean": "상냥하다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "柔らかい",
+      "read": "やわらかい",
+      "mean": "부드럽다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "よろしい",
+      "read": "よろしい",
+      "mean": "좋다 (정중)",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "若い",
+      "read": "わかい",
+      "mean": "젊다",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 21
+    },
+    {
+      "word": "安全な",
+      "read": "あんぜんな",
+      "mean": "안전한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "危険な",
+      "read": "きけんな",
+      "mean": "위험한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "けっこうな",
+      "read": "けっこうな",
+      "mean": "괜찮은, 훌륭한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "残念な",
+      "read": "ざんねんな",
+      "mean": "유감스러운, 아쉬운",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "十分な",
+      "read": "じゅうぶんな",
+      "mean": "충분한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "親切な",
+      "read": "しんせつな",
+      "mean": "친절한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "大事な",
+      "read": "だいじな",
+      "mean": "중요한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "大切な",
+      "read": "たいせつな",
+      "mean": "소중한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "だめな",
+      "read": "だめな",
+      "mean": "안 되는, 소용없는",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "丁寧な",
+      "read": "ていねいな",
+      "mean": "정중한, 꼼꼼한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "特別な",
+      "read": "とくべつな",
+      "mean": "특별한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "複雑な",
+      "read": "ふくざつな",
+      "mean": "복잡한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    },
+    {
+      "word": "不便な",
+      "read": "ふべんな",
+      "mean": "불편한",
+      "tags": [],
+      "moduleId": "n4-module-028",
+      "legacyDay": 22
+    }
+  ]
+}

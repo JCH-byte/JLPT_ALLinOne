@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 055",
+  "moduleId": "n2-module-055",
+  "vocab": [
+    {
+      "word": "至る",
+      "read": "いたる",
+      "mean": "이르다, 도달하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "威張る",
+      "read": "いばる",
+      "mean": "뽐내다, 거만부리다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "祝う",
+      "read": "いわう",
+      "mean": "축하하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "飢える",
+      "read": "うえる",
+      "mean": "굶주리다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "浮かぶ",
+      "read": "うかぶ",
+      "mean": "뜨다, 떠오르다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "受け入れる",
+      "read": "うけいれる",
+      "mean": "받아들이다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "承る",
+      "read": "うけたまわる",
+      "mean": "듣다, 받다 (겸양)",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "失う",
+      "read": "うしなう",
+      "mean": "잃다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "薄める",
+      "read": "うすめる",
+      "mean": "묽게 하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "打ち明ける",
+      "read": "うちあける",
+      "mean": "털어놓다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "打ち消す",
+      "read": "うちけす",
+      "mean": "부정하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "撃つ",
+      "read": "うつ",
+      "mean": "쏘다, 공격하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "訴える",
+      "read": "うったえる",
+      "mean": "호소하다, 소송하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "うつむく",
+      "read": "うつむく",
+      "mean": "고개를 숙이다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "うなずく",
+      "read": "うなずく",
+      "mean": "끄덕이다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "奪う",
+      "read": "うばう",
+      "mean": "빼앗다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "生み出す",
+      "read": "うみだす",
+      "mean": "낳다, 창출하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "敬う",
+      "read": "うやまう",
+      "mean": "공경하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "裏返す",
+      "read": "うらがえす",
+      "mean": "뒤집다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "裏切る",
+      "read": "うらぎる",
+      "mean": "배신하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "占う",
+      "read": "うらなう",
+      "mean": "점치다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "恨む",
+      "read": "うらむ",
+      "mean": "원망하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "うらやむ",
+      "read": "うらやむ",
+      "mean": "부러워하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "描く",
+      "read": "えがく",
+      "mean": "그리다, 묘사하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    },
+    {
+      "word": "演じる",
+      "read": "えんじる",
+      "mean": "연기하다",
+      "tags": [],
+      "moduleId": "n2-module-055",
+      "legacyDay": 18
+    }
+  ]
+}

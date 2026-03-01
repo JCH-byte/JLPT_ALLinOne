@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 019",
+  "moduleId": "n2-module-019",
+  "vocab": [
+    {
+      "word": "刺身",
+      "read": "さしみ",
+      "mean": "회",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "撮影",
+      "read": "さつえい",
+      "mean": "촬영",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "雑音",
+      "read": "ざつおん",
+      "mean": "잡음",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "雑談",
+      "read": "ざつだん",
+      "mean": "잡담",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "作動",
+      "read": "さどう",
+      "mean": "작동",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "茶道",
+      "read": "さどう",
+      "mean": "다도",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "砂漠",
+      "read": "さばく",
+      "mean": "사막",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "錆",
+      "read": "さび",
+      "mean": "녹(rust)",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "差別",
+      "read": "さべつ",
+      "mean": "차별",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "作法",
+      "read": "さほう",
+      "mean": "작법, 예의범절",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "左右",
+      "read": "さゆう",
+      "mean": "좌우",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "参考",
+      "read": "さんこう",
+      "mean": "참고",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "参照",
+      "read": "さんしょう",
+      "mean": "참조",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "残高",
+      "read": "ざんだか",
+      "mean": "잔고",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "産地",
+      "read": "さんち",
+      "mean": "산지",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "賛否",
+      "read": "さんぴ",
+      "mean": "찬반",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "幸せ",
+      "read": "しあわせ",
+      "mean": "행복",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "鹿",
+      "read": "しか",
+      "mean": "사슴",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "敷地",
+      "read": "しきち",
+      "mean": "부지",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "時給",
+      "read": "じきゅう",
+      "mean": "시급",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "刺激",
+      "read": "しげき",
+      "mean": "자극",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "思考",
+      "read": "しこう",
+      "mean": "사고(생각)",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "持参",
+      "read": "じさん",
+      "mean": "지참",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "支持",
+      "read": "しじ",
+      "mean": "지지",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    },
+    {
+      "word": "事実",
+      "read": "じじつ",
+      "mean": "사실",
+      "tags": [],
+      "moduleId": "n2-module-019",
+      "legacyDay": 6
+    }
+  ]
+}

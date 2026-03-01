@@ -1,491 +1,843 @@
 {
-    "manifest": {
-        "assignmentVersion": "item-assignment-v1",
-        "source": "data/src/n1.items.json",
-        "learningUnit": "module"
+  "manifest": {
+    "assignmentVersion": "module-vocab-v1",
+    "source": "content/modules/src/",
+    "learningUnit": "module"
+  },
+  "modules": {
+    "n1-module-001": {
+      "moduleId": "n1-module-001",
+      "level": "n1",
+      "title": "N1 모듈 001",
+      "moduleSeq": 1,
+      "vocabCount": 25
     },
-    "modules": {
-        "n1-module-001": {
-            "moduleId": "n1-module-001",
-            "level": "n1",
-            "theme": "Legacy Day 1",
-            "communicativeGoal": "legacy day-1 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-1"
-            ],
-            "legacyDay": 1,
-            "title": "Day 1 단어장"
-        },
-        "n1-module-002": {
-            "moduleId": "n1-module-002",
-            "level": "n1",
-            "theme": "Legacy Day 2",
-            "communicativeGoal": "legacy day-2 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-2"
-            ],
-            "legacyDay": 2,
-            "title": "Day 2 단어장"
-        },
-        "n1-module-003": {
-            "moduleId": "n1-module-003",
-            "level": "n1",
-            "theme": "Legacy Day 3",
-            "communicativeGoal": "legacy day-3 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-3"
-            ],
-            "legacyDay": 3,
-            "title": "Day 3 단어장"
-        },
-        "n1-module-004": {
-            "moduleId": "n1-module-004",
-            "level": "n1",
-            "theme": "Legacy Day 4",
-            "communicativeGoal": "legacy day-4 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-4"
-            ],
-            "legacyDay": 4,
-            "title": "Day 4 단어장"
-        },
-        "n1-module-005": {
-            "moduleId": "n1-module-005",
-            "level": "n1",
-            "theme": "Legacy Day 5",
-            "communicativeGoal": "legacy day-5 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-5"
-            ],
-            "legacyDay": 5,
-            "title": "Day 5 단어장"
-        },
-        "n1-module-006": {
-            "moduleId": "n1-module-006",
-            "level": "n1",
-            "theme": "Legacy Day 6",
-            "communicativeGoal": "legacy day-6 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-6"
-            ],
-            "legacyDay": 6,
-            "title": "Day 6 단어장"
-        },
-        "n1-module-007": {
-            "moduleId": "n1-module-007",
-            "level": "n1",
-            "theme": "Legacy Day 7",
-            "communicativeGoal": "legacy day-7 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-7"
-            ],
-            "legacyDay": 7,
-            "title": "Day 7 단어장"
-        },
-        "n1-module-008": {
-            "moduleId": "n1-module-008",
-            "level": "n1",
-            "theme": "Legacy Day 8",
-            "communicativeGoal": "legacy day-8 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-8"
-            ],
-            "legacyDay": 8,
-            "title": "Day 8 단어장"
-        },
-        "n1-module-009": {
-            "moduleId": "n1-module-009",
-            "level": "n1",
-            "theme": "Legacy Day 9",
-            "communicativeGoal": "legacy day-9 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-9"
-            ],
-            "legacyDay": 9,
-            "title": "Day 9 단어장"
-        },
-        "n1-module-010": {
-            "moduleId": "n1-module-010",
-            "level": "n1",
-            "theme": "Legacy Day 10",
-            "communicativeGoal": "legacy day-10 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-10"
-            ],
-            "legacyDay": 10,
-            "title": "Day 10 단어장"
-        },
-        "n1-module-011": {
-            "moduleId": "n1-module-011",
-            "level": "n1",
-            "theme": "Legacy Day 11",
-            "communicativeGoal": "legacy day-11 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-11"
-            ],
-            "legacyDay": 11,
-            "title": "Day 11 단어장"
-        },
-        "n1-module-012": {
-            "moduleId": "n1-module-012",
-            "level": "n1",
-            "theme": "Legacy Day 12",
-            "communicativeGoal": "legacy day-12 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-12"
-            ],
-            "legacyDay": 12,
-            "title": "Day 12 단어장"
-        },
-        "n1-module-013": {
-            "moduleId": "n1-module-013",
-            "level": "n1",
-            "theme": "Legacy Day 13",
-            "communicativeGoal": "legacy day-13 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-13"
-            ],
-            "legacyDay": 13,
-            "title": "Day 13 단어장"
-        },
-        "n1-module-014": {
-            "moduleId": "n1-module-014",
-            "level": "n1",
-            "theme": "Legacy Day 14",
-            "communicativeGoal": "legacy day-14 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-14"
-            ],
-            "legacyDay": 14,
-            "title": "Day 14 단어장"
-        },
-        "n1-module-015": {
-            "moduleId": "n1-module-015",
-            "level": "n1",
-            "theme": "Legacy Day 15",
-            "communicativeGoal": "legacy day-15 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-15"
-            ],
-            "legacyDay": 15,
-            "title": "Day 15 단어장"
-        },
-        "n1-module-016": {
-            "moduleId": "n1-module-016",
-            "level": "n1",
-            "theme": "Legacy Day 16",
-            "communicativeGoal": "legacy day-16 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-16"
-            ],
-            "legacyDay": 16,
-            "title": "Day 16 단어장"
-        },
-        "n1-module-017": {
-            "moduleId": "n1-module-017",
-            "level": "n1",
-            "theme": "Legacy Day 17",
-            "communicativeGoal": "legacy day-17 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-17"
-            ],
-            "legacyDay": 17,
-            "title": "Day 17 단어장"
-        },
-        "n1-module-018": {
-            "moduleId": "n1-module-018",
-            "level": "n1",
-            "theme": "Legacy Day 18",
-            "communicativeGoal": "legacy day-18 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-18"
-            ],
-            "legacyDay": 18,
-            "title": "Day 18 단어장"
-        },
-        "n1-module-019": {
-            "moduleId": "n1-module-019",
-            "level": "n1",
-            "theme": "Legacy Day 19",
-            "communicativeGoal": "legacy day-19 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-19"
-            ],
-            "legacyDay": 19,
-            "title": "Day 19 단어장"
-        },
-        "n1-module-020": {
-            "moduleId": "n1-module-020",
-            "level": "n1",
-            "theme": "Legacy Day 20",
-            "communicativeGoal": "legacy day-20 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-20"
-            ],
-            "legacyDay": 20,
-            "title": "Day 20 단어장"
-        },
-        "n1-module-021": {
-            "moduleId": "n1-module-021",
-            "level": "n1",
-            "theme": "Legacy Day 21",
-            "communicativeGoal": "legacy day-21 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-21"
-            ],
-            "legacyDay": 21,
-            "title": "Day 21 단어장"
-        },
-        "n1-module-022": {
-            "moduleId": "n1-module-022",
-            "level": "n1",
-            "theme": "Legacy Day 22",
-            "communicativeGoal": "legacy day-22 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-22"
-            ],
-            "legacyDay": 22,
-            "title": "Day 22 단어장"
-        },
-        "n1-module-023": {
-            "moduleId": "n1-module-023",
-            "level": "n1",
-            "theme": "Legacy Day 23",
-            "communicativeGoal": "legacy day-23 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-23"
-            ],
-            "legacyDay": 23,
-            "title": "Day 23 단어장"
-        },
-        "n1-module-024": {
-            "moduleId": "n1-module-024",
-            "level": "n1",
-            "theme": "Legacy Day 24",
-            "communicativeGoal": "legacy day-24 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-24"
-            ],
-            "legacyDay": 24,
-            "title": "Day 24 단어장"
-        },
-        "n1-module-025": {
-            "moduleId": "n1-module-025",
-            "level": "n1",
-            "theme": "Legacy Day 25",
-            "communicativeGoal": "legacy day-25 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-25"
-            ],
-            "legacyDay": 25,
-            "title": "Day 25 단어장"
-        },
-        "n1-module-026": {
-            "moduleId": "n1-module-026",
-            "level": "n1",
-            "theme": "Legacy Day 26",
-            "communicativeGoal": "legacy day-26 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-26"
-            ],
-            "legacyDay": 26,
-            "title": "Day 26 단어장"
-        },
-        "n1-module-027": {
-            "moduleId": "n1-module-027",
-            "level": "n1",
-            "theme": "Legacy Day 27",
-            "communicativeGoal": "legacy day-27 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-27"
-            ],
-            "legacyDay": 27,
-            "title": "Day 27 단어장"
-        },
-        "n1-module-028": {
-            "moduleId": "n1-module-028",
-            "level": "n1",
-            "theme": "Legacy Day 28",
-            "communicativeGoal": "legacy day-28 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-28"
-            ],
-            "legacyDay": 28,
-            "title": "Day 28 단어장"
-        }
+    "n1-module-002": {
+      "moduleId": "n1-module-002",
+      "level": "n1",
+      "title": "N1 모듈 002",
+      "moduleSeq": 2,
+      "vocabCount": 25
     },
-    "days": {
-        "1": {
-            "title": "Day 1 단어장",
-            "moduleId": "n1-module-001"
-        },
-        "2": {
-            "title": "Day 2 단어장",
-            "moduleId": "n1-module-002"
-        },
-        "3": {
-            "title": "Day 3 단어장",
-            "moduleId": "n1-module-003"
-        },
-        "4": {
-            "title": "Day 4 단어장",
-            "moduleId": "n1-module-004"
-        },
-        "5": {
-            "title": "Day 5 단어장",
-            "moduleId": "n1-module-005"
-        },
-        "6": {
-            "title": "Day 6 단어장",
-            "moduleId": "n1-module-006"
-        },
-        "7": {
-            "title": "Day 7 단어장",
-            "moduleId": "n1-module-007"
-        },
-        "8": {
-            "title": "Day 8 단어장",
-            "moduleId": "n1-module-008"
-        },
-        "9": {
-            "title": "Day 9 단어장",
-            "moduleId": "n1-module-009"
-        },
-        "10": {
-            "title": "Day 10 단어장",
-            "moduleId": "n1-module-010"
-        },
-        "11": {
-            "title": "Day 11 단어장",
-            "moduleId": "n1-module-011"
-        },
-        "12": {
-            "title": "Day 12 단어장",
-            "moduleId": "n1-module-012"
-        },
-        "13": {
-            "title": "Day 13 단어장",
-            "moduleId": "n1-module-013"
-        },
-        "14": {
-            "title": "Day 14 단어장",
-            "moduleId": "n1-module-014"
-        },
-        "15": {
-            "title": "Day 15 단어장",
-            "moduleId": "n1-module-015"
-        },
-        "16": {
-            "title": "Day 16 단어장",
-            "moduleId": "n1-module-016"
-        },
-        "17": {
-            "title": "Day 17 단어장",
-            "moduleId": "n1-module-017"
-        },
-        "18": {
-            "title": "Day 18 단어장",
-            "moduleId": "n1-module-018"
-        },
-        "19": {
-            "title": "Day 19 단어장",
-            "moduleId": "n1-module-019"
-        },
-        "20": {
-            "title": "Day 20 단어장",
-            "moduleId": "n1-module-020"
-        },
-        "21": {
-            "title": "Day 21 단어장",
-            "moduleId": "n1-module-021"
-        },
-        "22": {
-            "title": "Day 22 단어장",
-            "moduleId": "n1-module-022"
-        },
-        "23": {
-            "title": "Day 23 단어장",
-            "moduleId": "n1-module-023"
-        },
-        "24": {
-            "title": "Day 24 단어장",
-            "moduleId": "n1-module-024"
-        },
-        "25": {
-            "title": "Day 25 단어장",
-            "moduleId": "n1-module-025"
-        },
-        "26": {
-            "title": "Day 26 단어장",
-            "moduleId": "n1-module-026"
-        },
-        "27": {
-            "title": "Day 27 단어장",
-            "moduleId": "n1-module-027"
-        },
-        "28": {
-            "title": "Day 28 단어장",
-            "moduleId": "n1-module-028"
-        }
+    "n1-module-003": {
+      "moduleId": "n1-module-003",
+      "level": "n1",
+      "title": "N1 모듈 003",
+      "moduleSeq": 3,
+      "vocabCount": 25
     },
-    "dayToModule": {
-        "1": "n1-module-001",
-        "2": "n1-module-002",
-        "3": "n1-module-003",
-        "4": "n1-module-004",
-        "5": "n1-module-005",
-        "6": "n1-module-006",
-        "7": "n1-module-007",
-        "8": "n1-module-008",
-        "9": "n1-module-009",
-        "10": "n1-module-010",
-        "11": "n1-module-011",
-        "12": "n1-module-012",
-        "13": "n1-module-013",
-        "14": "n1-module-014",
-        "15": "n1-module-015",
-        "16": "n1-module-016",
-        "17": "n1-module-017",
-        "18": "n1-module-018",
-        "19": "n1-module-019",
-        "20": "n1-module-020",
-        "21": "n1-module-021",
-        "22": "n1-module-022",
-        "23": "n1-module-023",
-        "24": "n1-module-024",
-        "25": "n1-module-025",
-        "26": "n1-module-026",
-        "27": "n1-module-027",
-        "28": "n1-module-028"
+    "n1-module-004": {
+      "moduleId": "n1-module-004",
+      "level": "n1",
+      "title": "N1 모듈 004",
+      "moduleSeq": 4,
+      "vocabCount": 25
     },
-    "moduleToDay": {
-        "n1-module-001": 1,
-        "n1-module-002": 2,
-        "n1-module-003": 3,
-        "n1-module-004": 4,
-        "n1-module-005": 5,
-        "n1-module-006": 6,
-        "n1-module-007": 7,
-        "n1-module-008": 8,
-        "n1-module-009": 9,
-        "n1-module-010": 10,
-        "n1-module-011": 11,
-        "n1-module-012": 12,
-        "n1-module-013": 13,
-        "n1-module-014": 14,
-        "n1-module-015": 15,
-        "n1-module-016": 16,
-        "n1-module-017": 17,
-        "n1-module-018": 18,
-        "n1-module-019": 19,
-        "n1-module-020": 20,
-        "n1-module-021": 21,
-        "n1-module-022": 22,
-        "n1-module-023": 23,
-        "n1-module-024": 24,
-        "n1-module-025": 25,
-        "n1-module-026": 26,
-        "n1-module-027": 27,
-        "n1-module-028": 28
+    "n1-module-005": {
+      "moduleId": "n1-module-005",
+      "level": "n1",
+      "title": "N1 모듈 005",
+      "moduleSeq": 5,
+      "vocabCount": 25
+    },
+    "n1-module-006": {
+      "moduleId": "n1-module-006",
+      "level": "n1",
+      "title": "N1 모듈 006",
+      "moduleSeq": 6,
+      "vocabCount": 25
+    },
+    "n1-module-007": {
+      "moduleId": "n1-module-007",
+      "level": "n1",
+      "title": "N1 모듈 007",
+      "moduleSeq": 7,
+      "vocabCount": 25
+    },
+    "n1-module-008": {
+      "moduleId": "n1-module-008",
+      "level": "n1",
+      "title": "N1 모듈 008",
+      "moduleSeq": 8,
+      "vocabCount": 25
+    },
+    "n1-module-009": {
+      "moduleId": "n1-module-009",
+      "level": "n1",
+      "title": "N1 모듈 009",
+      "moduleSeq": 9,
+      "vocabCount": 25
+    },
+    "n1-module-010": {
+      "moduleId": "n1-module-010",
+      "level": "n1",
+      "title": "N1 모듈 010",
+      "moduleSeq": 10,
+      "vocabCount": 25
+    },
+    "n1-module-011": {
+      "moduleId": "n1-module-011",
+      "level": "n1",
+      "title": "N1 모듈 011",
+      "moduleSeq": 11,
+      "vocabCount": 25
+    },
+    "n1-module-012": {
+      "moduleId": "n1-module-012",
+      "level": "n1",
+      "title": "N1 모듈 012",
+      "moduleSeq": 12,
+      "vocabCount": 25
+    },
+    "n1-module-013": {
+      "moduleId": "n1-module-013",
+      "level": "n1",
+      "title": "N1 모듈 013",
+      "moduleSeq": 13,
+      "vocabCount": 25
+    },
+    "n1-module-014": {
+      "moduleId": "n1-module-014",
+      "level": "n1",
+      "title": "N1 모듈 014",
+      "moduleSeq": 14,
+      "vocabCount": 25
+    },
+    "n1-module-015": {
+      "moduleId": "n1-module-015",
+      "level": "n1",
+      "title": "N1 모듈 015",
+      "moduleSeq": 15,
+      "vocabCount": 25
+    },
+    "n1-module-016": {
+      "moduleId": "n1-module-016",
+      "level": "n1",
+      "title": "N1 모듈 016",
+      "moduleSeq": 16,
+      "vocabCount": 25
+    },
+    "n1-module-017": {
+      "moduleId": "n1-module-017",
+      "level": "n1",
+      "title": "N1 모듈 017",
+      "moduleSeq": 17,
+      "vocabCount": 25
+    },
+    "n1-module-018": {
+      "moduleId": "n1-module-018",
+      "level": "n1",
+      "title": "N1 모듈 018",
+      "moduleSeq": 18,
+      "vocabCount": 25
+    },
+    "n1-module-019": {
+      "moduleId": "n1-module-019",
+      "level": "n1",
+      "title": "N1 모듈 019",
+      "moduleSeq": 19,
+      "vocabCount": 25
+    },
+    "n1-module-020": {
+      "moduleId": "n1-module-020",
+      "level": "n1",
+      "title": "N1 모듈 020",
+      "moduleSeq": 20,
+      "vocabCount": 25
+    },
+    "n1-module-021": {
+      "moduleId": "n1-module-021",
+      "level": "n1",
+      "title": "N1 모듈 021",
+      "moduleSeq": 21,
+      "vocabCount": 25
+    },
+    "n1-module-022": {
+      "moduleId": "n1-module-022",
+      "level": "n1",
+      "title": "N1 모듈 022",
+      "moduleSeq": 22,
+      "vocabCount": 25
+    },
+    "n1-module-023": {
+      "moduleId": "n1-module-023",
+      "level": "n1",
+      "title": "N1 모듈 023",
+      "moduleSeq": 23,
+      "vocabCount": 25
+    },
+    "n1-module-024": {
+      "moduleId": "n1-module-024",
+      "level": "n1",
+      "title": "N1 모듈 024",
+      "moduleSeq": 24,
+      "vocabCount": 25
+    },
+    "n1-module-025": {
+      "moduleId": "n1-module-025",
+      "level": "n1",
+      "title": "N1 모듈 025",
+      "moduleSeq": 25,
+      "vocabCount": 25
+    },
+    "n1-module-026": {
+      "moduleId": "n1-module-026",
+      "level": "n1",
+      "title": "N1 모듈 026",
+      "moduleSeq": 26,
+      "vocabCount": 25
+    },
+    "n1-module-027": {
+      "moduleId": "n1-module-027",
+      "level": "n1",
+      "title": "N1 모듈 027",
+      "moduleSeq": 27,
+      "vocabCount": 25
+    },
+    "n1-module-028": {
+      "moduleId": "n1-module-028",
+      "level": "n1",
+      "title": "N1 모듈 028",
+      "moduleSeq": 28,
+      "vocabCount": 25
+    },
+    "n1-module-029": {
+      "moduleId": "n1-module-029",
+      "level": "n1",
+      "title": "N1 모듈 029",
+      "moduleSeq": 29,
+      "vocabCount": 25
+    },
+    "n1-module-030": {
+      "moduleId": "n1-module-030",
+      "level": "n1",
+      "title": "N1 모듈 030",
+      "moduleSeq": 30,
+      "vocabCount": 25
+    },
+    "n1-module-031": {
+      "moduleId": "n1-module-031",
+      "level": "n1",
+      "title": "N1 모듈 031",
+      "moduleSeq": 31,
+      "vocabCount": 25
+    },
+    "n1-module-032": {
+      "moduleId": "n1-module-032",
+      "level": "n1",
+      "title": "N1 모듈 032",
+      "moduleSeq": 32,
+      "vocabCount": 25
+    },
+    "n1-module-033": {
+      "moduleId": "n1-module-033",
+      "level": "n1",
+      "title": "N1 모듈 033",
+      "moduleSeq": 33,
+      "vocabCount": 25
+    },
+    "n1-module-034": {
+      "moduleId": "n1-module-034",
+      "level": "n1",
+      "title": "N1 모듈 034",
+      "moduleSeq": 34,
+      "vocabCount": 25
+    },
+    "n1-module-035": {
+      "moduleId": "n1-module-035",
+      "level": "n1",
+      "title": "N1 모듈 035",
+      "moduleSeq": 35,
+      "vocabCount": 25
+    },
+    "n1-module-036": {
+      "moduleId": "n1-module-036",
+      "level": "n1",
+      "title": "N1 모듈 036",
+      "moduleSeq": 36,
+      "vocabCount": 25
+    },
+    "n1-module-037": {
+      "moduleId": "n1-module-037",
+      "level": "n1",
+      "title": "N1 모듈 037",
+      "moduleSeq": 37,
+      "vocabCount": 25
+    },
+    "n1-module-038": {
+      "moduleId": "n1-module-038",
+      "level": "n1",
+      "title": "N1 모듈 038",
+      "moduleSeq": 38,
+      "vocabCount": 25
+    },
+    "n1-module-039": {
+      "moduleId": "n1-module-039",
+      "level": "n1",
+      "title": "N1 모듈 039",
+      "moduleSeq": 39,
+      "vocabCount": 25
+    },
+    "n1-module-040": {
+      "moduleId": "n1-module-040",
+      "level": "n1",
+      "title": "N1 모듈 040",
+      "moduleSeq": 40,
+      "vocabCount": 25
+    },
+    "n1-module-041": {
+      "moduleId": "n1-module-041",
+      "level": "n1",
+      "title": "N1 모듈 041",
+      "moduleSeq": 41,
+      "vocabCount": 25
+    },
+    "n1-module-042": {
+      "moduleId": "n1-module-042",
+      "level": "n1",
+      "title": "N1 모듈 042",
+      "moduleSeq": 42,
+      "vocabCount": 25
+    },
+    "n1-module-043": {
+      "moduleId": "n1-module-043",
+      "level": "n1",
+      "title": "N1 모듈 043",
+      "moduleSeq": 43,
+      "vocabCount": 25
+    },
+    "n1-module-044": {
+      "moduleId": "n1-module-044",
+      "level": "n1",
+      "title": "N1 모듈 044",
+      "moduleSeq": 44,
+      "vocabCount": 25
+    },
+    "n1-module-045": {
+      "moduleId": "n1-module-045",
+      "level": "n1",
+      "title": "N1 모듈 045",
+      "moduleSeq": 45,
+      "vocabCount": 25
+    },
+    "n1-module-046": {
+      "moduleId": "n1-module-046",
+      "level": "n1",
+      "title": "N1 모듈 046",
+      "moduleSeq": 46,
+      "vocabCount": 25
+    },
+    "n1-module-047": {
+      "moduleId": "n1-module-047",
+      "level": "n1",
+      "title": "N1 모듈 047",
+      "moduleSeq": 47,
+      "vocabCount": 25
+    },
+    "n1-module-048": {
+      "moduleId": "n1-module-048",
+      "level": "n1",
+      "title": "N1 모듈 048",
+      "moduleSeq": 48,
+      "vocabCount": 25
+    },
+    "n1-module-049": {
+      "moduleId": "n1-module-049",
+      "level": "n1",
+      "title": "N1 모듈 049",
+      "moduleSeq": 49,
+      "vocabCount": 25
+    },
+    "n1-module-050": {
+      "moduleId": "n1-module-050",
+      "level": "n1",
+      "title": "N1 모듈 050",
+      "moduleSeq": 50,
+      "vocabCount": 25
+    },
+    "n1-module-051": {
+      "moduleId": "n1-module-051",
+      "level": "n1",
+      "title": "N1 모듈 051",
+      "moduleSeq": 51,
+      "vocabCount": 25
+    },
+    "n1-module-052": {
+      "moduleId": "n1-module-052",
+      "level": "n1",
+      "title": "N1 모듈 052",
+      "moduleSeq": 52,
+      "vocabCount": 25
+    },
+    "n1-module-053": {
+      "moduleId": "n1-module-053",
+      "level": "n1",
+      "title": "N1 모듈 053",
+      "moduleSeq": 53,
+      "vocabCount": 25
+    },
+    "n1-module-054": {
+      "moduleId": "n1-module-054",
+      "level": "n1",
+      "title": "N1 모듈 054",
+      "moduleSeq": 54,
+      "vocabCount": 25
+    },
+    "n1-module-055": {
+      "moduleId": "n1-module-055",
+      "level": "n1",
+      "title": "N1 모듈 055",
+      "moduleSeq": 55,
+      "vocabCount": 25
+    },
+    "n1-module-056": {
+      "moduleId": "n1-module-056",
+      "level": "n1",
+      "title": "N1 모듈 056",
+      "moduleSeq": 56,
+      "vocabCount": 25
+    },
+    "n1-module-057": {
+      "moduleId": "n1-module-057",
+      "level": "n1",
+      "title": "N1 모듈 057",
+      "moduleSeq": 57,
+      "vocabCount": 25
+    },
+    "n1-module-058": {
+      "moduleId": "n1-module-058",
+      "level": "n1",
+      "title": "N1 모듈 058",
+      "moduleSeq": 58,
+      "vocabCount": 25
+    },
+    "n1-module-059": {
+      "moduleId": "n1-module-059",
+      "level": "n1",
+      "title": "N1 모듈 059",
+      "moduleSeq": 59,
+      "vocabCount": 25
+    },
+    "n1-module-060": {
+      "moduleId": "n1-module-060",
+      "level": "n1",
+      "title": "N1 모듈 060",
+      "moduleSeq": 60,
+      "vocabCount": 25
+    },
+    "n1-module-061": {
+      "moduleId": "n1-module-061",
+      "level": "n1",
+      "title": "N1 모듈 061",
+      "moduleSeq": 61,
+      "vocabCount": 25
+    },
+    "n1-module-062": {
+      "moduleId": "n1-module-062",
+      "level": "n1",
+      "title": "N1 모듈 062",
+      "moduleSeq": 62,
+      "vocabCount": 25
+    },
+    "n1-module-063": {
+      "moduleId": "n1-module-063",
+      "level": "n1",
+      "title": "N1 모듈 063",
+      "moduleSeq": 63,
+      "vocabCount": 25
+    },
+    "n1-module-064": {
+      "moduleId": "n1-module-064",
+      "level": "n1",
+      "title": "N1 모듈 064",
+      "moduleSeq": 64,
+      "vocabCount": 25
+    },
+    "n1-module-065": {
+      "moduleId": "n1-module-065",
+      "level": "n1",
+      "title": "N1 모듈 065",
+      "moduleSeq": 65,
+      "vocabCount": 25
+    },
+    "n1-module-066": {
+      "moduleId": "n1-module-066",
+      "level": "n1",
+      "title": "N1 모듈 066",
+      "moduleSeq": 66,
+      "vocabCount": 25
+    },
+    "n1-module-067": {
+      "moduleId": "n1-module-067",
+      "level": "n1",
+      "title": "N1 모듈 067",
+      "moduleSeq": 67,
+      "vocabCount": 25
+    },
+    "n1-module-068": {
+      "moduleId": "n1-module-068",
+      "level": "n1",
+      "title": "N1 모듈 068",
+      "moduleSeq": 68,
+      "vocabCount": 25
+    },
+    "n1-module-069": {
+      "moduleId": "n1-module-069",
+      "level": "n1",
+      "title": "N1 모듈 069",
+      "moduleSeq": 69,
+      "vocabCount": 25
+    },
+    "n1-module-070": {
+      "moduleId": "n1-module-070",
+      "level": "n1",
+      "title": "N1 모듈 070",
+      "moduleSeq": 70,
+      "vocabCount": 25
+    },
+    "n1-module-071": {
+      "moduleId": "n1-module-071",
+      "level": "n1",
+      "title": "N1 모듈 071",
+      "moduleSeq": 71,
+      "vocabCount": 25
+    },
+    "n1-module-072": {
+      "moduleId": "n1-module-072",
+      "level": "n1",
+      "title": "N1 모듈 072",
+      "moduleSeq": 72,
+      "vocabCount": 25
+    },
+    "n1-module-073": {
+      "moduleId": "n1-module-073",
+      "level": "n1",
+      "title": "N1 모듈 073",
+      "moduleSeq": 73,
+      "vocabCount": 25
+    },
+    "n1-module-074": {
+      "moduleId": "n1-module-074",
+      "level": "n1",
+      "title": "N1 모듈 074",
+      "moduleSeq": 74,
+      "vocabCount": 25
+    },
+    "n1-module-075": {
+      "moduleId": "n1-module-075",
+      "level": "n1",
+      "title": "N1 모듈 075",
+      "moduleSeq": 75,
+      "vocabCount": 25
+    },
+    "n1-module-076": {
+      "moduleId": "n1-module-076",
+      "level": "n1",
+      "title": "N1 모듈 076",
+      "moduleSeq": 76,
+      "vocabCount": 25
+    },
+    "n1-module-077": {
+      "moduleId": "n1-module-077",
+      "level": "n1",
+      "title": "N1 모듈 077",
+      "moduleSeq": 77,
+      "vocabCount": 25
+    },
+    "n1-module-078": {
+      "moduleId": "n1-module-078",
+      "level": "n1",
+      "title": "N1 모듈 078",
+      "moduleSeq": 78,
+      "vocabCount": 25
+    },
+    "n1-module-079": {
+      "moduleId": "n1-module-079",
+      "level": "n1",
+      "title": "N1 모듈 079",
+      "moduleSeq": 79,
+      "vocabCount": 25
+    },
+    "n1-module-080": {
+      "moduleId": "n1-module-080",
+      "level": "n1",
+      "title": "N1 모듈 080",
+      "moduleSeq": 80,
+      "vocabCount": 25
+    },
+    "n1-module-081": {
+      "moduleId": "n1-module-081",
+      "level": "n1",
+      "title": "N1 모듈 081",
+      "moduleSeq": 81,
+      "vocabCount": 25
+    },
+    "n1-module-082": {
+      "moduleId": "n1-module-082",
+      "level": "n1",
+      "title": "N1 모듈 082",
+      "moduleSeq": 82,
+      "vocabCount": 25
+    },
+    "n1-module-083": {
+      "moduleId": "n1-module-083",
+      "level": "n1",
+      "title": "N1 모듈 083",
+      "moduleSeq": 83,
+      "vocabCount": 25
+    },
+    "n1-module-084": {
+      "moduleId": "n1-module-084",
+      "level": "n1",
+      "title": "N1 모듈 084",
+      "moduleSeq": 84,
+      "vocabCount": 25
+    },
+    "n1-module-085": {
+      "moduleId": "n1-module-085",
+      "level": "n1",
+      "title": "N1 모듈 085",
+      "moduleSeq": 85,
+      "vocabCount": 25
+    },
+    "n1-module-086": {
+      "moduleId": "n1-module-086",
+      "level": "n1",
+      "title": "N1 모듈 086",
+      "moduleSeq": 86,
+      "vocabCount": 25
+    },
+    "n1-module-087": {
+      "moduleId": "n1-module-087",
+      "level": "n1",
+      "title": "N1 모듈 087",
+      "moduleSeq": 87,
+      "vocabCount": 25
+    },
+    "n1-module-088": {
+      "moduleId": "n1-module-088",
+      "level": "n1",
+      "title": "N1 모듈 088",
+      "moduleSeq": 88,
+      "vocabCount": 25
+    },
+    "n1-module-089": {
+      "moduleId": "n1-module-089",
+      "level": "n1",
+      "title": "N1 모듈 089",
+      "moduleSeq": 89,
+      "vocabCount": 25
+    },
+    "n1-module-090": {
+      "moduleId": "n1-module-090",
+      "level": "n1",
+      "title": "N1 모듈 090",
+      "moduleSeq": 90,
+      "vocabCount": 24
+    },
+    "n1-module-091": {
+      "moduleId": "n1-module-091",
+      "level": "n1",
+      "title": "N1 모듈 091",
+      "moduleSeq": 91,
+      "vocabCount": 24
+    },
+    "n1-module-092": {
+      "moduleId": "n1-module-092",
+      "level": "n1",
+      "title": "N1 모듈 092",
+      "moduleSeq": 92,
+      "vocabCount": 24
     }
+  },
+  "days": {},
+  "dayToModule": {},
+  "moduleToDay": {
+    "n1-module-001": 1,
+    "n1-module-002": 2,
+    "n1-module-003": 3,
+    "n1-module-004": 4,
+    "n1-module-005": 5,
+    "n1-module-006": 6,
+    "n1-module-007": 7,
+    "n1-module-008": 8,
+    "n1-module-009": 9,
+    "n1-module-010": 10,
+    "n1-module-011": 11,
+    "n1-module-012": 12,
+    "n1-module-013": 13,
+    "n1-module-014": 14,
+    "n1-module-015": 15,
+    "n1-module-016": 16,
+    "n1-module-017": 17,
+    "n1-module-018": 18,
+    "n1-module-019": 19,
+    "n1-module-020": 20,
+    "n1-module-021": 21,
+    "n1-module-022": 22,
+    "n1-module-023": 23,
+    "n1-module-024": 24,
+    "n1-module-025": 25,
+    "n1-module-026": 26,
+    "n1-module-027": 27,
+    "n1-module-028": 28,
+    "n1-module-029": 29,
+    "n1-module-030": 30,
+    "n1-module-031": 31,
+    "n1-module-032": 32,
+    "n1-module-033": 33,
+    "n1-module-034": 34,
+    "n1-module-035": 35,
+    "n1-module-036": 36,
+    "n1-module-037": 37,
+    "n1-module-038": 38,
+    "n1-module-039": 39,
+    "n1-module-040": 40,
+    "n1-module-041": 41,
+    "n1-module-042": 42,
+    "n1-module-043": 43,
+    "n1-module-044": 44,
+    "n1-module-045": 45,
+    "n1-module-046": 46,
+    "n1-module-047": 47,
+    "n1-module-048": 48,
+    "n1-module-049": 49,
+    "n1-module-050": 50,
+    "n1-module-051": 51,
+    "n1-module-052": 52,
+    "n1-module-053": 53,
+    "n1-module-054": 54,
+    "n1-module-055": 55,
+    "n1-module-056": 56,
+    "n1-module-057": 57,
+    "n1-module-058": 58,
+    "n1-module-059": 59,
+    "n1-module-060": 60,
+    "n1-module-061": 61,
+    "n1-module-062": 62,
+    "n1-module-063": 63,
+    "n1-module-064": 64,
+    "n1-module-065": 65,
+    "n1-module-066": 66,
+    "n1-module-067": 67,
+    "n1-module-068": 68,
+    "n1-module-069": 69,
+    "n1-module-070": 70,
+    "n1-module-071": 71,
+    "n1-module-072": 72,
+    "n1-module-073": 73,
+    "n1-module-074": 74,
+    "n1-module-075": 75,
+    "n1-module-076": 76,
+    "n1-module-077": 77,
+    "n1-module-078": 78,
+    "n1-module-079": 79,
+    "n1-module-080": 80,
+    "n1-module-081": 81,
+    "n1-module-082": 82,
+    "n1-module-083": 83,
+    "n1-module-084": 84,
+    "n1-module-085": 85,
+    "n1-module-086": 86,
+    "n1-module-087": 87,
+    "n1-module-088": 88,
+    "n1-module-089": 89,
+    "n1-module-090": 90,
+    "n1-module-091": 91,
+    "n1-module-092": 92
+  },
+  "moduleToFile": {
+    "n1-module-001": "module-vocab/n1-module-001",
+    "n1-module-002": "module-vocab/n1-module-002",
+    "n1-module-003": "module-vocab/n1-module-003",
+    "n1-module-004": "module-vocab/n1-module-004",
+    "n1-module-005": "module-vocab/n1-module-005",
+    "n1-module-006": "module-vocab/n1-module-006",
+    "n1-module-007": "module-vocab/n1-module-007",
+    "n1-module-008": "module-vocab/n1-module-008",
+    "n1-module-009": "module-vocab/n1-module-009",
+    "n1-module-010": "module-vocab/n1-module-010",
+    "n1-module-011": "module-vocab/n1-module-011",
+    "n1-module-012": "module-vocab/n1-module-012",
+    "n1-module-013": "module-vocab/n1-module-013",
+    "n1-module-014": "module-vocab/n1-module-014",
+    "n1-module-015": "module-vocab/n1-module-015",
+    "n1-module-016": "module-vocab/n1-module-016",
+    "n1-module-017": "module-vocab/n1-module-017",
+    "n1-module-018": "module-vocab/n1-module-018",
+    "n1-module-019": "module-vocab/n1-module-019",
+    "n1-module-020": "module-vocab/n1-module-020",
+    "n1-module-021": "module-vocab/n1-module-021",
+    "n1-module-022": "module-vocab/n1-module-022",
+    "n1-module-023": "module-vocab/n1-module-023",
+    "n1-module-024": "module-vocab/n1-module-024",
+    "n1-module-025": "module-vocab/n1-module-025",
+    "n1-module-026": "module-vocab/n1-module-026",
+    "n1-module-027": "module-vocab/n1-module-027",
+    "n1-module-028": "module-vocab/n1-module-028",
+    "n1-module-029": "module-vocab/n1-module-029",
+    "n1-module-030": "module-vocab/n1-module-030",
+    "n1-module-031": "module-vocab/n1-module-031",
+    "n1-module-032": "module-vocab/n1-module-032",
+    "n1-module-033": "module-vocab/n1-module-033",
+    "n1-module-034": "module-vocab/n1-module-034",
+    "n1-module-035": "module-vocab/n1-module-035",
+    "n1-module-036": "module-vocab/n1-module-036",
+    "n1-module-037": "module-vocab/n1-module-037",
+    "n1-module-038": "module-vocab/n1-module-038",
+    "n1-module-039": "module-vocab/n1-module-039",
+    "n1-module-040": "module-vocab/n1-module-040",
+    "n1-module-041": "module-vocab/n1-module-041",
+    "n1-module-042": "module-vocab/n1-module-042",
+    "n1-module-043": "module-vocab/n1-module-043",
+    "n1-module-044": "module-vocab/n1-module-044",
+    "n1-module-045": "module-vocab/n1-module-045",
+    "n1-module-046": "module-vocab/n1-module-046",
+    "n1-module-047": "module-vocab/n1-module-047",
+    "n1-module-048": "module-vocab/n1-module-048",
+    "n1-module-049": "module-vocab/n1-module-049",
+    "n1-module-050": "module-vocab/n1-module-050",
+    "n1-module-051": "module-vocab/n1-module-051",
+    "n1-module-052": "module-vocab/n1-module-052",
+    "n1-module-053": "module-vocab/n1-module-053",
+    "n1-module-054": "module-vocab/n1-module-054",
+    "n1-module-055": "module-vocab/n1-module-055",
+    "n1-module-056": "module-vocab/n1-module-056",
+    "n1-module-057": "module-vocab/n1-module-057",
+    "n1-module-058": "module-vocab/n1-module-058",
+    "n1-module-059": "module-vocab/n1-module-059",
+    "n1-module-060": "module-vocab/n1-module-060",
+    "n1-module-061": "module-vocab/n1-module-061",
+    "n1-module-062": "module-vocab/n1-module-062",
+    "n1-module-063": "module-vocab/n1-module-063",
+    "n1-module-064": "module-vocab/n1-module-064",
+    "n1-module-065": "module-vocab/n1-module-065",
+    "n1-module-066": "module-vocab/n1-module-066",
+    "n1-module-067": "module-vocab/n1-module-067",
+    "n1-module-068": "module-vocab/n1-module-068",
+    "n1-module-069": "module-vocab/n1-module-069",
+    "n1-module-070": "module-vocab/n1-module-070",
+    "n1-module-071": "module-vocab/n1-module-071",
+    "n1-module-072": "module-vocab/n1-module-072",
+    "n1-module-073": "module-vocab/n1-module-073",
+    "n1-module-074": "module-vocab/n1-module-074",
+    "n1-module-075": "module-vocab/n1-module-075",
+    "n1-module-076": "module-vocab/n1-module-076",
+    "n1-module-077": "module-vocab/n1-module-077",
+    "n1-module-078": "module-vocab/n1-module-078",
+    "n1-module-079": "module-vocab/n1-module-079",
+    "n1-module-080": "module-vocab/n1-module-080",
+    "n1-module-081": "module-vocab/n1-module-081",
+    "n1-module-082": "module-vocab/n1-module-082",
+    "n1-module-083": "module-vocab/n1-module-083",
+    "n1-module-084": "module-vocab/n1-module-084",
+    "n1-module-085": "module-vocab/n1-module-085",
+    "n1-module-086": "module-vocab/n1-module-086",
+    "n1-module-087": "module-vocab/n1-module-087",
+    "n1-module-088": "module-vocab/n1-module-088",
+    "n1-module-089": "module-vocab/n1-module-089",
+    "n1-module-090": "module-vocab/n1-module-090",
+    "n1-module-091": "module-vocab/n1-module-091",
+    "n1-module-092": "module-vocab/n1-module-092"
+  }
 }

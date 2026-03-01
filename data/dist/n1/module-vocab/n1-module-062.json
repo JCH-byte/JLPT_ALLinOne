@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 062",
+  "moduleId": "n1-module-062",
+  "vocab": [
+    {
+      "word": "託す",
+      "read": "たくす",
+      "mean": "맡기다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 17
+    },
+    {
+      "word": "たしなむ",
+      "read": "たしなむ",
+      "mean": "즐기다, 소양을 쌓다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 17
+    },
+    {
+      "word": "携える",
+      "read": "たずさえる",
+      "mean": "휴대하다, 데리고 가다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 17
+    },
+    {
+      "word": "携わる",
+      "read": "たずさわる",
+      "mean": "종사하다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 17
+    },
+    {
+      "word": "たたえる",
+      "read": "たたえる",
+      "mean": "칭송하다, 가득 채우다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 17
+    },
+    {
+      "word": "漂う",
+      "read": "ただよう",
+      "mean": "떠돌다, 감돌다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "立ち尽くす",
+      "read": "たちつくす",
+      "mean": "우두커니 서 있다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "断つ",
+      "read": "たつ",
+      "mean": "끊다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "立て替える",
+      "read": "たてかえる",
+      "mean": "대신 갚아주다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "奉る",
+      "read": "たてまつる",
+      "mean": "바치다, 헌상하다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "たどり着く",
+      "read": "たどりつく",
+      "mean": "겨우 도착하다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "たどる",
+      "read": "たどる",
+      "mean": "더듬다, 길을 따라가다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "賜る",
+      "read": "たまわる",
+      "mean": "내려 주시다, 받다(겸양)",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "ためらう",
+      "read": "ためらう",
+      "mean": "주저하다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "垂らす",
+      "read": "たらす",
+      "mean": "늘어뜨리다, 흘리다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "弛む",
+      "read": "たるむ",
+      "mean": "느슨해지다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "垂れる",
+      "read": "たれる",
+      "mean": "늘어지다, 뚝뚝 떨어지다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "費やす",
+      "read": "ついやす",
+      "mean": "소비하다, 쓰다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "仕える",
+      "read": "つかえる",
+      "mean": "모시다, 섬기다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "司る",
+      "read": "つかさどる",
+      "mean": "관장하다, 맡다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "突き進む",
+      "read": "つきすすむ",
+      "mean": "돌진하다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "尽くす",
+      "read": "つくす",
+      "mean": "다하다, 애쓰다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "償う",
+      "read": "つぐなう",
+      "mean": "보상하다, 속죄하다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "繕う",
+      "read": "つくろう",
+      "mean": "고치다, 겉꾸미다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    },
+    {
+      "word": "告げる",
+      "read": "つげる",
+      "mean": "알리다",
+      "tags": [],
+      "moduleId": "n1-module-062",
+      "legacyDay": 18
+    }
+  ]
+}

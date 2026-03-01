@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 031",
+  "moduleId": "n2-module-031",
+  "vocab": [
+    {
+      "word": "楕円",
+      "read": "だえん",
+      "mean": "타원",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "滝",
+      "read": "たき",
+      "mean": "폭포",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "立場",
+      "read": "たちば",
+      "mean": "입장",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "脱線",
+      "read": "だっせん",
+      "mean": "탈선",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "谷",
+      "read": "たに",
+      "mean": "골짜기",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "束",
+      "read": "たば",
+      "mean": "다발, 뭉치",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "田畑",
+      "read": "たはた",
+      "mean": "논밭",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "頼り",
+      "read": "たより",
+      "mean": "의지",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "便り",
+      "read": "たより",
+      "mean": "소식, 편지",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "単位",
+      "read": "たんい",
+      "mean": "단위",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "段階",
+      "read": "だんかい",
+      "mean": "단계",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "短所",
+      "read": "たんしょ",
+      "mean": "단점",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "男女",
+      "read": "だんじょ",
+      "mean": "남녀",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "淡水",
+      "read": "たんすい",
+      "mean": "담수",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "団地",
+      "read": "だんち",
+      "mean": "단지",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "断定",
+      "read": "だんてい",
+      "mean": "단정",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "担任",
+      "read": "たんにん",
+      "mean": "담임",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "短編",
+      "read": "たんぺん",
+      "mean": "단편",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "田んぼ",
+      "read": "たんぼ",
+      "mean": "논",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "地位",
+      "read": "ちい",
+      "mean": "지위",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "地域",
+      "read": "ちいき",
+      "mean": "지역",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "知恵",
+      "read": "ちえ",
+      "mean": "지혜",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "近頃",
+      "read": "ちかごろ",
+      "mean": "요즘, 최근",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "地区",
+      "read": "ちく",
+      "mean": "지구, 구역",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    },
+    {
+      "word": "知事",
+      "read": "ちじ",
+      "mean": "지사(도지사 등)",
+      "tags": [],
+      "moduleId": "n2-module-031",
+      "legacyDay": 10
+    }
+  ]
+}

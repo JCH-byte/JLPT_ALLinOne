@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 050",
+  "moduleId": "n3-module-050",
+  "vocab": [
+    {
+      "word": "勧める",
+      "read": "すすめる",
+      "mean": "권하다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "進める",
+      "read": "すすめる",
+      "mean": "진행하다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "捨てる",
+      "read": "すてる",
+      "mean": "버리다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "済む",
+      "read": "すむ",
+      "mean": "끝나다, 해결되다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "注ぐ",
+      "read": "そそぐ",
+      "mean": "따르다, 붓다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "育つ",
+      "read": "そだつ",
+      "mean": "자라다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "育てる",
+      "read": "そだてる",
+      "mean": "키우다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "揃う",
+      "read": "そろう",
+      "mean": "갖추어지다, 모이다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "揃える",
+      "read": "そろえる",
+      "mean": "갖추다, 가지런히 하다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "存じる",
+      "read": "ぞんじる",
+      "mean": "알다 (겸양어)",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "倒す",
+      "read": "たおす",
+      "mean": "쓰러뜨리다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "高まる",
+      "read": "たかまる",
+      "mean": "높아지다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 19
+    },
+    {
+      "word": "高める",
+      "read": "たかめる",
+      "mean": "높이다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "抱く",
+      "read": "いだく",
+      "mean": "안다, 품다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "確かめる",
+      "read": "たしかめる",
+      "mean": "확인하다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "立ち上がる",
+      "read": "たちあがる",
+      "mean": "일어서다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "助かる",
+      "read": "たすかる",
+      "mean": "도움이 되다, 살아나다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "助ける",
+      "read": "たすける",
+      "mean": "돕다, 구하다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "戦う",
+      "read": "たたかう",
+      "mean": "싸우다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "叩く",
+      "read": "たたく",
+      "mean": "두드리다, 때리다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "畳む",
+      "read": "たたむ",
+      "mean": "개다, 접다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "立ち止まる",
+      "read": "たちどまる",
+      "mean": "멈춰 서다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "経つ",
+      "read": "たつ",
+      "mean": "지나다 (시간이)",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "だます",
+      "read": "だます",
+      "mean": "속이다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    },
+    {
+      "word": "たまる",
+      "read": "たまる",
+      "mean": "쌓이다",
+      "tags": [],
+      "moduleId": "n3-module-050",
+      "legacyDay": 20
+    }
+  ]
+}

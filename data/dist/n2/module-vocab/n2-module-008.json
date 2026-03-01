@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 008",
+  "moduleId": "n2-module-008",
+  "vocab": [
+    {
+      "word": "課程",
+      "read": "かてい",
+      "mean": "과정(커리큘럼)",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "過程",
+      "read": "かてい",
+      "mean": "과정(프로세스)",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "仮名",
+      "read": "かな",
+      "mean": "가나(문자), 가명",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "鐘",
+      "read": "かね",
+      "mean": "종",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "加熱",
+      "read": "かねつ",
+      "mean": "가열",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "過半数",
+      "read": "かはんすう",
+      "mean": "과반수",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "かび",
+      "read": "かび",
+      "mean": "곰팡이",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "株",
+      "read": "かぶ",
+      "mean": "주식, 그루",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "釜",
+      "read": "かま",
+      "mean": "솥",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "髮型",
+      "read": "かみがた",
+      "mean": "헤어스타일",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "紙くず",
+      "read": "かみくず",
+      "mean": "휴지, 종이 부스러기",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "神様",
+      "read": "かみさま",
+      "mean": "신, 하느님",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "剃刀",
+      "read": "かみそり",
+      "mean": "면도칼",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "雷",
+      "read": "かみなり",
+      "mean": "천둥, 번개",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "髪の毛",
+      "read": "かみのけ",
+      "mean": "머리카락",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "貨物",
+      "read": "かもつ",
+      "mean": "화물",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "殼",
+      "read": "から",
+      "mean": "껍질",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "柄",
+      "read": "がら",
+      "mean": "무늬, 격",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "空梅雨",
+      "read": "からつゆ",
+      "mean": "마른 장마",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "川岸",
+      "read": "かわぎし",
+      "mean": "강기슭",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "革靴",
+      "read": "かわぐつ",
+      "mean": "구두",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "為替",
+      "read": "かわせ",
+      "mean": "환(금융)",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "瓦",
+      "read": "かわら",
+      "mean": "기와",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "癌",
+      "read": "がん",
+      "mean": "암",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "換気",
+      "read": "かんき",
+      "mean": "환기",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    },
+    {
+      "word": "観客",
+      "read": "かんきゃく",
+      "mean": "관객",
+      "tags": [],
+      "moduleId": "n2-module-008",
+      "legacyDay": 3
+    }
+  ]
+}

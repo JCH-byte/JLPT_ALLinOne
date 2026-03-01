@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 001",
+  "moduleId": "n1-module-001",
+  "vocab": [
+    {
+      "word": "愛顧",
+      "read": "あいこ",
+      "mean": "애고, 사랑하여 돌보아 줌",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "愛好",
+      "read": "あいこう",
+      "mean": "애호",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "愛想",
+      "read": "あいそ",
+      "mean": "붙임성, 상냥함",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "間柄",
+      "read": "あいだがら",
+      "mean": "사이, 관계",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "愛着",
+      "read": "あいちゃく",
+      "mean": "애착",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "あお向け",
+      "read": "あおむけ",
+      "mean": "똑바로 위를 쳐다봄",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "証",
+      "read": "あかし",
+      "mean": "증거",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "悪臭",
+      "read": "あくしゅう",
+      "mean": "악취",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "朝飯前",
+      "read": "あさめしまえ",
+      "mean": "누워서 떡 먹기, 아주 쉬운 일",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "足手まとい",
+      "read": "あしてまとい",
+      "mean": "거치적거림, 짐이 됨",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "足止め",
+      "read": "あしどめ",
+      "mean": "발을 묶음, 통행 금지",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "斡旋",
+      "read": "あっせん",
+      "mean": "알선",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "圧倒",
+      "read": "あっとう",
+      "mean": "압도",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "圧迫",
+      "read": "あっぱく",
+      "mean": "압박",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "圧力",
+      "read": "あつりょく",
+      "mean": "압력",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "後片付け",
+      "read": "あとかたづけ",
+      "mean": "뒷정리",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "跡地",
+      "read": "あとち",
+      "mean": "잔해, 철거지",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "跡継",
+      "read": "あとつぎ",
+      "mean": "후계자",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "後回し",
+      "read": "あとまわし",
+      "mean": "뒤로 미룸",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "油絵",
+      "read": "あぶらえ",
+      "mean": "유화",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "天下り",
+      "read": "あまくだり",
+      "mean": "낙하산 인사",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "ありきたり",
+      "read": "ありきたり",
+      "mean": "흔함, 평범함",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "ありのまま",
+      "read": "ありのまま",
+      "mean": "있는 그대로",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "暗算",
+      "read": "あんざん",
+      "mean": "암산",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "暗示",
+      "read": "あんじ",
+      "mean": "암시",
+      "tags": [],
+      "moduleId": "n1-module-001",
+      "legacyDay": 1
+    }
+  ]
+}

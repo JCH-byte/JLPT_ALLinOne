@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 001",
+  "moduleId": "n3-module-001",
+  "vocab": [
+    {
+      "word": "愛",
+      "read": "あい",
+      "mean": "사랑",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "合図",
+      "read": "あいず",
+      "mean": "신호",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "相手",
+      "read": "あいて",
+      "mean": "상대",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "愛用者",
+      "read": "あいようしゃ",
+      "mean": "애용자",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "赤ん坊",
+      "read": "あかんぼう",
+      "mean": "갓난아기, 아기",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "空き地",
+      "read": "あきち",
+      "mean": "공터",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "あくび",
+      "read": "あくび",
+      "mean": "하품",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "朝日",
+      "read": "あさひ",
+      "mean": "아침 해",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "足跡",
+      "read": "あしあと",
+      "mean": "발자국",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "味見",
+      "read": "あじみ",
+      "mean": "맛보기",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "足元",
+      "read": "あしもと",
+      "mean": "발밑",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "当たり前",
+      "read": "あたりまえ",
+      "mean": "당연함",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "悪化",
+      "read": "あっか",
+      "mean": "악화",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "集まり",
+      "read": "あつまり",
+      "mean": "모임",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "あて先",
+      "read": "あてさき",
+      "mean": "수신인, 받을 곳",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "穴",
+      "read": "あな",
+      "mean": "구멍",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "油",
+      "read": "あぶら",
+      "mean": "기름",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "雨戸",
+      "read": "あまど",
+      "mean": "덧문",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "網戸",
+      "read": "あみど",
+      "mean": "방충망",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "あれこれ",
+      "read": "あれこれ",
+      "mean": "이것저것",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "泡",
+      "read": "あわ",
+      "mean": "거품",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "案",
+      "read": "あん",
+      "mean": "안, 생각",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "暗記",
+      "read": "あんき",
+      "mean": "암기",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "胃",
+      "read": "い",
+      "mean": "위",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    },
+    {
+      "word": "怒り",
+      "read": "いかり",
+      "mean": "분노",
+      "tags": [],
+      "moduleId": "n3-module-001",
+      "legacyDay": 1
+    }
+  ]
+}

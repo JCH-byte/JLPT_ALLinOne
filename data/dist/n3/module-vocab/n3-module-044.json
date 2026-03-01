@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 044",
+  "moduleId": "n3-module-044",
+  "vocab": [
+    {
+      "word": "~車",
+      "read": "~しゃ",
+      "mean": "~차",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 16
+    },
+    {
+      "word": "~建て",
+      "read": "~だて",
+      "mean": "~층 건물/건축 방식",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 16
+    },
+    {
+      "word": "~店",
+      "read": "~てん",
+      "mean": "~점 (가게)",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 16
+    },
+    {
+      "word": "~年生",
+      "read": "~ねんせい",
+      "mean": "~학년생",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 16
+    },
+    {
+      "word": "~向き",
+      "read": "~むき",
+      "mean": "~용/향함",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 16
+    },
+    {
+      "word": "~行き",
+      "read": "~ゆき",
+      "mean": "~행 (목적지)",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 16
+    },
+    {
+      "word": "~料",
+      "read": "~りょう",
+      "mean": "~료 (요금)",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 16
+    },
+    {
+      "word": "愛する",
+      "read": "あいする",
+      "mean": "사랑하다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "諦める",
+      "read": "あきらめる",
+      "mean": "포기하다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "飽きる",
+      "read": "あきる",
+      "mean": "질리다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "空ける",
+      "read": "あける",
+      "mean": "비우다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "明ける",
+      "read": "あける",
+      "mean": "날이 밝다, 새해가 되다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "味わう",
+      "read": "あじわう",
+      "mean": "맛보다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "預かる",
+      "read": "あずかる",
+      "mean": "맡다, 보관하다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "預ける",
+      "read": "あずける",
+      "mean": "맡기다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "与える",
+      "read": "あたえる",
+      "mean": "주다, 부여하다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "暖まる",
+      "read": "あたたまる",
+      "mean": "따뜻해지다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "暖める",
+      "read": "あたためる",
+      "mean": "따뜻하게 하다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "当たる",
+      "read": "あたる",
+      "mean": "맞다, 당첨되다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "扱う",
+      "read": "あつかう",
+      "mean": "다루다, 취급하다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "溢れる",
+      "read": "あふれる",
+      "mean": "넘치다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "余る",
+      "read": "あまる",
+      "mean": "남다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "編む",
+      "read": "あむ",
+      "mean": "짜다, 엮다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "表す",
+      "read": "あらわす",
+      "mean": "나타내다, 표현하다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    },
+    {
+      "word": "現す",
+      "read": "あらわす",
+      "mean": "나타내다, 드러내다",
+      "tags": [],
+      "moduleId": "n3-module-044",
+      "legacyDay": 17
+    }
+  ]
+}

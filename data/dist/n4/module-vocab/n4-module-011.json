@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 011",
+  "moduleId": "n4-module-011",
+  "vocab": [
+    {
+      "word": "政治",
+      "read": "せいじ",
+      "mean": "정치",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "西洋",
+      "read": "せいよう",
+      "mean": "서양",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "世界",
+      "read": "せかい",
+      "mean": "세계",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "世界中",
+      "read": "せかいじゅう",
+      "mean": "전 세계",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "説明",
+      "read": "せつめい",
+      "mean": "설명",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "背中",
+      "read": "せなか",
+      "mean": "등",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "背広",
+      "read": "せびろ",
+      "mean": "신사복, 양복",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "世話",
+      "read": "せわ",
+      "mean": "돌봄, 보살핌",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "全国",
+      "read": "ぜんこく",
+      "mean": "전국",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "先々月",
+      "read": "せんせんげつ",
+      "mean": "지지난달",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "先々週",
+      "read": "せんせんしゅう",
+      "mean": "지지난주",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "戦争",
+      "read": "せんそう",
+      "mean": "전쟁",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "全体",
+      "read": "ぜんたい",
+      "mean": "전체",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "洗濯",
+      "read": "せんたく",
+      "mean": "세탁",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "先輩",
+      "read": "せんぱい",
+      "mean": "선배",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "専門",
+      "read": "せんもん",
+      "mean": "전문",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "掃除",
+      "read": "そうじ",
+      "mean": "청소",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "相談",
+      "read": "そうだん",
+      "mean": "상담, 의논",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "卒業",
+      "read": "そつぎょう",
+      "mean": "졸업",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "外側",
+      "read": "そとがわ",
+      "mean": "바깥쪽, 외측",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "祖父",
+      "read": "そふ",
+      "mean": "할아버지 (자신의)",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "祖母",
+      "read": "そぼ",
+      "mean": "할머니 (자신의)",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "大学生",
+      "read": "だいがくせい",
+      "mean": "대학생",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "大使館",
+      "read": "たいしかん",
+      "mean": "대사관",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    },
+    {
+      "word": "台風",
+      "read": "たいふう",
+      "mean": "태풍",
+      "tags": [],
+      "moduleId": "n4-module-011",
+      "legacyDay": 7
+    }
+  ]
+}

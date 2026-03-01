@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 037",
+  "moduleId": "n3-module-037",
+  "vocab": [
+    {
+      "word": "法則",
+      "read": "ほうそく",
+      "mean": "법칙",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "包丁",
+      "read": "ほうちょう",
+      "mean": "식칼",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "忘年会",
+      "read": "ぼうねんかい",
+      "mean": "망년회",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "方法",
+      "read": "ほうほう",
+      "mean": "방법",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "方々",
+      "read": "ほうぼう",
+      "mean": "이곳저곳, 여기저기",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "方面",
+      "read": "ほうめん",
+      "mean": "방면",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "訪問",
+      "read": "ほうもん",
+      "mean": "방문",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "法律",
+      "read": "ほうりつ",
+      "mean": "법률",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "他",
+      "read": "ほか",
+      "mean": "다른 것, 외",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "ほこり",
+      "read": "ほこり",
+      "mean": "먼지",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "募集",
+      "read": "ぼしゅう",
+      "mean": "모집",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "坊ちゃん",
+      "read": "ぼっちゃん",
+      "mean": "도련님",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "歩道",
+      "read": "ほどう",
+      "mean": "보도, 인도",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "歩道橋",
+      "read": "ほどうきょう",
+      "mean": "육교",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "本店",
+      "read": "ほんてん",
+      "mean": "본점",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "本人",
+      "read": "ほんにん",
+      "mean": "본인",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "本部",
+      "read": "ほんぶ",
+      "mean": "본부",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "本物",
+      "read": "ほんもの",
+      "mean": "진짜",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "翻訳",
+      "read": "ほんやく",
+      "mean": "번역",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "間",
+      "read": "ま",
+      "mean": "사이, 틈",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "迷子",
+      "read": "まいご",
+      "mean": "미아, 길 잃은 아이",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "毎度",
+      "read": "まいど",
+      "mean": "매번",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "負け",
+      "read": "まけ",
+      "mean": "짐, 패배",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "孫",
+      "read": "まご",
+      "mean": "손자",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    },
+    {
+      "word": "街",
+      "read": "まち",
+      "mean": "거리, 시가",
+      "tags": [],
+      "moduleId": "n3-module-037",
+      "legacyDay": 14
+    }
+  ]
+}

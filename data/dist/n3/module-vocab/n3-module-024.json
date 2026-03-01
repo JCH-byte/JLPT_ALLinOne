@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 024",
+  "moduleId": "n3-module-024",
+  "vocab": [
+    {
+      "word": "前半",
+      "read": "ぜんはん",
+      "mean": "전반",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "扇風機",
+      "read": "せんぷうき",
+      "mean": "선풍기",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "洗面所",
+      "read": "せんめんじょ",
+      "mean": "세면소, 세면장",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "専門家",
+      "read": "せんもんか",
+      "mean": "전문가",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "線路",
+      "read": "せんろ",
+      "mean": "선로",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "騒音",
+      "read": "そうおん",
+      "mean": "소음",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "送金",
+      "read": "そうきん",
+      "mean": "송금",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "総合",
+      "read": "そうごう",
+      "mean": "종합",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "掃除機",
+      "read": "そうじき",
+      "mean": "청소기",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "送信",
+      "read": "そうしん",
+      "mean": "송신",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "想像",
+      "read": "そうぞう",
+      "mean": "상상",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "創造",
+      "read": "そうぞう",
+      "mean": "창조",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "相続",
+      "read": "そうぞく",
+      "mean": "상속",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "早退",
+      "read": "そうたい",
+      "mean": "조퇴",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "送別会",
+      "read": "そうべつかい",
+      "mean": "송별회",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "送料",
+      "read": "そうりょう",
+      "mean": "송료, 배송비",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "速達",
+      "read": "そくたつ",
+      "mean": "속달",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "測定",
+      "read": "そくてい",
+      "mean": "측정",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "速度",
+      "read": "そくど",
+      "mean": "속도",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "測量",
+      "read": "そくりょう",
+      "mean": "측량",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "底",
+      "read": "そこ",
+      "mean": "바닥",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "卒業式",
+      "read": "そつぎょうしき",
+      "mean": "졸업식",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "袖",
+      "read": "そで",
+      "mean": "소매",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "そのまま",
+      "read": "そのまま",
+      "mean": "그대로",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    },
+    {
+      "word": "体育",
+      "read": "たいいく",
+      "mean": "체육",
+      "tags": [],
+      "moduleId": "n3-module-024",
+      "legacyDay": 9
+    }
+  ]
+}

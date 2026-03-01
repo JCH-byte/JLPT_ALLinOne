@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 033",
+  "moduleId": "n3-module-033",
+  "vocab": [
+    {
+      "word": "バス停",
+      "read": "バスてい",
+      "mean": "버스 정류장",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "畑",
+      "read": "はたけ",
+      "mean": "밭",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "働き",
+      "read": "はたらき",
+      "mean": "일, 작용, 기능",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "働き者",
+      "read": "はたらきもの",
+      "mean": "일꾼, 부지런한 사람",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発見",
+      "read": "はっけん",
+      "mean": "발견",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発言",
+      "read": "はつげん",
+      "mean": "발언",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発車",
+      "read": "はっしゃ",
+      "mean": "발차, 출발",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発生",
+      "read": "はっせい",
+      "mean": "발생",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発想",
+      "read": "はっそう",
+      "mean": "발상",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発達",
+      "read": "はったつ",
+      "mean": "발달",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発展",
+      "read": "はってん",
+      "mean": "발전",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発電",
+      "read": "はつでん",
+      "mean": "발전(전기)",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発売",
+      "read": "はつばい",
+      "mean": "발매",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発表",
+      "read": "はっぴょう",
+      "mean": "발표",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "発明",
+      "read": "はつめい",
+      "mean": "발명",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "話し合い",
+      "read": "はなしあい",
+      "mean": "의논, 상의",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "話し中",
+      "read": "はなしちゅう",
+      "mean": "통화 중",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "花火",
+      "read": "はなび",
+      "mean": "불꽃놀이",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "鼻水",
+      "read": "はなみず",
+      "mean": "콧물",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "幅",
+      "read": "はば",
+      "mean": "폭, 너비",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "母親",
+      "read": "ははおや",
+      "mean": "모친, 어머니",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "歯磨き",
+      "read": "はみがき",
+      "mean": "양치질",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "場面",
+      "read": "ばめん",
+      "mean": "장면",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "早口",
+      "read": "はやくち",
+      "mean": "말이 빠름",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    },
+    {
+      "word": "速さ",
+      "read": "はやさ",
+      "mean": "빠르기, 속도",
+      "tags": [],
+      "moduleId": "n3-module-033",
+      "legacyDay": 12
+    }
+  ]
+}

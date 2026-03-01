@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 057",
+  "moduleId": "n2-module-057",
+  "vocab": [
+    {
+      "word": "欠かす",
+      "read": "かかす",
+      "mean": "빠뜨리다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 18
+    },
+    {
+      "word": "かかわる",
+      "read": "かかわる",
+      "mean": "관계되다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 18
+    },
+    {
+      "word": "かき混ぜる",
+      "read": "かきまぜる",
+      "mean": "뒤섞다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 18
+    },
+    {
+      "word": "限る",
+      "read": "かぎる",
+      "mean": "한하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 18
+    },
+    {
+      "word": "掻く",
+      "read": "かく",
+      "mean": "긁다, 땀을 흘리다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 18
+    },
+    {
+      "word": "嗅ぐ",
+      "read": "かぐ",
+      "mean": "냄새 맡다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "欠ける",
+      "read": "かける",
+      "mean": "이지러지다, 결여되다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "貸し出す",
+      "read": "かしだす",
+      "mean": "대출하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "かじる",
+      "read": "かじる",
+      "mean": "갉아먹다, 베어 먹다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "固まる",
+      "read": "かたまる",
+      "mean": "굳다, 뭉치다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "傾く",
+      "read": "かたむく",
+      "mean": "기울다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "固める",
+      "read": "かためる",
+      "mean": "굳히다, 다지다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "偏る",
+      "read": "かたよる",
+      "mean": "치우치다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "語る",
+      "read": "かたる",
+      "mean": "말하다, 이야기하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "担ぐ",
+      "read": "かつぐ",
+      "mean": "메다, 짊어지다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "叶う",
+      "read": "かなう",
+      "mean": "이루어지다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "兼ねる",
+      "read": "かねる",
+      "mean": "겸하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "かばう",
+      "read": "かばう",
+      "mean": "감싸다, 비호하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "かぶせる",
+      "read": "かぶせる",
+      "mean": "덮어씌우다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "構う",
+      "read": "かまう",
+      "mean": "상관하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "からかう",
+      "read": "からかう",
+      "mean": "조롱하다, 놀리다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "絡まる",
+      "read": "からまる",
+      "mean": "얽히다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "刈る",
+      "read": "かる",
+      "mean": "베다, 깎다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "かわいがる",
+      "read": "かわいがる",
+      "mean": "귀여워하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    },
+    {
+      "word": "考え込む",
+      "read": "かんがえこむ",
+      "mean": "골똘히 생각하다",
+      "tags": [],
+      "moduleId": "n2-module-057",
+      "legacyDay": 19
+    }
+  ]
+}

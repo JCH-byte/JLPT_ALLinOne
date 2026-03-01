@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 036",
+  "moduleId": "n3-module-036",
+  "vocab": [
+    {
+      "word": "物理",
+      "read": "ぶつり",
+      "mean": "물리",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "筆",
+      "read": "ふで",
+      "mean": "붓",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "部品",
+      "read": "ぶひん",
+      "mean": "부품",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "部分",
+      "read": "ぶぶん",
+      "mean": "부분",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "不満",
+      "read": "ふまん",
+      "mean": "불만",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "踏み切り",
+      "read": "ふみきり",
+      "mean": "건널목",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "振り込み",
+      "read": "ふりこみ",
+      "mean": "납입, 계좌이체",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "雰囲気",
+      "read": "ふんいき",
+      "mean": "분위기",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "文献",
+      "read": "ぶんけん",
+      "mean": "문헌",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "文書",
+      "read": "ぶんしょ",
+      "mean": "문서",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "分数",
+      "read": "ぶんすう",
+      "mean": "분수",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "文房具",
+      "read": "ぶんぼうぐ",
+      "mean": "문방구",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "分類",
+      "read": "ぶんるい",
+      "mean": "분류",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "平均",
+      "read": "へいきん",
+      "mean": "평균",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "平行",
+      "read": "へいこう",
+      "mean": "평행",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "米国",
+      "read": "べいこく",
+      "mean": "미국",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "平日",
+      "read": "へいじつ",
+      "mean": "평일",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "平和",
+      "read": "へいわ",
+      "mean": "평화",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "変化",
+      "read": "へんか",
+      "mean": "변화",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "変更",
+      "read": "へんこう",
+      "mean": "변경",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "弁護士",
+      "read": "べんごし",
+      "mean": "변호사",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "編集",
+      "read": "へんしゅう",
+      "mean": "편집",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "方向",
+      "read": "ほうこう",
+      "mean": "방향",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "報告",
+      "read": "ほうこく",
+      "mean": "보고",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 13
+    },
+    {
+      "word": "宝石",
+      "read": "ほうせき",
+      "mean": "보석",
+      "tags": [],
+      "moduleId": "n3-module-036",
+      "legacyDay": 14
+    }
+  ]
+}

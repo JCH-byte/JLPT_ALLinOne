@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 082",
+  "moduleId": "n2-module-082",
+  "vocab": [
+    {
+      "word": "それとも",
+      "read": "それとも",
+      "mean": "그렇지 않으면",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 26
+    },
+    {
+      "word": "それなのに",
+      "read": "それなのに",
+      "mean": "그런데도",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 26
+    },
+    {
+      "word": "それにしても",
+      "read": "それにしても",
+      "mean": "그렇다 치더라도",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 26
+    },
+    {
+      "word": "ただし",
+      "read": "ただし",
+      "mean": "단",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 26
+    },
+    {
+      "word": "ところが",
+      "read": "ところが",
+      "mean": "그런데",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 26
+    },
+    {
+      "word": "ところで",
+      "read": "ところで",
+      "mean": "그건 그렇고",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 26
+    },
+    {
+      "word": "のみ",
+      "read": "のみ",
+      "mean": "뿐",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 26
+    },
+    {
+      "word": "アクセント",
+      "read": "あくせんと",
+      "mean": "악센트",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "アピール",
+      "read": "あぴーる",
+      "mean": "어필",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "アレンジ",
+      "read": "あれんじ",
+      "mean": "어레인지, 편곡",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "インテリア",
+      "read": "いんてりあ",
+      "mean": "인테리어",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "インパクト",
+      "read": "いんぱくと",
+      "mean": "임팩트",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "ウイスキー",
+      "read": "ういすきー",
+      "mean": "위스키",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "ウール",
+      "read": "うーる",
+      "mean": "울, 양모",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "エチケット",
+      "read": "えちけっと",
+      "mean": "에티켓",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "オーケストラ",
+      "read": "おーけすとら",
+      "mean": "오케스트라",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "オートメーション",
+      "read": "おーとめーしょん",
+      "mean": "오토메이션",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "オリンピック",
+      "read": "おりんぴっく",
+      "mean": "올림픽",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "カー",
+      "read": "かー",
+      "mean": "카, 자동차",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "ガイド",
+      "read": "がいど",
+      "mean": "가이드",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "キャプテン",
+      "read": "きゃぷてん",
+      "mean": "캡틴, 주장",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "クラシック",
+      "read": "くらしっく",
+      "mean": "클래식",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "クラブ",
+      "read": "くらぶ",
+      "mean": "클럽",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "グランド",
+      "read": "ぐらんど",
+      "mean": "그라운드",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    },
+    {
+      "word": "クリア",
+      "read": "くりあ",
+      "mean": "클리어, 맑음",
+      "tags": [],
+      "moduleId": "n2-module-082",
+      "legacyDay": 27
+    }
+  ]
+}

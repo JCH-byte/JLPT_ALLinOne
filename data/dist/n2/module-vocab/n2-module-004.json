@@ -1,0 +1,214 @@
+{
+  "title": "N2 모듈 004",
+  "moduleId": "n2-module-004",
+  "vocab": [
+    {
+      "word": "演習",
+      "read": "えんしゅう",
+      "mean": "연습, 세미나",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "援助",
+      "read": "えんじょ",
+      "mean": "원조",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "演説",
+      "read": "えんぜつ",
+      "mean": "연설",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "円高",
+      "read": "えんだか",
+      "mean": "엔고",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "延長",
+      "read": "えんちょう",
+      "mean": "연장",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 1
+    },
+    {
+      "word": "煙突",
+      "read": "えんとつ",
+      "mean": "굴뚝",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "円安",
+      "read": "えんやす",
+      "mean": "엔저",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "王女",
+      "read": "おうじょ",
+      "mean": "왕녀, 공주",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "応接",
+      "read": "おうせつ",
+      "mean": "응접",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "応対",
+      "read": "おうたい",
+      "mean": "응대",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "欧米",
+      "read": "おうべい",
+      "mean": "구미(유럽과 미국)",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "往来",
+      "read": "おうらい",
+      "mean": "왕래",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "大型",
+      "read": "おおがた",
+      "mean": "대형",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "大声",
+      "read": "おおごえ",
+      "mean": "큰 소리",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "大昔",
+      "read": "おおむかし",
+      "mean": "먼 옛날",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "多め",
+      "read": "おおめ",
+      "mean": "조금 많음",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "丘",
+      "read": "おか",
+      "mean": "언덕",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "おかず",
+      "read": "おかず",
+      "mean": "반찬",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "悪寒",
+      "read": "おかん",
+      "mean": "오한",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "沖",
+      "read": "おき",
+      "mean": "먼 바다",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お気に入り",
+      "read": "おきにいり",
+      "mean": "마음에 듦, 즐겨찾기",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お辞儀",
+      "read": "おじぎ",
+      "mean": "인사, 절",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "おしゃべり",
+      "read": "おしゃべり",
+      "mean": "수다",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "汚染",
+      "read": "おせん",
+      "mean": "오염",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "恐れ",
+      "read": "おそれ",
+      "mean": "두려움, 우려",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "鬼",
+      "read": "おに",
+      "mean": "도깨비, 귀신",
+      "tags": [],
+      "moduleId": "n2-module-004",
+      "legacyDay": 2
+    }
+  ]
+}

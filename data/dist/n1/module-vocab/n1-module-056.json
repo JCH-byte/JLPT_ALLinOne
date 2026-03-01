@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 056",
+  "moduleId": "n1-module-056",
+  "vocab": [
+    {
+      "word": "~圏",
+      "read": "~けん",
+      "mean": "~권 (범위)",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 15
+    },
+    {
+      "word": "~上",
+      "read": "~じょう",
+      "mean": "~상",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 15
+    },
+    {
+      "word": "~派",
+      "read": "~は",
+      "mean": "~파",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 15
+    },
+    {
+      "word": "~版",
+      "read": "~ばん",
+      "mean": "~판",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 15
+    },
+    {
+      "word": "~ぶり",
+      "read": "~ぶり",
+      "mean": "~만(시간), ~모습",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 15
+    },
+    {
+      "word": "~まみれ",
+      "read": "~まみれ",
+      "mean": "~투성이",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 15
+    },
+    {
+      "word": "~網",
+      "read": "~もう",
+      "mean": "~망",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 15
+    },
+    {
+      "word": "忌み嫌う",
+      "read": "いみきらう",
+      "mean": "몹시 싫어하다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "癒す",
+      "read": "いやす",
+      "mean": "고치다, 달래다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "浮かれる",
+      "read": "うかれる",
+      "mean": "들뜨다, 신이 나다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "請け負う",
+      "read": "うけおう",
+      "mean": "청부 맡다, 떠맡다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "受け継ぐ",
+      "read": "うけつぐ",
+      "mean": "계승하다, 이어받다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "受け止める",
+      "read": "うけとめる",
+      "mean": "받아들이다, 받아내다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "受け流す",
+      "read": "うけながす",
+      "mean": "받아넘기다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "受け持つ",
+      "read": "うけもつ",
+      "mean": "담당하다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "打ち切る",
+      "read": "うちきる",
+      "mean": "중단하다, 자르다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "打ち込む",
+      "read": "うちこむ",
+      "mean": "박아 넣다, 열중하다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "促す",
+      "read": "うながす",
+      "mean": "재촉하다, 촉구하다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "うなだれる",
+      "read": "うなだれる",
+      "mean": "고개를 떨구다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "うぬぼれる",
+      "read": "うぬぼれる",
+      "mean": "자만하다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "潤う",
+      "read": "うるおう",
+      "mean": "윤택해지다, 혜택받다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "潤す",
+      "read": "うるおす",
+      "mean": "축이다, 혜택을 주다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "うろたえる",
+      "read": "うろたえる",
+      "mean": "당황하다, 허둥대다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "上回る",
+      "read": "うわまわる",
+      "mean": "웃돌다, 상회하다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    },
+    {
+      "word": "追い込む",
+      "read": "おいこむ",
+      "mean": "몰아넣다",
+      "tags": [],
+      "moduleId": "n1-module-056",
+      "legacyDay": 16
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 050",
+  "moduleId": "n2-module-050",
+  "vocab": [
+    {
+      "word": "理事会",
+      "read": "りじかい",
+      "mean": "이사회",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 15
+    },
+    {
+      "word": "流域",
+      "read": "りゅういき",
+      "mean": "유역",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 15
+    },
+    {
+      "word": "漁師",
+      "read": "りょうし",
+      "mean": "어부",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 15
+    },
+    {
+      "word": "領事",
+      "read": "りょうじ",
+      "mean": "영사",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 15
+    },
+    {
+      "word": "領収書",
+      "read": "りょうしゅうしょ",
+      "mean": "영수증",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "臨時",
+      "read": "りんじ",
+      "mean": "임시",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "礼儀",
+      "read": "れいぎ",
+      "mean": "예의",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "零点",
+      "read": "れいてん",
+      "mean": "0점, 빵점",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "列島",
+      "read": "れっとう",
+      "mean": "열도",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "連合",
+      "read": "れんごう",
+      "mean": "연합",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "連想",
+      "read": "れんそう",
+      "mean": "연상",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "連続",
+      "read": "れんぞく",
+      "mean": "연속",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "ろうそく",
+      "read": "ろうそく",
+      "mean": "양초",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "労働",
+      "read": "ろうどう",
+      "mean": "노동",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "露出",
+      "read": "ろしゅつ",
+      "mean": "노출",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "路線",
+      "read": "ろせん",
+      "mean": "노선",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "論争",
+      "read": "ろんそう",
+      "mean": "논쟁",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "論文",
+      "read": "ろんぶん",
+      "mean": "논문",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "我が家",
+      "read": "わがや",
+      "mean": "우리 집",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "脇",
+      "read": "わき",
+      "mean": "겨드랑이, 옆",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "綿",
+      "read": "わた",
+      "mean": "솜",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "和服",
+      "read": "わふく",
+      "mean": "화복, 일본 옷",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "割り勘",
+      "read": "わりかん",
+      "mean": "각자 부담",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "割高",
+      "read": "わりだか",
+      "mean": "비교적 비쌈",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    },
+    {
+      "word": "割安",
+      "read": "わりやす",
+      "mean": "비교적 쌈",
+      "tags": [],
+      "moduleId": "n2-module-050",
+      "legacyDay": 16
+    }
+  ]
+}

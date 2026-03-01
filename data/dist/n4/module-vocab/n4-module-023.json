@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 023",
+  "moduleId": "n4-module-023",
+  "vocab": [
+    {
+      "word": "足す",
+      "read": "たす",
+      "mean": "더하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "訪ねる",
+      "read": "たずねる",
+      "mean": "방문하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "建つ",
+      "read": "たつ",
+      "mean": "세워지다, 건립되다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "建てる",
+      "read": "たてる",
+      "mean": "세우다, 짓다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "楽しむ",
+      "read": "たのしむ",
+      "mean": "즐기다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "頼む",
+      "read": "たのむ",
+      "mean": "부탁하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "足りる",
+      "read": "たりる",
+      "mean": "족하다, 충분하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "違う",
+      "read": "ちがう",
+      "mean": "다르다, 틀리다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "使う",
+      "read": "つかう",
+      "mean": "사용하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "捕まえる",
+      "read": "つかまえる",
+      "mean": "잡다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "疲れる",
+      "read": "つかれる",
+      "mean": "지치다, 피곤하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "付く",
+      "read": "つく",
+      "mean": "붙다, 묻다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "着く",
+      "read": "つく",
+      "mean": "도착하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "付ける",
+      "read": "つける",
+      "mean": "붙이다, 켜다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "伝える",
+      "read": "つたえる",
+      "mean": "전하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 16
+    },
+    {
+      "word": "続く",
+      "read": "つづく",
+      "mean": "계속되다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "続ける",
+      "read": "つづける",
+      "mean": "계속하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "釣る",
+      "read": "つる",
+      "mean": "낚다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "連れる",
+      "read": "つれる",
+      "mean": "데리고 가다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "できる",
+      "read": "できる",
+      "mean": "할 수 있다, 생기다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "手伝う",
+      "read": "てつだう",
+      "mean": "돕다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "通る",
+      "read": "とおる",
+      "mean": "통하다, 지나다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "届く",
+      "read": "とどく",
+      "mean": "도착하다, 닿다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "届ける",
+      "read": "とどける",
+      "mean": "전하다, 신고하다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    },
+    {
+      "word": "止まる",
+      "read": "とまる",
+      "mean": "멈추다, 서다",
+      "tags": [],
+      "moduleId": "n4-module-023",
+      "legacyDay": 17
+    }
+  ]
+}

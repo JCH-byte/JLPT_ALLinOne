@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 069",
+  "moduleId": "n2-module-069",
+  "vocab": [
+    {
+      "word": "しょっぱい",
+      "read": "しょっぱい",
+      "mean": "짜다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "白々しい",
+      "read": "しらじらしい",
+      "mean": "천연덕스럽다, 뻔하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "酸っぱい",
+      "read": "すっぱい",
+      "mean": "시다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "ずるい",
+      "read": "ずるい",
+      "mean": "교활하다, 치사하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "騒々しい",
+      "read": "そうぞうしい",
+      "mean": "떠들썩하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "そそっかしい",
+      "read": "そそっかしい",
+      "mean": "덜렁대다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "たくましい",
+      "read": "たくましい",
+      "mean": "늠름하다, 건장하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "たまらない",
+      "read": "たまらない",
+      "mean": "견딜 수 없다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "だらしない",
+      "read": "だらしない",
+      "mean": "칠칠치 못하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "力強い",
+      "read": "ちからづよい",
+      "mean": "힘차다, 든든하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "つらい",
+      "read": "つらい",
+      "mean": "괴롭다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "乏しい",
+      "read": "とぼしい",
+      "mean": "부족하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "憎らしい",
+      "read": "にくらしい",
+      "mean": "밉살스럽다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "鈍い",
+      "read": "にぶい",
+      "mean": "둔하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "のろい",
+      "read": "のろい",
+      "mean": "느리다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "馬鹿らしい",
+      "read": "ばからしい",
+      "mean": "바보 같다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "甚だしい",
+      "read": "はなはだしい",
+      "mean": "심하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "等しい",
+      "read": "ひとしい",
+      "mean": "같다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "相応しい",
+      "read": "ふさわしい",
+      "mean": "어울리다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "真っ白い",
+      "read": "まっしろい",
+      "mean": "새하얗다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "みっともない",
+      "read": "みっともない",
+      "mean": "꼴사납다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "めでたい",
+      "read": "めでたい",
+      "mean": "경사스럽다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "ものすごい",
+      "read": "ものすごい",
+      "mean": "굉장하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "物足りない",
+      "read": "ものたりない",
+      "mean": "어딘가 부족하다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    },
+    {
+      "word": "用心深い",
+      "read": "ようじんぶかい",
+      "mean": "조심성이 많다",
+      "tags": [],
+      "moduleId": "n2-module-069",
+      "legacyDay": 22
+    }
+  ]
+}

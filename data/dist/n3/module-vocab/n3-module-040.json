@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 040",
+  "moduleId": "n3-module-040",
+  "vocab": [
+    {
+      "word": "面会",
+      "read": "めんかい",
+      "mean": "면회",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "免許",
+      "read": "めんきょ",
+      "mean": "면허",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "免税",
+      "read": "めんぜい",
+      "mean": "면세",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "面接",
+      "read": "めんせつ",
+      "mean": "면접",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "申し込み",
+      "read": "もうしこみ",
+      "mean": "신청",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "申込者",
+      "read": "もうしこみしゃ",
+      "mean": "신청자",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "申込書",
+      "read": "もうしこみしょ",
+      "mean": "신청서",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "毛布",
+      "read": "もうふ",
+      "mean": "담요",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "目的",
+      "read": "もくてき",
+      "mean": "목적",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "目標",
+      "read": "もくひょう",
+      "mean": "목표",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "文字",
+      "read": "もじ",
+      "mean": "문자",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "者",
+      "read": "もの",
+      "mean": "자, 사람",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "物置",
+      "read": "ものおき",
+      "mean": "창고",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "物語",
+      "read": "ものがたり",
+      "mean": "이야기",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "物忘れ",
+      "read": "ものわすれ",
+      "mean": "건망증",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "模様",
+      "read": "もよう",
+      "mean": "모양, 무늬",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "文句",
+      "read": "もんく",
+      "mean": "불평, 문구",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "野球",
+      "read": "やきゅう",
+      "mean": "야구",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "火傷",
+      "read": "やけど",
+      "mean": "화상",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "家賃",
+      "read": "やちん",
+      "mean": "집세",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "薬局",
+      "read": "やっきょく",
+      "mean": "약국",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "やり方",
+      "read": "やりかた",
+      "mean": "하는 방식",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "やる気",
+      "read": "やるき",
+      "mean": "의욕",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "勇気",
+      "read": "ゆうき",
+      "mean": "용기",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    },
+    {
+      "word": "友情",
+      "read": "ゆうじょう",
+      "mean": "우정",
+      "tags": [],
+      "moduleId": "n3-module-040",
+      "legacyDay": 15
+    }
+  ]
+}

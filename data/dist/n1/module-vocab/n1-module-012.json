@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 012",
+  "moduleId": "n1-module-012",
+  "vocab": [
+    {
+      "word": "業務",
+      "read": "ぎょうむ",
+      "mean": "업무",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "共鳴",
+      "read": "きょうめい",
+      "mean": "공명",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "郷里",
+      "read": "きょうり",
+      "mean": "향리, 고향",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "局面",
+      "read": "きょくめん",
+      "mean": "국면",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "漁船",
+      "read": "ぎょせん",
+      "mean": "어선",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "拠点",
+      "read": "きょてん",
+      "mean": "거점",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "許容",
+      "read": "きょよう",
+      "mean": "허용",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "疑惑",
+      "read": "ぎわく",
+      "mean": "의혹",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "近眼",
+      "read": "きんがん",
+      "mean": "근시",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "均衡",
+      "read": "きんこう",
+      "mean": "균형",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 3
+    },
+    {
+      "word": "緊迫",
+      "read": "きんぱく",
+      "mean": "긴박",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "吟味",
+      "read": "ぎんみ",
+      "mean": "음미, 검토",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "禁物",
+      "read": "きんもつ",
+      "mean": "금물",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "勤労",
+      "read": "きんろう",
+      "mean": "근로",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "空腹",
+      "read": "くうふく",
+      "mean": "공복",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "苦境",
+      "read": "くきょう",
+      "mean": "고경, 역경",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "苦言",
+      "read": "くげん",
+      "mean": "고언, 쓴소리",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "駆使",
+      "read": "くし",
+      "mean": "구사",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "駆逐",
+      "read": "くちく",
+      "mean": "구축, 몰아냄",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "口出し",
+      "read": "くちだし",
+      "mean": "말참견",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "くちばし",
+      "read": "くちばし",
+      "mean": "부리",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "口元",
+      "read": "くちもと",
+      "mean": "입가",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "口調",
+      "read": "くちょう",
+      "mean": "어조",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "工面",
+      "read": "くめん",
+      "mean": "마련함, 변통",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    },
+    {
+      "word": "愚問",
+      "read": "ぐもん",
+      "mean": "우문",
+      "tags": [],
+      "moduleId": "n1-module-012",
+      "legacyDay": 4
+    }
+  ]
+}

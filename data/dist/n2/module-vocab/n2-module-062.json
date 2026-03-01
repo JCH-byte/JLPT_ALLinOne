@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 062",
+  "moduleId": "n2-module-062",
+  "vocab": [
+    {
+      "word": "つなげる",
+      "read": "つなげる",
+      "mean": "연결하다, 잇다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "つねる",
+      "read": "つねる",
+      "mean": "꼬집다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "つまずく",
+      "read": "つまずく",
+      "mean": "넘어지다, 좌절하다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "詰まる",
+      "read": "つまる",
+      "mean": "막히다, 가득 차다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "釣り合う",
+      "read": "つりあう",
+      "mean": "균형이 잡히다, 어울리다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "吊る",
+      "read": "つる",
+      "mean": "달다, 매달다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "吊るす",
+      "read": "つるす",
+      "mean": "매달다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "適する",
+      "read": "てきする",
+      "mean": "적합하다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "出くわす",
+      "read": "でくわす",
+      "mean": "우연히 만나다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "照らす",
+      "read": "てらす",
+      "mean": "비추다, 대조하다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "照る",
+      "read": "てる",
+      "mean": "비치다, 개다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "問いかける",
+      "read": "といかける",
+      "mean": "질문하다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "通す",
+      "read": "とおす",
+      "mean": "통하게 하다, 꿰다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "通りかかる",
+      "read": "とおりかかる",
+      "mean": "지나가다, 마침 지나가다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "尖る",
+      "read": "とがる",
+      "mean": "뾰족하다, 예민해지다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "解く",
+      "read": "とく",
+      "mean": "풀다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "どく",
+      "read": "どく",
+      "mean": "비키다, 물러나다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "溶け込む",
+      "read": "とけこむ",
+      "mean": "녹아들다, 융화되다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "解ける",
+      "read": "とける",
+      "mean": "풀리다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "どける",
+      "read": "どける",
+      "mean": "치우다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "整う",
+      "read": "ととのう",
+      "mean": "정돈되다, 갖추어지다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "整える",
+      "read": "ととのえる",
+      "mean": "정돈하다, 갖추다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "とどまる",
+      "read": "とどまる",
+      "mean": "머물다, 그치다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "飛び散る",
+      "read": "とびちる",
+      "mean": "흩날리다, 튀다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    },
+    {
+      "word": "飛びつく",
+      "read": "とびつく",
+      "mean": "달려들다",
+      "tags": [],
+      "moduleId": "n2-module-062",
+      "legacyDay": 20
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 031",
+  "moduleId": "n3-module-031",
+  "vocab": [
+    {
+      "word": "並木",
+      "read": "なみき",
+      "mean": "가로수",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "涙",
+      "read": "なみだ",
+      "mean": "눈물",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "南北",
+      "read": "なんぼく",
+      "mean": "남북",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "日時",
+      "read": "にちじ",
+      "mean": "일시",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "日常",
+      "read": "にちじょう",
+      "mean": "일상",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "日用品",
+      "read": "にちようひん",
+      "mean": "일용품",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "日程",
+      "read": "にってい",
+      "mean": "일정",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "日本酒",
+      "read": "にほんしゅ",
+      "mean": "일본술(청주)",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "荷物",
+      "read": "にもつ",
+      "mean": "짐",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "入場",
+      "read": "にゅうじょう",
+      "mean": "입장",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "入場料",
+      "read": "にゅうじょうりょう",
+      "mean": "입장료",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "入浴",
+      "read": "にゅうよく",
+      "mean": "입욕, 목욕",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "入力",
+      "read": "にゅうりょく",
+      "mean": "입력",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "鶏",
+      "read": "にわとり",
+      "mean": "닭",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 11
+    },
+    {
+      "word": "人気",
+      "read": "にんき",
+      "mean": "인기",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "人間",
+      "read": "にんげん",
+      "mean": "인간",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "根",
+      "read": "ね",
+      "mean": "뿌리",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "値上げ",
+      "read": "ねあげ",
+      "mean": "가격 인상",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "願い",
+      "read": "ねがい",
+      "mean": "소원, 부탁",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "値下げ",
+      "read": "ねさげ",
+      "mean": "가격 인하",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "ねずみ",
+      "read": "ねずみ",
+      "mean": "쥐",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "値段",
+      "read": "ねだん",
+      "mean": "가격",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "熱中",
+      "read": "ねっちゅう",
+      "mean": "열중",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "年賀状",
+      "read": "ねんがじょう",
+      "mean": "연하장",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    },
+    {
+      "word": "年間",
+      "read": "ねんかん",
+      "mean": "연간",
+      "tags": [],
+      "moduleId": "n3-module-031",
+      "legacyDay": 12
+    }
+  ]
+}

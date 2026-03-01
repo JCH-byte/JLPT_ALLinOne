@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 004",
+  "moduleId": "n3-module-004",
+  "vocab": [
+    {
+      "word": "延期",
+      "read": "えんき",
+      "mean": "연기",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "演劇",
+      "read": "えんげき",
+      "mean": "연극",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "演奏",
+      "read": "えんそう",
+      "mean": "연주",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "遠足",
+      "read": "えんそく",
+      "mean": "소풍",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "おい",
+      "read": "おい",
+      "mean": "조카(남자)",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お祝い",
+      "read": "おいわい",
+      "mean": "축하, 축하 선물",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "応援",
+      "read": "おうえん",
+      "mean": "응원",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "王様",
+      "read": "おうさま",
+      "mean": "임금님",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "王子",
+      "read": "おうじ",
+      "mean": "왕자",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "横断",
+      "read": "おうだん",
+      "mean": "횡단",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "往復",
+      "read": "おうふく",
+      "mean": "왕복",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "応募",
+      "read": "おうぼ",
+      "mean": "응모",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "応用",
+      "read": "おうよう",
+      "mean": "응용",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "大通り",
+      "read": "おおどおり",
+      "mean": "큰길, 대로",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "大家",
+      "read": "おおや",
+      "mean": "집주인",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "奥",
+      "read": "おく",
+      "mean": "안쪽, 깊은 곳",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "屋外",
+      "read": "おくがい",
+      "mean": "옥외, 야외",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "屋内",
+      "read": "おくない",
+      "mean": "옥내, 실내",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お小遣い",
+      "read": "おこづかい",
+      "mean": "용돈",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "おしまい",
+      "read": "おしまい",
+      "mean": "끝",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "おしゃれ",
+      "read": "おしゃれ",
+      "mean": "멋을 냄, 멋쟁이",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お尻",
+      "read": "おしり",
+      "mean": "엉덩이",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お勧め",
+      "read": "おすすめ",
+      "mean": "추천",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お疲れ様",
+      "read": "おつかれさま",
+      "mean": "수고하셨습니다",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    },
+    {
+      "word": "お手伝いさん",
+      "read": "おてつだいさん",
+      "mean": "가정부",
+      "tags": [],
+      "moduleId": "n3-module-004",
+      "legacyDay": 2
+    }
+  ]
+}

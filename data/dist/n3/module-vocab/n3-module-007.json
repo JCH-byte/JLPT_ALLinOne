@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 007",
+  "moduleId": "n3-module-007",
+  "vocab": [
+    {
+      "word": "課題",
+      "read": "かだい",
+      "mean": "과제",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "方々",
+      "read": "かたがた",
+      "mean": "분들(사람들의 높임말)",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "片方",
+      "read": "かたほう",
+      "mean": "한쪽",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "片道",
+      "read": "かたみち",
+      "mean": "편도",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "価値",
+      "read": "かち",
+      "mean": "가치",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "勝ち",
+      "read": "かち",
+      "mean": "승리",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "活気",
+      "read": "かっき",
+      "mean": "활기",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "楽器",
+      "read": "がっき",
+      "mean": "악기",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "格好",
+      "read": "かっこう",
+      "mean": "모습, 폼",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "活動",
+      "read": "かつどう",
+      "mean": "활동",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "仮定",
+      "read": "かてい",
+      "mean": "가정",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "家電製品",
+      "read": "かでんせいひん",
+      "mean": "가전제품",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "角",
+      "read": "かど",
+      "mean": "모퉁이",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "悲しみ",
+      "read": "かなしみ",
+      "mean": "슬픔",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "我慢",
+      "read": "がまん",
+      "mean": "참음, 인내",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "神",
+      "read": "かみ",
+      "mean": "신",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "画面",
+      "read": "がめん",
+      "mean": "화면",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "科目",
+      "read": "かもく",
+      "mean": "과목",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "空",
+      "read": "から",
+      "mean": "빔, 공허",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "空っぽ",
+      "read": "からっぽ",
+      "mean": "텅 빔",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "缶",
+      "read": "かん",
+      "mean": "캔",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "考え",
+      "read": "かんがえ",
+      "mean": "생각",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "間隔",
+      "read": "かんかく",
+      "mean": "간격",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "感覚",
+      "read": "かんかく",
+      "mean": "감각",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    },
+    {
+      "word": "環境",
+      "read": "かんきょう",
+      "mean": "환경",
+      "tags": [],
+      "moduleId": "n3-module-007",
+      "legacyDay": 3
+    }
+  ]
+}

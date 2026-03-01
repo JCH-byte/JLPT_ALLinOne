@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 018",
+  "moduleId": "n3-module-018",
+  "vocab": [
+    {
+      "word": "週刊誌",
+      "read": "しゅうかんし",
+      "mean": "주간지",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "集合",
+      "read": "しゅうごう",
+      "mean": "집합",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "重視",
+      "read": "じゅうし",
+      "mean": "중시",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "就職",
+      "read": "しゅうしょく",
+      "mean": "취직",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "自由席",
+      "read": "じゆうせき",
+      "mean": "자유석",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "集中",
+      "read": "しゅうちゅう",
+      "mean": "집중",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "終点",
+      "read": "しゅうてん",
+      "mean": "종점",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "収入",
+      "read": "しゅうにゅう",
+      "mean": "수입",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "周辺",
+      "read": "しゅうへん",
+      "mean": "주변",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "週末",
+      "read": "しゅうまつ",
+      "mean": "주말",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "住民",
+      "read": "じゅうみん",
+      "mean": "주민",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "修理",
+      "read": "しゅうり",
+      "mean": "수리",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "授業料",
+      "read": "じゅぎょうりょう",
+      "mean": "수업료",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "祝日",
+      "read": "しゅくじつ",
+      "mean": "축일, 공휴일",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "縮小",
+      "read": "しゅくしょう",
+      "mean": "축소",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "宿泊",
+      "read": "しゅくはく",
+      "mean": "숙박",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "受験",
+      "read": "じゅけん",
+      "mean": "수험",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "受講",
+      "read": "じゅこう",
+      "mean": "수강",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "手術",
+      "read": "しゅじゅつ",
+      "mean": "수술",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "受信",
+      "read": "じゅしん",
+      "mean": "수신",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "手段",
+      "read": "しゅだん",
+      "mean": "수단",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "主張",
+      "read": "しゅちょう",
+      "mean": "주장",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "出勤",
+      "read": "しゅっきん",
+      "mean": "출근",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "出血",
+      "read": "しゅっけつ",
+      "mean": "출혈",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    },
+    {
+      "word": "出現",
+      "read": "しゅつげん",
+      "mean": "출현",
+      "tags": [],
+      "moduleId": "n3-module-018",
+      "legacyDay": 7
+    }
+  ]
+}

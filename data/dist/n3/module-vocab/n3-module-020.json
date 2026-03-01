@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 020",
+  "moduleId": "n3-module-020",
+  "vocab": [
+    {
+      "word": "冗談",
+      "read": "じょうだん",
+      "mean": "농담",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "商店",
+      "read": "しょうてん",
+      "mean": "상점",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "商人",
+      "read": "しょうにん",
+      "mean": "상인",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "少年",
+      "read": "しょうねん",
+      "mean": "소년",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "商売",
+      "read": "しょうばい",
+      "mean": "장사",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "消費",
+      "read": "しょうひ",
+      "mean": "소비",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "商品",
+      "read": "しょうひん",
+      "mean": "상품",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "消防",
+      "read": "しょうぼう",
+      "mean": "소방",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "情報",
+      "read": "じょうほう",
+      "mean": "정보",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "消防署",
+      "read": "しょうぼうしょ",
+      "mean": "소방서",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "証明",
+      "read": "しょうめい",
+      "mean": "증명",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 7
+    },
+    {
+      "word": "正面",
+      "read": "しょうめん",
+      "mean": "정면",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "使用料",
+      "read": "しようりょう",
+      "mean": "사용료",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "初級",
+      "read": "しょきゅう",
+      "mean": "초급",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "職業",
+      "read": "しょくぎょう",
+      "mean": "직업",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "食後",
+      "read": "しょくご",
+      "mean": "식후",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "食事代",
+      "read": "しょくじだい",
+      "mean": "식사대",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "職場",
+      "read": "しょくば",
+      "mean": "직장",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "食費",
+      "read": "しょくひ",
+      "mean": "식비",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "食品",
+      "read": "しょくひん",
+      "mean": "식품",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "植物",
+      "read": "しょくぶつ",
+      "mean": "식물",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "食欲",
+      "read": "しょくよく",
+      "mean": "식욕",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "女子",
+      "read": "じょし",
+      "mean": "여자",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "初心者",
+      "read": "しょしんしゃ",
+      "mean": "초심자, 초보자",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    },
+    {
+      "word": "食器",
+      "read": "しょっき",
+      "mean": "식기",
+      "tags": [],
+      "moduleId": "n3-module-020",
+      "legacyDay": 8
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 062",
+  "moduleId": "n3-module-062",
+  "vocab": [
+    {
+      "word": "今にも",
+      "read": "いまにも",
+      "mean": "금방이라도",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "いらいら",
+      "read": "いらいら",
+      "mean": "안절부절못함",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "うっかり",
+      "read": "うっかり",
+      "mean": "깜빡",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "うろうろ",
+      "read": "うろうろ",
+      "mean": "어슬렁어슬렁",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "大いに",
+      "read": "おおいに",
+      "mean": "크게, 매우",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "お先に",
+      "read": "おさきに",
+      "mean": "먼저",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "主に",
+      "read": "おもに",
+      "mean": "주로",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "思わず",
+      "read": "おもわず",
+      "mean": "엉겁결에, 나도 모르게",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "およそ",
+      "read": "およそ",
+      "mean": "대략",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "がっかり",
+      "read": "がっかり",
+      "mean": "실망하는 모양",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "必ず",
+      "read": "かならず",
+      "mean": "반드시",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "必ずしも",
+      "read": "かならずしも",
+      "mean": "반드시 (~인 것은 아니다)",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "きちんと",
+      "read": "きちんと",
+      "mean": "제대로, 꼼꼼히",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "ぎっしり",
+      "read": "ぎっしり",
+      "mean": "빽빽이",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "ぎりぎり",
+      "read": "ぎりぎり",
+      "mean": "아슬아슬함",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "ぐっすり",
+      "read": "ぐっすり",
+      "mean": "푹 (자는 모양)",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "結局",
+      "read": "けっきょく",
+      "mean": "결국",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "こっそり",
+      "read": "こっそり",
+      "mean": "몰래",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "ごろごろ",
+      "read": "ごろごろ",
+      "mean": "빈둥빈둥, 데굴데굴",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "ざあざあ",
+      "read": "ざあざあ",
+      "mean": "솨솨 (비 내리는 소리)",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "さっき",
+      "read": "さっき",
+      "mean": "아까",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "さっさと",
+      "read": "さっさと",
+      "mean": "빨리, 얼른",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "早速",
+      "read": "さっそく",
+      "mean": "즉시",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "ざっと",
+      "read": "ざっと",
+      "mean": "대충",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    },
+    {
+      "word": "しいんと",
+      "read": "しいんと",
+      "mean": "조용히 (정적)",
+      "tags": [],
+      "moduleId": "n3-module-062",
+      "legacyDay": 25
+    }
+  ]
+}

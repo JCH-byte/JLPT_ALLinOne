@@ -1,491 +1,330 @@
 {
-    "manifest": {
-        "assignmentVersion": "item-assignment-v1",
-        "source": "data/src/n4.items.json",
-        "learningUnit": "module"
+  "manifest": {
+    "assignmentVersion": "module-vocab-v1",
+    "source": "content/modules/src/",
+    "learningUnit": "module"
+  },
+  "modules": {
+    "n4-module-001": {
+      "moduleId": "n4-module-001",
+      "level": "n4",
+      "title": "N4 모듈 001",
+      "moduleSeq": 1,
+      "vocabCount": 25
     },
-    "modules": {
-        "n4-module-001": {
-            "moduleId": "n4-module-001",
-            "level": "n4",
-            "theme": "Legacy Day 1",
-            "communicativeGoal": "legacy day-1 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-1"
-            ],
-            "legacyDay": 1,
-            "title": "Day 1: 田舎への帰省 (시골로의 귀성)"
-        },
-        "n4-module-002": {
-            "moduleId": "n4-module-002",
-            "level": "n4",
-            "theme": "Legacy Day 2",
-            "communicativeGoal": "legacy day-2 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-2"
-            ],
-            "legacyDay": 2,
-            "title": "Day 2: 訪問と予期せぬ出来事"
-        },
-        "n4-module-003": {
-            "moduleId": "n4-module-003",
-            "level": "n4",
-            "theme": "Legacy Day 3",
-            "communicativeGoal": "legacy day-3 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-3"
-            ],
-            "legacyDay": 3,
-            "title": "Day 3: 記者の一日 (기자의 하루)"
-        },
-        "n4-module-004": {
-            "moduleId": "n4-module-004",
-            "level": "n4",
-            "theme": "Legacy Day 4",
-            "communicativeGoal": "legacy day-4 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-4"
-            ],
-            "legacyDay": 4,
-            "title": "Day 4: 社会見学と日常 (사회 견학과 일상)"
-        },
-        "n4-module-005": {
-            "moduleId": "n4-module-005",
-            "level": "n4",
-            "theme": "Legacy Day 5",
-            "communicativeGoal": "legacy day-5 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-5"
-            ],
-            "legacyDay": 5,
-            "title": "Day 5: 忙しい日常と未来の計画 (바쁜 일상과 미래의 계획)"
-        },
-        "n4-module-006": {
-            "moduleId": "n4-module-006",
-            "level": "n4",
-            "theme": "Legacy Day 6",
-            "communicativeGoal": "legacy day-6 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-6"
-            ],
-            "legacyDay": 6,
-            "title": "Day 6: 社会生活と年中行事 (사회생활과 연중행사)"
-        },
-        "n4-module-007": {
-            "moduleId": "n4-module-007",
-            "level": "n4",
-            "theme": "Legacy Day 7",
-            "communicativeGoal": "legacy day-7 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-7"
-            ],
-            "legacyDay": 7,
-            "title": "Day 7: 家族と社会の関わり (가족과 사회의 관계)"
-        },
-        "n4-module-008": {
-            "moduleId": "n4-module-008",
-            "level": "n4",
-            "theme": "Legacy Day 8",
-            "communicativeGoal": "legacy day-8 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-8"
-            ],
-            "legacyDay": 8,
-            "title": "Day 8: 旅行の計画と街の散策 (여행 계획과 거리 산책)"
-        },
-        "n4-module-009": {
-            "moduleId": "n4-module-009",
-            "level": "n4",
-            "theme": "Legacy Day 9",
-            "communicativeGoal": "legacy day-9 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-9"
-            ],
-            "legacyDay": 9,
-            "title": "Day 9: 健康と季節の思い出 (건강과 계절의 추억)"
-        },
-        "n4-module-010": {
-            "moduleId": "n4-module-010",
-            "level": "n4",
-            "theme": "Legacy Day 10",
-            "communicativeGoal": "legacy day-10 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-10"
-            ],
-            "legacyDay": 10,
-            "title": "Day 10: 港町の生活 (항구 마을의 생활)"
-        },
-        "n4-module-011": {
-            "moduleId": "n4-module-011",
-            "level": "n4",
-            "theme": "Legacy Day 11",
-            "communicativeGoal": "legacy day-11 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-11"
-            ],
-            "legacyDay": 11,
-            "title": "Day 11: 両親との温泉旅行"
-        },
-        "n4-module-012": {
-            "moduleId": "n4-module-012",
-            "level": "n4",
-            "theme": "Legacy Day 12",
-            "communicativeGoal": "legacy day-12 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-12"
-            ],
-            "legacyDay": 12,
-            "title": "Day 12: 学校イベントの準備"
-        },
-        "n4-module-013": {
-            "moduleId": "n4-module-013",
-            "level": "n4",
-            "theme": "Legacy Day 13",
-            "communicativeGoal": "legacy day-13 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-13"
-            ],
-            "legacyDay": 13,
-            "title": "Day 13: 変化と行動"
-        },
-        "n4-module-014": {
-            "moduleId": "n4-module-014",
-            "level": "n4",
-            "theme": "Legacy Day 14",
-            "communicativeGoal": "legacy day-14 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-14"
-            ],
-            "legacyDay": 14,
-            "title": "Day 14: 社長の訪問と小さな失敗"
-        },
-        "n4-module-015": {
-            "moduleId": "n4-module-015",
-            "level": "n4",
-            "theme": "Legacy Day 15",
-            "communicativeGoal": "legacy day-15 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-15"
-            ],
-            "legacyDay": 15,
-            "title": "Day 15: 予定変更と立て直し "
-        },
-        "n4-module-016": {
-            "moduleId": "n4-module-016",
-            "level": "n4",
-            "theme": "Legacy Day 16",
-            "communicativeGoal": "legacy day-16 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-16"
-            ],
-            "legacyDay": 16,
-            "title": "Day 16: 進む日常と予期せぬ出来事 "
-        },
-        "n4-module-017": {
-            "moduleId": "n4-module-017",
-            "level": "n4",
-            "theme": "Legacy Day 17",
-            "communicativeGoal": "legacy day-17 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-17"
-            ],
-            "legacyDay": 17,
-            "title": "Day 17: 引っ越しと新しい始まり "
-        },
-        "n4-module-018": {
-            "moduleId": "n4-module-018",
-            "level": "n4",
-            "theme": "Legacy Day 18",
-            "communicativeGoal": "legacy day-18 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-18"
-            ],
-            "legacyDay": 18,
-            "title": "Day 18: 新生活の挑戦とハプニング "
-        },
-        "n4-module-019": {
-            "moduleId": "n4-module-019",
-            "level": "n4",
-            "theme": "Legacy Day 19",
-            "communicativeGoal": "legacy day-19 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-19"
-            ],
-            "legacyDay": 19,
-            "title": "Day 19: 敬語と日常の動作 "
-        },
-        "n4-module-020": {
-            "moduleId": "n4-module-020",
-            "level": "n4",
-            "theme": "Legacy Day 20",
-            "communicativeGoal": "legacy day-20 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-20"
-            ],
-            "legacyDay": 20,
-            "title": "Day 20: デートと感情 (데이트와 감정)"
-        },
-        "n4-module-021": {
-            "moduleId": "n4-module-021",
-            "level": "n4",
-            "theme": "Legacy Day 21",
-            "communicativeGoal": "legacy day-21 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-21"
-            ],
-            "legacyDay": 21,
-            "title": "Day 21: 新しい出会いと変化 (새로운 만남과 변화)"
-        },
-        "n4-module-022": {
-            "moduleId": "n4-module-022",
-            "level": "n4",
-            "theme": "Legacy Day 22",
-            "communicativeGoal": "legacy day-22 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-22"
-            ],
-            "legacyDay": 22,
-            "title": "Day 22: 出張と評価 (출장과 평가)"
-        },
-        "n4-module-023": {
-            "moduleId": "n4-module-023",
-            "level": "n4",
-            "theme": "Legacy Day 23",
-            "communicativeGoal": "legacy day-23 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-23"
-            ],
-            "legacyDay": 23,
-            "title": "Day 23: 予期せぬ再会 (예기치 못한 재회)"
-        },
-        "n4-module-024": {
-            "moduleId": "n4-module-024",
-            "level": "n4",
-            "theme": "Legacy Day 24",
-            "communicativeGoal": "legacy day-24 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-24"
-            ],
-            "legacyDay": 24,
-            "title": "Day 24: 初めての料理挑戦 (첫 요리 도전)"
-        },
-        "n4-module-025": {
-            "moduleId": "n4-module-025",
-            "level": "n4",
-            "theme": "Legacy Day 25",
-            "communicativeGoal": "legacy day-25 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-25"
-            ],
-            "legacyDay": 25,
-            "title": "Day 25: 夢に向かうアルバイト生活 (꿈을 향한 아르바이트 생활)"
-        },
-        "n4-module-026": {
-            "moduleId": "n4-module-026",
-            "level": "n4",
-            "theme": "Legacy Day 26",
-            "communicativeGoal": "legacy day-26 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-26"
-            ],
-            "legacyDay": 26,
-            "title": "Day 26: 週末のツーリングと出張 (주말 투어링과 출장)"
-        },
-        "n4-module-027": {
-            "moduleId": "n4-module-027",
-            "level": "n4",
-            "theme": "Legacy Day 27",
-            "communicativeGoal": "legacy day-27 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-27"
-            ],
-            "legacyDay": 27,
-            "title": "Day 27: 休日デートとホームパーティー (휴일 데이트와 홈 파티)"
-        },
-        "n4-module-028": {
-            "moduleId": "n4-module-028",
-            "level": "n4",
-            "theme": "Legacy Day 28",
-            "communicativeGoal": "legacy day-28 학습 내용을 module 기반으로 이관",
-            "targetGrammar": [
-                "day-28"
-            ],
-            "legacyDay": 28,
-            "title": "Day 28: 特別な記念日とおもてなし (특별한 기념일과 환대)"
-        }
+    "n4-module-002": {
+      "moduleId": "n4-module-002",
+      "level": "n4",
+      "title": "N4 모듈 002",
+      "moduleSeq": 2,
+      "vocabCount": 25
     },
-    "days": {
-        "1": {
-            "title": "Day 1: 田舎への帰省 (시골로의 귀성)",
-            "moduleId": "n4-module-001"
-        },
-        "2": {
-            "title": "Day 2: 訪問と予期せぬ出来事",
-            "moduleId": "n4-module-002"
-        },
-        "3": {
-            "title": "Day 3: 記者の一日 (기자의 하루)",
-            "moduleId": "n4-module-003"
-        },
-        "4": {
-            "title": "Day 4: 社会見学と日常 (사회 견학과 일상)",
-            "moduleId": "n4-module-004"
-        },
-        "5": {
-            "title": "Day 5: 忙しい日常と未来の計画 (바쁜 일상과 미래의 계획)",
-            "moduleId": "n4-module-005"
-        },
-        "6": {
-            "title": "Day 6: 社会生活と年中行事 (사회생활과 연중행사)",
-            "moduleId": "n4-module-006"
-        },
-        "7": {
-            "title": "Day 7: 家族と社会の関わり (가족과 사회의 관계)",
-            "moduleId": "n4-module-007"
-        },
-        "8": {
-            "title": "Day 8: 旅行の計画と街の散策 (여행 계획과 거리 산책)",
-            "moduleId": "n4-module-008"
-        },
-        "9": {
-            "title": "Day 9: 健康と季節の思い出 (건강과 계절의 추억)",
-            "moduleId": "n4-module-009"
-        },
-        "10": {
-            "title": "Day 10: 港町の生活 (항구 마을의 생활)",
-            "moduleId": "n4-module-010"
-        },
-        "11": {
-            "title": "Day 11: 両親との温泉旅行",
-            "moduleId": "n4-module-011"
-        },
-        "12": {
-            "title": "Day 12: 学校イベントの準備",
-            "moduleId": "n4-module-012"
-        },
-        "13": {
-            "title": "Day 13: 変化と行動",
-            "moduleId": "n4-module-013"
-        },
-        "14": {
-            "title": "Day 14: 社長の訪問と小さな失敗",
-            "moduleId": "n4-module-014"
-        },
-        "15": {
-            "title": "Day 15: 予定変更と立て直し ",
-            "moduleId": "n4-module-015"
-        },
-        "16": {
-            "title": "Day 16: 進む日常と予期せぬ出来事 ",
-            "moduleId": "n4-module-016"
-        },
-        "17": {
-            "title": "Day 17: 引っ越しと新しい始まり ",
-            "moduleId": "n4-module-017"
-        },
-        "18": {
-            "title": "Day 18: 新生活の挑戦とハプニング ",
-            "moduleId": "n4-module-018"
-        },
-        "19": {
-            "title": "Day 19: 敬語と日常の動作 ",
-            "moduleId": "n4-module-019"
-        },
-        "20": {
-            "title": "Day 20: デートと感情 (데이트와 감정)",
-            "moduleId": "n4-module-020"
-        },
-        "21": {
-            "title": "Day 21: 新しい出会いと変化 (새로운 만남과 변화)",
-            "moduleId": "n4-module-021"
-        },
-        "22": {
-            "title": "Day 22: 出張と評価 (출장과 평가)",
-            "moduleId": "n4-module-022"
-        },
-        "23": {
-            "title": "Day 23: 予期せぬ再会 (예기치 못한 재회)",
-            "moduleId": "n4-module-023"
-        },
-        "24": {
-            "title": "Day 24: 初めての料理挑戦 (첫 요리 도전)",
-            "moduleId": "n4-module-024"
-        },
-        "25": {
-            "title": "Day 25: 夢に向かうアルバイト生活 (꿈을 향한 아르바이트 생활)",
-            "moduleId": "n4-module-025"
-        },
-        "26": {
-            "title": "Day 26: 週末のツーリングと出張 (주말 투어링과 출장)",
-            "moduleId": "n4-module-026"
-        },
-        "27": {
-            "title": "Day 27: 休日デートとホームパーティー (휴일 데이트와 홈 파티)",
-            "moduleId": "n4-module-027"
-        },
-        "28": {
-            "title": "Day 28: 特別な記念日とおもてなし (특별한 기념일과 환대)",
-            "moduleId": "n4-module-028"
-        }
+    "n4-module-003": {
+      "moduleId": "n4-module-003",
+      "level": "n4",
+      "title": "N4 모듈 003",
+      "moduleSeq": 3,
+      "vocabCount": 25
     },
-    "dayToModule": {
-        "1": "n4-module-001",
-        "2": "n4-module-002",
-        "3": "n4-module-003",
-        "4": "n4-module-004",
-        "5": "n4-module-005",
-        "6": "n4-module-006",
-        "7": "n4-module-007",
-        "8": "n4-module-008",
-        "9": "n4-module-009",
-        "10": "n4-module-010",
-        "11": "n4-module-011",
-        "12": "n4-module-012",
-        "13": "n4-module-013",
-        "14": "n4-module-014",
-        "15": "n4-module-015",
-        "16": "n4-module-016",
-        "17": "n4-module-017",
-        "18": "n4-module-018",
-        "19": "n4-module-019",
-        "20": "n4-module-020",
-        "21": "n4-module-021",
-        "22": "n4-module-022",
-        "23": "n4-module-023",
-        "24": "n4-module-024",
-        "25": "n4-module-025",
-        "26": "n4-module-026",
-        "27": "n4-module-027",
-        "28": "n4-module-028"
+    "n4-module-004": {
+      "moduleId": "n4-module-004",
+      "level": "n4",
+      "title": "N4 모듈 004",
+      "moduleSeq": 4,
+      "vocabCount": 25
     },
-    "moduleToDay": {
-        "n4-module-001": 1,
-        "n4-module-002": 2,
-        "n4-module-003": 3,
-        "n4-module-004": 4,
-        "n4-module-005": 5,
-        "n4-module-006": 6,
-        "n4-module-007": 7,
-        "n4-module-008": 8,
-        "n4-module-009": 9,
-        "n4-module-010": 10,
-        "n4-module-011": 11,
-        "n4-module-012": 12,
-        "n4-module-013": 13,
-        "n4-module-014": 14,
-        "n4-module-015": 15,
-        "n4-module-016": 16,
-        "n4-module-017": 17,
-        "n4-module-018": 18,
-        "n4-module-019": 19,
-        "n4-module-020": 20,
-        "n4-module-021": 21,
-        "n4-module-022": 22,
-        "n4-module-023": 23,
-        "n4-module-024": 24,
-        "n4-module-025": 25,
-        "n4-module-026": 26,
-        "n4-module-027": 27,
-        "n4-module-028": 28
+    "n4-module-005": {
+      "moduleId": "n4-module-005",
+      "level": "n4",
+      "title": "N4 모듈 005",
+      "moduleSeq": 5,
+      "vocabCount": 25
+    },
+    "n4-module-006": {
+      "moduleId": "n4-module-006",
+      "level": "n4",
+      "title": "N4 모듈 006",
+      "moduleSeq": 6,
+      "vocabCount": 25
+    },
+    "n4-module-007": {
+      "moduleId": "n4-module-007",
+      "level": "n4",
+      "title": "N4 모듈 007",
+      "moduleSeq": 7,
+      "vocabCount": 25
+    },
+    "n4-module-008": {
+      "moduleId": "n4-module-008",
+      "level": "n4",
+      "title": "N4 모듈 008",
+      "moduleSeq": 8,
+      "vocabCount": 25
+    },
+    "n4-module-009": {
+      "moduleId": "n4-module-009",
+      "level": "n4",
+      "title": "N4 모듈 009",
+      "moduleSeq": 9,
+      "vocabCount": 25
+    },
+    "n4-module-010": {
+      "moduleId": "n4-module-010",
+      "level": "n4",
+      "title": "N4 모듈 010",
+      "moduleSeq": 10,
+      "vocabCount": 25
+    },
+    "n4-module-011": {
+      "moduleId": "n4-module-011",
+      "level": "n4",
+      "title": "N4 모듈 011",
+      "moduleSeq": 11,
+      "vocabCount": 25
+    },
+    "n4-module-012": {
+      "moduleId": "n4-module-012",
+      "level": "n4",
+      "title": "N4 모듈 012",
+      "moduleSeq": 12,
+      "vocabCount": 25
+    },
+    "n4-module-013": {
+      "moduleId": "n4-module-013",
+      "level": "n4",
+      "title": "N4 모듈 013",
+      "moduleSeq": 13,
+      "vocabCount": 25
+    },
+    "n4-module-014": {
+      "moduleId": "n4-module-014",
+      "level": "n4",
+      "title": "N4 모듈 014",
+      "moduleSeq": 14,
+      "vocabCount": 25
+    },
+    "n4-module-015": {
+      "moduleId": "n4-module-015",
+      "level": "n4",
+      "title": "N4 모듈 015",
+      "moduleSeq": 15,
+      "vocabCount": 25
+    },
+    "n4-module-016": {
+      "moduleId": "n4-module-016",
+      "level": "n4",
+      "title": "N4 모듈 016",
+      "moduleSeq": 16,
+      "vocabCount": 25
+    },
+    "n4-module-017": {
+      "moduleId": "n4-module-017",
+      "level": "n4",
+      "title": "N4 모듈 017",
+      "moduleSeq": 17,
+      "vocabCount": 25
+    },
+    "n4-module-018": {
+      "moduleId": "n4-module-018",
+      "level": "n4",
+      "title": "N4 모듈 018",
+      "moduleSeq": 18,
+      "vocabCount": 25
+    },
+    "n4-module-019": {
+      "moduleId": "n4-module-019",
+      "level": "n4",
+      "title": "N4 모듈 019",
+      "moduleSeq": 19,
+      "vocabCount": 25
+    },
+    "n4-module-020": {
+      "moduleId": "n4-module-020",
+      "level": "n4",
+      "title": "N4 모듈 020",
+      "moduleSeq": 20,
+      "vocabCount": 25
+    },
+    "n4-module-021": {
+      "moduleId": "n4-module-021",
+      "level": "n4",
+      "title": "N4 모듈 021",
+      "moduleSeq": 21,
+      "vocabCount": 25
+    },
+    "n4-module-022": {
+      "moduleId": "n4-module-022",
+      "level": "n4",
+      "title": "N4 모듈 022",
+      "moduleSeq": 22,
+      "vocabCount": 25
+    },
+    "n4-module-023": {
+      "moduleId": "n4-module-023",
+      "level": "n4",
+      "title": "N4 모듈 023",
+      "moduleSeq": 23,
+      "vocabCount": 25
+    },
+    "n4-module-024": {
+      "moduleId": "n4-module-024",
+      "level": "n4",
+      "title": "N4 모듈 024",
+      "moduleSeq": 24,
+      "vocabCount": 25
+    },
+    "n4-module-025": {
+      "moduleId": "n4-module-025",
+      "level": "n4",
+      "title": "N4 모듈 025",
+      "moduleSeq": 25,
+      "vocabCount": 25
+    },
+    "n4-module-026": {
+      "moduleId": "n4-module-026",
+      "level": "n4",
+      "title": "N4 모듈 026",
+      "moduleSeq": 26,
+      "vocabCount": 25
+    },
+    "n4-module-027": {
+      "moduleId": "n4-module-027",
+      "level": "n4",
+      "title": "N4 모듈 027",
+      "moduleSeq": 27,
+      "vocabCount": 25
+    },
+    "n4-module-028": {
+      "moduleId": "n4-module-028",
+      "level": "n4",
+      "title": "N4 모듈 028",
+      "moduleSeq": 28,
+      "vocabCount": 25
+    },
+    "n4-module-029": {
+      "moduleId": "n4-module-029",
+      "level": "n4",
+      "title": "N4 모듈 029",
+      "moduleSeq": 29,
+      "vocabCount": 25
+    },
+    "n4-module-030": {
+      "moduleId": "n4-module-030",
+      "level": "n4",
+      "title": "N4 모듈 030",
+      "moduleSeq": 30,
+      "vocabCount": 25
+    },
+    "n4-module-031": {
+      "moduleId": "n4-module-031",
+      "level": "n4",
+      "title": "N4 모듈 031",
+      "moduleSeq": 31,
+      "vocabCount": 24
+    },
+    "n4-module-032": {
+      "moduleId": "n4-module-032",
+      "level": "n4",
+      "title": "N4 모듈 032",
+      "moduleSeq": 32,
+      "vocabCount": 24
+    },
+    "n4-module-033": {
+      "moduleId": "n4-module-033",
+      "level": "n4",
+      "title": "N4 모듈 033",
+      "moduleSeq": 33,
+      "vocabCount": 24
+    },
+    "n4-module-034": {
+      "moduleId": "n4-module-034",
+      "level": "n4",
+      "title": "N4 모듈 034",
+      "moduleSeq": 34,
+      "vocabCount": 24
+    },
+    "n4-module-035": {
+      "moduleId": "n4-module-035",
+      "level": "n4",
+      "title": "N4 모듈 035",
+      "moduleSeq": 35,
+      "vocabCount": 24
     }
+  },
+  "days": {},
+  "dayToModule": {},
+  "moduleToDay": {
+    "n4-module-001": 1,
+    "n4-module-002": 2,
+    "n4-module-003": 3,
+    "n4-module-004": 4,
+    "n4-module-005": 5,
+    "n4-module-006": 6,
+    "n4-module-007": 7,
+    "n4-module-008": 8,
+    "n4-module-009": 9,
+    "n4-module-010": 10,
+    "n4-module-011": 11,
+    "n4-module-012": 12,
+    "n4-module-013": 13,
+    "n4-module-014": 14,
+    "n4-module-015": 15,
+    "n4-module-016": 16,
+    "n4-module-017": 17,
+    "n4-module-018": 18,
+    "n4-module-019": 19,
+    "n4-module-020": 20,
+    "n4-module-021": 21,
+    "n4-module-022": 22,
+    "n4-module-023": 23,
+    "n4-module-024": 24,
+    "n4-module-025": 25,
+    "n4-module-026": 26,
+    "n4-module-027": 27,
+    "n4-module-028": 28,
+    "n4-module-029": 29,
+    "n4-module-030": 30,
+    "n4-module-031": 31,
+    "n4-module-032": 32,
+    "n4-module-033": 33,
+    "n4-module-034": 34,
+    "n4-module-035": 35
+  },
+  "moduleToFile": {
+    "n4-module-001": "module-vocab/n4-module-001",
+    "n4-module-002": "module-vocab/n4-module-002",
+    "n4-module-003": "module-vocab/n4-module-003",
+    "n4-module-004": "module-vocab/n4-module-004",
+    "n4-module-005": "module-vocab/n4-module-005",
+    "n4-module-006": "module-vocab/n4-module-006",
+    "n4-module-007": "module-vocab/n4-module-007",
+    "n4-module-008": "module-vocab/n4-module-008",
+    "n4-module-009": "module-vocab/n4-module-009",
+    "n4-module-010": "module-vocab/n4-module-010",
+    "n4-module-011": "module-vocab/n4-module-011",
+    "n4-module-012": "module-vocab/n4-module-012",
+    "n4-module-013": "module-vocab/n4-module-013",
+    "n4-module-014": "module-vocab/n4-module-014",
+    "n4-module-015": "module-vocab/n4-module-015",
+    "n4-module-016": "module-vocab/n4-module-016",
+    "n4-module-017": "module-vocab/n4-module-017",
+    "n4-module-018": "module-vocab/n4-module-018",
+    "n4-module-019": "module-vocab/n4-module-019",
+    "n4-module-020": "module-vocab/n4-module-020",
+    "n4-module-021": "module-vocab/n4-module-021",
+    "n4-module-022": "module-vocab/n4-module-022",
+    "n4-module-023": "module-vocab/n4-module-023",
+    "n4-module-024": "module-vocab/n4-module-024",
+    "n4-module-025": "module-vocab/n4-module-025",
+    "n4-module-026": "module-vocab/n4-module-026",
+    "n4-module-027": "module-vocab/n4-module-027",
+    "n4-module-028": "module-vocab/n4-module-028",
+    "n4-module-029": "module-vocab/n4-module-029",
+    "n4-module-030": "module-vocab/n4-module-030",
+    "n4-module-031": "module-vocab/n4-module-031",
+    "n4-module-032": "module-vocab/n4-module-032",
+    "n4-module-033": "module-vocab/n4-module-033",
+    "n4-module-034": "module-vocab/n4-module-034",
+    "n4-module-035": "module-vocab/n4-module-035"
+  }
 }

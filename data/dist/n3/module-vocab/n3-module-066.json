@@ -1,0 +1,198 @@
+{
+  "title": "N3 모듈 066",
+  "moduleId": "n3-module-066",
+  "vocab": [
+    {
+      "word": "インスタント",
+      "read": "いんすたんと",
+      "mean": "인스턴트",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "インターネット",
+      "read": "いんたーねっと",
+      "mean": "인터넷",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "インタビュー",
+      "read": "いんたびゅー",
+      "mean": "인터뷰",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "ウイルス",
+      "read": "ういるす",
+      "mean": "바이러스",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "エネルギー",
+      "read": "えねるぎー",
+      "mean": "에너지",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "エンジン",
+      "read": "えんじん",
+      "mean": "엔진",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "オーバー",
+      "read": "おーばー",
+      "mean": "오버, 초과",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "オフィス",
+      "read": "おふぃす",
+      "mean": "오피스, 사무실",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "オペラ",
+      "read": "おぺら",
+      "mean": "오페라",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カード",
+      "read": "かーど",
+      "mean": "카드",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カーナビ",
+      "read": "かーなび",
+      "mean": "내비게이션",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カーブ",
+      "read": "かーぶ",
+      "mean": "커브",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カーペット",
+      "read": "かーぺっと",
+      "mean": "카펫",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カタログ",
+      "read": "かたろぐ",
+      "mean": "카탈로그",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カバー",
+      "read": "かばー",
+      "mean": "커버, 덮개",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カラー",
+      "read": "からー",
+      "mean": "컬러",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カロリー",
+      "read": "かろりー",
+      "mean": "칼로리",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "カンニング",
+      "read": "かんにんぐ",
+      "mean": "컨닝",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "キャンセル",
+      "read": "きゃんせる",
+      "mean": "취소",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "キャンパス",
+      "read": "きゃんぱす",
+      "mean": "캠퍼스",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "キャンプ",
+      "read": "きゃんぷ",
+      "mean": "캠핑",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "クイズ",
+      "read": "くいず",
+      "mean": "퀴즈",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "クーラー",
+      "read": "くーらー",
+      "mean": "에어컨, 쿨러",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    },
+    {
+      "word": "グラウンド",
+      "read": "ぐらうんど",
+      "mean": "운동장, 그라운드",
+      "tags": [],
+      "moduleId": "n3-module-066",
+      "legacyDay": 27
+    }
+  ]
+}

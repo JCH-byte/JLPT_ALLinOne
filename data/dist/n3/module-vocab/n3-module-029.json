@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 029",
+  "moduleId": "n3-module-029",
+  "vocab": [
+    {
+      "word": "伝言",
+      "read": "でんごん",
+      "mean": "전언, 메시지",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "展示",
+      "read": "てんじ",
+      "mean": "전시",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "電車代",
+      "read": "でんしゃだい",
+      "mean": "전차비",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "伝染",
+      "read": "でんせん",
+      "mean": "전염",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "電柱",
+      "read": "でんちゅう",
+      "mean": "전주, 전봇대",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "電話代",
+      "read": "でんわだい",
+      "mean": "전화비",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "問い合わせ",
+      "read": "といあわせ",
+      "mean": "문의",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "答案",
+      "read": "とうあん",
+      "mean": "답안",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "統計",
+      "read": "とうけい",
+      "mean": "통계",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "動作",
+      "read": "どうさ",
+      "mean": "동작",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "当日",
+      "read": "とうじつ",
+      "mean": "당일",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "登場",
+      "read": "とうじょう",
+      "mean": "등장",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "当然",
+      "read": "とうぜん",
+      "mean": "당연",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "灯台",
+      "read": "とうだい",
+      "mean": "등대",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "到着",
+      "read": "とうちゃく",
+      "mean": "도착",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "東南アジア",
+      "read": "とうなんアジア",
+      "mean": "동남아시아",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "東洋",
+      "read": "とうよう",
+      "mean": "동양",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "道路",
+      "read": "どうろ",
+      "mean": "도로",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "遠回り",
+      "read": "とおまわり",
+      "mean": "멀리 돌아감",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "毒",
+      "read": "どく",
+      "mean": "독",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "読書",
+      "read": "どくしょ",
+      "mean": "독서",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "特色",
+      "read": "とくしょく",
+      "mean": "특색",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "独身",
+      "read": "どくしん",
+      "mean": "독신",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "特売",
+      "read": "とくばい",
+      "mean": "특매, 세일",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    },
+    {
+      "word": "独立",
+      "read": "どくりつ",
+      "mean": "독립",
+      "tags": [],
+      "moduleId": "n3-module-029",
+      "legacyDay": 11
+    }
+  ]
+}

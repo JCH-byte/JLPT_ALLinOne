@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 078",
+  "moduleId": "n1-module-078",
+  "vocab": [
+    {
+      "word": "適宜な",
+      "read": "てきぎな",
+      "mean": "적의, 적당한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "適正な",
+      "read": "てきせいな",
+      "mean": "적정한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "手頃な",
+      "read": "てごろな",
+      "mean": "알맞은",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "鈍感な",
+      "read": "どんかんな",
+      "mean": "둔감한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "滑らかな",
+      "read": "なめらかな",
+      "mean": "매끄러운",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "入念な",
+      "read": "にゅうねんな",
+      "mean": "꼼꼼한, 정성 들인",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "にわかな",
+      "read": "にわかな",
+      "mean": "갑작스러운",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "のどかな",
+      "read": "のどかな",
+      "mean": "한가로운",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "排他的な",
+      "read": "はいたてきな",
+      "mean": "배타적인",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "華やかな",
+      "read": "はなやかな",
+      "mean": "화려한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "はるかな",
+      "read": "はるかな",
+      "mean": "아득한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "煩雑な",
+      "read": "はんざつな",
+      "mean": "번잡한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "半端な",
+      "read": "はんぱな",
+      "mean": "어중간한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "悲惨な",
+      "read": "ひさんな",
+      "mean": "비참한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "密かな",
+      "read": "ひそかな",
+      "mean": "은밀한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "ひたむきな",
+      "read": "ひたむきな",
+      "mean": "한결같은",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "否定的な",
+      "read": "ひていてきな",
+      "mean": "부정적인",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "批判的な",
+      "read": "ひはんてきな",
+      "mean": "비판적인",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "貧弱な",
+      "read": "ひんじゃくな",
+      "mean": "빈약한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "頻繁な",
+      "read": "ひんぱんな",
+      "mean": "빈번한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "不可欠な",
+      "read": "ふかけつな",
+      "mean": "불가결한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "不機嫌な",
+      "read": "ふきげんな",
+      "mean": "불쾌한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "不吉な",
+      "read": "ふきつな",
+      "mean": "불길한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "不自然な",
+      "read": "ふしぜんな",
+      "mean": "부자연스러운",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    },
+    {
+      "word": "不十分な",
+      "read": "ふじゅうぶんな",
+      "mean": "불충분한",
+      "tags": [],
+      "moduleId": "n1-module-078",
+      "legacyDay": 23
+    }
+  ]
+}

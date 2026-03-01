@@ -1,0 +1,206 @@
+{
+  "title": "N1 모듈 088",
+  "moduleId": "n1-module-088",
+  "vocab": [
+    {
+      "word": "カット",
+      "read": "かっと",
+      "mean": "컷, 자름",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "カテゴリー",
+      "read": "かてごりー",
+      "mean": "카테고리, 범주",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "カルテ",
+      "read": "かるて",
+      "mean": "진료 기록 카드",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "キャッチ",
+      "read": "きゃっち",
+      "mean": "캐치, 포착",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "キャラクター",
+      "read": "きゃらくたー",
+      "mean": "캐릭터, 성격",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "キャリア",
+      "read": "きゃりあ",
+      "mean": "경력",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "クレーム",
+      "read": "くれーむ",
+      "mean": "클레임, 불만",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "グローバル",
+      "read": "ぐろーばる",
+      "mean": "글로벌",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "ケア",
+      "read": "けあ",
+      "mean": "케어, 돌봄",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コスト",
+      "read": "こすと",
+      "mean": "비용",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コマーシャル",
+      "read": "こまーしゃる",
+      "mean": "상업 방송, 광고",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コメント",
+      "read": "こめんと",
+      "mean": "코멘트",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コンスタント",
+      "read": "こんすたんと",
+      "mean": "일정함, 꾸준함",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コンテスト",
+      "read": "こんてすと",
+      "mean": "콘테스트",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コンテンツ",
+      "read": "こんてんつ",
+      "mean": "콘텐츠",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コントラスト",
+      "read": "こんとらすと",
+      "mean": "대조",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コントロール",
+      "read": "こんとろーる",
+      "mean": "컨트롤, 제어",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コンパクト",
+      "read": "こんぱくと",
+      "mean": "콤팩트",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コンパス",
+      "read": "こんぱす",
+      "mean": "나침반, 제도기",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "コンプレックス",
+      "read": "こんぷれっくす",
+      "mean": "콤플렉스, 열등감",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "サポート",
+      "read": "さぽーと",
+      "mean": "서포트, 지원",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "サイクル",
+      "read": "さいくる",
+      "mean": "사이클",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "シェア",
+      "read": "しぇあ",
+      "mean": "셰어, 점유율",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "システム",
+      "read": "しすてむ",
+      "mean": "시스템",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    },
+    {
+      "word": "シチュエーション",
+      "read": "しちゅえーしょん",
+      "mean": "시추에이션, 상황",
+      "tags": [],
+      "moduleId": "n1-module-088",
+      "legacyDay": 27
+    }
+  ]
+}

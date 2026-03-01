@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 002",
+  "moduleId": "n3-module-002",
+  "vocab": [
+    {
+      "word": "息",
+      "read": "いき",
+      "mean": "숨",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "意義",
+      "read": "いぎ",
+      "mean": "의의",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "生き物",
+      "read": "いきもの",
+      "mean": "생물",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "育児",
+      "read": "いくじ",
+      "mean": "육아",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "以後",
+      "read": "いご",
+      "mean": "이후",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "以降",
+      "read": "いこう",
+      "mean": "이후",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "意思",
+      "read": "いし",
+      "mean": "의사(생각)",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "医師",
+      "read": "いし",
+      "mean": "의사(직업)",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "意志",
+      "read": "いし",
+      "mean": "의지",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "異常",
+      "read": "いじょう",
+      "mean": "이상",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "以前",
+      "read": "いぜん",
+      "mean": "이전",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "板",
+      "read": "いた",
+      "mean": "판, 판자",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "痛み",
+      "read": "いたみ",
+      "mean": "아픔, 통증",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "位置",
+      "read": "いち",
+      "mean": "위치",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "市場",
+      "read": "いちば",
+      "mean": "시장",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一部",
+      "read": "いちぶ",
+      "mean": "일부",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一流",
+      "read": "いちりゅう",
+      "mean": "일류",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一生",
+      "read": "いっしょう",
+      "mean": "일생, 평생",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "一方通行",
+      "read": "いっぽうつうこう",
+      "mean": "일방통행",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "移動",
+      "read": "いどう",
+      "mean": "이동",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "いとこ",
+      "read": "いとこ",
+      "mean": "사촌",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "居眠り",
+      "read": "いねむり",
+      "mean": "조는 것, 졸음",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "医療",
+      "read": "いりょう",
+      "mean": "의료",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "岩",
+      "read": "いわ",
+      "mean": "바위",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    },
+    {
+      "word": "印象",
+      "read": "いんしょう",
+      "mean": "인상",
+      "tags": [],
+      "moduleId": "n3-module-002",
+      "legacyDay": 1
+    }
+  ]
+}

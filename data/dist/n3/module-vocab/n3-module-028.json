@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 028",
+  "moduleId": "n3-module-028",
+  "vocab": [
+    {
+      "word": "通帳",
+      "read": "つうちょう",
+      "mean": "통장",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "通訳",
+      "read": "つうやく",
+      "mean": "통역",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "疲れ",
+      "read": "つかれ",
+      "mean": "피로",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "月日",
+      "read": "つきひ",
+      "mean": "월일, 세월",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "土",
+      "read": "つち",
+      "mean": "흙",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "続き",
+      "read": "つづき",
+      "mean": "계속, 이어짐",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "包み",
+      "read": "つつみ",
+      "mean": "포장, 꾸러미",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "出会い",
+      "read": "であい",
+      "mean": "만남",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "提案",
+      "read": "ていあん",
+      "mean": "제안",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "定員",
+      "read": "ていいん",
+      "mean": "정원(인원수)",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "低下",
+      "read": "ていか",
+      "mean": "저하",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "定期",
+      "read": "ていき",
+      "mean": "정기",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "定期券",
+      "read": "ていきけん",
+      "mean": "정기권",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "停車",
+      "read": "ていしゃ",
+      "mean": "정차",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "提出",
+      "read": "ていしゅつ",
+      "mean": "제출",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "停電",
+      "read": "ていでん",
+      "mean": "정전",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "出入り",
+      "read": "でいり",
+      "mean": "출입",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "出来事",
+      "read": "できごと",
+      "mean": "사건, 일",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "手首",
+      "read": "てくび",
+      "mean": "손목",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 10
+    },
+    {
+      "word": "手品",
+      "read": "てじな",
+      "mean": "요술, 마술",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 11
+    },
+    {
+      "word": "手伝い",
+      "read": "てつだい",
+      "mean": "도움, 심부름",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 11
+    },
+    {
+      "word": "鉄道",
+      "read": "てつどう",
+      "mean": "철도",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 11
+    },
+    {
+      "word": "電球",
+      "read": "でんきゅう",
+      "mean": "전구",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 11
+    },
+    {
+      "word": "電気料金",
+      "read": "でんきりょうきん",
+      "mean": "전기요금",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 11
+    },
+    {
+      "word": "天国",
+      "read": "てんごく",
+      "mean": "천국",
+      "tags": [],
+      "moduleId": "n3-module-028",
+      "legacyDay": 11
+    }
+  ]
+}

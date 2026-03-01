@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 060",
+  "moduleId": "n2-module-060",
+  "vocab": [
+    {
+      "word": "占める",
+      "read": "しめる",
+      "mean": "차지하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "しゃぶる",
+      "read": "しゃぶる",
+      "mean": "빨다 (입으로)",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "生じる",
+      "read": "しょうじる",
+      "mean": "생기다, 발생하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "透き通る",
+      "read": "すきとおる",
+      "mean": "비쳐 보이다, 투명하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "救う",
+      "read": "すくう",
+      "mean": "구하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "優れる",
+      "read": "すぐれる",
+      "mean": "뛰어나다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "済ます",
+      "read": "すます",
+      "mean": "끝내다, 때우다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "ずらす",
+      "read": "ずらす",
+      "mean": "비켜 놓다, 엇갈리게 하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "すれ違う",
+      "read": "すれちがう",
+      "mean": "스쳐 지나가다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 19
+    },
+    {
+      "word": "背負う",
+      "read": "せおう",
+      "mean": "짊어지다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "接する",
+      "read": "せっする",
+      "mean": "접하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "迫る",
+      "read": "せまる",
+      "mean": "다가오다, 강요하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "攻める",
+      "read": "せめる",
+      "mean": "공격하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "責める",
+      "read": "せめる",
+      "mean": "비난하다, 책망하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "属する",
+      "read": "ぞくする",
+      "mean": "속하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "備える",
+      "read": "そなえる",
+      "mean": "갖추다, 대비하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "剃る",
+      "read": "そる",
+      "mean": "깎다 (면도)",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "逸れる",
+      "read": "それる",
+      "mean": "빗나가다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "対する",
+      "read": "たいする",
+      "mean": "대하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "耕す",
+      "read": "たがやす",
+      "mean": "밭을 갈다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "炊く",
+      "read": "たく",
+      "mean": "밥을 짓다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "蓄える",
+      "read": "たくわえる",
+      "mean": "저축하다, 비축하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "尋ねる",
+      "read": "たずねる",
+      "mean": "묻다, 방문하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "達する",
+      "read": "たっする",
+      "mean": "달하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    },
+    {
+      "word": "例える",
+      "read": "たとえる",
+      "mean": "비유하다",
+      "tags": [],
+      "moduleId": "n2-module-060",
+      "legacyDay": 20
+    }
+  ]
+}

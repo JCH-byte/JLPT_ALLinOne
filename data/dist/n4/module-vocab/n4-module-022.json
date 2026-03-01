@@ -1,0 +1,206 @@
+{
+  "title": "N4 모듈 022",
+  "moduleId": "n4-module-022",
+  "vocab": [
+    {
+      "word": "くれる",
+      "read": "くれる",
+      "mean": "주다 (남이 나에게)",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "暮れる",
+      "read": "くれる",
+      "mean": "저물다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "ござる",
+      "read": "ござる",
+      "mean": "있다 (정중)",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "込む",
+      "read": "こむ",
+      "mean": "붐비다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "ご覧になる",
+      "read": "ごらんになる",
+      "mean": "보시다 (존경)",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "壊す",
+      "read": "こわす",
+      "mean": "부수다, 고장내다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "壊れる",
+      "read": "こわれる",
+      "mean": "부서지다, 고장나다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "探す",
+      "read": "さがす",
+      "mean": "찾다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "下がる",
+      "read": "さがる",
+      "mean": "내려가다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "下げる",
+      "read": "さげる",
+      "mean": "내리다, 낮추다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "差し上げる",
+      "read": "さしあげる",
+      "mean": "드리다 (겸양)",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "さす",
+      "read": "さす",
+      "mean": "가리키다, (우산을) 쓰다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "騒ぐ",
+      "read": "さわぐ",
+      "mean": "떠들다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "触る",
+      "read": "さわる",
+      "mean": "만지다, 손대다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "叱る",
+      "read": "しかる",
+      "mean": "꾸짖다, 야단치다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 15
+    },
+    {
+      "word": "締める",
+      "read": "しめる",
+      "mean": "매다, 조이다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "知らせる",
+      "read": "しらせる",
+      "mean": "알리다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "調べる",
+      "read": "しらべる",
+      "mean": "조사하다, 알아보다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "知る",
+      "read": "しる",
+      "mean": "알다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "吸う",
+      "read": "すう",
+      "mean": "들이마시다, 피우다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "過ぎる",
+      "read": "すぎる",
+      "mean": "지나다, 통과하다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "すく",
+      "read": "すく",
+      "mean": "비다, (배가) 고프다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "進む",
+      "read": "すすむ",
+      "mean": "나아가다, 진행하다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "滑る",
+      "read": "すべる",
+      "mean": "미끄러지다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    },
+    {
+      "word": "倒れる",
+      "read": "たおれる",
+      "mean": "쓰러지다",
+      "tags": [],
+      "moduleId": "n4-module-022",
+      "legacyDay": 16
+    }
+  ]
+}

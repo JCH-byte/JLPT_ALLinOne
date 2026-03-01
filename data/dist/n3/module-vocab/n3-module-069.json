@@ -1,0 +1,198 @@
+{
+  "title": "N3 모듈 069",
+  "moduleId": "n3-module-069",
+  "vocab": [
+    {
+      "word": "バイト",
+      "read": "ばいと",
+      "mean": "알바 (아르바이트)",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "バケツ",
+      "read": "ばけつ",
+      "mean": "양동이",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "パス",
+      "read": "ぱす",
+      "mean": "패스, 통과",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "パスポート",
+      "read": "ぱすぽーと",
+      "mean": "여권",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "バック",
+      "read": "ばっく",
+      "mean": "뒤, 후진 (또는 가방)",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ハンドバッグ",
+      "read": "はんどばっぐ",
+      "mean": "핸드백",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "パンフレット",
+      "read": "ぱんふれっと",
+      "mean": "팜플렛",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ビタミン",
+      "read": "びたみん",
+      "mean": "비타민",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ビデオ",
+      "read": "びでお",
+      "mean": "비디오",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ビニール",
+      "read": "びにーる",
+      "mean": "비닐",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ヒント",
+      "read": "ひんと",
+      "mean": "힌트",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ファイル",
+      "read": "ふぁいる",
+      "mean": "파일",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ファストフード",
+      "read": "ふぁすとふーど",
+      "mean": "패스트푸드",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ファスナー",
+      "read": "ふぁすなー",
+      "mean": "지퍼",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ファックス",
+      "read": "ふぁっくす",
+      "mean": "팩스",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ブラウス",
+      "read": "ぶらうす",
+      "mean": "블라우스",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ブラシ",
+      "read": "ぶらし",
+      "mean": "브러시, 솔",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "プラス",
+      "read": "ぷらす",
+      "mean": "플러스",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ブレーキ",
+      "read": "ぶれーき",
+      "mean": "브레이크",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ベスト",
+      "read": "べすと",
+      "mean": "베스트, 조끼",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ベルト",
+      "read": "べると",
+      "mean": "벨트",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ボーナス",
+      "read": "ぼーなす",
+      "mean": "보너스",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ホームページ",
+      "read": "ほーむぺーじ",
+      "mean": "홈페이지",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    },
+    {
+      "word": "ポスター",
+      "read": "ぽすたー",
+      "mean": "포스터",
+      "tags": [],
+      "moduleId": "n3-module-069",
+      "legacyDay": 28
+    }
+  ]
+}

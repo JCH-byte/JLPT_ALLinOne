@@ -1,0 +1,206 @@
+{
+  "title": "N2 모듈 015",
+  "moduleId": "n2-module-015",
+  "vocab": [
+    {
+      "word": "謙遜",
+      "read": "けんそん",
+      "mean": "겸손",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "建築",
+      "read": "けんちく",
+      "mean": "건축",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "限定",
+      "read": "げんてい",
+      "mean": "한정",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "検討",
+      "read": "けんとう",
+      "mean": "검토",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "見当",
+      "read": "けんとう",
+      "mean": "가늠, 짐작",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "現場",
+      "read": "げんば",
+      "mean": "현장",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "憲法",
+      "read": "けんぽう",
+      "mean": "헌법",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "原油",
+      "read": "げんゆ",
+      "mean": "원유",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "権利",
+      "read": "けんり",
+      "mean": "권리",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "原理",
+      "read": "げんり",
+      "mean": "원리",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "権力",
+      "read": "けんりょく",
+      "mean": "권력",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "講演",
+      "read": "こうえん",
+      "mean": "강연",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "硬貨",
+      "read": "こうか",
+      "mean": "경화, 동전",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "後悔",
+      "read": "こうかい",
+      "mean": "후회",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "後期",
+      "read": "こうき",
+      "mean": "후기",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "好奇心",
+      "read": "こうきしん",
+      "mean": "호기심",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "公共",
+      "read": "こうきょう",
+      "mean": "공공",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "航空",
+      "read": "こうくう",
+      "mean": "항공",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "光景",
+      "read": "こうけい",
+      "mean": "광경",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "工芸",
+      "read": "こうげい",
+      "mean": "공예",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "後継者",
+      "read": "こうけいしゃ",
+      "mean": "후계자",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "攻擊",
+      "read": "こうげき",
+      "mean": "공격",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "交差",
+      "read": "こうさ",
+      "mean": "교차",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "耕作",
+      "read": "こうさく",
+      "mean": "경작",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    },
+    {
+      "word": "講師",
+      "read": "こうし",
+      "mean": "강사",
+      "tags": [],
+      "moduleId": "n2-module-015",
+      "legacyDay": 5
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 030",
+  "moduleId": "n3-module-030",
+  "vocab": [
+    {
+      "word": "床の間",
+      "read": "とこのま",
+      "mean": "토코노마(일본식 방의 장식 공간)",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "登山",
+      "read": "とざん",
+      "mean": "등산",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "都市",
+      "read": "とし",
+      "mean": "도시",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "年上",
+      "read": "としうえ",
+      "mean": "연상",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "土地",
+      "read": "とち",
+      "mean": "토지, 땅",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "徒歩",
+      "read": "とほ",
+      "mean": "도보",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "友",
+      "read": "とも",
+      "mean": "벗, 친구",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "虎",
+      "read": "とら",
+      "mean": "호랑이",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "取引",
+      "read": "とりひき",
+      "mean": "거래",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "努力",
+      "read": "どりょく",
+      "mean": "노력",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "泥",
+      "read": "どろ",
+      "mean": "진흙",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "名",
+      "read": "な",
+      "mean": "이름",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "内科",
+      "read": "ないか",
+      "mean": "내과",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "内緒",
+      "read": "ないしょ",
+      "mean": "비밀",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "内線",
+      "read": "ないせん",
+      "mean": "내선",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "内容",
+      "read": "ないよう",
+      "mean": "내용",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "仲",
+      "read": "なか",
+      "mean": "사이, 관계",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "仲直り",
+      "read": "なかなおり",
+      "mean": "화해",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "中指",
+      "read": "なかゆび",
+      "mean": "중지(가운뎃손가락)",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "仲良し",
+      "read": "なかよし",
+      "mean": "단짝, 사이좋음",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "流れ",
+      "read": "ながれ",
+      "mean": "흐름",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "納得",
+      "read": "なっとく",
+      "mean": "납득",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "斜め",
+      "read": "ななめ",
+      "mean": "기울기, 경사, 사선",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "生",
+      "read": "なま",
+      "mean": "날것, 생",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    },
+    {
+      "word": "波",
+      "read": "なみ",
+      "mean": "파도",
+      "tags": [],
+      "moduleId": "n3-module-030",
+      "legacyDay": 11
+    }
+  ]
+}

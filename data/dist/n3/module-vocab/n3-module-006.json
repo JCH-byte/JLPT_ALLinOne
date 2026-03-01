@@ -1,0 +1,206 @@
+{
+  "title": "N3 모듈 006",
+  "moduleId": "n3-module-006",
+  "vocab": [
+    {
+      "word": "価格",
+      "read": "かかく",
+      "mean": "가격",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "化学",
+      "read": "かがく",
+      "mean": "화학",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "係り",
+      "read": "かかり",
+      "mean": "담당, 담당자",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "書留",
+      "read": "かきとめ",
+      "mean": "등기",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "書き取り",
+      "read": "かきとり",
+      "mean": "받아쓰기",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "家具",
+      "read": "かぐ",
+      "mean": "가구",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "各駅停車",
+      "read": "かくえきていしゃ",
+      "mean": "각 역 정차",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "覚悟",
+      "read": "かくご",
+      "mean": "각오",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "学者",
+      "read": "がくしゃ",
+      "mean": "학자",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "学習",
+      "read": "がくしゅう",
+      "mean": "학습",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "拡大",
+      "read": "かくだい",
+      "mean": "확대",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "各地",
+      "read": "かくち",
+      "mean": "각지",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 2
+    },
+    {
+      "word": "確認",
+      "read": "かくにん",
+      "mean": "확인",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "学費",
+      "read": "がくひ",
+      "mean": "학비",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "学部",
+      "read": "がくぶ",
+      "mean": "학부",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "学問",
+      "read": "がくもん",
+      "mean": "학문",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "格安",
+      "read": "かくやす",
+      "mean": "격안(값이 쌈)",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "学力",
+      "read": "がくりょく",
+      "mean": "학력",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "かけ算",
+      "read": "かけざん",
+      "mean": "곱셈",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "過去",
+      "read": "かこ",
+      "mean": "과거",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "火災",
+      "read": "かさい",
+      "mean": "화재",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "貸し出し",
+      "read": "かしだし",
+      "mean": "대출, 빌려줌",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "下線",
+      "read": "かせん",
+      "mean": "밑줄",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "河川",
+      "read": "かせん",
+      "mean": "하천",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    },
+    {
+      "word": "肩",
+      "read": "かた",
+      "mean": "어깨",
+      "tags": [],
+      "moduleId": "n3-module-006",
+      "legacyDay": 3
+    }
+  ]
+}
