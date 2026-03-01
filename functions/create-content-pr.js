@@ -25,6 +25,11 @@ function computeDataHash(payload) {
     return crypto.createHash('sha256').update(jsonText).digest('hex');
 }
 
+function computeModuleDataHash(payload) {
+    const jsonText = `${JSON.stringify({ moduleId: payload.moduleId, story: payload.story, analysis: payload.analysis, quiz: payload.quiz }, null, 2)}\n`;
+    return crypto.createHash('sha256').update(jsonText).digest('hex');
+}
+
 function validatePayload(payload) {
     const required = ['level', 'day', 'version', 'dataHash', 'data', 'itemSource'];
     const missing = required.filter(key => payload[key] === undefined || payload[key] === null);
@@ -47,6 +52,53 @@ function validatePayload(payload) {
     if (recalculated !== payload.dataHash) {
         throw new Error(`dataHash mismatch: expected ${recalculated}, received ${payload.dataHash}`);
     }
+}
+
+function validateModulePayload(payload) {
+    if (!/^n[1-5]$/.test(String(payload.level))) {
+        throw new Error('level must be one of n1..n5');
+    }
+    if (typeof payload.moduleId !== 'string' || !payload.moduleId.trim()) {
+        throw new Error('moduleId must be a non-empty string');
+    }
+    if (!payload.dataHash) {
+        throw new Error('Missing field: dataHash');
+    }
+    if (payload.story == null && !Array.isArray(payload.quiz)) {
+        throw new Error('At least story or quiz must be provided');
+    }
+    const recalculated = computeModuleDataHash(payload);
+    if (recalculated !== payload.dataHash) {
+        throw new Error(`dataHash mismatch: expected ${recalculated}, received ${payload.dataHash}`);
+    }
+}
+
+function updateModuleVocabFile(repoRoot, payload) {
+    const filePath = path.join(repoRoot, 'data', 'dist', payload.level, 'module-vocab', `${payload.moduleId}.json`);
+    let existing = {};
+    if (fs.existsSync(filePath)) {
+        existing = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    }
+    const merged = { ...existing, title: existing.title || payload.moduleId, moduleId: payload.moduleId };
+    if (payload.story != null) merged.story = payload.story;
+    if (Array.isArray(payload.analysis)) merged.analysis = payload.analysis;
+    if (Array.isArray(payload.quiz)) merged.quiz = payload.quiz;
+    fs.writeFileSync(filePath, `${JSON.stringify(merged, null, 2)}\n`, 'utf8');
+    return filePath;
+}
+
+function buildModulePrBody(payload, branchName) {
+    return [
+        `Automated content sync for **${payload.level.toUpperCase()} Module ${payload.moduleId}**.`,
+        '',
+        '## Admin context',
+        `- author: ${payload.author || 'unknown'}`,
+        `- changeSummary: ${payload.changeSummary || 'N/A'}`,
+        '',
+        '## PR metadata',
+        `- dataHash: ${payload.dataHash}`,
+        `- sourceBranch: ${branchName}`
+    ].join('\n');
 }
 
 function summarizeItemChanges(previousItems, nextItems) {
@@ -139,7 +191,13 @@ function buildPrBody(payload, branchName, changeSummary) {
 async function createContentPr(req, res) {
     try {
         const payload = req.body || {};
-        validatePayload(payload);
+        const isModuleMode = payload.moduleId && !payload.day;
+
+        if (isModuleMode) {
+            validateModulePayload(payload);
+        } else {
+            validatePayload(payload);
+        }
 
         const repoRoot = process.env.REPO_ROOT || process.cwd();
         const owner = process.env.GITHUB_OWNER;
@@ -151,27 +209,47 @@ async function createContentPr(req, res) {
             throw new Error('Missing env: GITHUB_OWNER, GITHUB_REPO, GITHUB_TOKEN are required');
         }
 
-        const branchName = `automation/${payload.level}-day-${String(payload.day).padStart(2, '0')}-v${payload.version}-${payload.dataHash.slice(0, 8)}`;
-
         run('git', ['checkout', baseBranch], repoRoot);
         run('git', ['pull', '--ff-only', 'origin', baseBranch], repoRoot);
-        run('git', ['checkout', '-b', branchName], repoRoot);
 
-        updateSourceDay(repoRoot, payload);
-        const itemChanges = updateSourceItems(repoRoot, payload);
-        run('node', ['scripts/build-data.js'], repoRoot);
+        let branchName, title, body;
 
-        run('git', ['add', `data/src/${payload.level}.json`, `data/src/${payload.level}.items.json`, `data/dist/${payload.level}`], repoRoot);
-        run('git', ['commit', '-m', `chore(data): update ${payload.level} day ${payload.day} (v${payload.version})`], repoRoot, {
-            GIT_AUTHOR_NAME: payload.author || 'content-admin-bot',
-            GIT_AUTHOR_EMAIL: 'content-admin-bot@example.com',
-            GIT_COMMITTER_NAME: 'content-admin-bot',
-            GIT_COMMITTER_EMAIL: 'content-admin-bot@example.com'
-        });
-        run('git', ['push', '-u', 'origin', branchName], repoRoot);
+        if (isModuleMode) {
+            branchName = `automation/${payload.level}-module-${payload.moduleId}-${payload.dataHash.slice(0, 8)}`;
+            run('git', ['checkout', '-b', branchName], repoRoot);
 
-        const title = `chore(data): ${payload.level.toUpperCase()} day ${payload.day} update (v${payload.version})`;
-        const body = buildPrBody(payload, branchName, itemChanges);
+            const vocabFilePath = updateModuleVocabFile(repoRoot, payload);
+            run('git', ['add', vocabFilePath], repoRoot);
+            run('git', ['commit', '-m', `chore(data): update ${payload.level} ${payload.moduleId} story/quiz`], repoRoot, {
+                GIT_AUTHOR_NAME: payload.author || 'content-admin-bot',
+                GIT_AUTHOR_EMAIL: 'content-admin-bot@example.com',
+                GIT_COMMITTER_NAME: 'content-admin-bot',
+                GIT_COMMITTER_EMAIL: 'content-admin-bot@example.com'
+            });
+            run('git', ['push', '-u', 'origin', branchName], repoRoot);
+
+            title = `chore(data): ${payload.level.toUpperCase()} ${payload.moduleId} story/quiz update`;
+            body = buildModulePrBody(payload, branchName);
+        } else {
+            branchName = `automation/${payload.level}-day-${String(payload.day).padStart(2, '0')}-v${payload.version}-${payload.dataHash.slice(0, 8)}`;
+            run('git', ['checkout', '-b', branchName], repoRoot);
+
+            updateSourceDay(repoRoot, payload);
+            const itemChanges = updateSourceItems(repoRoot, payload);
+            run('node', ['scripts/build-data.js'], repoRoot);
+
+            run('git', ['add', `data/src/${payload.level}.json`, `data/src/${payload.level}.items.json`, `data/dist/${payload.level}`], repoRoot);
+            run('git', ['commit', '-m', `chore(data): update ${payload.level} day ${payload.day} (v${payload.version})`], repoRoot, {
+                GIT_AUTHOR_NAME: payload.author || 'content-admin-bot',
+                GIT_AUTHOR_EMAIL: 'content-admin-bot@example.com',
+                GIT_COMMITTER_NAME: 'content-admin-bot',
+                GIT_COMMITTER_EMAIL: 'content-admin-bot@example.com'
+            });
+            run('git', ['push', '-u', 'origin', branchName], repoRoot);
+
+            title = `chore(data): ${payload.level.toUpperCase()} day ${payload.day} update (v${payload.version})`;
+            body = buildPrBody(payload, branchName, itemChanges);
+        }
 
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/pulls`, {
             method: 'POST',
@@ -209,6 +287,9 @@ async function createContentPr(req, res) {
 module.exports = {
     createContentPr,
     validatePayload,
+    validateModulePayload,
     computeDataHash,
-    updateSourceDay
+    computeModuleDataHash,
+    updateSourceDay,
+    updateModuleVocabFile
 };

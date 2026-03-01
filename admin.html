@@ -174,6 +174,30 @@
     <div style="margin-top:20px; text-align:right;">
         <button onclick="clearPreview()" style="border:none; background:none; text-decoration:underline; cursor:pointer; color:#999;">임시 데이터 초기화</button>
     </div>
+
+    <hr style="margin-top:36px;">
+    <h2>모듈 스토리/퀴즈 업로드 (N4~N1)</h2>
+    <p>NotebookLM에서 생성한 스토리·분석·퀴즈 JSON을 붙여넣고 PR을 생성합니다.<br>
+       레벨은 위 컨트롤 패널의 레벨 선택과 동일하게 사용됩니다.</p>
+
+    <div class="control-panel">
+        <label><strong>모듈 ID:</strong></label>
+        <input id="module-id-input" type="text" placeholder="예: n4-module-001" style="width:200px;">
+    </div>
+
+    <h3 style="margin-top:16px;">NotebookLM 생성 JSON 입력</h3>
+    <textarea id="module-json-input" placeholder='{
+  "story": "오늘은 ...",
+  "analysis": [{"sentence": "...", "breakdown": "..."}],
+  "quiz": [
+    {"q": "問題文", "opt": ["A","B","C","D"], "ans": 0, "comment": ""}
+  ]
+}'></textarea>
+
+    <div style="margin-top:16px;">
+        <button class="btn btn-approve" onclick="handleModuleContentUpload()">🚀 모듈 컨텐츠 PR 생성</button>
+    </div>
+    <pre id="module-upload-result" class="compare-result">모듈 업로드 결과가 여기에 표시됩니다.</pre>
 </div>
 
 <script src="js/admin-controller.js"></script>
