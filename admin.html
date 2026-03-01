@@ -2,17 +2,16 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>JLPT Data Manager</title>
+    <title>JLPT 관리자 도구</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
 <div class="container">
-    <h1>🛠️ JLPT 데이터 관리자 (Versioned)</h1>
-    <p>기본 저장은 localStorage이며, 설정 시 중앙 저장소(Firestore/Supabase)로 dual-write 됩니다.</p>
+    <h1>🛠️ JLPT 관리자 도구</h1>
 
     <div class="control-panel">
-        <label><strong>1. 작업할 레벨 선택:</strong></label>
+        <label><strong>1. 레벨 선택:</strong></label>
         <select id="level-select">
             <option value="n5">N5 (기초 - 노랑)</option>
             <option value="n4">N4 (초급 - 초록)</option>
@@ -21,191 +20,121 @@
             <option value="n1">N1 (고급 - 빨강)</option>
         </select>
 
-        <label style="margin-left:12px;"><strong>Day:</strong></label>
-        <input id="day-input" type="number" min="1" value="1">
-    </div>
-
-    <div class="control-panel">
-        <label><strong>작성자:</strong></label>
-        <input id="author-input" type="text" placeholder="예: kim.dev">
-
-        <label style="margin-left:12px;"><strong>변경 요약:</strong></label>
-        <input id="summary-input" type="text" placeholder="예: Day 3 quiz 오타 수정">
-    </div>
-
-
-    <div class="control-panel">
-        <label><strong>Git 연결 메타:</strong></label>
-        <input id="source-branch-input" type="text" placeholder="예: feature/content-day9">
-        <input id="pr-number-input" type="number" min="0" placeholder="PR 번호(선택)">
-        <input id="commit-sha-input" type="text" placeholder="commit SHA(선택)">
-    </div>
-
-    <div class="control-panel">
-        <label><strong>스토리지 모드:</strong></label>
-        <select id="storage-mode-select">
-            <option value="dual-write" selected>dual-write (local + central)</option>
-            <option value="local-only">local-only</option>
-            <option value="central-only">central-only</option>
+        <label style="margin-left:12px;"><strong>모듈:</strong></label>
+        <select id="module-select">
+            <option value="">로딩 중...</option>
         </select>
-        <label style="margin-left:12px;"><strong>중앙 Provider:</strong></label>
-        <select id="storage-provider-select">
-            <option value="none" selected>none</option>
-            <option value="firestore">Firestore</option>
-            <option value="supabase">Supabase</option>
-        </select>
-        <label style="margin-left:12px;"><input id="disable-local-only-checkbox" type="checkbox"> local-only 비활성화</label>
-    </div>
-    <div class="control-panel">
-        <label><strong>중앙 스토리지 설정(JSON):</strong></label>
-        <input id="storage-config-input" type="text" placeholder='예: {"projectId":"...","apiKey":"..."} 또는 {"url":"...","anonKey":"..."}'>
     </div>
 
-    <div class="control-panel">
-        <label><strong>PR 자동화 엔드포인트:</strong></label>
-        <input id="pr-endpoint-input" type="text" placeholder="예: https://<region>-<project>.cloudfunctions.net/createContentPr 또는 /api/create-content-pr">
-    </div>
-
-    <div class="control-panel">
-        <label><strong>필수 필드 검증:</strong></label>
-        <select id="required-field-mode">
-            <option value="strict" selected>누락 시 저장 차단</option>
-            <option value="warn">누락 시 강한 경고 후 진행</option>
-        </select>
-
-        <label style="margin-left:12px;"><strong>배열 병합 정책:</strong></label>
-        <span class="array-policy-group">
-            analysis
-            <select id="policy-analysis">
-                <option value="replace" selected>replace</option>
-                <option value="upsert">upsert</option>
-            </select>
-        </span>
-        <span class="array-policy-group">
-            vocab
-            <select id="policy-vocab">
-                <option value="replace" selected>replace</option>
-                <option value="upsert">upsert</option>
-            </select>
-        </span>
-        <span class="array-policy-group">
-            quiz
-            <select id="policy-quiz">
-                <option value="replace" selected>replace</option>
-                <option value="upsert">upsert</option>
-            </select>
-        </span>
-    </div>
-
-    <h3>2. 입력 파이프라인 (AI Intake -> Normalize -> Validate -> Draft Save)</h3>
+    <h3>2. 입력 파이프라인 (Intake → Normalize → Validate)</h3>
     <div class="pipeline-grid">
-        <div class="pipeline-step"><strong>AI Intake</strong><span id="status-intake">대기</span><button class="btn btn-step" onclick="runAiIntake()">1) Intake</button></div>
+        <div class="pipeline-step"><strong>Intake</strong><span id="status-intake">대기</span><button class="btn btn-step" onclick="runAiIntake()">1) Intake</button></div>
         <div class="pipeline-step"><strong>Normalize</strong><span id="status-normalize">대기</span><button class="btn btn-step" onclick="runNormalize()">2) Normalize</button></div>
         <div class="pipeline-step"><strong>Validate</strong><span id="status-validate">대기</span><button class="btn btn-step" onclick="runValidate()">3) Validate</button></div>
-        <div class="pipeline-step"><strong>Draft Save</strong><span id="status-save">대기</span></div>
     </div>
 
-    <h3>3. AI JSON 데이터 입력</h3>
+    <h3>3. JSON 데이터 입력</h3>
     <textarea id="json-input" placeholder='{
-  "items": [
-    {
-      "id": "v-001",
-      "word": "準備",
-      "read": "じゅんび",
-      "mean": "준비",
-      "tags": ["noun"],
-      "dayHint": "legacy-day-3"
-    },
-    {
-      "id": "v-002",
-      "word": "合図",
-      "read": "あいず",
-      "mean": "신호",
-      "dayOverride": 7
-    }
+  "title": "N4 Module 5: 일상 표현",
+  "story": "今日は...",
+  "analysis": [
+    {"sentence": "今日は忙しい。", "breakdown": "今日(오늘) は(은) 忙しい(바쁘다)"}
+  ],
+  "vocab": [
+    {"id": "v-001", "word": "準備", "read": "じゅんび", "mean": "준비", "tags": ["noun"]}
+  ],
+  "quiz": [
+    {"q": "「準備」의 뜻은?", "opt": ["준비", "정리", "확인", "연습"], "ans": 0, "comment": ""}
   ]
 }'></textarea>
 
-    <h3 style="margin-top:24px;">4. Normalize 결과 미리보기</h3>
+    <h3 style="margin-top:24px;">4. Normalize 결과</h3>
     <pre id="normalized-preview" class="compare-result">Normalize 결과가 여기에 표시됩니다.</pre>
 
-    <h3 style="margin-top:24px;">5. Day Preview</h3>
-    <pre id="day-preview" class="compare-result">Normalize 완료 시 day 배치 결과가 표시됩니다.</pre>
-
-    <h3 style="margin-top:24px;">6. Validate 결과</h3>
+    <h3 style="margin-top:24px;">5. Validate 결과</h3>
     <pre id="validation-result" class="compare-result">Validate 단계를 실행하세요.</pre>
 
-    <div style="margin-top:20px;">
-        <button class="btn btn-preview" onclick="savePreview(false)">💾 draft 저장(덮어쓰기)</button>
-        <button class="btn btn-merge" onclick="savePreview(true)">🔗 draft 저장(병합)</button>
-        <button class="btn btn-download" onclick="downloadFile()">📥 src patch 다운로드</button>
-        <button class="btn btn-approve" onclick="handleFinalExport()">🚀 최종 반영(bundle zip)</button>
-        <button class="btn btn-merge" onclick="handleCreatePullRequest()">🪄 PR 생성</button>
-        <button class="btn" onclick="downloadLegacyJsFile()">🧩 레거시 JS 내보내기</button>
+    <h3 style="margin-top:30px;">6. Firebase 업로드</h3>
+    <div class="control-panel">
+        <span id="firebase-auth-status">Firebase 초기화 중...</span>
+        <button class="btn" id="firebase-login-btn" style="margin-left:12px;">로딩 중...</button>
     </div>
-
-    <h3 style="margin-top:30px;">7. 버전 히스토리</h3>
-    <ul id="history-list" class="history-list"></ul>
-
-    <div class="history-actions">
-        <select id="history-select"></select>
-        <button class="btn btn-approve" onclick="approveSelectedVersion()">✅ 선택 버전 approved 확정</button>
-        <button class="btn btn-restore" onclick="restoreSelectedVersion()">♻️ 선택 버전으로 draft 복원</button>
+    <div style="margin-top:12px;">
+        <button class="btn btn-approve" onclick="handleFirebaseUpload()">🚀 Firestore에 업로드</button>
     </div>
-
-    <h3 style="margin-top:24px;">8. 버전 비교</h3>
-    <div class="history-actions">
-        <select id="compare-left"></select>
-        <span>vs</span>
-        <select id="compare-right"></select>
-        <button class="btn btn-merge" onclick="compareVersions()">🔍 비교</button>
-    </div>
-    <pre id="compare-result" class="compare-result">비교할 버전을 선택하세요.</pre>
-
-    <h3 style="margin-top:24px;">9. 저장 결과 Diff 요약</h3>
-    <pre id="save-diff-result" class="compare-result">저장 후 추가/삭제/변경 요약이 표시됩니다.</pre>
-
-    <h3 style="margin-top:24px;">10. 반영 배포 로그(manifest)</h3>
-    <ul id="manifest-log-list" class="history-list"></ul>
-    <pre id="deployment-report" class="compare-result">최종 반영 전 체크리스트 결과가 표시됩니다.</pre>
-    <pre id="pr-result" class="compare-result">PR 생성 결과가 여기에 표시됩니다.</pre>
-    <pre id="pr-status-panel" class="compare-result">PR 상태: 생성 이력이 없습니다.</pre>
+    <pre id="upload-result" class="compare-result">업로드 결과가 여기에 표시됩니다.</pre>
 
     <div style="margin-top:20px; text-align:right;">
-        <button onclick="clearPreview()" style="border:none; background:none; text-decoration:underline; cursor:pointer; color:#999;">임시 데이터 초기화</button>
+        <button onclick="clearPreview()" style="border:none; background:none; text-decoration:underline; cursor:pointer; color:#999;">입력 초기화</button>
     </div>
-
-    <hr style="margin-top:36px;">
-    <h2>모듈 스토리/퀴즈 업로드 (N4~N1)</h2>
-    <p>NotebookLM에서 생성한 스토리·분석·퀴즈 JSON을 붙여넣고 PR을 생성합니다.<br>
-       레벨은 위 컨트롤 패널의 레벨 선택과 동일하게 사용됩니다.</p>
-
-    <div class="control-panel">
-        <label><strong>GitHub Token:</strong></label>
-        <input id="gh-token-input" type="password" placeholder="ghp_xxxxxxxxxxxx" style="width:260px;">
-        <label style="margin-left:12px;"><strong>Owner/Repo:</strong></label>
-        <input id="gh-repo-input" type="text" placeholder="JCH-byte/JLPT_ALLinOne" style="width:220px;">
-    </div>
-
-    <div class="control-panel">
-        <label><strong>모듈 ID:</strong></label>
-        <input id="module-id-input" type="text" placeholder="예: n4-module-001" style="width:200px;">
-    </div>
-
-    <h3 style="margin-top:16px;">NotebookLM 생성 JSON 입력</h3>
-    <textarea id="module-json-input" placeholder='{
-  "story": "오늘은 ...",
-  "analysis": [{"sentence": "...", "breakdown": "..."}],
-  "quiz": [
-    {"q": "問題文", "opt": ["A","B","C","D"], "ans": 0, "comment": ""}
-  ]
-}'></textarea>
-
-    <div style="margin-top:16px;">
-        <button class="btn btn-approve" onclick="handleModuleContentUpload()">🚀 모듈 컨텐츠 PR 생성</button>
-    </div>
-    <pre id="module-upload-result" class="compare-result">모듈 업로드 결과가 여기에 표시됩니다.</pre>
 </div>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAuth, onAuthStateChanged, signInWithPopup, GoogleAuthProvider, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+    import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyDPKCmfvA_uepqu4MA8tzendnGRy-H6ZgI",
+        authDomain: "jlpt-project-01.firebaseapp.com",
+        projectId: "jlpt-project-01",
+        storageBucket: "jlpt-project-01.firebasestorage.app",
+        messagingSenderId: "828971360762",
+        appId: "1:828971360762:web:5a9e9fa6948be5cdd20443"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    window.AdminFirebase = {
+        user: null,
+        login: async () => {
+            const provider = new GoogleAuthProvider();
+            try {
+                await signInWithPopup(auth, provider);
+            } catch (e) {
+                if (e.code === 'auth/unauthorized-domain') {
+                    alert(`[도메인 승인 필요] Firebase Console에 도메인을 추가하세요:\n${window.location.hostname}`);
+                } else {
+                    alert('로그인 실패: ' + e.message);
+                }
+            }
+        },
+        logout: async () => {
+            if (!confirm('로그아웃 하시겠습니까?')) return;
+            await signOut(auth);
+        },
+        uploadModule: async (level, moduleId, data) => {
+            const user = auth.currentUser;
+            if (!user) throw new Error('로그인이 필요합니다.');
+            const docId = `${level}_${moduleId}`;
+            await setDoc(doc(db, 'jlpt_modules', docId), {
+                level, moduleId, ...data,
+                updatedAt: new Date().toISOString(),
+                uploadedBy: user.email
+            });
+        }
+    };
+
+    onAuthStateChanged(auth, (user) => {
+        window.AdminFirebase.user = user;
+        const statusEl = document.getElementById('firebase-auth-status');
+        const loginBtn = document.getElementById('firebase-login-btn');
+        if (statusEl) {
+            statusEl.textContent = user ? `● 로그인: ${user.email}` : '○ 로그인 필요';
+        }
+        if (loginBtn) {
+            if (user) {
+                loginBtn.textContent = '로그아웃';
+                loginBtn.onclick = () => window.AdminFirebase.logout();
+            } else {
+                loginBtn.textContent = 'Google 로그인';
+                loginBtn.onclick = () => window.AdminFirebase.login();
+            }
+        }
+    });
+</script>
 
 <script src="js/admin-controller.js"></script>
 </body>
