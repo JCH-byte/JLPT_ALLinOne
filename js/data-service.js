@@ -338,6 +338,33 @@ function loadViewerData(level, params, callback) {
                 fetchJsonWithFallback(
                     `data/dist/${level}/${moduleFilePath}.json`, null,
                     (fileData) => {
+                        // story가 있으면 (어드민 업로드 완료) → 그대로 사용
+                        if (fileData?.story) {
+                            const data = normalizeModuleVocabData(level, preferredModule, fileData);
+                            callback({
+                                data,
+                                day: null,
+                                moduleId: preferredModule,
+                                moduleMeta: indexData?.modules?.[preferredModule] || null,
+                                indexData
+                            });
+                            return;
+                        }
+                        // story 없으면 → 대응 day 파일로 fallback (N5와 동일 경로)
+                        const dayNum = indexData?.moduleToDay?.[preferredModule];
+                        if (dayNum) {
+                            loadDayData(level, String(dayNum), (data) => {
+                                callback({
+                                    data,
+                                    day: String(dayNum),
+                                    moduleId: preferredModule,
+                                    moduleMeta: indexData?.modules?.[preferredModule] || null,
+                                    indexData
+                                });
+                            });
+                            return;
+                        }
+                        // day도 없으면 vocab만이라도 표시
                         const data = normalizeModuleVocabData(level, preferredModule, fileData);
                         callback({
                             data,
