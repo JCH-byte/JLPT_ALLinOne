@@ -346,7 +346,8 @@ function loadViewerData(level, params, callback) {
                             moduleMeta: indexData?.modules?.[preferredModule] || null,
                             indexData
                         });
-                    }
+                    },
+                    { cache: 'no-cache' }
                 );
                 return;
             }

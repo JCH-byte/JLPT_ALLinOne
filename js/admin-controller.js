@@ -230,6 +230,38 @@ async function handleGitHubUpload() {
             throw new Error(`GitHub API 오류: ${err.message}`);
         }
 
+        // index.json의 모듈 title 갱신
+        const newTitle = intakeState.normalizedData.title;
+        if (newTitle) {
+            try {
+                const indexPath = `data/dist/${level}/index.json`;
+                const idxGetRes = await fetch(`${apiBase}/contents/${indexPath}?ref=main`, { headers });
+                if (idxGetRes.ok) {
+                    const idxExisting = await idxGetRes.json();
+                    const idxDecoded = new TextDecoder().decode(
+                        Uint8Array.from(atob(idxExisting.content.replace(/\n/g, '')), c => c.charCodeAt(0))
+                    );
+                    const idxJson = JSON.parse(idxDecoded);
+                    if (idxJson.modules?.[moduleId]) {
+                        idxJson.modules[moduleId].title = newTitle;
+                        const idxContent = btoa(unescape(encodeURIComponent(JSON.stringify(idxJson, null, 2) + '\n')));
+                        await fetch(`${apiBase}/contents/${indexPath}`, {
+                            method: 'PUT',
+                            headers,
+                            body: JSON.stringify({
+                                message: `content: update ${level} ${moduleId} title in index`,
+                                content: idxContent,
+                                branch: 'main',
+                                sha: idxExisting.sha
+                            })
+                        });
+                    }
+                }
+            } catch (idxErr) {
+                console.warn('index.json title 갱신 실패 (무시됨):', idxErr);
+            }
+        }
+
         if (resultEl) resultEl.textContent = `✓ 업로드 완료: ${filePath}\n커밋 시각: ${new Date().toLocaleString()}\nGitHub Pages 배포까지 약 1-2분 소요됩니다.`;
     } catch (e) {
         if (resultEl) resultEl.textContent = `업로드 실패: ${e.message}`;
