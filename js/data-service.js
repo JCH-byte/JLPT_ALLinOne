@@ -335,31 +335,19 @@ function loadViewerData(level, params, callback) {
             // module-vocab 파일이 있으면 직접 로드 (N4~N1 모듈 시스템)
             const moduleFilePath = indexData?.moduleToFile?.[preferredModule];
             if (moduleFilePath) {
-                const deliverData = (rawData) => {
-                    const data = normalizeModuleVocabData(level, preferredModule, rawData);
-                    callback({
-                        data,
-                        day: null,
-                        moduleId: preferredModule,
-                        moduleMeta: indexData?.modules?.[preferredModule] || null,
-                        indexData
-                    });
-                };
-
-                const fetchFromStatic = () => {
-                    fetchJsonWithFallback(
-                        `data/dist/${level}/${moduleFilePath}.json`, null,
-                        deliverData
-                    );
-                };
-
-                if (window.FirebaseBridge?.getModuleContent) {
-                    window.FirebaseBridge.getModuleContent(level, preferredModule)
-                        .then(firestoreData => firestoreData ? deliverData(firestoreData) : fetchFromStatic())
-                        .catch(fetchFromStatic);
-                } else {
-                    fetchFromStatic();
-                }
+                fetchJsonWithFallback(
+                    `data/dist/${level}/${moduleFilePath}.json`, null,
+                    (fileData) => {
+                        const data = normalizeModuleVocabData(level, preferredModule, fileData);
+                        callback({
+                            data,
+                            day: null,
+                            moduleId: preferredModule,
+                            moduleMeta: indexData?.modules?.[preferredModule] || null,
+                            indexData
+                        });
+                    }
+                );
                 return;
             }
 

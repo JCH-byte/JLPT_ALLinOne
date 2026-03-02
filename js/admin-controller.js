@@ -176,23 +176,61 @@ async function loadModuleList(level) {
     }
 }
 
-// ── Firebase Upload ───────────────────────────────────────────────────────────
+// ── GitHub Upload ─────────────────────────────────────────────────────────────
 
-async function handleFirebaseUpload() {
+function saveGitHubSettings() {
+    const token = document.getElementById('github-token').value.trim();
+    const repo = document.getElementById('github-repo').value.trim();
+    if (token) localStorage.setItem('gh_token', token);
+    if (repo) localStorage.setItem('gh_repo', repo);
+    alert('저장 완료');
+}
+
+async function handleGitHubUpload() {
     const resultEl = document.getElementById('upload-result');
     try {
         if (!intakeState.normalizedData) throw new Error('Intake → Normalize 단계를 먼저 완료하세요.');
         if (!intakeState.validated) throw new Error('Validate 통과 후에만 업로드할 수 있습니다.');
-        if (!window.AdminFirebase) throw new Error('Firebase가 초기화되지 않았습니다. 페이지를 새로고침하세요.');
-        if (!window.AdminFirebase.user) throw new Error('Firebase 로그인이 필요합니다.');
+
+        const token = document.getElementById('github-token').value.trim() || localStorage.getItem('gh_token');
+        const ownerRepo = document.getElementById('github-repo').value.trim() || localStorage.getItem('gh_repo');
+        if (!token) throw new Error('GitHub Token을 입력하세요.');
+        if (!ownerRepo) throw new Error('Owner/Repo를 입력하세요. (예: username/repo)');
 
         const level = document.getElementById('level-select').value;
         const moduleId = document.getElementById('module-select').value;
         if (!moduleId) throw new Error('모듈을 선택하세요.');
 
-        if (resultEl) resultEl.textContent = `업로드 중... (${level}_${moduleId})`;
-        await window.AdminFirebase.uploadModule(level, moduleId, intakeState.normalizedData);
-        if (resultEl) resultEl.textContent = `✓ 업로드 완료: ${level}_${moduleId}\n업로드 시각: ${new Date().toLocaleString()}`;
+        const filePath = `data/dist/${level}/module-vocab/${moduleId}.json`;
+        if (resultEl) resultEl.textContent = `업로드 중... (${filePath})`;
+
+        const apiBase = `https://api.github.com/repos/${ownerRepo}`;
+        const headers = { Authorization: `token ${token}`, 'Content-Type': 'application/json' };
+
+        let sha;
+        const getRes = await fetch(`${apiBase}/contents/${filePath}?ref=main`, { headers });
+        if (getRes.ok) {
+            const existing = await getRes.json();
+            sha = existing.sha;
+        } else if (getRes.status !== 404) {
+            throw new Error(`파일 조회 실패: ${getRes.status}`);
+        }
+
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(intakeState.normalizedData, null, 2) + '\n')));
+        const body = { message: `content: update ${level} ${moduleId}`, content, branch: 'main', ...(sha ? { sha } : {}) };
+
+        const putRes = await fetch(`${apiBase}/contents/${filePath}`, {
+            method: 'PUT',
+            headers,
+            body: JSON.stringify(body)
+        });
+
+        if (!putRes.ok) {
+            const err = await putRes.json();
+            throw new Error(`GitHub API 오류: ${err.message}`);
+        }
+
+        if (resultEl) resultEl.textContent = `✓ 업로드 완료: ${filePath}\n커밋 시각: ${new Date().toLocaleString()}\nGitHub Pages 배포까지 약 1-2분 소요됩니다.`;
     } catch (e) {
         if (resultEl) resultEl.textContent = `업로드 실패: ${e.message}`;
         alert(`업로드 실패: ${e.message}`);
@@ -218,4 +256,9 @@ window.addEventListener('DOMContentLoaded', () => {
     levelSelect.addEventListener('change', () => loadModuleList(levelSelect.value));
     loadModuleList(levelSelect.value);
     resetPipelineState();
+
+    const savedToken = localStorage.getItem('gh_token');
+    const savedRepo = localStorage.getItem('gh_repo');
+    if (savedToken) document.getElementById('github-token').value = savedToken;
+    if (savedRepo) document.getElementById('github-repo').value = savedRepo;
 });

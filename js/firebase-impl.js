@@ -280,18 +280,6 @@ window.FirebaseBridge = {
         }
     },
 
-    // 앱 콘텐츠 로딩: jlpt_modules/{level}_{moduleId} 문서 조회
-    // 데이터가 없으면 null 반환 → 앱은 정적 파일로 fallback
-    getModuleContent: async (level, moduleId) => {
-        try {
-            const docRef = doc(db, 'jlpt_modules', `${level}_${moduleId}`);
-            const snap = await getDoc(docRef);
-            return snap.exists() ? snap.data() : null;
-        } catch (e) {
-            console.warn('[getModuleContent] Firestore 읽기 실패, 정적 파일 사용:', e);
-            return null;
-        }
-    }
 };
 
 // Auth State Observer
