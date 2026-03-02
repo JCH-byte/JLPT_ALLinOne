@@ -1,206 +1,427 @@
 {
-  "title": "N4 모듈 002",
-  "moduleId": "n4-module-002",
+  "title": "日常生活と外出 (일상생활과 외출)",
   "vocab": [
     {
+      "id": "v1",
       "word": "色紙",
       "read": "いろがみ",
       "mean": "색종이",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v2",
       "word": "飲酒",
       "read": "いんしゅ",
       "mean": "음주",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v3",
       "word": "受付",
       "read": "うけつけ",
       "mean": "접수처",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v4",
       "word": "うそ",
       "read": "うそ",
       "mean": "거짓말",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v5",
       "word": "内",
       "read": "うち",
       "mean": "안, 속",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v6",
       "word": "裏",
       "read": "うら",
       "mean": "뒤, 뒷면",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v7",
       "word": "売り場",
       "read": "うりば",
       "mean": "매장",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v8",
       "word": "運",
       "read": "うん",
       "mean": "운",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v9",
       "word": "運転",
       "read": "うんてん",
       "mean": "운전",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v10",
       "word": "運転手",
       "read": "うんてんしゅ",
       "mean": "운전기사",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v11",
       "word": "運動会",
       "read": "うんどうかい",
       "mean": "운동회",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v12",
       "word": "英会話",
       "read": "えいかいわ",
       "mean": "영어 회화",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v13",
       "word": "映画館",
       "read": "えいがかん",
       "mean": "영화관",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v14",
       "word": "営業",
       "read": "えいぎょう",
       "mean": "영업",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v15",
       "word": "駅員",
       "read": "えきいん",
       "mean": "역무원",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v16",
       "word": "枝",
       "read": "えだ",
       "mean": "가지",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 1
+      "tags": []
     },
     {
+      "id": "v17",
       "word": "遠慮",
       "read": "えんりょ",
       "mean": "사양, 거절",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v18",
       "word": "横断歩道",
       "read": "おうだんほどう",
       "mean": "횡단보도",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v19",
       "word": "大雨",
       "read": "おおあめ",
       "mean": "큰비, 폭우",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v20",
       "word": "大雪",
       "read": "おおゆき",
       "mean": "폭설",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v21",
       "word": "おかげ",
       "read": "おかげ",
       "mean": "덕분",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v22",
       "word": "億",
       "read": "おく",
       "mean": "억",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v23",
       "word": "奥様",
       "read": "おくさま",
       "mean": "사모님",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v24",
       "word": "屋上",
       "read": "おくじょう",
       "mean": "옥상",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "v25",
       "word": "贈り物",
       "read": "おくりもの",
       "mean": "선물",
-      "tags": [],
-      "moduleId": "n4-module-002",
-      "legacyDay": 2
+      "tags": []
+    }
+  ],
+  "story": "<h3>Scene 1. 映画館への道 (영화관으로 가는 길)</h3>\n<p><ruby>映画館<rt>えいがかん</rt></ruby>へ行く<ruby>ために<rt>ために</rt></ruby>、駅を出ました。</p>\n<p>道がわからなかったので、<ruby>駅員<rt>えきいん</rt></ruby>さんに聞く<ruby>ことになりました<rt>ことになりました</rt></ruby>。</p>\n<p>「あの<ruby>横断歩道<rt>おうだんほどう</rt></ruby>を渡ってください」と教えてくれました。</p>\n<p>バスの<ruby>運転手<rt>うんてんしゅ</rt></ruby>さんは、安全に<ruby>運転<rt>うんてん</rt></ruby>しています。</p>\n<p>親切な人たちの<ruby>おかげ<rt>おかげ</rt></ruby>で、迷わずに着きました。</p>\n\n<h3>Scene 2. デパートの売り場で (백화점 매장에서)</h3>\n<p>デパートの<ruby>営業<rt>えいぎょう</rt></ruby>時間に、プレゼントの<ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>へ行きました。</p>\n<p>先生の<ruby>奥様<rt>おくさま</rt></ruby>への<ruby>贈<rt>おく</rt></ruby>り<ruby>物<rt>もの</rt></ruby>を選ぶ<ruby>ためです<rt>ためです</rt></ruby>。</p>\n<p>「<ruby>遠慮<rt>えんりょ</rt></ruby>しないで受け取ってください」と言うつもりです。</p>\n<p>綺麗な<ruby>色紙<rt>いろがみ</rt></ruby>で包んでもらう<ruby>ことになりました<rt>ことになりました</rt></ruby>。</p>\n<p>この会社は、一<ruby>億<rt>おく</rt></ruby>円以上の利益がある<ruby>みたいです<rt>みたいです</rt></ruby>。</p>\n\n<h3>Scene 3. 天気と予定 (날씨와 예정)</h3>\n<p>昨日は<ruby>大雨<rt>おおあめ</rt></ruby>で、今日は<ruby>大雪<rt>おおゆき</rt></ruby>が降っています。</p>\n<p>そのため、明日の<ruby>運動会<rt>うんどうかい</rt></ruby>は中止になる<ruby>みたいです<rt>みたいです</rt></ruby>。</p>\n<p>風が強くて、木の<ruby>枝<rt>えだ</rt></ruby>が折れそうです。</p>\n<p>ビルの<ruby>屋上<rt>おくじょう</rt></ruby>も、雪で真っ白になっています。</p>\n<p>寒いので、家の<ruby>内<rt>うち</rt></ruby>で休む<ruby>ことにします<rt>ことにします</rt></ruby>。</p>\n\n<h3>Scene 4. 日常の出来事 (일상의 일들)</h3>\n<p>病院の<ruby>受付<rt>うけつけ</rt></ruby>で、健康<ruby>について<rt>について</rt></ruby>相談しました。</p>\n<p>医者は「<ruby>飲酒<rt>いんしゅ</rt></ruby>は控えてください」と言いました。</p>\n<p>それは<ruby>うそ<rt>うそ</rt></ruby>ではなく、本当のアドバイスです。</p>\n<p>建物の<ruby>裏<rt>うら</rt></ruby>で、<ruby>英会話<rt>えいかいわ</rt></ruby>のクラスが開かれています。</p>\n<p>今日は<ruby>運<rt>うん</rt></ruby>が良くて、見学者<ruby>として<rt>として</rt></ruby>参加できました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>映画館<rt>えいがかん</rt></ruby>へ行く<ruby>ために<rt>ために</rt></ruby>、駅を出ました。",
+      "trans": "영화관에 가기 위해서 역을 나왔습니다.",
+      "grammar": "〜ために (목적)",
+      "tags": [
+        "映画館"
+      ]
+    },
+    {
+      "sent": "道がわからなかったので、<ruby>駅員<rt>えきいん</rt></ruby>さんに聞く<ruby>ことになりました<rt>ことになりました</rt></ruby>。",
+      "trans": "길을 몰랐기 때문에 역무원에게 묻게 되었습니다.",
+      "grammar": "〜ことになる (결정, 예정)",
+      "tags": [
+        "駅員"
+      ]
+    },
+    {
+      "sent": "「あの<ruby>横断歩道<rt>おうだんほどう</rt></ruby>を渡ってください」と教えてくれました。",
+      "trans": "'저 횡단보도를 건너주세요'라고 가르쳐 주었습니다.",
+      "grammar": "〜てくれる (~해 주다)",
+      "tags": [
+        "横断歩道"
+      ]
+    },
+    {
+      "sent": "バスの<ruby>運転手<rt>うんてんしゅ</rt></ruby>さんは、安全に<ruby>運転<rt>うんてん</rt></ruby>しています。",
+      "trans": "버스 운전기사는 안전하게 운전하고 있습니다.",
+      "grammar": "〜ている (진행, 상태)",
+      "tags": [
+        "運転手",
+        "運転"
+      ]
+    },
+    {
+      "sent": "親切な人たちの<ruby>おかげ<rt>おかげ</rt></ruby>で、迷わずに着きました。",
+      "trans": "친절한 사람들 덕분에 헤매지 않고 도착했습니다.",
+      "grammar": "〜のおかげで (~덕분에)",
+      "tags": [
+        "おかげ"
+      ]
+    },
+    {
+      "sent": "デパートの<ruby>営業<rt>えいぎょう</rt></ruby>時間に、プレゼントの<ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>へ行きました。",
+      "trans": "백화점 영업시간에 선물 매장에 갔습니다.",
+      "grammar": "명사+の",
+      "tags": [
+        "営業",
+        "売り場"
+      ]
+    },
+    {
+      "sent": "先生の<ruby>奥様<rt>おくさま</rt></ruby>への<ruby>贈<rt>おく</rt></ruby>り<ruby>物<rt>もの</rt></ruby>を選ぶ<ruby>ためです<rt>ためです</rt></ruby>。",
+      "trans": "선생님의 사모님께 드릴 선물을 고르기 위해서입니다.",
+      "grammar": "〜ために (목적)",
+      "tags": [
+        "奥様",
+        "贈り物"
+      ]
+    },
+    {
+      "sent": "「<ruby>遠慮<rt>えんりょ</rt></ruby>しないで受け取ってください」と言うつもりです。",
+      "trans": "'사양하지 말고 받아 주세요'라고 말할 생각입니다.",
+      "grammar": "〜ないで (~하지 않고)",
+      "tags": [
+        "遠慮"
+      ]
+    },
+    {
+      "sent": "綺麗な<ruby>色紙<rt>いろがみ</rt></ruby>で包んでもらう<ruby>ことになりました<rt>ことになりました</rt></ruby>。",
+      "trans": "예쁜 색종이로 포장받게 되었습니다.",
+      "grammar": "〜てもらう, 〜ことになる",
+      "tags": [
+        "色紙"
+      ]
+    },
+    {
+      "sent": "この会社は、一<ruby>億<rt>おく</rt></ruby>円以上の利益がある<ruby>みたいです<rt>みたいです</rt></ruby>。",
+      "trans": "이 회사는 1억 엔 이상의 이익이 있는 것 같습니다.",
+      "grammar": "〜みたいだ (~인 것 같다)",
+      "tags": [
+        "億"
+      ]
+    },
+    {
+      "sent": "そのため、明日の<ruby>運動会<rt>うんどうかい</rt></ruby>は中止になる<ruby>みたいです<rt>みたいです</rt></ruby>。",
+      "trans": "그 때문에 내일 운동회는 취소될 것 같습니다.",
+      "grammar": "〜みたいだ (~인 것 같다)",
+      "tags": [
+        "運動会"
+      ]
+    },
+    {
+      "sent": "ビルの<ruby>屋上<rt>おくじょう</rt></ruby>も、雪で真っ白になっています。",
+      "trans": "빌딩 옥상도 눈으로 새하얗게 되어 있습니다.",
+      "grammar": "〜ている (상태)",
+      "tags": [
+        "屋上"
+      ]
+    },
+    {
+      "sent": "寒いので、家の<ruby>内<rt>うち</rt></ruby>で休む<ruby>ことにします<rt>ことにします</rt></ruby>。",
+      "trans": "추우므로 집 안에서 쉬기로 하겠습니다.",
+      "grammar": "〜ことにする (스스로의 결정)",
+      "tags": [
+        "内"
+      ]
+    },
+    {
+      "sent": "病院の<ruby>受付<rt>うけつけ</rt></ruby>で、健康<ruby>について<rt>について</rt></ruby>相談しました。",
+      "trans": "병원 접수처에서 건강에 대해서 상담했습니다.",
+      "grammar": "〜について (~에 대해서)",
+      "tags": [
+        "受付"
+      ]
+    },
+    {
+      "sent": "今日は<ruby>運<rt>うん</rt></ruby>が良くて、見学者<ruby>として<rt>として</rt></ruby>参加できました。",
+      "trans": "오늘은 운이 좋아서, 견학자로서 참가할 수 있었습니다.",
+      "grammar": "〜として (~로서)",
+      "tags": [
+        "運"
+      ]
+    },
+    {
+      "sent": "建物の<ruby>裏<rt>うら</rt></ruby>で、<ruby>英会話<rt>えいかいわ</rt></ruby>のクラスが開かれています。",
+      "trans": "건물 뒤에서 영어 회화 수업이 열리고 있습니다.",
+      "grammar": "수동태+ている",
+      "tags": [
+        "裏",
+        "英会話"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「色紙」の正しい読み方はどれですか。",
+      "opt": [
+        "いろし",
+        "しきし",
+        "いろがみ",
+        "しきがみ"
+      ],
+      "ans": 2,
+      "comment": "色紙(いろがみ)는 '색종이'를 뜻합니다. (참고: しきし라고 읽으면 서화용 두꺼운 종이를 의미하기도 합니다.)"
+    },
+    {
+      "q": "「営業」の正しい読み方はどれですか。",
+      "opt": [
+        "えいぎょう",
+        "えいきょう",
+        "えいが",
+        "えいご"
+      ],
+      "ans": 0,
+      "comment": "営業(えいぎょう)는 '영업'을 뜻합니다."
+    },
+    {
+      "q": "「横断歩道」の正しい読み方はどれですか。",
+      "opt": [
+        "おうだんほどう",
+        "おうだんぼどう",
+        "おうたんほどう",
+        "おだんほどう"
+      ],
+      "ans": 0,
+      "comment": "横断歩道(おうだんほどう)는 '횡단보도'를 뜻합니다."
+    },
+    {
+      "q": "「億」の正しい読み方はどれですか。",
+      "opt": [
+        "おく",
+        "あく",
+        "いし",
+        "おん"
+      ],
+      "ans": 0,
+      "comment": "億(おく)는 숫자 '억'을 의미합니다."
+    },
+    {
+      "q": "「遠慮」の意味として正しいものはどれですか。",
+      "opt": [
+        "먼 곳",
+        "가까운 곳",
+        "사양, 거절",
+        "걱정"
+      ],
+      "ans": 2,
+      "comment": "遠慮(えんりょ)는 '사양, 거절'을 의미합니다."
+    },
+    {
+      "q": "「屋上」の意味として正しいものはどれですか。",
+      "opt": [
+        "방 안",
+        "옥상",
+        "지하실",
+        "계단"
+      ],
+      "ans": 1,
+      "comment": "屋上(おくじょう)는 건물의 '옥상'을 의미합니다."
+    },
+    {
+      "q": "「枝」の意味として正しいものはどれですか。",
+      "opt": [
+        "잎",
+        "뿌리",
+        "줄기",
+        "가지"
+      ],
+      "ans": 3,
+      "comment": "枝(えだ)는 나무의 '가지'를 의미합니다."
+    },
+    {
+      "q": "先生に感謝の気持ちで（　　）を渡した。",
+      "opt": [
+        "運転",
+        "受付",
+        "内",
+        "贈り物"
+      ],
+      "ans": 3,
+      "comment": "감사의 마음으로 건네는 것은 '贈り物(선물)'이 가장 적절합니다."
+    },
+    {
+      "q": "バスの（　　）に道を教えてもらった。",
+      "opt": [
+        "運転手",
+        "大雪",
+        "大雨",
+        "億"
+      ],
+      "ans": 0,
+      "comment": "버스에서 길을 알려줄 수 있는 사람은 '運転手(운전기사)'입니다."
+    },
+    {
+      "q": "本当の事ではないことを（　　）と言う。",
+      "opt": [
+        "運",
+        "うそ",
+        "おかげ",
+        "枝"
+      ],
+      "ans": 1,
+      "comment": "사실이 아닌 것을 말하는 것은 'うそ(거짓말)'입니다."
     }
   ]
 }
