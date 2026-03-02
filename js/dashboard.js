@@ -87,7 +87,7 @@ function renderList(level, indexData) {
         li.innerHTML = `
             <div class="day-info" onclick="loadFrame('${level}', '${moduleId}', '${legacyDay}')">
                 <span style="font-weight:bold;">${baseTitle}</span>
-                <span style="display:block; font-size:0.75rem; color:#aaa;">${moduleId} · Day ${legacyDay}</span>
+                <span style="display:block; font-size:0.75rem; color:#aaa;">Day ${legacyDay}</span>
             </div>
             <label class="check-complete">
                 <input type="checkbox" onchange="toggleComplete('${level}', '${moduleId}', this)" ${isDone ? 'checked' : ''}>
