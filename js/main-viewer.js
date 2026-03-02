@@ -32,12 +32,12 @@ function initViewer() {
 }
 
 function renderViewerContent(level, day, moduleId, data, indexData) {
-    document.title = `[${level.toUpperCase()}] ${moduleId || `Day ${day}`}`;
+    document.title = `[${level.toUpperCase()}] ${data.title || moduleId || `Day ${day}`}`;
 
     const headerTitle = document.getElementById('header-title');
     if (headerTitle) headerTitle.textContent = data.title;
     const badge = document.getElementById('badge-level');
-    if (badge) badge.textContent = moduleId ? `${level.toUpperCase()} · ${moduleId}` : level.toUpperCase();
+    if (badge) badge.textContent = level.toUpperCase();
 
     renderStorySection(data);
     renderVocabSection(level, day, moduleId, data);
