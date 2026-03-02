@@ -105,32 +105,6 @@
         </div>
     </div>
 
-    <!-- Firestore 콘텐츠 로딩 (jlpt_modules 컬렉션, 인증 불필요) -->
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-        import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
-
-        const db = getFirestore(initializeApp({
-            apiKey: "AIzaSyDPKCmfvA_uepqu4MA8tzendnGRy-H6ZgI",
-            authDomain: "jlpt-project-01.firebaseapp.com",
-            projectId: "jlpt-project-01",
-            storageBucket: "jlpt-project-01.firebasestorage.app",
-            messagingSenderId: "828971360762",
-            appId: "1:828971360762:web:5a9e9fa6948be5cdd20443"
-        }));
-
-        window.FirebaseBridge = window.FirebaseBridge || {};
-        window.FirebaseBridge.getModuleContent = async (level, moduleId) => {
-            try {
-                const snap = await getDoc(doc(db, 'jlpt_modules', `${level}_${moduleId}`));
-                return snap.exists() ? snap.data() : null;
-            } catch (e) {
-                console.warn('[Firestore] 읽기 실패, 정적 파일 사용:', e);
-                return null;
-            }
-        };
-    </script>
-
     <!-- 분리된 JS 파일 로드 (의존성 순서 중요) -->
     <script src="js/utils.js"></script>
     <script src="js/data-service.js"></script>
