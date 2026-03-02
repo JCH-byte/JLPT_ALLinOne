@@ -17,7 +17,7 @@ function initViewer() {
         const resolvedModule = result?.moduleId || moduleId || '';
         const data = result?.data;
 
-        if (!resolvedDay || !data) {
+        if ((!resolvedDay && !resolvedModule) || !data) {
             const msg = `<div class="empty-state" style="padding:40px; text-align:center;">
                             <h3>데이터 없음</h3>
                             <p>Module ${resolvedModule || '?'} 데이터를 불러올 수 없습니다.</p>
