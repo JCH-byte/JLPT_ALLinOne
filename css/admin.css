@@ -58,6 +58,7 @@ textarea {
 .btn-download { background: #4CAF50; }
 .btn-approve { background: #2e7d32; }
 .btn-restore { background: #6a1b9a; }
+.btn-danger { background: #c62828; }
 
 select,
 input[type="text"],
