@@ -54,7 +54,14 @@
     <h3 style="margin-top:24px;">5. Validate 결과</h3>
     <pre id="validation-result" class="compare-result">Validate 단계를 실행하세요.</pre>
 
-    <h3 style="margin-top:30px;">6. GitHub 업로드</h3>
+    <h3 style="margin-top:30px;">6. 학습자료 삭제</h3>
+    <p style="color:#888; font-size:0.9em; margin:4px 0 10px;">위에서 선택한 레벨·모듈의 story / analysis / quiz를 삭제합니다. vocab과 title은 유지됩니다.<br>N4처럼 레거시 day 파일이 있는 경우 해당 파일도 함께 삭제합니다.</p>
+    <div>
+        <button class="btn btn-danger" onclick="handleDeleteLearningMaterial()">🗑️ 학습자료 삭제</button>
+    </div>
+    <pre id="delete-result" class="compare-result">삭제 결과가 여기에 표시됩니다.</pre>
+
+    <h3 style="margin-top:30px;">7. GitHub 업로드</h3>
     <div class="control-panel">
         <label><strong>GitHub Token:</strong></label>
         <input type="password" id="github-token" placeholder="ghp_xxxx" style="width:260px;margin-left:8px;">

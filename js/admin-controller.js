@@ -270,6 +270,92 @@ async function handleGitHubUpload() {
     }
 }
 
+// ── Delete Learning Material ──────────────────────────────────────────────────
+
+async function handleDeleteLearningMaterial() {
+    const resultEl = document.getElementById('delete-result');
+    try {
+        const token = document.getElementById('github-token').value.trim() || localStorage.getItem('gh_token');
+        const ownerRepo = document.getElementById('github-repo').value.trim() || localStorage.getItem('gh_repo');
+        if (!token) throw new Error('GitHub Token을 입력하세요.');
+        if (!ownerRepo) throw new Error('Owner/Repo를 입력하세요. (예: username/repo)');
+
+        const level = document.getElementById('level-select').value;
+        const moduleId = document.getElementById('module-select').value;
+        if (!moduleId) throw new Error('모듈을 선택하세요.');
+
+        if (!confirm(`[${moduleId}]의 학습자료(story / analysis / quiz)를 삭제하시겠습니까?\nvocab과 title은 유지됩니다. 이 작업은 되돌릴 수 없습니다.`)) return;
+
+        const apiBase = `https://api.github.com/repos/${ownerRepo}`;
+        const headers = { Authorization: `token ${token}`, 'Content-Type': 'application/json' };
+        const results = [];
+
+        // Helper: GitHub GET → parse JSON
+        async function ghGet(path) {
+            const res = await fetch(`${apiBase}/contents/${path}?ref=main`, { headers });
+            if (!res.ok) return null;
+            const meta = await res.json();
+            const decoded = new TextDecoder().decode(
+                Uint8Array.from(atob(meta.content.replace(/\n/g, '')), c => c.charCodeAt(0))
+            );
+            return { sha: meta.sha, data: JSON.parse(decoded) };
+        }
+
+        // Helper: GitHub PUT
+        async function ghPut(path, sha, data, message) {
+            const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2) + '\n')));
+            const res = await fetch(`${apiBase}/contents/${path}`, {
+                method: 'PUT',
+                headers,
+                body: JSON.stringify({ message, content, branch: 'main', sha })
+            });
+            if (!res.ok) { const e = await res.json(); throw new Error(e.message); }
+        }
+
+        // 1. module-vocab 파일에서 학습자료 삭제
+        const moduleFilePath = `data/dist/${level}/module-vocab/${moduleId}.json`;
+        const modFile = await ghGet(moduleFilePath);
+        if (modFile) {
+            const hadContent = !!(modFile.data.story || modFile.data.analysis?.length || modFile.data.quiz?.length);
+            modFile.data.story = null;
+            modFile.data.analysis = [];
+            modFile.data.quiz = [];
+            await ghPut(moduleFilePath, modFile.sha, modFile.data,
+                `content: clear learning material for ${level} ${moduleId}`);
+            results.push(`✓ module-vocab/${moduleId}.json ${hadContent ? '학습자료 삭제 완료' : '(원래 비어 있음)'}`);
+        } else {
+            results.push(`- module-vocab/${moduleId}.json 파일 없음`);
+        }
+
+        // 2. 레거시 day 파일이 있으면 함께 삭제 (N4, N5 등)
+        const indexFile = await ghGet(`data/dist/${level}/index.json`);
+        const dayNum = indexFile?.data?.moduleToDay?.[moduleId];
+        if (dayNum) {
+            const dayFilePath = `data/dist/${level}/day-${dayNum}.json`;
+            const dayFile = await ghGet(dayFilePath);
+            if (dayFile) {
+                const hadContent = !!(dayFile.data.story || dayFile.data.analysis?.length || dayFile.data.quiz?.length);
+                if (hadContent) {
+                    dayFile.data.story = null;
+                    dayFile.data.analysis = [];
+                    dayFile.data.quiz = [];
+                    await ghPut(dayFilePath, dayFile.sha, dayFile.data,
+                        `content: clear learning material for ${level} day-${dayNum} (${moduleId})`);
+                    results.push(`✓ day-${dayNum}.json 학습자료 삭제 완료`);
+                } else {
+                    results.push(`- day-${dayNum}.json (원래 비어 있음)`);
+                }
+            }
+        }
+
+        if (resultEl) resultEl.textContent = `삭제 완료 (${new Date().toLocaleString()}):\n${results.join('\n')}`;
+    } catch (e) {
+        if (resultEl) resultEl.textContent = `삭제 실패: ${e.message}`;
+        alert(`삭제 실패: ${e.message}`);
+        console.error(e);
+    }
+}
+
 // ── Clear ─────────────────────────────────────────────────────────────────────
 
 function clearPreview() {
