@@ -1,206 +1,435 @@
 {
-  "title": "か行の名詞・1 (か행 명사 1)",
-  "moduleId": "n4-module-004",
+  "title": "JLPT N4 모듈 004 학습자료",
+  "story": "<h3>Scene 1. <ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby> (귀갓길의 회화)</h3><p><ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>帰<rt>かえ</rt></ruby>りに、<ruby>彼<rt>かれ</rt></ruby>と<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>会話<rt>かいわ</rt></ruby>をしていました。</p><p><ruby>彼<rt>かれ</rt></ruby>らは<ruby>新<rt>あたら</rt></ruby>しい<ruby>課長<rt>かちょう</rt></ruby><b>について</b><ruby>話<rt>はな</rt></ruby>す<b>ことになりました</b>。</p><p>「あの<ruby>課長<rt>かちょう</rt></ruby>は<ruby>歌手<rt>かしゅ</rt></ruby><b>みたいに</b>かっこいいですね」と<ruby>彼女<rt>かのじょ</rt></ruby>が<ruby>言<rt>い</rt></ruby>いました。</p><p><ruby>彼<rt>かれ</rt></ruby>はショーウィンドウの<ruby>鏡<rt>かがみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>髪<rt>かみ</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>をチェックしました。</p><h3>Scene 2. <ruby>家庭<rt>かてい</rt></ruby>の<ruby>事情<rt>じじょう</rt></ruby> (가정의 사정)</h3><p><ruby>彼<rt>かれ</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、<ruby>家内<rt>かない</rt></ruby>が<ruby>家庭<rt>かてい</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby><b>について</b><ruby>悩<rt>なや</rt></ruby>んでいました。</p><p>「<ruby>今月<rt>こんげつ</rt></ruby>はガス<ruby>代<rt>だい</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから、<ruby>気<rt>き</rt></ruby>をつけないといけません」</p><p>「うちは<ruby>金持<rt>かねも</rt></ruby>ちじゃないのだから、もっと<ruby>節約<rt>せつやく</rt></ruby>する<b>ために</b><ruby>頑張<rt>がんば</rt></ruby>りましょう」</p><p><ruby>壁<rt>かべ</rt></ruby>の<ruby>飾<rt>かざ</rt></ruby>りを<ruby>見<rt>み</rt></ruby>ながら、<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>を<ruby>変<rt>か</rt></ruby>えることにしました。</p><h3>Scene 3. テレビのニュース (TV 뉴스)</h3><p>テレビをつけると、<ruby>外部<rt>がいぶ</rt></ruby>で<ruby>起<rt>お</rt></ruby>きた<ruby>火事<rt>かじ</rt></ruby>のニュースが<ruby>流<rt>なが</rt></ruby>れていました。</p><p>ある<ruby>科学<rt>かがく</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えて、けがをした<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いそうです。</p><p>そのニュースの<b>おかげで</b>、<ruby>火<rt>ひ</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>いには<ruby>注意<rt>ちゅうい</rt></ruby>することにしました。</p><p><ruby>乾燥<rt>かんそう</rt></ruby>する<ruby>期間<rt>きかん</rt></ruby>は、とくに<ruby>危険<rt>きけん</rt></ruby>です。</p><h3>Scene 4. <ruby>新<rt>あたら</rt></ruby>しい<ruby>趣味<rt>しゅみ</rt></ruby> (새로운 취미)</h3><p><ruby>彼<rt>かれ</rt></ruby>はゲームの<ruby>代<rt>か</rt></ruby>わりに、<ruby>手紙<rt>てがみ</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>習<rt>なら</rt></ruby>い<ruby>始<rt>はじ</rt></ruby>めました。</p><p><ruby>大人<rt>おとな</rt></ruby><b>として</b>、きれいな<ruby>字<rt>じ</rt></ruby>を<ruby>書<rt>か</rt></ruby>く<b>ために</b><ruby>練習<rt>れんしゅう</rt></ruby>します。</p><p><ruby>毎晩<rt>まいばん</rt></ruby>少<ruby>しずつ<rt>しずつ</rt></ruby><ruby>書<rt>か</rt></ruby>いている<b>おかげで</b>、とても<ruby>上手<rt>じょうず</rt></ruby>になりました。</p><p>いつか<ruby>彼女<rt>かのじょ</rt></ruby>にきれいな<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>す<b>ことになります</b>。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>帰<rt>かえ</rt></ruby>りに、<ruby>彼<rt>かれ</rt></ruby>と<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>会話<rt>かいわ</rt></ruby>をしていました。",
+      "trans": "회사에서 돌아오는 길에, 그와 그녀는 대화를 하고 있었습니다.",
+      "grammar": "일반 서술",
+      "tags": [
+        "帰り",
+        "彼",
+        "彼女",
+        "会話"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>らは<ruby>新<rt>あたら</rt></ruby>しい<ruby>課長<rt>かちょう</rt></ruby><b>について</b><ruby>話<rt>はな</rt></ruby>す<b>ことになりました</b>。",
+      "trans": "그들은 새로운 과장에 대해 이야기하게 되었습니다.",
+      "grammar": "〜について / 〜ことになる",
+      "tags": [
+        "彼ら",
+        "課長"
+      ]
+    },
+    {
+      "sent": "「あの<ruby>課長<rt>かちょう</rt></ruby>は<ruby>歌手<rt>かしゅ</rt></ruby><b>みたいに</b>かっこいいですね」と<ruby>彼女<rt>かのじょ</rt></ruby>が<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "\"저 과장님은 가수처럼 멋있네요\"라고 그녀가 말했습니다.",
+      "grammar": "〜みたいに",
+      "tags": [
+        "課長",
+        "歌手",
+        "彼女"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>はショーウィンドウの<ruby>鏡<rt>かがみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>髪<rt>かみ</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>をチェックしました。",
+      "trans": "그는 쇼윈도의 거울을 보고, 머리 모양을 체크했습니다.",
+      "grammar": "일반 서술",
+      "tags": [
+        "彼",
+        "鏡",
+        "髪",
+        "形"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、<ruby>家内<rt>かない</rt></ruby>が<ruby>家庭<rt>かてい</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby><b>について</b><ruby>悩<rt>なや</rt></ruby>んでいました。",
+      "trans": "그가 집에 도착하자, 아내가 가정의 예산에 대해 고민하고 있었습니다.",
+      "grammar": "〜について",
+      "tags": [
+        "彼",
+        "家内",
+        "家庭"
+      ]
+    },
+    {
+      "sent": "「<ruby>今月<rt>こんげつ</rt></ruby>はガス<ruby>代<rt>だい</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから、<ruby>気<rt>き</rt></ruby>をつけないといけません」",
+      "trans": "\"이번 달은 가스비가 많이 나왔으니, 조심하지 않으면 안 됩니다.\"",
+      "grammar": "일반 서술",
+      "tags": [
+        "ガス代",
+        "気"
+      ]
+    },
+    {
+      "sent": "「うちは<ruby>金持<rt>かねも</rt></ruby>ちじゃないのだから、もっと<ruby>節約<rt>せつやく</rt></ruby>する<b>ために</b><ruby>頑張<rt>がんば</rt></ruby>りましょう」",
+      "trans": "\"우리 집은 부자가 아니니까, 더 절약하기 위해 힘냅시다.\"",
+      "grammar": "〜ために",
+      "tags": [
+        "金持ち"
+      ]
+    },
+    {
+      "sent": "<ruby>壁<rt>かべ</rt></ruby>の<ruby>飾<rt>かざ</rt></ruby>りを<ruby>見<rt>み</rt></ruby>ながら、<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>を<ruby>変<rt>か</rt></ruby>えることにしました。",
+      "trans": "벽의 장식을 보면서, 사고방식을 바꾸기로 했습니다.",
+      "grammar": "〜ことにする",
+      "tags": [
+        "壁",
+        "飾り",
+        "考え方"
+      ]
+    },
+    {
+      "sent": "テレビをつけると、<ruby>外部<rt>がいぶ</rt></ruby>で<ruby>起<rt>お</rt></ruby>きた<ruby>火事<rt>かじ</rt></ruby>のニュースが<ruby>流<rt>なが</rt></ruby>れていました。",
+      "trans": "TV를 켜자, 외부에서 일어난 화재 뉴스가 나오고 있었습니다.",
+      "grammar": "일반 서술",
+      "tags": [
+        "外部",
+        "火事"
+      ]
+    },
+    {
+      "sent": "ある<ruby>科学<rt>かがく</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えて、けがをした<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いそうです。",
+      "trans": "어떤 과학 공장이 불타서, 다친 사람의 수가 많다고 합니다.",
+      "grammar": "일반 서술",
+      "tags": [
+        "科学",
+        "数"
+      ]
+    },
+    {
+      "sent": "そのニュースの<b>おかげで</b>、<ruby>火<rt>ひ</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>いには<ruby>注意<rt>ちゅうい</rt></ruby>することにしました。",
+      "trans": "그 뉴스 덕분에, 불을 다루는 데에는 주의하기로 했습니다.",
+      "grammar": "〜のおかげで",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>乾燥<rt>かんそう</rt></ruby>する<ruby>期間<rt>きかん</rt></ruby>は、とくに<ruby>危険<rt>きけん</rt></ruby>です。",
+      "trans": "건조한 기간은 특히 위험합니다.",
+      "grammar": "일반 서술",
+      "tags": [
+        "期間"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>はゲームの<ruby>代<rt>か</rt></ruby>わりに、<ruby>手紙<rt>てがみ</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>習<rt>なら</rt></ruby>い<ruby>始<rt>はじ</rt></ruby>めました。",
+      "trans": "그는 게임 대신에, 편지 쓰는 법을 배우기 시작했습니다.",
+      "grammar": "일반 서술",
+      "tags": [
+        "彼",
+        "代わり",
+        "書き方"
+      ]
+    },
+    {
+      "sent": "<ruby>大人<rt>おとな</rt></ruby><b>として</b>、きれいな<ruby>字<rt>じ</rt></ruby>を<ruby>書<rt>か</rt></ruby>く<b>ために</b><ruby>練習<rt>れんしゅう</rt></ruby>します。",
+      "trans": "어른으로서, 예쁜 글씨를 쓰기 위해 연습합니다.",
+      "grammar": "〜として / 〜ために",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>毎晩<rt>まいばん</rt></ruby>少<ruby>しずつ<rt>しずつ</rt></ruby><ruby>書<rt>か</rt></ruby>いている<b>おかげで</b>、とても<ruby>上手<rt>じょうず</rt></ruby>になりました。",
+      "trans": "매일 밤 조금씩 쓰고 있는 덕분에, 아주 능숙해졌습니다.",
+      "grammar": "〜のおかげで",
+      "tags": []
+    },
+    {
+      "sent": "いつか<ruby>彼女<rt>かのじょ</rt></ruby>にきれいな<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>す<b>ことになります</b>。",
+      "trans": "언젠가 그녀에게 예쁜 편지를 건네게 될 것입니다.",
+      "grammar": "〜ことになる",
+      "tags": [
+        "彼女"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "1",
       "word": "外部",
       "read": "がいぶ",
       "mean": "외부",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "2",
       "word": "会話",
       "read": "かいわ",
       "mean": "회화",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "3",
       "word": "帰り",
       "read": "かえり",
       "mean": "귀가, 돌아오는 길",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "4",
       "word": "科学",
       "read": "かがく",
       "mean": "과학",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "5",
       "word": "鏡",
       "read": "かがみ",
       "mean": "거울",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "6",
       "word": "書き方",
       "read": "かきかた",
       "mean": "쓰는 법",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "7",
       "word": "飾り",
       "read": "かざり",
       "mean": "장식",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "8",
       "word": "火事",
       "read": "かじ",
       "mean": "화재",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 2
+      "tags": []
     },
     {
+      "id": "9",
       "word": "歌手",
       "read": "かしゅ",
       "mean": "가수",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "10",
       "word": "数",
       "read": "かず",
       "mean": "수, 숫자",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "11",
       "word": "ガス代",
       "read": "がすだい",
       "mean": "가스비",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "12",
       "word": "形",
       "read": "かたち",
       "mean": "모양, 형태",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "13",
       "word": "課長",
       "read": "かちょう",
       "mean": "과장",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "14",
       "word": "家庭",
       "read": "かてい",
       "mean": "가정",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "15",
       "word": "家内",
       "read": "かない",
       "mean": "아내, 집사람",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "16",
       "word": "金持ち",
       "read": "かねもち",
       "mean": "부자",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "17",
       "word": "彼女",
       "read": "かのじょ",
       "mean": "그녀, 여자친구",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "18",
       "word": "壁",
       "read": "かべ",
       "mean": "벽",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "19",
       "word": "髪",
       "read": "かみ",
       "mean": "머리카락",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "20",
       "word": "彼",
       "read": "かれ",
       "mean": "그, 남자친구",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "21",
       "word": "彼ら",
       "read": "かれら",
       "mean": "그들",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "22",
       "word": "代わり",
       "read": "かわり",
       "mean": "대신, 대리",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "23",
       "word": "考え方",
       "read": "かんがえかた",
       "mean": "사고방식",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "24",
       "word": "気",
       "read": "き",
       "mean": "기운, 마음",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
     },
     {
+      "id": "25",
       "word": "期間",
       "read": "きかん",
       "mean": "기간",
-      "tags": [],
-      "moduleId": "n4-module-004",
-      "legacyDay": 3
+      "tags": []
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「帰り」の読み方として正しいものはどれですか。",
+      "opt": [
+        "かえり",
+        "おわり",
+        "あまり",
+        "まわり"
+      ],
+      "ans": 0,
+      "comment": "帰り(かえり)는 '귀가, 돌아오는 길'을 의미합니다."
+    },
+    {
+      "q": "「鏡」の読み方として正しいものはどれですか。",
+      "opt": [
+        "かたち",
+        "かがみ",
+        "かざり",
+        "かべ"
+      ],
+      "ans": 1,
+      "comment": "鏡(かがみ)는 '거울'을 의미합니다."
+    },
+    {
+      "q": "「期間」の読み方として正しいものはどれですか。",
+      "opt": [
+        "じかん",
+        "きけん",
+        "きかん",
+        "きかい"
+      ],
+      "ans": 2,
+      "comment": "期間(きかん)은 '기간'을 의미합니다."
+    },
+    {
+      "q": "「会話」の読み方として正しいものはどれですか。",
+      "opt": [
+        "かいわ",
+        "かいしゃ",
+        "かてい",
+        "かいが"
+      ],
+      "ans": 0,
+      "comment": "会話(かいわ)는 '회화, 대화'를 의미합니다."
+    },
+    {
+      "q": "「家内」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "가족의 수",
+        "집안일",
+        "가정",
+        "아내, 집사람"
+      ],
+      "ans": 3,
+      "comment": "家内(かない)는 자신의 '아내'나 '집사람'을 낮추어 부를 때 사용합니다."
+    },
+    {
+      "q": "「代わり」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "대신",
+        "변화",
+        "순서",
+        "종류"
+      ],
+      "ans": 0,
+      "comment": "代わり(かわり)는 '대신, 대리'를 의미합니다."
+    },
+    {
+      "q": "「外部」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "부품",
+        "외출",
+        "외부",
+        "전체"
+      ],
+      "ans": 2,
+      "comment": "外部(がいぶ)는 어떤 조직이나 장소의 밖인 '외부'를 의미합니다."
+    },
+    {
+      "q": "今月は（　　　）が高いから節約しなければなりません。",
+      "opt": [
+        "ガス代",
+        "数",
+        "期間",
+        "形"
+      ],
+      "ans": 0,
+      "comment": "문맥상 돈과 관련된 'ガス代(가스비)'가 적절합니다."
+    },
+    {
+      "q": "問題に直面したときには、新しい（　　　）が必要だ。",
+      "opt": [
+        "書き方",
+        "代わり",
+        "考え方",
+        "家内"
+      ],
+      "ans": 2,
+      "comment": "문제를 해결하기 위한 새로운 '考え方(사고방식)'이 필요하다는 문맥입니다."
+    },
+    {
+      "q": "彼はとても（　　　）で、大きな家に住んでいる。",
+      "opt": [
+        "歌手",
+        "金持ち",
+        "課長",
+        "彼ら"
+      ],
+      "ans": 1,
+      "comment": "큰 집에 살고 있다는 내용이므로 '金持ち(부자)'가 가장 잘 어울립니다."
     }
   ]
 }
