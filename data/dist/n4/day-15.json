@@ -1,534 +1,264 @@
 {
-    "title": "Day 15: 予定変更と立て直し ",
-    "story": "<p>新しい教室に<ruby>通う<rt>かよう</rt></ruby>ことが<ruby>決まる<rt>きまる</rt></ruby>前から、私は毎日どうするかを<ruby>考える<rt>かんがえる</rt></ruby>ようになった。教材は友人に少し<ruby>貸す<rt>かす</rt></ruby>代わりに、私は参考書を<ruby>借りる<rt>かりる</rt></ruby>約束をした。必要な資料を<ruby>探す<rt>さがす</rt></ruby>ために図書室へ行き、勉強の順番を自分で<ruby>決める<rt>きめる</rt></ruby>。迷いが出ても、まず一週間だけ<ruby>がんばる</ruby>と決心して机に向かった。</p><p>授業の後、私は部屋を<ruby>片づける<rt>かたづける</rt></ruby>途中で、古い棚をうっかり<ruby>壊す<rt>こわす</rt></ruby>ところだった。慌てて強く<ruby>触る<rt>さわる</rt></ruby>のをやめたが、結局一部が<ruby>壊れる<rt>こわれる</rt></ruby>音がしてしまう。管理の先生に見つかり、私は正直に説明して<ruby>叱る<rt>しかる</rt></ruby>言葉を受けた。悔しくてもここは<ruby>がまんする</ruby>と決め、気持ちを切り替えて次は必ず<ruby>勝つ<rt>かつ</rt></ruby>つもりで練習を続けた。落ち着くためにガムをゆっくり<ruby>噛む<rt>かむ</rt></ruby>と、頭の中が少し整った。</p><p>帰り道、洗った上着がまだ<ruby>乾く<rt>かわく</rt></ruby>前で、外の空は急に<ruby>曇る<rt>くもる</rt></ruby>気配だった。雨が来そうなので傘を<ruby>さす</ruby>と、駅前は人で<ruby>込む<rt>こむ</rt></ruby>うえに声が大きくて少し<ruby>騒ぐ<rt>さわぐ</rt></ruby>感じがした。階段は混雑で速度が<ruby>下がる<rt>さがる</rt></ruby>ので、私は荷物を低く<ruby>下げる<rt>さげる</rt></ruby>ようにした。空が暗くなって日が<ruby>暮れる<rt>くれる</rt></ruby>ころ、ようやく家の近くまで戻れた。</p><p>家では祖母が果物を<ruby>下さる<rt>くださる</rt></ruby>と言い、私は丁寧に受け取ってからお礼にお茶を<ruby>差し上げる<rt>さしあげる</rt></ruby>。祖母が古い写真を<ruby>ご覧になる<rt>ごらんになる</rt></ruby>と、昔の話が自然に続いた。隣の部屋から笑い声が<ruby>聞こえる<rt>きこえる</rt></ruby>と、私はその相手に少し<ruby>気がある</ruby>のかもしれないと感じた。友人は励ますように本を<ruby>くれる</ruby>と言い、今の自分も少しずつ<ruby>変わる<rt>かわる</rt></ruby>のだと思えた。台所には温かいお茶も<ruby>ござる</ruby>と祖母が言い、私は静かに一日を締めた。</p>",
-    "analysis": [
-        {
-            "sent": "新しい教室に<ruby>通う<rt>かよう</rt></ruby>ことが<ruby>決まる<rt>きまる</rt></ruby>前から、私は毎日どうするかを<ruby>考える<rt>かんがえる</rt></ruby>ようになった。",
-            "trans": "새 교실에 다니게 되기 전부터, 저는 매일 어떻게 할지를 생각하게 되었습니다.",
-            "grammar": "動詞(辞書形)＋前から : 시점 기준 / 動詞(辞書形)＋ようになる : 상태 변화",
-            "tags": [
-                "通う",
-                "決まる",
-                "考える"
-            ]
-        },
-        {
-            "sent": "教材は友人に少し<ruby>貸す<rt>かす</rt></ruby>代わりに、私は参考書を<ruby>借りる<rt>かりる</rt></ruby>約束をした。",
-            "trans": "교재는 친구에게 조금 빌려주는 대신, 저는 참고서를 빌리기로 약속했습니다.",
-            "grammar": "～代わりに : 대가·교환 / 動詞(た形) : 과거의 동작",
-            "tags": [
-                "貸す",
-                "借りる"
-            ]
-        },
-        {
-            "sent": "必要な資料を<ruby>探す<rt>さがす</rt></ruby>ために図書室へ行き、勉強の順番を自分で<ruby>決める<rt>きめる</rt></ruby>。",
-            "trans": "필요한 자료를 찾기 위해 도서관에 가서, 공부 순서를 스스로 정합니다.",
-            "grammar": "～ために : 목적 / 動詞(辞書形) : 기본형 서술",
-            "tags": [
-                "探す",
-                "決める"
-            ]
-        },
-        {
-            "sent": "迷いが出ても、まず一週間だけ<ruby>がんばる</ruby>と決心して机に向かった。",
-            "trans": "망설임이 생겨도, 우선 일주일만 힘내겠다고 결심하고 책상에 앉았습니다.",
-            "grammar": "～ても : 양보·가정 / ～と : 인용·내용",
-            "tags": [
-                "がんばる"
-            ]
-        },
-        {
-            "sent": "授業の後、私は部屋を<ruby>片づける<rt>かたづける</rt></ruby>途中で、古い棚をうっかり<ruby>壊す<rt>こわす</rt></ruby>ところだった。",
-            "trans": "수업 후에 저는 방을 정리하던 도중, 오래된 선반을 무심코 부술 뻔했습니다.",
-            "grammar": "名詞＋の後 : 이후 / 動詞(辞書形)＋ところだった : 하마터면",
-            "tags": [
-                "片づける",
-                "壊す"
-            ]
-        },
-        {
-            "sent": "慌てて強く<ruby>触る<rt>さわる</rt></ruby>のをやめたが、結局一部が<ruby>壊れる<rt>こわれる</rt></ruby>音がしてしまう。",
-            "trans": "당황해서 세게 만지는 것을 그만뒀지만, 결국 일부가 고장 나는 소리가 나버립니다.",
-            "grammar": "動詞(辞書形)＋のをやめる : 중단 / ～てしまう : 완료·유감",
-            "tags": [
-                "触る",
-                "壊れる"
-            ]
-        },
-        {
-            "sent": "管理の先生に見つかり、私は正直に説明して<ruby>叱る<rt>しかる</rt></ruby>言葉を受けた。",
-            "trans": "관리 선생님에게 들켜, 저는 솔직히 설명하고 꾸중의 말을 들었습니다.",
-            "grammar": "動詞(て形) : 동작의 연결 / 名詞＋を受ける : 수용",
-            "tags": [
-                "叱る"
-            ]
-        },
-        {
-            "sent": "悔しくてもここは<ruby>がまんする</ruby>と決め、気持ちを切り替えて次は必ず<ruby>勝つ<rt>かつ</rt></ruby>つもりで練習を続けた。",
-            "trans": "억울해도 여기서는 참기로 정하고, 마음을 전환해 다음엔 반드시 이길 생각으로 연습을 이어갔습니다.",
-            "grammar": "～ても : 양보 / つもりだ : 의도",
-            "tags": [
-                "がまんする",
-                "勝つ"
-            ]
-        },
-        {
-            "sent": "落ち着くためにガムをゆっくり<ruby>噛む<rt>かむ</rt></ruby>と、頭の中が少し整った。",
-            "trans": "진정하기 위해 껌을 천천히 씹자, 머릿속이 조금 정리되었습니다.",
-            "grammar": "～ために : 목적 / ～と : 계기·연속",
-            "tags": [
-                "噛む"
-            ]
-        },
-        {
-            "sent": "帰り道、洗った上着がまだ<ruby>乾く<rt>かわく</rt></ruby>前で、外の空は急に<ruby>曇る<rt>くもる</rt></ruby>気配だった。",
-            "trans": "돌아오는 길에, 세탁한 겉옷이 아직 마르기 전이었고 바깥 하늘은 갑자기 흐려질 기색이었습니다.",
-            "grammar": "動詞(辞書形)＋前 : 이전 / 名詞＋気配だ : 조짐",
-            "tags": [
-                "乾く",
-                "曇る"
-            ]
-        },
-        {
-            "sent": "雨が来そうなので傘を<ruby>さす</ruby>と、駅前は人で<ruby>込む<rt>こむ</rt></ruby>うえに声が大きくて少し<ruby>騒ぐ<rt>さわぐ</rt></ruby>感じがした。",
-            "trans": "비가 올 것 같아서 우산을 쓰니, 역 앞은 사람이 붐비는 데다 목소리가 커서 조금 떠드는 느낌이 들었습니다.",
-            "grammar": "～ので : 이유·원인 / ～うえに : 추가",
-            "tags": [
-                "さす",
-                "込む",
-                "騒ぐ"
-            ]
-        },
-        {
-            "sent": "階段は混雑で速度が<ruby>下がる<rt>さがる</rt></ruby>ので、私は荷物を低く<ruby>下げる<rt>さげる</rt></ruby>ようにした。",
-            "trans": "계단은 혼잡으로 속도가 내려가므로, 저는 짐을 낮게 내려 들도록 했습니다.",
-            "grammar": "～ので : 이유·원인 / 動詞(辞書形)＋ようにする : 노력·습관",
-            "tags": [
-                "下がる",
-                "下げる"
-            ]
-        },
-        {
-            "sent": "空が暗くなって日が<ruby>暮れる<rt>くれる</rt></ruby>ころ、ようやく家の近くまで戻れた。",
-            "trans": "하늘이 어두워져 해가 저물 무렵, 겨우 집 근처까지 돌아올 수 있었습니다.",
-            "grammar": "名詞＋ころ : 시점 / 動詞(可能形) : 가능",
-            "tags": [
-                "暮れる"
-            ]
-        },
-        {
-            "sent": "家では祖母が果物を<ruby>下さる<rt>くださる</rt></ruby>と言い、私は丁寧に受け取ってからお礼にお茶を<ruby>差し上げる<rt>さしあげる</rt></ruby>。",
-            "trans": "집에서는 할머니가 과일을 주시겠다고 하셔서, 저는 정중히 받은 뒤 감사의 뜻으로 차를 드립니다.",
-            "grammar": "～と言う : 인용 / ～てから : 이후 순서",
-            "tags": [
-                "下さる",
-                "差し上げる"
-            ]
-        },
-        {
-            "sent": "祖母が古い写真を<ruby>ご覧になる<rt>ごらんになる</rt></ruby>と、昔の話が自然に続いた。",
-            "trans": "할머니가 오래된 사진을 보시자, 옛날 이야기가 자연스럽게 이어졌습니다.",
-            "grammar": "～と : 계기·연속",
-            "tags": [
-                "ご覧になる"
-            ]
-        },
-        {
-            "sent": "隣の部屋から笑い声が<ruby>聞こえる<rt>きこえる</rt></ruby>と、私はその相手に少し<ruby>気がある</ruby>のかもしれないと感じた。",
-            "trans": "옆방에서 웃음소리가 들리자, 저는 그 상대에게 조금 마음이 있는지도 모른다고 느꼈습니다.",
-            "grammar": "～かもしれない : 가능성 / ～と : 인용",
-            "tags": [
-                "聞こえる",
-                "気がある"
-            ]
-        },
-        {
-            "sent": "友人は励ますように本を<ruby>くれる</ruby>と言い、今の自分も少しずつ<ruby>変わる<rt>かわる</rt></ruby>のだと思えた。",
-            "trans": "친구는 격려하듯 책을 주겠다고 말했고, 지금의 나도 조금씩 변해 간다고 생각할 수 있었습니다.",
-            "grammar": "～ように : 방식·비유 / 動詞(辞書形) : 기본형 서술",
-            "tags": [
-                "くれる",
-                "変わる"
-            ]
-        },
-        {
-            "sent": "台所には温かいお茶も<ruby>ござる</ruby>と祖母が言い、私は静かに一日を締めた。",
-            "trans": "부엌에는 따뜻한 차도 있다고 할머니가 말씀하셔서, 저는 조용히 하루를 마무리했습니다.",
-            "grammar": "～と : 인용·내용 / 動詞(た形) : 과거의 동작",
-            "tags": [
-                "ござる"
-            ]
-        }
-    ],
-    "vocab": [
-        {
-            "word": "貸す",
-            "read": "かす",
-            "mean": "빌려주다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "片づける",
-            "read": "かたづける",
-            "mean": "정리하다, 치우다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "勝つ",
-            "read": "かつ",
-            "mean": "이기다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "がまんする",
-            "read": "がまんする",
-            "mean": "참다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "噛む",
-            "read": "かむ",
-            "mean": "씹다, 물다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "通う",
-            "read": "かよう",
-            "mean": "다니다 (통학/통근)",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "借りる",
-            "read": "かりる",
-            "mean": "빌리다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "乾く",
-            "read": "かわく",
-            "mean": "마르다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "変わる",
-            "read": "かわる",
-            "mean": "변하다, 바뀌다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "考える",
-            "read": "かんがえる",
-            "mean": "생각하다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "がんばる",
-            "read": "がんばる",
-            "mean": "힘내다, 열심히 하다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "気がある",
-            "read": "きがある",
-            "mean": "마음이 있다, 관심이 있다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "聞こえる",
-            "read": "きこえる",
-            "mean": "들리다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "決まる",
-            "read": "きまる",
-            "mean": "정해지다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "決める",
-            "read": "きめる",
-            "mean": "정하다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "下さる",
-            "read": "くださる",
-            "mean": "주시다 (존경)",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "曇る",
-            "read": "くもる",
-            "mean": "흐리다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "くれる",
-            "read": "くれる",
-            "mean": "주다 (남이 나에게)",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "暮れる",
-            "read": "くれる",
-            "mean": "저물다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "ござる",
-            "read": "ござる",
-            "mean": "있다 (정중)",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "込む",
-            "read": "こむ",
-            "mean": "붐비다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "ご覧になる",
-            "read": "ごらんになる",
-            "mean": "보시다 (존경)",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "壊す",
-            "read": "こわす",
-            "mean": "부수다, 고장내다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "壊れる",
-            "read": "こわれる",
-            "mean": "부서지다, 고장나다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "探す",
-            "read": "さがす",
-            "mean": "찾다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "下がる",
-            "read": "さがる",
-            "mean": "내려가다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "下げる",
-            "read": "さげる",
-            "mean": "내리다, 낮추다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "差し上げる",
-            "read": "さしあげる",
-            "mean": "드리다 (겸양)",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "さす",
-            "read": "さす",
-            "mean": "가리키다, (우산을) 쓰다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "騒ぐ",
-            "read": "さわぐ",
-            "mean": "떠들다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "触る",
-            "read": "さわる",
-            "mean": "만지다, 손대다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        },
-        {
-            "word": "叱る",
-            "read": "しかる",
-            "mean": "꾸짖다, 야단치다",
-            "tags": [],
-            "moduleId": "n4-module-015",
-            "legacyDay": 15
-        }
-    ],
-    "quiz": [
-        {
-            "q": "「決まる」の読み方は何ですか。",
-            "opt": [
-                "きまる",
-                "きめる",
-                "きまれる",
-                "きまった"
-            ],
-            "ans": 0,
-            "comment": "正しい読み方は きまる です。予定が決まる のように使います。"
-        },
-        {
-            "q": "「壊れる」の読み方は何ですか。",
-            "opt": [
-                "こわれる",
-                "こわす",
-                "こわれた",
-                "こわした"
-            ],
-            "ans": 0,
-            "comment": "正しい読み方は こわれる です。物が自然に壊れる時に使います。"
-        },
-        {
-            "q": "「叱る」の読み方は何ですか。",
-            "opt": [
-                "しかる",
-                "しがる",
-                "しかれる",
-                "しからる"
-            ],
-            "ans": 0,
-            "comment": "正しい読み方は しかる です。目上が注意する場面でよく出ます。"
-        },
-        {
-            "q": "教材を友人に少し＿＿＿代わりに、参考書を＿＿＿ことにした。",
-            "opt": [
-                "<ruby>貸す<rt>かす</rt></ruby>・<ruby>借りる<rt>かりる</rt></ruby>",
-                "<ruby>借りる<rt>かりる</rt></ruby>・<ruby>貸す<rt>かす</rt></ruby>",
-                "<ruby>探す<rt>さがす</rt></ruby>・<ruby>決める<rt>きめる</rt></ruby>",
-                "<ruby>下げる<rt>さげる</rt></ruby>・<ruby>下がる<rt>さがる</rt></ruby>"
-            ],
-            "ans": 0,
-            "comment": "相手に渡して使わせるのが <ruby>貸す<rt>かす</rt></ruby>、自分が受け取って使うのが <ruby>借りる<rt>かりる</rt></ruby> です。"
-        },
-        {
-            "q": "雨が来そうなので傘を＿＿＿と、駅前が人で＿＿＿感じがした。",
-            "opt": [
-                "<ruby>さす</ruby>・<ruby>込む<rt>こむ</rt></ruby>",
-                "<ruby>さす</ruby>・<ruby>暮れる<rt>くれる</rt></ruby>",
-                "<ruby>騒ぐ<rt>さわぐ</rt></ruby>・<ruby>乾く<rt>かわく</rt></ruby>",
-                "<ruby>下がる<rt>さがる</rt></ruby>・<ruby>下げる<rt>さげる</rt></ruby>"
-            ],
-            "ans": 0,
-            "comment": "傘は <ruby>さす</ruby>、人が多い状態は <ruby>込む<rt>こむ</rt></ruby> です。"
-        },
-        {
-            "q": "悔しくてもここは＿＿＿して、次は必ず＿＿＿つもりだ。",
-            "opt": [
-                "がまんする・<ruby>勝つ<rt>かつ</rt></ruby>",
-                "がまんする・<ruby>壊す<rt>こわす</rt></ruby>",
-                "<ruby>考える<rt>かんがえる</rt></ruby>・<ruby>勝つ<rt>かつ</rt></ruby>",
-                "<ruby>触る<rt>さわる</rt></ruby>・<ruby>通う<rt>かよう</rt></ruby>"
-            ],
-            "ans": 0,
-            "comment": "耐えるのは がまんする、勝利するのは <ruby>勝つ<rt>かつ</rt></ruby> です。"
-        },
-        {
-            "q": "<ruby>下さる<rt>くださる</rt></ruby> の意味として正しいものはどれですか。",
-            "opt": [
-                "주시다, 존경",
-                "주다, 나에게",
-                "드리다, 겸양",
-                "있다, 정중"
-            ],
-            "ans": 0,
-            "comment": "<ruby>下さる<rt>くださる</rt></ruby> は くれる の尊敬表現です。"
-        },
-        {
-            "q": "<ruby>差し上げる<rt>さしあげる</rt></ruby> の意味として正しいものはどれですか。",
-            "opt": [
-                "드리다, 겸양",
-                "주시다, 존경",
-                "들리다",
-                "붐비다"
-            ],
-            "ans": 0,
-            "comment": "<ruby>差し上げる<rt>さしあげる</rt></ruby> は あげる の謙譲表現で、目上に渡す時に使います。"
-        },
-        {
-            "q": "<ruby>聞こえる<rt>きこえる</rt></ruby> の 의미로 가장 알맞은 것은 무엇입니까。",
-            "opt": [
-                "들리다",
-                "만지다",
-                "씹다",
-                "정리하다"
-            ],
-            "ans": 0,
-            "comment": "<ruby>聞こえる<rt>きこえる</rt></ruby> は 소리가 자연に 귀에 들어오는 뜻입니다。"
-        },
-        {
-            "q": "<ruby>変わる<rt>かわる</rt></ruby> の 의미로 가장 알맞은 것은 무엇입니까。",
-            "opt": [
-                "변하다, 바뀌다",
-                "늦다",
-                "찾다",
-                "내리다"
-            ],
-            "ans": 0,
-            "comment": "<ruby>変わる<rt>かわる</rt></ruby> は 상태나 상황이 이전과 달라지는 뜻입니다。"
-        }
-    ]
+  "title": "Day 15: 予定変更と立て直し ",
+  "story": null,
+  "analysis": [],
+  "vocab": [
+    {
+      "word": "貸す",
+      "read": "かす",
+      "mean": "빌려주다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "片づける",
+      "read": "かたづける",
+      "mean": "정리하다, 치우다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "勝つ",
+      "read": "かつ",
+      "mean": "이기다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "がまんする",
+      "read": "がまんする",
+      "mean": "참다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "噛む",
+      "read": "かむ",
+      "mean": "씹다, 물다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "通う",
+      "read": "かよう",
+      "mean": "다니다 (통학/통근)",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "借りる",
+      "read": "かりる",
+      "mean": "빌리다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "乾く",
+      "read": "かわく",
+      "mean": "마르다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "変わる",
+      "read": "かわる",
+      "mean": "변하다, 바뀌다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "考える",
+      "read": "かんがえる",
+      "mean": "생각하다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "がんばる",
+      "read": "がんばる",
+      "mean": "힘내다, 열심히 하다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "気がある",
+      "read": "きがある",
+      "mean": "마음이 있다, 관심이 있다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "聞こえる",
+      "read": "きこえる",
+      "mean": "들리다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "決まる",
+      "read": "きまる",
+      "mean": "정해지다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "決める",
+      "read": "きめる",
+      "mean": "정하다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "下さる",
+      "read": "くださる",
+      "mean": "주시다 (존경)",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "曇る",
+      "read": "くもる",
+      "mean": "흐리다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "くれる",
+      "read": "くれる",
+      "mean": "주다 (남이 나에게)",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "暮れる",
+      "read": "くれる",
+      "mean": "저물다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "ござる",
+      "read": "ござる",
+      "mean": "있다 (정중)",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "込む",
+      "read": "こむ",
+      "mean": "붐비다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "ご覧になる",
+      "read": "ごらんになる",
+      "mean": "보시다 (존경)",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "壊す",
+      "read": "こわす",
+      "mean": "부수다, 고장내다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "壊れる",
+      "read": "こわれる",
+      "mean": "부서지다, 고장나다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "探す",
+      "read": "さがす",
+      "mean": "찾다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "下がる",
+      "read": "さがる",
+      "mean": "내려가다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "下げる",
+      "read": "さげる",
+      "mean": "내리다, 낮추다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "差し上げる",
+      "read": "さしあげる",
+      "mean": "드리다 (겸양)",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "さす",
+      "read": "さす",
+      "mean": "가리키다, (우산을) 쓰다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "騒ぐ",
+      "read": "さわぐ",
+      "mean": "떠들다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "触る",
+      "read": "さわる",
+      "mean": "만지다, 손대다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    },
+    {
+      "word": "叱る",
+      "read": "しかる",
+      "mean": "꾸짖다, 야단치다",
+      "tags": [],
+      "moduleId": "n4-module-015",
+      "legacyDay": 15
+    }
+  ],
+  "quiz": []
 }

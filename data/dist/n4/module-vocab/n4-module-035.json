@@ -1,86 +1,13 @@
 {
-  "title": "Day 28: 特別な記念日とおもてなし (특별한 기념일과 환대)",
-  "story": null,
-  "analysis": [],
+  "title": "カタカナ語・4 (가타카나어 4)",
+  "moduleId": "n4-module-035",
   "vocab": [
-    {
-      "word": "フォーク",
-      "read": "ふぉーく",
-      "mean": "포크",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "プリント",
-      "read": "ぷりんと",
-      "mean": "프린트, 유인물",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "プレゼント",
-      "read": "ぷれぜんと",
-      "mean": "선물",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "ページ",
-      "read": "ぺーじ",
-      "mean": "페이지",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "ベッド",
-      "read": "べっど",
-      "mean": "침대",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "ペット",
-      "read": "ぺっと",
-      "mean": "애완동물",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "ベル",
-      "read": "べる",
-      "mean": "벨",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "ボート",
-      "read": "ぼーと",
-      "mean": "보트",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
-    {
-      "word": "ボール",
-      "read": "ぼーる",
-      "mean": "공",
-      "tags": [],
-      "moduleId": "n4-module-028",
-      "legacyDay": 28
-    },
     {
       "word": "ポスト",
       "read": "ぽすと",
       "mean": "우체통",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -88,7 +15,7 @@
       "read": "ますく",
       "mean": "마스크",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -96,7 +23,7 @@
       "read": "まっち",
       "mean": "성냥",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -104,7 +31,7 @@
       "read": "めろん",
       "mean": "멜론",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -112,7 +39,7 @@
       "read": "らじかせ",
       "mean": "라디오 카세트",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -120,7 +47,7 @@
       "read": "るーる",
       "mean": "룰, 규칙",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -128,7 +55,7 @@
       "read": "れこーど",
       "mean": "레코드",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -136,7 +63,7 @@
       "read": "れじ",
       "mean": "계산대",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -144,7 +71,7 @@
       "read": "れべる",
       "mean": "레벨, 수준",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -152,7 +79,7 @@
       "read": "れぽーと",
       "mean": "리포트",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -160,7 +87,7 @@
       "read": "わーぷろ",
       "mean": "워드 프로세서",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -168,7 +95,7 @@
       "read": "わいしゃつ",
       "mean": "와이셔츠",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -176,7 +103,7 @@
       "read": "わんぴーす",
       "mean": "원피스",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -184,7 +111,7 @@
       "read": "いってまいります",
       "mean": "다녀오겠습니다",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -192,7 +119,7 @@
       "read": "いってらっしゃい",
       "mean": "다녀오세요",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -200,7 +127,7 @@
       "read": "おかえりなさい",
       "mean": "어서 오세요, 다녀오셨어요",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -208,7 +135,7 @@
       "read": "おかげさまで",
       "mean": "덕분에요",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -216,7 +143,7 @@
       "read": "おげんきですか",
       "mean": "잘 지내시나요",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -224,7 +151,7 @@
       "read": "おだいじに",
       "mean": "몸조리 잘하세요",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -232,7 +159,7 @@
       "read": "おまたせしました",
       "mean": "기다리게 했습니다",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -240,7 +167,7 @@
       "read": "おめでとうございます",
       "mean": "축하합니다",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -248,7 +175,7 @@
       "read": "かしこまりました",
       "mean": "알겠습니다 (겸양)",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -256,7 +183,7 @@
       "read": "ただいま",
       "mean": "다녀왔습니다",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     },
     {
@@ -264,9 +191,8 @@
       "read": "ようこそ",
       "mean": "환영합니다, 어서 오세요",
       "tags": [],
-      "moduleId": "n4-module-028",
+      "moduleId": "n4-module-035",
       "legacyDay": 28
     }
-  ],
-  "quiz": []
+  ]
 }

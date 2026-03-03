@@ -1,14 +1,61 @@
 {
-  "title": "Day 23: 予期せぬ再会 (예기치 못한 재회)",
-  "story": null,
-  "analysis": [],
+  "title": "な形容詞・1 (な형용사 1)",
+  "moduleId": "n4-module-029",
   "vocab": [
+    {
+      "word": "下手な",
+      "read": "へたな",
+      "mean": "서툰",
+      "tags": [],
+      "moduleId": "n4-module-029",
+      "legacyDay": 22
+    },
+    {
+      "word": "別な",
+      "read": "べつな",
+      "mean": "별다른, 딴",
+      "tags": [],
+      "moduleId": "n4-module-029",
+      "legacyDay": 22
+    },
+    {
+      "word": "変な",
+      "read": "へんな",
+      "mean": "이상한",
+      "tags": [],
+      "moduleId": "n4-module-029",
+      "legacyDay": 22
+    },
+    {
+      "word": "真面目な",
+      "read": "まじめな",
+      "mean": "성실한",
+      "tags": [],
+      "moduleId": "n4-module-029",
+      "legacyDay": 22
+    },
+    {
+      "word": "無理な",
+      "read": "むりな",
+      "mean": "무리한",
+      "tags": [],
+      "moduleId": "n4-module-029",
+      "legacyDay": 22
+    },
+    {
+      "word": "立派な",
+      "read": "りっぱな",
+      "mean": "훌륭한",
+      "tags": [],
+      "moduleId": "n4-module-029",
+      "legacyDay": 22
+    },
     {
       "word": "あんなに",
       "read": "あんなに",
       "mean": "저렇게",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -16,7 +63,7 @@
       "read": "いかが",
       "mean": "어떻게, 어떠신지",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -24,7 +71,7 @@
       "read": "いくら",
       "mean": "얼마",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -32,7 +79,7 @@
       "read": "いちいち",
       "mean": "일일이",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -40,7 +87,7 @@
       "read": "いつか",
       "mean": "언젠가",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -48,7 +95,7 @@
       "read": "いったい",
       "mean": "도대체",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -56,7 +103,7 @@
       "read": "いっぱい",
       "mean": "가득",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -64,7 +111,7 @@
       "read": "おや",
       "mean": "어라, 어머 (감탄사)",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -72,7 +119,7 @@
       "read": "かなり",
       "mean": "꽤, 상당히",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -80,7 +127,7 @@
       "read": "きっと",
       "mean": "분명, 꼭",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -88,7 +135,7 @@
       "read": "きゅうに",
       "mean": "갑자기",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -96,7 +143,7 @@
       "read": "けっこう",
       "mean": "제법, 꽤",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -104,7 +151,7 @@
       "read": "これから",
       "mean": "이제부터, 앞으로",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -112,7 +159,7 @@
       "read": "こんなに",
       "mean": "이렇게",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -120,7 +167,7 @@
       "read": "すっかり",
       "mean": "완전히, 죄다",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -128,7 +175,7 @@
       "read": "ずっと",
       "mean": "계속, 훨씬",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -136,7 +183,7 @@
       "read": "ぜんぜん",
       "mean": "전혀",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -144,7 +191,7 @@
       "read": "それほど",
       "mean": "그다지, 그만큼",
       "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     },
     {
@@ -152,49 +199,8 @@
       "read": "そんなに",
       "mean": "그렇게",
       "tags": [],
-      "moduleId": "n4-module-023",
-      "legacyDay": 23
-    },
-    {
-      "word": "大体",
-      "read": "だいたい",
-      "mean": "대강, 대개",
-      "tags": [],
-      "moduleId": "n4-module-023",
-      "legacyDay": 23
-    },
-    {
-      "word": "大抵",
-      "read": "たいてい",
-      "mean": "대개, 대부분",
-      "tags": [],
-      "moduleId": "n4-module-023",
-      "legacyDay": 23
-    },
-    {
-      "word": "だいぶ",
-      "read": "だいぶ",
-      "mean": "꽤, 상당히",
-      "tags": [],
-      "moduleId": "n4-module-023",
-      "legacyDay": 23
-    },
-    {
-      "word": "確か",
-      "read": "たしか",
-      "mean": "확실히, 아마",
-      "tags": [],
-      "moduleId": "n4-module-023",
-      "legacyDay": 23
-    },
-    {
-      "word": "例えば",
-      "read": "たとえば",
-      "mean": "예를 들어",
-      "tags": [],
-      "moduleId": "n4-module-023",
+      "moduleId": "n4-module-029",
       "legacyDay": 23
     }
-  ],
-  "quiz": []
+  ]
 }

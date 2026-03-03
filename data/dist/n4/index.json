@@ -200,6 +200,55 @@
       "title": "い・な形容詞 (이・나형용사)",
       "moduleSeq": 28,
       "vocabCount": 25
+    },
+    "n4-module-029": {
+      "moduleId": "n4-module-029",
+      "level": "n4",
+      "title": "な形容詞・1 (な형용사 1)",
+      "moduleSeq": 29,
+      "vocabCount": 25
+    },
+    "n4-module-030": {
+      "moduleId": "n4-module-030",
+      "level": "n4",
+      "title": "た行の名詞・3 (た행 명사 3)",
+      "moduleSeq": 30,
+      "vocabCount": 25
+    },
+    "n4-module-031": {
+      "moduleId": "n4-module-031",
+      "level": "n4",
+      "title": "さ行の名詞・5 (さ행 명사 5)",
+      "moduleSeq": 31,
+      "vocabCount": 24
+    },
+    "n4-module-032": {
+      "moduleId": "n4-module-032",
+      "level": "n4",
+      "title": "カタカナ語・1 (가타카나어 1)",
+      "moduleSeq": 32,
+      "vocabCount": 24
+    },
+    "n4-module-033": {
+      "moduleId": "n4-module-033",
+      "level": "n4",
+      "title": "カタカナ語・2 (가타카나어 2)",
+      "moduleSeq": 33,
+      "vocabCount": 24
+    },
+    "n4-module-034": {
+      "moduleId": "n4-module-034",
+      "level": "n4",
+      "title": "カタカナ語・3 (가타카나어 3)",
+      "moduleSeq": 34,
+      "vocabCount": 24
+    },
+    "n4-module-035": {
+      "moduleId": "n4-module-035",
+      "level": "n4",
+      "title": "カタカナ語・4 (가타카나어 4)",
+      "moduleSeq": 35,
+      "vocabCount": 24
     }
   },
   "days": {},
@@ -232,7 +281,14 @@
     "n4-module-025": 25,
     "n4-module-026": 26,
     "n4-module-027": 27,
-    "n4-module-028": 28
+    "n4-module-028": 28,
+    "n4-module-029": 29,
+    "n4-module-030": 30,
+    "n4-module-031": 31,
+    "n4-module-032": 32,
+    "n4-module-033": 33,
+    "n4-module-034": 34,
+    "n4-module-035": 35
   },
   "moduleToFile": {
     "n4-module-001": "module-vocab/n4-module-001",
@@ -262,6 +318,13 @@
     "n4-module-025": "module-vocab/n4-module-025",
     "n4-module-026": "module-vocab/n4-module-026",
     "n4-module-027": "module-vocab/n4-module-027",
-    "n4-module-028": "module-vocab/n4-module-028"
+    "n4-module-028": "module-vocab/n4-module-028",
+    "n4-module-029": "module-vocab/n4-module-029",
+    "n4-module-030": "module-vocab/n4-module-030",
+    "n4-module-031": "module-vocab/n4-module-031",
+    "n4-module-032": "module-vocab/n4-module-032",
+    "n4-module-033": "module-vocab/n4-module-033",
+    "n4-module-034": "module-vocab/n4-module-034",
+    "n4-module-035": "module-vocab/n4-module-035"
   }
 }
