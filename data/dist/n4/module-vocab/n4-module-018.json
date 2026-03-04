@@ -1,206 +1,482 @@
 {
-  "title": "よ行の名詞と接尾語 (よ행 명사와 접미사)",
-  "moduleId": "n4-module-018",
+  "title": "N4: 家族との旅館旅行 (가족과의 여관 여행)",
+  "story": "<h3>Scene 1. <ruby>旅行<rt>りょこう</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby> (여행의 예정)</h3>\n<ruby>私<rt>わたし</rt></ruby>は<ruby>両親<rt>りょうしん</rt></ruby>と<ruby>旅行<rt>りょこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。お<ruby>祝<rt>いわ</rt></ruby>いとして、<ruby>歴史<rt>れきし</rt></ruby>のある<ruby>旅館<rt>りょかん</rt></ruby>を<ruby>予約<rt>よやく</rt></ruby>しました。<ruby>予定<rt>よてい</rt></ruby>を<ruby>決<rt>き</rt></ruby>めるために、<ruby>駅員<rt>えきいん</rt></ruby>さんに<ruby>連絡<rt>れんらく</rt></ruby>しました。<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>について<ruby>聞<rt>き</rt></ruby>きました。\n<h3>Scene 2. <ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で (열차 안에서)</h3>\n<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で、<ruby>両方<rt>りょうほう</rt></ruby>の<ruby>手<rt>て</rt></ruby>でりんごを<ruby>持<rt>も</rt></ruby>って<ruby>食<rt>た</rt></ruby>べました。<ruby>父<rt>ちち</rt></ruby>は<ruby>急<rt>きゅう</rt></ruby>な<ruby>用事<rt>ようじ</rt></ruby>があって、<ruby>電話<rt>でんわ</rt></ruby>をしていました。<ruby>母<rt>はは</rt></ruby>は<ruby>雑誌<rt>ざっし</rt></ruby>みたいな<ruby>読<rt>よ</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいました。<ruby>難<rt>むずか</rt></ruby>しい<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>がわかりませんでした。\n<h3>Scene 3. <ruby>旅館<rt>りょかん</rt></ruby>での<ruby>時間<rt>じかん</rt></ruby> (여관에서의 시간)</h3>\nこのような<ruby>旅館<rt>りょかん</rt></ruby>を<ruby>利用<rt>りよう</rt></ruby>するのは<ruby>初<rt>はじ</rt></ruby>めてです。<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>老人<rt>ろうじん</rt></ruby>のおかげで、きれいな<ruby>部屋<rt>へや</rt></ruby>がわかりました。<ruby>暑<rt>あつ</rt></ruby>い<ruby>訳<rt>わけ</rt></ruby>ではなく、<ruby>冷房<rt>れいぼう</rt></ruby>がきいていてとても<ruby>涼<rt>すず</rt></ruby>しいです。<ruby>夜<rt>よる</rt></ruby>の<ruby>廊下<rt>ろうか</rt></ruby>はとても<ruby>静<rt>しず</rt></ruby>かでした。\n<h3>Scene 4. <ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby> (다음 날 아침)</h3>\n<ruby>朝<rt>あさ</rt></ruby>、<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>がないように<ruby>確認<rt>かくにん</rt></ruby>しました。<ruby>旅館<rt>りょかん</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>は<ruby>零<rt>れい</rt></ruby>で、<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しかったです。<ruby>翌年<rt>よくねん</rt></ruby>もまたここへ<ruby>来<rt>く</rt></ruby>るつもりです。<ruby>明日<rt>あした</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>の<ruby>予習<rt>よしゅう</rt></ruby>をするために、<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>りました。",
+  "analysis": [
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>両親<rt>りょうしん</rt></ruby>と<ruby>旅行<rt>りょこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "나는 부모님과 여행을 가게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다 / 결정된 예정)",
+      "tags": [
+        "私",
+        "両親",
+        "旅行"
+      ]
+    },
+    {
+      "sent": "お<ruby>祝<rt>いわ</rt></ruby>いとして、<ruby>歴史<rt>れきし</rt></ruby>のある<ruby>旅館<rt>りょかん</rt></ruby>を<ruby>予約<rt>よやく</rt></ruby>しました。",
+      "trans": "축하의 의미로서, 역사가 있는 여관을 예약했습니다.",
+      "grammar": "〜として (~로서 / 자격, 명목)",
+      "tags": [
+        "お~",
+        "歴史",
+        "旅館",
+        "予約"
+      ]
+    },
+    {
+      "sent": "<ruby>予定<rt>よてい</rt></ruby>を<ruby>決<rt>き</rt></ruby>めるために、<ruby>駅員<rt>えきいん</rt></ruby>さんに<ruby>連絡<rt>れんらく</rt></ruby>しました。",
+      "trans": "예정을 정하기 위해, 역무원에게 연락했습니다.",
+      "grammar": "〜ために (~하기 위해 / 목적)",
+      "tags": [
+        "予定",
+        "~員",
+        "連絡"
+      ]
+    },
+    {
+      "sent": "<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>について<ruby>聞<rt>き</rt></ruby>きました。",
+      "trans": "열차 시간에 대하여 물었습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "列車"
+      ]
+    },
+    {
+      "sent": "<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で、<ruby>両方<rt>りょうほう</rt></ruby>の<ruby>手<rt>て</rt></ruby>でりんごを<ruby>持<rt>も</rt></ruby>って<ruby>食<rt>た</rt></ruby>べました。",
+      "trans": "열차 안에서, 양쪽 손으로 사과를 들고 먹었습니다.",
+      "grammar": "〜で (~으로 / 수단, 방법)",
+      "tags": [
+        "両方",
+        "りんご"
+      ]
+    },
+    {
+      "sent": "<ruby>父<rt>ちち</rt></ruby>は<ruby>急<rt>きゅう</rt></ruby>な<ruby>用事<rt>ようじ</rt></ruby>があって、<ruby>電話<rt>でんわ</rt></ruby>をしていました。",
+      "trans": "아버지는 급한 볼일이 있어서, 전화를 하고 있었습니다.",
+      "grammar": "〜て (~하고, ~해서 / 이유)",
+      "tags": [
+        "用事"
+      ]
+    },
+    {
+      "sent": "<ruby>母<rt>はは</rt></ruby>は<ruby>雑誌<rt>ざっし</rt></ruby>みたいな<ruby>読<rt>よ</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいました。",
+      "trans": "어머니는 잡지 같은 읽을거리를 읽고 있었습니다.",
+      "grammar": "〜みたいに/な (~같은 / 비유)",
+      "tags": [
+        "読み物"
+      ]
+    },
+    {
+      "sent": "<ruby>難<rt>むずか</rt></ruby>しい<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>がわかりませんでした。",
+      "trans": "어려운 한자의 읽는 법을 몰랐습니다.",
+      "grammar": "〜方がわかる (~하는 방법을 알다)",
+      "tags": [
+        "読み方"
+      ]
+    },
+    {
+      "sent": "このような<ruby>旅館<rt>りょかん</rt></ruby>を<ruby>利用<rt>りよう</rt></ruby>するのは<ruby>初<rt>はじ</rt></ruby>めてです。",
+      "trans": "이러한 여관을 이용하는 것은 처음입니다.",
+      "grammar": "〜のは (~하는 것은 / 명사화)",
+      "tags": [
+        "利用"
+      ]
+    },
+    {
+      "sent": "<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>老人<rt>ろうじん</rt></ruby>のおかげで、きれいな<ruby>部屋<rt>へや</rt></ruby>がわかりました。",
+      "trans": "친절한 노인 덕분에, 깨끗한 방을 알았습니다.",
+      "grammar": "〜のおかげで (~덕분에 / 긍정적인 이유)",
+      "tags": [
+        "老人"
+      ]
+    },
+    {
+      "sent": "<ruby>暑<rt>あつ</rt></ruby>い<ruby>訳<rt>わけ</rt></ruby>ではなく、<ruby>冷房<rt>れいぼう</rt></ruby>がきいていてとても<ruby>涼<rt>すず</rt></ruby>しいです。",
+      "trans": "더운 것이 아니라, 냉방이 잘 되어 있어서 매우 시원합니다.",
+      "grammar": "〜訳ではない (~인 것은 아니다 / 부분 부정)",
+      "tags": [
+        "訳",
+        "冷房"
+      ]
+    },
+    {
+      "sent": "<ruby>夜<rt>よる</rt></ruby>の<ruby>廊下<rt>ろうか</rt></ruby>はとても<ruby>静<rt>しず</rt></ruby>かでした。",
+      "trans": "밤의 복도는 매우 조용했습니다.",
+      "grammar": "〜でした (과거형)",
+      "tags": [
+        "廊下"
+      ]
+    },
+    {
+      "sent": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>がないように<ruby>確認<rt>かくにん</rt></ruby>しました。",
+      "trans": "아침에, 분실물이 없도록 확인했습니다.",
+      "grammar": "〜ように (~하도록 / 목적)",
+      "tags": [
+        "忘れ物"
+      ]
+    },
+    {
+      "sent": "<ruby>旅館<rt>りょかん</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>は<ruby>零<rt>れい</rt></ruby>で、<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しかったです。",
+      "trans": "여관의 문제는 제로(0)였고, 정말 즐거웠습니다.",
+      "grammar": "〜で (~이고 / 명사의 병렬)",
+      "tags": [
+        "零"
+      ]
+    },
+    {
+      "sent": "<ruby>翌年<rt>よくねん</rt></ruby>もまたここへ<ruby>来<rt>く</rt></ruby>るつもりです。",
+      "trans": "이듬해에도 또 이곳에 올 생각입니다.",
+      "grammar": "〜つもりだ (~할 작정이다 / 의도)",
+      "tags": [
+        "翌年"
+      ]
+    },
+    {
+      "sent": "<ruby>明日<rt>あした</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>の<ruby>予習<rt>よしゅう</rt></ruby>をするために、<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>りました。",
+      "trans": "내일 학교 예습을 하기 위해, 일찍 집으로 돌아갔습니다.",
+      "grammar": "〜ために (~하기 위해 / 목적)",
+      "tags": [
+        "予習"
+      ]
+    }
+  ],
   "vocab": [
     {
-      "word": "用事",
-      "read": "ようじ",
-      "mean": "용건, 볼일",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "翌年",
-      "read": "よくねん",
-      "mean": "이듬해",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "予習",
-      "read": "よしゅう",
-      "mean": "예습",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "予定",
-      "read": "よてい",
-      "mean": "예정",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "読み方",
-      "read": "よみかた",
-      "mean": "읽는 법",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "読み物",
-      "read": "よみもの",
-      "mean": "읽을거리",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "予約",
-      "read": "よやく",
-      "mean": "예약",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "利用",
-      "read": "りよう",
-      "mean": "이용",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "両親",
-      "read": "りょうしん",
-      "mean": "부모님",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "両方",
-      "read": "りょうほう",
-      "mean": "양쪽",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "旅館",
-      "read": "りょかん",
-      "mean": "여관",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "旅行",
-      "read": "りょこう",
-      "mean": "여행",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "りんご",
-      "read": "りんご",
-      "mean": "사과",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "零",
-      "read": "れい",
-      "mean": "영, 제로",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "冷房",
-      "read": "れいぼう",
-      "mean": "냉방",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "歴史",
-      "read": "れきし",
-      "mean": "역사",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "列車",
-      "read": "れっしゃ",
-      "mean": "열차",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "連絡",
-      "read": "れんらく",
-      "mean": "연락",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "廊下",
-      "read": "ろうか",
-      "mean": "복도",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "老人",
-      "read": "ろうじん",
-      "mean": "노인",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "訳",
-      "read": "わけ",
-      "mean": "이유, 사정",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "忘れ物",
-      "read": "わすれもの",
-      "mean": "분실물",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
-      "word": "私",
-      "read": "わたし",
-      "mean": "나, 저",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 11
-    },
-    {
+      "id": "v-001",
       "word": "お~",
       "read": "お~",
       "mean": "존경, 미화의 접두어",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 12
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-002",
+      "word": "用事",
+      "read": "ようじ",
+      "mean": "용건, 볼일",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-003",
+      "word": "翌年",
+      "read": "よくねん",
+      "mean": "이듬해",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-004",
+      "word": "予習",
+      "read": "よしゅう",
+      "mean": "예습",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-005",
+      "word": "予定",
+      "read": "よてい",
+      "mean": "예정",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-006",
+      "word": "読み方",
+      "read": "よみかた",
+      "mean": "읽는 법",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-007",
+      "word": "読み物",
+      "read": "よみもの",
+      "mean": "읽을거리",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-008",
+      "word": "予約",
+      "read": "よやく",
+      "mean": "예약",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-009",
+      "word": "利用",
+      "read": "りよう",
+      "mean": "이용",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-010",
+      "word": "両親",
+      "read": "りょうしん",
+      "mean": "부모님",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-011",
+      "word": "両方",
+      "read": "りょうほう",
+      "mean": "양쪽",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-012",
+      "word": "旅館",
+      "read": "りょかん",
+      "mean": "여관",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-013",
+      "word": "旅行",
+      "read": "りょこう",
+      "mean": "여행",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-014",
+      "word": "りんご",
+      "read": "りんご",
+      "mean": "사과",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-015",
+      "word": "零",
+      "read": "れい",
+      "mean": "영, 제로",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-016",
+      "word": "冷房",
+      "read": "れいぼう",
+      "mean": "냉방",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-017",
+      "word": "歴史",
+      "read": "れきし",
+      "mean": "역사",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-018",
+      "word": "列車",
+      "read": "れっしゃ",
+      "mean": "열차",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-019",
+      "word": "連絡",
+      "read": "れんらく",
+      "mean": "연락",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-020",
+      "word": "廊下",
+      "read": "ろうか",
+      "mean": "복도",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-021",
+      "word": "老人",
+      "read": "ろうじん",
+      "mean": "노인",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-022",
+      "word": "訳",
+      "read": "わけ",
+      "mean": "이유, 사정",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-023",
+      "word": "忘れ物",
+      "read": "わすれもの",
+      "mean": "분실물",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-024",
+      "word": "私",
+      "read": "わたし",
+      "mean": "나, 저",
+      "tags": [
+        "noun"
+      ]
+    },
+    {
+      "id": "v-025",
       "word": "~員",
       "read": "~いん",
       "mean": "~원 (직업, 소속)",
-      "tags": [],
-      "moduleId": "n4-module-018",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「旅館」の読み方は何ですか。",
+      "opt": [
+        "りょこう",
+        "ろかん",
+        "りょかん",
+        "ろこう"
+      ],
+      "ans": 2,
+      "comment": "旅館(りょかん)은 '여관'이라는 뜻입니다."
+    },
+    {
+      "q": "「冷房」の読み方は何ですか。",
+      "opt": [
+        "れいほう",
+        "れいぼう",
+        "りょうほう",
+        "りょうぼう"
+      ],
+      "ans": 1,
+      "comment": "冷房(れいぼう)는 '냉방'이라는 뜻입니다."
+    },
+    {
+      "q": "「廊下」の読み方は何ですか。",
+      "opt": [
+        "ろうか",
+        "ろっか",
+        "どうか",
+        "ろうが"
+      ],
+      "ans": 0,
+      "comment": "廊下(ろうか)는 '복도'라는 뜻입니다."
+    },
+    {
+      "q": "「翌年」の読み方は何ですか。",
+      "opt": [
+        "よくとし",
+        "らいねん",
+        "よくねん",
+        "よくにん"
+      ],
+      "ans": 2,
+      "comment": "翌年(よくねん)은 '이듬해'라는 뜻입니다."
+    },
+    {
+      "q": "「부모님」を日本語で書くと何ですか。",
+      "opt": [
+        "両方",
+        "両親",
+        "老人",
+        "私"
+      ],
+      "ans": 1,
+      "comment": "両親(りょうしん)은 '부모님'이라는 뜻입니다."
+    },
+    {
+      "q": "「용건, 볼일」を日本語で書くと何ですか。",
+      "opt": [
+        "予定",
+        "予約",
+        "予習",
+        "用事"
+      ],
+      "ans": 3,
+      "comment": "用事(ようじ)는 '용건, 볼일'이라는 뜻입니다."
+    },
+    {
+      "q": "「이유, 사정」を日本語で書くと何ですか。",
+      "opt": [
+        "零",
+        "訳",
+        "連絡",
+        "歴史"
+      ],
+      "ans": 1,
+      "comment": "訳(わけ)는 '이유, 사정'이라는 뜻입니다."
+    },
+    {
+      "q": "会議の予定______話し合いました。",
+      "opt": [
+        "として",
+        "について",
+        "みたいに",
+        "ために"
+      ],
+      "ans": 1,
+      "comment": "주제를 나타내는 「〜について」(~에 대하여)가 알맞습니다."
+    },
+    {
+      "q": "先生の______、試験に合格できました。",
+      "opt": [
+        "について",
+        "ために",
+        "おかげで",
+        "みたいに"
+      ],
+      "ans": 2,
+      "comment": "긍정적인 이유를 나타내는 「〜のおかげで」(~덕분에)가 알맞습니다."
+    },
+    {
+      "q": "お祝い______、プレゼントを買いました。",
+      "opt": [
+        "おかげで",
+        "みたいに",
+        "について",
+        "として"
+      ],
+      "ans": 3,
+      "comment": "자격이나 명목을 나타내는 「〜として」(~로서)가 알맞습니다."
     }
   ]
 }
