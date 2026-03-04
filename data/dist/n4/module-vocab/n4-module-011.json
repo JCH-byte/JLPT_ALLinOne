@@ -1,206 +1,492 @@
 {
-  "title": "せ・た行の名詞 (せ・た행 명사)",
-  "moduleId": "n4-module-011",
+  "title": "N4: 대학 생활과 진로",
+  "story": "<h3>Scene 1. <ruby>先輩<rt>せんぱい</rt></ruby>との<ruby>相談<rt>そうだん</rt></ruby> (선배와의 상담)</h3>\n<ruby>私<rt>わたし</rt></ruby>は<ruby>大学生<rt>だいがくせい</rt></ruby>です。<ruby>卒業<rt>そつぎょう</rt></ruby>の<ruby>進路<rt>しんろ</rt></ruby>について、<ruby>先輩<rt>せんぱい</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>しました。<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>専門<rt>せんもん</rt></ruby>は<ruby>政治<rt>せいじ</rt></ruby>です。いい<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るために、もっと<ruby>勉強<rt>べんきょう</rt></ruby>するつもりです。\n<h3>Scene 2. <ruby>祖父<rt>そふ</rt></ruby>と<ruby>祖母<rt>そぼ</rt></ruby> (할아버지와 할머니)</h3>\n<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>祖父<rt>そふ</rt></ruby>と<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。いつもお<ruby>世話<rt>せわ</rt></ruby>になっているので、<ruby>掃除<rt>そうじ</rt></ruby>や<ruby>洗濯<rt>せんたく</rt></ruby>をしました。<ruby>祖父<rt>そふ</rt></ruby>の<ruby>背中<rt>せなか</rt></ruby>は、<ruby>昔<rt>むかし</rt></ruby>みたいに<ruby>広<rt>ひろ</rt></ruby>くないです。<ruby>祖母<rt>そぼ</rt></ruby>のおかげで、<ruby>美味<rt>おい</rt></ruby>しいご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。\n<h3>Scene 3. <ruby>世界<rt>せかい</rt></ruby>のニュース (세계의 뉴스)</h3>\nテレビで<ruby>世界<rt>せかい</rt></ruby>のニュースを<ruby>見<rt>み</rt></ruby>ました。<ruby>西洋<rt>せいよう</rt></ruby>で<ruby>戦争<rt>せんそう</rt></ruby>が<ruby>起<rt>お</rt></ruby>きているという<ruby>説明<rt>せつめい</rt></ruby>がありました。<ruby>世界中<rt>せかいじゅう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>平和<rt>へいわ</rt></ruby>を<ruby>祈<rt>いの</rt></ruby>っています。<ruby>明日<rt>あした</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>の<ruby>全体<rt>ぜんたい</rt></ruby>に<ruby>台風<rt>たいふう</rt></ruby>が<ruby>来<rt>く</rt></ruby>ることになりました。<ruby>全国<rt>ぜんこく</rt></ruby>で<ruby>強<rt>つよ</rt></ruby>い<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうです。\n<h3>Scene 4. <ruby>大使館<rt>たいしかん</rt></ruby>へ (대사관으로)</h3>\n<ruby>先々月<rt>せんせんげつ</rt></ruby>から<ruby>留学<rt>りゅうがく</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>をしています。<ruby>先々週<rt>せんせんしゅう</rt></ruby>、<ruby>面接<rt>めんせつ</rt></ruby>の<ruby>時<rt>とき</rt></ruby>に<ruby>着<rt>き</rt></ruby>る<ruby>背広<rt>せびろ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<ruby>今日<rt>きょう</rt></ruby>はビザをもらうために<ruby>大使館<rt>たいしかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>大使館<rt>たいしかん</rt></ruby>の<ruby>外側<rt>そとがわ</rt></ruby>で<ruby>友達<rt>ともだち</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちました。",
+  "analysis": [
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学生<rt>だいがくせい</rt></ruby>です。",
+      "trans": "저는 대학생입니다.",
+      "grammar": "~です (이다/습니다)",
+      "tags": [
+        "大学生"
+      ]
+    },
+    {
+      "sent": "<ruby>卒業<rt>そつぎょう</rt></ruby>の<ruby>進路<rt>しんろ</rt></ruby>について、<ruby>先輩<rt>せんぱい</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>しました。",
+      "trans": "졸업 진로에 대하여, 선배에게 상담했습니다.",
+      "grammar": "~について (~에 대하여)",
+      "tags": [
+        "卒業",
+        "先輩",
+        "相談"
+      ]
+    },
+    {
+      "sent": "<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>専門<rt>せんもん</rt></ruby>は<ruby>政治<rt>せいじ</rt></ruby>です。",
+      "trans": "선배의 전공(전문)은 정치입니다.",
+      "grammar": "~は (은/는)",
+      "tags": [
+        "先輩",
+        "専門",
+        "政治"
+      ]
+    },
+    {
+      "sent": "いい<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るために、もっと<ruby>勉強<rt>べんきょう</rt></ruby>するつもりです。",
+      "trans": "좋은 회사에 들어가기 위해, 더 공부할 생각입니다.",
+      "grammar": "~ために (~하기 위해), ~つもりだ (~할 생각이다)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>祖父<rt>そふ</rt></ruby>と<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "주말에는 할아버지와 할머니의 집에 갔습니다.",
+      "grammar": "~へ行く (~에 가다)",
+      "tags": [
+        "祖父",
+        "祖母"
+      ]
+    },
+    {
+      "sent": "いつもお<ruby>世話<rt>せわ</rt></ruby>になっているので、<ruby>掃除<rt>そうじ</rt></ruby>や<ruby>洗濯<rt>せんたく</rt></ruby>をしました。",
+      "trans": "항상 신세를 지고 있으므로, 청소나 세탁을 했습니다.",
+      "grammar": "~ので (~때문에/이므로), ~や (~랑/이나)",
+      "tags": [
+        "世話",
+        "掃除",
+        "洗濯"
+      ]
+    },
+    {
+      "sent": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>背中<rt>せなか</rt></ruby>は、<ruby>昔<rt>むかし</rt></ruby>みたいに<ruby>広<rt>ひろ</rt></ruby>くないです。",
+      "trans": "할아버지의 등은, 옛날처럼 넓지 않습니다.",
+      "grammar": "~みたいに (~처럼)",
+      "tags": [
+        "祖父",
+        "背中"
+      ]
+    },
+    {
+      "sent": "<ruby>祖母<rt>そぼ</rt></ruby>のおかげで、<ruby>美味<rt>おい</rt></ruby>しいご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。",
+      "trans": "할머니 덕분에, 맛있는 밥을 먹었습니다.",
+      "grammar": "~のおかげで (~덕분에)",
+      "tags": [
+        "祖母"
+      ]
+    },
+    {
+      "sent": "テレビで<ruby>世界<rt>せかい</rt></ruby>のニュースを<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "TV로 세계 뉴스를 보았습니다.",
+      "grammar": "で (수단/방법)",
+      "tags": [
+        "世界"
+      ]
+    },
+    {
+      "sent": "<ruby>西洋<rt>せいよう</rt></ruby>で<ruby>戦争<rt>せんそう</rt></ruby>が<ruby>起<rt>お</rt></ruby>きているという<ruby>説明<rt>せつめい</rt></ruby>がありました。",
+      "trans": "서양에서 전쟁이 일어나고 있다는 설명이 있었습니다.",
+      "grammar": "~という (~라고 하는)",
+      "tags": [
+        "西洋",
+        "戦争",
+        "説明"
+      ]
+    },
+    {
+      "sent": "<ruby>世界中<rt>せかいじゅう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>平和<rt>へいわ</rt></ruby>を<ruby>祈<rt>いの</rt></ruby>っています。",
+      "trans": "전 세계의 사람이 평화를 기도하고 있습니다.",
+      "grammar": "~ている (진행 상태)",
+      "tags": [
+        "世界中"
+      ]
+    },
+    {
+      "sent": "<ruby>明日<rt>あした</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>の<ruby>全体<rt>ぜんたい</rt></ruby>に<ruby>台風<rt>たいふう</rt></ruby>が<ruby>来<rt>く</rt></ruby>ることになりました。",
+      "trans": "내일, 일본 전체에 태풍이 오게 되었습니다.",
+      "grammar": "~ことになる (~하게 되다)",
+      "tags": [
+        "全体",
+        "台風"
+      ]
+    },
+    {
+      "sent": "<ruby>全国<rt>ぜんこく</rt></ruby>で<ruby>強<rt>つよ</rt></ruby>い<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうです。",
+      "trans": "전국에 강한 비가 내린다고 합니다.",
+      "grammar": "~そうです (전문/듣건대 ~라고 한다)",
+      "tags": [
+        "全国"
+      ]
+    },
+    {
+      "sent": "<ruby>先々月<rt>せんせんげつ</rt></ruby>から<ruby>留学<rt>りゅうがく</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>をしています。",
+      "trans": "지지난 달부터 유학 준비를 하고 있습니다.",
+      "grammar": "~から (~부터)",
+      "tags": [
+        "先々月"
+      ]
+    },
+    {
+      "sent": "<ruby>先々週<rt>せんせんしゅう</rt></ruby>、<ruby>面接<rt>めんせつ</rt></ruby>の<ruby>時<rt>とき</rt></ruby>に<ruby>着<rt>き</rt></ruby>る<ruby>背広<rt>せびろ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "지지난 주, 면접 때 입을 양복을 샀습니다.",
+      "grammar": "명사 수식",
+      "tags": [
+        "先々週",
+        "背広"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>はビザをもらうために<ruby>大使館<rt>たいしかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "오늘은 비자를 받기 위해 대사관에 갔습니다.",
+      "grammar": "~ために (~하기 위해)",
+      "tags": [
+        "大使館"
+      ]
+    },
+    {
+      "sent": "<ruby>大使館<rt>たいしかん</rt></ruby>の<ruby>外側<rt>そとがわ</rt></ruby>で<ruby>友達<rt>ともだち</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちました。",
+      "trans": "대사관 바깥쪽에서 친구를 기다렸습니다.",
+      "grammar": "で (장소)",
+      "tags": [
+        "大使館",
+        "外側"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "政治",
       "read": "せいじ",
       "mean": "정치",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "西洋",
       "read": "せいよう",
       "mean": "서양",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "世界",
       "read": "せかい",
       "mean": "세계",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "世界中",
       "read": "せかいじゅう",
       "mean": "전 세계",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "説明",
       "read": "せつめい",
       "mean": "설명",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "背中",
       "read": "せなか",
       "mean": "등",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "背広",
       "read": "せびろ",
       "mean": "신사복, 양복",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "世話",
       "read": "せわ",
       "mean": "돌봄, 보살핌",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "全国",
       "read": "ぜんこく",
       "mean": "전국",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "先々月",
       "read": "せんせんげつ",
       "mean": "지지난달",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "先々週",
       "read": "せんせんしゅう",
       "mean": "지지난주",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "戦争",
       "read": "せんそう",
       "mean": "전쟁",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "全体",
       "read": "ぜんたい",
       "mean": "전체",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "洗濯",
       "read": "せんたく",
       "mean": "세탁",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "先輩",
       "read": "せんぱい",
       "mean": "선배",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "専門",
       "read": "せんもん",
       "mean": "전문",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "掃除",
       "read": "そうじ",
       "mean": "청소",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "相談",
       "read": "そうだん",
       "mean": "상담, 의논",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "卒業",
       "read": "そつぎょう",
       "mean": "졸업",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "外側",
       "read": "そとがわ",
       "mean": "바깥쪽, 외측",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "祖父",
       "read": "そふ",
       "mean": "할아버지 (자신의)",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "祖母",
       "read": "そぼ",
       "mean": "할머니 (자신의)",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "大学生",
       "read": "だいがくせい",
       "mean": "대학생",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "大使館",
       "read": "たいしかん",
       "mean": "대사관",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "台風",
       "read": "たいふう",
       "mean": "태풍",
-      "tags": [],
-      "moduleId": "n4-module-011",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「政治」の読み方は何ですか。",
+      "opt": [
+        "せいし",
+        "せいじ",
+        "せじ",
+        "ぜいじ"
+      ],
+      "ans": 1,
+      "comment": "政治(せいじ)는 '정치'라는 뜻입니다."
+    },
+    {
+      "q": "「洗濯」の読み方は何ですか。",
+      "opt": [
+        "せんたく",
+        "ぜんたく",
+        "せんたぐ",
+        "せんだけ"
+      ],
+      "ans": 0,
+      "comment": "洗濯(せんたく)는 '세탁'이라는 뜻입니다."
+    },
+    {
+      "q": "「卒業」の読み方は何ですか。",
+      "opt": [
+        "そつぎょ",
+        "そつぎょう",
+        "そつきょう",
+        "そつきょ"
+      ],
+      "ans": 1,
+      "comment": "卒業(そつぎょう)는 '졸업'이라는 뜻입니다."
+    },
+    {
+      "q": "「大使館」の読み方は何ですか。",
+      "opt": [
+        "だいしかん",
+        "たいじかん",
+        "たいしかん",
+        "だいじかん"
+      ],
+      "ans": 2,
+      "comment": "大使館(たいしかん)은 '대사관'이라는 뜻입니다."
+    },
+    {
+      "q": "「청소」を日本語で書くと何ですか。",
+      "opt": [
+        "掃除",
+        "洗濯",
+        "世話",
+        "相談"
+      ],
+      "ans": 0,
+      "comment": "掃除(そうじ)는 '청소'라는 뜻입니다."
+    },
+    {
+      "q": "「태풍」を日本語で書くと何ですか。",
+      "opt": [
+        "地震",
+        "台風",
+        "戦争",
+        "政治"
+      ],
+      "ans": 1,
+      "comment": "台風(たいふう)는 '태풍'이라는 뜻입니다."
+    },
+    {
+      "q": "「상담」を日本語で書くと何ですか。",
+      "opt": [
+        "専門",
+        "説明",
+        "相談",
+        "世話"
+      ],
+      "ans": 2,
+      "comment": "相談(そうだん)은 '상담, 의논'이라는 뜻입니다."
+    },
+    {
+      "q": "卒業の進路______、先輩に相談しました。",
+      "opt": [
+        "について",
+        "ために",
+        "のおかげで",
+        "みたいに"
+      ],
+      "ans": 0,
+      "comment": "대상을 나타내는 「〜について」(~에 대하여)가 알맞습니다."
+    },
+    {
+      "q": "いい会社に入る______、もっと勉強するつもりです。",
+      "opt": [
+        "として",
+        "みたいに",
+        "ために",
+        "について"
+      ],
+      "ans": 2,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "明日、日本に台風が来る______。",
+      "opt": [
+        "みたいです",
+        "ことになりました",
+        "のおかげです",
+        "ためです"
+      ],
+      "ans": 1,
+      "comment": "결정된 예정을 나타내는 「〜ことになりました」(~하게 되었습니다)가 알맞습니다."
     }
   ]
 }
