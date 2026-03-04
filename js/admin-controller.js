@@ -156,27 +156,40 @@ async function loadModuleList(level) {
     if (!select) return;
     select.innerHTML = '<option value="">로딩 중...</option>';
     try {
-        const response = await fetch('data/src/module-metadata.json');
-        const metadata = await response.json();
-        const modules = metadata?.levels?.[level]?.modules || [];
+        const response = await fetch(`data/dist/${level}/index.json`);
+        const index = await response.json();
+        const modulesObj = index?.modules || {};
+        const moduleIds = Object.keys(modulesObj).sort((a, b) => {
+            const na = parseInt(a.match(/\d+$/)?.[0] || 0);
+            const nb = parseInt(b.match(/\d+$/)?.[0] || 0);
+            return na - nb;
+        });
         select.innerHTML = '';
-        if (modules.length === 0) {
+        if (moduleIds.length === 0) {
             select.innerHTML = '<option value="">(모듈 없음)</option>';
             return;
         }
-        modules.forEach(mod => {
+        moduleIds.forEach(moduleId => {
+            const title = modulesObj[moduleId]?.title || '';
             const option = document.createElement('option');
-            option.value = mod.moduleId;
-            option.textContent = `${mod.moduleId}${mod.theme ? ` - ${mod.theme}` : ''}`;
+            option.value = moduleId;
+            option.textContent = title ? `${moduleId} - ${title}` : moduleId;
             select.appendChild(option);
         });
     } catch (e) {
         select.innerHTML = '<option value="">(로딩 실패)</option>';
-        console.error('module-metadata 로딩 실패:', e);
+        console.error('index.json 로딩 실패:', e);
     }
 }
 
 // ── GitHub Upload ─────────────────────────────────────────────────────────────
+
+function githubErrorMessage(status) {
+    if (status === 401) return `GitHub 인증 실패 (401): Token이 유효하지 않거나 만료됐습니다.\nGitHub → Settings → Developer settings → Personal access tokens에서 새 토큰을 발급하세요.`;
+    if (status === 403) return `GitHub 권한 오류 (403): Token 권한이 부족합니다.\nClassic token은 'repo' 스코프, Fine-grained token은 'Contents: Read and write' 권한이 필요합니다.`;
+    if (status === 404) return `파일을 찾을 수 없습니다 (404): 레포지토리 경로 또는 브랜치를 확인하세요.`;
+    return `GitHub API 오류 (${status})`;
+}
 
 function saveGitHubSettings() {
     const token = document.getElementById('github-token').value.trim();
@@ -213,7 +226,7 @@ async function handleGitHubUpload() {
             const existing = await getRes.json();
             sha = existing.sha;
         } else if (getRes.status !== 404) {
-            throw new Error(`파일 조회 실패: ${getRes.status}`);
+            throw new Error(githubErrorMessage(getRes.status));
         }
 
         const content = btoa(unescape(encodeURIComponent(JSON.stringify(intakeState.normalizedData, null, 2) + '\n')));
@@ -226,8 +239,7 @@ async function handleGitHubUpload() {
         });
 
         if (!putRes.ok) {
-            const err = await putRes.json();
-            throw new Error(`GitHub API 오류: ${err.message}`);
+            throw new Error(githubErrorMessage(putRes.status));
         }
 
         // index.json의 모듈 title 갱신
@@ -293,7 +305,10 @@ async function handleDeleteLearningMaterial() {
         // Helper: GitHub GET → parse JSON
         async function ghGet(path) {
             const res = await fetch(`${apiBase}/contents/${path}?ref=main`, { headers });
-            if (!res.ok) return null;
+            if (!res.ok) {
+                if (res.status !== 404) throw new Error(githubErrorMessage(res.status));
+                return null;
+            }
             const meta = await res.json();
             const decoded = new TextDecoder().decode(
                 Uint8Array.from(atob(meta.content.replace(/\n/g, '')), c => c.charCodeAt(0))
@@ -309,7 +324,7 @@ async function handleDeleteLearningMaterial() {
                 headers,
                 body: JSON.stringify({ message, content, branch: 'main', sha })
             });
-            if (!res.ok) { const e = await res.json(); throw new Error(e.message); }
+            if (!res.ok) throw new Error(githubErrorMessage(res.status));
         }
 
         // 1. module-vocab 파일에서 학습자료 삭제
