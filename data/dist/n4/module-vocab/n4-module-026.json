@@ -1,206 +1,482 @@
 {
-  "title": "動詞・7 (동사 7)",
-  "moduleId": "n4-module-026",
+  "title": "N4: 日常の変化と人々 (일상의 변화와 사람들)",
+  "story": "<h3>Scene 1. <ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>へ (친구의 집으로)</h3>\n<ruby>雨<rt>あめ</rt></ruby>がやむみたいに、<ruby>空<rt>そら</rt></ruby>が<ruby>明<rt>あか</rt></ruby>るくなりました。\nお<ruby>祝<rt>いわ</rt></ruby>いとして、プレゼントを<ruby>渡<rt>わた</rt></ruby>すために、<ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>りました。\n<ruby>道<rt>みち</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>って、<ruby>探<rt>さが</rt></ruby>していた<ruby>家<rt>いえ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけることになりました。\nでも、<ruby>約束<rt>やくそく</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れて、<ruby>急<rt>いそ</rt></ruby>いで<ruby>戻<rt>もど</rt></ruby>ります。\n\n<h3>Scene 2. お<ruby>茶<rt>ちゃ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby> (차 마시는 시간)</h3>\n<ruby>先生<rt>せんせい</rt></ruby>がお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がるために、お<ruby>湯<rt>ゆ</rt></ruby>を<ruby>沸<rt>わ</rt></ruby>かします。\n<ruby>私<rt>わたし</rt></ruby>が<ruby>先生<rt>せんせい</rt></ruby>にお<ruby>茶<rt>ちゃ</rt></ruby>について<ruby>申<rt>もう</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げました。\nお<ruby>湯<rt>ゆ</rt></ruby>が<ruby>沸<rt>わ</rt></ruby>くおかげで、<ruby>熱<rt>あつ</rt></ruby>いお<ruby>茶<rt>ちゃ</rt></ruby>ができました。\n<ruby>先生<rt>せんせい</rt></ruby>はとても<ruby>喜<rt>よろこ</rt></ruby>んで、<ruby>庭<rt>にわ</rt></ruby>の<ruby>犬<rt>いぬ</rt></ruby>にエサをやりました。\n\n<h3>Scene 3. <ruby>部屋<rt>へや</rt></ruby>での<ruby>出来事<rt>できごと</rt></ruby> (방에서의 일)</h3>\n<ruby>地震<rt>じしん</rt></ruby>みたいに、<ruby>急<rt>きゅう</rt></ruby>に<ruby>部屋<rt>へや</rt></ruby>が<ruby>揺<rt>ゆ</rt></ruby>れました。\n<ruby>火<rt>ひ</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで、<ruby>薄<rt>うす</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>が<ruby>焼<rt>や</rt></ruby>けることになりました。\n<ruby>危<rt>あぶ</rt></ruby>ないので、ここで<ruby>作業<rt>さぎょう</rt></ruby>をやめるために<ruby>火<rt>ひ</rt></ruby>を<ruby>消<rt>け</rt></ruby>します。\nやせた<ruby>猫<rt>ねこ</rt></ruby>が<ruby>来<rt>き</rt></ruby>たので、<ruby>魚<rt>さかな</rt></ruby>を<ruby>外<rt>そと</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>します。\n\n<h3>Scene 4. <ruby>楽<rt>たの</rt></ruby>しい<ruby>会話<rt>かいわ</rt></ruby> (즐거운 대화)</h3>\nはじめまして、<ruby>私<rt>わたし</rt></ruby>はキムと<ruby>申<rt>もう</rt></ruby>します。\n<ruby>美<rt>うつく</rt></ruby>しい<ruby>景色<rt>けしき</rt></ruby>について、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しました。\nこの<ruby>本<rt>ほん</rt></ruby>が<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>つおかげで、みんなが<ruby>笑<rt>わら</rt></ruby>いました。\n<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>歌<rt>うた</rt></ruby>がうまいので、<ruby>歌手<rt>かしゅ</rt></ruby>としてデビューします。",
+  "analysis": [
+    {
+      "sent": "<ruby>雨<rt>あめ</rt></ruby>がやむみたいに、<ruby>空<rt>そら</rt></ruby>が<ruby>明<rt>あか</rt></ruby>るくなりました。",
+      "trans": "비가 그치는 것처럼, 하늘이 밝아졌습니다.",
+      "grammar": "~みたいに (~처럼)",
+      "tags": [
+        "やむ"
+      ]
+    },
+    {
+      "sent": "お<ruby>祝<rt>いわ</rt></ruby>いとして、プレゼントを<ruby>渡<rt>わた</rt></ruby>すために、<ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>りました。",
+      "trans": "축하의 의미로서, 선물을 건네기 위해 친구의 집에 들렀습니다.",
+      "grammar": "~として (~로서/자격) / ~ために (~하기 위해)",
+      "tags": [
+        "渡す",
+        "寄る"
+      ]
+    },
+    {
+      "sent": "<ruby>道<rt>みち</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>って、<ruby>探<rt>さが</rt></ruby>していた<ruby>家<rt>いえ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけることになりました。",
+      "trans": "길을 건너서, 찾고 있던 집을 발견하게 되었습니다.",
+      "grammar": "~ことになる (~게 되다/결정)",
+      "tags": [
+        "渡る",
+        "見つける"
+      ]
+    },
+    {
+      "sent": "でも、<ruby>約束<rt>やくそく</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れて、<ruby>急<rt>いそ</rt></ruby>いで<ruby>戻<rt>もど</rt></ruby>ります。",
+      "trans": "하지만, 약속 시간을 잊어서, 서둘러 돌아갑니다.",
+      "grammar": "~て (이유/원인)",
+      "tags": [
+        "忘れる",
+        "戻る"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>がお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がるために、お<ruby>湯<rt>ゆ</rt></ruby>を<ruby>沸<rt>わ</rt></ruby>かします。",
+      "trans": "선생님이 차를 드시기 위해, 물을 끓입니다.",
+      "grammar": "~ために (~하기 위해)",
+      "tags": [
+        "召し上がる",
+        "沸かす"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>が<ruby>先生<rt>せんせい</rt></ruby>にお<ruby>茶<rt>ちゃ</rt></ruby>について<ruby>申<rt>もう</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げました。",
+      "trans": "제가 선생님께 차에 대해서 말씀드렸습니다.",
+      "grammar": "~について (~에 대하여)",
+      "tags": [
+        "申し上げる"
+      ]
+    },
+    {
+      "sent": "お<ruby>湯<rt>ゆ</rt></ruby>が<ruby>沸<rt>わ</rt></ruby>くおかげで、<ruby>熱<rt>あつ</rt></ruby>いお<ruby>茶<rt>ちゃ</rt></ruby>ができました。",
+      "trans": "물이 끓은 덕분에, 뜨거운 차가 완성되었습니다.",
+      "grammar": "~のおかげで (~덕분에)",
+      "tags": [
+        "沸く",
+        "熱い"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>はとても<ruby>喜<rt>よろこ</rt></ruby>んで、<ruby>庭<rt>にわ</rt></ruby>の<ruby>犬<rt>いぬ</rt></ruby>にエサをやりました。",
+      "trans": "선생님은 매우 기뻐하며, 정원의 개에게 먹이를 주었습니다.",
+      "grammar": "~て (~해서/연결)",
+      "tags": [
+        "喜ぶ",
+        "やる"
+      ]
+    },
+    {
+      "sent": "<ruby>地震<rt>じしん</rt></ruby>みたいに、<ruby>急<rt>きゅう</rt></ruby>に<ruby>部屋<rt>へや</rt></ruby>が<ruby>揺<rt>ゆ</rt></ruby>れました。",
+      "trans": "지진처럼, 갑자기 방이 흔들렸습니다.",
+      "grammar": "~みたいに (~처럼)",
+      "tags": [
+        "揺れる"
+      ]
+    },
+    {
+      "sent": "<ruby>火<rt>ひ</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで、<ruby>薄<rt>うす</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>が<ruby>焼<rt>や</rt></ruby>けることになりました。",
+      "trans": "불 근처에서, 얇은 종이가 타게 되었습니다.",
+      "grammar": "~ことになる (~게 되다/결과)",
+      "tags": [
+        "薄い",
+        "焼ける"
+      ]
+    },
+    {
+      "sent": "<ruby>危<rt>あぶ</rt></ruby>ないので、ここで<ruby>作業<rt>さぎょう</rt></ruby>をやめるために<ruby>火<rt>ひ</rt></ruby>を<ruby>消<rt>け</rt></ruby>します。",
+      "trans": "위험하므로, 여기서 작업을 그만두기 위해 불을 끕니다.",
+      "grammar": "~ために (~하기 위해)",
+      "tags": [
+        "やめる"
+      ]
+    },
+    {
+      "sent": "やせた<ruby>猫<rt>ねこ</rt></ruby>が<ruby>来<rt>き</rt></ruby>たので、<ruby>魚<rt>さかな</rt></ruby>を<ruby>外<rt>そと</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>します。",
+      "trans": "마른 고양이가 왔으므로, 물고기를 밖으로 되돌려 놓습니다.",
+      "grammar": "~ので (~때문에)",
+      "tags": [
+        "やせる",
+        "戻す"
+      ]
+    },
+    {
+      "sent": "はじめまして、<ruby>私<rt>わたし</rt></ruby>はキムと<ruby>申<rt>もう</rt></ruby>します。",
+      "trans": "처음 뵙겠습니다, 저는 김이라고 합니다.",
+      "grammar": "~と申す (~라고 합니다/겸양어)",
+      "tags": [
+        "申す"
+      ]
+    },
+    {
+      "sent": "<ruby>美<rt>うつく</rt></ruby>しい<ruby>景色<rt>けしき</rt></ruby>について、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "아름다운 경치에 대해서, 친구와 이야기했습니다.",
+      "grammar": "~について (~에 대하여)",
+      "tags": [
+        "美しい"
+      ]
+    },
+    {
+      "sent": "この<ruby>本<rt>ほん</rt></ruby>が<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>つおかげで、みんなが<ruby>笑<rt>わら</rt></ruby>いました。",
+      "trans": "이 책이 도움이 된 덕분에, 모두가 웃었습니다.",
+      "grammar": "~のおかげで (~덕분에)",
+      "tags": [
+        "役に立つ",
+        "笑う"
+      ]
+    },
+    {
+      "sent": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>歌<rt>うた</rt></ruby>がうまいので、<ruby>歌手<rt>かしゅ</rt></ruby>としてデビューします。",
+      "trans": "그녀는 노래를 잘하므로, 가수로서 데뷔합니다.",
+      "grammar": "~として (~로서/자격)",
+      "tags": [
+        "うまい"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "見つける",
       "read": "みつける",
       "mean": "찾다, 발견하다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-002",
       "word": "召し上がる",
       "read": "めしあがる",
       "mean": "드시다 (존경)",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-003",
       "word": "申し上げる",
       "read": "もうしあげる",
       "mean": "말씀드리다 (겸양)",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-004",
       "word": "申す",
       "read": "もうす",
       "mean": "말하다 (겸양)",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-005",
       "word": "戻す",
       "read": "もどす",
       "mean": "되돌리다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-006",
       "word": "戻る",
       "read": "もどる",
       "mean": "돌아가다, 되돌아오다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-007",
       "word": "役に立つ",
       "read": "やくにたつ",
       "mean": "도움이 되다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-008",
       "word": "焼ける",
       "read": "やける",
       "mean": "타다, 구워지다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-009",
       "word": "やせる",
       "read": "やせる",
       "mean": "마르다, 살이 빠지다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-010",
       "word": "やむ",
       "read": "やむ",
       "mean": "그치다 (비/눈)",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-011",
       "word": "やめる",
       "read": "やめる",
       "mean": "그만두다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-012",
       "word": "やる",
       "read": "やる",
       "mean": "주다(아랫사람/동물), 하다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-013",
       "word": "揺れる",
       "read": "ゆれる",
       "mean": "흔들리다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-014",
       "word": "寄る",
       "read": "よる",
       "mean": "들르다, 다가가다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-015",
       "word": "喜ぶ",
       "read": "よろこぶ",
       "mean": "기뻐하다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-016",
       "word": "沸かす",
       "read": "わかす",
       "mean": "끓이다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-017",
       "word": "沸く",
       "read": "わく",
       "mean": "끓다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-018",
       "word": "忘れる",
       "read": "わすれる",
       "mean": "잊다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-019",
       "word": "渡す",
       "read": "わたす",
       "mean": "건네다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-020",
       "word": "渡る",
       "read": "わたる",
       "mean": "건너다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-021",
       "word": "笑う",
       "read": "わらう",
       "mean": "웃다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-022",
       "word": "熱い",
       "read": "あつい",
       "mean": "뜨겁다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 20
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-023",
       "word": "薄い",
       "read": "うすい",
       "mean": "얇다, 연하다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 20
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-024",
       "word": "美しい",
       "read": "うつくしい",
       "mean": "아름답다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 20
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-025",
       "word": "うまい",
       "read": "うまい",
       "mean": "맛있다, 잘하다",
-      "tags": [],
-      "moduleId": "n4-module-026",
-      "legacyDay": 20
+      "tags": [
+        "adjective"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「沸かす」の読み方は何ですか。",
+      "opt": [
+        "わかす",
+        "かわす",
+        "さわぐ",
+        "かわく"
+      ],
+      "ans": 0,
+      "comment": "沸かす(わかす)는 물 등을 '끓이다'라는 뜻입니다."
+    },
+    {
+      "q": "「忘れる」の読み方は何ですか。",
+      "opt": [
+        "わすれる",
+        "おくれる",
+        "はれる",
+        "おぼえる"
+      ],
+      "ans": 0,
+      "comment": "忘れる(わすれる)는 '잊다'라는 뜻입니다."
+    },
+    {
+      "q": "「喜ぶ」の読み方は何ですか。",
+      "opt": [
+        "よろこぶ",
+        "あそぶ",
+        "えらぶ",
+        "さけぶ"
+      ],
+      "ans": 0,
+      "comment": "喜ぶ(よろこぶ)는 '기뻐하다'라는 뜻입니다."
+    },
+    {
+      "q": "「美しい」の読み方は何ですか。",
+      "opt": [
+        "うれしい",
+        "あたらしい",
+        "うつくしい",
+        "かなしい"
+      ],
+      "ans": 2,
+      "comment": "美しい(うつくしい)는 '아름답다'라는 뜻입니다."
+    },
+    {
+      "q": "「흔들리다」を日本語で書くと何ですか。",
+      "opt": [
+        "揺れる",
+        "焼ける",
+        "戻る",
+        "渡る"
+      ],
+      "ans": 0,
+      "comment": "揺れる(ゆれる)는 지진이나 바람 등에 의해 물건이 '흔들리다'라는 뜻입니다."
+    },
+    {
+      "q": "「얇다, 연하다」を日本語で書くと何ですか。",
+      "opt": [
+        "熱い",
+        "薄い",
+        "美しい",
+        "うまい"
+      ],
+      "ans": 1,
+      "comment": "薄い(うすい)는 종이나 옷재질이 '얇다' 또는 맛, 색깔 등이 '연하다'라는 뜻입니다."
+    },
+    {
+      "q": "「건너다」を日本語で書くと何ですか。",
+      "opt": [
+        "渡す",
+        "戻す",
+        "渡る",
+        "寄る"
+      ],
+      "ans": 2,
+      "comment": "渡る(わたる)는 길이나 강 등을 '건너다'라는 뜻입니다. (渡す: 건네다)"
+    },
+    {
+      "q": "先生がケーキを______ために、お茶を入れました。",
+      "opt": [
+        "召し上がる",
+        "召し上がった",
+        "申し上げる",
+        "申し上げた"
+      ],
+      "ans": 0,
+      "comment": "「~ために (~하기 위해)」 앞에는 동사의 기본형이 옵니다. 선생님이 드시는 것이므로 존경어 召し上がる(드시다)가 정답입니다."
+    },
+    {
+      "q": "薬を飲んだ______、熱が下がりました。",
+      "opt": [
+        "みたいに",
+        "について",
+        "おかげで",
+        "として"
+      ],
+      "ans": 2,
+      "comment": "긍정적인 원인이나 이유를 나타낼 때는 「~のおかげで (~덕분에)」를 사용합니다."
+    },
+    {
+      "q": "車が故障したので、旅行を______ことになりました。",
+      "opt": [
+        "やむ",
+        "やめる",
+        "やる",
+        "やせた"
+      ],
+      "ans": 1,
+      "comment": "「~ことになる (~게 되다)」 앞에는 동사의 기본형이 옵니다. 여행을 '그만두다/취소하다'라는 의미인 やめる가 문맥상 가장 적절합니다."
     }
   ]
 }
