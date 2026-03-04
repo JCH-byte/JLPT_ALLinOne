@@ -1,206 +1,494 @@
 {
-  "title": "は・ひ行の名詞 (は・ひ행 명사)",
-  "moduleId": "n4-module-015",
+  "title": "N4: 휴일의 외출과 일상",
+  "story": "<h3>Scene 1. <ruby>晴<rt>は</rt></ruby>れと<ruby>始<rt>はじ</rt></ruby>まり (맑음과 시작)</h3>\n<ruby>今日<rt>きょう</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れの<ruby>日<rt>ひ</rt></ruby>です。いい<ruby>一週間<rt>いっしゅうかん</rt></ruby>の<ruby>始<rt>はじ</rt></ruby>まりです。<ruby>顔<rt>かお</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って、ひげをそりました。<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しから<ruby>時計<rt>とけい</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。おいしい<ruby>朝<rt>あさ</rt></ruby>ごはんのために、パン<ruby>屋<rt>や</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。\n<h3>Scene 2. <ruby>久<rt>ひさ</rt></ruby>しぶりの<ruby>外出<rt>がいしゅつ</rt></ruby> (오랜만의 외출)</h3>\n<ruby>昼間<rt>ひるま</rt></ruby>は<ruby>久<rt>ひさ</rt></ruby>しぶりに<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いました。<ruby>約束<rt>やくそく</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>は<ruby>美術館<rt>びじゅつかん</rt></ruby>です。<ruby>左<rt>ひだり</rt></ruby>の<ruby>道<rt>みち</rt></ruby>をまっすぐ<ruby>歩<rt>ある</rt></ruby>いて、<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>りました。<ruby>友達<rt>ともだち</rt></ruby>のおかげで、<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>を<ruby>過<rt>す</rt></ruby>ごすことになりました。その<ruby>後<rt>あと</rt></ruby>、<ruby>百貨店<rt>ひゃっかてん</rt></ruby>で<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしました。\n<h3>Scene 3. <ruby>自然<rt>しぜん</rt></ruby>の<ruby>風景<rt>ふうけい</rt></ruby> (자연의 풍경)</h3>\n<ruby>午後<rt>ごご</rt></ruby>３<ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby>に、<ruby>林<rt>はやし</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>桜<rt>さくら</rt></ruby>の<ruby>花見<rt>はなみ</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。<ruby>白<rt>しろ</rt></ruby>い<ruby>羽<rt>はね</rt></ruby>の<ruby>鳥<rt>とり</rt></ruby>がいて、<ruby>天使<rt>てんし</rt></ruby>みたいにきれいです。<ruby>空<rt>そら</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>がとてもまぶしかったです。\n<h3>Scene 4. <ruby>夜<rt>よる</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby> (밤의 예정)</h3>\n<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、<ruby>箱<rt>はこ</rt></ruby>に<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れました。<ruby>明日<rt>あした</rt></ruby>は<ruby>出張<rt>しゅっちょう</rt></ruby>なので、<ruby>飛行場<rt>ひこうじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くはずです。<ruby>私<rt>わたし</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>代表<rt>だいひょう</rt></ruby>として、<ruby>外国語<rt>がいこくご</rt></ruby>の<ruby>発音<rt>はつおん</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>があります。<ruby>妻<rt>つま</rt></ruby>は<ruby>出張<rt>しゅっちょう</rt></ruby>に<ruby>反対<rt>はんたい</rt></ruby>しましたが、<ruby>一緒<rt>いっしょ</rt></ruby>にテレビの<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>笑<rt>わら</rt></ruby>いました。",
+  "analysis": [
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れの<ruby>日<rt>ひ</rt></ruby>です。",
+      "trans": "오늘은 맑은 날입니다.",
+      "grammar": "〜です (명사 정중형)",
+      "tags": [
+        "晴れ",
+        "日"
+      ]
+    },
+    {
+      "sent": "いい<ruby>一週間<rt>いっしゅうかん</rt></ruby>の<ruby>始<rt>はじ</rt></ruby>まりです。",
+      "trans": "좋은 일주일의 시작입니다.",
+      "grammar": "명사+の (명사 수식)",
+      "tags": [
+        "始まり"
+      ]
+    },
+    {
+      "sent": "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しから<ruby>時計<rt>とけい</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。",
+      "trans": "서랍에서 시계를 꺼냈습니다.",
+      "grammar": "〜から (~에서부터)",
+      "tags": [
+        "引き出し"
+      ]
+    },
+    {
+      "sent": "おいしい<ruby>朝<rt>あさ</rt></ruby>ごはんのために、パン<ruby>屋<rt>や</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "맛있는 아침밥을 위해, 빵집에 갔습니다.",
+      "grammar": "〜ために (~하기 위해, 목적)",
+      "tags": [
+        "パン屋"
+      ]
+    },
+    {
+      "sent": "<ruby>昼間<rt>ひるま</rt></ruby>は<ruby>久<rt>ひさ</rt></ruby>しぶりに<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いました。",
+      "trans": "낮에는 오랜만에 친구를 만났습니다.",
+      "grammar": "〜に会う (~를/을 만나다)",
+      "tags": [
+        "昼間",
+        "久しぶり"
+      ]
+    },
+    {
+      "sent": "<ruby>約束<rt>やくそく</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>は<ruby>美術館<rt>びじゅつかん</rt></ruby>です。",
+      "trans": "약속 장소는 미술관입니다.",
+      "grammar": "〜は (~은/는)",
+      "tags": [
+        "場所",
+        "美術館"
+      ]
+    },
+    {
+      "sent": "<ruby>左<rt>ひだり</rt></ruby>の<ruby>道<rt>みち</rt></ruby>をまっすぐ<ruby>歩<rt>ある</rt></ruby>いて、<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>りました。",
+      "trans": "왼쪽 길을 똑바로 걸어서, 다리를 건넜습니다.",
+      "grammar": "〜て (~해서/하고, 동작의 연결)",
+      "tags": [
+        "左",
+        "橋"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>のおかげで、<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>を<ruby>過<rt>す</rt></ruby>ごすことになりました。",
+      "trans": "친구 덕분에 즐거운 시간을 보내게 되었습니다.",
+      "grammar": "〜のおかげで (~덕분에), 〜ことになる (~하게 되다)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>百貨店<rt>ひゃっかてん</rt></ruby>で<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしました。",
+      "trans": "백화점에서 쇼핑을 했습니다.",
+      "grammar": "〜で (동작이 일어나는 장소)",
+      "tags": [
+        "百貨店"
+      ]
+    },
+    {
+      "sent": "３<ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby>に、<ruby>林<rt>はやし</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "3시 반에, 숲 근처의 공원에 갔습니다.",
+      "grammar": "〜に (시간)",
+      "tags": [
+        "半",
+        "林"
+      ]
+    },
+    {
+      "sent": "<ruby>桜<rt>さくら</rt></ruby>の<ruby>花見<rt>はなみ</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "벚꽃 구경에 대하여 이야기했습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "花見"
+      ]
+    },
+    {
+      "sent": "<ruby>白<rt>しろ</rt></ruby>い<ruby>羽<rt>はね</rt></ruby>の<ruby>鳥<rt>とり</rt></ruby>がいて、<ruby>天使<rt>てんし</rt></ruby>みたいにきれいです。",
+      "trans": "하얀 날개의 새가 있어서, 천사처럼 예쁩니다.",
+      "grammar": "〜みたいに (~처럼, 비유)",
+      "tags": [
+        "羽"
+      ]
+    },
+    {
+      "sent": "<ruby>空<rt>そら</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>がとてもまぶしかったです。",
+      "trans": "하늘의 빛이 매우 눈부셨습니다.",
+      "grammar": "い형용사 과거형 (~かったです)",
+      "tags": [
+        "光"
+      ]
+    },
+    {
+      "sent": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、<ruby>箱<rt>はこ</rt></ruby>に<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れました。",
+      "trans": "집에 돌아가서, 상자에 짐을 넣었습니다.",
+      "grammar": "〜に (대상/방향)",
+      "tags": [
+        "箱"
+      ]
+    },
+    {
+      "sent": "<ruby>明日<rt>あした</rt></ruby>は<ruby>出張<rt>しゅっちょう</rt></ruby>なので、<ruby>飛行場<rt>ひこうじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くはずです。",
+      "trans": "내일은 출장이기 때문에, 비행장에 갈 것입니다.",
+      "grammar": "〜はずです (~할 터이다/당연한 추측)",
+      "tags": [
+        "飛行場",
+        "はず"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>代表<rt>だいひょう</rt></ruby>として、<ruby>外国語<rt>がいこくご</rt></ruby>の<ruby>発音<rt>はつおん</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>があります。",
+      "trans": "저는 회사의 대표로서, 외국어 발음을 연습할 필요가 있습니다.",
+      "grammar": "〜として (~로서/자격), 〜必要があります (~할 필요가 있습니다)",
+      "tags": [
+        "発音",
+        "必要"
+      ]
+    },
+    {
+      "sent": "<ruby>妻<rt>つま</rt></ruby>は<ruby>出張<rt>しゅっちょう</rt></ruby>に<ruby>反対<rt>はんたい</rt></ruby>しました。",
+      "trans": "아내는 출장에 반대했습니다.",
+      "grammar": "〜に反対する (~에 반대하다)",
+      "tags": [
+        "反対"
+      ]
+    },
+    {
+      "sent": "<ruby>一緒<rt>いっしょ</rt></ruby>にテレビの<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>笑<rt>わら</rt></ruby>いました。",
+      "trans": "함께 TV 프로그램을 보고 웃었습니다.",
+      "grammar": "〜て (~하고/나서)",
+      "tags": [
+        "番組"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "箱",
       "read": "はこ",
       "mean": "상자",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "橋",
       "read": "はし",
       "mean": "다리",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "始まり",
       "read": "はじまり",
       "mean": "시작",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "場所",
       "read": "ばしょ",
       "mean": "장소",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "はず",
       "read": "はず",
       "mean": "터, 리 (추측, 당연)",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "発音",
       "read": "はつおん",
       "mean": "발음",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "花見",
       "read": "はなみ",
       "mean": "꽃구경",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "羽",
       "read": "はね",
       "mean": "날개",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "林",
       "read": "はやし",
       "mean": "숲",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "晴れ",
       "read": "はれ",
       "mean": "맑음",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "半",
       "read": "はん",
       "mean": "반",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "番組",
       "read": "ばんぐみ",
       "mean": "방송 프로그램",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "反対",
       "read": "はんたい",
       "mean": "반대",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "パン屋",
       "read": "ぱんや",
       "mean": "빵집",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "日",
       "read": "ひ",
       "mean": "해, 날",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "光",
       "read": "ひかり",
       "mean": "빛",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "引き出し",
       "read": "ひきだし",
       "mean": "서랍",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "ひげ",
       "read": "ひげ",
       "mean": "수염",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "飛行場",
       "read": "ひこうじょう",
       "mean": "비행장",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "久しぶり",
       "read": "ひさしぶり",
       "mean": "오랜만",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "美術館",
       "read": "びじゅつかん",
       "mean": "미술관",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "左",
       "read": "ひだり",
       "mean": "왼쪽",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "必要",
       "read": "ひつよう",
       "mean": "필요",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "百貨店",
       "read": "ひゃっかてん",
       "mean": "백화점",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "昼間",
       "read": "ひるま",
       "mean": "주간, 낮",
-      "tags": [],
-      "moduleId": "n4-module-015",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「美術館」の読み方は何ですか。",
+      "opt": [
+        "びじつかん",
+        "びじゅつかん",
+        "ひじつかん",
+        "ひじゅつかん"
+      ],
+      "ans": 1,
+      "comment": "美術館(びじゅつかん)은 '미술관'이라는 뜻입니다."
+    },
+    {
+      "q": "「飛行場」の読み方は何ですか。",
+      "opt": [
+        "ひこうしょ",
+        "ひこうき",
+        "ひこうじょう",
+        "びこうじょう"
+      ],
+      "ans": 2,
+      "comment": "飛行場(ひこうじょう)는 '비행장'이라는 뜻입니다."
+    },
+    {
+      "q": "「発音」の読み方は何ですか。",
+      "opt": [
+        "はつおん",
+        "はつをん",
+        "ほつおん",
+        "はつお"
+      ],
+      "ans": 0,
+      "comment": "発音(はつおん)은 '발음'이라는 뜻입니다."
+    },
+    {
+      "q": "「引き出し」の読み方は何ですか。",
+      "opt": [
+        "ひきたし",
+        "ひきだし",
+        "ひきでし",
+        "ひぎだし"
+      ],
+      "ans": 1,
+      "comment": "引き出し(ひきだし)는 '서랍'이라는 뜻입니다."
+    },
+    {
+      "q": "「오랜만」を日本語で書くと何ですか。",
+      "opt": [
+        "昼間",
+        "始まり",
+        "久しぶり",
+        "必要"
+      ],
+      "ans": 2,
+      "comment": "久しぶり(ひさしぶり)는 '오랜만'이라는 뜻입니다."
+    },
+    {
+      "q": "「방송 프로그램」を日本語で書くと何ですか。",
+      "opt": [
+        "発音",
+        "反対",
+        "番組",
+        "美術館"
+      ],
+      "ans": 2,
+      "comment": "番組(ばんぐみ)는 '방송 프로그램'이라는 뜻입니다."
+    },
+    {
+      "q": "「왼쪽」を日本語で書くと何ですか。",
+      "opt": [
+        "右",
+        "左",
+        "前",
+        "後"
+      ],
+      "ans": 1,
+      "comment": "左(ひだり)는 '왼쪽'이라는 뜻입니다."
+    },
+    {
+      "q": "おいしい朝ごはんの______、パン屋へ行きました。",
+      "opt": [
+        "ために",
+        "について",
+        "みたいに",
+        "として"
+      ],
+      "ans": 0,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "友達______、楽しい時間を過ごせました。",
+      "opt": [
+        "について",
+        "みたいに",
+        "のおかげで",
+        "として"
+      ],
+      "ans": 2,
+      "comment": "긍정적인 원인을 나타내는 「〜のおかげで」(~덕분에)가 알맞습니다."
+    },
+    {
+      "q": "白い鳥がいて、天使______きれいです。",
+      "opt": [
+        "として",
+        "みたいに",
+        "について",
+        "ために"
+      ],
+      "ans": 1,
+      "comment": "비유를 나타내는 「〜みたいに」(~처럼)가 알맞습니다."
     }
   ]
 }
