@@ -1,206 +1,476 @@
 {
-  "title": "接尾語と助数詞 (접미사와 조수사)",
-  "moduleId": "n4-module-019",
+  "title": "N4: 友達のお誕生会 (친구의 생일 파티)",
+  "story": "<h3>Scene 1. <ruby>誕生会<rt>たんじょうかい</rt></ruby>への<ruby>招待<rt>しょうたい</rt></ruby> (생일 파티 초대)</h3>\n3<ruby>か月<rt>かげつ</rt></ruby>ぶりに、みんなが<ruby>集<rt>あつ</rt></ruby>まってお<ruby>誕生会<rt>たんじょうかい</rt></ruby>をすることになりました。田中<ruby>君<rt>くん</rt></ruby>や<ruby>子供<rt>こども</rt></ruby><ruby>達<rt>たち</rt></ruby>も<ruby>来<rt>く</rt></ruby>る<ruby>予定<rt>よてい</rt></ruby>です。花子<ruby>ちゃん<rt>ちゃん</rt></ruby>が10<ruby>歳<rt>さい</rt></ruby>になったお<ruby>祝<rt>いわ</rt></ruby>いとして、パーティーをします。<ruby>私<rt>わたし</rt></ruby>は<ruby>外国語<rt>がいこくご</rt></ruby>について<ruby>教<rt>おし</rt></ruby>えるために、<ruby>本<rt>ほん</rt></ruby>を2<ruby>冊<rt>さつ</rt></ruby>プレゼントします。\n<h3>Scene 2. <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby> (쇼핑)</h3>\nパーティーの<ruby>準備<rt>じゅんび</rt></ruby>で、ケーキ<ruby>屋<rt>や</rt></ruby>を2<ruby>軒<rt>けん</rt></ruby>まわりました。イタリア<ruby>製<rt>せい</rt></ruby>のきれいなお<ruby>皿<rt>さら</rt></ruby>を3<ruby>枚<rt>まい</rt></ruby>も<ruby>買<rt>か</rt></ruby>いました。<ruby>色々<rt>いろいろ</rt></ruby>なものを<ruby>集<rt>あつ</rt></ruby>めるのは<ruby>夢<rt>ゆめ</rt></ruby>みたいに<ruby>楽<rt>たの</rt></ruby>しいです。このお<ruby>皿<rt>さら</rt></ruby>はケーキにとてもよく<ruby>合<rt>あ</rt></ruby>います。\n<h3>Scene 3. <ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って (전철을 타고)</h3>\n<ruby>午後<rt>ごご</rt></ruby>2<ruby>時<rt>じ</rt></ruby><ruby>頃<rt>ごろ</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>の3<ruby>番線<rt>ばんせん</rt></ruby>から<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りました。あと5<ruby>分<rt>ふん</rt></ruby>30<ruby>秒<rt>びょう</rt></ruby>で<ruby>到着<rt>とうちゃく</rt></ruby>します。<ruby>午前中<rt>ごぜんちゅう</rt></ruby>から<ruby>出発<rt>しゅっぱつ</rt></ruby>したおかげで、<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>空<rt>あ</rt></ruby>いていました。<ruby>車窓<rt>しゃそう</rt></ruby>から、<ruby>可愛<rt>かわい</rt></ruby>い<ruby>犬<rt>いぬ</rt></ruby>を2<ruby>匹<rt>ひき</rt></ruby><ruby>見<rt>み</rt></ruby>ました。\n<h3>Scene 4. パーティーの<ruby>始<rt>はじ</rt></ruby>まり (파티의 시작)</h3>\n<ruby>会場<rt>かいじょう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、お客<ruby>様<rt>さま</rt></ruby>がすでにたくさんいました。これが2<ruby>度<rt>ど</rt></ruby><ruby>目<rt>め</rt></ruby>のパーティーです。みんなで<ruby>楽<rt>たの</rt></ruby>しく<ruby>食事<rt>しょくじ</rt></ruby>をしました。<ruby>来年<rt>らいねん</rt></ruby>もまたみんなで<ruby>集<rt>あつ</rt></ruby>まりたいです。",
+  "analysis": [
+    {
+      "sent": "3<ruby>か月<rt>かげつ</rt></ruby>ぶりに、みんなが<ruby>集<rt>あつ</rt></ruby>まってお<ruby>誕生会<rt>たんじょうかい</rt></ruby>をすることになりました。",
+      "trans": "3개월 만에, 모두가 모여서 생일 파티를 하게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다 / 결정된 예정)",
+      "tags": [
+        "~か月",
+        "集まる",
+        "~会"
+      ]
+    },
+    {
+      "sent": "田中<ruby>君<rt>くん</rt></ruby>や<ruby>子供<rt>こども</rt></ruby><ruby>達<rt>たち</rt></ruby>も<ruby>来<rt>く</rt></ruby>る<ruby>予定<rt>よてい</rt></ruby>です。",
+      "trans": "타나카 군이나 아이들도 올 예정입니다.",
+      "grammar": "〜や〜も (~랑 ~도 / 병렬과 추가)",
+      "tags": [
+        "~君",
+        "~達"
+      ]
+    },
+    {
+      "sent": "花子<ruby>ちゃん<rt>ちゃん</rt></ruby>が10<ruby>歳<rt>さい</rt></ruby>になったお<ruby>祝<rt>いわ</rt></ruby>いとして、パーティーをします。",
+      "trans": "하나코 양이 10세가 된 축하로서, 파티를 합니다.",
+      "grammar": "〜として (~로서 / 자격, 명목)",
+      "tags": [
+        "~ちゃん",
+        "~歳"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>外国語<rt>がいこくご</rt></ruby>について<ruby>教<rt>おし</rt></ruby>えるために、<ruby>本<rt>ほん</rt></ruby>を2<ruby>冊<rt>さつ</rt></ruby>プレゼントします。",
+      "trans": "나는 외국어에 대하여 가르치기 위해, 책을 2권 선물합니다.",
+      "grammar": "〜ために (~하기 위해 / 목적)",
+      "tags": [
+        "~語",
+        "~冊"
+      ]
+    },
+    {
+      "sent": "パーティーの<ruby>準備<rt>じゅんび</rt></ruby>で、ケーキ<ruby>屋<rt>や</rt></ruby>を2<ruby>軒<rt>けん</rt></ruby>まわりました。",
+      "trans": "파티 준비로, 케이크 가게를 2채(두 곳) 돌았습니다.",
+      "grammar": "〜で (~로 / 원인, 이유)",
+      "tags": [
+        "~屋",
+        "~軒"
+      ]
+    },
+    {
+      "sent": "イタリア<ruby>製<rt>せい</rt></ruby>のきれいなお<ruby>皿<rt>さら</rt></ruby>を3<ruby>枚<rt>まい</rt></ruby>も<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "이탈리아제의 예쁜 접시를 3장이나 샀습니다.",
+      "grammar": "〜も (~나 / 수량이 많음을 강조)",
+      "tags": [
+        "~製",
+        "~枚"
+      ]
+    },
+    {
+      "sent": "<ruby>色々<rt>いろいろ</rt></ruby>なものを<ruby>集<rt>あつ</rt></ruby>めるのは<ruby>夢<rt>ゆめ</rt></ruby>みたいに<ruby>楽<rt>たの</rt></ruby>しいです。",
+      "trans": "여러 가지를 모으는 것은 꿈처럼 즐겁습니다.",
+      "grammar": "〜みたいに (~처럼 / 비유)",
+      "tags": [
+        "集める"
+      ]
+    },
+    {
+      "sent": "このお<ruby>皿<rt>さら</rt></ruby>はケーキにとてもよく<ruby>合<rt>あ</rt></ruby>います。",
+      "trans": "이 접시는 케이크와 아주 잘 어울립니다.",
+      "grammar": "〜に合う (~에 맞다, 어울리다)",
+      "tags": [
+        "合う"
+      ]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>2<ruby>時<rt>じ</rt></ruby><ruby>頃<rt>ごろ</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>の3<ruby>番線<rt>ばんせん</rt></ruby>から<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りました。",
+      "trans": "오후 2시경, 역의 3번선에서 전철을 탔습니다.",
+      "grammar": "〜から (~에서부터 / 기점)",
+      "tags": [
+        "~頃",
+        "~番線"
+      ]
+    },
+    {
+      "sent": "あと5<ruby>分<rt>ふん</rt></ruby>30<ruby>秒<rt>びょう</rt></ruby>で<ruby>到着<rt>とうちゃく</rt></ruby>します。",
+      "trans": "앞으로 5분 30초 뒤에 도착합니다.",
+      "grammar": "〜で (~후에 / 시간의 경과)",
+      "tags": [
+        "~分",
+        "~秒"
+      ]
+    },
+    {
+      "sent": "<ruby>午前中<rt>ごぜんちゅう</rt></ruby>から<ruby>出発<rt>しゅっぱつ</rt></ruby>したおかげで、<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>空<rt>あ</rt></ruby>いていました。",
+      "trans": "오전 중부터 출발한 덕분에, 전철이 비어 있었습니다.",
+      "grammar": "〜のおかげで (~덕분에 / 긍정적인 이유)",
+      "tags": [
+        "~中",
+        "空く"
+      ]
+    },
+    {
+      "sent": "<ruby>車窓<rt>しゃそう</rt></ruby>から、<ruby>可愛<rt>かわい</rt></ruby>い<ruby>犬<rt>いぬ</rt></ruby>を2<ruby>匹<rt>ひき</rt></ruby><ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "차창 밖으로, 귀여운 개를 2마리 보았습니다.",
+      "grammar": "〜から (~에서부터 / 동작의 기점)",
+      "tags": [
+        "~匹"
+      ]
+    },
+    {
+      "sent": "<ruby>会場<rt>かいじょう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、お客<ruby>様<rt>さま</rt></ruby>がすでにたくさんいました。",
+      "trans": "회장에 도착하자, 고객(손님)님이 이미 많이 있었습니다.",
+      "grammar": "〜と (~하자, ~하면 / 발견이나 당연한 결과)",
+      "tags": [
+        "~様"
+      ]
+    },
+    {
+      "sent": "これが2<ruby>度<rt>ど</rt></ruby><ruby>目<rt>め</rt></ruby>のパーティーです。",
+      "trans": "이것이 두 번째 파티입니다.",
+      "grammar": "〜度目 (~번째 / 횟수의 순서)",
+      "tags": [
+        "~度",
+        "~目"
+      ]
+    },
+    {
+      "sent": "<ruby>来年<rt>らいねん</rt></ruby>もまたみんなで<ruby>集<rt>あつ</rt></ruby>まりたいです。",
+      "trans": "내년에도 또 모두 함께 모이고 싶습니다.",
+      "grammar": "〜たい (~하고 싶다 / 희망)",
+      "tags": [
+        "集まる"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "~会",
       "read": "~かい",
       "mean": "~회 (모임)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "~か月",
       "read": "~かげつ",
       "mean": "~개월",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "~君",
       "read": "~くん",
       "mean": "~군",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "~軒",
       "read": "~けん",
       "mean": "~채 (집을 세는 단위)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "~語",
       "read": "~ご",
       "mean": "~어 (언어)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "~頃",
       "read": "~ごろ",
       "mean": "~경, 무렵",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "~歳",
       "read": "~さい",
       "mean": "~세 (나이)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "~冊",
       "read": "~さつ",
       "mean": "~권 (책)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "~様",
       "read": "~さま",
       "mean": "~님",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "~中",
       "read": "~じゅう/ちゅう",
       "mean": "~중, ~동안",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "~製",
       "read": "~せい",
       "mean": "~제 (제품)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "~達",
       "read": "~たち",
       "mean": "~들 (복수)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "~ちゃん",
       "read": "~ちゃん",
       "mean": "~양, ~군 (친근한 호칭)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "~度",
       "read": "~ど",
       "mean": "~도, ~번 (횟수, 온도)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "~番線",
       "read": "~ばんせん",
       "mean": "~번선 (승강장)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "~匹",
       "read": "~ひき",
       "mean": "~마리 (동물)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "~秒",
       "read": "~びょう",
       "mean": "~초",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "~分",
       "read": "~ふん",
       "mean": "~분",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "~枚",
       "read": "~まい",
       "mean": "~장 (얇은 물건)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "~目",
       "read": "~め",
       "mean": "~째 (순서)",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "~屋",
       "read": "~や",
       "mean": "~가게, ~쟁이",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 12
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "合う",
       "read": "あう",
       "mean": "맞다, 어울리다",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 13
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-023",
       "word": "空く",
       "read": "あく",
       "mean": "비다",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 13
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-024",
       "word": "集まる",
       "read": "あつまる",
       "mean": "모이다",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 13
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-025",
       "word": "集める",
       "read": "あつめる",
       "mean": "모으다",
-      "tags": [],
-      "moduleId": "n4-module-019",
-      "legacyDay": 13
+      "tags": [
+        "verb"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「空く」の読み方は何ですか。",
+      "opt": [
+        "いく",
+        "あく",
+        "すく",
+        "ぬく"
+      ],
+      "ans": 1,
+      "comment": "空く(あく)는 '비다'라는 뜻입니다."
+    },
+    {
+      "q": "「集まる」の読み方は何ですか。",
+      "opt": [
+        "きまる",
+        "あつまる",
+        "とまる",
+        "しまる"
+      ],
+      "ans": 1,
+      "comment": "集まる(あつまる)는 '모이다'라는 뜻입니다."
+    },
+    {
+      "q": "「合う」の読み方は何ですか。",
+      "opt": [
+        "いう",
+        "あう",
+        "かう",
+        "まう"
+      ],
+      "ans": 1,
+      "comment": "合う(あう)는 '맞다, 어울리다'라는 뜻입니다."
+    },
+    {
+      "q": "「〜枚」の読み方は何ですか。",
+      "opt": [
+        "〜ほん",
+        "〜まい",
+        "〜さつ",
+        "〜かい"
+      ],
+      "ans": 1,
+      "comment": "〜枚(〜まい)는 얇은 물건을 세는 단위인 '~장'이라는 뜻입니다."
+    },
+    {
+      "q": "「모으다」を日本語で書くと何ですか。",
+      "opt": [
+        "集まる",
+        "合う",
+        "空く",
+        "集める"
+      ],
+      "ans": 3,
+      "comment": "集める(あつめる)는 '모으다'라는 뜻입니다."
+    },
+    {
+      "q": "「비다」を日本語で書くと何ですか。",
+      "opt": [
+        "空く",
+        "集まる",
+        "合う",
+        "集める"
+      ],
+      "ans": 0,
+      "comment": "空く(あく)는 '비다'라는 뜻입니다."
+    },
+    {
+      "q": "「~가게, ~쟁이」を日本語で書くと何ですか。",
+      "opt": [
+        "〜屋",
+        "〜様",
+        "〜軒",
+        "〜中"
+      ],
+      "ans": 0,
+      "comment": "〜屋(〜や)는 가게나 특정 직업을 가진 사람을 나타내는 '~가게, ~쟁이'라는 뜻입니다."
+    },
+    {
+      "q": "友達に会う______、駅へ行きました。",
+      "opt": [
+        "として",
+        "について",
+        "ために",
+        "みたいに"
+      ],
+      "ans": 2,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "先生の______、N4に合格しました。",
+      "opt": [
+        "みたいに",
+        "おかげで",
+        "として",
+        "について"
+      ],
+      "ans": 1,
+      "comment": "긍정적인 영향을 나타내는 「〜のおかげで」(~덕분에)가 알맞습니다."
+    },
+    {
+      "q": "お祝い______、花を買いました。",
+      "opt": [
+        "について",
+        "みたいに",
+        "ために",
+        "として"
+      ],
+      "ans": 3,
+      "comment": "자격이나 명목을 나타내는 「〜として」(~로서)가 알맞습니다."
     }
   ]
 }
