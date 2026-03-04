@@ -1,206 +1,493 @@
 {
-  "title": "く・け・こ行の名詞・1 (く・け・こ행 명사 1)",
-  "moduleId": "n4-module-006",
+  "title": "N4: 工場見学 (공장 견학)",
+  "story": "Scene 1. 朝の玄関 (아침의 현관)<br><ruby>今朝<rt>けさ</rt></ruby>、<ruby>高校生<rt>こうこうせい</rt></ruby>の<ruby>弟<rt>おとうと</rt></ruby>は<ruby>玄関<rt>げんかん</rt></ruby>で<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>きました。<br><ruby>子犬<rt>こいぬ</rt></ruby>が<ruby>毛<rt>け</rt></ruby>を<ruby>揺<rt>ゆ</rt></ruby>らして、<ruby>走<rt>はし</rt></ruby>ってきました。<br><ruby>子犬<rt>こいぬ</rt></ruby>はぬいぐるみみたいにかわいいです。<br><ruby>警察<rt>けいさつ</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>は「<ruby>交通<rt>こうつう</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけて」と<ruby>言<rt>い</rt></ruby>いました。<br><ruby>高校<rt>こうこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くために、<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ました。<br><br>Scene 2. 学校と見学 (학교와 견학)<br><ruby>学校<rt>がっこう</rt></ruby>で、<ruby>友達<rt>ともだち</rt></ruby>が「<ruby>消<rt>け</rt></ruby>しゴムを<ruby>貸<rt>か</rt></ruby>して」と<ruby>言<rt>い</rt></ruby>いました。<br><ruby>今日<rt>きょう</rt></ruby>は<ruby>郊外<rt>こうがい</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>へ<ruby>見学<rt>けんがく</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<br><ruby>工業<rt>こうぎょう</rt></ruby>と<ruby>経済<rt>けいざい</rt></ruby>について<ruby>学<rt>まな</rt></ruby>ぶためです。<br>ある<ruby>友達<rt>ともだち</rt></ruby>は<ruby>風邪<rt>かぜ</rt></ruby>で<ruby>欠席<rt>けっせき</rt></ruby>しました。<br><ruby>校長<rt>こうちょう</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>出発<rt>しゅっぱつ</rt></ruby>しました。<br><br>Scene 3. 工場での経験 (공장에서의 경험)<br><ruby>工場<rt>こうじょう</rt></ruby>は<ruby>一部<rt>いちぶ</rt></ruby>が<ruby>工事<rt>こうじ</rt></ruby>をしていました。<br><ruby>新<rt>あたら</rt></ruby>しい<ruby>研究<rt>けんきゅう</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>が<ruby>公開<rt>こうかい</rt></ruby>されていて、<ruby>見物<rt>けんぶつ</rt></ruby>しました。<br><ruby>工場<rt>こうじょう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>のおかげで、いい<ruby>経験<rt>けいけん</rt></ruby>ができました。<br><ruby>記念<rt>きねん</rt></ruby>として、<ruby>小<rt>ちい</rt></ruby>さな<ruby>時計<rt>とけい</rt></ruby>をもらいました。<br><ruby>皆<rt>みな</rt></ruby>は<ruby>交差点<rt>こうさてん</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>って、バスに<ruby>乗<rt>の</rt></ruby>りました。<br><br>Scene 4. 帰り道 (귀갓길)<br><ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>、<ruby>子供<rt>こども</rt></ruby>たちがけんかをしているのを<ruby>見<rt>み</rt></ruby>ました。<br><ruby>先生<rt>せんせい</rt></ruby>のおかげで、すぐにけんかは<ruby>止<rt>と</rt></ruby>まりました。<br><ruby>来月<rt>らいげつ</rt></ruby>、<ruby>軍人<rt>ぐんじん</rt></ruby>のいとこが<ruby>結婚<rt>けっこん</rt></ruby>することになりました。<br><ruby>私<rt>わたし</rt></ruby>は<ruby>結婚式<rt>けっこんしき</rt></ruby>に<ruby>出<rt>で</rt></ruby>るために、<ruby>新<rt>あたら</rt></ruby>しい<ruby>服<rt>ふく</rt></ruby>を<ruby>買<rt>か</rt></ruby>います。",
+  "analysis": [
+    {
+      "sent": "<ruby>今朝<rt>けさ</rt></ruby>、<ruby>高校生<rt>こうこうせい</rt></ruby>の<ruby>弟<rt>おとうと</rt></ruby>は<ruby>玄関<rt>げんかん</rt></ruby>で<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>きました。",
+      "trans": "오늘 아침, 고교생인 남동생은 현관에서 신발을 신었습니다.",
+      "grammar": "과거 시제 (~ました)",
+      "tags": [
+        "今朝",
+        "高校生",
+        "玄関"
+      ]
+    },
+    {
+      "sent": "<ruby>子犬<rt>こいぬ</rt></ruby>が<ruby>毛<rt>け</rt></ruby>を<ruby>揺<rt>ゆ</rt></ruby>らして、<ruby>走<rt>はし</rt></ruby>ってきました。",
+      "trans": "강아지가 털を 흔들며 달려왔습니다.",
+      "grammar": "~てくる (동작의 방향/변화)",
+      "tags": [
+        "子犬",
+        "毛"
+      ]
+    },
+    {
+      "sent": "<ruby>子犬<rt>こいぬ</rt></ruby>はぬいぐるみみたいにかわいいです。",
+      "trans": "강아지는 인형같이 귀엽습니다.",
+      "grammar": "〜みたいに (비유 표현)",
+      "tags": [
+        "子犬"
+      ]
+    },
+    {
+      "sent": "<ruby>警察<rt>けいさつ</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>は「<ruby>交通<rt>こうつう</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけて」と<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "경찰인 형은 '교통 조심해'라고 말했습니다.",
+      "grammar": "~と言う (인용 표현)",
+      "tags": [
+        "警察",
+        "交通"
+      ]
+    },
+    {
+      "sent": "<ruby>高校<rt>こうこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くために、<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ました。",
+      "trans": "고등학교에 가기 위해서 집을 나섰습니다.",
+      "grammar": "〜ために (목적 표현)",
+      "tags": [
+        "高校"
+      ]
+    },
+    {
+      "sent": "<ruby>学校<rt>がっこう</rt></ruby>で、<ruby>友達<rt>ともだち</rt></ruby>が「<ruby>消<rt>け</rt></ruby>しゴムを<ruby>貸<rt>か</rt></ruby>して」と<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "학교에서 친구가 '지우개 좀 빌려줘'라고 말했습니다.",
+      "grammar": "~て (가벼운 부탁)",
+      "tags": [
+        "消しゴム"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>郊外<rt>こうがい</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>へ<ruby>見学<rt>けんがく</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+      "trans": "오늘은 교외의 공장으로 견학을 갑니다.",
+      "grammar": "~に行く (목적지로의 이동)",
+      "tags": [
+        "郊外",
+        "工場",
+        "見学"
+      ]
+    },
+    {
+      "sent": "<ruby>工業<rt>こうぎょう</rt></ruby>と<ruby>経済<rt>けいざい</rt></ruby>について<ruby>学<rt>まな</rt></ruby>ぶためです。",
+      "trans": "공업과 경제에 대하여 배우기 위해서입니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "工業",
+        "経済"
+      ]
+    },
+    {
+      "sent": "ある<ruby>友達<rt>ともだち</rt></ruby>は<ruby>風邪<rt>かぜ</rt></ruby>で<ruby>欠席<rt>けっせき</rt></ruby>しました。",
+      "trans": "어떤 친구는 감기로 결석했습니다.",
+      "grammar": "で (이유/원인)",
+      "tags": [
+        "欠席"
+      ]
+    },
+    {
+      "sent": "<ruby>校長<rt>こうちょう</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>出発<rt>しゅっぱつ</rt></ruby>しました。",
+      "trans": "교장 선생님의 말씀을 듣고, 출발했습니다.",
+      "grammar": "~て (순차적 동작)",
+      "tags": [
+        "校長"
+      ]
+    },
+    {
+      "sent": "<ruby>工場<rt>こうじょう</rt></ruby>は<ruby>一部<rt>いちぶ</rt></ruby>が<ruby>工事<rt>こうじ</rt></ruby>をしていました。",
+      "trans": "공장은 일부가 공사를 하고 있었습니다.",
+      "grammar": "~ている (진행/상태)",
+      "tags": [
+        "工場",
+        "工事"
+      ]
+    },
+    {
+      "sent": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>研究<rt>けんきゅう</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>が<ruby>公開<rt>こうかい</rt></ruby>されていて、<ruby>見物<rt>けんぶつ</rt></ruby>しました。",
+      "trans": "새로운 연구 방이 공개되어 있어서, 구경했습니다.",
+      "grammar": "受身形 (수동태)",
+      "tags": [
+        "研究",
+        "公開",
+        "見物"
+      ]
+    },
+    {
+      "sent": "<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>のおかげで、いい<ruby>経験<rt>けいけん</rt></ruby>ができました。",
+      "trans": "공장 사람 덕분에 좋은 경험을 할 수 있었습니다.",
+      "grammar": "〜のおかげで (~덕분에)",
+      "tags": [
+        "工場",
+        "経験"
+      ]
+    },
+    {
+      "sent": "<ruby>記念<rt>きねん</rt></ruby>として、<ruby>小<rt>ちい</rt></ruby>さな<ruby>時計<rt>とけい</rt></ruby>をもらいました。",
+      "trans": "기념으로서 작은 시계를 받았습니다.",
+      "grammar": "〜として (~로서)",
+      "tags": [
+        "工場"
+      ]
+    },
+    {
+      "sent": "<ruby>皆<rt>みな</rt></ruby>は<ruby>交差点<rt>こうさてん</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>って、バスに<ruby>乗<rt>の</rt></ruby>りました。",
+      "trans": "모두는 교차로를 건너서 버스에 탔습니다.",
+      "grammar": "を (통과하는 장소)",
+      "tags": [
+        "交差点"
+      ]
+    },
+    {
+      "sent": "<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>、<ruby>子供<rt>こども</rt></ruby>たちがけんかをしているのを<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "귀갓길, 아이들이 싸움을 하고 있는 것을 보았습니다.",
+      "grammar": "~のを見る (~하는 것을 보다)",
+      "tags": [
+        "けんか"
+      ]
+    },
+    {
+      "sent": "<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>軍人<rt>ぐんじん</rt></ruby>のいとこが<ruby>結婚<rt>けっこん</rt></ruby>することになりました。",
+      "trans": "다음 달, 군인인 사촌이 결혼하게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다)",
+      "tags": [
+        "軍人",
+        "結婚"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "軍人",
       "read": "ぐんじん",
       "mean": "군인",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "毛",
       "read": "け",
       "mean": "털",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "経験",
       "read": "けいけん",
       "mean": "경험",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "経済",
       "read": "けいざい",
       "mean": "경제",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "警察",
       "read": "けいさつ",
       "mean": "경찰",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "今朝",
       "read": "けさ",
       "mean": "오늘 아침",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "消しゴム",
       "read": "けしごむ",
       "mean": "지우개",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "結婚",
       "read": "けっこん",
       "mean": "결혼",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "欠席",
       "read": "けっせき",
       "mean": "결석",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "けんか",
       "read": "けんか",
       "mean": "싸움",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "見学",
       "read": "けんがく",
       "mean": "견학",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "玄関",
       "read": "げんかん",
       "mean": "현관",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "研究",
       "read": "けんきゅう",
       "mean": "연구",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "見物",
       "read": "けんぶつ",
       "mean": "구경",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "子犬",
       "read": "こいぬ",
       "mean": "강아지",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "公開",
       "read": "こうかい",
       "mean": "공개",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "郊外",
       "read": "こうがい",
       "mean": "교외",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "工業",
       "read": "こうぎょう",
       "mean": "공업",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "高校",
       "read": "こうこう",
       "mean": "고등학교",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "高校生",
       "read": "こうこうせい",
       "mean": "고교생",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "交差点",
       "read": "こうさてん",
       "mean": "교차로",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "工事",
       "read": "こうじ",
       "mean": "공사",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "工場",
       "read": "こうじょう",
       "mean": "공장",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "校長",
       "read": "こうちょう",
       "mean": "교장",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "交通",
       "read": "こうつう",
       "mean": "교통",
-      "tags": [],
-      "moduleId": "n4-module-006",
-      "legacyDay": 4
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「経験」の読み方は何ですか。",
+      "opt": [
+        "けけん",
+        "けいけん",
+        "きょうけん",
+        "けいかん"
+      ],
+      "ans": 1,
+      "comment": "経験(けいけん)は「경험」という意味です。"
+    },
+    {
+      "q": "「警察」の読み方は何ですか。",
+      "opt": [
+        "けいさつ",
+        "けいさち",
+        "きさつ",
+        "けさつ"
+      ],
+      "ans": 0,
+      "comment": "警察(けいさつ)は「경찰」という意味です。"
+    },
+    {
+      "q": "「郊外」の読み方は何ですか。",
+      "opt": [
+        "こうかい",
+        "こうが",
+        "こうがい",
+        "こがい"
+      ],
+      "ans": 2,
+      "comment": "郊外(こうがい)は「교외」という意味です。"
+    },
+    {
+      "q": "「工場」の読み方は何ですか。",
+      "opt": [
+        "こうじょう",
+        "こうしょ",
+        "こじょ",
+        "こじょう"
+      ],
+      "ans": 0,
+      "comment": "工場(こうじょう)は「공장」という意味です。"
+    },
+    {
+      "q": "「오늘 아침」を日本語で書くと何ですか。",
+      "opt": [
+        "今朝",
+        "今夜",
+        "今日",
+        "今年"
+      ],
+      "ans": 0,
+      "comment": "今朝(けさ)は「오늘 아침」という意味です。"
+    },
+    {
+      "q": "「결석」を日本語で書くと何ですか。",
+      "opt": [
+        "出席",
+        "欠席",
+        "遅刻",
+        "早退"
+      ],
+      "ans": 1,
+      "comment": "欠席(けっせき)は「결석」という意味です。"
+    },
+    {
+      "q": "「현관」を日本語で書くと何ですか。",
+      "opt": [
+        "玄関",
+        "見学",
+        "公開",
+        "交差点"
+      ],
+      "ans": 0,
+      "comment": "玄関(げんかん)は「현관」という意味です。"
+    },
+    {
+      "q": "バスが______で止まりました。",
+      "opt": [
+        "工業",
+        "交差点",
+        "校長",
+        "毛"
+      ],
+      "ans": 1,
+      "comment": "交差点(こうさてん)은 '교차로'라는 뜻입니다. 버스가 교차로에서 멈췄다는 문맥이 자연스럽습니다."
+    },
+    {
+      "q": "クラスのみんなで工場へ______に行きました。",
+      "opt": [
+        "見学",
+        "子犬",
+        "消しゴム",
+        "けんか"
+      ],
+      "ans": 0,
+      "comment": "見学(けんがく)은 '견학'이라는 뜻입니다. 공장 견학에 갔다는 문맥이 알맞습니다."
+    },
+    {
+      "q": "いとこが来月______することになりました。",
+      "opt": [
+        "結婚",
+        "交通",
+        "警察",
+        "軍人"
+      ],
+      "ans": 0,
+      "comment": "結婚(けっこん)은 '결혼'이라는 뜻입니다. 사촌이 다음 달에 결혼하게 되었다는 문장이 완성됩니다."
     }
   ]
 }
