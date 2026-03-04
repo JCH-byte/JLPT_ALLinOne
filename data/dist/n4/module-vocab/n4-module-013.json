@@ -1,206 +1,496 @@
 {
-  "title": "つ・と行の名詞 (つ・と행 명사)",
-  "moduleId": "n4-module-013",
+  "title": "N4: 都会の生活と週末 (도시 생활과 주말)",
+  "story": "<h3>Scene 1. <ruby>都会<rt>とかい</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby> (도시의 생활)</h3>\n<ruby>私<rt>わたし</rt></ruby>の<ruby>妻<rt>つま</rt></ruby>は<ruby>都会<rt>とかい</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いています。<ruby>天気予報<rt>てんきよほう</rt></ruby>によると、もうすぐ<ruby>梅雨<rt>つゆ</rt></ruby>になるそうです。<ruby>梅雨<rt>つゆ</rt></ruby>の<ruby>時<rt>とき</rt></ruby>は、<ruby>家<rt>いえ</rt></ruby>で<ruby>過<rt>す</rt></ruby>ごすつもりです。エアコンをよく<ruby>使<rt>つか</rt></ruby>うので、<ruby>電気代<rt>でんきだい</rt></ruby>がとても<ruby>高<rt>たか</rt></ruby>いです。\n<h3>Scene 2. <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>と<ruby>食事<rt>しょくじ</rt></ruby> (쇼핑과 식사)</h3>\n<ruby>都合<rt>つごう</rt></ruby>がいい<ruby>日<rt>ひ</rt></ruby>に、デパートへ<ruby>行<rt>い</rt></ruby>きました。<ruby>寒<rt>さむ</rt></ruby>い<ruby>冬<rt>ふゆ</rt></ruby>の<ruby>ため<rt>ため</rt></ruby>に、<ruby>新<rt>あたら</rt></ruby>しい<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>買<rt>か</rt></ruby>うことになりました。<ruby>店員<rt>てんいん</rt></ruby>のおかげで、いい<ruby>品物<rt>しなもの</rt></ruby>を<ruby>選<rt>えら</rt></ruby>べました。<ruby>夕方<rt>ゆうがた</rt></ruby>は、<ruby>天<rt>てん</rt></ruby>ぷらについて<ruby>話<rt>はな</rt></ruby>しながら<ruby>食事<rt>しょくじ</rt></ruby>をしました。<ruby>店<rt>みせ</rt></ruby>の<ruby>電灯<rt>でんとう</rt></ruby>は、<ruby>星<rt>ほし</rt></ruby>みたいにきれいです。\n<h3>Scene 3. <ruby>週末<rt>しゅうまつ</rt></ruby>のお<ruby>出<rt>で</rt></ruby>かけ (주말의 외출)</h3>\n<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>動物園<rt>どうぶつえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>動物園<rt>どうぶつえん</rt></ruby>の<ruby>出入口<rt>でいりぐち</rt></ruby>の<ruby>手前<rt>てまえ</rt></ruby>で、<ruby>友達<rt>ともだち</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちました。<ruby>遠<rt>とお</rt></ruby>くから<ruby>動物<rt>どうぶつ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえます。<ruby>息子<rt>むすこ</rt></ruby>はテストの<ruby>点<rt>てん</rt></ruby>が<ruby>良<rt>よ</rt></ruby>かったので、ご<ruby>褒美<rt>ほうび</rt></ruby>として<ruby>道具<rt>どうぐ</rt></ruby>のおもちゃをあげました。にぎやかな<ruby>通<rt>とお</rt></ruby>りを<ruby>歩<rt>ある</rt></ruby>いて<ruby>帰<rt>かえ</rt></ruby>りました。\n<h3>Scene 4. <ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>午後<rt>ごご</rt></ruby> (휴일의 오후)</h3>\n<ruby>日曜<rt>にちよう</rt></ruby>の<ruby>午後<rt>ごご</rt></ruby>は<ruby>長<rt>なが</rt></ruby>い<ruby>爪<rt>つめ</rt></ruby>を<ruby>切<rt>き</rt></ruby>ってから、<ruby>床屋<rt>とこや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>床屋<rt>とこや</rt></ruby>の<ruby>後<rt>あと</rt></ruby>で、<ruby>東京都<rt>とうきょうと</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>いた<ruby>展覧会<rt>てんらんかい</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>古<rt>ふる</rt></ruby>いお<ruby>寺<rt>てら</rt></ruby>の<ruby>絵<rt>え</rt></ruby>がありました。<ruby>昔<rt>むかし</rt></ruby>は<ruby>電話<rt>でんわ</rt></ruby>の<ruby>代<rt>か</rt></ruby>わりに、<ruby>電報<rt>でんぽう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っていたと<ruby>習<rt>なら</rt></ruby>いました。",
+  "analysis": [
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>の<ruby>妻<rt>つま</rt></ruby>は<ruby>都会<rt>とかい</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いています。",
+      "trans": "저의 아내는 도시에서 일하고 있습니다.",
+      "grammar": "〜で (동작이 일어나는 장소)",
+      "tags": [
+        "妻",
+        "都会"
+      ]
+    },
+    {
+      "sent": "<ruby>天気予報<rt>てんきよほう</rt></ruby>によると、もうすぐ<ruby>梅雨<rt>つゆ</rt></ruby>になるそうです。",
+      "trans": "일기 예보에 따르면, 곧 장마가 된다고 합니다.",
+      "grammar": "〜によると〜そうです (전문, ~에 의하면 ~라고 합니다)",
+      "tags": [
+        "天気予報",
+        "梅雨"
+      ]
+    },
+    {
+      "sent": "<ruby>梅雨<rt>つゆ</rt></ruby>の<ruby>時<rt>とき</rt></ruby>は、<ruby>家<rt>いえ</rt></ruby>で<ruby>過<rt>す</rt></ruby>ごすつもりです。",
+      "trans": "장마 때는, 집에서 보낼 생각입니다.",
+      "grammar": "〜つもりです (~할 생각/작정이다)",
+      "tags": [
+        "時",
+        "つもり"
+      ]
+    },
+    {
+      "sent": "エアコンをよく<ruby>使<rt>つか</rt></ruby>うので、<ruby>電気代<rt>でんきだい</rt></ruby>がとても<ruby>高<rt>たか</rt></ruby>いです。",
+      "trans": "에어컨을 자주 사용하기 때문에, 전기세가 매우 비쌉니다.",
+      "grammar": "〜ので (~기 때문에, 이유)",
+      "tags": [
+        "電気代"
+      ]
+    },
+    {
+      "sent": "<ruby>都合<rt>つごう</rt></ruby>がいい<ruby>日<rt>ひ</rt></ruby>に、デパートへ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "형편이 좋은 날에, 백화점에 갔습니다.",
+      "grammar": "〜に (시간)",
+      "tags": [
+        "都合"
+      ]
+    },
+    {
+      "sent": "<ruby>寒<rt>さむ</rt></ruby>い<ruby>冬<rt>ふゆ</rt></ruby>の<ruby>ため<rt>ため</rt></ruby>に、<ruby>新<rt>あたら</rt></ruby>しい<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>買<rt>か</rt></ruby>うことになりました。",
+      "trans": "추운 겨울을 위해, 새로운 장갑을 사게 되었습니다.",
+      "grammar": "〜ために (목적), 〜ことになりました (결정된 예정/결과)",
+      "tags": [
+        "手袋"
+      ]
+    },
+    {
+      "sent": "<ruby>店員<rt>てんいん</rt></ruby>のおかげで、いい<ruby>品物<rt>しなもの</rt></ruby>を<ruby>選<rt>えら</rt></ruby>べました。",
+      "trans": "점원 덕분에, 좋은 물건을 고를 수 있었습니다.",
+      "grammar": "〜のおかげで (~덕분에, 긍정적인 이유/원인)",
+      "tags": [
+        "店員"
+      ]
+    },
+    {
+      "sent": "<ruby>夕方<rt>ゆうがた</rt></ruby>は、<ruby>天<rt>てん</rt></ruby>ぷらについて<ruby>話<rt>はな</rt></ruby>しながら<ruby>食事<rt>しょくじ</rt></ruby>をしました。",
+      "trans": "저녁에는, 튀김에 대하여 이야기하면서 식사를 했습니다.",
+      "grammar": "〜について (~에 대하여), 〜ながら (~하면서)",
+      "tags": [
+        "天ぷら"
+      ]
+    },
+    {
+      "sent": "<ruby>店<rt>みせ</rt></ruby>の<ruby>電灯<rt>でんとう</rt></ruby>は、<ruby>星<rt>ほし</rt></ruby>みたいにきれいです。",
+      "trans": "가게의 전등은, 별처럼 예쁩니다.",
+      "grammar": "〜みたいに (~처럼, 비유)",
+      "tags": [
+        "電灯"
+      ]
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>動物園<rt>どうぶつえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "주말에는 가족과 함께 동물원에 갔습니다.",
+      "grammar": "〜と一緒に (~와 함께)",
+      "tags": [
+        "動物園"
+      ]
+    },
+    {
+      "sent": "<ruby>動物園<rt>どうぶつえん</rt></ruby>の<ruby>出入口<rt>でいりぐち</rt></ruby>の<ruby>手前<rt>てまえ</rt></ruby>で、<ruby>友達<rt>ともだち</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちました。",
+      "trans": "동물원 출입구의 앞에서, 친구를 기다렸습니다.",
+      "grammar": "〜で (장소)",
+      "tags": [
+        "出入口",
+        "手前"
+      ]
+    },
+    {
+      "sent": "<ruby>遠<rt>とお</rt></ruby>くから<ruby>動物<rt>どうぶつ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえます。",
+      "trans": "먼 곳에서 동물의 큰 소리가 들립니다.",
+      "grammar": "〜から (~에서부터)",
+      "tags": [
+        "遠く"
+      ]
+    },
+    {
+      "sent": "<ruby>息子<rt>むすこ</rt></ruby>はテストの<ruby>点<rt>てん</rt></ruby>が<ruby>良<rt>よ</rt></ruby>かったので、ご<ruby>褒美<rt>ほうび</rt></ruby>として<ruby>道具<rt>どうぐ</rt></ruby>のおもちゃをあげました。",
+      "trans": "아들은 테스트 점수가 좋았기 때문에, 포상으로서 도구 장난감을 주었습니다.",
+      "grammar": "〜として (~로서, 자격이나 명목)",
+      "tags": [
+        "点",
+        "道具"
+      ]
+    },
+    {
+      "sent": "にぎやかな<ruby>通<rt>とお</rt></ruby>りを<ruby>歩<rt>ある</rt></ruby>いて<ruby>帰<rt>かえ</rt></ruby>りました。",
+      "trans": "번화한 거리를 걸어서 돌아갔습니다.",
+      "grammar": "〜て (~해서/하고, 동작의 연결)",
+      "tags": [
+        "通り"
+      ]
+    },
+    {
+      "sent": "<ruby>日曜<rt>にちよう</rt></ruby>の<ruby>午後<rt>ごご</rt></ruby>は<ruby>長<rt>なが</rt></ruby>い<ruby>爪<rt>つめ</rt></ruby>を<ruby>切<rt>き</rt></ruby>ってから、<ruby>床屋<rt>とこや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "일요일 오후에는 긴 손톱을 깎고 나서, 이발소에 갔습니다.",
+      "grammar": "〜てから (~하고 나서)",
+      "tags": [
+        "爪",
+        "床屋"
+      ]
+    },
+    {
+      "sent": "<ruby>東京都<rt>とうきょうと</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>いた<ruby>展覧会<rt>てんらんかい</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "도쿄도가 연 전람회를 보러 갔습니다.",
+      "grammar": "〜に行く (~하러 가다, 목적)",
+      "tags": [
+        "都",
+        "展覧会"
+      ]
+    },
+    {
+      "sent": "<ruby>古<rt>ふる</rt></ruby>いお<ruby>寺<rt>てら</rt></ruby>の<ruby>絵<rt>え</rt></ruby>がありました。",
+      "trans": "오래된 절의 그림이 있었습니다.",
+      "grammar": "〜がありました (존재)",
+      "tags": [
+        "寺"
+      ]
+    },
+    {
+      "sent": "<ruby>昔<rt>むかし</rt></ruby>は<ruby>電話<rt>でんわ</rt></ruby>の<ruby>代<rt>か</rt></ruby>わりに、<ruby>電報<rt>でんぽう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っていたと<ruby>習<rt>なら</rt></ruby>いました。",
+      "trans": "옛날에는 전화 대신에, 전보를 사용했다고 배웠습니다.",
+      "grammar": "〜と (~라고, 인용)",
+      "tags": [
+        "電報"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "都合",
       "read": "つごう",
       "mean": "사정, 형편",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "妻",
       "read": "つま",
       "mean": "아내",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "爪",
       "read": "つめ",
       "mean": "손톱, 발톱",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "つもり",
       "read": "つもり",
       "mean": "생각, 작정",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "梅雨",
       "read": "つゆ",
       "mean": "장마",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "出入口",
       "read": "でいりぐち",
       "mean": "출입구",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "手袋",
       "read": "てぶくろ",
       "mean": "장갑",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "手前",
       "read": "てまえ",
       "mean": "앞, 자기 앞",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "寺",
       "read": "てら",
       "mean": "절",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "点",
       "read": "てん",
       "mean": "점, 점수",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "店員",
       "read": "てんいん",
       "mean": "점원",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "電気代",
       "read": "でんきだい",
       "mean": "전기세",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "天気予報",
       "read": "てんきよほう",
       "mean": "일기 예보",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "電灯",
       "read": "でんとう",
       "mean": "전등",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "天ぷら",
       "read": "てんぷら",
       "mean": "튀김",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "電報",
       "read": "でんぽう",
       "mean": "전보",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "展覧会",
       "read": "てんらんかい",
       "mean": "전람회, 전시회",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "都",
       "read": "と",
       "mean": "도 (행정구역)",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "道具",
       "read": "どうぐ",
       "mean": "도구",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "動物園",
       "read": "どうぶつえん",
       "mean": "동물원",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "遠く",
       "read": "とおく",
       "mean": "먼 곳",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "通り",
       "read": "とおり",
       "mean": "거리, 길",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "都会",
       "read": "とかい",
       "mean": "도시",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "時",
       "read": "とき",
       "mean": "때, 시간",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "床屋",
       "read": "とこや",
       "mean": "이발소",
-      "tags": [],
-      "moduleId": "n4-module-013",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「都合」の読み方は何ですか。",
+      "opt": [
+        "つこう",
+        "つごう",
+        "とこう",
+        "とごう"
+      ],
+      "ans": 1,
+      "comment": "都合(つごう)는 '사정, 형편'이라는 뜻입니다."
+    },
+    {
+      "q": "「梅雨」の読み方は何ですか。",
+      "opt": [
+        "うめあめ",
+        "うめゆ",
+        "ばいう",
+        "つゆ"
+      ],
+      "ans": 3,
+      "comment": "梅雨(つゆ)는 '장마'라는 뜻입니다."
+    },
+    {
+      "q": "「展覧会」の読み方は何ですか。",
+      "opt": [
+        "てんらんかい",
+        "てらんかい",
+        "てんらかい",
+        "でんらんかい"
+      ],
+      "ans": 0,
+      "comment": "展覧会(てんらんかい)는 '전람회, 전시회'라는 뜻입니다."
+    },
+    {
+      "q": "「都会」の読み方は何ですか。",
+      "opt": [
+        "とがい",
+        "とうかい",
+        "とかい",
+        "どかい"
+      ],
+      "ans": 2,
+      "comment": "都会(とかい)는 '도시'라는 뜻입니다."
+    },
+    {
+      "q": "「출입구」を日本語で書くと何ですか。",
+      "opt": [
+        "出口",
+        "入口",
+        "出入",
+        "出入口"
+      ],
+      "ans": 3,
+      "comment": "出入口(でいりぐち)는 '출입구'라는 뜻입니다."
+    },
+    {
+      "q": "「일기 예보」を日本語で書くと何ですか。",
+      "opt": [
+        "天気予報",
+        "電気代",
+        "電報",
+        "展覧会"
+      ],
+      "ans": 0,
+      "comment": "天気予報(てんきよほう)는 '일기 예보'라는 뜻입니다."
+    },
+    {
+      "q": "「전기세」を日本語で書くと何ですか。",
+      "opt": [
+        "電灯",
+        "電気代",
+        "天気予報",
+        "道具"
+      ],
+      "ans": 1,
+      "comment": "電気代(でんきだい)는 '전기세'라는 뜻입니다."
+    },
+    {
+      "q": "冬の______、新しい手袋を買いました。",
+      "opt": [
+        "について",
+        "ために",
+        "みたいに",
+        "として"
+      ],
+      "ans": 1,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해/위하여)가 알맞습니다."
+    },
+    {
+      "q": "店員さん______、いい品物を選べました。",
+      "opt": [
+        "のおかげで",
+        "について",
+        "として",
+        "みたいに"
+      ],
+      "ans": 0,
+      "comment": "긍정적인 원인, 이유를 나타내는 「〜のおかげで」(~덕분에)가 알맞습니다."
+    },
+    {
+      "q": "息子にご褒美______、おもちゃをあげました。",
+      "opt": [
+        "のために",
+        "のおかげで",
+        "として",
+        "について"
+      ],
+      "ans": 2,
+      "comment": "자격이나 명목을 나타내는 「〜として」(~로서)가 알맞습니다."
     }
   ]
 }
