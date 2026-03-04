@@ -1,206 +1,489 @@
 {
-  "title": "ま・も・よ行の名詞 (ま・も・よ행 명사)",
-  "moduleId": "n4-module-017",
+  "title": "N4: 家族との約束と休日の準備",
+  "story": "<h3>Scene 1. <ruby>夕<rt>ゆう</rt></ruby>べの<ruby>約束<rt>やくそく</rt></ruby> (어젯밤의 약속)</h3>\n<ruby>夕<rt>ゆう</rt></ruby>べ、<ruby>娘<rt>むすめ</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>夕食<rt>ゆうしょく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。テーブルの<ruby>真<rt>ま</rt></ruby>ん<ruby>中<rt>なか</rt></ruby>に<ruby>虫<rt>むし</rt></ruby>がいて、とても<ruby>驚<rt>おどろ</rt></ruby>きました。<ruby>娘<rt>むすめ</rt></ruby>と<ruby>将来<rt>しょうらい</rt></ruby>の<ruby>夢<rt>ゆめ</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。お<ruby>祝<rt>いわ</rt></ruby>いとして、きれいな<ruby>万年筆<rt>まんねんひつ</rt></ruby>をプレゼントしました。\n<h3>Scene 2. <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>への<ruby>道<rt>みち</rt></ruby> (우체국 가는 길)</h3>\n<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>るために、<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>への<ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>がわからないので、<ruby>向<rt>む</rt></ruby>こうの<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>きました。<ruby>木綿<rt>もめん</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>ているので、<ruby>雲<rt>くも</rt></ruby>みたいに<ruby>暖<rt>あたた</rt></ruby>かいです。<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>のおかげで、<ruby>無事<rt>ぶじ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。<ruby>町<rt>まち</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はみな<ruby>優<rt>やさ</rt></ruby>しいです。\n<h3>Scene 3. <ruby>友達<rt>ともだち</rt></ruby>との<ruby>電話<rt>でんわ</rt></ruby> (친구와의 전화)</h3>\n<ruby>友達<rt>ともだち</rt></ruby>の<ruby>娘<rt>むすめ</rt></ruby>さんが、<ruby>結婚<rt>けっこん</rt></ruby>することになりました。<ruby>指<rt>ゆび</rt></ruby>にきれいな<ruby>指輪<rt>ゆびわ</rt></ruby>をしていて、とても<ruby>嬉<rt>うれ</rt></ruby>しそうです。<ruby>友達<rt>ともだち</rt></ruby>の<ruby>息子<rt>むすこ</rt></ruby>さんが、<ruby>夜間<rt>やかん</rt></ruby>のパーティーの<ruby>用意<rt>ようい</rt></ruby>をしています。パーティーの<ruby>食事<rt>しょくじ</rt></ruby>は、レストランの<ruby>持<rt>も</rt></ruby>ち<ruby>帰<rt>かえ</rt></ruby>りにしました。\n<h3>Scene 4. <ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby> (주말의 여행)</h3>\n<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>港<rt>みなと</rt></ruby>がある<ruby>村<rt>むら</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>約束<rt>やくそく</rt></ruby>をしました。<ruby>森<rt>もり</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら、<ruby>山道<rt>やまみち</rt></ruby>をたくさん<ruby>歩<rt>ある</rt></ruby>きました。ホテルで<ruby>温<rt>あたた</rt></ruby>かいお<ruby>湯<rt>ゆ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。<ruby>自然<rt>しぜん</rt></ruby>のおかげで、リラックスできました。",
+  "analysis": [
+    {
+      "sent": "<ruby>夕<rt>ゆう</rt></ruby>べ、<ruby>娘<rt>むすめ</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>夕食<rt>ゆうしょく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。",
+      "trans": "어젯밤, 딸과 함께 저녁 식사를 했습니다.",
+      "grammar": "〜と一緒に (~와 함께)",
+      "tags": [
+        "夕べ",
+        "娘",
+        "夕食"
+      ]
+    },
+    {
+      "sent": "テーブルの<ruby>真<rt>ま</rt></ruby>ん<ruby>中<rt>なか</rt></ruby>に<ruby>虫<rt>むし</rt></ruby>がいて、とても<ruby>驚<rt>おどろ</rt></ruby>きました。",
+      "trans": "테이블 한가운데에 벌레가 있어서, 매우 놀랐습니다.",
+      "grammar": "〜に〜がいる (~에 ~이 있다/생물)",
+      "tags": [
+        "真ん中",
+        "虫"
+      ]
+    },
+    {
+      "sent": "<ruby>娘<rt>むすめ</rt></ruby>と<ruby>将来<rt>しょうらい</rt></ruby>の<ruby>夢<rt>ゆめ</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "딸과 장래의 꿈에 대하여 이야기했습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "娘",
+        "夢"
+      ]
+    },
+    {
+      "sent": "お<ruby>祝<rt>いわ</rt></ruby>いとして、きれいな<ruby>万年筆<rt>まんねんひつ</rt></ruby>をプレゼントしました。",
+      "trans": "축하의 뜻으로(선물로서), 예쁜 만년필을 선물했습니다.",
+      "grammar": "〜として (~로서/자격, 명목)",
+      "tags": [
+        "万年筆"
+      ]
+    },
+    {
+      "sent": "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>るために、<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "편지를 보내기 위해, 우체국에 가게 되었습니다.",
+      "grammar": "〜ために (~하기 위해), 〜ことになる (~하게 되다)",
+      "tags": [
+        "郵便局"
+      ]
+    },
+    {
+      "sent": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>への<ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>がわからないので、<ruby>向<rt>む</rt></ruby>こうの<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>きました。",
+      "trans": "우체국에 가는 방법을 몰라서, 저쪽 사람에게 물었습니다.",
+      "grammar": "動詞ます形＋方 (~하는 방법)",
+      "tags": [
+        "郵便局",
+        "行き方",
+        "向こう"
+      ]
+    },
+    {
+      "sent": "<ruby>木綿<rt>もめん</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>ているので、<ruby>雲<rt>くも</rt></ruby>みたいに<ruby>暖<rt>あたた</rt></ruby>かいです。",
+      "trans": "목화(면) 옷을 입고 있어서, 구름처럼 따뜻합니다.",
+      "grammar": "〜みたいに (~처럼/비유)",
+      "tags": [
+        "木綿"
+      ]
+    },
+    {
+      "sent": "<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>のおかげで、<ruby>無事<rt>ぶじ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。",
+      "trans": "친절한 사람 덕분에, 무사히 도착했습니다.",
+      "grammar": "〜のおかげで (~덕분에)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>町<rt>まち</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はみな<ruby>優<rt>やさ</rt></ruby>しいです。",
+      "trans": "마을 사람은 모두 친절합니다.",
+      "grammar": "みな (모두)",
+      "tags": [
+        "みな"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>の<ruby>娘<rt>むすめ</rt></ruby>さんが、<ruby>結婚<rt>けっこん</rt></ruby>することになりました。",
+      "trans": "친구의 따님이, 결혼하게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다/결정된 일)",
+      "tags": [
+        "娘さん"
+      ]
+    },
+    {
+      "sent": "<ruby>指<rt>ゆび</rt></ruby>にきれいな<ruby>指輪<rt>ゆびわ</rt></ruby>をしていて、とても<ruby>嬉<rt>うれ</rt></ruby>しそうです。",
+      "trans": "손가락에 예쁜 반지를 끼고 있어서, 매우 기뻐 보입니다.",
+      "grammar": "〜そうです (~해 보이다/양태)",
+      "tags": [
+        "指",
+        "指輪"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>の<ruby>息子<rt>むすこ</rt></ruby>さんが、<ruby>夜間<rt>やかん</rt></ruby>のパーティーの<ruby>用意<rt>ようい</rt></ruby>をしています。",
+      "trans": "친구의 아드님이, 야간 파티 준비를 하고 있습니다.",
+      "grammar": "〜ている (~하고 있다/진행)",
+      "tags": [
+        "息子さん",
+        "夜間",
+        "用意"
+      ]
+    },
+    {
+      "sent": "パーティーの<ruby>食事<rt>しょくじ</rt></ruby>は、レストランの<ruby>持<rt>も</rt></ruby>ち<ruby>帰<rt>かえ</rt></ruby>りにしました。",
+      "trans": "파티 식사는, 레스토랑의 테이크아웃으로 했습니다.",
+      "grammar": "〜にする (~로 하다/결정)",
+      "tags": [
+        "持ち帰り"
+      ]
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>港<rt>みなと</rt></ruby>がある<ruby>村<rt>むら</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>約束<rt>やくそく</rt></ruby>をしました。",
+      "trans": "주말은 항구가 있는 마을에 갈 약속을 했습니다.",
+      "grammar": "動詞辞書形＋名詞 (동사의 명사 수식)",
+      "tags": [
+        "港",
+        "村",
+        "約束"
+      ]
+    },
+    {
+      "sent": "<ruby>森<rt>もり</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら、<ruby>山道<rt>やまみち</rt></ruby>をたくさん<ruby>歩<rt>ある</rt></ruby>きました。",
+      "trans": "숲을 보면서, 산길을 많이 걸었습니다.",
+      "grammar": "〜ながら (~하면서/동시 동작)",
+      "tags": [
+        "森",
+        "山道"
+      ]
+    },
+    {
+      "sent": "ホテルで<ruby>温<rt>あたた</rt></ruby>かいお<ruby>湯<rt>ゆ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。",
+      "trans": "호텔에서 따뜻한 물(목욕물)에 들어갔습니다.",
+      "grammar": "で (장소)",
+      "tags": [
+        "湯"
+      ]
+    },
+    {
+      "sent": "<ruby>自然<rt>しぜん</rt></ruby>のおかげで、リラックスできました。",
+      "trans": "자연 덕분에, 릴랙스(휴식) 할 수 있었습니다.",
+      "grammar": "〜のおかげで (~덕분에)",
+      "tags": []
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "真ん中",
       "read": "まんなか",
       "mean": "한가운데",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "万年筆",
       "read": "まんねんひつ",
       "mean": "만년필",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "みな",
       "read": "みな",
       "mean": "모두",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "港",
       "read": "みなと",
       "mean": "항구",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "向こう",
       "read": "むこう",
       "mean": "저쪽, 건너편",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "虫",
       "read": "むし",
       "mean": "벌레",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "息子さん",
       "read": "むすこさん",
       "mean": "아드님",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "娘",
       "read": "むすめ",
       "mean": "딸",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "娘さん",
       "read": "むすめさん",
       "mean": "따님",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "村",
       "read": "むら",
       "mean": "마을",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "持ち帰り",
       "read": "もちかえり",
       "mean": "테이크아웃, 가지고 돌아감",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "木綿",
       "read": "もめん",
       "mean": "목화, 솜",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "森",
       "read": "もり",
       "mean": "숲",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "夜間",
       "read": "やかん",
       "mean": "야간",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "約束",
       "read": "やくそく",
       "mean": "약속",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "山道",
       "read": "やまみち",
       "mean": "산길",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "湯",
       "read": "ゆ",
       "mean": "뜨거운 물, 목욕물",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "夕食",
       "read": "ゆうしょく",
       "mean": "저녁 식사",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "郵便局",
       "read": "ゆうびんきょく",
       "mean": "우체국",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 11
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "夕べ",
       "read": "ゆうべ",
       "mean": "어젯밤",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 11
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "行き方",
       "read": "いきかた",
       "mean": "가는 방법",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 11
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "指",
       "read": "ゆび",
       "mean": "손가락",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 11
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "指輪",
       "read": "ゆびわ",
       "mean": "반지",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 11
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "夢",
       "read": "ゆめ",
       "mean": "꿈",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 11
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "用意",
       "read": "ようい",
       "mean": "준비",
-      "tags": [],
-      "moduleId": "n4-module-017",
-      "legacyDay": 11
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「万年筆」の読み方は何ですか。",
+      "opt": [
+        "まんねんぴつ",
+        "まんねんひつ",
+        "ばねんひつ",
+        "まんえんひつ"
+      ],
+      "ans": 1,
+      "comment": "万年筆(まんねんひつ)は '만년필'이라는 뜻です。"
+    },
+    {
+      "q": "「郵便局」の読み方は何ですか。",
+      "opt": [
+        "ゆうびんきょく",
+        "ゆうひんきょく",
+        "ゆうびんこく",
+        "ゆうみんきょく"
+      ],
+      "ans": 0,
+      "comment": "郵便局(ゆうびんきょく)は '우체국'이라는 뜻です。"
+    },
+    {
+      "q": "「指輪」の読み方は何ですか。",
+      "opt": [
+        "ゆびは",
+        "ゆびわ",
+        "しわ",
+        "ゆひわ"
+      ],
+      "ans": 1,
+      "comment": "指輪(ゆびわ)は '반지'라는 뜻です。"
+    },
+    {
+      "q": "「山道」の読み方は何ですか。",
+      "opt": [
+        "やまみち",
+        "さんどう",
+        "さんみち",
+        "やまどう"
+      ],
+      "ans": 0,
+      "comment": "山道(やまみち)は '산길'이라는 뜻です。"
+    },
+    {
+      "q": "「약속」を日本語で書くと何ですか。",
+      "opt": [
+        "夕食",
+        "夜間",
+        "村",
+        "約束"
+      ],
+      "ans": 3,
+      "comment": "約束(やくそく)は '약속'という 뜻です。"
+    },
+    {
+      "q": "「숲」を日本語で書くと何ですか。",
+      "opt": [
+        "森",
+        "港",
+        "向こう",
+        "真ん中"
+      ],
+      "ans": 0,
+      "comment": "森(もり)は '숲'という 뜻です。"
+    },
+    {
+      "q": "「준비」を日本語で書くと何ですか。",
+      "opt": [
+        "行き方",
+        "用意",
+        "持ち帰り",
+        "木綿"
+      ],
+      "ans": 1,
+      "comment": "用意(ようい)は '준비'という 뜻です。"
+    },
+    {
+      "q": "手紙を送る______、郵便局へ行きました。",
+      "opt": [
+        "ために",
+        "のおかげで",
+        "について",
+        "みたいに"
+      ],
+      "ans": 0,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)が 알맞습니다."
+    },
+    {
+      "q": "木綿の服は、雲______柔らかいです。",
+      "opt": [
+        "について",
+        "みたいに",
+        "として",
+        "ために"
+      ],
+      "ans": 1,
+      "comment": "비유를 나타내는 「〜みたいに」(~처럼)が 알맞습니다."
+    },
+    {
+      "q": "親切な人______、無事に着きました。",
+      "opt": [
+        "について",
+        "ために",
+        "のおかげで",
+        "として"
+      ],
+      "ans": 2,
+      "comment": "긍정적인 영향을 나타내는 「〜のおかげで」(~덕분에)が 알맞습니다."
     }
   ]
 }
