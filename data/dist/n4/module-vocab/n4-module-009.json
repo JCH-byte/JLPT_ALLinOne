@@ -1,206 +1,482 @@
 {
-  "title": "し行の名詞・2 (し행 명사 2)",
-  "moduleId": "n4-module-009",
+  "title": "N4: 새로운 도시 생활",
+  "story": "<h3>Scene 1. <ruby>市役所<rt>しやくしょ</rt></ruby>への<ruby>道<rt>みち</rt></ruby> (시청 가는 길)</h3>\n<ruby>自分<rt>じぶん</rt></ruby>の<ruby>住所<rt>じゅうしょ</rt></ruby>を<ruby>登録<rt>とうろく</rt></ruby>するために、<ruby>市役所<rt>しやくしょ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。<ruby>道<rt>みち</rt></ruby>がわからないので、<ruby>失礼<rt>しつれい</rt></ruby>ですが<ruby>警察官<rt>けいさつかん</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>しました。<ruby>自動車<rt>じどうしゃ</rt></ruby>は<ruby>車道<rt>しゃどう</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るので、<ruby>気<rt>き</rt></ruby>をつけてくださいと<ruby>言<rt>い</rt></ruby>われました。<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>市民<rt>しみん</rt></ruby>のおかげで、<ruby>無事<rt>ぶじ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。\n<h3>Scene 2. <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby> (쇼핑)</h3>\n<ruby>午後<rt>ごご</rt></ruby>は<ruby>自転車<rt>じてんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って<ruby>市内<rt>しない</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>店<rt>みせ</rt></ruby>で<ruby>生活<rt>せいかつ</rt></ruby>のための<ruby>品物<rt>しなもの</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びました。<ruby>自動<rt>じどう</rt></ruby>レジについて、<ruby>店員<rt>てんいん</rt></ruby>に<ruby>聞<rt>き</rt></ruby>きました。<ruby>カード<rt>かーど</rt></ruby>で<ruby>支払<rt>しはら</rt></ruby>いをしました。<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>事務所<rt>じむしょ</rt></ruby>へのお<ruby>土産<rt>みやげ</rt></ruby>も<ruby>買<rt>か</rt></ruby>いました。\n<h3>Scene 3. <ruby>日本語<rt>にほんご</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby> (일본어 수업)</h3>\n<ruby>夕方<rt>ゆうがた</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>に<ruby>出席<rt>しゅっせき</rt></ruby>しました。<ruby>言葉<rt>ことば</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べるために、<ruby>辞典<rt>じてん</rt></ruby>や<ruby>字引<rt>じびき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>います。<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>で<ruby>失敗<rt>しっぱい</rt></ruby>をしてしまいました。<ruby>先生<rt>せんせい</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>の<ruby>姉妹<rt>しまい</rt></ruby>みたいに<ruby>優<rt>やさ</rt></ruby>しいです。\n<h3>Scene 4. <ruby>新<rt>あたら</rt></ruby>しい<ruby>習慣<rt>しゅうかん</rt></ruby> (새로운 습관)</h3>\n<ruby>日本<rt>にほん</rt></ruby>の<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>習慣<rt>しゅうかん</rt></ruby>にも<ruby>慣<rt>な</rt></ruby>れてきました。<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>趣味<rt>しゅみ</rt></ruby>として<ruby>柔道<rt>じゅうどう</rt></ruby>を<ruby>習<rt>なら</rt></ruby>っています。<ruby>道場<rt>どうじょう</rt></ruby>の<ruby>主人<rt>しゅじん</rt></ruby>はとても<ruby>強<rt>つよ</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby>が<ruby>楽<rt>たの</rt></ruby>しくなりました。",
+  "analysis": [
+    {
+      "sent": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>住所<rt>じゅうしょ</rt></ruby>を<ruby>登録<rt>とうろく</rt></ruby>するために、<ruby>市役所<rt>しやくしょ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "자신의 주소를 등록하기 위해, 시청에 가게 되었습니다.",
+      "grammar": "~ために (목적), ~ことになる (예정/결정)",
+      "tags": [
+        "自分",
+        "住所",
+        "市役所"
+      ]
+    },
+    {
+      "sent": "<ruby>失礼<rt>しつれい</rt></ruby>ですが<ruby>警察官<rt>けいさつかん</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>しました。",
+      "trans": "실례지만 경찰관에게 질문했습니다.",
+      "grammar": "~ですが (역접)",
+      "tags": [
+        "失礼",
+        "質問"
+      ]
+    },
+    {
+      "sent": "<ruby>自動車<rt>じどうしゃ</rt></ruby>は<ruby>車道<rt>しゃどう</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るので、<ruby>気<rt>き</rt></ruby>をつけてくださいと<ruby>言<rt>い</rt></ruby>われました。",
+      "trans": "자동차는 차도를 달리므로, 조심하라고 들었습니다(주의받았습니다).",
+      "grammar": "~ので (이유), ~と言われる (인용/수동)",
+      "tags": [
+        "自動車",
+        "車道"
+      ]
+    },
+    {
+      "sent": "<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>市民<rt>しみん</rt></ruby>のおかげで、<ruby>無事<rt>ぶじ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。",
+      "trans": "친절한 시민 덕분에 무사히 도착했습니다.",
+      "grammar": "~のおかげで (덕분에)",
+      "tags": [
+        "市民"
+      ]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>自転車<rt>じてんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って<ruby>市内<rt>しない</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "오후에는 자전거를 타고 시내에 갔습니다.",
+      "grammar": "~て (동사 연결)",
+      "tags": [
+        "自転車",
+        "市内"
+      ]
+    },
+    {
+      "sent": "<ruby>店<rt>みせ</rt></ruby>で<ruby>生活<rt>せいかつ</rt></ruby>のための<ruby>品物<rt>しなもの</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びました。",
+      "trans": "가게에서 생활을 위한 물건을 골랐습니다.",
+      "grammar": "명사+のための (명사를 수식하는 목적)",
+      "tags": [
+        "品物"
+      ]
+    },
+    {
+      "sent": "<ruby>自動<rt>じどう</rt></ruby>レジについて、<ruby>店員<rt>てんいん</rt></ruby>に<ruby>聞<rt>き</rt></ruby>きました。",
+      "trans": "자동 계산대에 대하여 점원에게 물었습니다.",
+      "grammar": "~について (~에 대하여)",
+      "tags": [
+        "自動"
+      ]
+    },
+    {
+      "sent": "<ruby>カード<rt>かーど</rt></ruby>で<ruby>支払<rt>しはら</rt></ruby>いをしました。",
+      "trans": "카드로 지불을 했습니다.",
+      "grammar": "で (수단, 방법)",
+      "tags": [
+        "支払い"
+      ]
+    },
+    {
+      "sent": "<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>事務所<rt>じむしょ</rt></ruby>へのお<ruby>土産<rt>みやげ</rt></ruby>も<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "사장의 사무실에 줄 선물도 샀습니다.",
+      "grammar": "への (방향을 나타내는 조사와 명사 수식)",
+      "tags": [
+        "社長",
+        "事務所"
+      ]
+    },
+    {
+      "sent": "<ruby>夕方<rt>ゆうがた</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>に<ruby>出席<rt>しゅっせき</rt></ruby>しました。",
+      "trans": "저녁에는 일본어 수업에 출석했습니다.",
+      "grammar": "に (목적지/대상)",
+      "tags": [
+        "授業",
+        "出席"
+      ]
+    },
+    {
+      "sent": "<ruby>言葉<rt>ことば</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べるために、<ruby>辞典<rt>じてん</rt></ruby>や<ruby>字引<rt>じびき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>います。",
+      "trans": "단어의 의미를 찾기 위해 사전이나 자전을 사용합니다.",
+      "grammar": "~ために (목적), ~や (~랑/이나)",
+      "tags": [
+        "辞典",
+        "字引"
+      ]
+    },
+    {
+      "sent": "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>で<ruby>失敗<rt>しっぱい</rt></ruby>をしてしまいました。",
+      "trans": "한자 읽는 법에서 실패하고 말았습니다 (실수했습니다).",
+      "grammar": "~てしまう (완료/유감)",
+      "tags": [
+        "失敗"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>の<ruby>姉妹<rt>しまい</rt></ruby>みたいに<ruby>優<rt>やさ</rt></ruby>しいです。",
+      "trans": "선생님은 제 자매같이 다정합니다.",
+      "grammar": "~みたいに (비유)",
+      "tags": [
+        "姉妹"
+      ]
+    },
+    {
+      "sent": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>習慣<rt>しゅうかん</rt></ruby>にも<ruby>慣<rt>な</rt></ruby>れてきました。",
+      "trans": "일본 사회의 습관에도 익숙해졌습니다.",
+      "grammar": "~てくる (변화의 계속/시작)",
+      "tags": [
+        "社会",
+        "習慣"
+      ]
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>趣味<rt>しゅみ</rt></ruby>として<ruby>柔道<rt>じゅうどう</rt></ruby>を<ruby>習<rt>なら</rt></ruby>っています。",
+      "trans": "주말에는 취미로서 유도를 배우고 있습니다.",
+      "grammar": "~として (자격/명목), ~ている (진행/상태)",
+      "tags": [
+        "柔道"
+      ]
+    },
+    {
+      "sent": "<ruby>道場<rt>どうじょう</rt></ruby>の<ruby>主人<rt>しゅじん</rt></ruby>はとても<ruby>強<rt>つよ</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>です。",
+      "trans": "도장의 주인은 매우 강한 사람입니다.",
+      "grammar": "い형용사의 명사 수식",
+      "tags": [
+        "主人"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "失敗",
       "read": "しっぱい",
       "mean": "실패",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "質問",
       "read": "しつもん",
       "mean": "질문",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "失礼",
       "read": "しつれい",
       "mean": "실례",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "辞典",
       "read": "じてん",
       "mean": "사전",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "自転車",
       "read": "じてんしゃ",
       "mean": "자전거",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "自動",
       "read": "じどう",
       "mean": "자동",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "自動車",
       "read": "じどうしゃ",
       "mean": "자동차",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "市内",
       "read": "しない",
       "mean": "시내",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "品物",
       "read": "しなもの",
       "mean": "물건, 상품",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "支払い",
       "read": "しはらい",
       "mean": "지불",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "字引",
       "read": "じびき",
       "mean": "자전, 사전",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "自分",
       "read": "じぶん",
       "mean": "자신, 자기",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "姉妹",
       "read": "しまい",
       "mean": "자매",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "市民",
       "read": "しみん",
       "mean": "시민",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "事務所",
       "read": "じむしょ",
       "mean": "사무소, 사무실",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "社会",
       "read": "しゃかい",
       "mean": "사회",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "市役所",
       "read": "しやくしょ",
       "mean": "시청",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "社長",
       "read": "しゃちょう",
       "mean": "사장",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "車道",
       "read": "しゃどう",
       "mean": "차도",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "習慣",
       "read": "しゅうかん",
       "mean": "습관",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "住所",
       "read": "じゅうしょ",
       "mean": "주소",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "柔道",
       "read": "じゅうどう",
       "mean": "유도",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "授業",
       "read": "じゅぎょう",
       "mean": "수업",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "主人",
       "read": "しゅじん",
       "mean": "주인, 남편",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "出席",
       "read": "しゅっせき",
       "mean": "출석",
-      "tags": [],
-      "moduleId": "n4-module-009",
-      "legacyDay": 6
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「失敗」の読み方は何ですか。",
+      "opt": [
+        "しつぱい",
+        "しっぱい",
+        "じっぱい",
+        "じつぱい"
+      ],
+      "ans": 1,
+      "comment": "失敗(しっぱい)は '실패'라는 뜻입니다."
+    },
+    {
+      "q": "「習慣」の読み方は何ですか。",
+      "opt": [
+        "しゅかん",
+        "しゅうかん",
+        "じゅかん",
+        "じゅうかん"
+      ],
+      "ans": 1,
+      "comment": "習慣(しゅうかん)は '습관'이라는 뜻입니다."
+    },
+    {
+      "q": "「支払い」の読み方は何ですか。",
+      "opt": [
+        "しはらい",
+        "じはらい",
+        "しぱらい",
+        "しばらい"
+      ],
+      "ans": 0,
+      "comment": "支払い(しはらい)は '지불'이라는 뜻입니다."
+    },
+    {
+      "q": "「姉妹」の読み方は何ですか。",
+      "opt": [
+        "あねいもうと",
+        "あねまい",
+        "しまい",
+        "しもうと"
+      ],
+      "ans": 2,
+      "comment": "姉妹(しまい)は '자매'라는 뜻입니다."
+    },
+    {
+      "q": "「출석」を日本語で書くと何ですか。",
+      "opt": [
+        "出席",
+        "授業",
+        "欠席",
+        "市民"
+      ],
+      "ans": 0,
+      "comment": "出席(しゅっせき)는 '출석'이라는 뜻입니다."
+    },
+    {
+      "q": "「자전거」を日本語で書くと何ですか。",
+      "opt": [
+        "自動車",
+        "車道",
+        "自動",
+        "自転車"
+      ],
+      "ans": 3,
+      "comment": "自転車(じてんしゃ)는 '자전거'라는 뜻입니다."
+    },
+    {
+      "q": "「질문」を日本語で書くと何ですか。",
+      "opt": [
+        "失礼",
+        "質問",
+        "失敗",
+        "辞典"
+      ],
+      "ans": 1,
+      "comment": "質問(しつもん)은 '질문'이라는 뜻입니다."
+    },
+    {
+      "q": "言葉の意味を調べる______、辞典を使います。",
+      "opt": [
+        "みたいに",
+        "について",
+        "ために",
+        "として"
+      ],
+      "ans": 2,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "親切な市民の______、無事に着きました。",
+      "opt": [
+        "おかげで",
+        "ために",
+        "みたいに",
+        "せいで"
+      ],
+      "ans": 0,
+      "comment": "긍정적인 영향을 받아 감사함을 나타내는 「〜のおかげで」(~덕분에)가 알맞습니다."
+    },
+    {
+      "q": "自動レジ______、店員に聞きました。",
+      "opt": [
+        "として",
+        "みたいに",
+        "おかげで",
+        "について"
+      ],
+      "ans": 3,
+      "comment": "대상을 나타내는 「〜について」(~에 대하여)가 알맞습니다."
     }
   ]
 }
