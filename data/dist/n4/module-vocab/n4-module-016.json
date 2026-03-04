@@ -1,206 +1,489 @@
 {
-  "title": "ひ・ふ・ま行の名詞 (ひ・ふ・ま행 명사)",
-  "moduleId": "n4-module-016",
+  "title": "N4: 사무실과 휴일의 일상",
+  "story": "<h3>Scene 1. <ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>昼休<rt>ひるやす</rt></ruby>み (회사의 점심시간)</h3>\n<ruby>今日<rt>きょう</rt></ruby>の<ruby>昼休<rt>ひるやす</rt></ruby>みに、<ruby>部長<rt>ぶちょう</rt></ruby>とレストランへ<ruby>行<rt>い</rt></ruby>きました。おいしい<ruby>豚肉<rt>ぶたにく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる<ruby>ため<rt>ため</rt></ruby>に、この<ruby>店<rt>みせ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びました。<ruby>店<rt>みせ</rt></ruby>の<ruby>窓<rt>まど</rt></ruby>ガラスは、<ruby>鏡<rt>かがみ</rt></ruby>みたいにきれいです。<ruby>部長<rt>ぶちょう</rt></ruby>のおかげで、<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しかったです。\n<h3>Scene 2. <ruby>午後<rt>ごご</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby> (오후의 업무)</h3>\n<ruby>午後<rt>ごご</rt></ruby>は<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>の<ruby>窓口<rt>まどぐち</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>封筒<rt>ふうとう</rt></ruby>に、１<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>を<ruby>入<rt>い</rt></ruby>れて<ruby>送<rt>おく</rt></ruby>りました。<ruby>取引先<rt>とりひきさき</rt></ruby>からメールが<ruby>来<rt>き</rt></ruby>たので、<ruby>僕<rt>ぼく</rt></ruby>はすぐに<ruby>返事<rt>へんじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きました。<ruby>次<rt>つぎ</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>について、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>準備<rt>じゅんび</rt></ruby>します。\n<h3>Scene 3. <ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>趣味<rt>しゅみ</rt></ruby> (주말의 취미)</h3>\n<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>本屋<rt>ほんや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>趣味<rt>しゅみ</rt></ruby>として、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文学<rt>ぶんがく</rt></ruby>と<ruby>文法<rt>ぶんぽう</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。<ruby>難<rt>むずか</rt></ruby>しい<ruby>文章<rt>ぶんしょう</rt></ruby>だけでなく、まんがもよく<ruby>読<rt>よ</rt></ruby>みます。<ruby>家<rt>いえ</rt></ruby>の<ruby>本棚<rt>ほんだな</rt></ruby>には、<ruby>外国<rt>がいこく</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>もたくさんあります。\n<h3>Scene 4. <ruby>夜<rt>よる</rt></ruby>の<ruby>休<rt>やす</rt></ruby>み (밤의 휴식)</h3>\n<ruby>夜<rt>よる</rt></ruby>、テレビの<ruby>放送<rt>ほうそう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら、ぶどうを<ruby>食<rt>た</rt></ruby>べました。<ruby>海<rt>うみ</rt></ruby>の<ruby>広<rt>ひろ</rt></ruby>さと、<ruby>大<rt>おお</rt></ruby>きな<ruby>船<rt>ふね</rt></ruby>のニュースでした。<ruby>魚<rt>さかな</rt></ruby>の<ruby>骨<rt>ほね</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけて、<ruby>夕飯<rt>ゆうはん</rt></ruby>も<ruby>食<rt>た</rt></ruby>べました。きれいな<ruby>星<rt>ほし</rt></ruby>を<ruby>見<rt>み</rt></ruby>てから、<ruby>布団<rt>ふとん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。<ruby>明日<rt>あした</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>も、<ruby>本気<rt>ほんき</rt></ruby>で<ruby>頑張<rt>がんば</rt></ruby>るつもりです。",
+  "analysis": [
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>昼休<rt>ひるやす</rt></ruby>みに、<ruby>部長<rt>ぶちょう</rt></ruby>とレストランへ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "오늘 점심시간에, 부장님과 레스토랑에 갔습니다.",
+      "grammar": "〜に (시간을 나타내는 조사)",
+      "tags": [
+        "昼休み",
+        "部長"
+      ]
+    },
+    {
+      "sent": "おいしい<ruby>豚肉<rt>ぶたにく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる<ruby>ため<rt>ため</rt></ruby>に、この<ruby>店<rt>みせ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びました。",
+      "trans": "맛있는 돼지고기를 먹기 위해, 이 가게를 골랐습니다.",
+      "grammar": "〜ために (~하기 위해, 목적)",
+      "tags": [
+        "豚肉"
+      ]
+    },
+    {
+      "sent": "<ruby>店<rt>みせ</rt></ruby>の<ruby>窓<rt>まど</rt></ruby>ガラスは、<ruby>鏡<rt>かがみ</rt></ruby>みたいにきれいです。",
+      "trans": "가게의 창유리는, 거울처럼 예쁩니다.",
+      "grammar": "〜みたいに (~처럼, 비유)",
+      "tags": [
+        "窓ガラス"
+      ]
+    },
+    {
+      "sent": "<ruby>部長<rt>ぶちょう</rt></ruby>のおかげで、<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しかったです。",
+      "trans": "부장님 덕분에, 정말 즐거웠습니다.",
+      "grammar": "〜のおかげで (~덕분에, 긍정적인 이유)",
+      "tags": [
+        "部長",
+        "本当"
+      ]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>の<ruby>窓口<rt>まどぐち</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "오후에는 우체국 창구에 가게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다, 결정된 예정)",
+      "tags": [
+        "窓口"
+      ]
+    },
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>封筒<rt>ふうとう</rt></ruby>に、１<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>を<ruby>入<rt>い</rt></ruby>れて<ruby>送<rt>おく</rt></ruby>りました。",
+      "trans": "회사 봉투에, 1만 엔을 넣어 보냈습니다.",
+      "grammar": "〜て (~해서/하고, 연결)",
+      "tags": [
+        "封筒",
+        "万"
+      ]
+    },
+    {
+      "sent": "<ruby>取引先<rt>とりひきさき</rt></ruby>からメールが<ruby>来<rt>き</rt></ruby>たので、<ruby>僕<rt>ぼく</rt></ruby>はすぐに<ruby>返事<rt>へんじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きました。",
+      "trans": "거래처에서 메일이 왔기 때문에, 저는 바로 답장을 썼습니다.",
+      "grammar": "〜ので (~때문에, 이유)",
+      "tags": [
+        "僕",
+        "返事"
+      ]
+    },
+    {
+      "sent": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>について、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>準備<rt>じゅんび</rt></ruby>します。",
+      "trans": "다음 회의에 대하여, 자료를 준비합니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>本屋<rt>ほんや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "주말에는 서점에 갔습니다.",
+      "grammar": "〜へ行く (~에 가다, 방향)",
+      "tags": [
+        "本屋"
+      ]
+    },
+    {
+      "sent": "<ruby>趣味<rt>しゅみ</rt></ruby>として、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文学<rt>ぶんがく</rt></ruby>と<ruby>文法<rt>ぶんぽう</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。",
+      "trans": "취미로서, 일본의 문학과 문법을 공부하고 있습니다.",
+      "grammar": "〜として (~로서, 자격/명목)",
+      "tags": [
+        "文学",
+        "文法"
+      ]
+    },
+    {
+      "sent": "<ruby>難<rt>むずか</rt></ruby>しい<ruby>文章<rt>ぶんしょう</rt></ruby>だけでなく、まんがもよく<ruby>読<rt>よ</rt></ruby>みます。",
+      "trans": "어려운 문장뿐만 아니라, 만화도 자주 읽습니다.",
+      "grammar": "も (~도, 추가)",
+      "tags": [
+        "文章",
+        "まんが"
+      ]
+    },
+    {
+      "sent": "<ruby>家<rt>いえ</rt></ruby>の<ruby>本棚<rt>ほんだな</rt></ruby>には、<ruby>外国<rt>がいこく</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>もたくさんあります。",
+      "trans": "집 책장에는, 외국 문화의 책도 많이 있습니다.",
+      "grammar": "〜には〜があります (~에는 ~이 있습니다)",
+      "tags": [
+        "本棚",
+        "文化"
+      ]
+    },
+    {
+      "sent": "<ruby>夜<rt>よる</rt></ruby>、テレビの<ruby>放送<rt>ほうそう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら、ぶどうを<ruby>食<rt>た</rt></ruby>べました。",
+      "trans": "밤, TV 방송을 보면서, 포도를 먹었습니다.",
+      "grammar": "〜ながら (~하면서, 동시 동작)",
+      "tags": [
+        "放送",
+        "ぶどう"
+      ]
+    },
+    {
+      "sent": "<ruby>海<rt>うみ</rt></ruby>の<ruby>広<rt>ひろ</rt></ruby>さと、<ruby>大<rt>おお</rt></ruby>きな<ruby>船<rt>ふね</rt></ruby>のニュースでした。",
+      "trans": "바다의 넓이와, 큰 배의 뉴스였습니다.",
+      "grammar": "〜さ (형용사의 명사화)",
+      "tags": [
+        "広さ",
+        "船"
+      ]
+    },
+    {
+      "sent": "<ruby>魚<rt>さかな</rt></ruby>の<ruby>骨<rt>ほね</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけて、<ruby>夕飯<rt>ゆうはん</rt></ruby>も<ruby>食<rt>た</rt></ruby>べました。",
+      "trans": "생선 뼈를 조심해서, 저녁도 먹었습니다.",
+      "grammar": "に気をつける (~을 조심하다)",
+      "tags": [
+        "骨"
+      ]
+    },
+    {
+      "sent": "きれいな<ruby>星<rt>ほし</rt></ruby>を<ruby>見<rt>み</rt></ruby>てから、<ruby>布団<rt>ふとん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。",
+      "trans": "예쁜 별을 보고 나서, 이불에 들어갔습니다.",
+      "grammar": "〜てから (~하고 나서)",
+      "tags": [
+        "星",
+        "布団"
+      ]
+    },
+    {
+      "sent": "<ruby>明日<rt>あした</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>も、<ruby>本気<rt>ほんき</rt></ruby>で<ruby>頑張<rt>がんば</rt></ruby>るつもりです。",
+      "trans": "내일의 일도, 진심으로 열심히 할 생각입니다.",
+      "grammar": "〜つもりだ (~할 생각이다, 의도)",
+      "tags": [
+        "本気"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "昼休み",
       "read": "ひるやすみ",
       "mean": "점심시간",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 9
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "広さ",
       "read": "ひろさ",
       "mean": "넓이",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "封筒",
       "read": "ふうとう",
       "mean": "봉투",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "豚肉",
       "read": "ぶたにく",
       "mean": "돼지고기",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "部長",
       "read": "ぶちょう",
       "mean": "부장",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "ぶどう",
       "read": "ぶどう",
       "mean": "포도",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "布団",
       "read": "ふとん",
       "mean": "이불",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "船",
       "read": "ふね",
       "mean": "배",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "文化",
       "read": "ぶんか",
       "mean": "문화",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "文学",
       "read": "ぶんがく",
       "mean": "문학",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "文章",
       "read": "ぶんしょう",
       "mean": "문장",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "文法",
       "read": "ぶんぽう",
       "mean": "문법",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "返事",
       "read": "へんじ",
       "mean": "대답, 답장",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "放送",
       "read": "ほうそう",
       "mean": "방송",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "僕",
       "read": "ぼく",
       "mean": "나 (남성어)",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "星",
       "read": "ほし",
       "mean": "별",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "骨",
       "read": "ほね",
       "mean": "뼈",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "本気",
       "read": "ほんき",
       "mean": "진심, 진지함",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "本棚",
       "read": "ほんだな",
       "mean": "책장",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "本当",
       "read": "ほんとう",
       "mean": "정말, 진짜",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "本屋",
       "read": "ほんや",
       "mean": "서점",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "窓ガラス",
       "read": "まどがらす",
       "mean": "창유리",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "窓口",
       "read": "まどぐち",
       "mean": "창구",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "万",
       "read": "まん",
       "mean": "만",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "まんが",
       "read": "まんが",
       "mean": "만화",
-      "tags": [],
-      "moduleId": "n4-module-016",
-      "legacyDay": 10
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「封筒」の読み方は何ですか。",
+      "opt": [
+        "ほうとう",
+        "ふうどう",
+        "ふうとう",
+        "ふどう"
+      ],
+      "ans": 2,
+      "comment": "封筒(ふうとう)는 '봉투'라는 뜻입니다."
+    },
+    {
+      "q": "「文章」の読み方は何ですか。",
+      "opt": [
+        "ぶんしょう",
+        "ぶんじょう",
+        "ふんしょう",
+        "もんしょう"
+      ],
+      "ans": 0,
+      "comment": "文章(ぶんしょう)은 '문장'이라는 뜻입니다."
+    },
+    {
+      "q": "「窓口」の読み方は何ですか。",
+      "opt": [
+        "まどくち",
+        "まどぐち",
+        "まとぐち",
+        "まどろち"
+      ],
+      "ans": 1,
+      "comment": "窓口(まどぐち)는 '창구'라는 뜻입니다."
+    },
+    {
+      "q": "「本棚」の読み方は何ですか。",
+      "opt": [
+        "ほんたな",
+        "ほんだな",
+        "ぼんだな",
+        "ほんてな"
+      ],
+      "ans": 1,
+      "comment": "本棚(ほんだな)는 '책장'이라는 뜻입니다."
+    },
+    {
+      "q": "「정말, 진짜」を日本語で書くと何ですか。",
+      "opt": [
+        "本当",
+        "本気",
+        "万",
+        "返事"
+      ],
+      "ans": 0,
+      "comment": "本当(ほんとう)는 '정말, 진짜'라는 뜻입니다."
+    },
+    {
+      "q": "「뼈」を日本語で書くと何ですか。",
+      "opt": [
+        "星",
+        "骨",
+        "豚肉",
+        "文化"
+      ],
+      "ans": 1,
+      "comment": "骨(ほね)는 '뼈'라는 뜻입니다."
+    },
+    {
+      "q": "「서점」を日本語で書くと何ですか。",
+      "opt": [
+        "文学",
+        "本棚",
+        "本屋",
+        "放送"
+      ],
+      "ans": 2,
+      "comment": "本屋(ほんや)는 '서점'이라는 뜻입니다."
+    },
+    {
+      "q": "おいしい豚肉を食べる______、この店を選びました。",
+      "opt": [
+        "ために",
+        "について",
+        "のおかげで",
+        "として"
+      ],
+      "ans": 0,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "趣味______、日本の文学を勉強しています。",
+      "opt": [
+        "について",
+        "みたいに",
+        "として",
+        "ために"
+      ],
+      "ans": 2,
+      "comment": "자격이나 명목을 나타내는 「〜として」(~로서)가 알맞습니다."
+    },
+    {
+      "q": "店の窓ガラスが鏡______きれいです。",
+      "opt": [
+        "として",
+        "みたいに",
+        "について",
+        "ために"
+      ],
+      "ans": 1,
+      "comment": "비유를 나타내는 「〜みたいに」(~처럼)가 알맞습니다."
     }
   ]
 }
