@@ -1,206 +1,482 @@
 {
-  "title": "さ・し行の名詞・1 (さ・し행 명사 1)",
-  "moduleId": "n4-module-008",
+  "title": "N4: 最近の生活と出来事 (최근의 생활과 사건)",
+  "story": "<h3>Scene 1. 買い物と試合 (쇼핑과 시합)</h3><ruby>最近<rt>さいきん</rt></ruby>、<ruby>魚屋<rt>さかなや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くために、<ruby>坂<rt>さか</rt></ruby>を<ruby>上<rt>のぼ</rt></ruby>りました。<br><ruby>春<rt>はる</rt></ruby>の<ruby>桜<rt>さくら</rt></ruby>が、<ruby>雪<rt>ゆき</rt></ruby>みたいにきれいです。<br><ruby>再来月<rt>さらいげつ</rt></ruby>、<ruby>市<rt>し</rt></ruby>の<ruby>試合<rt>しあい</rt></ruby>に<ruby>出<rt>で</rt></ruby>ることになりました。<br>そのため、<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby><ruby>支度<rt>したく</rt></ruby>をしています。<br><br><h3>Scene 2. 学校のテスト (학교의 테스트)</h3><ruby>学校<rt>がっこう</rt></ruby>で<ruby>算数<rt>さんすう</rt></ruby>の<ruby>試験<rt>しけん</rt></ruby>がありました。<br><ruby>先生<rt>せんせい</rt></ruby>のおかげで、きれいな<ruby>字<rt>じ</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>がわかりました。<br>テストに<ruby>出<rt>で</rt></ruby>た<ruby>図<rt>ず</rt></ruby>は、<ruby>三角<rt>さんかく</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>をしていました。<br><ruby>勉強<rt>べんきょう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>について、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しました。<br><br><h3>Scene 3. 美術館と社会 (미술관과 사회)</h3><ruby>再来週<rt>さらいしゅう</rt></ruby>、デパートで<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>作品<rt>さくひん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。<br><ruby>私<rt>わたし</rt></ruby>は<ruby>留学生<rt>りゅうがくせい</rt></ruby>として、<ruby>日本<rt>にほん</rt></ruby>の<ruby>産業<rt>さんぎょう</rt></ruby>を<ruby>研究<rt>けんきゅう</rt></ruby>しています。<br><ruby>今<rt>いま</rt></ruby>の<ruby>時代<rt>じだい</rt></ruby>はとても<ruby>便利<rt>べんり</rt></ruby>になりました。<br>みんながその<ruby>意見<rt>いけん</rt></ruby>に<ruby>賛成<rt>さんせい</rt></ruby>しています。<br><br><h3>Scene 4. 家の中の出来事 (집 안의 사건)</h3><ruby>室内<rt>しつない</rt></ruby>で<ruby>下着<rt>したぎ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>っていると、<ruby>地震<rt>じしん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きました。<br><ruby>事故<rt>じこ</rt></ruby>にならないために、<ruby>気<rt>き</rt></ruby>をつけました。<br><ruby>再来年<rt>さらいねん</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すことになりました。<br>お<ruby>茶<rt>ちゃ</rt></ruby>に<ruby>砂糖<rt>さとう</rt></ruby>を<ruby>入<rt>い</rt></ruby>れて<ruby>飲<rt>の</rt></ruby>みましたが、<ruby>熱<rt>あつ</rt></ruby>くて<ruby>舌<rt>した</rt></ruby>をやけどしました。",
+  "analysis": [
+    {
+      "sent": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>魚屋<rt>さかなや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くために、<ruby>坂<rt>さか</rt></ruby>を<ruby>上<rt>のぼ</rt></ruby>りました。",
+      "trans": "최근, 생선가게에 가기 위해, 언덕을 올랐습니다.",
+      "grammar": "〜ために (~하기 위해)",
+      "tags": [
+        "最近",
+        "魚屋",
+        "坂"
+      ]
+    },
+    {
+      "sent": "<ruby>春<rt>はる</rt></ruby>の<ruby>桜<rt>さくら</rt></ruby>が、<ruby>雪<rt>ゆき</rt></ruby>みたいにきれいです。",
+      "trans": "봄의 벚꽃이 눈처럼 예쁩니다.",
+      "grammar": "〜みたいに (~처럼)",
+      "tags": [
+        "桜"
+      ]
+    },
+    {
+      "sent": "<ruby>再来月<rt>さらいげつ</rt></ruby>、<ruby>市<rt>し</rt></ruby>の<ruby>試合<rt>しあい</rt></ruby>に<ruby>出<rt>で</rt></ruby>ることになりました。",
+      "trans": "다다음 달, 시의 시합에 나가게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다)",
+      "tags": [
+        "再来月",
+        "市",
+        "試合"
+      ]
+    },
+    {
+      "sent": "そのため、<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby><ruby>支度<rt>したく</rt></ruby>をしています。",
+      "trans": "그래서, 열심히 준비를 하고 있습니다.",
+      "grammar": "〜ている (~하고 있다)",
+      "tags": [
+        "支度"
+      ]
+    },
+    {
+      "sent": "<ruby>学校<rt>がっこう</rt></ruby>で<ruby>算数<rt>さんすう</rt></ruby>の<ruby>試験<rt>しけん</rt></ruby>がありました。",
+      "trans": "학교에서 산수 시험이 있었습니다.",
+      "grammar": "〜がありました (~이/가 있었습니다)",
+      "tags": [
+        "算数",
+        "試験"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>のおかげで、きれいな<ruby>字<rt>じ</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>がわかりました。",
+      "trans": "선생님 덕분에, 예쁜 글자를 쓰는 법을 알았습니다.",
+      "grammar": "〜のおかげで (~덕분에)",
+      "tags": [
+        "字"
+      ]
+    },
+    {
+      "sent": "テストに<ruby>出<rt>で</rt></ruby>た<ruby>図<rt>ず</rt></ruby>は、<ruby>三角<rt>さんかく</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>をしていました。",
+      "trans": "테스트에 나온 그림은, 삼각 모양을 하고 있었습니다.",
+      "grammar": "〜の形をしている (~모양을 하고 있다)",
+      "tags": [
+        "三角"
+      ]
+    },
+    {
+      "sent": "<ruby>勉強<rt>べんきょう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>について、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "공부 방법에 대해, 친구와 이야기했습니다.",
+      "grammar": "〜について (~에 대해)",
+      "tags": [
+        "仕方"
+      ]
+    },
+    {
+      "sent": "<ruby>再来週<rt>さらいしゅう</rt></ruby>、デパートで<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>作品<rt>さくひん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。",
+      "trans": "다다음 주, 백화점에서 유명한 작품을 봅니다.",
+      "grammar": "〜で (장소의 조사)",
+      "tags": [
+        "再来週",
+        "作品"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>留学生<rt>りゅうがくせい</rt></ruby>として、<ruby>日本<rt>にほん</rt></ruby>の<ruby>産業<rt>さんぎょう</rt></ruby>を<ruby>研究<rt>けんきゅう</rt></ruby>しています。",
+      "trans": "나는 유학생으로서 일본의 산업을 연구하고 있습니다.",
+      "grammar": "〜として (~로서)",
+      "tags": [
+        "産業"
+      ]
+    },
+    {
+      "sent": "<ruby>今<rt>いま</rt></ruby>の<ruby>時代<rt>じだい</rt></ruby>はとても<ruby>便利<rt>べんり</rt></ruby>になりました。",
+      "trans": "지금 시대는 매우 편리해졌습니다.",
+      "grammar": "〜になる (~해지다/되다)",
+      "tags": [
+        "時代"
+      ]
+    },
+    {
+      "sent": "みんながその<ruby>意見<rt>いけん</rt></ruby>に<ruby>賛成<rt>さんせい</rt></ruby>しています。",
+      "trans": "모두가 그 의견에 찬성하고 있습니다.",
+      "grammar": "〜に賛成する (~에 찬성하다)",
+      "tags": [
+        "賛成"
+      ]
+    },
+    {
+      "sent": "<ruby>室内<rt>しつない</rt></ruby>で<ruby>下着<rt>したぎ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>っていると、<ruby>地震<rt>じしん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きました。",
+      "trans": "실내에서 속옷을 빨고 있으니, 지진이 일어났습니다.",
+      "grammar": "〜と (~하니, ~하자 - 발견/결과)",
+      "tags": [
+        "室内",
+        "下着",
+        "地震"
+      ]
+    },
+    {
+      "sent": "<ruby>事故<rt>じこ</rt></ruby>にならないために、<ruby>気<rt>き</rt></ruby>をつけました。",
+      "trans": "사고가 나지 않기 위해, 조심했습니다.",
+      "grammar": "〜ないために (~하지 않기 위해)",
+      "tags": [
+        "事故"
+      ]
+    },
+    {
+      "sent": "<ruby>再来年<rt>さらいねん</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すことになりました。",
+      "trans": "내후년, 새 집으로 이사하게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다)",
+      "tags": [
+        "再来年"
+      ]
+    },
+    {
+      "sent": "お<ruby>茶<rt>ちゃ</rt></ruby>に<ruby>砂糖<rt>さとう</rt></ruby>を<ruby>入<rt>い</rt></ruby>れて<ruby>飲<rt>の</rt></ruby>みましたが、<ruby>熱<rt>あつ</rt></ruby>くて<ruby>舌<rt>した</rt></ruby>をやけどしました。",
+      "trans": "차에 설탕을 넣어 마셨지만, 뜨거워서 혀를 데었습니다.",
+      "grammar": "〜て (~하고, ~해서 - 원인/이유)",
+      "tags": [
+        "砂糖",
+        "舌"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "最近",
       "read": "さいきん",
       "mean": "최근",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "坂",
       "read": "さか",
       "mean": "언덕",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "魚屋",
       "read": "さかなや",
       "mean": "생선 가게",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "作品",
       "read": "さくひん",
       "mean": "작품",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "桜",
       "read": "さくら",
       "mean": "벚꽃",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "砂糖",
       "read": "さとう",
       "mean": "설탕",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "再来月",
       "read": "さらいげつ",
       "mean": "다다음 달",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "再来週",
       "read": "さらいしゅう",
       "mean": "다다음 주",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "再来年",
       "read": "さらいねん",
       "mean": "내후년",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "三角",
       "read": "さんかく",
       "mean": "삼각",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "産業",
       "read": "さんぎょう",
       "mean": "산업",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "算数",
       "read": "さんすう",
       "mean": "산수",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "賛成",
       "read": "さんせい",
       "mean": "찬성",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "市",
       "read": "し",
       "mean": "시",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "字",
       "read": "じ",
       "mean": "글자",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "試合",
       "read": "しあい",
       "mean": "시합",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "仕方",
       "read": "しかた",
       "mean": "방법",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "試験",
       "read": "しけん",
       "mean": "시험",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "事故",
       "read": "じこ",
       "mean": "사고",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "地震",
       "read": "じしん",
       "mean": "지진",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "舌",
       "read": "した",
       "mean": "혀",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "時代",
       "read": "じだい",
       "mean": "시대",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "下着",
       "read": "したぎ",
       "mean": "속옷",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "支度",
       "read": "したく",
       "mean": "준비, 채비",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "室内",
       "read": "しつない",
       "mean": "실내",
-      "tags": [],
-      "moduleId": "n4-module-008",
-      "legacyDay": 5
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「地震」の読み方は何ですか。",
+      "opt": [
+        "じしん",
+        "じこ",
+        "じだい",
+        "ちしん"
+      ],
+      "ans": 0,
+      "comment": "地震(じしん)은 '지진'이라는 뜻입니다."
+    },
+    {
+      "q": "「作品」の読み方は何ですか。",
+      "opt": [
+        "さくひん",
+        "ざくひん",
+        "さくぶん",
+        "ざくぶん"
+      ],
+      "ans": 0,
+      "comment": "作品(さくひん)은 '작품'이라는 뜻입니다."
+    },
+    {
+      "q": "「再来年」の読み方は何ですか。",
+      "opt": [
+        "さらいげつ",
+        "さらいしゅう",
+        "さらいねん",
+        "さいらいねん"
+      ],
+      "ans": 2,
+      "comment": "再来年(さらいねん)은 '내후년'이라는 뜻입니다."
+    },
+    {
+      "q": "「試合」の読み方は何ですか。",
+      "opt": [
+        "しあい",
+        "しけん",
+        "じあい",
+        "しかた"
+      ],
+      "ans": 0,
+      "comment": "試合(しあい)는 '시합'이라는 뜻입니다."
+    },
+    {
+      "q": "「설탕」を日本語で何と言いますか。",
+      "opt": [
+        "坂",
+        "桜",
+        "舌",
+        "砂糖"
+      ],
+      "ans": 3,
+      "comment": "砂糖(さとう)는 '설탕'이라는 뜻입니다."
+    },
+    {
+      "q": "「준비, 채비」を日本語で何と言いますか。",
+      "opt": [
+        "室内",
+        "仕方",
+        "支度",
+        "賛成"
+      ],
+      "ans": 2,
+      "comment": "支度(したく)는 '준비, 채비'라는 뜻입니다."
+    },
+    {
+      "q": "「산업」を日本語で何と言いますか。",
+      "opt": [
+        "産業",
+        "算数",
+        "市",
+        "時代"
+      ],
+      "ans": 0,
+      "comment": "産業(さんぎょう)은 '산업'이라는 뜻입니다."
+    },
+    {
+      "q": "先生が教えてくれた______、テストに合格しました。",
+      "opt": [
+        "ために",
+        "みたいに",
+        "おかげで",
+        "として"
+      ],
+      "ans": 2,
+      "comment": "긍정적인 결과를 가져온 원인이므로 '덕분에'를 의미하는 〜のおかげで를 사용합니다."
+    },
+    {
+      "q": "日本の文化______、レポートを書きます。",
+      "opt": [
+        "について",
+        "として",
+        "みたいに",
+        "ために"
+      ],
+      "ans": 0,
+      "comment": "어떤 주제나 대상에 대한 글을 쓴다는 의미이므로 〜について(〜에 대해)가 맞습니다."
+    },
+    {
+      "q": "風邪をひかない______、暖かい服を着ます。",
+      "opt": [
+        "ために",
+        "おかげで",
+        "について",
+        "として"
+      ],
+      "ans": 0,
+      "comment": "어떤 목적(감기에 걸리지 않기 위함)을 이루기 위한 행위를 나타내므로 〜ために(〜하기 위해)가 적절합니다."
     }
   ]
 }
