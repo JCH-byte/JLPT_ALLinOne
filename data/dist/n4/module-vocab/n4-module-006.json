@@ -1,7 +1,157 @@
 {
-  "title": "N4: 工場見学 (공장 견학)",
-  "story": null,
-  "analysis": [],
+  "title": "N4: 町の風景と日常 (마을 풍경과 일상)",
+  "story": "Scene 1. <ruby>朝<rt>あさ</rt></ruby>の<ruby>散歩<rt>さんぽ</rt></ruby> (아침의 산책)<br><ruby>今朝<rt>けさ</rt></ruby>、<ruby>玄関<rt>げんかん</rt></ruby>を<ruby>出<rt>で</rt></ruby>ると、かわいい<ruby>子犬<rt>こいぬ</rt></ruby>がいました。<br>その<ruby>子犬<rt>こいぬ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>は、<ruby>雪<rt>ゆき</rt></ruby>みたいに<ruby>白<rt>しろ</rt></ruby>かったです。<br><ruby>交差点<rt>こうさてん</rt></ruby>で、<ruby>警察<rt>けいさつ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>立<rt>た</rt></ruby>っていました。<br><ruby>交通<rt>こうつう</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るために、<ruby>毎日<rt>まいにち</rt></ruby><ruby>働<rt>はたら</rt></ruby>いています。<br>そのおかげで、<ruby>私<rt>わたし</rt></ruby>たちは<ruby>安心<rt>あんしん</rt></ruby>できます。<br><br>Scene 2. <ruby>学校<rt>がっこう</rt></ruby>での<ruby>話<rt>はなし</rt></ruby> (학교에서의 이야기)<br><ruby>高校<rt>こうこう</rt></ruby>で、<ruby>高校生<rt>こうこうせい</rt></ruby>が<ruby>将来<rt>しょうらい</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しています。<br><ruby>病気<rt>びょうき</rt></ruby>で<ruby>欠席<rt>けっせき</rt></ruby>した<ruby>友達<rt>ともだち</rt></ruby>も、<ruby>今<rt>いま</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>になりました。<br><ruby>校長<rt>こうちょう</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>が、<ruby>若<rt>わか</rt></ruby>い<ruby>頃<rt>ころ</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しました。<br>「<ruby>昔<rt>むかし</rt></ruby>、<ruby>軍人<rt>ぐんじん</rt></ruby>として<ruby>働<rt>はたら</rt></ruby>いたことがあります」と<ruby>言<rt>い</rt></ruby>いました。<br>みんないい<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くことになりました。<br><br>Scene 3. <ruby>町<rt>まち</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby> (마을의 공장)<br><ruby>午後<rt>ごご</rt></ruby>、<ruby>郊外<rt>こうがい</rt></ruby>にある<ruby>工場<rt>こうじょう</rt></ruby>へ<ruby>見学<rt>けんがく</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<br>そこでは、<ruby>新<rt>あたら</rt></ruby>しい<ruby>工業<rt>こうぎょう</rt></ruby>の<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>研究<rt>けんきゅう</rt></ruby>しています。<br><ruby>日本<rt>にほん</rt></ruby>の<ruby>経済<rt>けいざい</rt></ruby>をよくするために、<ruby>頑張<rt>がんば</rt></ruby>っています。<br><ruby>工場<rt>こうじょう</rt></ruby>の<ruby>機械<rt>きかい</rt></ruby>が、テレビで<ruby>公開<rt>こうかい</rt></ruby>されました。<br>たくさんの<ruby>人<rt>ひと</rt></ruby>が<ruby>見物<rt>けんぶつ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。<br><br>Scene 4. <ruby>日常<rt>にちじょう</rt></ruby>の<ruby>出来事<rt>できごと</rt></ruby> (일상의 사건)<br><ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>工事<rt>こうじ</rt></ruby>をしていました。<br><ruby>二人<rt>ふたり</rt></ruby>の<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がけんかをしていて、<ruby>驚<rt>おどろ</rt></ruby>きました。<br><ruby>家<rt>いえ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いて、<ruby>消<rt>け</rt></ruby>しゴムを<ruby>使<rt>つか</rt></ruby>って<ruby>宿題<rt>しゅくだい</rt></ruby>をしました。<br><ruby>来月<rt>らいげつ</rt></ruby>、<ruby>兄<rt>あに</rt></ruby>が<ruby>結婚<rt>けっこん</rt></ruby>することになりました。<br><ruby>家族<rt>かぞく</rt></ruby>として、とても<ruby>嬉<rt>うれ</rt></ruby>しいです。",
+  "analysis": [
+    {
+      "sent": "<ruby>今朝<rt>けさ</rt></ruby>、<ruby>玄関<rt>げんかん</rt></ruby>を<ruby>出<rt>で</rt></ruby>ると、かわいい<ruby>子犬<rt>こいぬ</rt></ruby>がいました。",
+      "trans": "오늘 아침, 현관을 나서니 귀여운 강아지가 있었습니다.",
+      "grammar": "〜と (~하면/하자 - 발견의 표현)",
+      "tags": [
+        "今朝",
+        "玄関",
+        "子犬"
+      ]
+    },
+    {
+      "sent": "その<ruby>子犬<rt>こいぬ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>は、<ruby>雪<rt>ゆき</rt></ruby>みたいに<ruby>白<rt>しろ</rt></ruby>かったです。",
+      "trans": "그 강아지의 털은 눈처럼 하얬습니다.",
+      "grammar": "〜みたいに (~처럼)",
+      "tags": [
+        "子犬",
+        "毛"
+      ]
+    },
+    {
+      "sent": "<ruby>交差点<rt>こうさてん</rt></ruby>で、<ruby>警察<rt>けいさつ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>立<rt>た</rt></ruby>っていました。",
+      "trans": "교차로에 경찰관이 서 있었습니다.",
+      "grammar": "〜ていました (과거 진행형)",
+      "tags": [
+        "交差点",
+        "警察"
+      ]
+    },
+    {
+      "sent": "<ruby>交通<rt>こうつう</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るために、<ruby>毎日<rt>まいにち</rt></ruby><ruby>働<rt>はたら</rt></ruby>いています。",
+      "trans": "교통 안전을 지키기 위해 매일 일하고 있습니다.",
+      "grammar": "〜ために (~하기 위해)",
+      "tags": [
+        "交通"
+      ]
+    },
+    {
+      "sent": "そのおかげで、<ruby>私<rt>わたし</rt></ruby>たちは<ruby>安心<rt>あんしん</rt></ruby>できます。",
+      "trans": "그 덕분에 우리는 안심할 수 있습니다.",
+      "grammar": "〜のおかげで (~덕분에)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>高校<rt>こうこう</rt></ruby>で、<ruby>高校生<rt>こうこうせい</rt></ruby>が<ruby>将来<rt>しょうらい</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しています。",
+      "trans": "고등학교에서 고교생이 장래에 대해 이야기하고 있습니다.",
+      "grammar": "〜について (~에 대해)",
+      "tags": [
+        "高校",
+        "高校生"
+      ]
+    },
+    {
+      "sent": "<ruby>病気<rt>びょうき</rt></ruby>で<ruby>欠席<rt>けっせき</rt></ruby>した<ruby>友達<rt>ともだち</rt></ruby>も、<ruby>今<rt>いま</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>になりました。",
+      "trans": "병으로 결석했던 친구도 지금은 건강해졌습니다.",
+      "grammar": "〜になる (~해지다/되다)",
+      "tags": [
+        "欠席"
+      ]
+    },
+    {
+      "sent": "<ruby>校長<rt>こうちょう</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>が、<ruby>若<rt>わか</rt></ruby>い<ruby>頃<rt>ころ</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "교장 선생님이 젊었을 적의 경험을 이야기했습니다.",
+      "grammar": "〜頃 (~적, 무렵)",
+      "tags": [
+        "校長",
+        "経験"
+      ]
+    },
+    {
+      "sent": "「<ruby>昔<rt>むかし</rt></ruby>、<ruby>軍人<rt>ぐんじん</rt></ruby>として<ruby>働<rt>はたら</rt></ruby>いたことがあります」と<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "옛날에 군인으로서 일한 적이 있습니다라고 말했습니다.",
+      "grammar": "〜として (~로서)",
+      "tags": [
+        "軍人"
+      ]
+    },
+    {
+      "sent": "みんないい<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くことになりました。",
+      "trans": "모두 좋은 이야기를 듣게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>、<ruby>郊外<rt>こうがい</rt></ruby>にある<ruby>工場<rt>こうじょう</rt></ruby>へ<ruby>見学<rt>けんがく</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "오후에 교외에 있는 공장으로 견학을 갔습니다.",
+      "grammar": "〜へ行く (~에 가다)",
+      "tags": [
+        "郊外",
+        "工場",
+        "見学"
+      ]
+    },
+    {
+      "sent": "そこでは、<ruby>新<rt>あたら</rt></ruby>しい<ruby>工業<rt>こうぎょう</rt></ruby>の<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>研究<rt>けんきゅう</rt></ruby>しています。",
+      "trans": "그곳에서는 새로운 공업 기술을 연구하고 있습니다.",
+      "grammar": "〜ている (~하고 있다)",
+      "tags": [
+        "工業",
+        "研究"
+      ]
+    },
+    {
+      "sent": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>経済<rt>けいざい</rt></ruby>をよくするために、<ruby>頑張<rt>がんば</rt></ruby>っています。",
+      "trans": "일본의 경제를 좋게 하기 위해 노력하고 있습니다.",
+      "grammar": "〜ために (~하기 위해)",
+      "tags": [
+        "経済"
+      ]
+    },
+    {
+      "sent": "<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>機械<rt>きかい</rt></ruby>が、テレビで<ruby>公開<rt>こうかい</rt></ruby>されました。",
+      "trans": "공장의 기계가 TV에 공개되었습니다.",
+      "grammar": "〜される (수동태)",
+      "tags": [
+        "公開"
+      ]
+    },
+    {
+      "sent": "たくさんの<ruby>人<rt>ひと</rt></ruby>が<ruby>見物<rt>けんぶつ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。",
+      "trans": "많은 사람이 구경을 왔습니다.",
+      "grammar": "〜に来る (~하러 오다)",
+      "tags": [
+        "見物"
+      ]
+    },
+    {
+      "sent": "<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>工事<rt>こうじ</rt></ruby>をしていました。",
+      "trans": "귀갓길, 역 앞에서 공사를 하고 있었습니다.",
+      "grammar": "〜ていました (과거 진행형)",
+      "tags": [
+        "工事"
+      ]
+    },
+    {
+      "sent": "<ruby>二人<rt>ふたり</rt></ruby>の<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がけんかをしていて、<ruby>驚<rt>おどろ</rt></ruby>きました。",
+      "trans": "두 남자가 싸움을 하고 있어서 놀랐습니다.",
+      "grammar": "〜て (~해서 - 원인/이유)",
+      "tags": [
+        "けんか"
+      ]
+    },
+    {
+      "sent": "<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>兄<rt>あに</rt></ruby>が<ruby>結婚<rt>けっこん</rt></ruby>することになりました。",
+      "trans": "다음 달, 형이 결혼하게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다)",
+      "tags": [
+        "結婚"
+      ]
+    }
+  ],
   "vocab": [
     {
       "id": "v-001",
@@ -229,5 +379,116 @@
       ]
     }
   ],
-  "quiz": []
+  "quiz": [
+    {
+      "q": "「警察」の読み方は何ですか。",
+      "opt": [
+        "けいさつ",
+        "けいざい",
+        "けいけん",
+        "けっせき"
+      ],
+      "ans": 0,
+      "comment": "警察(けいさつ)は '경찰'이라는 뜻です。"
+    },
+    {
+      "q": "「今朝」の読み方は何ですか。",
+      "opt": [
+        "こんあさ",
+        "きょうあさ",
+        "けさ",
+        "こんちょう"
+      ],
+      "ans": 2,
+      "comment": "今朝(けさ)는 '오늘 아침'이라는 뜻입니다."
+    },
+    {
+      "q": "「郊外」の読み方は何ですか。",
+      "opt": [
+        "こうがい",
+        "こうない",
+        "ごうがい",
+        "こうさい"
+      ],
+      "ans": 0,
+      "comment": "郊外(こうがい)는 '교외'라는 뜻입니다."
+    },
+    {
+      "q": "「交差点」の読み方は何ですか。",
+      "opt": [
+        "こうさでん",
+        "こうさてん",
+        "こさてん",
+        "こうしゃてん"
+      ],
+      "ans": 1,
+      "comment": "交差点(こうさてん)은 '교차로'라는 뜻입니다."
+    },
+    {
+      "q": "「지우개」を日本語で何と言いますか。",
+      "opt": [
+        "鉛筆",
+        "消しゴム",
+        "定規",
+        "ノート"
+      ],
+      "ans": 1,
+      "comment": "消しゴム(けしごむ)는 '지우개'라는 뜻입니다."
+    },
+    {
+      "q": "「견학」を日本語で何と言いますか。",
+      "opt": [
+        "研究",
+        "見物",
+        "見学",
+        "公開"
+      ],
+      "ans": 2,
+      "comment": "見学(けんがく)은 '견학'이라는 뜻입니다."
+    },
+    {
+      "q": "「싸움」を日本語で何と言いますか。",
+      "opt": [
+        "けんか",
+        "けいけん",
+        "こうじ",
+        "けっこん"
+      ],
+      "ans": 0,
+      "comment": "けんか는 '싸움'이라는 뜻입니다."
+    },
+    {
+      "q": "彼の髪は、雪______白かったです。",
+      "opt": [
+        "ために",
+        "みたいに",
+        "について",
+        "として"
+      ],
+      "ans": 1,
+      "comment": "눈'처럼' 하얗다를 표현하려면 〜みたいに를 사용합니다."
+    },
+    {
+      "q": "日本語を勉強する______、日本へ行きます。",
+      "opt": [
+        "ために",
+        "おかげで",
+        "について",
+        "として"
+      ],
+      "ans": 0,
+      "comment": "목적을 나타내는 〜ために(~하기 위해)가 적절합니다."
+    },
+    {
+      "q": "将来______、先生と相談しました。",
+      "opt": [
+        "として",
+        "みたいに",
+        "について",
+        "ために"
+      ],
+      "ans": 2,
+      "comment": "장래'에 대해' 상담했다는 의미이므로 〜について(~에 대해)가 맞습니다."
+    }
+  ]
 }
