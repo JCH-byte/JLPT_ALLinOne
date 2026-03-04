@@ -1,206 +1,495 @@
 {
-  "title": "動詞・6 (동사 6)",
-  "moduleId": "n4-module-025",
+  "title": "N4: 日常の出来事と変化 (일상의 사건과 변화)",
+  "story": "<h3>Scene 1. <ruby>朝<rt>あさ</rt></ruby>のハプニング (아침의 해프닝)</h3>\n<ruby>今日<rt>きょう</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れて、<ruby>風<rt>かぜ</rt></ruby>が<ruby>吹<rt>ふ</rt></ruby>いています。\nあたらしい<ruby>靴<rt>くつ</rt></ruby>をはいて、<ruby>駅<rt>えき</rt></ruby>まで<ruby>走<rt>はし</rt></ruby>りました。\n<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>うために、とても<ruby>急<rt>いそ</rt></ruby>ぎました。\nでも、<ruby>駅<rt>えき</rt></ruby>で<ruby>人<rt>ひと</rt></ruby>とぶつかることになりました。\n<ruby>彼<rt>かれ</rt></ruby>の<ruby>足<rt>あし</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>んでしまって、あやまりました。\n\n<h3>Scene 2. <ruby>職場<rt>しょくば</rt></ruby>で (직장에서)</h3>\n<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いて、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めます。\n<ruby>資料<rt>しりょう</rt></ruby>を<ruby>拝見<rt>はいけん</rt></ruby>して、コンピューターで<ruby>働<rt>はたら</rt></ruby>きます。\n<ruby>先輩<rt>せんぱい</rt></ruby>のおかげで、<ruby>間違<rt>まちが</rt></ruby>えることがありませんでした。\nポスターを<ruby>壁<rt>かべ</rt></ruby>にはるために、テープを<ruby>引<rt>ひ</rt></ruby>きます。\n<ruby>仕事<rt>しごと</rt></ruby>が<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わったので、<ruby>先輩<rt>せんぱい</rt></ruby>が<ruby>私<rt>わたし</rt></ruby>をほめました。\n\n<h3>Scene 3. <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しと<ruby>変化<rt>へんか</rt></ruby> (이사와 변화)</h3>\n<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すことになりました。\n<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶことについて、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>します。\n<ruby>最近<rt>さいきん</rt></ruby>、すこし<ruby>太<rt>ふと</rt></ruby>るみたいに<ruby>体重<rt>たいじゅう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えました。\nダイエットとして、<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>公園<rt>こうえん</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>ります。\nなくした<ruby>指輪<rt>ゆびわ</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかって、うれしいです。\n\n<h3>Scene 4. イベントと<ruby>締<rt>し</rt></ruby>めくくり (이벤트와 마무리)</h3>\n<ruby>明日<rt>あした</rt></ruby>、お<ruby>祭<rt>まつ</rt></ruby>りが<ruby>開<rt>ひら</rt></ruby>かれます。\n<ruby>私<rt>わたし</rt></ruby>もボランティアとして<ruby>参<rt>まい</rt></ruby>ります。\n<ruby>試合<rt>しあい</rt></ruby>に<ruby>負<rt>ま</rt></ruby>けるかもしれませんが、がんばります。\n<ruby>遠<rt>とお</rt></ruby>くから<ruby>光<rt>ひか</rt></ruby>る<ruby>花火<rt>はなび</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます。\n<ruby>星<rt>ほし</rt></ruby>みたいにきれいな<ruby>空<rt>そら</rt></ruby>でした。",
+  "analysis": [
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れて、<ruby>風<rt>かぜ</rt></ruby>が<ruby>吹<rt>ふ</rt></ruby>いています。",
+      "trans": "오늘은 맑고, 바람이 불고 있습니다.",
+      "grammar": "~て (연결)",
+      "tags": [
+        "晴れる",
+        "吹く"
+      ]
+    },
+    {
+      "sent": "あたらしい<ruby>靴<rt>くつ</rt></ruby>をはいて、<ruby>駅<rt>えき</rt></ruby>まで<ruby>走<rt>はし</rt></ruby>りました。",
+      "trans": "새 신발을 신고, 역까지 달렸습니다.",
+      "grammar": "~まで (~까지)",
+      "tags": [
+        "はく",
+        "走る"
+      ]
+    },
+    {
+      "sent": "<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>うために、とても<ruby>急<rt>いそ</rt></ruby>ぎました。",
+      "trans": "전철 시간에 대기 위해(늦지 않기 위해), 매우 서둘렀습니다.",
+      "grammar": "~ために (목적)",
+      "tags": [
+        "間に合う"
+      ]
+    },
+    {
+      "sent": "でも、<ruby>駅<rt>えき</rt></ruby>で<ruby>人<rt>ひと</rt></ruby>とぶつかることになりました。",
+      "trans": "하지만, 역에서 사람과 부딪치게 되었습니다.",
+      "grammar": "~ことになる (결정/결과)",
+      "tags": [
+        "ぶつかる"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>足<rt>あし</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>んでしまって、あやまりました。",
+      "trans": "그의 발을 밟아버려서, 사과했습니다.",
+      "grammar": "~てしまって (완료/유감)",
+      "tags": [
+        "踏む"
+      ]
+    },
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いて、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めます。",
+      "trans": "회사에 도착해서, 일을 시작합니다.",
+      "grammar": "~て (순차적 동작)",
+      "tags": [
+        "始める"
+      ]
+    },
+    {
+      "sent": "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>拝見<rt>はいけん</rt></ruby>して、コンピューターで<ruby>働<rt>はたら</rt></ruby>きます。",
+      "trans": "자료를 보고(겸양), 컴퓨터로 일합니다.",
+      "grammar": "で (수단/방법)",
+      "tags": [
+        "拝見する",
+        "働く"
+      ]
+    },
+    {
+      "sent": "<ruby>先輩<rt>せんぱい</rt></ruby>のおかげで、<ruby>間違<rt>まちが</rt></ruby>えることがありませんでした。",
+      "trans": "선배 덕분에, 틀리는 일이 없었습니다.",
+      "grammar": "~のおかげで (덕분에)",
+      "tags": [
+        "間違える"
+      ]
+    },
+    {
+      "sent": "ポスターを<ruby>壁<rt>かべ</rt></ruby>にはるために、テープを<ruby>引<rt>ひ</rt></ruby>きます。",
+      "trans": "포스터를 벽에 붙이기 위해, 테이프를 당깁니다.",
+      "grammar": "~ために (목적)",
+      "tags": [
+        "はる",
+        "引く"
+      ]
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わったので、<ruby>先輩<rt>せんぱい</rt></ruby>が<ruby>私<rt>わたし</rt></ruby>をほめました。",
+      "trans": "일이 일찍 끝나서, 선배가 저를 칭찬했습니다.",
+      "grammar": "~ので (이유)",
+      "tags": [
+        "ほめる"
+      ]
+    },
+    {
+      "sent": "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すことになりました。",
+      "trans": "다음 주, 새로운 집으로 이사하게 되었습니다.",
+      "grammar": "~ことになる (결정/결과)",
+      "tags": [
+        "引っ越す"
+      ]
+    },
+    {
+      "sent": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶことについて、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>します。",
+      "trans": "짐을 옮기는 것에 대해서, 친구와 이야기합니다.",
+      "grammar": "~について (~에 대해서)",
+      "tags": [
+        "運ぶ"
+      ]
+    },
+    {
+      "sent": "<ruby>最近<rt>さいきん</rt></ruby>、すこし<ruby>太<rt>ふと</rt></ruby>るみたいに<ruby>体重<rt>たいじゅう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えました。",
+      "trans": "최근, 조금 살찌는 것처럼 체중이 늘었습니다.",
+      "grammar": "~みたいに (~처럼)",
+      "tags": [
+        "太る",
+        "増える"
+      ]
+    },
+    {
+      "sent": "ダイエットとして、<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>公園<rt>こうえん</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>ります。",
+      "trans": "다이어트로서, 매일 공원을 돕니다.",
+      "grammar": "~として (~로서/자격)",
+      "tags": [
+        "回る"
+      ]
+    },
+    {
+      "sent": "なくした<ruby>指輪<rt>ゆびわ</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかって、うれしいです。",
+      "trans": "잃어버린 반지가 발견되어서, 기쁩니다.",
+      "grammar": "~て (이유/원인)",
+      "tags": [
+        "見つかる"
+      ]
+    },
+    {
+      "sent": "<ruby>明日<rt>あした</rt></ruby>、お<ruby>祭<rt>まつ</rt></ruby>りが<ruby>開<rt>ひら</rt></ruby>かれます。",
+      "trans": "내일, 축제가 열립니다(개최됩니다).",
+      "grammar": "수동태",
+      "tags": [
+        "開く"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>もボランティアとして<ruby>参<rt>まい</rt></ruby>ります。",
+      "trans": "저도 자원봉사자로서 갑니다(겸양).",
+      "grammar": "~として (~로서/자격)",
+      "tags": [
+        "参る"
+      ]
+    },
+    {
+      "sent": "<ruby>遠<rt>とお</rt></ruby>くから<ruby>光<rt>ひか</rt></ruby>る<ruby>花火<rt>はなび</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます。",
+      "trans": "멀리서 빛나는 불꽃놀이가 보입니다.",
+      "grammar": "から (~로부터)",
+      "tags": [
+        "光る",
+        "見える"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "拝見する",
       "read": "はいけんする",
       "mean": "뵙다, 보다 (겸양)",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-002",
       "word": "はく",
       "read": "はく",
       "mean": "입다(하의), 신다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-003",
       "word": "運ぶ",
       "read": "はこぶ",
       "mean": "운반하다, 나르다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-004",
       "word": "始める",
       "read": "はじめる",
       "mean": "시작하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-005",
       "word": "走る",
       "read": "はしる",
       "mean": "달리다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-006",
       "word": "働く",
       "read": "はたらく",
       "mean": "일하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-007",
       "word": "はる",
       "read": "はる",
       "mean": "붙이다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-008",
       "word": "晴れる",
       "read": "はれる",
       "mean": "개다 (날씨)",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-009",
       "word": "光る",
       "read": "ひかる",
       "mean": "빛나다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-010",
       "word": "引く",
       "read": "ひく",
       "mean": "당기다, 끌다, (감기) 걸리다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-011",
       "word": "引っ越す",
       "read": "ひっこす",
       "mean": "이사하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-012",
       "word": "開く",
       "read": "ひらく",
       "mean": "열리다, 개최하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-013",
       "word": "増える",
       "read": "ふえる",
       "mean": "늘다, 증가하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-014",
       "word": "吹く",
       "read": "ふく",
       "mean": "불다 (바람)",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-015",
       "word": "ぶつかる",
       "read": "ぶつかる",
       "mean": "부딪치다, 충돌하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-016",
       "word": "太る",
       "read": "ふとる",
       "mean": "살찌다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 18
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-017",
       "word": "踏む",
       "read": "ふむ",
       "mean": "밟다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-018",
       "word": "ほめる",
       "read": "ほめる",
       "mean": "칭찬하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-019",
       "word": "参る",
       "read": "まいる",
       "mean": "가다, 오다 (겸양)",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-020",
       "word": "負ける",
       "read": "まける",
       "mean": "지다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-021",
       "word": "間違える",
       "read": "まちがえる",
       "mean": "틀리다, 잘못하다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-022",
       "word": "間に合う",
       "read": "まにあう",
       "mean": "시간에 대다, 늦지 않다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-023",
       "word": "回る",
       "read": "まわる",
       "mean": "돌다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-024",
       "word": "見える",
       "read": "みえる",
       "mean": "보이다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
     },
     {
+      "id": "v-025",
       "word": "見つかる",
       "read": "みつかる",
       "mean": "발견되다, 들키다",
-      "tags": [],
-      "moduleId": "n4-module-025",
-      "legacyDay": 19
+      "tags": [
+        "verb"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「運ぶ」の読み方は何ですか。",
+      "opt": [
+        "よこぶ",
+        "はこぶ",
+        "あそぶ",
+        "えらぶ"
+      ],
+      "ans": 1,
+      "comment": "運ぶ(はこぶ)は「운반하다, 나르다」という意(뜻)味(미)です。"
+    },
+    {
+      "q": "「働く」の読み方は何ですか。",
+      "opt": [
+        "あるく",
+        "うごく",
+        "はたらく",
+        "いそぐ"
+      ],
+      "ans": 2,
+      "comment": "働く(はたらく)は「일하다」という意(뜻)味(미)です。"
+    },
+    {
+      "q": "「晴れる」の読み方は何ですか。",
+      "opt": [
+        "はれる",
+        "あれる",
+        "ぬれる",
+        "いれる"
+      ],
+      "ans": 0,
+      "comment": "晴れる(はれる)は날씨가「개다, 맑아지다」という意(뜻)味(미)です。"
+    },
+    {
+      "q": "「増える」の読み方は何ですか。",
+      "opt": [
+        "かえる",
+        "ふえる",
+        "こえる",
+        "たえる"
+      ],
+      "ans": 1,
+      "comment": "増える(ふえる)は수나 양이「늘다, 증가하다」という意(뜻)味(미)です。"
+    },
+    {
+      "q": "「칭찬하다」を日本語で書くと何ですか。",
+      "opt": [
+        "いじめる",
+        "ほめる",
+        "あつめる",
+        "きめる"
+      ],
+      "ans": 1,
+      "comment": "ほめる는「칭찬하다」という意(뜻)味(미)の動(동)詞(사)です。"
+    },
+    {
+      "q": "「틀리다, 잘못하다」を日本語で書くと何ですか。",
+      "opt": [
+        "間違える",
+        "見つける",
+        "始める",
+        "負ける"
+      ],
+      "ans": 0,
+      "comment": "間違える(まちがえる)は「틀리다, 잘못하다」という意(뜻)味(미)です。"
+    },
+    {
+      "q": "「이사하다」を日本語で書くと何ですか。",
+      "opt": [
+        "見つかる",
+        "ぶつかる",
+        "引っ越す",
+        "走る"
+      ],
+      "ans": 2,
+      "comment": "引っ越す(ひっこす)は「이사하다」という意(뜻)味(미)です。"
+    },
+    {
+      "q": "電車に______ために、駅まで走りました。",
+      "opt": [
+        "間に合う",
+        "間に合って",
+        "間に合った",
+        "間に合い"
+      ],
+      "ans": 0,
+      "comment": "「〜ために(목적)」の前(앞)には動(동)詞(사)の基本形(기본형)が来(옵)ます。間に合う(まにあう)は「시간에 대다, 늦지 않다」です。"
+    },
+    {
+      "q": "先生の資料を______します。",
+      "opt": [
+        "働く",
+        "拝見",
+        "見る",
+        "見つかる"
+      ],
+      "ans": 1,
+      "comment": "拝見する(はいけんする)は「見る(보다)」の謙譲語(겸양어: 뵙다, 보다)です。"
+    },
+    {
+      "q": "友達が手伝ってくれた______、早く終わりました。",
+      "opt": [
+        "ために",
+        "について",
+        "みたいに",
+        "おかげで"
+      ],
+      "ans": 3,
+      "comment": "「〜のおかげで」は「〜덕분에」という肯定的(긍정적)な原因(원인)や理由(이유)を表(나타냅)します。"
     }
   ]
 }
