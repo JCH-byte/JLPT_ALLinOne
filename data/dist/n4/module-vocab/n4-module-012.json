@@ -1,206 +1,487 @@
 {
-  "title": "た・つ行の名詞 (た・つ행 명사)",
-  "moduleId": "n4-module-012",
+  "title": "N4: 家族と学校の日常 (가족과 학교의 일상)",
+  "story": "<h3>Scene 1. <ruby>旅行<rt>りょこう</rt></ruby>の<ruby>計画<rt>けいかく</rt></ruby> (여행 계획)</h3>\n<ruby>父親<rt>ちちおや</rt></ruby>と<ruby>中国<rt>ちゅうごく</rt></ruby>の<ruby>地理<rt>ちり</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>の<ruby>ため<rt>ため</rt></ruby>に、<ruby>貯金<rt>ちょきん</rt></ruby>しています。<ruby>私<rt>わたし</rt></ruby>の<ruby>楽<rt>たの</rt></ruby>しみは<ruby>新<rt>あたら</rt></ruby>しい<ruby>文化<rt>ぶんか</rt></ruby>を<ruby>学<rt>まな</rt></ruby>ぶことです。<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に、<ruby>注意<rt>ちゅうい</rt></ruby>することを<ruby>調<rt>しら</rt></ruby>べることになりました。\n<h3>Scene 2. <ruby>和室<rt>わしつ</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby> (일본식 방 청소)</h3>\n<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>畳<rt>たたみ</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>しました。<ruby>茶色<rt>ちゃいろ</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>に、きれいな<ruby>茶碗<rt>ちゃわん</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>りました。<ruby>窓<rt>まど</rt></ruby>から<ruby>竹<rt>たけ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えて、お<ruby>寺<rt>てら</rt></ruby>の<ruby>庭<rt>にわ</rt></ruby>みたいにきれいです。<ruby>夜<rt>よる</rt></ruby>は<ruby>丸<rt>まる</rt></ruby>い<ruby>月<rt>つき</rt></ruby>がよく<ruby>見<rt>み</rt></ruby>えます。\n<h3>Scene 3. <ruby>学校<rt>がっこう</rt></ruby>の<ruby>運動会<rt>うんどうかい</rt></ruby> (학교 운동회)</h3>\n<ruby>中学校<rt>ちゅうがっこう</rt></ruby>で<ruby>運動会<rt>うんどうかい</rt></ruby>がありました。<ruby>多数<rt>たすう</rt></ruby>の<ruby>中学生<rt>ちゅうがくせい</rt></ruby>が<ruby>力<rt>ちから</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせて<ruby>頑張<rt>がんば</rt></ruby>りました。<ruby>一人<rt>ひとり</rt></ruby>の<ruby>男性<rt>だんせい</rt></ruby>が<ruby>転<rt>ころ</rt></ruby>んで<ruby>血<rt>ち</rt></ruby>が<ruby>出<rt>で</rt></ruby>たので、<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>競技<rt>きょうぎ</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になりました。<ruby>私<rt>わたし</rt></ruby>は<ruby>代表<rt>だいひょう</rt></ruby>として、すぐに<ruby>先生<rt>せんせい</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>びました。<ruby>先生<rt>せんせい</rt></ruby>のおかげで、<ruby>彼<rt>かれ</rt></ruby>はすぐに<ruby>休<rt>やす</rt></ruby>めました。\n<h3>Scene 4. <ruby>日常<rt>にちじょう</rt></ruby>の<ruby>失敗<rt>しっぱい</rt></ruby> (일상의 실수)</h3>\n<ruby>朝<rt>あさ</rt></ruby>、<ruby>食<rt>た</rt></ruby>べすぎで、お<ruby>腹<rt>なか</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなりました。その<ruby>結果<rt>けっか</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>に<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました。<ruby>母<rt>はは</rt></ruby>は<ruby>車<rt>くるま</rt></ruby>を<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>に<ruby>駐車<rt>ちゅうしゃ</rt></ruby>して、<ruby>私<rt>わたし</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ってくれました。<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>には<ruby>縦<rt>たて</rt></ruby>の<ruby>線<rt>せん</rt></ruby>がたくさんあります。",
+  "analysis": [
+    {
+      "sent": "<ruby>父親<rt>ちちおや</rt></ruby>と<ruby>中国<rt>ちゅうごく</rt></ruby>の<ruby>地理<rt>ちり</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "아버지와 중국 지리에 대하여 이야기했습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "父親",
+        "中国",
+        "地理"
+      ]
+    },
+    {
+      "sent": "<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>の<ruby>ため<rt>ため</rt></ruby>に、<ruby>貯金<rt>ちょきん</rt></ruby>しています。",
+      "trans": "여행 비용을 위해, 저금하고 있습니다.",
+      "grammar": "〜ために (~을 위해/목적)",
+      "tags": [
+        "ため",
+        "貯金"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>の<ruby>楽<rt>たの</rt></ruby>しみは<ruby>新<rt>あたら</rt></ruby>しい<ruby>文化<rt>ぶんか</rt></ruby>を<ruby>学<rt>まな</rt></ruby>ぶことです。",
+      "trans": "저의 즐거움은 새로운 문화를 배우는 것입니다.",
+      "grammar": "〜ことです (~하는 것입니다)",
+      "tags": [
+        "楽しみ"
+      ]
+    },
+    {
+      "sent": "<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に、<ruby>注意<rt>ちゅうい</rt></ruby>することを<ruby>調<rt>しら</rt></ruby>べることになりました。",
+      "trans": "여행 전에, 주의할 것을 조사하게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다/결정)",
+      "tags": [
+        "注意"
+      ]
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>畳<rt>たたみ</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>しました。",
+      "trans": "주말, 다다미 방을 청소했습니다.",
+      "grammar": "명사の명사 (명사 수식)",
+      "tags": [
+        "畳"
+      ]
+    },
+    {
+      "sent": "<ruby>茶色<rt>ちゃいろ</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>に、きれいな<ruby>茶碗<rt>ちゃわん</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>りました。",
+      "trans": "갈색 선반에, 예쁜 밥공기를 장식했습니다.",
+      "grammar": "に (위치/장소)",
+      "tags": [
+        "茶色",
+        "棚",
+        "茶碗"
+      ]
+    },
+    {
+      "sent": "<ruby>窓<rt>まど</rt></ruby>から<ruby>竹<rt>たけ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えて、お<ruby>寺<rt>てら</rt></ruby>の<ruby>庭<rt>にわ</rt></ruby>みたいにきれいです。",
+      "trans": "창문으로 대나무가 보여서, 절의 정원처럼 예쁩니다.",
+      "grammar": "〜みたいに (~처럼/비유)",
+      "tags": [
+        "竹"
+      ]
+    },
+    {
+      "sent": "<ruby>夜<rt>よる</rt></ruby>は<ruby>丸<rt>まる</rt></ruby>い<ruby>月<rt>つき</rt></ruby>がよく<ruby>見<rt>み</rt></ruby>えます。",
+      "trans": "밤에는 둥근 달이 잘 보입니다.",
+      "grammar": "見える (보이다/가능)",
+      "tags": [
+        "月"
+      ]
+    },
+    {
+      "sent": "<ruby>中学校<rt>ちゅうがっこう</rt></ruby>で<ruby>運動会<rt>うんどうかい</rt></ruby>がありました。",
+      "trans": "중학교에서 운동회가 있었습니다.",
+      "grammar": "で (동작/사건의 장소)",
+      "tags": [
+        "中学校"
+      ]
+    },
+    {
+      "sent": "<ruby>多数<rt>たすう</rt></ruby>の<ruby>中学生<rt>ちゅうがくせい</rt></ruby>が<ruby>力<rt>ちから</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせて<ruby>頑張<rt>がんば</rt></ruby>りました。",
+      "trans": "다수의 중학생이 힘을 합쳐 노력했습니다.",
+      "grammar": "〜て (~하고, ~해서/연결)",
+      "tags": [
+        "多数",
+        "中学生",
+        "力"
+      ]
+    },
+    {
+      "sent": "<ruby>一人<rt>ひとり</rt></ruby>の<ruby>男性<rt>だんせい</rt></ruby>が<ruby>転<rt>ころ</rt></ruby>んで<ruby>血<rt>ち</rt></ruby>が<ruby>出<rt>で</rt></ruby>たので、<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>競技<rt>きょうぎ</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になりました。",
+      "trans": "한 남성이 넘어져 피가 났기 때문에, 일부 경기가 중지되었습니다.",
+      "grammar": "〜ので (~기 때문에/이유)",
+      "tags": [
+        "男性",
+        "血",
+        "中止"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>代表<rt>だいひょう</rt></ruby>として、すぐに<ruby>先生<rt>せんせい</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>びました。",
+      "trans": "저는 대표로서, 즉시 선생님을 불렀습니다.",
+      "grammar": "〜として (~로서/자격)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>のおかげで、<ruby>彼<rt>かれ</rt></ruby>はすぐに<ruby>休<rt>やす</rt></ruby>めました。",
+      "trans": "선생님 덕분에, 그는 금방 쉴 수 있었습니다.",
+      "grammar": "〜のおかげで (~덕분에/긍정적 원인)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>食<rt>た</rt></ruby>べすぎで、お<ruby>腹<rt>なか</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなりました。",
+      "trans": "아침, 과식으로 배가 아파졌습니다.",
+      "grammar": "で (원인/이유)",
+      "tags": [
+        "食べすぎ"
+      ]
+    },
+    {
+      "sent": "その<ruby>結果<rt>けっか</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>に<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました。",
+      "trans": "그 결과, 학교에 지각하고 말았습니다.",
+      "grammar": "〜てしまう (~해 버리다/유감)",
+      "tags": [
+        "遅刻"
+      ]
+    },
+    {
+      "sent": "<ruby>母<rt>はは</rt></ruby>は<ruby>車<rt>くるま</rt></ruby>を<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>に<ruby>駐車<rt>ちゅうしゃ</rt></ruby>して、<ruby>私<rt>わたし</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ってくれました。",
+      "trans": "어머니는 차를 주차장에 주차하고, 저를 데려다 주셨습니다.",
+      "grammar": "〜てくれる (~해 주다/은혜)",
+      "tags": [
+        "駐車場",
+        "駐車"
+      ]
+    },
+    {
+      "sent": "<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>には<ruby>縦<rt>たて</rt></ruby>の<ruby>線<rt>せん</rt></ruby>がたくさんあります。",
+      "trans": "주차장에는 세로 선이 많이 있습니다.",
+      "grammar": "〜には〜があります (~에는 ~이 있습니다/존재)",
+      "tags": [
+        "縦"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "竹",
       "read": "たけ",
       "mean": "대나무",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "多数",
       "read": "たすう",
       "mean": "다수",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "畳",
       "read": "たたみ",
       "mean": "다타미, 돗자리",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "縦",
       "read": "たて",
       "mean": "세로",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "棚",
       "read": "たな",
       "mean": "선반",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "楽しみ",
       "read": "たのしみ",
       "mean": "즐거움, 낙, 기대",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "食べすぎ",
       "read": "たべすぎ",
       "mean": "과식",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "ため",
       "read": "ため",
       "mean": "위함, 때문",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "男性",
       "read": "だんせい",
       "mean": "남성",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "血",
       "read": "ち",
       "mean": "피",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "力",
       "read": "ちから",
       "mean": "힘",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "遅刻",
       "read": "ちこく",
       "mean": "지각",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "父親",
       "read": "ちちおや",
       "mean": "부친",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "茶色",
       "read": "ちゃいろ",
       "mean": "갈색",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "茶碗",
       "read": "ちゃわん",
       "mean": "밥공기, 찻잔",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "注意",
       "read": "ちゅうい",
       "mean": "주의",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "中学生",
       "read": "ちゅうがくせい",
       "mean": "중학생",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 7
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "中学校",
       "read": "ちゅうがっこう",
       "mean": "중학교",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "中国",
       "read": "ちゅうごく",
       "mean": "중국",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "中止",
       "read": "ちゅうし",
       "mean": "중지",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "駐車",
       "read": "ちゅうしゃ",
       "mean": "주차",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "駐車場",
       "read": "ちゅうしゃじょう",
       "mean": "주차장",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "貯金",
       "read": "ちょきん",
       "mean": "저금",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "地理",
       "read": "ちり",
       "mean": "지리",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "月",
       "read": "つき",
       "mean": "달",
-      "tags": [],
-      "moduleId": "n4-module-012",
-      "legacyDay": 8
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「駐車場」の読み方は何ですか。",
+      "opt": [
+        "ちゅうしゃじょう",
+        "ちゅうさじょう",
+        "じゅうしゃじょう",
+        "じゅうさじょう"
+      ],
+      "ans": 0,
+      "comment": "駐車場(ちゅうしゃじょう)는 '주차장'이라는 뜻입니다."
+    },
+    {
+      "q": "「父親」の読み方は何ですか。",
+      "opt": [
+        "ちちお",
+        "ちちおや",
+        "ははおや",
+        "そふ"
+      ],
+      "ans": 1,
+      "comment": "父親(ちちおや)는 '부친, 아버지'라는 뜻입니다."
+    },
+    {
+      "q": "「縦」の読み方は何ですか。",
+      "opt": [
+        "よこ",
+        "ななめ",
+        "たて",
+        "した"
+      ],
+      "ans": 2,
+      "comment": "縦(たて)는 '세로'라는 뜻입니다."
+    },
+    {
+      "q": "「多数」の読み方は何ですか。",
+      "opt": [
+        "だすう",
+        "たすう",
+        "たかず",
+        "だかず"
+      ],
+      "ans": 1,
+      "comment": "多数(たすう)는 '다수'라는 뜻입니다."
+    },
+    {
+      "q": "「중학교」を日本語で書くと何ですか。",
+      "opt": [
+        "中学校",
+        "中学生",
+        "小学校",
+        "高校生"
+      ],
+      "ans": 0,
+      "comment": "中学校(ちゅうがっこう)는 '중학교'라는 뜻입니다."
+    },
+    {
+      "q": "「주의」を日本語で書くと何ですか。",
+      "opt": [
+        "準備",
+        "注意",
+        "中心",
+        "地理"
+      ],
+      "ans": 1,
+      "comment": "注意(ちゅうい)는 '주의'라는 뜻입니다."
+    },
+    {
+      "q": "「선반」を日本語で書くと何ですか。",
+      "opt": [
+        "机",
+        "椅子",
+        "棚",
+        "窓"
+      ],
+      "ans": 2,
+      "comment": "棚(たな)는 '선반'이라는 뜻입니다."
+    },
+    {
+      "q": "旅行の費用を貯める______、アルバイトをします。",
+      "opt": [
+        "について",
+        "みたいに",
+        "として",
+        "ために"
+      ],
+      "ans": 3,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "日本の地理______、先生に質問しました。",
+      "opt": [
+        "について",
+        "ために",
+        "のおかげで",
+        "みたいに"
+      ],
+      "ans": 0,
+      "comment": "대상을 나타내는 「〜について」(~에 대하여)가 알맞습니다."
+    },
+    {
+      "q": "あの雲は、うさぎ______見えます。",
+      "opt": [
+        "について",
+        "みたいに",
+        "として",
+        "ために"
+      ],
+      "ans": 1,
+      "comment": "비유를 나타내는 「〜みたいに」(~처럼)가 알맞습니다."
     }
   ]
 }
