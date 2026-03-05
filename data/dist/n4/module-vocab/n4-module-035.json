@@ -1,198 +1,483 @@
 {
-  "title": "カタカナ語・4 (가타카나어 4)",
-  "moduleId": "n4-module-035",
+  "title": "N4: 日常の挨拶と生活 (일상의 인사와 생활)",
+  "story": "<h2>Scene 1. 出勤と挨拶 (출근과 인사)</h2><p>「<ruby>行<rt>い</rt></ruby>ってまいります」と<ruby>妻<rt>つま</rt></ruby>に<ruby>挨拶<rt>あいさつ</rt></ruby>しました。<ruby>妻<rt>つま</rt></ruby>は「<ruby>行<rt>い</rt></ruby>ってらっしゃい」と<ruby>答<rt>こた</rt></ruby>えました。<ruby>風邪<rt>かぜ</rt></ruby>をひかないために、マスクをして、<ruby>白<rt>しろ</rt></ruby>いワイシャツを<ruby>着<rt>き</rt></ruby>ました。<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>途中<rt>とちゅう</rt></ruby>で、ポストにレポートを<ruby>入<rt>い</rt></ruby>れました。<ruby>友達<rt>ともだち</rt></ruby>から「お<ruby>元気<rt>げんき</rt></ruby>ですか」という<ruby>手紙<rt>てがみ</rt></ruby>が<ruby>届<rt>とど</rt></ruby>きました。</p><h2>Scene 2. 会社での仕事 (회사에서의 일)</h2><p><ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、<ruby>先輩<rt>せんぱい</rt></ruby>が「ようこそ」と<ruby>言<rt>い</rt></ruby>ってくれました。ワープロを<ruby>使<rt>つか</rt></ruby>って、<ruby>新<rt>あたら</rt></ruby>しいルールについて<ruby>書<rt>か</rt></ruby>きました。<ruby>社長<rt>しゃちょう</rt></ruby>が「お<ruby>待<rt>ま</rt></ruby>たせしました」と<ruby>言<rt>い</rt></ruby>って、<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。この<ruby>仕事<rt>しごと</rt></ruby>はレベルが<ruby>高<rt>たか</rt></ruby>いみたいに<ruby>難<rt>むずか</rt></ruby>しいです。でも、<ruby>先輩<rt>せんぱい</rt></ruby>のおかげで、ちゃんと<ruby>終<rt>お</rt></ruby>わることになりました。</p><h2>Scene 3. 買い物と帰り道 (쇼핑과 귀갓길)</h2><p><ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わってから、プレゼントとしてワンピースを<ruby>買<rt>か</rt></ruby>いました。レジで、<ruby>店員<rt>てんいん</rt></ruby>に「かしこまりました」と<ruby>言<rt>い</rt></ruby>われました。<ruby>安<rt>やす</rt></ruby>いメロンもあったので、いっしょに<ruby>買<rt>か</rt></ruby>いました。<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、「ただいま」と<ruby>言<rt>い</rt></ruby>いました。<ruby>家族<rt>かぞく</rt></ruby>は「お<ruby>帰<rt>かえ</rt></ruby>りなさい」と<ruby>優<rt>やさ</rt></ruby>しく<ruby>言<rt>い</rt></ruby>いました。</p><h2>Scene 4. 家でのリラックス (집에서의 휴식)</h2><p>「おかげさまで、<ruby>今日<rt>きょう</rt></ruby>もいい<ruby>日<rt>ひ</rt></ruby>でした」と<ruby>思<rt>おも</rt></ruby>いました。<ruby>娘<rt>むすめ</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby>なので、「おめでとうございます」と<ruby>皆<rt>みな</rt></ruby>で<ruby>祝<rt>いわ</rt></ruby>いました。お<ruby>父<rt>ちち</rt></ruby>さんはラジカセで、レコードの<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。マッチでケーキのロウソクに<ruby>火<rt>ひ</rt></ruby>をつけました。<ruby>娘<rt>むすめ</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>風邪<rt>かぜ</rt></ruby>なので、「お<ruby>大事<rt>だいじ</rt></ruby>に」と<ruby>言<rt>い</rt></ruby>って<ruby>寝<rt>ね</rt></ruby>ました。</p>",
+  "analysis": [
+    {
+      "sent": "「<ruby>行<rt>い</rt></ruby>ってまいります」と<ruby>妻<rt>つま</rt></ruby>に<ruby>挨拶<rt>あいさつ</rt></ruby>しました。",
+      "trans": "'다녀오겠습니다'라고 아내에게 인사했습니다.",
+      "grammar": "〜と (인용 표현)",
+      "tags": [
+        "行ってまいります"
+      ]
+    },
+    {
+      "sent": "<ruby>妻<rt>つま</rt></ruby>は「<ruby>行<rt>い</rt></ruby>ってらっしゃい」と<ruby>答<rt>こた</rt></ruby>えました。",
+      "trans": "아내는 '다녀오세요'라고 대답했습니다.",
+      "grammar": "〜と (인용 표현)",
+      "tags": [
+        "行ってらっしゃい"
+      ]
+    },
+    {
+      "sent": "<ruby>風邪<rt>かぜ</rt></ruby>をひかないために、マスクをして、<ruby>白<rt>しろ</rt></ruby>いワイシャツを<ruby>着<rt>き</rt></ruby>ました。",
+      "trans": "감기에 걸리지 않기 위해, 마스크를 쓰고, 하얀 와이셔츠를 입었습니다.",
+      "grammar": "〜ために (목적 표현)",
+      "tags": [
+        "マスク",
+        "ワイシャツ"
+      ]
+    },
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>途中<rt>とちゅう</rt></ruby>で、ポストにレポートを<ruby>入<rt>い</rt></ruby>れました。",
+      "trans": "회사에 가는 도중에, 우체통에 리포트를 넣었습니다.",
+      "grammar": "명사 사용",
+      "tags": [
+        "ポスト",
+        "レポート"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>から「お<ruby>元気<rt>げんき</rt></ruby>ですか」という<ruby>手紙<rt>てがみ</rt></ruby>が<ruby>届<rt>とど</rt></ruby>きました。",
+      "trans": "친구에게서 '잘 지내시나요'라는 편지가 도착했습니다.",
+      "grammar": "という (인용 수식)",
+      "tags": [
+        "お元気ですか"
+      ]
+    },
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、<ruby>先輩<rt>せんぱい</rt></ruby>が「ようこそ」と<ruby>言<rt>い</rt></ruby>ってくれました。",
+      "trans": "회사에 도착하자, 선배가 '환영합니다'라고 말해주었습니다.",
+      "grammar": "〜と (발견/계기 표현)",
+      "tags": [
+        "ようこそ"
+      ]
+    },
+    {
+      "sent": "ワープロを<ruby>使<rt>つか</rt></ruby>って、<ruby>新<rt>あたら</rt></ruby>しいルールについて<ruby>書<rt>か</rt></ruby>きました。",
+      "trans": "워드 프로세서를 사용하여, 새로운 규칙에 대하여 썼습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "ワープロ",
+        "ルール"
+      ]
+    },
+    {
+      "sent": "<ruby>社長<rt>しゃちょう</rt></ruby>が「お<ruby>待<rt>ま</rt></ruby>たせしました」と<ruby>言<rt>い</rt></ruby>って、<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。",
+      "trans": "사장님이 '기다리게 했습니다'라고 말하고, 회의가 시작되었습니다.",
+      "grammar": "〜て (순차 표현)",
+      "tags": [
+        "お待たせしました"
+      ]
+    },
+    {
+      "sent": "この<ruby>仕事<rt>しごと</rt></ruby>はレベルが<ruby>高<rt>たか</rt></ruby>いみたいに<ruby>難<rt>むずか</rt></ruby>しいです。",
+      "trans": "이 일은 레벨이 높은 것처럼 어렵습니다.",
+      "grammar": "〜みたいに (비유 표현)",
+      "tags": [
+        "レベル"
+      ]
+    },
+    {
+      "sent": "でも、<ruby>先輩<rt>せんぱい</rt></ruby>のおかげで、ちゃんと<ruby>終<rt>お</rt></ruby>わることになりました。",
+      "trans": "하지만, 선배 덕분에, 제대로 끝나게 되었습니다.",
+      "grammar": "〜のおかげで (덕분 표현), 〜ことになる (결정 표현)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わってから、プレゼントとしてワンピースを<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "일이 끝나고 나서, 선물로서 원피스를 샀습니다.",
+      "grammar": "〜として (자격/명목 표현)",
+      "tags": [
+        "ワンピース"
+      ]
+    },
+    {
+      "sent": "レジで、<ruby>店員<rt>てんいん</rt></ruby>に「かしこまりました」と<ruby>言<rt>い</rt></ruby>われました。",
+      "trans": "계산대에서, 점원에게 '알겠습니다'라는 말을 들었습니다.",
+      "grammar": "수동태 (言われる)",
+      "tags": [
+        "レジ",
+        "かしこまりました"
+      ]
+    },
+    {
+      "sent": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、「ただいま」と<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "집에 돌아가서, '다녀왔습니다'라고 말했습니다.",
+      "grammar": "〜と (인용 표현)",
+      "tags": [
+        "ただいま"
+      ]
+    },
+    {
+      "sent": "<ruby>家族<rt>かぞく</rt></ruby>は「お<ruby>帰<rt>かえ</rt></ruby>りなさい」と<ruby>優<rt>やさ</rt></ruby>しく<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "가족은 '어서 오세요'라고 상냥하게 말했습니다.",
+      "grammar": "부사 수식",
+      "tags": [
+        "お帰りなさい"
+      ]
+    },
+    {
+      "sent": "「おかげさまで、<ruby>今日<rt>きょう</rt></ruby>もいい<ruby>日<rt>ひ</rt></ruby>でした」と<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "'덕분에요, 오늘도 좋은 날이었습니다'라고 생각했습니다.",
+      "grammar": "인사말 활용",
+      "tags": [
+        "おかげさまで"
+      ]
+    },
+    {
+      "sent": "<ruby>娘<rt>むすめ</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby>なので、「おめでとうございます」と<ruby>皆<rt>みな</rt></ruby>で<ruby>祝<rt>いわ</rt></ruby>いました。",
+      "trans": "딸의 생일이라서, '축하합니다'라고 모두 축하했습니다.",
+      "grammar": "〜ので (이유 표현)",
+      "tags": [
+        "おめでとうございます"
+      ]
+    },
+    {
+      "sent": "お<ruby>父<rt>ちち</rt></ruby>さんはラジカセで、レコードの<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。",
+      "trans": "아버지는 라디오 카세트로, 레코드의 음악을 들었습니다.",
+      "grammar": "수단 표현 (~で)",
+      "tags": [
+        "ラジカセ",
+        "レコード"
+      ]
+    },
+    {
+      "sent": "<ruby>娘<rt>むすめ</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>風邪<rt>かぜ</rt></ruby>なので、「お<ruby>大事<rt>だいじ</rt></ruby>に」と<ruby>言<rt>い</rt></ruby>って<ruby>寝<rt>ね</rt></ruby>ました。",
+      "trans": "딸이 조금 감기 기운이 있어서, '몸조리 잘하세요'라고 말하고 잤습니다.",
+      "grammar": "〜て (순차 표현)",
+      "tags": [
+        "お大事に"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "ポスト",
       "read": "ぽすと",
       "mean": "우체통",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "マスク",
       "read": "ますく",
       "mean": "마스크",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "マッチ",
       "read": "まっち",
       "mean": "성냥",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "メロン",
       "read": "めろん",
       "mean": "멜론",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "ラジカセ",
       "read": "らじかせ",
       "mean": "라디오 카세트",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "ルール",
       "read": "るーる",
       "mean": "룰, 규칙",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "レコード",
       "read": "れこーど",
       "mean": "레코드",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "レジ",
       "read": "れじ",
       "mean": "계산대",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "レベル",
       "read": "れべる",
       "mean": "레벨, 수준",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "レポート",
       "read": "れぽーと",
       "mean": "리포트",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "ワープロ",
       "read": "わーぷろ",
       "mean": "워드 프로세서",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "ワイシャツ",
       "read": "わいしゃつ",
       "mean": "와이셔츠",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "ワンピース",
       "read": "わんぴーす",
       "mean": "원피스",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "行ってまいります",
       "read": "いってまいります",
       "mean": "다녀오겠습니다",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-015",
       "word": "行ってらっしゃい",
       "read": "いってらっしゃい",
       "mean": "다녀오세요",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-016",
       "word": "お帰りなさい",
       "read": "おかえりなさい",
       "mean": "어서 오세요, 다녀오셨어요",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-017",
       "word": "おかげさまで",
       "read": "おかげさまで",
       "mean": "덕분에요",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-018",
       "word": "お元気ですか",
       "read": "おげんきですか",
       "mean": "잘 지내시나요",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-019",
       "word": "お大事に",
       "read": "おだいじに",
       "mean": "몸조리 잘하세요",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-020",
       "word": "お待たせしました",
       "read": "おまたせしました",
       "mean": "기다리게 했습니다",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-021",
       "word": "おめでとうございます",
       "read": "おめでとうございます",
       "mean": "축하합니다",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-022",
       "word": "かしこまりました",
       "read": "かしこまりました",
       "mean": "알겠습니다 (겸양)",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-023",
       "word": "ただいま",
       "read": "ただいま",
       "mean": "다녀왔습니다",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-024",
       "word": "ようこそ",
       "read": "ようこそ",
       "mean": "환영합니다, 어서 오세요",
-      "tags": [],
-      "moduleId": "n4-module-035",
-      "legacyDay": 28
+      "tags": [
+        "expression"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「ワイシャツ」の読み方は何ですか。",
+      "opt": [
+        "わいしゃつ",
+        "わししゃつ",
+        "わいさつ",
+        "わいちょつ"
+      ],
+      "ans": 0,
+      "comment": "ワイシャツ(わいしゃつ)는 '와이셔츠'라는 뜻입니다."
+    },
+    {
+      "q": "「レポート」の読み方は何ですか。",
+      "opt": [
+        "れぽーど",
+        "れぽーと",
+        "らぽーと",
+        "れぼーと"
+      ],
+      "ans": 1,
+      "comment": "レポート(れぽーと)는 '리포트, 보고서'라는 뜻입니다."
+    },
+    {
+      "q": "「お帰りなさい」の読み方は何ですか。",
+      "opt": [
+        "おかいりなさい",
+        "おかありなさい",
+        "おかえりなさい",
+        "おかりなさい"
+      ],
+      "ans": 2,
+      "comment": "お帰りなさい(おかえりなさい)는 '어서 오세요, 다녀오셨어요'라는 뜻의 인사말입니다."
+    },
+    {
+      "q": "「お大事に」の読み方は何ですか。",
+      "opt": [
+        "おだいしに",
+        "おたいじに",
+        "おだいじに",
+        "おたじに"
+      ],
+      "ans": 2,
+      "comment": "お大事に(おだいじに)는 아픈 사람에게 쓰는 '몸조리 잘하세요'라는 인사말입니다."
+    },
+    {
+      "q": "「룰, 규칙」を日本語で書くと何ですか。",
+      "opt": [
+        "レベル",
+        "ルール",
+        "メロン",
+        "レジ"
+      ],
+      "ans": 1,
+      "comment": "ルール는 '룰, 규칙'이라는 뜻입니다."
+    },
+    {
+      "q": "「마스크」を日本語で書くと何ですか。",
+      "opt": [
+        "マッチ",
+        "ポスト",
+        "マスク",
+        "ラジカセ"
+      ],
+      "ans": 2,
+      "comment": "マスク는 '마스크'라는 뜻입니다."
+    },
+    {
+      "q": "「덕분에요」を日本語で書くと何ですか。",
+      "opt": [
+        "ようこそ",
+        "ただいま",
+        "かしこまりました",
+        "おかげさまで"
+      ],
+      "ans": 3,
+      "comment": "おかげさまで는 안부를 묻거나 도움에 감사할 때 쓰는 '덕분에요'라는 뜻입니다."
+    },
+    {
+      "q": "病気を治す______、毎日薬を飲みます。",
+      "opt": [
+        "について",
+        "ために",
+        "として",
+        "みたいに"
+      ],
+      "ans": 1,
+      "comment": "〜ために는 목적을 나타내는 '~하기 위해'라는 의미입니다."
+    },
+    {
+      "q": "日本の文化______、インターネットで調べました。",
+      "opt": [
+        "について",
+        "として",
+        "のおかげで",
+        "ために"
+      ],
+      "ans": 0,
+      "comment": "〜について는 '~에 대하여'라는 의미로, 주제나 대상에 대해 이야기할 때 사용합니다."
+    },
+    {
+      "q": "先輩の______、仕事が早く終わりました。",
+      "opt": [
+        "ために",
+        "みたいに",
+        "について",
+        "おかげで"
+      ],
+      "ans": 3,
+      "comment": "〜のおかげで는 '~덕분에'라는 의미로, 긍정적인 결과를 가져왔을 때 사용합니다."
     }
   ]
 }
