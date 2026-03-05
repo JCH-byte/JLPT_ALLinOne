@@ -1,198 +1,486 @@
 {
-  "title": "カタカナ語・1 (가타카나어 1)",
-  "moduleId": "n4-module-032",
+  "title": "N4: カタカナの言葉と日常生活 (가타카나 단어와 일상생활)",
+  "story": "<h2>Scene 1. 週末の楽しみ (주말의 즐거움)</h2><p><ruby>週末<rt>しゅうまつ</rt></ruby>は、アルバイトのために<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きました。<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わってから、<ruby>部屋<rt>へや</rt></ruby>のコンピューターでアニメを<ruby>見<rt>み</rt></ruby>ました。<ruby>午後<rt>ごご</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>とサッカーの<ruby>試合<rt>しあい</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。<ruby>本物<rt>ほんもの</rt></ruby>の<ruby>選手<rt>せんしゅ</rt></ruby>みたいに<ruby>走<rt>はし</rt></ruby>ることは<ruby>難<rt>むずか</rt></ruby>しいです。おやつとして、おいしいケーキを<ruby>食<rt>た</rt></ruby>べることになりました。</p><h2>Scene 2. 出かける準備 (외출 준비)</h2><p><ruby>夜<rt>よる</rt></ruby>にコンサートへ<ruby>行<rt>い</rt></ruby>くために、<ruby>準備<rt>じゅんび</rt></ruby>をします。エアコンを<ruby>消<rt>け</rt></ruby>して、ガラスの<ruby>窓<rt>まど</rt></ruby>とカーテンを<ruby>閉<rt>し</rt></ruby>めました。ケースからきれいなイヤリングを<ruby>出<rt>だ</rt></ruby>して、つけました。お<ruby>母<rt>かあ</rt></ruby>さんのおかげで、きれいな<ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>ています。<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>歌手<rt>かしゅ</rt></ruby>のサインをもらいたいです。</p><h2>Scene 3. ドライブと買い物 (드라이브와 쇼핑)</h2><p><ruby>兄<rt>あに</rt></ruby>のオートバイに<ruby>乗<rt>の</rt></ruby>って<ruby>出発<rt>しゅっぱつ</rt></ruby>しました。<ruby>途中<rt>とちゅう</rt></ruby>でガソリンスタンドへ<ruby>寄<rt>よ</rt></ruby>って、ガソリンを<ruby>入<rt>い</rt></ruby>れました。ここから<ruby>会場<rt>かいじょう</rt></ruby>まで、あと３キロメートルぐらいです。<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>として、とても<ruby>辛<rt>から</rt></ruby>いカレーを<ruby>食<rt>た</rt></ruby>べました。アフリカやアメリカの<ruby>料理<rt>りょうり</rt></ruby>みたいにスパイスがいっぱいです。</p><h2>Scene 4. デパートとイベント (백화점과 이벤트)</h2><p><ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、デパートのエスカレーターに<ruby>乗<rt>の</rt></ruby>って<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしました。<ruby>新<rt>あたら</rt></ruby>しいキッチンで<ruby>使<rt>つか</rt></ruby>うために、お<ruby>皿<rt>さら</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。ガスを<ruby>使<rt>つか</rt></ruby>うときは、いつも<ruby>気<rt>き</rt></ruby>をつけています。<ruby>帰<rt>かえ</rt></ruby>りに、５キログラムの<ruby>重<rt>おも</rt></ruby>い<ruby>果物<rt>くだもの</rt></ruby>を<ruby>持<rt>も</rt></ruby>ちました。お<ruby>父<rt>ちち</rt></ruby>さんはアルコールを<ruby>飲<rt>の</rt></ruby>んで、とても<ruby>喜<rt>よろこ</rt></ruby>んでいました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>は、アルバイトのために<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きました。",
+      "trans": "주말에는, 아르바이트를 위해 일찍 일어났습니다.",
+      "grammar": "〜ために (목적 표현)",
+      "tags": [
+        "アルバイト"
+      ]
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わってから、<ruby>部屋<rt>へや</rt></ruby>のコンピューターでアニメを<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "일이 끝나고 나서, 방의 컴퓨터로 애니메이션을 보았습니다.",
+      "grammar": "〜てから (순후 표현)",
+      "tags": [
+        "コンピューター",
+        "アニメ"
+      ]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>とサッカーの<ruby>試合<rt>しあい</rt></ruby>について<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "오후에는 친구와 축구 시합에 대하여 이야기했습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "サッカー"
+      ]
+    },
+    {
+      "sent": "おやつとして、おいしいケーキを<ruby>食<rt>た</rt></ruby>べることになりました。",
+      "trans": "간식으로(간식으로서), 맛있는 케이크를 먹게 되었습니다.",
+      "grammar": "〜として (자격/명목 표현), 〜ことになる (결정 표현)",
+      "tags": [
+        "ケーキ"
+      ]
+    },
+    {
+      "sent": "<ruby>夜<rt>よる</rt></ruby>にコンサートへ<ruby>行<rt>い</rt></ruby>くために、<ruby>準備<rt>じゅんび</rt></ruby>をします。",
+      "trans": "밤에 콘서트에 가기 위해, 준비를 합니다.",
+      "grammar": "〜ために (목적 표현)",
+      "tags": [
+        "コンサート"
+      ]
+    },
+    {
+      "sent": "エアコンを<ruby>消<rt>け</rt></ruby>して、ガラスの<ruby>窓<rt>まど</rt></ruby>とカーテンを<ruby>閉<rt>し</rt></ruby>めました。",
+      "trans": "에어컨을 끄고, 유리창과 커튼을 닫았습니다.",
+      "grammar": "〜て (병렬/순서 표현)",
+      "tags": [
+        "エアコン",
+        "ガラス",
+        "カーテン"
+      ]
+    },
+    {
+      "sent": "ケースからきれいなイヤリングを<ruby>出<rt>だ</rt></ruby>して、つけました。",
+      "trans": "케이스에서 예쁜 귀걸이를 꺼내서, 착용했습니다.",
+      "grammar": "〜て (순서 표현)",
+      "tags": [
+        "ケース",
+        "イヤリング"
+      ]
+    },
+    {
+      "sent": "<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>歌手<rt>かしゅ</rt></ruby>のサインをもらいたいです。",
+      "trans": "유명한 가수의 사인을 받고 싶습니다.",
+      "grammar": "〜たい (희망 표현)",
+      "tags": [
+        "サイン"
+      ]
+    },
+    {
+      "sent": "<ruby>兄<rt>あに</rt></ruby>のオートバイに<ruby>乗<rt>の</rt></ruby>って<ruby>出発<rt>しゅっぱつ</rt></ruby>しました。",
+      "trans": "형의 오토바이를 타고 출발했습니다.",
+      "grammar": "〜て (방법/수단 표현)",
+      "tags": [
+        "オートバイ"
+      ]
+    },
+    {
+      "sent": "<ruby>途中<rt>とちゅう</rt></ruby>でガソリンスタンドへ<ruby>寄<rt>よ</rt></ruby>って、ガソリンを<ruby>入<rt>い</rt></ruby>れました。",
+      "trans": "도중에 주유소에 들러서, 가솔린(휘발유)을 넣었습니다.",
+      "grammar": "〜て (순서 표현)",
+      "tags": [
+        "ガソリンスタンド",
+        "ガソリン"
+      ]
+    },
+    {
+      "sent": "ここから<ruby>会場<rt>かいじょう</rt></ruby>まで、あと３キロメートルぐらいです。",
+      "trans": "여기서부터 회장까지, 앞으로 3킬로미터 정도입니다.",
+      "grammar": "ぐらい (정도 표현)",
+      "tags": [
+        "キロメートル"
+      ]
+    },
+    {
+      "sent": "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>として、とても<ruby>辛<rt>から</rt></ruby>いカレーを<ruby>食<rt>た</rt></ruby>べました。",
+      "trans": "저녁 식사로(식사로서), 매우 매운 카레를 먹었습니다.",
+      "grammar": "〜として (자격/명목 표현)",
+      "tags": [
+        "カレー"
+      ]
+    },
+    {
+      "sent": "アフリカやアメリカの<ruby>料理<rt>りょうり</rt></ruby>みたいにスパイスがいっぱいです。",
+      "trans": "아프리카나 미국의 요리처럼 스파이스(향신료)가 가득합니다.",
+      "grammar": "〜みたいに (비유 표현)",
+      "tags": [
+        "アフリカ",
+        "アメリカ"
+      ]
+    },
+    {
+      "sent": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、デパートのエスカレーターに<ruby>乗<rt>の</rt></ruby>って<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしました。",
+      "trans": "다음 날, 백화점의 에스컬레이터를 타고 쇼핑을 했습니다.",
+      "grammar": "〜て (수단/순서 표현)",
+      "tags": [
+        "エスカレーター"
+      ]
+    },
+    {
+      "sent": "<ruby>新<rt>あたら</rt></ruby>しいキッチンで<ruby>使<rt>つか</rt></ruby>うために、お<ruby>皿<rt>さら</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "새로운 부엌에서 사용하기 위해, 접시를 샀습니다.",
+      "grammar": "〜ために (목적 표현)",
+      "tags": [
+        "キッチン"
+      ]
+    },
+    {
+      "sent": "ガスを<ruby>使<rt>つか</rt></ruby>うときは、いつも<ruby>気<rt>き</rt></ruby>をつけています。",
+      "trans": "가스를 사용할 때는, 항상 조심하고 있습니다.",
+      "grammar": "〜とき (시간/경우 표현)",
+      "tags": [
+        "ガス"
+      ]
+    },
+    {
+      "sent": "<ruby>帰<rt>かえ</rt></ruby>りに、５キログラムの<ruby>重<rt>おも</rt></ruby>い<ruby>果物<rt>くだもの</rt></ruby>を<ruby>持<rt>も</rt></ruby>ちました。",
+      "trans": "돌아오는 길에, 5킬로그램의 무거운 과일을 들었습니다.",
+      "grammar": "명사 수식",
+      "tags": [
+        "キログラム"
+      ]
+    },
+    {
+      "sent": "お<ruby>父<rt>ちち</rt></ruby>さんはアルコールを<ruby>飲<rt>の</rt></ruby>んで、とても<ruby>喜<rt>よろこ</rt></ruby>んでいました。",
+      "trans": "아버지는 알코올(술)을 마시고, 매우 기뻐하고 있었습니다.",
+      "grammar": "〜て (이유/원인 표현)",
+      "tags": [
+        "アルコール"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "アニメ",
       "read": "あにめ",
       "mean": "애니메이션",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "アフリカ",
       "read": "あふりか",
       "mean": "아프리카",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "アメリカ",
       "read": "あめりか",
       "mean": "미국",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "アルコール",
       "read": "あるこーる",
       "mean": "알코올, 술",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "アルバイト",
       "read": "あるばいと",
       "mean": "아르바이트",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "イヤリング",
       "read": "いやりんぐ",
       "mean": "귀걸이",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "エアコン",
       "read": "えあこん",
       "mean": "에어컨",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "エスカレーター",
       "read": "えすかれーたー",
       "mean": "에스컬레이터",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 25
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "オートバイ",
       "read": "おーとばい",
       "mean": "오토바이",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "カーテン",
       "read": "かーてん",
       "mean": "커튼",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "ガス",
       "read": "がす",
       "mean": "가스",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "ガソリン",
       "read": "がそりん",
       "mean": "가솔린, 휘발유",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "ガソリンスタンド",
       "read": "がそりんすたんど",
       "mean": "주유소",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "ガラス",
       "read": "がらす",
       "mean": "유리",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "カレー",
       "read": "かれー",
       "mean": "카레",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "キッチン",
       "read": "きっちん",
       "mean": "부엌",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "キログラム",
       "read": "きろぐらむ",
       "mean": "킬로그램",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "キロメートル",
       "read": "きろめーとる",
       "mean": "킬로미터",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "ケーキ",
       "read": "けーき",
       "mean": "케이크",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "ケース",
       "read": "けーす",
       "mean": "케이스, 상자",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "コンサート",
       "read": "こんさーと",
       "mean": "콘서트",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "コンピューター",
       "read": "こんぴゅーたー",
       "mean": "컴퓨터",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "サイン",
       "read": "さいん",
       "mean": "사인, 서명",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "サッカー",
       "read": "さっかー",
       "mean": "축구",
-      "tags": [],
-      "moduleId": "n4-module-032",
-      "legacyDay": 26
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「カーテン」の読み方は何ですか。",
+      "opt": [
+        "かーてん",
+        "がーてん",
+        "かーたん",
+        "かてん"
+      ],
+      "ans": 0,
+      "comment": "カーテン(かーてん)은 '커튼'이라는 뜻입니다."
+    },
+    {
+      "q": "「コンピューター」の読み方は何ですか。",
+      "opt": [
+        "こんぴーたー",
+        "こんぴゅーたー",
+        "こんひゅーた",
+        "こんびゅーたー"
+      ],
+      "ans": 1,
+      "comment": "コンピューター(こんぴゅーたー)는 '컴퓨터'라는 뜻입니다."
+    },
+    {
+      "q": "「アルバイト」の読み方は何ですか。",
+      "opt": [
+        "あるはいと",
+        "あるばいと",
+        "あるぱいと",
+        "あろばいと"
+      ],
+      "ans": 1,
+      "comment": "アルバイト(あるばいと)는 '아르바이트'라는 뜻입니다."
+    },
+    {
+      "q": "「ガソリンスタンド」の読み方は何ですか。",
+      "opt": [
+        "かそりんすたんど",
+        "がそりんすたんど",
+        "がそりんすだんと",
+        "がそろんすたんど"
+      ],
+      "ans": 1,
+      "comment": "ガソリンスタンド(がそりんすたんど)는 '주유소'라는 뜻입니다."
+    },
+    {
+      "q": "「ガラス」を韓国語で書くと何ですか。",
+      "opt": [
+        "가스",
+        "에스컬레이터",
+        "유리",
+        "가솔린"
+      ],
+      "ans": 2,
+      "comment": "ガラス는 '유리'라는 뜻입니다."
+    },
+    {
+      "q": "「サイン」を韓国語で書くと何ですか。",
+      "opt": [
+        "케이스",
+        "콘서트",
+        "사인, 서명",
+        "귀걸이"
+      ],
+      "ans": 2,
+      "comment": "サイン은 '사인, 서명'이라는 뜻입니다."
+    },
+    {
+      "q": "「キッチン」を韓国語で書くと何ですか。",
+      "opt": [
+        "부엌",
+        "축구",
+        "가솔린",
+        "알코올"
+      ],
+      "ans": 0,
+      "comment": "キッチン은 '부엌'이라는 뜻입니다."
+    },
+    {
+      "q": "ケーキを作る______、卵を買いました。",
+      "opt": [
+        "ために",
+        "について",
+        "として",
+        "おかげで"
+      ],
+      "ans": 0,
+      "comment": "〜ために는 목적을 나타내는 '~하기 위해'라는 뜻의 문법입니다."
+    },
+    {
+      "q": "先生の______、テストに合格しました。",
+      "opt": [
+        "ために",
+        "みたいに",
+        "おかげで",
+        "として"
+      ],
+      "ans": 2,
+      "comment": "〜のおかげで는 '~덕분에'라는 의미로, 긍정적인 결과를 가져온 원인을 나타냅니다."
+    },
+    {
+      "q": "将来の夢______、友達と話しました。",
+      "opt": [
+        "について",
+        "として",
+        "みたいに",
+        "のおかげで"
+      ],
+      "ans": 0,
+      "comment": "〜について는 '~에 대하여'라는 의미로 어떤 주제에 대해 이야기할 때 사용합니다."
     }
   ]
 }
