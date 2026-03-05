@@ -1,206 +1,501 @@
 {
-  "title": "な形容詞・1 (な형용사 1)",
-  "moduleId": "n4-module-029",
+  "title": "N4: 日常の出来事と変化 (일상의 사건과 변화)",
+  "story": "<h2>Scene 1. 料理の失敗 (요리의 실패)</h2><p>おや、このスープは<ruby>変<rt>へん</rt></ruby>な<ruby>味<rt>あじ</rt></ruby>がします。<ruby>私<rt>わたし</rt></ruby>は<ruby>料理<rt>りょうり</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>なので、<ruby>美味<rt>おい</rt></ruby>しいご<ruby>飯<rt>はん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るために<ruby>練習<rt>れんしゅう</rt></ruby>しています。<ruby>昨日<rt>きのう</rt></ruby>は<ruby>塩<rt>しお</rt></ruby>をいっぱい<ruby>入<rt>い</rt></ruby>れたので、すっかりだめになりました。いくら<ruby>頑張<rt>がんば</rt></ruby>っても、<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>美味<rt>おい</rt></ruby>しくならないです。いちいちレシピを<ruby>見<rt>み</rt></ruby>るのは<ruby>大変<rt>たいへん</rt></ruby>ですが、これからも<ruby>続<rt>つづ</rt></ruby>けます。</p><h2>Scene 2. 友達の相談 (친구의 고민 상담)</h2><p><ruby>友達<rt>ともだち</rt></ruby>は<ruby>真面目<rt>まじめ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>ですが、<ruby>急<rt>きゅう</rt></ruby>に<ruby>仕事<rt>しごと</rt></ruby>について<ruby>相談<rt>そうだん</rt></ruby>してきました。<ruby>彼<rt>かれ</rt></ruby>は「<ruby>一体<rt>いったい</rt></ruby>どうすればいいでしょうか」と<ruby>聞<rt>き</rt></ruby>きました。<ruby>仕事<rt>しごと</rt></ruby>がこんなに<ruby>大変<rt>たいへん</rt></ruby>だとは<ruby>思<rt>おも</rt></ruby>わなかったみたいです。<ruby>無理<rt>むり</rt></ruby>な<ruby>仕事<rt>しごと</rt></ruby>をずっと<ruby>続<rt>つづ</rt></ruby>けるのはよくないです。<ruby>先輩<rt>せんぱい</rt></ruby>として、アドバイスをすることになりました。</p><h2>Scene 3. 新しい趣味 (새로운 취미)</h2><p><ruby>今日<rt>きょう</rt></ruby>は<ruby>別<rt>べつ</rt></ruby>なカメラを<ruby>買<rt>か</rt></ruby>いました。このカメラはいかがですか。かなり<ruby>立派<rt>りっぱ</rt></ruby>なデザインですね。<ruby>前<rt>まえ</rt></ruby>のカメラはそれほどよくなかったので、けっこう<ruby>高<rt>たか</rt></ruby>いですが<ruby>買<rt>か</rt></ruby>いました。<ruby>先生<rt>せんせい</rt></ruby>のおかげで、きれいな<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ることができます。いつか<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>って、<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>りたいです。</p><h2>Scene 4. パーティーの準備 (파티 준비)</h2><p><ruby>来週<rt>らいしゅう</rt></ruby>のパーティーのために、<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>します。あんなに<ruby>汚<rt>きたな</rt></ruby>かった<ruby>部屋<rt>へや</rt></ruby>が、きれいになりました。<ruby>友達<rt>ともだち</rt></ruby>がたくさん<ruby>来<rt>く</rt></ruby>るので、そんなに<ruby>狭<rt>せま</rt></ruby>い<ruby>部屋<rt>へや</rt></ruby>ではだめです。<ruby>準備<rt>じゅんび</rt></ruby>は<ruby>大変<rt>たいへん</rt></ruby>ですが、きっと<ruby>楽<rt>たの</rt></ruby>しいパーティーになります。みんなが<ruby>来<rt>く</rt></ruby>るといいなと<ruby>思<rt>おも</rt></ruby>います。</p>",
+  "analysis": [
+    {
+      "sent": "おや、このスープは<ruby>変<rt>へん</rt></ruby>な<ruby>味<rt>あじ</rt></ruby>がします。",
+      "trans": "어라, 이 수프는 이상한 맛이 납니다.",
+      "grammar": "な형용사 명사 수식",
+      "tags": [
+        "おや",
+        "変な"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>料理<rt>りょうり</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>なので、<ruby>美味<rt>おい</rt></ruby>しいご<ruby>飯<rt>はん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るために<ruby>練習<rt>れんしゅう</rt></ruby>しています。",
+      "trans": "나는 요리에 서툴러서, 맛있는 밥을 만들기 위해 연습하고 있습니다.",
+      "grammar": "~ために (목적 표현)",
+      "tags": [
+        "下手な"
+      ]
+    },
+    {
+      "sent": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>塩<rt>しお</rt></ruby>をいっぱい<ruby>入<rt>い</rt></ruby>れたので、すっかりだめになりました。",
+      "trans": "어제는 소금을 가득 넣었기 때문에, 완전히 망쳤습니다.",
+      "grammar": "부사 사용",
+      "tags": [
+        "いっぱい",
+        "すっかり"
+      ]
+    },
+    {
+      "sent": "いくら<ruby>頑張<rt>がんば</rt></ruby>っても、<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>美味<rt>おい</rt></ruby>しくならないです。",
+      "trans": "아무리 노력해도, 전혀 맛있어지지 않습니다.",
+      "grammar": "いくら~ても (아무리 ~해도), 부정 호응",
+      "tags": [
+        "いくら",
+        "全然"
+      ]
+    },
+    {
+      "sent": "いちいちレシピを<ruby>見<rt>み</rt></ruby>るのは<ruby>大変<rt>たいへん</rt></ruby>ですが、これからも<ruby>続<rt>つづ</rt></ruby>けます。",
+      "trans": "일일이 레시피를 보는 것은 힘들지만, 앞으로도 계속하겠습니다.",
+      "grammar": "~は~が (역접 표현)",
+      "tags": [
+        "いちいち",
+        "これから"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>真面目<rt>まじめ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>ですが、<ruby>急<rt>きゅう</rt></ruby>に<ruby>仕事<rt>しごと</rt></ruby>について<ruby>相談<rt>そうだん</rt></ruby>してきました。",
+      "trans": "친구는 성실한 사람이지만, 갑자기 일에 대하여 상담해왔습니다.",
+      "grammar": "~について (~에 대하여)",
+      "tags": [
+        "真面目な",
+        "急に"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>は「<ruby>一体<rt>いったい</rt></ruby>どうすればいいでしょうか」と<ruby>聞<rt>き</rt></ruby>きました。",
+      "trans": "그는 '도대체 어떻게 하면 좋을까요'라고 물었습니다.",
+      "grammar": "~と聞く (인용 표현)",
+      "tags": [
+        "一体"
+      ]
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>がこんなに<ruby>大変<rt>たいへん</rt></ruby>だとは<ruby>思<rt>おも</rt></ruby>わなかったみたいです。",
+      "trans": "일이 이렇게 힘들 줄은 생각하지 못했던 것 같습니다.",
+      "grammar": "~みたいに (추측 표현)",
+      "tags": [
+        "こんなに"
+      ]
+    },
+    {
+      "sent": "<ruby>無理<rt>むり</rt></ruby>な<ruby>仕事<rt>しごと</rt></ruby>をずっと<ruby>続<rt>つづ</rt></ruby>けるのはよくないです。",
+      "trans": "무리한 일을 계속 이어가는 것은 좋지 않습니다.",
+      "grammar": "な형용사 명사 수식, 부사 사용",
+      "tags": [
+        "無理な",
+        "ずっと"
+      ]
+    },
+    {
+      "sent": "<ruby>先輩<rt>せんぱい</rt></ruby>として、アドバイスをすることになりました。",
+      "trans": "선배로서, 조언을 하게 되었습니다.",
+      "grammar": "~として (자격/명목 표현), ~ことになる (결정 표현)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>別<rt>べつ</rt></ruby>なカメラを<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "오늘은 딴(다른) 카메라를 샀습니다.",
+      "grammar": "な형용사 명사 수식",
+      "tags": [
+        "別な"
+      ]
+    },
+    {
+      "sent": "このカメラはいかがですか。",
+      "trans": "이 카메라는 어떻습니까?",
+      "grammar": "정중한 권유/질문 표현",
+      "tags": [
+        "いかが"
+      ]
+    },
+    {
+      "sent": "かなり<ruby>立派<rt>りっぱ</rt></ruby>なデザインですね。",
+      "trans": "꽤 훌륭한 디자인이네요.",
+      "grammar": "부사 강조",
+      "tags": [
+        "かなり",
+        "立派な"
+      ]
+    },
+    {
+      "sent": "<ruby>前<rt>まえ</rt></ruby>のカメラはそれほどよくなかったので、けっこう<ruby>高<rt>たか</rt></ruby>いですが<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "이전 카메라는 그다지 좋지 않았기 때문에, 제법 비싸지만 샀습니다.",
+      "grammar": "~ので (이유 표현), 부사 사용",
+      "tags": [
+        "それほど",
+        "けっこう"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>のおかげで、きれいな<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ることができます。",
+      "trans": "선생님 덕분에, 예쁜 사진을 찍을 수 있습니다.",
+      "grammar": "~のおかげで (덕분 표현)",
+      "tags": []
+    },
+    {
+      "sent": "いつか<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>って、<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>りたいです。",
+      "trans": "언젠가 외국에 가서, 사진을 찍고 싶습니다.",
+      "grammar": "~たい (희망 표현)",
+      "tags": [
+        "いつか"
+      ]
+    },
+    {
+      "sent": "あんなに<ruby>汚<rt>きたな</rt></ruby>かった<ruby>部屋<rt>へや</rt></ruby>が、きれいになりました。",
+      "trans": "저렇게 더러웠던 방이 깨끗해졌습니다.",
+      "grammar": "~になる (변화 표현)",
+      "tags": [
+        "あんなに"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>がたくさん<ruby>来<rt>く</rt></ruby>るので、そんなに<ruby>狭<rt>せま</rt></ruby>い<ruby>部屋<rt>へや</rt></ruby>ではだめです。",
+      "trans": "친구가 많이 오기 때문에, 그렇게 좁은 방에서는 안 됩니다.",
+      "grammar": "부사 사용",
+      "tags": [
+        "そんなに"
+      ]
+    },
+    {
+      "sent": "<ruby>準備<rt>じゅんび</rt></ruby>は<ruby>大変<rt>たいへん</rt></ruby>ですが、きっと<ruby>楽<rt>たの</rt></ruby>しいパーティーになります。",
+      "trans": "준비는 힘들지만, 분명 즐거운 파티가 될 것입니다.",
+      "grammar": "부사 호응",
+      "tags": [
+        "きっと"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "下手な",
       "read": "へたな",
       "mean": "서툰",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 22
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-002",
       "word": "別な",
       "read": "べつな",
       "mean": "별다른, 딴",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 22
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-003",
       "word": "変な",
       "read": "へんな",
       "mean": "이상한",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 22
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-004",
       "word": "真面目な",
       "read": "まじめな",
       "mean": "성실한",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 22
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-005",
       "word": "無理な",
       "read": "むりな",
       "mean": "무리한",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 22
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-006",
       "word": "立派な",
       "read": "りっぱな",
       "mean": "훌륭한",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 22
+      "tags": [
+        "adjective"
+      ]
     },
     {
+      "id": "v-007",
       "word": "あんなに",
       "read": "あんなに",
       "mean": "저렇게",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-008",
       "word": "いかが",
       "read": "いかが",
       "mean": "어떻게, 어떠신지",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-009",
       "word": "いくら",
       "read": "いくら",
       "mean": "얼마",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-010",
       "word": "いちいち",
       "read": "いちいち",
       "mean": "일일이",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-011",
       "word": "いつか",
       "read": "いつか",
       "mean": "언젠가",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-012",
       "word": "一体",
       "read": "いったい",
       "mean": "도대체",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-013",
       "word": "いっぱい",
       "read": "いっぱい",
       "mean": "가득",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-014",
       "word": "おや",
       "read": "おや",
       "mean": "어라, 어머 (감탄사)",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "expression"
+      ]
     },
     {
+      "id": "v-015",
       "word": "かなり",
       "read": "かなり",
       "mean": "꽤, 상당히",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-016",
       "word": "きっと",
       "read": "きっと",
       "mean": "분명, 꼭",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-017",
       "word": "急に",
       "read": "きゅうに",
       "mean": "갑자기",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-018",
       "word": "けっこう",
       "read": "けっこう",
       "mean": "제법, 꽤",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-019",
       "word": "これから",
       "read": "これから",
       "mean": "이제부터, 앞으로",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-020",
       "word": "こんなに",
       "read": "こんなに",
       "mean": "이렇게",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-021",
       "word": "すっかり",
       "read": "すっかり",
       "mean": "완전히, 죄다",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-022",
       "word": "ずっと",
       "read": "ずっと",
       "mean": "계속, 훨씬",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-023",
       "word": "全然",
       "read": "ぜんぜん",
       "mean": "전혀",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-024",
       "word": "それほど",
       "read": "それほど",
       "mean": "그다지, 그만큼",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
     },
     {
+      "id": "v-025",
       "word": "そんなに",
       "read": "そんなに",
       "mean": "그렇게",
-      "tags": [],
-      "moduleId": "n4-module-029",
-      "legacyDay": 23
+      "tags": [
+        "adverb"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「立派な」の読み方は何ですか。",
+      "opt": [
+        "りっぱな",
+        "まじめな",
+        "へたな",
+        "べつな"
+      ],
+      "ans": 0,
+      "comment": "立派な(りっぱな)는 '훌륭한'이라는 뜻입니다."
+    },
+    {
+      "q": "「真面目な」の読み方は何ですか。",
+      "opt": [
+        "むりな",
+        "へんな",
+        "まじめな",
+        "りっぱな"
+      ],
+      "ans": 2,
+      "comment": "真面目な(まじめな)는 '성실한'이라는 뜻입니다."
+    },
+    {
+      "q": "「一体」の読み方は何ですか。",
+      "opt": [
+        "いつか",
+        "いったい",
+        "いっぱい",
+        "いちいち"
+      ],
+      "ans": 1,
+      "comment": "一体(いったい)는 '도대체'라는 뜻입니다."
+    },
+    {
+      "q": "「急に」の読み方は何ですか。",
+      "opt": [
+        "きゅうに",
+        "きっと",
+        "かなり",
+        "けっこう"
+      ],
+      "ans": 0,
+      "comment": "急に(きゅうに)는 '갑자기'라는 뜻입니다."
+    },
+    {
+      "q": "「서툰」を日本語で書くと何ですか。",
+      "opt": [
+        "変な",
+        "別な",
+        "下手な",
+        "無理な"
+      ],
+      "ans": 2,
+      "comment": "下手な(へたな)는 '서툰'이라는 뜻입니다."
+    },
+    {
+      "q": "「すっかり」を韓国語で書くと何ですか。",
+      "opt": [
+        "계속, 훨씬",
+        "완전히, 죄다",
+        "언젠가",
+        "전혀"
+      ],
+      "ans": 1,
+      "comment": "すっかり는 '완전히, 죄다'라는 뜻입니다."
+    },
+    {
+      "q": "「いつか」を韓国語で書くと何ですか。",
+      "opt": [
+        "언젠가",
+        "갑자기",
+        "제법, 꽤",
+        "이제부터"
+      ],
+      "ans": 0,
+      "comment": "いつか는 '언젠가'라는 뜻입니다."
+    },
+    {
+      "q": "外国語が______わかりません。",
+      "opt": [
+        "全然",
+        "きっと",
+        "いっぱい",
+        "いつか"
+      ],
+      "ans": 0,
+      "comment": "全然(ぜんぜん)은 '전혀'라는 뜻으로 부정문과 함께 쓰입니다."
+    },
+    {
+      "q": "日本への留学______、先生に相談しました。",
+      "opt": [
+        "について",
+        "のために",
+        "のおかげで",
+        "みたいに"
+      ],
+      "ans": 0,
+      "comment": "〜について는 '~에 대하여'라는 의미로 어떤 주제에 대해 이야기할 때 사용합니다."
+    },
+    {
+      "q": "美味しいケーキを作る______、新鮮な卵を買いました。",
+      "opt": [
+        "について",
+        "ために",
+        "として",
+        "みたいに"
+      ],
+      "ans": 1,
+      "comment": "〜ために는 목적을 나타내는 '~하기 위해'라는 의미의 N4 문법입니다."
     }
   ]
 }
