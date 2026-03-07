@@ -154,10 +154,10 @@ async function syncHighProgressStrategy(cloudData) {
 
         // A. 대시보드 완료 체크박스 (_complete) - 하나라도 완료면 완료로 처리
         if (key.endsWith('_complete')) {
-            if (cloudVal === 'true' && localRaw !== 'true') {
+            if (String(cloudVal) === 'true' && localRaw !== 'true') {
                 originalSetItem.call(localStorage, key, 'true');
                 localUpdated = true;
-            } else if (cloudVal !== 'true' && localRaw === 'true') {
+            } else if (String(cloudVal) !== 'true' && localRaw === 'true') {
                 updatesToCloud[key] = 'true';
                 hasUpdates = true;
             }
@@ -177,10 +177,10 @@ async function syncHighProgressStrategy(cloudData) {
         } 
         // C. 단어별 체크 (_v_) - True Wins (_complete 와 동일 전략)
         else if (key.includes('_v_')) {
-            if (cloudVal === 'true' && localRaw !== 'true') {
+            if (String(cloudVal) === 'true' && localRaw !== 'true') {
                 originalSetItem.call(localStorage, key, 'true');
                 localUpdated = true;
-            } else if (cloudVal !== 'true' && localRaw === 'true') {
+            } else if (String(cloudVal) !== 'true' && localRaw === 'true') {
                 updatesToCloud[key] = 'true';
                 hasUpdates = true;
             }
@@ -337,7 +337,7 @@ onAuthStateChanged(auth, async (user) => {
                 Object.keys(data).forEach(k => {
                     // 서버에 '_complete' 키가 있고 'true'인데 로컬에 없으면 -> 완료 처리
                     if (k.endsWith('_complete')) {
-                         if (data[k] === 'true' && localStorage.getItem(k) !== 'true') {
+                         if (String(data[k]) === 'true' && localStorage.getItem(k) !== 'true') {
                              originalSetItem.call(localStorage, k, 'true');
                              needRefresh = true;
                          }
@@ -345,7 +345,7 @@ onAuthStateChanged(auth, async (user) => {
 
                     // 단어별 체크 (_v_) 실시간 동기화 - True Wins
                     if (k.includes('_v_')) {
-                        if (data[k] === 'true' && localStorage.getItem(k) !== 'true') {
+                        if (String(data[k]) === 'true' && localStorage.getItem(k) !== 'true') {
                             originalSetItem.call(localStorage, k, 'true');
                             needRefresh = true;
                         }
