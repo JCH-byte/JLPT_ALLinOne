@@ -115,9 +115,8 @@ localStorage.setItem = function(key, value) {
     originalSetItem.apply(this, arguments);
 
     if (auth && auth.currentUser && userRef) {
-        // _complete: 대시보드 체크박스, bookmarks: 단어장, settings: 설정
-        // [FIX] jlpt_bookmarks -> BOOKMARK_KEY (JLPT_BOOKMARKS) 로 수정
-        if (key.includes('_complete') || key === BOOKMARK_KEY || key.startsWith('settings_') || key.startsWith('progress_')) {
+        // _complete: 대시보드 체크박스, bookmarks: 단어장, settings: 설정, _v_: 단어별 체크
+        if (key.includes('_complete') || key === BOOKMARK_KEY || key.startsWith('settings_') || key.startsWith('progress_') || key.includes('_v_')) {
             window.FirebaseBridge.syncToCloud(key, value);
         }
     }
@@ -128,7 +127,7 @@ localStorage.removeItem = function(key) {
     originalRemoveItem.apply(this, arguments);
 
     if (auth && auth.currentUser && userRef) {
-        if (key.includes('_complete') || key === BOOKMARK_KEY) {
+        if (key.includes('_complete') || key === BOOKMARK_KEY || key.includes('_v_')) {
             window.FirebaseBridge.removeFromCloud(key);
         }
     }
@@ -176,7 +175,17 @@ async function syncHighProgressStrategy(cloudData) {
                 hasUpdates = true;
             }
         } 
-        // C. [FIX] 북마크 (병합 로직 적용)
+        // C. 단어별 체크 (_v_) - True Wins (_complete 와 동일 전략)
+        else if (key.includes('_v_')) {
+            if (cloudVal === 'true' && localRaw !== 'true') {
+                originalSetItem.call(localStorage, key, 'true');
+                localUpdated = true;
+            } else if (cloudVal !== 'true' && localRaw === 'true') {
+                updatesToCloud[key] = 'true';
+                hasUpdates = true;
+            }
+        }
+        // D. [FIX] 북마크 (병합 로직 적용)
         else if (key === BOOKMARK_KEY) {
              const localList = toBookmarkArray(localVal);
              const cloudList = toBookmarkArray(cloudVal);
@@ -198,7 +207,7 @@ async function syncHighProgressStrategy(cloudData) {
     for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         // 동기화 대상 키인지 확인
-        if ((key.endsWith('_complete') || key.startsWith('progress_') || key === BOOKMARK_KEY) && cloudData[key] === undefined) {
+        if ((key.endsWith('_complete') || key.startsWith('progress_') || key === BOOKMARK_KEY || key.includes('_v_')) && cloudData[key] === undefined) {
             updatesToCloud[key] = safeParse(localStorage.getItem(key));
             hasUpdates = true;
         }
@@ -308,7 +317,7 @@ onAuthStateChanged(auth, async (user) => {
                 const initialData = {};
                 for (let i=0; i<localStorage.length; i++) {
                     const key = localStorage.key(i);
-                    if (key.endsWith('_complete') || key === BOOKMARK_KEY) {
+                    if (key.endsWith('_complete') || key === BOOKMARK_KEY || key.includes('_v_')) {
                         initialData[key] = safeParse(localStorage.getItem(key));
                     }
                 }
@@ -333,7 +342,15 @@ onAuthStateChanged(auth, async (user) => {
                              needRefresh = true;
                          }
                     }
-                    
+
+                    // 단어별 체크 (_v_) 실시간 동기화 - True Wins
+                    if (k.includes('_v_')) {
+                        if (data[k] === 'true' && localStorage.getItem(k) !== 'true') {
+                            originalSetItem.call(localStorage, k, 'true');
+                            needRefresh = true;
+                        }
+                    }
+
                     // [FIX] 북마크 실시간 동기화 처리 추가
                     if (k === BOOKMARK_KEY) {
                         const cloudList = toBookmarkArray(data[k]);
