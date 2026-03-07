@@ -141,7 +141,14 @@ function toggleComplete(level, moduleId, checkbox) {
     if (checkbox.checked) localStorage.setItem(key, 'true');
     else localStorage.removeItem(key);
 
-    switchLevel(level);
+    // iframe 리로드 없이 해당 항목 DOM만 업데이트
+    const li = document.getElementById(`nav-module-${moduleId}`);
+    if (li) li.classList.toggle('completed', checkbox.checked);
+
+    // 진행률 바 재계산
+    const allItems = document.querySelectorAll('.day-item');
+    const doneItems = document.querySelectorAll('.day-item.completed');
+    updateProgress(level, doneItems.length, allItems.length);
 }
 
 function updateProgress(level, done, total) {
