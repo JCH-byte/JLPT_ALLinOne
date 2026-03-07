@@ -82,12 +82,15 @@ function renderVocabSection(level, day, moduleId, data) {
         if(vocabSection) vocabSection.style.display = 'block';
         vocabTbody.innerHTML = '';
 
+        // day가 null이면 moduleId를 북마크 키로 사용 (null → "null" 문자열 변환 방지)
+        const bookmarkKey = (day != null && String(day) !== 'null') ? String(day) : moduleId;
+
         data.vocab.forEach((v, idx) => {
             const tr = document.createElement('tr');
             const progressKeyBase = moduleId || `day${day}`;
             const checkId = `${level}_${progressKeyBase}_v_${idx}`;
             const isChecked = localStorage.getItem(checkId) === 'true';
-            const isStar = isStarred(level, day, v.word);
+            const isStar = isStarred(level, bookmarkKey, v.word);
 
             tr.className = isChecked ? 'checked-row' : '';
             const vJson = JSON.stringify(v).replace(/"/g, '&quot;');
@@ -95,7 +98,7 @@ function renderVocabSection(level, day, moduleId, data) {
             tr.innerHTML = `
                 <td class="col-star">
                     <button class="star-btn ${isStar ? 'active' : ''}"
-                            onclick="toggleStar('${level}', '${day}', ${vJson}, this); event.stopPropagation();">
+                            onclick="toggleStar('${level}', '${bookmarkKey}', ${vJson}, this); event.stopPropagation();">
                         ${isStar ? '★' : '☆'}
                     </button>
                 </td>
