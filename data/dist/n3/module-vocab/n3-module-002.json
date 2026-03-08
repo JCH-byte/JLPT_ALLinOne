@@ -1,206 +1,490 @@
 {
-  "title": "あ行の名詞・2 (あ행 명사 2)",
-  "moduleId": "n3-module-002",
+  "title": "N3: 病院と日常の出来事",
+  "story": "<h2>Scene 1. 病院での診察 (병원에서의 진찰)</h2>\n<p><ruby>以前<rt>いぜん</rt></ruby>から<ruby>体<rt>からだ</rt></ruby>に<ruby>異常<rt>いじょう</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じていました。</p>\n<p><ruby>一流<rt>いちりゅう</rt></ruby>の<ruby>医師<rt>いし</rt></ruby>に<ruby>診<rt>み</rt></ruby>てもらうことになりました。</p>\n<p><ruby>強<rt>つよ</rt></ruby>い<ruby>痛<rt>いた</rt></ruby>みがあるわけではありません。</p>\n<p><ruby>深<rt>ふか</rt></ruby>く<ruby>息<rt>いき</rt></ruby>を<ruby>吸<rt>す</rt></ruby>って、<ruby>検査<rt>けんさ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けました。</p>\n<p><ruby>医療<rt>いりょう</rt></ruby>の<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>にはいつも<ruby>驚<rt>おどろ</rt></ruby>かされます。</p>\n<h2>Scene 2. 帰り道の市場 (귀갓길의 시장)</h2>\n<p><ruby>昼食<rt>ちゅうしょく</rt></ruby><ruby>以後<rt>いご</rt></ruby>は、<ruby>市場<rt>いちば</rt></ruby>へ<ruby>移動<rt>いどう</rt></ruby>しました。</p>\n<pそこは<ruby>一方通行<rt>いっぽうつうこう</rt></ruby>の<ruby>道<rt>みち</rt></ruby>の<ruby>一部<rt>いちぶ</rt></ruby>にあります。</p>\n<p><ruby>海<rt>うみ</rt></ruby>の<ruby>生<rt>い</rt></ruby>き<ruby>物<rt>もの</rt></ruby>がたくさん<ruby>並<rt>なら</rt></ruby>んでいました。</p>\n<p><ruby>市場<rt>いちば</rt></ruby>の<ruby>活気<rt>かっき</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>に<ruby>良<rt>よ</rt></ruby>い<ruby>印象<rt>いんしょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えました。</p>\n<h2>Scene 3. 家族との時間 (가족과의 시간)</h2>\n<p><ruby>午後<rt>ごご</rt></ruby>は<ruby>育児<rt>いくじ</rt></ruby>のために<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>りました。</p>\n<p><ruby>今日<rt>きょう</rt></ruby>は<ruby>親戚<rt>しんせき</rt></ruby>のいとこも<ruby>遊<rt>あそ</rt></ruby>びに<ruby>来<rt>き</rt></ruby>ました。</p>\n<p><ruby>家族<rt>かぞく</rt></ruby>との<ruby>時間<rt>じかん</rt></ruby>は<ruby>一生<rt>いっしょう</rt></ruby>の<ruby>意義<rt>いぎ</rt></ruby>があります。</p>\n<p>ソファで<ruby>居眠<rt>いねむ</rt></ruby>りをしてしまいました。</p>\n<h2>Scene 4. 週末の計画 (주말의 계획)</h2>\n<p><ruby>明日<rt>あした</rt></ruby><ruby>以降<rt>いこう</rt></ruby>は<ruby>天気<rt>てんき</rt></ruby>が<ruby>良<rt>よ</rt></ruby>くなるそうです。</p>\n<p><ruby>山<rt>やま</rt></ruby>の<ruby>岩<rt>いわ</rt></ruby>や<ruby>古<rt>ふる</rt></ruby>い<ruby>板<rt>いた</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>くつもりです。</p>\n<p>お<ruby>互<rt>たが</rt></ruby>いの<ruby>意思<rt>いし</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えるのは<ruby>大切<rt>たいせつ</rt></ruby>です。</p>\n<p><ruby>強<rt>つよ</rt></ruby>い<ruby>意志<rt>いし</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>頂上<rt>ちょうじょう</rt></ruby>の<ruby>位置<rt>いち</rt></ruby>まで<ruby>行<rt>い</rt></ruby>くことになりました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>以前<rt>いぜん</rt></ruby>から<ruby>体<rt>からだ</rt></ruby>に<ruby>異常<rt>いじょう</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じていました。",
+      "trans": "이전부터 몸에 이상을 느끼고 있었습니다.",
+      "grammar": "~ていました (과거 진행/상태)",
+      "tags": [
+        "以前",
+        "異常"
+      ]
+    },
+    {
+      "sent": "<ruby>一流<rt>いちりゅう</rt></ruby>の<ruby>医師<rt>いし</rt></ruby>に<ruby>診<rt>み</rt></ruby>てもらうことになりました。",
+      "trans": "일류 의사에게 진찰받게 되었습니다.",
+      "grammar": "~ことになる (~하게 되다: 결정)",
+      "tags": [
+        "一流",
+        "医師"
+      ]
+    },
+    {
+      "sent": "<ruby>強<rt>つよ</rt></ruby>い<ruby>痛<rt>いた</rt></ruby>みがあるわけではありません。",
+      "trans": "강한 통증이 있는 것은 아닙니다.",
+      "grammar": "~わけではない (~인 것은 아니다: 부분 부정)",
+      "tags": [
+        "痛み"
+      ]
+    },
+    {
+      "sent": "<ruby>深<rt>ふか</rt></ruby>く<ruby>息<rt>いき</rt></ruby>を<ruby>吸<rt>す</rt></ruby>って、<ruby>検査<rt>けんさ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けました。",
+      "trans": "깊게 숨을 들이마시고 검사를 받았습니다.",
+      "grammar": "~て (동작의 순서)",
+      "tags": [
+        "息"
+      ]
+    },
+    {
+      "sent": "<ruby>医療<rt>いりょう</rt></ruby>の<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>にはいつも<ruby>驚<rt>おどろ</rt></ruby>かされます。",
+      "trans": "의료 기술의 진보에는 항상 놀라게 됩니다.",
+      "grammar": "~される (수동태)",
+      "tags": [
+        "医療"
+      ]
+    },
+    {
+      "sent": "<ruby>昼食<rt>ちゅうしょく</rt></ruby><ruby>以後<rt>いご</rt></ruby>は、<ruby>市場<rt>いちば</rt></ruby>へ<ruby>移動<rt>いどう</rt></ruby>しました。",
+      "trans": "점심 식사 이후에는 시장으로 이동했습니다.",
+      "grammar": "명사 + は (주제/대조)",
+      "tags": [
+        "以後",
+        "市場",
+        "移動"
+      ]
+    },
+    {
+      "sent": "そこは<ruby>一方通行<rt>いっぽうつうこう</rt></ruby>の<ruby>道<rt>みち</rt></ruby>の<ruby>一部<rt>いちぶ</rt></ruby>にあります。",
+      "trans": "그곳은 일방통행 길의 일부에 있습니다.",
+      "grammar": "명사 + の (소유/소속)",
+      "tags": [
+        "一方通行",
+        "一部"
+      ]
+    },
+    {
+      "sent": "<ruby>海<rt>うみ</rt></ruby>の<ruby>生<rt>い</rt></ruby>き<ruby>物<rt>もの</rt></ruby>がたくさん<ruby>並<rt>なら</rt></ruby>んでいました。",
+      "trans": "바다의 생물이 잔뜩 늘어서 있었습니다.",
+      "grammar": "~ていました (과거의 상태)",
+      "tags": [
+        "生き物"
+      ]
+    },
+    {
+      "sent": "<ruby>市場<rt>いちば</rt></ruby>の<ruby>活気<rt>かっき</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>に<ruby>良<rt>よ</rt></ruby>い<ruby>印象<rt>いんしょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えました。",
+      "trans": "시장의 활기는 저에게 좋은 인상을 주었습니다.",
+      "grammar": "~に~を与える (~에게 ~을 주다)",
+      "tags": [
+        "市場",
+        "印象"
+      ]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>育児<rt>いくじ</rt></ruby>のために<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>りました。",
+      "trans": "오후는 육아를 위해 일찍 집에 돌아갔습니다.",
+      "grammar": "~ために (~을 위해: 목적)",
+      "tags": [
+        "育児"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>親戚<rt>しんせき</rt></ruby>のいとこも<ruby>遊<rt>あそ</rt></ruby>びに<ruby>来<rt>き</rt></ruby>ました。",
+      "trans": "오늘은 친척 사촌도 놀러 왔습니다.",
+      "grammar": "~に来る (~하러 오다: 목적)",
+      "tags": [
+        "いとこ"
+      ]
+    },
+    {
+      "sent": "<ruby>家族<rt>かぞく</rt></ruby>との<ruby>時間<rt>じかん</rt></ruby>は<ruby>一生<rt>いっしょう</rt></ruby>の<ruby>意義<rt>いぎ</rt></ruby>があります。",
+      "trans": "가족과의 시간은 일생의 의의가 있습니다.",
+      "grammar": "~との (~와의)",
+      "tags": [
+        "一生",
+        "意義"
+      ]
+    },
+    {
+      "sent": "ソファで<ruby>居眠<rt>いねむ</rt></ruby>りをしてしまいました。",
+      "trans": "소파에서 졸음을 자버렸습니다.",
+      "grammar": "~てしまう (~해버리다: 유감/완료)",
+      "tags": [
+        "居眠り"
+      ]
+    },
+    {
+      "sent": "<ruby>明日<rt>あした</rt></ruby><ruby>以降<rt>いこう</rt></ruby>は<ruby>天気<rt>てんき</rt></ruby>が<ruby>良<rt>よ</rt></ruby>くなるそうです。",
+      "trans": "내일 이후로는 날씨가 좋아진다고 합니다.",
+      "grammar": "~そうです (전문)",
+      "tags": [
+        "以降"
+      ]
+    },
+    {
+      "sent": "<ruby>山<rt>やま</rt></ruby>の<ruby>岩<rt>いわ</rt></ruby>や<ruby>古<rt>ふる</rt></ruby>い<ruby>板<rt>いた</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>くつもりです。",
+      "trans": "산의 바위나 낡은 판자 위를 걸을 작정입니다.",
+      "grammar": "~つもりです (~할 작정입니다: 의도)",
+      "tags": [
+        "岩",
+        "板"
+      ]
+    },
+    {
+      "sent": "お<ruby>互<rt>たが</rt></ruby>いの<ruby>意思<rt>いし</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えるのは<ruby>大切<rt>たいせつ</rt></ruby>です。",
+      "trans": "서로의 의사를 전하는 것은 소중합니다.",
+      "grammar": "~のは大切だ (~하는 것은 소중하다)",
+      "tags": [
+        "意思"
+      ]
+    },
+    {
+      "sent": "<ruby>強<rt>つよ</rt></ruby>い<ruby>意志<rt>いし</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>頂上<rt>ちょうじょう</rt></ruby>の<ruby>位置<rt>いち</rt></ruby>まで<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "강한 의지를 가지고 정상 위치까지 가게 되었습니다.",
+      "grammar": "~ことになる (~하게 되다: 결정)",
+      "tags": [
+        "意志",
+        "位置"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "息",
       "read": "いき",
       "mean": "숨",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "意義",
       "read": "いぎ",
       "mean": "의의",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "生き物",
       "read": "いきもの",
       "mean": "생물",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "育児",
       "read": "いくじ",
       "mean": "육아",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "以後",
       "read": "いご",
       "mean": "이후",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "以降",
       "read": "いこう",
       "mean": "이후",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "意思",
       "read": "いし",
       "mean": "의사(생각)",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "医師",
       "read": "いし",
       "mean": "의사(직업)",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "意志",
       "read": "いし",
       "mean": "의지",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "異常",
       "read": "いじょう",
       "mean": "이상",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "以前",
       "read": "いぜん",
       "mean": "이전",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "板",
       "read": "いた",
       "mean": "판, 판자",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "痛み",
       "read": "いたみ",
       "mean": "아픔, 통증",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "位置",
       "read": "いち",
       "mean": "위치",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "市場",
       "read": "いちば",
       "mean": "시장",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "一部",
       "read": "いちぶ",
       "mean": "일부",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "一流",
       "read": "いちりゅう",
       "mean": "일류",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "一生",
       "read": "いっしょう",
       "mean": "일생, 평생",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "一方通行",
       "read": "いっぽうつうこう",
       "mean": "일방통행",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "移動",
       "read": "いどう",
       "mean": "이동",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "いとこ",
       "read": "いとこ",
       "mean": "사촌",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "居眠り",
       "read": "いねむり",
       "mean": "조는 것, 졸음",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "医療",
       "read": "いりょう",
       "mean": "의료",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "岩",
       "read": "いわ",
       "mean": "바위",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "印象",
       "read": "いんしょう",
       "mean": "인상",
-      "tags": [],
-      "moduleId": "n3-module-002",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「一流」の読み方は何ですか。",
+      "opt": [
+        "いちる",
+        "いちりゅう",
+        "いちりょう",
+        "いりゅう"
+      ],
+      "ans": 1,
+      "comment": "一流(いちりゅう)는 '일류'라는 뜻입니다."
+    },
+    {
+      "q": "「居眠り」の読み方は何ですか。",
+      "opt": [
+        "きょねむり",
+        "いねむり",
+        "いるねむり",
+        "いきねむり"
+      ],
+      "ans": 1,
+      "comment": "居眠り(いねむり)는 '조는 것, 졸음'이라는 뜻입니다."
+    },
+    {
+      "q": "「印象」の読み方は何ですか。",
+      "opt": [
+        "いんしょう",
+        "いしょう",
+        "いんぞう",
+        "いんじょう"
+      ],
+      "ans": 0,
+      "comment": "印象(いんしょう)는 '인상'이라는 뜻입니다."
+    },
+    {
+      "q": "「異常」の読み方は何ですか。",
+      "opt": [
+        "いじょ",
+        "いしょう",
+        "いじょう",
+        "いんじょう"
+      ],
+      "ans": 2,
+      "comment": "異常(いじょう)는 '이상'이라는 뜻입니다."
+    },
+    {
+      "q": "「일생, 평생」を日本語で書くと何ですか。",
+      "opt": [
+        "位置",
+        "一部",
+        "一生",
+        "意思"
+      ],
+      "ans": 2,
+      "comment": "一生(いっしょう)은 '일생, 평생'이라는 뜻입니다."
+    },
+    {
+      "q": "「육아」を日本語で書くと何ですか。",
+      "opt": [
+        "育児",
+        "以前",
+        "以後",
+        "医療"
+      ],
+      "ans": 0,
+      "comment": "育児(いくじ)는 '육아'라는 뜻입니다."
+    },
+    {
+      "q": "「시장」を日本語で書くと何ですか。",
+      "opt": [
+        "医師",
+        "市場",
+        "意義",
+        "岩"
+      ],
+      "ans": 1,
+      "comment": "市場(いちば)는 '시장'이라는 뜻입니다."
+    },
+    {
+      "q": "毎日練習したからといって、必ず勝てる______。",
+      "opt": [
+        "わけではない",
+        "ことになる",
+        "べきではない",
+        "はずではない"
+      ],
+      "ans": 0,
+      "comment": "부분 부정을 나타내는 「〜わけではない(~인 것은 아니다)」가 정답입니다."
+    },
+    {
+      "q": "来月から東京の本社で働く______。",
+      "opt": [
+        "わけではありません",
+        "ことになりました",
+        "ことにしました",
+        "そうになりました"
+      ],
+      "ans": 1,
+      "comment": "결정된 예정이나 상황을 나타내는 「〜ことになりました(~하게 되었습니다)」가 정답입니다."
+    },
+    {
+      "q": "10時______は、このドアからは入れません。",
+      "opt": [
+        "以前",
+        "異常",
+        "以降",
+        "医師"
+      ],
+      "ans": 2,
+      "comment": "以降(いこう)는 '이후'라는 뜻으로, 시간적 기준점 이후를 나타냅니다."
     }
   ]
 }
