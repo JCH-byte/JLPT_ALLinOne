@@ -1,206 +1,493 @@
 {
-  "title": "あ行の名詞・1 (あ행 명사 1)",
-  "moduleId": "n3-module-001",
+  "title": "N3: 日常のトラブルと解決",
+  "story": "<h2>Scene 1. <ruby>朝<rt>あさ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby> (아침의 준비)</h2>\n<p><ruby>朝日<rt>あさひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>り、<ruby>一日<rt>いちにち</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。<ruby>赤<rt>あか</rt></ruby>ん<ruby>坊<rt>ぼう</rt></ruby>が<ruby>起<rt>お</rt></ruby>きて、<ruby>泣<rt>な</rt></ruby>き<ruby>出<rt>だ</rt></ruby>すのは<ruby>当<rt>あ</rt></ruby>たり<ruby>前<rt>まえ</rt></ruby>のことです。<ruby>妻<rt>つま</rt></ruby>は<ruby>寝不足<rt>ねぶそく</rt></ruby>で<ruby>大<rt>おお</rt></ruby>きなあくびをしました。<ruby>朝食<rt>ちょうしょく</rt></ruby>のスープの<ruby>味見<rt>あじみ</rt></ruby>をする<ruby>相手<rt>あいて</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>です。<ruby>今日<rt>きょう</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ることになりました。</p>\n<h2>Scene 2. <ruby>掃除<rt>そうじ</rt></ruby>と<ruby>洗濯<rt>せんたく</rt></ruby> (청소와 빨래)</h2>\n<p><ruby>台所<rt>だいどころ</rt></ruby>の<ruby>油<rt>あぶら</rt></ruby><ruby>汚<rt>よご</rt></ruby>れを<ruby>洗剤<rt>せんざい</rt></ruby>の<ruby>泡<rt>あわ</rt></ruby>で<ruby>落<rt>お</rt></ruby>とします。<ruby>古<rt>ふる</rt></ruby>い<ruby>網戸<rt>あみど</rt></ruby>には<ruby>小<rt>ちい</rt></ruby>さな<ruby>穴<rt>あな</rt></ruby>が<ruby>空<rt>あ</rt></ruby>いていました。<ruby>雨戸<rt>あまど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けて、<ruby>庭<rt>にわ</rt></ruby>の<ruby>空<rt>あ</rt></ruby>き<ruby>地<rt>ち</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。そこには<ruby>犬<rt>いぬ</rt></ruby>の<ruby>足跡<rt>あしあと</rt></ruby>がありました。すべてが<ruby>完璧<rt>かんぺき</rt></ruby>なわけではありません。</p>\n<h2>Scene 3. <ruby>会社<rt>かいしゃ</rt></ruby>での<ruby>仕事<rt>しごと</rt></ruby> (회사에서의 업무)</h2>\n<p><ruby>午後<rt>ごご</rt></ruby>は<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>集<rt>あつ</rt></ruby>まりのために、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>準備<rt>じゅんび</rt></ruby>しました。<ruby>新<rt>あたら</rt></ruby>しいプロジェクトの<ruby>案<rt>あん</rt></ruby>について、<ruby>部長<rt>ぶちょう</rt></ruby>に<ruby>話<rt>はな</rt></ruby>しました。<ruby>顧客<rt>こきゃく</rt></ruby>はうちの<ruby>製品<rt>せいひん</rt></ruby>の<ruby>愛用者<rt>あいようしゃ</rt></ruby>です。<ruby>手紙<rt>てがみ</rt></ruby>のあて<ruby>先<rt>さき</rt></ruby>を<ruby>暗記<rt>あんき</rt></ruby>するのは<ruby>大変<rt>たいへん</rt></ruby>です。<ruby>目<rt>め</rt></ruby>で<ruby>合図<rt>あいず</rt></ruby>をして、<ruby>会議<rt>かいぎ</rt></ruby>を<ruby>終<rt>お</rt></ruby>わらせました。</p>\n<h2>Scene 4. <ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>と<ruby>反省<rt>はんせい</rt></ruby> (귀갓길과 반성)</h2>\n<p><ruby>仕事<rt>しごと</rt></ruby>であれこれ<ruby>悩<rt>なや</rt></ruby>んで、<ruby>胃<rt>い</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなりました。<ruby>状況<rt>じょうきょう</rt></ruby>の<ruby>悪化<rt>あっか</rt></ruby>のせいで、<ruby>心<rt>こころ</rt></ruby>に<ruby>怒<rt>いか</rt></ruby>りを<ruby>感<rt>かん</rt></ruby>じました。しかし、<ruby>家族<rt>かぞく</rt></ruby>への<ruby>愛<rt>あい</rt></ruby>のおかげで、<ruby>疲<rt>つか</rt></ruby>れが<ruby>消<rt>き</rt></ruby>えました。<ruby>暗<rt>くら</rt></ruby>い<ruby>道<rt>みち</rt></ruby>では<ruby>足元<rt>あしもと</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけることになりました。<ruby>明日<rt>あした</rt></ruby>もまた<ruby>頑張<rt>がんば</rt></ruby>ろうと<ruby>思<rt>おも</rt></ruby>います。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>朝日<rt>あさひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>り、<ruby>一日<rt>いちにち</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。",
+      "trans": "아침 해가 떠오르고, 하루가 시작되었습니다.",
+      "grammar": "~が始(はじ)まる (자동사)",
+      "tags": [
+        "朝日"
+      ]
+    },
+    {
+      "sent": "<ruby>赤<rt>あか</rt></ruby>ん<ruby>坊<rt>ぼう</rt></ruby>が<ruby>起<rt>お</rt></ruby>きて、<ruby>泣<rt>な</rt></ruby>き<ruby>出<rt>だ</rt></ruby>すのは<ruby>当<rt>あ</rt></ruby>たり<ruby>前<rt>まえ</rt></ruby>のことです。",
+      "trans": "갓난아기가 일어나서 울기 시작하는 것은 당연한 일입니다.",
+      "grammar": "~出す (~하기 시작하다)",
+      "tags": [
+        "赤ん坊",
+        "当たり前"
+      ]
+    },
+    {
+      "sent": "<ruby>妻<rt>つま</rt></ruby>は<ruby>寝不足<rt>ねぶそく</rt></ruby>で<ruby>大<rt>おお</rt></ruby>きなあくびをしました。",
+      "trans": "아내는 수면 부족으로 큰 하품을 했습니다.",
+      "grammar": "で (이유/원인)",
+      "tags": [
+        "あくび"
+      ]
+    },
+    {
+      "sent": "<ruby>朝食<rt>ちょうしょく</rt></ruby>のスープの<ruby>味見<rt>あじみ</rt></ruby>をする<ruby>相手<rt>あいて</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>です。",
+      "trans": "아침 식사 수프의 맛보기를 할 상대는 저입니다.",
+      "grammar": "명사 수식어절",
+      "tags": [
+        "味見",
+        "相手"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ることになりました。",
+      "trans": "오늘은 일찍 집을 나서게 되었습니다.",
+      "grammar": "~ことになる (~하게 되다: 결정)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>油<rt>あぶら</rt></ruby><ruby>汚<rt>よご</rt></ruby>れを<ruby>洗剤<rt>せんざい</rt></ruby>の<ruby>泡<rt>あわ</rt></ruby>で<ruby>落<rt>お</rt></ruby>とします。",
+      "trans": "부엌의 기름때를 세제의 거품으로 지웁니다.",
+      "grammar": "で (수단/방법)",
+      "tags": [
+        "油",
+        "泡"
+      ]
+    },
+    {
+      "sent": "<ruby>古<rt>ふる</rt></ruby>い<ruby>網戸<rt>あみど</rt></ruby>には<ruby>小<rt>ちい</rt></ruby>さな<ruby>穴<rt>あな</rt></ruby>が<ruby>空<rt>あ</rt></ruby>いていました。",
+      "trans": "낡은 방충망에는 작은 구멍이 뚫려 있었습니다.",
+      "grammar": "~ている (상태의 지속)",
+      "tags": [
+        "網戸",
+        "穴"
+      ]
+    },
+    {
+      "sent": "<ruby>雨戸<rt>あまど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けて、<ruby>庭<rt>にわ</rt></ruby>の<ruby>空<rt>あ</rt></ruby>き<ruby>地<rt>ち</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "덧문을 열고, 마당의 공터를 보았습니다.",
+      "grammar": "~て (동작의 순서)",
+      "tags": [
+        "雨戸",
+        "空き地"
+      ]
+    },
+    {
+      "sent": "そこには<ruby>犬<rt>いぬ</rt></ruby>の<ruby>足跡<rt>あしあと</rt></ruby>がありました。",
+      "trans": "거기에는 개의 발자국이 있었습니다.",
+      "grammar": "~がある (존재)",
+      "tags": [
+        "足跡"
+      ]
+    },
+    {
+      "sent": "すべてが<ruby>完璧<rt>かんぺき</rt></ruby>なわけではありません。",
+      "trans": "모든 것이 완벽한 것은 아닙니다.",
+      "grammar": "~わけではない (~인 것은 아니다: 부분 부정)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>集<rt>あつ</rt></ruby>まりのために、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>準備<rt>じゅんび</rt></ruby>しました。",
+      "trans": "오후에는 회의 모임을 위해 자료를 준비했습니다.",
+      "grammar": "~ために (~을 위해: 목적)",
+      "tags": [
+        "集まり"
+      ]
+    },
+    {
+      "sent": "<ruby>新<rt>あたら</rt></ruby>しいプロジェクトの<ruby>案<rt>あん</rt></ruby>について、<ruby>部長<rt>ぶちょう</rt></ruby>に<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "새로운 프로젝트 안에 대해, 부장님에게 이야기했습니다.",
+      "grammar": "~について (~에 대하여)",
+      "tags": [
+        "案"
+      ]
+    },
+    {
+      "sent": "<ruby>顧客<rt>こきゃく</rt></ruby>はうちの<ruby>製品<rt>せいひん</rt></ruby>の<ruby>愛用者<rt>あいようしゃ</rt></ruby>です。",
+      "trans": "고객은 저희 제품의 애용자입니다.",
+      "grammar": "명사 + の (소유/소속)",
+      "tags": [
+        "愛用者"
+      ]
+    },
+    {
+      "sent": "<ruby>手紙<rt>てがみ</rt></ruby>のあて<ruby>先<rt>さき</rt></ruby>を<ruby>暗記<rt>あんき</rt></ruby>するのは<ruby>大変<rt>たいへん</rt></ruby>です。",
+      "trans": "편지의 수신인을 암기하는 것은 힘듭니다.",
+      "grammar": "~のは大変だ (~하는 것은 힘들다)",
+      "tags": [
+        "あて先",
+        "暗記"
+      ]
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>であれこれ<ruby>悩<rt>なや</rt></ruby>んで、<ruby>胃<rt>い</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなりました。",
+      "trans": "일로 이것저것 고민해서 위가 아파졌습니다.",
+      "grammar": "~くなる (~해지다: 상태의 변화)",
+      "tags": [
+        "あれこれ",
+        "胃"
+      ]
+    },
+    {
+      "sent": "<ruby>状況<rt>じょうきょう</rt></ruby>の<ruby>悪化<rt>あっか</rt></ruby>のせいで、<ruby>心<rt>こころ</rt></ruby>に<ruby>怒<rt>いか</rt></ruby>りを<ruby>感<rt>かん</rt></ruby>じました。",
+      "trans": "상황의 악화 탓에, 마음에 분노를 느꼈습니다.",
+      "grammar": "~せいで (~탓에: 원인)",
+      "tags": [
+        "悪化",
+        "怒り"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>家族<rt>かぞく</rt></ruby>への<ruby>愛<rt>あい</rt></ruby>のおかげで、<ruby>疲<rt>つか</rt></ruby>れが<ruby>消<rt>き</rt></ruby>えました。",
+      "trans": "하지만, 가족에 대한 사랑 덕분에 피로가 사라졌습니다.",
+      "grammar": "~のおかげで (~덕분에)",
+      "tags": [
+        "愛"
+      ]
+    },
+    {
+      "sent": "<ruby>暗<rt>くら</rt></ruby>い<ruby>道<rt>みち</rt></ruby>では<ruby>足元<rt>あしもと</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけることになりました。",
+      "trans": "어두운 길에서는 발밑을 조심하게 되었습니다.",
+      "grammar": "~ことになる (~하게 되다)",
+      "tags": [
+        "足元"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "愛",
       "read": "あい",
       "mean": "사랑",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "合図",
       "read": "あいず",
       "mean": "신호",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "相手",
       "read": "あいて",
       "mean": "상대",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "愛用者",
       "read": "あいようしゃ",
       "mean": "애용자",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "赤ん坊",
       "read": "あかんぼう",
       "mean": "갓난아기, 아기",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "空き地",
       "read": "あきち",
       "mean": "공터",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "あくび",
       "read": "あくび",
       "mean": "하품",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "朝日",
       "read": "あさひ",
       "mean": "아침 해",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "足跡",
       "read": "あしあと",
       "mean": "발자국",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "味見",
       "read": "あじみ",
       "mean": "맛보기",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "足元",
       "read": "あしもと",
       "mean": "발밑",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "当たり前",
       "read": "あたりまえ",
       "mean": "당연함",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "悪化",
       "read": "あっか",
       "mean": "악화",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "集まり",
       "read": "あつまり",
       "mean": "모임",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "あて先",
       "read": "あてさき",
       "mean": "수신인, 받을 곳",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "穴",
       "read": "あな",
       "mean": "구멍",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "油",
       "read": "あぶら",
       "mean": "기름",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "雨戸",
       "read": "あまど",
       "mean": "덧문",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "網戸",
       "read": "あみど",
       "mean": "방충망",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "あれこれ",
       "read": "あれこれ",
       "mean": "이것저것",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "泡",
       "read": "あわ",
       "mean": "거품",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "案",
       "read": "あん",
       "mean": "안, 생각",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "暗記",
       "read": "あんき",
       "mean": "암기",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "胃",
       "read": "い",
       "mean": "위",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "怒り",
       "read": "いかり",
       "mean": "분노",
-      "tags": [],
-      "moduleId": "n3-module-001",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「愛用者」の読み方は何ですか。",
+      "opt": [
+        "あいようしゃ",
+        "あいようもの",
+        "あいたいしゃ",
+        "あいてしゃ"
+      ],
+      "ans": 0,
+      "comment": "愛用者(あいようしゃ)는 '애용자'라는 뜻입니다."
+    },
+    {
+      "q": "「空き地」の読み方は何ですか。",
+      "opt": [
+        "からきち",
+        "あきち",
+        "そらち",
+        "あきじ"
+      ],
+      "ans": 1,
+      "comment": "空き地(あきち)는 '공터'라는 뜻입니다."
+    },
+    {
+      "q": "「足跡」の読み方は何ですか。",
+      "opt": [
+        "あしおと",
+        "あしあと",
+        "あしゆび",
+        "あしうら"
+      ],
+      "ans": 1,
+      "comment": "足跡(あしあと)는 '발자국'이라는 뜻입니다."
+    },
+    {
+      "q": "「網戸」の読み方は何ですか。",
+      "opt": [
+        "あまど",
+        "あみど",
+        "つなと",
+        "あみと"
+      ],
+      "ans": 1,
+      "comment": "網戸(あみど)는 '방충망'이라는 뜻입니다."
+    },
+    {
+      "q": "「当たり前」を韓国語で書くと何ですか。",
+      "opt": [
+        "우연함",
+        "당연함",
+        "불가능함",
+        "특별함"
+      ],
+      "ans": 1,
+      "comment": "当たり前(あたりまえ)는 '당연함'이라는 뜻입니다."
+    },
+    {
+      "q": "「あて先」を韓国語で書くと何ですか。",
+      "opt": [
+        "발신인",
+        "수신인",
+        "우체국",
+        "편지봉투"
+      ],
+      "ans": 1,
+      "comment": "あて先(あてさき)는 '수신인, 받을 곳'이라는 뜻입니다."
+    },
+    {
+      "q": "「あれこれ」を韓国語で書くと何ですか。",
+      "opt": [
+        "여기저기",
+        "이것저것",
+        "누군가",
+        "언젠가"
+      ],
+      "ans": 1,
+      "comment": "あれこれ(あれこれ)는 '이것저것'이라는 뜻입니다."
+    },
+    {
+      "q": "毎日練習した______、試合に勝つことができました。",
+      "opt": [
+        "ために",
+        "せいで",
+        "おかげで",
+        "ついて"
+      ],
+      "ans": 2,
+      "comment": "良い結果の理由を表す時は「〜のおかげで(~덕분에)」を使います。"
+    },
+    {
+      "q": "日本へ出張する______なりました。",
+      "opt": [
+        "ことに",
+        "わけに",
+        "ように",
+        "ために"
+      ],
+      "ans": 0,
+      "comment": "決定された予定や規則を表す「〜ことになりました(~하게 되었습니다)」가 정답입니다."
+    },
+    {
+      "q": "料理が全くできない______ありません。",
+      "opt": [
+        "ことでは",
+        "わけでは",
+        "ものでは",
+        "はずでは"
+      ],
+      "ans": 1,
+      "comment": "部分否定を表す「〜わけではない(~인 것은 아니다)」가 정답입니다."
     }
   ]
 }
