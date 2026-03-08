@@ -1,206 +1,508 @@
 {
-  "title": "あ行の名詞・3 (あ행 명사 3)",
-  "moduleId": "n3-module-003",
+  "title": "N3: 英国旅行と日常の出来事",
+  "story": "<h2>Scene 1. 朝の準備と出会い (아침의 준비와 만남)</h2>\n<p><ruby>朝<rt>あさ</rt></ruby><ruby>起<rt>お</rt></ruby>きて、うがいをしました。</p>\n<p><ruby>良<rt>よ</rt></ruby>いうわさを<ruby>聞<rt>き</rt></ruby>いて、<ruby>笑顔<rt>えがお</rt></ruby>になりました。</p>\n<p><ruby>朝食<rt>ちょうしょく</rt></ruby>で<ruby>栄養<rt>えいよう</rt></ruby>をとりました。</p>\n<p><ruby>英国<rt>えいこく</rt></ruby><ruby>生<rt>うま</rt></ruby>まれの<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>うことになりました。</p>\n<p>だからといって、<ruby>私<rt>わたし</rt></ruby>が<ruby>英文<rt>えいぶん</rt></ruby>をよく<ruby>読<rt>よ</rt></ruby>めるわけではありません。</p>\n<h2>Scene 2. 動物農場への訪問 (동물농장 방문)</h2>\n<p><ruby>友達<rt>ともだち</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>農場<rt>のうじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</p>\n<p><ruby>牛<rt>うし</rt></ruby>や<ruby>馬<rt>うま</rt></ruby>、そしてうさぎを<ruby>見<rt>み</rt></ruby>ました。</p>\n<p><ruby>友達<rt>ともだち</rt></ruby>は<ruby>動物<rt>どうぶつ</rt></ruby>を<ruby>扱<rt>あつか</rt></ruby>う<ruby>腕<rt>うで</rt></ruby>がいいです。</p>\n<p><ruby>動物<rt>どうぶつ</rt></ruby>と<ruby>話<rt>はな</rt></ruby>せるという<ruby>彼<rt>かれ</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>はうそつきの言葉ではありません。</p>\n<p>しかし、<ruby>動物<rt>どうぶつ</rt></ruby>がいつもおとなしいわけではありません。</p>\n<h2>Scene 3. 買い物と贈り物 (쇼핑과 선물)</h2>\n<p><ruby>午後<rt>ごご</rt></ruby>は<ruby>店<rt>みせ</rt></ruby>で<ruby>梅<rt>うめ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。</p>\n<p>その<ruby>店<rt>みせ</rt></ruby>は<ruby>売<rt>う</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げがとても<ruby>高<rt>たか</rt></ruby>いです。</p>\n<p><ruby>人気<rt>にんき</rt></ruby>があってすぐに<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れになりました。</p>\n<p><ruby>小包<rt>こづつみ</rt></ruby>の<ruby>受取人<rt>うけとりにん</rt></ruby>を<ruby>私<rt>わたし</rt></ruby>にしました。</p>\n<p><ruby>永遠<rt>えいえん</rt></ruby>に<ruby>味<rt>あじ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わらないわけではありません。</p>\n<h2>Scene 4. 運転と夜の宴会 (운전과 밤의 연회)</h2>\n<p>レンタカーの<ruby>運転席<rt>うんてんせき</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>りました。</p>\n<p><ruby>私<rt>わたし</rt></ruby>は<ruby>運転免許<rt>うんてんめんきょ</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったばかりです。</p>\n<p><ruby>交差点<rt>こうさてん</rt></ruby>で<ruby>右折<rt>うせつ</rt></ruby>をして、<ruby>道<rt>みち</rt></ruby>の<ruby>内側<rt>うちがわ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。</p>\n<p><ruby>運河<rt>うんが</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>運休<rt>うんきゅう</rt></ruby>という<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けました。</p>\n<p>しかし、<ruby>夜<rt>よる</rt></ruby>の<ruby>宴会<rt>えんかい</rt></ruby>には<ruby>遅<rt>おく</rt></ruby>れないことになりました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>朝<rt>あさ</rt></ruby><ruby>起<rt>お</rt></ruby>きて、うがいをしました。",
+      "trans": "아침에 일어나서 양치질을 했습니다.",
+      "grammar": "~て (동작의 순서)",
+      "tags": [
+        "うがい"
+      ]
+    },
+    {
+      "sent": "<ruby>良<rt>よ</rt></ruby>いうわさを<ruby>聞<rt>き</rt></ruby>いて、<ruby>笑顔<rt>えがお</rt></ruby>になりました。",
+      "trans": "좋은 소문을 듣고 웃는 얼굴이 되었습니다.",
+      "grammar": "~になる (~이 되다: 상태의 변화)",
+      "tags": [
+        "うわさ",
+        "笑顔"
+      ]
+    },
+    {
+      "sent": "<ruby>朝食<rt>ちょうしょく</rt></ruby>で<ruby>栄養<rt>えいよう</rt></ruby>をとりました。",
+      "trans": "아침 식사로 영양을 섭취했습니다.",
+      "grammar": "で (수단/방법)",
+      "tags": [
+        "栄養"
+      ]
+    },
+    {
+      "sent": "<ruby>英国<rt>えいこく</rt></ruby><ruby>生<rt>うま</rt></ruby>まれの<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>うことになりました。",
+      "trans": "영국 출생인 친구를 만나게 되었습니다.",
+      "grammar": "~ことになる (~하게 되다: 결정된 일)",
+      "tags": [
+        "英国",
+        "生まれ"
+      ]
+    },
+    {
+      "sent": "だからといって、<ruby>私<rt>わたし</rt></ruby>が<ruby>英文<rt>えいぶん</rt></ruby>をよく<ruby>読<rt>よ</rt></ruby>めるわけではありません。",
+      "trans": "그렇다고 해서, 제가 영문을 잘 읽을 수 있는 것은 아닙니다.",
+      "grammar": "~わけではない (~인 것은 아니다: 부분 부정)",
+      "tags": [
+        "英文"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>農場<rt>のうじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "친구와 함께 농장에 갔습니다.",
+      "grammar": "と一緒に (~와 함께)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>牛<rt>うし</rt></ruby>や<ruby>馬<rt>うま</rt></ruby>、そしてうさぎを<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "소나 말, 그리고 토끼를 보았습니다.",
+      "grammar": "~や (~나, ~이랑: 병렬)",
+      "tags": [
+        "牛",
+        "馬",
+        "うさぎ"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>動物<rt>どうぶつ</rt></ruby>を<ruby>扱<rt>あつか</rt></ruby>う<ruby>腕<rt>うで</rt></ruby>がいいです。",
+      "trans": "친구는 동물을 다루는 솜씨가 좋습니다.",
+      "grammar": "명사 수식어절",
+      "tags": [
+        "腕"
+      ]
+    },
+    {
+      "sent": "<ruby>動物<rt>どうぶつ</rt></ruby>と<ruby>話<rt>はな</rt></ruby>せるという<ruby>彼<rt>かれ</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>はうそつきの言葉ではありません。",
+      "trans": "동물과 이야기할 수 있다는 그의 말은 거짓말쟁이의 말이 아닙니다.",
+      "grammar": "~という (~라고 하는)",
+      "tags": [
+        "うそつき"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>動物<rt>どうぶつ</rt></ruby>がいつもおとなしいわけではありません。",
+      "trans": "하지만, 동물이 항상 얌전한 것은 아닙니다.",
+      "grammar": "~わけではない (~인 것은 아니다: 부분 부정)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>店<rt>みせ</rt></ruby>で<ruby>梅<rt>うめ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "오후에는 가게에서 매실을 샀습니다.",
+      "grammar": "で (장소)",
+      "tags": [
+        "梅"
+      ]
+    },
+    {
+      "sent": "その<ruby>店<rt>みせ</rt></ruby>は<ruby>売<rt>う</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げがとても<ruby>高<rt>たか</rt></ruby>いです。",
+      "trans": "그 가게는 매출이 아주 높습니다.",
+      "grammar": "명사 + が (주격 조사)",
+      "tags": [
+        "売り上げ"
+      ]
+    },
+    {
+      "sent": "<ruby>人気<rt>にんき</rt></ruby>があってすぐに<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れになりました。",
+      "trans": "인기가 있어서 금방 매진이 되었습니다.",
+      "grammar": "~になる (~이 되다: 상태의 변화)",
+      "tags": [
+        "売り切れ"
+      ]
+    },
+    {
+      "sent": "<ruby>小包<rt>こづつみ</rt></ruby>の<ruby>受取人<rt>うけとりにん</rt></ruby>を<ruby>私<rt>わたし</rt></ruby>にしました。",
+      "trans": "소포의 수취인을 저로 했습니다.",
+      "grammar": "명사 + にする (~로 하다: 결정)",
+      "tags": [
+        "受取人"
+      ]
+    },
+    {
+      "sent": "<ruby>永遠<rt>えいえん</rt></ruby>に<ruby>味<rt>あじ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わらないわけではありません。",
+      "trans": "영원히 맛이 변하지 않는 것은 아닙니다.",
+      "grammar": "~わけではない (~인 것은 아니다: 부분 부정)",
+      "tags": [
+        "永遠"
+      ]
+    },
+    {
+      "sent": "レンタカーの<ruby>運転席<rt>うんてんせき</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>りました。",
+      "trans": "렌터카의 운전석에 앉았습니다.",
+      "grammar": "~に座る (~에 앉다)",
+      "tags": [
+        "運転席"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>運転免許<rt>うんてんめんきょ</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったばかりです。",
+      "trans": "저는 운전면허를 딴 지 얼마 안 되었습니다.",
+      "grammar": "~たばかり (막 ~함)",
+      "tags": [
+        "運転免許"
+      ]
+    },
+    {
+      "sent": "<ruby>交差点<rt>こうさてん</rt></ruby>で<ruby>右折<rt>うせつ</rt></ruby>をして、<ruby>道<rt>みち</rt></ruby>の<ruby>内側<rt>うちがわ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。",
+      "trans": "교차로에서 우회전을 하여, 길의 안쪽으로 들어갔습니다.",
+      "grammar": "~て (동작의 순서)",
+      "tags": [
+        "右折",
+        "内側"
+      ]
+    },
+    {
+      "sent": "<ruby>運河<rt>うんが</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>運休<rt>うんきゅう</rt></ruby>という<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けました。",
+      "trans": "운하 근처의 전철이 운휴라는 영향을 받았습니다.",
+      "grammar": "~という (~라는)",
+      "tags": [
+        "運河",
+        "運休",
+        "影響"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>夜<rt>よる</rt></ruby>の<ruby>宴会<rt>えんかい</rt></ruby>には<ruby>遅<rt>おく</rt></ruby>れないことになりました。",
+      "trans": "하지만, 밤의 연회에는 늦지 않게 되었습니다.",
+      "grammar": "~ことになる (~하게 되다: 결정)",
+      "tags": [
+        "宴会"
+      ]
+    }
+  ],
   "vocab": [
     {
+      "id": "v-001",
       "word": "うがい",
       "read": "うがい",
       "mean": "양치질(입 헹구기)",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-002",
       "word": "受取人",
       "read": "うけとりにん",
       "mean": "수취인",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-003",
       "word": "うさぎ",
       "read": "うさぎ",
       "mean": "토끼",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-004",
       "word": "牛",
       "read": "うし",
       "mean": "소",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-005",
       "word": "右折",
       "read": "うせつ",
       "mean": "우회전",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-006",
       "word": "うそつき",
       "read": "うそつき",
       "mean": "거짓말쟁이",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-007",
       "word": "内側",
       "read": "うちがわ",
       "mean": "안쪽, 내측",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-008",
       "word": "腕",
       "read": "うで",
       "mean": "팔, 솜씨",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-009",
       "word": "馬",
       "read": "うま",
       "mean": "말",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-010",
       "word": "生まれ",
       "read": "うまれ",
       "mean": "출생, 태생",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-011",
       "word": "梅",
       "read": "うめ",
       "mean": "매실, 매화",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-012",
       "word": "売り上げ",
       "read": "うりあげ",
       "mean": "매출",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-013",
       "word": "売り切れ",
       "read": "うりきれ",
       "mean": "매진, 품절",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-014",
       "word": "うわさ",
       "read": "うわさ",
       "mean": "소문",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-015",
       "word": "運河",
       "read": "うんが",
       "mean": "운하",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-016",
       "word": "運休",
       "read": "うんきゅう",
       "mean": "운휴",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-017",
       "word": "運転席",
       "read": "うんてんせき",
       "mean": "운전석",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-018",
       "word": "運転免許",
       "read": "うんてんめんきょ",
       "mean": "운전면허",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 1
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-019",
       "word": "永遠",
       "read": "えいえん",
       "mean": "영원",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 2
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-020",
       "word": "影響",
       "read": "えいきょう",
       "mean": "영향",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 2
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-021",
       "word": "英国",
       "read": "えいこく",
       "mean": "영국",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 2
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-022",
       "word": "英文",
       "read": "えいぶん",
       "mean": "영문",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 2
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-023",
       "word": "栄養",
       "read": "えいよう",
       "mean": "영양",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 2
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-024",
       "word": "笑顔",
       "read": "えがお",
       "mean": "웃는 얼굴",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 2
+      "tags": [
+        "noun"
+      ]
     },
     {
+      "id": "v-025",
       "word": "宴会",
       "read": "えんかい",
       "mean": "연회, 회식",
-      "tags": [],
-      "moduleId": "n3-module-003",
-      "legacyDay": 2
+      "tags": [
+        "noun"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「笑顔」の読み方は何ですか。",
+      "opt": [
+        "えがお",
+        "しょうがん",
+        "えめ",
+        "わらがお"
+      ],
+      "ans": 0,
+      "comment": "笑顔(えがお)는 '웃는 얼굴'이라는 뜻입니다."
+    },
+    {
+      "q": "「内側」の読み方は何ですか。",
+      "opt": [
+        "ないがわ",
+        "うちがわ",
+        "うちば",
+        "ないそく"
+      ],
+      "ans": 1,
+      "comment": "内側(うちがわ)는 '안쪽, 내측'이라는 뜻입니다."
+    },
+    {
+      "q": "「影響」の読み方は何ですか。",
+      "opt": [
+        "えきょう",
+        "えいこう",
+        "えいきょう",
+        "いんきょう"
+      ],
+      "ans": 2,
+      "comment": "影響(えいきょう)는 '영향'이라는 뜻입니다."
+    },
+    {
+      "q": "「運休」の読み方は何ですか。",
+      "opt": [
+        "うんきゅう",
+        "うんやす",
+        "はこきゅう",
+        "うんきゅ"
+      ],
+      "ans": 0,
+      "comment": "運休(うんきゅう)는 '운휴(운행 정지)'라는 뜻입니다."
+    },
+    {
+      "q": "「거짓말쟁이」を日本語で書くと何ですか。",
+      "opt": [
+        "うそつき",
+        "うわさ",
+        "うがい",
+        "生まれ"
+      ],
+      "ans": 0,
+      "comment": "うそつき(うそつき)는 '거짓말쟁이'라는 뜻입니다."
+    },
+    {
+      "q": "「매출」を日本語で書くと何ですか。",
+      "opt": [
+        "売り切れ",
+        "売り上げ",
+        "受取人",
+        "運休"
+      ],
+      "ans": 1,
+      "comment": "売り上げ(うりあげ)는 '매출'이라는 뜻입니다."
+    },
+    {
+      "q": "「운하」を日本語で書くと何ですか。",
+      "opt": [
+        "海",
+        "宴会",
+        "運河",
+        "英国"
+      ],
+      "ans": 2,
+      "comment": "運河(うんが)는 '운하'라는 뜻입니다."
+    },
+    {
+      "q": "雪がたくさん降ったので、今日の電車は______です。",
+      "opt": [
+        "運河",
+        "運転免許",
+        "右折",
+        "運休"
+      ],
+      "ans": 3,
+      "comment": "運休(うんきゅう)는 '운휴(운행 정지)'라는 뜻입니다."
+    },
+    {
+      "q": "来月から東京の本社で働く______。",
+      "opt": [
+        "わけではありません",
+        "ことになりました",
+        "ことにしました",
+        "そうになりました"
+      ],
+      "ans": 1,
+      "comment": "결정된 예정이나 상황을 나타내는 「〜ことになりました(~하게 되었습니다)」가 정답입니다."
+    },
+    {
+      "q": "お金がたくさんあるからといって、幸せな______。",
+      "opt": [
+        "ことではない",
+        "はずではない",
+        "わけではない",
+        "ものではない"
+      ],
+      "ans": 2,
+      "comment": "부분 부정을 나타내는 「〜わけではない(~인 것은 아니다)」가 정답입니다."
     }
   ]
 }
