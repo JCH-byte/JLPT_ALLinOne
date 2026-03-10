@@ -19,6 +19,14 @@ if (window.speechSynthesis) {
     window.speechSynthesis.onvoiceschanged = () => {
         availableVoices = window.speechSynthesis.getVoices();
     };
+
+    // Chrome/Android 버그 대응: 일정 시간 미사용 시 TTS 엔진이 휴면 상태가 됨.
+    // 주기적으로 resume()을 호출해 엔진을 활성 상태로 유지.
+    setInterval(() => {
+        if (!window.speechSynthesis.speaking) {
+            window.speechSynthesis.resume();
+        }
+    }, 5000);
 }
 
 function speak(text) {
@@ -31,6 +39,7 @@ function speak(text) {
     const cleanText = tempDiv.textContent || tempDiv.innerText;
 
     window.speechSynthesis.cancel(); // 기존 음성 중단
+    window.speechSynthesis.resume(); // 휴면 상태 해제
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
@@ -50,6 +59,6 @@ function speak(text) {
                      || jpVoices[0];
 
     if (selectedVoice) utterance.voice = selectedVoice;
-    
+
     window.speechSynthesis.speak(utterance);
 }
