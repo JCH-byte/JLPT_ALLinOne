@@ -11,9 +11,14 @@ function getQueryParam(param) {
 
 // ----------------------------------------------------
 // TTS (Text-to-Speech) 기능
-// Google Translate TTS 사용 / 실패 시 Web Speech API로 fallback
+// 모바일: Web Speech API 직접 사용 (유저 제스처 컨텍스트 유지)
+// 데스크톱/태블릿: Google Translate TTS 사용 / 실패 시 Web Speech API로 fallback
 // ----------------------------------------------------
 let currentAudio = null;
+
+function isMobile() {
+    return /Android|iPhone|iPod/i.test(navigator.userAgent);
+}
 
 function speak(text) {
     if (!text) return;
@@ -25,6 +30,12 @@ function speak(text) {
     const cleanText = (tempDiv.textContent || tempDiv.innerText).trim();
 
     if (!cleanText) return;
+
+    // 모바일: Google TTS 비동기 오류로 유저 제스처 컨텍스트가 만료되기 전에 직접 호출
+    if (isMobile()) {
+        speakFallback(cleanText);
+        return;
+    }
 
     // 기존 재생 중단
     if (currentAudio) {
@@ -54,18 +65,17 @@ function speakFallback(cleanText) {
     if (!window.speechSynthesis) return;
 
     window.speechSynthesis.cancel();
-    setTimeout(() => {
-        const utterance = new SpeechSynthesisUtterance(cleanText);
-        utterance.lang = 'ja-JP';
-        utterance.rate = 0.9;
 
-        const voices = window.speechSynthesis.getVoices();
-        const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
-        const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
-                           || jpVoices.find(v => v.name.includes('Microsoft'))
-                           || jpVoices[0];
-        if (selectedVoice) utterance.voice = selectedVoice;
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.9;
 
-        window.speechSynthesis.speak(utterance);
-    }, 50);
+    const voices = window.speechSynthesis.getVoices();
+    const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
+    const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
+                       || jpVoices.find(v => v.name.includes('Microsoft'))
+                       || jpVoices[0];
+    if (selectedVoice) utterance.voice = selectedVoice;
+
+    window.speechSynthesis.speak(utterance);
 }
