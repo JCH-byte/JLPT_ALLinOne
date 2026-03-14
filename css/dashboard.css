@@ -12,14 +12,33 @@ body.dashboard-mode {
 
 /* 사이드바 레이아웃 */
 .sidebar {
-    width: 320px; 
-    background: var(--bg-white); 
+    width: 320px;
+    background: var(--bg-white);
     border-right: 1px solid var(--border);
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     z-index: 10;
     box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+    overflow: hidden;
 }
+
+/* 사이드바 접기/펼치기 버튼 */
+.sidebar-collapse-btn {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, transform 0.3s;
+}
+.sidebar-collapse-btn:hover { background: rgba(0,0,0,0.06); }
 
 .sidebar-header { 
     padding: 0; 
@@ -27,15 +46,16 @@ body.dashboard-mode {
     border-bottom: 1px solid var(--border); 
 }
 
-.app-title { 
-    padding: 20px; 
-    font-size: 1.3rem; 
-    font-weight: 800; 
-    color: #333; 
-    margin: 0; 
+.app-title {
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #333;
+    margin: 0;
     display: flex;
     align-items: center;
     gap: 8px;
+    white-space: nowrap;
 }
 
 /* Level Tabs */
@@ -133,9 +153,25 @@ body.dashboard-mode {
 }
 iframe { width: 100%; height: 100%; border: none; }
 
-/* 대시보드 전용 반응형 (사이드바 토글) */
+/* 데스크톱 전용: 사이드바 접기/펼치기 */
+@media (min-width: 769px) {
+    .sidebar {
+        transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        flex-shrink: 0;
+    }
+    .sidebar.collapsed {
+        width: 64px;
+        min-width: 64px;
+    }
+    .sidebar.collapsed .sidebar-collapse-btn {
+        transform: rotate(180deg);
+    }
+}
+
+/* 모바일 전용 (사이드바 토글) */
 @media (max-width: 768px) {
     .sidebar { position: absolute; height: 100%; transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 2px 0 20px rgba(0,0,0,0.2); }
     .sidebar.show { transform: translateX(0); }
     .mobile-header { display: flex; }
+    .sidebar-collapse-btn { display: none; }
 }

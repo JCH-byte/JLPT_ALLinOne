@@ -165,4 +165,14 @@ function toggleSidebar() {
     if (sidebar) sidebar.classList.toggle('show');
 }
 
+function toggleSidebarCollapse() {
+    const sidebar = document.getElementById('sidebar');
+    if (!sidebar) return;
+    if (window.innerWidth <= 768) {
+        sidebar.classList.toggle('show');
+    } else {
+        sidebar.classList.toggle('collapsed');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', initDashboard);
