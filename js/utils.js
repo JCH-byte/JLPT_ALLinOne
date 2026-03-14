@@ -11,17 +11,9 @@ function getQueryParam(param) {
 
 // ----------------------------------------------------
 // TTS (Text-to-Speech) 기능
+// Google Translate TTS 사용 / 실패 시 Web Speech API로 fallback
 // ----------------------------------------------------
-let availableVoices = [];
-
-if (window.speechSynthesis) {
-    // 음성 목록이 로드되면 캐싱
-    window.speechSynthesis.onvoiceschanged = () => {
-        availableVoices = window.speechSynthesis.getVoices();
-    };
-    // 일부 브라우저는 onvoiceschanged 없이 바로 반환하므로 즉시 로드 시도
-    availableVoices = window.speechSynthesis.getVoices();
-}
+let currentAudio = null;
 
 function speak(text) {
     if (!text) return;
@@ -30,29 +22,41 @@ function speak(text) {
     const tempDiv = document.createElement('div');
     tempDiv.innerHTML = text;
     tempDiv.querySelectorAll('rt, rp').forEach(el => el.remove());
-    const cleanText = tempDiv.textContent || tempDiv.innerText;
+    const cleanText = (tempDiv.textContent || tempDiv.innerText).trim();
 
-    window.speechSynthesis.cancel(); // 기존 음성 중단
+    if (!cleanText) return;
 
-    // Chrome: cancel() 후 즉시 speak()하면 무시되는 버그 대응
+    // 기존 재생 중단
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio = null;
+    }
+
+    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=ja&client=tw-ob`;
+    const audio = new Audio(url);
+    audio.playbackRate = 0.9;
+    currentAudio = audio;
+
+    audio.play().catch(() => {
+        // Google Translate 실패 시 Web Speech API로 fallback
+        speakFallback(cleanText);
+    });
+}
+
+function speakFallback(cleanText) {
+    if (!window.speechSynthesis) return;
+
+    window.speechSynthesis.cancel();
     setTimeout(() => {
         const utterance = new SpeechSynthesisUtterance(cleanText);
         utterance.lang = 'ja-JP';
-        utterance.rate = 0.9; // 속도 조절
+        utterance.rate = 0.9;
 
-        // 음성 목록이 비어있으면 다시 로드 시도
-        if (availableVoices.length === 0) {
-            availableVoices = window.speechSynthesis.getVoices();
-        }
-
-        // 일본어 음성 우선순위 선택 (Google > Microsoft > 기타)
-        const jpVoices = availableVoices.filter(voice => voice.lang === 'ja-JP' || voice.lang === 'ja_JP');
-        let selectedVoice = jpVoices.find(v => v.name.includes('Google'))
-                         || jpVoices.find(v => v.name.includes('Microsoft'))
-                         || jpVoices.find(v => v.name.includes('Hattori'))
-                         || jpVoices.find(v => v.name.includes('O-ren'))
-                         || jpVoices[0];
-
+        const voices = window.speechSynthesis.getVoices();
+        const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
+        const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
+                           || jpVoices.find(v => v.name.includes('Microsoft'))
+                           || jpVoices[0];
         if (selectedVoice) utterance.voice = selectedVoice;
 
         window.speechSynthesis.speak(utterance);
