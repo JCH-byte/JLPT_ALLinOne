@@ -58,6 +58,69 @@ body.dashboard-mode {
     white-space: nowrap;
 }
 
+/* 로그인 영역 */
+.user-auth-section {
+    padding: 12px 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.user-name-display {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.google-btn {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+}
+.google-btn:hover { background-color: #357ae8; }
+.google-btn.logout { background-color: #ef5350; }
+.google-btn.logout:hover { background-color: #e53935; }
+.google-icon { flex-shrink: 0; }
+
+/* 단어장 버튼 */
+.starred-btn-wrap { padding: 0 10px 10px; }
+.starred-btn {
+    width: 100%;
+    padding: 10px;
+    background: #673AB7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: background 0.2s;
+}
+.starred-btn:hover { background: #5e35b1; }
+
+/* 어드민 링크 */
+.admin-link-wrap { padding: 10px; text-align: center; font-size: 0.8rem; }
+.admin-link { color: #999; text-decoration: none; white-space: nowrap; }
+.admin-link:hover { color: #666; }
+
 /* Level Tabs */
 .level-tabs { display: flex; background: #f5f5f5; padding: 10px 10px 0 10px; overflow-x: auto; }
 .tab-btn {
@@ -122,8 +185,10 @@ body.dashboard-mode {
     background-color: var(--bg-highlight); 
     box-shadow: 0 0 0 1px var(--primary) inset;
 }
-.day-item.completed .day-info span:first-child { text-decoration: line-through; color: #aaa; }
+.day-item.completed .title-text { text-decoration: line-through; color: #aaa; }
 .day-info { flex: 1; }
+.module-num { display: none; font-weight: bold; color: var(--primary); text-align: center; }
+.day-sub { display: block; font-size: 0.75rem; color: #aaa; }
 .check-complete { 
     margin-left: 10px; 
     font-size: 0.85rem; 
@@ -159,13 +224,51 @@ iframe { width: 100%; height: 100%; border: none; }
         transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         flex-shrink: 0;
     }
-    .sidebar.collapsed {
-        width: 64px;
-        min-width: 64px;
+    .sidebar.collapsed { width: 64px; min-width: 64px; }
+
+    /* 토글 버튼 회전 */
+    .sidebar.collapsed .sidebar-collapse-btn { transform: rotate(180deg); }
+
+    /* 접힘 시 숨길 요소 */
+    .sidebar.collapsed .user-name-display,
+    .sidebar.collapsed .progress-section,
+    .sidebar.collapsed .btn-text,
+    .sidebar.collapsed .title-text,
+    .sidebar.collapsed .day-sub,
+    .sidebar.collapsed .check-complete { display: none; }
+
+    /* 로그인 영역 */
+    .sidebar.collapsed .user-auth-section { padding: 8px 4px; }
+    .sidebar.collapsed .google-btn { width: 44px; padding: 8px; margin: 0 auto; }
+
+    /* 단어장 버튼 */
+    .sidebar.collapsed .starred-btn-wrap { padding: 4px; }
+    .sidebar.collapsed .starred-btn { width: 44px; padding: 8px; margin: 0 auto; }
+
+    /* 레벨 탭: 세로 배치로 전환 (레벨 전환 유지) */
+    .sidebar.collapsed .level-tabs {
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+        gap: 2px;
     }
-    .sidebar.collapsed .sidebar-collapse-btn {
-        transform: rotate(180deg);
+    .sidebar.collapsed .tab-btn {
+        width: 44px;
+        min-width: unset;
+        margin-right: 0;
+        border-radius: 6px;
+        padding: 7px 4px;
+        font-size: 0.78rem;
     }
+
+    /* 챕터 목록 */
+    .sidebar.collapsed .day-list { padding: 4px 6px; }
+    .sidebar.collapsed .day-item { padding: 6px 4px; justify-content: center; margin-bottom: 4px; }
+    .sidebar.collapsed .day-info { flex: none; }
+    .sidebar.collapsed .module-num { display: block; font-size: 0.85rem; }
+
+    /* 어드민 링크 */
+    .sidebar.collapsed .admin-link-wrap { padding: 6px 4px; }
 }
 
 /* 모바일 전용 (사이드바 토글) */
