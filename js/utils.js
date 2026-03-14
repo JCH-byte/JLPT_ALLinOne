@@ -34,24 +34,27 @@ function speak(text) {
 
     window.speechSynthesis.cancel(); // 기존 음성 중단
 
-    const utterance = new SpeechSynthesisUtterance(cleanText);
-    utterance.lang = 'ja-JP';
-    utterance.rate = 0.9; // 속도 조절
+    // Chrome: cancel() 후 즉시 speak()하면 무시되는 버그 대응
+    setTimeout(() => {
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = 'ja-JP';
+        utterance.rate = 0.9; // 속도 조절
 
-    // 음성 목록이 비어있으면 다시 로드 시도
-    if (availableVoices.length === 0) {
-        availableVoices = window.speechSynthesis.getVoices();
-    }
+        // 음성 목록이 비어있으면 다시 로드 시도
+        if (availableVoices.length === 0) {
+            availableVoices = window.speechSynthesis.getVoices();
+        }
 
-    // 일본어 음성 우선순위 선택 (Google > Microsoft > 기타)
-    const jpVoices = availableVoices.filter(voice => voice.lang === 'ja-JP' || voice.lang === 'ja_JP');
-    let selectedVoice = jpVoices.find(v => v.name.includes('Google'))
-                     || jpVoices.find(v => v.name.includes('Microsoft'))
-                     || jpVoices.find(v => v.name.includes('Hattori'))
-                     || jpVoices.find(v => v.name.includes('O-ren'))
-                     || jpVoices[0];
+        // 일본어 음성 우선순위 선택 (Google > Microsoft > 기타)
+        const jpVoices = availableVoices.filter(voice => voice.lang === 'ja-JP' || voice.lang === 'ja_JP');
+        let selectedVoice = jpVoices.find(v => v.name.includes('Google'))
+                         || jpVoices.find(v => v.name.includes('Microsoft'))
+                         || jpVoices.find(v => v.name.includes('Hattori'))
+                         || jpVoices.find(v => v.name.includes('O-ren'))
+                         || jpVoices[0];
 
-    if (selectedVoice) utterance.voice = selectedVoice;
+        if (selectedVoice) utterance.voice = selectedVoice;
 
-    window.speechSynthesis.speak(utterance);
+        window.speechSynthesis.speak(utterance);
+    }, 50);
 }
