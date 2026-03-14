@@ -33,7 +33,7 @@ function speak(text) {
 
     // 모바일: Google TTS 비동기 오류로 유저 제스처 컨텍스트가 만료되기 전에 직접 호출
     if (isMobile()) {
-        speakFallback(cleanText);
+        speakMobile(cleanText);
         return;
     }
 
@@ -61,21 +61,36 @@ function speak(text) {
     audio.play().catch(tryFallback);
 }
 
-function speakFallback(cleanText) {
+// 모바일: Android Chrome paused 상태 버그 → cancel() + resume() 후 발화
+function speakMobile(cleanText) {
     if (!window.speechSynthesis) return;
+    const synth = window.speechSynthesis;
 
-    window.speechSynthesis.cancel();
+    synth.cancel();
+    synth.resume(); // Android Chrome: 내부 paused 상태 해제
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
     utterance.rate = 0.9;
+    synth.speak(utterance);
+}
 
-    const voices = window.speechSynthesis.getVoices();
-    const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
-    const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
-                       || jpVoices.find(v => v.name.includes('Microsoft'))
-                       || jpVoices[0];
-    if (selectedVoice) utterance.voice = selectedVoice;
+function speakFallback(cleanText) {
+    if (!window.speechSynthesis) return;
 
-    window.speechSynthesis.speak(utterance);
+    window.speechSynthesis.cancel();
+    setTimeout(() => {
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = 'ja-JP';
+        utterance.rate = 0.9;
+
+        const voices = window.speechSynthesis.getVoices();
+        const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
+        const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
+                           || jpVoices.find(v => v.name.includes('Microsoft'))
+                           || jpVoices[0];
+        if (selectedVoice) utterance.voice = selectedVoice;
+
+        window.speechSynthesis.speak(utterance);
+    }, 50);
 }
