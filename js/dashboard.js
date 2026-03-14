@@ -163,7 +163,9 @@ function updateProgress(level, done, total) {
 
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
     if (sidebar) sidebar.classList.toggle('show');
+    if (overlay) overlay.classList.toggle('active');
 }
 
 function toggleSidebarCollapse() {
