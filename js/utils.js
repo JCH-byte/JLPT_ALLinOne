@@ -61,30 +61,18 @@ function speak(text) {
     audio.play().catch(tryFallback);
 }
 
-// iOS Safari: cancel() 직후 speak() 하면 해당 speak도 취소됨 → cancel 없이 직접 발화
+// 모바일: Android Chrome paused 상태 버그 → cancel() + resume() 후 발화
 function speakMobile(cleanText) {
     if (!window.speechSynthesis) return;
+    const synth = window.speechSynthesis;
+
+    synth.cancel();
+    synth.resume(); // Android Chrome: 내부 paused 상태 해제
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
     utterance.rate = 0.9;
-
-    const trySpeak = () => {
-        const voices = window.speechSynthesis.getVoices();
-        const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
-        const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
-                           || jpVoices.find(v => v.name.includes('Microsoft'))
-                           || jpVoices[0];
-        if (selectedVoice) utterance.voice = selectedVoice;
-        window.speechSynthesis.speak(utterance);
-    };
-
-    // 보이스가 아직 로딩 안 됐으면 이벤트 기다림
-    if (window.speechSynthesis.getVoices().length === 0) {
-        window.speechSynthesis.addEventListener('voiceschanged', trySpeak, { once: true });
-    } else {
-        trySpeak();
-    }
+    synth.speak(utterance);
 }
 
 function speakFallback(cleanText) {
