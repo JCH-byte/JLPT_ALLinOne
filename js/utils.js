@@ -32,7 +32,7 @@ function speak(text) {
         currentAudio = null;
     }
 
-    const url = `https://translate.googleapis.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=ja&client=gtx`;
+    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=ja&client=tw-ob`;
     const audio = new Audio(url);
     audio.playbackRate = 0.9;
     currentAudio = audio;
