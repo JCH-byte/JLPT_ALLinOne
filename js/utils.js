@@ -33,7 +33,7 @@ function speak(text) {
 
     // 모바일: Google TTS 비동기 오류로 유저 제스처 컨텍스트가 만료되기 전에 직접 호출
     if (isMobile()) {
-        speakFallback(cleanText);
+        speakMobile(cleanText);
         return;
     }
 
@@ -61,21 +61,48 @@ function speak(text) {
     audio.play().catch(tryFallback);
 }
 
-function speakFallback(cleanText) {
+// iOS Safari: cancel() 직후 speak() 하면 해당 speak도 취소됨 → cancel 없이 직접 발화
+function speakMobile(cleanText) {
     if (!window.speechSynthesis) return;
-
-    window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
     utterance.rate = 0.9;
 
-    const voices = window.speechSynthesis.getVoices();
-    const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
-    const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
-                       || jpVoices.find(v => v.name.includes('Microsoft'))
-                       || jpVoices[0];
-    if (selectedVoice) utterance.voice = selectedVoice;
+    const trySpeak = () => {
+        const voices = window.speechSynthesis.getVoices();
+        const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
+        const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
+                           || jpVoices.find(v => v.name.includes('Microsoft'))
+                           || jpVoices[0];
+        if (selectedVoice) utterance.voice = selectedVoice;
+        window.speechSynthesis.speak(utterance);
+    };
 
-    window.speechSynthesis.speak(utterance);
+    // 보이스가 아직 로딩 안 됐으면 이벤트 기다림
+    if (window.speechSynthesis.getVoices().length === 0) {
+        window.speechSynthesis.addEventListener('voiceschanged', trySpeak, { once: true });
+    } else {
+        trySpeak();
+    }
+}
+
+function speakFallback(cleanText) {
+    if (!window.speechSynthesis) return;
+
+    window.speechSynthesis.cancel();
+    setTimeout(() => {
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = 'ja-JP';
+        utterance.rate = 0.9;
+
+        const voices = window.speechSynthesis.getVoices();
+        const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
+        const selectedVoice = jpVoices.find(v => v.name.includes('Google'))
+                           || jpVoices.find(v => v.name.includes('Microsoft'))
+                           || jpVoices[0];
+        if (selectedVoice) utterance.voice = selectedVoice;
+
+        window.speechSynthesis.speak(utterance);
+    }, 50);
 }
