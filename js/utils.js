@@ -32,15 +32,22 @@ function speak(text) {
         currentAudio = null;
     }
 
-    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=ja&client=tw-ob`;
+    const url = `https://translate.googleapis.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=ja&client=gtx`;
     const audio = new Audio(url);
     audio.playbackRate = 0.9;
     currentAudio = audio;
 
-    audio.play().catch(() => {
-        // Google Translate 실패 시 Web Speech API로 fallback
-        speakFallback(cleanText);
-    });
+    let fallbackCalled = false;
+    const tryFallback = () => {
+        if (!fallbackCalled) {
+            fallbackCalled = true;
+            speakFallback(cleanText);
+        }
+    };
+
+    // 네트워크/CORS 오류는 error 이벤트로 발생 (play() rejection과 별개)
+    audio.addEventListener('error', tryFallback);
+    audio.play().catch(tryFallback);
 }
 
 function speakFallback(cleanText) {
