@@ -11,14 +11,9 @@ function getQueryParam(param) {
 
 // ----------------------------------------------------
 // TTS (Text-to-Speech) 기능
-// 모바일: Web Speech API 직접 사용 (유저 제스처 컨텍스트 유지)
-// 데스크톱/태블릿: Google Translate TTS 사용 / 실패 시 Web Speech API로 fallback
+// 모든 기기: Google Translate TTS 사용 / 실패 시 Web Speech API로 fallback
 // ----------------------------------------------------
 let currentAudio = null;
-
-function isMobile() {
-    return /Android|iPhone|iPod/i.test(navigator.userAgent);
-}
 
 function speak(text) {
     if (!text) return;
@@ -30,12 +25,6 @@ function speak(text) {
     const cleanText = (tempDiv.textContent || tempDiv.innerText).trim();
 
     if (!cleanText) return;
-
-    // 모바일: Google TTS 비동기 오류로 유저 제스처 컨텍스트가 만료되기 전에 직접 호출
-    if (isMobile()) {
-        speakMobile(cleanText);
-        return;
-    }
 
     // 기존 재생 중단
     if (currentAudio) {
@@ -59,20 +48,6 @@ function speak(text) {
     // 네트워크/CORS 오류는 error 이벤트로 발생 (play() rejection과 별개)
     audio.addEventListener('error', tryFallback);
     audio.play().catch(tryFallback);
-}
-
-// 모바일: Android Chrome paused 상태 버그 → cancel() + resume() 후 발화
-function speakMobile(cleanText) {
-    if (!window.speechSynthesis) return;
-    const synth = window.speechSynthesis;
-
-    synth.cancel();
-    synth.resume(); // Android Chrome: 내부 paused 상태 해제
-
-    const utterance = new SpeechSynthesisUtterance(cleanText);
-    utterance.lang = 'ja-JP';
-    utterance.rate = 0.9;
-    synth.speak(utterance);
 }
 
 function speakFallback(cleanText) {
