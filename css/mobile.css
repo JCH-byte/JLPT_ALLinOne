@@ -5,7 +5,7 @@
 
 @media (max-width: 600px) {
     .viewer-mode { padding: 15px; }
-    .flashcard { width: 100%; height: 300px; }
+    .flashcard { width: 100%; height: 200px; }
     
     /* 네비게이션 세로 배치 */
     .nav-buttons { flex-direction: column; gap: 15px; }
