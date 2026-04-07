@@ -119,7 +119,10 @@ function loadFrame(level, moduleId, legacyDay) {
 
     document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
     const activeItem = document.getElementById(`nav-module-${moduleId}`);
-    if (activeItem) activeItem.classList.add('active');
+    if (activeItem) {
+        activeItem.classList.add('active');
+        activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
 
     localStorage.setItem(`${level}_last_module`, moduleId);
 

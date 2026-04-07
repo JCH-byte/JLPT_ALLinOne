@@ -180,10 +180,16 @@ body.dashboard-mode {
     transition: 0.2s;
 }
 .day-item:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
-.day-item.active { 
-    border-color: var(--primary); 
-    background-color: var(--bg-highlight); 
-    box-shadow: 0 0 0 1px var(--primary) inset;
+.day-item.active {
+    border-color: var(--primary);
+    background-color: var(--bg-highlight);
+    border-left: 4px solid var(--primary);
+    padding-left: 12px;
+}
+.sidebar.collapsed .day-item.active {
+    border-left: 4px solid var(--primary);
+    background-color: var(--bg-highlight);
+    padding-left: 0;
 }
 .day-item.completed .title-text { text-decoration: line-through; color: #aaa; }
 .day-info { flex: 1; }
