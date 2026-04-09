@@ -43,6 +43,13 @@ function renderViewerContent(level, day, moduleId, data, indexData) {
     renderVocabSection(level, day, moduleId, data);
     renderQuizSection(data);
     updateNavButtons(level, day, moduleId, indexData);
+
+    // 부모 프레임(사이드바)의 활성화된 항목 업데이트
+    try {
+        if (window.parent && window.parent.updateSidebarActive) {
+            window.parent.updateSidebarActive(level, moduleId);
+        }
+    } catch (e) {}
 }
 
 function renderStorySection(data) {
@@ -97,7 +104,7 @@ function renderVocabSection(level, day, moduleId, data) {
 
             tr.innerHTML = `
                 <td class="col-star">
-                    <button class="star-btn ${isStar ? 'active' : ''}"
+                    <button type="button" class="star-btn ${isStar ? 'active' : ''}"
                             onclick="toggleStar('${level}', '${bookmarkKey}', ${vJson}, this); event.stopPropagation();">
                         ${isStar ? '★' : '☆'}
                     </button>
@@ -158,7 +165,7 @@ function renderQuizSection(data) {
             if (Array.isArray(opts) && opts.length > 0) {
                 html += `<div class="quiz-options-grid">`;
                 opts.forEach((opt, oIdx) => {
-                    html += `<button class="quiz-opt-btn"
+                    html += `<button type="button" class="quiz-opt-btn"
                                 data-is-correct="${oIdx === ansIdx}"
                                 data-correct-idx="${ansIdx}"
                                 data-comment="${safeComment}"
@@ -171,7 +178,7 @@ function renderQuizSection(data) {
 
             } else {
                 html += `<div class="quiz-opt" style="background:#f9f9f9; padding:10px; margin-bottom:10px;">${opts}</div>`;
-                html += `<button class="btn-check-answer" onclick="this.nextElementSibling.classList.toggle('visible')">정답 확인</button>`;
+                html += `<button type="button" class="btn-check-answer" onclick="this.nextElementSibling.classList.toggle('visible')">정답 확인</button>`;
                 html += `<div class="quiz-ans">${q.ans} <br><small>${comment}</small></div>`;
             }
 

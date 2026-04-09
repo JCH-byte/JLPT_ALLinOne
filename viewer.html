@@ -40,15 +40,15 @@
                 
                 <!-- View Mode Controls -->
                 <div class="view-controls">
-                    <button id="btn-mode-list" class="control-btn active" onclick="toggleViewMode('list')"><i class="fas fa-list"></i> 리스트</button>
-                    <button id="btn-mode-card" class="control-btn" onclick="toggleViewMode('card')"><i class="fas fa-layer-group"></i> 카드</button>
+                    <button type="button" id="btn-mode-list" class="control-btn active" onclick="toggleViewMode('list')"><i class="fas fa-list"></i> 리스트</button>
+                    <button type="button" id="btn-mode-card" class="control-btn" onclick="toggleViewMode('card')"><i class="fas fa-layer-group"></i> 카드</button>
                 </div>
             </div>
 
             <!-- List View -->
             <div id="view-list">
                 <div class="toolbar">
-                    <button id="btn-toggle-mean" class="tool-btn" onclick="toggleMeanings()">🙈 뜻 가리기</button>
+                    <button type="button" id="btn-toggle-mean" class="tool-btn" onclick="toggleMeanings()">🙈 뜻 가리기</button>
                 </div>
                 <table id="vocab-table">
                     <thead>
@@ -67,7 +67,7 @@
             <!-- Flashcard View -->
             <div id="view-card" style="display:none;">
                 <div class="flashcard-container">
-                    <button class="nav-arrow left" onclick="prevCard()">❮</button>
+                    <button type="button" class="nav-arrow left" onclick="prevCard()">❮</button>
                     
                     <div class="flashcard" id="flashcard" onclick="flipCard()">
                         <div class="card-face card-front">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
 
-                    <button class="nav-arrow right" onclick="nextCard()">❯</button>
+                    <button type="button" class="nav-arrow right" onclick="nextCard()">❯</button>
                 </div>
                 <div id="card-counter" class="card-counter">1 / 10</div>
                 <p class="card-tip">카드를 클릭하면 뒤집힙니다</p>

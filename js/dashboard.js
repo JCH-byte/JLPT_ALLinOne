@@ -181,4 +181,16 @@ function toggleSidebarCollapse() {
     }
 }
 
+// 뷰어에서 네비게이션 시 사이드바 활성화 상태 업데이트를 위해 전역 함수로 노출
+window.updateSidebarActive = function(level, moduleId) {
+    if (!moduleId) return;
+    document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
+    const activeItem = document.getElementById(`nav-module-${moduleId}`);
+    if (activeItem) {
+        activeItem.classList.add('active');
+        activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    localStorage.setItem(`${level}_last_module`, moduleId);
+};
+
 document.addEventListener('DOMContentLoaded', initDashboard);

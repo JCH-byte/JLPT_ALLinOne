@@ -57,7 +57,7 @@ function refreshStarredList() {
         
         tr.innerHTML = `
             <td class="col-star">
-                <button class="star-btn active" 
+                <button type="button" class="star-btn active" 
                         onclick="removeAndRefresh('${item.level}', '${item.day}', ${vJson})">
                     ★
                 </button>
