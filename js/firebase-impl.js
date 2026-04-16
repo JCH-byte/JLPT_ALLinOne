@@ -345,11 +345,12 @@ onAuthStateChanged(auth, async (user) => {
                          }
                     }
 
-                    // 단어별 체크 (_v_) 실시간 동기화 - True Wins
+                    // 단어별 체크 (_v_) 실시간 동기화 - localStorage만 조용히 업데이트
+                    // (needRefresh 미설정: 북마크 저장 등 다른 Firestore 업데이트가 스냅샷을
+                    //  트리거할 때 removeFromCloud가 아직 완료되지 않은 경우 불필요한 리로드 방지)
                     if (k.includes('_v_')) {
                         if (String(data[k]) === 'true' && localStorage.getItem(k) !== 'true') {
                             originalSetItem.call(localStorage, k, 'true');
-                            needRefresh = true;
                         }
                     }
 
