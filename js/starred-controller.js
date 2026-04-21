@@ -50,32 +50,7 @@ function refreshStarredList() {
         if (currentFilter !== 'all' && item.level !== currentFilter) return;
 
         count++;
-        const tr = document.createElement('tr');
-        
-        // 데이터 전달을 위한 JSON 이스케이프
-        const vJson = JSON.stringify(item).replace(/"/g, '&quot;');
-        
-        tr.innerHTML = `
-            <td class="col-star">
-                <button type="button" class="star-btn active" 
-                        onclick="removeAndRefresh('${item.level}', '${item.day}', ${vJson})">
-                    ★
-                </button>
-            </td>
-            <td style="text-align:center;">
-                <span class="badge-level" style="font-size:0.7rem; padding:2px 6px;">
-                    ${item.level.toUpperCase()}
-                </span>
-            </td>
-            <td class="col-word" onclick="speak('${item.word}')">🔊 ${item.word}</td>
-            <td class="col-read">${item.read}</td>
-            <td class="col-mean"><span>${item.mean}</span></td>
-            <td style="text-align:center;">
-                <a href="viewer.html?level=${item.level}&day=${item.day}" class="tool-btn" style="text-decoration:none; font-size:0.8rem;">
-                    Day ${item.day}
-                </a>
-            </td>
-        `;
+        const tr = renderStarredVocabRow(item);
         tbody.appendChild(tr);
     });
 
@@ -90,23 +65,10 @@ function refreshStarredList() {
 }
 
 // 단어 삭제 후 리스트 갱신 래퍼 함수
-function removeAndRefresh(level, day, item) {
-    // bookmark-service.js의 toggleStar 함수 호출 (이미 존재하므로 삭제됨)
+function removeAndRefresh(level, day, btn) {
+    const item = btn._bookmarkItem;
     toggleStar(level, day, item, null);
-    
-    // 리스트 다시 그리기
     refreshStarredList();
-}
-
-// UI 헬퍼: 뜻 가리기 토글 (viewer.js에 있는 것과 유사하지만 독립적으로 동작)
-function toggleMeanings() {
-    const table = document.getElementById('vocab-table');
-    const btn = document.getElementById('btn-toggle-mean');
-    if(table && btn) {
-        const isHidden = table.classList.toggle('hide-meanings');
-        btn.textContent = isHidden ? "👀 뜻 보이기" : "🙈 뜻 가리기";
-        btn.classList.toggle('active', isHidden);
-    }
 }
 
 // 초기화

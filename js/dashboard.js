@@ -4,7 +4,7 @@
  * 의존성: data-service.js (loadLevelIndex)
  */
 
-let currentLevel = localStorage.getItem('last_level') || 'n4';
+let currentLevel = localStorage.getItem(STORAGE_KEYS.LAST_LEVEL) || 'n4';
 
 function initDashboard() {
     switchLevel(currentLevel);
@@ -12,7 +12,7 @@ function initDashboard() {
 
 function switchLevel(level) {
     currentLevel = level;
-    localStorage.setItem('last_level', level);
+    localStorage.setItem(STORAGE_KEYS.LAST_LEVEL, level);
 
     document.body.setAttribute('data-theme', level);
 
@@ -75,7 +75,7 @@ function renderList(level, indexData) {
     let doneCount = 0;
     modules.forEach(entry => {
         const { moduleId, legacyDay, title } = entry;
-        const checkKey = `${level}_module_${moduleId}_complete`;
+        const checkKey = STORAGE_KEYS.moduleComplete(level, moduleId);
         const isDone = localStorage.getItem(checkKey) === 'true';
         const fallbackTitle = `Module ${moduleId}`;
         const baseTitle = (typeof title === 'string' && title.trim()) ? title.trim() : fallbackTitle;
@@ -98,7 +98,7 @@ function renderList(level, indexData) {
         list.appendChild(li);
     });
 
-    const lastModule = localStorage.getItem(`${level}_last_module`);
+    const lastModule = localStorage.getItem(STORAGE_KEYS.lastModule(level));
     const frame = document.getElementById('content-frame');
     const isStarredPage = frame && frame.src && frame.src.includes('starred.html');
 
@@ -124,9 +124,9 @@ function loadFrame(level, moduleId, legacyDay) {
         activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
-    localStorage.setItem(`${level}_last_module`, moduleId);
+    localStorage.setItem(STORAGE_KEYS.lastModule(level), moduleId);
 
-    if (window.innerWidth <= 768) toggleSidebar();
+    if (window.innerWidth <= UI_CONFIG.MOBILE_BREAKPOINT_PX) toggleSidebar();
 }
 
 function loadStarredPage() {
@@ -137,11 +137,11 @@ function loadStarredPage() {
 
     document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
 
-    if (window.innerWidth <= 768) toggleSidebar();
+    if (window.innerWidth <= UI_CONFIG.MOBILE_BREAKPOINT_PX) toggleSidebar();
 }
 
 function toggleComplete(level, moduleId, checkbox) {
-    const key = `${level}_module_${moduleId}_complete`;
+    const key = STORAGE_KEYS.moduleComplete(level, moduleId);
     if (checkbox.checked) localStorage.setItem(key, 'true');
     else localStorage.removeItem(key);
 
@@ -174,7 +174,7 @@ function toggleSidebar() {
 function toggleSidebarCollapse() {
     const sidebar = document.getElementById('sidebar');
     if (!sidebar) return;
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= UI_CONFIG.MOBILE_BREAKPOINT_PX) {
         sidebar.classList.toggle('show');
     } else {
         sidebar.classList.toggle('collapsed');
@@ -190,7 +190,7 @@ window.updateSidebarActive = function(level, moduleId) {
         activeItem.classList.add('active');
         activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
-    localStorage.setItem(`${level}_last_module`, moduleId);
+    localStorage.setItem(STORAGE_KEYS.lastModule(level), moduleId);
 };
 
 document.addEventListener('DOMContentLoaded', initDashboard);

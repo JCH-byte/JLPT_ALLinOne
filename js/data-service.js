@@ -128,16 +128,8 @@ function makeVersionKey(level, day, version) {
     return `${DEV_PREFIX}/${level}/${day}/${version}`;
 }
 
-function parseJsonOrDefault(raw, fallback) {
-    try {
-        return JSON.parse(raw);
-    } catch (e) {
-        return fallback;
-    }
-}
-
 function readOverrideIndex() {
-    const index = parseJsonOrDefault(localStorage.getItem(DEV_INDEX_KEY) || '{}', {});
+    const index = parseJsonSafe(localStorage.getItem(DEV_INDEX_KEY) || '{}', {});
     return (index && typeof index === 'object' && !Array.isArray(index)) ? index : {};
 }
 
@@ -151,12 +143,12 @@ function getOverrideData(level, day) {
             const sorted = [...versions].sort((a, b) => Number(b.version) - Number(a.version));
             const approved = sorted.find(v => v.status === 'approved');
             const target = approved || sorted[0];
-            const record = parseJsonOrDefault(localStorage.getItem(makeVersionKey(level, day, target.version)) || 'null', null);
+            const record = parseJsonSafe(localStorage.getItem(makeVersionKey(level, day, target.version)) || 'null', null);
             return record?.data;
         }
 
         // Legacy fallback: single blob key
-        const legacy = parseJsonOrDefault(localStorage.getItem(LEGACY_DEV_KEY) || '{}', {});
+        const legacy = parseJsonSafe(localStorage.getItem(LEGACY_DEV_KEY) || '{}', {});
         return legacy[getDayCacheKey(level, day)];
     } catch (e) {
         console.error('Error reading dev overrides:', e);

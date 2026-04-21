@@ -25,11 +25,11 @@ function checkAnswer(btn) {
     // 선택한 버튼에 대한 스타일 및 피드백 메시지 설정
     if (isCorrect) {
         btn.classList.add('correct');
-        feedbackEl.innerHTML = `<strong>⭕ 정답입니다!</strong>${comment}`;
+        feedbackEl.innerHTML = `<strong>⭕ 정답입니다!</strong>${escapeHtml(comment)}`;
         feedbackEl.classList.add('visible');
     } else {
         btn.classList.add('wrong');
-        feedbackEl.innerHTML = `<strong>❌ 아쉽네요!</strong>정답은 ${parseInt(correctIdx)+1}번 입니다.<br>${comment}`;
+        feedbackEl.innerHTML = `<strong>❌ 아쉽네요!</strong>정답은 ${parseInt(correctIdx)+1}번 입니다.<br>${escapeHtml(comment)}`;
         feedbackEl.classList.add('visible');
     }
 }
