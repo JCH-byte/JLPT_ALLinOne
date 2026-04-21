@@ -2,27 +2,9 @@
 
 const fs = require('fs');
 const path = require('path');
+const { normalizeItemKeys } = require('./shared-field-aliases');
 
 const srcDir = path.join(__dirname, '..', 'data', 'src');
-const FIELD_ALIASES = {
-    reading: 'read',
-    meaning: 'mean',
-    question: 'q',
-    options: 'opt'
-};
-
-function normalizeItemKeys(item) {
-    if (!item || typeof item !== 'object' || Array.isArray(item)) return item;
-    const normalized = { ...item };
-
-    Object.entries(FIELD_ALIASES).forEach(([legacyKey, canonicalKey]) => {
-        if (normalized[canonicalKey] == null && normalized[legacyKey] != null) {
-            normalized[canonicalKey] = normalized[legacyKey];
-        }
-    });
-
-    return normalized;
-}
 
 function isNonEmptyString(value) {
     return typeof value === 'string' && value.trim() !== '';

@@ -1,12 +1,24 @@
 /**
  * utils.js
- * 기능: URL 파라미터 파싱, TTS(음성 합성) 관리
+ * 기능: URL 파라미터 파싱, TTS(음성 합성) 관리, 공용 유틸리티
  */
 
 // URL 파라미터 유틸
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
+}
+
+// JSON 파싱 (실패 시 기본값 반환)
+function parseJsonSafe(str, defaultValue = null) {
+    try { return JSON.parse(str); } catch { return defaultValue; }
+}
+
+// HTML 특수문자 이스케이프 (XSS 방지)
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.appendChild(document.createTextNode(String(str)));
+    return div.innerHTML;
 }
 
 // ----------------------------------------------------
@@ -34,7 +46,7 @@ function speak(text) {
 
     const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=ja&client=tw-ob`;
     const audio = new Audio(url);
-    audio.playbackRate = 0.9;
+    audio.playbackRate = TTS_CONFIG.PLAYBACK_RATE;
     currentAudio = audio;
 
     let fallbackCalled = false;
@@ -57,7 +69,7 @@ function speakFallback(cleanText) {
     setTimeout(() => {
         const utterance = new SpeechSynthesisUtterance(cleanText);
         utterance.lang = 'ja-JP';
-        utterance.rate = 0.9;
+        utterance.rate = TTS_CONFIG.PLAYBACK_RATE;
 
         const voices = window.speechSynthesis.getVoices();
         const jpVoices = voices.filter(v => v.lang === 'ja-JP' || v.lang === 'ja_JP');
@@ -67,5 +79,5 @@ function speakFallback(cleanText) {
         if (selectedVoice) utterance.voice = selectedVoice;
 
         window.speechSynthesis.speak(utterance);
-    }, 50);
+    }, TTS_CONFIG.FALLBACK_DELAY_MS);
 }

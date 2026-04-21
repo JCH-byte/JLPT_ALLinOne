@@ -3,7 +3,7 @@
  * 기능: 단어 북마크(별표) 저장, 삭제, 조회 (LocalStorage 사용)
  */
 
-const BOOKMARK_KEY = 'JLPT_BOOKMARKS';
+const BOOKMARK_KEY = STORAGE_KEYS.BOOKMARKS;
 
 function getFirebaseBridge() {
     try {
@@ -27,9 +27,7 @@ function syncBookmarksToCloud(bookmarks) {
 }
 
 function getBookmarks() {
-    try {
-        return JSON.parse(localStorage.getItem(BOOKMARK_KEY) || '[]');
-    } catch (e) { return []; }
+    return parseJsonSafe(localStorage.getItem(BOOKMARK_KEY) || '[]', []);
 }
 
 // 특정 단어가 북마크되어 있는지 확인

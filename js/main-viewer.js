@@ -59,6 +59,7 @@ function renderStorySection(data) {
 
     if (data.story && storyContent) {
         if(storySection) storySection.style.display = 'block';
+        // SECURITY TODO: data.story는 어드민이 업로드한 HTML. 추후 DOMParser + 태그 허용목록 기반 정제 필요.
         storyContent.innerHTML = data.story;
 
         if(analysisList) {
@@ -88,42 +89,17 @@ function renderVocabSection(level, day, moduleId, data) {
     if (vocabTbody && data.vocab.length > 0) {
         if(vocabSection) vocabSection.style.display = 'block';
         vocabTbody.innerHTML = '';
+        vocabTbody._vocabData = data.vocab;
 
         // day가 null이면 moduleId를 북마크 키로 사용 (null → "null" 문자열 변환 방지)
         const bookmarkKey = (day != null && String(day) !== 'null') ? String(day) : moduleId;
 
         data.vocab.forEach((v, idx) => {
-            const tr = document.createElement('tr');
             const progressKeyBase = moduleId || `day${day}`;
-            const checkId = `${level}_${progressKeyBase}_v_${idx}`;
+            const checkId = STORAGE_KEYS.vocabProgress(level, progressKeyBase, idx);
             const isChecked = localStorage.getItem(checkId) === 'true';
             const isStar = isStarred(level, bookmarkKey, v.word);
-
-            tr.className = isChecked ? 'checked-row' : '';
-            const vJson = JSON.stringify(v).replace(/"/g, '&quot;');
-
-            tr.innerHTML = `
-                <td class="col-star">
-                    <button type="button" class="star-btn ${isStar ? 'active' : ''}"
-                            onclick="toggleStar('${level}', '${bookmarkKey}', ${vJson}, this); event.stopPropagation();">
-                        ${isStar ? '★' : '☆'}
-                    </button>
-                </td>
-                <td class="col-check"><input type="checkbox" id="${checkId}" ${isChecked ? 'checked' : ''}></td>
-                <td class="col-word" onclick="speak('${v.word || ""}')">🔊 ${v.word || ""}</td>
-                <td class="col-read">${v.read || v.reading || ""}</td>
-                <td class="col-mean"><span>${v.mean || v.meaning || ""}</span></td>
-            `;
-
-            tr.querySelector('input[type="checkbox"]').addEventListener('change', (e) => {
-                if(e.target.checked) {
-                    localStorage.setItem(checkId, 'true');
-                    tr.classList.add('checked-row');
-                } else {
-                    localStorage.removeItem(checkId);
-                    tr.classList.remove('checked-row');
-                }
-            });
+            const tr = renderViewerVocabRow(level, bookmarkKey, v, idx, checkId, isChecked, isStar);
             vocabTbody.appendChild(tr);
         });
 
@@ -236,16 +212,6 @@ function updateNavButtons(level, currentDay, currentModuleId, indexData) {
         }
     }
     if (nextBtn) nextBtn.href = `viewer.html?level=${level}&day=${numericDay + 1}`;
-}
-
-function toggleMeanings() {
-    const table = document.getElementById('vocab-table');
-    const btn = document.getElementById('btn-toggle-mean');
-    if(table && btn) {
-        const isHidden = table.classList.toggle('hide-meanings');
-        btn.textContent = isHidden ? "👀 뜻 보이기" : "🙈 뜻 가리기";
-        btn.classList.toggle('active', isHidden);
-    }
 }
 
 function toggleViewMode(mode) {
