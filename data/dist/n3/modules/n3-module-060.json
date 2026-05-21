@@ -1,0 +1,187 @@
+{
+  "moduleId": "n3-module-060",
+  "level": "n3",
+  "ordinal": 60,
+  "title": "な形容詞・2 (な형용사 2)",
+  "ruleVersion": "n3-rule-v1",
+  "vocab": [
+    {
+      "id": "v-4eec440347478de8ff28d1ce8e51e0045cebc441",
+      "word": "消極的な",
+      "read": "しょうきょくてきな",
+      "mean": "소극적인",
+      "tags": []
+    },
+    {
+      "id": "v-52e75e1982783e160310e0d2ad8b32f9d4d9d123",
+      "word": "正直な",
+      "read": "しょうじきな",
+      "mean": "정직한",
+      "tags": []
+    },
+    {
+      "id": "v-001b71abc35ea0e273308cb911fe1b4ec445c1d5",
+      "word": "上品な",
+      "read": "じょうひんな",
+      "mean": "고상한, 품위 있는",
+      "tags": []
+    },
+    {
+      "id": "v-95dccaec5a4349a11d0635b91530a3d61c716b54",
+      "word": "新鮮な",
+      "read": "しんせんな",
+      "mean": "신선한",
+      "tags": []
+    },
+    {
+      "id": "v-60f1377ffc33105101268b3a9f684ac40c4bc611",
+      "word": "素敵な",
+      "read": "すてきな",
+      "mean": "멋진",
+      "tags": []
+    },
+    {
+      "id": "v-a36e37bcb06396807df3d71baf3633b193d7c9cc",
+      "word": "素直な",
+      "read": "すなおな",
+      "mean": "솔직한, 순순한",
+      "tags": []
+    },
+    {
+      "id": "v-d83cc0522d5f4cb0c36577824a2b2ca2482347ba",
+      "word": "正確な",
+      "read": "せいかくな",
+      "mean": "정확한",
+      "tags": []
+    },
+    {
+      "id": "v-6a244f908cacceb3ce0bc02a92de4c75dc200f75",
+      "word": "清潔な",
+      "read": "せいけつな",
+      "mean": "청결한",
+      "tags": []
+    },
+    {
+      "id": "v-cf0c9ed889b283b02102336f02c4e6a18693c26e",
+      "word": "正常な",
+      "read": "せいじょうな",
+      "mean": "정상적인",
+      "tags": []
+    },
+    {
+      "id": "v-1c89de6392dc369463ae96589af03f5e3593fc63",
+      "word": "積極的な",
+      "read": "せっきょくてきな",
+      "mean": "적극적인",
+      "tags": []
+    },
+    {
+      "id": "v-0402ac53ac67471f0cdacc53396fc75adbd23f0b",
+      "word": "そっくりな",
+      "read": "そっくりな",
+      "mean": "똑 닮은",
+      "tags": []
+    },
+    {
+      "id": "v-b7d36e6c52534b5cd98be4778fec9a2db7749a1c",
+      "word": "退屈な",
+      "read": "たいくつな",
+      "mean": "지루한",
+      "tags": []
+    },
+    {
+      "id": "v-fedef10092d8f48cf9571fffc23242018619bc45",
+      "word": "代表的な",
+      "read": "だいひょうてきな",
+      "mean": "대표적인",
+      "tags": []
+    },
+    {
+      "id": "v-17748160818b2f86f1fe9bb2e8159f54c3ec1b91",
+      "word": "確かな",
+      "read": "たしかな",
+      "mean": "확실한",
+      "tags": []
+    },
+    {
+      "id": "v-5eb652da207d50730c26fe80a49c2b68b305208e",
+      "word": "短気な",
+      "read": "たんきな",
+      "mean": "성미가 급한",
+      "tags": []
+    },
+    {
+      "id": "v-887bf9b0ad6de0ea6bcf8965c4acd5e4c5689c2a",
+      "word": "単純な",
+      "read": "たんじゅんな",
+      "mean": "단순한",
+      "tags": []
+    },
+    {
+      "id": "v-5df8948ec20919f9d1e902ebb9c7cb23e75b3a04",
+      "word": "適当な",
+      "read": "てきとうな",
+      "mean": "적당한",
+      "tags": []
+    },
+    {
+      "id": "v-885b78879750a368bfcc3ec9186dfa35d004748a",
+      "word": "得意な",
+      "read": "とくいな",
+      "mean": "잘하는, 자신 있는",
+      "tags": []
+    },
+    {
+      "id": "v-647ea01ee69ca787b49c62da150a99c27f978037",
+      "word": "なだらかな",
+      "read": "なだらかな",
+      "mean": "완만한",
+      "tags": []
+    },
+    {
+      "id": "v-dd3b210cf3c7c295ec358370f5ff3d4c7df43338",
+      "word": "苦手な",
+      "read": "にがてな",
+      "mean": "서툰, 거북한",
+      "tags": []
+    },
+    {
+      "id": "v-842369b6bd0415d43d932e63270ba9de0c072bf2",
+      "word": "熱心な",
+      "read": "ねっしんな",
+      "mean": "열심인",
+      "tags": []
+    },
+    {
+      "id": "v-b580028244062bb1718dc9054b5bab5b9548abec",
+      "word": "不安な",
+      "read": "ふあんな",
+      "mean": "불안한",
+      "tags": []
+    },
+    {
+      "id": "v-4a7a43a830881a43cdb87bffa6df396f6ab4be2f",
+      "word": "不可能な",
+      "read": "ふかのうな",
+      "mean": "불가능한",
+      "tags": []
+    },
+    {
+      "id": "v-243ecf429ccc46a31b372d8fd532c9dee0c6fc4e",
+      "word": "不思議な",
+      "read": "ふしぎな",
+      "mean": "이상한, 불가사의한",
+      "tags": []
+    },
+    {
+      "id": "v-f3ccdefaa09fb8e9826d39522184c474ae313350",
+      "word": "不自由な",
+      "read": "ふじゆうな",
+      "mean": "불편한, 부자유스러운",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

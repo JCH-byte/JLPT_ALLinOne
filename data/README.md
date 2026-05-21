@@ -1,49 +1,69 @@
-# JLPT 데이터 관리 규칙
+# JLPT 데이터 관리
 
-## 단일 원천 포맷
-- 원천 데이터는 `data/src/n{1..5}.json`만 수정합니다.
-- `data/dist/{level}/index.json`, `data/dist/{level}/day-{n}.json`은 배포/런타임용 **생성물**입니다.
+## 디렉터리 구조
+
+```
+data/src/{level}/
+  vocab.json                          # 레벨 vocab 풀 (id, word, read, mean, tags)
+  modules/{moduleId}.json             # 모듈 1개의 모든 것 (vocabIds 참조 + story/analysis/quiz)
+data/dist/{level}/
+  index.json                          # 모듈 목록 + 메타 (moduleOrder, modules)
+  modules/{moduleId}.json             # 빌드 결과 (vocab inline 포함)
+```
+
+런타임에서는 `data/dist/{level}/index.json`과 `data/dist/{level}/modules/{moduleId}.json`만 fetch.
 
 ## 빌드
-```bash
-node scripts/build-data.js
-```
-
-## 검증(동기화 확인)
-```bash
-node scripts/build-data.js --check
-```
-
-> 규칙: **수정은 src(item)만, dist는 생성물**
->
-> 🚫 **금지:** `data/dist/{level}/day-{n}.json`, `index.json`을 직접 수정하지 않습니다.
-> 변경이 필요하면 `data/src/{level}.items.json`(원천 item)을 수정한 뒤 `node scripts/build-data.js`로 재생성합니다.
-
-
-## 표준 수정 플로우 (patch 기반)
-1. admin에서 `src patch` 포맷(`{ level, day, data }`)으로 patch 파일을 다운로드합니다.
-2. patch를 `node scripts/apply-day-patch.js <patch.json>`로 `data/src/nX.json`에 안전 병합합니다.
-3. 스크립트가 병합 직후 `node scripts/build-data.js --check`를 자동 실행해 `dist` 동기화를 강제합니다.
-4. 동기화 검증을 통과한 상태로 PR을 생성합니다.
-
-## pre-commit 훅(선택)
-리포지토리 훅 경로를 설정하면 커밋 전에 자동으로 dist를 재생성/검증합니다.
 
 ```bash
-git config core.hooksPath .githooks
+node scripts/build-data.js          # src → dist 생성
+node scripts/build-data.js --check  # 동기화 검증 (CI 동일)
 ```
 
-## N4 공개 범위 정책(환경별)
-- `n4` 레벨 공개 범위는 `N4_MAX_DAY` 환경변수로 제어합니다.
-- 기본값은 `28`이며, 설정하지 않으면 Day 28까지 생성됩니다.
-- `N4_MAX_DAY`는 `1`~`28` 정수만 허용됩니다.
+## 규칙
 
-## 배포 체크리스트
-- 배포 환경의 `N4_MAX_DAY` 값 확인(기본: `28`, 필요 시 축소).
-- `node scripts/build-data.js --check` 실행으로 `data/src`와 `data/dist` 동기화 확인.
+- **src만 수정.** `data/dist/**`는 100% 생성물. 수동 편집 금지.
+- 모듈 수정: `data/src/{level}/modules/{moduleId}.json` 직접 편집 → `build-data.js` 재실행.
+- 새 vocab 추가: `data/src/{level}/vocab.json`에 추가 후 모듈의 `vocabIds`에 id 등록.
 
+## 로컬 실행
 
-## 협업 경로 분리(전환기)
-- 신규 모듈 기반 작업 경로: `content/modules/`
-- 레거시 Day 기반 작업 경로: `legacy/day/`
-- 브랜치/병합/PR touch scope 규칙: `docs/collaboration-workflow.md`
+브라우저 직접 열기(`file://`)는 fetch 차단으로 실패. 정적 서버로 띄울 것:
+
+```bash
+node scripts/serve.js          # 기본 포트 8000
+# 또는 Windows에서
+serve.bat
+```
+`http://localhost:8000` 접속.
+
+## 모듈 schema
+
+src 모듈 파일 (`data/src/{level}/modules/{moduleId}.json`):
+```json
+{
+  "moduleId": "n3-module-001",
+  "level": "n3",
+  "ordinal": 1,
+  "title": "...",
+  "ruleVersion": "n3-rule-v1",
+  "vocabIds": ["v-...", ...],
+  "story": "<h3>...</h3><p>...</p>",
+  "analysis": [{ "sent": "...", "trans": "...", "grammar": "...", "tags": [...] }],
+  "quiz": [{ "q": "...", "opt": [...], "ans": 0, "comment": "..." }]
+}
+```
+
+dist 모듈 파일은 같은 모양에서 `vocabIds` 대신 `vocab` 배열이 인라인됨.
+
+## 레거시 자산 (마이그레이션 후 cohabitation 기간)
+
+다음 위치는 새 빌드 흐름에서 미사용. 안정화 후 별도 커밋으로 정리 예정.
+- `data/src/n{1..5}.json` (day-키 콘텐츠)
+- `data/src/n{1..5}.items.json` (vocab + assignedDay)
+- `data/src/module-metadata.json`
+- `data/dist/{level}/day-*.json`
+- `data/dist/{level}/module-vocab/*.json`
+- `content/modules/src/*.json`
+- `legacy/day/`
+- `archive/`

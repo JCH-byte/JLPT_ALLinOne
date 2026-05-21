@@ -1,0 +1,187 @@
+{
+  "moduleId": "n3-module-024",
+  "level": "n3",
+  "ordinal": 24,
+  "title": "さ行の名詞・10 (さ행 명사 10)",
+  "ruleVersion": "n3-rule-v1",
+  "vocab": [
+    {
+      "id": "v-818e2de3c6dd229759683a047b79d6171f52b27c",
+      "word": "前半",
+      "read": "ぜんはん",
+      "mean": "전반",
+      "tags": []
+    },
+    {
+      "id": "v-de20330a2ecc7b9a8925fe596afab3887c8520c6",
+      "word": "扇風機",
+      "read": "せんぷうき",
+      "mean": "선풍기",
+      "tags": []
+    },
+    {
+      "id": "v-903ec07453fe5b0c2d8a94d3f0c38814ea745cd3",
+      "word": "洗面所",
+      "read": "せんめんじょ",
+      "mean": "세면소, 세면장",
+      "tags": []
+    },
+    {
+      "id": "v-9d59a33e2d53b2d24f347e875a58c2db8d1b2661",
+      "word": "専門家",
+      "read": "せんもんか",
+      "mean": "전문가",
+      "tags": []
+    },
+    {
+      "id": "v-bfc6ceb1bea4fdecc4ca494182d223bdae500448",
+      "word": "線路",
+      "read": "せんろ",
+      "mean": "선로",
+      "tags": []
+    },
+    {
+      "id": "v-df06545fd62ac42dcc42071a61c1278a4a268a5c",
+      "word": "騒音",
+      "read": "そうおん",
+      "mean": "소음",
+      "tags": []
+    },
+    {
+      "id": "v-204140055438ff9b226ccc49d21ecd2d71fd8546",
+      "word": "送金",
+      "read": "そうきん",
+      "mean": "송금",
+      "tags": []
+    },
+    {
+      "id": "v-a3483e805434cb6c8f82c87ecf636affdd2cf37d",
+      "word": "総合",
+      "read": "そうごう",
+      "mean": "종합",
+      "tags": []
+    },
+    {
+      "id": "v-0e20e6339683afe7d45dabc7b9c30852c6d44e3d",
+      "word": "掃除機",
+      "read": "そうじき",
+      "mean": "청소기",
+      "tags": []
+    },
+    {
+      "id": "v-2e46f4941bc98e86e577ce9f52da5cf2da715aa2",
+      "word": "送信",
+      "read": "そうしん",
+      "mean": "송신",
+      "tags": []
+    },
+    {
+      "id": "v-3ed71c2b7387dcd3470e1c61051803919db918d9",
+      "word": "想像",
+      "read": "そうぞう",
+      "mean": "상상",
+      "tags": []
+    },
+    {
+      "id": "v-40ffba34ebcb8b398148e73b41450bbe82879546",
+      "word": "創造",
+      "read": "そうぞう",
+      "mean": "창조",
+      "tags": []
+    },
+    {
+      "id": "v-8693e24ee4b58c307b72da337acbd74044907be8",
+      "word": "相続",
+      "read": "そうぞく",
+      "mean": "상속",
+      "tags": []
+    },
+    {
+      "id": "v-a354c932871a9e0752342cf927698b88ac21c897",
+      "word": "早退",
+      "read": "そうたい",
+      "mean": "조퇴",
+      "tags": []
+    },
+    {
+      "id": "v-059bc16e7858b62a3c5b78b819cfc5308ba08f0b",
+      "word": "送別会",
+      "read": "そうべつかい",
+      "mean": "송별회",
+      "tags": []
+    },
+    {
+      "id": "v-becf53168cefef2ba8910d1d345c65d738e36281",
+      "word": "送料",
+      "read": "そうりょう",
+      "mean": "송료, 배송비",
+      "tags": []
+    },
+    {
+      "id": "v-8100702e07528d6da4ad1d37eac36b35a536c08e",
+      "word": "速達",
+      "read": "そくたつ",
+      "mean": "속달",
+      "tags": []
+    },
+    {
+      "id": "v-be301e10bd9c1eaeb30750ccda61737e0217aac7",
+      "word": "測定",
+      "read": "そくてい",
+      "mean": "측정",
+      "tags": []
+    },
+    {
+      "id": "v-06e4695c54d3412f28bab7de144df86226b0d827",
+      "word": "速度",
+      "read": "そくど",
+      "mean": "속도",
+      "tags": []
+    },
+    {
+      "id": "v-f0c45df8109fd962fdb066da8f8391361c11a133",
+      "word": "測量",
+      "read": "そくりょう",
+      "mean": "측량",
+      "tags": []
+    },
+    {
+      "id": "v-bd73b7ef6013d4a3de1fe51671e63be3ac503236",
+      "word": "底",
+      "read": "そこ",
+      "mean": "바닥",
+      "tags": []
+    },
+    {
+      "id": "v-f19b44b61566b370df461ab38165a6f9e69ff7b8",
+      "word": "卒業式",
+      "read": "そつぎょうしき",
+      "mean": "졸업식",
+      "tags": []
+    },
+    {
+      "id": "v-d2d7e3ca5c6439731910a2358d31be3ff1118d01",
+      "word": "袖",
+      "read": "そで",
+      "mean": "소매",
+      "tags": []
+    },
+    {
+      "id": "v-4615490697498015925c65a5e00bd3b32ef24c35",
+      "word": "そのまま",
+      "read": "そのまま",
+      "mean": "그대로",
+      "tags": []
+    },
+    {
+      "id": "v-602242983b1974df574a2ab08245065fe2daddac",
+      "word": "体育",
+      "read": "たいいく",
+      "mean": "체육",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

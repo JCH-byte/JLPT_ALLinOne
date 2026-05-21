@@ -5,19 +5,18 @@
  */
 
 function initViewer() {
+    if (typeof migrateLegacyStorageKeys === 'function') migrateLegacyStorageKeys();
     const level = getQueryParam('level') || 'n4';
     const moduleId = getQueryParam('module');
-    const day = getQueryParam('day');
 
     document.body.setAttribute('data-theme', level);
 
-    loadViewerData(level, { module: moduleId, day }, (result) => {
+    loadViewerData(level, { module: moduleId }, (result) => {
         const container = document.getElementById('viewer-content') || document.body;
-        const resolvedDay = result?.day;
         const resolvedModule = result?.moduleId || moduleId || '';
         const data = result?.data;
 
-        if ((!resolvedDay && !resolvedModule) || !data) {
+        if (!resolvedModule || !data) {
             const msg = `<div class="empty-state" style="padding:40px; text-align:center;">
                             <h3>데이터 없음</h3>
                             <p>Module ${resolvedModule || '?'} 데이터를 불러올 수 없습니다.</p>
@@ -27,12 +26,12 @@ function initViewer() {
             return;
         }
 
-        renderViewerContent(level, resolvedDay, resolvedModule, data, result?.indexData || null);
+        renderViewerContent(level, resolvedModule, data, result?.indexData || null);
     });
 }
 
-function renderViewerContent(level, day, moduleId, data, indexData) {
-    document.title = `[${level.toUpperCase()}] ${data.title || moduleId || `Day ${day}`}`;
+function renderViewerContent(level, moduleId, data, indexData) {
+    document.title = `[${level.toUpperCase()}] ${data.title || moduleId}`;
 
     const headerTitle = document.getElementById('header-title');
     if (headerTitle) headerTitle.textContent = data.title;
@@ -40,9 +39,9 @@ function renderViewerContent(level, day, moduleId, data, indexData) {
     if (badge) badge.textContent = level.toUpperCase();
 
     renderStorySection(data);
-    renderVocabSection(level, day, moduleId, data);
+    renderVocabSection(level, moduleId, data);
     renderQuizSection(data);
-    updateNavButtons(level, day, moduleId, indexData);
+    updateNavButtons(level, moduleId, indexData);
 
     // 부모 프레임(사이드바)의 활성화된 항목 업데이트
     try {
@@ -82,7 +81,7 @@ function renderStorySection(data) {
     }
 }
 
-function renderVocabSection(level, day, moduleId, data) {
+function renderVocabSection(level, moduleId, data) {
     const vocabTbody = document.getElementById('vocab-tbody');
     const vocabSection = document.getElementById('section-vocab') || (vocabTbody ? vocabTbody.closest('section') : null);
 
@@ -91,15 +90,11 @@ function renderVocabSection(level, day, moduleId, data) {
         vocabTbody.innerHTML = '';
         vocabTbody._vocabData = data.vocab;
 
-        // day가 null이면 moduleId를 북마크 키로 사용 (null → "null" 문자열 변환 방지)
-        const bookmarkKey = (day != null && String(day) !== 'null') ? String(day) : moduleId;
-
         data.vocab.forEach((v, idx) => {
-            const progressKeyBase = moduleId || `day${day}`;
-            const checkId = STORAGE_KEYS.vocabProgress(level, progressKeyBase, idx);
+            const checkId = STORAGE_KEYS.vocabProgress(level, moduleId, idx);
             const isChecked = localStorage.getItem(checkId) === 'true';
-            const isStar = isStarred(level, bookmarkKey, v.word);
-            const tr = renderViewerVocabRow(level, bookmarkKey, v, idx, checkId, isChecked, isStar);
+            const isStar = isStarred(level, moduleId, v.word);
+            const tr = renderViewerVocabRow(level, moduleId, v, idx, checkId, isChecked, isStar);
             vocabTbody.appendChild(tr);
         });
 
@@ -166,52 +161,27 @@ function renderQuizSection(data) {
     }
 }
 
-function updateNavButtons(level, currentDay, currentModuleId, indexData) {
+function updateNavButtons(level, currentModuleId, indexData) {
     const prevBtn = document.getElementById('btn-prev');
     const nextBtn = document.getElementById('btn-next');
 
-    if (currentModuleId && indexData && indexData.moduleToDay) {
-        const modules = Object.keys(indexData.moduleToDay)
-            .map((moduleId) => ({ moduleId, day: Number(indexData.moduleToDay[moduleId]) }))
-            .filter((entry) => Number.isInteger(entry.day) && entry.day > 0)
-            .sort((a, b) => a.day - b.day);
+    const order = Array.isArray(indexData?.moduleOrder) ? indexData.moduleOrder : [];
+    const currentIndex = order.indexOf(currentModuleId);
+    const prev = currentIndex > 0 ? order[currentIndex - 1] : null;
+    const next = currentIndex >= 0 && currentIndex < order.length - 1 ? order[currentIndex + 1] : null;
 
-        const currentIndex = modules.findIndex(entry => entry.moduleId === currentModuleId);
-        const prev = currentIndex > 0 ? modules[currentIndex - 1] : null;
-        const next = currentIndex >= 0 && currentIndex < modules.length - 1 ? modules[currentIndex + 1] : null;
-
-        if (prevBtn) {
-            if (prev) {
-                prevBtn.href = `viewer.html?level=${level}&module=${encodeURIComponent(prev.moduleId)}`;
-                prevBtn.classList.remove('disabled');
-            } else {
-                prevBtn.classList.add('disabled');
-                prevBtn.removeAttribute('href');
-            }
-        }
-        if (nextBtn) {
-            if (next) {
-                nextBtn.href = `viewer.html?level=${level}&module=${encodeURIComponent(next.moduleId)}`;
-                nextBtn.classList.remove('disabled');
-            } else {
-                nextBtn.classList.add('disabled');
-                nextBtn.removeAttribute('href');
-            }
-        }
-        return;
-    }
-
-    const numericDay = Number(currentDay);
-    if (prevBtn) {
-        if (numericDay > 1) {
-            prevBtn.href = `viewer.html?level=${level}&day=${numericDay - 1}`;
-            prevBtn.classList.remove('disabled');
+    const apply = (btn, target) => {
+        if (!btn) return;
+        if (target) {
+            btn.href = `viewer.html?level=${level}&module=${encodeURIComponent(target)}`;
+            btn.classList.remove('disabled');
         } else {
-            prevBtn.classList.add('disabled');
-            prevBtn.removeAttribute('href');
+            btn.classList.add('disabled');
+            btn.removeAttribute('href');
         }
-    }
-    if (nextBtn) nextBtn.href = `viewer.html?level=${level}&day=${numericDay + 1}`;
+    };
+    apply(prevBtn, prev);
+    apply(nextBtn, next);
 }
 
 function toggleViewMode(mode) {

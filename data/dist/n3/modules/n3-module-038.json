@@ -1,0 +1,187 @@
+{
+  "moduleId": "n3-module-038",
+  "level": "n3",
+  "ordinal": 38,
+  "title": "ま行の名詞・1 (ま행 명사 1)",
+  "ruleVersion": "n3-rule-v1",
+  "vocab": [
+    {
+      "id": "v-d08e5b5b9948d3f4efcd36dbe5d07da9382f0f1e",
+      "word": "待ち合わせ",
+      "read": "まちあわせ",
+      "mean": "약속하여 만남",
+      "tags": []
+    },
+    {
+      "id": "v-2fdb8a23a611742b77a01815be165d87cb0b5223",
+      "word": "間違い",
+      "read": "まちがい",
+      "mean": "틀림, 잘못",
+      "tags": []
+    },
+    {
+      "id": "v-a6a120912418d07adf985f049291c43aa5a8f730",
+      "word": "街角",
+      "read": "まちかど",
+      "mean": "길모퉁이",
+      "tags": []
+    },
+    {
+      "id": "v-21593d20d5631c466e354f22b98213efaf9525a3",
+      "word": "松",
+      "read": "まつ",
+      "mean": "소나무",
+      "tags": []
+    },
+    {
+      "id": "v-264862d1fd14013e466eb86f4fac4955d3769fa2",
+      "word": "窓側",
+      "read": "まどがわ",
+      "mean": "창가",
+      "tags": []
+    },
+    {
+      "id": "v-2b1562f14df6ca3aeee0142282b1f4285a284f3e",
+      "word": "まな板",
+      "read": "まないた",
+      "mean": "도마",
+      "tags": []
+    },
+    {
+      "id": "v-e64f558d8ed3a10bc8eccd5d9c96b69117c8fd6d",
+      "word": "真似",
+      "read": "まね",
+      "mean": "흉내",
+      "tags": []
+    },
+    {
+      "id": "v-75d70f826f308dfd5ff55d25946a17861db8178c",
+      "word": "豆",
+      "read": "まめ",
+      "mean": "콩",
+      "tags": []
+    },
+    {
+      "id": "v-f49db6e783dad99b250611b58c567006ab1492ae",
+      "word": "真夜中",
+      "read": "まよなか",
+      "mean": "한밤중",
+      "tags": []
+    },
+    {
+      "id": "v-ff438e51bfe78ef6437d03410d65a8824ce9c8de",
+      "word": "丸",
+      "read": "まる",
+      "mean": "동그라미, 원",
+      "tags": []
+    },
+    {
+      "id": "v-f39e232c3aa2aaf99e01084287e9129470490bb2",
+      "word": "周り",
+      "read": "まわり",
+      "mean": "주위, 주변",
+      "tags": []
+    },
+    {
+      "id": "v-f1dd70f5e7eaba383c6beda90248d7071edcf545",
+      "word": "回り",
+      "read": "まわり",
+      "mean": "돎, 회전",
+      "tags": []
+    },
+    {
+      "id": "v-6010d0a5f059c18091b026bf5461d4859e532955",
+      "word": "回り道",
+      "read": "まわりみち",
+      "mean": "멀리 돌아가는 길",
+      "tags": []
+    },
+    {
+      "id": "v-d97fae40c1726de0a9335fd1bc37ad4806bd222b",
+      "word": "満員",
+      "read": "まんいん",
+      "mean": "만원",
+      "tags": []
+    },
+    {
+      "id": "v-afa3b9284656ff346ba44d19af6421a23a545368",
+      "word": "満足",
+      "read": "まんぞく",
+      "mean": "만족",
+      "tags": []
+    },
+    {
+      "id": "v-342c061527c694345bc58b700f4fa7fbbbe93123",
+      "word": "満点",
+      "read": "まんてん",
+      "mean": "만점",
+      "tags": []
+    },
+    {
+      "id": "v-23b56479b405a72e1886f42eb1dd23f383714681",
+      "word": "身",
+      "read": "み",
+      "mean": "몸, 신분",
+      "tags": []
+    },
+    {
+      "id": "v-817e70a0228490622035d44dcd1b2be42af8b0bb",
+      "word": "見送り",
+      "read": "みおくり",
+      "mean": "배웅",
+      "tags": []
+    },
+    {
+      "id": "v-62b4f807b14ab85c2c16e966418a3d50a0cc4b0a",
+      "word": "味方",
+      "read": "みかた",
+      "mean": "편, 내 편",
+      "tags": []
+    },
+    {
+      "id": "v-1aa41d595c618470e4871801e3baaa798d60f362",
+      "word": "湖",
+      "read": "みずうみ",
+      "mean": "호수",
+      "tags": []
+    },
+    {
+      "id": "v-1172d673c9c3dc6e7e25060c05552600fa29e731",
+      "word": "水着",
+      "read": "みずぎ",
+      "mean": "수영복",
+      "tags": []
+    },
+    {
+      "id": "v-10b43d17bf6ae70684b2b2013ad04bb8d152b1a3",
+      "word": "見出し",
+      "read": "みだし",
+      "mean": "표제어, 제목",
+      "tags": []
+    },
+    {
+      "id": "v-ba93c8ab8b6812ee36f98b2fd5e84e871db8014f",
+      "word": "緑",
+      "read": "みどり",
+      "mean": "녹색",
+      "tags": []
+    },
+    {
+      "id": "v-407c9440f2892269b2ac1d9cfea0cb760be49a9c",
+      "word": "見直し",
+      "read": "みなおし",
+      "mean": "검토, 재검토",
+      "tags": []
+    },
+    {
+      "id": "v-cb14b21f9c42786546b42aa257b4b0e3091f8395",
+      "word": "明後日",
+      "read": "あさって",
+      "mean": "모레",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

@@ -1,0 +1,187 @@
+{
+  "moduleId": "n2-module-020",
+  "level": "n2",
+  "ordinal": 20,
+  "title": "さ行の名詞・3 (さ행 명사 3)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-e72aa712e4219741f3d4cb175edea2cc2918e7c6",
+      "word": "磁石",
+      "read": "じしゃく",
+      "mean": "자석",
+      "tags": []
+    },
+    {
+      "id": "v-8faa792ca7457927cc6c3fda9f95b86b85510e51",
+      "word": "支出",
+      "read": "ししゅつ",
+      "mean": "지출",
+      "tags": []
+    },
+    {
+      "id": "v-b4e231f7d8eedf010f5449802b21465ca9c498b4",
+      "word": "思想",
+      "read": "しそう",
+      "mean": "사상",
+      "tags": []
+    },
+    {
+      "id": "v-a1d069f7b0cf5e476ff041ad5422ad686e235228",
+      "word": "子孫",
+      "read": "しそん",
+      "mean": "자손",
+      "tags": []
+    },
+    {
+      "id": "v-5d4e513d8db33757eeecff1e99019cde7fec40a8",
+      "word": "辞退",
+      "read": "じたい",
+      "mean": "사퇴",
+      "tags": []
+    },
+    {
+      "id": "v-733cd76600b2c98b798965bb5ae2a7dce6f1ab2a",
+      "word": "自体",
+      "read": "じたい",
+      "mean": "자체",
+      "tags": []
+    },
+    {
+      "id": "v-0de160da63898c0a01669507e8c41d758eef07be",
+      "word": "自宅",
+      "read": "じたく",
+      "mean": "자택",
+      "tags": []
+    },
+    {
+      "id": "v-4107cb4160820eb573d7003c864428704627ec8c",
+      "word": "市長",
+      "read": "しちょう",
+      "mean": "시장(market mayor)",
+      "tags": []
+    },
+    {
+      "id": "v-3db1c7e4c28e02ed3244f8e65dbe2b8ea04d7405",
+      "word": "視聴者",
+      "read": "しちょうしゃ",
+      "mean": "시청자",
+      "tags": []
+    },
+    {
+      "id": "v-4e055a270d7300c962dbcd7cc7f74b85d6671feb",
+      "word": "質",
+      "read": "しつ",
+      "mean": "질",
+      "tags": []
+    },
+    {
+      "id": "v-3e60e4fddf2517c9a37508e139fbb6579c73a855",
+      "word": "実感",
+      "read": "じっかん",
+      "mean": "실감",
+      "tags": []
+    },
+    {
+      "id": "v-6bbe8764c78e4d988acaf9b921bb7f865f0053e9",
+      "word": "実験",
+      "read": "じっけん",
+      "mean": "실험",
+      "tags": []
+    },
+    {
+      "id": "v-3de8d94d8ee726b03e2c8166f3dd4153b3de5d8e",
+      "word": "実際",
+      "read": "じっさい",
+      "mean": "실제",
+      "tags": []
+    },
+    {
+      "id": "v-ff7d13b18d162982b26162921b24a197d0bdbc00",
+      "word": "実施",
+      "read": "じっし",
+      "mean": "실시",
+      "tags": []
+    },
+    {
+      "id": "v-f298f7820f611a75c402adb31d1cdacb169654c1",
+      "word": "実習",
+      "read": "じっしゅう",
+      "mean": "실습",
+      "tags": []
+    },
+    {
+      "id": "v-3f3054b6fe7637625425b7b096311d90ea56b362",
+      "word": "実績",
+      "read": "じっせき",
+      "mean": "실적",
+      "tags": []
+    },
+    {
+      "id": "v-5595b5fd493a5ad7796f64582931d87f9311c773",
+      "word": "実践",
+      "read": "じっせん",
+      "mean": "실천",
+      "tags": []
+    },
+    {
+      "id": "v-da4e454188be8345246f6e42b7b6471776fad1b9",
+      "word": "執筆",
+      "read": "しっぴつ",
+      "mean": "집필",
+      "tags": []
+    },
+    {
+      "id": "v-4e7d24e7ff3037327ebb5bde47e2a4b5bba2b6b2",
+      "word": "実物",
+      "read": "じつぶつ",
+      "mean": "실물",
+      "tags": []
+    },
+    {
+      "id": "v-2c10c5584729d93279f352ce33cca8c801489cc7",
+      "word": "尻尾",
+      "read": "しっぽ",
+      "mean": "꼬리",
+      "tags": []
+    },
+    {
+      "id": "v-99923079195831606d421849c0cfe4746b3f5866",
+      "word": "失望",
+      "read": "しつぼう",
+      "mean": "실망",
+      "tags": []
+    },
+    {
+      "id": "v-d61577caefcb1cf9a206d137629527a1f14e4e58",
+      "word": "実務",
+      "read": "じつむ",
+      "mean": "실무",
+      "tags": []
+    },
+    {
+      "id": "v-6ad76d01884fca8beb467edba532a6d0eaf20d17",
+      "word": "実例",
+      "read": "じつれい",
+      "mean": "실례",
+      "tags": []
+    },
+    {
+      "id": "v-164ff4abb0ecac65d7239d1c03a51a03a60294b6",
+      "word": "指摘",
+      "read": "してき",
+      "mean": "지적",
+      "tags": []
+    },
+    {
+      "id": "v-264ece3a623774c46a378007f517d88c3f87a9f6",
+      "word": "児童",
+      "read": "じどう",
+      "mean": "아동",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

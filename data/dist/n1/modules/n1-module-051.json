@@ -1,0 +1,187 @@
+{
+  "moduleId": "n1-module-051",
+  "level": "n1",
+  "ordinal": 51,
+  "title": "や行の名詞・1 (や행 명사 1)",
+  "ruleVersion": "n1-rule-v1",
+  "vocab": [
+    {
+      "id": "v-7aeed309a926c94cdb83d1b5db82a75814c0ce99",
+      "word": "猛反対",
+      "read": "もうはんたい",
+      "mean": "맹반대",
+      "tags": []
+    },
+    {
+      "id": "v-05bba64b8839b27eaf562a5549f224be77b3f060",
+      "word": "面目",
+      "read": "めんぼく",
+      "mean": "면목",
+      "tags": []
+    },
+    {
+      "id": "v-dd5e09fd21e992a3ec58b444c4b8d9a3692aeb58",
+      "word": "盲点",
+      "read": "もうてん",
+      "mean": "맹점",
+      "tags": []
+    },
+    {
+      "id": "v-3f30755eeb8300b1b053dcba3de678c7eb7b8ea5",
+      "word": "網羅",
+      "read": "もうら",
+      "mean": "망라",
+      "tags": []
+    },
+    {
+      "id": "v-168d74609908a0885e1bfd5d1773b2e986e0c666",
+      "word": "目録",
+      "read": "もくろく",
+      "mean": "목록",
+      "tags": []
+    },
+    {
+      "id": "v-1dc3000fd61373de161914135f35a3fa7adf2f94",
+      "word": "目論見",
+      "read": "もくろみ",
+      "mean": "계획, 의도",
+      "tags": []
+    },
+    {
+      "id": "v-dce26f9587187dec5f41c4622a0f86d6ae059e57",
+      "word": "模型",
+      "read": "もけい",
+      "mean": "모형",
+      "tags": []
+    },
+    {
+      "id": "v-e408a3e3d5e818e219ef8c300ee37baebb28f82e",
+      "word": "模索",
+      "read": "もさく",
+      "mean": "모색",
+      "tags": []
+    },
+    {
+      "id": "v-edd5febd639e208fdbe71eacdbdd0fe50eb649ac",
+      "word": "持ち切り",
+      "read": "もちきり",
+      "mean": "화제로 삼음, 자자함",
+      "tags": []
+    },
+    {
+      "id": "v-b69ebc2eb6735808604c34c2dc91b096bc1925f6",
+      "word": "模倣",
+      "read": "もほう",
+      "mean": "모방",
+      "tags": []
+    },
+    {
+      "id": "v-09c89396f6cbb1bd3102c0955dbed84931e0cb54",
+      "word": "役員",
+      "read": "やくいん",
+      "mean": "임원",
+      "tags": []
+    },
+    {
+      "id": "v-b332c59d929245918c4893cbe3a16f6c363eff4e",
+      "word": "躍進",
+      "read": "やくしん",
+      "mean": "약진",
+      "tags": []
+    },
+    {
+      "id": "v-215dbc020ceb6867347a3e80c3422a7c99c34a74",
+      "word": "屋敷",
+      "read": "やしき",
+      "mean": "저택",
+      "tags": []
+    },
+    {
+      "id": "v-f3996213aa89079187eb57b2c6ae3fbad9cfdb3d",
+      "word": "野心",
+      "read": "やしん",
+      "mean": "야심",
+      "tags": []
+    },
+    {
+      "id": "v-d33733c95292436fef12181f8dcdb4b9e1671e9a",
+      "word": "野党",
+      "read": "やとう",
+      "mean": "야당",
+      "tags": []
+    },
+    {
+      "id": "v-8c1637e361b09fd02e7d381ff64f040e2477477c",
+      "word": "闇",
+      "read": "やみ",
+      "mean": "어둠",
+      "tags": []
+    },
+    {
+      "id": "v-bbfaf5a20da43114bc5825f7aa16284ad6d532fc",
+      "word": "由緒",
+      "read": "ゆいしょ",
+      "mean": "유서, 내력",
+      "tags": []
+    },
+    {
+      "id": "v-cdce785be90ff138da37fbaf4b43c7f0f0808098",
+      "word": "優位",
+      "read": "ゆうい",
+      "mean": "우위",
+      "tags": []
+    },
+    {
+      "id": "v-6aa38f8d0bd9eed3a61106d9bf198e2add73c68e",
+      "word": "優越",
+      "read": "ゆうえつ",
+      "mean": "우월",
+      "tags": []
+    },
+    {
+      "id": "v-3e3c5215b17388887b9480e73bce8af4413bd3cc",
+      "word": "誘拐",
+      "read": "ゆうかい",
+      "mean": "유괴",
+      "tags": []
+    },
+    {
+      "id": "v-e690e7d5bc6793b3ae979b84fed74b5cff5de395",
+      "word": "有機",
+      "read": "ゆうき",
+      "mean": "유기",
+      "tags": []
+    },
+    {
+      "id": "v-7d6fd3deeb81e0821b44bf1182046f3f38aeab6b",
+      "word": "友好",
+      "read": "ゆうこう",
+      "mean": "우호",
+      "tags": []
+    },
+    {
+      "id": "v-246d73ffa063b75393d61596f8a61bda152239a0",
+      "word": "融資",
+      "read": "ゆうし",
+      "mean": "융자",
+      "tags": []
+    },
+    {
+      "id": "v-e0fd275b60215ed2b6c58bd5792776bb89f705a2",
+      "word": "有数",
+      "read": "ゆうすう",
+      "mean": "유수, 손꼽힘",
+      "tags": []
+    },
+    {
+      "id": "v-c5486f3d371954f5ce69abd97746e7c89f8ecb6b",
+      "word": "融通",
+      "read": "ゆうずう",
+      "mean": "융통",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

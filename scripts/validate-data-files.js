@@ -5,9 +5,7 @@ const path = require('path');
 const { spawnSync } = require('child_process');
 
 const checks = [
-    path.join(__dirname, 'build-data.js'),
-    path.join(__dirname, 'build-modules.js'),
-    path.join(__dirname, 'validate-module-batches.js')
+    path.join(__dirname, 'build-data.js')
 ];
 
 const levels = ['n1', 'n2', 'n3', 'n4', 'n5'];
@@ -84,8 +82,7 @@ function validateItemToDistDayConsistency() {
 }
 
 for (const scriptPath of checks) {
-    const args = scriptPath.endsWith('validate-module-batches.js') ? [] : ['--check'];
-    const result = spawnSync(process.execPath, [scriptPath, ...args], { stdio: 'inherit' });
+    const result = spawnSync(process.execPath, [scriptPath, '--check'], { stdio: 'inherit' });
     if ((result.status ?? 1) !== 0) {
         process.exit(result.status ?? 1);
     }

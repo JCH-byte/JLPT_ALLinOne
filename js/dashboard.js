@@ -7,6 +7,7 @@
 let currentLevel = localStorage.getItem(STORAGE_KEYS.LAST_LEVEL) || 'n4';
 
 function initDashboard() {
+    if (typeof migrateLegacyStorageKeys === 'function') migrateLegacyStorageKeys();
     switchLevel(currentLevel);
 }
 
@@ -33,28 +34,17 @@ function switchLevel(level) {
 }
 
 function getOrderedModules(indexData) {
-    const moduleToDay = indexData?.moduleToDay || {};
-    const modules = Object.entries(moduleToDay)
-        .map(([moduleId, day]) => {
-            const meta = indexData?.modules?.[moduleId] || {};
-            return {
-                moduleId,
-                legacyDay: Number(day),
-                title: meta.title || ''
-            };
-        })
-        .filter((entry) => Number.isInteger(entry.legacyDay) && entry.legacyDay > 0)
-        .sort((a, b) => a.legacyDay - b.legacyDay);
-
-    if (modules.length > 0) return modules;
-
-    return Object.keys(indexData?.days || {})
-        .sort((a, b) => Number(a) - Number(b))
-        .map((day) => ({
-            moduleId: indexData?.days?.[day]?.moduleId || `${currentLevel}-module-${String(day).padStart(3, '0')}`,
-            legacyDay: Number(day),
-            title: indexData?.days?.[day]?.title || `Day ${day} 단어장`
-        }));
+    const order = Array.isArray(indexData?.moduleOrder) ? indexData.moduleOrder : [];
+    const modulesMeta = indexData?.modules || {};
+    return order.map((moduleId) => {
+        const meta = modulesMeta[moduleId] || {};
+        return {
+            moduleId,
+            ordinal: Number(meta.ordinal) || 0,
+            title: meta.title || '',
+            hasContent: meta.hasContent !== false
+        };
+    });
 }
 
 function renderList(level, indexData) {
@@ -74,7 +64,7 @@ function renderList(level, indexData) {
 
     let doneCount = 0;
     modules.forEach(entry => {
-        const { moduleId, legacyDay, title } = entry;
+        const { moduleId, ordinal, title, hasContent } = entry;
         const checkKey = STORAGE_KEYS.moduleComplete(level, moduleId);
         const isDone = localStorage.getItem(checkKey) === 'true';
         const fallbackTitle = `Module ${moduleId}`;
@@ -82,13 +72,19 @@ function renderList(level, indexData) {
         if (isDone) doneCount++;
 
         const li = document.createElement('li');
-        li.className = `day-item ${isDone ? 'completed' : ''}`;
+        const stateClass = [
+            'day-item',
+            isDone ? 'completed' : '',
+            hasContent ? '' : 'no-content'
+        ].filter(Boolean).join(' ');
+        li.className = stateClass;
         li.id = `nav-module-${moduleId}`;
+        const subLabel = hasContent ? `#${ordinal}` : `#${ordinal} (단어만)`;
         li.innerHTML = `
-            <div class="day-info" onclick="loadFrame('${level}', '${moduleId}', '${legacyDay}')">
-                <span class="module-num">${legacyDay}</span>
+            <div class="day-info" onclick="loadFrame('${level}', '${moduleId}')">
+                <span class="module-num">${ordinal}</span>
                 <span class="title-text" style="font-weight:bold;">${baseTitle}</span>
-                <span class="day-sub">Day ${legacyDay}</span>
+                <span class="day-sub">${subLabel}</span>
             </div>
             <label class="check-complete">
                 <input type="checkbox" onchange="toggleComplete('${level}', '${moduleId}', this)" ${isDone ? 'checked' : ''}>
@@ -103,19 +99,17 @@ function renderList(level, indexData) {
     const isStarredPage = frame && frame.src && frame.src.includes('starred.html');
 
     if (lastModule && modules.some((entry) => entry.moduleId === lastModule) && !isStarredPage) {
-        const current = modules.find((entry) => entry.moduleId === lastModule);
-        loadFrame(level, lastModule, current?.legacyDay || '');
+        loadFrame(level, lastModule);
     }
 
     updateProgress(level, doneCount, modules.length);
 }
 
-function loadFrame(level, moduleId, legacyDay) {
+function loadFrame(level, moduleId) {
     const frame = document.getElementById('content-frame');
     if (!frame) return;
 
-    const dayQuery = legacyDay ? `&day=${legacyDay}` : '';
-    frame.src = `viewer.html?level=${level}&module=${encodeURIComponent(moduleId)}${dayQuery}`;
+    frame.src = `viewer.html?level=${level}&module=${encodeURIComponent(moduleId)}`;
 
     document.querySelectorAll('.day-item').forEach(el => el.classList.remove('active'));
     const activeItem = document.getElementById(`nav-module-${moduleId}`);

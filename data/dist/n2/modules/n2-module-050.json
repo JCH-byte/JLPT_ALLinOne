@@ -1,0 +1,187 @@
+{
+  "moduleId": "n2-module-050",
+  "level": "n2",
+  "ordinal": 50,
+  "title": "ら行の名詞・1 (ら행 명사 1)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-210a7773f02454016872d6f3a451071f59cf9d1e",
+      "word": "理事会",
+      "read": "りじかい",
+      "mean": "이사회",
+      "tags": []
+    },
+    {
+      "id": "v-8b731fe5b23921f59393f1c85fd3c3bc15c8e85a",
+      "word": "流域",
+      "read": "りゅういき",
+      "mean": "유역",
+      "tags": []
+    },
+    {
+      "id": "v-d2615bdd9dbe8acfc6d85635c507250bc073d71a",
+      "word": "漁師",
+      "read": "りょうし",
+      "mean": "어부",
+      "tags": []
+    },
+    {
+      "id": "v-a9468abeadcff632cab4ae0e8f1285c58f363c0c",
+      "word": "領事",
+      "read": "りょうじ",
+      "mean": "영사",
+      "tags": []
+    },
+    {
+      "id": "v-9157396fd5f7267e2dc67bf468e12b165d4e92d7",
+      "word": "領収書",
+      "read": "りょうしゅうしょ",
+      "mean": "영수증",
+      "tags": []
+    },
+    {
+      "id": "v-f5052490780a3f2452ba38f1ce7348978882ad77",
+      "word": "臨時",
+      "read": "りんじ",
+      "mean": "임시",
+      "tags": []
+    },
+    {
+      "id": "v-b5880abdc8e35cda57cd7726c09c1542007ef1d7",
+      "word": "礼儀",
+      "read": "れいぎ",
+      "mean": "예의",
+      "tags": []
+    },
+    {
+      "id": "v-01ecced633a0698e7e9aee2aeb1111c5220b86a3",
+      "word": "零点",
+      "read": "れいてん",
+      "mean": "0점, 빵점",
+      "tags": []
+    },
+    {
+      "id": "v-2276761c6e085180c59a7f58a19e4b9550ff2c99",
+      "word": "列島",
+      "read": "れっとう",
+      "mean": "열도",
+      "tags": []
+    },
+    {
+      "id": "v-5693efa0903690d4a477a4cdfe7699a85f7462a8",
+      "word": "連合",
+      "read": "れんごう",
+      "mean": "연합",
+      "tags": []
+    },
+    {
+      "id": "v-71997596e878cb130f63a667d9a7870bb967d703",
+      "word": "連想",
+      "read": "れんそう",
+      "mean": "연상",
+      "tags": []
+    },
+    {
+      "id": "v-f0bc757b66b42003dcb6bef80439528f48ab22a7",
+      "word": "連続",
+      "read": "れんぞく",
+      "mean": "연속",
+      "tags": []
+    },
+    {
+      "id": "v-098b0fa19af8e0151f1d314e646393037bf7449c",
+      "word": "ろうそく",
+      "read": "ろうそく",
+      "mean": "양초",
+      "tags": []
+    },
+    {
+      "id": "v-420d24afe4a853df78aa10738bdae6bb384fe4e3",
+      "word": "労働",
+      "read": "ろうどう",
+      "mean": "노동",
+      "tags": []
+    },
+    {
+      "id": "v-1a0554908456296866808012f051707032f8da91",
+      "word": "露出",
+      "read": "ろしゅつ",
+      "mean": "노출",
+      "tags": []
+    },
+    {
+      "id": "v-b4737c29550de6e7aabf3738bbbe31e013b403dc",
+      "word": "路線",
+      "read": "ろせん",
+      "mean": "노선",
+      "tags": []
+    },
+    {
+      "id": "v-169aebd13534a359a4be2581b851db53dcfd1ab4",
+      "word": "論争",
+      "read": "ろんそう",
+      "mean": "논쟁",
+      "tags": []
+    },
+    {
+      "id": "v-cfdea701f0fb4403240a53341e0fa78978c3394d",
+      "word": "論文",
+      "read": "ろんぶん",
+      "mean": "논문",
+      "tags": []
+    },
+    {
+      "id": "v-e0e9a301054cb84a0fcd821c0cd930e99bfd641f",
+      "word": "我が家",
+      "read": "わがや",
+      "mean": "우리 집",
+      "tags": []
+    },
+    {
+      "id": "v-b9a396c3d2a113cee230ace859ca2ac6aa107fea",
+      "word": "脇",
+      "read": "わき",
+      "mean": "겨드랑이, 옆",
+      "tags": []
+    },
+    {
+      "id": "v-3836ee653e7cf7c676a3e7f2b503bb909c17480a",
+      "word": "綿",
+      "read": "わた",
+      "mean": "솜",
+      "tags": []
+    },
+    {
+      "id": "v-1b1052d3bde87f2f5f4c114b711a327d3fb73b85",
+      "word": "和服",
+      "read": "わふく",
+      "mean": "화복, 일본 옷",
+      "tags": []
+    },
+    {
+      "id": "v-0be293dab1a9c0553f58d741ba7630e1b2d4760d",
+      "word": "割り勘",
+      "read": "わりかん",
+      "mean": "각자 부담",
+      "tags": []
+    },
+    {
+      "id": "v-50fa5933516c5343d5d5c222b7a93f3d7812deb1",
+      "word": "割高",
+      "read": "わりだか",
+      "mean": "비교적 비쌈",
+      "tags": []
+    },
+    {
+      "id": "v-0e082a5d2ccc52e4de052467b5fdfd20a2635d77",
+      "word": "割安",
+      "read": "わりやす",
+      "mean": "비교적 쌈",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

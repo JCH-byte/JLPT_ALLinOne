@@ -1,376 +1,162 @@
 #!/usr/bin/env node
+/**
+ * Build src → dist for module-based JLPT learning data.
+ *
+ * Reads:
+ *   data/src/{level}/vocab.json
+ *   data/src/{level}/modules/{moduleId}.json     (vocabIds reference vocab.json)
+ *
+ * Writes:
+ *   data/dist/{level}/modules/{moduleId}.json    (vocab inline; story/analysis/quiz copied)
+ *   data/dist/{level}/index.json                 (moduleOrder + module summaries)
+ *
+ * --check: re-build in memory and exit 1 if disk differs from build output.
+ *
+ * Does NOT touch legacy files (data/dist/{level}/day-*.json, module-vocab/*.json,
+ * old top-level index.json format). Those coexist during the migration cohabitation
+ * period and are removed in a later cleanup commit.
+ */
+
+'use strict';
 
 const fs = require('fs');
 const path = require('path');
 
-const levels = ['n1', 'n2', 'n3', 'n4', 'n5'];
-const srcDir = path.join(__dirname, '..', 'data', 'src');
-const distDir = path.join(__dirname, '..', 'data', 'dist');
+const ROOT = path.join(__dirname, '..');
+const LEVELS = ['n1', 'n2', 'n3', 'n4', 'n5'];
+const BUILD_VERSION = 'module-build-v1';
+
 const checkMode = process.argv.includes('--check');
-const DEFAULT_N4_MAX_DAY = 28;
-const MAX_DAY_LIMIT = 28;
-const DEFAULT_MAX_DAY = 28;
-const ASSIGNMENT_VERSION = 'item-assignment-v1';
-const MODULE_METADATA_PATH = path.join(srcDir, 'module-metadata.json');
 
-function resolveN4MaxDay() {
-    const configured = process.env.N4_MAX_DAY;
-    if (!configured) return DEFAULT_N4_MAX_DAY;
-
-    const parsed = Number(configured);
-    if (!Number.isInteger(parsed) || parsed < 1 || parsed > MAX_DAY_LIMIT) {
-        throw new Error(
-            `Invalid N4_MAX_DAY: ${configured}. Expected an integer between 1 and ${MAX_DAY_LIMIT}.`
-        );
-    }
-
-    return parsed;
-}
-
-const N4_MAX_DAY = resolveN4MaxDay();
-
-function normalizeDay(day, dayData) {
-    if (Array.isArray(dayData)) {
-        return {
-            title: `Day ${day} 단어장`,
-            story: null,
-            analysis: [],
-            vocab: [],
-            quiz: []
-        };
-    }
-
-    return {
-        title: dayData?.title || `Day ${day} 단어장`,
-        story: dayData?.story || null,
-        analysis: dayData?.analysis || [],
-        vocab: [],
-        quiz: dayData?.quiz || []
-    };
-}
-
-function normalizeForLevel(level, day, dayData) {
-    return normalizeDay(day, dayData);
-}
-
-function normalizeVocabItem(item, moduleId, assignedDay) {
-    return {
-        word: item?.word || '',
-        read: item?.read || '',
-        mean: item?.mean || '',
-        tags: Array.isArray(item?.tags) ? item.tags : [],
-        moduleId,
-        legacyDay: assignedDay
-    };
-}
-
-function parseDayHint(dayHint) {
-    if (typeof dayHint !== 'string') return null;
-    const match = dayHint.match(/(?:legacy-)?day-(\d+)/i);
-    if (!match) return null;
-    return Number(match[1]);
-}
-
-function hashString(value) {
-    let hash = 0;
-    for (let i = 0; i < value.length; i += 1) {
-        hash = ((hash << 5) - hash) + value.charCodeAt(i);
-        hash |= 0;
-    }
-    return Math.abs(hash);
-}
-
-function getDifficultyScore(item) {
-    const text = `${item?.word || ''}${item?.mean || ''}`;
-    const tags = Array.isArray(item?.tags) ? item.tags.map(tag => String(tag).toLowerCase()) : [];
-    if (tags.some(tag => tag.includes('hard') || tag.includes('어려움'))) return 2;
-    if (tags.some(tag => tag.includes('easy') || tag.includes('쉬움'))) return 0;
-    return text.length > 10 ? 2 : (text.length > 6 ? 1 : 0);
-}
-
-function getPosScore(item) {
-    const tags = Array.isArray(item?.tags) ? item.tags.map(tag => String(tag).toLowerCase()) : [];
-    if (tags.some(tag => tag.includes('verb') || tag.includes('동사'))) return 2;
-    if (tags.some(tag => tag.includes('adj') || tag.includes('형용사'))) return 1;
-    return 0;
-}
-
-function getFrequencyScore(item) {
-    const tags = Array.isArray(item?.tags) ? item.tags.map(tag => String(tag).toLowerCase()) : [];
-    if (tags.some(tag => tag.includes('rare') || tag.includes('저빈도'))) return 2;
-    if (tags.some(tag => tag.includes('common') || tag.includes('고빈도'))) return 0;
-    return 1;
-}
-
-function decideAssignedDay(level, item, itemIndex, maxDay) {
-    if (Number.isInteger(item?.assignedDay) && item.assignedDay >= 1) {
-        return Math.min(item.assignedDay, maxDay);
-    }
-
-    const hintedDay = parseDayHint(item?.dayHint);
-    if (Number.isInteger(hintedDay) && hintedDay >= 1) {
-        return Math.min(hintedDay, maxDay);
-    }
-
-    const levelWeight = Number(level.replace('n', '')) || 5;
-    const difficultyWeight = getDifficultyScore(item);
-    const posWeight = getPosScore(item);
-    const frequencyWeight = getFrequencyScore(item);
-    const deterministicNoise = hashString(`${item?.id || ''}/${item?.word || ''}/${item?.read || ''}`) % maxDay;
-    const mixed = itemIndex + (difficultyWeight * 7) + (posWeight * 5) + (frequencyWeight * 3) + deterministicNoise + (levelWeight * 11);
-
-    return (mixed % maxDay) + 1;
-}
-
-function makeDefaultModuleId(level, day) {
-    return `${level}-module-${String(day).padStart(3, '0')}`;
-}
-
-function buildFallbackMetadata(level, maxDay) {
-    const modules = [];
-    const dayToModule = {};
-    for (let day = 1; day <= maxDay; day += 1) {
-        const moduleId = makeDefaultModuleId(level, day);
-        dayToModule[String(day)] = moduleId;
-        modules.push({
-            moduleId,
-            level,
-            theme: `Legacy Day ${day}`,
-            communicativeGoal: `Legacy day-${day} 학습 내용 이관`,
-            targetGrammar: [`day-${day}`],
-            legacyDay: day
-        });
-    }
-    return { modules, dayToModule, moduleToDay: Object.fromEntries(Object.entries(dayToModule).map(([day, moduleId]) => [moduleId, Number(day)])) };
-}
-
-function readModuleMetadata(level, maxDay) {
-    const metadata = readJsonOrNull(MODULE_METADATA_PATH);
-    const levelData = metadata?.levels?.[level];
-    if (!levelData || typeof levelData !== 'object') {
-        return buildFallbackMetadata(level, maxDay);
-    }
-
-    const modules = Array.isArray(levelData.modules) ? levelData.modules : [];
-    const moduleById = new Map();
-    modules.forEach((moduleMeta) => {
-        if (!moduleMeta || typeof moduleMeta !== 'object') return;
-        const moduleId = String(moduleMeta.moduleId || '').trim();
-        if (!moduleId) return;
-        const legacyDay = Number(moduleMeta.legacyDay);
-        moduleById.set(moduleId, {
-            moduleId,
-            level,
-            theme: moduleMeta.theme || `Legacy ${moduleId}`,
-            communicativeGoal: moduleMeta.communicativeGoal || '',
-            targetGrammar: Array.isArray(moduleMeta.targetGrammar) ? moduleMeta.targetGrammar : [],
-            legacyDay: Number.isInteger(legacyDay) && legacyDay > 0 ? legacyDay : null,
-            title: moduleMeta.title || ''
-        });
-    });
-
-    const rawDayToModule = (levelData.dayToModule && typeof levelData.dayToModule === 'object') ? levelData.dayToModule : {};
-    const dayToModule = {};
-    Object.entries(rawDayToModule).forEach(([day, moduleId]) => {
-        if (!moduleById.has(moduleId)) return;
-        const numericDay = Number(day);
-        if (!Number.isInteger(numericDay) || numericDay < 1 || numericDay > maxDay) return;
-        dayToModule[String(numericDay)] = moduleId;
-    });
-
-    for (let day = 1; day <= maxDay; day += 1) {
-        const key = String(day);
-        if (dayToModule[key]) continue;
-        const fallbackModuleId = makeDefaultModuleId(level, day);
-        dayToModule[key] = fallbackModuleId;
-        if (!moduleById.has(fallbackModuleId)) {
-            moduleById.set(fallbackModuleId, {
-                moduleId: fallbackModuleId,
-                level,
-                theme: `Legacy Day ${day}`,
-                communicativeGoal: `Legacy day-${day} 학습 내용 이관`,
-                targetGrammar: [`day-${day}`],
-                legacyDay: day,
-                title: ''
-            });
-        }
-    }
-
-    const moduleToDay = {};
-    Object.entries(dayToModule).forEach(([day, moduleId]) => {
-        moduleToDay[moduleId] = Number(day);
-    });
-
-    const normalizedModules = Array.from(moduleById.values())
-        .sort((a, b) => {
-            const aDay = Number(a.legacyDay) || Number(moduleToDay[a.moduleId]) || Number.MAX_SAFE_INTEGER;
-            const bDay = Number(b.legacyDay) || Number(moduleToDay[b.moduleId]) || Number.MAX_SAFE_INTEGER;
-            if (aDay !== bDay) return aDay - bDay;
-            return a.moduleId.localeCompare(b.moduleId);
-        });
-
-    return { modules: normalizedModules, dayToModule, moduleToDay };
-}
-
-function buildDaysFromItems(level, items, maxDay, moduleMetadata) {
-    const dayMap = {};
-    for (let day = 1; day <= maxDay; day += 1) {
-        dayMap[String(day)] = {
-            title: `Day ${day} 단어장`,
-            story: null,
-            analysis: [],
-            vocab: [],
-            quiz: []
-        };
-    }
-
-    items.forEach((item, index) => {
-        const assignedDay = decideAssignedDay(level, item, index, maxDay);
-        const key = String(assignedDay);
-        const moduleId = moduleMetadata.dayToModule[key] || makeDefaultModuleId(level, assignedDay);
-        dayMap[key].vocab.push(normalizeVocabItem(item, moduleId, assignedDay));
-    });
-
-    return dayMap;
-}
-
-function stableStringify(data) {
-    return `${JSON.stringify(data, null, 4)}\n`;
-}
-
-function shouldIncludeDay(level, day) {
-    const numericDay = Number(day);
-    if (!Number.isFinite(numericDay)) return false;
-    if (level === 'n4' && numericDay > N4_MAX_DAY) return false;
-    return true;
-}
-
-function readJsonOrNull(filePath) {
-    if (!fs.existsSync(filePath)) return null;
-    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
-}
+function readJson(p) { return JSON.parse(fs.readFileSync(p, 'utf8')); }
+function serialize(data) { return JSON.stringify(data, null, 2) + '\n'; }
 
 function buildLevel(level) {
-    const legacySrcPath = path.join(srcDir, `${level}.json`);
-    const itemSrcPath = path.join(srcDir, `${level}.items.json`);
-    const levelDistDir = path.join(distDir, level);
+    const srcDir = path.join(ROOT, 'data/src', level);
+    const distDir = path.join(ROOT, 'data/dist', level);
+    const modulesSrcDir = path.join(srcDir, 'modules');
+    const modulesDistDir = path.join(distDir, 'modules');
 
-    const itemSource = readJsonOrNull(itemSrcPath);
-    if (!itemSource || !Array.isArray(itemSource.items)) {
-        throw new Error(`Missing or invalid item source file: data/src/${level}.items.json`);
+    if (!fs.existsSync(srcDir)) {
+        throw new Error(`Missing source directory: data/src/${level}`);
+    }
+    const vocabPath = path.join(srcDir, 'vocab.json');
+    if (!fs.existsSync(vocabPath)) {
+        throw new Error(`Missing vocab pool: data/src/${level}/vocab.json`);
     }
 
-    const maxDay = level === 'n4' ? N4_MAX_DAY : DEFAULT_MAX_DAY;
-    const moduleMetadata = readModuleMetadata(level, maxDay);
-    const normalized = buildDaysFromItems(level, itemSource.items, maxDay, moduleMetadata);
+    const vocabPool = readJson(vocabPath).items || [];
+    const vocabById = new Map(vocabPool.map((v) => [v.id, v]));
 
-    const legacySource = readJsonOrNull(legacySrcPath);
-    if (legacySource && typeof legacySource === 'object' && !Array.isArray(legacySource)) {
-        for (const [day, dayData] of Object.entries(legacySource)) {
-            if (!normalized[day]) continue;
-            const legacyNormalized = normalizeForLevel(level, day, dayData);
-            normalized[day] = {
-                ...legacyNormalized,
-                vocab: normalized[day].vocab
-            };
+    const filenames = fs.existsSync(modulesSrcDir)
+        ? fs.readdirSync(modulesSrcDir).filter((f) => f.endsWith('.json')).sort()
+        : [];
+
+    const builtModules = [];
+    for (const filename of filenames) {
+        const src = readJson(path.join(modulesSrcDir, filename));
+        if (!src.moduleId) {
+            throw new Error(`Module missing moduleId: data/src/${level}/modules/${filename}`);
         }
+        const vocabIds = Array.isArray(src.vocabIds) ? src.vocabIds : [];
+        const vocab = vocabIds.map((id) => {
+            const v = vocabById.get(id);
+            if (!v) throw new Error(`Unknown vocabId ${id} in ${src.moduleId}`);
+            return { id: v.id, word: v.word, read: v.read, mean: v.mean, tags: v.tags || [] };
+        });
+
+        const distModule = {
+            moduleId: src.moduleId,
+            level,
+            ordinal: src.ordinal,
+            title: src.title || '',
+            ruleVersion: src.ruleVersion || null,
+            vocab,
+            story: src.story || '',
+            analysis: Array.isArray(src.analysis) ? src.analysis : [],
+            quiz: Array.isArray(src.quiz) ? src.quiz : []
+        };
+        builtModules.push(distModule);
     }
 
-    const expectedFiles = new Map();
-    const indexData = {
+    // Sort by ordinal for deterministic order
+    builtModules.sort((a, b) => (a.ordinal || 0) - (b.ordinal || 0));
+
+    const index = {
+        level,
         manifest: {
-            assignmentVersion: ASSIGNMENT_VERSION,
-            source: `data/src/${level}.items.json`,
-            learningUnit: 'module'
+            buildVersion: BUILD_VERSION,
+            source: `data/src/${level}`,
+            generatedAt: null // intentionally omitted for deterministic --check
         },
-        modules: {},
-        days: {},
-        dayToModule: {},
-        moduleToDay: moduleMetadata.moduleToDay
+        moduleOrder: builtModules.map((m) => m.moduleId),
+        modules: Object.fromEntries(builtModules.map((m) => [m.moduleId, {
+            ordinal: m.ordinal,
+            title: m.title,
+            hasContent: m.story.length > 50 && m.analysis.length > 0,
+            vocabCount: m.vocab.length
+        }]))
     };
 
-    moduleMetadata.modules.forEach((moduleMeta) => {
-        indexData.modules[moduleMeta.moduleId] = {
-            moduleId: moduleMeta.moduleId,
-            level: moduleMeta.level,
-            theme: moduleMeta.theme,
-            communicativeGoal: moduleMeta.communicativeGoal,
-            targetGrammar: moduleMeta.targetGrammar,
-            legacyDay: moduleMeta.legacyDay,
-            title: moduleMeta.title || ''
-        };
-    });
-
-    Object.entries(normalized).forEach(([day, dayData]) => {
-        if (!shouldIncludeDay(level, day)) return;
-        const fileName = `day-${day}.json`;
-        expectedFiles.set(fileName, stableStringify(dayData));
-        const moduleId = moduleMetadata.dayToModule[day] || makeDefaultModuleId(level, Number(day));
-        indexData.days[day] = { title: dayData.title, moduleId };
-        indexData.dayToModule[day] = moduleId;
-        if (!indexData.modules[moduleId]) {
-            indexData.modules[moduleId] = {
-                moduleId,
-                level,
-                theme: `Legacy Day ${day}`,
-                communicativeGoal: `Legacy day-${day} 학습 내용 이관`,
-                targetGrammar: [`day-${day}`],
-                legacyDay: Number(day),
-                title: dayData.title
-            };
-        } else if (!indexData.modules[moduleId].title) {
-            indexData.modules[moduleId].title = dayData.title;
-        }
-    });
-
-    expectedFiles.set('index.json', stableStringify(indexData));
-
-    const legacyDistPath = path.join(distDir, `${level}_data.js`);
-    if (checkMode) {
-        if (fs.existsSync(legacyDistPath)) {
-            throw new Error(`Stale legacy file found: data/dist/${level}_data.js`);
-        }
-    } else {
-        fs.rmSync(legacyDistPath, { force: true });
+    // Expected output: { relPath -> content string }
+    const expected = new Map();
+    expected.set(path.join('modules', `index-placeholder-unused.json`), null); // unused, just placeholder for clarity
+    expected.delete(path.join('modules', `index-placeholder-unused.json`));
+    expected.set('index.json', serialize(index));
+    for (const m of builtModules) {
+        expected.set(path.join('modules', `${m.moduleId}.json`), serialize(m));
     }
 
     if (checkMode) {
-        if (!fs.existsSync(levelDistDir)) {
-            throw new Error(`Missing generated folder: data/dist/${level}`);
-        }
-
-        for (const [fileName, expected] of expectedFiles.entries()) {
-            const filePath = path.join(levelDistDir, fileName);
-            if (!fs.existsSync(filePath)) {
-                throw new Error(`Missing generated file: data/dist/${level}/${fileName}`);
+        for (const [relPath, content] of expected.entries()) {
+            const abs = path.join(distDir, relPath);
+            if (!fs.existsSync(abs)) {
+                throw new Error(`Missing built file: data/dist/${level}/${relPath} (run: node scripts/build-data.js)`);
             }
-            const current = fs.readFileSync(filePath, 'utf8');
-            if (current !== expected) {
-                throw new Error(`Out-of-date file: data/dist/${level}/${fileName} (run: node scripts/build-data.js)`);
+            const onDisk = fs.readFileSync(abs, 'utf8');
+            if (onDisk !== content) {
+                throw new Error(`Out-of-date file: data/dist/${level}/${relPath} (run: node scripts/build-data.js)`);
             }
         }
-
-        const currentFiles = fs.readdirSync(levelDistDir).filter(name => name.endsWith('.json') || name.endsWith('.js'));
-        const expectedNames = new Set(expectedFiles.keys());
-        const staleFiles = currentFiles.filter(name => !expectedNames.has(name));
-        if (staleFiles.length > 0) {
-            throw new Error(`Stale generated files in data/dist/${level}: ${staleFiles.join(', ')}`);
+        // Also: any extra .json file under modules/ that isn't expected indicates a stale build
+        if (fs.existsSync(modulesDistDir)) {
+            const onDisk = fs.readdirSync(modulesDistDir).filter((f) => f.endsWith('.json'));
+            const expectedFilenames = new Set([...expected.keys()]
+                .filter((p) => p.startsWith('modules' + path.sep))
+                .map((p) => path.basename(p)));
+            const stale = onDisk.filter((f) => !expectedFilenames.has(f));
+            if (stale.length > 0) {
+                throw new Error(`Stale built files in data/dist/${level}/modules: ${stale.join(', ')}`);
+            }
         }
         return;
     }
 
-    fs.rmSync(levelDistDir, { recursive: true, force: true });
-    fs.mkdirSync(levelDistDir, { recursive: true });
+    // Build mode: write all expected files
+    fs.mkdirSync(modulesDistDir, { recursive: true });
+    for (const [relPath, content] of expected.entries()) {
+        const abs = path.join(distDir, relPath);
+        fs.mkdirSync(path.dirname(abs), { recursive: true });
+        fs.writeFileSync(abs, content, 'utf8');
+    }
 
-    for (const [fileName, content] of expectedFiles.entries()) {
-        const outputPath = path.join(levelDistDir, fileName);
-        fs.writeFileSync(outputPath, content, 'utf8');
+    // Remove stale module files (files that aren't in this build)
+    const expectedFilenames = new Set([...expected.keys()]
+        .filter((p) => p.startsWith('modules' + path.sep))
+        .map((p) => path.basename(p)));
+    const existing = fs.readdirSync(modulesDistDir).filter((f) => f.endsWith('.json'));
+    for (const f of existing) {
+        if (!expectedFilenames.has(f)) {
+            fs.rmSync(path.join(modulesDistDir, f), { force: true });
+        }
     }
 }
 
 try {
-    levels.forEach(buildLevel);
-    console.log(checkMode ? '✅ data/dist is in sync with data/src.' : '✅ Built data/dist from data/src item sources.');
+    for (const level of LEVELS) buildLevel(level);
+    console.log(checkMode
+        ? '✅ data/dist is in sync with data/src.'
+        : '✅ Built data/dist/{level}/{index.json, modules/*.json} from data/src.');
 } catch (err) {
     console.error(`❌ ${err.message}`);
     process.exit(1);

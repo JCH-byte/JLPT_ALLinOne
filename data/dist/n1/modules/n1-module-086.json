@@ -1,0 +1,187 @@
+{
+  "moduleId": "n1-module-086",
+  "level": "n1",
+  "ordinal": 86,
+  "title": "ま行の名詞・3 (ま행 명사 3)",
+  "ruleVersion": "n1-rule-v1",
+  "vocab": [
+    {
+      "id": "v-6af304fe8ec9a5b442c372736000369c0e2056ae",
+      "word": "ぺこぺこ",
+      "read": "ぺこぺこ",
+      "mean": "굽실굽실, 꼬르륵",
+      "tags": []
+    },
+    {
+      "id": "v-da8c98596c15ffd70412d7a502a8bd1844ec0260",
+      "word": "べたべた",
+      "read": "べたべた",
+      "mean": "끈적끈적",
+      "tags": []
+    },
+    {
+      "id": "v-a25934adf4b2a54b5be12a972836bbbdcd4293aa",
+      "word": "ぼうぜん",
+      "read": "ぼうぜん",
+      "mean": "멍하니",
+      "tags": []
+    },
+    {
+      "id": "v-70745065f80e924f13257f08c23a822ebaf7ab8e",
+      "word": "ぼつぼつ",
+      "read": "ぼつぼつ",
+      "mean": "슬슬",
+      "tags": []
+    },
+    {
+      "id": "v-04687a67a77c7b21c37405a45e42f3e4c7bd44f9",
+      "word": "ぽつぽつ",
+      "read": "ぽつぽつ",
+      "mean": "뚝뚝, 점점이",
+      "tags": []
+    },
+    {
+      "id": "v-6aaaf944e60cf8efb559e9494d5cce254bb02bc8",
+      "word": "前もって",
+      "read": "まえもって",
+      "mean": "미리",
+      "tags": []
+    },
+    {
+      "id": "v-11c0fc55f95085181bc6f7b04500a57f50ec6587",
+      "word": "誠に",
+      "read": "まことに",
+      "mean": "참으로",
+      "tags": []
+    },
+    {
+      "id": "v-3e1332228465e1f56dd19492e049c51c78bd95b2",
+      "word": "まさしく",
+      "read": "まさしく",
+      "mean": "틀림없이, 바로",
+      "tags": []
+    },
+    {
+      "id": "v-12baa60e9f3dffd50df240092f8d2b97dc3cdd63",
+      "word": "まして",
+      "read": "まして",
+      "mean": "하물며",
+      "tags": []
+    },
+    {
+      "id": "v-6bd3cea0b274f8b54b8203e5a19c8fe8fcd06c3b",
+      "word": "丸ごと",
+      "read": "まるごと",
+      "mean": "통째로",
+      "tags": []
+    },
+    {
+      "id": "v-a3082097867a077c10ec5a1c0ce7bf5ecbf919f0",
+      "word": "丸っきり",
+      "read": "まるっきり",
+      "mean": "전혀",
+      "tags": []
+    },
+    {
+      "id": "v-0f08757d265515d66cf8c7faaa7d87e425eb956e",
+      "word": "まるまる",
+      "read": "まるまる",
+      "mean": "통통하게, 전부",
+      "tags": []
+    },
+    {
+      "id": "v-d73fe3b4615738aa15e7c6079ec0c0035b258340",
+      "word": "みっちり",
+      "read": "みっちり",
+      "mean": "착실히, 빈틈없이",
+      "tags": []
+    },
+    {
+      "id": "v-bccfc40920098cffb4a39713b615654ee6b140a1",
+      "word": "無性に",
+      "read": "むしょうに",
+      "mean": "몹시",
+      "tags": []
+    },
+    {
+      "id": "v-e45beb5f8d2622cc6ebf43df421bb016a60576d1",
+      "word": "むっと",
+      "read": "むっと",
+      "mean": "불끈, 찌는 듯 더움",
+      "tags": []
+    },
+    {
+      "id": "v-cc6d99a37708c8292d3fc51d549799226e3f6d28",
+      "word": "むやみに",
+      "read": "むやみに",
+      "mean": "함부로, 무턱대고",
+      "tags": []
+    },
+    {
+      "id": "v-4d805d56c32e148a1e128c4759e78969073f1254",
+      "word": "無論",
+      "read": "むろん",
+      "mean": "물론",
+      "tags": []
+    },
+    {
+      "id": "v-632c173c7a3a88c2f5e1800bf67f0fe939f4a472",
+      "word": "めいめい",
+      "read": "めいめい",
+      "mean": "각자",
+      "tags": []
+    },
+    {
+      "id": "v-ec9b1502b8ecde1b66a8cf04ac21fd2869b02652",
+      "word": "めきめき",
+      "read": "めきめき",
+      "mean": "부쩍부쩍",
+      "tags": []
+    },
+    {
+      "id": "v-e4197aafbd09b11f7d70ee848d6d2b425f4128e6",
+      "word": "もしくは",
+      "read": "もしくは",
+      "mean": "혹은",
+      "tags": []
+    },
+    {
+      "id": "v-12fc2aa265a35b0d84a5c73faa8c1c16896a0d22",
+      "word": "目下",
+      "read": "もっか",
+      "mean": "목하, 현재",
+      "tags": []
+    },
+    {
+      "id": "v-6dfcef91f9d3960572262c05b22ddc0360c03416",
+      "word": "専ら",
+      "read": "もっぱら",
+      "mean": "오로지",
+      "tags": []
+    },
+    {
+      "id": "v-cfae870d26cbda506fb48ada817d4aba8026cf0a",
+      "word": "もとより",
+      "read": "もとより",
+      "mean": "원래, 물론",
+      "tags": []
+    },
+    {
+      "id": "v-7d9bb181bd2912e02e89336379404dab56c92714",
+      "word": "もはや",
+      "read": "もはや",
+      "mean": "이미",
+      "tags": []
+    },
+    {
+      "id": "v-faa32fa6225327b6075fd6c637abc5fc7e36e84c",
+      "word": "もろに",
+      "read": "もろに",
+      "mean": "정통으로, 직접",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

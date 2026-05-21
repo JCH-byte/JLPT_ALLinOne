@@ -144,7 +144,7 @@ function main() {
     });
 
     console.log(`\nDone. Total modules generated: ${totalModules}`);
-    console.log('Next: node scripts/build-modules.js');
+    console.log('Next: node scripts/generate-module-vocab.js');
 }
 
 main();

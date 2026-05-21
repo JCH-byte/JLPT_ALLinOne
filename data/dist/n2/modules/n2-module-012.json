@@ -1,0 +1,194 @@
+{
+  "moduleId": "n2-module-012",
+  "level": "n2",
+  "ordinal": 12,
+  "title": "か行の名詞・8 (か행 명사 8)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-c1ab12c94894ffb788d35785999a3b85e97e00ce",
+      "word": "曲線",
+      "read": "きょくせん",
+      "mean": "곡선",
+      "tags": []
+    },
+    {
+      "id": "v-1ae3c7b210b1ccf5d8eb1a82b77fc766d32c3765",
+      "word": "拒否",
+      "read": "きょひ",
+      "mean": "거부",
+      "tags": []
+    },
+    {
+      "id": "v-a2f0ce2e78454969f3b7a58acaebdb4b0918e39a",
+      "word": "霧",
+      "read": "きり",
+      "mean": "안개",
+      "tags": []
+    },
+    {
+      "id": "v-fc3922f00993182a651462fa4ea38cf12e68370f",
+      "word": "規律",
+      "read": "きりつ",
+      "mean": "규율",
+      "tags": []
+    },
+    {
+      "id": "v-f89755970fea501201cc8172854a382faa03fd07",
+      "word": "議論",
+      "read": "ぎろん",
+      "mean": "의논",
+      "tags": []
+    },
+    {
+      "id": "v-798fd7550b59e7c461950f5618f7ae862ce12ea1",
+      "word": "金額",
+      "read": "きんがく",
+      "mean": "금액",
+      "tags": []
+    },
+    {
+      "id": "v-e39bee9f1ee3aeb0d29867f56ef53d2ea0670761",
+      "word": "金庫",
+      "read": "きんこ",
+      "mean": "금고",
+      "tags": []
+    },
+    {
+      "id": "v-83099b9fc4a879f6afeac370b3ca097cd14f1fdf",
+      "word": "金銭",
+      "read": "きんせん",
+      "mean": "금전",
+      "tags": []
+    },
+    {
+      "id": "v-91d7cd7b676eab41e47f7ac00323021f84ef6749",
+      "word": "金属",
+      "read": "きんぞく",
+      "mean": "금속",
+      "tags": []
+    },
+    {
+      "id": "v-ca64a0d16fa2726436f63e43fe26674bb231cf03",
+      "word": "近代",
+      "read": "きんだい",
+      "mean": "근대",
+      "tags": []
+    },
+    {
+      "id": "v-6ff5b59e1b3af9385b7f84251176940a15ca7546",
+      "word": "筋肉",
+      "read": "きんにく",
+      "mean": "근육",
+      "tags": []
+    },
+    {
+      "id": "v-92fa33956633477482b46f004b18b27817d29827",
+      "word": "金融",
+      "read": "きんゆう",
+      "mean": "금융",
+      "tags": []
+    },
+    {
+      "id": "v-a4782d947a8d80c09ee0c00cf239be25f8b83dab",
+      "word": "偶数",
+      "read": "ぐうすう",
+      "mean": "짝수",
+      "tags": []
+    },
+    {
+      "id": "v-be0802f19b573b934e3520bdbf27f3ea6eecb644",
+      "word": "空想",
+      "read": "くうそう",
+      "mean": "공상",
+      "tags": []
+    },
+    {
+      "id": "v-ea254f839c8077c98de242e65b1d845daee9e50d",
+      "word": "空中",
+      "read": "くうちゅう",
+      "mean": "공중",
+      "tags": []
+    },
+    {
+      "id": "v-ef7823c01cf47e6a371e6099192d0e0adee599fb",
+      "word": "くじ",
+      "read": "くじ",
+      "mean": "제비뽑기, 추첨",
+      "tags": []
+    },
+    {
+      "id": "v-5db15b17e8994c60bc2e620eeed8527ef14b2189",
+      "word": "苦情",
+      "read": "くじょう",
+      "mean": "불평, 클레임",
+      "tags": []
+    },
+    {
+      "id": "v-9f5289c2d320a337b1d7b9b46daaf6760e625033",
+      "word": "苦心",
+      "read": "くしん",
+      "mean": "고심",
+      "tags": []
+    },
+    {
+      "id": "v-3f3f5c1896942caf04ed22118e603d34aec275d4",
+      "word": "くず",
+      "read": "くず",
+      "mean": "쓰레기, 부스러기",
+      "tags": []
+    },
+    {
+      "id": "v-89a1af0446e9d0c010a78f8a5e210730ec4134b0",
+      "word": "管",
+      "read": "くだ",
+      "mean": "관, 파이프",
+      "tags": []
+    },
+    {
+      "id": "v-bf9c7ff96259edaf141217e4b2a8402cb668abc4",
+      "word": "愚痴",
+      "read": "ぐち",
+      "mean": "푸념",
+      "tags": []
+    },
+    {
+      "id": "v-59c82d037e1e1a253177badf3df69f52758c0ae3",
+      "word": "唇",
+      "read": "くちびる",
+      "mean": "입술",
+      "tags": []
+    },
+    {
+      "id": "v-5f2b3afcc5cc2ea7a1e967df12e4d6646f01e1e6",
+      "word": "口笛",
+      "read": "くちぶえ",
+      "mean": "휘파람",
+      "tags": []
+    },
+    {
+      "id": "v-d7c19ee95dc5ad87ff5f5e556722ce9511e21655",
+      "word": "苦痛",
+      "read": "くつう",
+      "mean": "고통",
+      "tags": []
+    },
+    {
+      "id": "v-87d3df602da537119c4a26e796e3839b9ca6822c",
+      "word": "苦難",
+      "read": "くなん",
+      "mean": "고난",
+      "tags": []
+    },
+    {
+      "id": "v-37be56b0f62fb12ab6da839f6d55c802bf45c3a1",
+      "word": "工夫",
+      "read": "くふう",
+      "mean": "궁리, 고안",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

@@ -1,0 +1,276 @@
+{
+  "moduleId": "n5-module-001",
+  "level": "n5",
+  "ordinal": 1,
+  "title": "Day 1: 朝の始まりと日常 (아침의 시작과 일상)",
+  "ruleVersion": null,
+  "vocabIds": [
+    "v-584a35a0a854f014ac9b6a74b9e1d95c39e222b7",
+    "v-36d74a2cc144b0dd88270ea5843562d6719fd4f7",
+    "v-5b91e82cc328e2e407583563a8b244079255fa8b",
+    "v-867d2100e603db5e0f31806942dfd6a9aef02a39",
+    "v-db6abd1f4e03fa9ca67055e7acdd10b1cafd259e",
+    "v-f7be37d91e3cfe4ae9dfdeba82a09ebe5932892e",
+    "v-72002f879473bc5a9d887a4ee382c1271dca223a",
+    "v-43bba07fc24d2c670a7c3729bf762bd24e4e578c",
+    "v-4ba3a876743f15aa1354fd18bcbd452ae36cdcd2",
+    "v-a7ba15d981b89bb2bb265a1159a77db6879ce7e8",
+    "v-adb2196aac75cddc7f349d5ffffa8d81e417f811",
+    "v-a8188fc366f5f4a4b03a27ab232c2f13b2f360fb",
+    "v-b588c1d632f6ec6f9e78e41377beb87b6ce8cabc",
+    "v-7368e13b64451ca7d97a881e005e5ccbadaa5e00",
+    "v-de1e0a1437f62012b4c3b1b97194393cbf0d9df8",
+    "v-9e664d6e653601de498ceac53149884d9072031a",
+    "v-a9ceb57e501384990711d16724d3964082047736",
+    "v-2e6dec7be2927ba3d8e830c70be29450d36e3ca5",
+    "v-a35a04e68af64a059c3532ceaba6abbf40e2e21c",
+    "v-49589b470c760426a69c1c1df5ccd72a42dbd18f",
+    "v-d3297f4b0aad59a4cb38d8be6d19a7763b3d8de0",
+    "v-6e28e5d049490ddad9b777d9548b3d132dc39cc4",
+    "v-85fb608c477e7ab7613c3743ccaf2ee0ee17afe8",
+    "v-287a481014bf0f3e232c0cef9ce10ddd2f7dc751",
+    "v-fb0313a48757da03f9184a626ba8fdccb8191e84",
+    "v-042b0c7ea32ed7a732f41618b7861046401f9dbd",
+    "v-262385ee7a125a82a6b27ab8cb6713bb3bc7543c"
+  ],
+  "story": "<h3>Scene 1. 賑やかな朝</h3><p><ruby>今<rt>いま</rt></ruby>、<ruby>朝<rt>あさ</rt></ruby>です。<ruby>家<rt>いえ</rt></ruby>で<ruby>家族<rt>かぞく</rt></ruby>と<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>兄<rt>あに</rt></ruby>と<ruby>姉<rt>あね</rt></ruby>と<ruby>妹<rt>いもうと</rt></ruby>がいます。<ruby>犬<rt>いぬ</rt></ruby>も<ruby>いす<rt>いす</rt></ruby>の<ruby>下<rt>した</rt></ruby>にいます。<ruby>一日<rt>いちにち</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まります。</p><h3>Scene 2. 病院と買い物</h3><p><ruby>頭<rt>あたま</rt></ruby>と<ruby>足<rt>あし</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いので、<ruby>医者<rt>いしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>病院<rt>びょういん</rt></ruby>は<ruby>池<rt>いけ</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>く、<ruby>あそこ<rt>あそこ</rt></ruby>にあります。<ruby>受付<rt>うけつけ</rt></ruby>は<ruby>あちら<rt>あちら</rt></ruby>です。<ruby>診察<rt>しんさつ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしました。「リンゴは<ruby>いくつ<rt>いくつ</rt></ruby>ですか。<ruby>いくら<rt>いくら</rt></ruby>ですか」。その<ruby>言葉<rt>ことば</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>、<ruby>あなた<rt>あなた</rt></ruby>はわかりますか。</p><h3>Scene 3. 天気と予定</h3><p>もうすぐ<ruby>秋<rt>あき</rt></ruby>ですね。<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>ですが、<ruby>あさって<rt>あさって</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れるでしょう。この<ruby>一週間<rt>いっしゅうかん</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、ずっと<ruby>忙<rt>いそが</rt></ruby>しかったです。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>今<rt>いま</rt></ruby>、<ruby>朝<rt>あさ</rt></ruby>です。",
+      "trans": "지금, 아침입니다.",
+      "grammar": "명사문 (AはBです)",
+      "tags": [
+        "今",
+        "朝"
+      ]
+    },
+    {
+      "sent": "<ruby>家<rt>いえ</rt></ruby>で<ruby>家族<rt>かぞく</rt></ruby>と<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。",
+      "trans": "집에서 가족과 아침밥을 먹습니다.",
+      "grammar": "조사 で (장소)",
+      "tags": [
+        "家",
+        "朝ご飯"
+      ]
+    },
+    {
+      "sent": "<ruby>兄<rt>あに</rt></ruby>と<ruby>姉<rt>あね</rt></ruby>と<ruby>妹<rt>いもうと</rt></ruby>がいます。",
+      "trans": "형(오빠)과 누나(언니)와 여동생이 있습니다.",
+      "grammar": "存在동사 います",
+      "tags": [
+        "兄",
+        "姉",
+        "妹"
+      ]
+    },
+    {
+      "sent": "<ruby>犬<rt>いぬ</rt></ruby>も<ruby>いす<rt>いす</rt></ruby>の<ruby>下<rt>した</rt></ruby>にいます。",
+      "trans": "개도 의자 아래에 있습니다.",
+      "grammar": "조사 も (도)",
+      "tags": [
+        "犬",
+        "いす"
+      ]
+    },
+    {
+      "sent": "<ruby>一日<rt>いちにち</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まります。",
+      "trans": "하루가 시작됩니다.",
+      "grammar": "자동사 (~が始まる)",
+      "tags": [
+        "一日"
+      ]
+    },
+    {
+      "sent": "<ruby>頭<rt>あたま</rt></ruby>と<ruby>足<rt>あし</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いので、<ruby>医者<rt>いしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+      "trans": "머리와 다리가 아파서, 의사에게 갑니다.",
+      "grammar": "이유 접속사 ので",
+      "tags": [
+        "頭",
+        "足",
+        "医者"
+      ]
+    },
+    {
+      "sent": "<ruby>病院<rt>びょういん</rt></ruby>は<ruby>池<rt>いけ</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>く、<ruby>あそこ<rt>あそこ</rt></ruby>にあります。",
+      "trans": "병원은 연못 근처, 저기에 있습니다.",
+      "grammar": "지시대명사 あそこ",
+      "tags": [
+        "池",
+        "あそこ"
+      ]
+    },
+    {
+      "sent": "<ruby>受付<rt>うけつけ</rt></ruby>は<ruby>あちら<rt>あちら</rt></ruby>です。",
+      "trans": "접수는 저쪽입니다.",
+      "grammar": "방향 지시 あちら",
+      "tags": [
+        "あちら"
+      ]
+    },
+    {
+      "sent": "<ruby>診察<rt>しんさつ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしました。",
+      "trans": "진찰 후에, 쇼핑을 했습니다.",
+      "grammar": "명사+の+後 (후에)",
+      "tags": [
+        "後"
+      ]
+    },
+    {
+      "sent": "「リンゴは<ruby>いくつ<rt>いくつ</rt></ruby>ですか。<ruby>いくら<rt>いくら</rt></ruby>ですか」。",
+      "trans": "「사과는 몇 개입니까? 얼마입니까?」",
+      "grammar": "수량/가격 의문사",
+      "tags": [
+        "いくつ",
+        "いくら"
+      ]
+    },
+    {
+      "sent": "その<ruby>言葉<rt>ことば</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>、<ruby>あなた<rt>あなた</rt></ruby>はわかりますか。",
+      "trans": "그 말의 의미, 당신은 알고 있습니까?",
+      "grammar": "조사 の (소유)",
+      "tags": [
+        "意味",
+        "あなた"
+      ]
+    },
+    {
+      "sent": "もうすぐ<ruby>秋<rt>あき</rt></ruby>ですね。",
+      "trans": "이제 곧 가을이군요.",
+      "grammar": "종조사 ね (동의)",
+      "tags": [
+        "秋"
+      ]
+    },
+    {
+      "sent": "<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>ですが、<ruby>あさって<rt>あさって</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れるでしょう。",
+      "trans": "내일은 비가 오겠지만, 모레는 맑겠지요.",
+      "grammar": "역접 조사 が",
+      "tags": [
+        "明日",
+        "雨",
+        "あさって"
+      ]
+    },
+    {
+      "sent": "この<ruby>一週間<rt>いっしゅうかん</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、ずっと<ruby>忙<rt>いそが</rt></ruby>しかったです。",
+      "trans": "이 일주일 동안, 계속 바빴습니다.",
+      "grammar": "기간+の+間 (동안)",
+      "tags": [
+        "一週間",
+        "間"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「医者」の読み方は何ですか。",
+      "opt": [
+        "いしゃ",
+        "いし",
+        "かいしゃ",
+        "がくせい"
+      ],
+      "ans": 0,
+      "comment": "医者(いしゃ)는 의사라는 뜻입니다."
+    },
+    {
+      "q": "「兄」の読み方は何ですか。",
+      "opt": [
+        "あね",
+        "おとうと",
+        "あに",
+        "ちち"
+      ],
+      "ans": 2,
+      "comment": "兄(あに)는 (나의) 형/오빠를 뜻합니다."
+    },
+    {
+      "q": "「意味」の読み方は何ですか。",
+      "opt": [
+        "いけん",
+        "いみ",
+        "ゆめ",
+        "あじ"
+      ],
+      "ans": 1,
+      "comment": "意味(いみ)는 의미/뜻이라는 단어입니다."
+    },
+    {
+      "q": "空から ______ が降っています。",
+      "opt": [
+        "あめ",
+        "あさ",
+        "いえ",
+        "いけ"
+      ],
+      "ans": 0,
+      "comment": "문맥상 하늘에서 내리는 것은 雨(あめ, 비)입니다."
+    },
+    {
+      "q": "帽子は ______ にかぶります。",
+      "opt": [
+        "あし",
+        "あたま",
+        "なか",
+        "うえ"
+      ],
+      "ans": 1,
+      "comment": "모자는 頭(あたま, 머리)에 씁니다."
+    },
+    {
+      "q": "明日の次の日は ______ です。",
+      "opt": [
+        "きのう",
+        "おととい",
+        "あさって",
+        "まいにち"
+      ],
+      "ans": 2,
+      "comment": "내일의 다음 날은 あさって(모레)입니다."
+    },
+    {
+      "q": "「いす」の意味は何ですか。",
+      "opt": [
+        "책상",
+        "의자",
+        "침대",
+        "방"
+      ],
+      "ans": 1,
+      "comment": "いす는 의자를 의미합니다."
+    },
+    {
+      "q": "「池」の意味は何ですか。",
+      "opt": [
+        "바다",
+        "강",
+        "연못",
+        "산"
+      ],
+      "ans": 2,
+      "comment": "池(いけ)는 연못을 의미합니다."
+    },
+    {
+      "q": "「妹」の意味は何ですか。",
+      "opt": [
+        "언니",
+        "여동생",
+        "누나",
+        "어머니"
+      ],
+      "ans": 1,
+      "comment": "妹(いもうと)는 여동생을 의미합니다."
+    },
+    {
+      "q": "「一日」の意味は何ですか。",
+      "opt": [
+        "하루",
+        "일년",
+        "한달",
+        "일주일"
+      ],
+      "ans": 0,
+      "comment": "一日(いちにち)는 하루 또는 1일을 의미합니다."
+    }
+  ]
+}

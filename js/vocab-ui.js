@@ -68,12 +68,15 @@ function renderStarredVocabRow(item) {
     const readText = escapeHtml(item.read || '');
     const meanText = escapeHtml(item.mean || '');
     const levelText = escapeHtml(item.level || '');
-    const dayText = escapeHtml(String(item.day || ''));
+    // 북마크의 식별자 필드는 'day'를 그대로 두지만 값은 moduleId. 레거시 호환을 위해 day 필드 사용 유지.
+    const moduleKey = escapeHtml(String(item.day || ''));
+    const moduleOrdinalMatch = moduleKey.match(/-(\d+)$/);
+    const labelText = moduleOrdinalMatch ? `Module ${Number(moduleOrdinalMatch[1])}` : '이동';
 
     tr.innerHTML = `
         <td class="col-star">
             <button type="button" class="star-btn active"
-                    onclick="removeAndRefresh('${levelText}', '${dayText}', this)">
+                    onclick="removeAndRefresh('${levelText}', '${moduleKey}', this)">
                 ★
             </button>
         </td>
@@ -86,8 +89,8 @@ function renderStarredVocabRow(item) {
         <td class="col-read">${readText}</td>
         <td class="col-mean"><span>${meanText}</span></td>
         <td style="text-align:center;">
-            <a href="viewer.html?level=${levelText}&day=${dayText}" class="tool-btn" style="text-decoration:none; font-size:0.8rem;">
-                Day ${dayText}
+            <a href="viewer.html?level=${levelText}&module=${moduleKey}" class="tool-btn" style="text-decoration:none; font-size:0.8rem;">
+                ${labelText}
             </a>
         </td>
     `;

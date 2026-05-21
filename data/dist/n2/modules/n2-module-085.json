@@ -1,0 +1,187 @@
+{
+  "moduleId": "n2-module-085",
+  "level": "n2",
+  "ordinal": 85,
+  "title": "カタカナ語・4 (가타카나어 4)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-580bee32b20ba677666c107e5c99d310bb05dc65",
+      "word": "バランス",
+      "read": "ばらんす",
+      "mean": "밸런스, 균형",
+      "tags": []
+    },
+    {
+      "id": "v-2d81d83e51445fccd5319e51b7049092a9d487d8",
+      "word": "パンク",
+      "read": "ぱんく",
+      "mean": "펑크",
+      "tags": []
+    },
+    {
+      "id": "v-89d15968891fd6df56c1c8cd05f593aaf5966d6b",
+      "word": "パンツ",
+      "read": "ぱんつ",
+      "mean": "팬티, 바지",
+      "tags": []
+    },
+    {
+      "id": "v-1addd9e2b9d203cb94743dc1164dcd0b419f98f1",
+      "word": "ハンドル",
+      "read": "はんどる",
+      "mean": "핸들",
+      "tags": []
+    },
+    {
+      "id": "v-6c2230faa76790555e7b73931192f984c87f59ff",
+      "word": "ピストル",
+      "read": "ぴすとる",
+      "mean": "피스톨, 권총",
+      "tags": []
+    },
+    {
+      "id": "v-4a10db87241655f592bd31ddef256954f47b6bdf",
+      "word": "ピンポン",
+      "read": "ぴんぽん",
+      "mean": "탁구, 핑퐁",
+      "tags": []
+    },
+    {
+      "id": "v-e121cdcfec1278b7e37d942b78d00d15d134e4bd",
+      "word": "ブーム",
+      "read": "ぶーむ",
+      "mean": "붐, 유행",
+      "tags": []
+    },
+    {
+      "id": "v-10aa06a78a1a02670ac8828f49fafbf202986efe",
+      "word": "フライパン",
+      "read": "ふらいぱん",
+      "mean": "프라이팬",
+      "tags": []
+    },
+    {
+      "id": "v-76a705c583eccf8865377ee5ee4a88685034c0df",
+      "word": "プラスチック",
+      "read": "ぷらすちっく",
+      "mean": "플라스틱",
+      "tags": []
+    },
+    {
+      "id": "v-34cae2480d08f70d6526bfe422f4b3c66352bdf9",
+      "word": "プラットホーム",
+      "read": "ぷらっとほーむ",
+      "mean": "플랫폼",
+      "tags": []
+    },
+    {
+      "id": "v-b926b3b287eb33405ec7b96aef501b3a018b494e",
+      "word": "プラン",
+      "read": "ぷらん",
+      "mean": "플랜, 계획",
+      "tags": []
+    },
+    {
+      "id": "v-1f3aac3572a84f981865cc30e2c33885ece97726",
+      "word": "フリー",
+      "read": "ふりー",
+      "mean": "프리, 자유",
+      "tags": []
+    },
+    {
+      "id": "v-d06ca81d324fbc14545d91d4862a1a81c4d7c669",
+      "word": "フルーツ",
+      "read": "ふるーつ",
+      "mean": "프루트, 과일",
+      "tags": []
+    },
+    {
+      "id": "v-36d04453d46541cdb846dbd3ae2d225583609f96",
+      "word": "プレッシャー",
+      "read": "ぷれっしゃー",
+      "mean": "프레셔, 압박감",
+      "tags": []
+    },
+    {
+      "id": "v-729b7100c5c948a8df227af714bad392c7bd75aa",
+      "word": "プロ",
+      "read": "ぷろ",
+      "mean": "프로",
+      "tags": []
+    },
+    {
+      "id": "v-2d98a59349f6b8b689c6f5b63ebbeca0f63d63aa",
+      "word": "ブローチ",
+      "read": "ぶろーち",
+      "mean": "브로치",
+      "tags": []
+    },
+    {
+      "id": "v-cdacde388fe77562ca2622996928eccc0a4dbfb3",
+      "word": "プログラム",
+      "read": "ぷろぐらむ",
+      "mean": "프로그램",
+      "tags": []
+    },
+    {
+      "id": "v-28a2c5117cc7b8d4373b7e58cb7a24b515ed71b4",
+      "word": "ベテラン",
+      "read": "べてらん",
+      "mean": "베테랑",
+      "tags": []
+    },
+    {
+      "id": "v-c1a7dfb76bd3117e1d8dd25924658a5c6569c8e3",
+      "word": "ヘリコプター",
+      "read": "へりこぷたー",
+      "mean": "헬리콥터",
+      "tags": []
+    },
+    {
+      "id": "v-2ec5098007ab2de11fe364e5d0a9a4d1dab68561",
+      "word": "ペンキ",
+      "read": "ぺんき",
+      "mean": "페인트",
+      "tags": []
+    },
+    {
+      "id": "v-1f5bdcb402da7f12e168be3f97ce8804c51e12cf",
+      "word": "ベンチ",
+      "read": "べんち",
+      "mean": "벤치",
+      "tags": []
+    },
+    {
+      "id": "v-64e453d0511a99a4913751acee2a1e22c0f13b87",
+      "word": "ホームステイ",
+      "read": "ほーむすてい",
+      "mean": "홈스테이",
+      "tags": []
+    },
+    {
+      "id": "v-896a0e131b4bc5b417c0cd27a6f6ca0d24d083f2",
+      "word": "マーケット",
+      "read": "まーけっと",
+      "mean": "마켓, 시장",
+      "tags": []
+    },
+    {
+      "id": "v-cc296a80c4c0ff5efe0b6d255250c354b5921b5d",
+      "word": "マイク",
+      "read": "まいく",
+      "mean": "마이크",
+      "tags": []
+    },
+    {
+      "id": "v-237caf0070e5ce271858e963dea986296e40731e",
+      "word": "マイペース",
+      "read": "まいぺーす",
+      "mean": "마이페이스",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

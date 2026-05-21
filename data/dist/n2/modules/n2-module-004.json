@@ -1,0 +1,194 @@
+{
+  "moduleId": "n2-module-004",
+  "level": "n2",
+  "ordinal": 4,
+  "title": "あ行の名詞・4 (あ행 명사 4)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-31c1a52dc8fd4eed41b7c6181038da6f3f077bb8",
+      "word": "演習",
+      "read": "えんしゅう",
+      "mean": "연습, 세미나",
+      "tags": []
+    },
+    {
+      "id": "v-83c2538874dd24e035acad62b54067e9daabcb0d",
+      "word": "援助",
+      "read": "えんじょ",
+      "mean": "원조",
+      "tags": []
+    },
+    {
+      "id": "v-b5cda3561fc46dd18c1636f7b40b42afb99a98d8",
+      "word": "演説",
+      "read": "えんぜつ",
+      "mean": "연설",
+      "tags": []
+    },
+    {
+      "id": "v-2dfab8685f930628ac3f6abbf69223f2867567c7",
+      "word": "円高",
+      "read": "えんだか",
+      "mean": "엔고",
+      "tags": []
+    },
+    {
+      "id": "v-21f79f765580d54fb12c2001dcad1b8807660e40",
+      "word": "延長",
+      "read": "えんちょう",
+      "mean": "연장",
+      "tags": []
+    },
+    {
+      "id": "v-852be22288c83de436f6e4ef5a61dd8b89dccf04",
+      "word": "煙突",
+      "read": "えんとつ",
+      "mean": "굴뚝",
+      "tags": []
+    },
+    {
+      "id": "v-3f15bcbf75c25630e7a0d6f64faa50bfbbd3c54d",
+      "word": "円安",
+      "read": "えんやす",
+      "mean": "엔저",
+      "tags": []
+    },
+    {
+      "id": "v-67813aecb70976c626b50515c133fed48b04bbdc",
+      "word": "王女",
+      "read": "おうじょ",
+      "mean": "왕녀, 공주",
+      "tags": []
+    },
+    {
+      "id": "v-34fec311528aebc2096aecb81b88551df43c8592",
+      "word": "応接",
+      "read": "おうせつ",
+      "mean": "응접",
+      "tags": []
+    },
+    {
+      "id": "v-8a13ed476e5dec7ded1fe509879f8ae2110b5519",
+      "word": "応対",
+      "read": "おうたい",
+      "mean": "응대",
+      "tags": []
+    },
+    {
+      "id": "v-c2ee55911bbda0bc7fd8a1232709fbbcfdeba0fc",
+      "word": "欧米",
+      "read": "おうべい",
+      "mean": "구미(유럽과 미국)",
+      "tags": []
+    },
+    {
+      "id": "v-e19f7d50a443589d2f797a20bf9137cf50556012",
+      "word": "往来",
+      "read": "おうらい",
+      "mean": "왕래",
+      "tags": []
+    },
+    {
+      "id": "v-ce0311ac62599fcf53c031c081b46bf4de2fc3d7",
+      "word": "大型",
+      "read": "おおがた",
+      "mean": "대형",
+      "tags": []
+    },
+    {
+      "id": "v-6d7736a0fbbe30a4eaf138e14d2ae6182d87a45d",
+      "word": "大声",
+      "read": "おおごえ",
+      "mean": "큰 소리",
+      "tags": []
+    },
+    {
+      "id": "v-762bb951308c1c03048cae83017a4ada719300c6",
+      "word": "大昔",
+      "read": "おおむかし",
+      "mean": "먼 옛날",
+      "tags": []
+    },
+    {
+      "id": "v-396fcc6d1df5e7732d560047b645d53546098647",
+      "word": "多め",
+      "read": "おおめ",
+      "mean": "조금 많음",
+      "tags": []
+    },
+    {
+      "id": "v-9c3a210b8f4747f18cec563a384cff9f2a2c3381",
+      "word": "丘",
+      "read": "おか",
+      "mean": "언덕",
+      "tags": []
+    },
+    {
+      "id": "v-521d75035b56f7c3bee9e21e9bc1a9a651801e76",
+      "word": "おかず",
+      "read": "おかず",
+      "mean": "반찬",
+      "tags": []
+    },
+    {
+      "id": "v-fe05ac650e316f2ba424c81d53f5bf1d27b39cf2",
+      "word": "悪寒",
+      "read": "おかん",
+      "mean": "오한",
+      "tags": []
+    },
+    {
+      "id": "v-270f8d8a9c46b2b59578311e0ee04d36987cf135",
+      "word": "沖",
+      "read": "おき",
+      "mean": "먼 바다",
+      "tags": []
+    },
+    {
+      "id": "v-958668f4776cb458814049c1b90c3d5ff28ea1fb",
+      "word": "お気に入り",
+      "read": "おきにいり",
+      "mean": "마음에 듦, 즐겨찾기",
+      "tags": []
+    },
+    {
+      "id": "v-708a87c673f4fb5ed032feab694d58149fb6199d",
+      "word": "お辞儀",
+      "read": "おじぎ",
+      "mean": "인사, 절",
+      "tags": []
+    },
+    {
+      "id": "v-04d34ebe44e1bfb6399db8d14856b5b414631e70",
+      "word": "おしゃべり",
+      "read": "おしゃべり",
+      "mean": "수다",
+      "tags": []
+    },
+    {
+      "id": "v-02b730a55675199c8d3faae7d2a491eed7716666",
+      "word": "汚染",
+      "read": "おせん",
+      "mean": "오염",
+      "tags": []
+    },
+    {
+      "id": "v-19c58371796b93f64a74e63a66c80c58f3027aee",
+      "word": "恐れ",
+      "read": "おそれ",
+      "mean": "두려움, 우려",
+      "tags": []
+    },
+    {
+      "id": "v-9c90fc762896aaf6b9394f645f09b95835df2674",
+      "word": "鬼",
+      "read": "おに",
+      "mean": "도깨비, 귀신",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

@@ -1,0 +1,194 @@
+{
+  "moduleId": "n2-module-011",
+  "level": "n2",
+  "ordinal": 11,
+  "title": "か行の名詞・7 (か행 명사 7)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-685f6398b355de7cccc4299b2218513fcb07f9fa",
+      "word": "機能",
+      "read": "きのう",
+      "mean": "기능",
+      "tags": []
+    },
+    {
+      "id": "v-6e9d0ba2c75831428798f3e999d8f39aba2e5ec7",
+      "word": "寄付",
+      "read": "きふ",
+      "mean": "기부",
+      "tags": []
+    },
+    {
+      "id": "v-76dc665c8890d718c3fc1fc4c2a6402c3807978c",
+      "word": "規模",
+      "read": "きぼ",
+      "mean": "규모",
+      "tags": []
+    },
+    {
+      "id": "v-6181026ba0734e31a80c1d695cda7da0faa6d40f",
+      "word": "気味",
+      "read": "きみ",
+      "mean": "기미, 기색",
+      "tags": []
+    },
+    {
+      "id": "v-cae8537a686dc50bb6571120dcd14f33b7676e68",
+      "word": "義務",
+      "read": "ぎむ",
+      "mean": "의무",
+      "tags": []
+    },
+    {
+      "id": "v-c9e699fe2d681a0a61004a69f9f37a6ef3d11273",
+      "word": "客席",
+      "read": "きゃくせき",
+      "mean": "객석",
+      "tags": []
+    },
+    {
+      "id": "v-57675a5a8412fdf71fc8d3412a25728573fdfa52",
+      "word": "休講",
+      "read": "きゅうこう",
+      "mean": "휴강",
+      "tags": []
+    },
+    {
+      "id": "v-858fde16e7b84a53f73f809e4013e110a9d9924b",
+      "word": "求婚",
+      "read": "きゅうこん",
+      "mean": "구혼",
+      "tags": []
+    },
+    {
+      "id": "v-d45f0352a1e36167d06d8ecc111c1fedb1664b44",
+      "word": "吸収",
+      "read": "きゅうしゅう",
+      "mean": "흡수",
+      "tags": []
+    },
+    {
+      "id": "v-8c22ce64931d16b4d316feaafc521debfb6e643b",
+      "word": "救助",
+      "read": "きゅうじょ",
+      "mean": "구조",
+      "tags": []
+    },
+    {
+      "id": "v-f983e4b11161e5dd34796624bd261e607fac3565",
+      "word": "求人",
+      "read": "きゅうじん",
+      "mean": "구인",
+      "tags": []
+    },
+    {
+      "id": "v-f6359d6fbcf3192d09e94a9d964ec1710d16394b",
+      "word": "休息",
+      "read": "きゅうそく",
+      "mean": "휴식",
+      "tags": []
+    },
+    {
+      "id": "v-1243a23b709f6c39e4a8dc49ba9a2bb06d421e3a",
+      "word": "教員",
+      "read": "きょういん",
+      "mean": "교원",
+      "tags": []
+    },
+    {
+      "id": "v-e04462e6ddaa2f65c9f2ee4586e4f49147d12e80",
+      "word": "境界",
+      "read": "きょうかい",
+      "mean": "경계",
+      "tags": []
+    },
+    {
+      "id": "v-aa4d9c8ceabc1be79cafc5b3c2f1426aa3e6e885",
+      "word": "競技",
+      "read": "きょうぎ",
+      "mean": "경기",
+      "tags": []
+    },
+    {
+      "id": "v-6705600d28b4b09263d97c58a4fcc9025b80625e",
+      "word": "行儀",
+      "read": "ぎょうぎ",
+      "mean": "예의범절",
+      "tags": []
+    },
+    {
+      "id": "v-91532d8b3abb3ca4fee405b0b3c1a75d4bc6dce4",
+      "word": "供給",
+      "read": "きょうきゅう",
+      "mean": "공급",
+      "tags": []
+    },
+    {
+      "id": "v-85f3b967150065022bb72ff74a81a3feaa8d8dac",
+      "word": "恐縮",
+      "read": "きょうしゅく",
+      "mean": "죄송함, 황송함",
+      "tags": []
+    },
+    {
+      "id": "v-ca9ff239479b51e5ed611d377dfa35bd2e996e5d",
+      "word": "協調",
+      "read": "きょうちょう",
+      "mean": "협조",
+      "tags": []
+    },
+    {
+      "id": "v-406f28beda505805fa3ea02f821556f69ae1e008",
+      "word": "共同",
+      "read": "きょうどう",
+      "mean": "공동",
+      "tags": []
+    },
+    {
+      "id": "v-8061f33b41e33ea06c1ed94bd539d35d4d076dd5",
+      "word": "恐怖",
+      "read": "きょうふ",
+      "mean": "공포",
+      "tags": []
+    },
+    {
+      "id": "v-8869ba32c4f91373cef2c8b133d9c84c4eba198a",
+      "word": "共有",
+      "read": "きょうゆう",
+      "mean": "공유",
+      "tags": []
+    },
+    {
+      "id": "v-b8c2216aadcc4b65b4b1afd89fafdd7b7b4a41b9",
+      "word": "共用",
+      "read": "きょうよう",
+      "mean": "공용",
+      "tags": []
+    },
+    {
+      "id": "v-c269cede0ea78ce4a810f6e7b3f9bf4412e9d799",
+      "word": "教養",
+      "read": "きょうよう",
+      "mean": "교양",
+      "tags": []
+    },
+    {
+      "id": "v-f70ec0b2eb8fa65ef77f5b29d3893e3cf8a13d3c",
+      "word": "行列",
+      "read": "ぎょうれつ",
+      "mean": "행렬",
+      "tags": []
+    },
+    {
+      "id": "v-f26391cbd93dfe22167e7bef0f8186f09d00320b",
+      "word": "漁業",
+      "read": "ぎょぎょう",
+      "mean": "어업",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

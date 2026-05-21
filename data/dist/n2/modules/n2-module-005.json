@@ -1,0 +1,194 @@
+{
+  "moduleId": "n2-module-005",
+  "level": "n2",
+  "ordinal": 5,
+  "title": "か行の名詞・1 (か행 명사 1)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-7c71d80a67abb0dc77d7995432c5aae86ea24cd2",
+      "word": "お昼",
+      "read": "おひる",
+      "mean": "점심, 낮",
+      "tags": []
+    },
+    {
+      "id": "v-856db5efc8512295faa378269accad6e5a69f0b7",
+      "word": "お前",
+      "read": "おまえ",
+      "mean": "너(친한 사이나 아랫사람)",
+      "tags": []
+    },
+    {
+      "id": "v-b4506154b35d319cff5314825efe3b0b2760e35d",
+      "word": "おまけ",
+      "read": "おまけ",
+      "mean": "덤, 경품",
+      "tags": []
+    },
+    {
+      "id": "v-16df7ff31787bd9a0f1ff68371eb1884ba79e516",
+      "word": "泳ぎ",
+      "read": "およぎ",
+      "mean": "수영, 헤엄",
+      "tags": []
+    },
+    {
+      "id": "v-9b72048053d615e3b04ec0b370c2789195a79967",
+      "word": "温帯",
+      "read": "おんたい",
+      "mean": "온대",
+      "tags": []
+    },
+    {
+      "id": "v-2cb009010ab1464b72cc8ae60d763254c7aa2a35",
+      "word": "御中",
+      "read": "おんちゅう",
+      "mean": "귀중(단체 앞 편지)",
+      "tags": []
+    },
+    {
+      "id": "v-4c7b8dd323cc5650a84675ebcccdd3164b9e3929",
+      "word": "音程",
+      "read": "おんてい",
+      "mean": "음정",
+      "tags": []
+    },
+    {
+      "id": "v-e8da2b9df0b048993ee75c9b538c0c45c3b3993e",
+      "word": "蚊",
+      "read": "か",
+      "mean": "모기",
+      "tags": []
+    },
+    {
+      "id": "v-61e87fea4155d464adac899004b8550a06860e25",
+      "word": "害",
+      "read": "がい",
+      "mean": "해, 피해",
+      "tags": []
+    },
+    {
+      "id": "v-cbc9bc450be1d224910bd83e6d951be48dc4b6a9",
+      "word": "開会",
+      "read": "かいかい",
+      "mean": "개회",
+      "tags": []
+    },
+    {
+      "id": "v-c8b13fbbfa8523e8f2da92d507400c044d362af6",
+      "word": "会見",
+      "read": "かいけん",
+      "mean": "회견",
+      "tags": []
+    },
+    {
+      "id": "v-28c1b49939a356dd2feeb95af640f5412f18e8ee",
+      "word": "外見",
+      "read": "がいけん",
+      "mean": "외견, 겉모습",
+      "tags": []
+    },
+    {
+      "id": "v-7eda2e52360b41517cff7ee6e688cd7ec25f2e01",
+      "word": "介護",
+      "read": "かいご",
+      "mean": "간호",
+      "tags": []
+    },
+    {
+      "id": "v-e88caf7f0a7ca540738db404add26f6355cf6699",
+      "word": "外交",
+      "read": "がいこう",
+      "mean": "외교",
+      "tags": []
+    },
+    {
+      "id": "v-6478300137b22a6042f14767230b8a9ceb1d12e0",
+      "word": "開催",
+      "read": "かいさい",
+      "mean": "개최",
+      "tags": []
+    },
+    {
+      "id": "v-f1f810f4c51dc9e74dbb30562697b3ebf7780469",
+      "word": "解散",
+      "read": "かいさん",
+      "mean": "해산",
+      "tags": []
+    },
+    {
+      "id": "v-78c9e4556f4893b45fd5e21bd143a1094674f8a6",
+      "word": "開始",
+      "read": "かいし",
+      "mean": "개시, 시작",
+      "tags": []
+    },
+    {
+      "id": "v-83817b43414a06ede63274aaa59ca7bfda83c58b",
+      "word": "解釈",
+      "read": "かいしゃく",
+      "mean": "해석",
+      "tags": []
+    },
+    {
+      "id": "v-73bc6dd6b32888eccca04e9c63fa8ba9ae0ea73b",
+      "word": "解消",
+      "read": "かいしょう",
+      "mean": "해소",
+      "tags": []
+    },
+    {
+      "id": "v-a7f51581e4849e264d71ccd78507df4ade336137",
+      "word": "海上",
+      "read": "かいじょう",
+      "mean": "해상",
+      "tags": []
+    },
+    {
+      "id": "v-50925e90f4325092add74b2aac46f61bd716205d",
+      "word": "回数券",
+      "read": "かいすうけん",
+      "mean": "회수권",
+      "tags": []
+    },
+    {
+      "id": "v-b31cd3bf4099391e370c3e8a537de034212ce5de",
+      "word": "改正",
+      "read": "かいせい",
+      "mean": "개정",
+      "tags": []
+    },
+    {
+      "id": "v-9ac1444e9856d1ab7eb87a6f88c01cc34269b839",
+      "word": "快晴",
+      "read": "かいせい",
+      "mean": "쾌청",
+      "tags": []
+    },
+    {
+      "id": "v-936308785739453386755437ade92f7537ecde34",
+      "word": "開設",
+      "read": "かいせつ",
+      "mean": "개설",
+      "tags": []
+    },
+    {
+      "id": "v-0dd5d5270eabe7c0713fe95ce97c96ac77c124f3",
+      "word": "改善",
+      "read": "かいぜん",
+      "mean": "개선",
+      "tags": []
+    },
+    {
+      "id": "v-389cb6acc2ca3d82535c94b759d042f4db91e654",
+      "word": "改造",
+      "read": "かいぞう",
+      "mean": "개조",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

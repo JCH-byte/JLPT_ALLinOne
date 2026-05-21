@@ -1,0 +1,441 @@
+{
+  "moduleId": "n4-module-014",
+  "level": "n4",
+  "ordinal": 14,
+  "title": "N4: 日常のトラブルとお出かけ (일상의 트러블과 외출)",
+  "ruleVersion": "n4-rule-v1",
+  "vocab": [
+    {
+      "id": "v-f1f35d3ea44b30a96ca9b6cbb0fa8b3ded86195a",
+      "word": "途中",
+      "read": "とちゅう",
+      "mean": "도중",
+      "tags": []
+    },
+    {
+      "id": "v-e96cfbe77670d8e5afd83fcd0cc2aebf5fa03e00",
+      "word": "特急",
+      "read": "とっきゅう",
+      "mean": "특급",
+      "tags": []
+    },
+    {
+      "id": "v-cbe4f3984af54d21afcbe12f9fb9a93d5c4a12c0",
+      "word": "隣",
+      "read": "となり",
+      "mean": "옆, 이웃",
+      "tags": []
+    },
+    {
+      "id": "v-e523b1db96a03b6346166953665d14dfd08224ad",
+      "word": "泥棒",
+      "read": "どろぼう",
+      "mean": "도둑",
+      "tags": []
+    },
+    {
+      "id": "v-f357283193fb851cfe2e391e034e6a4603ed666c",
+      "word": "内部",
+      "read": "ないぶ",
+      "mean": "내부",
+      "tags": []
+    },
+    {
+      "id": "v-47ed2919957b47dee40c04a3ec03dbd50b48b807",
+      "word": "生ビール",
+      "read": "なまびーる",
+      "mean": "생맥주",
+      "tags": []
+    },
+    {
+      "id": "v-1ba8f958bec31b63588518b3c72ca06ce99b4e68",
+      "word": "何度",
+      "read": "なんど",
+      "mean": "몇 번, 몇 도",
+      "tags": []
+    },
+    {
+      "id": "v-a6672c11f35cd7cb1c83358b0a89c9f771c20160",
+      "word": "におい",
+      "read": "におい",
+      "mean": "냄새",
+      "tags": []
+    },
+    {
+      "id": "v-e39e5db4793e3f9a01140c7ac75b6969a17f8ddb",
+      "word": "肉屋",
+      "read": "にくや",
+      "mean": "정육점",
+      "tags": []
+    },
+    {
+      "id": "v-965d01c6fc2e52cfa598353a730cc6702b14d0f8",
+      "word": "日記",
+      "read": "にっき",
+      "mean": "일기",
+      "tags": []
+    },
+    {
+      "id": "v-8b3800b89bca1e06fe50d0cc6399b1bdfa57b2f5",
+      "word": "入院",
+      "read": "にゅういん",
+      "mean": "입원",
+      "tags": []
+    },
+    {
+      "id": "v-2a51453b4f1f1a447e78bd8a999dc9ac1df03615",
+      "word": "入学",
+      "read": "にゅうがく",
+      "mean": "입학",
+      "tags": []
+    },
+    {
+      "id": "v-c8cbac5feb82a7c1f9bad93d401591f7bf4ae9de",
+      "word": "入社",
+      "read": "にゅうしゃ",
+      "mean": "입사",
+      "tags": []
+    },
+    {
+      "id": "v-1ca1c4bc7923f35b71ff8eceb2539601b8bede59",
+      "word": "人形",
+      "read": "にんぎょう",
+      "mean": "인형",
+      "tags": []
+    },
+    {
+      "id": "v-aa2b37cb9725a6c43f1c27cbac25eff4bcca75ba",
+      "word": "にんじん",
+      "read": "にんじん",
+      "mean": "당근",
+      "tags": []
+    },
+    {
+      "id": "v-2a50b3a9ed9337696f6f4c0767a71e6879c267f5",
+      "word": "熱",
+      "read": "ねつ",
+      "mean": "열",
+      "tags": []
+    },
+    {
+      "id": "v-109d30e11cdda849d475fc22bf128b1ba13551da",
+      "word": "寝坊",
+      "read": "ねぼう",
+      "mean": "늦잠",
+      "tags": []
+    },
+    {
+      "id": "v-2c3f382d794acc16b7700513ad04a653e4ab692d",
+      "word": "のど",
+      "read": "のど",
+      "mean": "목 (신체)",
+      "tags": []
+    },
+    {
+      "id": "v-8297651661f6c849e472b1b4ae5420135fd02391",
+      "word": "飲みすぎ",
+      "read": "のみすぎ",
+      "mean": "과음",
+      "tags": []
+    },
+    {
+      "id": "v-8f0d9c79fe8f93119689d8ad360c3e73bb95d44c",
+      "word": "乗り換え",
+      "read": "のりかえ",
+      "mean": "환승, 갈아타기",
+      "tags": []
+    },
+    {
+      "id": "v-47756ce6d1e0a1c610017a1cc51ed45e919d2b05",
+      "word": "乗り物",
+      "read": "のりもの",
+      "mean": "탈것",
+      "tags": []
+    },
+    {
+      "id": "v-ab70ed6813110d7af16a4d5edaffcfc37d2e649e",
+      "word": "葉",
+      "read": "は",
+      "mean": "잎",
+      "tags": []
+    },
+    {
+      "id": "v-c91107b6241e3f41bdabc7eac650863f915756a3",
+      "word": "場合",
+      "read": "ばあい",
+      "mean": "경우",
+      "tags": []
+    },
+    {
+      "id": "v-a0861d3c4795025952294bc0b93b758d81666643",
+      "word": "歯医者",
+      "read": "はいしゃ",
+      "mean": "치과 의사, 치과",
+      "tags": []
+    },
+    {
+      "id": "v-77580002fa51ee748ee6c17bc6d789ef4ca49d41",
+      "word": "白菜",
+      "read": "はくさい",
+      "mean": "배추",
+      "tags": []
+    }
+  ],
+  "story": "<h3>Scene 1. <ruby>病院<rt>びょういん</rt></ruby>へ (병원으로)</h3>\n<ruby>朝<rt>あさ</rt></ruby>、<ruby>寝坊<rt>ねぼう</rt></ruby>してしまいました。<ruby>熱<rt>ねつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>て、のども<ruby>痛<rt>いた</rt></ruby>いです。<ruby>入院<rt>にゅういん</rt></ruby>について、お<ruby>医者<rt>いしゃ</rt></ruby>さんに<ruby>相談<rt>そうだん</rt></ruby>しました。<ruby>歯医者<rt>はいしゃ</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>の<ruby>薬局<rt>やっきょく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。\n<h3>Scene 2. <ruby>料理<rt>りょうり</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby> (요리 준비)</h3>\n<ruby>元気<rt>げんき</rt></ruby>になるために、スープを<ruby>作<rt>つく</rt></ruby>ります。<ruby>肉屋<rt>にくや</rt></ruby>で<ruby>鶏肉<rt>とりにく</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。にんじんと<ruby>白菜<rt>はくさい</rt></ruby>もたくさん<ruby>入<rt>い</rt></ruby>れます。いいにおいがして、おいしい<ruby>食事<rt>しょくじ</rt></ruby>ができました。\n<h3>Scene 3. <ruby>週末<rt>しゅうまつ</rt></ruby>のお<ruby>出<rt>で</rt></ruby>かけ (주말 외출)</h3>\n<ruby>土曜日<rt>どようび</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きました。<ruby>特急<rt>とっきゅう</rt></ruby>のおかげで、<ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>きました。<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>何度<rt>なんど</rt></ruby>も<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えをしました。レストランで<ruby>生<rt>なま</rt></ruby>ビールを<ruby>飲<rt>の</rt></ruby>みました。<ruby>飲<rt>の</rt></ruby>みすぎた<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>乗<rt>の</rt></ruby>り<ruby>物<rt>もの</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でよく<ruby>寝<rt>ね</rt></ruby>ます。\n<h3>Scene 4. <ruby>日記<rt>にっき</rt></ruby>と<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby> (일기와 추억)</h3>\n<ruby>弟<rt>おとうと</rt></ruby>の<ruby>入学<rt>にゅうがく</rt></ruby>のお<ruby>祝<rt>いわ</rt></ruby>いとして、<ruby>人形<rt>にんぎょう</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<ruby>私<rt>わたし</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>入社<rt>にゅうしゃ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>から、<ruby>日記<rt>にっき</rt></ruby>を<ruby>書<rt>か</rt></ruby>いています。<ruby>箱<rt>はこ</rt></ruby>の<ruby>内部<rt>ないぶ</rt></ruby>にはきれいな<ruby>葉<rt>は</rt></ruby>があって、<ruby>宝石<rt>ほうせき</rt></ruby>みたいにきれいです。<ruby>泥棒<rt>どろぼう</rt></ruby>が<ruby>来<rt>き</rt></ruby>ないように、かぎをかけました。",
+  "analysis": [
+    {
+      "sent": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>寝坊<rt>ねぼう</rt></ruby>してしまいました。",
+      "trans": "아침, 늦잠을 자고 말았습니다.",
+      "grammar": "〜てしまう (~해 버리다, 유감)",
+      "tags": [
+        "寝坊"
+      ]
+    },
+    {
+      "sent": "<ruby>熱<rt>ねつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>て、のども<ruby>痛<rt>いた</rt></ruby>いです。",
+      "trans": "열이 나고, 목도 아픕니다.",
+      "grammar": "〜て (~하고, 나열)",
+      "tags": [
+        "熱",
+        "のど"
+      ]
+    },
+    {
+      "sent": "<ruby>入院<rt>にゅういん</rt></ruby>について、お<ruby>医者<rt>いしゃ</rt></ruby>さんに<ruby>相談<rt>そうだん</rt></ruby>しました。",
+      "trans": "입원에 대하여, 의사 선생님께 상담했습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "入院"
+      ]
+    },
+    {
+      "sent": "<ruby>歯医者<rt>はいしゃ</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>の<ruby>薬局<rt>やっきょく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "치과 옆의 약국에 가게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다)",
+      "tags": [
+        "歯医者",
+        "隣"
+      ]
+    },
+    {
+      "sent": "<ruby>元気<rt>げんき</rt></ruby>になるために、スープを<ruby>作<rt>つく</rt></ruby>ります。",
+      "trans": "건강해지기 위해, 수프를 만듭니다.",
+      "grammar": "〜ために (~하기 위해, 목적)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>肉屋<rt>にくや</rt></ruby>で<ruby>鶏肉<rt>とりにく</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "정육점에서 닭고기를 샀습니다.",
+      "grammar": "で (장소)",
+      "tags": [
+        "肉屋"
+      ]
+    },
+    {
+      "sent": "にんじんと<ruby>白菜<rt>はくさい</rt></ruby>もたくさん<ruby>入<rt>い</rt></ruby>れます。",
+      "trans": "당근과 배추도 많이 넣습니다.",
+      "grammar": "と (~와/과)",
+      "tags": [
+        "にんじん",
+        "白菜"
+      ]
+    },
+    {
+      "sent": "いいにおいがして、おいしい<ruby>食事<rt>しょくじ</rt></ruby>ができました。",
+      "trans": "좋은 냄새가 나서, 맛있는 식사가 완성되었습니다.",
+      "grammar": "〜がする (~이/가 나다, 감각)",
+      "tags": [
+        "におい"
+      ]
+    },
+    {
+      "sent": "<ruby>土曜日<rt>どようび</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "토요일, 친구를 만나러 갔습니다.",
+      "grammar": "〜に行く (~하러 가다, 목적)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>特急<rt>とっきゅう</rt></ruby>のおかげで、<ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>きました。",
+      "trans": "특급 덕분에, 일찍 도착했습니다.",
+      "grammar": "〜のおかげで (~덕분에)",
+      "tags": [
+        "特急"
+      ]
+    },
+    {
+      "sent": "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>何度<rt>なんど</rt></ruby>も<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えをしました。",
+      "trans": "도중에 몇 번이나 전철 환승을 했습니다.",
+      "grammar": "も (~나, 강조)",
+      "tags": [
+        "途中",
+        "何度",
+        "乗り換え"
+      ]
+    },
+    {
+      "sent": "レストランで<ruby>生<rt>なま</rt></ruby>ビールを<ruby>飲<rt>の</rt></ruby>みました。",
+      "trans": "레스토랑에서 생맥주를 마셨습니다.",
+      "grammar": "で (장소)",
+      "tags": [
+        "生ビール"
+      ]
+    },
+    {
+      "sent": "<ruby>飲<rt>の</rt></ruby>みすぎた<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>乗<rt>の</rt></ruby>り<ruby>物<rt>もの</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でよく<ruby>寝<rt>ね</rt></ruby>ます。",
+      "trans": "과음한 경우에는, 탈것 안에서 자주 잡니다.",
+      "grammar": "〜た場合 (~한 경우)",
+      "tags": [
+        "飲みすぎ",
+        "場合",
+        "乗り物"
+      ]
+    },
+    {
+      "sent": "<ruby>弟<rt>おとうと</rt></ruby>の<ruby>入学<rt>にゅうがく</rt></ruby>のお<ruby>祝<rt>いわ</rt></ruby>いとして、<ruby>人形<rt>にんぎょう</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "남동생의 입학 축하로서, 인형을 샀습니다.",
+      "grammar": "〜として (~로서, 자격/명목)",
+      "tags": [
+        "入学",
+        "人形"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>入社<rt>にゅうしゃ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>から、<ruby>日記<rt>にっき</rt></ruby>を<ruby>書<rt>か</rt></ruby>いています。",
+      "trans": "저는 회사에 입사한 날부터, 일기를 쓰고 있습니다.",
+      "grammar": "〜から (~부터)",
+      "tags": [
+        "入社",
+        "日記"
+      ]
+    },
+    {
+      "sent": "<ruby>箱<rt>はこ</rt></ruby>の<ruby>内部<rt>ないぶ</rt></ruby>にはきれいな<ruby>葉<rt>は</rt></ruby>があって、<ruby>宝石<rt>ほうせき</rt></ruby>みたいにきれいです。",
+      "trans": "상자 내부에는 예쁜 잎이 있어서, 보석처럼 예쁩니다.",
+      "grammar": "〜みたいに (~처럼, 비유)",
+      "tags": [
+        "内部",
+        "葉"
+      ]
+    },
+    {
+      "sent": "<ruby>泥棒<rt>どろぼう</rt></ruby>が<ruby>来<rt>き</rt></ruby>ないように、かぎをかけました。",
+      "trans": "도둑이 오지 않도록, 자물쇠를 채웠습니다.",
+      "grammar": "〜ように (~하도록)",
+      "tags": [
+        "泥棒"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「泥棒」の読み方は何ですか。",
+      "opt": [
+        "どろぽう",
+        "とろぼう",
+        "どろぼう",
+        "とろぽう"
+      ],
+      "ans": 2,
+      "comment": "泥棒(どろぼう)は '도둑'이라는 뜻です。"
+    },
+    {
+      "q": "「白菜」の読み方は何ですか。",
+      "opt": [
+        "はくさい",
+        "しろな",
+        "しろさい",
+        "はくな"
+      ],
+      "ans": 0,
+      "comment": "白菜(はくさい)は '배추'という 뜻です。"
+    },
+    {
+      "q": "「特急」の読み方は何ですか。",
+      "opt": [
+        "とくきゅう",
+        "とっきゅう",
+        "どくきゅう",
+        "どっきゅう"
+      ],
+      "ans": 1,
+      "comment": "特急(とっきゅう)は '특급'という 뜻です。"
+    },
+    {
+      "q": "「寝坊」の読み方は何ですか。",
+      "opt": [
+        "ねほう",
+        "ねんぼう",
+        "ねっぽう",
+        "ねぼう"
+      ],
+      "ans": 3,
+      "comment": "寝坊(ねぼう)は '늦잠'という 뜻です。"
+    },
+    {
+      "q": "「환승, 갈아타기」を日本語で書くと何ですか。",
+      "opt": [
+        "乗り換え",
+        "乗り物",
+        "途中",
+        "入社"
+      ],
+      "ans": 0,
+      "comment": "乗り換え(のりかえ)는 '환승, 갈아타기'라는 뜻입니다."
+    },
+    {
+      "q": "「일기」を日本語で書くと何ですか。",
+      "opt": [
+        "入学",
+        "日記",
+        "場合",
+        "内部"
+      ],
+      "ans": 1,
+      "comment": "日記(にっき)は '일기'という 뜻です。"
+    },
+    {
+      "q": "「입원」を日本語で書くと何ですか。",
+      "opt": [
+        "歯医者",
+        "入院",
+        "熱",
+        "肉屋"
+      ],
+      "ans": 1,
+      "comment": "入院(にゅういん)は '입원'という 뜻です。"
+    },
+    {
+      "q": "弟の入学のお祝い______、プレゼントを買いました。",
+      "opt": [
+        "について",
+        "みたいに",
+        "として",
+        "ために"
+      ],
+      "ans": 2,
+      "comment": "자격이나 명목을 나타내는 「〜として」(~로서)가 알맞습니다."
+    },
+    {
+      "q": "病気を治す______、薬を飲みます。",
+      "opt": [
+        "ために",
+        "のおかげで",
+        "について",
+        "みたいに"
+      ],
+      "ans": 0,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "あの雲は、うさぎ______見えます。",
+      "opt": [
+        "について",
+        "みたいに",
+        "として",
+        "ために"
+      ],
+      "ans": 1,
+      "comment": "비유를 나타내는 「〜みたいに」(~처럼)가 알맞습니다."
+    }
+  ]
+}

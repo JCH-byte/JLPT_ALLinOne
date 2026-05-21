@@ -1,71 +1,57 @@
 /**
  * data-service.js
- * 기능: Module/Day 단위 데이터 lazy-load, 로컬 데이터 오버라이드 병합
+ * 기능: 모듈 단위 데이터 lazy-load + 로컬 dev 오버라이드 병합.
+ * 단일 fetch 경로: data/dist/{level}/{index.json, modules/{moduleId}.json}.
+ * day 개념·이중 모델·런타임 존재 확인 로직 없음 (빌드가 일관성 보장).
  */
 
-const DAY_DATA_CACHE = new Map();
 const LEVEL_INDEX_CACHE = new Map();
+const MODULE_DATA_CACHE = new Map();
 
-const FIELD_ALIASES = {
-    reading: 'read',
-    meaning: 'mean',
-    question: 'q',
-    options: 'opt'
-};
+const FIELD_ALIASES = { reading: 'read', meaning: 'mean', question: 'q', options: 'opt' };
 
 const DEV_PREFIX = 'JLPT_DEV_DATA_OVERRIDE';
 const DEV_INDEX_KEY = `${DEV_PREFIX}__INDEX`;
 const LEGACY_DEV_KEY = 'JLPT_DEV_DATA_OVERRIDE';
 
-function getDayCacheKey(level, day) {
-    return `${level}-${day}`;
-}
+function moduleCacheKey(level, moduleId) { return `${level}:${moduleId}`; }
+
+function safeString(value) { return typeof value === 'string' ? value : ''; }
+function safeArray(value) { return Array.isArray(value) ? value : []; }
 
 function normalizeItemKeys(item) {
     if (!item || typeof item !== 'object' || Array.isArray(item)) return item;
     const normalized = { ...item };
-
     Object.entries(FIELD_ALIASES).forEach(([legacyKey, canonicalKey]) => {
         if (normalized[canonicalKey] == null && normalized[legacyKey] != null) {
             normalized[canonicalKey] = normalized[legacyKey];
         }
     });
-
     return normalized;
 }
 
-function safeString(value) {
-    return typeof value === 'string' ? value : '';
-}
-
-function safeArray(value) {
-    return Array.isArray(value) ? value : [];
-}
-
-function normalizeVocabItem(levelName, day, index, vocabItem) {
+function normalizeVocabItem(level, moduleId, index, vocabItem) {
     const item = normalizeItemKeys(vocabItem) || {};
     const normalized = {
+        id: safeString(item.id),
         word: safeString(item.word),
         read: safeString(item.read),
         mean: safeString(item.mean),
         tags: safeArray(item.tags),
-        moduleId: safeString(item.moduleId),
-        legacyDay: item.legacyDay ?? day
+        moduleId: safeString(moduleId)
     };
 
     const missing = [];
     if (!normalized.word) missing.push('word');
     if (!normalized.read) missing.push('read');
     if (!normalized.mean) missing.push('mean');
-
     if (missing.length > 0) {
-        console.warn(`[data:${levelName}] Day ${day} vocab[${index}] missing required fields: ${missing.join(', ')}`);
+        console.warn(`[data:${level}] ${moduleId} vocab[${index}] missing: ${missing.join(', ')}`);
     }
-
     return normalized;
 }
 
-function normalizeQuizItem(levelName, day, index, quizItem) {
+function normalizeQuizItem(level, moduleId, index, quizItem) {
     const item = normalizeItemKeys(quizItem) || {};
     const rawOpt = item.opt;
     const normalized = {
@@ -74,173 +60,71 @@ function normalizeQuizItem(levelName, day, index, quizItem) {
         ans: item.ans != null ? item.ans : '',
         comment: safeString(item.comment)
     };
-
     const missing = [];
     if (!normalized.q) missing.push('q');
     if (!Array.isArray(rawOpt)) missing.push('opt');
     if (item.ans == null || item.ans === '') missing.push('ans');
-
     if (missing.length > 0) {
-        console.warn(`[data:${levelName}] Day ${day} quiz[${index}] missing required fields: ${missing.join(', ')}`);
+        console.warn(`[data:${level}] ${moduleId} quiz[${index}] missing: ${missing.join(', ')}`);
     }
-
     return normalized;
 }
 
-function normalizeDayData(level, day, dayData) {
-    let normalizedDayData = dayData;
-
-    if (normalizedDayData && typeof normalizedDayData === 'object' && !Array.isArray(normalizedDayData)) {
-        const nested = normalizedDayData.data;
-        if (nested && typeof nested === 'object' && !Array.isArray(nested)) {
-            normalizedDayData = nested;
-        }
-    }
-
-    if (Array.isArray(normalizedDayData)) normalizedDayData = { vocab: normalizedDayData };
-
-    const vocab = safeArray(normalizedDayData?.vocab).map((item, idx) => normalizeVocabItem(level, day, idx, item));
-    const quiz = safeArray(normalizedDayData?.quiz).map((item, idx) => normalizeQuizItem(level, day, idx, item));
-
-    return {
-        title: safeString(normalizedDayData?.title) || `Day ${day} 단어장`,
-        story: normalizedDayData?.story == null ? null : safeString(normalizedDayData.story),
-        analysis: safeArray(normalizedDayData?.analysis),
-        vocab,
-        quiz
-    };
-}
-
-function normalizeModuleVocabData(level, moduleId, fileData) {
+function normalizeModuleData(level, moduleId, fileData) {
     const data = fileData || {};
-    const vocab = safeArray(data.vocab).map((item, idx) => normalizeVocabItem(level, moduleId, idx, item));
-    const quiz = safeArray(data.quiz).map((item, idx) => normalizeQuizItem(level, moduleId, idx, item));
     return {
+        moduleId: safeString(data.moduleId) || moduleId,
         title: safeString(data.title) || moduleId,
-        story: data.story == null ? null : safeString(data.story),
+        ordinal: data.ordinal,
+        story: safeString(data.story),
         analysis: safeArray(data.analysis),
-        vocab,
-        quiz
+        vocab: safeArray(data.vocab).map((v, i) => normalizeVocabItem(level, moduleId, i, v)),
+        quiz: safeArray(data.quiz).map((q, i) => normalizeQuizItem(level, moduleId, i, q))
     };
 }
 
-function makeVersionKey(level, day, version) {
-    return `${DEV_PREFIX}/${level}/${day}/${version}`;
-}
-
-function readOverrideIndex() {
-    const index = parseJsonSafe(localStorage.getItem(DEV_INDEX_KEY) || '{}', {});
-    return (index && typeof index === 'object' && !Array.isArray(index)) ? index : {};
-}
-
-function getOverrideData(level, day) {
-    try {
-        const index = readOverrideIndex();
-        const dayNode = index?.[level]?.[String(day)];
-        const versions = Array.isArray(dayNode?.versions) ? dayNode.versions : [];
-
-        if (versions.length > 0) {
-            const sorted = [...versions].sort((a, b) => Number(b.version) - Number(a.version));
-            const approved = sorted.find(v => v.status === 'approved');
-            const target = approved || sorted[0];
-            const record = parseJsonSafe(localStorage.getItem(makeVersionKey(level, day, target.version)) || 'null', null);
-            return record?.data;
-        }
-
-        // Legacy fallback: single blob key
-        const legacy = parseJsonSafe(localStorage.getItem(LEGACY_DEV_KEY) || '{}', {});
-        return legacy[getDayCacheKey(level, day)];
-    } catch (e) {
-        console.error('Error reading dev overrides:', e);
-        return undefined;
-    }
-}
-
-function fetchJsonWithFallback(primaryUrl, fallbackUrl, callback, fetchOptions) {
-    fetch(primaryUrl, fetchOptions || {})
+function fetchJson(url, callback) {
+    fetch(url, { cache: 'no-cache' })
         .then((res) => {
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             return res.json();
         })
         .then((json) => callback(json))
-        .catch(() => {
-            if (!fallbackUrl) {
-                callback(null);
-                return;
-            }
-            fetch(fallbackUrl, fetchOptions || {})
-                .then((res) => {
-                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                    return res.json();
-                })
-                .then((json) => callback(json))
-                .catch(() => callback(null));
+        .catch((err) => {
+            console.error(`[data] Failed to fetch ${url}:`, err.message);
+            callback(null);
         });
 }
 
-
-function fetchFileExists(primaryUrl, fallbackUrl, callback) {
-    fetch(primaryUrl, { method: 'HEAD' })
-        .then((res) => {
-            if (res.ok) {
-                callback(true);
-                return;
-            }
-            throw new Error(`HTTP ${res.status}`);
-        })
-        .catch(() => {
-            if (!fallbackUrl) {
-                callback(false);
-                return;
-            }
-            fetch(fallbackUrl, { method: 'HEAD' })
-                .then((res) => callback(res.ok))
-                .catch(() => callback(false));
-        });
+function makeVersionKey(level, moduleId, version) {
+    return `${DEV_PREFIX}/${level}/${moduleId}/${version}`;
 }
 
-function filterIndexByExistingDayFiles(level, indexData, callback) {
-    const days = Object.keys(indexData || {});
-    if (days.length === 0) {
-        callback({});
-        return;
+function readOverrideIndex() {
+    if (typeof parseJsonSafe !== 'function') return {};
+    const index = parseJsonSafe(localStorage.getItem(DEV_INDEX_KEY) || '{}', {});
+    return (index && typeof index === 'object' && !Array.isArray(index)) ? index : {};
+}
+
+function getOverrideData(level, moduleId) {
+    if (typeof parseJsonSafe !== 'function') return undefined;
+    try {
+        const index = readOverrideIndex();
+        const node = index?.[level]?.[moduleId];
+        const versions = Array.isArray(node?.versions) ? node.versions : [];
+        if (versions.length > 0) {
+            const sorted = [...versions].sort((a, b) => Number(b.version) - Number(a.version));
+            const approved = sorted.find((v) => v.status === 'approved');
+            const target = approved || sorted[0];
+            const record = parseJsonSafe(localStorage.getItem(makeVersionKey(level, moduleId, target.version)) || 'null', null);
+            return record?.data;
+        }
+        const legacy = parseJsonSafe(localStorage.getItem(LEGACY_DEV_KEY) || '{}', {});
+        return legacy[moduleCacheKey(level, moduleId)];
+    } catch (e) {
+        console.error('Error reading dev overrides:', e);
+        return undefined;
     }
-
-    Promise.all(days.map((day) => new Promise((resolve) => {
-        const dayJson = `data/dist/${level}/day-${day}.json`;
-        const dayJs = `data/dist/${level}/day-${day}.js`;
-        fetchFileExists(dayJson, dayJs, (exists) => resolve({ day, exists }));
-    }))).then((results) => {
-        const filtered = {};
-        results.forEach(({ day, exists }) => {
-            if (exists) filtered[day] = indexData[day];
-        });
-        callback(filtered);
-    });
-}
-
-function normalizeLevelIndex(indexData) {
-    const normalizedIndex = (!indexData || typeof indexData !== 'object' || Array.isArray(indexData)) ? {} : indexData;
-    const days = (normalizedIndex.days && typeof normalizedIndex.days === 'object' && !Array.isArray(normalizedIndex.days))
-        ? normalizedIndex.days
-        : normalizedIndex;
-
-    return {
-        manifest: normalizedIndex.manifest || {},
-        modules: (normalizedIndex.modules && typeof normalizedIndex.modules === 'object' && !Array.isArray(normalizedIndex.modules))
-            ? normalizedIndex.modules
-            : {},
-        days,
-        dayToModule: (normalizedIndex.dayToModule && typeof normalizedIndex.dayToModule === 'object' && !Array.isArray(normalizedIndex.dayToModule))
-            ? normalizedIndex.dayToModule
-            : {},
-        moduleToDay: (normalizedIndex.moduleToDay && typeof normalizedIndex.moduleToDay === 'object' && !Array.isArray(normalizedIndex.moduleToDay))
-            ? normalizedIndex.moduleToDay
-            : {},
-        moduleToFile: (normalizedIndex.moduleToFile && typeof normalizedIndex.moduleToFile === 'object' && !Array.isArray(normalizedIndex.moduleToFile))
-            ? normalizedIndex.moduleToFile
-            : {}
-    };
 }
 
 function loadLevelIndex(level, callback) {
@@ -248,175 +132,53 @@ function loadLevelIndex(level, callback) {
         callback(LEVEL_INDEX_CACHE.get(level));
         return;
     }
-
-    const primaryUrl = `data/dist/${level}/index.json`;
-    const fallbackUrl = `data/dist/${level}/index.js`;
-
-    fetchJsonWithFallback(primaryUrl, fallbackUrl, (indexData) => {
-        const normalized = normalizeLevelIndex(indexData);
-
-        filterIndexByExistingDayFiles(level, normalized.days, (filteredDays) => {
-            const filteredDayToModule = {};
-            const filteredModuleToDay = {};
-            Object.keys(filteredDays).forEach((day) => {
-                const explicitModuleId = filteredDays?.[day]?.moduleId;
-                const moduleId = explicitModuleId || normalized.dayToModule?.[day];
-                if (!moduleId) return;
-                filteredDayToModule[day] = moduleId;
-                filteredModuleToDay[moduleId] = Number(day);
-            });
-
-            const fullIndex = {
-                ...normalized,
-                days: filteredDays,
-                dayToModule: filteredDayToModule,
-                moduleToDay: {
-                    ...normalized.moduleToDay,
-                    ...filteredModuleToDay
-                }
-            };
-
-            LEVEL_INDEX_CACHE.set(level, fullIndex);
-            callback(fullIndex);
-        });
-    }, { cache: 'no-cache' });
+    fetchJson(`data/dist/${level}/index.json`, (indexData) => {
+        const safe = (indexData && typeof indexData === 'object' && !Array.isArray(indexData)) ? indexData : {};
+        const normalized = {
+            level: safeString(safe.level) || level,
+            manifest: safe.manifest || {},
+            moduleOrder: safeArray(safe.moduleOrder),
+            modules: (safe.modules && typeof safe.modules === 'object' && !Array.isArray(safe.modules)) ? safe.modules : {}
+        };
+        LEVEL_INDEX_CACHE.set(level, normalized);
+        callback(normalized);
+    });
 }
 
-function loadDayData(level, day, callback) {
-    const cacheKey = getDayCacheKey(level, day);
-    if (DAY_DATA_CACHE.has(cacheKey)) {
-        callback(DAY_DATA_CACHE.get(cacheKey));
+function loadModuleData(level, moduleId, callback) {
+    const key = moduleCacheKey(level, moduleId);
+    if (MODULE_DATA_CACHE.has(key)) {
+        callback(MODULE_DATA_CACHE.get(key));
         return;
     }
-
-    const primaryUrl = `data/dist/${level}/day-${day}.json`;
-    const fallbackUrl = `data/dist/${level}/day-${day}.js`;
-
-    fetchJsonWithFallback(primaryUrl, fallbackUrl, (fileData) => {
-        const merged = normalizeDayData(level, day, getOverrideData(level, day) || fileData || {});
-        DAY_DATA_CACHE.set(cacheKey, merged);
+    fetchJson(`data/dist/${level}/modules/${moduleId}.json`, (fileData) => {
+        const override = getOverrideData(level, moduleId);
+        const merged = normalizeModuleData(level, moduleId, override || fileData || {});
+        MODULE_DATA_CACHE.set(key, merged);
         callback(merged);
     });
 }
 
-function resolveDayByModule(level, moduleId, callback) {
-    loadLevelIndex(level, (indexData) => {
-        const mapped = indexData?.moduleToDay?.[moduleId];
-        if (mapped != null) {
-            callback(String(mapped), indexData);
-            return;
-        }
-
-        const moduleEntry = indexData?.modules?.[moduleId];
-        const legacyDay = Number(moduleEntry?.legacyDay);
-        if (Number.isInteger(legacyDay) && legacyDay > 0) {
-            callback(String(legacyDay), indexData);
-            return;
-        }
-
-        callback(null, indexData);
-    });
-}
-
 function loadViewerData(level, params, callback) {
-    const preferredModule = params?.module ? String(params.module) : '';
-    const fallbackDay = params?.day ? String(params.day) : '';
-
-    if (preferredModule) {
-        loadLevelIndex(level, (indexData) => {
-            // module-vocab 파일이 있으면 직접 로드 (N4~N1 모듈 시스템)
-            const moduleFilePath = indexData?.moduleToFile?.[preferredModule];
-            if (moduleFilePath) {
-                fetchJsonWithFallback(
-                    `data/dist/${level}/${moduleFilePath}.json`, null,
-                    (fileData) => {
-                        // story가 있으면 (어드민 업로드 완료) → 그대로 사용
-                        if (fileData?.story) {
-                            const data = normalizeModuleVocabData(level, preferredModule, fileData);
-                            callback({
-                                data,
-                                day: null,
-                                moduleId: preferredModule,
-                                moduleMeta: indexData?.modules?.[preferredModule] || null,
-                                indexData
-                            });
-                            return;
-                        }
-                        // story 없으면 → 대응 day 파일로 fallback (N5와 동일 경로)
-                        const dayNum = indexData?.moduleToDay?.[preferredModule];
-                        if (dayNum) {
-                            loadDayData(level, String(dayNum), (data) => {
-                                callback({
-                                    data,
-                                    day: String(dayNum),
-                                    moduleId: preferredModule,
-                                    moduleMeta: indexData?.modules?.[preferredModule] || null,
-                                    indexData
-                                });
-                            });
-                            return;
-                        }
-                        // day도 없으면 vocab만이라도 표시
-                        const data = normalizeModuleVocabData(level, preferredModule, fileData);
-                        callback({
-                            data,
-                            day: null,
-                            moduleId: preferredModule,
-                            moduleMeta: indexData?.modules?.[preferredModule] || null,
-                            indexData
-                        });
-                    },
-                    { cache: 'no-cache' }
-                );
-                return;
-            }
-
-            // 기존: moduleToDay → day-{N}.json (N5 및 레거시)
-            resolveDayByModule(level, preferredModule, (resolvedDay, idxData) => {
-                if (resolvedDay) {
-                    loadDayData(level, resolvedDay, (data) => callback({
-                        data,
-                        day: resolvedDay,
-                        moduleId: preferredModule,
-                        moduleMeta: idxData?.modules?.[preferredModule] || null,
-                        indexData: idxData
-                    }));
-                    return;
-                }
-
-                if (!fallbackDay) {
-                    callback({ data: null, day: null, moduleId: preferredModule, moduleMeta: null, indexData: idxData });
-                    return;
-                }
-
-                loadDayData(level, fallbackDay, (data) => callback({
-                    data,
-                    day: fallbackDay,
-                    moduleId: idxData?.dayToModule?.[fallbackDay] || '',
-                    moduleMeta: null,
-                    indexData: idxData
-                }));
-            });
-        });
-        return;
-    }
-
-    if (!fallbackDay) {
+    const moduleId = params?.module ? String(params.module) : '';
+    if (!moduleId) {
         callback({ data: null, day: null, moduleId: '', moduleMeta: null, indexData: null });
         return;
     }
-
     loadLevelIndex(level, (indexData) => {
-        loadDayData(level, fallbackDay, (data) => callback({
-            data,
-            day: fallbackDay,
-            moduleId: indexData?.dayToModule?.[fallbackDay] || '',
-            moduleMeta: null,
-            indexData
-        }));
+        loadModuleData(level, moduleId, (data) => {
+            callback({
+                data,
+                day: null, // 호환성을 위한 잔존 필드. day 개념 폐지됨.
+                moduleId,
+                moduleMeta: indexData?.modules?.[moduleId] || null,
+                indexData
+            });
+        });
     });
 }
 
-function getMergedDayData(level, day, fileData) {
-    return normalizeDayData(level, day, getOverrideData(level, day) || fileData || {});
+// 레거시 호환: 일부 호출자가 day 기반 API를 쓸 수 있음. 새 구조에서는 day → moduleId 대체.
+function getMergedModuleData(level, moduleId, fileData) {
+    return normalizeModuleData(level, moduleId, getOverrideData(level, moduleId) || fileData || {});
 }

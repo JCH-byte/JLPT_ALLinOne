@@ -1,0 +1,187 @@
+{
+  "moduleId": "n1-module-037",
+  "level": "n1",
+  "ordinal": 37,
+  "title": "た行の名詞・7 (た행 명사 7)",
+  "ruleVersion": "n1-rule-v1",
+  "vocab": [
+    {
+      "id": "v-15ec86f19528756edea389af47c7ac809e4640b6",
+      "word": "同盟",
+      "read": "どうめい",
+      "mean": "동맹",
+      "tags": []
+    },
+    {
+      "id": "v-e7256d984c4953aad1c59e61972a54043138ea31",
+      "word": "当面",
+      "read": "とうめん",
+      "mean": "당면, 당분간",
+      "tags": []
+    },
+    {
+      "id": "v-0b7fbdf568d55f3c98a743f7b744edf5a2e41189",
+      "word": "投与",
+      "read": "とうよ",
+      "mean": "투여",
+      "tags": []
+    },
+    {
+      "id": "v-9173cdc08adf74cb5d3558ca9e5dc1a1b6eabebd",
+      "word": "同類",
+      "read": "どうるい",
+      "mean": "동류",
+      "tags": []
+    },
+    {
+      "id": "v-0e1dd92c9a5577dd07f9202406368ea479f473c7",
+      "word": "特技",
+      "read": "とくぎ",
+      "mean": "특기",
+      "tags": []
+    },
+    {
+      "id": "v-cdb46b91a10850d43c3413465bb157b93c7a6427",
+      "word": "独裁",
+      "read": "どくさい",
+      "mean": "독재",
+      "tags": []
+    },
+    {
+      "id": "v-a01f35ce5bfd3d018967f0839242ead63dfe4cdc",
+      "word": "特産",
+      "read": "とくさん",
+      "mean": "특산",
+      "tags": []
+    },
+    {
+      "id": "v-e212a30c1c9c24c8f775d3406b78dc3be409c2c2",
+      "word": "特設",
+      "read": "とくせつ",
+      "mean": "특설",
+      "tags": []
+    },
+    {
+      "id": "v-873b9977dee6956d9709ed0b773049794173bbdb",
+      "word": "独占",
+      "read": "どくせん",
+      "mean": "독점",
+      "tags": []
+    },
+    {
+      "id": "v-2a669abc1ee47189cd66f57ccc1c11fd1ae8a781",
+      "word": "独創性",
+      "read": "どくそうせい",
+      "mean": "독창성",
+      "tags": []
+    },
+    {
+      "id": "v-4210f9a7c35f25c0cd067703e0c6256c81a4fe3c",
+      "word": "督促",
+      "read": "とくそく",
+      "mean": "독촉",
+      "tags": []
+    },
+    {
+      "id": "v-c72877c7474c4c5ffda8987cfbf2e88327807d9c",
+      "word": "得点",
+      "read": "とくてん",
+      "mean": "득점",
+      "tags": []
+    },
+    {
+      "id": "v-c4f7ee6237adabf2235bbf1c58a32accaed39d16",
+      "word": "匿名",
+      "read": "とくめい",
+      "mean": "익명",
+      "tags": []
+    },
+    {
+      "id": "v-bb6b4260e8fe5d3a61ad97a897fceb6830972b01",
+      "word": "戸締り",
+      "read": "とじまり",
+      "mean": "문단속",
+      "tags": []
+    },
+    {
+      "id": "v-d9bd51ac7cd7991c7471a4dd415ae0999c54ae34",
+      "word": "土台",
+      "read": "どだい",
+      "mean": "토대",
+      "tags": []
+    },
+    {
+      "id": "v-0e28fb6282f48c08113279bb30d45db897e98e15",
+      "word": "特許",
+      "read": "とっきょ",
+      "mean": "특허",
+      "tags": []
+    },
+    {
+      "id": "v-7acd93e1e906be34966c6a8028752a516a04bf51",
+      "word": "特権",
+      "read": "とっけん",
+      "mean": "특권",
+      "tags": []
+    },
+    {
+      "id": "v-159851e4cb03560057550c627524f0c890fa0557",
+      "word": "突破",
+      "read": "とっぱ",
+      "mean": "돌파",
+      "tags": []
+    },
+    {
+      "id": "v-b5c286b8e1e3a1b8fb71cb43f4935816ad66a95e",
+      "word": "土手",
+      "read": "どて",
+      "mean": "제방, 둑",
+      "tags": []
+    },
+    {
+      "id": "v-d2b819951c7757a8c24110983bc5b2fed8a2854a",
+      "word": "扉",
+      "read": "とびら",
+      "mean": "문",
+      "tags": []
+    },
+    {
+      "id": "v-a82ef4194ac9ff4158dd59523db0676519dad749",
+      "word": "土木",
+      "read": "どぼく",
+      "mean": "토목",
+      "tags": []
+    },
+    {
+      "id": "v-aa0473c9debe856168e90e9f860ab1c223eb57a6",
+      "word": "取り返し",
+      "read": "とりかえし",
+      "mean": "만회",
+      "tags": []
+    },
+    {
+      "id": "v-d9dc324a31aaee67fe23f299b8ea9f13ffe20572",
+      "word": "取り締まり",
+      "read": "とりしまり",
+      "mean": "단속, 관리",
+      "tags": []
+    },
+    {
+      "id": "v-00a715cc0957293cbe0ba26e5552cf68dd648839",
+      "word": "度忘れ",
+      "read": "どわすれ",
+      "mean": "건망증, 깜빡함",
+      "tags": []
+    },
+    {
+      "id": "v-4c5126106f08b6f54c87432715178234c4af9025",
+      "word": "問屋",
+      "read": "とんや",
+      "mean": "도매상",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

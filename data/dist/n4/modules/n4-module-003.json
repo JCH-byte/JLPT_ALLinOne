@@ -1,0 +1,436 @@
+{
+  "moduleId": "n4-module-003",
+  "level": "n4",
+  "ordinal": 3,
+  "title": "N4: 週末の外出 (주말 외출)",
+  "ruleVersion": "n4-rule-v1",
+  "vocab": [
+    {
+      "id": "v-638bd0d0192e2e9d0d6f344906422163bb9b9650",
+      "word": "お子さん",
+      "read": "おこさん",
+      "mean": "자녀분",
+      "tags": []
+    },
+    {
+      "id": "v-ebcc97ea4d6cfa6cfabbf0ea412032161c7bb1c8",
+      "word": "おじ",
+      "read": "おじ",
+      "mean": "삼촌, 아저씨",
+      "tags": []
+    },
+    {
+      "id": "v-339dab5301c3f357f666a484f811142dc93bddb2",
+      "word": "押入れ",
+      "read": "おしいれ",
+      "mean": "벽장",
+      "tags": []
+    },
+    {
+      "id": "v-44e671842913febe9644eef4266982ac2536bb43",
+      "word": "お嬢さん",
+      "read": "おじょうさん",
+      "mean": "따님, 아가씨",
+      "tags": []
+    },
+    {
+      "id": "v-230ed1d044038ce4fd5cc332c4e04396601b2b9e",
+      "word": "お宅",
+      "read": "おたく",
+      "mean": "댁",
+      "tags": []
+    },
+    {
+      "id": "v-2be7709c0959d68335575ccbf7dce0abb331fb96",
+      "word": "夫",
+      "read": "おっと",
+      "mean": "남편",
+      "tags": []
+    },
+    {
+      "id": "v-2085aee6516faaa7ee024bb7078f6320d8f919a4",
+      "word": "おつり",
+      "read": "おつり",
+      "mean": "거스름돈",
+      "tags": []
+    },
+    {
+      "id": "v-87b2750ba39a3c44be4ce1a62605891d169d3b35",
+      "word": "お手洗い",
+      "read": "おてあらい",
+      "mean": "화장실",
+      "tags": []
+    },
+    {
+      "id": "v-414fc20efaf45774f1d2267295eefd3e4ed46c7d",
+      "word": "お出かけ",
+      "read": "おでかけ",
+      "mean": "외출",
+      "tags": []
+    },
+    {
+      "id": "v-fcf827937d39525c239e2f1766496414742bada7",
+      "word": "音",
+      "read": "おと",
+      "mean": "소리",
+      "tags": []
+    },
+    {
+      "id": "v-a123451dc7121d39b8a0ea38f8769327f13760f7",
+      "word": "落し物",
+      "read": "おとしもの",
+      "mean": "분실물",
+      "tags": []
+    },
+    {
+      "id": "v-205f88abca675d367443f509971d25a03ef29f87",
+      "word": "お年寄り",
+      "read": "おとしより",
+      "mean": "노인, 어르신",
+      "tags": []
+    },
+    {
+      "id": "v-7bc95a3c8b806e6c6de496e2fea86a877ce1da22",
+      "word": "踊り",
+      "read": "おどり",
+      "mean": "춤",
+      "tags": []
+    },
+    {
+      "id": "v-d86e14f5c909b95241866bd6455dd99b6ee9dda0",
+      "word": "おば",
+      "read": "おば",
+      "mean": "이모, 고모, 숙모",
+      "tags": []
+    },
+    {
+      "id": "v-45f3c8c6afe857ede09eaaa341872fcae4baea0c",
+      "word": "お祭り",
+      "read": "おまつり",
+      "mean": "축제",
+      "tags": []
+    },
+    {
+      "id": "v-b38f6471a7a826310c2515b0acd4279632863280",
+      "word": "お見舞い",
+      "read": "おみまい",
+      "mean": "문병",
+      "tags": []
+    },
+    {
+      "id": "v-abf9da4e91efca3a12f7700e52dea96fbfec9cf9",
+      "word": "お土産",
+      "read": "おみやげ",
+      "mean": "선물, 기념품",
+      "tags": []
+    },
+    {
+      "id": "v-f3d296bb3124340521acb36db98aec1b93385667",
+      "word": "思い出",
+      "read": "おもいで",
+      "mean": "추억",
+      "tags": []
+    },
+    {
+      "id": "v-50bc60413f695a9a470ccfb5c181fbb5c53a9a59",
+      "word": "おもちゃ",
+      "read": "おもちゃ",
+      "mean": "장난감",
+      "tags": []
+    },
+    {
+      "id": "v-4f9cef34c34b79cdf99bceb1ad5143c7c489d460",
+      "word": "表",
+      "read": "おもて",
+      "mean": "표면, 앞면",
+      "tags": []
+    },
+    {
+      "id": "v-d7673525eb6fc7c95a183e650a07edb26326e916",
+      "word": "終わり",
+      "read": "おわり",
+      "mean": "끝",
+      "tags": []
+    },
+    {
+      "id": "v-6597ea0f1678317f909610327f41d44a71ccf60f",
+      "word": "海岸",
+      "read": "かいがん",
+      "mean": "해안",
+      "tags": []
+    },
+    {
+      "id": "v-7a4a905f57947701eae0ff22133527d6e85f6fb0",
+      "word": "会議室",
+      "read": "かいぎしつ",
+      "mean": "회의실",
+      "tags": []
+    },
+    {
+      "id": "v-d16d039a3e22ad5266f883476566fc9cdba8d590",
+      "word": "会場",
+      "read": "かいじょう",
+      "mean": "회장, 장소",
+      "tags": []
+    },
+    {
+      "id": "v-65b64868b78485270c1cd341f66db5724e12dac1",
+      "word": "会長",
+      "read": "かいちょう",
+      "mean": "회장",
+      "tags": []
+    }
+  ],
+  "story": "<h3>Scene 1. <ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby> (출발 준비)</h3>\n<ruby>夫<rt>おっと</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>にお<ruby>出<rt>で</rt></ruby>かけをすることになりました。\n<ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に、お<ruby>手洗<rt>てあら</rt></ruby>いへ<ruby>行<rt>い</rt></ruby>きました。\n<ruby>友達<rt>ともだち</rt></ruby>のお<ruby>子<rt>こ</rt></ruby>さんへのお<ruby>土産<rt>みやげ</rt></ruby>として、おもちゃを<ruby>持<rt>も</rt></ruby>っていく<ruby>予定<rt>よてい</rt></ruby>です。\nおもちゃは<ruby>押入<rt>おしい</rt></ruby>れの<ruby>表<rt>おもて</rt></ruby>に<ruby>置<rt>お</rt></ruby>いてありました。\n<h3>Scene 2. お<ruby>祭<rt>まつ</rt></ruby>りの<ruby>会場<rt>かいじょう</rt></ruby>で (축제 회장에서)</h3>\n<ruby>車<rt>くるま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って、お<ruby>祭<rt>まつ</rt></ruby>りの<ruby>会場<rt>かいじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。\nとても<ruby>大<rt>おお</rt></ruby>きな<ruby>音<rt>おと</rt></ruby>がして、<ruby>夢<rt>ゆめ</rt></ruby>みたいに<ruby>楽<rt>たの</rt></ruby>しいです。\nそこで、<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>会長<rt>かいちょう</rt></ruby>とお<ruby>嬢<rt>じょう</rt></ruby>さんに<ruby>会<rt>あ</rt></ruby>いました。\nみんなで<ruby>日本<rt>にほん</rt></ruby>の<ruby>踊<rt>おど</rt></ruby>りについて<ruby>話<rt>はな</rt></ruby>しました。\n<h3>Scene 3. お<ruby>見舞<rt>みま</rt></ruby>いと<ruby>散歩<rt>さんぽ</rt></ruby> (문병과 산책)</h3>\n<ruby>午後<rt>ごご</rt></ruby>は、おじとおばのお<ruby>見舞<rt>みま</rt></ruby>いへ<ruby>行<rt>い</rt></ruby>きました。\n<ruby>親切<rt>しんせつ</rt></ruby>なお<ruby>年寄<rt>としよ</rt></ruby>りのおかげで、<ruby>病院<rt>びょういん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>がわかりました。\nその後、<ruby>海岸<rt>かいがん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>するために、<ruby>海<rt>うみ</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かいました。\n<ruby>歩<rt>ある</rt></ruby>いている<ruby>途中<rt>とちゅう</rt></ruby>で、だれかの<ruby>落<rt>お</rt></ruby>し<ruby>物<rt>もの</rt></ruby>を<ruby>拾<rt>ひろ</rt></ruby>いました。\n<h3>Scene 4. <ruby>一日<rt>いちにち</rt></ruby>の<ruby>終<rt>お</rt></ruby>わり (하루의 끝)</h3>\n<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>に、<ruby>友達<rt>ともだち</rt></ruby>のお<ruby>宅<rt>たく</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>りました。\nジュースを<ruby>買<rt>か</rt></ruby>って、おつりをもらいました。\n<ruby>休<rt>やす</rt></ruby>みの<ruby>終<rt>お</rt></ruby>わりに、<ruby>明日<rt>あした</rt></ruby>の<ruby>会議室<rt>かいぎしつ</rt></ruby>を<ruby>予約<rt>よやく</rt></ruby>しました。\n<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>にいい<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>になりました。",
+  "analysis": [
+    {
+      "sent": "<ruby>夫<rt>おっと</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>にお<ruby>出<rt>で</rt></ruby>かけをすることになりました。",
+      "trans": "남편과 함께 외출을 하게 되었습니다.",
+      "grammar": "〜ことになる (~하게 되다 / 결정된 예정)",
+      "tags": [
+        "夫",
+        "お出かけ"
+      ]
+    },
+    {
+      "sent": "<ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に、お<ruby>手洗<rt>てあら</rt></ruby>いへ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "출발 전에, 화장실에 갔습니다.",
+      "grammar": "〜前に (~하기 전에)",
+      "tags": [
+        "お手洗い"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>のお<ruby>子<rt>こ</rt></ruby>さんへのお<ruby>土産<rt>みやげ</rt></ruby>として、おもちゃを<ruby>持<rt>も</rt></ruby>っていく<ruby>予定<rt>よてい</rt></ruby>です。",
+      "trans": "친구의 자녀분에게 줄 선물로서, 장난감을 가져갈 예정입니다.",
+      "grammar": "〜として (~로서 / 자격, 명목)",
+      "tags": [
+        "お子さん",
+        "お土産",
+        "おもちゃ"
+      ]
+    },
+    {
+      "sent": "おもちゃは<ruby>押入<rt>おしい</rt></ruby>れの<ruby>表<rt>おもて</rt></ruby>に<ruby>置<rt>お</rt></ruby>いてありました。",
+      "trans": "장난감은 벽장 앞면에 놓여 있었습니다.",
+      "grammar": "〜てある (~어 있다 / 상태의 지속)",
+      "tags": [
+        "押入れ",
+        "表"
+      ]
+    },
+    {
+      "sent": "<ruby>車<rt>くるま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って、お<ruby>祭<rt>まつ</rt></ruby>りの<ruby>会場<rt>かいじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "차를 타고, 축제 회장으로 갔습니다.",
+      "grammar": "〜へ行く (~에 가다 / 방향)",
+      "tags": [
+        "お祭り",
+        "会場"
+      ]
+    },
+    {
+      "sent": "とても<ruby>大<rt>おお</rt></ruby>きな<ruby>音<rt>おと</rt></ruby>がして、<ruby>夢<rt>ゆめ</rt></ruby>みたいに<ruby>楽<rt>たの</rt></ruby>しいです。",
+      "trans": "매우 큰 소리가 나서, 꿈처럼 즐겁습니다.",
+      "grammar": "〜みたいに (~처럼 / 비유)",
+      "tags": [
+        "音"
+      ]
+    },
+    {
+      "sent": "そこで、<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>会長<rt>かいちょう</rt></ruby>とお<ruby>嬢<rt>じょう</rt></ruby>さんに<ruby>会<rt>あ</rt></ruby>いました。",
+      "trans": "거기서, 회사의 회장님과 따님을 만났습니다.",
+      "grammar": "〜に会う (~를/을 만나다)",
+      "tags": [
+        "会長",
+        "お嬢さん"
+      ]
+    },
+    {
+      "sent": "みんなで<ruby>日本<rt>にほん</rt></ruby>の<ruby>踊<rt>おど</rt></ruby>りについて<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "모두 함께 일본의 춤에 대하여 이야기했습니다.",
+      "grammar": "〜について (~에 대하여)",
+      "tags": [
+        "踊り"
+      ]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は、おじとおばのお<ruby>見舞<rt>みま</rt></ruby>いへ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "오후에는 삼촌과 이모의 문병을 갔습니다.",
+      "grammar": "〜へ行く (~에 가다 / 방향)",
+      "tags": [
+        "おじ",
+        "おば",
+        "お見舞い"
+      ]
+    },
+    {
+      "sent": "<ruby>親切<rt>しんせつ</rt></ruby>なお<ruby>年寄<rt>としよ</rt></ruby>りのおかげで、<ruby>病院<rt>びょういん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>がわかりました。",
+      "trans": "친절한 어르신 덕분에, 병원 길을 알았습니다.",
+      "grammar": "〜のおかげで (~덕분에 / 긍정적인 이유)",
+      "tags": [
+        "お年寄り"
+      ]
+    },
+    {
+      "sent": "その後、<ruby>海岸<rt>かいがん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>するために、<ruby>海<rt>うみ</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かいました。",
+      "trans": "그 후, 해안을 산책하기 위해, 바다로 향했습니다.",
+      "grammar": "〜ために (~하기 위해 / 목적)",
+      "tags": [
+        "海岸"
+      ]
+    },
+    {
+      "sent": "<ruby>歩<rt>ある</rt></ruby>いている<ruby>途中<rt>とちゅう</rt></ruby>で、だれかの<ruby>落<rt>お</rt></ruby>し<ruby>物<rt>もの</rt></ruby>を<ruby>拾<rt>ひろ</rt></ruby>いました。",
+      "trans": "걷고 있는 도중에, 누군가의 분실물을 주웠습니다.",
+      "grammar": "〜ている (~하고 있다 / 진행)",
+      "tags": [
+        "落し物"
+      ]
+    },
+    {
+      "sent": "<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>に、<ruby>友達<rt>ともだち</rt></ruby>のお<ruby>宅<rt>たく</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>りました。",
+      "trans": "귀갓길에, 친구의 댁에 들렀습니다.",
+      "grammar": "〜に寄る (~에 들르다)",
+      "tags": [
+        "お宅"
+      ]
+    },
+    {
+      "sent": "ジュースを<ruby>買<rt>か</rt></ruby>って、おつりをもらいました。",
+      "trans": "주스를 사고, 거스름돈을 받았습니다.",
+      "grammar": "〜てもらう (~해서 받다 / 수수 표현)",
+      "tags": [
+        "おつり"
+      ]
+    },
+    {
+      "sent": "<ruby>休<rt>やす</rt></ruby>みの<ruby>終<rt>お</rt></ruby>わりに、<ruby>明日<rt>あした</rt></ruby>の<ruby>会議室<rt>かいぎしつ</rt></ruby>を<ruby>予約<rt>よやく</rt></ruby>しました。",
+      "trans": "휴일 끝에, 내일의 회의실을 예약했습니다.",
+      "grammar": "〜を予約する (~을 예약하다)",
+      "tags": [
+        "終わり",
+        "会議室"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>にいい<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>になりました。",
+      "trans": "오늘은 정말로 좋은 추억이 되었습니다.",
+      "grammar": "〜になる (~이 되다 / 변화)",
+      "tags": [
+        "思い出"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「押入れ」の読み方は何ですか。",
+      "opt": [
+        "おしいれ",
+        "ひきいれ",
+        "おしちれ",
+        "おそいれ"
+      ],
+      "ans": 0,
+      "comment": "押入れ(おしいれ)는 '벽장'이라는 뜻입니다."
+    },
+    {
+      "q": "「会議室」の読み方は何ですか。",
+      "opt": [
+        "かいきしつ",
+        "かいぎしつ",
+        "がいぎしつ",
+        "かいぎじつ"
+      ],
+      "ans": 1,
+      "comment": "会議室(かいぎしつ)는 '회의실'이라는 뜻입니다."
+    },
+    {
+      "q": "「海岸」の読み方は何ですか。",
+      "opt": [
+        "かいきし",
+        "うみきし",
+        "かいがん",
+        "うみがん"
+      ],
+      "ans": 2,
+      "comment": "海岸(かいがん)은 '해안'이라는 뜻입니다."
+    },
+    {
+      "q": "「落し物」の読み方は何ですか。",
+      "opt": [
+        "おとしもの",
+        "おちしもの",
+        "らっしもの",
+        "おちもの"
+      ],
+      "ans": 0,
+      "comment": "落し物(おとしもの)는 '분실물'이라는 뜻입니다."
+    },
+    {
+      "q": "「따님, 아가씨」を日本語で書くと何ですか。",
+      "opt": [
+        "お子さん",
+        "おば",
+        "お嬢さん",
+        "夫"
+      ],
+      "ans": 2,
+      "comment": "お嬢さん(おじょうさん)은 '따님, 아가씨'라는 뜻입니다."
+    },
+    {
+      "q": "「문병」を日本語で書くと何ですか。",
+      "opt": [
+        "お土産",
+        "お見舞い",
+        "思い出",
+        "お祭り"
+      ],
+      "ans": 1,
+      "comment": "お見舞い(おみまい)는 '문병'이라는 뜻입니다."
+    },
+    {
+      "q": "「선물, 기념품」を日本語で書くと何ですか。",
+      "opt": [
+        "お土産",
+        "お出かけ",
+        "落し物",
+        "おつり"
+      ],
+      "ans": 0,
+      "comment": "お土産(おみやげ)는 '선물, 기념품'이라는 뜻입니다."
+    },
+    {
+      "q": "日本へ留学する______、日本語を勉強しています。",
+      "opt": [
+        "ために",
+        "みたいに",
+        "について",
+        "として"
+      ],
+      "ans": 0,
+      "comment": "목적을 나타내는 「〜ために」(~하기 위해)가 알맞습니다."
+    },
+    {
+      "q": "先生の______、N4に合格しました。",
+      "opt": [
+        "ために",
+        "について",
+        "おかげで",
+        "みたいに"
+      ],
+      "ans": 2,
+      "comment": "긍정적인 영향을 나타내는 「〜のおかげで」(~덕분에)가 알맞습니다."
+    },
+    {
+      "q": "兄は医者______働いています。",
+      "opt": [
+        "について",
+        "として",
+        "みたいに",
+        "ために"
+      ],
+      "ans": 1,
+      "comment": "자격이나 명목을 나타내는 「〜として」(~로서)가 알맞습니다."
+    }
+  ]
+}

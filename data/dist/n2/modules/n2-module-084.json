@@ -1,0 +1,187 @@
+{
+  "moduleId": "n2-module-084",
+  "level": "n2",
+  "ordinal": 84,
+  "title": "カタカナ語・3 (가타카나어 3)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-97a7ea82a0ef12d3d8ba47dc81cb83ce7fb02adb",
+      "word": "スポンサー",
+      "read": "すぽんさー",
+      "mean": "스폰서",
+      "tags": []
+    },
+    {
+      "id": "v-d1180ccad22b9d2ef395b50733d8b3c34b26af23",
+      "word": "スムーズ",
+      "read": "すむーず",
+      "mean": "스무스, 원활함",
+      "tags": []
+    },
+    {
+      "id": "v-9d1c706171b9d21dfee9f50040a818747953913c",
+      "word": "ゼミ",
+      "read": "ぜみ",
+      "mean": "세미나",
+      "tags": []
+    },
+    {
+      "id": "v-3133e6fea924083afe76831c3cb4c62c01fc321b",
+      "word": "セメント",
+      "read": "せめんと",
+      "mean": "시멘트",
+      "tags": []
+    },
+    {
+      "id": "v-ea4e2065be229a605f511a26d87cdce23900d0af",
+      "word": "ターゲット",
+      "read": "たーげっと",
+      "mean": "타깃",
+      "tags": []
+    },
+    {
+      "id": "v-5c698c87f0dcd4784670aac5dafb26e256d61ede",
+      "word": "タイミング",
+      "read": "たいみんぐ",
+      "mean": "타이밍",
+      "tags": []
+    },
+    {
+      "id": "v-b416dd44c896398f93f7822373aa0acd06236725",
+      "word": "タイヤ",
+      "read": "たいや",
+      "mean": "타이어",
+      "tags": []
+    },
+    {
+      "id": "v-ae10fcea0644442ce95399e222c9308a2b558b92",
+      "word": "ダイヤ",
+      "read": "だいや",
+      "mean": "다이아몬드, 다이얼",
+      "tags": []
+    },
+    {
+      "id": "v-fdd00cf2f0f068986c6f47539922a668b4bc0bd5",
+      "word": "ダメージ",
+      "read": "だめーじ",
+      "mean": "대미지, 손상",
+      "tags": []
+    },
+    {
+      "id": "v-f27ac73f5d223fee79519f75ea2d8a88a7b90071",
+      "word": "チーズ",
+      "read": "ちーず",
+      "mean": "치즈",
+      "tags": []
+    },
+    {
+      "id": "v-0c2b1eb8a47dd6907a63cd0b2a38088aac4f448b",
+      "word": "チーム",
+      "read": "ちーむ",
+      "mean": "팀",
+      "tags": []
+    },
+    {
+      "id": "v-1b747b6c82667dd01c3fd2c1eeb9ab5d06f2c87b",
+      "word": "チェンジ",
+      "read": "ちぇんじ",
+      "mean": "체인지",
+      "tags": []
+    },
+    {
+      "id": "v-d20a9b8b7bf743fc88c07a41e7670f1826354422",
+      "word": "テクニック",
+      "read": "てくにっく",
+      "mean": "테크닉, 기교",
+      "tags": []
+    },
+    {
+      "id": "v-6e1006a054f707e3d6eb5e77241ee1da97c546e4",
+      "word": "テント",
+      "read": "てんと",
+      "mean": "텐트",
+      "tags": []
+    },
+    {
+      "id": "v-c18cb3406a1f6a2ce47e493963eaec95ad20cffc",
+      "word": "テンポ",
+      "read": "てんぽ",
+      "mean": "템포",
+      "tags": []
+    },
+    {
+      "id": "v-04ff94736e59270d981f04436c0114a6304df670",
+      "word": "トランプ",
+      "read": "とらんぷ",
+      "mean": "트럼프, 카드놀이",
+      "tags": []
+    },
+    {
+      "id": "v-0ad8b44ca079e4cb130789f46551a735b2b90c74",
+      "word": "ナイロン",
+      "read": "ないろん",
+      "mean": "나일론",
+      "tags": []
+    },
+    {
+      "id": "v-1c0961ae1d8fdcad1129a9a26528ebb27269005a",
+      "word": "ナンバー",
+      "read": "なんばー",
+      "mean": "넘버, 번호",
+      "tags": []
+    },
+    {
+      "id": "v-1c993f524bc7fe9691045c85843e30d6330bbe72",
+      "word": "ニーズ",
+      "read": "にーず",
+      "mean": "니즈, 요구",
+      "tags": []
+    },
+    {
+      "id": "v-aa6f0361304430afaa89834af95e8486d6e41fc3",
+      "word": "ハード",
+      "read": "はーど",
+      "mean": "하드",
+      "tags": []
+    },
+    {
+      "id": "v-72943f68668a05c3f2bb316e3e0265a2b146f6a8",
+      "word": "バイオリン",
+      "read": "ばいおりん",
+      "mean": "바이올린",
+      "tags": []
+    },
+    {
+      "id": "v-8cd6d098dbdcd2b643b427591ea289ec065485d0",
+      "word": "パイプ",
+      "read": "ぱいぷ",
+      "mean": "파이프",
+      "tags": []
+    },
+    {
+      "id": "v-29d49cb93683636ab43407929f21611ad0d74458",
+      "word": "パイロット",
+      "read": "ぱいろっと",
+      "mean": "파일럿",
+      "tags": []
+    },
+    {
+      "id": "v-d2dfbcfd906b6a99bdf28bbf86726e5b97d51811",
+      "word": "パターン",
+      "read": "ぱたーん",
+      "mean": "패턴",
+      "tags": []
+    },
+    {
+      "id": "v-7b607896252302dd8c5f16b888711aa741e3a386",
+      "word": "バッグ",
+      "read": "ばっぐ",
+      "mean": "백, 가방",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

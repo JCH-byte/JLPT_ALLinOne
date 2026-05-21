@@ -7,6 +7,7 @@
 let currentFilter = 'all';
 
 function initStarredPage() {
+    if (typeof migrateLegacyStorageKeys === 'function') migrateLegacyStorageKeys();
     setFilter('all');
 }
 

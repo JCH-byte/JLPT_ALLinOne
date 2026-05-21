@@ -1,65 +1,23 @@
-# 콘텐츠 이관/저작 협업 워크플로우
+# 작업 워크플로우
 
-본 문서는 N5 이관과 N4~N3 신규 작성이 동시에 진행되는 기간의 충돌 최소화 규칙을 정의합니다.
+현재는 1인 로컬 작업 → `main`에 직접 푸시. 커밋·머지는 GitHub Desktop으로 사용자가 수동 진행.
 
-## 1) 브랜치 분리 원칙
+## 데이터 변경 규칙 (강제)
 
-- `migration/n5-*`: **N5 이관 전용 브랜치**
-- `authoring/n4n3-*`: **N4~N3 신규 작성 전용 브랜치**
-- `infra/*`: 공통 스크립트/도구/자동화 변경 전용 브랜치
-- `schema/*`: 데이터 스키마 문서/검증 규칙 정의 브랜치
+- `data/dist/**`는 **항상 생성물**이며 수동 편집 금지.
+- 콘텐츠 변경은 `data/src/{level}/modules/{moduleId}.json` (모듈 self-contained, vocabIds + story/analysis/quiz)에서 수행.
+- 새 vocab은 `data/src/{level}/vocab.json`에 추가 후 모듈의 `vocabIds`에서 참조.
+- 변경 후 `node scripts/build-data.js`로 `data/dist`를 재생성하고 `node scripts/build-data.js --check`로 동기화 확인 후 푸시.
+- 자세한 스키마 및 디렉터리 구조는 `data/README.md` 참조.
 
-규칙:
-- 하나의 PR은 하나의 목적(이관/저작/infra/schema)만 포함합니다.
-- `migration/n5-*` 브랜치에서 N4/N3 신규 작성 파일을 수정하지 않습니다.
-- `authoring/n4n3-*` 브랜치에서 N5 이관 범위를 수정하지 않습니다.
+## 로컬 실행
 
-## 2) 저장소 경로 분리 원칙
+`file://` 직접 열기는 fetch 차단됨. `node scripts/serve.js` (또는 `serve.bat`)로 `http://localhost:8000` 띄울 것.
 
-동시 작업 충돌을 줄이기 위해 콘텐츠 경로를 다음과 같이 고정합니다.
+## CI
 
-- `content/modules/`: 신규 모듈 기반 데이터 및 산출물
-- `legacy/day/`: 기존 Day 기반 데이터(레거시)
+`.github/workflows/verify-data-sync.yml`이 `node scripts/build-data.js --check`로 src↔dist 동기화만 강제합니다.
 
-경로 규칙:
-- 신규 작성(N4/N3)은 `content/modules/`만 touch 합니다.
-- N5 이관은 `legacy/day/`를 기준으로 소스 추적 후 필요 산출물을 `content/modules/`로 반영합니다.
-- 레거시 유지보수성 수정은 `legacy/day/` 범위에서만 수행합니다.
+## 과거 규칙 (폐기)
 
-## 3) 공통 스크립트 변경 선행 원칙
-
-- 빌드/검증/마이그레이션 공통 스크립트 변경은 반드시 `infra/*` 브랜치에서 먼저 진행합니다.
-- `infra/*` PR이 머지되기 전에는 이관/저작 PR에서 스크립트 변경을 포함하지 않습니다.
-- 예외가 필요한 경우, `touch scope`에 사유와 영향 경로를 명시해야 합니다.
-
-## 4) 병합 순서 고정
-
-PR 머지 순서는 반드시 아래 순서를 따릅니다.
-
-1. `infra`  
-2. `schema`  
-3. `N5 migration`  
-4. `N4/N3 authoring`
-
-운영 규칙:
-- 선행 단계 PR이 머지되지 않으면 후행 단계 PR은 승인/머지를 보류합니다.
-- 후행 단계는 선행 단계 최신 `main`을 rebase/merge 후 검증을 다시 수행합니다.
-
-## 5) PR touch scope 필수화
-
-모든 PR 본문에는 아래 항목을 포함합니다.
-
-- `touch scope`: 실제 변경 경로 목록
-- `out of scope`: 의도적으로 제외한 경로
-- `depends on`: 선행 PR/브랜치
-- `merge order stage`: `infra | schema | n5-migration | n4n3-authoring`
-
-충돌 가능 경로가 겹치면 리뷰어는 병합 전에 작업 범위를 재조정합니다.
-
-## 6) Day dist 파일 직접 수정 금지 (강제)
-
-- `data/dist/{level}/day-{n}.json`, `data/dist/{level}/index.json`은 **항상 생성물**입니다.
-- 운영/저작/이관 어떤 작업에서도 dist day 파일 수동 편집은 금지합니다.
-- 데이터 변경은 반드시 `data/src/{level}.items.json`(원천 item)에서 수행합니다.
-- 변경 후 `node scripts/build-data.js`로 dist를 재생성하고 `node scripts/validate-data-files.js` 검증을 통과해야 PR 제출이 가능합니다.
-
+이전 다인 협업 시 사용하던 브랜치 prefix(`migration/n5-*`, `authoring/n4n3-*`, `infra/*`, `schema/*`), touch scope/merge order, 경로 분리 규칙은 더 이상 적용하지 않습니다.

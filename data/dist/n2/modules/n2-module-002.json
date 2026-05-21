@@ -1,0 +1,194 @@
+{
+  "moduleId": "n2-module-002",
+  "level": "n2",
+  "ordinal": 2,
+  "title": "あ行の名詞・2 (あ행 명사 2)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-246eb7fb2d2a818e2a80dcd9b962b541511d4da3",
+      "word": "居酒屋",
+      "read": "いざかや",
+      "mean": "선술집",
+      "tags": []
+    },
+    {
+      "id": "v-4eb37974c408bdc887e570c2cf955942606fc357",
+      "word": "遺産",
+      "read": "いさん",
+      "mean": "유산",
+      "tags": []
+    },
+    {
+      "id": "v-332a2c3e781141f90d74b37a8e582a5a81a455a6",
+      "word": "維持",
+      "read": "いじ",
+      "mean": "유지",
+      "tags": []
+    },
+    {
+      "id": "v-3fdb99570e338c362d7a3df8aa5bcc9c14a3e958",
+      "word": "意識",
+      "read": "いしき",
+      "mean": "의식",
+      "tags": []
+    },
+    {
+      "id": "v-c85f0cd3d217290409e1d0a7042007e9fdf70140",
+      "word": "異色",
+      "read": "いしょく",
+      "mean": "이색",
+      "tags": []
+    },
+    {
+      "id": "v-d4d6460e0abe1bfc0e991c986c33ec4c1b7e190a",
+      "word": "衣食住",
+      "read": "いしょくじゅう",
+      "mean": "의식주",
+      "tags": []
+    },
+    {
+      "id": "v-f63b2dabe30df4441ba0f69726e67f6f1eecfde5",
+      "word": "泉",
+      "read": "いずみ",
+      "mean": "샘",
+      "tags": []
+    },
+    {
+      "id": "v-c353f0cd679d84f8897850296e2d6f6591ff8701",
+      "word": "いたずら",
+      "read": "いたずら",
+      "mean": "장난",
+      "tags": []
+    },
+    {
+      "id": "v-e4b15d085de2d54eed9ff0dd93d72baf14c237cf",
+      "word": "至るところ",
+      "read": "いたるところ",
+      "mean": "도처, 가는 곳마다",
+      "tags": []
+    },
+    {
+      "id": "v-3b1ff4ad70ca9b0d90d532284dd5257a2bd4d933",
+      "word": "一家",
+      "read": "いっか",
+      "mean": "일가, 한 가족",
+      "tags": []
+    },
+    {
+      "id": "v-87941a3209cc3650a3e00731f55df1721fefe304",
+      "word": "一種",
+      "read": "いっしゅ",
+      "mean": "일종",
+      "tags": []
+    },
+    {
+      "id": "v-11e6f896df1ef133f0af32fa1b051d4189b4085c",
+      "word": "一瞬",
+      "read": "いっしゅん",
+      "mean": "일순간",
+      "tags": []
+    },
+    {
+      "id": "v-b1d31803573baa66002e306eb4dcddf33fcab791",
+      "word": "一睡",
+      "read": "いっすい",
+      "mean": "한숨 잠",
+      "tags": []
+    },
+    {
+      "id": "v-a5323d211bfb57279b3f0eabc76145b6d7f336a9",
+      "word": "一石二鳥",
+      "read": "いっせきにちょう",
+      "mean": "일석이조",
+      "tags": []
+    },
+    {
+      "id": "v-ec897880153ab560aaef8ea76680af0f3fdc743a",
+      "word": "一致",
+      "read": "いっち",
+      "mean": "일치",
+      "tags": []
+    },
+    {
+      "id": "v-c0078707734f6ad1d21d7d35a5877659ea9eefd5",
+      "word": "一定",
+      "read": "いってい",
+      "mean": "일정",
+      "tags": []
+    },
+    {
+      "id": "v-f10457e7497eb284c7fc47ed66974f899cd31764",
+      "word": "一転",
+      "read": "いってん",
+      "mean": "일변, 싹 바뀜",
+      "tags": []
+    },
+    {
+      "id": "v-14c974fb7b927d1d1f07a1c9c7ed13739c59e389",
+      "word": "一方",
+      "read": "いっぽう",
+      "mean": "일방, 한편",
+      "tags": []
+    },
+    {
+      "id": "v-5ede31c82b0c343a1abaf06f96689115ca87eec4",
+      "word": "移転",
+      "read": "いてん",
+      "mean": "이전",
+      "tags": []
+    },
+    {
+      "id": "v-d52ec7e28c950c12e38c3e499663b382ee265db9",
+      "word": "井戸",
+      "read": "いど",
+      "mean": "우물",
+      "tags": []
+    },
+    {
+      "id": "v-ef5778d19b4b22e3c20e8e7b35308803fa423227",
+      "word": "稲",
+      "read": "いね",
+      "mean": "벼",
+      "tags": []
+    },
+    {
+      "id": "v-f6644dcd96730ee1294cf5024d7ac18d515a7e79",
+      "word": "違反",
+      "read": "いはん",
+      "mean": "위반",
+      "tags": []
+    },
+    {
+      "id": "v-9a860be0c667e81bfecc920cbe36859f1cf04b7b",
+      "word": "衣服",
+      "read": "いふく",
+      "mean": "의복",
+      "tags": []
+    },
+    {
+      "id": "v-7e7b67a36fc68ede18e0877f55f4f4d32f78c2c4",
+      "word": "遺物",
+      "read": "いぶつ",
+      "mean": "유물",
+      "tags": []
+    },
+    {
+      "id": "v-22c4543831a89cefb17f3e988036d78c161afeef",
+      "word": "今頃",
+      "read": "いまごろ",
+      "mean": "이제 와서, 이맘때",
+      "tags": []
+    },
+    {
+      "id": "v-7db47b959727f6cdb521c029162b2a4a303f71fb",
+      "word": "意欲",
+      "read": "いよく",
+      "mean": "의욕",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

@@ -1,0 +1,187 @@
+{
+  "moduleId": "n1-module-047",
+  "level": "n1",
+  "ordinal": 47,
+  "title": "は行の名詞・8 (は행 명사 8)",
+  "ruleVersion": "n1-rule-v1",
+  "vocab": [
+    {
+      "id": "v-5594b52279b3fb10f3b96a0c67714269675d7e22",
+      "word": "奉仕",
+      "read": "ほうし",
+      "mean": "봉사",
+      "tags": []
+    },
+    {
+      "id": "v-9c172950ab35cc592eb4c8cbd0be2078caa33434",
+      "word": "放射能",
+      "read": "ほうしゃのう",
+      "mean": "방사능",
+      "tags": []
+    },
+    {
+      "id": "v-8983a833031a62af85d678140d5a0f072ae58f9a",
+      "word": "報酬",
+      "read": "ほうしゅう",
+      "mean": "보수",
+      "tags": []
+    },
+    {
+      "id": "v-47b25591f458b4721ae8a1d068494e9b016a821d",
+      "word": "紡績",
+      "read": "ぼうせき",
+      "mean": "방적",
+      "tags": []
+    },
+    {
+      "id": "v-d0493abe3bb625a07cb560398bdad6ba64b57f44",
+      "word": "膨張",
+      "read": "ぼうちょう",
+      "mean": "팽창",
+      "tags": []
+    },
+    {
+      "id": "v-60ef2ceaf597d47f40477ab1d9c6c91f92a6fc82",
+      "word": "法廷",
+      "read": "ほうてい",
+      "mean": "법정",
+      "tags": []
+    },
+    {
+      "id": "v-d28338044b7087c6464fdd955d7fa1135aa746a9",
+      "word": "冒頭",
+      "read": "ぼうとう",
+      "mean": "모두, 서두",
+      "tags": []
+    },
+    {
+      "id": "v-226e07eb40540644ab6f5b4e84acf86b7362316d",
+      "word": "暴動",
+      "read": "ぼうどう",
+      "mean": "폭동",
+      "tags": []
+    },
+    {
+      "id": "v-979bef901f5670520cc0414aed56165b681de008",
+      "word": "褒美",
+      "read": "ほうび",
+      "mean": "포상",
+      "tags": []
+    },
+    {
+      "id": "v-d0c7ffc29eabde90a9f2a5a165108a716785089a",
+      "word": "抱負",
+      "read": "ほうふ",
+      "mean": "포부",
+      "tags": []
+    },
+    {
+      "id": "v-d728a8df5898752224498706bf90da8c6ea6282d",
+      "word": "暴風",
+      "read": "ぼうふう",
+      "mean": "폭풍",
+      "tags": []
+    },
+    {
+      "id": "v-0d0dd1f08fe716968381c8476198149a289fdd2b",
+      "word": "飽和",
+      "read": "ほうわ",
+      "mean": "포화",
+      "tags": []
+    },
+    {
+      "id": "v-6ae435f4ed434fbc2ca008f1276d2293c2868f96",
+      "word": "捕獲",
+      "read": "ほかく",
+      "mean": "포획",
+      "tags": []
+    },
+    {
+      "id": "v-da7c9c325bb133b32ef592017dfd7c79ab955049",
+      "word": "保管",
+      "read": "ほかん",
+      "mean": "보관",
+      "tags": []
+    },
+    {
+      "id": "v-2a9d9b13b907c4a4d0e65a5413897910f846e6e7",
+      "word": "補給",
+      "read": "ほきゅう",
+      "mean": "보급",
+      "tags": []
+    },
+    {
+      "id": "v-b52549ef23db78fc95591514c9dc8421331d8e16",
+      "word": "補強",
+      "read": "ほきょう",
+      "mean": "보강",
+      "tags": []
+    },
+    {
+      "id": "v-f88e696804fdde6fbe25a7b461c4ee78d4209691",
+      "word": "募金",
+      "read": "ぼきん",
+      "mean": "모금",
+      "tags": []
+    },
+    {
+      "id": "v-0eaf4c59f2d0545549ef43e98df410c742d109ff",
+      "word": "保険",
+      "read": "ほけん",
+      "mean": "보험",
+      "tags": []
+    },
+    {
+      "id": "v-570451a68708522d3a756116952aa34d1a266a95",
+      "word": "保護",
+      "read": "ほご",
+      "mean": "보호",
+      "tags": []
+    },
+    {
+      "id": "v-c623bdcf6daae4fbfa1d2b523c133f498749a483",
+      "word": "補充",
+      "read": "ほじゅう",
+      "mean": "보충",
+      "tags": []
+    },
+    {
+      "id": "v-1964192659e965621852d5d6ef52f1669d69ffdc",
+      "word": "補助",
+      "read": "ほじょ",
+      "mean": "보조",
+      "tags": []
+    },
+    {
+      "id": "v-9bfc70e181d01bc74d9331e28feab93c4513682f",
+      "word": "補償",
+      "read": "ほしょう",
+      "mean": "보상",
+      "tags": []
+    },
+    {
+      "id": "v-6b0d3a406b0825398311070b7b79dd83fbd0368d",
+      "word": "保障",
+      "read": "ほしょう",
+      "mean": "보장",
+      "tags": []
+    },
+    {
+      "id": "v-8f37b24bccb8bdcbb45381df559169581c17dc4a",
+      "word": "舗装",
+      "read": "ほそう",
+      "mean": "포장",
+      "tags": []
+    },
+    {
+      "id": "v-0db4cb9404c29886ecb51f552ebeb2dad6303227",
+      "word": "墓地",
+      "read": "ぼち",
+      "mean": "묘지",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

@@ -1,0 +1,194 @@
+{
+  "moduleId": "n2-module-010",
+  "level": "n2",
+  "ordinal": 10,
+  "title": "か行の名詞・6 (か행 명사 6)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-a35da3fbca94f1a9fa5b7b2f5adbc4231795624d",
+      "word": "議会",
+      "read": "ぎかい",
+      "mean": "의회",
+      "tags": []
+    },
+    {
+      "id": "v-6a7a659d6769c87ac0c392fa0725cefec115b38f",
+      "word": "着替え",
+      "read": "きがえ",
+      "mean": "갈아입을 옷, 갈아입음",
+      "tags": []
+    },
+    {
+      "id": "v-35961318c37e5deee40d7ccd9fd150a5e4145f89",
+      "word": "企画",
+      "read": "きかく",
+      "mean": "기획",
+      "tags": []
+    },
+    {
+      "id": "v-2631093c27f58cecfb2ee93f5d095937c552c167",
+      "word": "機関",
+      "read": "きかん",
+      "mean": "기관",
+      "tags": []
+    },
+    {
+      "id": "v-330e52c27b4b578e245639a70022f23c2e539959",
+      "word": "危機",
+      "read": "きき",
+      "mean": "위기",
+      "tags": []
+    },
+    {
+      "id": "v-6585f001039bffc7ad08f58385a663ec02e66c20",
+      "word": "企業",
+      "read": "きぎょう",
+      "mean": "기업",
+      "tags": []
+    },
+    {
+      "id": "v-64a7906aa78609c2e205e43363099018ce67e109",
+      "word": "飢饉",
+      "read": "ききん",
+      "mean": "기근",
+      "tags": []
+    },
+    {
+      "id": "v-f3a1097c08810046ba0d415b37fd6f73fb9bd918",
+      "word": "器具",
+      "read": "きぐ",
+      "mean": "기구",
+      "tags": []
+    },
+    {
+      "id": "v-93698667c2ab7298d568ad20fe4899b0c6316e56",
+      "word": "機嫌",
+      "read": "きげん",
+      "mean": "기분, 비위",
+      "tags": []
+    },
+    {
+      "id": "v-eeecf584ab3c54963fbb6533a6ca8ea540717c76",
+      "word": "気候",
+      "read": "きこう",
+      "mean": "기후",
+      "tags": []
+    },
+    {
+      "id": "v-4741f9be36664784d0da35f96536705caa1a9a86",
+      "word": "記号",
+      "read": "きごう",
+      "mean": "기호",
+      "tags": []
+    },
+    {
+      "id": "v-14f85cc8fe47ee6172a6e01189cf2e6cdbc74380",
+      "word": "岸",
+      "read": "きし",
+      "mean": "기슭, 물가",
+      "tags": []
+    },
+    {
+      "id": "v-8194649c22b58c92a3dc9839f308ede3d2df5120",
+      "word": "生地",
+      "read": "きじ",
+      "mean": "옷감, 반죽, 본연의 성질",
+      "tags": []
+    },
+    {
+      "id": "v-09d069c6e746cf4e0f20e766f6fb4cb7822d9edf",
+      "word": "技師",
+      "read": "ぎし",
+      "mean": "기사(기술자)",
+      "tags": []
+    },
+    {
+      "id": "v-e6b18cece11e14e51d317f021cc7482fc58c34ea",
+      "word": "儀式",
+      "read": "ぎしき",
+      "mean": "의식",
+      "tags": []
+    },
+    {
+      "id": "v-1c445c49d072f66410ff9d7ee42b4eed6d4253b1",
+      "word": "貴社",
+      "read": "きしゃ",
+      "mean": "귀사",
+      "tags": []
+    },
+    {
+      "id": "v-ea5cd6c7c29bf3240f05d83b91728ba7db818f5d",
+      "word": "基準",
+      "read": "きじゅん",
+      "mean": "기준",
+      "tags": []
+    },
+    {
+      "id": "v-ca14f417a825f2c719817f72a10522cb454c65ab",
+      "word": "起床",
+      "read": "きしょう",
+      "mean": "기상",
+      "tags": []
+    },
+    {
+      "id": "v-cd5e4a817ead002a8a68aaf6eaa0a102ed0dc938",
+      "word": "奇数",
+      "read": "きすう",
+      "mean": "홀수",
+      "tags": []
+    },
+    {
+      "id": "v-a073d8b17289f075b6a6918332966cd876fc17f7",
+      "word": "帰省",
+      "read": "きせい",
+      "mean": "귀성",
+      "tags": []
+    },
+    {
+      "id": "v-e3d786c0fe891b4fa7b4f63c9693b9aa321db064",
+      "word": "基礎",
+      "read": "きそ",
+      "mean": "기초",
+      "tags": []
+    },
+    {
+      "id": "v-de5fd040f33bf3e5af0f8a159fc395f8c64ca3e4",
+      "word": "基地",
+      "read": "きち",
+      "mean": "기지",
+      "tags": []
+    },
+    {
+      "id": "v-c5a786ca654d1c2cd629285dfedbaa00f4bc10bd",
+      "word": "議長",
+      "read": "ぎちょう",
+      "mean": "의장",
+      "tags": []
+    },
+    {
+      "id": "v-ea93e9e4801576b8472158f84616a199a10aa6f6",
+      "word": "きっかけ",
+      "read": "きっかけ",
+      "mean": "계기",
+      "tags": []
+    },
+    {
+      "id": "v-5cd6ded79a4424d46721b3f050f7b842f452d3ef",
+      "word": "喫茶",
+      "read": "きっさ",
+      "mean": "끽다, 찻집",
+      "tags": []
+    },
+    {
+      "id": "v-ecbb1df47afda50a663c2d78aaa7cb38fb4f1bd8",
+      "word": "起動",
+      "read": "きどう",
+      "mean": "기동",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}

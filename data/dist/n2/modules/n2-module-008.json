@@ -1,0 +1,194 @@
+{
+  "moduleId": "n2-module-008",
+  "level": "n2",
+  "ordinal": 8,
+  "title": "か行の名詞・4 (か행 명사 4)",
+  "ruleVersion": "n2-rule-v1",
+  "vocab": [
+    {
+      "id": "v-4aab1a59b3a0c94566a540b7d2596f2c902d4711",
+      "word": "課程",
+      "read": "かてい",
+      "mean": "과정(커리큘럼)",
+      "tags": []
+    },
+    {
+      "id": "v-a3809c5d133c0461c2da6c3a256a89ef073a5ba6",
+      "word": "過程",
+      "read": "かてい",
+      "mean": "과정(프로세스)",
+      "tags": []
+    },
+    {
+      "id": "v-5f74390a63ad2016b0c3e692e24af1d843b00647",
+      "word": "仮名",
+      "read": "かな",
+      "mean": "가나(문자), 가명",
+      "tags": []
+    },
+    {
+      "id": "v-29b373ef313cc1137fa02654af2326b0dae2eaed",
+      "word": "鐘",
+      "read": "かね",
+      "mean": "종",
+      "tags": []
+    },
+    {
+      "id": "v-df7d7a70717e75b76f3ae5f8ca22d49750a76d56",
+      "word": "加熱",
+      "read": "かねつ",
+      "mean": "가열",
+      "tags": []
+    },
+    {
+      "id": "v-e0eaa5620359cd7c3c524285c4aafa302cc0f200",
+      "word": "過半数",
+      "read": "かはんすう",
+      "mean": "과반수",
+      "tags": []
+    },
+    {
+      "id": "v-9bbb001ce3403b75b16505ce62e915b5ced192f0",
+      "word": "かび",
+      "read": "かび",
+      "mean": "곰팡이",
+      "tags": []
+    },
+    {
+      "id": "v-c2a3c612d4e33b6e7f6d585cf0bf17ba6e36cd4b",
+      "word": "株",
+      "read": "かぶ",
+      "mean": "주식, 그루",
+      "tags": []
+    },
+    {
+      "id": "v-a174bc96831269f05253dcce65d3443791cbd3fc",
+      "word": "釜",
+      "read": "かま",
+      "mean": "솥",
+      "tags": []
+    },
+    {
+      "id": "v-6557e4eecc5ebe78034ac19084643257b715efbb",
+      "word": "髮型",
+      "read": "かみがた",
+      "mean": "헤어스타일",
+      "tags": []
+    },
+    {
+      "id": "v-cc431ab57c01a5de2533d14b99e869ccf13f1d10",
+      "word": "紙くず",
+      "read": "かみくず",
+      "mean": "휴지, 종이 부스러기",
+      "tags": []
+    },
+    {
+      "id": "v-606b09bf8f980c87a1f73f44b9370a31b4aae725",
+      "word": "神様",
+      "read": "かみさま",
+      "mean": "신, 하느님",
+      "tags": []
+    },
+    {
+      "id": "v-c71da488ed8ebf74461744d54ca839d9a98b0866",
+      "word": "剃刀",
+      "read": "かみそり",
+      "mean": "면도칼",
+      "tags": []
+    },
+    {
+      "id": "v-58bebdc4e05762f6baeb756bfa29711e22fe0c37",
+      "word": "雷",
+      "read": "かみなり",
+      "mean": "천둥, 번개",
+      "tags": []
+    },
+    {
+      "id": "v-4e35d6d1d0ccede83ec517d6d76eaf5eb0db0818",
+      "word": "髪の毛",
+      "read": "かみのけ",
+      "mean": "머리카락",
+      "tags": []
+    },
+    {
+      "id": "v-dd5f0e774adfe9ce849c0e86964460de26495ffc",
+      "word": "貨物",
+      "read": "かもつ",
+      "mean": "화물",
+      "tags": []
+    },
+    {
+      "id": "v-1f63a916afac04ae28c1809762eee85458539aca",
+      "word": "殼",
+      "read": "から",
+      "mean": "껍질",
+      "tags": []
+    },
+    {
+      "id": "v-2b5fe97bbb7ed73dc5a92800d3c1db2d83343cce",
+      "word": "柄",
+      "read": "がら",
+      "mean": "무늬, 격",
+      "tags": []
+    },
+    {
+      "id": "v-8ce389456e6a99a00f1b7c959c9f1cfd73bbc4d7",
+      "word": "空梅雨",
+      "read": "からつゆ",
+      "mean": "마른 장마",
+      "tags": []
+    },
+    {
+      "id": "v-e31ce99b2fb6cac28d660e8ab0123dea93717b6a",
+      "word": "川岸",
+      "read": "かわぎし",
+      "mean": "강기슭",
+      "tags": []
+    },
+    {
+      "id": "v-5b1037c7e91605f5c3132f991e2fcfe4dc43b3da",
+      "word": "革靴",
+      "read": "かわぐつ",
+      "mean": "구두",
+      "tags": []
+    },
+    {
+      "id": "v-77f88a6ad23e8e8669102ce7fd11e2647128b1e7",
+      "word": "為替",
+      "read": "かわせ",
+      "mean": "환(금융)",
+      "tags": []
+    },
+    {
+      "id": "v-c353d057fc90465b916d2f2a8bbff190ffab84a9",
+      "word": "瓦",
+      "read": "かわら",
+      "mean": "기와",
+      "tags": []
+    },
+    {
+      "id": "v-1fb8a6e87d1fe54c37e9dfb7d4640fa23f832c7e",
+      "word": "癌",
+      "read": "がん",
+      "mean": "암",
+      "tags": []
+    },
+    {
+      "id": "v-ef73c744f01fdf84f50e9b20d49144ee6282beb7",
+      "word": "換気",
+      "read": "かんき",
+      "mean": "환기",
+      "tags": []
+    },
+    {
+      "id": "v-6211a7bd7867a96a0316e5a40a04451865e4fa79",
+      "word": "観客",
+      "read": "かんきゃく",
+      "mean": "관객",
+      "tags": []
+    }
+  ],
+  "story": "",
+  "analysis": [],
+  "quiz": []
+}
