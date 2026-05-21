@@ -56,14 +56,7 @@ src 모듈 파일 (`data/src/{level}/modules/{moduleId}.json`):
 
 dist 모듈 파일은 같은 모양에서 `vocabIds` 대신 `vocab` 배열이 인라인됨.
 
-## 레거시 자산 (마이그레이션 후 cohabitation 기간)
+## 보존 자산
 
-다음 위치는 새 빌드 흐름에서 미사용. 안정화 후 별도 커밋으로 정리 예정.
-- `data/src/n{1..5}.json` (day-키 콘텐츠)
-- `data/src/n{1..5}.items.json` (vocab + assignedDay)
-- `data/src/module-metadata.json`
-- `data/dist/{level}/day-*.json`
-- `data/dist/{level}/module-vocab/*.json`
-- `content/modules/src/*.json`
-- `legacy/day/`
-- `archive/`
+- `content/modules/{rules,notebooklm-inputs}/` — 후속 `/generate-module` 자동화 입력.
+- `archive/n4-invalid/` — 과거 무효 데이터 보관(현 빌드 무관).

@@ -2,7 +2,7 @@
   "moduleId": "n3-module-006",
   "level": "n3",
   "ordinal": 6,
-  "title": "か行の名詞・2 (か행 명사 2)",
+  "title": "N3: 대학 학문의 세계",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-b42da016f99d8147753389ed59985a1a4b135108",
@@ -31,7 +31,165 @@
     "v-2d8e5b37f004a0a1f21c4640ca5ba949b3566ea2",
     "v-f71f993de2c747759f322c08bad60494d234991a"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>学問<rt>がくもん</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>さ（학문의 중요성）</h3><p><ruby>田中<rt>たなか</rt></ruby>さんは<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>学者<rt>がくしゃ</rt></ruby>で、<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学部<rt>がくぶ</rt></ruby>で<ruby>学問<rt>がくもん</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えています。<ruby>学生<rt>がくせい</rt></ruby>たちは<ruby>学習<rt>がくしゅう</rt></ruby>に<ruby>励<rt>はげ</rt></ruby>んでいます。<ruby>学力<rt>がくりょく</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばすことが<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>先生<rt>せんせい</rt></ruby>は<ruby>言<rt>い</rt></ruby>います。<ruby>学費<rt>がくひ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いので、みんな<ruby>覚悟<rt>かくご</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>勉強<rt>べんきょう</rt></ruby>することになりました。</p><h3>Scene 2. <ruby>化学<rt>かがく</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>（화학 수업）</h3><p><ruby>今日<rt>きょう</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>は<ruby>化学<rt>かがく</rt></ruby>でした。<ruby>先生<rt>せんせい</rt></ruby>は<ruby>黒板<rt>こくばん</rt></ruby>にかけ<ruby>算<rt>ざん</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>を<ruby>書<rt>か</rt></ruby>いて<ruby>確認<rt>かくにん</rt></ruby>しました。<ruby>次<rt>つぎ</rt></ruby>に<ruby>書<rt>か</rt></ruby>き<ruby>取<rt>と</rt></ruby>りの<ruby>練習<rt>れんしゅう</rt></ruby>もしました。<ruby>研究<rt>けんきゅう</rt></ruby>が<ruby>各地<rt>かくち</rt></ruby>に<ruby>拡大<rt>かくだい</rt></ruby>していることについての<ruby>話<rt>はなし</rt></ruby>もありました。</p><h3>Scene 3. <ruby>図書館<rt>としょかん</rt></ruby>で（도서관에서）</h3><p><ruby>図書館<rt>としょかん</rt></ruby>の<ruby>係<rt>かか</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>に<ruby>貸<rt>か</rt></ruby>し<ruby>出<rt>だ</rt></ruby>しの<ruby>手続<rt>てつづ</rt></ruby>きをお<ruby>願<rt>ねが</rt></ruby>いしました。<ruby>過去<rt>かこ</rt></ruby>の<ruby>研究書<rt>けんきゅうしょ</rt></ruby>には<ruby>下線<rt>かせん</rt></ruby>がたくさん<ruby>引<rt>ひ</rt></ruby>いてありました。<ruby>河川<rt>かせん</rt></ruby>の<ruby>研究<rt>けんきゅう</rt></ruby>についての<ruby>本<rt>ほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけて、うれしかったです。その<ruby>本<rt>ほん</rt></ruby>を<ruby>書留<rt>かきとめ</rt></ruby>で<ruby>先生<rt>せんせい</rt></ruby>に<ruby>送<rt>おく</rt></ruby>ることになりました。</p><h3>Scene 4. <ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>（귀가길）</h3><p><ruby>各駅停車<rt>かくえきていしゃ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>帰<rt>かえ</rt></ruby>りながら、<ruby>今日<rt>きょう</rt></ruby>のことを<ruby>考<rt>かんが</rt></ruby>えました。<ruby>肩<rt>かた</rt></ruby>に<ruby>重<rt>おも</rt></ruby>い<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていましたが、<ruby>疲<rt>つか</rt></ruby>れているわけではありませんでした。<ruby>格安<rt>かくやす</rt></ruby>の<ruby>家具<rt>かぐ</rt></ruby><ruby>屋<rt>や</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>価格<rt>かかく</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しようと<ruby>思<rt>おも</rt></ruby>いました。しかし、<ruby>向<rt>む</rt></ruby>かいで<ruby>火災<rt>かさい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたため、すぐに<ruby>帰<rt>かえ</rt></ruby>ることになりました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>学生<rt>がくせい</rt></ruby>たちは<ruby>学習<rt>がくしゅう</rt></ruby>に<ruby>励<rt>はげ</rt></ruby>んでいます。",
+      "trans": "학생들은 학습에 힘쓰고 있습니다.",
+      "grammar": "〜に励む — '~에 힘쓰다', 어떤 일에 열심히 노력하는 상태를 나타냄",
+      "tags": ["学習"]
+    },
+    {
+      "sent": "<ruby>学力<rt>がくりょく</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばすことが<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>先生<rt>せんせい</rt></ruby>は<ruby>言<rt>い</rt></ruby>います。",
+      "trans": "학력을 키우는 것이 중요하다고 선생님은 말합니다.",
+      "grammar": "〜と言います — '~라고 말합니다', 간접 인용을 나타내는 と＋言う 구문",
+      "tags": ["学力"]
+    },
+    {
+      "sent": "<ruby>学費<rt>がくひ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いので、みんな<ruby>覚悟<rt>かくご</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>勉強<rt>べんきょう</rt></ruby>することになりました。",
+      "trans": "학비가 비싸기 때문에 모두 각오를 가지고 공부하게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 자연스러운 귀결·결정을 나타냄",
+      "tags": ["学費", "覚悟"]
+    },
+    {
+      "sent": "<ruby>学費<rt>がくひ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いので、みんな<ruby>覚悟<rt>かくご</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>勉強<rt>べんきょう</rt></ruby>することになりました。",
+      "trans": "학비가 비싸기 때문에 모두 각오를 가지고 공부하게 되었습니다.",
+      "grammar": "〜ので — '~이기 때문에', 이유·원인을 나타냄 (から보다 부드럽고 공손한 표현)",
+      "tags": ["学費", "覚悟"]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>黒板<rt>こくばん</rt></ruby>にかけ<ruby>算<rt>ざん</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>を<ruby>書<rt>か</rt></ruby>いて<ruby>確認<rt>かくにん</rt></ruby>しました。",
+      "trans": "선생님은 칠판에 곱셈 문제를 써서 확인했습니다.",
+      "grammar": "〜て（連続） — 동작의 순서·연속을 나타냄 (A한 다음 B하다)",
+      "tags": ["かけ算", "確認"]
+    },
+    {
+      "sent": "<ruby>書<rt>か</rt></ruby>き<ruby>取<rt>と</rt></ruby>りの<ruby>練習<rt>れんしゅう</rt></ruby>もしました。",
+      "trans": "받아쓰기 연습도 했습니다.",
+      "grammar": "〜も — '~도', 추가·포함을 나타내는 조사",
+      "tags": ["書き取り"]
+    },
+    {
+      "sent": "<ruby>研究<rt>けんきゅう</rt></ruby>が<ruby>各地<rt>かくち</rt></ruby>に<ruby>拡大<rt>かくだい</rt></ruby>していることについての<ruby>話<rt>はなし</rt></ruby>もありました。",
+      "trans": "연구가 각지로 확대되고 있다는 것에 관한 이야기도 있었습니다.",
+      "grammar": "〜について — '~에 관하여', 화제·주제를 나타냄",
+      "tags": ["各地", "拡大"]
+    },
+    {
+      "sent": "<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>係<rt>かか</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>に<ruby>貸<rt>か</rt></ruby>し<ruby>出<rt>だ</rt></ruby>しの<ruby>手続<rt>てつづ</rt></ruby>きをお<ruby>願<rt>ねが</rt></ruby>いしました。",
+      "trans": "도서관 담당자에게 대출 절차를 부탁했습니다.",
+      "grammar": "〜にお願いする — '~에게 부탁하다', 의뢰 대상을 に로 나타냄",
+      "tags": ["係り", "貸し出し"]
+    },
+    {
+      "sent": "<ruby>過去<rt>かこ</rt></ruby>の<ruby>研究書<rt>けんきゅうしょ</rt></ruby>には<ruby>下線<rt>かせん</rt></ruby>がたくさん<ruby>引<rt>ひ</rt></ruby>いてありました。",
+      "trans": "과거의 연구서에는 밑줄이 많이 그어져 있었습니다.",
+      "grammar": "〜てある — '~해져 있다', 의도적 행위의 결과 상태를 나타냄",
+      "tags": ["過去", "下線"]
+    },
+    {
+      "sent": "<ruby>河川<rt>かせん</rt></ruby>の<ruby>研究<rt>けんきゅう</rt></ruby>についての<ruby>本<rt>ほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけて、うれしかったです。",
+      "trans": "하천 연구에 관한 책을 찾아서 기뻤습니다.",
+      "grammar": "〜て（原因） — て형이 뒤 감정의 원인·이유를 나타냄",
+      "tags": ["河川"]
+    },
+    {
+      "sent": "その<ruby>本<rt>ほん</rt></ruby>を<ruby>書留<rt>かきとめ</rt></ruby>で<ruby>先生<rt>せんせい</rt></ruby>に<ruby>送<rt>おく</rt></ruby>ることになりました。",
+      "trans": "그 책을 등기로 선생님께 보내게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정·상황의 귀결을 나타냄",
+      "tags": ["書留"]
+    },
+    {
+      "sent": "<ruby>各駅停車<rt>かくえきていしゃ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>帰<rt>かえ</rt></ruby>りながら、<ruby>今日<rt>きょう</rt></ruby>のことを<ruby>考<rt>かんが</rt></ruby>えました。",
+      "trans": "각 역 정차 전철을 타고 돌아오면서 오늘 일을 생각했습니다.",
+      "grammar": "〜ながら — '~하면서', 두 동작의 동시 진행을 나타냄",
+      "tags": ["各駅停車"]
+    },
+    {
+      "sent": "<ruby>肩<rt>かた</rt></ruby>に<ruby>重<rt>おも</rt></ruby>い<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていましたが、<ruby>疲<rt>つか</rt></ruby>れているわけではありませんでした。",
+      "trans": "어깨에 무거운 짐을 들고 있었지만 피곤했던 것은 아니었습니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 오해·잘못된 인식을 부분 부정함",
+      "tags": ["肩"]
+    },
+    {
+      "sent": "<ruby>格安<rt>かくやす</rt></ruby>の<ruby>家具<rt>かぐ</rt></ruby><ruby>屋<rt>や</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>価格<rt>かかく</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しようと<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "저렴한 가구점 앞에서 가격을 확인해 보려고 생각했습니다.",
+      "grammar": "〜ようと思う — '~하려고 생각하다', 화자의 의도·의지를 나타냄",
+      "tags": ["格安", "家具", "価格", "確認"]
+    },
+    {
+      "sent": "<ruby>火災<rt>かさい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたため、すぐに<ruby>帰<rt>かえ</rt></ruby>ることになりました。",
+      "trans": "화재가 발생했기 때문에 바로 돌아가게 되었습니다.",
+      "grammar": "〜ため — '~때문에', 원인·이유를 나타냄 (격식체에 많이 쓰임)",
+      "tags": ["火災"]
+    },
+    {
+      "sent": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>学者<rt>がくしゃ</rt></ruby>で、<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学部<rt>がくぶ</rt></ruby>で<ruby>学問<rt>がくもん</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えています。",
+      "trans": "다나카씨는 유명한 학자로, 대학 학부에서 학문을 가르치고 있습니다.",
+      "grammar": "〜ています — '~하고 있다', 진행 중인 동작이나 지속 상태를 나타냄",
+      "tags": ["学者", "学部", "学問"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「学習」の読み方は？",
+      "opt": ["がくしゅう", "がくしゅ", "がくしょ", "がくじゅう"],
+      "ans": 0,
+      "comment": "학습(学習)은 がくしゅう로 읽습니다. 学(がく)+習(しゅう)의 합성어입니다."
+    },
+    {
+      "q": "「覚悟」の読み方は？",
+      "opt": ["かっこ", "かくご", "がくご", "がくこ"],
+      "ans": 1,
+      "comment": "각오(覚悟)는 かくご로 읽습니다. 어떤 일에 대해 마음을 굳게 먹는 것을 의미합니다."
+    },
+    {
+      "q": "「下線」の読み方は？",
+      "opt": ["げせん", "したせん", "かせん", "したいと"],
+      "ans": 2,
+      "comment": "밑줄(下線)은 かせん으로 읽습니다. 下(か)+線(せん)의 합성어입니다."
+    },
+    {
+      "q": "「各駅停車」の読み方は？",
+      "opt": ["かけきていしゃ", "かくえきしてい", "かくえきていきゃく", "かくえきていしゃ"],
+      "ans": 3,
+      "comment": "각 역 정차(各駅停車)는 かくえきていしゃ로 읽습니다. 모든 역에 정차하는 열차를 말합니다."
+    },
+    {
+      "q": "「書留」の意味は？",
+      "opt": ["필기", "등기", "메모", "서명"],
+      "ans": 1,
+      "comment": "書留(かきとめ)는 등기를 의미합니다. 우편물을 확실하게 배달하기 위한 방법입니다."
+    },
+    {
+      "q": "「格安」の意味は？",
+      "opt": ["품질이 낮음", "값이 비쌈", "품질이 높음", "값이 쌈"],
+      "ans": 3,
+      "comment": "格安(かくやす)는 '값이 쌈', 즉 특별히 저렴한 것을 의미합니다."
+    },
+    {
+      "q": "「河川」の意味は？",
+      "opt": ["호수", "바다", "하천", "산"],
+      "ans": 2,
+      "comment": "河川(かせん)은 하천을 의미합니다. 강이나 시내 등 흐르는 물줄기를 가리킵니다."
+    },
+    {
+      "q": "「疲れている（　）ではありませんでした。」に入る言葉は？",
+      "opt": ["もの", "わけ", "はず", "こと"],
+      "ans": 1,
+      "comment": "〜わけではない는 '~인 것은 아니다'라는 뜻으로, 상대방의 오해를 부분 부정할 때 씁니다."
+    },
+    {
+      "q": "「火災が起きたため、すぐに帰る（　）になりました。」に入る言葉は？",
+      "opt": ["もの", "わけ", "はず", "こと"],
+      "ans": 3,
+      "comment": "〜ことになる는 '~하게 되다'라는 뜻으로, 상황의 자연스러운 귀결이나 결정을 나타냅니다."
+    },
+    {
+      "q": "「書き取りの（　）もしました。」に入る言葉は？",
+      "opt": ["研究", "学習", "練習", "確認"],
+      "ans": 2,
+      "comment": "書き取り(かきとり)는 '받아쓰기'를 의미합니다. 받아쓰기 練習(れんしゅう)을 한 것입니다."
+    }
+  ]
 }

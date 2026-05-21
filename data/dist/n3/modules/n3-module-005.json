@@ -2,7 +2,7 @@
   "moduleId": "n3-module-005",
   "level": "n3",
   "ordinal": 5,
-  "title": "か行の名詞・1 (か행 명사 1)",
+  "title": "N3: 예술과 문화 활동",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,262 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>会館<rt>かいかん</rt></ruby>での<ruby>会合<rt>かいごう</rt></ruby>（회관에서의 회합）</h3><p><ruby>田中<rt>たなか</rt></ruby>さんは<ruby>今日<rt>きょう</rt></ruby>、<ruby>会館<rt>かいかん</rt></ruby>で<ruby>開<rt>ひら</rt></ruby>かれる<ruby>会合<rt>かいごう</rt></ruby>に<ruby>出席<rt>しゅっせき</rt></ruby>しました。<ruby>会員<rt>かいいん</rt></ruby>たちが<ruby>集<rt>あつ</rt></ruby>まり、<ruby>絵画<rt>かいが</rt></ruby><ruby>展<rt>てん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>について<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>いました。<ruby>会費<rt>かいひ</rt></ruby>の<ruby>回収<rt>かいしゅう</rt></ruby>も<ruby>今日<rt>きょう</rt></ruby><ruby>行<rt>おこな</rt></ruby>われることになりました。<ruby>海外<rt>かいがい</rt></ruby>から<ruby>来<rt>く</rt></ruby>る<ruby>画家<rt>がか</rt></ruby>の<ruby>解説<rt>かいせつ</rt></ruby>もあるので、みんな<ruby>楽<rt>たの</rt></ruby>しみにしています。</p><h3>Scene 2. <ruby>音楽家<rt>おんがくか</rt></ruby>との<ruby>出会<rt>であ</rt></ruby>い（음악가와의 만남）</h3><p><ruby>音楽家<rt>おんがくか</rt></ruby>の<ruby>山田<rt>やまだ</rt></ruby>さんが<ruby>会館<rt>かいかん</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。<ruby>温室<rt>おんしつ</rt></ruby>で<ruby>育<rt>そだ</rt></ruby>てた<ruby>花<rt>はな</rt></ruby>の<ruby>香<rt>かお</rt></ruby>りが<ruby>好<rt>す</rt></ruby>きだと<ruby>言<rt>い</rt></ruby>います。<ruby>外出<rt>がいしゅつ</rt></ruby>の<ruby>回数<rt>かいすう</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないわけではないのに、なかなか<ruby>解決<rt>かいけつ</rt></ruby>できない<ruby>問題<rt>もんだい</rt></ruby>があると<ruby>話<rt>はな</rt></ruby>しました。<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>丁寧<rt>ていねい</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いました。</p><h3>Scene 3. <ruby>改札口<rt>かいさつぐち</rt></ruby>での<ruby>出来事<rt>できごと</rt></ruby>（개찰구에서의 일）</h3><p><ruby>翌日<rt>よくじつ</rt></ruby>、<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>駅<rt>えき</rt></ruby>の<ruby>改札口<rt>かいさつぐち</rt></ruby>で<ruby>海外<rt>かいがい</rt></ruby>の<ruby>画家<rt>がか</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちました。<ruby>改札<rt>かいさつ</rt></ruby>を<ruby>通<rt>とお</rt></ruby>ってきた<ruby>画家<rt>がか</rt></ruby>は<ruby>赤<rt>あか</rt></ruby>ちゃんをおんぶしていました。<ruby>温度<rt>おんど</rt></ruby>が<ruby>低<rt>ひく</rt></ruby>い<ruby>朝<rt>あさ</rt></ruby>でしたが、<ruby>外食<rt>がいしょく</rt></ruby>しながら<ruby>楽<rt>たの</rt></ruby>しく<ruby>話<rt>はな</rt></ruby>しました。</p><h3>Scene 4. <ruby>会館<rt>かいかん</rt></ruby>での<ruby>夜会<rt>やかい</rt></ruby>（회관에서의 저녁 모임）</h3><p><ruby>夜<rt>よる</rt></ruby>は<ruby>会館<rt>かいかん</rt></ruby>でお<ruby>見合<rt>みあ</rt></ruby>いパーティーが<ruby>開<rt>ひら</rt></ruby>かれました。<ruby>参加者<rt>さんかしゃ</rt></ruby>の<ruby>一人<rt>ひとり</rt></ruby>が<ruby>海水浴<rt>かいすいよく</rt></ruby>の<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>話<rt>はな</rt></ruby>すと、<ruby>会場<rt>かいじょう</rt></ruby>が<ruby>盛<rt>も</rt></ruby>り<ruby>上<rt>あ</rt></ruby>がりました。<ruby>温泉<rt>おんせん</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>も<ruby>出<rt>で</rt></ruby>て、みんな<ruby>楽<rt>たの</rt></ruby>しそうでした。<ruby>親指<rt>おやゆび</rt></ruby>を<ruby>立<rt>た</rt></ruby>ててOKサインを<ruby>出<rt>だ</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>もいました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>会費<rt>かいひ</rt></ruby>の<ruby>回収<rt>かいしゅう</rt></ruby>も<ruby>今日<rt>きょう</rt></ruby><ruby>行<rt>おこな</rt></ruby>われることになりました。",
+      "trans": "회비 회수도 오늘 실시하게 되었습니다.",
+      "grammar": "〜ことになる — 결정이나 상황이 자연스럽게 그렇게 됨을 나타내는 표현",
+      "tags": [
+        "会費",
+        "回収"
+      ]
+    },
+    {
+      "sent": "<ruby>外出<rt>がいしゅつ</rt></ruby>の<ruby>回数<rt>かいすう</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないわけではないのに、なかなか<ruby>解決<rt>かいけつ</rt></ruby>できない<ruby>問題<rt>もんだい</rt></ruby>があります。",
+      "trans": "외출 횟수가 적은 것은 아닌데, 좀처럼 해결할 수 없는 문제가 있습니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다'라는 뜻으로 전면 부정이 아님을 나타내는 표현",
+      "tags": [
+        "外出",
+        "回数",
+        "解決"
+      ]
+    },
+    {
+      "sent": "<ruby>会員<rt>かいいん</rt></ruby>たちが<ruby>集<rt>あつ</rt></ruby>まり、<ruby>絵画<rt>かいが</rt></ruby><ruby>展<rt>てん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>について<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>いました。",
+      "trans": "회원들이 모여 회화 전시 준비에 대해 이야기를 나눴습니다.",
+      "grammar": "〜について — '~에 대해서'라는 뜻의 주제 표현",
+      "tags": [
+        "会員",
+        "絵画"
+      ]
+    },
+    {
+      "sent": "<ruby>海外<rt>かいがい</rt></ruby>から<ruby>来<rt>く</rt></ruby>る<ruby>画家<rt>がか</rt></ruby>の<ruby>解説<rt>かいせつ</rt></ruby>もあるので、みんな<ruby>楽<rt>たの</rt></ruby>しみにしています。",
+      "trans": "해외에서 오는 화가의 해설도 있어서, 모두 기대하고 있습니다.",
+      "grammar": "〜ので — 원인·이유를 나타내는 접속 표현 (정중한 어감)",
+      "tags": [
+        "海外",
+        "画家",
+        "解説"
+      ]
+    },
+    {
+      "sent": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>今日<rt>きょう</rt></ruby>、<ruby>会館<rt>かいかん</rt></ruby>で<ruby>開<rt>ひら</rt></ruby>かれる<ruby>会合<rt>かいごう</rt></ruby>に<ruby>出席<rt>しゅっせき</rt></ruby>しました。",
+      "trans": "다나카 씨는 오늘 회관에서 열리는 회합에 출석했습니다.",
+      "grammar": "〜に出席する — '~에 출석하다'는 격식체 표현",
+      "tags": [
+        "会館",
+        "会合"
+      ]
+    },
+    {
+      "sent": "<ruby>温室<rt>おんしつ</rt></ruby>で<ruby>育<rt>そだ</rt></ruby>てた<ruby>花<rt>はな</rt></ruby>の<ruby>香<rt>かお</rt></ruby>りが<ruby>好<rt>す</rt></ruby>きだと<ruby>言<rt>い</rt></ruby>います。",
+      "trans": "온실에서 키운 꽃 향기를 좋아한다고 합니다.",
+      "grammar": "〜と言います — 타인의 말을 인용하는 간접 화법 표현",
+      "tags": [
+        "温室",
+        "香り"
+      ]
+    },
+    {
+      "sent": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>丁寧<rt>ていねい</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "다나카 씨는 정중하게 감사를 전했습니다.",
+      "grammar": "〜を言う — '~을 전하다' 동작 표현",
+      "tags": [
+        "お礼"
+      ]
+    },
+    {
+      "sent": "<ruby>翌日<rt>よくじつ</rt></ruby>、<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>駅<rt>えき</rt></ruby>の<ruby>改札口<rt>かいさつぐち</rt></ruby>で<ruby>海外<rt>かいがい</rt></ruby>の<ruby>画家<rt>がか</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちました。",
+      "trans": "다음 날, 다나카 씨는 역 개찰구에서 해외 화가를 기다렸습니다.",
+      "grammar": "〜を待つ — '~을 기다리다'는 타동사 표현",
+      "tags": [
+        "改札口",
+        "海外",
+        "画家"
+      ]
+    },
+    {
+      "sent": "<ruby>改札<rt>かいさつ</rt></ruby>を<ruby>通<rt>とお</rt></ruby>ってきた<ruby>画家<rt>がか</rt></ruby>は<ruby>赤<rt>あか</rt></ruby>ちゃんをおんぶしていました。",
+      "trans": "개찰구를 통과해 온 화가는 아기를 업고 있었습니다.",
+      "grammar": "〜てくる — 동작이 이쪽으로 향해 오는 방향성 표현",
+      "tags": [
+        "改札",
+        "画家",
+        "おんぶ"
+      ]
+    },
+    {
+      "sent": "<ruby>温度<rt>おんど</rt></ruby>が<ruby>低<rt>ひく</rt></ruby>い<ruby>朝<rt>あさ</rt></ruby>でしたが、<ruby>外食<rt>がいしょく</rt></ruby>しながら<ruby>楽<rt>たの</rt></ruby>しく<ruby>話<rt>はな</rt></ruby>しました。",
+      "trans": "온도가 낮은 아침이었지만, 외식하면서 즐겁게 이야기했습니다.",
+      "grammar": "〜ながら — 두 가지 동작을 동시에 하는 것을 나타내는 표현",
+      "tags": [
+        "温度",
+        "外食"
+      ]
+    },
+    {
+      "sent": "<ruby>夜<rt>よる</rt></ruby>は<ruby>会館<rt>かいかん</rt></ruby>でお<ruby>見合<rt>みあ</rt></ruby>いパーティーが<ruby>開<rt>ひら</rt></ruby>かれました。",
+      "trans": "저녁에는 회관에서 맞선 파티가 열렸습니다.",
+      "grammar": "〜れる (수동형) — '~하게 되다', 수동 표현",
+      "tags": [
+        "会館",
+        "お見合い"
+      ]
+    },
+    {
+      "sent": "<ruby>参加者<rt>さんかしゃ</rt></ruby>の<ruby>一人<rt>ひとり</rt></ruby>が<ruby>海水浴<rt>かいすいよく</rt></ruby>の<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>話<rt>はな</rt></ruby>すと、<ruby>会場<rt>かいじょう</rt></ruby>が<ruby>盛<rt>も</rt></ruby>り<ruby>上<rt>あ</rt></ruby>がりました。",
+      "trans": "참가자 한 명이 해수욕 추억을 이야기하자 회장이 달아올랐습니다.",
+      "grammar": "〜と (계기) — '~하자', '~하니까' 자연스러운 결과를 나타냄",
+      "tags": [
+        "海水浴"
+      ]
+    },
+    {
+      "sent": "<ruby>温泉<rt>おんせん</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>も<ruby>出<rt>で</rt></ruby>て、みんな<ruby>楽<rt>たの</rt></ruby>しそうでした。",
+      "trans": "온천 여행 이야기도 나와서 모두 즐거운 것 같았습니다.",
+      "grammar": "〜そうだ (様子) — 외관으로 보이는 상태를 나타내는 표현",
+      "tags": [
+        "温泉"
+      ]
+    },
+    {
+      "sent": "<ruby>親指<rt>おやゆび</rt></ruby>を<ruby>立<rt>た</rt></ruby>ててOKサインを<ruby>出<rt>だ</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>もいました。",
+      "trans": "엄지를 세워 OK 사인을 내는 사람도 있었습니다.",
+      "grammar": "〜もいる — '~도 있다'는 첨가 표현",
+      "tags": [
+        "親指"
+      ]
+    },
+    {
+      "sent": "<ruby>音楽家<rt>おんがくか</rt></ruby>の<ruby>山田<rt>やまだ</rt></ruby>さんが<ruby>会館<rt>かいかん</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。",
+      "trans": "음악가 야마다 씨가 회관에 왔습니다.",
+      "grammar": "〜に来る — '~에 오다'라는 장소 이동 표현",
+      "tags": [
+        "音楽家",
+        "会館"
+      ]
+    },
+    {
+      "sent": "<ruby>赤<rt>あか</rt></ruby>ちゃんをおんぶしていました。",
+      "trans": "아기를 업고 있었습니다.",
+      "grammar": "〜ている (결과 상태) — 동작의 결과가 현재 상태로 지속됨을 나타냄",
+      "tags": [
+        "おんぶ"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「会館」の読み方は何ですか。",
+      "opt": [
+        "かいかん",
+        "えかん",
+        "かいぐん",
+        "えがん"
+      ],
+      "ans": 0,
+      "comment": "会館(かいかん)은 '회관'을 뜻합니다. 회의나 행사를 위한 시설입니다."
+    },
+    {
+      "q": "「絵画」の読み方は何ですか。",
+      "opt": [
+        "かいが",
+        "えが",
+        "えいが",
+        "かいか"
+      ],
+      "ans": 0,
+      "comment": "絵画(かいが)은 '회화, 그림'을 뜻합니다. 映画(えいが=영화)와 혼동하지 않도록 주의합니다."
+    },
+    {
+      "q": "「改札口」の読み方は何ですか。",
+      "opt": [
+        "かいさつぐち",
+        "かいさつこう",
+        "かいしゃつぐち",
+        "かいさくぐち"
+      ],
+      "ans": 0,
+      "comment": "改札口(かいさつぐち)는 역의 개찰구를 뜻합니다."
+    },
+    {
+      "q": "「外出」の読み方は何ですか。",
+      "opt": [
+        "がいしゅつ",
+        "そとで",
+        "がいで",
+        "そとしゅつ"
+      ],
+      "ans": 0,
+      "comment": "外出(がいしゅつ)는 '외출'을 뜻합니다. 外(がい)는 '바깥'을 나타냅니다."
+    },
+    {
+      "q": "「회합」을 뜻하는 단어はどれですか。",
+      "opt": [
+        "会合",
+        "会費",
+        "会員",
+        "会館"
+      ],
+      "ans": 0,
+      "comment": "会合(かいごう)는 여러 사람이 모이는 '회합'을 뜻합니다."
+    },
+    {
+      "q": "「온실」을 뜻하는 단어はどれですか。",
+      "opt": [
+        "温室",
+        "温泉",
+        "温度",
+        "温暖"
+      ],
+      "ans": 0,
+      "comment": "温室(おんしつ)는 식물 재배를 위한 '온실'을 뜻합니다."
+    },
+    {
+      "q": "「향기」를 뜻하는 단어はどれですか。",
+      "opt": [
+        "香り",
+        "温室",
+        "音楽家",
+        "回数"
+      ],
+      "ans": 0,
+      "comment": "香り(かおり)는 '향기'라는 뜻의 명사입니다."
+    },
+    {
+      "q": "「外出の回数が少ない___ではないのに」に入る言葉は？",
+      "opt": [
+        "わけ",
+        "ほど",
+        "はず",
+        "もの"
+      ],
+      "ans": 0,
+      "comment": "〜わけではない는 '~인 것은 아니다'라는 뜻으로 전면 부정을 피하는 표현입니다."
+    },
+    {
+      "q": "「会費の回収も今日行われる___になりました」に入る言葉は？",
+      "opt": [
+        "こと",
+        "わけ",
+        "はず",
+        "もの"
+      ],
+      "ans": 0,
+      "comment": "〜ことになる는 결정이나 상황이 그렇게 됨을 나타내는 표현입니다."
+    },
+    {
+      "q": "「海外から来る画家の___もあるので、楽しみです」に入る単語は？",
+      "opt": [
+        "解説",
+        "解決",
+        "回収",
+        "会費"
+      ],
+      "ans": 0,
+      "comment": "解説(かいせつ)는 '해설'로, 解決(かいけつ=해결)과 구별에 주의합니다."
+    }
+  ]
 }

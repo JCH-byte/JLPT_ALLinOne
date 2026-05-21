@@ -14,6 +14,8 @@
         "〜に基づいて"
     ],
     "style": "学習教材向けの丁寧体",
+    "analysisGrammarFormat": "〜패턴명 — 한국어 설명 (사용 조건)",
+    "storyRubyReminder": "단독 한자 ruby 누락 주의: 言,見,出,来,話,行,思,書,読,聞,合,入,取,作,開,知,使,切,持,考,会,年,月,日,時,人,子",
     "lengthLimit": {
         "maxChars": 250
     },

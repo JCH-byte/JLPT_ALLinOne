@@ -11,10 +11,6 @@
  *   data/dist/{level}/index.json                 (moduleOrder + module summaries)
  *
  * --check: re-build in memory and exit 1 if disk differs from build output.
- *
- * Does NOT touch legacy files (data/dist/{level}/day-*.json, module-vocab/*.json,
- * old top-level index.json format). Those coexist during the migration cohabitation
- * period and are removed in a later cleanup commit.
  */
 
 'use strict';
