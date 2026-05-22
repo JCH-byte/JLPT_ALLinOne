@@ -2,7 +2,7 @@
   "moduleId": "n3-module-008",
   "level": "n3",
   "ordinal": 8,
-  "title": "か行の名詞・4 (か행 명사 4)",
+  "title": "N3: 병원의 간호사와 환자",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-bc7a946f8ceee6eaddcbd6c8f072700b92dfdff9",
@@ -31,7 +31,165 @@
     "v-09a954792e3321f96f148ece7f850fa35b7bb591",
     "v-515cee85a521a288fddc6ff1d42560a9561554da"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>歓迎会<rt>かんげいかい</rt></ruby>と<ruby>感謝<rt>かんしゃ</rt></ruby>（환영회와 감사）</h3><p><ruby>田中<rt>たなか</rt></ruby>さんは<ruby>看護師<rt>かんごし</rt></ruby>として<ruby>病院<rt>びょういん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>き<ruby>始<rt>はじ</rt></ruby>めました。<ruby>初日<rt>しょにち</rt></ruby>は<ruby>歓迎会<rt>かんげいかい</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>かれ、みんなで<ruby>乾杯<rt>かんぱい</rt></ruby>しました。<ruby>先輩<rt>せんぱい</rt></ruby>たちとの<ruby>関係<rt>かんけい</rt></ruby>も<ruby>良<rt>よ</rt></ruby>く、<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちで<ruby>仕事<rt>しごと</rt></ruby>をすることになりました。</p><h3>Scene 2. <ruby>病院<rt>びょういん</rt></ruby>での<ruby>仕事<rt>しごと</rt></ruby>（병원에서의 업무）</h3><p><ruby>翌日<rt>よくじつ</rt></ruby>から<ruby>患者<rt>かんじゃ</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>を<ruby>観察<rt>かんさつ</rt></ruby>する<ruby>仕事<rt>しごと</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。<ruby>感<rt>かん</rt></ruby>じたことを<ruby>記録<rt>きろく</rt></ruby>し、<ruby>機械<rt>きかい</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>と<ruby>規則<rt>きそく</rt></ruby>も<ruby>覚<rt>おぼ</rt></ruby>えました。<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>ぶりに<ruby>感心<rt>かんしん</rt></ruby>し、<ruby>患者<rt>かんじゃ</rt></ruby>への<ruby>関心<rt>かんしん</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けることが<ruby>大切<rt>たいせつ</rt></ruby>だとわかりました。</p><h3>Scene 3. <ruby>患者<rt>かんじゃ</rt></ruby>との<ruby>交流<rt>こうりゅう</rt></ruby>（환자와의 교류）</h3><p><ruby>患者<rt>かんじゃ</rt></ruby>の<ruby>治療<rt>ちりょう</rt></ruby>が<ruby>完成<rt>かんせい</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>づき、<ruby>傷<rt>きず</rt></ruby>もよくなってきました。<ruby>患者<rt>かんじゃ</rt></ruby>の<ruby>感情<rt>かんじょう</rt></ruby>が<ruby>明<rt>あか</rt></ruby>るくなったことに<ruby>感動<rt>かんどう</rt></ruby>しました。<ruby>感想<rt>かんそう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くと「<ruby>期待<rt>きたい</rt></ruby>より<ruby>早<rt>はや</rt></ruby>く<ruby>回復<rt>かいふく</rt></ruby>できた」と<ruby>言<rt>い</rt></ruby>われ、<ruby>看護<rt>かんご</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>さを<ruby>感<rt>かん</rt></ruby>じました。</p><h3>Scene 4. <ruby>振<rt>ふ</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>り（회고）</h3><p><ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わると、<ruby>気温<rt>きおん</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がり<ruby>乾燥<rt>かんそう</rt></ruby>した<ruby>空気<rt>くうき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>きました。<ruby>医学<rt>いがく</rt></ruby><ruby>記事<rt>きじ</rt></ruby>で<ruby>読<rt>よ</rt></ruby>んだ<ruby>間接<rt>かんせつ</rt></ruby>ケアの<ruby>重要性<rt>じゅうようせい</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。<ruby>観光<rt>かんこう</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>なわけではないが、<ruby>機会<rt>きかい</rt></ruby>があれば<ruby>旅行<rt>りょこう</rt></ruby>もしたいと<ruby>思<rt>おも</rt></ruby>いました。まずは<ruby>期限<rt>きげん</rt></ruby>までに<ruby>報告書<rt>ほうこくしょ</rt></ruby>を<ruby>仕上<rt>しあ</rt></ruby>げることになりました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>看護師<rt>かんごし</rt></ruby>として<ruby>病院<rt>びょういん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>き<ruby>始<rt>はじ</rt></ruby>めました。",
+      "trans": "다나카씨는 간호사로서 병원에서 일하기 시작했습니다.",
+      "grammar": "〜として — '~로서', 자격·역할을 나타냄",
+      "tags": ["看護師"]
+    },
+    {
+      "sent": "<ruby>初日<rt>しょにち</rt></ruby>は<ruby>歓迎会<rt>かんげいかい</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>かれ、みんなで<ruby>乾杯<rt>かんぱい</rt></ruby>しました。",
+      "trans": "첫날은 환영회가 열려 다 같이 건배했습니다.",
+      "grammar": "〜が開かれる — '~이 열리다', 수동형으로 행사 개최를 나타냄",
+      "tags": ["歓迎会", "乾杯"]
+    },
+    {
+      "sent": "<ruby>先輩<rt>せんぱい</rt></ruby>たちとの<ruby>関係<rt>かんけい</rt></ruby>も<ruby>良<rt>よ</rt></ruby>く、<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちで<ruby>仕事<rt>しごと</rt></ruby>をすることになりました。",
+      "trans": "선배들과의 관계도 좋아서 감사한 마음으로 일하게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 자연스러운 결정을 나타냄",
+      "tags": ["関係", "感謝"]
+    },
+    {
+      "sent": "<ruby>患者<rt>かんじゃ</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>を<ruby>観察<rt>かんさつ</rt></ruby>する<ruby>仕事<rt>しごと</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。",
+      "trans": "환자의 상태를 관찰하는 업무가 시작되었습니다.",
+      "grammar": "〜する仕事が始まる — '~하는 일이 시작되다', 역할 개시를 나타냄",
+      "tags": ["患者", "観察"]
+    },
+    {
+      "sent": "<ruby>感<rt>かん</rt></ruby>じたことを<ruby>記録<rt>きろく</rt></ruby>し、<ruby>機械<rt>きかい</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>と<ruby>規則<rt>きそく</rt></ruby>も<ruby>覚<rt>おぼ</rt></ruby>えました。",
+      "trans": "느낀 것을 기록하고, 기계 사용법과 규칙도 익혔습니다.",
+      "grammar": "〜し、〜も — '~하고, ~도', 복수 행위의 병렬을 나타냄",
+      "tags": ["感じ", "機械", "規則"]
+    },
+    {
+      "sent": "<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>ぶりに<ruby>感心<rt>かんしん</rt></ruby>し、<ruby>患者<rt>かんじゃ</rt></ruby>への<ruby>関心<rt>かんしん</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けることが<ruby>大切<rt>たいせつ</rt></ruby>だとわかりました。",
+      "trans": "선배의 일하는 모습에 감탄하며, 환자에 대한 관심을 계속 갖는 것이 중요하다는 것을 알게 되었습니다.",
+      "grammar": "〜ことが大切だとわかる — '~하는 것이 중요함을 알다', 깨달음을 나타냄",
+      "tags": ["感心", "関心"]
+    },
+    {
+      "sent": "<ruby>患者<rt>かんじゃ</rt></ruby>への<ruby>関心<rt>かんしん</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けることが<ruby>大切<rt>たいせつ</rt></ruby>だとわかりました。",
+      "trans": "환자에 대한 관심을 계속 갖는 것이 중요하다는 것을 알게 되었습니다.",
+      "grammar": "〜続ける — '계속 ~하다', 동작의 지속을 나타냄",
+      "tags": ["関心"]
+    },
+    {
+      "sent": "<ruby>患者<rt>かんじゃ</rt></ruby>の<ruby>治療<rt>ちりょう</rt></ruby>が<ruby>完成<rt>かんせい</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>づき、<ruby>傷<rt>きず</rt></ruby>もよくなってきました。",
+      "trans": "환자의 치료가 완성에 가까워지며 상처도 좋아져 왔습니다.",
+      "grammar": "〜てくる — '~해 오다', 변화가 점차 일어남을 나타냄",
+      "tags": ["完成", "傷"]
+    },
+    {
+      "sent": "<ruby>患者<rt>かんじゃ</rt></ruby>の<ruby>感情<rt>かんじょう</rt></ruby>が<ruby>明<rt>あか</rt></ruby>るくなったことに<ruby>感動<rt>かんどう</rt></ruby>しました。",
+      "trans": "환자의 감정이 밝아진 것에 감동받았습니다.",
+      "grammar": "〜ことに感動する — '~한 것에 감동받다', 감정의 원인을 나타냄",
+      "tags": ["感情", "感動"]
+    },
+    {
+      "sent": "<ruby>感想<rt>かんそう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くと「<ruby>期待<rt>きたい</rt></ruby>より<ruby>早<rt>はや</rt></ruby>く<ruby>回復<rt>かいふく</rt></ruby>できた」と<ruby>言<rt>い</rt></ruby>われました。",
+      "trans": "감상을 물어봤더니 '기대보다 빨리 회복됐다'라는 말을 들었습니다.",
+      "grammar": "〜と言われる — '~라고 들었습니다', 간접 인용의 수동형",
+      "tags": ["感想", "期待"]
+    },
+    {
+      "sent": "<ruby>看護<rt>かんご</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>さを<ruby>感<rt>かん</rt></ruby>じました。",
+      "trans": "간호의 중요성을 느꼈습니다.",
+      "grammar": "〜さを感じる — '~함을 느끼다', 추상 개념을 감각으로 나타냄",
+      "tags": ["感じ"]
+    },
+    {
+      "sent": "<ruby>気温<rt>きおん</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がり<ruby>乾燥<rt>かんそう</rt></ruby>した<ruby>空気<rt>くうき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>きました。",
+      "trans": "기온이 내려가 건조한 공기 속을 걸었습니다.",
+      "grammar": "〜した（連体形） — '~한', 완료 상태를 나타내는 과거 연체형 수식",
+      "tags": ["気温", "乾燥"]
+    },
+    {
+      "sent": "<ruby>医学<rt>いがく</rt></ruby><ruby>記事<rt>きじ</rt></ruby>で<ruby>読<rt>よ</rt></ruby>んだ<ruby>間接<rt>かんせつ</rt></ruby>ケアの<ruby>重要性<rt>じゅうようせい</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。",
+      "trans": "의학 기사에서 읽었던 간접 케어의 중요성을 떠올렸습니다.",
+      "grammar": "〜を思い出す — '~을 떠올리다', 과거의 정보·경험을 상기하는 표현",
+      "tags": ["記事", "間接"]
+    },
+    {
+      "sent": "<ruby>観光<rt>かんこう</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>なわけではないが、<ruby>機会<rt>きかい</rt></ruby>があれば<ruby>旅行<rt>りょこう</rt></ruby>もしたいと<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "관광이 목적인 것은 아니지만 기회가 있다면 여행도 하고 싶다고 생각했습니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 완전 부정이 아닌 부분 부정 표현",
+      "tags": ["観光", "機会"]
+    },
+    {
+      "sent": "<ruby>機会<rt>きかい</rt></ruby>があれば<ruby>旅行<rt>りょこう</rt></ruby>もしたいと<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "기회가 있다면 여행도 하고 싶다고 생각했습니다.",
+      "grammar": "〜があれば — '~이 있다면', 조건·가정을 나타냄",
+      "tags": ["機会"]
+    },
+    {
+      "sent": "<ruby>期限<rt>きげん</rt></ruby>までに<ruby>報告書<rt>ほうこくしょ</rt></ruby>を<ruby>仕上<rt>しあ</rt></ruby>げることになりました。",
+      "trans": "기한까지 보고서를 완성하게 되었습니다.",
+      "grammar": "〜までに — '~까지', 기한·마감을 나타냄",
+      "tags": ["期限"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「看護師」の読み方は？",
+      "opt": ["かんごし", "かんごしゃ", "かんじし", "かんごいし"],
+      "ans": 0,
+      "comment": "간호사(看護師)는 かんごし로 읽습니다. 看(かん)+護(ご)+師(し)의 합성어입니다."
+    },
+    {
+      "q": "「歓迎会」の読み方は？",
+      "opt": ["かんこうかい", "かんげいかい", "かんれいかい", "かんめいかい"],
+      "ans": 1,
+      "comment": "환영회(歓迎会)는 かんげいかい로 읽습니다. 歓(かん)+迎(げい)+会(かい)의 합성어입니다."
+    },
+    {
+      "q": "「患者」の読み方は？",
+      "opt": ["かんじゃ", "かんしゃ", "かんじょ", "かんじゅ"],
+      "ans": 0,
+      "comment": "환자(患者)는 かんじゃ로 읽습니다. 患(かん)+者(じゃ)의 합성어로, 치료를 받는 사람을 뜻합니다."
+    },
+    {
+      "q": "「期限」の読み方は？",
+      "opt": ["きかい", "きけん", "きげん", "きこん"],
+      "ans": 2,
+      "comment": "기한(期限)은 きげん으로 읽습니다. 期(き)+限(げん)의 합성어로, 정해진 기간의 끝을 의미합니다."
+    },
+    {
+      "q": "「感動」の意味は？",
+      "opt": ["감상", "감탄", "감동", "감사"],
+      "ans": 2,
+      "comment": "感動(かんどう)는 감동을 의미합니다. 강한 인상이나 감정이 마음을 움직이는 것을 나타냅니다."
+    },
+    {
+      "q": "「間接」の意味は？",
+      "opt": ["직접", "간접", "간단", "간결"],
+      "ans": 1,
+      "comment": "間接(かんせつ)는 간접을 의미합니다. 直接(직접)의 반대말로, 사이에 다른 것을 거치는 것입니다."
+    },
+    {
+      "q": "「乾燥」の意味は？",
+      "opt": ["건조", "감상", "건강", "건배"],
+      "ans": 0,
+      "comment": "乾燥(かんそう)는 건조를 의미합니다. 感想(かんそう)도 동음이의어이니 한자로 구별하세요."
+    },
+    {
+      "q": "「感謝の気持ちで仕事をする（　）になりました。」に入る言葉は？",
+      "opt": ["こと", "わけ", "はず", "もの"],
+      "ans": 0,
+      "comment": "〜ことになる는 '~하게 되다'라는 뜻으로, 결정이나 상황의 귀결을 나타냅니다."
+    },
+    {
+      "q": "「観光が目的な（　）ではないが、機会があれば旅行もしたい。」に入る言葉は？",
+      "opt": ["こと", "わけ", "はず", "もの"],
+      "ans": 1,
+      "comment": "〜わけではない는 '~인 것은 아니다'라는 뜻으로, 완전한 부정이 아닌 부분 부정을 나타냅니다."
+    },
+    {
+      "q": "「感想を聞く（　）、期待より早く回復できたと言われました。」に入る言葉は？",
+      "opt": ["と", "が", "で", "のに"],
+      "ans": 0,
+      "comment": "〜と는 '~하자/~하면'이라는 뜻으로, 동작 후 자연스럽게 이어지는 결과나 발견을 나타냅니다."
+    }
+  ]
 }

@@ -17,12 +17,15 @@ argument-hint: <level> <selector>
 
 ## 사전 검사
 
-1. `<level>` 파싱. n5면 즉시 거부.
-2. `<selector>` 파싱:
+1. **dist 동기화 강제**: `node scripts/build-data.js --check` 실행.
+   - exit 0이면 통과. 실패(stale)면 `node scripts/build-data.js` 실행해서 동기화 후 진행.
+   - 이유: dist index의 `hasContent`는 src 기준으로 계산되므로, build가 한 번이라도 누락되면 `next`/`list` 셀렉터가 잘못된 모듈을 선택할 수 있다.
+2. `<level>` 파싱. n5면 즉시 거부.
+3. `<selector>` 파싱:
    - `list`면 `node -e "..."` 로 `data/dist/<level>/index.json` 읽어 `hasContent === false`인 moduleId 출력 후 종료.
    - 숫자 단일 또는 범위면 해당 ordinal의 moduleId 결정 (`<level>-module-<NNN>` 형식, 0-pad 3).
    - `next [N]`면 빈 모듈 중 ordinal 오름차순 N개 (기본 1).
-3. 대상 모듈 N개가 **6개 이상**이면 사용자에게 확인 후 5개로 잘라서 진행.
+4. 대상 모듈 N개가 **6개 이상**이면 사용자에게 확인 후 5개로 잘라서 진행.
 
 ## Per-module 생성 워크플로
 
@@ -91,6 +94,10 @@ Claude가 직접 다음을 생성:
 - `思い出` → `<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>` ✅
 - `話し合い` → `<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>い` ✅
 
+**ruby 검사는 `<h3>` 제목 안과 `analysis[].sent` 안의 한자도 포함한다.**
+- H3 예: `<h3>Scene 1. <ruby>音楽<rt>おんがく</rt></ruby>（음악）</h3>` — 일본어 제목 부분의 한자에도 모두 ruby 필수.
+- `(괄호 안 한국어)`는 한자가 아니므로 ruby 불필요.
+
 #### analysis (16~20개, 레벨별 범위 준수)
 
 각 항목 형식:
@@ -121,18 +128,19 @@ Claude가 직접 다음을 생성:
 
 ---
 
-### Step 3. src 저장 + ruby 사전 검사
+### Step 3. src 저장 + 사전 검사 (ruby + vocab)
 
 1. 기존 src 파일의 모든 필드를 보존하면서 `title`/`story`/`analysis`/`quiz`만 갱신해서 Write.  
    **`moduleId`/`level`/`ordinal`/`ruleVersion`/`vocabIds` 절대 변경 금지.**  
    JSON 직렬화: 들여쓰기 2 스페이스 + 끝 줄바꿈 1개.
 
-2. 저장 직후 ruby 사전 검사 실행:
+2. 저장 직후 **사전 검사 2개**를 실행 (빌드 없이 빠르게):
    ```bash
-   node scripts/check-ruby.js <level> <moduleId>
+   node scripts/check-ruby.js <level> <moduleId>    # story + analysis[].sent 의 ruby 누락 검사
+   node scripts/check-vocab.js <level> <moduleId>   # vocab word 80%+ 등장 검사
    ```
-   - PASS이면 Step 4로.
-   - FAIL이면 src 파일의 story 필드만 수정 후 재저장 → 재검사. (빌드 없이 빠르게 반복)
+   - 둘 다 PASS이면 Step 4로.
+   - 어느 하나라도 FAIL이면 src 파일의 해당 필드(story 또는 analysis)만 수정 후 재저장 → 재검사. 빌드 없이 빠르게 반복.
 
 ---
 

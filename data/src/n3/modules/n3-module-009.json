@@ -2,7 +2,7 @@
   "moduleId": "n3-module-009",
   "level": "n3",
   "ordinal": 9,
-  "title": "か行の名詞・5 (か행 명사 5)",
+  "title": "N3: 교사의 하루와 학교 생활",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-751d7b359c7e431b395d05e79300c6bc8585741b",
@@ -31,7 +31,165 @@
     "v-01d96e18c4467800da78492796283d91e1dd9108",
     "v-5037f320e39bf251e4302152abd79a0551811cb3"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>教師<rt>きょうし</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>（교사의 아침）</h3><p><ruby>田中<rt>たなか</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は<ruby>中学校<rt>ちゅうがっこう</rt></ruby>の<ruby>教師<rt>きょうし</rt></ruby>です。<ruby>教科書<rt>きょうかしょ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>基本<rt>きほん</rt></ruby>から<ruby>教<rt>おし</rt></ruby>えることを<ruby>心<rt>こころ</rt></ruby>がけています。<ruby>学校<rt>がっこう</rt></ruby>には<ruby>決<rt>き</rt></ruby>まりがあり、みんな<ruby>守<rt>まも</rt></ruby>ることになっています。<ruby>昼<rt>ひる</rt></ruby>は<ruby>給食<rt>きゅうしょく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べながら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>教授<rt>きょうじゅ</rt></ruby>からのメールを<ruby>読<rt>よ</rt></ruby>みました。</p><h3>Scene 2. <ruby>授業<rt>じゅぎょう</rt></ruby>と<ruby>行事<rt>ぎょうじ</rt></ruby>（수업과 행사）</h3><p><ruby>午後<rt>ごご</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>では<ruby>気体<rt>きたい</rt></ruby>の<ruby>性質<rt>せいしつ</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えました。<ruby>疑問<rt>ぎもん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つことが<ruby>学力<rt>がくりょく</rt></ruby><ruby>強化<rt>きょうか</rt></ruby>につながり、<ruby>逆<rt>ぎゃく</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>も<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>言<rt>い</rt></ruby>いました。<ruby>放課後<rt>ほうかご</rt></ruby>は<ruby>記念<rt>きねん</rt></ruby>イベントの<ruby>行事<rt>ぎょうじ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>をすることになりました。</p><h3>Scene 3. <ruby>喫茶店<rt>きっさてん</rt></ruby>で（카페에서）</h3><p><ruby>準備<rt>じゅんび</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>後<rt>あと</rt></ruby>、<ruby>先生<rt>せんせい</rt></ruby>は<ruby>近<rt>ちか</rt></ruby>くの<ruby>喫茶店<rt>きっさてん</rt></ruby>に<ruby>立<rt>た</rt></ruby>ち<ruby>寄<rt>よ</rt></ruby>りました。<ruby>喫煙席<rt>きつえんせき</rt></ruby>ではなく<ruby>禁煙<rt>きんえん</rt></ruby><ruby>席<rt>せき</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>り、<ruby>書類<rt>しょるい</rt></ruby>に<ruby>記入<rt>きにゅう</rt></ruby>しました。<ruby>給与<rt>きゅうよ</rt></ruby>の<ruby>明細<rt>めいさい</rt></ruby>も<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>給料<rt>きゅうりょう</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いわけではないが<ruby>希望<rt>きぼう</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>働<rt>はたら</rt></ruby>くことが<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いました。</p><h3>Scene 4. <ruby>帰宅<rt>きたく</rt></ruby>（귀가）</h3><p><ruby>帰宅<rt>きたく</rt></ruby>の<ruby>途中<rt>とちゅう</rt></ruby>、バスが<ruby>急<rt>きゅう</rt></ruby>ブレーキをかけました。<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ってから<ruby>休養<rt>きゅうよう</rt></ruby>をとることにしました。<ruby>今週<rt>こんしゅう</rt></ruby>は<ruby>休憩<rt>きゅうけい</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったので、<ruby>休日<rt>きゅうじつ</rt></ruby>にゆっくりしたいと<ruby>思<rt>おも</rt></ruby>いました。<ruby>休暇<rt>きゅうか</rt></ruby>を<ruby>申請<rt>しんせい</rt></ruby>して、<ruby>学校<rt>がっこう</rt></ruby>が<ruby>休業<rt>きゅうぎょう</rt></ruby>の<ruby>期間<rt>きかん</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>することになりました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>田中<rt>たなか</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は<ruby>中学校<rt>ちゅうがっこう</rt></ruby>の<ruby>教師<rt>きょうし</rt></ruby>です。",
+      "trans": "다나카 선생님은 중학교 교사입니다.",
+      "grammar": "〜は〜です — '~은 ~입니다', 직업·신분 등 상태를 나타냄",
+      "tags": ["教師"]
+    },
+    {
+      "sent": "<ruby>基本<rt>きほん</rt></ruby>から<ruby>教<rt>おし</rt></ruby>えることを<ruby>心<rt>こころ</rt></ruby>がけています。",
+      "trans": "기본부터 가르치는 것을 명심하고 있습니다.",
+      "grammar": "〜ことを心がける — '~하는 것을 명심하다', 의식적으로 노력하는 태도를 나타냄",
+      "tags": ["基本"]
+    },
+    {
+      "sent": "<ruby>学校<rt>がっこう</rt></ruby>には<ruby>決<rt>き</rt></ruby>まりがあり、みんな<ruby>守<rt>まも</rt></ruby>ることになっています。",
+      "trans": "학교에는 규칙이 있어서 모두 지키게 되어 있습니다.",
+      "grammar": "〜ことになっている — '~하게 되어 있다', 규칙·제도로 정해진 사항을 나타냄",
+      "tags": ["決まり"]
+    },
+    {
+      "sent": "<ruby>昼<rt>ひる</rt></ruby>は<ruby>給食<rt>きゅうしょく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べながら<ruby>教授<rt>きょうじゅ</rt></ruby>からのメールを<ruby>読<rt>よ</rt></ruby>みました。",
+      "trans": "점심에는 급식을 먹으면서 교수님의 이메일을 읽었습니다.",
+      "grammar": "〜ながら — '~하면서', 두 동작의 동시 진행을 나타냄",
+      "tags": ["給食", "教授"]
+    },
+    {
+      "sent": "<ruby>疑問<rt>ぎもん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つことが<ruby>学力<rt>がくりょく</rt></ruby><ruby>強化<rt>きょうか</rt></ruby>につながります。",
+      "trans": "의문을 갖는 것이 학력 강화로 이어집니다.",
+      "grammar": "〜につながる — '~으로 이어지다', 원인이 결과로 연결됨을 나타냄",
+      "tags": ["疑問", "強化"]
+    },
+    {
+      "sent": "<ruby>逆<rt>ぎゃく</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>も<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "반대의 사고방식도 중요하다고 말했습니다.",
+      "grammar": "〜と言います — '~라고 말합니다', 간접 인용을 나타냄",
+      "tags": ["逆"]
+    },
+    {
+      "sent": "<ruby>放課後<rt>ほうかご</rt></ruby>は<ruby>記念<rt>きねん</rt></ruby>イベントの<ruby>行事<rt>ぎょうじ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>をすることになりました。",
+      "trans": "방과 후에는 기념 이벤트 행사 준비를 하게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정·상황의 귀결을 나타냄",
+      "tags": ["記念", "行事"]
+    },
+    {
+      "sent": "<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>後<rt>あと</rt></ruby>、<ruby>先生<rt>せんせい</rt></ruby>は<ruby>近<rt>ちか</rt></ruby>くの<ruby>喫茶店<rt>きっさてん</rt></ruby>に<ruby>立<rt>た</rt></ruby>ち<ruby>寄<rt>よ</rt></ruby>りました。",
+      "trans": "준비가 끝난 후 선생님은 근처 카페에 들렀습니다.",
+      "grammar": "〜た後 — '~한 후', 동작 완료 후의 행위를 나타냄",
+      "tags": ["喫茶店"]
+    },
+    {
+      "sent": "<ruby>喫煙席<rt>きつえんせき</rt></ruby>ではなく<ruby>禁煙<rt>きんえん</rt></ruby><ruby>席<rt>せき</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>り、<ruby>書類<rt>しょるい</rt></ruby>に<ruby>記入<rt>きにゅう</rt></ruby>しました。",
+      "trans": "흡연석이 아닌 금연석에 앉아서 서류에 기입했습니다.",
+      "grammar": "〜ではなく — '~이 아니라', 부정 후 대조를 나타냄",
+      "tags": ["喫煙席", "記入"]
+    },
+    {
+      "sent": "<ruby>給与<rt>きゅうよ</rt></ruby>の<ruby>明細<rt>めいさい</rt></ruby>も<ruby>確認<rt>かくにん</rt></ruby>しました。",
+      "trans": "급여 명세도 확인했습니다.",
+      "grammar": "〜も〜 — '~도 ~', 추가·포함을 나타냄",
+      "tags": ["給与"]
+    },
+    {
+      "sent": "<ruby>給料<rt>きゅうりょう</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いわけではないが、<ruby>希望<rt>きぼう</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>働<rt>はたら</rt></ruby>くことが<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "월급이 높은 것은 아니지만 희망을 갖고 일하는 것이 중요하다고 생각했습니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 완전 부정이 아닌 부분 부정 표현",
+      "tags": ["給料", "希望"]
+    },
+    {
+      "sent": "<ruby>帰宅<rt>きたく</rt></ruby>の<ruby>途中<rt>とちゅう</rt></ruby>、バスが<ruby>急<rt>きゅう</rt></ruby>ブレーキをかけました。",
+      "trans": "귀가 도중 버스가 급브레이크를 걸었습니다.",
+      "grammar": "〜の途中 — '~의 도중에', 어떤 행위 중간에 일어난 사건을 나타냄",
+      "tags": ["帰宅", "急ブレーキ"]
+    },
+    {
+      "sent": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ってから<ruby>休養<rt>きゅうよう</rt></ruby>をとることにしました。",
+      "trans": "집에 돌아가고 나서 휴양을 취하기로 했습니다.",
+      "grammar": "〜ことにする — '~하기로 하다', 자신의 의지로 결정함을 나타냄",
+      "tags": ["休養"]
+    },
+    {
+      "sent": "<ruby>今週<rt>こんしゅう</rt></ruby>は<ruby>休憩<rt>きゅうけい</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったので、<ruby>休日<rt>きゅうじつ</rt></ruby>にゆっくりしたいと<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "이번 주는 휴식이 적었기 때문에 휴일에 여유롭게 쉬고 싶다고 생각했습니다.",
+      "grammar": "〜ので — '~이기 때문에', 이유·원인을 나타냄",
+      "tags": ["休憩", "休日"]
+    },
+    {
+      "sent": "<ruby>休暇<rt>きゅうか</rt></ruby>を<ruby>申請<rt>しんせい</rt></ruby>して、<ruby>学校<rt>がっこう</rt></ruby>が<ruby>休業<rt>きゅうぎょう</rt></ruby>の<ruby>期間<rt>きかん</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>することになりました。",
+      "trans": "휴가를 신청하여 학교가 휴업하는 기간에 여행하게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정·상황의 귀결을 나타냄",
+      "tags": ["休暇", "休業"]
+    },
+    {
+      "sent": "<ruby>気体<rt>きたい</rt></ruby>の<ruby>性質<rt>せいしつ</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えました。",
+      "trans": "기체의 성질을 가르쳤습니다.",
+      "grammar": "〜を教える — '~을 가르치다', 지식 전달을 나타냄",
+      "tags": ["気体"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「教科書」の読み方は？",
+      "opt": ["きょうかしょ", "きょうかぼん", "きょかしょ", "きょうかじょ"],
+      "ans": 0,
+      "comment": "교과서(教科書)는 きょうかしょ로 읽습니다. 教(きょう)+科(か)+書(しょ)의 합성어입니다."
+    },
+    {
+      "q": "「喫茶店」の読み方は？",
+      "opt": ["きさてん", "きっちゃてん", "きっさてん", "きつさてん"],
+      "ans": 2,
+      "comment": "찻집(喫茶店)은 きっさてん으로 읽습니다. 喫(きっ)+茶(さ)+店(てん)의 합성어로, 촉음(っ)에 주의하세요."
+    },
+    {
+      "q": "「給料」の読み方は？",
+      "opt": ["きゅうりょう", "きゅうよう", "きゅうよ", "きゅうろう"],
+      "ans": 0,
+      "comment": "급료(給料)는 きゅうりょう로 읽습니다. 給与(きゅうよ)도 같은 의미로 쓰입니다."
+    },
+    {
+      "q": "「行事」の読み方は？",
+      "opt": ["こうじ", "ぎょうじ", "きょうじ", "こうごと"],
+      "ans": 1,
+      "comment": "행사(行事)는 ぎょうじ로 읽습니다. 行(ぎょう)+事(じ)의 합성어입니다."
+    },
+    {
+      "q": "「疑問」の意味は？",
+      "opt": ["의심", "의문", "질문", "답변"],
+      "ans": 1,
+      "comment": "疑問(ぎもん)은 의문을 의미합니다. 이해되지 않거나 확실하지 않은 것에 대한 의심을 나타냅니다."
+    },
+    {
+      "q": "「休暇」の意味は？",
+      "opt": ["휴업", "휴식", "휴가", "휴양"],
+      "ans": 2,
+      "comment": "休暇(きゅうか)는 휴가를 의미합니다. 休業(きゅうぎょう 휴업)·休養(きゅうよう 휴양)과 혼동하기 쉬우니 주의하세요."
+    },
+    {
+      "q": "「逆」の意味は？",
+      "opt": ["반복", "반응", "역, 반대", "방향"],
+      "ans": 2,
+      "comment": "逆(ぎゃく)는 '역, 반대'를 의미합니다. 순서나 방향이 반대인 것을 나타냅니다."
+    },
+    {
+      "q": "「学校には決まりがあり、みんな守ること（　）なっています。」に入る言葉は？",
+      "opt": ["に", "が", "で", "を"],
+      "ans": 0,
+      "comment": "〜ことになっている는 '~하게 되어 있다'라는 뜻으로, 규칙이나 제도로 정해진 사항을 나타냅니다."
+    },
+    {
+      "q": "「給料が高い（　）ではないが、希望を持って働くことが大切だ。」に入る言葉は？",
+      "opt": ["こと", "わけ", "はず", "もの"],
+      "ans": 1,
+      "comment": "〜わけではない는 '~인 것은 아니다'라는 뜻으로, 완전한 부정이 아닌 부분 부정을 나타냅니다."
+    },
+    {
+      "q": "「家に帰ってから休養をとること（　）しました。」に入る言葉は？",
+      "opt": ["に", "が", "で", "を"],
+      "ans": 0,
+      "comment": "〜ことにする는 '~하기로 하다'라는 뜻으로, 자신의 의지로 결정함을 나타냅니다. 〜ことになる(상황의 귀결)와 구별하세요."
+    }
+  ]
 }

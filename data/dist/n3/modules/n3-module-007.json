@@ -2,7 +2,7 @@
   "moduleId": "n3-module-007",
   "level": "n3",
   "ordinal": 7,
-  "title": "か行の名詞・3 (か행 명사 3)",
+  "title": "N3: 음악 동아리와 대회 도전",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,262 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>音楽<rt>おんがく</rt></ruby><ruby>活動<rt>かつどう</rt></ruby>と<ruby>環境<rt>かんきょう</rt></ruby>（음악 활동과 환경）</h3><p><ruby>田中<rt>たなか</rt></ruby>さんは<ruby>学校<rt>がっこう</rt></ruby>の<ruby>音楽<rt>おんがく</rt></ruby><ruby>活動<rt>かつどう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>しています。<ruby>環境<rt>かんきょう</rt></ruby>が<ruby>整<rt>ととの</rt></ruby>っていて、さまざまな<ruby>楽器<rt>がっき</rt></ruby>が<ruby>置<rt>お</rt></ruby>いてあります。<ruby>課題<rt>かだい</rt></ruby>の<ruby>科目<rt>かもく</rt></ruby>もあって、<ruby>毎週<rt>まいしゅう</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きます。<ruby>格好<rt>かっこう</rt></ruby>よく<ruby>演奏<rt>えんそう</rt></ruby>できるよう、みんな<ruby>我慢<rt>がまん</rt></ruby>しながら<ruby>努力<rt>どりょく</rt></ruby>することになりました。</p><h3>Scene 2. <ruby>大会<rt>たいかい</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>（대회 준비）</h3><p><ruby>大会<rt>たいかい</rt></ruby>に<ruby>向<rt>む</rt></ruby>けて<ruby>間隔<rt>かんかく</rt></ruby>を<ruby>守<rt>まも</rt></ruby>りながら<ruby>練習<rt>れんしゅう</rt></ruby>しました。<ruby>活気<rt>かっき</rt></ruby>があり、<ruby>音楽<rt>おんがく</rt></ruby>の<ruby>感覚<rt>かんかく</rt></ruby>をつかもうとしていました。<ruby>先生<rt>せんせい</rt></ruby>は<ruby>仮定<rt>かてい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしながら「<ruby>勝<rt>か</rt></ruby>ちにこだわるわけではないが、<ruby>価値<rt>かち</rt></ruby>ある<ruby>演奏<rt>えんそう</rt></ruby>をしよう」と<ruby>言<rt>い</rt></ruby>いました。<ruby>多<rt>おお</rt></ruby>くの<ruby>方々<rt>かたがた</rt></ruby>が<ruby>応援<rt>おうえん</rt></ruby>に<ruby>来<rt>き</rt></ruby>てくれることになりました。</p><h3>Scene 3. <ruby>大会<rt>たいかい</rt></ruby><ruby>当日<rt>とうじつ</rt></ruby>（대회 당일）</h3><p><ruby>片道<rt>かたみち</rt></ruby>2<ruby>時間<rt>じかん</rt></ruby>かけて<ruby>会場<rt>かいじょう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。<ruby>角<rt>かど</rt></ruby>を<ruby>曲<rt>ま</rt></ruby>がると<ruby>大<rt>おお</rt></ruby>きなホールが<ruby>見<rt>み</rt></ruby>えました。<ruby>片方<rt>かたほう</rt></ruby>の<ruby>楽器<rt>がっき</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れて<ruby>悲<rt>かな</rt></ruby>しみを<ruby>感<rt>かん</rt></ruby>じましたが、<ruby>神<rt>かみ</rt></ruby>に<ruby>祈<rt>いの</rt></ruby>る<ruby>気持<rt>きも</rt></ruby>ちで<ruby>考<rt>かんが</rt></ruby>えを<ruby>切<rt>き</rt></ruby>り<ruby>替<rt>か</rt></ruby>えました。</p><h3>Scene 4. <ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>（귀가길）</h3><p><ruby>帰<rt>かえ</rt></ruby>りの<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>画面<rt>がめん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>結果<rt>けっか</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しました。<ruby>缶<rt>かん</rt></ruby>ジュースを<ruby>飲<rt>の</rt></ruby>み<ruby>終<rt>お</rt></ruby>わると<ruby>缶<rt>かん</rt></ruby>は<ruby>空<rt>から</rt></ruby>っぽになりました。<ruby>家電製品<rt>かでんせいひん</rt></ruby>の<ruby>広告<rt>こうこく</rt></ruby>が<ruby>画面<rt>がめん</rt></ruby>に<ruby>映<rt>うつ</rt></ruby>っていましたが、<ruby>心<rt>こころ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>は<ruby>空<rt>から</rt></ruby>ではありませんでした。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>学校<rt>がっこう</rt></ruby>の<ruby>音楽<rt>おんがく</rt></ruby><ruby>活動<rt>かつどう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>しています。",
+      "trans": "다나카씨는 학교의 음악 활동에 참가하고 있습니다.",
+      "grammar": "〜ています — '~하고 있습니다', 지속적인 상태나 반복 행위를 나타냄",
+      "tags": [
+        "活動"
+      ]
+    },
+    {
+      "sent": "<ruby>環境<rt>かんきょう</rt></ruby>が<ruby>整<rt>ととの</rt></ruby>っていて、さまざまな<ruby>楽器<rt>がっき</rt></ruby>が<ruby>置<rt>お</rt></ruby>いてあります。",
+      "trans": "환경이 갖추어져 있어서 다양한 악기가 놓여 있습니다.",
+      "grammar": "〜てある — '~해져 있다', 의도적 행위의 결과 상태를 나타냄",
+      "tags": [
+        "環境",
+        "楽器"
+      ]
+    },
+    {
+      "sent": "<ruby>課題<rt>かだい</rt></ruby>の<ruby>科目<rt>かもく</rt></ruby>もあって、<ruby>毎週<rt>まいしゅう</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きます。",
+      "trans": "과제 과목도 있어서 매주 연습이 이어집니다.",
+      "grammar": "〜もあって — '~도 있어서', 이유·원인을 나타내는 て 구문",
+      "tags": [
+        "課題",
+        "科目"
+      ]
+    },
+    {
+      "sent": "<ruby>格好<rt>かっこう</rt></ruby>よく<ruby>演奏<rt>えんそう</rt></ruby>できるよう、みんな<ruby>我慢<rt>がまん</rt></ruby>しながら<ruby>努力<rt>どりょく</rt></ruby>することになりました。",
+      "trans": "멋지게 연주할 수 있도록 모두 참으면서 노력하게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 자연스러운 귀결·결정을 나타냄",
+      "tags": [
+        "格好",
+        "我慢"
+      ]
+    },
+    {
+      "sent": "<ruby>格好<rt>かっこう</rt></ruby>よく<ruby>演奏<rt>えんそう</rt></ruby>できるよう、みんな<ruby>我慢<rt>がまん</rt></ruby>しながら<ruby>努力<rt>どりょく</rt></ruby>することになりました。",
+      "trans": "멋지게 연주할 수 있도록 모두 참으면서 노력하게 되었습니다.",
+      "grammar": "〜よう（に） — '~할 수 있도록', 목적·목표를 나타냄",
+      "tags": [
+        "格好",
+        "我慢"
+      ]
+    },
+    {
+      "sent": "<ruby>大会<rt>たいかい</rt></ruby>に<ruby>向<rt>む</rt></ruby>けて<ruby>間隔<rt>かんかく</rt></ruby>を<ruby>守<rt>まも</rt></ruby>りながら<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
+      "trans": "대회를 향해 간격을 지키며 연습했습니다.",
+      "grammar": "〜に向けて — '~을 향해서', 목표·방향을 나타냄",
+      "tags": [
+        "間隔"
+      ]
+    },
+    {
+      "sent": "<ruby>活気<rt>かっき</rt></ruby>があり、<ruby>音楽<rt>おんがく</rt></ruby>の<ruby>感覚<rt>かんかく</rt></ruby>をつかもうとしていました。",
+      "trans": "활기가 있어서 음악의 감각을 익히려 하고 있었습니다.",
+      "grammar": "〜ようとする — '~하려고 하다', 의도·노력을 나타냄",
+      "tags": [
+        "活気",
+        "感覚"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>仮定<rt>かてい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしながら「<ruby>勝<rt>か</rt></ruby>ちにこだわるわけではないが、<ruby>価値<rt>かち</rt></ruby>ある<ruby>演奏<rt>えんそう</rt></ruby>をしよう」と<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "선생님은 가정의 이야기를 하면서 '승리에 집착하는 것은 아니지만 가치 있는 연주를 하자'라고 말했습니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 완전 부정이 아닌 부분 부정 표현",
+      "tags": [
+        "仮定",
+        "勝ち",
+        "価値"
+      ]
+    },
+    {
+      "sent": "<ruby>多<rt>おお</rt></ruby>くの<ruby>方々<rt>かたがた</rt></ruby>が<ruby>応援<rt>おうえん</rt></ruby>に<ruby>来<rt>き</rt></ruby>てくれることになりました。",
+      "trans": "많은 분들이 응원하러 와 주시게 되었습니다.",
+      "grammar": "〜てくれる — '~해 주다', 타인이 화자에게 유익한 행위를 해줌을 나타냄",
+      "tags": [
+        "方々"
+      ]
+    },
+    {
+      "sent": "<ruby>片道<rt>かたみち</rt></ruby>2<ruby>時間<rt>じかん</rt></ruby>かけて<ruby>会場<rt>かいじょう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。",
+      "trans": "편도 2시간에 걸쳐 회장에 도착했습니다.",
+      "grammar": "〜に着く — '~에 도착하다', 목적지 도달을 나타냄",
+      "tags": [
+        "片道"
+      ]
+    },
+    {
+      "sent": "<ruby>角<rt>かど</rt></ruby>を<ruby>曲<rt>ま</rt></ruby>がると<ruby>大<rt>おお</rt></ruby>きなホールが<ruby>見<rt>み</rt></ruby>えました。",
+      "trans": "모퉁이를 돌면 큰 홀이 보였습니다.",
+      "grammar": "〜と — '~하면', 동작 후 자연스럽게 이어지는 결과를 나타내는 조건형",
+      "tags": [
+        "角"
+      ]
+    },
+    {
+      "sent": "<ruby>片方<rt>かたほう</rt></ruby>の<ruby>楽器<rt>がっき</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れて<ruby>悲<rt>かな</rt></ruby>しみを<ruby>感<rt>かん</rt></ruby>じましたが、<ruby>神<rt>かみ</rt></ruby>に<ruby>祈<rt>いの</rt></ruby>る<ruby>気持<rt>きも</rt></ruby>ちで<ruby>考<rt>かんが</rt></ruby>えを<ruby>切<rt>き</rt></ruby>り<ruby>替<rt>か</rt></ruby>えました。",
+      "trans": "한쪽 악기가 망가져 슬픔을 느꼈지만 신에게 비는 마음으로 생각을 바꿨습니다.",
+      "grammar": "〜が — '~지만', 역접·대조를 나타냄",
+      "tags": [
+        "片方",
+        "楽器",
+        "悲しみ",
+        "神",
+        "考え"
+      ]
+    },
+    {
+      "sent": "<ruby>悲<rt>かな</rt></ruby>しみを<ruby>感<rt>かん</rt></ruby>じましたが、<ruby>考<rt>かんが</rt></ruby>えを<ruby>切<rt>き</rt></ruby>り<ruby>替<rt>か</rt></ruby>えました。",
+      "trans": "슬픔을 느꼈지만 생각을 바꿨습니다.",
+      "grammar": "〜を切り替える — '~을 전환하다', 기분이나 방식을 전환하는 관용 표현",
+      "tags": [
+        "悲しみ",
+        "考え"
+      ]
+    },
+    {
+      "sent": "<ruby>帰<rt>かえ</rt></ruby>りの<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>画面<rt>がめん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>結果<rt>けっか</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しました。",
+      "trans": "돌아오는 전철에서 화면을 보면서 결과를 확인했습니다.",
+      "grammar": "〜ながら — '~하면서', 두 동작의 동시 진행을 나타냄",
+      "tags": [
+        "画面"
+      ]
+    },
+    {
+      "sent": "<ruby>缶<rt>かん</rt></ruby>ジュースを<ruby>飲<rt>の</rt></ruby>み<ruby>終<rt>お</rt></ruby>わると<ruby>缶<rt>かん</rt></ruby>は<ruby>空<rt>から</rt></ruby>っぽになりました。",
+      "trans": "캔 주스를 다 마시자 캔이 텅 비게 되었습니다.",
+      "grammar": "〜と — '~하자', 동작 완료 후 자연스러운 결과를 나타내는 조건형",
+      "tags": [
+        "缶",
+        "空っぽ"
+      ]
+    },
+    {
+      "sent": "<ruby>家電製品<rt>かでんせいひん</rt></ruby>の<ruby>広告<rt>こうこく</rt></ruby>が<ruby>画面<rt>がめん</rt></ruby>に<ruby>映<rt>うつ</rt></ruby>っていましたが、<ruby>心<rt>こころ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>は<ruby>空<rt>から</rt></ruby>ではありませんでした。",
+      "trans": "가전제품 광고가 화면에 나오고 있었지만 마음속은 비어 있지 않았습니다.",
+      "grammar": "〜ていましたが — '~하고 있었지만', 진행 상태의 역접을 나타냄",
+      "tags": [
+        "家電製品",
+        "画面",
+        "空"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「活気」の読み方は？",
+      "opt": [
+        "かっき",
+        "かつき",
+        "かっこう",
+        "かつこう"
+      ],
+      "ans": 0,
+      "comment": "활기(活気)는 かっき로 읽습니다. 장소나 상황이 생기 있고 활발한 것을 나타냅니다."
+    },
+    {
+      "q": "「方々」の読み方は？",
+      "opt": [
+        "ほうほう",
+        "ほうぼう",
+        "かたがた",
+        "かたかた"
+      ],
+      "ans": 2,
+      "comment": "方々(かたがた)는 '분들'이라는 뜻의 높임말입니다. 方(かた)의 복수형으로 존경의 의미가 있습니다."
+    },
+    {
+      "q": "「片道」の読み方は？",
+      "opt": [
+        "かたみち",
+        "へんどう",
+        "かたどう",
+        "へんみち"
+      ],
+      "ans": 0,
+      "comment": "편도(片道)는 かたみち로 읽습니다. 왕복이 아닌 한 방향으로만 가는 것을 뜻합니다."
+    },
+    {
+      "q": "「我慢」の読み方は？",
+      "opt": [
+        "がまん",
+        "わがまん",
+        "われまん",
+        "がんまん"
+      ],
+      "ans": 0,
+      "comment": "인내(我慢)는 がまん으로 읽습니다. 힘든 것을 참고 견디는 것을 의미합니다."
+    },
+    {
+      "q": "「感覚」の意味は？",
+      "opt": [
+        "간격",
+        "감각",
+        "각오",
+        "감사"
+      ],
+      "ans": 1,
+      "comment": "感覚(かんかく)는 감각을 의미합니다. 間隔(かんかく)는 간격으로 동음이의어이므로 주의하세요."
+    },
+    {
+      "q": "「仮定」の意味は？",
+      "opt": [
+        "결정",
+        "가정",
+        "개정",
+        "고정"
+      ],
+      "ans": 1,
+      "comment": "仮定(かてい)는 가정을 의미합니다. 아직 사실이 아닌 것을 사실인 것처럼 설정하는 것입니다."
+    },
+    {
+      "q": "「格好」の意味は？",
+      "opt": [
+        "격투",
+        "격식",
+        "모습, 폼",
+        "각도"
+      ],
+      "ans": 2,
+      "comment": "格好(かっこう)는 '모습, 폼'을 의미합니다. 외형이나 스타일, 겉모습을 나타냅니다."
+    },
+    {
+      "q": "「勝ちにこだわる（　）ではないが、価値ある演奏をしよう。」に入る言葉は？",
+      "opt": [
+        "こと",
+        "わけ",
+        "はず",
+        "もの"
+      ],
+      "ans": 1,
+      "comment": "〜わけではない는 '~인 것은 아니다'라는 뜻으로, 완전한 부정이 아닌 부분 부정을 나타냅니다."
+    },
+    {
+      "q": "「多くの方々が応援に来てくれること（　）なりました。」に入る言葉は？",
+      "opt": [
+        "に",
+        "が",
+        "で",
+        "を"
+      ],
+      "ans": 0,
+      "comment": "〜ことになる는 '~하게 되다'라는 뜻으로, 상황의 자연스러운 귀결이나 결정을 나타냅니다."
+    },
+    {
+      "q": "「角を曲がる（　）、大きなホールが見えました。」に入る言葉は？",
+      "opt": [
+        "と",
+        "が",
+        "のに",
+        "ので"
+      ],
+      "ans": 0,
+      "comment": "〜と는 자연적 귀결을 나타내는 조건형으로 '~하면'이라는 뜻입니다. 동작 후 자연스럽게 이어지는 상황에 사용합니다."
+    }
+  ]
 }
