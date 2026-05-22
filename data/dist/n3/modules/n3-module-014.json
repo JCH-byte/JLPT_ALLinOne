@@ -2,7 +2,7 @@
   "moduleId": "n3-module-014",
   "level": "n3",
   "ordinal": 14,
-  "title": "か行の名詞・10 (か행 명사 10)",
+  "title": "N3: 先生の日常と家族",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,270 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>国語<rt>こくご</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>（국어 수업）</h3><p><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は<ruby>国語<rt>こくご</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>で<ruby>黒板<rt>こくばん</rt></ruby>に<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた。このごろの<ruby>生徒<rt>せいと</rt></ruby>たちは<ruby>才能<rt>さいのう</rt></ruby>があるが、<ruby>個人<rt>こじん</rt></ruby>によって<ruby>差<rt>さ</rt></ruby>がある。<ruby>採点<rt>さいてん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わり、<ruby>最高<rt>さいこう</rt></ruby><ruby>点<rt>てん</rt></ruby>と<ruby>最低<rt>さいてい</rt></ruby><ruby>点<rt>てん</rt></ruby>の<ruby>差<rt>さ</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きかった。<ruby>先生<rt>せんせい</rt></ruby>は<ruby>生徒<rt>せいと</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばすことになった。</p><h3>Scene 2. <ruby>故郷<rt>こきょう</rt></ruby>への<ruby>帰省<rt>きせい</rt></ruby>（고향으로의 귀성）</h3><p><ruby>祭日<rt>さいじつ</rt></ruby>に<ruby>故郷<rt>こきょう</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ることになった。<ruby>駅<rt>えき</rt></ruby>は<ruby>混雑<rt>こんざつ</rt></ruby>していたが、<ruby>両親<rt>りょうしん</rt></ruby>からの<ruby>小包<rt>こづつみ</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>って<ruby>嬉<rt>うれ</rt></ruby>しかった。<ruby>母<rt>はは</rt></ruby>の<ruby>好<rt>この</rt></ruby>みで<ruby>作<rt>つく</rt></ruby>った<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べながら、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>った。</p><h3>Scene 3. <ruby>子育<rt>こそだ</rt></ruby>ての<ruby>日々<rt>ひび</rt></ruby>（육아의 나날）</h3><p><ruby>子育<rt>こそだ</rt></ruby>ては<ruby>大変<rt>たいへん</rt></ruby>だが、やりがいがある。<ruby>赤<rt>あか</rt></ruby>ちゃんの<ruby>小<rt>ちい</rt></ruby>さな<ruby>小指<rt>こゆび</rt></ruby>が<ruby>先生<rt>せんせい</rt></ruby>の<ruby>手<rt>て</rt></ruby>をにぎった。<ruby>腰<rt>こし</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなっても、<ruby>小声<rt>こごえ</rt></ruby>で<ruby>歌<rt>うた</rt></ruby>を<ruby>歌<rt>うた</rt></ruby>ってあげた。<ruby>深<rt>ふか</rt></ruby>い<ruby>呼吸<rt>こきゅう</rt></ruby>をすれば<ruby>赤<rt>あか</rt></ruby>ちゃんはすぐ<ruby>眠<rt>ねむ</rt></ruby>った。<ruby>個人<rt>こじん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>は<ruby>少<rt>すく</rt></ruby>ないが、<ruby>今後<rt>こんご</rt></ruby>も<ruby>続<rt>つづ</rt></ruby>けるつもりだ。</p><h3>Scene 4. <ruby>環境<rt>かんきょう</rt></ruby>への<ruby>取<rt>と</rt></ruby>り<ruby>組<rt>く</rt></ruby>み（환경을 위한 노력）</h3><p><ruby>国会<rt>こっかい</rt></ruby>で<ruby>環境<rt>かんきょう</rt></ruby>についての<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>行<rt>おこな</rt></ruby>われた。<ruby>最新<rt>さいしん</rt></ruby>の<ruby>技術<rt>ぎじゅつ</rt></ruby>で<ruby>再生<rt>さいせい</rt></ruby><ruby>可能<rt>かのう</rt></ruby>エネルギーを<ruby>使<rt>つか</rt></ruby>うことになった。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しかったが、<ruby>再利用<rt>さいりよう</rt></ruby>の<ruby>効果<rt>こうか</rt></ruby>がないわけではなく、<ruby>今後<rt>こんご</rt></ruby>も<ruby>続<rt>つづ</rt></ruby>けることになっている。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は<ruby>国語<rt>こくご</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>で<ruby>黒板<rt>こくばん</rt></ruby>に<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた。",
+      "trans": "야마다 선생님은 국어 수업에서 칠판에 한자를 썼다.",
+      "grammar": "〜に〜を書く — '~에 ~을 쓰다', 쓰는 장소와 내용을 나타냄 (명사+に+명사+を書く)",
+      "tags": [
+        "国語",
+        "黒板"
+      ]
+    },
+    {
+      "sent": "このごろの<ruby>生徒<rt>せいと</rt></ruby>たちは<ruby>才能<rt>さいのう</rt></ruby>があるが、<ruby>個人<rt>こじん</rt></ruby>によって<ruby>差<rt>さ</rt></ruby>がある。",
+      "trans": "요즘 학생들은 재능이 있지만, 개인에 따라 차이가 있다.",
+      "grammar": "〜によって — '~에 따라서', 차이나 원인을 나타냄 (명사+によって)",
+      "tags": [
+        "才能",
+        "個人",
+        "差"
+      ]
+    },
+    {
+      "sent": "<ruby>採点<rt>さいてん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わり、<ruby>最高<rt>さいこう</rt></ruby><ruby>点<rt>てん</rt></ruby>と<ruby>最低<rt>さいてい</rt></ruby><ruby>点<rt>てん</rt></ruby>の<ruby>差<rt>さ</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きかった。",
+      "trans": "채점이 끝나고 최고점과 최저점의 차이가 컸다.",
+      "grammar": "〜が終わり〜た — '~이 끝나고 ~했다', 동작의 순서를 나타냄",
+      "tags": [
+        "採点",
+        "最高",
+        "最低",
+        "差"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>生徒<rt>せいと</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばすことになった。",
+      "trans": "선생님은 학생의 재능을 키우게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 외부 결정이나 자연스러운 귀결을 나타냄 (동사 기본형+ことになる)",
+      "tags": [
+        "才能"
+      ]
+    },
+    {
+      "sent": "<ruby>祭日<rt>さいじつ</rt></ruby>に<ruby>故郷<rt>こきょう</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ることになった。",
+      "trans": "국경일에 고향으로 돌아가게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정이나 상황의 귀결을 나타냄 (동사 기본형+ことになる)",
+      "tags": [
+        "祭日",
+        "故郷"
+      ]
+    },
+    {
+      "sent": "<ruby>駅<rt>えき</rt></ruby>は<ruby>混雑<rt>こんざつ</rt></ruby>していたが、<ruby>両親<rt>りょうしん</rt></ruby>からの<ruby>小包<rt>こづつみ</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>って<ruby>嬉<rt>うれ</rt></ruby>しかった。",
+      "trans": "역은 혼잡했지만 부모님이 보내신 소포를 받아서 기뻤다.",
+      "grammar": "〜が〜て〜 — '~지만 ~해서 ~하다', 역접 후 결과를 나타냄 (が+て형+형용사)",
+      "tags": [
+        "混雑",
+        "小包"
+      ]
+    },
+    {
+      "sent": "<ruby>母<rt>はは</rt></ruby>の<ruby>好<rt>この</rt></ruby>みで<ruby>作<rt>つく</rt></ruby>った<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べながら、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>った。",
+      "trans": "어머니 취향대로 만든 요리를 먹으면서 가족끼리 이야기를 나눴다.",
+      "grammar": "〜ながら — '~하면서', 동시에 두 가지 동작을 나타냄 (동사 연용형+ながら)",
+      "tags": [
+        "好み"
+      ]
+    },
+    {
+      "sent": "<ruby>赤<rt>あか</rt></ruby>ちゃんの<ruby>小<rt>ちい</rt></ruby>さな<ruby>小指<rt>こゆび</rt></ruby>が<ruby>先生<rt>せんせい</rt></ruby>の<ruby>手<rt>て</rt></ruby>をにぎった。",
+      "trans": "아기의 작은 새끼손가락이 선생님의 손을 꼭 쥐었다.",
+      "grammar": "〜をにぎる — '~을 쥐다/잡다', 손으로 꼭 잡음을 나타냄 (명사+をにぎる)",
+      "tags": [
+        "小指"
+      ]
+    },
+    {
+      "sent": "<ruby>腰<rt>こし</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなっても、<ruby>小声<rt>こごえ</rt></ruby>で<ruby>歌<rt>うた</rt></ruby>を<ruby>歌<rt>うた</rt></ruby>ってあげた。",
+      "trans": "허리가 아파도 작은 목소리로 노래를 불러 주었다.",
+      "grammar": "〜ても — '~해도/~이어도', 양보를 나타냄 (동사 て형/형용사+ても)",
+      "tags": [
+        "腰",
+        "小声"
+      ]
+    },
+    {
+      "sent": "<ruby>深<rt>ふか</rt></ruby>い<ruby>呼吸<rt>こきゅう</rt></ruby>をすれば<ruby>赤<rt>あか</rt></ruby>ちゃんはすぐ<ruby>眠<rt>ねむ</rt></ruby>った。",
+      "trans": "깊은 호흡을 하면 아기는 금방 잠들었다.",
+      "grammar": "〜すれば — '~하면', 조건을 나타냄 (동사 가정형)",
+      "tags": [
+        "呼吸"
+      ]
+    },
+    {
+      "sent": "<ruby>個人<rt>こじん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>は<ruby>少<rt>すく</rt></ruby>ないが、<ruby>今後<rt>こんご</rt></ruby>も<ruby>続<rt>つづ</rt></ruby>けるつもりだ。",
+      "trans": "개인 시간은 적지만 앞으로도 계속할 생각이다.",
+      "grammar": "〜つもりだ — '~할 생각이다', 의도나 계획을 나타냄 (동사 기본형+つもりだ)",
+      "tags": [
+        "個人",
+        "今後"
+      ]
+    },
+    {
+      "sent": "<ruby>国会<rt>こっかい</rt></ruby>で<ruby>環境<rt>かんきょう</rt></ruby>についての<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>行<rt>おこな</rt></ruby>われた。",
+      "trans": "국회에서 환경에 대한 논의가 행해졌다.",
+      "grammar": "〜が行われる — '~이 행해지다', 행사나 논의가 실시됨을 나타내는 수동 표현",
+      "tags": [
+        "国会"
+      ]
+    },
+    {
+      "sent": "<ruby>最新<rt>さいしん</rt></ruby>の<ruby>技術<rt>ぎじゅつ</rt></ruby>で<ruby>再生<rt>さいせい</rt></ruby><ruby>可能<rt>かのう</rt></ruby>エネルギーを<ruby>使<rt>つか</rt></ruby>うことになった。",
+      "trans": "최신 기술로 재생 가능 에너지를 사용하게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 귀결을 나타냄 (동사 기본형+ことになる)",
+      "tags": [
+        "最新",
+        "再生"
+      ]
+    },
+    {
+      "sent": "<ruby>再利用<rt>さいりよう</rt></ruby>の<ruby>効果<rt>こうか</rt></ruby>がないわけではなく、<ruby>今後<rt>こんご</rt></ruby>も<ruby>続<rt>つづ</rt></ruby>けることになっている。",
+      "trans": "재이용의 효과가 없는 것은 아니며, 앞으로도 계속하게 되어 있다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전면 부정이 아님을 나타냄 (동사 보통형+わけではない)",
+      "tags": [
+        "再利用",
+        "今後"
+      ]
+    },
+    {
+      "sent": "このごろの<ruby>生徒<rt>せいと</rt></ruby>たちは<ruby>才能<rt>さいのう</rt></ruby>があるが、<ruby>個人<rt>こじん</rt></ruby>によって<ruby>差<rt>さ</rt></ruby>がある。",
+      "trans": "요즘 학생들은 재능이 있지만 개인에 따라 차이가 있다.",
+      "grammar": "〜が — '~지만', 앞 절과 뒤 절의 역접 관계를 나타냄",
+      "tags": [
+        "才能",
+        "個人",
+        "差"
+      ]
+    },
+    {
+      "sent": "<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しかったが、<ruby>再利用<rt>さいりよう</rt></ruby>の<ruby>効果<rt>こうか</rt></ruby>がないわけではなかった。",
+      "trans": "처음에는 어려웠지만 재이용의 효과가 없는 것은 아니었다.",
+      "grammar": "〜は〜が〜わけではない — '~은 ~지만 ~인 것은 아니다', 양보와 부분 부정을 함께 나타냄",
+      "tags": [
+        "最初",
+        "再利用"
+      ]
+    },
+    {
+      "sent": "<ruby>深<rt>ふか</rt></ruby>い<ruby>呼吸<rt>こきゅう</rt></ruby>をすれば<ruby>赤<rt>あか</rt></ruby>ちゃんはすぐ<ruby>眠<rt>ねむ</rt></ruby>った。",
+      "trans": "깊은 호흡을 하면 아기는 금방 잠들었다.",
+      "grammar": "〜ば — '~하면', 가정 조건을 나타냄 (동사 가정형+ば)",
+      "tags": [
+        "呼吸"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「故郷」の読み方は何ですか。",
+      "opt": [
+        "こきょう",
+        "こさと",
+        "こゆう",
+        "こきゅう"
+      ],
+      "ans": 0,
+      "comment": "故郷(こきょう)는 '고향'이라는 뜻입니다. 태어나고 자란 곳."
+    },
+    {
+      "q": "「混雑」の読み方は何ですか。",
+      "opt": [
+        "こんさつ",
+        "こんざつ",
+        "こうさつ",
+        "こうざつ"
+      ],
+      "ans": 1,
+      "comment": "混雑(こんざつ)은 '혼잡'이라는 뜻입니다. 사람이나 차가 뒤섞여 복잡한 상태."
+    },
+    {
+      "q": "「最初」の読み方は何ですか。",
+      "opt": [
+        "さいご",
+        "さいしょ",
+        "さいしん",
+        "さいしつ"
+      ],
+      "ans": 1,
+      "comment": "最初(さいしょ)는 '최초, 처음'이라는 뜻입니다. 가장 먼저인 것."
+    },
+    {
+      "q": "「採点」の読み方は何ですか。",
+      "opt": [
+        "さいてん",
+        "さいてい",
+        "さいのう",
+        "さいせい"
+      ],
+      "ans": 0,
+      "comment": "採点(さいてん)은 '채점'이라는 뜻입니다. 답안이나 시험에 점수를 매기는 것."
+    },
+    {
+      "q": "「このごろ」の意味は何ですか。",
+      "opt": [
+        "처음",
+        "이후",
+        "요즘·최근",
+        "최고"
+      ],
+      "ans": 2,
+      "comment": "このごろ는 '요즘, 최근'이라는 뜻입니다. 가까운 과거부터 지금까지의 시기."
+    },
+    {
+      "q": "「子育て」の意味は何ですか。",
+      "opt": [
+        "국어",
+        "채점",
+        "육아",
+        "고향"
+      ],
+      "ans": 2,
+      "comment": "子育て(こそだて)는 '육아'라는 뜻입니다. 아이를 돌보며 키우는 것."
+    },
+    {
+      "q": "「再利用」の意味は何ですか。",
+      "opt": [
+        "최신",
+        "재생",
+        "최초",
+        "재이용"
+      ],
+      "ans": 3,
+      "comment": "再利用(さいりよう)은 '재이용'이라는 뜻입니다. 한번 사용한 것을 다시 이용하는 것."
+    },
+    {
+      "q": "先生は生徒の才能を伸ばす______なった。",
+      "opt": [
+        "ことに",
+        "ことが",
+        "ことを",
+        "ことで"
+      ],
+      "ans": 0,
+      "comment": "〜ことになる는 '~하게 되다'로 외부 결정이나 상황의 귀결을 나타냄. 동사 기본형+ことになる."
+    },
+    {
+      "q": "再利用の効果がない______ではなく、今後も続けることになっている。",
+      "opt": [
+        "わけ",
+        "はず",
+        "もの",
+        "ため"
+      ],
+      "ans": 0,
+      "comment": "〜わけではない는 '~인 것은 아니다'로 전면 부정이 아님을 나타냄."
+    },
+    {
+      "q": "個人の時間は少ないが、今後も続ける______だ。",
+      "opt": [
+        "つもり",
+        "はず",
+        "わけ",
+        "こと"
+      ],
+      "ans": 0,
+      "comment": "〜つもりだ는 '~할 생각이다'로 의도나 계획을 나타냄. 동사 기본형+つもりだ."
+    }
+  ]
 }

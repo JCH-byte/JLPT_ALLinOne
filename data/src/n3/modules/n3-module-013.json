@@ -2,7 +2,7 @@
   "moduleId": "n3-module-013",
   "level": "n3",
   "ordinal": 13,
-  "title": "か行の名詞・9 (か행 명사 9)",
+  "title": "N3: 学校交流と秋の旅",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-78664d8fb3a64cc23f7457c37dd31d3dee649c1f",
@@ -31,7 +31,171 @@
     "v-6138df4c8dd3a5c6d6c4615c1d8b8611b9a72fcf",
     "v-6a140851613c5eb97d09c28fb82394352a3bb5be"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>公立<rt>こうりつ</rt></ruby><ruby>高校<rt>こうこう</rt></ruby>の<ruby>交流<rt>こうりゅう</rt></ruby>（공립고교의 교류）</h3><p>タナカは<ruby>公立<rt>こうりつ</rt></ruby><ruby>高校<rt>こうこう</rt></ruby>の<ruby>語学<rt>ごがく</rt></ruby><ruby>教師<rt>きょうし</rt></ruby>だ。<ruby>交流<rt>こうりゅう</rt></ruby>プログラムのために、<ruby>外国<rt>がいこく</rt></ruby>から<ruby>来<rt>き</rt></ruby>た<ruby>生徒<rt>せいと</rt></ruby>たちに<ruby>講義<rt>こうぎ</rt></ruby>をすることになった。<ruby>交通費<rt>こうつうひ</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>が<ruby>負担<rt>ふたん</rt></ruby>してくれた。<ruby>異文化<rt>いぶんか</rt></ruby><ruby>交流<rt>こうりゅう</rt></ruby>は<ruby>生徒<rt>せいと</rt></ruby>たちにとって<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>経験<rt>けいけん</rt></ruby>だった。</p><h3>Scene 2. <ruby>合同<rt>ごうどう</rt></ruby><ruby>運動会<rt>うんどうかい</rt></ruby>（합동 운동회）</h3><p><ruby>合同<rt>ごうどう</rt></ruby><ruby>運動会<rt>うんどうかい</rt></ruby>が<ruby>校庭<rt>こうてい</rt></ruby>で<ruby>開<rt>ひら</rt></ruby>かれた。<ruby>後輩<rt>こうはい</rt></ruby>たちが<ruby>広告<rt>こうこく</rt></ruby>ポスターを<ruby>作<rt>つく</rt></ruby>って<ruby>宣伝<rt>せんでん</rt></ruby>した。<ruby>小型<rt>こがた</rt></ruby>のカメラで<ruby>記念写真<rt>きねんしゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>った。<ruby>交際<rt>こうさい</rt></ruby>を<ruby>深<rt>ふか</rt></ruby>めるために<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>積極的<rt>せっきょくてき</rt></ruby>に<ruby>行動<rt>こうどう</rt></ruby>した。</p><h3>Scene 3. <ruby>秋<rt>あき</rt></ruby>の<ruby>遠足<rt>えんそく</rt></ruby>（가을 소풍）</h3><p><ruby>秋<rt>あき</rt></ruby>の<ruby>遠足<rt>えんそく</rt></ruby>では<ruby>高速道路<rt>こうそくどうろ</rt></ruby>を<ruby>通<rt>とお</rt></ruby>って<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った。<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>交通事故<rt>こうつうじこ</rt></ruby>があり、<ruby>少<rt>すこ</rt></ruby>し<ruby>遅<rt>おく</rt></ruby>れた。<ruby>後半<rt>こうはん</rt></ruby>に<ruby>別<rt>べつ</rt></ruby>のグループと<ruby>合流<rt>ごうりゅう</rt></ruby>して、<ruby>高級<rt>こうきゅう</rt></ruby>ホテルで<ruby>紅葉<rt>こうよう</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しんだ。</p><h3>Scene 4. <ruby>親<rt>おや</rt></ruby>への<ruby>孝行<rt>こうこう</rt></ruby>（부모님께 효도）</h3><p><ruby>旅行<rt>りょこう</rt></ruby>から<ruby>帰<rt>かえ</rt></ruby>って、タナカは<ruby>親<rt>おや</rt></ruby>への<ruby>孝行<rt>こうこう</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>した。<ruby>高齢者<rt>こうれいしゃ</rt></ruby>の<ruby>親<rt>おや</rt></ruby>が<ruby>公共料金<rt>こうきょうりょうきん</rt></ruby>の<ruby>支払<rt>しはら</rt></ruby>いに<ruby>困<rt>こま</rt></ruby>っていたので、<ruby>合計<rt>ごうけい</rt></ruby>を<ruby>計算<rt>けいさん</rt></ruby>して<ruby>助<rt>たす</rt></ruby>けることにした。もちろん<ruby>親<rt>おや</rt></ruby>に<ruby>頼<rt>たよ</rt></ruby>られたわけではないが、<ruby>自分<rt>じぶん</rt></ruby>から<ruby>手伝<rt>てつだ</rt></ruby>いたかった。プレゼントを<ruby>交換<rt>こうかん</rt></ruby>しながら、この<ruby>交流<rt>こうりゅう</rt></ruby>が<ruby>効力<rt>こうりょく</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち、<ruby>幸福<rt>こうふく</rt></ruby>な<ruby>時間<rt>じかん</rt></ruby>を<ruby>過<rt>す</rt></ruby>ごした。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>交流<rt>こうりゅう</rt></ruby>プログラムのために、<ruby>外国<rt>がいこく</rt></ruby>から<ruby>来<rt>き</rt></ruby>た<ruby>生徒<rt>せいと</rt></ruby>たちに<ruby>講義<rt>こうぎ</rt></ruby>をすることになった。",
+      "trans": "교류 프로그램을 위해 외국에서 온 학생들에게 강의를 하게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 외부 결정이나 자연스러운 귀결을 나타냄 (동사 기본형+ことになる)",
+      "tags": ["交流", "講義"]
+    },
+    {
+      "sent": "タナカは<ruby>公立<rt>こうりつ</rt></ruby><ruby>高校<rt>こうこう</rt></ruby>の<ruby>語学<rt>ごがく</rt></ruby><ruby>教師<rt>きょうし</rt></ruby>だ。",
+      "trans": "타나카는 공립 고교의 어학 교사다.",
+      "grammar": "〜だ — '~이다', 명사+だ로 단정하는 서술 표현",
+      "tags": ["公立", "語学"]
+    },
+    {
+      "sent": "<ruby>交通費<rt>こうつうひ</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>が<ruby>負担<rt>ふたん</rt></ruby>してくれた。",
+      "trans": "교통비는 학교가 부담해 주었다.",
+      "grammar": "〜てくれる — '~해주다', 상대방이 자신을 위해 행위를 해줌을 나타냄 (동사 て형+くれる)",
+      "tags": ["交通費"]
+    },
+    {
+      "sent": "<ruby>合同<rt>ごうどう</rt></ruby><ruby>運動会<rt>うんどうかい</rt></ruby>が<ruby>校庭<rt>こうてい</rt></ruby>で<ruby>開<rt>ひら</rt></ruby>かれた。",
+      "trans": "합동 운동회가 교정에서 열렸다.",
+      "grammar": "〜が開かれる — '~이 열리다', 행사가 개최됨을 나타내는 수동 표현 (명사+が開かれる)",
+      "tags": ["合同", "校庭"]
+    },
+    {
+      "sent": "<ruby>後輩<rt>こうはい</rt></ruby>たちが<ruby>広告<rt>こうこく</rt></ruby>ポスターを<ruby>作<rt>つく</rt></ruby>って<ruby>宣伝<rt>せんでん</rt></ruby>した。",
+      "trans": "후배들이 광고 포스터를 만들어서 홍보했다.",
+      "grammar": "〜て〜する — '~하고 나서 ~하다', 동작의 순서를 나타냄 (동사 て형+동사)",
+      "tags": ["後輩", "広告"]
+    },
+    {
+      "sent": "<ruby>小型<rt>こがた</rt></ruby>のカメラで<ruby>記念写真<rt>きねんしゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>った。",
+      "trans": "소형 카메라로 기념사진을 찍었다.",
+      "grammar": "〜で — '~으로', 수단·도구를 나타냄 (명사+で)",
+      "tags": ["小型"]
+    },
+    {
+      "sent": "<ruby>交際<rt>こうさい</rt></ruby>を<ruby>深<rt>ふか</rt></ruby>めるために<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>積極的<rt>せっきょくてき</rt></ruby>に<ruby>行動<rt>こうどう</rt></ruby>した。",
+      "trans": "교제를 깊이 하기 위해 전원이 적극적으로 행동했다.",
+      "grammar": "〜ために — '~하기 위해서', 목적을 나타냄 (동사 기본형+ために)",
+      "tags": ["交際", "行動"]
+    },
+    {
+      "sent": "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>交通事故<rt>こうつうじこ</rt></ruby>があり、<ruby>少<rt>すこ</rt></ruby>し<ruby>遅<rt>おく</rt></ruby>れた。",
+      "trans": "도중에 교통사고가 있어서 조금 늦었다.",
+      "grammar": "〜があり〜た — '~이 있어서 ~했다', 이유·경위를 나타냄",
+      "tags": ["交通事故"]
+    },
+    {
+      "sent": "<ruby>後半<rt>こうはん</rt></ruby>に<ruby>別<rt>べつ</rt></ruby>のグループと<ruby>合流<rt>ごうりゅう</rt></ruby>して、<ruby>高級<rt>こうきゅう</rt></ruby>ホテルで<ruby>紅葉<rt>こうよう</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しんだ。",
+      "trans": "후반에 다른 그룹과 합류해서 고급 호텔에서 단풍을 즐겼다.",
+      "grammar": "〜て〜する — '~하고 나서 ~하다', 동작의 흐름을 나타냄 (동사 て형+동사)",
+      "tags": ["後半", "合流", "高級", "紅葉"]
+    },
+    {
+      "sent": "<ruby>旅行<rt>りょこう</rt></ruby>から<ruby>帰<rt>かえ</rt></ruby>って、タナカは<ruby>親<rt>おや</rt></ruby>への<ruby>孝行<rt>こうこう</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>した。",
+      "trans": "여행에서 돌아와서 타나카는 부모님께 효도하는 것을 떠올렸다.",
+      "grammar": "〜を思い出す — '~을 떠올리다', 기억이 되살아남을 나타냄 (명사+を思い出す)",
+      "tags": ["孝行"]
+    },
+    {
+      "sent": "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>の<ruby>親<rt>おや</rt></ruby>が<ruby>公共料金<rt>こうきょうりょうきん</rt></ruby>の<ruby>支払<rt>しはら</rt></ruby>いに<ruby>困<rt>こま</rt></ruby>っていたので、<ruby>合計<rt>ごうけい</rt></ruby>を<ruby>計算<rt>けいさん</rt></ruby>して<ruby>助<rt>たす</rt></ruby>けることにした。",
+      "trans": "고령자인 부모님이 공공요금 납부에 어려움을 겪고 있어서, 합계를 계산해 돕기로 했다.",
+      "grammar": "〜ので〜ことにする — '~하므로 ~하기로 하다', 이유에 따른 자발적 결정을 나타냄",
+      "tags": ["高齢者", "公共料金", "合計"]
+    },
+    {
+      "sent": "もちろん<ruby>親<rt>おや</rt></ruby>に<ruby>頼<rt>たよ</rt></ruby>られたわけではないが、<ruby>自分<rt>じぶん</rt></ruby>から<ruby>手伝<rt>てつだ</rt></ruby>いたかった。",
+      "trans": "물론 부모님께 의지받은 것은 아니지만, 스스로 돕고 싶었다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전면 부정이 아님을 나타냄 (동사 보통형+わけではない)",
+      "tags": []
+    },
+    {
+      "sent": "プレゼントを<ruby>交換<rt>こうかん</rt></ruby>しながら、この<ruby>交流<rt>こうりゅう</rt></ruby>が<ruby>効力<rt>こうりょく</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち、<ruby>幸福<rt>こうふく</rt></ruby>な<ruby>時間<rt>じかん</rt></ruby>を<ruby>過<rt>す</rt></ruby>ごした。",
+      "trans": "선물을 교환하면서 이 교류가 효력을 지니며 행복한 시간을 보냈다.",
+      "grammar": "〜ながら — '~하면서', 동시에 두 가지 동작을 나타냄 (동사 연용형+ながら)",
+      "tags": ["交換", "交流", "効力", "幸福"]
+    },
+    {
+      "sent": "<ruby>秋<rt>あき</rt></ruby>の<ruby>遠足<rt>えんそく</rt></ruby>では<ruby>高速道路<rt>こうそくどうろ</rt></ruby>を<ruby>通<rt>とお</rt></ruby>って<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った。",
+      "trans": "가을 소풍에서는 고속도로를 통해 산으로 갔다.",
+      "grammar": "〜を通って — '~을 통해', 경로를 나타냄 (명사+を通って)",
+      "tags": ["高速道路"]
+    },
+    {
+      "sent": "<ruby>異文化<rt>いぶんか</rt></ruby><ruby>交流<rt>こうりゅう</rt></ruby>は<ruby>生徒<rt>せいと</rt></ruby>たちにとって<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>経験<rt>けいけん</rt></ruby>だった。",
+      "trans": "이문화 교류는 학생들에게 있어서 중요한 경험이었다.",
+      "grammar": "〜にとって — '~에 있어서/에게는', 어떤 사람의 입장에서 봤을 때를 나타냄 (명사+にとって)",
+      "tags": ["交流"]
+    },
+    {
+      "sent": "<ruby>合同<rt>ごうどう</rt></ruby><ruby>運動会<rt>うんどうかい</rt></ruby>が<ruby>校庭<rt>こうてい</rt></ruby>で<ruby>開<rt>ひら</rt></ruby>かれた。",
+      "trans": "합동 운동회가 교정에서 열렸다.",
+      "grammar": "〜が〜で開かれる — '~이 ~에서 열리다', 장소+で를 포함한 수동 개최 표현",
+      "tags": ["合同", "校庭"]
+    },
+    {
+      "sent": "<ruby>後半<rt>こうはん</rt></ruby>に<ruby>別<rt>べつ</rt></ruby>のグループと<ruby>合流<rt>ごうりゅう</rt></ruby>した。",
+      "trans": "후반에 다른 그룹과 합류했다.",
+      "grammar": "〜と合流する — '~와 합류하다', 두 그룹이 하나로 합침을 나타냄 (명사+と合流する)",
+      "tags": ["後半", "合流"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「孝行」の読み方は何ですか。",
+      "opt": ["こうこう", "こうぎょう", "こうがく", "こうどう"],
+      "ans": 0,
+      "comment": "孝行(こうこう)은 '효도'라는 뜻입니다. 부모님을 정성껏 섬기는 것."
+    },
+    {
+      "q": "「広告」の読み方は何ですか。",
+      "opt": ["こうごう", "こうくう", "こうこく", "こうかく"],
+      "ans": 2,
+      "comment": "広告(こうこく)은 '광고'라는 뜻입니다. 상품이나 행사를 널리 알리는 것."
+    },
+    {
+      "q": "「合計」の読み方は何ですか。",
+      "opt": ["ごうけい", "こうけい", "ごけい", "こけい"],
+      "ans": 0,
+      "comment": "合計(ごうけい)는 '합계'라는 뜻입니다. 여러 수를 더한 전체 합."
+    },
+    {
+      "q": "「紅葉」の読み方は何ですか。",
+      "opt": ["こうよう", "くれは", "もみじ", "こうば"],
+      "ans": 0,
+      "comment": "紅葉(こうよう)는 '단풍'이라는 뜻입니다. 가을에 나뭇잎이 붉게 물드는 현상."
+    },
+    {
+      "q": "「後輩」の意味は何ですか。",
+      "opt": ["선배", "교사", "후배", "학생"],
+      "ans": 2,
+      "comment": "後輩(こうはい)는 '후배'라는 뜻입니다. 자신보다 나중에 들어온 사람."
+    },
+    {
+      "q": "「幸福」の意味は何ですか。",
+      "opt": ["광고", "효도", "행복", "교류"],
+      "ans": 2,
+      "comment": "幸福(こうふく)은 '행복'이라는 뜻입니다. 만족스럽고 즐거운 상태."
+    },
+    {
+      "q": "「効力」の意味は何ですか。",
+      "opt": ["합류", "합계", "고급", "효력"],
+      "ans": 3,
+      "comment": "効力(こうりょく)은 '효력'이라는 뜻입니다. 어떤 일이 효과적으로 작용하는 힘."
+    },
+    {
+      "q": "外国から来た生徒たちに講義をする______なった。",
+      "opt": ["ことに", "ことが", "ことを", "ことで"],
+      "ans": 0,
+      "comment": "〜ことになる는 '~하게 되다'로 외부 결정이나 귀결을 나타냄. 동사 기본형+ことになる."
+    },
+    {
+      "q": "親に頼られた______ないが、自分から手伝いたかった。",
+      "opt": ["わけでは", "はずでは", "ものでは", "ためでは"],
+      "ans": 0,
+      "comment": "〜わけではない는 '~인 것은 아니다'로 전면 부정이 아님을 나타냄."
+    },
+    {
+      "q": "交際を深める______全員が積極的に行動した。",
+      "opt": ["ために", "ための", "ためで", "ためへ"],
+      "ans": 0,
+      "comment": "〜ために는 '~하기 위해서'로 목적을 나타냄. 동사 기본형+ために."
+    }
+  ]
 }
