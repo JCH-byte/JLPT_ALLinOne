@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/build-data.js *)",
+      "Bash(node scripts/build-data.js)",
+      "Bash(node scripts/check-ruby.js *)",
+      "Bash(node scripts/check-vocab.js *)",
+      "Bash(node scripts/validate-module.js *)",
+      "Bash(gemini -m *)"
+    ]
+  }
+}

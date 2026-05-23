@@ -2,7 +2,7 @@
   "moduleId": "n3-module-025",
   "level": "n3",
   "ordinal": 25,
-  "title": "た行の名詞・1 (た행 명사 1)",
+  "title": "N3: 할아버지의 퇴원 일기",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-3447d0ee0d21c519e5e38422100bc9a889a9a045",
@@ -31,7 +31,283 @@
     "v-70094ad04b1c62fd3a4701b6c759e833299955f3",
     "v-23198f14ecdf64fe0e56963da2775d8e6659ab67"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>病院<rt>びょういん</rt></ruby>での<ruby>朝<rt>あさ</rt></ruby>（아침의 병실）</h3><p><ruby>去年<rt>きょねん</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>退職<rt>たいしょく</rt></ruby>した<ruby>後<rt>あと</rt></ruby>、すぐに<ruby>病院<rt>びょういん</rt></ruby>に<ruby>滞在<rt>たいざい</rt></ruby>することになった。</p><p><ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>体温<rt>たいおん</rt></ruby>と<ruby>体重<rt>たいじゅう</rt></ruby>を<ruby>測<rt>はか</rt></ruby>る。</p><p><ruby>健康<rt>けんこう</rt></ruby>のための<ruby>対策<rt>たいさく</rt></ruby>だ。</p><p>ベッドで<ruby>題名<rt>だいめい</rt></ruby>のない<ruby>古<rt>ふる</rt></ruby>い<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むのが<ruby>日課<rt>にっか</rt></ruby>だ。</p><p><ruby>病気<rt>びょうき</rt></ruby>との<ruby>戦<rt>たたか</rt></ruby>いはまだ<ruby>続<rt>つづ</rt></ruby>く。</p><h3>Scene 2. ニュース<ruby>番組<rt>ばんぐみ</rt></ruby>（뉴스 프로그램）</h3><p>テレビをつけると、<ruby>大統領<rt>だいとうりょう</rt></ruby>のニュースが<ruby>流<rt>なが</rt></ruby>れている。</p><p>また<ruby>誰<rt>だれ</rt></ruby>かが<ruby>逮捕<rt>たいほ</rt></ruby>されたようだ。</p><p>スポーツ<ruby>代表<rt>だいひょう</rt></ruby>が<ruby>大会<rt>たいかい</rt></ruby>で<ruby>勝<rt>か</rt></ruby>ったという<ruby>明<rt>あか</rt></ruby>るい<ruby>話題<rt>わだい</rt></ruby>もある。</p><p>ただ、<ruby>悲<rt>かな</rt></ruby>しいニュースばかりというわけではない。</p><p><ruby>世<rt>よ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>には<ruby>色々<rt>いろいろ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>がいるものだ。</p><h3>Scene 3. <ruby>家族<rt>かぞく</rt></ruby>のお<ruby>見舞<rt>みま</rt></ruby>い（가족의 병문안）</h3><p><ruby>午後<rt>ごご</rt></ruby>、<ruby>娘<rt>むすめ</rt></ruby>が<ruby>頼<rt>たの</rt></ruby>みを<ruby>聞<rt>き</rt></ruby>いてお<ruby>見舞<rt>みま</rt></ruby>いに<ruby>来<rt>き</rt></ruby>た。</p><p><ruby>私<rt>わたし</rt></ruby>の<ruby>代理<rt>だいり</rt></ruby>で<ruby>薬<rt>くすり</rt></ruby>の<ruby>代金<rt>だいきん</rt></ruby>を<ruby>払<rt>はら</rt></ruby>ってくれた。</p><p><ruby>大量<rt>たいりょう</rt></ruby>の<ruby>果物<rt>くだもの</rt></ruby>も<ruby>持<rt>も</rt></ruby>ってきてくれた。</p><p><ruby>孫<rt>まご</rt></ruby>が<ruby>足<rt>た</rt></ruby>し<ruby>算<rt>ざん</rt></ruby>の<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてから、<ruby>抱<rt>だ</rt></ruby>っこを<ruby>求<rt>もと</rt></ruby>めた。</p><p><ruby>他人<rt>たにん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>では<ruby>恥<rt>はず</rt></ruby>かしいようだが、<ruby>可愛<rt>かわい</rt></ruby>い。</p><h3>Scene 4. <ruby>退院<rt>たいいん</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>（퇴원하는 날）</h3><p>ついに<ruby>退院<rt>たいいん</rt></ruby>の<ruby>許可<rt>きょか</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。</p><p><ruby>先生<rt>せんせい</rt></ruby>の<ruby>優<rt>やさ</rt></ruby>しい<ruby>態度<rt>たいど</rt></ruby>に<ruby>感謝<rt>かんしゃ</rt></ruby>している。</p><p><ruby>体力<rt>たいりょく</rt></ruby>は<ruby>落<rt>お</rt></ruby>ちたが、<ruby>家族<rt>かぞく</rt></ruby>という<ruby>宝<rt>たから</rt></ruby>がある。</p><p><ruby>昔<rt>むかし</rt></ruby>、<ruby>退学<rt>たいがく</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えた<ruby>孫<rt>まご</rt></ruby>も<ruby>今<rt>いま</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>だ。</p><p><ruby>庭<rt>にわ</rt></ruby>に<ruby>新<rt>あたら</rt></ruby>しい<ruby>花<rt>はな</rt></ruby>の<ruby>種<rt>たね</rt></ruby>をまこう。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>去年<rt>きょねん</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>退職<rt>たいしょく</rt></ruby>した<ruby>後<rt>あと</rt></ruby>、すぐに<ruby>病院<rt>びょういん</rt></ruby>に<ruby>滞在<rt>たいざい</rt></ruby>することになった。",
+      "trans": "작년에 회사를 퇴직한 후, 바로 병원에 머물게 되었다.",
+      "grammar": "〜ことになる — ~하게 되다 (주변 상황이나 결정에 의한 결과)",
+      "tags": [
+        "退職",
+        "滞在"
+      ]
+    },
+    {
+      "sent": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>体温<rt>たいおん</rt></ruby>と<ruby>体重<rt>たいじゅう</rt></ruby>を<ruby>測<rt>はか</rt></ruby>る。",
+      "trans": "매일 아침, 체온과 체중을 잰다.",
+      "grammar": "〜を測る — \"~을 재다/측정하다\", 수치(체온·체중 등)를 측정할 때 사용",
+      "tags": [
+        "体温",
+        "体重"
+      ]
+    },
+    {
+      "sent": "<ruby>健康<rt>けんこう</rt></ruby>のための<ruby>対策<rt>たいさく</rt></ruby>だ。",
+      "trans": "건강을 위한 대책이다.",
+      "grammar": "〜ため(に) — ~을 위해 (목적)",
+      "tags": [
+        "対策"
+      ]
+    },
+    {
+      "sent": "ベッドで<ruby>題名<rt>だいめい</rt></ruby>のない<ruby>古<rt>ふる</rt></ruby>い<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むのが<ruby>日課<rt>にっか</rt></ruby>だ。",
+      "trans": "침대에서 제목이 없는 낡은 책을 읽는 것이 일과다.",
+      "grammar": "〜のが — ~하는 것이 (명사화)",
+      "tags": [
+        "題名"
+      ]
+    },
+    {
+      "sent": "<ruby>病気<rt>びょうき</rt></ruby>との<ruby>戦<rt>たたか</rt></ruby>いはまだ<ruby>続<rt>つづ</rt></ruby>く。",
+      "trans": "질병과의 싸움은 아직 계속된다.",
+      "grammar": "〜との戦い — \"~와의 싸움\", 대상과 맞서는 상황을 명사화한 표현",
+      "tags": [
+        "戦い"
+      ]
+    },
+    {
+      "sent": "テレビをつけると、<ruby>大統領<rt>だいとうりょう</rt></ruby>のニュースが<ruby>流<rt>なが</rt></ruby>れている。",
+      "trans": "TV를 켜자, 대통령의 뉴스가 흘러나오고 있다.",
+      "grammar": "〜と — ~하자 (자연스러운 결과)",
+      "tags": [
+        "大統領"
+      ]
+    },
+    {
+      "sent": "また<ruby>誰<rt>だれ</rt></ruby>かが<ruby>逮捕<rt>たいほ</rt></ruby>されたようだ。",
+      "trans": "또 누군가가 체포된 것 같다.",
+      "grammar": "〜ようだ — ~인 것 같다 (추측)",
+      "tags": [
+        "逮捕"
+      ]
+    },
+    {
+      "sent": "スポーツ<ruby>代表<rt>だいひょう</rt></ruby>が<ruby>大会<rt>たいかい</rt></ruby>で<ruby>勝<rt>か</rt></ruby>ったという<ruby>明<rt>あか</rt></ruby>るい<ruby>話題<rt>わだい</rt></ruby>もある。",
+      "trans": "스포츠 대표가 대회에서 이겼다는 밝은 화제도 있다.",
+      "grammar": "〜という — ~라고 하는 (내용 설명)",
+      "tags": [
+        "代表",
+        "大会"
+      ]
+    },
+    {
+      "sent": "ただ、<ruby>悲<rt>かな</rt></ruby>しいニュースばかりというわけではない。",
+      "trans": "단지, 슬픈 뉴스뿐인 것은 아니다.",
+      "grammar": "〜わけではない — 반드시 ~인 것은 아니다 (부분 부정)",
+      "tags": [
+        "ただ"
+      ]
+    },
+    {
+      "sent": "<ruby>世<rt>よ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>には<ruby>色々<rt>いろいろ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>がいるものだ。",
+      "trans": "세상에는 여러 사람이 있는 법이다.",
+      "grammar": "〜ものだ — 본래 ~한 법이다 (일반적 경향)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>、<ruby>娘<rt>むすめ</rt></ruby>が<ruby>頼<rt>たの</rt></ruby>みを<ruby>聞<rt>き</rt></ruby>いてお<ruby>見舞<rt>みま</rt></ruby>いに<ruby>来<rt>き</rt></ruby>た。",
+      "trans": "오후에 딸이 부탁을 들어주고 병문안을 왔다.",
+      "grammar": "〜を聞いて — \"~을 듣고/들어주고\", 부탁이나 요청을 받아들일 때 사용",
+      "tags": [
+        "頼み"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>の<ruby>代理<rt>だいり</rt></ruby>で<ruby>薬<rt>くすり</rt></ruby>の<ruby>代金<rt>だいきん</rt></ruby>を<ruby>払<rt>はら</rt></ruby>ってくれた。",
+      "trans": "내 대리로 약값을 내 주었다.",
+      "grammar": "〜てくれる — ~(나를 위해) 해 주다",
+      "tags": [
+        "代理",
+        "代金"
+      ]
+    },
+    {
+      "sent": "<ruby>大量<rt>たいりょう</rt></ruby>の<ruby>果物<rt>くだもの</rt></ruby>も<ruby>持<rt>も</rt></ruby>ってきてくれた。",
+      "trans": "대량의 과일도 가져와 주었다.",
+      "grammar": "〜てくれる — \"(상대가 나를 위해) ~해 주다\", 화자에게 이로운 행위",
+      "tags": [
+        "大量"
+      ]
+    },
+    {
+      "sent": "<ruby>孫<rt>まご</rt></ruby>が<ruby>足<rt>た</rt></ruby>し<ruby>算<rt>ざん</rt></ruby>の<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてから、<ruby>抱<rt>だ</rt></ruby>っこを<ruby>求<rt>もと</rt></ruby>めた。",
+      "trans": "손자가 덧셈 숙제를 보여주고 나서, 안아달라고 졸랐다.",
+      "grammar": "〜てから — ~하고 나서",
+      "tags": [
+        "足し算",
+        "抱っこ"
+      ]
+    },
+    {
+      "sent": "<ruby>他人<rt>たにん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>では<ruby>恥<rt>はず</rt></ruby>かしいようだが、<ruby>可愛<rt>かわい</rt></ruby>い。",
+      "trans": "타인 앞에서는 부끄러운 모양이지만, 귀엽다.",
+      "grammar": "〜ようだ — \"~인 것 같다\", 관찰·정황에 근거한 추측",
+      "tags": [
+        "他人"
+      ]
+    },
+    {
+      "sent": "ついに<ruby>退院<rt>たいいん</rt></ruby>の<ruby>許可<rt>きょか</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。",
+      "trans": "마침내 퇴원 허가가 났다.",
+      "grammar": "〜が出た — \"~이 나왔다\", 허가·결과 등이 발표·발급되었음을 나타냄",
+      "tags": [
+        "退院"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>優<rt>やさ</rt></ruby>しい<ruby>態度<rt>たいど</rt></ruby>に<ruby>感謝<rt>かんしゃ</rt></ruby>している。",
+      "trans": "선생님의 다정한 태도에 감사하고 있다.",
+      "grammar": "〜に感謝している — \"~에 감사하고 있다\", 감사의 대상을 に로 표시",
+      "tags": [
+        "態度"
+      ]
+    },
+    {
+      "sent": "<ruby>体力<rt>たいりょく</rt></ruby>は<ruby>落<rt>お</rt></ruby>ちたが、<ruby>家族<rt>かぞく</rt></ruby>という<ruby>宝<rt>たから</rt></ruby>がある。",
+      "trans": "체력은 떨어졌지만, 가족이라는 보물이 있다.",
+      "grammar": "〜という — ~라고 하는 (동격)",
+      "tags": [
+        "体力",
+        "宝"
+      ]
+    },
+    {
+      "sent": "<ruby>昔<rt>むかし</rt></ruby>、<ruby>退学<rt>たいがく</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えた<ruby>孫<rt>まご</rt></ruby>も<ruby>今<rt>いま</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>だ。",
+      "trans": "옛날에 퇴학을 생각했던 손자도 지금은 건강하다(잘 지낸다).",
+      "grammar": "〜を考える — \"~을 생각하다/고려하다\", 어떤 선택지를 검토할 때 사용",
+      "tags": [
+        "退学"
+      ]
+    },
+    {
+      "sent": "<ruby>庭<rt>にわ</rt></ruby>に<ruby>新<rt>あたら</rt></ruby>しい<ruby>花<rt>はな</rt></ruby>の<ruby>種<rt>たね</rt></ruby>をまこう。",
+      "trans": "정원에 새로운 꽃씨를 뿌려야지.",
+      "grammar": "〜よう／おう — ~해야지 (의지, 권유)",
+      "tags": [
+        "種"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「退職」の正しい読み方はどれですか。",
+      "opt": [
+        "たいしょく",
+        "だいきん",
+        "たいさく",
+        "たいがく"
+      ],
+      "ans": 0,
+      "comment": "退職(たいしょく)는 '퇴직'이라는 뜻입니다."
+    },
+    {
+      "q": "「滞在」の正しい読み方はどれですか。",
+      "opt": [
+        "たいさい",
+        "たいざい",
+        "だんざい",
+        "たいちょう"
+      ],
+      "ans": 1,
+      "comment": "滞在(たいざい)는 '체재, 머무름'이라는 뜻입니다."
+    },
+    {
+      "q": "「逮捕」の正しい読み方はどれですか。",
+      "opt": [
+        "たいほ",
+        "たいほう",
+        "だんほ",
+        "たいこ"
+      ],
+      "ans": 0,
+      "comment": "逮捕(たいほ)는 '체포'라는 뜻입니다."
+    },
+    {
+      "q": "「態度」の正しい読み方はどれですか。",
+      "opt": [
+        "たびと",
+        "たいどう",
+        "たいど",
+        "たいこ"
+      ],
+      "ans": 2,
+      "comment": "態度(たいど)는 '태도'라는 뜻입니다."
+    },
+    {
+      "q": "「足し算」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "뺄셈",
+        "덧셈",
+        "곱셈",
+        "나눗셈"
+      ],
+      "ans": 1,
+      "comment": "足し算(たしざん)은 '덧셈'을 의미합니다."
+    },
+    {
+      "q": "「種」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "종류",
+        "씨앗",
+        "뿌리",
+        "잎사귀"
+      ],
+      "ans": 1,
+      "comment": "種(たね)는 '씨앗, 종자'를 의미합니다."
+    },
+    {
+      "q": "「他人」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "지인",
+        "가족",
+        "타인",
+        "친구"
+      ],
+      "ans": 2,
+      "comment": "他人(たにん)은 '타인, 다른 사람'을 의미합니다."
+    },
+    {
+      "q": "娘が私の代理で薬の（　　）を払ってくれた。",
+      "opt": [
+        "代金",
+        "体重",
+        "体力",
+        "退院"
+      ],
+      "ans": 0,
+      "comment": "약값을 뜻하는 代金(だいきん)이 들어가는 것이 자연스럽습니다."
+    },
+    {
+      "q": "お見舞いに（　　）の果物を持ってきてくれた。",
+      "opt": [
+        "大統領",
+        "大量",
+        "代表",
+        "大会"
+      ],
+      "ans": 1,
+      "comment": "과일이 매우 많다는 의미로 大量(たいりょう)이 어울립니다."
+    },
+    {
+      "q": "入院生活で少し（　　）は落ちたが、心は元気だ。",
+      "opt": [
+        "宝",
+        "態度",
+        "頼み",
+        "体力"
+      ],
+      "ans": 3,
+      "comment": "건강이나 체력이 떨어졌다는 문맥이므로 体力(たいりょく)가 맞습니다."
+    }
+  ]
 }
