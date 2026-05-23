@@ -53,7 +53,8 @@ argument-hint: <level> <selector>
 - moduleId: {moduleId}
 
 완료 후 마지막 응답은 아래 형식 한 줄로만:
-성공: `{moduleId}: 성공 (자가수정 N회)`
+성공: `{moduleId}: 성공 (자가수정 N회)` — 자가수정이 있었다면 사유도 괄호 안에 추가
+  예) `n3-module-017: 성공 (자가수정 1회 — h3 ruby 누락 수정)`
 실패: `{moduleId}: SKIP (사유)`
 ```
 
@@ -96,9 +97,80 @@ vocab 25개 중 가장 많이 속하는 그룹을 배경 테마로 선택.
 
 ---
 
-### Step 2. 콘텐츠 생성
+### Step 2. 콘텐츠 생성 — Gemini CLI 위임 (우선)
 
-Claude가 직접 다음을 생성:
+Gemini CLI가 사용 가능한 환경이므로 생성은 Gemini에게 위임한다.  
+Claude 직접 생성보다 토큰 ~80% 절감.
+
+#### Gemini 호출
+
+```bash
+gemini -m gemini-3.1-pro-preview -p "$(cat <<'PROMPT'
+당신은 JLPT N3 일본어 학습 자료를 만드는 전문 교육자입니다.
+아래 vocab과 규칙에 따라 학습 모듈 콘텐츠를 JSON으로 생성하세요.
+
+## vocab ({N}개)
+{vocab을 "word(read):mean," 형식으로 나열}
+
+## 생성 규칙
+
+### title
+한국어 15자 이내, 형식: "N3: 주제"
+
+### story (HTML 문자열)
+- 4개 장면: <h3>Scene N. 日本語タイトル（한국어）</h3>
+- 장면당 <p>...</p> 4~6문장
+- **모든 한자에 반드시 <ruby>漢字<rt>よみ</rt></ruby> 태그 필수**
+- 특히 아래 단독 한자는 ruby 없이 절대 쓰지 말 것:
+  言 見 出 来 話 行 思 書 読 聞 合 入 取 作 開 知 使 切 持 考 会 年 月 日 時 人 子
+  예) と言います → と<ruby>言<rt>い</rt></ruby>います
+
+### ⚠️ h3 제목 안 ruby 필수 (가장 흔한 실수)
+<h3> 안의 일본어 제목에도 모든 한자에 ruby 필수:
+✅ <h3>Scene 1. <ruby>新<rt>あたら</rt></ruby>しい<ruby>商店<rt>しょうてん</rt></ruby>（새로운 상점）</h3>
+❌ <h3>Scene 1. 新しい商店（새로운 상점）</h3>  ← 이렇게 하면 검증 실패
+
+- 문법 타겟 반드시 사용: 〜ことになる, 〜わけではない
+- 장면당 plain text 220자 이하
+- vocab 25개 중 80% 이상 story에 등장
+
+### analysis (16~20개)
+{ "sent": "ruby 포함 문장", "trans": "한국어", "grammar": "〜패턴 — 설명 (조건)", "tags": ["vocab word"] }
+vocab이 없는 문장은 "tags": []
+
+### quiz (정확히 10개)
+읽기(よみ) 4 + 의미 3 + 문장완성 3
+{ "q": "질문", "opt": ["A","B","C","D"], "ans": 0~3, "comment": "한국어 해설" }
+
+## 출력
+**순수 JSON만. 마크다운 코드블록(\`\`\`) 없이.**
+{ "title": "...", "story": "...", "analysis": [...], "quiz": [...] }
+PROMPT
+)" 2>&1
+```
+
+#### JSON 파싱 및 src 저장
+
+Gemini 출력에는 앞에 경고 줄이 붙을 수 있으므로 첫 `{` 위치부터 파싱:
+
+```bash
+node -e "
+const fs = require('fs');
+const raw = fs.readFileSync('/path/to/gemini.output', 'utf8');
+const g = JSON.parse(raw.slice(raw.indexOf('{')));
+const src = JSON.parse(fs.readFileSync('data/src/{level}/modules/{moduleId}.json', 'utf8'));
+src.title = g.title; src.story = g.story; src.analysis = g.analysis; src.quiz = g.quiz;
+fs.writeFileSync('data/src/{level}/modules/{moduleId}.json', JSON.stringify(src, null, 2) + '\n');
+"
+```
+
+> Gemini 호출이 실패하거나 JSON 파싱 오류 시 → **Step 2-B**로 폴백.
+
+---
+
+### Step 2-B. 콘텐츠 생성 — Claude 직접 (폴백)
+
+Gemini를 쓸 수 없을 때 Claude가 직접 다음을 생성:
 
 #### title
 - 한국어 15자 이내. 형식 `"<LEVEL>: <주제>"` (예: `"N3: 회사 생활과 인간관계"`).
@@ -244,3 +316,4 @@ git/push는 **자동화하지 않는다.** 사용자가 GitHub Desktop으로 직
 - N5 대상 작업 금지.
 - git/gh 명령 실행 금지.
 - 다중 모듈 시 Agent tool 병렬 호출 금지 (build 충돌 방지).
+- Gemini 출력 파싱 시 `JSON.parse(raw)` 직접 호출 금지 — 앞에 경고 줄이 붙으므로 반드시 `raw.slice(raw.indexOf('{'))` 사용.

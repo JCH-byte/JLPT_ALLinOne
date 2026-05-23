@@ -2,7 +2,7 @@
   "moduleId": "n3-module-020",
   "level": "n3",
   "ordinal": 20,
-  "title": "さ行の名詞・6 (さ행 명사 6)",
+  "title": "N3: 상점 이야기",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,260 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>新<rt>あたら</rt></ruby>しい<ruby>商店<rt>しょうてん</rt></ruby>（새로운 상점）</h3><p><ruby>少年<rt>しょうねん</rt></ruby>と<ruby>女子<rt>じょし</rt></ruby>は、<ruby>新<rt>あたら</rt></ruby>しい<ruby>職業<rt>しょくぎょう</rt></ruby>として<ruby>商店<rt>しょうてん</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>くことになりました。<ruby>商売<rt>しょうばい</rt></ruby>の<ruby>初心者<rt>しょしんしゃ</rt></ruby>なので、まだ<ruby>初級<rt>しょきゅう</rt></ruby>レベルです。<ruby>店<rt>みせ</rt></ruby>の<ruby>正面<rt>しょうめん</rt></ruby>に<ruby>立<rt>た</rt></ruby>って<ruby>見<rt>み</rt></ruby>ました。「<ruby>立派<rt>りっぱ</rt></ruby>な<ruby>商人<rt>しょうにん</rt></ruby>になるぞ」と<ruby>言<rt>い</rt></ruby>いました。</p><h3>Scene 2. <ruby>商品<rt>しょうひん</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>める（상품을 모으다）</h3><p><ruby>彼<rt>かれ</rt></ruby>らは<ruby>植物<rt>しょくぶつ</rt></ruby>と<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>商品<rt>しょうひん</rt></ruby>として<ruby>集<rt>あつ</rt></ruby>めました。インターネットでたくさん<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みました。「この<ruby>草<rt>くさ</rt></ruby>は<ruby>食<rt>た</rt></ruby>べられるの？」と<ruby>聞<rt>き</rt></ruby>きました。「<ruby>冗談<rt>じょうだん</rt></ruby>を<ruby>言<rt>い</rt></ruby>っているわけではないよ。<ruby>証明<rt>しょうめい</rt></ruby>できるよ」と<ruby>答<rt>こた</rt></ruby>えました。</p><h3>Scene 3. <ruby>昼休<rt>ひるやす</rt></ruby>みと<ruby>費用<rt>ひよう</rt></ruby>（점심시간과 비용）</h3><p><ruby>働<rt>はたら</rt></ruby>くと<ruby>食欲<rt>しょくよく</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきます。<ruby>食後<rt>しょくご</rt></ruby>に、<ruby>食事代<rt>しょくじだい</rt></ruby>と<ruby>食費<rt>しょくひ</rt></ruby>を<ruby>計算<rt>けいさん</rt></ruby>しました。<ruby>高<rt>たか</rt></ruby>い<ruby>食器<rt>しょっき</rt></ruby>や<ruby>店<rt>みせ</rt></ruby>の<ruby>使用料<rt>しようりょう</rt></ruby>も<ruby>払<rt>はら</rt></ruby>います。<ruby>無駄<rt>むだ</rt></ruby>な<ruby>消費<rt>しょうひ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くて<ruby>大変<rt>たいへん</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いました。</p><h3>Scene 4. <ruby>予期<rt>よき</rt></ruby>せぬ<ruby>訪問者<rt>ほうもんしゃ</rt></ruby>（예기치 않은 방문자）</h3><p><ruby>突然<rt>とつぜん</rt></ruby>、<ruby>職場<rt>しょくば</rt></ruby>に<ruby>消防車<rt>しょうぼうしゃ</rt></ruby>が<ruby>来<rt>き</rt></ruby>ました。<ruby>消防署<rt>しょうぼうしょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>消防<rt>しょうぼう</rt></ruby>の<ruby>設備<rt>せつび</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってきたのです。まだ<ruby>火<rt>ひ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って<ruby>使<rt>つか</rt></ruby>っているわけではないので<ruby>安心<rt>あんしん</rt></ruby>しました。とても<ruby>忙<rt>いそが</rt></ruby>しい<ruby>一日<rt>いちにち</rt></ruby>でした。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>少年<rt>しょうねん</rt></ruby>と<ruby>女子<rt>じょし</rt></ruby>は、<ruby>新<rt>あたら</rt></ruby>しい<ruby>職業<rt>しょくぎょう</rt></ruby>として<ruby>商店<rt>しょうてん</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>くことになりました。",
+      "trans": "소년과 여자는 새로운 직업으로 상점을 열게 되었습니다.",
+      "grammar": "〜ことになる — ~하게 되다 (결정, 결과)",
+      "tags": [
+        "少年",
+        "女子",
+        "職業",
+        "商店"
+      ]
+    },
+    {
+      "sent": "<ruby>商売<rt>しょうばい</rt></ruby>の<ruby>初心者<rt>しょしんしゃ</rt></ruby>なので、まだ<ruby>初級<rt>しょきゅう</rt></ruby>レベルです。",
+      "trans": "장사 초보자이기 때문에 아직 초급 수준입니다.",
+      "grammar": "〜なので — ~이기 때문에 (이유)",
+      "tags": [
+        "商売",
+        "初心者",
+        "初級"
+      ]
+    },
+    {
+      "sent": "<ruby>店<rt>みせ</rt></ruby>の<ruby>正面<rt>しょうめん</rt></ruby>に<ruby>立<rt>た</rt></ruby>って<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "가게 정면에 서 보았습니다.",
+      "grammar": "〜てみる — ~해 보다 (시도)",
+      "tags": [
+        "正面"
+      ]
+    },
+    {
+      "sent": "「<ruby>立派<rt>りっぱ</rt></ruby>な<ruby>商人<rt>しょうにん</rt></ruby>になるぞ」と<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "「훌륭한 상인이 될 거야」라고 말했습니다.",
+      "grammar": "〜と言う — ~라고 말하다 (인용)",
+      "tags": [
+        "商人"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>らは<ruby>植物<rt>しょくぶつ</rt></ruby>と<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>商品<rt>しょうひん</rt></ruby>として<ruby>集<rt>あつ</rt></ruby>めました。",
+      "trans": "그들은 식물과 식품을 상품으로 모았습니다.",
+      "grammar": "〜として — ~로서 (자격, 명목)",
+      "tags": [
+        "植物",
+        "食品",
+        "商品"
+      ]
+    },
+    {
+      "sent": "インターネットでたくさん<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みました。",
+      "trans": "인터넷에서 많은 정보를 읽었습니다.",
+      "grammar": "で — ~에서 (수단, 장소)",
+      "tags": [
+        "情報"
+      ]
+    },
+    {
+      "sent": "「この<ruby>草<rt>くさ</rt></ruby>は<ruby>食<rt>た</rt></ruby>べられるの？」と<ruby>聞<rt>き</rt></ruby>きました。",
+      "trans": "「이 풀은 먹을 수 있어?」라고 물었습니다.",
+      "grammar": "〜られる — ~할 수 있다 (가능형)",
+      "tags": []
+    },
+    {
+      "sent": "「<ruby>冗談<rt>じょうだん</rt></ruby>を<ruby>言<rt>い</rt></ruby>っているわけではないよ。",
+      "trans": "「농담을 하고 있는 것은 아니야.",
+      "grammar": "〜わけではない — 반드시 ~인 것은 아니다 (부분 부정)",
+      "tags": [
+        "冗談"
+      ]
+    },
+    {
+      "sent": "<ruby>証明<rt>しょうめい</rt></ruby>できるよ」と<ruby>答<rt>こた</rt></ruby>えました。",
+      "trans": "증명할 수 있어」라고 대답했습니다.",
+      "grammar": "できる — ~할 수 있다 (가능)",
+      "tags": [
+        "証明"
+      ]
+    },
+    {
+      "sent": "<ruby>働<rt>はたら</rt></ruby>くと<ruby>食欲<rt>しょくよく</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきます。",
+      "trans": "일을 하면 식욕이 생깁니다.",
+      "grammar": "〜と — ~하면 (필연적 결과)",
+      "tags": [
+        "食欲"
+      ]
+    },
+    {
+      "sent": "<ruby>食後<rt>しょくご</rt></ruby>に、<ruby>食事代<rt>しょくじだい</rt></ruby>と<ruby>食費<rt>しょくひ</rt></ruby>を<ruby>計算<rt>けいさん</rt></ruby>しました。",
+      "trans": "식후에 식사대와 식비를 계산했습니다.",
+      "grammar": "〜に — ~에 (시간)",
+      "tags": [
+        "食後",
+        "食事代",
+        "食費"
+      ]
+    },
+    {
+      "sent": "<ruby>高<rt>たか</rt></ruby>い<ruby>食器<rt>しょっき</rt></ruby>や<ruby>店<rt>みせ</rt></ruby>の<ruby>使用料<rt>しようりょう</rt></ruby>も<ruby>払<rt>はら</rt></ruby>います。",
+      "trans": "비싼 식기나 가게 사용료도 지불합니다.",
+      "grammar": "〜や〜も — ~나 ~도 (나열 및 추가)",
+      "tags": [
+        "食器",
+        "使用料"
+      ]
+    },
+    {
+      "sent": "<ruby>無駄<rt>むだ</rt></ruby>な<ruby>消費<rt>しょうひ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くて<ruby>大変<rt>たいへん</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "쓸데없는 소비가 많아서 힘들다고 생각했습니다.",
+      "grammar": "〜くて — ~해서 (이유)",
+      "tags": [
+        "消費"
+      ]
+    },
+    {
+      "sent": "<ruby>突然<rt>とつぜん</rt></ruby>、<ruby>職場<rt>しょくば</rt></ruby>に<ruby>消防車<rt>しょうぼうしゃ</rt></ruby>が<ruby>来<rt>き</rt></ruby>ました。",
+      "trans": "갑자기 직장에 소방차가 왔습니다.",
+      "grammar": "に — ~에 (도착점)",
+      "tags": [
+        "職場"
+      ]
+    },
+    {
+      "sent": "<ruby>消防署<rt>しょうぼうしょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>消防<rt>しょうぼう</rt></ruby>の<ruby>設備<rt>せつび</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってきたのです。",
+      "trans": "소방서 사람이 소방 설비를 보러 들어온 것입니다.",
+      "grammar": "〜のです — ~인 것입니다 (설명, 강조)",
+      "tags": [
+        "消防署",
+        "消防"
+      ]
+    },
+    {
+      "sent": "まだ<ruby>火<rt>ひ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って<ruby>使<rt>つか</rt></ruby>っているわけではないので<ruby>安心<rt>あんしん</rt></ruby>しました。",
+      "trans": "아직 불을 만들어 사용하고 있는 것은 아니기 때문에 안심했습니다.",
+      "grammar": "〜わけではない — ~인 것은 아니다 (부정)",
+      "tags": []
+    },
+    {
+      "sent": "とても<ruby>忙<rt>いそが</rt></ruby>しい<ruby>一日<rt>いちにち</rt></ruby>でした。",
+      "trans": "매우 바쁜 하루였습니다.",
+      "grammar": "〜でした — ~였습니다 (과거)",
+      "tags": []
+    }
+  ],
+  "quiz": [
+    {
+      "q": "次の単語の読み方として正しいものを選びなさい。：冗談",
+      "opt": [
+        "しょだん",
+        "じょうたん",
+        "じょうだん",
+        "しょうだん"
+      ],
+      "ans": 2,
+      "comment": "冗談(じょうだん)은 '농담'이라는 뜻입니다."
+    },
+    {
+      "q": "次の単語の読み方として正しいものを選びなさい。：商売",
+      "opt": [
+        "しょうまい",
+        "しょうばい",
+        "しょうぱい",
+        "じょうばい"
+      ],
+      "ans": 1,
+      "comment": "商売(しょうばい)는 '장사' 또는 '사업'이라는 뜻입니다."
+    },
+    {
+      "q": "次の単語の読み方として正しいものを選びなさい。：初心者",
+      "opt": [
+        "しょしんしゃ",
+        "しょじんしゃ",
+        "そしんしゃ",
+        "しょうしんしゃ"
+      ],
+      "ans": 0,
+      "comment": "初心者(しょしんしゃ)는 '초보자'라는 뜻입니다."
+    },
+    {
+      "q": "次の単語の読み方として正しいものを選びなさい。：使用料",
+      "opt": [
+        "しようりょ",
+        "しゅようりょう",
+        "しょうようりょう",
+        "しようりょう"
+      ],
+      "ans": 3,
+      "comment": "使用料(しようりょう)는 '사용료'라는 뜻입니다."
+    },
+    {
+      "q": "「正面」の最も適切な意味を選びなさい。",
+      "opt": [
+        "후면",
+        "정면",
+        "측면",
+        "표면"
+      ],
+      "ans": 1,
+      "comment": "正面(しょうめん)은 '정면'이라는 뜻입니다."
+    },
+    {
+      "q": "「職場」の最も適切な意味を選びなさい。",
+      "opt": [
+        "직장",
+        "시장",
+        "광장",
+        "식당"
+      ],
+      "ans": 0,
+      "comment": "職場(しょくば)는 '직장'이라는 뜻입니다."
+    },
+    {
+      "q": "「証明」の最も適切な意味を選びなさい。",
+      "opt": [
+        "발명",
+        "해명",
+        "증명",
+        "유명"
+      ],
+      "ans": 2,
+      "comment": "証明(しょうめい)은 '증명'이라는 뜻입니다."
+    },
+    {
+      "q": "空欄に入る最も適切な言葉を選びなさい。：火事の時、______に電話をかけます。",
+      "opt": [
+        "警察署",
+        "消防署",
+        "税務署",
+        "郵便局"
+      ],
+      "ans": 1,
+      "comment": "화재가 발생했을 때 전화를 거는 곳은 '소방서(消防署)'입니다."
+    },
+    {
+      "q": "空欄に入る最も適切な言葉を選びなさい。：来月から東京で働く______。",
+      "opt": [
+        "ことにしました",
+        "ことになりました",
+        "ようになりました",
+        "そうになりました"
+      ],
+      "ans": 1,
+      "comment": "자신의 의지가 아닌 다른 요인으로 일하게 된 상황이므로 '〜ことになりました(~하게 되었습니다)'가 적절합니다."
+    },
+    {
+      "q": "空欄に入る最も適切な言葉を選びなさい。：彼が嫌いな______が、今は会いたくありません。",
+      "opt": [
+        "わけです",
+        "わけにはいきません",
+        "わけではありません",
+        "はずではありません"
+      ],
+      "ans": 2,
+      "comment": "'싫어하는 것은 아니지만(~わけではありませんが)'이라는 부분 부정을 나타내는 문법이 자연스럽습니다."
+    }
+  ]
 }

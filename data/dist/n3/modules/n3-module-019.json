@@ -2,7 +2,7 @@
   "moduleId": "n3-module-019",
   "level": "n3",
   "ordinal": 19,
-  "title": "さ行の名詞・5 (さ행 명사 5)",
+  "title": "N3: 출장과 직장 생활",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,265 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>出張<rt>しゅっちょう</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>（출장 준비）</h3>\n<p><ruby>田中<rt>たなか</rt></ruby>さんは<ruby>出版<rt>しゅっぱん</rt></ruby><ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>勤<rt>つと</rt></ruby>めている。<ruby>上旬<rt>じょうじゅん</rt></ruby>に<ruby>首都<rt>しゅと</rt></ruby>へ<ruby>出張<rt>しゅっちょう</rt></ruby>することになった。<ruby>上司<rt>じょうし</rt></ruby>から<ruby>条件<rt>じょうけん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>乗車券<rt>じょうしゃけん</rt></ruby>を<ruby>取得<rt>しゅとく</rt></ruby>した。<ruby>常識<rt>じょうしき</rt></ruby>として、<ruby>出張<rt>しゅっちょう</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<ruby>書類<rt>しょるい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するのは<ruby>大切<rt>たいせつ</rt></ruby>だ。</p>\n<h3>Scene 2. <ruby>電車<rt>でんしゃ</rt></ruby>での<ruby>移動<rt>いどう</rt></ruby>（전철에서의 이동）</h3>\n<p><ruby>正午<rt>しょうご</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>を<ruby>出発<rt>しゅっぱつ</rt></ruby>した。<ruby>乗車<rt>じょうしゃ</rt></ruby>すると、<ruby>乗客<rt>じょうきゃく</rt></ruby>が<ruby>上下<rt>じょうげ</rt></ruby>の<ruby>座席<rt>ざせき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っていた。<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>って<ruby>座<rt>すわ</rt></ruby>るのは<ruby>常識<rt>じょうしき</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>った。<ruby>隣<rt>となり</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>った<ruby>少女<rt>しょうじょ</rt></ruby>が<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいた。</p>\n<h3>Scene 3. <ruby>会議<rt>かいぎ</rt></ruby>と<ruby>招待<rt>しょうたい</rt></ruby>（회의와 초대）</h3>\n<p><ruby>首都<rt>しゅと</rt></ruby>の<ruby>取引先<rt>とりひきさき</rt></ruby>で<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>かれた。<ruby>商業<rt>しょうぎょう</rt></ruby><ruby>上級<rt>じょうきゅう</rt></ruby>の<ruby>担当者<rt>たんとうしゃ</rt></ruby>が<ruby>出場<rt>しゅつじょう</rt></ruby>した。<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、<ruby>取引先<rt>とりひきさき</rt></ruby>から<ruby>食事<rt>しょくじ</rt></ruby>に<ruby>招待<rt>しょうたい</rt></ruby>された。<ruby>消化<rt>しょうか</rt></ruby>のいい<ruby>料理<rt>りょうり</rt></ruby>が<ruby>種類<rt>しゅるい</rt></ruby><ruby>豊<rt>ゆた</rt></ruby>かに<ruby>並<rt>なら</rt></ruby>んでいた。</p>\n<h3>Scene 4. <ruby>帰宅<rt>きたく</rt></ruby>と<ruby>報告<rt>ほうこく</rt></ruby>（귀가와 보고）</h3>\n<p><ruby>田中<rt>たなか</rt></ruby>さんは<ruby>出身<rt>しゅっしん</rt></ruby>が<ruby>地方<rt>ちほう</rt></ruby>で、<ruby>主婦<rt>しゅふ</rt></ruby>の<ruby>母<rt>はは</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>で<ruby>待<rt>ま</rt></ruby>っていた。<ruby>受話器<rt>じゅわき</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>電話<rt>でんわ</rt></ruby>すると、<ruby>母<rt>はは</rt></ruby>はとても<ruby>喜<rt>よろこ</rt></ruby>んだ。<ruby>寿命<rt>じゅみょう</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>と<ruby>生活<rt>せいかつ</rt></ruby>のバランスを<ruby>大切<rt>たいせつ</rt></ruby>にするわけではないが、<ruby>田中<rt>たなか</rt></ruby>さんはそう<ruby>心<rt>こころ</rt></ruby>がけていた。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>上旬<rt>じょうじゅん</rt></ruby>に<ruby>首都<rt>しゅと</rt></ruby>へ<ruby>出張<rt>しゅっちょう</rt></ruby>することになった。",
+      "trans": "상순에 수도로 출장을 가게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 외부적 결정이나 자연스러운 상황의 귀결을 나타냄",
+      "tags": [
+        "上旬",
+        "首都",
+        "出張"
+      ]
+    },
+    {
+      "sent": "<ruby>上司<rt>じょうし</rt></ruby>から<ruby>条件<rt>じょうけん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>乗車券<rt>じょうしゃけん</rt></ruby>を<ruby>取得<rt>しゅとく</rt></ruby>した。",
+      "trans": "상사로부터 조건을 듣고 승차권을 취득했다.",
+      "grammar": "〜てから/〜て — 순차적 행동을 나타내는 접속 표현",
+      "tags": [
+        "上司",
+        "条件",
+        "乗車券",
+        "取得"
+      ]
+    },
+    {
+      "sent": "<ruby>常識<rt>じょうしき</rt></ruby>として、<ruby>出張<rt>しゅっちょう</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<ruby>書類<rt>しょるい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するのは<ruby>大切<rt>たいせつ</rt></ruby>だ。",
+      "trans": "상식으로서 출장 전에 서류를 확인하는 것은 중요하다.",
+      "grammar": "〜として — '~로서', 자격·입장을 나타내는 표현",
+      "tags": [
+        "常識",
+        "出張"
+      ]
+    },
+    {
+      "sent": "<ruby>正午<rt>しょうご</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>を<ruby>出発<rt>しゅっぱつ</rt></ruby>した。",
+      "trans": "정오에 역을 출발했다.",
+      "grammar": "〜に — 시간을 나타내는 조사 (특정 시점)",
+      "tags": [
+        "正午"
+      ]
+    },
+    {
+      "sent": "<ruby>乗車<rt>じょうしゃ</rt></ruby>すると、<ruby>乗客<rt>じょうきゃく</rt></ruby>が<ruby>上下<rt>じょうげ</rt></ruby>の<ruby>座席<rt>ざせき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っていた。",
+      "trans": "승차하자, 승객들이 상하 좌석을 이용하고 있었다.",
+      "grammar": "〜すると — '~하자', 어떤 행동 후 발견되는 상황을 나타냄",
+      "tags": [
+        "乗車",
+        "乗客",
+        "上下"
+      ]
+    },
+    {
+      "sent": "<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>って<ruby>座<rt>すわ</rt></ruby>るのは<ruby>常識<rt>じょうしき</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>った。",
+      "trans": "차례를 지켜 앉는 것이 상식이라고 생각했다.",
+      "grammar": "〜と思う — '~라고 생각하다', 화자의 판단·인식을 나타냄",
+      "tags": [
+        "順番",
+        "常識"
+      ]
+    },
+    {
+      "sent": "<ruby>隣<rt>となり</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>った<ruby>少女<rt>しょうじょ</rt></ruby>が<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいた。",
+      "trans": "옆에 앉은 소녀가 책을 읽고 있었다.",
+      "grammar": "〜ていた — '~하고 있었다', 과거의 진행 상태를 나타냄",
+      "tags": [
+        "少女"
+      ]
+    },
+    {
+      "sent": "<ruby>商業<rt>しょうぎょう</rt></ruby><ruby>上級<rt>じょうきゅう</rt></ruby>の<ruby>担当者<rt>たんとうしゃ</rt></ruby>が<ruby>出場<rt>しゅつじょう</rt></ruby>した。",
+      "trans": "상업 상급 담당자가 출전(출석)했다.",
+      "grammar": "〜の — 명사를 수식하는 연체 조사",
+      "tags": [
+        "商業",
+        "上級",
+        "出場"
+      ]
+    },
+    {
+      "sent": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、<ruby>取引先<rt>とりひきさき</rt></ruby>から<ruby>食事<rt>しょくじ</rt></ruby>に<ruby>招待<rt>しょうたい</rt></ruby>された。",
+      "trans": "회의 후, 거래처로부터 식사에 초대받았다.",
+      "grammar": "〜から〜に招待される — '~로부터 ~에 초대받다', 수동 표현으로 수혜를 나타냄",
+      "tags": [
+        "招待"
+      ]
+    },
+    {
+      "sent": "<ruby>消化<rt>しょうか</rt></ruby>のいい<ruby>料理<rt>りょうり</rt></ruby>が<ruby>種類<rt>しゅるい</rt></ruby><ruby>豊<rt>ゆた</rt></ruby>かに<ruby>並<rt>なら</rt></ruby>んでいた。",
+      "trans": "소화가 잘 되는 요리가 종류 풍부하게 늘어서 있었다.",
+      "grammar": "〜ていた — 과거의 상태를 나타내는 표현",
+      "tags": [
+        "消化",
+        "種類"
+      ]
+    },
+    {
+      "sent": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>出身<rt>しゅっしん</rt></ruby>が<ruby>地方<rt>ちほう</rt></ruby>で、<ruby>主婦<rt>しゅふ</rt></ruby>の<ruby>母<rt>はは</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>で<ruby>待<rt>ま</rt></ruby>っていた。",
+      "trans": "다나카 씨는 출신이 지방이라, 주부인 어머니가 집에서 기다리고 있었다.",
+      "grammar": "〜で — '~이어서', 이유·근거를 나타내는 접속 표현",
+      "tags": [
+        "出身",
+        "主婦"
+      ]
+    },
+    {
+      "sent": "<ruby>受話器<rt>じゅわき</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>電話<rt>でんわ</rt></ruby>すると、<ruby>母<rt>はは</rt></ruby>はとても<ruby>喜<rt>よろこ</rt></ruby>んだ。",
+      "trans": "수화기를 들고 전화하자, 어머니는 매우 기뻐했다.",
+      "grammar": "〜を持って — '~을 들고', 도구나 소지를 나타내는 표현",
+      "tags": [
+        "受話器"
+      ]
+    },
+    {
+      "sent": "<ruby>寿命<rt>じゅみょう</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>と<ruby>生活<rt>せいかつ</rt></ruby>のバランスを<ruby>大切<rt>たいせつ</rt></ruby>にするわけではないが、<ruby>田中<rt>たなか</rt></ruby>さんはそう<ruby>心<rt>こころ</rt></ruby>がけていた。",
+      "trans": "수명이 긴 사람이 반드시 일과 생활의 균형을 중시하는 것은 아니지만, 다나카 씨는 그렇게 마음먹고 있었다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 단순한 부정이 아닌 전제를 부분적으로 부정하는 표현",
+      "tags": [
+        "寿命"
+      ]
+    },
+    {
+      "sent": "<ruby>出版<rt>しゅっぱん</rt></ruby><ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>勤<rt>つと</rt></ruby>めていると、<ruby>出張<rt>しゅっちょう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くなることになる。",
+      "trans": "출판 회사에 다니면 출장이 많아지게 된다.",
+      "grammar": "〜ことになる — '~하게 되다', 자연스러운 귀결을 나타냄",
+      "tags": [
+        "出版",
+        "出張"
+      ]
+    },
+    {
+      "sent": "<ruby>乗車<rt>じょうしゃ</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>乗車券<rt>じょうしゃけん</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するのが<ruby>常識<rt>じょうしき</rt></ruby>だ。",
+      "trans": "승차하기 전에 승차권을 확인하는 것이 상식이다.",
+      "grammar": "〜のが〜だ — '~하는 것이 ~이다', 사실이나 판단을 단정적으로 나타냄",
+      "tags": [
+        "乗車",
+        "乗車券",
+        "常識"
+      ]
+    },
+    {
+      "sent": "<ruby>上司<rt>じょうし</rt></ruby>の<ruby>条件<rt>じょうけん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることは<ruby>仕事<rt>しごと</rt></ruby>の<ruby>常識<rt>じょうしき</rt></ruby>だと<ruby>言<rt>い</rt></ruby>える。",
+      "trans": "상사의 조건을 지키는 것은 업무의 상식이라고 말할 수 있다.",
+      "grammar": "〜と言える — '~라고 말할 수 있다', 판단이나 주장의 근거를 나타냄",
+      "tags": [
+        "上司",
+        "条件",
+        "常識"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「出張」の読み方はどれですか？",
+      "opt": [
+        "しゅっちょう",
+        "しゅつじょう",
+        "でちょう",
+        "しゅっこう"
+      ],
+      "ans": 0,
+      "comment": "出張(しゅっちょう)는 '출장'을 뜻합니다. 업무상 다른 곳으로 가는 것을 말해요."
+    },
+    {
+      "q": "「乗車券」の読み方はどれですか？",
+      "opt": [
+        "のりしゃけん",
+        "じょうしゃけん",
+        "のりくるまけん",
+        "じょうくるまけん"
+      ],
+      "ans": 1,
+      "comment": "乗車券(じょうしゃけん)는 '승차권'을 뜻합니다. 교통 수단을 이용하기 위한 티켓이에요."
+    },
+    {
+      "q": "「常識」の読み方はどれですか？",
+      "opt": [
+        "つうしき",
+        "じょうちしき",
+        "じょうしき",
+        "しょうちしき"
+      ],
+      "ans": 2,
+      "comment": "常識(じょうしき)는 '상식'을 뜻합니다. 일반적으로 알아야 할 지식이나 판단 능력이에요."
+    },
+    {
+      "q": "「招待」の意味はどれですか？",
+      "opt": [
+        "소개",
+        "초대",
+        "소환",
+        "초청장"
+      ],
+      "ans": 1,
+      "comment": "招待(しょうたい)는 '초대'를 뜻합니다. 사람을 식사나 행사 등에 부르는 것이에요."
+    },
+    {
+      "q": "「首都」の意味はどれですか？",
+      "opt": [
+        "도시",
+        "시청",
+        "수도",
+        "지방"
+      ],
+      "ans": 2,
+      "comment": "首都(しゅと)는 '수도'를 뜻합니다. 한 나라의 중심이 되는 도시예요."
+    },
+    {
+      "q": "「寿命」の意味はどれですか？",
+      "opt": [
+        "수입",
+        "수명",
+        "건강",
+        "나이"
+      ],
+      "ans": 1,
+      "comment": "寿命(じゅみょう)는 '수명'을 뜻합니다. 생물이 살 수 있는 기간을 가리켜요."
+    },
+    {
+      "q": "次の文を完成させてください：「来月、東京へ出張___。」",
+      "opt": [
+        "することになった",
+        "することにした",
+        "することだった",
+        "することがある"
+      ],
+      "ans": 0,
+      "comment": "〜ことになった는 외부 결정이나 자연스러운 귀결을 나타낼 때 사용해요. '출장을 가게 되었다'는 의미입니다."
+    },
+    {
+      "q": "次の文を完成させてください：「長生きする人が必ずしも健康に気を使う___。」",
+      "opt": [
+        "わけではない",
+        "わけがない",
+        "ことはない",
+        "ことがない"
+      ],
+      "ans": 0,
+      "comment": "〜わけではない는 '반드시 ~인 것은 아니다'라는 부분 부정 표현이에요. 전제를 완전히 부정하지 않을 때 씁니다."
+    },
+    {
+      "q": "「順番」の意味はどれですか？",
+      "opt": [
+        "방법",
+        "차례",
+        "기회",
+        "규칙"
+      ],
+      "ans": 1,
+      "comment": "順番(じゅんばん)는 '순번, 차례'를 뜻합니다. 일이나 행동의 순서를 말해요."
+    },
+    {
+      "q": "次の文を完成させてください：「会議の後、取引先から食事に___された。」",
+      "opt": [
+        "招待",
+        "消化",
+        "乗車",
+        "出場"
+      ],
+      "ans": 0,
+      "comment": "招待(しょうたい)는 '초대'를 뜻하며, 招待される는 '초대받다'는 수동 표현이에요."
+    }
+  ]
 }
