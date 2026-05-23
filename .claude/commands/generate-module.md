@@ -27,6 +27,40 @@ argument-hint: <level> <selector>
    - `next [N]`면 빈 모듈 중 ordinal 오름차순 N개 (기본 1).
 4. 대상 모듈 N개가 **6개 이상**이면 사용자에게 확인 후 5개로 잘라서 진행.
 
+## 다중 모듈 처리 (N ≥ 2): 서브에이전트 위임
+
+대상 모듈이 **2개 이상**이면 메인 에이전트는 각 모듈을 순서대로 `Agent` tool로 위임한다.  
+이유: 모듈 1개당 컨텍스트에 누적되는 ruby HTML·analysis 문장이 매우 크기 때문.  
+서브에이전트를 쓰면 메인 컨텍스트에는 "결과 한 줄"만 남아 모바일 환경에서도 안정적으로 동작한다.
+
+**메인 에이전트 절차:**
+1. 사전 검사(dist 동기화 + 모듈 목록 결정)는 메인이 직접 수행.
+2. 각 moduleId에 대해 순서대로 Agent tool 호출 (병렬 금지 — build 스크립트 충돌 방지):
+   - `description`: `"Generate {level} {moduleId}"`
+   - `prompt`: 아래 **서브에이전트 프롬프트 템플릿**을 변수 치환해서 사용.
+3. 서브에이전트가 반환한 결과 한 줄씩 수집 → 모든 모듈 완료 후 보고서 출력.
+
+### 서브에이전트 프롬프트 템플릿
+
+```
+당신은 JLPT 학습 모듈 생성 에이전트입니다.
+프로젝트 루트: c:\Users\JCH\Documents\GitHub\JLPT_ALLinOne
+
+먼저 `.claude/commands/generate-module.md`를 읽고,
+**Per-module 생성 워크플로 (Step 1~6)** 섹션을 아래 대상에 대해 실행하세요.
+
+- level: {level}
+- moduleId: {moduleId}
+
+완료 후 마지막 응답은 아래 형식 한 줄로만:
+성공: `{moduleId}: 성공 (자가수정 N회)`
+실패: `{moduleId}: SKIP (사유)`
+```
+
+> N=1이면 서브에이전트 없이 메인 에이전트가 직접 Per-module 워크플로를 수행한다.
+
+---
+
 ## Per-module 생성 워크플로
 
 ### Step 1. 입력 자산 수집
@@ -37,11 +71,11 @@ argument-hint: <level> <selector>
 |------|------|------|
 | `data/dist/<level>/modules/<moduleId>.json` | **vocab 포함** (story/analysis/quiz는 무시) | ~4KB |
 | `content/modules/rules/<level>-module-default.json` | 룰 | ~1KB |
-| `JLPT_Template_Prompt_N3.txt` | 레벨별 spec — **첫 모듈에서만 읽음** | ~5KB |
 
 > ⚠️ `data/src/<level>/vocab.json` (300KB+)은 읽지 않는다.  
 > dist 모듈 파일의 `vocab` 배열이 이미 해당 모듈의 단어를 정확히 포함하고 있음.  
-> `content/modules/notebooklm-inputs/` 파일도 읽지 않는다 (레벨에 따라 존재하지 않음).
+> `content/modules/notebooklm-inputs/` 파일도 읽지 않는다 (레벨에 따라 존재하지 않음).  
+> `JLPT_Template_Prompt_N3.txt`도 읽지 않는다 — 모든 spec은 이 스킬 파일에 내장되어 있음.
 
 vocab 목록 = dist 모듈의 `vocab` 배열 (word / read / mean / tags).
 
@@ -75,7 +109,7 @@ Claude가 직접 다음을 생성:
 - 장면마다 `<p>...</p>` 4-6 문장.
 - **모든 한자에 `<ruby>漢字<rt>よみ</rt></ruby>` 필수** — 누락 시 자동 검증에서 즉시 실패.
 - 룰의 `grammarTargets` 적극 활용.
-- 총 story 글자 수(plain text 기준) ≤ `maxChars × 장면수` (예: N3는 220 × 4 = 880자).
+- 총 story 글자 수(plain text 기준) ≤ `maxChars × 장면수` (예: N3는 220 × 4 = 880자). **`validate-module.js`가 자동으로 검사함 — 초과 시 빌드 검증 단계에서 실패.**
 - 일상적 상황 배경, 자연스러운 일본어.
 - vocab의 **80% 이상**이 story 본문에 등장해야 함.
 
@@ -109,6 +143,8 @@ Claude가 직접 다음을 생성:
   "tags": ["등장 vocab word"]
 }
 ```
+
+> `tags`: 해당 문장에 vocab word가 직접 등장하지 않으면 빈 배열 `[]` 허용. 억지로 채우지 말 것.
 
 `grammar` 필드 포맷: **`〜패턴명 — 설명 (조건)`**  
 예: `〜ことになる — '~하게 되다', 결정·상황의 자연스러운 귀결을 나타냄`
@@ -201,8 +237,10 @@ git/push는 **자동화하지 않는다.** 사용자가 GitHub Desktop으로 직
 
 - `data/dist/**` 직접 편집 금지 (빌드로만).
 - `data/src/<level>/vocab.json` 직접 읽기 금지 (너무 큼, dist 모듈 사용).
+- `JLPT_Template_Prompt_N3.txt` 읽기 금지 (레거시 파일, spec은 이 스킬에 내장됨).
 - `vocabIds` 변경 금지.
 - `moduleId/level/ordinal/ruleVersion` 변경 금지.
 - 자가 수정 루프 3회 초과 금지.
 - N5 대상 작업 금지.
 - git/gh 명령 실행 금지.
+- 다중 모듈 시 Agent tool 병렬 호출 금지 (build 충돌 방지).
