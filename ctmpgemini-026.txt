@@ -1,0 +1,283 @@
+{
+  "title": "N3: 지방 여행과 단수",
+  "story": "<h3>Scene 1. <ruby>旅<rt>たび</rt></ruby>の<ruby>始<rt>はじ</rt></ruby>まり（여행의 시작）</h3>\n<p><ruby>来月<rt>らいげつ</rt></ruby>の<ruby>中旬<rt>ちゅうじゅん</rt></ruby>、<ruby>地方<rt>ちほう</rt></ruby>へ<ruby>旅<rt>たび</rt></ruby>に<ruby>行<rt>い</rt></ruby>くことになりました。</p>\n<p><ruby>中学<rt>ちゅうがく</rt></ruby><ruby>時代<rt>じだい</rt></ruby>の<ruby>知人<rt>ちじん</rt></ruby>が<ruby>担当<rt>たんとう</rt></ruby>する<ruby>団体<rt>だんたい</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>です。</p>\n<p><ruby>短<rt>みじか</rt></ruby>い<ruby>短期<rt>たんき</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>ですが、<ruby>楽<rt>たの</rt></ruby>しみです。</p>\n<p><ruby>地方<rt>ちほう</rt></ruby>の<ruby>地名<rt>ちめい</rt></ruby>や<ruby>単語<rt>たんご</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすいい<ruby>機会<rt>きかい</rt></ruby>です。</p>\n<p><ruby>男子<rt>だんし</rt></ruby>ばかりのグループなので、<ruby>気楽<rt>きらく</rt></ruby>な<ruby>旅<rt>たび</rt></ruby>になりそうです。</p>\n\n<h3>Scene 2. <ruby>予期<rt>よき</rt></ruby>せぬ<ruby>事態<rt>じたい</rt></ruby>（예기치 못한 사태）</h3>\n<p><ruby>到着<rt>とうちゃく</rt></ruby>すると<ruby>寒<rt>さむ</rt></ruby>かったですが、<ruby>暖房<rt>だんぼう</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れていました。</p>\n<p>しかも、ホテルは<ruby>断水<rt>だんすい</rt></ruby>になっていました。</p>\n<p>しかし、<ruby>完全<rt>かんぜん</rt></ruby>に<ruby>水<rt>みず</rt></ruby>が<ruby>出<rt>で</rt></ruby>ないわけではありません。</p>\n<p><ruby>地下水<rt>ちかすい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っているため、<ruby>地下<rt>ちか</rt></ruby>へ<ruby>行<rt>い</rt></ruby>けば<ruby>水<rt>みず</rt></ruby>が<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。</p>\n<p>これも<ruby>都会<rt>とかい</rt></ruby>との<ruby>違<rt>ちが</rt></ruby>いだと<ruby>感<rt>かん</rt></ruby>じました。</p>\n\n<h3>Scene 3. <ruby>街<rt>まち</rt></ruby>の<ruby>探索<rt>たんさく</rt></ruby>（거리 탐색）</h3>\n<p><ruby>翌日<rt>よくじつ</rt></ruby>、<ruby>近道<rt>ちかみち</rt></ruby>をして<ruby>中央<rt>ちゅうおう</rt></ruby><ruby>駅<rt>えき</rt></ruby>に<ruby>向<rt>むか</rt></ruby>かいました。</p>\n<p><ruby>途中<rt>とちゅう</rt></ruby>で<ruby>中古<rt>ちゅうこ</rt></ruby>のカメラを<ruby>買<rt>か</rt></ruby>うことになりました。</p>\n<p>その<ruby>店<rt>みせ</rt></ruby>には<ruby>地球<rt>ちきゅう</rt></ruby><ruby>儀<rt>ぎ</rt></ruby>や<ruby>古<rt>ふる</rt></ruby>い<ruby>本<rt>ほん</rt></ruby>もありました。</p>\n<p><ruby>中級<rt>ちゅうきゅう</rt></ruby>の<ruby>中間<rt>ちゅうかん</rt></ruby>テストが<ruby>近<rt>ちか</rt></ruby>いわけではありませんが、<ruby>本<rt>ほん</rt></ruby>を<ruby>少<rt>すこ</rt></ruby>し<ruby>読<rt>よ</rt></ruby>みました。</p>\n<p><ruby>新<rt>あたら</rt></ruby>しい<ruby>趣味<rt>しゅみ</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby>かもしれません。</p>\n\n<h3>Scene 4. <ruby>帰路<rt>きろ</rt></ruby>へ（귀로에）</h3>\n<p><ruby>帰<rt>かえ</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>急<rt>きゅう</rt></ruby>に<ruby>体調<rt>たいちょう</rt></ruby>を<ruby>崩<rt>くず</rt></ruby>しました。</p>\n<p><ruby>近<rt>ちか</rt></ruby>くの<ruby>病院<rt>びょういん</rt></ruby>で<ruby>注射<rt>ちゅうしゃ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けることになりました。</p>\n<p><ruby>大<rt>おお</rt></ruby>きな<ruby>病気<rt>びょうき</rt></ruby>だったわけではありません。</p>\n<p><ruby>無事<rt>ぶじ</rt></ruby>に<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ることができました。</p>\n<p>またいつか、この<ruby>地方<rt>ちほう</rt></ruby>へ<ruby>旅<rt>たび</rt></ruby>に<ruby>来<rt>き</rt></ruby>たいと<ruby>思<rt>おも</rt></ruby>います。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>来月<rt>らいげつ</rt></ruby>の<ruby>中旬<rt>ちゅうじゅん</rt></ruby>、<ruby>地方<rt>ちほう</rt></ruby>へ<ruby>旅<rt>たび</rt></ruby>に<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "다음 달 중순, 지방으로 여행을 가게 되었습니다.",
+      "grammar": "〜ことになる — ~하게 되다 (결정된 사실)",
+      "tags": [
+        "中旬",
+        "地方",
+        "旅"
+      ]
+    },
+    {
+      "sent": "<ruby>中学<rt>ちゅうがく</rt></ruby><ruby>時代<rt>じだい</rt></ruby>の<ruby>知人<rt>ちじん</rt></ruby>が<ruby>担当<rt>たんとう</rt></ruby>する<ruby>団体<rt>だんたい</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>です。",
+      "trans": "중학 시절의 지인이 담당하는 단체 여행입니다.",
+      "grammar": "",
+      "tags": [
+        "中学",
+        "知人",
+        "担当",
+        "団体"
+      ]
+    },
+    {
+      "sent": "<ruby>短<rt>みじか</rt></ruby>い<ruby>短期<rt>たんき</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>ですが、<ruby>楽<rt>たの</rt></ruby>しみです。",
+      "trans": "짧은 단기 여행이지만 기대됩니다.",
+      "grammar": "",
+      "tags": [
+        "短期"
+      ]
+    },
+    {
+      "sent": "<ruby>地方<rt>ちほう</rt></ruby>の<ruby>地名<rt>ちめい</rt></ruby>や<ruby>単語<rt>たんご</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすいい<ruby>機会<rt>きかい</rt></ruby>です。",
+      "trans": "지방의 지명이나 단어 지식을 늘릴 좋은 기회입니다.",
+      "grammar": "",
+      "tags": [
+        "地方",
+        "地名",
+        "単語",
+        "知識"
+      ]
+    },
+    {
+      "sent": "<ruby>男子<rt>だんし</rt></ruby>ばかりのグループなので、<ruby>気楽<rt>きらく</rt></ruby>な<ruby>旅<rt>たび</rt></ruby>になりそうです。",
+      "trans": "남자들만의 그룹이라서 편안한 여행이 될 것 같습니다.",
+      "grammar": "",
+      "tags": [
+        "男子",
+        "旅"
+      ]
+    },
+    {
+      "sent": "<ruby>到着<rt>とうちゃく</rt></ruby>すると<ruby>寒<rt>さむ</rt></ruby>かったですが、<ruby>暖房<rt>だんぼう</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れていました。",
+      "trans": "도착하니 추웠지만, 난방이 고장 나 있었습니다.",
+      "grammar": "",
+      "tags": [
+        "暖房"
+      ]
+    },
+    {
+      "sent": "しかも、ホテルは<ruby>断水<rt>だんすい</rt></ruby>になっていました。",
+      "trans": "게다가 호텔은 단수가 되어 있었습니다.",
+      "grammar": "",
+      "tags": [
+        "断水"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>完全<rt>かんぜん</rt></ruby>に<ruby>水<rt>みず</rt></ruby>が<ruby>出<rt>で</rt></ruby>ないわけではありません。",
+      "trans": "하지만 완전히 물이 나오지 않는 것은 아닙니다.",
+      "grammar": "〜わけではない — ~인 것은 아니다 (부분 부정)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>地下水<rt>ちかすい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っているため、<ruby>地下<rt>ちか</rt></ruby>へ<ruby>行<rt>い</rt></ruby>けば<ruby>水<rt>みず</rt></ruby>が<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。",
+      "trans": "지하수를 사용하고 있기 때문에, 지하로 가면 물을 구할 수 있습니다.",
+      "grammar": "",
+      "tags": [
+        "地下水",
+        "地下"
+      ]
+    },
+    {
+      "sent": "これも<ruby>都会<rt>とかい</rt></ruby>との<ruby>違<rt>ちが</rt></ruby>いだと<ruby>感<rt>かん</rt></ruby>じました。",
+      "trans": "이것도 도시와의 다름이라고 느꼈습니다.",
+      "grammar": "",
+      "tags": [
+        "違い"
+      ]
+    },
+    {
+      "sent": "<ruby>翌日<rt>よくじつ</rt></ruby>、<ruby>近道<rt>ちかみち</rt></ruby>をして<ruby>中央<rt>ちゅうおう</rt></ruby><ruby>駅<rt>えき</rt></ruby>に<ruby>向<rt>むか</rt></ruby>かいました。",
+      "trans": "다음 날, 지름길로 해서 중앙역으로 향했습니다.",
+      "grammar": "",
+      "tags": [
+        "近道",
+        "中央"
+      ]
+    },
+    {
+      "sent": "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>中古<rt>ちゅうこ</rt></ruby>のカメラを<ruby>買<rt>か</rt></ruby>うことになりました。",
+      "trans": "도중에 중고 카메라를 사게 되었습니다.",
+      "grammar": "〜ことになる — ~하게 되다 (결정된 사실)",
+      "tags": [
+        "中古"
+      ]
+    },
+    {
+      "sent": "その<ruby>店<rt>みせ</rt></ruby>には<ruby>地球<rt>ちきゅう</rt></ruby><ruby>儀<rt>ぎ</rt></ruby>や<ruby>古<rt>ふる</rt></ruby>い<ruby>本<rt>ほん</rt></ruby>もありました。",
+      "trans": "그 가게에는 지구본이나 낡은 책도 있었습니다.",
+      "grammar": "",
+      "tags": [
+        "地球"
+      ]
+    },
+    {
+      "sent": "<ruby>中級<rt>ちゅうきゅう</rt></ruby>の<ruby>中間<rt>ちゅうかん</rt></ruby>テストが<ruby>近<rt>ちか</rt></ruby>いわけではありませんが、<ruby>本<rt>ほん</rt></ruby>を<ruby>少<rt>すこ</rt></ruby>し<ruby>読<rt>よ</rt></ruby>みました。",
+      "trans": "중급의 중간 고사가 가까운 것은 아니지만, 책을 조금 읽었습니다.",
+      "grammar": "〜わけではない — ~인 것은 아니다 (부분 부정)",
+      "tags": [
+        "中級",
+        "中間"
+      ]
+    },
+    {
+      "sent": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>趣味<rt>しゅみ</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby>かもしれません。",
+      "trans": "새로운 취미의 탄생일지도 모릅니다.",
+      "grammar": "",
+      "tags": [
+        "誕生"
+      ]
+    },
+    {
+      "sent": "<ruby>帰<rt>かえ</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>急<rt>きゅう</rt></ruby>に<ruby>体調<rt>たいちょう</rt></ruby>を<ruby>崩<rt>くず</rt></ruby>しました。",
+      "trans": "돌아가기 전에 갑자기 컨디션이 나빠졌습니다.",
+      "grammar": "",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>近<rt>ちか</rt></ruby>くの<ruby>病院<rt>びょういん</rt></ruby>で<ruby>注射<rt>ちゅうしゃ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けることになりました。",
+      "trans": "근처 병원에서 주사를 맞게 되었습니다.",
+      "grammar": "〜ことになる — ~하게 되다 (결정된 사실)",
+      "tags": [
+        "注射"
+      ]
+    },
+    {
+      "sent": "<ruby>大<rt>おお</rt></ruby>きな<ruby>病気<rt>びょうき</rt></ruby>だったわけではありません。",
+      "trans": "큰 병이었던 것은 아닙니다.",
+      "grammar": "〜わけではない — ~인 것은 아니다 (부분 부정)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>無事<rt>ぶじ</rt></ruby>に<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ることができました。",
+      "trans": "무사히 전철에 탈 수 있었습니다.",
+      "grammar": "",
+      "tags": []
+    },
+    {
+      "sent": "またいつか、この<ruby>地方<rt>ちほう</rt></ruby>へ<ruby>旅<rt>たび</rt></ruby>に<ruby>来<rt>き</rt></ruby>たいと<ruby>思<rt>おも</rt></ruby>います。",
+      "trans": "언젠가 또 이 지방으로 여행을 오고 싶습니다.",
+      "grammar": "",
+      "tags": [
+        "地方",
+        "旅"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "次の言葉の読み方として最もよいものを、一つ選びなさい。<br><b>断水</b>になっていた。",
+      "opt": [
+        "だんすい",
+        "たんすい",
+        "だんずい",
+        "たんずい"
+      ],
+      "ans": 0,
+      "comment": "断水(だんすい): 단수"
+    },
+    {
+      "q": "次の言葉の読み方として最もよいものを、一つ選びなさい。<br><b>地下水</b>を使っている。",
+      "opt": [
+        "じかすい",
+        "ちかすい",
+        "ちかみず",
+        "じかみず"
+      ],
+      "ans": 1,
+      "comment": "地下水(ちかすい): 지하수"
+    },
+    {
+      "q": "次の言葉の読み方として最もよいものを、一つ選びなさい。<br>病院で<b>注射</b>を受けた。",
+      "opt": [
+        "ちゅうさ",
+        "じゅうしゃ",
+        "ちゅうしゃ",
+        "じゅうさ"
+      ],
+      "ans": 2,
+      "comment": "注射(ちゅうしゃ): 주사"
+    },
+    {
+      "q": "次の言葉の読み方として最もよいものを、一つ選びなさい。<br><b>単語</b>の知識を増やす。",
+      "opt": [
+        "だんご",
+        "たんご",
+        "だんこ",
+        "たんこ"
+      ],
+      "ans": 1,
+      "comment": "単語(たんご): 단어"
+    },
+    {
+      "q": "次の言葉の意味として最もよいものを、一つ選びなさい。<br><b>近道</b>",
+      "opt": [
+        "지름길",
+        "중앙길",
+        "횡단보도",
+        "지하도"
+      ],
+      "ans": 0,
+      "comment": "近道(ちかみち): 지름길"
+    },
+    {
+      "q": "次の言葉の意味として最もよいものを、一つ選びなさい。<br><b>知人</b>",
+      "opt": [
+        "지능",
+        "지인",
+        "지식",
+        "지방"
+      ],
+      "ans": 1,
+      "comment": "知人(ちじん): 지인, 아는 사람"
+    },
+    {
+      "q": "次の言葉の意味として最もよいものを、一つ選びなさい。<br><b>担当</b>",
+      "opt": [
+        "단체",
+        "담당",
+        "담보",
+        "단기"
+      ],
+      "ans": 1,
+      "comment": "担当(たんとう): 담당"
+    },
+    {
+      "q": "次の文の（　　）に入れるのに最もよいものを、一つ選びなさい。<br>来月、日本へ行く（　　）。",
+      "opt": [
+        "ことになった",
+        "わけではない",
+        "わけにはいかない",
+        "はずがない"
+      ],
+      "ans": 0,
+      "comment": "「〜ことになる」는 '~하게 되다'라는 의미로 예정이나 결정된 사실을 나타냅니다."
+    },
+    {
+      "q": "次の文の（　　）に入れるのに最もよいものを、一つ選びなさい。<br>毎日遊んでいる（　　）、ちゃんと勉強もしています。",
+      "opt": [
+        "ことだ",
+        "わけではない",
+        "ことになる",
+        "わけだ"
+      ],
+      "ans": 1,
+      "comment": "「〜わけではない」는 '~인 것은 아니다'라는 부분 부정을 의미합니다."
+    },
+    {
+      "q": "次の文の（　　）に入れるのに最もよいものを、一つ選びなさい。<br>このカメラは（　　）で買いました。",
+      "opt": [
+        "中央",
+        "誕生",
+        "中古",
+        "男子"
+      ],
+      "ans": 2,
+      "comment": "中古(ちゅうこ)는 중고를 의미하므로 문맥상 가장 적절합니다."
+    }
+  ]
+}

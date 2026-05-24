@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * check-vocab.js — src 모듈의 story 본문(plain text)에 vocab word가
- * 80% 이상 등장하는지 빠르게 검사한다.
+ * 100% 등장하는지 빠르게 검사한다.
  *
  * validate-module.js 의 vocab 등장률 체크와 동일한 기준이지만,
  * build / schema 통과 없이도 사전 단계에서 빠르게 돌릴 수 있다.
@@ -9,7 +9,7 @@
  * Usage:
  *   node scripts/check-vocab.js <level> <moduleId>
  *
- * Exit 0: 80% 이상 (PASS)
+ * Exit 0: 100% (PASS)
  * Exit 1: 미만 (FAIL — 누락 단어 목록 출력)
  */
 
@@ -19,7 +19,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const VOCAB_APPEARANCE_RATIO = 0.8;
+const VOCAB_APPEARANCE_RATIO = 1.0;
 
 function stripHtml(html) {
     return String(html)

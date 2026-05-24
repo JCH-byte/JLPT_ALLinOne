@@ -6,7 +6,11 @@
       "Bash(node scripts/check-ruby.js *)",
       "Bash(node scripts/check-vocab.js *)",
       "Bash(node scripts/validate-module.js *)",
-      "Bash(gemini -m *)"
+      "Bash(gemini -m *)",
+      "PowerShell(node scripts/build-data.js *)",
+      "PowerShell(node scripts/check-ruby.js *)",
+      "PowerShell(node scripts/check-vocab.js *)",
+      "PowerShell(node scripts/validate-module.js *)"
     ]
   }
 }

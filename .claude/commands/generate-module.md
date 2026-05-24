@@ -25,7 +25,7 @@ argument-hint: <level> <selector>
    - `list`면 `node -e "..."` 로 `data/dist/<level>/index.json` 읽어 `hasContent === false`인 moduleId 출력 후 종료.
    - 숫자 단일 또는 범위면 해당 ordinal의 moduleId 결정 (`<level>-module-<NNN>` 형식, 0-pad 3).
    - `next [N]`면 빈 모듈 중 ordinal 오름차순 N개 (기본 1).
-4. 대상 모듈 N개가 **6개 이상**이면 사용자에게 확인 후 5개로 잘라서 진행.
+4. 대상 모듈 N개가 **11개 이상**이면 사용자에게 확인 후 10개로 잘라서 진행.
 
 ## 다중 모듈 처리 (N ≥ 2): 서브에이전트 위임
 
@@ -51,6 +51,9 @@ argument-hint: <level> <selector>
 
 - level: {level}
 - moduleId: {moduleId}
+
+⚠️ Gemini CLI 호출 시 반드시 `gemini-3.1-pro-preview` 모델만 사용할 것.
+다른 모델 ID(gemini-2.0-flash 등)는 품질 저하 또는 ModelNotFoundError 발생.
 
 완료 후 마지막 응답은 아래 형식 한 줄로만:
 성공: `{moduleId}: 성공 (자가수정 N회)` — 자가수정이 있었다면 사유도 괄호 안에 추가
@@ -132,11 +135,14 @@ gemini -m gemini-3.1-pro-preview -p "$(cat <<'PROMPT'
 
 - 문법 타겟 반드시 사용: 〜ことになる, 〜わけではない
 - 장면당 plain text 220자 이하
-- vocab 25개 중 80% 이상 story에 등장
+- vocab 25개 **전부** story에 등장 (100% 필수)
 
 ### analysis (16~20개)
-{ "sent": "ruby 포함 문장", "trans": "한국어", "grammar": "〜패턴 — 설명 (조건)", "tags": ["vocab word"] }
-vocab이 없는 문장은 "tags": []
+⚠️ **grammar 필드 절대 누락 금지 — 모든 항목에 필수.**
+형식: `{ "sent": "ruby 포함 문장", "trans": "한국어", "grammar": "〜패턴 — 설명 (조건)", "tags": ["vocab word"] }`
+- grammar 예시: `"〜ことになる — '~하게 되다', 결정·상황의 자연스러운 귀결을 나타냄 (비의도적 결과)"`
+- grammar가 빈 문자열이거나 필드 자체가 없으면 검증 실패.
+- vocab이 없는 문장은 `"tags": []` (grammar는 여전히 필수)
 
 ### quiz (정확히 10개)
 읽기(よみ) 4 + 의미 3 + 문장완성 3
@@ -183,7 +189,7 @@ Gemini를 쓸 수 없을 때 Claude가 직접 다음을 생성:
 - 룰의 `grammarTargets` 적극 활용.
 - 총 story 글자 수(plain text 기준) ≤ `maxChars × 장면수` (예: N3는 220 × 4 = 880자). **`validate-module.js`가 자동으로 검사함 — 초과 시 빌드 검증 단계에서 실패.**
 - 일상적 상황 배경, 자연스러운 일본어.
-- vocab의 **80% 이상**이 story 본문에 등장해야 함.
+- vocab **전부(100%)**가 story 본문에 등장해야 함.
 
 **ruby 누락 주의 체크리스트 — story 완성 후 반드시 확인:**
 
@@ -245,7 +251,7 @@ Gemini를 쓸 수 없을 때 Claude가 직접 다음을 생성:
 2. 저장 직후 **사전 검사 2개**를 실행 (빌드 없이 빠르게):
    ```bash
    node scripts/check-ruby.js <level> <moduleId>    # story + analysis[].sent 의 ruby 누락 검사
-   node scripts/check-vocab.js <level> <moduleId>   # vocab word 80%+ 등장 검사
+   node scripts/check-vocab.js <level> <moduleId>   # vocab word 100% 등장 검사
    ```
    - 둘 다 PASS이면 Step 4로.
    - 어느 하나라도 FAIL이면 src 파일의 해당 필드(story 또는 analysis)만 수정 후 재저장 → 재검사. 빌드 없이 빠르게 반복.

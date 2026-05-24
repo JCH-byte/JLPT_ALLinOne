@@ -26,7 +26,7 @@ const LEVEL_SPEC = {
 };
 
 const QUIZ_COUNT = 10;
-const VOCAB_APPEARANCE_RATIO = 0.8;
+const VOCAB_APPEARANCE_RATIO = 1.0;
 
 function readJson(p) { return JSON.parse(fs.readFileSync(p, 'utf8')); }
 
@@ -143,7 +143,7 @@ function validate(level, moduleId) {
         if (typeof q.comment !== 'string') errors.push(`quiz[${i}].comment: missing`);
     });
 
-    // 6) vocab 등장률 (story 본문에 vocab의 word가 80%+ 등장)
+    // 6) vocab 등장률 (story 본문에 vocab의 word가 100% 등장)
     if (mod.vocabIds.length > 0 && mod.story) {
         const plain = stripHtml(mod.story);
         const vocabWords = mod.vocabIds.map((id) => vocabById.get(id)?.word).filter(Boolean);
