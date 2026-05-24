@@ -2,7 +2,7 @@
   "moduleId": "n3-module-037",
   "level": "n3",
   "ordinal": 37,
-  "title": "は行の名詞・5 (は행 명사 5)",
+  "title": "N3: 바쁜 연말연시",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-5db83e625db683e3a5b074e37f538d043a607573",
@@ -31,7 +31,177 @@
     "v-cbf6f69b3085c30ba674a5b0ee3c980ba6ed2799",
     "v-971bfa07abc97700ec43fe68c029c703fa74088f"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>忘年会<rt>ぼうねんかい</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>（망년회 준비）</h3><p><ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>忘年会<rt>ぼうねんかい</rt></ruby>の<ruby>募集<rt>ぼしゅう</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。</p><p><ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>坊<rt>ぼっ</rt></ruby>ちゃんや<ruby>孫<rt>まご</rt></ruby>も<ruby>来<rt>く</rt></ruby>ることになります。</p><p>キッチンでは<ruby>新<rt>あたら</rt></ruby>しい<ruby>包丁<rt>ほうちょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>います。</p><p>ほこりを<ruby>掃除<rt>そうじ</rt></ruby>する<ruby>間<rt>ま</rt></ruby>もありません。</p><p>とても<ruby>忙<rt>いそが</rt></ruby>しい<ruby>一日<rt>いちにち</rt></ruby>です。</p><h3>Scene 2. <ruby>街<rt>まち</rt></ruby>での<ruby>出来事<rt>できごと</rt></ruby>（거리에서의 일）</h3><p><ruby>仕事<rt>しごと</rt></ruby>で<ruby>方々<rt>ほうぼう</rt></ruby>を<ruby>訪問<rt>ほうもん</rt></ruby>しました。</p><p>そして<ruby>本店<rt>ほんてん</rt></ruby>がある<ruby>街<rt>まち</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</p><p><ruby>途中<rt>とちゅう</rt></ruby>で<ruby>泣<rt>な</rt></ruby>いている<ruby>迷子<rt>まいご</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけました。</p><p><ruby>本人<rt>ほんにん</rt></ruby>から<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>親<rt>おや</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しました。</p><p><ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>任<rt>まか</rt></ruby>せるわけではないです。</p><h3>Scene 3. <ruby>本部<rt>ほんぶ</rt></ruby>での<ruby>翻訳<rt>ほんやく</rt></ruby>（본부에서의 번역）</h3><p><ruby>午後<rt>ごご</rt></ruby>は<ruby>本部<rt>ほんぶ</rt></ruby>で<ruby>法律<rt>ほうりつ</rt></ruby>の<ruby>翻訳<rt>ほんやく</rt></ruby>をしました。</p><p>これは<ruby>本物<rt>ほんもの</rt></ruby>の<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>書類<rt>しょるい</rt></ruby>です。</p><p><ruby>自然<rt>しぜん</rt></ruby>の<ruby>法則<rt>ほうそく</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じで、ルールがあります。</p><p><ruby>正<rt>ただ</rt></ruby>しい<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>書<rt>か</rt></ruby>くことになります。</p><p><ruby>毎度<rt>まいど</rt></ruby>やり<ruby>方<rt>かた</rt></ruby>が<ruby>変<rt>か</rt></ruby>わるわけではないです。</p><h3>Scene 4. <ruby>家<rt>いえ</rt></ruby>への<ruby>道<rt>みち</rt></ruby>（집으로 가는 길）</h3><p><ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わり、<ruby>北<rt>きた</rt></ruby>の<ruby>方面<rt>ほうめん</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>ります。</p><p><ruby>暗<rt>くら</rt></ruby>い<ruby>歩道<rt>ほどう</rt></ruby>を<ruby>静<rt>しず</rt></ruby>かに<ruby>歩<rt>ある</rt></ruby>きました。</p><p><ruby>大<rt>おお</rt></ruby>きな<ruby>歩道橋<rt>ほどうきょう</rt></ruby>をゆっくり<ruby>渡<rt>わた</rt></ruby>ります。</p><p><ruby>失敗<rt>しっぱい</rt></ruby>しても、<ruby>完全<rt>かんぜん</rt></ruby>な<ruby>負<rt>ま</rt></ruby>けではありません。</p><p><ruby>明日<rt>あす</rt></ruby>もまた<ruby>頑張<rt>がんば</rt></ruby>ることになります。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>忘年会<rt>ぼうねんかい</rt></ruby>の<ruby>募集<rt>ぼしゅう</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。",
+      "trans": "회사의 망년회 모집이 시작되었습니다.",
+      "grammar": "명사 + の + 명사 — 명사구 연결 (소유·소속 관계)",
+      "tags": ["忘年会", "募集"]
+    },
+    {
+      "sent": "<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>坊<rt>ぼっ</rt></ruby>ちゃんや<ruby>孫<rt>まご</rt></ruby>も<ruby>来<rt>く</rt></ruby>ることになります。",
+      "trans": "사장님의 도련님과 손자도 오게 됩니다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정·상황의 자연스러운 귀결을 나타냄 (비의도적 결과)",
+      "tags": ["坊ちゃん", "孫"]
+    },
+    {
+      "sent": "キッチンでは<ruby>新<rt>あたら</rt></ruby>しい<ruby>包丁<rt>ほうちょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>います。",
+      "trans": "주방에서는 새로운 식칼을 사용합니다.",
+      "grammar": "〜では — 장소 조사 で + 주제 は의 결합 (대조·한정)",
+      "tags": ["包丁"]
+    },
+    {
+      "sent": "ほこりを<ruby>掃除<rt>そうじ</rt></ruby>する<ruby>間<rt>ま</rt></ruby>もありません。",
+      "trans": "먼지를 청소할 틈도 없습니다.",
+      "grammar": "〜する間もない — '~할 틈도 없다', 여유가 없음을 강조 (시간 부족)",
+      "tags": ["ほこり", "間"]
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>で<ruby>方々<rt>ほうぼう</rt></ruby>を<ruby>訪問<rt>ほうもん</rt></ruby>しました。",
+      "trans": "일 때문에 이곳저곳을 방문했습니다.",
+      "grammar": "〜で — 이유·수단의 조사 (원인·수단)",
+      "tags": ["方々", "訪問"]
+    },
+    {
+      "sent": "そして<ruby>本店<rt>ほんてん</rt></ruby>がある<ruby>街<rt>まち</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "그리고 본점이 있는 거리로 갔습니다.",
+      "grammar": "〜がある + 명사 — 동사 원형으로 명사 수식 (관계절)",
+      "tags": ["本店", "街"]
+    },
+    {
+      "sent": "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>泣<rt>な</rt></ruby>いている<ruby>迷子<rt>まいご</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけました。",
+      "trans": "도중에 울고 있는 미아를 발견했습니다.",
+      "grammar": "〜ている — 진행 중인 상태를 묘사 (동작의 계속)",
+      "tags": ["迷子"]
+    },
+    {
+      "sent": "<ruby>本人<rt>ほんにん</rt></ruby>から<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>親<rt>おや</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しました。",
+      "trans": "본인에게 이야기를 듣고, 부모를 찾았습니다.",
+      "grammar": "〜て형 — 순차적 동작의 연결 (시간적 연속)",
+      "tags": ["本人"]
+    },
+    {
+      "sent": "<ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>任<rt>まか</rt></ruby>せるわけではないです。",
+      "trans": "다른 사람에게 맡기는 것은 아닙니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 부분 부정 (완전 부정이 아님을 강조)",
+      "tags": ["他"]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>本部<rt>ほんぶ</rt></ruby>で<ruby>法律<rt>ほうりつ</rt></ruby>の<ruby>翻訳<rt>ほんやく</rt></ruby>をしました。",
+      "trans": "오후에는 본부에서 법률 번역을 했습니다.",
+      "grammar": "〜で — 장소 조사 (행위가 이루어지는 장소)",
+      "tags": ["本部", "法律", "翻訳"]
+    },
+    {
+      "sent": "これは<ruby>本物<rt>ほんもの</rt></ruby>の<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>書類<rt>しょるい</rt></ruby>です。",
+      "trans": "이것은 진짜 중요한 서류입니다.",
+      "grammar": "〜の + 형용사 + 명사 — 명사를 한정·수식 (강조)",
+      "tags": ["本物"]
+    },
+    {
+      "sent": "<ruby>自然<rt>しぜん</rt></ruby>の<ruby>法則<rt>ほうそく</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じで、ルールがあります。",
+      "trans": "자연의 법칙과 같아서, 규칙이 있습니다.",
+      "grammar": "〜と同じで — '~와 같아서', 비교를 이유로 연결 (비교·원인)",
+      "tags": ["法則"]
+    },
+    {
+      "sent": "<ruby>正<rt>ただ</rt></ruby>しい<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>書<rt>か</rt></ruby>くことになります。",
+      "trans": "올바른 방법으로 작성하게 됩니다.",
+      "grammar": "〜ことになる — '~하게 되다', 자연스러운 귀결을 나타냄 (규범·결정)",
+      "tags": ["方法"]
+    },
+    {
+      "sent": "<ruby>毎度<rt>まいど</rt></ruby>やり<ruby>方<rt>かた</rt></ruby>が<ruby>変<rt>か</rt></ruby>わるわけではないです。",
+      "trans": "매번 방식이 바뀌는 것은 아닙니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 부분 부정 (오해 해소)",
+      "tags": ["毎度"]
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わり、<ruby>北<rt>きた</rt></ruby>の<ruby>方面<rt>ほうめん</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>ります。",
+      "trans": "일이 끝나고, 북쪽 방면으로 돌아갑니다.",
+      "grammar": "〜ます형 어간 중지법 — 동작을 이어서 서술 (순차·병렬)",
+      "tags": ["方面"]
+    },
+    {
+      "sent": "<ruby>暗<rt>くら</rt></ruby>い<ruby>歩道<rt>ほどう</rt></ruby>を<ruby>静<rt>しず</rt></ruby>かに<ruby>歩<rt>ある</rt></ruby>きました。",
+      "trans": "어두운 보도를 조용히 걸었습니다.",
+      "grammar": "형용동사 + に — 부사형 어미 (~하게, ~히) (부사 표현)",
+      "tags": ["歩道"]
+    },
+    {
+      "sent": "<ruby>大<rt>おお</rt></ruby>きな<ruby>歩道橋<rt>ほどうきょう</rt></ruby>をゆっくり<ruby>渡<rt>わた</rt></ruby>ります。",
+      "trans": "큰 육교를 천천히 건넙니다.",
+      "grammar": "연체사(大きな) — 명사 앞에서만 쓰는 수식 형식 (명사 한정)",
+      "tags": ["歩道橋"]
+    },
+    {
+      "sent": "<ruby>失敗<rt>しっぱい</rt></ruby>しても、<ruby>完全<rt>かんぜん</rt></ruby>な<ruby>負<rt>ま</rt></ruby>けではありません。",
+      "trans": "실패하더라도, 완전한 패배는 아닙니다.",
+      "grammar": "〜ても — '~하더라도', 역접 가정 (양보 조건)",
+      "tags": ["負け"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい。「法則」",
+      "opt": ["ほうそく", "ほっそく", "ほうぞく", "ほぞく"],
+      "ans": 0,
+      "comment": "「法則(ほうそく)」는 자연이나 사회의 「법칙」을 의미합니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい。「歩道橋」",
+      "opt": ["ふどうきょう", "ほどうばし", "ほどうきょう", "ほどうきょ"],
+      "ans": 2,
+      "comment": "「歩道橋(ほどうきょう)」는 도로를 건너는 「육교」를 의미합니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい。「翻訳」",
+      "opt": ["ほんえき", "はんやく", "はんえき", "ほんやく"],
+      "ans": 3,
+      "comment": "「翻訳(ほんやく)」는 다른 언어로 옮기는 「번역」을 뜻합니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい。「迷子」",
+      "opt": ["めいこ", "まいご", "めいご", "まいこ"],
+      "ans": 1,
+      "comment": "「迷子(まいご)」는 길을 잃은 아이, 즉 「미아」를 의미합니다."
+    },
+    {
+      "q": "次の言葉の意味として最も適切なものを選びなさい。「包丁」",
+      "opt": ["가위", "식칼", "냄비", "도마"],
+      "ans": 1,
+      "comment": "「包丁(ほうちょう)」는 요리에 사용하는 「식칼」입니다."
+    },
+    {
+      "q": "次の言葉の意味として最も適切なものを選びなさい。「方々」",
+      "opt": ["사람들", "이곳저곳", "방법들", "방향"],
+      "ans": 1,
+      "comment": "「方々(ほうぼう)」는 여러 방향이나 장소를 뜻하는 「이곳저곳」입니다."
+    },
+    {
+      "q": "次の言葉の意味として最も適切なものを選びなさい。「毎度」",
+      "opt": ["매일", "매번", "매달", "매년"],
+      "ans": 1,
+      "comment": "「毎度(まいど)」는 그때마다라는 의미의 「매번」입니다."
+    },
+    {
+      "q": "年末には会社の（　　　）が開かれる。",
+      "opt": ["忘年会", "募集", "本店", "訪問"],
+      "ans": 0,
+      "comment": "연말에 열리는 모임은 「忘年会(망년회)」입니다."
+    },
+    {
+      "q": "もっと効率的に勉強する（　　　）を教えてください。",
+      "opt": ["法則", "方面", "方法", "法律"],
+      "ans": 2,
+      "comment": "공부하는 '방법'을 묻고 있으므로 「方法(방법)」이 적합합니다."
+    },
+    {
+      "q": "長い間使っていなかったので、本に（　　　）がかぶっている。",
+      "opt": ["ほこり", "他", "本物", "間"],
+      "ans": 0,
+      "comment": "오랫동안 사용하지 않아 쌓인 것은 「ほこり(먼지)」입니다."
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "moduleId": "n3-module-038",
   "level": "n3",
   "ordinal": 38,
-  "title": "ま行の名詞・1 (ま행 명사 1)",
+  "title": "N3: 약속과 만남",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-d08e5b5b9948d3f4efcd36dbe5d07da9382f0f1e",
@@ -31,7 +31,256 @@
     "v-407c9440f2892269b2ac1d9cfea0cb760be49a9c",
     "v-cb14b21f9c42786546b42aa257b4b0e3091f8395"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>街角<rt>まちかど</rt></ruby>のカフェ（길모퉁이의 카페）</h3>\n<p><ruby>明後日<rt>あさって</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>街角<rt>まちかど</rt></ruby>のカフェで<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせをすることになった。</p>\n<p>そのカフェは<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>のそばにあり、<ruby>窓側<rt>まどがわ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>が<ruby>人気<rt>にんき</rt></ruby>だ。</p>\n<p>キッチンではシェフがまな<ruby>板<rt>いた</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>をしている。</p>\n<p><ruby>有名<rt>ゆうめい</rt></ruby>なレストランの<ruby>真似<rt>まね</rt></ruby>をしているわけではない。</p>\n<p><ruby>間違<rt>まちが</rt></ruby>いのない<ruby>味<rt>あじ</rt></ruby>で<ruby>評判<rt>ひょうばん</rt></ruby>だ。</p>\n<h3>Scene 2. <ruby>迷<rt>まよ</rt></ruby>い<ruby>道<rt>みち</rt></ruby>（헤매는 길）</h3>\n<p>カフェの<ruby>周<rt>まわ</rt></ruby>りには<ruby>豆<rt>まめ</rt></ruby>を<ruby>売<rt>う</rt></ruby>る<ruby>店<rt>みせ</rt></ruby>がある。</p>\n<p><ruby>真夜中<rt>まよなか</rt></ruby>まで<ruby>開<rt>あ</rt></ruby>いているわけではないが、いつも<ruby>満員<rt>まんいん</rt></ruby>だ。</p>\n<p><ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>って<ruby>回<rt>まわ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>をすることになった。</p>\n<p><ruby>風車<rt>ふうしゃ</rt></ruby>の<ruby>回<rt>まわ</rt></ruby>りが<ruby>速<rt>はや</rt></ruby>く、<ruby>看板<rt>かんばん</rt></ruby>には<ruby>丸<rt>まる</rt></ruby>いマークがある。</p>\n<p><ruby>歩<rt>ある</rt></ruby>き<ruby>疲<rt>つか</rt></ruby>れたが、<ruby>景色<rt>けしき</rt></ruby>はすばらしい。</p>\n<h3>Scene 3. <ruby>湖<rt>みずうみ</rt></ruby>への<ruby>出発<rt>しゅっぱつ</rt></ruby>（호수로의 출발）</h3>\n<p><ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>湖<rt>みずうみ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになった。</p>\n<p><ruby>水着<rt>みずぎ</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>くが、<ruby>泳<rt>およ</rt></ruby>ぐわけではない。</p>\n<p><ruby>家族<rt>かぞく</rt></ruby>の<ruby>見送<rt>みおく</rt></ruby>りを<ruby>受<rt>う</rt></ruby>けて、<ruby>一人<rt>ひとり</rt></ruby>で<ruby>出発<rt>しゅっぱつ</rt></ruby>した。</p>\n<p><ruby>私<rt>わたし</rt></ruby>の<ruby>身<rt>み</rt></ruby>を<ruby>案<rt>あん</rt></ruby>じてくれる<ruby>味方<rt>みかた</rt></ruby>がいるのはありがたい。</p>\n<p>テストで<ruby>満点<rt>まんてん</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったように<ruby>満足<rt>まんぞく</rt></ruby>している。</p>\n<h3>Scene 4. <ruby>環境<rt>かんきょう</rt></ruby>の<ruby>見直<rt>みなお</rt></ruby>し（환경의 재검토）</h3>\n<p><ruby>新聞<rt>しんぶん</rt></ruby>の<ruby>見出<rt>みだ</rt></ruby>しに<ruby>環境<rt>かんきょう</rt></ruby>の<ruby>事<rt>こと</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてある。</p>\n<p><ruby>緑<rt>みどり</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やす<ruby>計画<rt>けいかく</rt></ruby>を<ruby>見直<rt>みなお</rt></ruby>しすることになった。</p>\n<p>すぐに<ruby>結果<rt>けっか</rt></ruby>が<ruby>出<rt>で</rt></ruby>るわけではない。</p>\n<p>それでも、みんなで<ruby>考<rt>かんが</rt></ruby>えることが<ruby>大切<rt>たいせつ</rt></ruby>だ。</p>\n<p>これからの<ruby>生活<rt>せいかつ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わると<ruby>思<rt>おも</rt></ruby>う。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>明後日<rt>あさって</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>街角<rt>まちかど</rt></ruby>のカフェで<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせをすることになった。",
+      "trans": "모레, 친구와 길모퉁이의 카페에서 만나기로 약속했다.",
+      "grammar": "〜ことになる — '~하기로 되다, ~하게 되다', 결정·상황의 자연스러운 귀결을 나타냄",
+      "tags": [
+        "明後日",
+        "街角",
+        "待ち合わせ"
+      ]
+    },
+    {
+      "sent": "そのカフェは<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>のそばにあり、<ruby>窓側<rt>まどがわ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>が<ruby>人気<rt>にんき</rt></ruby>だ。",
+      "trans": "그 카페는 소나무 곁에 있고, 창가 자리가 인기다.",
+      "grammar": "Nのそばに — '~의 곁에', 위치를 나타냄",
+      "tags": [
+        "松",
+        "窓側"
+      ]
+    },
+    {
+      "sent": "キッチンではシェフがまな<ruby>板<rt>いた</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>をしている。",
+      "trans": "주방에서는 셰프가 도마 위에서 요리를 하고 있다.",
+      "grammar": "〜ている — '~하고 있다', 현재 진행 중인 동작",
+      "tags": [
+        "まな板"
+      ]
+    },
+    {
+      "sent": "<ruby>有名<rt>ゆうめい</rt></ruby>なレストランの<ruby>真似<rt>まね</rt></ruby>をしているわけではない。",
+      "trans": "유명한 레스토랑의 흉내를 내고 있는 것은 아니다.",
+      "grammar": "〜わけではない — '~한 것은 아니다', 부분적인 부정이나 완곡한 부정",
+      "tags": [
+        "真似"
+      ]
+    },
+    {
+      "sent": "<ruby>間違<rt>まちが</rt></ruby>いのない<ruby>味<rt>あじ</rt></ruby>で<ruby>評判<rt>ひょうばん</rt></ruby>だ。",
+      "trans": "틀림없는 맛으로 평판이 자자하다.",
+      "grammar": "Nのない — 'N이 없는', 명사를 수식하는 형태",
+      "tags": [
+        "間違い"
+      ]
+    },
+    {
+      "sent": "カフェの<ruby>周<rt>まわ</rt></ruby>りには<ruby>豆<rt>まめ</rt></ruby>を<ruby>売<rt>う</rt></ruby>る<ruby>店<rt>みせ</rt></ruby>がある。",
+      "trans": "카페 주위에는 콩을 파는 가게가 있다.",
+      "grammar": "〜には〜がある — '~에는 ~이 있다', 존재를 나타냄",
+      "tags": [
+        "周り",
+        "豆"
+      ]
+    },
+    {
+      "sent": "<ruby>真夜中<rt>まよなか</rt></ruby>まで<ruby>開<rt>あ</rt></ruby>いているわけではないが、いつも<ruby>満員<rt>まんいん</rt></ruby>だ。",
+      "trans": "한밤중까지 열려 있는 것은 아니지만, 항상 만원이다.",
+      "grammar": "〜わけではないが — '~한 것은 아니지만', 앞 문장을 부정하면서 뒤 문장과 연결",
+      "tags": [
+        "真夜中",
+        "満員"
+      ]
+    },
+    {
+      "sent": "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>って<ruby>回<rt>まわ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>をすることになった。",
+      "trans": "길을 잃어서 멀리 돌아가게 되었다.",
+      "grammar": "〜て〜することになる — '~해서 ~하게 되다', 원인과 그에 따른 결과를 나타냄",
+      "tags": [
+        "回り道"
+      ]
+    },
+    {
+      "sent": "<ruby>風車<rt>ふうしゃ</rt></ruby>の<ruby>回<rt>まわ</rt></ruby>りが<ruby>速<rt>はや</rt></ruby>く、<ruby>看板<rt>かんばん</rt></ruby>には<ruby>丸<rt>まる</rt></ruby>いマークがある。",
+      "trans": "풍차의 회전이 빠르고, 간판에는 둥근 마크가 있다.",
+      "grammar": "〜が速く、〜 — '~이 빠르고, ~', 상태를 나열함",
+      "tags": [
+        "回り",
+        "丸"
+      ]
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>湖<rt>みずうみ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになった。",
+      "trans": "주말에 호수에 가게 되었다.",
+      "grammar": "〜に行くことになる — '~에 가게 되다', 일정이 정해짐을 나타냄",
+      "tags": [
+        "湖"
+      ]
+    },
+    {
+      "sent": "<ruby>水着<rt>みずぎ</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>くが、<ruby>泳<rt>およ</rt></ruby>ぐわけではない。",
+      "trans": "수영복을 가져가지만, 수영하는 것은 아니다.",
+      "grammar": "〜わけではない — '~한 것은 아니다', 부분적인 부정이나 완곡한 부정",
+      "tags": [
+        "水着"
+      ]
+    },
+    {
+      "sent": "<ruby>家族<rt>かぞく</rt></ruby>の<ruby>見送<rt>みおく</rt></ruby>りを<ruby>受<rt>う</rt></ruby>けて、<ruby>一人<rt>ひとり</rt></ruby>で<ruby>出発<rt>しゅっぱつ</rt></ruby>した。",
+      "trans": "가족의 배웅을 받고 혼자서 출발했다.",
+      "grammar": "〜を受けて — '~을 받고', 행동의 계기나 상황을 나타냄",
+      "tags": [
+        "見送り"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>の<ruby>身<rt>み</rt></ruby>を<ruby>案<rt>あん</rt></ruby>じてくれる<ruby>味方<rt>みかた</rt></ruby>がいるのはありがたい。",
+      "trans": "내 몸(안위)을 걱정해 주는 내 편이 있다는 것은 고맙다.",
+      "grammar": "〜てくれる — '~해 주다', 타인이 나를 위해 어떤 행동을 함을 나타냄",
+      "tags": [
+        "身",
+        "味方"
+      ]
+    },
+    {
+      "sent": "テストで<ruby>満点<rt>まんてん</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったように<ruby>満足<rt>まんぞく</rt></ruby>している。",
+      "trans": "시험에서 만점을 받은 것처럼 만족하고 있다.",
+      "grammar": "〜ように — '~처럼, ~같이', 비유나 상태를 나타냄",
+      "tags": [
+        "満点",
+        "満足"
+      ]
+    },
+    {
+      "sent": "<ruby>新聞<rt>しんぶん</rt></ruby>の<ruby>見出<rt>みだ</rt></ruby>しに<ruby>環境<rt>かんきょう</rt></ruby>の<ruby>事<rt>こと</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてある。",
+      "trans": "신문의 표제어에 환경에 관한 것이 적혀 있다.",
+      "grammar": "〜に〜が書いてある — '~에 ~이 적혀 있다', 상태의 존속을 나타냄",
+      "tags": [
+        "見出し"
+      ]
+    },
+    {
+      "sent": "<ruby>緑<rt>みどり</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やす<ruby>計画<rt>けいかく</rt></ruby>を<ruby>見直<rt>みなお</rt></ruby>しすることになった。",
+      "trans": "녹색(자연)을 늘리는 계획을 재검토하게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정·상황의 자연스러운 귀결을 나타냄",
+      "tags": [
+        "緑",
+        "見直し"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「窓側」の正しい読み方はどれですか。",
+      "opt": [
+        "まどがわ",
+        "まどそば",
+        "そうがわ",
+        "そうそく"
+      ],
+      "ans": 0,
+      "comment": "「窓側(まどがわ)」は「창가」という意(い)味(み)です。"
+    },
+    {
+      "q": "「湖」の正しい読み方はどれですか。",
+      "opt": [
+        "みず",
+        "うみ",
+        "みずうみ",
+        "こすい"
+      ],
+      "ans": 2,
+      "comment": "「湖(みずうみ)」は「호수」という意(い)味(み)です。"
+    },
+    {
+      "q": "「真夜中」の正しい読み方はどれですか。",
+      "opt": [
+        "まやちゅう",
+        "まよなか",
+        "しんやちゅう",
+        "しんよなか"
+      ],
+      "ans": 1,
+      "comment": "「真夜中(まよなか)」は「한밤중」という意(い)味(み)です。"
+    },
+    {
+      "q": "「明後日」の正しい読み方はどれですか。",
+      "opt": [
+        "あした",
+        "あさって",
+        "みょうごにち",
+        "あさだ"
+      ],
+      "ans": 1,
+      "comment": "「明後日(あさって)」は「모레」という意(い)味(み)です。"
+    },
+    {
+      "q": "「回り道」の意味として正しいものはどれですか。",
+      "opt": [
+        "회전하는 길",
+        "직진하는 길",
+        "멀리 돌아가는 길",
+        "막다른 길"
+      ],
+      "ans": 2,
+      "comment": "「回り道(まわりみち)」は「멀리 돌아가는 길」という意(い)味(み)です。"
+    },
+    {
+      "q": "「味方」の意味として正しいものはどれですか。",
+      "opt": [
+        "맛보는 방법",
+        "편, 내 편",
+        "적군",
+        "친구의 친구"
+      ],
+      "ans": 1,
+      "comment": "「味方(みかた)」は「편, 내 편」という意(い)味(み)です。"
+    },
+    {
+      "q": "「見出し」の意味として正しいものはどれですか。",
+      "opt": [
+        "표제어, 제목",
+        "겉모습",
+        "발견함",
+        "보는 방향"
+      ],
+      "ans": 0,
+      "comment": "「見出し(みだし)」は「표제어, 제목」という意(い)味(み)です。"
+    },
+    {
+      "q": "「駅前で友達と_____をした。」",
+      "opt": [
+        "間違い",
+        "待ち合わせ",
+        "まな板",
+        "真似"
+      ],
+      "ans": 1,
+      "comment": "駅(えき)の前(まえ)で友達(ともだち)と「待ち合わせ(약속하여 만남)」をしたという文脈(ぶんみゃく)が自(し)然(ぜん)です。"
+    },
+    {
+      "q": "「彼女は有名な歌手の_____が上手だ。」",
+      "opt": [
+        "満点",
+        "満足",
+        "真似",
+        "見送り"
+      ],
+      "ans": 2,
+      "comment": "有名な歌手(かしゅ)の「真似(흉내)」が上手(じょうず)だという文脈が自(し)然(ぜん)です。"
+    },
+    {
+      "q": "「この電車は_____だから、次の電車に乗ろう。」",
+      "opt": [
+        "満員",
+        "丸",
+        "豆",
+        "身"
+      ],
+      "ans": 0,
+      "comment": "電車(でんしゃ)が「満員(만원)」だから次(つぎ)の電車に乗(の)ろうという文脈が自(し)然(ぜん)です。"
+    }
+  ]
 }

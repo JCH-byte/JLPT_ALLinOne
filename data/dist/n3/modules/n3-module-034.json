@@ -2,7 +2,7 @@
   "moduleId": "n3-module-034",
   "level": "n3",
   "ordinal": 34,
-  "title": "は行の名詞・2 (は행 명사 2)",
+  "title": "N3: 이사와 당일치기 여행",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,263 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しの<ruby>準備<rt>じゅんび</rt></ruby>（이삿짐 준비）</h3>\n<p><ruby>半年<rt>はんとし</rt></ruby><ruby>前<rt>まえ</rt></ruby>から<ruby>考<rt>かんが</rt></ruby>えていた<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しをすることになった。</p>\n<p><ruby>片付<rt>かたづ</rt></ruby>ける<ruby>範囲<rt>はんい</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>く、<ruby>今日<rt>きょう</rt></ruby>で<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>終<rt>お</rt></ruby>わるわけではない。</p>\n<p><ruby>荷物<rt>にもつ</rt></ruby>を<ruby>紐<rt>ひも</rt></ruby>でしっかり<ruby>結<rt>むす</rt></ruby>びます。</p>\n<p>「<ruby>次<rt>つぎ</rt></ruby>は<ruby>僕<rt>ぼく</rt></ruby>の<ruby>番<rt>ばん</rt></ruby>だ」と<ruby>弟<rt>おとうと</rt></ruby>が<ruby>言<rt>い</rt></ruby>いました。</p>\n<h3>Scene 2. <ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>（새로운 집）</h3>\n<p><ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>はとても<ruby>日当<rt>ひあ</rt></ruby>たりがいいです。</p>\n<p>ここには<ruby>一人息子<rt>ひとりむすこ</rt></ruby>と<ruby>一人娘<rt>ひとりむすめ</rt></ruby>が<ruby>住<rt>す</rt></ruby>んでいます。</p>\n<p><ruby>二人<rt>ふたり</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>早寝早起<rt>はやねはやおき</rt></ruby>きをします。</p>\n<p><ruby>学校<rt>がっこう</rt></ruby>から<ruby>帰<rt>かえ</rt></ruby>ると、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>き<ruby>算<rt>ざん</rt></ruby>の<ruby>宿題<rt>しゅくだい</rt></ruby>をします。</p>\n<h3>Scene 3. <ruby>日帰<rt>ひがえ</rt></ruby>り<ruby>旅行<rt>りょこう</rt></ruby>（당일치기 여행）</h3>\n<p><ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>日帰<rt>ひがえ</rt></ruby>りの<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。</p>\n<p><ruby>飛行<rt>ひこう</rt></ruby>チケットの<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しました。</p>\n<p><ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>美術<rt>びじゅつ</rt></ruby>の<ruby>展示<rt>てんじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>るためです。</p>\n<p><ruby>絵<rt>え</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の<ruby>美人<rt>びじん</rt></ruby>を<ruby>比較<rt>ひかく</rt></ruby>して<ruby>楽<rt>たの</rt></ruby>しみました。</p>\n<h3>Scene 4. <ruby>小<rt>ちい</rt></ruby>さな<ruby>事件<rt>じけん</rt></ruby>（작은 사건）</h3>\n<p><ruby>妹<rt>いもうと</rt></ruby>が<ruby>針<rt>はり</rt></ruby>と<ruby>筆記<rt>ひっき</rt></ruby><ruby>用具<rt>ようぐ</rt></ruby>をなくし、<ruby>半日<rt>はんにち</rt></ruby><ruby>探<rt>さが</rt></ruby>しました。</p>\n<p><ruby>犬<rt>いぬ</rt></ruby>が<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>ったのがわかり、<ruby>犯人<rt>はんにん</rt></ruby>は<ruby>犬<rt>いぬ</rt></ruby>でした。</p>\n<p><ruby>大<rt>おお</rt></ruby>きな<ruby>被害<rt>ひがい</rt></ruby>はないですが、<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>きっぱなしにしたことを<ruby>反省<rt>はんせい</rt></ruby>しました。</p>\n<p><ruby>姉<rt>あね</rt></ruby>が<ruby>人差<rt>ひとさ</rt></ruby>し<ruby>指<rt>ゆび</rt></ruby>で<ruby>犬<rt>いぬ</rt></ruby>を<ruby>指<rt>さ</rt></ruby>すと、<ruby>周<rt>まわ</rt></ruby>りの<ruby>人々<rt>ひとびと</rt></ruby>が<ruby>笑<rt>わら</rt></ruby>いました。</p>\n<p>その<ruby>後<rt>あと</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>物<rt>もの</rt></ruby>を<ruby>販売<rt>はんばい</rt></ruby>する<ruby>店<rt>みせ</rt></ruby>で<ruby>買<rt>か</rt></ruby>うことになりました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>半年<rt>はんとし</rt></ruby><ruby>前<rt>まえ</rt></ruby>から<ruby>考<rt>かんが</rt></ruby>えていた<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しをすることになった。",
+      "trans": "반년 전부터 생각했던 이사를 하게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 외부 요인이나 결정에 의한 자연스러운 귀결을 나타냄",
+      "tags": [
+        "半年",
+        "引っ越し"
+      ]
+    },
+    {
+      "sent": "<ruby>片付<rt>かたづ</rt></ruby>ける<ruby>範囲<rt>はんい</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>く、<ruby>今日<rt>きょう</rt></ruby>で<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>終<rt>お</rt></ruby>わるわけではない。",
+      "trans": "정리할 범위가 넓어서, 오늘 전부 끝나는 것은 아니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전부 그렇지는 않다는 부분 부정을 나타냄",
+      "tags": [
+        "範囲"
+      ]
+    },
+    {
+      "sent": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>紐<rt>ひも</rt></ruby>でしっかり<ruby>結<rt>むす</rt></ruby>びます。",
+      "trans": "짐을 끈으로 단단히 묶습니다.",
+      "grammar": "명사 + で — '~로 (수단/방법)', 도구나 수단을 나타내는 조사",
+      "tags": [
+        "紐"
+      ]
+    },
+    {
+      "sent": "「<ruby>次<rt>つぎ</rt></ruby>は<ruby>僕<rt>ぼく</rt></ruby>の<ruby>番<rt>ばん</rt></ruby>だ」と<ruby>弟<rt>おとうと</rt></ruby>が<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "\"다음은 내 차례야\"라고 남동생이 말했습니다.",
+      "grammar": "〜と言う — '~라고 말하다', 인용이나 발화의 내용을 나타냄",
+      "tags": [
+        "番"
+      ]
+    },
+    {
+      "sent": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>はとても<ruby>日当<rt>ひあ</rt></ruby>たりがいいです。",
+      "trans": "새로운 집은 매우 햇볕이 잘 듭니다.",
+      "grammar": "い형용사 + です — '~합니다', 정중하게 상태나 감정을 서술함",
+      "tags": [
+        "日当たり"
+      ]
+    },
+    {
+      "sent": "ここには<ruby>一人息子<rt>ひとりむすこ</rt></ruby>と<ruby>一人娘<rt>ひとりむすめ</rt></ruby>が<ruby>住<rt>す</rt></ruby>んでいます。",
+      "trans": "여기에는 외아들과 외동딸이 살고 있습니다.",
+      "grammar": "〜ている — '~하고 있다', 현재 진행되거나 지속되는 상태를 나타냄",
+      "tags": [
+        "一人息子",
+        "一人娘"
+      ]
+    },
+    {
+      "sent": "<ruby>二人<rt>ふたり</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>早寝早起<rt>はやねはやおき</rt></ruby>きをします。",
+      "trans": "두 사람은 매일 일찍 자고 일찍 일어납니다.",
+      "grammar": "명사 + をする — '~을 하다', 어떠한 동작이나 행위를 실행함",
+      "tags": [
+        "早寝早起き"
+      ]
+    },
+    {
+      "sent": "<ruby>学校<rt>がっこう</rt></ruby>から<ruby>帰<rt>かえ</rt></ruby>ると、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>き<ruby>算<rt>ざん</rt></ruby>の<ruby>宿題<rt>しゅくだい</rt></ruby>をします。",
+      "trans": "학교에서 돌아오면, 함께 뺄셈 숙제를 합니다.",
+      "grammar": "동사 기본형 + と — '~하면', 필연적이거나 습관적으로 일어나는 조건",
+      "tags": [
+        "引き算"
+      ]
+    },
+    {
+      "sent": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>日帰<rt>ひがえ</rt></ruby>りの<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "주말, 가족과 함께 당일치기 여행을 갔습니다.",
+      "grammar": "명사 + で — '~로 (인원수/주체)', 동작의 주체가 되는 집단이나 상태",
+      "tags": [
+        "日帰り"
+      ]
+    },
+    {
+      "sent": "<ruby>飛行<rt>ひこう</rt></ruby>チケットの<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しました。",
+      "trans": "비행 티켓의 날짜를 확인했습니다.",
+      "grammar": "명사 + の + 명사 — 명사와 명사를 연결하는 소속 및 동격의 조사",
+      "tags": [
+        "飛行",
+        "日付"
+      ]
+    },
+    {
+      "sent": "<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>美術<rt>びじゅつ</rt></ruby>の<ruby>展示<rt>てんじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>るためです。",
+      "trans": "유명한 미술 전시를 보기 위해서입니다.",
+      "grammar": "동사 기본형 + ため — '~하기 위해', 동작이나 행위의 목적을 나타냄",
+      "tags": [
+        "美術"
+      ]
+    },
+    {
+      "sent": "<ruby>絵<rt>え</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の<ruby>美人<rt>びじん</rt></ruby>を<ruby>比較<rt>ひかく</rt></ruby>して<ruby>楽<rt>たの</rt></ruby>しみました。",
+      "trans": "그림 속의 미인을 비교하며 즐겼습니다.",
+      "grammar": "동사 て형 — '~하고, ~해서', 동작의 나열이나 수단을 나타냄",
+      "tags": [
+        "美人",
+        "比較"
+      ]
+    },
+    {
+      "sent": "<ruby>妹<rt>いもうと</rt></ruby>が<ruby>針<rt>はり</rt></ruby>と<ruby>筆記<rt>ひっき</rt></ruby><ruby>用具<rt>ようぐ</rt></ruby>をなくし、<ruby>半日<rt>はんにち</rt></ruby><ruby>探<rt>さが</rt></ruby>しました。",
+      "trans": "여동생이 바늘과 필기도구를 잃어버려, 반나절을 찾았습니다.",
+      "grammar": "동사 마스형 중지법 — '~하고', 문장을 연결하는 격식 있고 깔끔한 표현",
+      "tags": [
+        "針",
+        "筆記",
+        "半日"
+      ]
+    },
+    {
+      "sent": "<ruby>犬<rt>いぬ</rt></ruby>が<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>ったのがわかり、<ruby>犯人<rt>はんにん</rt></ruby>は<ruby>犬<rt>いぬ</rt></ruby>でした。",
+      "trans": "개가 가져간 것을 알게 되어, 범인은 개였습니다.",
+      "grammar": "동사 て형 + 行く — '~해 가다', 기준점에서 멀어지는 동작이나 방향",
+      "tags": [
+        "犯人"
+      ]
+    },
+    {
+      "sent": "<ruby>大<rt>おお</rt></ruby>きな<ruby>被害<rt>ひがい</rt></ruby>はないですが、<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>きっぱなしにしたことを<ruby>反省<rt>はんせい</rt></ruby>しました。",
+      "trans": "큰 피해는 없지만, 물건을 방치해 둔 것을 반성했습니다.",
+      "grammar": "〜っぱなし — '~한 채로 둠', 주로 바람직하지 않은 상태로 계속 방치함을 의미함",
+      "tags": [
+        "被害",
+        "反省"
+      ]
+    },
+    {
+      "sent": "<ruby>姉<rt>あね</rt></ruby>が<ruby>人差<rt>ひとさ</rt></ruby>し<ruby>指<rt>ゆび</rt></ruby>で<ruby>犬<rt>いぬ</rt></ruby>を<ruby>指<rt>さ</rt></ruby>すと、<ruby>周<rt>まわ</rt></ruby>りの<ruby>人々<rt>ひとびと</rt></ruby>が<ruby>笑<rt>わら</rt></ruby>いました。",
+      "trans": "언니가 검지로 개를 가리키자, 주변 사람들이 웃었습니다.",
+      "grammar": "동사 기본형 + と — '~하자, ~했더니', 앞의 동작이 계기가 되어 일어난 즉각적 결과",
+      "tags": [
+        "人差し指",
+        "人々"
+      ]
+    },
+    {
+      "sent": "その<ruby>後<rt>あと</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>物<rt>もの</rt></ruby>を<ruby>販売<rt>はんばい</rt></ruby>する<ruby>店<rt>みせ</rt></ruby>で<ruby>買<rt>か</rt></ruby>うことになりました。",
+      "trans": "그 후, 새로운 물건을 판매하는 가게에서 사게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 외부 요인이나 상황에 의해 정해진 결정",
+      "tags": [
+        "販売"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「引っ越し」の読み方は？",
+      "opt": [
+        "ひっこし",
+        "ひつこし",
+        "びっこし",
+        "びつこし"
+      ],
+      "ans": 0,
+      "comment": "引っ越し(ひっこし)는 '이사'라는 뜻입니다."
+    },
+    {
+      "q": "「反省」の読み方は？",
+      "opt": [
+        "はんしょ",
+        "はんせい",
+        "はんせ",
+        "はんしょう"
+      ],
+      "ans": 1,
+      "comment": "反省(はんせい)는 '반성'이라는 뜻입니다."
+    },
+    {
+      "q": "「飛行」の読み方は？",
+      "opt": [
+        "ひこう",
+        "ひきょう",
+        "びこう",
+        "ひこ"
+      ],
+      "ans": 0,
+      "comment": "飛行(ひこう)은 '비행'이라는 뜻입니다."
+    },
+    {
+      "q": "「被害」の読み方は？",
+      "opt": [
+        "ひき",
+        "ひがい",
+        "びがい",
+        "ひか"
+      ],
+      "ans": 1,
+      "comment": "被害(ひがい)는 '피해'라는 뜻입니다."
+    },
+    {
+      "q": "「日当たり」の意味として正しいものは？",
+      "opt": [
+        "햇볕(이 듦)",
+        "당일치기",
+        "날짜",
+        "해질녘"
+      ],
+      "ans": 0,
+      "comment": "日当たり는 '햇볕(이 듦)'을 의미합니다. 당일치기는 日帰り입니다."
+    },
+    {
+      "q": "「人々」の意味として正しいものは？",
+      "opt": [
+        "외아들",
+        "사람들",
+        "검지",
+        "인형"
+      ],
+      "ans": 1,
+      "comment": "人々는 여러 사람을 뜻하는 '사람들'입니다."
+    },
+    {
+      "q": "「筆記」の意味として正しいものは？",
+      "opt": [
+        "바늘",
+        "비교",
+        "필기",
+        "판매"
+      ],
+      "ans": 2,
+      "comment": "筆記는 글씨를 쓴다는 뜻의 '필기'입니다."
+    },
+    {
+      "q": "テストの（　　）が広くて、勉強が大変だ。",
+      "opt": [
+        "番",
+        "美術",
+        "美人",
+        "範囲"
+      ],
+      "ans": 3,
+      "comment": "문맥상 '테스트의 (범위)가 넓어서'가 가장 자연스럽습니다. 정답은 範囲(범위)입니다."
+    },
+    {
+      "q": "週末は家族で温泉へ（　　）旅行に行きます。",
+      "opt": [
+        "半日",
+        "日帰り",
+        "半年",
+        "引き算"
+      ],
+      "ans": 1,
+      "comment": "숙박을 하지 않고 다녀오는 여행을 '日帰り(당일치기)'라고 합니다."
+    },
+    {
+      "q": "警察はついに事件の（　　）を捕まえた。",
+      "opt": [
+        "犯人",
+        "一人息子",
+        "一人娘",
+        "紐"
+      ],
+      "ans": 0,
+      "comment": "사건을 일으킨 사람을 '犯人(범인)'이라고 합니다."
+    }
+  ]
 }

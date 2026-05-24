@@ -2,7 +2,7 @@
   "moduleId": "n3-module-039",
   "level": "n3",
   "ordinal": 39,
-  "title": "ま行の名詞・2 (ま행 명사 2)",
+  "title": "N3: 조카와의 하루",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,280 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. めいの<ruby>迎<rt>むか</rt></ruby>え（조카 마중）</h3>\n<p><ruby>今日<rt>きょう</rt></ruby>は<ruby>空港<rt>くうこう</rt></ruby>へめいの<ruby>迎<rt>むか</rt></ruby>えに<ruby>行<rt>い</rt></ruby>くことになりました。めいは<ruby>目覚<rt>めざ</rt></ruby>ましをかけて、<ruby>朝<rt>あさ</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>き</rt></ruby>ました。<ruby>彼女<rt>かのじょ</rt></ruby>の<ruby>未来<rt>みらい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしながら<ruby>歩<rt>ある</rt></ruby>きました。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>無休<rt>むきゅう</rt></ruby>のカフェがあり、<ruby>無料<rt>むりょう</rt></ruby>のチケットを<ruby>使<rt>つか</rt></ruby>いました。すべてが<ruby>順調<rt>じゅんちょう</rt></ruby>なわけではありませんでした。</p>\n<h3>Scene 2. <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>（쇼핑）</h3>\n<p><ruby>駅<rt>えき</rt></ruby>の<ruby>向<rt>む</rt></ruby>かいの<ruby>店<rt>みせ</rt></ruby>で<ruby>無線<rt>むせん</rt></ruby>イヤホンを<ruby>買<rt>か</rt></ruby>いました。めいは<ruby>若者<rt>わかもの</rt></ruby><ruby>向<rt>む</rt></ruby>きの<ruby>無地<rt>むじ</rt></ruby>のシャツも<ruby>選<rt>えら</rt></ruby>びました。<ruby>無駄遣<rt>むだづか</rt></ruby>いをしてはいけないと<ruby>注意<rt>ちゅうい</rt></ruby>しましたが、<ruby>無駄<rt>むだ</rt></ruby>なものを<ruby>買<rt>か</rt></ruby>ったわけではありません。<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>民間<rt>みんかん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>くことになったので、<ruby>服<rt>ふく</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>でした。</p>\n<h3>Scene 3. <ruby>食事<rt>しょくじ</rt></ruby>と<ruby>映画<rt>えいが</rt></ruby>（식사와 영화）</h3>\n<p><ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>飯<rt>めし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べていると、めいが<ruby>虫歯<rt>むしば</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いと<ruby>言<rt>い</rt></ruby>いました。<ruby>少<rt>すこ</rt></ruby>しめまいもするそうです。すぐに<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。その<ruby>後<rt>あと</rt></ruby>、<ruby>家<rt>いえ</rt></ruby>で<ruby>名作<rt>めいさく</rt></ruby>の<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<ruby>感動<rt>かんどう</rt></ruby>して<ruby>胸<rt>むね</rt></ruby>がいっぱいになりました。<ruby>病気<rt>びょうき</rt></ruby>で<ruby>楽<rt>たの</rt></ruby>しめなかったわけではありません。</p>\n<h3>Scene 4. <ruby>名刺<rt>めいし</rt></ruby>の<ruby>交換<rt>こうかん</rt></ruby>（명함 교환）</h3>\n<p><ruby>夜<rt>よる</rt></ruby>、めいは<ruby>営業<rt>えいぎょう</rt></ruby>の<ruby>名人<rt>めいじん</rt></ruby>から<ruby>名刺<rt>めいし</rt></ruby>の<ruby>渡<rt>わた</rt></ruby>し<ruby>方<rt>かた</rt></ruby>を<ruby>習<rt>なら</rt></ruby>いました。<ruby>目上<rt>めうえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>には<ruby>丁寧<rt>ていねい</rt></ruby>にし、<ruby>目下<rt>めした</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>も<ruby>無視<rt>むし</rt></ruby>しないようにと<ruby>教<rt>おそ</rt></ruby>わりました。<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>命令<rt>めいれい</rt></ruby>だからといって、<ruby>人<rt>ひと</rt></ruby>に<ruby>迷惑<rt>めいわく</rt></ruby>をかけていいわけではありません。<ruby>立派<rt>りっぱ</rt></ruby>な<ruby>社会人<rt>しゃかいじん</rt></ruby>になると<ruby>思<rt>おも</rt></ruby>います。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>空港<rt>くうこう</rt></ruby>へめいの<ruby>迎<rt>むか</rt></ruby>えに<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "오늘은 공항으로 조카 마중을 가게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황이나 결정에 의한 자연스러운 귀결을 나타냄",
+      "tags": [
+        "迎え",
+        "めい"
+      ]
+    },
+    {
+      "sent": "めいは<ruby>目覚<rt>めざ</rt></ruby>ましをかけて、<ruby>朝<rt>あさ</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>き</rt></ruby>ました。",
+      "trans": "조카는 자명종을 맞추고, 아침 일찍 왔습니다.",
+      "grammar": "〜て — '~하고', 동작의 선후 관계를 나타내는 연결형",
+      "tags": [
+        "目覚まし"
+      ]
+    },
+    {
+      "sent": "<ruby>彼女<rt>かのじょ</rt></ruby>の<ruby>未来<rt>みらい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしながら<ruby>歩<rt>ある</rt></ruby>きました。",
+      "trans": "그녀의 미래 이야기를 하면서 걸었습니다.",
+      "grammar": "〜ながら — '~하면서', 두 가지 동작이 동시에 일어남을 나타냄",
+      "tags": [
+        "未来"
+      ]
+    },
+    {
+      "sent": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>無休<rt>むきゅう</rt></ruby>のカフェがあり、<ruby>無料<rt>むりょう</rt></ruby>のチケットを<ruby>使<rt>つか</rt></ruby>いました。",
+      "trans": "역 앞에 무휴 카페가 있어서, 무료 티켓을 사용했습니다.",
+      "grammar": "〜があり — '~이/가 있고', 존재를 나타내는 동사의 중지법",
+      "tags": [
+        "無休",
+        "無料"
+      ]
+    },
+    {
+      "sent": "すべてが<ruby>順調<rt>じゅんちょう</rt></ruby>なわけではありませんでした。",
+      "trans": "모든 것이 순조로운 것은 아니었습니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전면 부정을 피하고 부분적으로 부정함",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>駅<rt>えき</rt></ruby>の<ruby>向<rt>む</rt></ruby>かいの<ruby>店<rt>みせ</rt></ruby>で<ruby>無線<rt>むせん</rt></ruby>イヤホンを<ruby>買<rt>か</rt></ruby>いました。",
+      "trans": "역 맞은편 가게에서 무선 이어폰을 샀습니다.",
+      "grammar": "〜で — 장소를 나타내는 조사 '~에서'",
+      "tags": [
+        "向かい",
+        "無線"
+      ]
+    },
+    {
+      "sent": "めいは<ruby>若者<rt>わかもの</rt></ruby><ruby>向<rt>む</rt></ruby>きの<ruby>無地<rt>むじ</rt></ruby>のシャツも<ruby>選<rt>えら</rt></ruby>びました。",
+      "trans": "조카는 젊은이에게 적합한 무늬 없는 셔츠도 골랐습니다.",
+      "grammar": "〜向き — '~에 적합함', 특정 대상이나 목적에 잘 맞음을 나타냄",
+      "tags": [
+        "向き",
+        "無地"
+      ]
+    },
+    {
+      "sent": "<ruby>無駄遣<rt>むだづか</rt></ruby>いをしてはいけないと<ruby>注意<rt>ちゅうい</rt></ruby>しました。",
+      "trans": "낭비를 해서는 안 된다고 주의를 주었습니다.",
+      "grammar": "〜てはいけない — '~해서는 안 된다', 강한 금지를 나타냄",
+      "tags": [
+        "無駄遣い"
+      ]
+    },
+    {
+      "sent": "<ruby>無駄<rt>むだ</rt></ruby>なものを<ruby>買<rt>か</rt></ruby>ったわけではありません。",
+      "trans": "쓸데없는 것을 산 것은 아닙니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 사실이 아니라고 부인하거나 해명할 때 사용",
+      "tags": [
+        "無駄"
+      ]
+    },
+    {
+      "sent": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>民間<rt>みんかん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>くことになったので、<ruby>服<rt>ふく</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>でした。",
+      "trans": "그녀는 민간 회사에서 일하게 되었기 때문에, 옷이 필요했습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 자신 이외의 요인으로 결정된 사항",
+      "tags": [
+        "民間"
+      ]
+    },
+    {
+      "sent": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>飯<rt>めし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べていると、めいが<ruby>虫歯<rt>むしば</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いと<ruby>言<rt>い</rt></ruby>いました。",
+      "trans": "함께 밥을 먹고 있었는데, 조카가 충치가 아프다고 말했습니다.",
+      "grammar": "〜ていると — '~하고 있었더니', 어떤 동작 도중 일어난 새로운 상황의 발견",
+      "tags": [
+        "飯",
+        "虫歯"
+      ]
+    },
+    {
+      "sent": "<ruby>少<rt>すこ</rt></ruby>しめまいもするそうです。",
+      "trans": "조금 현기증도 난다고 합니다.",
+      "grammar": "〜そうです — '~라고 합니다', 전해 들은 사실을 전달하는 전문(伝聞) 표현",
+      "tags": [
+        "めまい"
+      ]
+    },
+    {
+      "sent": "すぐに<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことになりました。",
+      "trans": "바로 병원에 가게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 자연스러운 귀결을 나타냄",
+      "tags": []
+    },
+    {
+      "sent": "その<ruby>後<rt>あと</rt></ruby>、<ruby>家<rt>いえ</rt></ruby>で<ruby>名作<rt>めいさく</rt></ruby>の<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "그 후, 집에서 명작 영화를 보았습니다.",
+      "grammar": "명사＋の＋명사 — 명사와 명사를 연결하는 조사",
+      "tags": [
+        "名作"
+      ]
+    },
+    {
+      "sent": "<ruby>感動<rt>かんどう</rt></ruby>して<ruby>胸<rt>むね</rt></ruby>がいっぱいになりました。",
+      "trans": "감동해서 가슴이 벅차올랐습니다.",
+      "grammar": "〜になる — '~이/가 되다', 상태의 변화를 나타냄",
+      "tags": [
+        "胸"
+      ]
+    },
+    {
+      "sent": "<ruby>病気<rt>びょうき</rt></ruby>で<ruby>楽<rt>たの</rt></ruby>しめなかったわけではありません。",
+      "trans": "병 때문에 즐기지 못한 것은 아닙니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 오해를 풀거나 뉘앙스를 한정함",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>夜<rt>よる</rt></ruby>、めいは<ruby>営業<rt>えいぎょう</rt></ruby>の<ruby>名人<rt>めいじん</rt></ruby>から<ruby>名刺<rt>めいし</rt></ruby>の<ruby>渡<rt>わた</rt></ruby>し<ruby>方<rt>かた</rt></ruby>を<ruby>習<rt>なら</rt></ruby>いました。",
+      "trans": "밤에, 조카는 영업 명인에게서 명함 건네는 법을 배웠습니다.",
+      "grammar": "〜方 — '~하는 방법', 동사의 ます형에 접속",
+      "tags": [
+        "名人",
+        "名刺"
+      ]
+    },
+    {
+      "sent": "<ruby>目上<rt>めうえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>には<ruby>丁寧<rt>ていねい</rt></ruby>にし、<ruby>目下<rt>めした</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>も<ruby>無視<rt>むし</rt></ruby>しないようにと<ruby>教<rt>おそ</rt></ruby>わりました。",
+      "trans": "윗사람에게는 정중하게 하고, 아랫사람의 의견도 무시하지 않도록 가르침을 받았습니다.",
+      "grammar": "〜ように（と） — '~하도록', 간접적인 지시나 충고를 나타냄",
+      "tags": [
+        "目上",
+        "目下",
+        "無視"
+      ]
+    },
+    {
+      "sent": "<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>命令<rt>めいれい</rt></ruby>だからといって、<ruby>人<rt>ひと</rt></ruby>に<ruby>迷惑<rt>めいわく</rt></ruby>をかけていいわけではありません。",
+      "trans": "사장의 명령이라고 해서, 남에게 민폐를 끼쳐도 되는 것은 아닙니다.",
+      "grammar": "〜だからといって — '~라고 해서', 앞의 이유가 뒤의 부적절한 행동을 정당화하지 못함을 나타냄",
+      "tags": [
+        "命令",
+        "迷惑"
+      ]
+    },
+    {
+      "sent": "<ruby>立派<rt>りっぱ</rt></ruby>な<ruby>社会人<rt>しゃかいじん</rt></ruby>になると<ruby>思<rt>おも</rt></ruby>います。",
+      "trans": "훌륭한 사회인이 될 것이라고 생각합니다.",
+      "grammar": "〜と思います — '~라고 생각합니다', 말하는 이의 추측이나 의견",
+      "tags": []
+    }
+  ],
+  "quiz": [
+    {
+      "q": "未来",
+      "opt": [
+        "みらい",
+        "みれ",
+        "みら",
+        "みろい"
+      ],
+      "ans": 0,
+      "comment": "未来(みらい)는 '미래'라는 뜻입니다."
+    },
+    {
+      "q": "虫歯",
+      "opt": [
+        "むしは",
+        "むしば",
+        "むしっぱ",
+        "むちば"
+      ],
+      "ans": 1,
+      "comment": "虫歯(むしば)는 '충치'라는 뜻입니다."
+    },
+    {
+      "q": "無料",
+      "opt": [
+        "むりょ",
+        "ぶりょう",
+        "むりょう",
+        "もりょう"
+      ],
+      "ans": 2,
+      "comment": "無料(むりょう)는 '무료'라는 뜻입니다."
+    },
+    {
+      "q": "迷惑",
+      "opt": [
+        "めわく",
+        "めいかく",
+        "めいわく",
+        "まいわく"
+      ],
+      "ans": 2,
+      "comment": "迷惑(めいわく)는 '민폐, 성가심'이라는 뜻입니다."
+    },
+    {
+      "q": "無視의 뜻으로 알맞은 것은?",
+      "opt": [
+        "무시",
+        "무료",
+        "무휴",
+        "무늬 없음"
+      ],
+      "ans": 0,
+      "comment": "無視(むし)는 '무시'라는 뜻입니다."
+    },
+    {
+      "q": "迎え의 뜻으로 알맞은 것은?",
+      "opt": [
+        "맞은편",
+        "마중",
+        "현기증",
+        "명령"
+      ],
+      "ans": 1,
+      "comment": "迎え(むかえ)는 '마중'이라는 뜻입니다."
+    },
+    {
+      "q": "目上의 뜻으로 알맞은 것은?",
+      "opt": [
+        "조카",
+        "윗사람",
+        "아랫사람",
+        "명인"
+      ],
+      "ans": 1,
+      "comment": "目上(めうえ)는 나이나 지위가 높은 '윗사람'을 의미합니다."
+    },
+    {
+      "q": "駅の（　　）の店でコーヒーを買った。",
+      "opt": [
+        "目上",
+        "向かい",
+        "めまい",
+        "民間"
+      ],
+      "ans": 1,
+      "comment": "역의 '맞은편(向かい)' 가게가 문맥상 가장 적절합니다."
+    },
+    {
+      "q": "これは若者（　　）のデザインですね。",
+      "opt": [
+        "向き",
+        "迎え",
+        "無休",
+        "無線"
+      ],
+      "ans": 0,
+      "comment": "특정 대상에게 적합하다는 의미를 나타낼 때는 '〜向き(~에 맞음, ~용)'를 사용합니다."
+    },
+    {
+      "q": "そんな（　　）遣いはやめなさい。",
+      "opt": [
+        "無地",
+        "めい",
+        "名作",
+        "無駄"
+      ],
+      "ans": 3,
+      "comment": "돈이나 물건을 함부로 쓰는 것을 '낭비(無駄遣い)'라고 합니다."
+    }
+  ]
 }
