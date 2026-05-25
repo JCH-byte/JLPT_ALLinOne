@@ -2,7 +2,7 @@
   "moduleId": "n3-module-045",
   "level": "n3",
   "ordinal": 45,
-  "title": "動詞・1 (동사 1)",
+  "title": "N3: 식당 개업 준비",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,263 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>新<rt>あたら</rt></ruby>しい<ruby>店<rt>みせ</rt></ruby>への<ruby>移<rt>うつ</rt></ruby>り（새 가게로 이사）</h3><p><ruby>来月<rt>らいげつ</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>店<rt>みせ</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>ることになりました。</p><p><ruby>荷物<rt>にもつ</rt></ruby>を<ruby>移<rt>うつ</rt></ruby>す<ruby>時<rt>とき</rt></ruby>は、<ruby>皆<rt>みな</rt></ruby>で<ruby>力<rt>ちから</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせることが<ruby>大切<rt>たいせつ</rt></ruby>です。</p><p><ruby>日程<rt>にってい</rt></ruby>が<ruby>埋<rt>う</rt></ruby>まるほど<ruby>予約<rt>よやく</rt></ruby>が<ruby>入<rt>はい</rt></ruby>りました。</p><p><ruby>庭<rt>にわ</rt></ruby>に<ruby>花<rt>はな</rt></ruby>を<ruby>植<rt>う</rt></ruby>えるスペースの<ruby>穴<rt>あな</rt></ruby>を<ruby>埋<rt>う</rt></ruby>めることにしました。</p><h3>Scene 2. <ruby>料理<rt>りょうり</rt></ruby>と<ruby>試験<rt>しけん</rt></ruby>（요리와 시험）</h3><p><ruby>試験<rt>しけん</rt></ruby>に<ruby>受<rt>う</rt></ruby>かることを<ruby>目指<rt>めざ</rt></ruby>して<ruby>練習<rt>れんしゅう</rt></ruby>しました。</p><p><ruby>野菜<rt>やさい</rt></ruby>を<ruby>炒<rt>いた</rt></ruby>めることで、アイデアを<ruby>産<rt>う</rt></ruby>むことができました。</p><p><ruby>手<rt>て</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>むほど<ruby>働<rt>はたら</rt></ruby>いても、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>嫌<rt>いや</rt></ruby>がるわけではありません。</p><h3>Scene 3. <ruby>開店<rt>かいてん</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>（개점의 아침）</h3><p>スタッフが<ruby>問題<rt>もんだい</rt></ruby>を<ruby>言<rt>い</rt></ruby>い<ruby>出<rt>だ</rt></ruby>すので<ruby>慌<rt>あわ</rt></ruby>てるのは<ruby>仕方<rt>しかた</rt></ruby>ありません。</p><p><ruby>客<rt>きゃく</rt></ruby>が<ruby>現<rt>あらわ</rt></ruby>れると<ruby>安心<rt>あんしん</rt></ruby>できます。</p><p><ruby>代金<rt>だいきん</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>ることと<ruby>客<rt>きゃく</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れることが<ruby>大切<rt>たいせつ</rt></ruby>です。</p><p><ruby>機械<rt>きかい</rt></ruby>を<ruby>動<rt>うご</rt></ruby>かすことで<ruby>疑<rt>うたが</rt></ruby>うことなく<ruby>進<rt>すす</rt></ruby>みます。</p><h3>Scene 4. <ruby>大成功<rt>だいせいこう</rt></ruby>（대성공）</h3><p><ruby>料理<rt>りょうり</rt></ruby>は<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れるほど<ruby>人気<rt>にんき</rt></ruby>でした。</p><p><ruby>客<rt>きゃく</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>に<ruby>喜<rt>よろこ</rt></ruby>びが<ruby>表<rt>あらわ</rt></ruby>れるのを<ruby>見<rt>み</rt></ruby>ました。</p><p><ruby>笑顔<rt>えがお</rt></ruby>を<ruby>浮<rt>う</rt></ruby>かべると<ruby>心<rt>こころ</rt></ruby>が<ruby>浮<rt>う</rt></ruby>くようです。</p><p>カメラに<ruby>写<rt>うつ</rt></ruby>ると<ruby>映<rt>うつ</rt></ruby>すことができ、<ruby>画面<rt>がめん</rt></ruby>に<ruby>映<rt>うつ</rt></ruby>る<ruby>姿<rt>すがた</rt></ruby>は<ruby>最高<rt>さいこう</rt></ruby>でした。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>店<rt>みせ</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>ることになりました。",
+      "trans": "다음 달, 새로운 가게로 옮기게 되었습니다.",
+      "grammar": "〜ことになる — ~하게 되다, 결정이나 상황의 자연스러운 귀결을 나타냄",
+      "tags": [
+        "移る"
+      ]
+    },
+    {
+      "sent": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>移<rt>うつ</rt></ruby>して、<ruby>皆<rt>みな</rt></ruby>で<ruby>力<rt>ちから</rt></ruby>を<ruby>合<rt>あわ</rt></ruby>せます。",
+      "trans": "짐을 옮기고, 모두 함께 힘을 합칩니다.",
+      "grammar": "〜て — ~하고 (동작의 나열 및 연결)",
+      "tags": [
+        "移す",
+        "合わせる"
+      ]
+    },
+    {
+      "sent": "<ruby>予約<rt>よやく</rt></ruby>で<ruby>予定<rt>よてい</rt></ruby>が<ruby>埋<rt>うま</rt></ruby>りました。",
+      "trans": "예약으로 일정이 꽉 찼습니다(메워졌습니다).",
+      "grammar": "〜で — ~으로 (이유/원인 및 수단)",
+      "tags": [
+        "埋まる"
+      ]
+    },
+    {
+      "sent": "<ruby>庭<rt>にわ</rt></ruby>に<ruby>穴<rt>あな</rt></ruby>を<ruby>埋<rt>う</rt></ruby>めて、<ruby>花<rt>はな</rt></ruby>を<ruby>植<rt>う</rt></ruby>えます。",
+      "trans": "정원에 구멍을 메우고, 꽃을 심습니다.",
+      "grammar": "〜て — ~해서 (동작의 순차적 발생)",
+      "tags": [
+        "埋める",
+        "植える"
+      ]
+    },
+    {
+      "sent": "<ruby>面接<rt>めんせつ</rt></ruby>に<ruby>受<rt>う</rt></ruby>かった<ruby>人<rt>ひと</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れました。",
+      "trans": "면접에 합격한 사람을 받아들였습니다.",
+      "grammar": "〜た — ~한 (과거형 명사 수식)",
+      "tags": [
+        "受かる",
+        "受け入れる"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>野菜<rt>やさい</rt></ruby>を<ruby>炒<rt>いた</rt></ruby>める<ruby>時<rt>とき</rt></ruby>、アイデアを<ruby>産<rt>う</rt></ruby>みました。",
+      "trans": "그는 채소를 볶을 때, 아이디어를 낳았습니다(만들어냈습니다).",
+      "grammar": "〜時 — ~할 때 (시간적 배경)",
+      "tags": [
+        "炒める",
+        "産む"
+      ]
+    },
+    {
+      "sent": "<ruby>手<rt>て</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>むまで<ruby>働<rt>はたら</rt></ruby>きます。",
+      "trans": "손이 아플 때까지 일합니다.",
+      "grammar": "〜まで — ~할 때까지 (동작이 계속되는 한계점)",
+      "tags": [
+        "痛む"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>嫌<rt>いや</rt></ruby>がるわけではありません。",
+      "trans": "하지만, 일을 싫어하는 것은 아닙니다.",
+      "grammar": "〜わけではない — ~인 것은 아니다 (일부 또는 전면 부정을 부드럽게 표현)",
+      "tags": [
+        "嫌がる"
+      ]
+    },
+    {
+      "sent": "<ruby>朝<rt>あさ</rt></ruby>、スタッフが<ruby>問題<rt>もんだい</rt></ruby>を<ruby>言<rt>い</rt></ruby>い<ruby>出<rt>だ</rt></ruby>して<ruby>慌<rt>あわ</rt></ruby>てました。",
+      "trans": "아침에 직원이 문제를 말을 꺼내서 당황했습니다.",
+      "grammar": "〜て — ~해서 (원인/이유)",
+      "tags": [
+        "言い出す",
+        "慌てる"
+      ]
+    },
+    {
+      "sent": "ですが、<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>客<rt>きゃく</rt></ruby>が<ruby>現<rt>あらわ</rt></ruby>れて<ruby>安心<rt>あんしん</rt></ruby>しました。",
+      "trans": "하지만, 첫 손님이 나타나서 안심했습니다.",
+      "grammar": "〜て — ~해서 (감정의 원인)",
+      "tags": [
+        "現れる"
+      ]
+    },
+    {
+      "sent": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>動<rt>うご</rt></ruby>かし、お<ruby>金<rt>かね</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>ります。",
+      "trans": "기계를 움직이고, 돈을 받습니다.",
+      "grammar": "〜ます — ~합니다 (정중한 현재/미래 동작)",
+      "tags": [
+        "動かす",
+        "受け取る"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>らの<ruby>味覚<rt>みかく</rt></ruby>を<ruby>疑<rt>うたが</rt></ruby>う<ruby>必要<rt>ひつよう</rt></ruby>はありません。",
+      "trans": "그들의 미각을 의심할 필요는 없습니다.",
+      "grammar": "〜必要はない — ~할 필요는 없다",
+      "tags": [
+        "疑う"
+      ]
+    },
+    {
+      "sent": "<ruby>料理<rt>りょうり</rt></ruby>はすぐに<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れました。",
+      "trans": "요리는 바로 매진되었습니다.",
+      "grammar": "〜ました — ~했습니다 (과거의 완료된 동작)",
+      "tags": [
+        "売り切れる"
+      ]
+    },
+    {
+      "sent": "<ruby>客<rt>きゃく</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>に<ruby>喜<rt>よろこ</rt></ruby>びが<ruby>表<rt>あらわ</rt></ruby>れました。",
+      "trans": "손님의 얼굴에 기쁨이 나타났습니다.",
+      "grammar": "〜に — ~에 (상태가 나타나는 장소)",
+      "tags": [
+        "表れる"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>も<ruby>笑顔<rt>えがお</rt></ruby>を<ruby>浮<rt>うか</rt></ruby>べ、<ruby>心<rt>こころ</rt></ruby>が<ruby>浮<rt>う</rt></ruby>きました。",
+      "trans": "저도 미소를 띄우고, 마음이 들떴습니다.",
+      "grammar": "〜も — ~도 (추가/동의)",
+      "tags": [
+        "浮かべる",
+        "浮く"
+      ]
+    },
+    {
+      "sent": "カメラに<ruby>写<rt>うつ</rt></ruby>った<ruby>写真<rt>しゃしん</rt></ruby>をモニターに<ruby>映<rt>うつ</rt></ruby>します。",
+      "trans": "카메라에 찍힌 사진을 모니터에 비춥니다.",
+      "grammar": "〜を〜に — ~을 ~에 (목적어와 대상)",
+      "tags": [
+        "写る",
+        "映す"
+      ]
+    },
+    {
+      "sent": "<ruby>画面<rt>がめん</rt></ruby>に<ruby>映<rt>うつ</rt></ruby>る<ruby>店<rt>みせ</rt></ruby>は<ruby>最高<rt>さいこう</rt></ruby>です。",
+      "trans": "화면에 비치는 가게는 최고입니다.",
+      "grammar": "〜は〜です — ~은 ~입니다 (주제와 서술어)",
+      "tags": [
+        "映る"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「店を<b>移る</b>」の「移る」の読み方として正しいものはどれですか。",
+      "opt": [
+        "うつる",
+        "うかる",
+        "うく",
+        "うむ"
+      ],
+      "ans": 0,
+      "comment": "移る(うつる)는 '옮기다, 이동하다'라는 뜻입니다."
+    },
+    {
+      "q": "「野菜を<b>炒める</b>」の「炒める」の読み方として正しいものはどれですか。",
+      "opt": [
+        "いたむ",
+        "いためる",
+        "うめる",
+        "うかべる"
+      ],
+      "ans": 1,
+      "comment": "炒める(いためる)는 '볶다'라는 뜻입니다."
+    },
+    {
+      "q": "「突然のことで<b>慌てる</b>」の「慌てる」の読み方として正しいものはどれですか。",
+      "opt": [
+        "あわせる",
+        "あらわれる",
+        "あわてる",
+        "あつめる"
+      ],
+      "ans": 2,
+      "comment": "慌てる(あわてる)는 '당황하다, 허둥대다'라는 뜻입니다."
+    },
+    {
+      "q": "「成功を<b>疑う</b>」の「疑う」の読み方として正しいものはどれですか。",
+      "opt": [
+        "うばう",
+        "うやまう",
+        "うしなう",
+        "うたがう"
+      ],
+      "ans": 3,
+      "comment": "疑う(うたがう)는 '의심하다'라는 뜻입니다."
+    },
+    {
+      "q": "「<b>売り切れる</b>」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "물건을 사다",
+        "다 팔리다",
+        "값을 깎다",
+        "가게를 닫다"
+      ],
+      "ans": 1,
+      "comment": "売り切れる(うりきれる)는 상품이 남김없이 '다 팔리다, 매진되다'라는 뜻입니다."
+    },
+    {
+      "q": "「<b>受け入れる</b>」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "받아들이다",
+        "돌려주다",
+        "거절하다",
+        "마중 나가다"
+      ],
+      "ans": 0,
+      "comment": "受け入れる(うけいれる)는 사람이나 상황 등을 '받아들이다'라는 뜻입니다."
+    },
+    {
+      "q": "「<b>浮かべる</b>」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "가라앉히다",
+        "헤엄치다",
+        "띄우다",
+        "던지다"
+      ],
+      "ans": 2,
+      "comment": "浮かべる(うかべる)는 물 위에 '띄우다' 혹은 표정이나 미소를 얼굴에 '띄우다'라는 뜻입니다."
+    },
+    {
+      "q": "次の（　）に入る最も適切な言葉を選びなさい。「庭の穴を（　　）。」",
+      "opt": [
+        "うめる",
+        "うまる",
+        "うえる",
+        "うむ"
+      ],
+      "ans": 0,
+      "comment": "구멍을 '메우다'라는 타동사 埋める(うめる)가 적절합니다."
+    },
+    {
+      "q": "次の（　）に入る最も適切な言葉を選びなさい。「皆で力を（　　）頑張ろう。」",
+      "opt": [
+        "あわてる",
+        "あわせる",
+        "あらわれる",
+        "いいだす"
+      ],
+      "ans": 1,
+      "comment": "힘을 '합치다'라는 표현으로 力を合わせる(あわせる)를 사용합니다."
+    },
+    {
+      "q": "次の（　）に入る最も適切な言葉を選びなさい。「彼が急に変なことを（　　）ので驚いた。」",
+      "opt": [
+        "うけとった",
+        "うかべた",
+        "いいだした",
+        "いためた"
+      ],
+      "ans": 2,
+      "comment": "갑자기 말을 꺼내다라는 의미로 言い出す(いいだす)가 가장 적절합니다."
+    }
+  ]
 }

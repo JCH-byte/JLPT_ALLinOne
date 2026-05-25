@@ -35,16 +35,17 @@ argument-hint: <level> <selector>
 
 **메인 에이전트 절차:**
 1. 사전 검사(dist 동기화 + 모듈 목록 결정)는 메인이 직접 수행.
-2. 각 moduleId에 대해 순서대로 Agent tool 호출 (병렬 금지 — build 스크립트 충돌 방지):
+2. 프로젝트 루트를 동적으로 확인: `pwd` (Bash) 또는 `(Get-Location).Path` (PowerShell) 결과를 `{projectRoot}`로 사용.
+3. 각 moduleId에 대해 순서대로 Agent tool 호출 (병렬 금지 — build 스크립트 충돌 방지):
    - `description`: `"Generate {level} {moduleId}"`
    - `prompt`: 아래 **서브에이전트 프롬프트 템플릿**을 변수 치환해서 사용.
-3. 서브에이전트가 반환한 결과 한 줄씩 수집 → 모든 모듈 완료 후 보고서 출력.
+4. 서브에이전트가 반환한 결과 한 줄씩 수집 → 모든 모듈 완료 후 보고서 출력.
 
 ### 서브에이전트 프롬프트 템플릿
 
 ```
 당신은 JLPT 학습 모듈 생성 에이전트입니다.
-프로젝트 루트: c:\Users\JCH\Documents\GitHub\JLPT_ALLinOne
+프로젝트 루트: {projectRoot}
 
 먼저 `.claude/commands/generate-module.md`를 읽고,
 **Per-module 생성 워크플로 (Step 1~6)** 섹션을 아래 대상에 대해 실행하세요.
@@ -54,6 +55,13 @@ argument-hint: <level> <selector>
 
 ⚠️ Gemini CLI 호출 시 반드시 `gemini-3.1-pro-preview` 모델만 사용할 것.
 다른 모델 ID(gemini-2.0-flash 등)는 품질 저하 또는 ModelNotFoundError 발생.
+
+## 자가수정을 유발하는 가장 흔한 실패 원인 (반드시 숙지)
+1. **vocab 100% 누락** — dist 모듈의 vocab 배열 단어 중 1개라도 story에 없으면 즉시 실패.
+   Gemini 프롬프트에 vocab 자가검증 단계(출력 전 단어별 체크)가 포함되어 있으므로 반드시 활용할 것.
+2. **h3 ruby 누락** — `<h3>` 태그 안 일본어 제목의 한자에도 `<ruby>` 필수.
+   JSON 파싱 직후 인라인 검증(node -e)이 저장 전에 검출함. exit 1이면 파일 미저장 상태이므로
+   Gemini 재호출 또는 Claude 직접 수정 후 재시도.
 
 완료 후 마지막 응답은 아래 형식 한 줄로만:
 성공: `{moduleId}: 성공 (자가수정 N회)` — 자가수정이 있었다면 사유도 괄호 안에 추가
@@ -137,6 +145,15 @@ gemini -m gemini-3.1-pro-preview -p "$(cat <<'PROMPT'
 - 장면당 plain text 220자 이하
 - vocab 25개 **전부** story에 등장 (100% 필수)
 
+### ⚠️ vocab 100% 자가검증 (출력 전 필수 — 이 단계를 건너뛰면 검증 실패)
+story 완성 후 JSON 출력 전에 반드시 아래 순서로 확인하세요:
+1. vocab 목록의 각 word를 순서대로 나열
+2. 해당 단어(또는 직접 활용형)가 story HTML 어딘가에 있는지 한 줄씩 체크
+3. 누락 단어가 있으면 가장 자연스러운 장면에 한 문장 추가 후 다시 체크
+4. 모두 확인된 후에만 JSON 출력
+
+**절대 누락 상태로 JSON을 출력하지 말 것. 한 단어라도 빠지면 빌드 검증에서 자동 실패.**
+
 ### analysis (16~20개)
 ⚠️ **grammar 필드 절대 누락 금지 — 모든 항목에 필수.**
 형식: `{ "sent": "ruby 포함 문장", "trans": "한국어", "grammar": "〜패턴 — 설명 (조건)", "tags": ["vocab word"] }`
@@ -155,9 +172,10 @@ PROMPT
 )" 2>&1
 ```
 
-#### JSON 파싱 및 src 저장
+#### JSON 파싱 + 사전 검증 + src 저장
 
-Gemini 출력에는 앞에 경고 줄이 붙을 수 있으므로 첫 `{` 위치부터 파싱:
+Gemini 출력에는 앞에 경고 줄이 붙을 수 있으므로 첫 `{` 위치부터 파싱.  
+**파일 쓰기 전** vocab 100% 및 h3 ruby를 인라인으로 검증해 불필요한 check 스크립트·빌드 호출을 방지한다.
 
 ```bash
 node -e "
@@ -165,10 +183,29 @@ const fs = require('fs');
 const raw = fs.readFileSync('/path/to/gemini.output', 'utf8');
 const g = JSON.parse(raw.slice(raw.indexOf('{')));
 const src = JSON.parse(fs.readFileSync('data/src/{level}/modules/{moduleId}.json', 'utf8'));
+
+// ── 사전 검증 1: vocab 100% ──────────────────────────────
+const storyText = g.story.replace(/<[^>]*>/g, '');
+const missing = src.vocab.map(v => v.word).filter(w => !g.story.includes(w) && !storyText.includes(w));
+if (missing.length > 0) { console.error('VOCAB_MISSING: ' + missing.join(', ')); process.exit(1); }
+
+// ── 사전 검증 2: h3 안의 한자에 ruby 없는 경우 ───────────
+const kanjiRe = /[一-鿿]/;
+const h3s = g.story.match(/<h3>[\s\S]*?<\/h3>/g) || [];
+for (const h3 of h3s) {
+  const noRuby = h3.replace(/<ruby>[\s\S]*?<\/ruby>/g, '').replace(/<[^>]*>/g, '');
+  if (kanjiRe.test(noRuby)) { console.error('H3_RUBY_MISSING: ' + h3.slice(0, 100)); process.exit(1); }
+}
+
+// ── 저장 ─────────────────────────────────────────────────
 src.title = g.title; src.story = g.story; src.analysis = g.analysis; src.quiz = g.quiz;
 fs.writeFileSync('data/src/{level}/modules/{moduleId}.json', JSON.stringify(src, null, 2) + '\n');
+console.log('SAVED_OK');
 "
 ```
+
+- `SAVED_OK` 출력 → Step 3의 check 스크립트로 진행.
+- `VOCAB_MISSING` 또는 `H3_RUBY_MISSING` exit 1 → **파일 미저장 상태**이므로 Gemini를 재호출하거나 Step 2-B로 폴백. check 스크립트·빌드 호출 불필요.
 
 > Gemini 호출이 실패하거나 JSON 파싱 오류 시 → **Step 2-B**로 폴백.
 

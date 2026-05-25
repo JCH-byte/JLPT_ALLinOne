@@ -2,7 +2,7 @@
   "moduleId": "n3-module-043",
   "level": "n3",
   "ordinal": 43,
-  "title": "わ行の名詞・1 (わ행 명사 1)",
+  "title": "N3: 화제와 일상",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-8b7b4c4e62553f9f1f320e7fd820ead9f658af96",
@@ -31,7 +31,254 @@
     "v-c04835858ef22baf9f4689f67f3f98416db5f2c0",
     "v-8d3af1a241329cc7261686e19027c091403377d3"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>和室<rt>わしつ</rt></ruby>カフェの<ruby>話題<rt>わだい</rt></ruby>（화실 카페의 화제）</h3>\n<p>ある<ruby>若者<rt>わかもの</rt></ruby>が、<ruby>和室<rt>わしつ</rt></ruby>で<ruby>和食<rt>わしょく</rt></ruby>を<ruby>出<rt>だ</rt></ruby>すカフェを<ruby>作<rt>つく</rt></ruby>ることになりました。</p>\n<p>そのカフェは<ruby>全<rt>ぜん</rt></ruby>~<ruby>世代<rt>せだい</rt></ruby>の<ruby>話題<rt>わだい</rt></ruby>になり、<ruby>各<rt>かく</rt></ruby>~<ruby>地域<rt>ちいき</rt></ruby>で<ruby>知<rt>し</rt></ruby>られています。</p>\n<p>メニューの<ruby>割合<rt>わりあい</rt></ruby>は<ruby>和食<rt>わしょく</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いわけではありません。</p>\n<p><ruby>笑<rt>わら</rt></ruby>いの<ruby>絶<rt>た</rt></ruby>えない<ruby>場所<rt>ばしょ</rt></ruby>にしたいと<ruby>思<rt>おも</rt></ruby>っています。</p>\n<h3>Scene 2. <ruby>割引<rt>わりびき</rt></ruby>と<ruby>笑<rt>わら</rt></ruby>い（할인과 웃음）</h3>\n<p><ruby>学生<rt>がくせい</rt></ruby>は２~<ruby>割<rt>わり</rt></ruby>の<ruby>割引<rt>わりびき</rt></ruby>が<ruby>受<rt>う</rt></ruby>けられます。</p>\n<p><ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>割<rt>わ</rt></ruby>り<ruby>算<rt>ざん</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>ありません。</p>\n<p>ある<ruby>小説<rt>しょうせつ</rt></ruby>~<ruby>家<rt>か</rt></ruby>が<ruby>両<rt>りょう</rt></ruby>~<ruby>手<rt>て</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げて<ruby>喜<rt>よろこ</rt></ruby>びました。</p>\n<p>お<ruby>店<rt>みせ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>は<ruby>笑<rt>わら</rt></ruby>いでいっぱいです。</p>\n<h3>Scene 3. <ruby>録画<rt>ろくが</rt></ruby>と<ruby>詫<rt>わ</rt></ruby>び（녹화와 사죄）</h3>\n<p><ruby>昨日<rt>きのう</rt></ruby>、<ruby>無<rt>む</rt></ruby>~<ruby>料<rt>りょう</rt></ruby>の<ruby>日本<rt>にほん</rt></ruby>~<ruby>式<rt>しき</rt></ruby><ruby>結婚式<rt>けっこんしき</rt></ruby>がありました。</p>\n<p>しかし<ruby>録画<rt>ろくが</rt></ruby>と<ruby>録音<rt>ろくおん</rt></ruby>をした<ruby>人<rt>ひと</rt></ruby>がいました。</p>\n<p>その<ruby>人<rt>ひと</rt></ruby>は<ruby>手紙<rt>てがみ</rt></ruby>に<ruby>数<rt>すう</rt></ruby>~<ruby>行<rt>ぎょう</rt></ruby>の<ruby>詫<rt>わ</rt></ruby>びを<ruby>書<rt>か</rt></ruby>きました。</p>\n<p><ruby>全<rt>まった</rt></ruby>く<ruby>許<rt>ゆる</rt></ruby>されないわけではありませんが、<ruby>注意<rt>ちゅうい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。</p>\n<h3>Scene 4. <ruby>別<rt>わか</rt></ruby>れと<ruby>出発<rt>しゅっぱつ</rt></ruby>（이별과 출발）</h3>\n<p><ruby>季節<rt>きせつ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わり、<ruby>渡<rt>わた</rt></ruby>り<ruby>鳥<rt>どり</rt></ruby>との<ruby>別<rt>わか</rt></ruby>れの<ruby>時<rt>とき</rt></ruby>が<ruby>来<rt>き</rt></ruby>ました。</p>\n<p><ruby>雨<rt>あめ</rt></ruby>で<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>路面<rt>ろめん</rt></ruby>に、<ruby>車<rt>くるま</rt></ruby>の<ruby>輪<rt>わ</rt></ruby>の<ruby>跡<rt>あと</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>っています。</p>\n<p>お<ruby>店<rt>みせ</rt></ruby>では<ruby>北海道<rt>ほっかいどう</rt></ruby>~<ruby>産<rt>さん</rt></ruby>のミルクを<ruby>使<rt>つか</rt></ruby>うことになりました。</p>\n<p><ruby>長<rt>ちょう</rt></ruby>~<ruby>時間<rt>じかん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>がようやく<ruby>実<rt>みの</rt></ruby>を<ruby>結<rt>むす</rt></ruby>びました。</p>",
+  "analysis": [
+    {
+      "sent": "ある<ruby>若者<rt>わかもの</rt></ruby>が、<ruby>全世代<rt>ぜんせだい</rt></ruby>の<ruby>話題<rt>わだい</rt></ruby>になる<ruby>和室<rt>わしつ</rt></ruby>カフェを<ruby>作<rt>つく</rt></ruby>ることになりました。",
+      "trans": "어느 젊은이가 모든 세대의 화제가 될 화실 카페를 만들게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황이나 결정에 의한 자연스러운 결과를 나타냄 (결정)",
+      "tags": [
+        "若者",
+        "全~",
+        "話題",
+        "和室"
+      ]
+    },
+    {
+      "sent": "このカフェでは、<ruby>美味<rt>おい</rt></ruby>しい<ruby>和食<rt>わしょく</rt></ruby>を<ruby>出<rt>だ</rt></ruby>します。",
+      "trans": "이 카페에서는 맛있는 일식을 제공합니다.",
+      "grammar": "〜では — '~에서는', 장소 뒤에 붙어 동작이 이루어지는 범위를 강조함",
+      "tags": [
+        "和食"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>利益<rt>りえき</rt></ruby>の<ruby>割合<rt>わりあい</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いわけではありません。",
+      "trans": "하지만 이익의 비율이 반드시 높은 것은 아닙니다.",
+      "grammar": "〜わけではない — '반드시 ~인 것은 아니다', 일부를 부정하거나 부드럽게 반박할 때 사용",
+      "tags": [
+        "割合"
+      ]
+    },
+    {
+      "sent": "<ruby>皆<rt>みな</rt></ruby>が<ruby>笑顔<rt>えがお</rt></ruby>で<ruby>集<rt>あつ</rt></ruby>まる<ruby>場所<rt>ばしょ</rt></ruby>にしたいと<ruby>思<rt>おも</rt></ruby>っています。",
+      "trans": "모두가 웃는 얼굴로 모이는 장소로 만들고 싶다고 생각하고 있습니다.",
+      "grammar": "〜にしたい — '~로 만들고 싶다', 명사 뒤에 붙어 상태를 변화시키고자 하는 희망을 표현",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>各店舗<rt>かくてんぽ</rt></ruby>で、<ruby>学生<rt>がくせい</rt></ruby>は２<ruby>割<rt>わり</rt></ruby>の<ruby>割引<rt>わりびき</rt></ruby>が<ruby>受<rt>う</rt></ruby>けられます。",
+      "trans": "각 점포에서 학생은 2할(20%) 할인을 받을 수 있습니다.",
+      "grammar": "られる (가능형) — '~할 수 있다', 동사의 가능형으로 능력이나 상황적 가능성을 나타냄",
+      "tags": [
+        "各~",
+        "~割",
+        "割引"
+      ]
+    },
+    {
+      "sent": "<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>割<rt>わ</rt></ruby>り<ruby>算<rt>ざん</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>ありません。",
+      "trans": "복잡한 나눗셈은 필요 없습니다.",
+      "grammar": "な + 명사 — '나형용사의 명사 수식', 상태나 성질을 명사 앞에서 꾸며줌",
+      "tags": [
+        "割り算"
+      ]
+    },
+    {
+      "sent": "ある<ruby>小説家<rt>しょうせつか</rt></ruby>が<ruby>両手<rt>りょうて</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げて<ruby>喜<rt>よろこ</rt></ruby>びました。",
+      "trans": "어떤 소설가가 양손을 들고 기뻐했습니다.",
+      "grammar": "〜て — '~하고, ~해서', 동작의 순서나 원인을 이어주는 연결형",
+      "tags": [
+        "~家",
+        "両~"
+      ]
+    },
+    {
+      "sent": "お<ruby>店<rt>みせ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>は、いつも<ruby>笑<rt>わら</rt></ruby>いでいっぱいです。",
+      "trans": "가게 안은 항상 웃음으로 가득합니다.",
+      "grammar": "〜でいっぱい — '~로 가득하다', 수단이나 재료를 나타내는 'で'와 함께 쓰여 충만함을 표현",
+      "tags": [
+        "笑い"
+      ]
+    },
+    {
+      "sent": "<ruby>昨日<rt>きのう</rt></ruby>、ここで<ruby>日本式<rt>にほんしき</rt></ruby>の<ruby>結婚式<rt>けっこんしき</rt></ruby>がありました。",
+      "trans": "어제 이곳에서 일본식 결혼식이 있었습니다.",
+      "grammar": "〜がありました — '~이 있었습니다', 과거에 일어난 사건이나 행사의 존재를 나타냄",
+      "tags": [
+        "~式"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>無断<rt>むだん</rt></ruby>で<ruby>録画<rt>ろくが</rt></ruby>と<ruby>録音<rt>ろくおん</rt></ruby>をした<ruby>人<rt>ひと</rt></ruby>がいました。",
+      "trans": "하지만 무단으로 녹화와 녹음을 한 사람이 있었습니다.",
+      "grammar": "た + 名詞 — '과거형 수식', 과거의 동작이 명사를 수식하는 형태",
+      "tags": [
+        "無~",
+        "録画",
+        "録音"
+      ]
+    },
+    {
+      "sent": "その<ruby>人<rt>ひと</rt></ruby>は<ruby>手紙<rt>てがみ</rt></ruby>に<ruby>数行<rt>すうぎょう</rt></ruby>の<ruby>詫<rt>わ</rt></ruby>びを<ruby>書<rt>か</rt></ruby>きました。",
+      "trans": "그 사람은 편지에 몇 줄의 사과를 썼습니다.",
+      "grammar": "〜に〜を書く — '~에 ~을 쓰다', 동작의 대상과 목적지를 명확히 하는 표현",
+      "tags": [
+        "~行",
+        "詫び"
+      ]
+    },
+    {
+      "sent": "<ruby>全<rt>まった</rt></ruby>く<ruby>許<rt>ゆる</rt></ruby>されないわけではありませんが、<ruby>注意<rt>ちゅうい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。",
+      "trans": "전혀 용서받지 못하는 것은 아니지만, 주의가 필요합니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전면 부정을 피하고 부분적으로 긍정하는 완곡한 부정",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>季節<rt>きせつ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わり、<ruby>渡<rt>わた</rt></ruby>り<ruby>鳥<rt>どり</rt></ruby>との<ruby>別<rt>わか</rt></ruby>れの<ruby>時<rt>とき</rt></ruby>が<ruby>来<rt>き</rt></ruby>ました。",
+      "trans": "계절이 바뀌어 철새와의 이별의 시간이 왔습니다.",
+      "grammar": "〜との — '~와의', 두 개의 조사가 결합되어 대상과의 관계를 명사로 이어줌",
+      "tags": [
+        "渡り鳥",
+        "別れ"
+      ]
+    },
+    {
+      "sent": "<ruby>雨<rt>あめ</rt></ruby>で<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>路面<rt>ろめん</rt></ruby>に、<ruby>車<rt>くるま</rt></ruby>の<ruby>輪<rt>わ</rt></ruby>の<ruby>跡<rt>あと</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>っています。",
+      "trans": "비에 젖은 노면에 자동차 바퀴 자국이 남아 있습니다.",
+      "grammar": "〜ている — '~어 있다', 결과의 상태가 지속되고 있음을 나타내는 표현",
+      "tags": [
+        "路面",
+        "輪"
+      ]
+    },
+    {
+      "sent": "お<ruby>店<rt>みせ</rt></ruby>では<ruby>北海道産<rt>ほっかいどうさん</rt></ruby>のミルクを<ruby>使<rt>つか</rt></ruby>うことになりました。",
+      "trans": "가게에서는 홋카이도산 우유를 사용하기로 결정되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 외부 요인이나 협의로 결정된 사항을 객관적으로 표현",
+      "tags": [
+        "~産"
+      ]
+    },
+    {
+      "sent": "<ruby>長時間<rt>ちょうじかん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>がようやく<ruby>実<rt>みの</rt></ruby>を<ruby>結<rt>むす</rt></ruby>びました。",
+      "trans": "장시간의 준비가 마침내 결실을 맺었습니다.",
+      "grammar": "が — '이/가', 문장의 주어를 명확히 표시하는 주격 조사",
+      "tags": [
+        "長~"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "雨で濡れた**路面**を走る。",
+      "opt": [
+        "ろめん",
+        "ろうめん",
+        "ろみん",
+        "ろうみん"
+      ],
+      "ans": 0,
+      "comment": "路面(ろめん)은 '노면(길바닥)'을 뜻합니다."
+    },
+    {
+      "q": "インタビューを**録音**する。",
+      "opt": [
+        "ろくおん",
+        "りょくおん",
+        "ろくいん",
+        "りょくいん"
+      ],
+      "ans": 0,
+      "comment": "録音(ろくおん)은 '녹음'을 뜻합니다."
+    },
+    {
+      "q": "客を**和室**に案内する。",
+      "opt": [
+        "かずしつ",
+        "わむろ",
+        "わしつ",
+        "かずむろ"
+      ],
+      "ans": 2,
+      "comment": "和室(わしつ)는 '일본식 방'을 뜻합니다."
+    },
+    {
+      "q": "この町は**若者**が減っている。",
+      "opt": [
+        "じゃくしゃ",
+        "わかしゃ",
+        "じゃくもの",
+        "わかもの"
+      ],
+      "ans": 3,
+      "comment": "若者(わかもの)는 '젊은이'를 뜻합니다."
+    },
+    {
+      "q": "「割合」と最も意味が近いものはどれですか。",
+      "opt": [
+        "理由",
+        "比率",
+        "計算",
+        "結果"
+      ],
+      "ans": 1,
+      "comment": "割合(わりあい)는 '비율'을 의미하므로 '比率(비율)'과 가장 가깝습니다."
+    },
+    {
+      "q": "「話題」と最も意味が近いものはどれですか。",
+      "opt": [
+        "問題",
+        "結論",
+        "テーマ",
+        "ニュース"
+      ],
+      "ans": 2,
+      "comment": "話題(わだい)는 '화제, 이야기의 주제'를 뜻하므로 'テーマ(테마)'와 뜻이 통합니다."
+    },
+    {
+      "q": "「詫び」と最も意味が近いものはどれですか。",
+      "opt": [
+        "感謝",
+        "謝罪",
+        "挨拶",
+        "不満"
+      ],
+      "ans": 1,
+      "comment": "詫び(わび)는 '사과, 사죄'를 의미하므로 '謝罪(사죄)'가 정답입니다."
+    },
+    {
+      "q": "利益が高い（　　　）が、みんなが笑顔になれる場所だ。",
+      "opt": [
+        "わけではない",
+        "ことになっている",
+        "かもしれない",
+        "はずだ"
+      ],
+      "ans": 0,
+      "comment": "문맥상 '이익이 반드시 높은 것은 아니지만'이라는 역접과 부분 부정이 어울리므로 'わけではない'가 들어갑니다."
+    },
+    {
+      "q": "このレストランでは北海道（　　）の野菜を使っている。",
+      "opt": [
+        "家",
+        "行",
+        "産",
+        "式"
+      ],
+      "ans": 2,
+      "comment": "지역 이름 뒤에 붙어 '그곳에서 생산됨'을 뜻하는 접미사는 '〜産(さん)'입니다."
+    },
+    {
+      "q": "小学生のときに（　　）のやり方を習った。",
+      "opt": [
+        "割り引き",
+        "割合",
+        "割り算",
+        "割れ目"
+      ],
+      "ans": 2,
+      "comment": "수학 계산인 '나눗셈'을 의미하는 단어는 '割り算(わりざん)'입니다."
+    }
+  ]
 }

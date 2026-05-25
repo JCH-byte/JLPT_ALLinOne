@@ -2,7 +2,7 @@
   "moduleId": "n3-module-042",
   "level": "n3",
   "ordinal": 42,
-  "title": "ら行の名詞・1 (ら행 명사 1)",
+  "title": "N3: 연휴와 유학 준비",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,256 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>留学<rt>りゅうがく</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>（유학 준비）</h3>\n<p><ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>留学<rt>りゅうがく</rt></ruby>することになりました。</p>\n<p><ruby>夜中<rt>よなか</rt></ruby>まで<ruby>履歴書<rt>りれきしょ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いています。</p>\n<p><ruby>理科<rt>りか</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>するのが<ruby>私<rt>わたし</rt></ruby>の<ruby>理想<rt>りそう</rt></ruby>です。</p>\n<p>その<ruby>理由<rt>りゆう</rt></ruby>を<ruby>先生<rt>せんせい</rt></ruby>も<ruby>理解<rt>りかい</rt></ruby>してくれました。</p>\n<h3>Scene 2. <ruby>天気<rt>てんき</rt></ruby>と<ruby>夜空<rt>よぞら</rt></ruby>（날씨와 밤하늘）</h3>\n<p><ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>て<ruby>美<rt>うつく</rt></ruby>しい<ruby>夜空<rt>よぞら</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。</p>\n<p><ruby>天気<rt>てんき</rt></ruby>の<ruby>予報<rt>よほう</rt></ruby>では<ruby>明日<rt>あした</rt></ruby>から<ruby>寒<rt>さむ</rt></ruby>くなります。</p>\n<p><ruby>風邪<rt>かぜ</rt></ruby>の<ruby>予防<rt>よぼう</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>にでも<ruby>必要<rt>ひつよう</rt></ruby>で、<ruby>例外<rt>れいがい</rt></ruby>はありません。</p>\n<p><ruby>大学<rt>だいがく</rt></ruby><ruby>合格<rt>ごうかく</rt></ruby>の<ruby>喜<rt>よろこ</rt></ruby>びを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。</p>\n<h3>Scene 3. <ruby>連休<rt>れんきゅう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>（연휴 전）</h3>\n<p><ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>連休<rt>れんきゅう</rt></ruby>に<ruby>向<rt>む</rt></ruby>けて<ruby>両替<rt>りょうがえ</rt></ruby>をしました。</p>\n<p><ruby>飛行機<rt>ひこうき</rt></ruby>の<ruby>料金<rt>りょうきん</rt></ruby>も<ruby>払<rt>はら</rt></ruby>いました。</p>\n<p><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>綺麗<rt>きれい</rt></ruby>に<ruby>片付<rt>かたづ</rt></ruby>けます。</p>\n<p><ruby>多<rt>おお</rt></ruby>い<ruby>量<rt>りょう</rt></ruby>の<ruby>肉<rt>にく</rt></ruby>をすべて<ruby>冷凍<rt>れいとう</rt></ruby>するわけではありません。</p>\n<h3>Scene 4. <ruby>町<rt>まち</rt></ruby>の<ruby>風景<rt>ふうけい</rt></ruby>（거리의 풍경）</h3>\n<p><ruby>私<rt>わたし</rt></ruby>の<ruby>留守<rt>るす</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、<ruby>弟<rt>おとうと</rt></ruby>に<ruby>留守番<rt>るすばん</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>みました。</p>\n<p><ruby>四<rt>よ</rt></ruby>つ<ruby>角<rt>かど</rt></ruby>の<ruby>両側<rt>りょうがわ</rt></ruby>に<ruby>人<rt>ひと</rt></ruby>の<ruby>列<rt>れつ</rt></ruby>ができていました。</p>\n<p><ruby>流行<rt>りゅうこう</rt></ruby>のケーキ<ruby>屋<rt>や</rt></ruby>があるからです。</p>\n<p>そこで<ruby>最近<rt>さいきん</rt></ruby><ruby>離婚<rt>りこん</rt></ruby>した<ruby>友人<rt>ゆうじん</rt></ruby>と<ruby>偶然<rt>ぐうぜん</rt></ruby><ruby>会<rt>あ</rt></ruby>いました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>留学<rt>りゅうがく</rt></ruby>することになりました。",
+      "trans": "내년, 일본으로 유학을 가게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정이나 상황의 자연스러운 귀결을 나타냄",
+      "tags": [
+        "留学"
+      ]
+    },
+    {
+      "sent": "<ruby>夜中<rt>よなか</rt></ruby>まで<ruby>履歴書<rt>りれきしょ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いています。",
+      "trans": "밤중까지 이력서를 쓰고 있습니다.",
+      "grammar": "〜まで — '~까지', 시간적 범위의 끝을 나타내는 조사",
+      "tags": [
+        "夜中",
+        "履歴書"
+      ]
+    },
+    {
+      "sent": "<ruby>理科<rt>りか</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>するのが<ruby>私<rt>わたし</rt></ruby>の<ruby>理想<rt>りそう</rt></ruby>です。",
+      "trans": "이과를 공부하는 것이 저의 이상입니다.",
+      "grammar": "〜のが — '~하는 것이', 동사를 명사화하여 문장의 주어로 만듦",
+      "tags": [
+        "理科",
+        "理想"
+      ]
+    },
+    {
+      "sent": "その<ruby>理由<rt>りゆう</rt></ruby>を<ruby>先生<rt>せんせい</rt></ruby>も<ruby>理解<rt>りかい</rt></ruby>してくれました。",
+      "trans": "그 이유를 선생님도 이해해 주셨습니다.",
+      "grammar": "〜てくれる — '~해 주다', 타인이 나를 위해 어떤 행위를 해주는 것에 대한 감사함",
+      "tags": [
+        "理由",
+        "理解"
+      ]
+    },
+    {
+      "sent": "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>て<ruby>美<rt>うつく</rt></ruby>しい<ruby>夜空<rt>よぞら</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "밖에 나가서 아름다운 밤하늘을 보았습니다.",
+      "grammar": "〜て — '~하고, ~해서', 동작의 순서나 인과 관계를 나타냄",
+      "tags": [
+        "夜空"
+      ]
+    },
+    {
+      "sent": "<ruby>天気<rt>てんき</rt></ruby>の<ruby>予報<rt>よほう</rt></ruby>では<ruby>明日<rt>あした</rt></ruby>から<ruby>寒<rt>さむ</rt></ruby>くなります。",
+      "trans": "날씨 예보에서는 내일부터 추워진다고 합니다.",
+      "grammar": "〜では — '~에서는', 정보의 출처나 근거를 나타냄",
+      "tags": [
+        "予報"
+      ]
+    },
+    {
+      "sent": "<ruby>風邪<rt>かぜ</rt></ruby>の<ruby>予防<rt>よぼう</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>にでも<ruby>必要<rt>ひつよう</rt></ruby>で、<ruby>例外<rt>れいがい</rt></ruby>はありません。",
+      "trans": "감기 예방은 누구에게라도 필요하며, 예외는 없습니다.",
+      "grammar": "〜にでも — '~에게라도, ~에게나', 전면적인 적용을 나타냄",
+      "tags": [
+        "予防",
+        "例外"
+      ]
+    },
+    {
+      "sent": "<ruby>大学<rt>だいがく</rt></ruby><ruby>合格<rt>ごうかく</rt></ruby>の<ruby>喜<rt>よろこ</rt></ruby>びを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。",
+      "trans": "대학 합격의 기쁨을 떠올렸습니다.",
+      "grammar": "〜を思い出す — '~을 떠올리다, 생각나다', 과거의 일을 상기하는 동사",
+      "tags": [
+        "喜び"
+      ]
+    },
+    {
+      "sent": "<ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>連休<rt>れんきゅう</rt></ruby>に<ruby>向<rt>む</rt></ruby>けて<ruby>両替<rt>りょうがえ</rt></ruby>をしました。",
+      "trans": "다음 주 연휴를 대비하여 환전을 했습니다.",
+      "grammar": "〜に向けて — '~을 향해서, ~을 대비하여', 목표나 목적을 나타내는 표현",
+      "tags": [
+        "連休",
+        "両替"
+      ]
+    },
+    {
+      "sent": "<ruby>飛行機<rt>ひこうき</rt></ruby>の<ruby>料金<rt>りょうきん</rt></ruby>も<ruby>払<rt>はら</rt></ruby>いました。",
+      "trans": "비행기 요금도 지불했습니다.",
+      "grammar": "〜も — '~도', 동류의 것이 또 있음을 나타내는 조사",
+      "tags": [
+        "料金"
+      ]
+    },
+    {
+      "sent": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>綺麗<rt>きれい</rt></ruby>に<ruby>片付<rt>かたづ</rt></ruby>けます。",
+      "trans": "냉장고 안을 깨끗하게 정리합니다.",
+      "grammar": "〜を — '~을/를', 목적어를 나타내는 조사",
+      "tags": [
+        "冷蔵庫"
+      ]
+    },
+    {
+      "sent": "<ruby>多<rt>おお</rt></ruby>い<ruby>量<rt>りょう</rt></ruby>の<ruby>肉<rt>にく</rt></ruby>をすべて<ruby>冷凍<rt>れいとう</rt></ruby>するわけではありません。",
+      "trans": "많은 양의 고기를 전부 냉동하는 것은 아닙니다.",
+      "grammar": "〜わけではない — '~한 것은 아니다', 전부나 일부를 완곡하게 부정하는 표현",
+      "tags": [
+        "量",
+        "冷凍"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>の<ruby>留守<rt>るす</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、<ruby>弟<rt>おとうと</rt></ruby>に<ruby>留守番<rt>るすばん</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>みました。",
+      "trans": "제가 집을 비운 동안, 남동생에게 집을 지켜달라고 부탁했습니다.",
+      "grammar": "〜の間 — '~하는 동안', 어떤 상태가 계속되는 기간을 나타냄",
+      "tags": [
+        "留守",
+        "留守番"
+      ]
+    },
+    {
+      "sent": "<ruby>四<rt>よ</rt></ruby>つ<ruby>角<rt>かど</rt></ruby>の<ruby>両側<rt>りょうがわ</rt></ruby>に<ruby>人<rt>ひと</rt></ruby>の<ruby>列<rt>れつ</rt></ruby>ができていました。",
+      "trans": "네거리의 양쪽에 사람들의 줄이 생겨 있었습니다.",
+      "grammar": "〜ができる — '~이 생기다, 완성되다', 자발적인 형성이나 출현을 나타냄",
+      "tags": [
+        "四つ角",
+        "両側",
+        "列"
+      ]
+    },
+    {
+      "sent": "<ruby>流行<rt>りゅうこう</rt></ruby>のケーキ<ruby>屋<rt>や</rt></ruby>があるからです。",
+      "trans": "유행하는 케이크 가게가 있기 때문입니다.",
+      "grammar": "〜から — '~때문이다', 이유나 원인을 설명하는 표현",
+      "tags": [
+        "流行"
+      ]
+    },
+    {
+      "sent": "そこで<ruby>最近<rt>さいきん</rt></ruby><ruby>離婚<rt>りこん</rt></ruby>した<ruby>友人<rt>ゆうじん</rt></ruby>と<ruby>偶然<rt>ぐうぜん</rt></ruby><ruby>会<rt>あ</rt></ruby>いました。",
+      "trans": "거기서 최근 이혼한 친구와 우연히 만났습니다.",
+      "grammar": "〜と会う — '~와 만나다', 우연한 만남이나 대상을 나타내는 조사",
+      "tags": [
+        "離婚"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「予報」の正しい読み方はどれですか。",
+      "opt": [
+        "よほう",
+        "ようほう",
+        "よぼう",
+        "ようぼう"
+      ],
+      "ans": 0,
+      "comment": "予報(よほう)는 '예보'라는 뜻입니다."
+    },
+    {
+      "q": "「履歴書」の正しい読み方はどれですか。",
+      "opt": [
+        "りれきしょ",
+        "りれききょ",
+        "りっきしょ",
+        "りきれしょ"
+      ],
+      "ans": 0,
+      "comment": "履歴書(りれきしょ)는 '이력서'라는 뜻입니다."
+    },
+    {
+      "q": "「両側」の正しい読み方はどれですか。",
+      "opt": [
+        "りょうがわ",
+        "りょうそく",
+        "りょうかわ",
+        "りょうば"
+      ],
+      "ans": 0,
+      "comment": "両側(りょうがわ)는 '양쪽'이라는 뜻입니다."
+    },
+    {
+      "q": "「冷蔵庫」の正しい読み方はどれですか。",
+      "opt": [
+        "れいぞうこ",
+        "れいそうこ",
+        "れんぞうこ",
+        "れんそうこ"
+      ],
+      "ans": 0,
+      "comment": "冷蔵庫(れいぞうこ)는 '냉장고'라는 뜻입니다."
+    },
+    {
+      "q": "「留守番」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "부재",
+        "집을 지킴",
+        "이사",
+        "외출"
+      ],
+      "ans": 1,
+      "comment": "留守番(るすばん)은 주인이 외출한 동안 '집을 지킴'을 의미합니다."
+    },
+    {
+      "q": "「四つ角」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "사각형",
+        "네거리",
+        "사계절",
+        "사방"
+      ],
+      "ans": 1,
+      "comment": "四つ角(よつかど)는 십자로 교차하는 '네거리(사거리)'를 의미합니다."
+    },
+    {
+      "q": "「例外」の意味として最も適切なものはどれですか。",
+      "opt": [
+        "예외",
+        "예상",
+        "예방",
+        "예보"
+      ],
+      "ans": 0,
+      "comment": "例外(れいがい)는 일반적인 원칙에서 벗어나는 '예외'를 뜻합니다."
+    },
+    {
+      "q": "（　　）まで起きて勉強した。\n(밤늦게까지 깨어서 공부했다.)",
+      "opt": [
+        "夜中",
+        "夜空",
+        "理科",
+        "理由"
+      ],
+      "ans": 0,
+      "comment": "夜中(よなか)는 '밤중, 한밤중'을 의미합니다."
+    },
+    {
+      "q": "新しいコートが（　　）している。\n(새로운 코트가 유행하고 있다.)",
+      "opt": [
+        "留学",
+        "流行",
+        "理解",
+        "理想"
+      ],
+      "ans": 1,
+      "comment": "流行(りゅうこう)는 '유행'을 뜻합니다."
+    },
+    {
+      "q": "風邪の（　　）のために手を洗う。\n(감기 예방을 위해 손을 씻는다.)",
+      "opt": [
+        "予防",
+        "予報",
+        "料金",
+        "例外"
+      ],
+      "ans": 0,
+      "comment": "予防(よぼう)는 병이나 재해를 미리 막는 '예방'을 의미합니다."
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "moduleId": "n3-module-041",
   "level": "n3",
   "ordinal": 41,
-  "title": "や行の名詞・1 (や행 명사 1)",
+  "title": "N3: 친구의 무역 회사",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,255 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>（친구의 회사）</h3>\n<p><ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>新<rt>あたら</rt></ruby>しく<ruby>輸出<rt>ゆしゅつ</rt></ruby>と<ruby>輸入<rt>ゆにゅう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めることになりました。</p>\n<p>ある<ruby>日<rt>ひ</rt></ruby>、その<ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>用件<rt>ようけん</rt></ruby>で<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</p>\n<p><ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>床<rt>ゆか</rt></ruby>には、いろいろな<ruby>用途<rt>ようと</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>が<ruby>置<rt>お</rt></ruby>いてありました。</p>\n<p>これらはすべて<ruby>有料<rt>ゆうりょう</rt></ruby>で<ruby>郵送<rt>ゆうそう</rt></ruby>されます。</p>\n<p><ruby>郵送料<rt>ゆうそうりょう</rt></ruby>を<ruby>計算<rt>けいさん</rt></ruby>するのは<ruby>簡単<rt>かんたん</rt></ruby>なわけではありません。</p>\n<h3>Scene 2. <ruby>配送<rt>はいそう</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>（배송 준비）</h3>\n<p><ruby>翌日<rt>よくじつ</rt></ruby>と<ruby>翌週<rt>よくしゅう</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby>についての<ruby>要求<rt>ようきゅう</rt></ruby>がありました。</p>\n<p><ruby>予想<rt>よそう</rt></ruby>より<ruby>多<rt>おお</rt></ruby>くの<ruby>郵便<rt>ゆうびん</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ることになりました。</p>\n<p><ruby>私<rt>わたし</rt></ruby>たちは<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しました。</p>\n<p><ruby>欲張<rt>よくば</rt></ruby>りのように<ruby>送<rt>おく</rt></ruby>りすぎるわけではありません。</p>\n<p>それでも、たくさんの<ruby>幼児<rt>ようじ</rt></ruby>や<ruby>幼稚園<rt>ようちえん</rt></ruby>のために<ruby>必要<rt>ひつよう</rt></ruby>でした。</p>\n<h3>Scene 3. <ruby>美<rt>うつく</rt></ruby>しい<ruby>夕暮<rt>ゆうぐ</rt></ruby>れ（아름다운 해질녘）</h3>\n<p><ruby>突然<rt>とつぜん</rt></ruby>、<ruby>夕立<rt>ゆうだち</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ってきました。</p>\n<p><ruby>彼<rt>かれ</rt></ruby>は<ruby>急<rt>いそ</rt></ruby>いで<ruby>窓<rt>まど</rt></ruby>を<ruby>閉<rt>し</rt></ruby>めることになりました。</p>\n<p>しかし、<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るからといって<ruby>悲<rt>かな</rt></ruby>しいわけではありません。</p>\n<p><ruby>雨<rt>あめ</rt></ruby>が<ruby>止<rt>や</rt></ruby>み、<ruby>夕日<rt>ゆうひ</rt></ruby>と<ruby>夕焼<rt>ゆうや</rt></ruby>けがとても<ruby>美<rt>うつく</rt></ruby>しかったです。</p>\n<p><ruby>私<rt>わたし</rt></ruby>たちはしばらく<ruby>空<rt>そら</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。</p>\n<h3>Scene 4. <ruby>長<rt>なが</rt></ruby>い<ruby>一日<rt>いちにち</rt></ruby>の<ruby>終<rt>お</rt></ruby>わり（긴 하루의 끝）</h3>\n<p><ruby>私<rt>わたし</rt></ruby>たちは<ruby>夜通<rt>よどお</rt></ruby>しで<ruby>仕事<rt>しごと</rt></ruby>をしました。</p>\n<p><ruby>夜明<rt>よあ</rt></ruby>けが<ruby>近<rt>ちか</rt></ruby>づいてきました。</p>\n<p><ruby>翌朝<rt>よくあさ</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きなければならないわけではありません。</p>\n<p>すべての<ruby>事<rt>こと</rt></ruby>がうまく<ruby>終<rt>お</rt></ruby>わりました。</p>\n<p><ruby>本当<rt>ほんとう</rt></ruby>に<ruby>良<rt>よ</rt></ruby>い<ruby>経験<rt>けいけん</rt></ruby>になったと<ruby>思<rt>おも</rt></ruby>います。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>新<rt>あたら</rt></ruby>しく<ruby>輸出<rt>ゆしゅつ</rt></ruby>と<ruby>輸入<rt>ゆにゅう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めることになりました。",
+      "trans": "친구가 새롭게 수출과 수입 일을 시작하게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정·상황의 자연스러운 귀결을 나타냄",
+      "tags": [
+        "友人",
+        "輸出",
+        "輸入"
+      ]
+    },
+    {
+      "sent": "ある<ruby>日<rt>ひ</rt></ruby>、その<ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>用件<rt>ようけん</rt></ruby>で<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "어느 날, 그 친구의 용건으로 회사에 갔습니다.",
+      "grammar": "で — '~로', 목적이나 이유를 나타내는 조사",
+      "tags": [
+        "友人",
+        "用件"
+      ]
+    },
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>床<rt>ゆか</rt></ruby>には、いろいろな<ruby>用途<rt>ようと</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>が<ruby>置<rt>お</rt></ruby>いてありました。",
+      "trans": "회사 바닥에는 여러 용도의 용기가 놓여 있었습니다.",
+      "grammar": "〜てある — '~되어 있다', 누군가에 의해 의도적으로 행해진 결과의 상태",
+      "tags": [
+        "床",
+        "用途",
+        "容器"
+      ]
+    },
+    {
+      "sent": "これらはすべて<ruby>有料<rt>ゆうりょう</rt></ruby>で<ruby>郵送<rt>ゆうそう</rt></ruby>されます。",
+      "trans": "이것들은 모두 유료로 우송됩니다.",
+      "grammar": "れる・られる — 수동태 (~되다, ~당하다)",
+      "tags": [
+        "有料",
+        "郵送"
+      ]
+    },
+    {
+      "sent": "<ruby>郵送料<rt>ゆうそうりょう</rt></ruby>を<ruby>計算<rt>けいさん</rt></ruby>するのは<ruby>簡単<rt>かんたん</rt></ruby>なわけではありません。",
+      "trans": "우송료를 계산하는 것은 간단한 것이 아닙니다.",
+      "grammar": "〜わけではない — '반드시 ~인 것은 아니다', 부분 부정을 나타냄",
+      "tags": [
+        "郵送料"
+      ]
+    },
+    {
+      "sent": "<ruby>翌日<rt>よくじつ</rt></ruby>と<ruby>翌週<rt>よくしゅう</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby>についての<ruby>要求<rt>ようきゅう</rt></ruby>がありました。",
+      "trans": "이튿날과 다음 주의 예산에 대한 요구가 있었습니다.",
+      "grammar": "について — '~에 대하여', 대상을 한정하는 표현",
+      "tags": [
+        "翌日",
+        "翌週",
+        "予算",
+        "要求"
+      ]
+    },
+    {
+      "sent": "<ruby>予想<rt>よそう</rt></ruby>より<ruby>多<rt>おお</rt></ruby>くの<ruby>郵便<rt>ゆうびん</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ることになりました。",
+      "trans": "예상보다 많은 우편을 보내게 되었습니다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정·상황의 자연스러운 귀결을 나타냄",
+      "tags": [
+        "予想",
+        "郵便"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>たちは<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しました。",
+      "trans": "우리는 행선지를 확인했습니다.",
+      "grammar": "を — 목적격 조사 (~을/를)",
+      "tags": [
+        "行き先"
+      ]
+    },
+    {
+      "sent": "<ruby>欲張<rt>よくば</rt></ruby>りのように<ruby>送<rt>おく</rt></ruby>りすぎるわけではありません。",
+      "trans": "욕심쟁이처럼 너무 많이 보내는 것은 아닙니다.",
+      "grammar": "〜すぎる — '너무 ~하다', 정도가 지나침을 나타냄",
+      "tags": [
+        "欲張り"
+      ]
+    },
+    {
+      "sent": "それでも、たくさんの<ruby>幼児<rt>ようじ</rt></ruby>や<ruby>幼稚園<rt>ようちえん</rt></ruby>のために<ruby>必要<rt>ひつよう</rt></ruby>でした。",
+      "trans": "그래도 많은 유아나 유치원을 위해 필요했습니다.",
+      "grammar": "のために — '~을/를 위해', 목적이나 이익을 나타냄",
+      "tags": [
+        "幼児",
+        "幼稚園"
+      ]
+    },
+    {
+      "sent": "<ruby>突然<rt>とつぜん</rt></ruby>、<ruby>夕立<rt>ゆうだち</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ってきました。",
+      "trans": "갑자기 소나기가 내려왔습니다.",
+      "grammar": "〜てくる — '~해 오다', 상태의 변화나 발생을 나타냄",
+      "tags": [
+        "夕立"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るからといって<ruby>悲<rt>かな</rt></ruby>しいわけではありません。",
+      "trans": "하지만 비가 내린다고 해서 슬픈 것은 아닙니다.",
+      "grammar": "〜からといって — '~라고 해서', 뒷문장에는 주로 부정이나 판단이 옴",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>止<rt>や</rt></ruby>み、<ruby>夕日<rt>ゆうひ</rt></ruby>と<ruby>夕焼<rt>ゆうや</rt></ruby>けがとても<ruby>美<rt>うつく</rt></ruby>しかったです。",
+      "trans": "비가 그치고, 석양과 저녁놀이 무척 아름다웠습니다.",
+      "grammar": "と — 병렬 조사 (~와/과)",
+      "tags": [
+        "夕日",
+        "夕焼け"
+      ]
+    },
+    {
+      "sent": "<ruby>夜明<rt>よあ</rt></ruby>けが<ruby>近<rt>ちか</rt></ruby>づいてきました。",
+      "trans": "새벽이 다가왔습니다.",
+      "grammar": "〜てくる — '~해 오다', 점진적인 변화의 접근을 나타냄",
+      "tags": [
+        "夜明け"
+      ]
+    },
+    {
+      "sent": "<ruby>翌朝<rt>よくあさ</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きなければならないわけではありません。",
+      "trans": "이튿날 아침 일찍 일어나야 하는 것은 아닙니다.",
+      "grammar": "〜なければならない — '~하지 않으면 안 된다, ~해야 한다', 의무를 나타냄",
+      "tags": [
+        "翌朝"
+      ]
+    },
+    {
+      "sent": "すべての<ruby>事<rt>こと</rt></ruby>がうまく<ruby>終<rt>お</rt></ruby>わりました。",
+      "trans": "모든 일이 잘 끝났습니다.",
+      "grammar": "が — 주격 조사 (~이/가)",
+      "tags": []
+    }
+  ],
+  "quiz": [
+    {
+      "q": "「翌朝」の正しい読み方はどれですか。",
+      "opt": [
+        "よくあさ",
+        "よくちょう",
+        "よくじつ",
+        "よくしゅう"
+      ],
+      "ans": 0,
+      "comment": "翌朝(よくあさ)는 '이튿날 아침'이라는 뜻입니다."
+    },
+    {
+      "q": "「夕立」の正しい読み方はどれですか。",
+      "opt": [
+        "ゆうたち",
+        "ゆうだち",
+        "ゆうひ",
+        "ゆうやけ"
+      ],
+      "ans": 1,
+      "comment": "夕立(ゆうだち)는 '소나기'라는 뜻입니다."
+    },
+    {
+      "q": "「容器」の正しい読み方はどれですか。",
+      "opt": [
+        "ようし",
+        "ようじ",
+        "ようき",
+        "ようきゅう"
+      ],
+      "ans": 2,
+      "comment": "容器(ようき)는 '용기, 그릇'이라는 뜻입니다."
+    },
+    {
+      "q": "「床」の正しい読み方はどれですか。",
+      "opt": [
+        "とこ",
+        "ゆか",
+        "かべ",
+        "まど"
+      ],
+      "ans": 1,
+      "comment": "床(ゆか)는 건물 내부의 '바닥, 마루'를 의미합니다."
+    },
+    {
+      "q": "「夜明け」の意味として正しいものはどれですか。",
+      "opt": [
+        "저녁",
+        "한밤중",
+        "새벽",
+        "낮"
+      ],
+      "ans": 2,
+      "comment": "夜明け(よあけ)는 '새벽, 동틀 녘'이라는 뜻입니다."
+    },
+    {
+      "q": "「用件」の意味として正しいものはどれですか。",
+      "opt": [
+        "용건",
+        "용기",
+        "용도",
+        "유료"
+      ],
+      "ans": 0,
+      "comment": "用件(ようけん)은 '용건, 볼일'이라는 뜻입니다."
+    },
+    {
+      "q": "「欲張り」の意味として正しいものはどれですか。",
+      "opt": [
+        "욕심쟁이",
+        "억지",
+        "예상",
+        "요구"
+      ],
+      "ans": 0,
+      "comment": "欲張り(よくばり)는 '욕심쟁이'라는 뜻입니다."
+    },
+    {
+      "q": "旅行の（　　）を家族に伝えておいた。",
+      "opt": [
+        "行き先",
+        "用途",
+        "翌週",
+        "夕日"
+      ],
+      "ans": 0,
+      "comment": "行き先(いきさき)는 '행선지, 목적지'를 의미합니다."
+    },
+    {
+      "q": "今月の（　　）を決めてから買い物に行きましょう。",
+      "opt": [
+        "予想",
+        "幼児",
+        "要求",
+        "予算"
+      ],
+      "ans": 3,
+      "comment": "予算(よさん)은 '예산'이라는 뜻입니다."
+    },
+    {
+      "q": "この国は自動車を海外へ（　　）しています。",
+      "opt": [
+        "輸入",
+        "輸出",
+        "郵送",
+        "用意"
+      ],
+      "ans": 1,
+      "comment": "輸出(ゆしゅつ)는 '수출'이라는 뜻입니다. 海外へ(해외로)와 어울리는 단어입니다."
+    }
+  ]
 }
