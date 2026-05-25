@@ -2,7 +2,7 @@
   "moduleId": "n3-module-058",
   "level": "n3",
   "ordinal": 58,
-  "title": "い形容詞・2 (い형용사 2)",
+  "title": "N3: 험난한 등산",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,263 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>蒸<rt>む</rt></ruby>し<ruby>暑<rt>あつ</rt></ruby>い<ruby>出発<rt>しゅっぱつ</rt></ruby>（무더운 출발）</h3>\n<p><ruby>今日<rt>きょう</rt></ruby>は<ruby>蒸<rt>む</rt></ruby>し<ruby>暑<rt>あつ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>で、<ruby>体<rt>からだ</rt></ruby>がだるいです。</p>\n<p><ruby>太陽<rt>たいよう</rt></ruby>が<ruby>眩<rt>まぶ</rt></ruby>しいので、<ruby>目<rt>め</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けるのが<ruby>大変<rt>たいへん</rt></ruby>です。</p>\n<p>ちょうど、<ruby>親<rt>した</rt></ruby>しい<ruby>友達<rt>ともだち</rt></ruby>が<ruby>来<rt>き</rt></ruby>たところだ。</p>\n<p><ruby>彼<rt>かれ</rt></ruby>らはいつも<ruby>若々<rt>わかわか</rt></ruby>しいし、とても<ruby>頼<rt>たの</rt></ruby>もしいです。</p>\n<p>さあ、これから<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くところです。</p>\n<h3>Scene 2. <ruby>深<rt>ふか</rt></ruby>い<ruby>森<rt>もり</rt></ruby>の<ruby>中<rt>なか</rt></ruby>（깊은 숲 속）</h3>\n<p><ruby>細長<rt>ほそなが</rt></ruby>い<ruby>道<rt>みち</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いて、<ruby>深<rt>ふか</rt></ruby>い<ruby>森<rt>もり</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。</p>\n<p><ruby>靴<rt>くつ</rt></ruby>のひもが<ruby>緩<rt>ゆる</rt></ruby>いので、<ruby>結<rt>むす</rt></ruby>び<ruby>直<rt>なお</rt></ruby>すのが<ruby>面倒<rt>めんどう</rt></ruby>くさいです。</p>\n<p><ruby>虫<rt>むし</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>がやかましいし、しつこい<ruby>蚊<rt>か</rt></ruby>が<ruby>飛<rt>と</rt></ruby>んでいます。</p>\n<p><ruby>突然<rt>とつぜん</rt></ruby>、<ruby>激<rt>はげ</rt></ruby>しい<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ったばかりです。</p>\n<h3>Scene 3. <ruby>明<rt>あき</rt></ruby>らかな<ruby>失敗<rt>しっぱい</rt></ruby>（분명한 실패）</h3>\n<p><ruby>雨<rt>あめ</rt></ruby>で<ruby>服<rt>ふく</rt></ruby>が<ruby>茶色<rt>ちゃいろ</rt></ruby>い<ruby>泥<rt>どろ</rt></ruby>だらけになりました。</p>\n<p><ruby>私<rt>わたし</rt></ruby>の<ruby>登山<rt>とざん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>貧<rt>まず</rt></ruby>しいのは、<ruby>明<rt>あき</rt></ruby>らかな<ruby>事実<rt>じじつ</rt></ruby>です。</p>\n<p>こんなとんでもない<ruby>天気<rt>てんき</rt></ruby>になるなんて、<ruby>空<rt>そら</rt></ruby>が<ruby>憎<rt>にく</rt></ruby>いです。</p>\n<p><ruby>泥<rt>どろ</rt></ruby>だらけの<ruby>醜<rt>みにく</rt></ruby>い<ruby>姿<rt>すがた</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、ため<ruby>息<rt>いき</rt></ruby>をつきました。</p>\n<h3>Scene 4. <ruby>山頂<rt>さんちょう</rt></ruby>での<ruby>気持<rt>きも</rt></ruby>ち（산정상에서의 마음）</h3>\n<p><ruby>鋭<rt>するど</rt></ruby>い<ruby>岩<rt>いわ</rt></ruby>を<ruby>登<rt>のぼ</rt></ruby>り、ついに<ruby>山頂<rt>さんちょう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。</p>\n<p><ruby>友達<rt>ともだち</rt></ruby>はずうずうしい<ruby>態度<rt>たいど</rt></ruby>でお<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますが、やむを<ruby>得<rt>え</rt></ruby>ないです。</p>\n<p><ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>って<ruby>申<rt>もう</rt></ruby>し<ruby>訳<rt>わけ</rt></ruby>ないと<ruby>思<rt>おも</rt></ruby>いました。</p>\n<p>こんなにきれいな<ruby>景色<rt>けしき</rt></ruby>を<ruby>見<rt>み</rt></ruby>ないのはもったいないです。</p>\n<p><ruby>昔<rt>むかし</rt></ruby>の<ruby>懐<rt>なつ</rt></ruby>かしい<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>がよみがえりました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>蒸<rt>む</rt></ruby>し<ruby>暑<rt>あつ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>で、<ruby>体<rt>からだ</rt></ruby>がだるいです。",
+      "trans": "오늘은 무더운 날이라 몸이 나른합니다.",
+      "grammar": "〜で — '~여서, ~로 인해' 원인과 이유를 나타냄",
+      "tags": [
+        "蒸し暑い",
+        "だるい"
+      ]
+    },
+    {
+      "sent": "<ruby>太陽<rt>たいよう</rt></ruby>が<ruby>眩<rt>まぶ</rt></ruby>しいので、<ruby>目<rt>め</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けるのが<ruby>大変<rt>たいへん</rt></ruby>です。",
+      "trans": "태양이 눈부셔서 눈을 뜨는 것이 힘듭니다.",
+      "grammar": "〜ので — '~기 때문에' 객관적인 원인을 나타냄",
+      "tags": [
+        "眩しい"
+      ]
+    },
+    {
+      "sent": "ちょうど、<ruby>親<rt>した</rt></ruby>しい<ruby>友達<rt>ともだち</rt></ruby>が<ruby>来<rt>き</rt></ruby>たところだ。",
+      "trans": "마침, 친한 친구가 막 온 참이다.",
+      "grammar": "〜ところだ — '~한 참이다' 동작이 방금 완료되었음을 나타냄 (완료)",
+      "tags": [
+        "親しい"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>らはいつも<ruby>若々<rt>わかわか</rt></ruby>しいし、とても<ruby>頼<rt>たの</rt></ruby>もしいです。",
+      "trans": "그들은 항상 생기발랄하고 매우 믿음직합니다.",
+      "grammar": "〜し、〜 — '~하고, ~하며' 여러 가지 이유나 상태를 나열함",
+      "tags": [
+        "若々しい",
+        "頼もしい"
+      ]
+    },
+    {
+      "sent": "<ruby>細長<rt>ほそなが</rt></ruby>い<ruby>道<rt>みち</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いて、<ruby>深<rt>ふか</rt></ruby>い<ruby>森<rt>もり</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。",
+      "trans": "가늘고 긴 길을 걸어서, 깊은 숲에 들어갔습니다.",
+      "grammar": "〜て — '~해서, ~하고' 동작의 순서나 방법을 나타냄",
+      "tags": [
+        "細長い",
+        "深い"
+      ]
+    },
+    {
+      "sent": "<ruby>靴<rt>くつ</rt></ruby>のひもが<ruby>緩<rt>ゆる</rt></ruby>いので、<ruby>結<rt>むす</rt></ruby>び<ruby>直<rt>なお</rt></ruby>すのが<ruby>面倒<rt>めんどう</rt></ruby>くさいです。",
+      "trans": "구두끈이 느슨해서, 다시 묶는 것이 귀찮습니다.",
+      "grammar": "〜直す(なおす) — '다시 ~하다' 어떤 동작을 새롭게 다시 함을 나타냄",
+      "tags": [
+        "緩い",
+        "面倒くさい"
+      ]
+    },
+    {
+      "sent": "<ruby>虫<rt>むし</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>がやかましいし、しつこい<ruby>蚊<rt>か</rt></ruby>が<ruby>飛<rt>と</rt></ruby>んでいます。",
+      "trans": "벌레 소리가 시끄럽고, 끈질긴 모기가 날아다니고 있습니다.",
+      "grammar": "〜ている — '~하고 있다' 동작의 진행이나 상태의 계속을 나타냄",
+      "tags": [
+        "やかましい",
+        "しつこい"
+      ]
+    },
+    {
+      "sent": "<ruby>突然<rt>とつぜん</rt></ruby>、<ruby>激<rt>はげ</rt></ruby>しい<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ったばかりです。",
+      "trans": "갑자기, 격한 비가 막 내린 참입니다.",
+      "grammar": "〜ばかり — '막 ~했다' 어떤 일이 일어난 직후임을 나타냄",
+      "tags": [
+        "激しい"
+      ]
+    },
+    {
+      "sent": "<ruby>雨<rt>あめ</rt></ruby>で<ruby>服<rt>ふく</rt></ruby>が<ruby>茶色<rt>ちゃいろ</rt></ruby>い<ruby>泥<rt>どろ</rt></ruby>だらけになりました。",
+      "trans": "비 때문에 옷이 갈색 진흙투성이가 되었습니다.",
+      "grammar": "〜だらけ — '~투성이' 바람직하지 않은 것이 잔뜩 묻어 있음을 나타냄",
+      "tags": [
+        "茶色い"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>の<ruby>登山<rt>とざん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>貧<rt>まず</rt></ruby>しいのは、<ruby>明<rt>あき</rt></ruby>らかな<ruby>事実<rt>じじつ</rt></ruby>です。",
+      "trans": "나의 등산 준비가 빈약한 것은 분명한 사실입니다.",
+      "grammar": "〜のは — '~한 것은' 문장 전체를 명사화하여 주어로 만듦",
+      "tags": [
+        "貧しい",
+        "明らかな"
+      ]
+    },
+    {
+      "sent": "こんなとんでもない<ruby>天気<rt>てんき</rt></ruby>になるなんて、<ruby>空<rt>そら</rt></ruby>が<ruby>憎<rt>にく</rt></ruby>いです。",
+      "trans": "이런 터무니없는 날씨가 되다니, 하늘이 밉습니다.",
+      "grammar": "〜なんて — '~라니, ~하다니' 놀라움이나 경시의 감정을 나타냄",
+      "tags": [
+        "とんでもない",
+        "憎い"
+      ]
+    },
+    {
+      "sent": "<ruby>泥<rt>どろ</rt></ruby>だらけの<ruby>醜<rt>みにく</rt></ruby>い<ruby>姿<rt>すがた</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、ため<ruby>息<rt>いき</rt></ruby>をつきました。",
+      "trans": "진흙투성이의 추한 모습을 보고, 한숨을 쉬었습니다.",
+      "grammar": "〜て — '~하고, ~해서' 앞의 상황이 뒤의 행동의 원인이 됨",
+      "tags": [
+        "醜い"
+      ]
+    },
+    {
+      "sent": "<ruby>鋭<rt>するど</rt></ruby>い<ruby>岩<rt>いわ</rt></ruby>を<ruby>登<rt>のぼ</rt></ruby>り、ついに<ruby>山頂<rt>さんちょう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きました。",
+      "trans": "날카로운 바위를 올라, 마침내 산 정상에 도착했습니다.",
+      "grammar": "〜に — '~에' 목적지나 도달점을 나타내는 조사",
+      "tags": [
+        "鋭い"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>はずうずうしい<ruby>態度<rt>たいど</rt></ruby>でお<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますが、やむを<ruby>得<rt>え</rt></ruby>ないです。",
+      "trans": "친구는 뻔뻔한 태도로 도시락을 먹지만, 어쩔 수 없습니다.",
+      "grammar": "〜が — '~하지만' 역접을 나타내는 접속 조사",
+      "tags": [
+        "ずうずうしい",
+        "やむを得ない"
+      ]
+    },
+    {
+      "sent": "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>って<ruby>申<rt>もう</rt></ruby>し<ruby>訳<rt>わけ</rt></ruby>ないと<ruby>思<rt>おも</rt></ruby>いました。",
+      "trans": "불평을 말해서 면목 없다고 생각했습니다.",
+      "grammar": "〜と<ruby>思<rt>おも</rt></ruby>う — '~라고 생각하다' 자신의 의견이나 감정을 나타냄",
+      "tags": [
+        "申し訳ない"
+      ]
+    },
+    {
+      "sent": "こんなにきれいな<ruby>景色<rt>けしき</rt></ruby>を<ruby>見<rt>み</rt></ruby>ないのはもったいないです。",
+      "trans": "이렇게 아름다운 경치를 보지 않는 것은 아깝습니다.",
+      "grammar": "〜ないのは — '~하지 않는 것은' 부정의 내용을 명사화하여 주어로 만듦",
+      "tags": [
+        "もったいない"
+      ]
+    },
+    {
+      "sent": "<ruby>昔<rt>むかし</rt></ruby>の<ruby>懐<rt>なつ</rt></ruby>かしい<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>がよみがえりました。",
+      "trans": "옛날의 그리운 추억이 되살아났습니다.",
+      "grammar": "〜が — '~이/가' 주어를 나타내는 조사",
+      "tags": [
+        "懐かしい"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：蒸し暑い",
+      "opt": [
+        "むしあつい",
+        "むしあちい",
+        "あつくるしい",
+        "むしさむい"
+      ],
+      "ans": 0,
+      "comment": "蒸し暑い(むしあつい)는 '무덥다'라는 뜻입니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：眩しい",
+      "opt": [
+        "きびしい",
+        "まぶしい",
+        "はげしい",
+        "さみしい"
+      ],
+      "ans": 1,
+      "comment": "眩しい(まぶしい)는 '눈부시다'라는 뜻입니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：鋭い",
+      "opt": [
+        "あやうい",
+        "にぶい",
+        "するどい",
+        "きつい"
+      ],
+      "ans": 2,
+      "comment": "鋭い(するどい)는 '날카롭다'라는 뜻입니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：醜い",
+      "opt": [
+        "うつくしい",
+        "みにくい",
+        "きたない",
+        "つらい"
+      ],
+      "ans": 1,
+      "comment": "醜い(みにくい)는 '추하다, 보기 흉하다'라는 뜻입니다."
+    },
+    {
+      "q": "次の言葉の意味として最も適当なものを選びなさい：頼もしい",
+      "opt": [
+        "부탁하기 어렵다",
+        "불안하다",
+        "믿음직하다",
+        "즐겁다"
+      ],
+      "ans": 2,
+      "comment": "頼もしい(たのもしい)는 '믿음직하다, 든든하다'라는 뜻입니다."
+    },
+    {
+      "q": "次の言葉の意味として最も適当なものを選びなさい：とんでもない",
+      "opt": [
+        "어쩔 수 없다",
+        "터무니없다, 당치도 않다",
+        "틀림없다",
+        "예상대로다"
+      ],
+      "ans": 1,
+      "comment": "とんでもない는 '터무니없다, 당치도 않다'라는 뜻입니다."
+    },
+    {
+      "q": "次の言葉の意味として最も適当なものを選びなさい：ずうずうしい",
+      "opt": [
+        "뻔뻔하다",
+        "부끄럽다",
+        "수줍다",
+        "어리석다"
+      ],
+      "ans": 0,
+      "comment": "ずうずうしい는 '뻔뻔하다'라는 뜻입니다."
+    },
+    {
+      "q": "（　　）に入る最も適当な言葉を選びなさい：ちょうど、親しい友達が来た（　　）。",
+      "opt": [
+        "ばかりだ",
+        "ところだ",
+        "はずだ",
+        "つもりだ"
+      ],
+      "ans": 1,
+      "comment": "동작이 방금 완료되었음을 나타내는 '〜ところだ(~한 참이다)'가 가장 자연스럽습니다."
+    },
+    {
+      "q": "（　　）に入る最も適当な言葉を選びなさい：靴のひもが（　　）ので、結び直した。",
+      "opt": [
+        "細長い",
+        "だるい",
+        "緩い",
+        "もったいない"
+      ],
+      "ans": 2,
+      "comment": "구두끈이 '느슨하다'는 緩い(ゆるい)를 사용합니다."
+    },
+    {
+      "q": "（　　）に入る最も適当な言葉を選びなさい：私の準備が足りないのは、（　　）事実です。",
+      "opt": [
+        "明らかな",
+        "若々しい",
+        "しつこい",
+        "面倒くさい"
+      ],
+      "ans": 0,
+      "comment": "사실이 분명하다는 뜻이므로, 明らかな(분명한)이 적절합니다."
+    }
+  ]
 }

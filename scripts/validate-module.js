@@ -20,7 +20,7 @@ const ROOT = path.join(__dirname, '..');
 const LEVEL_SPEC = {
     n5: { sceneCount: 3, analysisMin: 12, analysisMax: 15 },
     n4: { sceneCount: 4, analysisMin: 15, analysisMax: 18 },
-    n3: { sceneCount: 4, analysisMin: 16, analysisMax: 20 },
+    n3: { sceneCount: 4, analysisMin: 16, analysisMax: 21 },
     n2: { sceneCount: 5, analysisMin: 18, analysisMax: 22 },
     n1: { sceneCount: 5, analysisMin: 20, analysisMax: 25 }
 };

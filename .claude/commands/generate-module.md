@@ -210,7 +210,7 @@ gemini -m gemini-3.1-pro-preview -p "..." > tmp/gemini/{moduleId}.txt 2>&1
 node -e "
 const fs = require('fs');
 const raw = fs.readFileSync('tmp/gemini/{moduleId}.txt', 'utf8');
-const g = JSON.parse(raw.slice(raw.indexOf('{')));
+const g = JSON.parse(raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1));
 const src = JSON.parse(fs.readFileSync('data/src/{level}/modules/{moduleId}.json', 'utf8'));
 
 // ── 사전 검증 1: vocab 100% (활용형 포함) ────────────────
@@ -390,4 +390,4 @@ git/push는 **자동화하지 않는다.** 사용자가 GitHub Desktop으로 직
 - N5 대상 작업 금지.
 - git/gh 명령 실행 금지.
 - 서브에이전트 안에서 `build-data.js`/`validate-module.js` 호출 금지 (빌드는 메인이 일괄 1회). 병렬 호출 시 충돌 방지를 위함.
-- Gemini 출력 파싱 시 `JSON.parse(raw)` 직접 호출 금지 — 앞에 경고 줄이 붙으므로 반드시 `raw.slice(raw.indexOf('{'))` 사용.
+- Gemini 출력 파싱 시 `JSON.parse(raw)` 직접 호출 금지 — 앞에 경고 줄이 붙으므로 반드시 `raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1)` 사용.
