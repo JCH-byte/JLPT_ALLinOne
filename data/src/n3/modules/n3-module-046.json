@@ -2,7 +2,7 @@
   "moduleId": "n3-module-046",
   "level": "n3",
   "ordinal": 46,
-  "title": "動詞・2 (동사 2)",
+  "title": "N3: 변화와 일상",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-d60894c632533252a62126a42d30ce44366ddbc0",
@@ -31,7 +31,281 @@
     "v-20b528a709227d5ac594b2dfe205719648b821bd",
     "v-576b8a365b15a548ceccd74a93152a3568d80a1d"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>新<rt>あたら</rt></ruby>しい<ruby>商品<rt>しょうひん</rt></ruby>（새로운 상품）</h3>\n<p><ruby>新<rt>あたら</rt></ruby>しい<ruby>商品<rt>しょうひん</rt></ruby>が<ruby>売<rt>う</rt></ruby>れるようになるには<ruby>時間<rt>じかん</rt></ruby>がかかります。</p>\n<p>しかし、みんなを<ruby>驚<rt>おどろ</rt></ruby>かすことができると<ruby>思<rt>おも</rt></ruby>います。</p>\n<p><ruby>昨日<rt>きのう</rt></ruby>、いいアイデアを<ruby>思<rt>おも</rt></ruby>いつくことになりました。</p>\n<p>テストを<ruby>行<rt>おこな</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>に、<ruby>多<rt>おお</rt></ruby>くの<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>得<rt>え</rt></ruby>ることができました。</p>\n<p>これから<ruby>新<rt>あたら</rt></ruby>しい<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えることになります。</p>\n<h3>Scene 2. <ruby>先輩<rt>せんぱい</rt></ruby>との<ruby>時間<rt>じかん</rt></ruby>（선배와의 시간）</h3>\n<p><ruby>今日<rt>きょう</rt></ruby>は<ruby>後輩<rt>こうはい</rt></ruby>にご<ruby>飯<rt>はん</rt></ruby>をおごることにしました。</p>\n<p><ruby>午後<rt>ごご</rt></ruby>には、<ruby>先生<rt>せんせい</rt></ruby>にお<ruby>目<rt>め</rt></ruby>にかかることができました。</p>\n<p>すべてを<ruby>彼<rt>かれ</rt></ruby>から<ruby>教<rt>おそ</rt></ruby>わるわけではありません。</p>\n<p>でも、<ruby>自分<rt>じぶん</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しいと<ruby>思<rt>おも</rt></ruby>い<ruby>込<rt>こ</rt></ruby>むのはよくないです。</p>\n<p><ruby>結果<rt>けっか</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>驚<rt>おどろ</rt></ruby>くことになるかもしれません。</p>\n<p><ruby>今<rt>いま</rt></ruby>は<ruby>気持<rt>きも</rt></ruby>ちが<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>くようになりました。</p>\n<h3>Scene 3. <ruby>競争<rt>きょうそう</rt></ruby>と<ruby>夢<rt>ゆめ</rt></ruby>（경쟁과 꿈）</h3>\n<p>レースで<ruby>前<rt>まえ</rt></ruby>の<ruby>車<rt>くるま</rt></ruby>を<ruby>追<rt>お</rt></ruby>い<ruby>越<rt>こ</rt></ruby>すことができました。</p>\n<p>すぐに<ruby>相手<rt>あいて</rt></ruby>に<ruby>追<rt>お</rt></ruby>い<ruby>付<rt>つ</rt></ruby>くようになります。</p>\n<p>いつまでも<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>追<rt>お</rt></ruby>うことはすばらしいです。</p>\n<p>いつでも<ruby>童心<rt>どうしん</rt></ruby>に<ruby>返<rt>かえ</rt></ruby>ることができます。</p>\n<p><ruby>夜空<rt>よぞら</rt></ruby>に<ruby>星<rt>ほし</rt></ruby>が<ruby>輝<rt>かがや</rt></ruby>くのを<ruby>見<rt>み</rt></ruby>ました。</p>\n<p>この<ruby>先<rt>さき</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>こるかわかりません。</p>\n<h3>Scene 4. <ruby>一日<rt>いちにち</rt></ruby>の<ruby>終<rt>お</rt></ruby>わり（하루의 끝）</h3>\n<p><ruby>今日<rt>きょう</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>お</rt></ruby>えることにしました。</p>\n<p><ruby>階段<rt>かいだん</rt></ruby>を<ruby>下<rt>お</rt></ruby>りる<ruby>前<rt>まえ</rt></ruby>に、<ruby>重<rt>おも</rt></ruby>い<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>降<rt>お</rt></ruby>ろすことができます。</p>\n<p><ruby>木<rt>き</rt></ruby>の<ruby>枝<rt>えだ</rt></ruby>を<ruby>折<rt>お</rt></ruby>るわけではありません。</p>\n<p>たまには<ruby>心<rt>こころ</rt></ruby>が<ruby>折<rt>お</rt></ruby>れることもあります。</p>\n<p><ruby>帰<rt>かえ</rt></ruby>って<ruby>服<rt>ふく</rt></ruby>を<ruby>替<rt>か</rt></ruby>えることになりました。</p>\n<p><ruby>明日<rt>あす</rt></ruby>はお<ruby>金<rt>かね</rt></ruby>を<ruby>換<rt>か</rt></ruby>えることができます。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>商品<rt>しょうひん</rt></ruby>が<ruby>売<rt>う</rt></ruby>れるようになるには<ruby>時間<rt>じかん</rt></ruby>がかかります。",
+      "trans": "새로운 상품이 팔리게 되기까지는 시간이 걸립니다.",
+      "grammar": "〜ようになる — ~하게 되다 (상태의 변화)",
+      "tags": [
+        "売れる"
+      ]
+    },
+    {
+      "sent": "しかし、みんなを<ruby>驚<rt>おどろ</rt></ruby>かすことができると<ruby>思<rt>おも</rt></ruby>います。",
+      "trans": "하지만 모두를 놀라게 할 수 있다고 생각합니다.",
+      "grammar": "〜ことができる — ~할 수 있다 (가능)",
+      "tags": [
+        "驚かす"
+      ]
+    },
+    {
+      "sent": "<ruby>昨日<rt>きのう</rt></ruby>、いいアイデアを<ruby>思<rt>おも</rt></ruby>いつくことになりました。",
+      "trans": "어제 좋은 아이디어가 문득 떠오르게 되었습니다.",
+      "grammar": "〜ことになる — ~하게 되다 (주변 상황에 의한 결정)",
+      "tags": [
+        "思いつく"
+      ]
+    },
+    {
+      "sent": "テストを<ruby>行<rt>おこな</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>に、<ruby>多<rt>おお</rt></ruby>くの<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>得<rt>え</rt></ruby>ることができました。",
+      "trans": "테스트를 행하기 전에 많은 정보를 얻을 수 있었습니다.",
+      "grammar": "〜前に — ~하기 전에 (시간의 전후 관계)",
+      "tags": [
+        "行う",
+        "得る"
+      ]
+    },
+    {
+      "sent": "これから<ruby>新<rt>あたら</rt></ruby>しい<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えることになります。",
+      "trans": "앞으로 새로운 기술을 외우게(배우게) 될 것입니다.",
+      "grammar": "〜ことになる — ~하게 되다 (예정 및 결정)",
+      "tags": [
+        "覚える"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>後輩<rt>こうはい</rt></ruby>にご<ruby>飯<rt>はん</rt></ruby>をおごることにしました。",
+      "trans": "오늘은 후배에게 밥을 한턱내기로 했습니다.",
+      "grammar": "〜ことにする — ~하기로 하다 (주체적인 의지/결정)",
+      "tags": [
+        "おごる"
+      ]
+    },
+    {
+      "sent": "<ruby>午後<rt>ごご</rt></ruby>には、<ruby>先生<rt>せんせい</rt></ruby>にお<ruby>目<rt>め</rt></ruby>にかかることができました。",
+      "trans": "오후에는 선생님을 뵐 수 있었습니다.",
+      "grammar": "〜ことができる — ~할 수 있다 (가능 표현)",
+      "tags": [
+        "お目にかかる"
+      ]
+    },
+    {
+      "sent": "すべてを<ruby>彼<rt>かれ</rt></ruby>から<ruby>教<rt>おそ</rt></ruby>わるわけではありません。",
+      "trans": "모든 것을 그에게서 배우는 것은 아닙니다.",
+      "grammar": "〜わけではない — ~인 것은 아니다 (부분 부정)",
+      "tags": [
+        "教わる"
+      ]
+    },
+    {
+      "sent": "でも、<ruby>自分<rt>じぶん</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しいと<ruby>思<rt>おも</rt></ruby>い<ruby>込<rt>こ</rt></ruby>むのはよくないです。",
+      "trans": "그래도 자신이 옳다고 굳게 믿는 것은 좋지 않습니다.",
+      "grammar": "〜のはよくない — ~하는 것은 좋지 않다 (충고)",
+      "tags": [
+        "思い込む"
+      ]
+    },
+    {
+      "sent": "<ruby>結果<rt>けっか</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>驚<rt>おどろ</rt></ruby>くことになるかもしれません。",
+      "trans": "결과를 보고 놀라게 될지도 모릅니다.",
+      "grammar": "〜かもしれない — ~일지도 모른다 (추측)",
+      "tags": [
+        "驚く"
+      ]
+    },
+    {
+      "sent": "<ruby>今<rt>いま</rt></ruby>は<ruby>気持<rt>きも</rt></ruby>ちが<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>くようになりました。",
+      "trans": "지금은 마음이 안정되게 되었습니다.",
+      "grammar": "〜ようになる — ~하게 되다 (변화)",
+      "tags": [
+        "落ち着く"
+      ]
+    },
+    {
+      "sent": "レースで<ruby>前<rt>まえ</rt></ruby>の<ruby>車<rt>くるま</rt></ruby>を<ruby>追<rt>お</rt></ruby>い<ruby>越<rt>こ</rt></ruby>すことができました。",
+      "trans": "레이스에서 앞차를 앞지를 수 있었습니다.",
+      "grammar": "〜ことができる — ~할 수 있다 (가능)",
+      "tags": [
+        "追い越す"
+      ]
+    },
+    {
+      "sent": "すぐに<ruby>相手<rt>あいて</rt></ruby>に<ruby>追<rt>お</rt></ruby>い<ruby>付<rt>つ</rt></ruby>くようになります。",
+      "trans": "곧바로 상대에게 따라잡게 될 것입니다.",
+      "grammar": "〜ようになる — ~하게 되다 (미래의 변화)",
+      "tags": [
+        "追い付く"
+      ]
+    },
+    {
+      "sent": "いつまでも<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>追<rt>お</rt></ruby>うことはすばらしいです。",
+      "trans": "언제까지나 꿈을 쫓는 것은 훌륭합니다.",
+      "grammar": "〜ことはすばらしい — ~하는 것은 훌륭하다 (평가 표현)",
+      "tags": [
+        "追う"
+      ]
+    },
+    {
+      "sent": "いつでも<ruby>童心<rt>どうしん</rt></ruby>に<ruby>返<rt>かえ</rt></ruby>ることができます。",
+      "trans": "언제든지 동심으로 되돌아갈 수 있습니다.",
+      "grammar": "〜ことができる — ~할 수 있다 (능력/가능)",
+      "tags": [
+        "返る"
+      ]
+    },
+    {
+      "sent": "<ruby>夜空<rt>よぞら</rt></ruby>に<ruby>星<rt>ほし</rt></ruby>が<ruby>輝<rt>かがや</rt></ruby>くのを<ruby>見<rt>み</rt></ruby>ました。",
+      "trans": "밤하늘에 별이 빛나는 것을 보았습니다.",
+      "grammar": "〜のを見る — ~하는 것을 보다 (지각 동사)",
+      "tags": [
+        "輝く"
+      ]
+    },
+    {
+      "sent": "この<ruby>先<rt>さき</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>こるかわかりません。",
+      "trans": "앞으로 무엇이 일어날지 모릅니다.",
+      "grammar": "〜かわからない — ~인지 모른다 (불확실성)",
+      "tags": [
+        "起こる"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>お</rt></ruby>えることにしました。",
+      "trans": "오늘은 일찍 일을 끝내기로 했습니다.",
+      "grammar": "〜ことにする — ~하기로 결정하다",
+      "tags": [
+        "終える"
+      ]
+    },
+    {
+      "sent": "<ruby>階段<rt>かいだん</rt></ruby>を<ruby>下<rt>お</rt></ruby>りる<ruby>前<rt>まえ</rt></ruby>に、<ruby>重<rt>おも</rt></ruby>い<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>降<rt>お</rt></ruby>ろすことができます。",
+      "trans": "계단을 내려오기 전에 무거운 짐을 내릴 수 있습니다.",
+      "grammar": "〜前に — ~하기 전에 (선행 동작)",
+      "tags": [
+        "下りる",
+        "降ろす"
+      ]
+    },
+    {
+      "sent": "<ruby>木<rt>き</rt></ruby>の<ruby>枝<rt>えだ</rt></ruby>を<ruby>折<rt>お</rt></ruby>るわけではありません。",
+      "trans": "나뭇가지를 꺾는 것은 아닙니다.",
+      "grammar": "〜わけではない — ~인 것은 아니다 (부정)",
+      "tags": [
+        "折る"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：驚く",
+      "opt": [
+        "おどろく",
+        "おぼえる",
+        "おこなう",
+        "おごる"
+      ],
+      "ans": 0,
+      "comment": "「驚く（おどろく）」は「놀라다」라는 뜻입니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：追い越す",
+      "opt": [
+        "おいこす",
+        "おいつく",
+        "おもいつく",
+        "おめにかかる"
+      ],
+      "ans": 0,
+      "comment": "「追い越す（おいこす）」는 「앞지르다, 추월하다」라는 의미입니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：思い込む",
+      "opt": [
+        "おもいだす",
+        "おもいこむ",
+        "おちつく",
+        "おそわる"
+      ],
+      "ans": 1,
+      "comment": "「思い込む（おもいこむ）」는 「굳게 믿다, 확신하다」라는 의미입니다."
+    },
+    {
+      "q": "次の言葉の読み方として正しいものを選びなさい：降ろす",
+      "opt": [
+        "おろす",
+        "おりる",
+        "おえる",
+        "おう"
+      ],
+      "ans": 0,
+      "comment": "「降ろす（おろす）」는 「(짐 등을) 내리다」라는 뜻입니다."
+    },
+    {
+      "q": "「輝く」の最も近い意味を選びなさい。",
+      "opt": [
+        "빛나다",
+        "꺾이다",
+        "되돌아가다",
+        "팔리다"
+      ],
+      "ans": 0,
+      "comment": "「輝く（かがやく）」는 「빛나다」라는 뜻입니다."
+    },
+    {
+      "q": "「落ち着く」の最も近い意味を選びなさい。",
+      "opt": [
+        "한턱내다",
+        "침착하다",
+        "발생하다",
+        "앞지르다"
+      ],
+      "ans": 1,
+      "comment": "「落ち着く（おちつく）」는 「침착하다, 안정되다」라는 의미입니다."
+    },
+    {
+      "q": "「覚える」の最も近い意味を選びなさい。",
+      "opt": [
+        "기억하다",
+        "놀라다",
+        "쫓다",
+        "되돌아가다"
+      ],
+      "ans": 0,
+      "comment": "「覚える（おぼえる）」는 「기억하다, 외우다」라는 뜻입니다."
+    },
+    {
+      "q": "空欄に入る最も適切な言葉を選びなさい：彼はいつも自分が正しいと＿＿＿いる。",
+      "opt": [
+        "思い込んで",
+        "教えて",
+        "降りて",
+        "驚いて"
+      ],
+      "ans": 0,
+      "comment": "「自分が正しいと思い込む（자신이 옳다고 굳게 믿다）」가 문맥상 가장 적절합니다."
+    },
+    {
+      "q": "空欄に入る最も適切な言葉を選びなさい：重い荷物を車から＿＿＿。",
+      "opt": [
+        "降ろす",
+        "折る",
+        "換える",
+        "返る"
+      ],
+      "ans": 0,
+      "comment": "짐을 차에서 내리다라는 의미로 「降ろす（おろす）」를 사용합니다."
+    },
+    {
+      "q": "空欄に入る最も適切な言葉を選びなさい：明日はテストを＿＿＿。",
+      "opt": [
+        "行う",
+        "折れる",
+        "売れる",
+        "輝く"
+      ],
+      "ans": 0,
+      "comment": "테스트를 행하다(실시하다)라는 의미인 「行う（おこなう）」가 맞습니다."
+    }
+  ]
 }

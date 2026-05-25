@@ -10,7 +10,8 @@
       "PowerShell(node scripts/build-data.js *)",
       "PowerShell(node scripts/check-ruby.js *)",
       "PowerShell(node scripts/check-vocab.js *)",
-      "PowerShell(node scripts/validate-module.js *)"
+      "PowerShell(node scripts/validate-module.js *)",
+      "Bash(node -e ' *)"
     ]
   }
 }

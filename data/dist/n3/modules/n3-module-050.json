@@ -2,7 +2,7 @@
   "moduleId": "n3-module-050",
   "level": "n3",
   "ordinal": 50,
-  "title": "動詞・6 (동사 6)",
+  "title": "N3: 프로젝트와 성장",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,277 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>新<rt>あたら</rt></ruby>しいプロジェクトの<ruby>始<rt>はじ</rt></ruby>まり（새로운 프로젝트의 시작）</h3>\n<p><ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>新<rt>あたら</rt></ruby>しいプロジェクトを<ruby>進<rt>すす</rt></ruby>めることになり、<ruby>部長<rt>ぶちょう</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>にリーダーの<ruby>役割<rt>やくわり</rt></ruby>を<ruby>勧<rt>すす</rt></ruby>めた。</p>\n<p>チームの<ruby>期待<rt>きたい</rt></ruby>が<ruby>高<rt>たか</rt></ruby>まる。</p>\n<p><ruby>全員<rt>ぜんいん</rt></ruby>の<ruby>能力<rt>のうりょく</rt></ruby>を<ruby>高<rt>たか</rt></ruby>めるための<ruby>資料<rt>しりょう</rt></ruby>が<ruby>揃<rt>そろ</rt></ruby>う。</p>\n<p><ruby>今日<rt>きょう</rt></ruby>から<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>揃<rt>そろ</rt></ruby>える。</p>\n<h3>Scene 2. <ruby>忙<rt>いそが</rt></ruby>しい<ruby>毎日<rt>まいにち</rt></ruby>（바쁜 매일）</h3>\n<p>あっという<ruby>間<rt>ま</rt></ruby>に<ruby>時間<rt>じかん</rt></ruby>が<ruby>経<rt>た</rt></ruby>つ。</p>\n<p><ruby>仕事<rt>しごと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くてストレスがたまるわけではない。</p>\n<p><ruby>不要<rt>ふよう</rt></ruby>な<ruby>紙<rt>かみ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てることで、<ruby>整理<rt>せいり</rt></ruby>が<ruby>済<rt>す</rt></ruby>む。</p>\n<p><ruby>休<rt>やす</rt></ruby>み<ruby>時間<rt>じかん</rt></ruby>にはお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>注<rt>そそ</rt></ruby>ぐ。</p>\n<p><ruby>私<rt>わたし</rt></ruby>は<ruby>後輩<rt>こうはい</rt></ruby>を<ruby>育<rt>そだ</rt></ruby>てるが、<ruby>彼<rt>かれ</rt></ruby>らも<ruby>早<rt>はや</rt></ruby>く<ruby>育<rt>そだ</rt></ruby>つと<ruby>思<rt>おも</rt></ruby>う。</p>\n<h3>Scene 3. <ruby>困難<rt>こんなん</rt></ruby>を<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>える（어려움을 극복하다）</h3>\n<p><ruby>問題<rt>もんだい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめる<ruby>必要<rt>ひつよう</rt></ruby>がある。</p>\n<p><ruby>社長<rt>しゃちょう</rt></ruby>のお<ruby>気持<rt>きも</rt></ruby>ちはよく<ruby>存<rt>ぞん</rt></ruby>じております。</p>\n<p><ruby>失敗<rt>しっぱい</rt></ruby>への<ruby>不安<rt>ふあん</rt></ruby>を<ruby>抱<rt>いだ</rt></ruby>くこともある。</p>\n<p>しかし、<ruby>私<rt>わたし</rt></ruby>たちは<ruby>困難<rt>こんなん</rt></ruby>と<ruby>戦<rt>たたか</rt></ruby>う。</p>\n<p><ruby>壁<rt>かべ</rt></ruby>を<ruby>倒<rt>たお</rt></ruby>すつもりで、<ruby>机<rt>つくえ</rt></ruby>を<ruby>叩<rt>たた</rt></ruby>くほど<ruby>熱中<rt>ねっちゅう</rt></ruby>した。</p>\n<p><ruby>帰<rt>かえ</rt></ruby>る<ruby>時<rt>とき</rt></ruby>は<ruby>傘<rt>かさ</rt></ruby>を<ruby>畳<rt>たた</rt></ruby>む。</p>\n<h3>Scene 4. <ruby>仲間<rt>なかま</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>さ（동료의 소중함）</h3>\n<p><ruby>疲<rt>つか</rt></ruby>れて<ruby>道<rt>みち</rt></ruby>で<ruby>立<rt>た</rt></ruby>ち<ruby>止<rt>ど</rt></ruby>まることもあるが、それでも<ruby>再<rt>ふたた</rt></ruby>び<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる。</p>\n<p><ruby>決<rt>けっ</rt></ruby>して<ruby>人<rt>ひと</rt></ruby>をだますようなことはしない。</p>\n<p><ruby>互<rt>たが</rt></ruby>いに<ruby>助<rt>たす</rt></ruby>けることで、チームの<ruby>力<rt>ちから</rt></ruby>になる。</p>\n<p><ruby>皆<rt>みな</rt></ruby>のサポートがあって<ruby>本<rt>ほん</rt></ruby><ruby>当<rt>とう</rt></ruby>に<ruby>助<rt>たす</rt></ruby>かる。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>新<rt>あたら</rt></ruby>しいプロジェクトを<ruby>進<rt>すす</rt></ruby>めることになり、<ruby>部長<rt>ぶちょう</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>にリーダーの<ruby>役割<rt>やくわり</rt></ruby>を<ruby>勧<rt>すす</rt></ruby>めた。",
+      "trans": "회사에서 새로운 프로젝트를 진행하게 되어, 부장님은 나에게 리더의 역할을 권했다.",
+      "grammar": "〜ことになる — '~하게 되다', 결정이나 예정된 결과를 나타냄 (비의도적 결과)",
+      "tags": [
+        "進める",
+        "勧める"
+      ]
+    },
+    {
+      "sent": "チームの<ruby>期待<rt>きたい</rt></ruby>が<ruby>高<rt>たか</rt></ruby>まる。",
+      "trans": "팀의 기대가 높아진다.",
+      "grammar": "〜が高まる — '~이 높아지다', 감정이나 상황의 정도가 강해짐",
+      "tags": [
+        "高まる"
+      ]
+    },
+    {
+      "sent": "<ruby>全員<rt>ぜんいん</rt></ruby>の<ruby>能力<rt>のうりょく</rt></ruby>を<ruby>高<rt>たか</rt></ruby>めるための<ruby>資料<rt>しりょう</rt></ruby>が<ruby>揃<rt>そろ</rt></ruby>う。",
+      "trans": "전원의 능력을 높이기 위한 자료가 다 모이다.",
+      "grammar": "〜を高める / 〜が揃う — '능력을 높이다' / '모두 갖추어지다'",
+      "tags": [
+        "高める",
+        "揃う"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>から<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>揃<rt>そろ</rt></ruby>える。",
+      "trans": "오늘부터 필요한 도구를 갖춘다.",
+      "grammar": "〜を揃える — '~을 갖추다', 필요한 것을 준비하여 모음",
+      "tags": [
+        "揃える"
+      ]
+    },
+    {
+      "sent": "あっという<ruby>間<rt>ま</rt></ruby>に<ruby>時間<rt>じかん</rt></ruby>が<ruby>経<rt>た</rt></ruby>つ。",
+      "trans": "눈 깜짝할 사이에 시간이 지나간다.",
+      "grammar": "時間が経つ — '시간이 지나다/흐르다'",
+      "tags": [
+        "経つ"
+      ]
+    },
+    {
+      "sent": "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くてストレスがたまるわけではない。",
+      "trans": "일이 많아서 스트레스가 쌓이는 것은 아니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전면 부정을 피하는 부분 부정 표현",
+      "tags": [
+        "たまる"
+      ]
+    },
+    {
+      "sent": "<ruby>不要<rt>ふよう</rt></ruby>な<ruby>紙<rt>かみ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てることで、<ruby>整理<rt>せいり</rt></ruby>が<ruby>済<rt>す</rt></ruby>む。",
+      "trans": "불필요한 종이를 버림으로써 정리가 끝난다.",
+      "grammar": "〜が済む — '~이 끝나다/해결되다'",
+      "tags": [
+        "捨てる",
+        "済む"
+      ]
+    },
+    {
+      "sent": "<ruby>休<rt>やす</rt></ruby>み<ruby>時間<rt>じかん</rt></ruby>にはお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>注<rt>そそ</rt></ruby>ぐ。",
+      "trans": "쉬는 시간에는 차를 따른다.",
+      "grammar": "〜を注ぐ — '액체를 따르다/붓다'",
+      "tags": [
+        "注ぐ"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>後輩<rt>こうはい</rt></ruby>を<ruby>育<rt>そだ</rt></ruby>てるが、<ruby>彼<rt>かれ</rt></ruby>らも<ruby>早<rt>はや</rt></ruby>く<ruby>育<rt>そだ</rt></ruby>つと<ruby>思<rt>おも</rt></ruby>う。",
+      "trans": "나는 후배를 키우지만, 그들도 빨리 자란다고 생각한다.",
+      "grammar": "〜を育てる / 〜が育つ — '~를 키우다' / '~가 자라다(성장하다)'",
+      "tags": [
+        "育てる",
+        "育つ"
+      ]
+    },
+    {
+      "sent": "<ruby>問題<rt>もんだい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめる<ruby>必要<rt>ひつよう</rt></ruby>がある。",
+      "trans": "문제의 원인을 확인할 필요가 있다.",
+      "grammar": "〜を確かめる — '~을 확인하다/확실하게 하다'",
+      "tags": [
+        "確かめる"
+      ]
+    },
+    {
+      "sent": "<ruby>社長<rt>しゃちょう</rt></ruby>のお<ruby>気持<rt>きも</rt></ruby>ちはよく<ruby>存<rt>ぞん</rt></ruby>じております。",
+      "trans": "사장님의 마음은 잘 알고 있습니다.",
+      "grammar": "存じておる — '알고 있다', '知っている'의 겸양 표현",
+      "tags": [
+        "存じる"
+      ]
+    },
+    {
+      "sent": "<ruby>失敗<rt>しっぱい</rt></ruby>への<ruby>不安<rt>ふあん</rt></ruby>を<ruby>抱<rt>いだ</rt></ruby>くこともある。",
+      "trans": "실패에 대한 불안을 품는 일도 있다.",
+      "grammar": "不安を抱く — '불안을 품다', 감정이나 생각을 마음에 가짐",
+      "tags": [
+        "抱く"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>私<rt>わたし</rt></ruby>たちは<ruby>困難<rt>こんなん</rt></ruby>と<ruby>戦<rt>たたか</rt></ruby>う。",
+      "trans": "하지만 우리는 어려움과 싸운다.",
+      "grammar": "〜と戦う — '~와 싸우다/맞서다'",
+      "tags": [
+        "戦う"
+      ]
+    },
+    {
+      "sent": "<ruby>壁<rt>かべ</rt></ruby>を<ruby>倒<rt>たお</rt></ruby>すつもりで、<ruby>机<rt>つくえ</rt></ruby>を<ruby>叩<rt>たた</rt></ruby>くほど<ruby>熱中<rt>ねっちゅう</rt></ruby>した。",
+      "trans": "벽을 쓰러뜨릴 기세로 책상을 두드릴 만큼 열중했다.",
+      "grammar": "〜を倒す / 〜を叩く — '~을 쓰러뜨리다' / '~을 두드리다'",
+      "tags": [
+        "倒す",
+        "叩く"
+      ]
+    },
+    {
+      "sent": "<ruby>帰<rt>かえ</rt></ruby>る<ruby>時<rt>とき</rt></ruby>は<ruby>傘<rt>かさ</rt></ruby>を<ruby>畳<rt>たた</rt></ruby>む。",
+      "trans": "돌아갈 때는 우산을 접는다.",
+      "grammar": "〜を畳む — '개다/접다', 우산이나 옷 등을 접어 정리함",
+      "tags": [
+        "畳む"
+      ]
+    },
+    {
+      "sent": "<ruby>疲<rt>つか</rt></ruby>れて<ruby>道<rt>みち</rt></ruby>で<ruby>立<rt>た</rt></ruby>ち<ruby>止<rt>ど</rt></ruby>まることもあるが、それでも<ruby>再<rt>ふたた</rt></ruby>び<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる。",
+      "trans": "지쳐서 길에서 멈춰 설 때도 있지만, 그래도 다시 일어선다.",
+      "grammar": "立ち止まる / 立ち上がる — '멈춰 서다' / '일어서다'",
+      "tags": [
+        "立ち止まる",
+        "立ち上がる"
+      ]
+    },
+    {
+      "sent": "<ruby>決<rt>けっ</rt></ruby>して<ruby>人<rt>ひと</rt></ruby>をだますようなことはしない。",
+      "trans": "결코 남을 속이는 짓은 하지 않는다.",
+      "grammar": "だます — '속이다', 남을 거짓으로 착각하게 만듦",
+      "tags": [
+        "だます"
+      ]
+    },
+    {
+      "sent": "<ruby>互<rt>たが</rt></ruby>いに<ruby>助<rt>たす</rt></ruby>けることで、チームの<ruby>力<rt>ちから</rt></ruby>になる。",
+      "trans": "서로 도움으로써 팀의 힘이 된다.",
+      "grammar": "〜を助ける — '~을 돕다/구하다'",
+      "tags": [
+        "助ける"
+      ]
+    },
+    {
+      "sent": "<ruby>皆<rt>みな</rt></ruby>のサポートがあって<ruby>本<rt>ほん</rt></ruby><ruby>当<rt>とう</rt></ruby>に<ruby>助<rt>たす</rt></ruby>かる。",
+      "trans": "모두의 지원이 있어서 정말로 도움이 된다.",
+      "grammar": "〜が助かる — '~이 도움이 되다/수고를 덜다'",
+      "tags": [
+        "助かる"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "資料が揃う",
+      "opt": [
+        "そろう",
+        "そそう",
+        "たまる",
+        "すむ"
+      ],
+      "ans": 0,
+      "comment": "揃う(そろう)는 '갖추어지다/모이다'라는 뜻입니다."
+    },
+    {
+      "q": "不安を抱く",
+      "opt": [
+        "だく",
+        "いだく",
+        "わく",
+        "ふくむ"
+      ],
+      "ans": 1,
+      "comment": "抱く(いだく)는 불안이나 희망 등 추상적인 감정을 '품다'라는 뜻입니다."
+    },
+    {
+      "q": "傘を畳む",
+      "opt": [
+        "たたかう",
+        "たたく",
+        "たたむ",
+        "たおす"
+      ],
+      "ans": 2,
+      "comment": "畳む(たたむ)는 우산이나 옷 등을 '개다/접다'라는 뜻입니다."
+    },
+    {
+      "q": "困難と戦う",
+      "opt": [
+        "かばう",
+        "うたう",
+        "たたかう",
+        "だます"
+      ],
+      "ans": 2,
+      "comment": "戦う(たたかう)는 '싸우다/맞서다'라는 뜻입니다."
+    },
+    {
+      "q": "確かめる",
+      "opt": [
+        "높아지다",
+        "확인하다",
+        "싸우다",
+        "속이다"
+      ],
+      "ans": 1,
+      "comment": "確かめる(たしかめる)는 '확인하다/확실히 하다'라는 뜻입니다."
+    },
+    {
+      "q": "注ぐ",
+      "opt": [
+        "버리다",
+        "끝나다",
+        "따르다",
+        "갖추다"
+      ],
+      "ans": 2,
+      "comment": "注ぐ(そそぐ)는 액체를 '따르다/붓다'라는 뜻입니다."
+    },
+    {
+      "q": "存じる",
+      "opt": [
+        "알다 (겸양)",
+        "품다",
+        "쓰러뜨리다",
+        "멈춰서다"
+      ],
+      "ans": 0,
+      "comment": "存じる(ぞんじる)는 知る(알다)의 겸양 표현입니다."
+    },
+    {
+      "q": "会議を（　　）ことになった。",
+      "opt": [
+        "進める",
+        "育つ",
+        "助かる",
+        "立ち上がる"
+      ],
+      "ans": 0,
+      "comment": "회의를 '진행하다'라는 문맥에 맞게 進める(すすめる)가 적절합니다."
+    },
+    {
+      "q": "皆の期待が（　　）。",
+      "opt": [
+        "済む",
+        "高まる",
+        "捨てる",
+        "経つ"
+      ],
+      "ans": 1,
+      "comment": "기대가 '높아지다'라는 문맥에 맞게 高まる(たかまる)가 적절합니다."
+    },
+    {
+      "q": "決して人を（　　）ようなことはしない。",
+      "opt": [
+        "育てる",
+        "叩く",
+        "だます",
+        "勧める"
+      ],
+      "ans": 2,
+      "comment": "결코 남을 '속이는' 짓은 하지 않는다는 뜻으로 だます가 적절합니다."
+    }
+  ]
 }

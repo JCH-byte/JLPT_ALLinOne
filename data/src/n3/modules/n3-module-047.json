@@ -2,7 +2,7 @@
   "moduleId": "n3-module-047",
   "level": "n3",
   "ordinal": 47,
-  "title": "動詞・3 (동사 3)",
+  "title": "N3: 변화와 깨달음",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-1f686d44ff45a8a913dcec7aa6f3d21270fd3060",
@@ -31,7 +31,276 @@
     "v-4c0328779e8362161177bb639971cb232c8d8736",
     "v-9fa10c8aeab05446fd1d598a4828838dcded6395"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しと<ruby>片<rt>かた</rt></ruby>づけ（이사하고 정리하기）</h3><p>ある<ruby>日<rt>ひ</rt></ruby>、<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しに<ruby>時間<rt>じかん</rt></ruby>がかかることになった。</p><p><ruby>書類<rt>しょるい</rt></ruby>を<ruby>書<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>す<ruby>必要<rt>ひつよう</rt></ruby>があったからだ。</p><p><ruby>箱<rt>はこ</rt></ruby>が<ruby>重<rt>かさ</rt></ruby>なる<ruby>部屋<rt>へや</rt></ruby>で、さらにダンボールを<ruby>重<rt>かさ</rt></ruby>ねる。</p><p>やっと<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>片<rt>かた</rt></ruby>づくと、<ruby>喉<rt>のど</rt></ruby>が<ruby>渇<rt>かわ</rt></ruby>くのを<ruby>感<rt>かん</rt></ruby>じた。</p><p>すべてが<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わるわけではない。</p><h3>Scene 2. <ruby>公園<rt>こうえん</rt></ruby>の<ruby>風景<rt>ふうけい</rt></ruby>（공원의 풍경）</h3><p><ruby>公園<rt>こうえん</rt></ruby>の<ruby>風景<rt>ふうけい</rt></ruby>を<ruby>描<rt>えが</rt></ruby>くために<ruby>駆<rt>か</rt></ruby>ける。</p><p><ruby>木<rt>き</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろに<ruby>隠<rt>かく</rt></ruby>れる<ruby>猫<rt>ねこ</rt></ruby>がいた。</p><p>その<ruby>猫<rt>ねこ</rt></ruby>はおもちゃを<ruby>隠<rt>かく</rt></ruby>すのが<ruby>好<rt>す</rt></ruby>きらしい。</p><p><ruby>木<rt>き</rt></ruby>が<ruby>枯<rt>か</rt></ruby>れるのを<ruby>悲<rt>かな</rt></ruby>しむ<ruby>子<rt>こ</rt></ruby>どもたちを<ruby>囲<rt>かこ</rt></ruby>む。</p><p><ruby>雨<rt>あめ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、ベンチを<ruby>乾<rt>かわ</rt></ruby>かすことになる。</p><h3>Scene 3. アルバイトの<ruby>日常<rt>にちじょう</rt></ruby>（아르바이트의 일상）</h3><p>アルバイトでお<ruby>金<rt>かね</rt></ruby>を<ruby>稼<rt>かせ</rt></ruby>ぐのは<ruby>大変<rt>たいへん</rt></ruby>だ。</p><p>お<ruby>札<rt>さつ</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>える<ruby>時<rt>とき</rt></ruby>、<ruby>疲<rt>つか</rt></ruby>れを<ruby>感<rt>かん</rt></ruby>じる。</p><p><ruby>野菜<rt>やさい</rt></ruby>を<ruby>刻<rt>きざ</rt></ruby>む<ruby>仕事<rt>しごと</rt></ruby>もするが、<ruby>手<rt>て</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなる<ruby>気<rt>き</rt></ruby>がする。</p><p><ruby>店長<rt>てんちょう</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>を<ruby>聞<rt>き</rt></ruby>き<ruby>直<rt>なお</rt></ruby>すと、<ruby>怒<rt>おこ</rt></ruby>られるわけではない。</p><p>この<ruby>薬<rt>くすり</rt></ruby>は<ruby>疲<rt>つか</rt></ruby>れに<ruby>効<rt>き</rt></ruby>くらしい。</p><h3>Scene 4. カフェでの<ruby>気<rt>き</rt></ruby>づき（카페에서의 깨달음）</h3><p><ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>に<ruby>気<rt>き</rt></ruby>づくと、<ruby>少<rt>すこ</rt></ruby>し<ruby>気<rt>き</rt></ruby>になる。</p><p><ruby>実<rt>じつ</rt></ruby>は、そのカフェが<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>ることになったのだ。</p><p><ruby>彼<rt>かれ</rt></ruby>は<ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>目<rt>め</rt></ruby>を<ruby>気<rt>き</rt></ruby>にする。</p><p><ruby>私<rt>わたし</rt></ruby>は<ruby>気<rt>き</rt></ruby>にしないが、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くわけではない。</p><p>それでも、<ruby>毎日<rt>まいにち</rt></ruby>が<ruby>楽<rt>たの</rt></ruby>しくなるだろう。</p>",
+  "analysis": [
+    {
+      "sent": "ある<ruby>日<rt>ひ</rt></ruby>、<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しに<ruby>時間<rt>じかん</rt></ruby>がかかることになった。",
+      "trans": "어느 날, 이사에 시간이 걸리게 되었다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 자연스러운 귀결이나 결정을 나타냄",
+      "tags": [
+        "かかる"
+      ]
+    },
+    {
+      "sent": "<ruby>書類<rt>しょるい</rt></ruby>を<ruby>書<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>す<ruby>必要<rt>ひつよう</rt></ruby>があったからだ。",
+      "trans": "서류를 고쳐 쓸 필요가 있었기 때문이다.",
+      "grammar": "〜必要がある — '~할 필요가 있다', 필요성이나 의무를 나타냄",
+      "tags": [
+        "書き直す"
+      ]
+    },
+    {
+      "sent": "<ruby>箱<rt>はこ</rt></ruby>が<ruby>重<rt>かさ</rt></ruby>なる<ruby>部屋<rt>へや</rt></ruby>で、さらにダンボールを<ruby>重<rt>かさ</rt></ruby>ねる。",
+      "trans": "상자가 겹쳐진 방에서, 더욱이 골판지 상자를 포갠다.",
+      "grammar": "동사의 명사 수식 — 동사가 명사(방)를 수식하는 형태",
+      "tags": [
+        "重なる",
+        "重ねる"
+      ]
+    },
+    {
+      "sent": "やっと<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>片<rt>かた</rt></ruby>づくと、<ruby>喉<rt>のど</rt></ruby>が<ruby>渇<rt>かわ</rt></ruby>くのを<ruby>感<rt>かん</rt></ruby>じた。",
+      "trans": "겨우 짐이 정리되자, 목이 마른 것을 느꼈다.",
+      "grammar": "〜と — '~하자, ~하면', 앞의 행동으로 인해 자연스럽게 이어지는 결과를 나타냄",
+      "tags": [
+        "片づく",
+        "渇く",
+        "感じる"
+      ]
+    },
+    {
+      "sent": "すべてが<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わるわけではない。",
+      "trans": "모든 것이 빨리 끝나는 것은 아니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전부 그렇지는 않다는 부분 부정을 나타냄",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>風景<rt>ふうけい</rt></ruby>を<ruby>描<rt>えが</rt></ruby>くために<ruby>駆<rt>か</rt></ruby>ける。",
+      "trans": "공원의 풍경을 그리기 위해 달린다.",
+      "grammar": "〜ために — '~하기 위해', 목적을 나타냄",
+      "tags": [
+        "描く",
+        "駆ける"
+      ]
+    },
+    {
+      "sent": "<ruby>木<rt>き</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろに<ruby>隠<rt>かく</rt></ruby>れる<ruby>猫<rt>ねこ</rt></ruby>がいた。",
+      "trans": "나무 뒤에 숨는 고양이가 있었다.",
+      "grammar": "명사 수식 — 동사(숨다)가 명사(고양이)를 수식함",
+      "tags": [
+        "隠れる"
+      ]
+    },
+    {
+      "sent": "その<ruby>猫<rt>ねこ</rt></ruby>はおもちゃを<ruby>隠<rt>かく</rt></ruby>すのが<ruby>好<rt>す</rt></ruby>きらしい。",
+      "trans": "그 고양이는 장난감을 숨기는 것을 좋아하는 것 같다.",
+      "grammar": "〜らしい — '~인 것 같다', 관찰 등 객관적 근거에 의한 추측",
+      "tags": [
+        "隠す"
+      ]
+    },
+    {
+      "sent": "<ruby>木<rt>き</rt></ruby>が<ruby>枯<rt>か</rt></ruby>れるのを<ruby>悲<rt>かな</rt></ruby>しむ<ruby>子<rt>こ</rt></ruby>どもたちを<ruby>囲<rt>かこ</rt></ruby>む。",
+      "trans": "나무가 시드는 것을 슬퍼하는 아이들을 둘러싼다.",
+      "grammar": "〜のを — '~하는 것을', 동사를 명사화하여 목적어로 만듦",
+      "tags": [
+        "枯れる",
+        "悲しむ",
+        "囲む"
+      ]
+    },
+    {
+      "sent": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、ベンチを<ruby>乾<rt>かわ</rt></ruby>かすことになる。",
+      "trans": "비가 온 뒤, 벤치를 말리게 된다.",
+      "grammar": "〜ことになる — '~하게 되다', 외부 요인이나 필연적인 상황 전개를 나타냄",
+      "tags": [
+        "乾かす"
+      ]
+    },
+    {
+      "sent": "アルバイトでお<ruby>金<rt>かね</rt></ruby>を<ruby>稼<rt>かせ</rt></ruby>ぐのは<ruby>大変<rt>たいへん</rt></ruby>だ。",
+      "trans": "아르바이트로 돈을 버는 것은 힘들다.",
+      "grammar": "〜のは — '~하는 것은', 동사를 명사구로 만들어 주어로 사용",
+      "tags": [
+        "稼ぐ"
+      ]
+    },
+    {
+      "sent": "お<ruby>札<rt>さつ</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>える<ruby>時<rt>とき</rt></ruby>、<ruby>疲<rt>つか</rt></ruby>れを<ruby>感<rt>かん</rt></ruby>じる。",
+      "trans": "지폐를 셀 때, 피로를 느낀다.",
+      "grammar": "〜時 — '~할 때', 동작이 일어나는 시점을 나타냄",
+      "tags": [
+        "数える",
+        "感じる"
+      ]
+    },
+    {
+      "sent": "<ruby>野菜<rt>やさい</rt></ruby>を<ruby>刻<rt>きざ</rt></ruby>む<ruby>仕事<rt>しごと</rt></ruby>もするが、<ruby>手<rt>て</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなる<ruby>気<rt>き</rt></ruby>がする。",
+      "trans": "채소를 잘게 써는 일도 하지만, 손이 아파지는 느낌이 든다.",
+      "grammar": "〜気がする — '~느낌이 들다', 직감이나 막연한 생각을 표현함",
+      "tags": [
+        "刻む",
+        "気がする"
+      ]
+    },
+    {
+      "sent": "<ruby>店長<rt>てんちょう</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>を<ruby>聞<rt>き</rt></ruby>き<ruby>直<rt>なお</rt></ruby>すと、<ruby>怒<rt>おこ</rt></ruby>られるわけではない。",
+      "trans": "점장의 말을 되물으면, 화를 내는 것은 아니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전면 부정을 피하고 부분적으로 부정함",
+      "tags": [
+        "聞き直す"
+      ]
+    },
+    {
+      "sent": "この<ruby>薬<rt>くすり</rt></ruby>は<ruby>疲<rt>つか</rt></ruby>れに<ruby>効<rt>き</rt></ruby>くらしい。",
+      "trans": "이 약은 피로에 효과가 있는 것 같다.",
+      "grammar": "〜らしい — '~인 것 같다', 전해 들은 정보나 객관적 근거에 기반한 추측",
+      "tags": [
+        "効く"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>に<ruby>気<rt>き</rt></ruby>づくと、<ruby>少<rt>すこ</rt></ruby>し<ruby>気<rt>き</rt></ruby>になる。",
+      "trans": "그의 행동을 알아차리자, 조금 신경 쓰인다.",
+      "grammar": "〜と — '~하자, ~하면', 조건이나 계기가 되어 일어나는 결과를 나타냄",
+      "tags": [
+        "気づく",
+        "気になる"
+      ]
+    },
+    {
+      "sent": "<ruby>実<rt>じつ</rt></ruby>は、そのカフェが<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>ることになったのだ。",
+      "trans": "실은, 그 카페가 마음에 들게 된 것이다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 변화나 결과를 나타냄",
+      "tags": [
+        "気に入る"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>目<rt>め</rt></ruby>を<ruby>気<rt>き</rt></ruby>にする。",
+      "trans": "그는 다른 사람의 시선을 신경 쓴다.",
+      "grammar": "명사 목적어 + 동사 — 기본적인 타동사 구문",
+      "tags": [
+        "気にする"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>気<rt>き</rt></ruby>にしないが、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くわけではない。",
+      "trans": "나는 신경 쓰지 않지만, 같이 가는 것은 아니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 오해를 풀거나 제한적인 부정을 표현함",
+      "tags": []
+    }
+  ],
+  "quiz": [
+    {
+      "q": "ベンチを【乾かす】。",
+      "opt": [
+        "かわかす",
+        "こわす",
+        "すかす",
+        "わかす"
+      ],
+      "ans": 0,
+      "comment": "乾かす(かわかす)는 '말리다'라는 뜻입니다."
+    },
+    {
+      "q": "書類を【書き直す】。",
+      "opt": [
+        "かきなおす",
+        "かきとおす",
+        "かきおとす",
+        "かきだす"
+      ],
+      "ans": 0,
+      "comment": "書き直す(かきなおす)는 '고쳐 쓰다'라는 뜻입니다."
+    },
+    {
+      "q": "野菜を【刻む】。",
+      "opt": [
+        "はさむ",
+        "きざむ",
+        "たたむ",
+        "くるむ"
+      ],
+      "ans": 1,
+      "comment": "刻む(きざむ)는 '잘게 썰다, 새기다'라는 뜻입니다."
+    },
+    {
+      "q": "木が【枯れる】。",
+      "opt": [
+        "これる",
+        "たれる",
+        "かれる",
+        "はれる"
+      ],
+      "ans": 2,
+      "comment": "枯れる(かれる)는 '마르다, 시들다'라는 뜻입니다."
+    },
+    {
+      "q": "少し【気になる】。",
+      "opt": [
+        "기분이 좋다",
+        "신경 쓰이다",
+        "마음에 들다",
+        "기억이 나다"
+      ],
+      "ans": 1,
+      "comment": "気になる(きになる)는 '신경 쓰이다'라는 뜻입니다."
+    },
+    {
+      "q": "お金を【稼ぐ】。",
+      "opt": [
+        "쓰다",
+        "모으다",
+        "벌다",
+        "빌리다"
+      ],
+      "ans": 2,
+      "comment": "稼ぐ(かせぐ)는 '(돈을) 벌다'라는 뜻입니다."
+    },
+    {
+      "q": "荷物が【片づく】。",
+      "opt": [
+        "늘어나다",
+        "도착하다",
+        "정리되다",
+        "사라지다"
+      ],
+      "ans": 2,
+      "comment": "片づく(かたづく)는 '정리되다'라는 뜻입니다."
+    },
+    {
+      "q": "風邪の薬がよく【　　】。",
+      "opt": [
+        "かかる",
+        "きく",
+        "かんじる",
+        "きがする"
+      ],
+      "ans": 1,
+      "comment": "효과가 있다는 뜻의 効く(きく)가 들어가는 것이 자연스럽습니다."
+    },
+    {
+      "q": "彼はいつも周りの目を【　　】。",
+      "opt": [
+        "気に入る",
+        "気づく",
+        "気にする",
+        "聞き直す"
+      ],
+      "ans": 2,
+      "comment": "주변의 시선을 신경 쓴다는 의미의 気にする(きにする)가 적절합니다."
+    },
+    {
+      "q": "机の上に本が【　　】いる。",
+      "opt": [
+        "かさなっている",
+        "かくれている",
+        "かこんでいる",
+        "かけている"
+      ],
+      "ans": 0,
+      "comment": "책이 겹쳐져 있다는 의미의 重なる(かさなる)의 진행형이 알맞습니다."
+    }
+  ]
 }

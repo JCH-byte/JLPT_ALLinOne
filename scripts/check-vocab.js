@@ -28,6 +28,26 @@ function stripHtml(html) {
         .replace(/<[^>]+>/g, '');
 }
 
+// Returns search candidates for a vocab word to match conjugated/inflected forms.
+// e.g. 動く→{動く,動}, 考える→{考える,考え}, 大きい→{大きい,大き}, 勉強する→{勉強する,勉強}
+function getSearchCandidates(word) {
+    const candidates = new Set([word]);
+    const isHiragana = c => c >= 'ぁ' && c <= 'ゖ';
+    if (word.endsWith('する') && word.length > 2) {
+        candidates.add(word.slice(0, -2));
+        return candidates;
+    }
+    if (isHiragana(word.slice(-1))) {
+        const stem = word.slice(0, -1);
+        if (stem.length >= 1) candidates.add(stem);
+    }
+    return candidates;
+}
+
+function wordInText(word, text) {
+    return [...getSearchCandidates(word)].some(c => text.includes(c));
+}
+
 function main() {
     const [, , level, moduleId] = process.argv;
     if (!level || !moduleId) {
@@ -71,8 +91,8 @@ function main() {
 
     const vocabWords = vocabIds.map(id => vocabById.get(id).word);
     const plain = stripHtml(mod.story);
-    const appearing = vocabWords.filter(w => plain.includes(w));
-    const missing = vocabWords.filter(w => !plain.includes(w));
+    const appearing = vocabWords.filter(w => wordInText(w, plain));
+    const missing = vocabWords.filter(w => !wordInText(w, plain));
     const ratio = vocabWords.length === 0 ? 1 : appearing.length / vocabWords.length;
     const pct = (ratio * 100).toFixed(0);
     const needPct = (VOCAB_APPEARANCE_RATIO * 100).toFixed(0);

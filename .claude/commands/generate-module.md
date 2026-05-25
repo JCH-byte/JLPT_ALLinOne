@@ -29,17 +29,27 @@ argument-hint: <level> <selector>
 
 ## 다중 모듈 처리 (N ≥ 2): 서브에이전트 위임
 
-대상 모듈이 **2개 이상**이면 메인 에이전트는 각 모듈을 순서대로 `Agent` tool로 위임한다.  
+대상 모듈이 **2개 이상**이면 메인 에이전트는 각 모듈을 `Agent` tool로 위임한다.  
 이유: 모듈 1개당 컨텍스트에 누적되는 ruby HTML·analysis 문장이 매우 크기 때문.  
 서브에이전트를 쓰면 메인 컨텍스트에는 "결과 한 줄"만 남아 모바일 환경에서도 안정적으로 동작한다.
+
+**병렬 호출 OK**: 서브에이전트는 **src 파일 저장 + 사전 검사(check-module.js)까지만** 수행한다. 빌드와 validate-module은 메인이 모든 서브에이전트 완료 후 일괄 1회 실행한다 → build 스크립트 충돌 없음, 속도 3~4배.
 
 **메인 에이전트 절차:**
 1. 사전 검사(dist 동기화 + 모듈 목록 결정)는 메인이 직접 수행.
 2. 프로젝트 루트를 동적으로 확인: `pwd` (Bash) 또는 `(Get-Location).Path` (PowerShell) 결과를 `{projectRoot}`로 사용.
-3. 각 moduleId에 대해 순서대로 Agent tool 호출 (병렬 금지 — build 스크립트 충돌 방지):
+3. 각 moduleId에 대해 **Agent tool을 병렬로** 호출 (단일 메시지 안에 여러 Agent 호출 블록 사용):
    - `description`: `"Generate {level} {moduleId}"`
    - `prompt`: 아래 **서브에이전트 프롬프트 템플릿**을 변수 치환해서 사용.
-4. 서브에이전트가 반환한 결과 한 줄씩 수집 → 모든 모듈 완료 후 보고서 출력.
+4. 모든 서브에이전트 완료 대기 → 결과 한 줄씩 수집.
+5. **메인이 일괄 빌드+검증**:
+   ```bash
+   node scripts/build-data.js
+   node scripts/build-data.js --check
+   # 각 성공 모듈에 대해 validate
+   node scripts/validate-module.js <level> <moduleId>
+   ```
+6. validate-module 실패한 모듈은 직접 수정 또는 SKIP 처리 후 보고서 출력.
 
 ### 서브에이전트 프롬프트 템플릿
 
@@ -48,7 +58,7 @@ argument-hint: <level> <selector>
 프로젝트 루트: {projectRoot}
 
 먼저 `.claude/commands/generate-module.md`를 읽고,
-**Per-module 생성 워크플로 (Step 1~6)** 섹션을 아래 대상에 대해 실행하세요.
+**Per-module 생성 워크플로 Step 1~3** 만 실행하세요. (빌드/validate는 메인이 일괄 수행)
 
 - level: {level}
 - moduleId: {moduleId}
@@ -58,7 +68,7 @@ argument-hint: <level> <selector>
 
 ## 자가수정을 유발하는 가장 흔한 실패 원인 (반드시 숙지)
 1. **vocab 100% 누락** — dist 모듈의 vocab 배열 단어 중 1개라도 story에 없으면 즉시 실패.
-   Gemini 프롬프트에 vocab 자가검증 단계(출력 전 단어별 체크)가 포함되어 있으므로 반드시 활용할 것.
+   (활용형은 검증기가 자동 인정함 - 例: 動く가 story에 動いて로만 있어도 OK)
 2. **h3 ruby 누락** — `<h3>` 태그 안 일본어 제목의 한자에도 `<ruby>` 필수.
    JSON 파싱 직후 인라인 검증(node -e)이 저장 전에 검출함. exit 1이면 파일 미저장 상태이므로
    Gemini 재호출 또는 Claude 직접 수정 후 재시도.
@@ -69,7 +79,7 @@ argument-hint: <level> <selector>
 실패: `{moduleId}: SKIP (사유)`
 ```
 
-> N=1이면 서브에이전트 없이 메인 에이전트가 직접 Per-module 워크플로를 수행한다.
+> N=1이면 서브에이전트 없이 메인 에이전트가 직접 Per-module 워크플로(Step 1~5)를 수행한다.
 
 ---
 
@@ -90,6 +100,19 @@ argument-hint: <level> <selector>
 > `JLPT_Template_Prompt_N3.txt`도 읽지 않는다 — 모든 spec은 이 스킬 파일에 내장되어 있음.
 
 vocab 목록 = dist 모듈의 `vocab` 배열 (word / read / mean / tags).
+
+**grammar 타겟 선택 (ordinal 기반 로테이션):**
+룰 파일의 `grammarPool`이 있으면 `ordinal % pool.length` 인덱스로 grammar 페어를 선택. 없으면 fallback으로 `grammarTargets` 사용.
+
+```js
+const pool = rule.grammarPool;
+const grammarPair = pool
+  ? pool[(mod.ordinal - 1) % pool.length]
+  : rule.grammarTargets;
+// 예) ordinal=47, pool 12개 → index 46 % 12 = 10 → ["〜だけでなく", "〜はもちろん"]
+```
+
+이 페어를 Gemini 프롬프트의 "문법 타겟" 자리에 그대로 삽입한다.
 
 ---
 
@@ -141,7 +164,7 @@ gemini -m gemini-3.1-pro-preview -p "$(cat <<'PROMPT'
 ✅ <h3>Scene 1. <ruby>新<rt>あたら</rt></ruby>しい<ruby>商店<rt>しょうてん</rt></ruby>（새로운 상점）</h3>
 ❌ <h3>Scene 1. 新しい商店（새로운 상점）</h3>  ← 이렇게 하면 검증 실패
 
-- 문법 타겟 반드시 사용: 〜ことになる, 〜わけではない
+- 문법 타겟 반드시 사용: {grammarPair[0]}, {grammarPair[1]}  ← Step 1에서 선택한 페어 삽입
 - 장면당 plain text 220자 이하
 - vocab 25개 **전부** story에 등장 (100% 필수)
 
@@ -174,19 +197,30 @@ PROMPT
 
 #### JSON 파싱 + 사전 검증 + src 저장
 
-Gemini 출력에는 앞에 경고 줄이 붙을 수 있으므로 첫 `{` 위치부터 파싱.  
+Gemini 출력은 **`tmp/gemini/{moduleId}.txt`**로 리다이렉트한다 (`tmp/`는 gitignore됨). 출력 앞에 경고 줄이 붙을 수 있으므로 첫 `{` 위치부터 파싱.  
 **파일 쓰기 전** vocab 100% 및 h3 ruby를 인라인으로 검증해 불필요한 check 스크립트·빌드 호출을 방지한다.
 
 ```bash
+mkdir -p tmp/gemini
+gemini -m gemini-3.1-pro-preview -p "..." > tmp/gemini/{moduleId}.txt 2>&1
+
 node -e "
 const fs = require('fs');
-const raw = fs.readFileSync('/path/to/gemini.output', 'utf8');
+const raw = fs.readFileSync('tmp/gemini/{moduleId}.txt', 'utf8');
 const g = JSON.parse(raw.slice(raw.indexOf('{')));
 const src = JSON.parse(fs.readFileSync('data/src/{level}/modules/{moduleId}.json', 'utf8'));
 
-// ── 사전 검증 1: vocab 100% ──────────────────────────────
+// ── 사전 검증 1: vocab 100% (활용형 포함) ────────────────
 const storyText = g.story.replace(/<[^>]*>/g, '');
-const missing = src.vocab.map(v => v.word).filter(w => !g.story.includes(w) && !storyText.includes(w));
+function getSearchCandidates(word) {
+  const s = new Set([word]);
+  const isH = c => c >= 'ぁ' && c <= 'ゖ';
+  if (word.endsWith('する') && word.length > 2) { s.add(word.slice(0, -2)); return s; }
+  if (isH(word.slice(-1))) { const stem = word.slice(0, -1); if (stem.length >= 1) s.add(stem); }
+  return s;
+}
+const wordInText = (w, t) => [...getSearchCandidates(w)].some(c => t.includes(c));
+const missing = src.vocab.map(v => v.word).filter(w => !wordInText(w, storyText));
 if (missing.length > 0) { console.error('VOCAB_MISSING: ' + missing.join(', ')); process.exit(1); }
 
 // ── 사전 검증 2: h3 안의 한자에 ruby 없는 경우 ───────────
@@ -279,46 +313,40 @@ Gemini를 쓸 수 없을 때 Claude가 직접 다음을 생성:
 
 ---
 
-### Step 3. src 저장 + 사전 검사 (ruby + vocab)
+### Step 3. src 저장 + 사전 검사 (ruby + vocab 통합)
 
 1. 기존 src 파일의 모든 필드를 보존하면서 `title`/`story`/`analysis`/`quiz`만 갱신해서 Write.  
    **`moduleId`/`level`/`ordinal`/`ruleVersion`/`vocabIds` 절대 변경 금지.**  
    JSON 직렬화: 들여쓰기 2 스페이스 + 끝 줄바꿈 1개.
 
-2. 저장 직후 **사전 검사 2개**를 실행 (빌드 없이 빠르게):
+2. 저장 직후 **통합 검사 1회 호출** (ruby + vocab 동시):
    ```bash
-   node scripts/check-ruby.js <level> <moduleId>    # story + analysis[].sent 의 ruby 누락 검사
-   node scripts/check-vocab.js <level> <moduleId>   # vocab word 100% 등장 검사
+   node scripts/check-module.js <level> <moduleId>
    ```
-   - 둘 다 PASS이면 Step 4로.
-   - 어느 하나라도 FAIL이면 src 파일의 해당 필드(story 또는 analysis)만 수정 후 재저장 → 재검사. 빌드 없이 빠르게 반복.
+   - PASS이면 서브에이전트 작업 종료 (메인이 빌드/validate 처리).
+   - FAIL이면 stderr 메시지를 읽고 src의 해당 필드(story 또는 analysis)만 수정 후 재저장 → 재검사. 빌드 없이 빠르게 반복 (최대 3회).
+   - 출력에 "stem 매칭" 줄이 있으면 활용형으로 통과한 것 — 정상.
 
 ---
 
-### Step 4. 빌드 + 검증
+### Step 4. 빌드 + 검증 (메인 에이전트가 일괄 실행)
 
+다중 모듈에서는 **모든 서브에이전트가 Step 3까지 완료된 후** 메인이 한 번만:
 ```bash
 node scripts/build-data.js
 node scripts/build-data.js --check
+# 각 성공 모듈에 대해
 node scripts/validate-module.js <level> <moduleId>
 ```
-
-3개 모두 exit 0이면 PASS → Step 6.
-
----
-
-### Step 5. 자가 수정 루프 (최대 3회)
-
-검증 실패 시 `validate-module.js` stderr 메시지를 읽고 src의 해당 필드만 수정 후 Step 3부터 재실행.  
-횟수 카운트 누적.
-
-- **3회 실패**면 이 모듈 건너뛰고 보고서에 기록.
+단일 모듈(N=1)에서는 메인이 직접 Step 1~3 후 이 빌드 단계까지 수행.
 
 ---
 
-### Step 6. 다음 모듈로
+### Step 5. 자가 수정 루프 (validate-module 실패 시 메인이 직접 수정, 최대 3회)
 
-루프 종료 조건: 대상 리스트 다 처리.
+`validate-module.js` 실패한 모듈은 메인이 stderr 메시지를 읽고 src의 해당 필드만 수정 후 Step 4 재실행.  
+- 빌드는 모듈 단위로 다시 돌릴 필요 없음 (전체 빌드 1회 유지).
+- **3회 실패**면 해당 모듈 SKIP 처리.
 
 ---
 
@@ -358,5 +386,5 @@ git/push는 **자동화하지 않는다.** 사용자가 GitHub Desktop으로 직
 - 자가 수정 루프 3회 초과 금지.
 - N5 대상 작업 금지.
 - git/gh 명령 실행 금지.
-- 다중 모듈 시 Agent tool 병렬 호출 금지 (build 충돌 방지).
+- 서브에이전트 안에서 `build-data.js`/`validate-module.js` 호출 금지 (빌드는 메인이 일괄 1회). 병렬 호출 시 충돌 방지를 위함.
 - Gemini 출력 파싱 시 `JSON.parse(raw)` 직접 호출 금지 — 앞에 경고 줄이 붙으므로 반드시 `raw.slice(raw.indexOf('{'))` 사용.

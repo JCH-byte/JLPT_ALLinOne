@@ -2,7 +2,7 @@
   "moduleId": "n3-module-048",
   "level": "n3",
   "ordinal": 48,
-  "title": "動詞・4 (동사 4)",
+  "title": "N3: 실패와 새로운 시작",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,269 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>疲<rt>つか</rt></ruby>れた<ruby>毎日<rt>まいにち</rt></ruby>（지친 매일）</h3><p><ruby>彼<rt>かれ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>の<ruby>残業<rt>ざんぎょう</rt></ruby>でひどくくたびれていました。</p><p><ruby>同<rt>おな</rt></ruby>じ<ruby>失敗<rt>しっぱい</rt></ruby>をくり<ruby>返<rt>かえ</rt></ruby>しては、<ruby>自分<rt>じぶん</rt></ruby>を<ruby>責<rt>せ</rt></ruby>めて<ruby>苦<rt>くる</rt></ruby>しんでいました。</p><p>これからはもっと<ruby>気<rt>き</rt></ruby>を<ruby>付<rt>つ</rt></ruby>けることになります。</p><p><ruby>時間<rt>じかん</rt></ruby>を<ruby>細<rt>こま</rt></ruby>かく<ruby>区切<rt>くぎ</rt></ruby>って<ruby>働<rt>はたら</rt></ruby>きますが、<ruby>他人<rt>たにん</rt></ruby>と<ruby>比<rt>くら</rt></ruby>べてしまいます。</p><p>そんな<ruby>風<rt>ふう</rt></ruby>に<ruby>暮<rt>く</rt></ruby>らすのはもう<ruby>嫌<rt>いや</rt></ruby>でした。</p><h3>Scene 2. <ruby>最悪<rt>さいあく</rt></ruby>な<ruby>一日<rt>いちにち</rt></ruby>（최악의 하루）</h3><p>ある<ruby>日<rt>ひ</rt></ruby>、コーヒーをこぼしてしまい、<ruby>机<rt>つくえ</rt></ruby>にこぼれた<ruby>液<rt>えき</rt></ruby>を<ruby>拭<rt>ふ</rt></ruby>きました。</p><p><ruby>慌<rt>あわ</rt></ruby>ててデータを<ruby>消<rt>け</rt></ruby>してしまい、とても<ruby>困<rt>こま</rt></ruby>りました。</p><p><ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>転<rt>ころ</rt></ruby>がして<ruby>運<rt>はこ</rt></ruby>ぼうとしたら、<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>転<rt>ころ</rt></ruby>がりました。</p><p>さらに、<ruby>足<rt>あし</rt></ruby>がもつれて<ruby>転<rt>ころ</rt></ruby>んでしまったのです。</p><p>イライラして、ついゴミ<ruby>箱<rt>ばこ</rt></ruby>を<ruby>蹴<rt>け</rt></ruby>ってしまいました。</p><h3>Scene 3. <ruby>失業<rt>しつぎょう</rt></ruby>と<ruby>孤独<rt>こどく</rt></ruby>（실업과 고독）</h3><p><ruby>弁当<rt>べんとう</rt></ruby>が<ruby>腐<rt>くさ</rt></ruby>るほど<ruby>忙<rt>いそが</rt></ruby>しかったのに、<ruby>彼<rt>かれ</rt></ruby>は<ruby>首<rt>くび</rt></ruby>になりました。</p><p><ruby>同僚<rt>どうりょう</rt></ruby>の<ruby>助<rt>たす</rt></ruby>けも<ruby>断<rt>ことわ</rt></ruby>りましたが、<ruby>孤独<rt>こどく</rt></ruby>を<ruby>好<rt>この</rt></ruby>むわけではありません。</p><p><ruby>彼<rt>かれ</rt></ruby>は<ruby>悲<rt>かな</rt></ruby>しみに<ruby>息<rt>いき</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>して、<ruby>暗<rt>くら</rt></ruby>い<ruby>階段<rt>かいだん</rt></ruby>を<ruby>下<rt>くだ</rt></ruby>りました。</p><p><ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>から、<ruby>駅前<rt>えきまえ</rt></ruby>でチラシを<ruby>配<rt>くば</rt></ruby>る<ruby>仕事<rt>しごと</rt></ruby>をしました。</p><h3>Scene 4. <ruby>新<rt>あたら</rt></ruby>しい<ruby>出発<rt>しゅっぱつ</rt></ruby>（새로운 출발）</h3><p><ruby>休<rt>やす</rt></ruby>み<ruby>時間<rt>じかん</rt></ruby>に、コーヒーにミルクを<ruby>加<rt>くわ</rt></ruby>えて<ruby>飲<rt>の</rt></ruby>みました。</p><p><ruby>彼<rt>かれ</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しいチームに<ruby>加<rt>くわ</rt></ruby>わることになります。</p><p><ruby>仲間<rt>なかま</rt></ruby>としっかり<ruby>手<rt>て</rt></ruby>を<ruby>組<rt>く</rt></ruby>んで<ruby>進<rt>すす</rt></ruby>みます。</p><p><ruby>過去<rt>かこ</rt></ruby>の<ruby>失敗<rt>しっぱい</rt></ruby>がすべて<ruby>無駄<rt>むだ</rt></ruby>だったわけではありません。</p><p><ruby>今<rt>いま</rt></ruby>は<ruby>笑顔<rt>えがお</rt></ruby>で<ruby>前<rt>まえ</rt></ruby>を<ruby>向<rt>む</rt></ruby>いて<ruby>歩<rt>ある</rt></ruby>いています。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>の<ruby>残業<rt>ざんぎょう</rt></ruby>でひどくくたびれていました。",
+      "trans": "그는 매일의 야근으로 몹시 지쳐 있었습니다.",
+      "grammar": "ひどく〜 — '몹시 ~하다', 정도가 심함을 나타내는 부사 표현",
+      "tags": [
+        "くたびれる"
+      ]
+    },
+    {
+      "sent": "<ruby>同<rt>おな</rt></ruby>じ<ruby>失敗<rt>しっぱい</rt></ruby>をくり<ruby>返<rt>かえ</rt></ruby>しては、<ruby>自分<rt>じぶん</rt></ruby>を<ruby>責<rt>せ</rt></ruby>めて<ruby>苦<rt>くる</rt></ruby>しんでいました。",
+      "trans": "같은 실수를 반복하고는, 자신을 자책하며 괴로워했습니다.",
+      "grammar": "〜ては — '~하고서는, ~할 때마다', 반복되는 동작이나 그에 따른 결과를 나타냄",
+      "tags": [
+        "くり返す",
+        "苦しむ"
+      ]
+    },
+    {
+      "sent": "これからはもっと<ruby>気<rt>き</rt></ruby>を<ruby>付<rt>つ</rt></ruby>けることになります。",
+      "trans": "앞으로는 더 조심하게 됩니다.",
+      "grammar": "〜ことになる — '~하게 되다', 상황의 변화나 결정된 결과를 나타냄",
+      "tags": [
+        "気を付ける"
+      ]
+    },
+    {
+      "sent": "<ruby>時間<rt>じかん</rt></ruby>を<ruby>細<rt>こま</rt></ruby>かく<ruby>区切<rt>くぎ</rt></ruby>って<ruby>働<rt>はたら</rt></ruby>きますが、<ruby>他人<rt>たにん</rt></ruby>と<ruby>比<rt>くら</rt></ruby>べてしまいます。",
+      "trans": "시간을 잘게 구획하여 일하지만, 남과 비교해 버립니다.",
+      "grammar": "〜てしまう — '~해 버리다', 무의식적으로 하거나 유감의 뉘앙스를 나타냄",
+      "tags": [
+        "区切る",
+        "比べる"
+      ]
+    },
+    {
+      "sent": "そんな<ruby>風<rt>ふう</rt></ruby>に<ruby>暮<rt>く</rt></ruby>らすのはもう<ruby>嫌<rt>いや</rt></ruby>でした。",
+      "trans": "그런 식으로 생활하는 것은 이제 싫었습니다.",
+      "grammar": "〜のは〜 — '~하는 것은 ~하다', 동사를 명사화하여 주어로 만듦",
+      "tags": [
+        "暮らす"
+      ]
+    },
+    {
+      "sent": "ある<ruby>日<rt>ひ</rt></ruby>、コーヒーをこぼしてしまい、<ruby>机<rt>つくえ</rt></ruby>にこぼれた<ruby>液<rt>えき</rt></ruby>を<ruby>拭<rt>ふ</rt></ruby>きました。",
+      "trans": "어느 날, 커피를 엎질러 버렸고, 책상에 넘쳐흐른 액체를 닦았습니다.",
+      "grammar": "〜てしまい — '~해 버리고', 실수나 완료의 의미를 연결형으로 나타냄",
+      "tags": [
+        "こぼす",
+        "こぼれる"
+      ]
+    },
+    {
+      "sent": "<ruby>慌<rt>あわ</rt></ruby>ててデータを<ruby>消<rt>け</rt></ruby>してしまい、とても<ruby>困<rt>こま</rt></ruby>りました。",
+      "trans": "당황해서 데이터를 지워 버려 매우 곤란했습니다.",
+      "grammar": "とても〜 — '매우 ~하다', 감정이나 상태의 정도를 강조함",
+      "tags": [
+        "消す",
+        "困る"
+      ]
+    },
+    {
+      "sent": "<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>転<rt>ころ</rt></ruby>がして<ruby>運<rt>はこ</rt></ruby>ぼうとしたら、<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>転<rt>ころ</rt></ruby>がりました。",
+      "trans": "대차를 굴려서 옮기려 했더니, 짐이 굴러떨어졌습니다.",
+      "grammar": "〜ようとしたら — '~하려고 했더니', 어떤 동작을 시도한 직후의 의외의 결과를 나타냄",
+      "tags": [
+        "転がす",
+        "転がる"
+      ]
+    },
+    {
+      "sent": "さらに、<ruby>足<rt>あし</rt></ruby>がもつれて<ruby>転<rt>ころ</rt></ruby>んでしまったのです。",
+      "trans": "게다가 발이 꼬여 넘어져 버린 것입니다.",
+      "grammar": "〜のです/〜んです — '~인 것입니다', 상황을 설명하거나 강조할 때 사용",
+      "tags": [
+        "転ぶ"
+      ]
+    },
+    {
+      "sent": "イライラして、ついゴミ<ruby>箱<rt>ばこ</rt></ruby>を<ruby>蹴<rt>け</rt></ruby>ってしまいました。",
+      "trans": "짜증이 나서 그만 쓰레기통을 차 버렸습니다.",
+      "grammar": "つい〜てしまう — '그만 ~해 버리다', 무의식적으로 해버린 행동을 나타냄",
+      "tags": [
+        "蹴る"
+      ]
+    },
+    {
+      "sent": "<ruby>弁当<rt>べんとう</rt></ruby>が<ruby>腐<rt>くさ</rt></ruby>るほど<ruby>忙<rt>いそが</rt></ruby>しかったのに、<ruby>彼<rt>かれ</rt></ruby>は<ruby>首<rt>くび</rt></ruby>になりました。",
+      "trans": "도시락이 썩을 정도로 바빴는데, 그는 해고되었습니다.",
+      "grammar": "〜ほど — '~할 정도로', 상태의 정도를 비유적으로 나타냄",
+      "tags": [
+        "腐る",
+        "首になる"
+      ]
+    },
+    {
+      "sent": "<ruby>同僚<rt>どうりょう</rt></ruby>の<ruby>助<rt>たす</rt></ruby>けも<ruby>断<rt>ことわ</rt></ruby>りましたが、<ruby>孤独<rt>こどく</rt></ruby>を<ruby>好<rt>この</rt></ruby>むわけではありません。",
+      "trans": "동료의 도움도 거절했지만, 고독을 좋아하는 것은 아닙니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 부분 부정을 나타냄",
+      "tags": [
+        "断る",
+        "好む"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>悲<rt>かな</rt></ruby>しみに<ruby>息<rt>いき</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>して、<ruby>暗<rt>くら</rt></ruby>い<ruby>階段<rt>かいだん</rt></ruby>を<ruby>下<rt>くだ</rt></ruby>りました。",
+      "trans": "그는 슬픔에 숨을 죽이고 어두운 계단을 내려갔습니다.",
+      "grammar": "〜に〜を殺して — '~로 숨을 죽이고', 감정 등으로 인해 조심스럽게 행동하는 모습",
+      "tags": [
+        "殺す",
+        "下る"
+      ]
+    },
+    {
+      "sent": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>から、<ruby>駅前<rt>えきまえ</rt></ruby>でチラシを<ruby>配<rt>くば</rt></ruby>る<ruby>仕事<rt>しごと</rt></ruby>をしました。",
+      "trans": "다음 날부터 역 앞에서 전단지를 나누어 주는 일을 했습니다.",
+      "grammar": "〜から — '~부터', 시간이나 장소의 기점을 나타냄",
+      "tags": [
+        "配る"
+      ]
+    },
+    {
+      "sent": "<ruby>休<rt>やす</rt></ruby>み<ruby>時間<rt>じかん</rt></ruby>に、コーヒーにミルクを<ruby>加<rt>くわ</rt></ruby>えて<ruby>飲<rt>の</rt></ruby>みました。",
+      "trans": "쉬는 시간에 커피에 우유를 더해 마셨습니다.",
+      "grammar": "〜に〜を加えて — '~에 ~을 더하여', 어떤 대상에 무언가를 추가하는 동작",
+      "tags": [
+        "加える"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しいチームに<ruby>加<rt>くわ</rt></ruby>わることになります。",
+      "trans": "그는 새로운 팀에 가해지게(합류하게) 됩니다.",
+      "grammar": "〜ことになる — '~하게 되다', 예정이나 결정된 사실을 나타냄",
+      "tags": [
+        "加わる"
+      ]
+    },
+    {
+      "sent": "<ruby>仲間<rt>なかま</rt></ruby>としっかり<ruby>手<rt>て</rt></ruby>を<ruby>組<rt>く</rt></ruby>んで<ruby>進<rt>すす</rt></ruby>みます。",
+      "trans": "동료와 단단히 손을 잡고(팀을 짜고) 나아갑니다.",
+      "grammar": "〜て進む — '~하고 나아가다', 어떤 상태를 유지하며 행동을 계속함을 나타냄",
+      "tags": [
+        "組む"
+      ]
+    },
+    {
+      "sent": "<ruby>過去<rt>かこ</rt></ruby>の<ruby>失敗<rt>しっぱい</rt></ruby>がすべて<ruby>無駄<rt>むだ</rt></ruby>だったわけではありません。",
+      "trans": "과거의 실패가 전부 헛된 것은 아니었습니다.",
+      "grammar": "〜わけではない — '~인 것은 아니다', 전부 그렇지는 않다는 것을 나타냄",
+      "tags": []
+    }
+  ],
+  "quiz": [
+    {
+      "q": "時間を細かく【区切る】。",
+      "opt": [
+        "くばる",
+        "くぎる",
+        "くだる",
+        "くらべる"
+      ],
+      "ans": 1,
+      "comment": "区切る(くぎる)는 '구획하다, 끊다'라는 뜻입니다."
+    },
+    {
+      "q": "イライラしてゴミ箱を【蹴る】。",
+      "opt": [
+        "ほる",
+        "わる",
+        "ける",
+        "きる"
+      ],
+      "ans": 2,
+      "comment": "蹴る(ける)는 '차다'라는 뜻입니다."
+    },
+    {
+      "q": "同僚の助けを【断る】。",
+      "opt": [
+        "ことわる",
+        "くわわる",
+        "こまる",
+        "ころがる"
+      ],
+      "ans": 0,
+      "comment": "断る(ことわる)는 '거절하다'라는 뜻입니다."
+    },
+    {
+      "q": "コーヒーにミルクを【加える】。",
+      "opt": [
+        "くわえる",
+        "くらべる",
+        "こぼれる",
+        "ころがす"
+      ],
+      "ans": 0,
+      "comment": "加える(くわえる)는 '가하다, 더하다'라는 뜻입니다."
+    },
+    {
+      "q": "「くたびれる」の最も近い意味はどれですか？",
+      "opt": [
+        "元気になる",
+        "ひどく疲れる",
+        "楽しくなる",
+        "急に怒る"
+      ],
+      "ans": 1,
+      "comment": "くたびれる는 '지치다, 피곤해지다'라는 의미입니다."
+    },
+    {
+      "q": "「首になる」の意味として正しいものはどれですか？",
+      "opt": [
+        "怪我をする",
+        "昇進する",
+        "会社を辞めさせられる",
+        "責任者になる"
+      ],
+      "ans": 2,
+      "comment": "首(くび)になる는 '해고되다, 직장을 잃다'라는 의미의 관용구입니다."
+    },
+    {
+      "q": "食べ物が「腐る」とはどういう状態ですか？",
+      "opt": [
+        "美味しくなる",
+        "熱くなる",
+        "凍る",
+        "悪くなって食べられなくなる"
+      ],
+      "ans": 3,
+      "comment": "腐る(くさる)는 음식 등이 '썩다, 상하다'라는 뜻입니다."
+    },
+    {
+      "q": "手が滑って、ジュースを【　　　】しまった。",
+      "opt": [
+        "ころんで",
+        "こぼして",
+        "くんで",
+        "くだって"
+      ],
+      "ans": 1,
+      "comment": "액체를 실수로 엎질렀으므로 こぼす(흘리다)의 활용형인 こぼして가 알맞습니다."
+    },
+    {
+      "q": "他人と自分を【　　　】、落ち込んでしまうことがある。",
+      "opt": [
+        "くらべて",
+        "ころがして",
+        "けって",
+        "けして"
+      ],
+      "ans": 0,
+      "comment": "남과 자신을 '비교하다'라는 뜻의 比べる(くらべる)가 알맞습니다."
+    },
+    {
+      "q": "彼は重い病気で長く【　　　】いる。",
+      "opt": [
+        "くぎって",
+        "くらして",
+        "くるしんで",
+        "このんで"
+      ],
+      "ans": 2,
+      "comment": "병으로 인해 '괴로워하다'라는 뜻의 苦しむ(くるしむ)가 알맞습니다."
+    }
+  ]
 }
