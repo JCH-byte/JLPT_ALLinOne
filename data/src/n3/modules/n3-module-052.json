@@ -2,7 +2,7 @@
   "moduleId": "n3-module-052",
   "level": "n3",
   "ordinal": 52,
-  "title": "動詞・8 (동사 8)",
+  "title": "N3: 요리 대회 준비",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-c73c633a19bed21b1179e5efcfd735f6b7113ca6",
@@ -31,7 +31,283 @@
     "v-4e0ea47547954cca70bdbdf4d5c2d723add4b7ca",
     "v-c64df2de23a8edeb037c919c786f347581028a29"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>料理<rt>りょうり</rt></ruby>の<ruby>始<rt>はじ</rt></ruby>まり（요리의 시작）</h3>\n<p><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>から<ruby>肉<rt>にく</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>します。</p>\n<p>まず、スープを<ruby>煮<rt>に</rt></ruby>なければなりません。</p>\n<p>バターを<ruby>溶<rt>と</rt></ruby>かして、<ruby>卵<rt>たまご</rt></ruby>を<ruby>溶<rt>と</rt></ruby>きます。</p>\n<p>バターが<ruby>溶<rt>と</rt></ruby>ける<ruby>良<rt>よ</rt></ruby>い<ruby>匂<rt>にお</rt></ruby>いがします。</p>\n<p><ruby>少<rt>すこ</rt></ruby>しなめてみましたが、とてもおいしいです。</p>\n<p>しかし、<ruby>時間<rt>じかん</rt></ruby>が<ruby>早<rt>はや</rt></ruby>く<ruby>通<rt>とお</rt></ruby>り<ruby>過<rt>す</rt></ruby>ぎてしまいます。</p>\n\n<h3>Scene 2. <ruby>大<rt>おお</rt></ruby>きな<ruby>失敗<rt>しっぱい</rt></ruby>（큰 실수）</h3>\n<p><ruby>突然<rt>とつぜん</rt></ruby>、<ruby>鍋<rt>なべ</rt></ruby>の<ruby>取<rt>と</rt></ruby>っ<ruby>手<rt>て</rt></ruby>が<ruby>取<rt>と</rt></ruby>れてしまいました。</p>\n<p><ruby>油<rt>あぶら</rt></ruby>を<ruby>飛<rt>と</rt></ruby>ばしてしまい、タイマーを<ruby>鳴<rt>な</rt></ruby>らしました。</p>\n<p><ruby>先生<rt>せんせい</rt></ruby>が「<ruby>気<rt>き</rt></ruby>をつけろ」とどなりました。</p>\n<p><ruby>私<rt>わたし</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>いて<ruby>隅<rt>すみ</rt></ruby>に<ruby>飛<rt>と</rt></ruby>び<ruby>込<rt>こ</rt></ruby>み、<ruby>怖<rt>こわ</rt></ruby>くて<ruby>目<rt>め</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じました。</p>\n<p>もっと<ruby>注意<rt>ちゅうい</rt></ruby>したほうがいいです。</p>\n\n<h3>Scene 3. <ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る（밖으로 나가다）</h3>\n<p><ruby>私<rt>わたし</rt></ruby>は<ruby>料理<rt>りょうり</rt></ruby><ruby>教室<rt>きょうしつ</rt></ruby>から<ruby>飛<rt>と</rt></ruby>び<ruby>出<rt>だ</rt></ruby>しました。</p>\n<p>そのまま<ruby>遠<rt>とお</rt></ruby>くへ<ruby>逃<rt>に</rt></ruby>げたかったです。</p>\n<p><ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>に<ruby>泊<rt>と</rt></ruby>まることにしました。</p>\n<p><ruby>友達<rt>ともだち</rt></ruby>は<ruby>優<rt>やさ</rt></ruby>しく<ruby>泊<rt>と</rt></ruby>めてくれました。</p>\n<p><ruby>大会<rt>たいかい</rt></ruby>の<ruby>申込<rt>もうしこみ</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>すかどうか、ずっと<ruby>悩<rt>なや</rt></ruby>みました。</p>\n\n<h3>Scene 4. <ruby>再<rt>ふたた</rt></ruby>び<ruby>作<rt>つく</rt></ruby>る（다시 만들다）</h3>\n<p><ruby>私<rt>わたし</rt></ruby>は<ruby>亡<rt>な</rt></ruby>くした<ruby>祖母<rt>そぼ</rt></ruby>のエプロンを<ruby>着<rt>き</rt></ruby>ましたが、よく<ruby>似合<rt>にあ</rt></ruby>います。</p>\n<p>もう<ruby>怠<rt>なま</rt></ruby>けてはいけません。</p>\n<p><ruby>涙<rt>なみだ</rt></ruby>を<ruby>流<rt>なが</rt></ruby>しながら、<ruby>鍋<rt>なべ</rt></ruby>のアクを<ruby>抜<rt>ぬ</rt></ruby>きました。</p>\n<p>もう<ruby>一度<rt>いちど</rt></ruby><ruby>包丁<rt>ほうちょう</rt></ruby>を<ruby>強<rt>つよ</rt></ruby>く<ruby>握<rt>にぎ</rt></ruby>ります。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>から<ruby>肉<rt>にく</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>します。",
+      "trans": "냉장고에서 고기를 꺼냅니다.",
+      "grammar": "〜から〜を — '~에서 ~을/를' (출발점과 목적어의 관계를 나타냄)",
+      "tags": [
+        "取り出す"
+      ]
+    },
+    {
+      "sent": "まず、スープを<ruby>煮<rt>に</rt></ruby>なければなりません。",
+      "trans": "먼저, 스프를 끓이지 않으면 안 됩니다(끓여야 합니다).",
+      "grammar": "〜なければならない — '~하지 않으면 안 된다 / 해야 한다' (의무나 필요성을 나타내는 문형)",
+      "tags": [
+        "煮る"
+      ]
+    },
+    {
+      "sent": "バターを<ruby>溶<rt>と</rt></ruby>かして、<ruby>卵<rt>たまご</rt></ruby>を<ruby>溶<rt>と</rt></ruby>きます。",
+      "trans": "버터를 녹이고, 계란을 풉니다.",
+      "grammar": "〜て — '~하고 / ~해서' (동사를 연결하거나 순차적인 동작을 나타냄)",
+      "tags": [
+        "溶かす",
+        "溶く"
+      ]
+    },
+    {
+      "sent": "バターが<ruby>溶<rt>と</rt></ruby>ける<ruby>良<rt>よ</rt></ruby>い<ruby>匂<rt>にお</rt></ruby>いがします。",
+      "trans": "버터가 녹는 좋은 냄새가 납니다.",
+      "grammar": "〜がする — '~(오감의 느낌)이 나다' (냄새, 소리, 맛 등을 표현할 때 사용)",
+      "tags": [
+        "溶ける"
+      ]
+    },
+    {
+      "sent": "<ruby>少<rt>すこ</rt></ruby>しなめてみましたが、とてもおいしいです。",
+      "trans": "조금 핥아(맛을) 보았습니다만, 아주 맛있습니다.",
+      "grammar": "〜てみる — '~해 보다' (어떤 행동을 시험 삼아 해보는 것을 나타냄)",
+      "tags": [
+        "なめる"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>時間<rt>じかん</rt></ruby>が<ruby>早<rt>はや</rt></ruby>く<ruby>通<rt>とお</rt></ruby>り<ruby>過<rt>す</rt></ruby>ぎてしまいます。",
+      "trans": "하지만, 시간이 빨리 지나가 버립니다.",
+      "grammar": "〜てしまう — '~해 버리다' (동작의 완료나 유감스러운 감정을 나타냄)",
+      "tags": [
+        "通り過ぎる"
+      ]
+    },
+    {
+      "sent": "<ruby>突然<rt>とつぜん</rt></ruby>、<ruby>鍋<rt>なべ</rt></ruby>の<ruby>取<rt>と</rt></ruby>っ<ruby>手<rt>て</rt></ruby>が<ruby>取<rt>と</rt></ruby>れてしまいました。",
+      "trans": "갑자기, 냄비 손잡이가 떨어져 버렸습니다.",
+      "grammar": "〜てしまう — '~해 버리다' (예기치 않은 부정적인 결과를 나타냄)",
+      "tags": [
+        "取れる"
+      ]
+    },
+    {
+      "sent": "<ruby>油<rt>あぶら</rt></ruby>を<ruby>飛<rt>と</rt></ruby>ばしてしまい、タイマーを<ruby>鳴<rt>な</rt></ruby>らしました。",
+      "trans": "기름을 튀기게 해버려, 타이머를 울렸습니다.",
+      "grammar": "〜てしまい — '~해 버리고' (〜てしまう의 중지형으로 원인이나 후속 상황 연결)",
+      "tags": [
+        "飛ばす",
+        "鳴らす"
+      ]
+    },
+    {
+      "sent": "<ruby>先生<rt>せんせい</rt></ruby>が「<ruby>気<rt>き</rt></ruby>をつけろ」とどなりました。",
+      "trans": "선생님이 \"조심해\"라고 고함쳤습니다.",
+      "grammar": "〜と — '~라고' (인용이나 내용을 나타내는 조사)",
+      "tags": [
+        "どなる"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>いて<ruby>隅<rt>すみ</rt></ruby>に<ruby>飛<rt>と</rt></ruby>び<ruby>込<rt>こ</rt></ruby>み、<ruby>怖<rt>こわ</rt></ruby>くて<ruby>目<rt>め</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じました。",
+      "trans": "나는 놀라서 구석으로 뛰어들었고, 무서워서 눈을 감았습니다.",
+      "grammar": "〜て — '~하고 / ~해서' (동작의 연속이나 이유를 나타냄)",
+      "tags": [
+        "飛び込む",
+        "閉じる"
+      ]
+    },
+    {
+      "sent": "もっと<ruby>注意<rt>ちゅうい</rt></ruby>したほうがいいです。",
+      "trans": "좀 더 주의하는 편이 좋습니다.",
+      "grammar": "〜たほうがいい — '~하는 편이 좋다' (충고나 권유를 나타내는 문형)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>料理<rt>りょうり</rt></ruby><ruby>教室<rt>きょうしつ</rt></ruby>から<ruby>飛<rt>と</rt></ruby>び<ruby>出<rt>だ</rt></ruby>しました。",
+      "trans": "나는 요리 교실에서 뛰쳐나갔습니다.",
+      "grammar": "〜から — '~에서' (출발점이나 이탈점을 나타내는 조사)",
+      "tags": [
+        "飛び出す"
+      ]
+    },
+    {
+      "sent": "そのまま<ruby>遠<rt>とお</rt></ruby>くへ<ruby>逃<rt>に</rt></ruby>げたかったです。",
+      "trans": "그대로 멀리 도망치고 싶었습니다.",
+      "grammar": "〜たい — '~하고 싶다' (자신의 희망이나 소망을 나타내는 조동사)",
+      "tags": [
+        "逃げる"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>に<ruby>泊<rt>と</rt></ruby>まることにしました。",
+      "trans": "친구의 집에 묵기로 했습니다.",
+      "grammar": "〜ことにする — '~하기로 하다' (스스로 내린 결정을 나타내는 문형)",
+      "tags": [
+        "泊まる"
+      ]
+    },
+    {
+      "sent": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>優<rt>やさ</rt></ruby>しく<ruby>泊<rt>と</rt></ruby>めてくれました。",
+      "trans": "친구는 다정하게 재워주었습니다.",
+      "grammar": "〜てくれる — '~(나를 위해) 해주다' (타인의 은혜로운 행동을 나타냄)",
+      "tags": [
+        "泊める"
+      ]
+    },
+    {
+      "sent": "<ruby>大会<rt>たいかい</rt></ruby>の<ruby>申込<rt>もうしこみ</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>すかどうか、ずっと<ruby>悩<rt>なや</rt></ruby>みました。",
+      "trans": "대회 신청을 취소할지 어떨지, 계속 고민했습니다.",
+      "grammar": "〜かどうか — '~인지 어떤지' (불확실한 사실에 대한 선택이나 의문을 나타냄)",
+      "tags": [
+        "取り消す",
+        "悩む"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>亡<rt>な</rt></ruby>くした<ruby>祖母<rt>そぼ</rt></ruby>のエプロンを<ruby>着<rt>き</rt></ruby>ましたが、よく<ruby>似合<rt>にあ</rt></ruby>います。",
+      "trans": "나는 돌아가신 할머니의 앞치마를 입었습니다만, 잘 어울립니다.",
+      "grammar": "〜が — '~지만' (역접을 나타내는 접속 조사)",
+      "tags": [
+        "亡くす",
+        "似合う"
+      ]
+    },
+    {
+      "sent": "もう<ruby>怠<rt>なま</rt></ruby>けてはいけません。",
+      "trans": "이제 게으름 피워서는 안 됩니다.",
+      "grammar": "〜てはいけない — '~해서는 안 된다' (금지나 강한 주의를 나타내는 문형)",
+      "tags": [
+        "怠ける"
+      ]
+    },
+    {
+      "sent": "<ruby>涙<rt>なみだ</rt></ruby>を<ruby>流<rt>なが</rt></ruby>しながら、<ruby>鍋<rt>なべ</rt></ruby>のアクを<ruby>抜<rt>ぬ</rt></ruby>きました。",
+      "trans": "눈물을 흘리면서, 냄비의 거품(불순물)을 걷어냈습니다.",
+      "grammar": "〜ながら — '~하면서' (두 가지 동작이 동시에 진행됨을 나타냄)",
+      "tags": [
+        "流す",
+        "抜く"
+      ]
+    },
+    {
+      "sent": "もう<ruby>一度<rt>いちど</rt></ruby><ruby>包丁<rt>ほうちょう</rt></ruby>を<ruby>強<rt>つよ</rt></ruby>く<ruby>握<rt>にぎ</rt></ruby>ります。",
+      "trans": "다시 한번 식칼을 강하게 쥡니다.",
+      "grammar": "〜く(형용사의 부사화) — '~하게' (이 형용사를 부사로 만들어 동사를 수식함)",
+      "tags": [
+        "握る"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "卵を【溶く】。",
+      "opt": [
+        "とかす",
+        "どく",
+        "とく",
+        "とける"
+      ],
+      "ans": 2,
+      "comment": "溶く(とく)는 계란 등을 '풀다, 개다'라는 의미입니다."
+    },
+    {
+      "q": "教室から【飛び出す】。",
+      "opt": [
+        "とびこむ",
+        "とりだす",
+        "とばす",
+        "とびだす"
+      ],
+      "ans": 3,
+      "comment": "飛び出す(とびだす)는 '뛰쳐나가다'라는 의미입니다."
+    },
+    {
+      "q": "予約を【取り消す】。",
+      "opt": [
+        "とりだす",
+        "とりけす",
+        "とりかえる",
+        "とりあげる"
+      ],
+      "ans": 1,
+      "comment": "取り消す(とりけす)는 '취소하다'라는 의미입니다."
+    },
+    {
+      "q": "ずっと【悩む】。",
+      "opt": [
+        "なやむ",
+        "なめる",
+        "にる",
+        "ぬく"
+      ],
+      "ans": 0,
+      "comment": "悩む(なやむ)는 '고민하다'라는 의미입니다."
+    },
+    {
+      "q": "先生が【どなる】。",
+      "opt": [
+        "칭찬하다",
+        "설명하다",
+        "고함치다",
+        "무시하다"
+      ],
+      "ans": 2,
+      "comment": "どなる는 화가 나서 큰 소리로 '고함치다'라는 의미입니다."
+    },
+    {
+      "q": "練習を【怠ける】。",
+      "opt": [
+        "열심히 하다",
+        "게으름 피우다",
+        "계속하다",
+        "포기하다"
+      ],
+      "ans": 1,
+      "comment": "怠ける(なまける)는 마땅히 해야 할 일을 하지 않고 '게으름 피우다'라는 의미입니다."
+    },
+    {
+      "q": "スープを【なめる】。",
+      "opt": [
+        "핥다/맛보다",
+        "끓이다",
+        "버리다",
+        "식히다"
+      ],
+      "ans": 0,
+      "comment": "なめる는 혀로 '핥다' 또는 맛을 보기 위해 조금 먹어본다는 의미입니다."
+    },
+    {
+      "q": "電車が駅を【　　　】。",
+      "opt": [
+        "泊まる",
+        "飛び込む",
+        "取れる",
+        "通り過ぎる"
+      ],
+      "ans": 3,
+      "comment": "역에 정차하지 않고 '지나가다'라는 뜻의 通り過ぎる가 알맞습니다."
+    },
+    {
+      "q": "この服はあなたによく【　　　】。",
+      "opt": [
+        "亡くす",
+        "似合う",
+        "鳴らす",
+        "逃げる"
+      ],
+      "ans": 1,
+      "comment": "옷이 사람에게 잘 '어울리다'라는 뜻의 似合う가 알맞습니다."
+    },
+    {
+      "q": "手を強く【　　　】。",
+      "opt": [
+        "煮る",
+        "抜く",
+        "握る",
+        "流す"
+      ],
+      "ans": 2,
+      "comment": "손을 강하게 '쥐다, 잡다'라는 뜻의 握る가 알맞습니다."
+    }
+  ]
 }

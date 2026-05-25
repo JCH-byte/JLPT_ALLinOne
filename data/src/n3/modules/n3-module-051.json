@@ -2,7 +2,7 @@
   "moduleId": "n3-module-051",
   "level": "n3",
   "ordinal": 51,
-  "title": "動詞・7 (동사 7)",
+  "title": "N3: 바쁜 하루의 끝",
   "ruleVersion": "n3-rule-v1",
   "vocabIds": [
     "v-3a9388956fdc8f0fce60850a4101e26f3ead7f93",
@@ -31,7 +31,255 @@
     "v-dc6010c95225e00876ab2f2c15753db3950e5692",
     "v-8c77ee722417b5f8946722785f60c9b4a43d5406"
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>朝<rt>あさ</rt></ruby>の<ruby>出勤<rt>しゅっきん</rt></ruby>（아침 출근）</h3>\n<p><ruby>私<rt>わたし</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しい<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>勤<rt>つと</rt></ruby>め、<ruby>車<rt>くるま</rt></ruby>を<ruby>買<rt>か</rt></ruby>うためにお<ruby>金<rt>かね</rt></ruby>を<ruby>貯<rt>た</rt></ruby>めています。</p>\n<p><ruby>今日<rt>きょう</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>のカフェで<ruby>時間<rt>じかん</rt></ruby>をつぶしました。</p>\n<p>そこで<ruby>昔<rt>むかし</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>に<ruby>出会<rt>であ</rt></ruby>い、<ruby>急<rt>いそ</rt></ruby>いでお<ruby>客様<rt>きゃくさま</rt></ruby>を<ruby>出迎<rt>でむか</rt></ruby>えに<ruby>行<rt>い</rt></ruby>きました。</p>\n<p>もっと<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ればよかったです。</p>\n<h3>Scene 2. <ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>（회사 상황）</h3>\n<p><ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>書類<rt>しょるい</rt></ruby>が<ruby>積<rt>つ</rt></ruby>んでありました。</p>\n<p><ruby>誰<rt>だれ</rt></ruby>かが<ruby>散<rt>ち</rt></ruby>らかしてしまい、とても<ruby>散<rt>ち</rt></ruby>らかっていました。</p>\n<p><ruby>私<rt>わたし</rt></ruby>は<ruby>黙<rt>だま</rt></ruby>って<ruby>片付<rt>かたづ</rt></ruby>け、<ruby>箱<rt>はこ</rt></ruby>にゴミを<ruby>詰<rt>つ</rt></ruby>めました。</p>\n<p><ruby>外<rt>そと</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>雪<rt>ゆき</rt></ruby>が<ruby>積<rt>つ</rt></ruby>もり<ruby>始<rt>はじ</rt></ruby>めていました。</p>\n<h3>Scene 3. <ruby>荷物<rt>にもつ</rt></ruby>のトラブル（수화물 문제）</h3>\n<p>きれいに<ruby>包<rt>つつ</rt></ruby>んだ<ruby>商品<rt>しょうひん</rt></ruby>が<ruby>出来上<rt>できあ</rt></ruby>がりました。</p>\n<p>しかし、<ruby>落<rt>お</rt></ruby>として<ruby>箱<rt>はこ</rt></ruby>がつぶれてしまいました。</p>\n<p><ruby>慌<rt>あわ</rt></ruby>てて<ruby>犯人<rt>はんにん</rt></ruby>の<ruby>腕<rt>うで</rt></ruby>をつかむと、すぐに<ruby>捕<rt>つか</rt></ruby>まりました。</p>\n<p><ruby>私<rt>わたし</rt></ruby>の<ruby>怒<rt>いか</rt></ruby>りが<ruby>言葉<rt>ことば</rt></ruby>でしっかり<ruby>通<rt>つう</rt></ruby>じました。</p>\n<h3>Scene 4. <ruby>一日<rt>いちにち</rt></ruby>の<ruby>終<rt>お</rt></ruby>わり（하루의 끝）</h3>\n<p><ruby>商品<rt>しょうひん</rt></ruby>を<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせると、<ruby>誠意<rt>せいい</rt></ruby>が<ruby>伝<rt>つた</rt></ruby>わりました。</p>\n<p><ruby>同僚<rt>どうりょう</rt></ruby>が<ruby>残業<rt>ざんぎょう</rt></ruby>に<ruby>付<rt>つ</rt></ruby>き<ruby>合<rt>あ</rt></ruby>ってくれました。</p>\n<p>ストーブを<ruby>近付<rt>ちかづ</rt></ruby>け、<ruby>暖房<rt>だんぼう</rt></ruby>を<ruby>強<rt>つよ</rt></ruby>めました。</p>\n<p><ruby>台風<rt>たいふう</rt></ruby>が<ruby>近付<rt>ちかづ</rt></ruby>いて<ruby>風<rt>かぜ</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>まり、<ruby>桜<rt>さくら</rt></ruby>が<ruby>散<rt>ち</rt></ruby>ってしまいました。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しい<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>勤<rt>つと</rt></ruby>め、<ruby>車<rt>くるま</rt></ruby>を<ruby>買<rt>か</rt></ruby>うためにお<ruby>金<rt>かね</rt></ruby>を<ruby>貯<rt>た</rt></ruby>めています。",
+      "trans": "나는 새로운 회사에 근무하며, 차를 사기 위해 돈을 모으고 있습니다.",
+      "grammar": "〜ために — 목적을 나타내는 표현 (~하기 위해서)",
+      "tags": [
+        "勤める",
+        "貯める"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>のカフェで<ruby>時間<rt>じかん</rt></ruby>をつぶしました。",
+      "trans": "오늘은 역의 카페에서 시간을 보냈습니다.",
+      "grammar": "〜で — 장소를 나타내는 조사 (~에서)",
+      "tags": [
+        "つぶす"
+      ]
+    },
+    {
+      "sent": "そこで<ruby>昔<rt>むかし</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>に<ruby>出会<rt>であ</rt></ruby>い、<ruby>急<rt>いそ</rt></ruby>いでお<ruby>客様<rt>きゃくさま</rt></ruby>を<ruby>出迎<rt>でむか</rt></ruby>えに<ruby>行<rt>い</rt></ruby>きました。",
+      "trans": "거기서 옛 친구를 우연히 만나, 서둘러 고객을 마중하러 갔습니다.",
+      "grammar": "동사 ます형 연결 — 동작의 연속적인 발생을 나타냄 (~하고, ~해서)",
+      "tags": [
+        "出会う",
+        "出迎える"
+      ]
+    },
+    {
+      "sent": "もっと<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ればよかったです。",
+      "trans": "좀 더 일찍 집을 나섰으면 좋았을 텐데요.",
+      "grammar": "〜ばよかった — 과거의 일에 대한 후회 (~했으면 좋았을 텐데)",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>書類<rt>しょるい</rt></ruby>が<ruby>積<rt>つ</rt></ruby>んでありました。",
+      "trans": "회사에 도착하니, 책상 위에 서류가 쌓여 있었습니다.",
+      "grammar": "〜てある — 의도적인 행위의 결과가 남아있는 상태 (~되어 있다)",
+      "tags": [
+        "積む"
+      ]
+    },
+    {
+      "sent": "<ruby>誰<rt>だれ</rt></ruby>かが<ruby>散<rt>ち</rt></ruby>らかしてしまい、とても<ruby>散<rt>ち</rt></ruby>らかっていました。",
+      "trans": "누군가가 어질러 버려서, 매우 어지러져 있었습니다.",
+      "grammar": "〜てしまう — 되돌릴 수 없는 유감의 기분 (~해 버리다)",
+      "tags": [
+        "散らかす",
+        "散らかる"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>は<ruby>黙<rt>だま</rt></ruby>って<ruby>片付<rt>かたづ</rt></ruby>け、<ruby>箱<rt>はこ</rt></ruby>にゴミを<ruby>詰<rt>つ</rt></ruby>めました。",
+      "trans": "나는 묵묵히 치우고, 상자에 쓰레기를 채웠습니다.",
+      "grammar": "〜て — 동작의 동시성이나 수단을 나타냄 (~한 채로, ~해서)",
+      "tags": [
+        "黙る",
+        "詰める"
+      ]
+    },
+    {
+      "sent": "<ruby>外<rt>そと</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>雪<rt>ゆき</rt></ruby>が<ruby>積<rt>つ</rt></ruby>もり<ruby>始<rt>はじ</rt></ruby>めていました。",
+      "trans": "밖을 보니 눈이 쌓이기 시작했습니다.",
+      "grammar": "〜始める — 동작의 개시를 나타내는 복합 동사 (~하기 시작하다)",
+      "tags": [
+        "積もる"
+      ]
+    },
+    {
+      "sent": "きれいに<ruby>包<rt>つつ</rt></ruby>んだ<ruby>商品<rt>しょうひん</rt></ruby>が<ruby>出来上<rt>できあ</rt></ruby>がりました。",
+      "trans": "예쁘게 포장한 상품이 완성되었습니다.",
+      "grammar": "동사 수식형 + 명사 — 동사의 과거형이 명사를 직접 수식하는 구조",
+      "tags": [
+        "包む",
+        "出来上がる"
+      ]
+    },
+    {
+      "sent": "しかし、<ruby>落<rt>お</rt></ruby>として<ruby>箱<rt>はこ</rt></ruby>がつぶれてしまいました。",
+      "trans": "하지만 떨어뜨려서 상자가 찌그러져 버렸습니다.",
+      "grammar": "〜てしまう — 완료 또는 유감스러운 결과 (~해 버리다)",
+      "tags": [
+        "つぶれる"
+      ]
+    },
+    {
+      "sent": "<ruby>慌<rt>あわ</rt></ruby>てて<ruby>犯人<rt>はんにん</rt></ruby>の<ruby>腕<rt>うで</rt></ruby>をつかむと、すぐに<ruby>捕<rt>つか</rt></ruby>まりました。",
+      "trans": "당황해서 범인의 팔을 붙잡자, 곧바로 잡혔습니다.",
+      "grammar": "〜と — 앞의 동작이 계기가 되어 뒤의 일이 일어남 (~하자마자, ~면)",
+      "tags": [
+        "つかむ",
+        "捕まる"
+      ]
+    },
+    {
+      "sent": "<ruby>私<rt>わたし</rt></ruby>の<ruby>怒<rt>いか</rt></ruby>りが<ruby>言葉<rt>ことば</rt></ruby>でしっかり<ruby>通<rt>つう</rt></ruby>じました。",
+      "trans": "나의 분노가 말로 확실히 통했습니다.",
+      "grammar": "〜で — 수단이나 도구를 나타내는 조사 (~로, ~를 통해)",
+      "tags": [
+        "通じる"
+      ]
+    },
+    {
+      "sent": "<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせると、<ruby>誠意<rt>せいい</rt></ruby>が<ruby>伝<rt>つた</rt></ruby>わりました。",
+      "trans": "상품을 문의하자, 성의가 전해졌습니다.",
+      "grammar": "〜と — 조건과 그에 따른 당연한 결과 (~하니까, ~면)",
+      "tags": [
+        "問い合わせる",
+        "伝わる"
+      ]
+    },
+    {
+      "sent": "<ruby>同僚<rt>どうりょう</rt></ruby>が<ruby>残業<rt>ざんぎょう</rt></ruby>に<ruby>付<rt>つ</rt></ruby>き<ruby>合<rt>あ</rt></ruby>ってくれました。",
+      "trans": "동료가 야근에 함께 어울려 주었습니다.",
+      "grammar": "〜てくれる — 상대방이 나에게 호의적인 행동을 해 줌 (~해 주다)",
+      "tags": [
+        "付き合う"
+      ]
+    },
+    {
+      "sent": "ストーブを<ruby>近付<rt>ちかづ</rt></ruby>け、<ruby>暖房<rt>だんぼう</rt></ruby>を<ruby>強<rt>つよ</rt></ruby>めました。",
+      "trans": "난로를 가까이 대고, 난방을 강하게 했습니다.",
+      "grammar": "동사 ます형 연결 — 문장을 끊어서 나열할 때 사용 (~하고, ~해서)",
+      "tags": [
+        "近付ける",
+        "強める"
+      ]
+    },
+    {
+      "sent": "<ruby>台風<rt>たいふう</rt></ruby>が<ruby>近付<rt>ちかづ</rt></ruby>いて<ruby>風<rt>かぜ</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>まり、<ruby>桜<rt>さくら</rt></ruby>が<ruby>散<rt>ち</rt></ruby>ってしまいました。",
+      "trans": "태풍이 접근해서 바람이 강해지고, 벚꽃이 져 버렸습니다.",
+      "grammar": "〜てしまう — 자연 현상에 의한 통제할 수 없는 결과 (~해 버리다)",
+      "tags": [
+        "近付く",
+        "強まる",
+        "散る"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "会社に<b>勤める</b>。",
+      "opt": [
+        "もとめる",
+        "つとめる",
+        "まとめる",
+        "とどめる"
+      ],
+      "ans": 1,
+      "comment": "勤める(つとめる)는 '근무하다'라는 뜻입니다."
+    },
+    {
+      "q": "ゴミを箱に<b>詰める</b>。",
+      "opt": [
+        "ためる",
+        "とめる",
+        "つめる",
+        "つむ"
+      ],
+      "ans": 2,
+      "comment": "詰める(つめる)는 '채우다, 틀어막다'라는 뜻입니다."
+    },
+    {
+      "q": "友達と<b>出会う</b>。",
+      "opt": [
+        "であう",
+        "だいあう",
+        "でむかう",
+        "だきあう"
+      ],
+      "ans": 0,
+      "comment": "出会う(であう)는 '(우연히) 만나다'라는 뜻입니다."
+    },
+    {
+      "q": "お金を<b>貯める</b>。",
+      "opt": [
+        "さめる",
+        "ためる",
+        "とめる",
+        "そめる"
+      ],
+      "ans": 1,
+      "comment": "貯める(ためる)는 '모으다, 저축하다'라는 뜻입니다."
+    },
+    {
+      "q": "<b>散らかる</b>の意味として最も適切なものは？",
+      "opt": [
+        "어지르다",
+        "어지러지다",
+        "흩어지다",
+        "모이다"
+      ],
+      "ans": 1,
+      "comment": "散らかる는 '어지러지다'라는 뜻의 자동사입니다."
+    },
+    {
+      "q": "<b>つぶす</b>の意味として最も適切なものは？",
+      "opt": [
+        "찌그러지다",
+        "망하다",
+        "찌그러뜨리다",
+        "채우다"
+      ],
+      "ans": 2,
+      "comment": "つぶす는 '찌그러뜨리다, (시간을) 때우다'라는 뜻의 타동사입니다."
+    },
+    {
+      "q": "<b>付き合う</b>の意味として最も適切なものは？",
+      "opt": [
+        "교제하다",
+        "근무하다",
+        "전해지다",
+        "마중 나가다"
+      ],
+      "ans": 0,
+      "comment": "付き合う는 '교제하다, 사귀다, 어울리다'라는 뜻입니다."
+    },
+    {
+      "q": "雪が＿＿＿始めていました。",
+      "opt": [
+        "捕まり",
+        "散らかり",
+        "積もり",
+        "詰まり"
+      ],
+      "ans": 2,
+      "comment": "눈이 '쌓이다'는 積もる를 사용합니다."
+    },
+    {
+      "q": "時間を＿＿＿ためにカフェに入った。",
+      "opt": [
+        "つかむ",
+        "つつむ",
+        "つぶす",
+        "だまる"
+      ],
+      "ans": 2,
+      "comment": "시간을 '보내다, 때우다'라는 표현은 時間をつぶす를 사용합니다."
+    },
+    {
+      "q": "荷物を落として、箱が＿＿＿しまった。",
+      "opt": [
+        "つぶして",
+        "つぶれて",
+        "つかまって",
+        "つとめて"
+      ],
+      "ans": 1,
+      "comment": "상자가 '찌그러지다'라는 상태를 나타내므로 자동사 つぶれる가 적절합니다."
+    }
+  ]
 }

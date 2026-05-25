@@ -2,7 +2,7 @@
   "moduleId": "n3-module-053",
   "level": "n3",
   "ordinal": 53,
-  "title": "動詞・9 (동사 9)",
+  "title": "N3: 엉망진창 여행일기",
   "ruleVersion": "n3-rule-v1",
   "vocab": [
     {
@@ -181,7 +181,262 @@
       "tags": []
     }
   ],
-  "story": "",
-  "analysis": [],
-  "quiz": []
+  "story": "<h3>Scene 1. <ruby>朝<rt>あさ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>（아침의 준비）</h3>\n<p><ruby>朝<rt>あさ</rt></ruby><ruby>日<rt>ひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>るのを<ruby>見<rt>み</rt></ruby>ながら、いい<ruby>天気<rt>てんき</rt></ruby>になるよう<ruby>願<rt>ねが</rt></ruby>いました。</p>\n<p><ruby>庭<rt>にわ</rt></ruby>に<ruby>草<rt>くさ</rt></ruby>が<ruby>生<rt>は</rt></ruby>えていたので、<ruby>軽<rt>かる</rt></ruby>く<ruby>掃<rt>は</rt></ruby>きました。</p>\n<p><ruby>髪<rt>かみ</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばしている<ruby>友<rt>とも</rt></ruby>だちのケンに<ruby>話<rt>はな</rt></ruby>しかけました。</p>\n<p><ruby>今日<rt>きょう</rt></ruby>は<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>日<rt>ひ</rt></ruby>らしいです。</p>\n\n<h3>Scene 2. <ruby>駅<rt>えき</rt></ruby>での<ruby>問題<rt>もんだい</rt></ruby>（역에서의 문제）</h3>\n<p><ruby>急<rt>いそ</rt></ruby>いで<ruby>駅<rt>えき</rt></ruby>に<ruby>向<rt>む</rt></ruby>かいましたが、<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>遅<rt>おく</rt></ruby>れそうでした。</p>\n<p>ケンを<ruby>除<rt>のぞ</rt></ruby>くみんなが<ruby>荷物<rt>にもつ</rt></ruby>の<ruby>重<rt>おも</rt></ruby>さを<ruby>量<rt>はか</rt></ruby>りました。</p>\n<p><ruby>駅員<rt>えきいん</rt></ruby>が<ruby>席<rt>せき</rt></ruby>を<ruby>外<rt>はず</rt></ruby>していたそうです。</p>\n<p><ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>延<rt>の</rt></ruby>びてしまいました。</p>\n<p><ruby>気<rt>き</rt></ruby>が<ruby>抜<rt>ぬ</rt></ruby>けてため<ruby>息<rt>いき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ました。</p>\n\n<h3>Scene 3. <ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で（전철 안에서）</h3>\n<p><ruby>彼<rt>かれ</rt></ruby>が<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>棚<rt>たな</rt></ruby>に<ruby>載<rt>の</rt></ruby>せて、<ruby>子供<rt>こども</rt></ruby>を<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せました。</p>\n<p>ケンは<ruby>水<rt>みず</rt></ruby>をこぼして<ruby>服<rt>ふく</rt></ruby>を<ruby>濡<rt>ぬ</rt></ruby>らしてしまいました。</p>\n<p><ruby>彼<rt>かれ</rt></ruby>はすぐに<ruby>眠<rt>ねむ</rt></ruby>ってしまい、<ruby>髪<rt>かみ</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>伸<rt>の</rt></ruby>びたように<ruby>見<rt>み</rt></ruby>えました。</p>\n<p>あやうく<ruby>目的<rt>もくてき</rt></ruby><ruby>地<rt>ち</rt></ruby>を<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>すところでした。</p>\n\n<h3>Scene 4. <ruby>計画<rt>けいかく</rt></ruby>の<ruby>変更<rt>へんこう</rt></ruby>（계획의 변경）</h3>\n<p><ruby>雨<rt>あめ</rt></ruby>のため、<ruby>階段<rt>かいだん</rt></ruby>を<ruby>上<rt>のぼ</rt></ruby>る<ruby>予定<rt>よてい</rt></ruby>を<ruby>明日<rt>あした</rt></ruby>に<ruby>延<rt>の</rt></ruby>ばしました。</p>\n<p>みんなで<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>い、チケットを<ruby>払<rt>はら</rt></ruby>い<ruby>戻<rt>もど</rt></ruby>すことにしました。</p>\n<p><ruby>少<rt>すこ</rt></ruby>し<ruby>残念<rt>ざんねん</rt></ruby>ですが、いい<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>しました。</p>\n<p>ケンから<ruby>目<rt>め</rt></ruby>を<ruby>離<rt>はな</rt></ruby>さないようにしました。</p>\n<p>この<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>がブログに<ruby>載<rt>の</rt></ruby>るそうです。</p>",
+  "analysis": [
+    {
+      "sent": "<ruby>朝<rt>あさ</rt></ruby><ruby>日<rt>ひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>るのを<ruby>見<rt>み</rt></ruby>ながら、いい<ruby>天気<rt>てんき</rt></ruby>になるよう<ruby>願<rt>ねが</rt></ruby>いました。",
+      "trans": "아침 해가 떠오르는 것을 보며, 좋은 날씨가 되기를 바랐습니다.",
+      "grammar": "〜ように願う — '~하기를 바라다', 희망이나 기원을 나타냄",
+      "tags": [
+        "昇る",
+        "願う"
+      ]
+    },
+    {
+      "sent": "<ruby>庭<rt>にわ</rt></ruby>に<ruby>草<rt>くさ</rt></ruby>が<ruby>生<rt>は</rt></ruby>えていたので、<ruby>軽<rt>かる</rt></ruby>く<ruby>掃<rt>は</rt></ruby>きました。",
+      "trans": "마당에 풀이 나 있어서 가볍게 쓸었습니다.",
+      "grammar": "〜ので — '~기 때문에', 객관적인 이유를 나타냄",
+      "tags": [
+        "生える",
+        "掃く"
+      ]
+    },
+    {
+      "sent": "<ruby>髪<rt>かみ</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばしている<ruby>友<rt>とも</rt></ruby>だちのケンに<ruby>話<rt>はな</rt></ruby>しかけました。",
+      "trans": "머리를 기르고 있는 친구인 켄에게 말을 걸었습니다.",
+      "grammar": "〜に話しかける — '~에게 말을 걸다', 동작의 대상을 나타냄",
+      "tags": [
+        "伸ばす",
+        "話しかける"
+      ]
+    },
+    {
+      "sent": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>日<rt>ひ</rt></ruby>らしいです。",
+      "trans": "오늘은 산에 가는 날이라고 합니다.",
+      "grammar": "〜らしい — '~라고 한다 / ~인 것 같다', 객관적 근거에 기반한 추측이나 전문",
+      "tags": []
+    },
+    {
+      "sent": "<ruby>急<rt>いそ</rt></ruby>いで<ruby>駅<rt>えき</rt></ruby>に<ruby>向<rt>む</rt></ruby>かいましたが、<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>遅<rt>おく</rt></ruby>れそうでした。",
+      "trans": "서둘러 역으로 향했습니다만, 전철을 놓칠 뻔했습니다.",
+      "grammar": "〜そうでした — '~할 뻔하다 / ~할 것 같았다', 직전의 상태나 예감을 나타냄",
+      "tags": [
+        "乗り遅れる"
+      ]
+    },
+    {
+      "sent": "ケンを<ruby>除<rt>のぞ</rt></ruby>くみんなが<ruby>荷物<rt>にもつ</rt></ruby>の<ruby>重<rt>おも</rt></ruby>さを<ruby>量<rt>はか</rt></ruby>りました。",
+      "trans": "켄을 제외한 모두가 짐의 무게를 쟀습니다.",
+      "grammar": "〜を除く — '~을 제외하다', 특정 대상을 빼는 표현",
+      "tags": [
+        "除く",
+        "量る"
+      ]
+    },
+    {
+      "sent": "<ruby>駅員<rt>えきいん</rt></ruby>が<ruby>席<rt>せき</rt></ruby>を<ruby>外<rt>はず</rt></ruby>していたそうです。",
+      "trans": "역무원이 자리를 비웠다고 합니다.",
+      "grammar": "〜そうだ (전문) — '~라고 한다', 다른 곳에서 들은 정보를 전달함",
+      "tags": [
+        "外す"
+      ]
+    },
+    {
+      "sent": "<ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>延<rt>の</rt></ruby>びてしまいました。",
+      "trans": "출발 시간이 조금 연기되어 버렸습니다.",
+      "grammar": "〜てしまう — '~해 버리다', 유감이나 완료의 뉘앙스",
+      "tags": [
+        "延びる"
+      ]
+    },
+    {
+      "sent": "<ruby>気<rt>き</rt></ruby>が<ruby>抜<rt>ぬ</rt></ruby>けてため<ruby>息<rt>いき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ました。",
+      "trans": "기가 빠져서 한숨이 나왔습니다.",
+      "grammar": "〜て — '~해서', 원인이나 이유를 나타냄",
+      "tags": [
+        "抜ける"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>棚<rt>たな</rt></ruby>に<ruby>載<rt>の</rt></ruby>せて、<ruby>子供<rt>こども</rt></ruby>を<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せました。",
+      "trans": "그가 짐을 선반에 싣고, 아이를 전철에 태웠습니다.",
+      "grammar": "〜を〜に載せる / 乗せる — '~을 ~에 싣다/태우다', 이동의 목적지를 나타냄",
+      "tags": [
+        "載せる",
+        "乗せる"
+      ]
+    },
+    {
+      "sent": "ケンは<ruby>水<rt>みず</rt></ruby>をこぼして<ruby>服<rt>ふく</rt></ruby>を<ruby>濡<rt>ぬ</rt></ruby>らしてしまいました。",
+      "trans": "켄은 물을 쏟아서 옷을 적셔 버렸습니다.",
+      "grammar": "〜てしまう — '~해 버리다', 되돌릴 수 없는 실수나 유감을 나타냄",
+      "tags": [
+        "濡らす"
+      ]
+    },
+    {
+      "sent": "<ruby>彼<rt>かれ</rt></ruby>はすぐに<ruby>眠<rt>ねむ</rt></ruby>ってしまい、<ruby>髪<rt>かみ</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>伸<rt>の</rt></ruby>びたように<ruby>見<rt>み</rt></ruby>えました。",
+      "trans": "그는 바로 잠들어 버렸고, 머리가 조금 자란 것처럼 보였습니다.",
+      "grammar": "〜ように見える — '~처럼 보이다', 시각적인 인상이나 판단을 나타냄",
+      "tags": [
+        "眠る",
+        "伸びる"
+      ]
+    },
+    {
+      "sent": "あやうく<ruby>目的<rt>もくてき</rt></ruby><ruby>地<rt>ち</rt></ruby>を<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>すところでした。",
+      "trans": "하마터면 목적지를 지나칠 뻔했습니다.",
+      "grammar": "〜ところだった — '~할 뻔했다', 직전에 상황이 회피되었음을 나타냄",
+      "tags": [
+        "乗り越す"
+      ]
+    },
+    {
+      "sent": "<ruby>雨<rt>あめ</rt></ruby>のため、<ruby>階段<rt>かいだん</rt></ruby>を<ruby>上<rt>のぼ</rt></ruby>る<ruby>予定<rt>よてい</rt></ruby>を<ruby>明日<rt>あした</rt></ruby>に<ruby>延<rt>の</rt></ruby>ばしました。",
+      "trans": "비 때문에, 계단을 오를 예정을 내일로 연기했습니다.",
+      "grammar": "〜のため — '~때문에', 객관적인 원인을 나타냄",
+      "tags": [
+        "上る",
+        "延ばす"
+      ]
+    },
+    {
+      "sent": "みんなで<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>い、チケットを<ruby>払<rt>はら</rt></ruby>い<ruby>戻<rt>もど</rt></ruby>すことにしました。",
+      "trans": "모두 함께 의논하여, 티켓을 환불하기로 했습니다.",
+      "grammar": "〜ことにする — '~하기로 하다', 주체적인 결정을 나타냄",
+      "tags": [
+        "話し合う",
+        "払い戻す"
+      ]
+    },
+    {
+      "sent": "<ruby>少<rt>すこ</rt></ruby>し<ruby>残念<rt>ざんねん</rt></ruby>ですが、いい<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>しました。ケンから<ruby>目<rt>め</rt></ruby>を<ruby>離<rt>はな</rt></ruby>さないようにしました。",
+      "trans": "조금 아쉽지만, 좋은 추억을 남겼습니다. 켄에게서 눈을 떼지 않도록 했습니다.",
+      "grammar": "〜ようにする — '~하도록 하다', 습관이나 노력을 나타냄",
+      "tags": [
+        "残す",
+        "離す"
+      ]
+    },
+    {
+      "sent": "この<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>がブログに<ruby>載<rt>の</rt></ruby>るそうです。",
+      "trans": "이 여행 사진이 블로그에 실린다고 합니다.",
+      "grammar": "〜そうだ (전문) — '~라고 한다', 전해 들은 사실을 나타냄",
+      "tags": [
+        "載る"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "庭を<b>掃く</b>。",
+      "opt": [
+        "ぬく",
+        "はく",
+        "ふく",
+        "かく"
+      ],
+      "ans": 1,
+      "comment": "掃(は)く는 '쓸다'라는 뜻입니다."
+    },
+    {
+      "q": "チケットを<b>払い戻す</b>。",
+      "opt": [
+        "はらいもどす",
+        "はらいなおす",
+        "もらいもどす",
+        "もらいなおす"
+      ],
+      "ans": 0,
+      "comment": "払(はら)い戻(もど)す는 '환불하다'라는 뜻입니다."
+    },
+    {
+      "q": "席を<b>外す</b>。",
+      "opt": [
+        "はずす",
+        "なおす",
+        "こわす",
+        "くずす"
+      ],
+      "ans": 0,
+      "comment": "外(はず)す는 '떼다, 피하다, 벗다, (자리를) 비우다'라는 뜻입니다."
+    },
+    {
+      "q": "天気が良くなるよう<b>願う</b>。",
+      "opt": [
+        "うたう",
+        "さそう",
+        "ねがう",
+        "いのる"
+      ],
+      "ans": 2,
+      "comment": "願(ねが)う는 '원하다, 바라다'라는 뜻입니다."
+    },
+    {
+      "q": "日曜日を<b>除く</b>毎日営業しています。",
+      "opt": [
+        "포함하다",
+        "제외하다",
+        "기대하다",
+        "연기하다"
+      ],
+      "ans": 1,
+      "comment": "除(のぞ)く는 '제외하다'라는 뜻입니다."
+    },
+    {
+      "q": "寝ていて駅を<b>乗り越す</b>ところだった。",
+      "opt": [
+        "놓치다",
+        "뛰어넘다",
+        "지나치다",
+        "갈아타다"
+      ],
+      "ans": 2,
+      "comment": "乗(の)り越(こ)す는 '목적지를 지나치다'라는 뜻입니다."
+    },
+    {
+      "q": "雨で服を<b>濡らす</b>。",
+      "opt": [
+        "적시다",
+        "말리다",
+        "더럽히다",
+        "찢다"
+      ],
+      "ans": 0,
+      "comment": "濡(ぬ)らす는 '적시다'라는 뜻입니다."
+    },
+    {
+      "q": "会議の時間が30分［　　　］。",
+      "opt": [
+        "延びた",
+        "伸ばした",
+        "上った",
+        "昇った"
+      ],
+      "ans": 0,
+      "comment": "회의 시간이 '연기되다, 길어지다'라는 의미이므로 자동사인 延(の)びる가 적절합니다."
+    },
+    {
+      "q": "道で知らない人に［　　　］て道を聞いた。",
+      "opt": [
+        "話し合っ",
+        "話しかけ",
+        "離し",
+        "外し"
+      ],
+      "ans": 1,
+      "comment": "모르는 사람에게 '말을 걸어' 길을 물었다는 의미이므로 話(はな)しかける가 적절합니다."
+    },
+    {
+      "q": "荷物を上の棚に［　　　］。",
+      "opt": [
+        "乗せる",
+        "載せる",
+        "残す",
+        "生える"
+      ],
+      "ans": 1,
+      "comment": "짐을 '싣다, 올려놓다'라는 의미일 때는 載(の)せる를 사용합니다. 사람을 탈것에 태울 때는 乗(の)せる를 씁니다."
+    }
+  ]
 }

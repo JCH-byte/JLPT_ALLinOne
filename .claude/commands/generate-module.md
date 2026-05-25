@@ -38,7 +38,8 @@ argument-hint: <level> <selector>
 **메인 에이전트 절차:**
 1. 사전 검사(dist 동기화 + 모듈 목록 결정)는 메인이 직접 수행.
 2. 프로젝트 루트를 동적으로 확인: `pwd` (Bash) 또는 `(Get-Location).Path` (PowerShell) 결과를 `{projectRoot}`로 사용.
-3. 각 moduleId에 대해 **Agent tool을 병렬로** 호출 (단일 메시지 안에 여러 Agent 호출 블록 사용):
+3. 각 moduleId에 대해 **Agent tool을 병렬로** 호출 (단일 메시지 안에 여러 Agent 호출 블록 사용).
+   **⚠️ N개를 한 번에 전부 동시 호출할 것 — 1개 먼저 실행 후 나머지를 별도 메시지로 호출하면 안 됨.**
    - `description`: `"Generate {level} {moduleId}"`
    - `prompt`: 아래 **서브에이전트 프롬프트 템플릿**을 변수 치환해서 사용.
 4. 모든 서브에이전트 완료 대기 → 결과 한 줄씩 수집.
@@ -65,6 +66,8 @@ argument-hint: <level> <selector>
 
 ⚠️ Gemini CLI 호출 시 반드시 `gemini-3.1-pro-preview` 모델만 사용할 것.
 다른 모델 ID(gemini-2.0-flash 등)는 품질 저하 또는 ModelNotFoundError 발생.
+⚠️ Gemini CLI는 반드시 포그라운드(run_in_background=false)로 실행할 것.
+백그라운드 실행 시 결과를 기다리지 않고 즉시 리턴되어 파일이 저장되지 않음.
 
 ## 자가수정을 유발하는 가장 흔한 실패 원인 (반드시 숙지)
 1. **vocab 100% 누락** — dist 모듈의 vocab 배열 단어 중 1개라도 story에 없으면 즉시 실패.
