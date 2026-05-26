@@ -16,7 +16,7 @@ import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot, deleteField }
 const BOOKMARK_KEY = 'JLPT_BOOKMARKS';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDPKCmfvA_uepqu4MA8tzendnGRy-H6ZgI",
+  apiKey: "AIzaSyBp6GFHFVBYwH7-AhJ4TAVfpCftP7RudLk",
   authDomain: "jlpt-project-01.firebaseapp.com",
   projectId: "jlpt-project-01",
   storageBucket: "jlpt-project-01.firebasestorage.app",
